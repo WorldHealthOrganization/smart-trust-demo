@@ -7,7 +7,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "08ae3016dacd155483ea6112654586156277f84d",
+          "ref": "a5efb3fe4ff04b8957fde2081e426397c511729f",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -16,9 +16,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "08ae3016dacd155483ea6112654586156277f84d",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "a5efb3fe4ff04b8957fde2081e426397c511729f",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -29,7 +29,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "b1a209e0bfe5287877a4757f6c777d2480c0d729",
+          "ref": "6e996c79aa9e36991cd46106383a237ca68b75d8",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -44,9 +44,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "b1a209e0bfe5287877a4757f6c777d2480c0d729",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "6e996c79aa9e36991cd46106383a237ca68b75d8",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -57,7 +57,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "aceb4c70af19ba69234768b7b061c54ff0031010",
+          "ref": "562a227fd8e7f49d7a0350cdf3c2aea6af29afba",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -72,9 +72,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "aceb4c70af19ba69234768b7b061c54ff0031010",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); 'repin+merge all green and ready for next 16 hrs'"
+              "on": "2026-11-15",
+              "ref": "562a227fd8e7f49d7a0350cdf3c2aea6af29afba",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -85,7 +85,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "b43c49dd87f527c1572efff7d98afb4350004ead",
+          "ref": "2d30ca6540e2587768323620735f4cfe90b57efc",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -97,9 +97,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "b43c49dd87f527c1572efff7d98afb4350004ead",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "2d30ca6540e2587768323620735f4cfe90b57efc",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -110,7 +110,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "a3176a0dc77f935465cfaf121c6152b12d03472d",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -119,9 +119,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "a3176a0dc77f935465cfaf121c6152b12d03472d",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -132,7 +132,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "db808314c98a9b931d08e923d80a8f8dbcdb7d89",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -144,9 +144,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "db808314c98a9b931d08e923d80a8f8dbcdb7d89",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -157,7 +157,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "80e69124a0046cf8a61d6441dab18c241be4f65f",
+          "ref": "6daa42c482bcabda42ee590d5db115f6f4e7e64f",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -181,9 +181,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "80e69124a0046cf8a61d6441dab18c241be4f65f",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "6daa42c482bcabda42ee590d5db115f6f4e7e64f",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -194,7 +194,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "4d497e5aa87d21f59084a7b5ff1b88fdbf9c17db",
+          "ref": "dfabd22d6798c65917d720072af95bcaa0fce465",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -230,9 +230,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "4d497e5aa87d21f59084a7b5ff1b88fdbf9c17db",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "dfabd22d6798c65917d720072af95bcaa0fce465",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
@@ -243,7 +243,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "5143e093f774235a40fcef0592c7d0828e0b895c",
+          "ref": "17ac0a3f481186b9aeb224ce64af0960f0496e84",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -252,9 +252,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "5143e093f774235a40fcef0592c7d0828e0b895c",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "17ac0a3f481186b9aeb224ce64af0960f0496e84",
+              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
             }
           }
         }
