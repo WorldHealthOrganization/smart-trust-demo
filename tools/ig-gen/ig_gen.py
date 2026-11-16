@@ -1075,7 +1075,7 @@ def gen_glossary(roles, procs):
             term("journey-" + p["code"].lower().replace(".", "-"), p["name"], p.get("doc"), str(p["file"].relative_to(ROOT)) + f"#{p['id']}")
     for iid, (country, ra) in sorted(instances.items()):
         term(iid, f"{ra} ({country})",
-             f"{country}'s instance of the DPI-H Reference Architecture building block {ra}: what {country}'s parts that play that block "
+             f"{country}'s instance of the Reference Architecture (DPI-H) building block {ra}: what {country}'s parts that play that block "
              f"are, one per jurisdiction, since neither country's systems are the other's.",
              "scenarios/actors/ (meta.country and meta.parts[].raBlock)")
     unknown = set(SHORT_LABEL) - {t["id"] for t in terms}

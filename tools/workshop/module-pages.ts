@@ -26,6 +26,8 @@ import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 const read = (p: string) => JSON.parse(readFileSync(p, "utf8"));
 const ws = read("workshops/dpi-h-policy-track.workshop.json");
 const tech = read("workshops/technical-track.json");
+/** The policy-maker track's agenda, session by session (workshops/policy-agenda.json): the calendar lists each module's sessions and the joint plenary (P) and showcase (S) sessions; a module page lists its own. */
+const agenda: { days: Record<string, AgendaItem[]> } = read("workshops/policy-agenda.json");
 const canvas = read("workshops/country-canvas.json");
 const map = ws.matrix;
 const use = read("workshops/glossary-use.json");
@@ -37,6 +39,7 @@ type Mod = { id: string; title: string; day?: number; carries?: string; sheet?: 
 type TSession = { time: string; end: string; minutes: number; type: string; title: string; leads: string[]; supports: string[]; what: string; confirm?: string };
 type TStep = { step: string; technical: string; question: string };
 type TTeam = { name: string; device: string; what: string; steps: string[] };
+type AgendaItem = { id?: string; kind: "registration" | "plenary" | "module" | "showcase" | "break"; title: string; what?: string; module?: string };
 type TMod = { id: string; pairedWith: string; day: number; title: string; carries?: string; status: string; sessions?: TSession[]; outcomes?: string[]; steps?: TStep[]; teams?: TTeam[] };
 const mods: Mod[] = ws.modules;
 const tmods: TMod[] = tech.modules;
@@ -58,6 +61,8 @@ for (const m of mods) if (m.sheet && !sheets.has(m.sheet)) errors.push(`country-
 if (errors.length) (console.error(errors.join("\n")), process.exit(1));
 
 const e = (s: string) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+/** Escaped text with "reference architecture (DPI-H)" linked to its definition in the glossary; never inside another link. */
+const eRA = (s: string) => e(s).replace(/reference architecture \(DPI-H\)/gi, (m) => `<a href="glossary.html#term-reference-architecture">${m}</a>`);
 const page = (id: string) => `workshop-${id.toLowerCase()}.html`;
 const stepHref = (s: string) => `${VIEWER}walkthrough/${s}/`;
 const stepChip = (s: string, cls = "") => `<a class="ws-step${cls}" href="${e(stepHref(s))}">${e(s)}</a>`;
@@ -124,7 +129,7 @@ const CSS = `<style>
 .ws-sheet{font-size:12px;font-weight:700;padding:3px 8px;border-radius:99px;background:var(--ws-teal-soft);color:var(--ws-teal)}
 .ws-mod .ws-steps{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto}
 .ws-mod .ws-steps span{font-size:12px;font-weight:700;padding:2px 7px;border-radius:5px;background:var(--ws-navy);color:#fff}
-.ws-mod.ph{background:var(--ws-soft);border-style:dashed}\n.ws-cal-wrap{overflow-x:auto;margin:0 0 8px}\n.ws-cal{display:grid;grid-template-columns:64px minmax(260px,1fr) minmax(260px,1fr);gap:4px;min-width:620px}\n.ws-cal-h{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ws-muted);padding:4px 6px}\n.ws-cal-t{font-size:12px;font-variant-numeric:tabular-nums;color:var(--ws-muted);padding:6px 4px;border-top:1px solid var(--ws-line)}\n.ws-cal-i{border-radius:8px;padding:6px 10px;display:flex;flex-direction:column;gap:2px;font-size:13px;line-height:1.35;border:1px solid var(--ws-line);background:#fff}\n.ws-cal-i a{text-decoration:none;color:inherit!important;display:flex;flex-direction:column;gap:2px}\n.ws-cal-i a:hover b{text-decoration:underline}\n.ws-cal-i small{color:var(--ws-muted)}\n.ws-cal-time{font-size:11px;font-variant-numeric:tabular-nums;color:var(--ws-muted)}\n.ws-cal-tag{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}\n.k-joint{background:var(--ws-navy);border-color:var(--ws-navy);color:#fff}\n.k-joint small,.k-joint .ws-cal-time{color:#dfe6f2}\n.k-break{background:var(--ws-soft);border-style:dashed;color:var(--ws-muted)}\n.k-logistics{background:var(--ws-soft);color:var(--ws-muted)}\n.k-policy{background:var(--ws-amber);border-color:#f1d7a6}\n.k-policy .ws-cal-tag{color:var(--ws-pol)}\n.k-tech{background:#e7eef9;border-color:#c9d8ef}\n.k-tech .ws-cal-tag{color:var(--ws-tech)}\n.ws-q{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-right:6px;color:var(--ws-teal)}\n.ws-who{font-size:14px;color:var(--ws-muted)}\n.ws-confirm{font-size:13px;color:var(--ws-pol);background:var(--ws-amber);border-radius:6px;padding:4px 8px;align-self:flex-start}\n.ws-muted{color:var(--ws-muted);font-size:14px}\n.ws-daysum{text-transform:none;letter-spacing:0;font-weight:400}
+.ws-mod.ph{background:var(--ws-soft);border-style:dashed}\n.ws-cal-wrap{overflow-x:auto;margin:0 0 8px}\n.ws-cal{display:grid;grid-template-columns:64px minmax(260px,1fr) minmax(260px,1fr);gap:4px;min-width:620px}\n.ws-cal-h{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ws-muted);padding:4px 6px}\n.ws-cal-t{font-size:12px;font-variant-numeric:tabular-nums;color:var(--ws-muted);padding:6px 4px;border-top:1px solid var(--ws-line)}\n.ws-cal-i{border-radius:8px;padding:6px 10px;display:flex;flex-direction:column;gap:2px;font-size:13px;line-height:1.35;border:1px solid var(--ws-line);background:#fff}\n.ws-cal-i a{text-decoration:none;color:inherit!important;display:flex;flex-direction:column;gap:2px}\n.ws-cal-i a:hover b{text-decoration:underline}\n.ws-cal-i small{color:var(--ws-muted)}\n.ws-cal-time{font-size:11px;font-variant-numeric:tabular-nums;color:var(--ws-muted)}\n.ws-cal-tag{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}\n.k-joint{background:var(--ws-navy);border-color:var(--ws-navy);color:#fff}\n.k-joint small,.k-joint .ws-cal-time{color:#dfe6f2}\n.k-break{background:var(--ws-soft);border-style:dashed;color:var(--ws-muted)}\n.k-logistics{background:var(--ws-soft);color:var(--ws-muted)}\n.k-policy{background:var(--ws-amber);border-color:#f1d7a6}\n.k-policy .ws-cal-tag{color:var(--ws-pol)}\n.k-tech{background:#e7eef9;border-color:#c9d8ef}\n.k-tech .ws-cal-tag{color:var(--ws-tech)}\n.ws-q{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-right:6px;color:var(--ws-teal)}\n.ws-who{font-size:14px;color:var(--ws-muted)}\n.ws-confirm{font-size:13px;color:var(--ws-pol);background:var(--ws-amber);border-radius:6px;padding:4px 8px;align-self:flex-start}\n.ws-muted{color:var(--ws-muted);font-size:14px}\n.ws-daysum{text-transform:none;letter-spacing:0;font-weight:400}\n.ws-cal-s{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:1px;font-size:12px}\n.ws-cal-s span{font:700 11px/16px ui-monospace,monospace;opacity:.8;margin-right:4px}\n.ws-cal-s a{display:inline;color:inherit!important;text-decoration:underline}\n.ws-sessions{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}\n.ws-sessions li{display:grid;grid-template-columns:52px 1fr;column-gap:8px;font-size:14px}\n.ws-sessions li>span:last-child{grid-column:2;color:var(--ws-muted)}\n.ws-sid{font:700 12px/20px ui-monospace,monospace;color:var(--ws-teal)}
 </style>`;
 
 /** The Policy | Technical switch, and both tracks by day, the current module marked. */
@@ -145,16 +150,22 @@ const more = (links: [string, string][]) => `<p class="ws-more">${links.map(([l,
 
 /** The two days as a calendar: time down the side, the policy and technical tracks side by side, shared rows (joint sessions, breaks, logistics) across both. */
 function calendar(): string {
+  const calSessions = (xs: AgendaItem[]) => (xs.length ? `<ol class="ws-cal-s">${xs.map((x) => `<li title="${e(x.what ?? "")}"><span>${e(x.id ?? "")}</span> ${eRA(x.title)}</li>`).join("")}</ol>` : "");
   const out: string[] = [];
   for (const d of schedule.days) {
     type Item = { time: string; end: string; col: "both" | "policy" | "tech"; kind: string; html: string };
     const items: Item[] = [];
     for (const x of d.shared) items.push({ time: x.time, end: x.end, col: "both", kind: x.kind, html: `<b>${e(x.title)}</b>${x.note ? `<small>${e(x.note)}</small>` : ""}` });
-    for (const j of (tech.joint ?? []).filter((x: any) => x.day === d.day)) items.push({ time: j.time, end: j.end, col: "both", kind: "joint", html: `<span class="ws-cal-tag">Joint · both tracks</span><b>${e(j.title)}</b><small>${e(j.leads)}${j.confirm ? ` · ${e(j.confirm)}` : ""}</small>` });
+    // The joint slots: the morning one carries the day's plenary (P) sessions, the closing one its showcase (S) sessions.
+    const dayItems = agenda.days[String(d.day)] ?? [];
+    for (const j of (tech.joint ?? []).filter((x: any) => x.day === d.day)) {
+      const kind = j.time < "12:00" ? "plenary" : "showcase";
+      items.push({ time: j.time, end: j.end, col: "both", kind: "joint", html: `<span class="ws-cal-tag">Joint · both tracks · ${kind === "plenary" ? "plenary" : "showcase"}</span><b>${e(j.title)}</b><small>${e(j.leads)}${j.confirm ? ` · ${e(j.confirm)}` : ""}</small>${calSessions(dayItems.filter((x) => x.kind === kind))}` });
+    }
     for (const p of d.policy) {
       const m = mods.find((x) => x.id === p.module)!;
       const sh = sheets.get(m.sheet!);
-      items.push({ time: p.time, end: p.end, col: "policy", kind: "policy", html: `<a href="${page(m.id)}"><span class="ws-cal-tag">${m.id}${sh ? ` · Sheet ${sh.n}` : ""}</span><b>${e(m.title)}</b></a><small>Time proposed</small>` });
+      items.push({ time: p.time, end: p.end, col: "policy", kind: "policy", html: `<a href="${page(m.id)}"><span class="ws-cal-tag">${m.id}${sh ? ` · Sheet ${sh.n}` : ""}</span><b>${e(m.title)}</b></a><small>Time proposed</small>${calSessions(agenda.days[String(d.day)]?.filter((x) => x.module === m.id) ?? [])}` });
     }
     for (const t of tmods.filter((x) => x.day === d.day))
       for (const x of t.sessions ?? []) items.push({ time: x.time, end: x.end, col: "tech", kind: "tech", html: `<a href="${page(t.id)}"><span class="ws-cal-tag">${t.id} · ${e(x.type)}</span><b>${e(x.title)}</b></a><small>${e(x.leads.join(", "))}${x.confirm ? ` · ${e(x.confirm)}` : ""}</small>` });
@@ -217,9 +228,11 @@ for (const m of mods) {
   const draws = cs.filter((c) => c.kind === "draws");
   const qs = steps.flatMap((s) => (s.questions ?? []).filter((q) => q.module === m.id).map((q) => ({ step: s.step, text: q.text })));
   const H: string[] = [`<div class="ws">`, bar(m.id)];
-  H.push(`<header class="ws-head"><span class="ws-kicker">Day ${m.day} · Module ${n} · fills Sheet ${sh.n}${shared.length ? ` (with ${shared.join(", ")})` : ""}</span><h2>${e(m.title)}</h2>${m.carries ? `<p class="ws-carries">${e(m.carries)}</p>` : ""}</header>`);
+  H.push(`<header class="ws-head"><span class="ws-kicker">Day ${m.day} · Module ${n} · fills Sheet ${sh.n}${shared.length ? ` (with ${shared.join(", ")})` : ""}</span><h2>${eRA(m.title)}</h2>${m.carries ? `<p class="ws-carries">${e(m.carries)}</p>` : ""}</header>`);
+  const mine = Object.values(agenda.days).flat().filter((x) => x.module === m.id);
+  if (mine.length) H.push(`<h3>Sessions</h3><ol class="ws-sessions">${mine.map((x) => `<li><span class="ws-sid">${e(x.id ?? "")}</span><b>${eRA(x.title)}</b>${x.what ? ` <span>${eRA(x.what)}</span>` : ""}</li>`).join("")}</ol>`);
   H.push(`<h3>On the canvas</h3><section class="ws-canvas"><img src="${e(sh.preview)}" alt="Country Canvas Sheet ${sh.n}: ${e(sh.title)}"/><div><h3>Sheet ${sh.n} · ${e(sh.title)}</h3><ol class="ws-parts">${parts
-    .map((p: any) => `<li>${p.minutes ? `<span class="ws-min">${p.minutes} min</span>` : ""}<b>${e(p.title)}</b>${e(p.what)}</li>`)
+    .map((p: any) => `<li>${p.minutes ? `<span class="ws-min">${p.minutes} min</span>` : ""}<b>${e(p.title)}</b>${eRA(p.what)}</li>`)
     .join("")}</ol><p class="ws-links"><a href="country-canvas.html">The whole canvas</a><a href="${e(canvas.docx)}">Word file (A3)</a><a href="${e(canvas.pdf)}">PDF</a></p></div></section>`);
   H.push(`<h3>Where it meets the journey</h3><div class="ws-cards">${asked
     .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">What the system does</span>${e(c.technical)}</p><p><span class="ws-p">Policy question</span>${e(c.policy)}</p></div>`)

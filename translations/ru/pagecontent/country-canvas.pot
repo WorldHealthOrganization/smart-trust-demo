@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T09:49:18.233Z\n"
+"POT-Creation-Date: 2026-11-16T12:40:52.261Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -87,7 +87,7 @@ msgid "DPI-H layer: decision support engine, HMIS, public health surveillance, b
 msgstr ""
 
 #: input/pagecontent/country-canvas.md:46
-msgid "Each block of the DPI-H reference architecture, pre-filled from the country questionnaire and corrected by the table. For each block: the system used today and E (exists), P (partial) or A (absent). IMMZ marks the blocks this use case touches."
+msgid "Each block of the <a0>reference architecture (DPI-H)</a0>, pre-filled from the country questionnaire and corrected by the table. For each block: the system used today and E (exists), P (partial) or A (absent). IMMZ marks the blocks this use case touches."
 msgstr ""
 
 #: input/pagecontent/country-canvas.md:16
@@ -127,7 +127,7 @@ msgid "One population, one credential, one facility type. e.g. Hajj Health Card"
 msgstr ""
 
 #: input/pagecontent/country-canvas.md:12
-msgid "Our architecture today. Your real digital capabilities needed for the use case, grounded in the DPI-H reference architecture components."
+msgid "Our architecture today. Your real digital capabilities needed for the use case, grounded in the components of the <a0>reference architecture (DPI-H)</a0>."
 msgstr ""
 
 #: input/pagecontent/country-canvas.md:11

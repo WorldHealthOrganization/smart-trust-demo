@@ -76,6 +76,13 @@
 .ws-confirm{font-size:13px;color:var(--ws-pol);background:var(--ws-amber);border-radius:6px;padding:4px 8px;align-self:flex-start}
 .ws-muted{color:var(--ws-muted);font-size:14px}
 .ws-daysum{text-transform:none;letter-spacing:0;font-weight:400}
+.ws-cal-s{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:1px;font-size:12px}
+.ws-cal-s span{font:700 11px/16px ui-monospace,monospace;opacity:.8;margin-right:4px}
+.ws-cal-s a{display:inline;color:inherit!important;text-decoration:underline}
+.ws-sessions{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.ws-sessions li{display:grid;grid-template-columns:52px 1fr;column-gap:8px;font-size:14px}
+.ws-sessions li>span:last-child{grid-column:2;color:var(--ws-muted)}
+.ws-sid{font:700 12px/20px ui-monospace,monospace;color:var(--ws-teal)}
 </style>
 
 <div class="ws">

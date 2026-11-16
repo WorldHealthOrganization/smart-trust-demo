@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T12:37:04.089Z\n"
+"POT-Creation-Date: 2026-11-16T12:46:16.175Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -14,6 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/workshop-t2.md:81
+#: input/pagecontent/workshop-t2.md:88
 msgid "Policy · M3Technical · T2PolicyDay 1M1M2M3Day 2M4M5M6M7TechnicalDay 1T1T2T3T4T5Day 2T6T7 Day 1 · 11:40–12:30 · Technical module 2 · serves M3Offline data captureDraftHow does a form on a health worker's phone become a patient record, with no signal? SessionsLab11:40–12:30 · 50 minLab 1: Offline data captureThe stack is already running on Heropa. Open a questionnaire in the form editor, change it, and watch the change appear in the OHS Player in your browser. Then add a validation rule or a skip rule. If time allows, see how the answers turn into FHIR resources. Optional: a QR code for the gallery app, to try the same forms on iOS or Android.LeadsFikri · SupportsSimon Njoroge By the end you canEdit a FHIR Questionnaire and see the result straight awayAdd a validation or skip ruleDescribe how captured answers become patient records Where it meets the journeyJ2aA health worker finds the baby — and reads his cardsWhat the system doesThe CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.Technical questionWhich data elements can the form take from a scanned card, and how does it mark them as reported, not verified?J2bRegistered at home, and referredWhat the system doesThe household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.Technical questionWhich validation or skip rule stops a duplicate child being registered in the same household? Technical questions for the roomJ2aWhich data elements can the form take from a scanned card, and how does it mark them as reported, not verified?J2bWhich validation or skip rule stops a duplicate child being registered in the same household? Terms at those stepsPoint-of-Service ApplicationsVerifiable credentialDigital signatureCore data setClient RegistryCivil registration and vital statisticsFacility, workforce and product registriesConsentInteroperability M3 Standards, specifications and the core data setModule × journey mapAll modules"
 msgstr ""

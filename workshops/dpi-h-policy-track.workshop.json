@@ -31,7 +31,7 @@
     },
     {
       "id": "M2",
-      "title": "The reference architecture and where you stand",
+      "title": "The reference architecture (DPI-H) and where you stand",
       "day": 1,
       "carries": "Which system do we use today for each block — and is it there, partly there, or absent?",
       "sheet": "sheet-2"
@@ -1280,7 +1280,7 @@
       "modules": [
         "M2"
       ],
-      "description": "The reference architecture each table maps its systems onto."
+      "description": "The reference architecture (DPI-H) each table maps its systems onto."
     },
     {
       "id": "smart-trust",
@@ -1564,7 +1564,7 @@
       ],
       "shared": "id-8393ba34788c525da7f5c9a3b6751cc0",
       "title": "Architecture: two countries on one trust foundation",
-      "intro": "Each country builds its own stack on the layers of the DPI-H reference architecture. Underneath both is WHO GDHCN: the shared trust list that lets an Onesan clinic believe a Taifafeki certificate, and a Taifafeki clinic believe an Onesan link, with no direct connection between the two.",
+      "intro": "Each country builds its own stack on the layers of the reference architecture (DPI-H). Underneath both is WHO GDHCN: the shared trust list that lets an Onesan clinic believe a Taifafeki certificate, and a Taifafeki clinic believe an Onesan link, with no direct connection between the two.",
       "notes": [
         "Taifafeki publishes the key it signs certificates with.",
         "Onesa caches the list, so its clinics verify Taifafeki cards offline; Taifafeki does the same for Onesan VHLs.",
@@ -1719,7 +1719,7 @@
         "id": "components",
         "label": "Components",
         "title": "What does each moment need, and where do you stand?",
-        "lede": "Each moment of the journey needs building blocks of the DPI-H reference architecture. Rate each one for your country.",
+        "lede": "Each moment of the journey needs building blocks of the reference architecture (DPI-H). Rate each one for your country.",
         "minutes": 15,
         "discuss": "Rate each together. “Absent” is a finding, not a failure; ask only whether it blocks your use case.",
         "capabilities": true,
