@@ -7,7 +7,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "d5d159155b87a2c189515a6073b65ccad6ab6c3d",
+          "ref": "2c8e08fc5e6c6569e608167707bbe2deab8c7828",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -17,8 +17,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-16",
-              "ref": "d5d159155b87a2c189515a6073b65ccad6ab6c3d",
-              "evidence": "owner merge-and-repin window to 2026-11-16T19:01Z (card 06:36Z) and owner 11:55Z \"merge all you can\" in session session_01EucfRnjwjC8CPYgVnsFuHS: re-pin to main with fhir-harness#448 (merge d5d15915)"
+              "ref": "2c8e08fc5e6c6569e608167707bbe2deab8c7828",
+              "evidence": "owner 11:55Z \"a stale review must warn, not block\" and \"merge all you can\", in session session_01EucfRnjwjC8CPYgVnsFuHS; merge-and-repin window to 2026-11-16T19:01Z (card 06:36Z): re-pin to fhir-harness main with #452 (merge 2c8e08fc)"
             }
           }
         }
