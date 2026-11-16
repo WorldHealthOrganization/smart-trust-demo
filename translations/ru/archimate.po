@@ -1279,7 +1279,8 @@ msgid ""
 "A capability is usually named using a phrase that emphasizes “what we do”. It represents an outcome-oriented, strategic abstraction of the enterprise’s abilities. \n"
 "\n"
 "Examples: \n"
-"- Patient Registration & Intake\n"
+"- Patient Registration & Intake
+\n"
 "- Medication Prescribing & Dispensing\n"
 "- Clinical Decision Support\n"
 msgstr ""
@@ -3718,8 +3719,10 @@ msgstr "Министерство здравоохранения"
 
 #: archimate/0.1.0/model.json:0
 msgid ""
-"Monitor content quality (e.g. monitor uniqueness, consitency)\n"
-"Monitor conformance (e.g. h\n"
+"Monitor content quality (e.g. monitor uniqueness, consitency)
+\n"
+"Monitor conformance (e.g. h
+\n"
 "Monitor usage (how many users are for a given asset)\n"
 msgstr ""
 "Мониторинг качества содержимого (например, уникальности, согласованности)\n"
@@ -3824,12 +3827,12 @@ msgid "Onesa (Country B, home)"
 msgstr "Онеса (страна B, страна проживания)"
 
 #: en/smart-trust-demo/archimate/0.1.0/element/onesa-national-health-portal-and-gateway-country-b-xxk/index.html:0
-msgid "Onesa national health portal and gateway (Country B, XXK)"
-msgstr "Национальный портал здравоохранения и шлюз Онесы (страна B, XXK)"
+msgid "Onesa national health portal and gateway (Country B, XXU)"
+msgstr "Национальный портал здравоохранения и шлюз Онесы (страна B, XXU)"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa national health portal and gateway (Country B, XXK): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXK, so no real ministry's key is implied."
-msgstr "Национальный портал здравоохранения и шлюз Онесы (страна B, XXK): национальный сервер FHIR Онесы за OHS FHIR Info Gateway (J4.0, J4.1): собирает IPS и DVC каждого члена семьи, выдаёт каждую запись как защищённую кодом доступа Verifiable Health Link в HCERT, подписанном DSC страны B, размещает манифесты (ITI-YY5), проверяет код доступа, срок действия и согласие при каждом запросе и регистрирует каждый доступ как AuditEvent в своей стране. Страну B в сети GDHCN DEV представляет тестовый участник XXK, поэтому ключ какого-либо реального министерства не подразумевается."
+msgid "Onesa national health portal and gateway (Country B, XXU): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
+msgstr "Национальный портал здравоохранения и шлюз Онесы (страна B, XXU): национальный сервер FHIR Онесы за OHS FHIR Info Gateway (J4.0, J4.1): собирает IPS и DVC каждого члена семьи, выдаёт каждую запись как защищённую кодом доступа Verifiable Health Link в HCERT, подписанном DSC страны B, размещает манифесты (ITI-YY5), проверяет код доступа, срок действия и согласие при каждом запросе и регистрирует каждый доступ как AuditEvent в своей стране. Страну B в сети GDHCN DEV представляет тестовый участник XXU, поэтому ключ какого-либо реального министерства не подразумевается."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of CHW app, Onesa (Country B): The registration and referral forms of the CHW app, FHIR Questionnaires filled in with Structured Data Capture, which also read the doses on a paper DVC (J2)."
@@ -3852,32 +3855,32 @@ msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Verifies a 
 msgstr "Онеса, часть EHR районного медицинского центра Ломару (страна B): проверяет подпись HCERT в DVC по списку доверия GDHCN, кэшированному на устройстве (J3)."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Answers a VHL manifest request after checking its signature, the passcode, the expiry and the consent, and logs each access in Onesa (J4.1)."
-msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXK): отвечает на запрос манифеста VHL после проверки его подписи, кода доступа, срока действия и согласия и регистрирует каждый доступ в Онесе (J4.1)."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Answers a VHL manifest request after checking its signature, the passcode, the expiry and the consent, and logs each access in Onesa (J4.1)."
+msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): отвечает на запрос манифеста VHL после проверки его подписи, кода доступа, срока действия и согласия и регистрирует каждый доступ в Онесе (J4.1)."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Copies the portal's FHIR data into an analytics store for reporting."
-msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXK): копирует данные FHIR портала в аналитическое хранилище для отчётности."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Copies the portal's FHIR data into an analytics store for reporting."
+msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): копирует данные FHIR портала в аналитическое хранилище для отчётности."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Holds each person's records (IPS, DVCs) as FHIR resources, from which the portal assembles what a VHL shares (J4.0, J4.1)."
-msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXK): хранит записи каждого человека (IPS, DVC) в виде ресурсов FHIR, из которых портал собирает то, чем делится VHL (J4.0, J4.1)."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Holds each person's records (IPS, DVCs) as FHIR resources, from which the portal assembles what a VHL shares (J4.0, J4.1)."
+msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): хранит записи каждого человека (IPS, DVC) в виде ресурсов FHIR, из которых портал собирает то, чем делится VHL (J4.0, J4.1)."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Identifies each person the portal serves, children and their households included."
-msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXK): идентифицирует каждого человека, которого обслуживает портал, включая детей и их домохозяйства."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Identifies each person the portal serves, children and their households included."
+msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): идентифицирует каждого человека, которого обслуживает портал, включая детей и их домохозяйства."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
-msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXK): выдаёт защищённую кодом доступа Verifiable Health Link для каждого члена семьи в HCERT, подписанном ключом подписанта документов Онесы (J4.0)."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
+msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): выдаёт защищённую кодом доступа Verifiable Health Link для каждого члена семьи в HCERT, подписанном ключом подписанта документов Онесы (J4.0)."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Lists the clinics and health centres that record and share care."
-msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXK): перечисляет клиники и медицинские центры, которые регистрируют помощь и обмениваются сведениями о ней."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the clinics and health centres that record and share care."
+msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): перечисляет клиники и медицинские центры, которые регистрируют помощь и обмениваются сведениями о ней."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Lists the health workers, community health workers and nurses among them, who record care."
-msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXK): перечисляет медицинских работников, в том числе общинных медицинских работников и медсестёр, которые регистрируют помощь."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the health workers, community health workers and nurses among them, who record care."
+msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): перечисляет медицинских работников, в том числе общинных медицинских работников и медсестёр, которые регистрируют помощь."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of The family's shared phone: The wallet app on the family's phone: a profile per family member, each holding that member's VHL QR, shown when asked (J4.0, J4.1)."
