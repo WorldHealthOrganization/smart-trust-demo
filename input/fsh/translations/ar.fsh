@@ -41,22 +41,22 @@ Description: "ملحق باللغة العربية (ar) لنظام الرموز 
 * ^supplements = Canonical(TrustDemoOnesaEpiSchedule)
 * ^language = #ar
 * ^caseSensitive = true
-* #XXK-EPI-HEPB-BD "جرعة الولادة من لقاح التهاب الكبد B"
+* #XXU-EPI-HEPB-BD "جرعة الولادة من لقاح التهاب الكبد B"
   * ^designation[0].language = #ar
   * ^designation[0].value = "جرعة الولادة من لقاح التهاب الكبد B"
-* #XXK-EPI-BCG "BCG"
+* #XXU-EPI-BCG "BCG"
   * ^designation[0].language = #ar
   * ^designation[0].value = "BCG"
-* #XXK-EPI-PENTA-1 "خماسي التكافؤ (DTP-HepB-Hib)، الجرعة 1"
+* #XXU-EPI-PENTA-1 "خماسي التكافؤ (DTP-HepB-Hib)، الجرعة 1"
   * ^designation[0].language = #ar
   * ^designation[0].value = "خماسي التكافؤ (DTP-HepB-Hib)، الجرعة 1"
-* #XXK-EPI-OPV-1 "bOPV، الجرعة 1"
+* #XXU-EPI-OPV-1 "bOPV، الجرعة 1"
   * ^designation[0].language = #ar
   * ^designation[0].value = "bOPV، الجرعة 1"
-* #XXK-EPI-PCV-1 "PCV، الجرعة 1"
+* #XXU-EPI-PCV-1 "PCV، الجرعة 1"
   * ^designation[0].language = #ar
   * ^designation[0].value = "PCV، الجرعة 1"
-* #XXK-EPI-MR-1 "الحصبة والحصبة الألمانية، الجرعة 1"
+* #XXU-EPI-MR-1 "الحصبة والحصبة الألمانية، الجرعة 1"
   * ^designation[0].language = #ar
   * ^designation[0].value = "الحصبة والحصبة الألمانية، الجرعة 1"
 
