@@ -1,5 +1,6 @@
 ### 0.1.0 (ci-build)
 
+- Onesa's code is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names "Onesa" (WorldHealthOrganization/smart-trust#161): the country definition, Onesan identifiers, schedule codes (`XXU-EPI-…`), lot numbers, the national portal, processes, device screens, examples and translations.
 - First L2 and L3 content: generic personas and system actors as `ActorDefinition`s, user scenarios, and the business processes J1 to J4.1, generated from the harness sources.
 - The journeys tell the [VaxLink](https://fredhersch.github.io/vaxlink/) story (issue [#21](https://github.com/litlfred/smart-trust-demo/issues/21)): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXK), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them).
 - New process steps: J2 adds the newborn to the household and saves the doses as reported, not verified; J3 adds the national schedule code beside the foreign vaccine code (the nurse decides unmapped products); J4.0 records the holder's consent with a passcode and an expiry; J4.1 adds the home portal's lane, which checks the passcode, returns the manifest and logs every access.

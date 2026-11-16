@@ -1,7 +1,7 @@
 // Country B, Onesa, home: the CHW visit (J2), the district clinic (J3) and
 // the national portal that issues the family's VHLs and logs every access
 // (J4). Onesa is played on the GDHCN DEV network by the fictional
-// participant XXK. Demonstrator profiles: they show which elements each step
+// participant XXU. Demonstrator profiles: they show which elements each step
 // relies on, not any real Onesan national specification.
 
 Alias: $OnesaTmpId = http://smart.who.int/trust-demo/sid/onesa-temporary-id

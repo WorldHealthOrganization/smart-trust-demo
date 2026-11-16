@@ -27,7 +27,7 @@ Taifafeki is played on the GDHCN DEV network by test participant `XXR`, whose
 key also signs the WHO SMART Trust guide's worked example
 ([QR Code Generation §12](https://smart.who.int/trust/qr_code_generation.html)),
 which the library tests use. Onesa is played by a fictional DEV participant,
-`XXK`, so nothing implies a real ministry. Every person in this repository is
+`XXU`, so nothing implies a real ministry. Every person in this repository is
 fictional.
 
 **Status:** planning. See [docs/plan.md](docs/plan.md) for the work plan and

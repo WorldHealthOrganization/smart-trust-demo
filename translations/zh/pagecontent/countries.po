@@ -21,8 +21,8 @@ msgid "A journey that needs a home country and a visited country takes Onesa and
 msgstr "需要一个本国和一个到访国的旅程，从 {code0} 和 {code1} 中取用奥内萨（Onesa）和泰法费基：名称、形容词、代码、角色和地点。旅程中的人物则属于该旅程自己，同样是虚构的。"
 
 #: input/pagecontent/countries.md:11
-msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXK \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXK plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
-msgstr "这两个代码都在 SMART Trust 的 GDHCN DEV 参与方值集 <a0>Participants-DEV</a0> 中，其代码系统将 XXK 命名为“Onesa”，将 XXR 命名为“Taifafeki”。两者都是 GDHCN DEV 网络（WorldHealthOrganization/tng-participants-dev）中已接入的测试参与方：XXR 的文档签名者密钥为 J1 的出生剂次 DVC 签名，XXK 在 J4 中扮演奥内萨的国家门户。它们的密钥是测试密钥，不属于任何卫生部。"
+msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXU \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXU plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
+msgstr "这两个代码都在 SMART Trust 的 GDHCN DEV 参与方值集 <a0>Participants-DEV</a0> 中，其代码系统将 XXU 命名为“Onesa”，将 XXR 命名为“Taifafeki”。两者都是 GDHCN DEV 网络（WorldHealthOrganization/tng-participants-dev）中已接入的测试参与方：XXR 的文档签名者密钥为 J1 的出生剂次 DVC 签名，XXU 在 J4 中扮演奥内萨的国家门户。它们的密钥是测试密钥，不属于任何卫生部。"
 
 #: input/pagecontent/countries.md:3
 msgid "Code"
@@ -90,8 +90,8 @@ msgid "visited"
 msgstr "到访国"
 
 #: input/pagecontent/countries.md:5
-msgid "XXK"
-msgstr "XXK"
+msgid "XXU"
+msgstr "XXU"
 
 #: input/pagecontent/countries.md:6
 msgid "XXR"

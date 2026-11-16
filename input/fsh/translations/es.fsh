@@ -41,22 +41,22 @@ Description: "Suplemento en español (es) de TrustDemoOnesaEpiSchedule: designac
 * ^supplements = Canonical(TrustDemoOnesaEpiSchedule)
 * ^language = #es
 * ^caseSensitive = true
-* #XXK-EPI-HEPB-BD "Hepatitis B, dosis al nacer"
+* #XXU-EPI-HEPB-BD "Hepatitis B, dosis al nacer"
   * ^designation[0].language = #es
   * ^designation[0].value = "Hepatitis B, dosis al nacer"
-* #XXK-EPI-BCG "BCG"
+* #XXU-EPI-BCG "BCG"
   * ^designation[0].language = #es
   * ^designation[0].value = "BCG"
-* #XXK-EPI-PENTA-1 "Pentavalente (DTP-HepB-Hib), dosis 1"
+* #XXU-EPI-PENTA-1 "Pentavalente (DTP-HepB-Hib), dosis 1"
   * ^designation[0].language = #es
   * ^designation[0].value = "Pentavalente (DTP-HepB-Hib), dosis 1"
-* #XXK-EPI-OPV-1 "bOPV, dosis 1"
+* #XXU-EPI-OPV-1 "bOPV, dosis 1"
   * ^designation[0].language = #es
   * ^designation[0].value = "bOPV, dosis 1"
-* #XXK-EPI-PCV-1 "PCV, dosis 1"
+* #XXU-EPI-PCV-1 "PCV, dosis 1"
   * ^designation[0].language = #es
   * ^designation[0].value = "PCV, dosis 1"
-* #XXK-EPI-MR-1 "Sarampión y rubéola, dosis 1"
+* #XXU-EPI-MR-1 "Sarampión y rubéola, dosis 1"
   * ^designation[0].language = #es
   * ^designation[0].value = "Sarampión y rubéola, dosis 1"
 
