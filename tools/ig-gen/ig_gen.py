@@ -656,7 +656,11 @@ def doc_page(src, text=None):
     for other, name in DOC_PAGES.items():
         old = other[len("docs/"):-len(".md")] + ".html"
         text = re.sub(r"\]\((?:\.\./)?" + re.escape(old) + r"(#[^)]*)?\)", lambda m: f"]({name}.html{m.group(1) or ''})", text)
-    return HEADER.format(src=src) + text.lstrip("\n")
+    # The page's words are the docs page's, and so is its catalogue
+    # (`translations/<locale>/<path under docs/>.po`, tools/translation/pages-pot.ts):
+    # fhir-harness reads the IG page from it rather than from a second copy.
+    catalogue = src[len("docs/"):-len(".md")]
+    return HEADER.format(src=src) + f"<!-- translations: {catalogue} -->\n\n" + text.lstrip("\n")
 
 
 def inline_images(src):
