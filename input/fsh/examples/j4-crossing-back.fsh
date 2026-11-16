@@ -17,7 +17,7 @@ Usage: #example
 * type = $loinc#60591-5 "Patient summary Document"
 * subject = Reference(Patient/TrustDemoSomsak)
 * date = "2026-10-26T09:00:00+07:00"
-* author.display = "Onesa national health portal (Country B, XXK)"
+* author.display = "Onesa national health portal (Country B, XXU)"
 * title = "Patient summary: Somsak SENGMANY"
 * section[+].title = "Allergies and intolerances"
 * section[=].code = $loinc#48765-2 "Allergies and adverse reactions Document"
@@ -106,7 +106,7 @@ Usage: #example
 * agent[+].who = Reference(TrustDemoBounmy)
 * agent[=].type.text = "Holder: showed the VHL QR and said the passcode"
 * entity[+].role = #source
-* entity[=].what.display = "VHL for Somsak (HCERT, VHL at key 5), issued by Country B (XXK)"
+* entity[=].what.display = "VHL for Somsak (HCERT, VHL at key 5), issued by Country B (XXU)"
 * entity[+].role = #source
 * entity[=].what = Reference(TrustDemoJ4Consent)
 

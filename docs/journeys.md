@@ -23,10 +23,10 @@ to them.
   `kW/6VnwPRKI=`, hex `916ffa567c0f44a2`) is on the live DEV trust list.
 - **Country B** (country of residence, "home") is **Onesa**. The family
   lives there (J2, J3, J4.0). On the DEV network it is played by a fictional
-  participant, written **XXK**.
+  participant, written **XXU**.
 - J4.1 takes the family back to Taifafeki, a year later.
 
-XXR and XXK are DEV test participants, not either country's production keys,
+XXR and XXU are DEV test participants, not either country's production keys,
 and nothing here implies a real ministry. Every person is fictional.
 
 **The cast:** Khamla SENGMANY (mother), Bounmy SENGMANY (father, holds the
@@ -78,7 +78,7 @@ guides' names appear as `otherNames` (also known as).
 | chw-app | CHW app, Onesa | [Receiver](https://smart.who.int/trust/ActorDefinition-Receiver.html) (triage read only) | [Receiver](https://smart.who.int/trust-phw/ActorDefinition-Receiver.html) | [VHLReceiver](https://profiles.ihe.net/ITI/VHL/ActorDefinition-VHLReceiver.html) | vhl-receiver / hcert-verifying-system |
 | home-clinic-ehr | Lomaru District Health Center EHR | Receiver | Receiver | VHLReceiver | vhl-receiver / hcert-verifying-system |
 | gdhcn-trust-anchor | GDHCN DEV (WHO) | [Trust Network Anchor](https://smart.who.int/trust/ActorDefinition-TrustNetworkAnchor.html) | [Trust Network Anchor](https://smart.who.int/trust-phw/ActorDefinition-TrustNetworkAnchor.html) | [TrustAnchor](https://profiles.ihe.net/ITI/VHL/ActorDefinition-TrustAnchor.html) | trust-anchor |
-| national-portal | Onesa national portal and gateway (XXK) | Issuer; Trust Network Participant | Issuer; Trust Network Participant | [VHLSharer](https://profiles.ihe.net/ITI/VHL/ActorDefinition-VHLSharer.html) | vhl-sharer |
+| national-portal | Onesa national portal and gateway (XXU) | Issuer; Trust Network Participant | Issuer; Trust Network Participant | [VHLSharer](https://profiles.ihe.net/ITI/VHL/ActorDefinition-VHLSharer.html) | vhl-sharer |
 | poc-receiver | Kesaro primary care clinic viewer | Receiver | Receiver | VHLReceiver | vhl-receiver |
 | birth-clinic-vaccinator, community-health-worker, home-clinic-provider, poc-provider | Dr Anan, Vilay, Nurse Chanthason, Dr Anan | — (the people operating the systems; no ActorDefinition in either guide) | — | — | — |
 

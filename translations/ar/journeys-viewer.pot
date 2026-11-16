@@ -171,11 +171,11 @@ msgid "“Will anyone back home believe these papers?”"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
-msgid "#HH-XXK-204"
+msgid "#HH-XXU-204"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/index.html:0
-msgid "#HH-XXK-204 • FHIR Group"
+msgid "#HH-XXU-204 • FHIR Group"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/index.html:0
@@ -1291,19 +1291,19 @@ msgid "2025-10-28 • Tuberculosis • Lot: XXR-9012 • Born in Taifafeki → V
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
-msgid "2025-12-10 • Diphtheria, Tetanus, Pertussis, Hep B, Hib • Lot: XXK-2201 • Lomaru District Health Center (Onesa)"
+msgid "2025-12-10 • Diphtheria, Tetanus, Pertussis, Hep B, Hib • Lot: XXU-2201 • Lomaru District Health Center (Onesa)"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
-msgid "2025-12-10 • Poliomyelitis • Lot: XXK-5531 • Lomaru District Health Center (Onesa)"
+msgid "2025-12-10 • Poliomyelitis • Lot: XXU-5531 • Lomaru District Health Center (Onesa)"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
-msgid "2025-12-10 • Streptococcus pneumoniae • Lot: XXK-8819 • Lomaru District Health Center (Onesa)"
+msgid "2025-12-10 • Streptococcus pneumoniae • Lot: XXU-8819 • Lomaru District Health Center (Onesa)"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
-msgid "2026-07-28 • Measles, Rubella • Lot: XXK-9923 • Lomaru District Health Center (Onesa)"
+msgid "2026-07-28 • Measles, Rubella • Lot: XXU-9923 • Lomaru District Health Center (Onesa)"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
@@ -2907,19 +2907,19 @@ msgid "Date of Birth (T0)"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S6/index.html:0
-msgid "Date: 2025-12-10 • Lot: XXK-2201"
+msgid "Date: 2025-12-10 • Lot: XXU-2201"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S6/index.html:0
-msgid "Date: 2025-12-10 • Lot: XXK-5531"
+msgid "Date: 2025-12-10 • Lot: XXU-5531"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S6/index.html:0
-msgid "Date: 2025-12-10 • Lot: XXK-8819"
+msgid "Date: 2025-12-10 • Lot: XXU-8819"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S6/index.html:0
-msgid "Date: 2026-07-28 • Lot: XXK-9923"
+msgid "Date: 2026-07-28 • Lot: XXU-9923"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
@@ -4355,7 +4355,7 @@ msgid "Immunization record service"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
-msgid "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXK-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
+msgid "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
@@ -6431,7 +6431,7 @@ msgid "Onesa MOH (built on OHS) · Onesa"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
-msgid "Onesa national health portal and gateway (Country B, XXK)"
+msgid "Onesa national health portal and gateway (Country B, XXU)"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
@@ -9915,15 +9915,15 @@ msgid "Wrong passcode (2nd)"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
-msgid "XXK"
+msgid "XXU"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/index.html:0
-msgid "XXK profile"
+msgid "XXU profile"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
-msgid "XXK-EPI-HEPB-BD"
+msgid "XXU-EPI-HEPB-BD"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
