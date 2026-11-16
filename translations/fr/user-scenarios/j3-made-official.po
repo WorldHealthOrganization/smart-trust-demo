@@ -364,17 +364,17 @@ msgstr "Centre de santé du district de Lomaru"
 #: scenarios/user-scenarios/j3-made-official.json:197
 msgctxt "step.experiences.doing"
 msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
-msgstr ""
+msgstr "Confirme que le produit de Taifafeki correspond à la dose à la naissance d’Onesa ; administre les vaccins de 6 semaines en retard."
 
 #: scenarios/user-scenarios/j3-made-official.json:316
 msgctxt "step.fhirChanges.change"
 msgid "Overdue 6-week doses given"
-msgstr ""
+msgstr "Doses de 6 semaines en retard administrées"
 
 #: scenarios/user-scenarios/j3-made-official.json:317
 msgctxt "step.fhirChanges.why"
 msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
-msgstr ""
+msgstr "Le calendrier d’Onesa (PlanDefinition) constate que les doses de 6 semaines sont en retard, si bien qu’elles sont administrées maintenant ; le rappel le fait revenir pour les suivantes."
 
 #: scenarios/user-scenarios/j3-made-official.json:192
 msgctxt "step.narrative"
@@ -390,28 +390,28 @@ msgid ""
 "Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
 "(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
 "measles-rubella at 9 months, in Onesa.\n"
-msgstr ""
+msgstr "Le produit Hep B de Taifafeki ne correspond à rien dans le calendrier national.\nLe DSE conserve le codage de produit de Taifafeki et ajoute à côté le codage du calendrier,\nà partir de la table de correspondance nationale (`TrustDemoProductToOnesaEpi`). Pour le produit\nHep B, la table n’a pas d’entrée ; l’infirmière Chanthason prend donc la décision clinique qu’il\ns’agit de la dose à la naissance du calendrier (`TrustDemoJ3Adjudication`), et sa décision est\najoutée à la table pour la clinique suivante. Le calendrier (`TrustDemoOnesaInfantSchedule`)\ns’exécute alors : les doses à la naissance comptent, et les 1res doses de pentavalent, de bOPV et\nde PCV, dues à 6 semaines, sont en retard à 10 semaines (`TrustDemoJ3Recommendation`) ; l’infirmière\nChanthason les administre donc le jour même. Khamla repart avec la date des prochaines doses\n(`TrustDemoJ3Reminder`). Au cours de l’année, Somsak reçoit le reste de ses doses ainsi que le vaccin\ncontre la rougeole et la rubéole à 9 mois, à Onesa.\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:257
 msgctxt "step.uses.role"
 msgid "Onesan schedule logic finds the 6-week doses overdue"
-msgstr ""
+msgstr "La logique du calendrier d’Onesa constate que les doses de 6 semaines sont en retard"
 
 #: scenarios/user-scenarios/j3-made-official.json:20
 #: scenarios/user-scenarios/j3-made-official.json:20
 msgctxt "step.when"
 msgid "T0 + 10 weeks"
-msgstr ""
+msgstr "T0 + 10 semaines"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "title"
 msgid "J3 — A foreign record used for the next vaccine"
-msgstr ""
+msgstr "J3 — Un dossier étranger utilisé pour le vaccin suivant"
 
 #: scenarios/user-scenarios/j3-made-official.json:11
 msgctxt "when"
 msgid "Somsak is 10 weeks old"
-msgstr ""
+msgstr "Somsak a 10 semaines"
 
 #~ msgctxt "step.experiences.doing"
 #~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
