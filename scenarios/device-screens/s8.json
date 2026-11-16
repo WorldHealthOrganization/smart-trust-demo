@@ -1,0 +1,301 @@
+{
+  "$schema": "device-screen/0.1.0",
+  "id": "S8",
+  "title": "Foreign Clinic VHL Viewer & Audit Trace",
+  "description": "Dr. Anan, in Taifafeki, opens the link with the passcode: Somsak's whole history, read from Onesa and kept nowhere here.",
+  "device": "tablet",
+  "owner": "anan",
+  "steps": [
+    {
+      "scenario": "j4-1-full-history-abroad",
+      "step": "J4.1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "app": "Taifafeki Clinic Point-of-Care VHL Viewer (Country A)",
+      "subtitle": "Practitioner: Dr. Anan • Kesaro Primary Care Clinic",
+      "icon": "clinic",
+      "chips": [
+        {
+          "text": "VHL Manifest Verified via GDHCN Trust List",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "type": "statusBadge",
+      "status": "verified",
+      "text": "Passcode Verified (✓) • Read-Only Zero-Retention Clinical Session",
+      "detail": "Live AuditEvent: Logged at Onesan OHS Info Gateway",
+      "id": "access"
+    },
+    {
+      "type": "personCard",
+      "actor": "somsak-sengmany",
+      "name": "Somsak Sengmany",
+      "chips": [
+        {
+          "text": "12 Months (1st Birthday Visit)",
+          "tone": "info"
+        }
+      ],
+      "subtitle": "Guardian Present: Father Bounmy Sengmany • Sovereign Home: Onesa",
+      "fields": [
+        {
+          "label": "Source FHIR Repository",
+          "value": "sovereign-fhir.moh.onesa.example",
+          "mono": true
+        }
+      ],
+      "id": "patient"
+    },
+    {
+      "type": "recordList",
+      "title": "International Patient Summary (IPS) — Immunization History",
+      "icon": "syringe",
+      "summary": {
+        "text": "6 Verified Immunizations",
+        "tone": "success"
+      },
+      "example": "Bundle/TrustDemoJ4Ips",
+      "rows": [
+        {
+          "icon": "globe",
+          "label": "Hepatitis B Birth Dose",
+          "code": "PreQual: vp-hepb-peds • Onesan: XXK-EPI-HEPB-BD",
+          "detail": "2025-10-28 • Hepatitis B • Lot: XXR-4821 • Born in Taifafeki → Verified in Onesa",
+          "status": {
+            "text": "primarySource: true",
+            "tone": "success",
+            "icon": "check"
+          }
+        },
+        {
+          "icon": "globe",
+          "label": "BCG Vaccine (Freeze-Dried)",
+          "code": "PreQual: vp-bcg-freeze • Onesan: XXK-EPI-BCG-BD",
+          "detail": "2025-10-28 • Tuberculosis • Lot: XXR-9012 • Born in Taifafeki → Verified in Onesa",
+          "status": {
+            "text": "primarySource: true",
+            "tone": "success",
+            "icon": "check"
+          }
+        },
+        {
+          "icon": "syringe",
+          "label": "Pentavalent (DTP-HepB-Hib-1)",
+          "code": "XXK-EPI-PENTA-1",
+          "detail": "2025-12-10 • Diphtheria, Tetanus, Pertussis, Hep B, Hib • Lot: XXK-2201 • Lomaru District Health Center (Onesa)",
+          "status": {
+            "text": "Verified Onesan EPI",
+            "tone": "info"
+          }
+        },
+        {
+          "icon": "syringe",
+          "label": "Bivalent Oral Polio (bOPV-1)",
+          "code": "XXK-EPI-OPV-1",
+          "detail": "2025-12-10 • Poliomyelitis • Lot: XXK-5531 • Lomaru District Health Center (Onesa)",
+          "status": {
+            "text": "Verified Onesan EPI",
+            "tone": "info"
+          }
+        },
+        {
+          "icon": "syringe",
+          "label": "Pneumococcal Conjugate (PCV-1)",
+          "code": "XXK-EPI-PCV-1",
+          "detail": "2025-12-10 • Streptococcus pneumoniae • Lot: XXK-8819 • Lomaru District Health Center (Onesa)",
+          "status": {
+            "text": "Verified Onesan EPI",
+            "tone": "info"
+          }
+        },
+        {
+          "icon": "syringe",
+          "label": "Measles-Rubella Vaccine (MR-1)",
+          "code": "XXK-EPI-MR-1",
+          "detail": "2026-07-28 • Measles, Rubella • Lot: XXK-9923 • Lomaru District Health Center (Onesa)",
+          "status": {
+            "text": "Verified Onesan EPI",
+            "tone": "info"
+          }
+        }
+      ],
+      "footnote": "Cross-border verified provenance linking Taifafeki birth doses and Onesan national EPI",
+      "id": "ips"
+    },
+    {
+      "type": "fields",
+      "columns": 2,
+      "rows": [
+        {
+          "label": "Allergies & Intolerances (IPS Section)",
+          "value": "No known drug or vaccine allergies recorded."
+        },
+        {
+          "label": "Active Problems & Encounters",
+          "value": "Healthy 12-Month Pediatric Well-Child Checkup."
+        }
+      ],
+      "id": "sections"
+    },
+    {
+      "type": "actions",
+      "buttons": [
+        {
+          "label": "Inspect Fetched VHL Manifest & Onesan AuditEvent JSON",
+          "style": "secondary",
+          "icon": "file"
+        },
+        {
+          "label": "Complete Walkthrough & Restart (J1)",
+          "style": "secondary"
+        }
+      ],
+      "id": "actions"
+    }
+  ],
+  "try": "Ask the room what happens on a wrong passcode: three tries, then the link is revoked, and Onesa sees each attempt",
+  "stateLabel": "Passcode right",
+  "states": [
+    {
+      "id": "wrong-1",
+      "label": "Wrong passcode (1st)",
+      "blocks": [
+        {
+          "type": "statusBadge",
+          "id": "access",
+          "status": "failed",
+          "text": "Passcode Lock Active • Awaiting Clinician Unlock",
+          "verdict": "2 LEFT",
+          "fields": [
+            {
+              "label": "Entered",
+              "value": "0000",
+              "mono": true
+            }
+          ],
+          "detail": "Invalid passcode: 2 attempt(s) remaining before link revocation. Live AuditEvent: the failed attempt is logged at the Onesan OHS Info Gateway."
+        },
+        {
+          "type": "passcode",
+          "id": "patient",
+          "label": "Enter Verbal Passcode to Decrypt IPS",
+          "digits": "0000",
+          "shown": true,
+          "entry": true,
+          "note": "Father (Bounmy Sengmany) must say the 4-digit code from the Onesan Family Wallet"
+        },
+        {
+          "type": "actions",
+          "id": "actions",
+          "buttons": [
+            {
+              "label": "Verify Passcode & Fetch IPS Bundle",
+              "style": "primary",
+              "icon": "unlock"
+            }
+          ],
+          "caption": "No IPS is fetched until the passcode is right"
+        }
+      ],
+      "hide": [
+        "ips",
+        "sections"
+      ],
+      "try": "The clinic sees nothing, and Onesa sees the attempt: ask who should be told, and when"
+    },
+    {
+      "id": "wrong-2",
+      "label": "Wrong passcode (2nd)",
+      "blocks": [
+        {
+          "type": "statusBadge",
+          "id": "access",
+          "status": "failed",
+          "text": "Passcode Lock Active • Awaiting Clinician Unlock",
+          "verdict": "1 LEFT",
+          "fields": [
+            {
+              "label": "Entered",
+              "value": "0000",
+              "mono": true
+            }
+          ],
+          "detail": "Invalid passcode: 1 attempt(s) remaining before link revocation. Live AuditEvent: the failed attempt is logged at the Onesan OHS Info Gateway."
+        },
+        {
+          "type": "passcode",
+          "id": "patient",
+          "label": "Enter Verbal Passcode to Decrypt IPS",
+          "digits": "0000",
+          "shown": true,
+          "entry": true,
+          "note": "Father (Bounmy Sengmany) must say the 4-digit code from the Onesan Family Wallet"
+        },
+        {
+          "type": "actions",
+          "id": "actions",
+          "buttons": [
+            {
+              "label": "Verify Passcode & Fetch IPS Bundle",
+              "style": "primary",
+              "icon": "unlock"
+            }
+          ],
+          "caption": "No IPS is fetched until the passcode is right"
+        }
+      ],
+      "hide": [
+        "ips",
+        "sections"
+      ]
+    },
+    {
+      "id": "revoked",
+      "label": "3rd wrong try: revoked",
+      "blocks": [
+        {
+          "type": "statusBadge",
+          "id": "access",
+          "status": "failed",
+          "text": "Link Revoked • 3 Failed Attempts",
+          "verdict": "REVOKED",
+          "detail": "The VHL no longer opens anywhere. Onesa saw all three attempts as AuditEvents and the family can issue a new link from the wallet."
+        },
+        {
+          "type": "alert",
+          "id": "patient",
+          "severity": "danger",
+          "title": "Nothing was shared",
+          "text": "The IPS never left Onesa: the clinic fetched no data, and there is nothing to delete."
+        },
+        {
+          "type": "actions",
+          "id": "actions",
+          "buttons": [
+            {
+              "label": "Ask the family for a new link",
+              "style": "secondary"
+            }
+          ],
+          "caption": "Rate limit: max 3 failed attempts (set when the link was made)"
+        }
+      ],
+      "hide": [
+        "ips",
+        "sections"
+      ],
+      "try": "After three wrong tries the link is dead: ask whether three is the right number for a clinic at a border"
+    }
+  ],
+  "client": {
+    "name": "OHS Facility Client",
+    "version": "2.4.1",
+    "time": "10:14 AM",
+    "config": "OHS Player Viewer Config (Web/Tablet)"
+  }
+}

@@ -1,0 +1,108 @@
+# The L3 FHIR IG of the SMART Trust demonstrator. Its L2 content (personas,
+# system actors, business processes, user scenarios, data dictionary,
+# decision-support logic, indicators) is generated from the harness sources
+# and dak/ by tools/ig-gen/ig_gen.py; do not edit those files by hand.
+# id and canonical: owner directive memory/dir-ig-identity.md.
+id: smart.who.int.trust-demo
+canonical: http://smart.who.int/trust-demo
+name: TrustDemo
+title: "SMART Trust demonstrator: journeys J1 to J4"
+description: The user journeys of one cross-border family, told as journeys (birth-dose DVCs in Taifafeki, CHW registration and triage read in Onesa, clinic verification, vaccine-code mapping and schedule, family VHLs on one phone, viewed and audited back in Taifafeki) as a WHO SMART Guidelines L2 DAK and L3 implementation guide, built on the SMART Trust HCERT libraries.
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: CC0-1.0
+date: 2026-10-23
+publisher:
+  name: litlfred
+  url: https://github.com/litlfred/smart-trust-demo
+
+meta:
+  profile:
+    - SMARTImplementationGuide
+
+dependencies:
+  # Pinned here (not left to SUSHI's automatic #latest) so the build resolves
+  # only the packages in tools/ig-gen/fhir-packages.lock.json.
+  hl7.terminology.r4: 7.0.1
+  hl7.fhir.uv.extensions.r4: 5.3.0
+  hl7.fhir.uv.tools.r4: 1.1.0
+  smart.who.int.base: 0.2.0
+  smart.who.int.trust-phw: 0.2.0-litlfred
+
+pages:
+  index.md:
+    title: Home
+    changes.md:
+      title: Changes
+    journeys.md:
+      title: Journeys J1 to J4
+    countries.md:
+      title: Fictional countries
+    journey-examples.md:
+      title: Journey examples
+    architecture.md:
+      title: Architecture (ArchiMate)
+    plan.md:
+      title: Plan
+    proposal-app-platform.md:
+      title: "Proposal: Open Health Stack base"
+    dependencies.md:
+      title: Dependency Register
+    upstream-who-smart-trust-phw-receive-a-vhl.md:
+      title: "Upstream issue: smart-trust-phw, receive a VHL"
+  business-requirements.md:
+    title: Business Requirements
+    personas.md:
+      title: Generic Personas
+    scenarios.md:
+      title: User Scenarios
+    business-processes.md:
+      title: Business Processes
+    dictionary.md:
+      title: Data Dictionary
+    decision-logic.md:
+      title: Decision-support Logic
+    indicators.md:
+      title: Indicators and Performance Metrics
+    functional-requirements.md:
+      title: Functional Requirements
+  data-models-and-exchange.md:
+    title: Data Models and Exchange
+    system-actors.md:
+      title: System Actors
+  indices.md:
+    title: Indices
+    artifacts.html:
+      title: Artifact Index
+
+menu:
+  Home:
+    Summary: index.html
+    Changes: changes.html
+  Project:
+    Journeys J1 to J4: journeys.html
+    Fictional Countries: countries.html
+    Journey Examples: journey-examples.html
+    Architecture (ArchiMate): architecture.html
+    Plan: plan.html
+    App Platform Proposal: proposal-app-platform.html
+    Dependency Register: dependencies.html
+    Upstream Issue (smart-trust-phw): upstream-who-smart-trust-phw-receive-a-vhl.html
+  Business Requirements:
+    Generic Personas: personas.html
+    User Scenarios: scenarios.html
+    Business Processes: business-processes.html
+    Data Dictionary: dictionary.html
+    Decision-support Logic: decision-logic.html
+    Indicators and Performance Metrics: indicators.html
+    Functional Requirements: functional-requirements.html
+  Data Models and Exchange:
+    System Actors: system-actors.html
+  Indices:
+    Artifact Index: artifacts.html
+
+parameters:
+  produce-jekyll-data: true

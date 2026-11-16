@@ -1,0 +1,52 @@
+# The IG's FHIR AST cache, refreshed by fhir-harness's reusable workflow
+# (template: fhir-harness templates/ig-repo-site/ig-ast-refresh.yml): it runs
+# the IG Publisher when the cache on cat/fhir-harness/fhir-ast/<package id>
+# is not valid for the commit, and seeds it from main only. The agent then
+# publishes the site from that cache (AGENTS.md: gh-pages is agent-published).
+#
+# Pinned by commit SHA, like every action here, at the fhir-harness commit
+# whose own third-party actions are pinned by SHA (litlfred/fhir-harness#132).
+# On a pull request it builds the IG and reports, without seeding.
+name: IG AST refresh
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - sushi-config.yaml
+      - ig.ini
+      - "input/**"
+  pull_request:
+    paths:
+      - sushi-config.yaml
+      - ig.ini
+      - "input/**"
+      - .github/workflows/ig-ast-refresh.yml
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "The ref to build (only a commit on main with its inputs seeds the cache)"
+        type: string
+        default: main
+      force:
+        description: "Rebuild even when the cache is valid for the ref"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@ea28d50a92b9614ab845c36eee72de06616c1a3d # index.lock.json
+    with:
+      ref: ${{ inputs.ref || github.sha }}
+      force: ${{ inputs.force || false }}
+      # The ig.ini template is a `#current` package that FHIR/ig-registry's
+      # templates.json does not list, so the seeder needs its repository: the CI
+      # build server's copy 404s (2026-10-30, again 2026-11-07).
+      template-repos: who.template.root=WorldHealthOrganization/smart-ig-template
+      # The FHIR packages the Publisher's SUSHI loads, seeded from this lock
+      # (tarball + integrity) before the build, so nothing is fetched at run time:
+      # smart.who.int.trust-phw is the fork build, on no package registry.
+      package-lock: tools/ig-gen/fhir-packages.lock.json

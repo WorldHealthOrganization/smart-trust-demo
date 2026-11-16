@@ -1,0 +1,254 @@
+{
+  "$schema": "user-scenario/0.3.0",
+  "id": "j4-0-one-family-one-phone",
+  "title": "J4.0 — Crossing back: one family, one phone",
+  "description": "A year on, the family plans a trip to Taifafeki. Bounmy’s phone holds records for all three of them, including Somsak’s six verified doses.",
+  "personas": [
+    "bounmy-sengmany",
+    "khamla-sengmany"
+  ],
+  "when": "12 months later",
+  "where": "Onesa",
+  "country": "Cross-Border",
+  "trustLadder": "record-trust",
+  "steps": [
+    {
+      "id": "J4.0a",
+      "title": "One phone holds the whole family’s records",
+      "headline": "A year on, the family plans a trip to Taifafeki. Bounmy’s phone holds records for all three of them, including Somsak’s six verified doses.",
+      "when": "T0 + 12 months",
+      "where": "Lomaru, Onesa",
+      "touchpoint": "Family wallet app on Dad’s phone",
+      "narrative": "The family plans a trip to Taifafeki. Bounmy's phone holds the\nfamily wallet, with a profile for each of them. Somsak's summary\n(`TrustDemoJ4Ips`) shows six doses: two from Taifafeki, four from Onesa.",
+      "lead": "bounmy-sengmany",
+      "experiences": [
+        {
+          "actor": "bounmy-sengmany",
+          "doing": "Opens the family wallet: profiles for himself, Khamla and Somsak.",
+          "feeling": "“One phone, three people — I can manage all of us.”",
+          "emotion": 1
+        },
+        {
+          "actor": "khamla-sengmany",
+          "doing": "Relies on Bounmy’s phone for her own and the baby’s records.",
+          "feeling": "“It’s on his phone. What if I travel without him?”",
+          "emotion": -1
+        }
+      ],
+      "painPoint": "Many families share one smartphone; one-app-per-person designs leave them out.",
+      "enabler": "A household wallet on one phone, with a separate health summary for each person.",
+      "policy": "Design for shared devices (“One Family, One Phone”) so families with only one phone aren’t left out.",
+      "record": {
+        "state": "portable",
+        "description": "12-month summary: 2 Taifafeki + 4 Onesan doses",
+        "heldWhere": "Onesan national records + family wallet"
+      },
+      "handoff": {
+        "summary": "Somsak’s summary is ready to share",
+        "carrier": "FHIR API (HTTPS) via Info Gateway",
+        "payload": "IPS Bundle per family member",
+        "offline": false,
+        "from": "Onesan national FHIR server",
+        "to": "Family wallet"
+      },
+      "whatIf": [
+        {
+          "scenario": "Khamla travels alone with Somsak.",
+          "outcome": "Who can access the baby’s record without Bounmy’s phone? Delegated access within a household is still an open design question."
+        }
+      ],
+      "stories": [
+        "caregiver-2"
+      ],
+      "technicalSummary": "A year of records from two countries is assembled into one International Patient Summary, a format any clinician abroad knows how to read.",
+      "uses": [
+        {
+          "block": "family-wallet",
+          "role": "Holds 3 household profiles on one phone"
+        },
+        {
+          "block": "national-fhir",
+          "role": "Source of truth for all 6 doses"
+        },
+        {
+          "block": "ohs-info-gateway",
+          "role": "Lets Bounmy’s wallet read only his own household’s records"
+        },
+        {
+          "block": "ips",
+          "role": "Somsak’s summary packaged as an IPS Bundle"
+        },
+        {
+          "block": "provenance",
+          "role": "Taifafeki origin of birth doses still visible"
+        }
+      ],
+      "examples": [
+        "Bundle/TrustDemoJ4Ips"
+      ],
+      "illustration": {
+        "src": "docs/images/moment-j4-crossing-back.jpg",
+        "alt": "Back in Taifafeki, Bounmy shares a vaccine-record link from his phone and Dr Anan sees Somsak’s vaccine history; Khamla and toddler Somsak are beside them"
+      },
+      "fhirChanges": [
+        {
+          "resource": "Bundle (IPS)",
+          "change": "Generated: 2 Taifafeki + 4 Onesan doses",
+          "why": "An International Patient Summary is what any country’s clinic can read, whatever its own system.",
+          "examples": [
+            "Bundle/TrustDemoJ4Ips",
+            "Immunization/TrustDemoOnesaPenta1"
+          ],
+          "spec": "https://hl7.org/fhir/uv/ips/"
+        },
+        {
+          "resource": "Group (household)",
+          "change": "Drives the profile switcher",
+          "why": "One shared phone, three family members: the household decides whose records the wallet shows.",
+          "profile": "TrustDemoOnesaHousehold",
+          "profileOf": "XXK",
+          "examples": [
+            "Group/TrustDemoHousehold"
+          ],
+          "spec": "https://hl7.org/fhir/group.html"
+        }
+      ]
+    },
+    {
+      "id": "J4.0b",
+      "title": "Dad creates a link to share at the clinic",
+      "headline": "Before the trip, Bounmy creates a QR link for Somsak’s record, locked with a 4-digit passcode and valid for 14 days (the demo’s settings: each country would set its own). The record itself stays in Onesa.",
+      "when": "T0 + 12 months",
+      "where": "Onesan–Taifafeki Friendship Bridge",
+      "touchpoint": "Family wallet app (share link)",
+      "preconditions": [
+        {
+          "title": "Country B's DSC is shared with the trust anchor",
+          "description": "**Precondition, as in J1:** Country B's DSC, under Country B's CSCA, is already shared with the GDHCN, the Trust Anchor. That is what lets the clinic in Taifafeki verify the link in J4.1.",
+          "requirements": []
+        }
+      ],
+      "narrative": "For Somsak, Bounmy shares his record with a 4-digit passcode he\ncan say aloud, valid for 14 days. The portal records his consent\n(`TrustDemoJ4Consent`), then does three things:\n\n1. It assembles the IPS and Somsak's DVCs.\n2. It encrypts them (STT-VHL-004, STT-VHL-007) behind a passcode-protected manifest with an expiry (STT-VHL-009).\n3. It issues the link as an HCERT, with the VHL at key 5 (STT-VHL-001, STT-VHL-002), signed with Country B's DSC.\n\nThe QR holds only a pointer and a key: the record stays in Onesa.",
+      "lead": "bounmy-sengmany",
+      "experiences": [
+        {
+          "actor": "bounmy-sengmany",
+          "doing": "Creates a passcode-protected QR link for Somsak, valid for 14 days.",
+          "feeling": "“I decide who sees it, and for how long.”",
+          "emotion": 2
+        }
+      ],
+      "painPoint": "Sending photos or PDFs of records leaks data and can’t be verified by the receiver.",
+      "enabler": "A Verifiable Health Link: the QR holds only a locked pointer; the data stays home until the passcode is given.",
+      "policy": "Data sovereignty: the record stays in Onesa until the family authorizes someone to open it.",
+      "record": {
+        "state": "portable",
+        "description": "Shareable link created; data stays in Onesa",
+        "heldWhere": "Onesan national records (QR is just a pointer)"
+      },
+      "handoff": {
+        "summary": "A QR on Dad’s phone + a passcode he can say aloud",
+        "carrier": "HTTPS",
+        "payload": "VHL manifest + Consent registered",
+        "offline": false,
+        "from": "Family wallet",
+        "to": "Onesan national server"
+      },
+      "whatIf": [
+        {
+          "scenario": "Bounmy’s phone battery dies at the clinic.",
+          "outcome": "The link could be printed in advance, and the original paper cards still prove the birth doses."
+        }
+      ],
+      "stories": [
+        "caregiver-2",
+        "caregiver-3"
+      ],
+      "realisedBy": [
+        {
+          "process": "processes/content/j4-0-family-vhl-issuance.bpmn",
+          "tasks": [
+            "Task_Request",
+            "Task_Assemble",
+            "Task_Share",
+            "Task_Prepare",
+            "Task_Sign",
+            "Task_Finish",
+            "Task_Store"
+          ]
+        }
+      ],
+      "technicalSummary": "The QR is a key, not a copy. The record stays on the Onesan server, and the family’s consent (who, how long) is recorded in a standard form and enforced.",
+      "uses": [
+        {
+          "block": "family-wallet",
+          "role": "Generates the link and passcode"
+        },
+        {
+          "block": "vhl",
+          "role": "Signed QR holding a manifest URL + decryption key"
+        },
+        {
+          "block": "pcf",
+          "role": "14-day, passcode-protected sharing consent"
+        },
+        {
+          "block": "ohs-info-gateway",
+          "role": "Registers the consent it will enforce when the link is used"
+        }
+      ],
+      "requirements": [
+        "STT-VHL-004",
+        "STT-VHL-007",
+        "STT-VHL-009",
+        "STT-VHL-001",
+        "STT-VHL-002"
+      ],
+      "examples": [
+        "Composition/TrustDemoJ4Composition",
+        "Consent/TrustDemoJ4Consent"
+      ],
+      "illustration": {
+        "src": "docs/images/moment-j4-crossing-back.jpg",
+        "alt": "Back in Taifafeki, Bounmy shares a vaccine-record link from his phone and Dr Anan sees Somsak’s vaccine history; Khamla and toddler Somsak are beside them"
+      },
+      "fhirChanges": [
+        {
+          "resource": "Consent (IHE PCF)",
+          "change": "Created: scope = IPS, expires in 14 days",
+          "why": "Bounmy decides what is shared and for how long; the gateway checks this before releasing anything.",
+          "examples": [
+            "Consent/TrustDemoJ4Consent"
+          ],
+          "spec": "https://profiles.ihe.net/ITI/PCF/"
+        },
+        {
+          "resource": "VHL manifest",
+          "change": "Signed pointer to encrypted IPS",
+          "why": "Not a copy of the record: a signed, passcode-protected pointer back to Onesa.",
+          "spec": "https://profiles.ihe.net/ITI/VHL/volume-1.html"
+        }
+      ],
+      "dak": [
+        {
+          "key": "StructureDefinition/TrustDemoDdVhlShare",
+          "rel": "data"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "User scenario in the IG",
+      "href": "https://litlfred.github.io/smart-trust-demo/journeys.html#j40--crossing-back-one-family-one-phone-onesa-12-months-later",
+      "rel": "scenario"
+    }
+  ],
+  "views": [
+    {
+      "model": "0.1.0",
+      "view": "id-ae1502fd9fb158c3bcb643bf39006d41",
+      "label": "J4.0"
+    }
+  ]
+}

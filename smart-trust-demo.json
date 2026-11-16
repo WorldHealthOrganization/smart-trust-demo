@@ -1,0 +1,207 @@
+{
+  "$schema": "cat-harness-declaration/1.0.0",
+  "name": "smart-trust-demo",
+  "version": "0.1.0",
+  "repository": "litlfred/smart-trust-demo",
+  "iriBase": "https://litlfred.github.io/smart-trust-demo/",
+  "title": "SMART Trust demonstrator",
+  "description": "The user journeys J1 to J4 of one cross-border family (birth-dose DVCs abroad, CHW triage read, clinic verification and schedule, family VHLs on one phone) as BPMN processes, personas and user scenarios, an Open Health Stack app that runs them with the Kotlin HCERT library, and the Android test of that library.",
+  "needs": [
+    "smart-trust-tools",
+    "smart-base"
+  ],
+  "mountApprovers": [
+    "litlfred"
+  ],
+  "assets": [
+    {
+      "id": "agent-instructions",
+      "src": "AGENTS.md",
+      "role": "agent-instructions",
+      "title": "AGENTS.md — smart-trust-demo",
+      "description": "Cold start for work here: the rules, where the journeys live, and how the HCERT library is consumed."
+    },
+    {
+      "id": "instance-readme",
+      "src": "README.md",
+      "role": "instance-readme",
+      "title": "SMART Trust demonstrator",
+      "description": "The four journeys, the library call each exercises, and the related repositories."
+    }
+  ],
+  "directories": [
+    {
+      "id": "demo-skills",
+      "path": "skills/",
+      "graphTypologies": [
+        "skills"
+      ],
+      "description": "The journeys' own skills (package journeys): CHW registration and referral, Immunization import, schedule evaluation, record assembly for a VHL, and holding VHLs on a shared phone. The HCERT and VHL skills are smart-trust-tools'."
+    },
+    {
+      "id": "processes",
+      "path": "processes/",
+      "graphTypologies": [
+        "processes"
+      ],
+      "description": "One BPMN process per journey (J1, J2, J3, J4.0, J4.1) in the content concern group. Lanes are roles from scenarios/roles.json; tasks name skills. processes/content/decisions/ holds the DAK's decision tables (OMG DMN 1.3), each naming the BPMN tasks it serves and the requirements it applies; tools/ig-gen/ig_gen.py renders them in the IG beside the data dictionary and indicators of dak/."
+    },
+    {
+      "id": "translations",
+      "path": "translations/",
+      "graphTypologies": [
+        "translation-sources"
+      ],
+      "description": "The gettext side of this instance's text, one directory per target locale (ar, es, fr, ru, zh; the source is en): .pot templates extracted by the harness's own commands from the journey BPMN in processes/, the docs pages in docs/, the IG narrative pages in input/pagecontent/ and the .po catalogues translated from them. Agent translations are unofficial (official: false, generatedBy agent) until a person signs them off. FHIR resources are not here: they use FHIR's own designation/translation mechanism."
+    },
+    {
+      "id": "qa",
+      "path": "test/results/",
+      "graphTypologies": [
+        "qa"
+      ],
+      "description": "What a QA process produced here, in one declared tree (cat-harness's rule). translation-qa/: the translation QA report, one page per locale, written by tools/translation/glossary_qa.py — coverage; placeholder, tag and URL preservation; officiality (every translation here is unofficial); the blind round-trip verdict the adjudicator recorded in roundtrip.json; and glossary consistency against the fixed terms of the layered glossaries (normative smart-trust/WHO terms first, then the harness layers in index.config.json order, then this instance's own glossary.po)."
+    },
+    {
+      "id": "scenarios",
+      "path": "scenarios/",
+      "graphTypologies": [
+        "scenarios"
+      ],
+      "description": "The roles that play the journeys' lanes, the personas and systems that play them (each naming the WHO SMART Trust, smart-trust-phw and IHE ITI VHL ActorDefinitions it instantiates), and the user stories. Every person is fictional. scenarios/user-scenarios/ holds one user scenario per journey (J1, J2, J3, J4.0, J4.1) and the group journey J4, in the harness's user-scenario kind, from which tools/ig-gen/ig_gen.py writes the User scenarios section of docs/journeys.md; the harness's check:journey-refs checks their references in CI."
+    },
+    {
+      "id": "memory",
+      "path": "memory/",
+      "graphTypologies": [
+        "memory"
+      ],
+      "description": "Owner directives: the journeys and their two countries, consuming the library from a pinned commit, and being a full downstream."
+    },
+    {
+      "id": "beans",
+      "path": "beans/",
+      "graphTypologies": [
+        "beans"
+      ],
+      "description": "The open issues of this project, one bean each under beans/defs/; tagged upstream when the fix belongs in another repository."
+    },
+    {
+      "id": "tools",
+      "path": "tools/",
+      "graphTypologies": [
+        "code"
+      ],
+      "description": "repo-checks: the standard-library checks CI runs (actions pinned, JSON, memory front matter, journey consistency); archimate: the DPI-H RA overlay spec and its build; translation: pages-pot.ts, the .pot templates of the docs and IG pages in translations/, and po-status.ts, how far each .po is behind its .pot (warn) and the merge that brings it level; and glossary_qa.py, the per-locale translation QA report with glossary consistency."
+    },
+    {
+      "id": "hcert-library-pin",
+      "path": "lib/hcert/",
+      "graphTypologies": [
+        "code"
+      ],
+      "description": "The Kotlin HCERT library at a pinned smart-trust-tools commit: the lock (commit and jar sha256) and the script that builds and checks the jars."
+    },
+    {
+      "id": "archimate",
+      "path": "archimate/",
+      "graphTypologies": [
+        "archimate"
+      ],
+      "description": "The demonstrator as an ArchiMate overlay on the DPI-H Reference Architecture: smart-ra's model 0.3.0-draft.1, unchanged, plus the journeys J1 to J4.1 (use cases), the people assigned to them and the Taifafeki and Onesan systems that serve them, each system a specialization of the RA building block it instantiates. Built by tools/archimate/build.py from tools/archimate/overlay.py and smart-ra at the commit in tools/archimate/smart-ra.lock.json; cat-harness's archimate subgraph draws every view as SVG.",
+      "coverage": {
+        "visualiser": [
+          {
+            "ref": "en/smart-trust-demo/archimate/index.html",
+            "title": "ArchiMate views",
+            "writer": [
+              "cat-harness-tools/archimate/scripts/gen-archimate-pages.ts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "glossary",
+      "path": "glossary/",
+      "graphTypologies": [
+        "glossary"
+      ],
+      "description": "This instance's glossary (folio-glossary/v1, SKOS): architecture.glossary.json holds a concept for every element the ArchiMate overlay draws (the person roles, the system and external actors and their parts, the journeys, and each country's instance of the RA building blocks), generated by tools/ig-gen/ig_gen.py from scenarios/ and processes/; each model element names its concept by skosConcept."
+    },
+    {
+      "id": "user-scenarios",
+      "path": "scenarios/user-scenarios/",
+      "graphTypologies": [
+        "user-scenario"
+      ],
+      "description": "The journeys J1 to J4.1 as user scenarios (journey maps), J4 as the group journey over J4.0 and J4.1, each with its scene, illustrations, FHIR changes and ArchiMate views. The building-block catalogue their steps use is in archimate/building-blocks/."
+    },
+    {
+      "id": "device-screens",
+      "path": "scenarios/device-screens/",
+      "graphTypologies": [
+        "device-screen"
+      ],
+      "description": "What each person sees on their own device at a journey step: the VaxLink screens S1 to S8 as device-screen nodes (the harness's kind), drawn by the journeys viewer as device mocks in the workshop's Device Demo and linked both ways with the walkthrough. Every person is fictional."
+    },
+    {
+      "id": "workshops",
+      "path": "workshops/",
+      "graphTypologies": [
+        "workshop"
+      ],
+      "description": "The DPI-H policy-maker track taught from the journeys."
+    },
+    {
+      "id": "code-lists",
+      "path": "code-lists/",
+      "graphTypologies": [
+        "code-list"
+      ],
+      "description": "The record-trust ladder the journeys' steps name."
+    },
+    {
+      "id": "building-blocks",
+      "path": "archimate/building-blocks/",
+      "graphTypologies": [
+        "building-blocks"
+      ],
+      "description": "The building-block catalogue the journeys steps use."
+    },
+    {
+      "id": "fhir-artifact-index",
+      "path": "fhir-artifact-index/",
+      "graphTypologies": [
+        "fhir-artifact-index"
+      ],
+      "description": "The artefact index, built at publish from the IG AST."
+    }
+  ],
+  "visualisers": [
+    {
+      "id": "archimate",
+      "renderedBy": "archimate-pages",
+      "covers": [
+        "archimate"
+      ]
+    },
+    {
+      "id": "journeys",
+      "renderedBy": "journeys-viewer",
+      "coversKinds": [
+        "user-scenario",
+        "workshop"
+      ],
+      "subgraphs": "instance"
+    }
+  ],
+  "enableSubgraphs": [
+    "folio-assistant-core.collab",
+    "smart-base.collab",
+    "fhir-harness.collab",
+    "smart-base.L2-collab",
+    "smart-base.L3-collab",
+    "smart-base.smart-base-L4"
+  ]
+}

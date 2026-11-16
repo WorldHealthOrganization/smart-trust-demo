@@ -1,0 +1,34 @@
+{
+  "id": "onesa",
+  "name": "Onesa",
+  "fictional": true,
+  "adjective": "Onesan",
+  "flag": {
+    "image": "onesa.flag.svg",
+    "description": "Two equal horizontal bands, indigo over orange, with a white five-pointed star in the upper hoist.",
+    "colours": {
+      "indigo": "#3B4A9A",
+      "orange": "#E8833A",
+      "white": "#FFFFFF"
+    },
+    "proportion": "2:3",
+    "note": "Invented for the demo (2026-11-12) to replace the real Lao flag in the journey pictures; it is meant to resemble no real country's flag. Drawn in docs/images/moment-j4-crossing-back.jpg."
+  },
+  "code": {
+    "system": "http://smart.who.int/trust/CodeSystems/Participants-DEV",
+    "code": "XXK",
+    "display": "Onesa",
+    "note": "An ISO 3166-1 alpha-3 user-assigned code (range XAA to XZZ), so it can never name a real country. On the GDHCN DEV network XXK is an onboarded test participant (WorldHealthOrganization/tng-participants-dev XXK/); its keys are test keys, not any ministry's."
+  },
+  "role": "home",
+  "description": "A fictional country: the traveller's home. Its health system registers people, keeps their lifelong record, verifies certificates issued abroad, and shares the record back out as a Verifiable Health Link.",
+  "places": {
+    "Lomaru": "the capital; Lomaru District Health Center is the family's home clinic (J3)",
+    "Village 04": "where the community health worker finds the family (J2)",
+    "Tanavu": "a coastal town; the pilgrim Kamal's home and his GP's clinic (pilgrimage P1, P7)"
+  },
+  "usedBy": {
+    "smart-trust-demo": "Country B: the family's home in journeys J2, J3 and J4.0, whose national portal serves their records abroad in J4.1.",
+    "pilgrimage": "the pilgrim's home country, whose health information exchange signs the pilgrim's summary before travel (smart-ips-pilgrimage)."
+  }
+}
