@@ -7,10 +7,9 @@
  *
  * | input | what it gives |
  * |---|---|
- * | `workshops/dpi-h-policy-track.workshop.json` | the policy modules, their sheets, and the questions asked at each step |
+ * | `workshops/dpi-h-policy-track.workshop.json` | the policy modules, their sheets, the questions asked at each step, and its `matrix`: where each module meets each step, technical and policy |
  * | `workshops/technical-track.json` | the technical modules, each paired with a policy module |
  * | `workshops/country-canvas.json` | each canvas sheet's parts, minutes and preview |
- * | `workshops/module-journey-map.json` | where each module meets each step, technical and policy |
  * | `workshops/glossary-use.json`, `glossary/dpi-h-policy-track.glossary.json` | the terms at each step |
  * | `scenarios/user-scenarios/*.json` | each step's title |
  *
@@ -28,7 +27,7 @@ const read = (p: string) => JSON.parse(readFileSync(p, "utf8"));
 const ws = read("workshops/dpi-h-policy-track.workshop.json");
 const tech = read("workshops/technical-track.json");
 const canvas = read("workshops/country-canvas.json");
-const map = read("workshops/module-journey-map.json");
+const map = ws.matrix;
 const use = read("workshops/glossary-use.json");
 const glossary = read("glossary/dpi-h-policy-track.glossary.json");
 
@@ -182,14 +181,14 @@ for (const m of mods) {
     .map((p: any) => `<li>${p.minutes ? `<span class="ws-min">${p.minutes} min</span>` : ""}<b>${e(p.title)}</b>${e(p.what)}</li>`)
     .join("")}</ol><p class="ws-links"><a href="country-canvas.html">The whole canvas</a><a href="${e(canvas.docx)}">Word file (A3)</a><a href="${e(canvas.pdf)}">PDF</a></p></div></section>`);
   H.push(`<h3>Where it meets the journey</h3><div class="ws-cards">${asked
-    .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">Technical</span>${e(c.technical)}</p><p><span class="ws-p">Policy</span>${e(c.policy)}</p></div>`)
+    .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">What the system does</span>${e(c.technical)}</p><p><span class="ws-p">Policy question</span>${e(c.policy)}</p></div>`)
     .join("")}</div>`);
   if (draws.length) H.push(`<p class="ws-also">Also draws on ${draws.map((c: any) => `<span title="${e(c.policy)}">${stepChip(c.step, " draws")}</span>`).join("")}</p>`);
   if (qs.length) H.push(`<h3>Questions for the table</h3><ul class="ws-qs">${qs.map((q) => `<li>${stepChip(q.step)}<span>${e(q.text)}</span></li>`).join("")}</ul>`);
   const tl = termsAt(asked.map((c) => c.step));
   if (tl.length) H.push(`<h3>Terms you will hear</h3>${termChips(tl)}`);
   H.push(more([[`${m.id} in the journeys viewer`, `${VIEWER}${m.id.toLowerCase()}/`], ["Discussion", `${VIEWER}discuss/`], ["Module × journey map", "module-journey-map.html"], ["All modules", "workshop.html"]]), `</div>`);
-  files[`input/pagecontent/workshop-${m.id.toLowerCase()}.md`] = HEAD("workshops/dpi-h-policy-track.workshop.json, country-canvas.json, module-journey-map.json and glossary-use.json") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
+  files[`input/pagecontent/workshop-${m.id.toLowerCase()}.md`] = HEAD("workshops/dpi-h-policy-track.workshop.json (its matrix too), country-canvas.json and glossary-use.json") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
 }
 
 // ── a technical module (placeholder) ────────────────────────────────────
@@ -201,13 +200,13 @@ for (const t of tmods) {
   H.push(`<header class="ws-head"><span class="ws-kicker">Day ${t.day} · Technical module ${t.id.slice(1)} · paired with ${m.id}</span><h2>${e(t.title)}${ph ? `<span class="ws-badge">Placeholder</span>` : ""}</h2>${t.carries ? `<p class="ws-carries">${e(t.carries)}</p>` : ""}</header>`);
   if (ph) H.push(`<p class="ws-note"><b>Not written yet.</b> Until it is, this page shows what its paired policy module, <a href="${page(m.id)}">${m.id} ${e(m.title)}</a>, asks of the technical side, as starting material.</p>`);
   H.push(`<h3>What ${m.id} asks of the technical side</h3><div class="ws-cards">${asked
-    .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">Technical</span>${e(c.technical)}</p></div>`)
+    .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">What the system does</span>${e(c.technical)}</p></div>`)
     .join("")}</div>`);
   const tl = termsAt(asked.map((c) => c.step));
   if (tl.length) H.push(`<h3>Terms at those steps</h3>${termChips(tl)}`);
   if (ph) H.push(`<h3>To be written</h3><ul><li>The question this module carries</li><li>Its objectives and timings</li><li>Which canvas sheet, if any, it fills</li><li>The journey steps it teaches from</li></ul>`);
   H.push(more([[`${m.id} ${m.title}`, page(m.id)], ["Module × journey map", "module-journey-map.html"], ["All modules", "workshop.html"]]), `</div>`);
-  files[`input/pagecontent/workshop-${t.id.toLowerCase()}.md`] = HEAD("workshops/technical-track.json and module-journey-map.json") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
+  files[`input/pagecontent/workshop-${t.id.toLowerCase()}.md`] = HEAD("workshops/technical-track.json and the matrix of dpi-h-policy-track.workshop.json") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
 }
 
 let stale = 0;
