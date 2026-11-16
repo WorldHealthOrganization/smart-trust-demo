@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo journeys viewer\n"
-"POT-Creation-Date: 2026-11-16T08:12:26.324Z\n"
+"POT-Creation-Date: 2026-11-16T08:19:18.016Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -311,7 +311,7 @@ msgid "<0>Ask the room</0>Who should own the mapping between countries’ vaccin
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
-msgid "<0>birth-clinic-vaccinator-1</0> As a <1>birth clinic vaccinator</1>, I want print a signed record of each birth dose the family can carry anywhere."
+msgid "<0>birth-clinic-vaccinator-1</0> As a <1>birth clinic vaccinator</1>, I want to print a signed record of each birth dose the family can carry anywhere."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
@@ -327,15 +327,15 @@ msgid "<0>Bounmy</0>: Opens the family wallet: profiles for himself, <1>Khamla</
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
-msgid "<0>caregiver-1</0> As a <1>caregiver</1>, I want have my son's birth doses from abroad recognised at home, so that his care does not start over and nothing is repeated."
+msgid "<0>caregiver-1</0> As a <1>caregiver</1>, I want to have my son's birth doses from abroad recognised at home, so that his care does not start over and nothing is repeated."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
-msgid "<0>caregiver-2</0> As a <1>caregiver</1>, I want show each family member's records abroad from our one shared phone, with a passcode I can say aloud, so that a doctor abroad can treat us without paper or an app."
+msgid "<0>caregiver-2</0> As a <1>caregiver</1>, I want to show each family member's records abroad from our one shared phone, with a passcode I can say aloud, so that a doctor abroad can treat us without paper or an app."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
-msgid "<0>caregiver-3</0> As a <1>caregiver</1>, I want decide who sees my child's record, and for how long, so that the record stays at home and I know who has looked."
+msgid "<0>caregiver-3</0> As a <1>caregiver</1>, I want to decide who sees my child's record, and for how long, so that the record stays at home and I know who has looked."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
@@ -347,15 +347,15 @@ msgid "<0>Chanthason</0>: Scans the card; the tablet confirms the Taifafeki sign
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
-msgid "<0>community-health-worker-1</0> As a <1>community health worker</1>, I want read a foreign vaccination QR offline and register the child with it, so that the clinic sees what was given before the family arrives."
+msgid "<0>community-health-worker-1</0> As a <1>community health worker</1>, I want to read a foreign vaccination QR offline and register the child with it, so that the clinic sees what was given before the family arrives."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
-msgid "<0>community-health-worker-2</0> As a <1>community health worker</1>, I want refer a child whose foreign record needs checking, so that verification is done by someone who can."
+msgid "<0>community-health-worker-2</0> As a <1>community health worker</1>, I want to refer a child whose foreign record needs checking, so that verification is done by someone who can."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
-msgid "<0>community-health-worker-3</0> As a <1>community health worker</1>, I want register a newborn into the household offline, before civil registration, so that no newborn in my village is missed, even with no signal."
+msgid "<0>community-health-worker-3</0> As a <1>community health worker</1>, I want to register a newborn into the household offline, before civil registration, so that no newborn in my village is missed, even with no signal."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
@@ -459,15 +459,15 @@ msgid "<0>Hand-off:</0> Verified doses, ready to schedule"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
-msgid "<0>home-clinic-provider-1</0> As a <1>home clinic provider</1>, I want know whether a foreign certificate is genuine, and why not when it is not."
+msgid "<0>home-clinic-provider-1</0> As a <1>home clinic provider</1>, I want to know whether a foreign certificate is genuine, and why not when it is not."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
-msgid "<0>home-clinic-provider-2</0> As a <1>home clinic provider</1>, I want see which doses are due once the foreign doses are imported, so that I give only what is missing."
+msgid "<0>home-clinic-provider-2</0> As a <1>home clinic provider</1>, I want to see which doses are due once the foreign doses are imported, so that I give only what is missing."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
-msgid "<0>home-clinic-provider-3</0> As a <1>home clinic provider</1>, I want keep the foreign vaccine code and add our schedule code beside it, deciding myself when there is no match, so that the other country's record is never overwritten and the next nurse need not decide again."
+msgid "<0>home-clinic-provider-3</0> As a <1>home clinic provider</1>, I want to keep the foreign vaccine code and add our schedule code beside it, deciding myself when there is no match, so that the other country's record is never overwritten and the next nurse need not decide again."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
@@ -663,11 +663,11 @@ msgid "<0>M7</0> Our first move, what it costs, and what we ask for"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
-msgid "<0>poc-provider-1</0> As a <1>poc provider</1>, I want read a visiting child's summary and vaccinations from a QR the parent shows, so that without installing anything or calling another country."
+msgid "<0>poc-provider-1</0> As a <1>poc provider</1>, I want to read a visiting child's summary and vaccinations from a QR the parent shows, so that without installing anything or calling another country."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
-msgid "<0>poc-provider-2</0> As a <1>poc provider</1>, I want know the record I read abroad came from the child's home country and was not altered, so that I can rely on it as I would on my own clinic's record."
+msgid "<0>poc-provider-2</0> As a <1>poc provider</1>, I want to know the record I read abroad came from the child's home country and was not altered, so that I can rely on it as I would on my own clinic's record."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
@@ -1367,7 +1367,7 @@ msgid "6 Doses Verified"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/index.html:0
-msgid "6 journeys and 8 steps across 1 instance of this checkout, the mounted layers' included. Each journey is a user scenario told as a journey map; a journey's parts sit under it, in the order the story follows."
+msgid "6 journeys and 8 steps across 1 instance of this checkout, the mounted layers included. Each journey is a user scenario told as a journey map; a journey's parts sit under it, in the order the story follows."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-family-records-abroad/index.html:0
