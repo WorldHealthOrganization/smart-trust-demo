@@ -66,6 +66,14 @@
       "fixed": 7,
       "noise": 16,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "archimate": {
+      "verdict": "PASS",
+      "backTranslated": 1217,
+      "drifts": 22,
+      "fixed": 22,
+      "noise": 74,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
     }
   }
 }
