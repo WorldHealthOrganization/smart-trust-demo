@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-11T09:10:10.544Z\n"
+"POT-Creation-Date: 2026-11-16T09:49:18.204Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -479,6 +479,10 @@ msgstr ""
 msgid "Matching vaccines across countries (J3b): when a monovalent vaccine is given abroad but the home schedule uses a combination (pentavalent), how should schedule rules count the doses still due?"
 msgstr ""
 
+#: docs/journeys.md:243
+msgid "Modules, terms and the canvas"
+msgstr ""
+
 #: docs/journeys.md:37
 msgid "Moment"
 msgstr ""
@@ -658,6 +662,18 @@ msgstr ""
 
 #: docs/journeys.md:47
 msgid "Step"
+msgstr ""
+
+#: docs/journeys.md:247
+msgid "The <a0>Country Canvas</a0> is the A3 table canvas (a cover and Sheets 1 to 6) the tables fill in."
+msgstr ""
+
+#: docs/journeys.md:246
+msgid "The <a0>glossary</a0> defines the terms the policy-maker track uses, each linked to the DPI-H Reference Architecture and DTH-PHC glossaries. Its <a1>terms at each step</a1> are also shown on every step of the journeys viewer."
+msgstr ""
+
+#: docs/journeys.md:245
+msgid "The <a0>module × journey map</a0> shows where each workshop module (M1 to M7) meets each step above, and what is technical and what is policy at that point."
 msgstr ""
 
 #: docs/journeys.md:32

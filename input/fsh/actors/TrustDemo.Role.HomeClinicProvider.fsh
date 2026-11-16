@@ -23,7 +23,7 @@ The nurse at the home clinic who receives the referral, has the foreign DVCs ver
 
 **On the device screens**: [S4 Clinic Referral & GDHCN Verification (Chanthason's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/); [S5 Terminology Adjudication & National Schedule (Chanthason's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/)
 
-**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M6 Doing it once, together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/)
+**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/)
 
 **User stories** ([all stories](scenarios.html#user-stories)):
 

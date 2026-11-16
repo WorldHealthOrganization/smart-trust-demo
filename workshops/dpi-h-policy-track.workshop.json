@@ -67,14 +67,14 @@
     },
     {
       "id": "M6",
-      "title": "Doing it once, together",
+      "title": "Doing it together",
       "day": 2,
       "carries": "Would your neighbour need this too? If yes, why would you each build it?",
       "sheet": "sheet-5"
     },
     {
       "id": "M7",
-      "title": "Our first move, what it costs, and what we ask for",
+      "title": "First move and the investment required",
       "day": 2,
       "carries": "What is realistic in twelve months with the people and money we have — and who owns it?",
       "sheet": "sheet-6",
@@ -122,6 +122,11 @@
       "module": "M5",
       "rows": [
         {
+          "id": "data-protection",
+          "label": "Data protection covers health data",
+          "question": "Does your data protection law cover health data, including a child's immunization record?"
+        },
+        {
           "id": "cross-border",
           "label": "Legal basis for cross-border sharing"
         },
@@ -141,19 +146,19 @@
           "id": "narrow",
           "label": "Start narrow",
           "what": "One population, one credential, one facility type.",
-          "example": "Malaysia’s Hajj Health Card"
+          "example": "Hajj Health Card"
         },
         {
           "id": "shared",
           "label": "Start shared",
-          "what": "Build the foundation once for several programmes, not once for immunization.",
-          "example": "Taifafeki’s registry shared across parts of government"
+          "what": "Build the foundation once for several programmes, not only for immunization.",
+          "example": "Registries across government"
         },
         {
           "id": "borrowed",
           "label": "Start borrowed",
-          "what": "Adopt a regional or international artefact rather than authoring your own.",
-          "example": "The ICVP IG, the IPS, a SNOMED subset"
+          "what": "Adopt a regional or international artefact instead of authoring your own.",
+          "example": "The ICVP FHIR IG, the IPS, or a SNOMED subset"
         }
       ]
     },
@@ -173,11 +178,16 @@
         },
         {
           "id": "devices",
-          "label": "Devices and connectivity at the point of care"
+          "label": "Devices and connectivity at point of care"
         },
         {
           "id": "recurrent",
-          "label": "Recurrent cost of running shared infrastructure"
+          "label": "Running shared infrastructure (recurrent)"
+        },
+        {
+          "id": "training",
+          "label": "Training and change management",
+          "what": "Training health workers and managers, and changing how the work is done, so the system is used."
         },
         {
           "id": "not-once",
@@ -756,7 +766,17 @@
       "modules": [
         "M1"
       ],
-      "assessmentStrip": true
+      "assessmentStrip": true,
+      "fields": [
+        {
+          "label": "Our use case: a child vaccinated in ___ should be able to ___ in ___.",
+          "lines": 2
+        },
+        {
+          "label": "Where our journey breaks hardest: touchpoint no., and why there?",
+          "lines": 2
+        }
+      ]
     },
     {
       "id": "sheet-2",
@@ -766,7 +786,21 @@
       "modules": [
         "M2"
       ],
-      "assessmentStrip": true
+      "assessmentStrip": true,
+      "fields": [
+        {
+          "label": "Standards we use today",
+          "lines": 1
+        },
+        {
+          "label": "Where did we disagree?",
+          "lines": 2
+        },
+        {
+          "label": "Regional: which starred blocks could be shared across countries, and who would hold them?",
+          "lines": 2
+        }
+      ]
     },
     {
       "id": "sheet-3",
@@ -776,7 +810,21 @@
       "modules": [
         "M3"
       ],
-      "assessmentStrip": true
+      "assessmentStrip": true,
+      "fields": [
+        {
+          "label": "Which institution would own and govern our national core data set?",
+          "lines": 1
+        },
+        {
+          "label": "Who would run the terminology service?",
+          "lines": 1
+        },
+        {
+          "label": "What we would put in the next step (procurement)",
+          "lines": 2
+        }
+      ]
     },
     {
       "id": "sheet-4",
@@ -787,22 +835,58 @@
         "M4",
         "M5"
       ],
-      "assessmentStrip": true
+      "assessmentStrip": true,
+      "fields": [
+        {
+          "label": "Which institution digitally signs credentials for our health sector?",
+          "lines": 1
+        },
+        {
+          "label": "Who would hold our national trust anchor?",
+          "lines": 1
+        },
+        {
+          "label": "Three questions to take home",
+          "lines": 3
+        },
+        {
+          "label": "The one change that would unblock the most",
+          "lines": 2
+        }
+      ]
     },
     {
       "id": "sheet-5",
       "label": "Sheet 5",
-      "title": "Doing it once, together: our nomination",
+      "title": "Doing it together",
       "size": "A3",
       "modules": [
         "M6"
       ],
-      "assessmentStrip": true
+      "assessmentStrip": true,
+      "fields": [
+        {
+          "label": "Our nomination: the component or artefact to do once, regionally",
+          "lines": 2
+        },
+        {
+          "label": "Why together, not each of us?",
+          "lines": 2
+        },
+        {
+          "label": "What our country would contribute",
+          "lines": 2
+        },
+        {
+          "label": "First regional step",
+          "lines": 1
+        }
+      ]
     },
     {
       "id": "sheet-6",
       "label": "Sheet 6",
-      "title": "Our first move and our ask",
+      "title": "First move and the investment required",
       "size": "A3",
       "modules": [
         "M7"
@@ -810,16 +894,28 @@
       "assessmentStrip": true,
       "fields": [
         {
-          "label": "Our first move in twelve months",
+          "label": "Our top national priority: component, why this one, biggest gap or risk",
           "lines": 3
         },
         {
-          "label": "Named owner",
+          "label": "Our 12-month action (two lines)",
+          "lines": 2
+        },
+        {
+          "label": "Owner (institution), and what it depends on",
           "lines": 1
         },
         {
-          "label": "What we ask of partners",
-          "lines": 3
+          "label": "What it costs, and who could fund it",
+          "lines": 2
+        },
+        {
+          "label": "Regional commitment (from our Sheet 5 nomination)",
+          "lines": 2
+        },
+        {
+          "label": "The one gap we refer for follow-up",
+          "lines": 2
         }
       ]
     }
@@ -870,10 +966,10 @@
     },
     {
       "id": "a3-canvas",
-      "title": "The table canvas, Sheets 1 to 6 (A3)",
+      "title": "Country Canvas, a cover and Sheets 1 to 6 (A3)",
       "kind": "handout",
-      "href": "sheets/",
-      "description": "Print one set per table, A3 landscape."
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/country-canvas.html",
+      "description": "The canvas each table fills in: print one set per table, A3 landscape. The page links the editable Word file and a print-ready PDF."
     },
     {
       "id": "module-journey-map",
@@ -890,6 +986,102 @@
         "M7"
       ],
       "description": "Where each module meets a step of the journeys, and what is technical and what is policy there."
+    },
+    {
+      "id": "glossary",
+      "title": "Glossary: terms you will hear",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html",
+      "modules": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7"
+      ],
+      "description": "The policy-maker track's glossary, each term linked to the DPI-H RA and DTH-PHC glossaries."
+    },
+    {
+      "id": "glossary-j1",
+      "title": "Terms at J1",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j1",
+      "steps": [
+        "j1-born-abroad#J1"
+      ],
+      "body": "- **Electronic immunization registry (EIR)**: Records each person's doses. Often the first working part of a lifelong record.\n- **Client registry**: Identifies one person reliably across systems and links their records.\n- **Facility, workforce and product registries**: Authoritative lists of health facilities, health workers, and products such as vaccines and their batches.\n- **Dose number and series**: Which dose this is, out of how many in the schedule. Needed to work out what is due next.\n- **Batch number**: Identifies the production batch of a vaccine. Needed for recalls and safety checks.\n- **Verifiable credential (VC)**: A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered.\n- **Digital signature**: A cryptographic seal made with the issuer's private key. Verifiers check it with the matching public key.\n- **Public key infrastructure (PKI)**: The keys, certificates and rules that make digital signatures trustworthy.\n- **Issuer · holder · verifier**: The three roles: who signs the credential, who keeps it, and who checks it.\n- **Health certificate identifier (HCID)**: The unique ID of an issued certificate.\n- **International Certificate of Vaccination or Prophylaxis (ICVP)**: The \"yellow card\". The digital ICVP is its signed, verifiable form.\n- **Consent**: A person's permission for their data to be used or shared. Rules for minors and dependants differ by country."
+    },
+    {
+      "id": "glossary-j2a",
+      "title": "Terms at J2a",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j2a",
+      "steps": [
+        "j2-found-at-home#J2a"
+      ],
+      "body": "- **Point-of-service application**: Software people use every day: a clinic record system, an immunization app, a citizen app. It uses the shared layers through APIs.\n- **Verifiable credential (VC)**: A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered.\n- **Digital signature**: A cryptographic seal made with the issuer's private key. Verifiers check it with the matching public key.\n- **Core data set**: The elements a country agrees to record for a use case, each mapped to standard codes. Also called a minimum data set."
+    },
+    {
+      "id": "glossary-j2b",
+      "title": "Terms at J2b",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j2b",
+      "steps": [
+        "j2-found-at-home#J2b"
+      ],
+      "body": "- **Client registry**: Identifies one person reliably across systems and links their records.\n- **Civil registration and vital statistics (CRVS)**: Birth registration can start a child's immunization record.\n- **Point-of-service application**: Software people use every day: a clinic record system, an immunization app, a citizen app. It uses the shared layers through APIs.\n- **Facility, workforce and product registries**: Authoritative lists of health facilities, health workers, and products such as vaccines and their batches.\n- **Consent**: A person's permission for their data to be used or shared. Rules for minors and dependants differ by country.\n- **Interoperability**: Systems exchanging data and using it with the same meaning. It needs shared standards and governance, not only connections."
+    },
+    {
+      "id": "glossary-j3a",
+      "title": "Terms at J3a",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j3a",
+      "steps": [
+        "j3-made-official#J3a"
+      ],
+      "body": "- **Trust list**: A published list of keys accepted as valid issuers. The GDHCN shares these between countries.\n- **Global Digital Health Certification Network (GDHCN)**: WHO Global Digital Health Certification Network. A trust network so countries can verify each other's health documents. Countries onboard per use case.\n- **Trust anchor**: The national authority whose key vouches for the health sector's signers.\n- **Public key infrastructure (PKI)**: The keys, certificates and rules that make digital signatures trustworthy.\n- **Digital signature**: A cryptographic seal made with the issuer's private key. Verifiers check it with the matching public key.\n- **Issuer · holder · verifier**: The three roles: who signs the credential, who keeps it, and who checks it.\n- **Verifiable credential (VC)**: A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered."
+    },
+    {
+      "id": "glossary-j3b",
+      "title": "Terms at J3b",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j3b",
+      "steps": [
+        "j3-made-official#J3b"
+      ],
+      "body": "- **Terminology service**: Serves shared code systems (SNOMED CT, ICD, LOINC) so that data means the same thing everywhere.\n- **Core data set**: The elements a country agrees to record for a use case, each mapped to standard codes. Also called a minimum data set.\n- **Logical information model**: The agreed structure of the data: elements, types and rules, independent of any software.\n- **SNOMED CT**: Clinical terminology. Use needs a licence, managed at national level; licensing is a national decision.\n- **Decision support engine**: Applies guideline logic, for example to work out which vaccine dose is due next.\n- **SMART Guidelines**: WHO's path from narrative guidelines to digital content that is standards-based, machine-readable, adaptive, requirements-based and testable.\n- **Digital adaptation kit (DAK)**: Software-neutral L2 content: personas, workflows, core data dictionary, decision logic, indicators and requirements.\n- **Dose number and series**: Which dose this is, out of how many in the schedule. Needed to work out what is due next.\n- **Expanded Programme on Immunization (EPI)**: The national immunization programme."
+    },
+    {
+      "id": "glossary-j4-0a",
+      "title": "Terms at J4.0a",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j4-0a",
+      "steps": [
+        "j4-0-one-family-one-phone#J4.0a"
+      ],
+      "body": "- **Digital wallet**: An app where a person holds their credentials. A signed paper QR code can play the same role.\n- **Personal health record (PHR)**: Health information the person can see and control, for example in a wallet or citizen app.\n- **Lifelong health record**: A person's health history that follows them across providers and over time. Also called a shared health record.\n- **Consent**: A person's permission for their data to be used or shared. Rules for minors and dependants differ by country."
+    },
+    {
+      "id": "glossary-j4-0b",
+      "title": "Terms at J4.0b",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j4-0b",
+      "steps": [
+        "j4-0-one-family-one-phone#J4.0b"
+      ],
+      "body": "- **International Patient Summary (IPS)**: A standard minimal health summary, including immunizations, readable across borders.\n- **HL7 FHIR (FHIR)**: Fast Healthcare Interoperability Resources. The main standard for exchanging health data through APIs.\n- **Implementation guide (IG)**: A FHIR specification for one use case: profiles, codes and tests. It can be adopted rather than authored.\n- **Profile**: A FHIR resource tailored to a use case, for example by making some fields required.\n- **Consent**: A person's permission for their data to be used or shared. Rules for minors and dependants differ by country.\n- **Procurement conditions**: Requirements written into tenders, such as conformance to the national IG, that steer what suppliers build.\n- **Application programming interface (API)**: A defined, documented way for one system to ask another for data."
+    },
+    {
+      "id": "glossary-j4-1",
+      "title": "Terms at J4.1",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j4-1",
+      "steps": [
+        "j4-1-full-history-abroad#J4.1"
+      ],
+      "body": "- **Global Digital Health Certification Network (GDHCN)**: WHO Global Digital Health Certification Network. A trust network so countries can verify each other's health documents. Countries onboard per use case.\n- **Trust list**: A published list of keys accepted as valid issuers. The GDHCN shares these between countries.\n- **International Patient Summary (IPS)**: A standard minimal health summary, including immunizations, readable across borders.\n- **Health information exchange (HIE)**: The layer that routes data securely between systems.\n- **Lifelong health record**: A person's health history that follows them across providers and over time. Also called a shared health record.\n- **Consent**: A person's permission for their data to be used or shared. Rules for minors and dependants differ by country."
     }
   ],
   "presentation": {
@@ -962,6 +1154,10 @@
         "href": "https://worldhealthorganization.github.io/smart-trust-demo/journey-examples.html"
       },
       {
+        "label": "Glossary",
+        "href": "https://worldhealthorganization.github.io/smart-trust-demo/glossary.html"
+      },
+      {
         "label": "Source",
         "href": "https://github.com/litlfred/smart-trust-demo",
         "frame": "IG source"
@@ -1023,7 +1219,13 @@
       ]
     },
     "cover": {
-      "table": "patterns"
+      "table": "patterns",
+      "fields": [
+        "Country",
+        "Table no.",
+        "Facilitators",
+        "Delegation members"
+      ]
     }
   },
   "lab": {

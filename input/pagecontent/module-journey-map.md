@@ -13,8 +13,8 @@ Each module of the policy-maker track asks one question of the same story. This 
 | **M3** Standards, specifications and the core data set | Sheet 3 | ○ | ● |  |  | ● |  | ○ |  |
 | **M4** Trust, credentials and wallets | Sheet 4 | ● | ● |  | ● |  | ● |  | ○ |
 | **M5** Governance, decision rights and the legal basis | Sheet 4 | ● |  | ● |  |  | ● | ● | ● |
-| **M6** Doing it once, together | Sheet 5 |  |  |  | ○ | ● |  | ● | ● |
-| **M7** Our first move, what it costs, and what we ask for | Sheet 6 | ○ |  |  | ○ |  |  |  | ● |
+| **M6** Doing it together | Sheet 5 |  |  |  | ○ | ● |  | ● | ● |
+| **M7** First move and the investment required | Sheet 6 | ○ |  |  | ○ |  |  |  | ● |
 {: .grid }
 
 ### Where they meet
@@ -84,7 +84,7 @@ Each module of the policy-maker track asks one question of the same story. This 
 | J4.1 | ● | AuditEvent logged in Onesa on every access, including failed passcodes. | The agreement that every view abroad leaves an entry at home, and who reads it (legal basis: cross-border). |
 {: .grid }
 
-#### M6 · Doing it once, together
+#### M6 · Doing it together
 
 *Would your neighbour need this too? If yes, why would you each build it?*
 
@@ -96,7 +96,7 @@ Each module of the policy-maker track asks one question of the same story. This 
 | J4.1 | ● | Connectathon test of issuer, gateway and viewer. | What the country sends to a regional connectathon within twelve months. |
 {: .grid }
 
-#### M7 · Our first move, what it costs, and what we ask for
+#### M7 · First move and the investment required
 
 *What is realistic in twelve months with the people and money we have — and who owns it?*
 

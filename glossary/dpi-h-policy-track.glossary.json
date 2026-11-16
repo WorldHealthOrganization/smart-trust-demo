@@ -1,0 +1,975 @@
+{
+  "$schema": "folio-glossary/v1",
+  "id": "dpi-h-policy-track",
+  "title": "DPI-H workshop, policy-maker track: terms you will hear",
+  "description": "The plain-language glossary handed to the DPI-H for Health workshop's policy-maker track (Bangkok, 30 November and 1 December 2026), one SKOS concept per term, definitions verbatim from the handout. Each term links to the same concept in the DPI-H Reference Architecture glossary (smart-ra: dpi-h-ra, organizations) and the Digital Transformation Handbook for Primary Health Care glossary (dth-phc), by exactMatch where both mean the same thing, closeMatch where close, narrowMatch where the handout's term covers several of theirs, and related where it only touches one. Every term is a candidate until a person adopts it.",
+  "modified": "2026-11-16",
+  "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+  "subject": "digital-health-trust",
+  "terms": [
+    {
+      "id": "digital-public-infrastructure",
+      "prefLabel": "Digital public infrastructure",
+      "altLabel": [
+        "DPI"
+      ],
+      "notation": "DPI",
+      "definition": "Shared, government-stewarded systems, such as ID, payments and data exchange, that many services reuse.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-public-infrastructure"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "dpi-for-health",
+      "prefLabel": "DPI for health",
+      "altLabel": [
+        "DPI-H"
+      ],
+      "notation": "DPI-H",
+      "definition": "The shared health layer: registries, health record, terminology and decision support, built once and used by many programmes.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "foundational-dpi",
+      "prefLabel": "Foundational DPI",
+      "altLabel": [
+        "DPI-F"
+      ],
+      "notation": "DPI-F",
+      "definition": "Whole-of-government systems not specific to health: national ID, civil registration, payments, trust services.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/foundational-digital-public-infrastructure"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "reference-architecture",
+      "prefLabel": "Reference architecture",
+      "definition": "The WHO/ITU map of DPI-H components and layers. A reading tool, not a product list or a sequence.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it. Matters most on canvas Sheet 2.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "point-of-service-application",
+      "prefLabel": "Point-of-service application",
+      "definition": "Software people use every day: a clinic record system, an immunization app, a citizen app. It uses the shared layers through APIs.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "application-programming-interface",
+      "prefLabel": "Application programming interface",
+      "altLabel": [
+        "API"
+      ],
+      "notation": "API",
+      "definition": "A defined, documented way for one system to ask another for data.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-programming-interface",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/application-programming-interface"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "client-registry",
+      "prefLabel": "Client registry",
+      "altLabel": [
+        "MPI",
+        "Master patient index"
+      ],
+      "definition": "Identifies one person reliably across systems and links their records.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client-registry"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/master-patient-index"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "facility-workforce-and-product-registries",
+      "prefLabel": "Facility, workforce and product registries",
+      "altLabel": [
+        "Facility registry",
+        "Health workforce registry",
+        "Product registry"
+      ],
+      "definition": "Authoritative lists of health facilities, health workers, and products such as vaccines and their batches.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "narrowMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-facility-registry",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-workforce-registry",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-registry"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "lifelong-health-record",
+      "prefLabel": "Lifelong health record",
+      "altLabel": [
+        "Shared health record"
+      ],
+      "definition": "A person's health history that follows them across providers and over time. Also called a shared health record.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record"
+      ],
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/shared-health-record"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "electronic-immunization-registry",
+      "prefLabel": "Electronic immunization registry",
+      "altLabel": [
+        "EIR"
+      ],
+      "notation": "EIR",
+      "definition": "Records each person's doses. Often the first working part of a lifelong record.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "related": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record",
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/registry"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "personal-health-record",
+      "prefLabel": "Personal health record",
+      "altLabel": [
+        "PHR"
+      ],
+      "notation": "PHR",
+      "definition": "Health information the person can see and control, for example in a wallet or citizen app.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/personal-health-record",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/personal-health-record"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "terminology-service",
+      "prefLabel": "Terminology service",
+      "definition": "Serves shared code systems (SNOMED CT, ICD, LOINC) so that data means the same thing everywhere.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/terminology-service"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "logical-information-model",
+      "prefLabel": "Logical information model",
+      "definition": "The agreed structure of the data: elements, types and rules, independent of any software.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "related": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-information-model-repository"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "decision-support-engine",
+      "prefLabel": "Decision support engine",
+      "definition": "Applies guideline logic, for example to work out which vaccine dose is due next.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/computable-decision-support-engine"
+      ],
+      "related": [
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "health-information-exchange",
+      "prefLabel": "Health information exchange",
+      "altLabel": [
+        "HIE",
+        "Information mediator"
+      ],
+      "notation": "HIE",
+      "definition": "The layer that routes data securely between systems.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-exchange"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "health-management-information-system",
+      "prefLabel": "Health management information system",
+      "altLabel": [
+        "HMIS"
+      ],
+      "notation": "HMIS",
+      "definition": "Aggregate reporting and analytics, such as DHIS2.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-management-information-system",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-management-information-system"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "civil-registration-and-vital-statistics",
+      "prefLabel": "Civil registration and vital statistics",
+      "altLabel": [
+        "CRVS"
+      ],
+      "notation": "CRVS",
+      "definition": "Birth registration can start a child's immunization record.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/civil-registration-and-vital-statistics"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "interoperability",
+      "prefLabel": "Interoperability",
+      "definition": "Systems exchanging data and using it with the same meaning. It needs shared standards and governance, not only connections.",
+      "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "standard-vs-specification",
+      "prefLabel": "Standard vs specification",
+      "altLabel": [
+        "Standard",
+        "Specification"
+      ],
+      "definition": "A standard is a general rulebook (FHIR). A specification says exactly how to apply it to one use case (the ICVP IG).",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "related": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability-standards"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "smart-guidelines",
+      "prefLabel": "SMART Guidelines",
+      "definition": "WHO's path from narrative guidelines to digital content that is standards-based, machine-readable, adaptive, requirements-based and testable.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "smart-levels",
+      "prefLabel": "SMART levels L1–L5",
+      "altLabel": [
+        "SMART Guidelines levels"
+      ],
+      "definition": "L1 narrative guideline · L2 DAK · L3 machine-readable FHIR IG · L4 reference software · L5 dynamic, data-driven use.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "related": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-adaptation-kit",
+      "prefLabel": "Digital adaptation kit",
+      "altLabel": [
+        "DAK"
+      ],
+      "notation": "DAK",
+      "definition": "Software-neutral L2 content: personas, workflows, core data dictionary, decision logic, indicators and requirements.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it. Matters most on canvas Sheets 1, 3.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-adaptation-kit",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-adaptation-kits"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "core-data-set",
+      "prefLabel": "Core data set",
+      "altLabel": [
+        "Minimum data set"
+      ],
+      "definition": "The elements a country agrees to record for a use case, each mapped to standard codes. Also called a minimum data set.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it. Matters most on canvas Sheet 3.",
+      "related": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/national-health-data-dictionary",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-dictionary"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "hl7-fhir",
+      "prefLabel": "HL7 FHIR",
+      "altLabel": [
+        "FHIR",
+        "Fast Healthcare Interoperability Resources"
+      ],
+      "notation": "FHIR",
+      "definition": "Fast Healthcare Interoperability Resources. The main standard for exchanging health data through APIs.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/fast-healthcare-interoperability-resources"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "implementation-guide",
+      "prefLabel": "Implementation guide",
+      "altLabel": [
+        "IG"
+      ],
+      "notation": "IG",
+      "definition": "A FHIR specification for one use case: profiles, codes and tests. It can be adopted rather than authored.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/implementation-guide"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "profile",
+      "prefLabel": "Profile",
+      "definition": "A FHIR resource tailored to a use case, for example by making some fields required.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "international-patient-summary",
+      "prefLabel": "International Patient Summary",
+      "altLabel": [
+        "IPS"
+      ],
+      "notation": "IPS",
+      "definition": "A standard minimal health summary, including immunizations, readable across borders.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-patient-summary"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "international-certificate-of-vaccination-or-prophylaxis",
+      "prefLabel": "International Certificate of Vaccination or Prophylaxis",
+      "altLabel": [
+        "ICVP",
+        "Yellow card",
+        "Digital ICVP"
+      ],
+      "notation": "ICVP",
+      "definition": "The \"yellow card\". The digital ICVP is its signed, verifiable form.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-certificate-of-vaccination-or-prophylaxis"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "international-health-regulations",
+      "prefLabel": "International Health Regulations",
+      "altLabel": [
+        "IHR",
+        "IHR (2005)"
+      ],
+      "notation": "IHR",
+      "definition": "International Health Regulations (2005), amended in 2024. The legal basis for the ICVP and other cross-border health documents.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-health-regulations"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "snomed-ct",
+      "prefLabel": "SNOMED CT",
+      "definition": "Clinical terminology. Use needs a licence, managed at national level; licensing is a national decision.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it. Matters most on canvas Sheet 3.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/snomed-ct"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "international-classification-of-diseases",
+      "prefLabel": "International Classification of Diseases",
+      "altLabel": [
+        "ICD",
+        "ICD-10",
+        "ICD-11"
+      ],
+      "notation": "ICD",
+      "definition": "WHO's classification; ICD-11 is the current version.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases"
+      ],
+      "narrowMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-diseases-11th-revision",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases-11"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "logical-observation-identifiers-names-and-codes",
+      "prefLabel": "Logical Observation Identifiers Names and Codes",
+      "altLabel": [
+        "LOINC"
+      ],
+      "notation": "LOINC",
+      "definition": "Codes for laboratory tests and observations.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/logical-observation-identifiers-names-and-codes"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "openehr",
+      "prefLabel": "openEHR",
+      "definition": "An open standard for clinical data models (archetypes), often used to store records alongside FHIR for exchange.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "conformance",
+      "prefLabel": "Conformance",
+      "definition": "Proof that a system implements a specification correctly, usually by passing a test suite.",
+      "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "verifiable-credential",
+      "prefLabel": "Verifiable credential",
+      "altLabel": [
+        "VC"
+      ],
+      "notation": "VC",
+      "definition": "A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "issuer-holder-verifier",
+      "prefLabel": "Issuer · holder · verifier",
+      "altLabel": [
+        "Issuer",
+        "Holder",
+        "Verifier"
+      ],
+      "definition": "The three roles: who signs the credential, who keeps it, and who checks it.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-signature",
+      "prefLabel": "Digital signature",
+      "definition": "A cryptographic seal made with the issuer's private key. Verifiers check it with the matching public key.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "public-key-infrastructure",
+      "prefLabel": "Public key infrastructure",
+      "altLabel": [
+        "PKI"
+      ],
+      "notation": "PKI",
+      "definition": "The keys, certificates and rules that make digital signatures trustworthy.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-key-infrastructure"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "trust-anchor",
+      "prefLabel": "Trust anchor",
+      "definition": "The national authority whose key vouches for the health sector's signers.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "trust-list",
+      "prefLabel": "Trust list",
+      "definition": "A published list of keys accepted as valid issuers. The GDHCN shares these between countries.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "global-digital-health-certification-network",
+      "prefLabel": "Global Digital Health Certification Network",
+      "altLabel": [
+        "GDHCN"
+      ],
+      "notation": "GDHCN",
+      "definition": "WHO Global Digital Health Certification Network. A trust network so countries can verify each other's health documents. Countries onboard per use case.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-digital-health-certification-network"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-wallet",
+      "prefLabel": "Digital wallet",
+      "altLabel": [
+        "Wallet"
+      ],
+      "definition": "An app where a person holds their credentials. A signed paper QR code can play the same role.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-documentation-of-covid-19-certificates",
+      "prefLabel": "Digital Documentation of COVID-19 Certificates",
+      "altLabel": [
+        "DDCC"
+      ],
+      "notation": "DDCC",
+      "definition": "WHO's earlier specification; much of its approach carries into the digital ICVP.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "health-certificate-identifier",
+      "prefLabel": "Health certificate identifier",
+      "altLabel": [
+        "HCID"
+      ],
+      "notation": "HCID",
+      "definition": "The unique ID of an issued certificate.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 3.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "consent",
+      "prefLabel": "Consent",
+      "definition": "A person's permission for their data to be used or shared. Rules for minors and dependants differ by country.",
+      "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "sandbox",
+      "prefLabel": "Sandbox",
+      "definition": "A shared test environment with sample data where systems can try exchanges safely.",
+      "scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "test-suite",
+      "prefLabel": "Test suite",
+      "altLabel": [
+        "ITB",
+        "Interoperability Test Bed"
+      ],
+      "definition": "Automated checks of a system against a specification. ITB, the Interoperability Test Bed, is an open tool used for this.",
+      "scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "interoperability-lab",
+      "prefLabel": "Interoperability lab",
+      "definition": "A standing national or regional facility for conformance testing and building local skills.",
+      "scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "connectathon",
+      "prefLabel": "Connectathon",
+      "altLabel": [
+        "Connect-a-thon"
+      ],
+      "definition": "An event where teams test real systems against a specification together. It exposes gaps fast and builds skills.",
+      "scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it. Matters most on canvas Sheet 5.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "convergence-workshop",
+      "prefLabel": "Convergence workshop",
+      "definition": "AeHIN's method for aligning a ministry and its partners behind one national architecture and investment plan.",
+      "scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "openfn",
+      "prefLabel": "OpenFN",
+      "definition": "An open-source integration tool used to connect legacy systems and migrate them to standards.",
+      "scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-health-strategy",
+      "prefLabel": "Digital health strategy",
+      "definition": "The national vision and priorities for digital health.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "blueprint",
+      "prefLabel": "Blueprint",
+      "altLabel": [
+        "Enterprise architecture"
+      ],
+      "definition": "The target design for the national system and how its parts fit together.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "closeMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/enterprise-architecture"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "costed-investment-plan",
+      "prefLabel": "Costed investment plan",
+      "definition": "A prioritised, costed roadmap from today's systems to the blueprint.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "digital-implementation-investment-guide",
+      "prefLabel": "Digital Implementation Investment Guide",
+      "altLabel": [
+        "DIIG"
+      ],
+      "notation": "DIIG",
+      "definition": "WHO Digital Implementation Investment Guide. Steps to plan, cost and integrate digital health investments.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-implementation-investment-guide",
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-implementation-investment-guide"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "technical-working-group",
+      "prefLabel": "Technical working group",
+      "altLabel": [
+        "TWG"
+      ],
+      "notation": "TWG",
+      "definition": "Coordinates standards and architecture decisions across government and partners.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/technical-working-group"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "decision-rights",
+      "prefLabel": "Decision rights",
+      "definition": "Who has authority over architecture, standards, the core data set and the trust anchor.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "procurement-conditions",
+      "prefLabel": "Procurement conditions",
+      "definition": "Requirements written into tenders, such as conformance to the national IG, that steer what suppliers build.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "total-cost-of-ownership",
+      "prefLabel": "Total cost of ownership",
+      "altLabel": [
+        "TCO"
+      ],
+      "notation": "TCO",
+      "definition": "Build costs plus running costs over a system's whole life.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it. Matters most on canvas Sheet 6.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/total-cost-of-ownership"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "vendor-lock-in",
+      "prefLabel": "Vendor lock-in",
+      "definition": "Dependence on one supplier because data formats or interfaces are closed.",
+      "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "expanded-programme-on-immunization",
+      "prefLabel": "Expanded Programme on Immunization",
+      "altLabel": [
+        "EPI"
+      ],
+      "notation": "EPI",
+      "definition": "The national immunization programme.",
+      "scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "adverse-event-following-immunization",
+      "prefLabel": "Adverse event following immunization",
+      "altLabel": [
+        "AEFI"
+      ],
+      "notation": "AEFI",
+      "definition": "Any health problem after vaccination, reported for safety monitoring.",
+      "scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/adverse-events-following-immunization"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "dose-number-and-series",
+      "prefLabel": "Dose number and series",
+      "altLabel": [
+        "Dose number",
+        "Total doses in series"
+      ],
+      "definition": "Which dose this is, out of how many in the schedule. Needed to work out what is due next.",
+      "scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "batch-number",
+      "prefLabel": "Batch number",
+      "altLabel": [
+        "Lot number"
+      ],
+      "definition": "Identifies the production batch of a vaccine. Needed for recalls and safety checks.",
+      "scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "logistics-management-information-system",
+      "prefLabel": "Logistics management information system",
+      "altLabel": [
+        "LMIS",
+        "Cold chain"
+      ],
+      "notation": "LMIS",
+      "definition": "Tracks vaccine stock; the cold chain keeps vaccines at the right temperature.",
+      "scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "who",
+      "prefLabel": "World Health Organization",
+      "altLabel": [
+        "WHO"
+      ],
+      "notation": "WHO",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/world-health-organization"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "itu",
+      "prefLabel": "International Telecommunication Union",
+      "altLabel": [
+        "ITU"
+      ],
+      "notation": "ITU",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-telecommunications-union"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "aehin",
+      "prefLabel": "Asia eHealth Information Network",
+      "altLabel": [
+        "AeHIN"
+      ],
+      "notation": "AeHIN",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/asia-ehealth-information-network"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "adb",
+      "prefLabel": "Asian Development Bank",
+      "altLabel": [
+        "ADB"
+      ],
+      "notation": "ADB",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "world-bank",
+      "prefLabel": "World Bank",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "csiro",
+      "prefLabel": "CSIRO",
+      "definition": "Australia's national science agency.",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "unicc",
+      "prefLabel": "UN International Computing Centre",
+      "altLabel": [
+        "UNICC"
+      ],
+      "notation": "UNICC",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "unicef",
+      "prefLabel": "UN Children's Fund",
+      "altLabel": [
+        "UNICEF"
+      ],
+      "notation": "UNICEF",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/unicef"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "moph-thailand",
+      "prefLabel": "Ministry of Public Health, Thailand",
+      "altLabel": [
+        "MoPH"
+      ],
+      "notation": "MoPH",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "hl7",
+      "prefLabel": "HL7",
+      "altLabel": [
+        "Health Level Seven International"
+      ],
+      "definition": "Standards body for FHIR.",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "exactMatch": [
+        "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-level-seven"
+      ],
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "snomed-international",
+      "prefLabel": "SNOMED International",
+      "definition": "Owner of SNOMED CT.",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    },
+    {
+      "id": "openehr-foundation",
+      "prefLabel": "openEHR Foundation",
+      "scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "status": "candidate"
+    }
+  ]
+}

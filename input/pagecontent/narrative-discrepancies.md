@@ -2,7 +2,7 @@ This page lists every place where the site's journeys differ from the policy-mak
 
 The names and countries already match. Both tell the story of Khamla, Somsak and Bounmy, Vilay, Nurse Chanthason and Dr Anan, in Onesa and Taifafeki, with Hep B and BCG birth doses, a GDHCN trust list and a 12-month return to Taifafeki. Somsak's birth date on the site, 2025-10-28, is a Tuesday, as the deck says.
 
-Two sources are still to be reviewed: the editable country canvas (A3) and the DPI-H glossary for the policy-maker track. Rows for them will be added here when they are.
+The editable [Country Canvas](country-canvas.html) (A3) and the policy-maker track's [glossary](glossary.html) are reviewed in sections D and E.
 
 ### A. The site differs from the deck
 
@@ -51,3 +51,36 @@ Two sources are still to be reviewed: the editable country canvas (A3) and the D
 |---|---|
 | C1 | Slide 26 names real countries (Saudi Arabia, Malaysia, Indonesia, Oman) as examples of a narrow start. That is fine for a policy deck. The site's own pilgrimage journey keeps to the two fictional countries |
 | C2 | The deck's four journeys map to the site's steps as J1 → J1; J2 → J2a, J2b; J3 → J3a, J3b; J4 → J4.0a, J4.0b, J4.1. The [module × journey map](module-journey-map.html) uses the site's steps |
+
+### D. The Country Canvas
+
+The canvas now replaces the viewer's table sheets: the sheet titles and write-in fields, the cover, the three patterns, the legal bases and the cost drivers were aligned to it, and modules M6 and M7 take the canvas's (and the deck's) names. What is left:
+
+| # | Where | Discrepancy | Proposed resolution |
+|---|---|---|---|
+| D1 | Sheet 1, journey | Touchpoint titles *Vaccinated and recorded*, *Found and registered*, *A foreign record used for the next vaccine*, *Continuity across border*: these settle B1 (J1) but differ again from the deck for J2 (*…at home*) and J3 (the deck's story slide says *…trusted at the clinic*) | Take the canvas's four titles everywhere (deck, site, viewer) |
+| D2 | Sheet 1, capabilities | The *Touchpoints* column offers 1 · 2 · 3 · 4 · **5**; there are four touchpoints (compare B9, "Journey 5") | Drop 5, or add the fifth touchpoint it was meant for |
+| D3 | Sheet 1, touchpoint 1 | "Vaccinated abroad, and leaves with a paper card and a QR code" (one card) | See A5: the site issues one signed card per dose |
+| D4 | Sheet 1, touchpoint 4 | "Checked at a paediatrician office … any verifier can check it": the IPS story fetches the record from Onesa, so a verifier needs Onesa's gateway | See B7, B8 |
+| D5 | Sheet 1, touchpoint 3 | "…can be read here. the schedule logic…" | Capitalise "The" |
+| D6 | Sheets 1 to 6, header | "Bangkok · [Dates]" is a placeholder; the cover has "30 Nov & 1 Dec 2026" | Fill in the dates |
+| D7 | Sheet 4, legal basis | Three rows (data protection, cross-border, consent for minors); the workshop had two | Done: the workshop's legal-bases table now has the canvas's three |
+| D8 | Sheet 6, cost drivers | Six drivers, including *Training and change management*; the workshop had five, and called the last *The cost of not doing it once* (regionally), where the canvas says *The cost of not doing it* | Training added; decide whether the last driver means "not at all" or "not once, together" |
+| D9 | Sheet 2 | The capability list on Sheet 1 has no notifications or consent block, but Sheet 2 and the deck's J2 (reminder) use them | Add them to Sheet 1, or leave Sheet 1 short on purpose |
+| D10 | Throughout | Sheet titles are in Title Case (*Our Journey and Where It Breaks*), the *How the canvas works* table in sentence case | One case; the site uses sentence case |
+
+### E. The glossary
+
+77 terms. 45 match a term in the DPI-H RA (smart-ra) or the DTH-PHC (dth-phc) glossary exactly, a few more closely; the rest are the workshop's own. The DTH-PHC glossary is linked from litlfred/dth-phc until it moves to WorldHealthOrganization/dth-phc.
+
+| # | Term | Discrepancy | Proposed resolution |
+|---|---|---|---|
+| E1 | Client registry (MPI) | The handout makes MPI the client registry's acronym; the DPI-H RA has Client Registry (CR) and Master Patient Index as two concepts | Write "also called a master patient index" rather than an acronym |
+| E2 | AEFI | "Adverse event following immunization" (singular); the RA: "Adverse Events Following Immunization" | Either; WHO uses the singular in the glossary sense |
+| E3 | Missing terms the journeys use | DVC (digital vaccination certificate), HCERT, VHL (Verifiable Health Link), DSC (document signer certificate), trust network participant, provenance: the site's step pages use them; the handout does not | Add a short "in the demonstrator" block to the glossary, or map each to its nearest handout term (DVC → VC, VHL → consent + IPS) |
+| E4 | Facility, workforce and product registries | One handout term for three RA concepts | Keep; it is linked to all three (*covers*) |
+| E5 | Decision support engine | The RA's term is *Computable Decision Support Engine* | Keep the plain term; linked as *close to* |
+| E6 | Core data set | No RA or DTH-PHC term; nearest are *National Health Data Dictionary* and *Data Dictionary* | Propose *core data set* to the RA glossary |
+| E7 | Trust anchor, trust list, verifiable credential, digital wallet | No RA or DTH-PHC term; the SMART Trust guide defines them | Link to SMART Trust's definitions when its glossary is published as SKOS |
+| E8 | Organisations | ADB, World Bank, CSIRO, UNICC, MoPH Thailand, SNOMED International and the openEHR Foundation are in neither glossary | Propose them to smart-ra's organizations scheme |
+

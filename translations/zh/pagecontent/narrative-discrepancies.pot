@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T09:30:07.746Z\n"
+"POT-Creation-Date: 2026-11-16T09:49:18.279Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -13,6 +13,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: input/pagecontent/narrative-discrepancies.md:65
+msgid "\"…can be read here. the schedule logic…\""
+msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:16
 msgid "“3 weeks later”"
@@ -34,8 +38,20 @@ msgstr ""
 msgid "“across a border”"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:79
+msgid "\"Adverse event following immunization\" (singular); the RA: \"Adverse Events Following Immunization\""
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:44
 msgid "“At a glance” is a placeholder: “To attach the scenario and illustration from git webpage”"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:66
+msgid "\"Bangkok · [Dates]\" is a placeholder; the cover has \"30 Nov & 1 Dec 2026\""
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:64
+msgid "\"Checked at a paediatrician office … any verifier can check it\": the IPS story fetches the record from Onesa, so a verifier needs Onesa's gateway"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:35
@@ -70,6 +86,14 @@ msgstr ""
 msgid "“Taifafekis health authority” (no apostrophe); “Both countries is connected”"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:63
+msgid "\"Vaccinated abroad, and leaves with a paper card and a QR code\" (one card)"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:74
+msgid "77 terms. 45 match a term in the DPI-H RA (smart-ra) or the DTH-PHC (dth-phc) glossary exactly, a few more closely; the rest are the workshop's own. The DTH-PHC glossary is linked from litlfred/dth-phc until it moves to WorldHealthOrganization/dth-phc."
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:12
 msgid "A citizen of Onesa, working in neighbouring Taifafeki"
 msgstr ""
@@ -94,6 +118,10 @@ msgstr ""
 msgid "A. The site differs from the deck"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:85
+msgid "ADB, World Bank, CSIRO, UNICC, MoPH Thailand, SNOMED International and the openEHR Foundation are in neither glossary"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:20
 msgid "Add a CRVS notification to J2b (a FHIR message or task), or say the site leaves it out"
 msgstr ""
@@ -102,12 +130,24 @@ msgstr ""
 msgid "Add a J2 reminder, or move the deck's reminder to the referral"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:80
+msgid "Add a short \"in the demonstrator\" block to the glossary, or map each to its nearest handout term (DVC → VC, VHL → consent + IPS)"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:19
 msgid "Add the national-ID search to J2b; decide whether Bounmy (deck: not in J2) or Khamla confirms"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:69
+msgid "Add them to Sheet 1, or leave Sheet 1 short on purpose"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:19
 msgid "Adds Somsak to the Sengmany household with a temporary id; Bounmy confirms as head of household"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:79
+msgid "AEFI"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:12
@@ -122,12 +162,28 @@ msgstr ""
 msgid "C. Not a discrepancy, worth a check"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:65
+msgid "Capitalise \"The\""
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:78
+msgid "Client registry (MPI)"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:25
 msgid "Compatible. Mention the link and the audit in the deck, or keep it out of the policy story"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:26
 msgid "Compatible. Pick “paediatrician” or “primary care”"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:83
+msgid "Core data set"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:55
+msgid "D. The Country Canvas"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:12
@@ -146,8 +202,21 @@ msgstr ""
 msgid "Decide. The site's version is what the library tests (DVCMinPreQual, STT-PAY-005)"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:82
+msgid "Decision support engine"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:9
 msgid "Deck (reference)"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:59
+#: input/pagecontent/narrative-discrepancies.md:76
+msgid "Discrepancy"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:67
+msgid "Done: the workshop's legal-bases table now has the canvas's three"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:13
@@ -160,6 +229,30 @@ msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:36
 msgid "Dr Anan, as on the site and in J4 (the same doctor sees him a year later)"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:62
+msgid "Drop 5, or add the fifth touchpoint it was meant for"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:80
+msgid "DVC (digital vaccination certificate), HCERT, VHL (Verifiable Health Link), DSC (document signer certificate), trust network participant, provenance: the site's step pages use them; the handout does not"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:72
+msgid "E. The glossary"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:79
+msgid "Either; WHO uses the singular in the glossary sense"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:81
+msgid "Facility, workforce and product registries"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:66
+msgid "Fill in the dates"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:43
@@ -238,8 +331,16 @@ msgstr ""
 msgid "Keep on the site (it drives M3 and M6), or drop it to match the deck"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:82
+msgid "Keep the plain term; linked as close to"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:15
 msgid "Keep two cards (one HCERT per dose is how the DVC works) and change the deck to “cards”, or add a note. Decide whether an Onesan mother has a Taifafeki citizen app"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:81
+msgid "Keep; it is linked to all three (covers)"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:37
@@ -250,12 +351,28 @@ msgstr ""
 msgid "Late birth registration"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:84
+msgid "Link to SMART Trust's definitions when its glossary is published as SKOS"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:42
 msgid "M3 “data elements in Journeys 1 and 4”"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:41
 msgid "M4 “who verifies (Journeys 3 and 5)”"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:80
+msgid "Missing terms the journeys use"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:83
+msgid "No RA or DTH-PHC term; nearest are National Health Data Dictionary and Data Dictionary"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:84
+msgid "No RA or DTH-PHC term; the SMART Trust guide defines them"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:20
@@ -272,6 +389,14 @@ msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:24
 msgid "Nurse Chanthason makes the clinical call; it is added to the national map (J3b)"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:70
+msgid "One case; the site uses sentence case"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:81
+msgid "One handout term for three RA concepts"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:37
@@ -291,8 +416,20 @@ msgstr ""
 msgid "Onesa's FHIR"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:85
+msgid "Organisations"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:18
 msgid "Pick one place name"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:83
+msgid "Propose core data set to the RA glossary"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:85
+msgid "Propose them to smart-ra's organizations scheme"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:31
@@ -300,6 +437,8 @@ msgid "Proposed fix to the deck"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:9
+#: input/pagecontent/narrative-discrepancies.md:59
+#: input/pagecontent/narrative-discrepancies.md:76
 msgid "Proposed resolution"
 msgstr ""
 
@@ -319,6 +458,10 @@ msgstr ""
 msgid "Searches the client registry by Khamla's national ID, registers Somsak as her child"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:63
+msgid "See A5: the site issues one signed card per dose"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:13
 msgid "See B4. The site matches slide 4"
 msgstr ""
@@ -327,8 +470,56 @@ msgstr ""
 msgid "See B5"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:64
+msgid "See B7, B8"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:62
+msgid "Sheet 1, capabilities"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:61
+msgid "Sheet 1, journey"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:63
+msgid "Sheet 1, touchpoint 1"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:65
+msgid "Sheet 1, touchpoint 3"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:64
+msgid "Sheet 1, touchpoint 4"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:69
+msgid "Sheet 2"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:67
+msgid "Sheet 4, legal basis"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:68
+msgid "Sheet 6, cost drivers"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:70
+msgid "Sheet titles are in Title Case (Our Journey and Where It Breaks), the How the canvas works table in sentence case"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:66
+msgid "Sheets 1 to 6, header"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:9
 msgid "Site today"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:68
+msgid "Six drivers, including Training and change management; the workshop had five, and called the last The cost of not doing it once (regionally), where the canvas says The cost of not doing it"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:52
@@ -359,6 +550,22 @@ msgstr ""
 msgid "Somsak's identifier at birth"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:61
+msgid "Take the canvas's four titles everywhere (deck, site, viewer)"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:76
+msgid "Term"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:57
+msgid "The canvas now replaces the viewer's table sheets: the sheet titles and write-in fields, the cover, the three patterns, the legal bases and the cost drivers were aligned to it, and modules M6 and M7 take the canvas's (and the deck's) names. What is left:"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:69
+msgid "The capability list on Sheet 1 has no notifications or consent block, but Sheet 2 and the deck's J2 (reminder) use them"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:21
 msgid "The CHW app schedules a reminder"
 msgstr ""
@@ -367,8 +574,16 @@ msgstr ""
 msgid "The deck's four journeys map to the site's steps as J1 → J1; J2 → J2a, J2b; J3 → J3a, J3b; J4 → J4.0a, J4.0b, J4.1. The <a0>module × journey map</a0> uses the site's steps"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:5
+msgid "The editable <a0>Country Canvas</a0> (A3) and the policy-maker track's <a1>glossary</a1> are reviewed in sections D and E."
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:25
 msgid "The family shares Somsak's IPS with consent; Dr Anan reads it"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:78
+msgid "The handout makes MPI the client registry's acronym; the DPI-H RA has Client Registry (CR) and Master Patient Index as two concepts"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:24
@@ -383,12 +598,20 @@ msgstr ""
 msgid "The paper card and the record on her phone"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:82
+msgid "The RA's term is Computable Decision Support Engine"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:25
 msgid "The same, through a passcode-protected Verifiable Health Link (4 digits, 14 days), every view logged in Onesa"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:43
 msgid "The site counts a child born abroad into the coverage denominator at J2 (M2). Mark J2 too, or say why not"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:62
+msgid "The Touchpoints column offers 1 · 2 · 3 · 4 · 5; there are four touchpoints (compare B9, \"Journey 5\")"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:23
@@ -403,7 +626,12 @@ msgstr ""
 msgid "This page lists every place where the site's journeys differ from the policy-maker track's shared story deck, The Immunization Journey: End-to-End Use Case Narrative (M1, 30 November and 1 December 2026, 30 slides). The deck is the reference for names, countries and story. Nothing on the site has been changed to match it yet. Each row needs a decision first: change the site, change the deck, or keep both as they are."
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:67
+msgid "Three rows (data protection, cross-border, consent for minors); the workshop had two"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:46
+#: input/pagecontent/narrative-discrepancies.md:70
 msgid "Throughout"
 msgstr ""
 
@@ -411,16 +639,24 @@ msgstr ""
 msgid "Topic"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:61
+msgid "Touchpoint titles Vaccinated and recorded, Found and registered, A foreign record used for the next vaccine, Continuity across border: these settle B1 (J1) but differ again from the deck for J2 (…at home) and J3 (the deck's story slide says …trusted at the clinic)"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:68
+msgid "Training added; decide whether the last driver means \"not at all\" or \"not once, together\""
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:40
 msgid "True for a signed certificate, not for the IPS, which is fetched from Onesa. Rewrite with B7"
 msgstr ""
 
-#: input/pagecontent/narrative-discrepancies.md:15
-msgid "Two paper DVCs, one per dose; no Taifafeki citizen app"
+#: input/pagecontent/narrative-discrepancies.md:84
+msgid "Trust anchor, trust list, verifiable credential, digital wallet"
 msgstr ""
 
-#: input/pagecontent/narrative-discrepancies.md:5
-msgid "Two sources are still to be reviewed: the editable country canvas (A3) and the DPI-H glossary for the policy-maker track. Rows for them will be added here when they are."
+#: input/pagecontent/narrative-discrepancies.md:15
+msgid "Two paper DVCs, one per dose; no Taifafeki citizen app"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:17
@@ -448,6 +684,10 @@ msgstr ""
 msgid "What Khamla shows in J3"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:59
+msgid "Where"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:22
 msgid "Where “reported, not verified” happens"
 msgstr ""
@@ -462,4 +702,8 @@ msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:13
 msgid "Who gives the birth doses"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:78
+msgid "Write \"also called a master patient index\" rather than an acronym"
 msgstr ""
