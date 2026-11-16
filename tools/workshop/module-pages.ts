@@ -30,6 +30,7 @@ const canvas = read("workshops/country-canvas.json");
 const map = ws.matrix;
 const use = read("workshops/glossary-use.json");
 const glossary = read("glossary/dpi-h-policy-track.glossary.json");
+const schedule: { days: { day: number; shared: { time: string; end: string; kind: string; title: string; note?: string }[]; policy: { time: string; end: string; module: string }[] }[] } = read("workshops/schedule.json");
 const materials: { title: string; kind: string; href: string; what: string; also?: { label: string; href: string }[] }[] = read("workshops/materials.json").materials;
 
 type Mod = { id: string; title: string; day?: number; carries?: string; sheet?: string };
@@ -123,7 +124,7 @@ const CSS = `<style>
 .ws-sheet{font-size:12px;font-weight:700;padding:3px 8px;border-radius:99px;background:var(--ws-teal-soft);color:var(--ws-teal)}
 .ws-mod .ws-steps{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto}
 .ws-mod .ws-steps span{font-size:12px;font-weight:700;padding:2px 7px;border-radius:5px;background:var(--ws-navy);color:#fff}
-.ws-mod.ph{background:var(--ws-soft);border-style:dashed}\n.ws-q{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-right:6px;color:var(--ws-teal)}\n.ws-who{font-size:14px;color:var(--ws-muted)}\n.ws-confirm{font-size:13px;color:var(--ws-pol);background:var(--ws-amber);border-radius:6px;padding:4px 8px;align-self:flex-start}\n.ws-muted{color:var(--ws-muted);font-size:14px}\n.ws-daysum{text-transform:none;letter-spacing:0;font-weight:400}
+.ws-mod.ph{background:var(--ws-soft);border-style:dashed}\n.ws-cal-wrap{overflow-x:auto;margin:0 0 8px}\n.ws-cal{display:grid;grid-template-columns:64px minmax(260px,1fr) minmax(260px,1fr);gap:4px;min-width:620px}\n.ws-cal-h{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ws-muted);padding:4px 6px}\n.ws-cal-t{font-size:12px;font-variant-numeric:tabular-nums;color:var(--ws-muted);padding:6px 4px;border-top:1px solid var(--ws-line)}\n.ws-cal-i{border-radius:8px;padding:6px 10px;display:flex;flex-direction:column;gap:2px;font-size:13px;line-height:1.35;border:1px solid var(--ws-line);background:#fff}\n.ws-cal-i a{text-decoration:none;color:inherit!important;display:flex;flex-direction:column;gap:2px}\n.ws-cal-i a:hover b{text-decoration:underline}\n.ws-cal-i small{color:var(--ws-muted)}\n.ws-cal-time{font-size:11px;font-variant-numeric:tabular-nums;color:var(--ws-muted)}\n.ws-cal-tag{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}\n.k-joint{background:var(--ws-navy);border-color:var(--ws-navy);color:#fff}\n.k-joint small,.k-joint .ws-cal-time{color:#dfe6f2}\n.k-break{background:var(--ws-soft);border-style:dashed;color:var(--ws-muted)}\n.k-logistics{background:var(--ws-soft);color:var(--ws-muted)}\n.k-policy{background:var(--ws-amber);border-color:#f1d7a6}\n.k-policy .ws-cal-tag{color:var(--ws-pol)}\n.k-tech{background:#e7eef9;border-color:#c9d8ef}\n.k-tech .ws-cal-tag{color:var(--ws-tech)}\n.ws-q{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-right:6px;color:var(--ws-teal)}\n.ws-who{font-size:14px;color:var(--ws-muted)}\n.ws-confirm{font-size:13px;color:var(--ws-pol);background:var(--ws-amber);border-radius:6px;padding:4px 8px;align-self:flex-start}\n.ws-muted{color:var(--ws-muted);font-size:14px}\n.ws-daysum{text-transform:none;letter-spacing:0;font-weight:400}
 </style>`;
 
 /** The Policy | Technical switch, and both tracks by day, the current module marked. */
@@ -142,6 +143,34 @@ function bar(current: string): string {
 }
 const more = (links: [string, string][]) => `<p class="ws-more">${links.map(([l, h]) => `<a href="${e(h)}">${e(l)}</a>`).join("")}</p>`;
 
+/** The two days as a calendar: time down the side, the policy and technical tracks side by side, shared rows (joint sessions, breaks, logistics) across both. */
+function calendar(): string {
+  const out: string[] = [];
+  for (const d of schedule.days) {
+    type Item = { time: string; end: string; col: "both" | "policy" | "tech"; kind: string; html: string };
+    const items: Item[] = [];
+    for (const x of d.shared) items.push({ time: x.time, end: x.end, col: "both", kind: x.kind, html: `<b>${e(x.title)}</b>${x.note ? `<small>${e(x.note)}</small>` : ""}` });
+    for (const j of (tech.joint ?? []).filter((x: any) => x.day === d.day)) items.push({ time: j.time, end: j.end, col: "both", kind: "joint", html: `<span class="ws-cal-tag">Joint · both tracks</span><b>${e(j.title)}</b><small>${e(j.leads)}${j.confirm ? ` · ${e(j.confirm)}` : ""}</small>` });
+    for (const p of d.policy) {
+      const m = mods.find((x) => x.id === p.module)!;
+      const sh = sheets.get(m.sheet!);
+      items.push({ time: p.time, end: p.end, col: "policy", kind: "policy", html: `<a href="${page(m.id)}"><span class="ws-cal-tag">${m.id}${sh ? ` · Sheet ${sh.n}` : ""}</span><b>${e(m.title)}</b></a><small>Time proposed</small>` });
+    }
+    for (const t of tmods.filter((x) => x.day === d.day))
+      for (const x of t.sessions ?? []) items.push({ time: x.time, end: x.end, col: "tech", kind: "tech", html: `<a href="${page(t.id)}"><span class="ws-cal-tag">${t.id} · ${e(x.type)}</span><b>${e(x.title)}</b></a><small>${e(x.leads.join(", "))}${x.confirm ? ` · ${e(x.confirm)}` : ""}</small>` });
+    const marks = [...new Set(items.flatMap((i) => [i.time, i.end]))].sort();
+    const row = (t: string) => marks.indexOf(t) + 2;
+    const cells: string[] = [`<div class="ws-cal-h" style="grid-column:1">Time</div><div class="ws-cal-h" style="grid-column:2">Policy track</div><div class="ws-cal-h" style="grid-column:3">Technical track</div>`];
+    marks.slice(0, -1).forEach((t, i) => cells.push(`<div class="ws-cal-t" style="grid-row:${i + 2};grid-column:1">${t}</div>`));
+    for (const i of items) {
+      const col = i.col === "both" ? "2 / 4" : i.col === "policy" ? "2" : "3";
+      cells.push(`<div class="ws-cal-i k-${i.kind}" style="grid-row:${row(i.time)} / ${row(i.end)};grid-column:${col}"><span class="ws-cal-time">${i.time}–${i.end}</span>${i.html}</div>`);
+    }
+    out.push(`<p class="ws-day">${DAYS[d.day]}</p><div class="ws-cal-wrap"><div class="ws-cal" style="grid-template-rows:auto repeat(${marks.length - 1}, minmax(34px, auto))">${cells.join("")}</div></div>`);
+  }
+  return `<h3 id="two-days">The two days</h3><p>Policy and technical tracks side by side; joint sessions, breaks and logistics run across both. The technical and joint times are the draft technical schedule's; the policy modules' times are proposed, to confirm with the policy track.</p>${out.join("")}`;
+}
+
 const files: Record<string, string> = {};
 
 // ── the hub ─────────────────────────────────────────────────────────────
@@ -149,6 +178,7 @@ const files: Record<string, string> = {};
   const H: string[] = [];
   H.push(`<div class="ws">`, bar("hub"));
   H.push(`<header class="ws-head"><span class="ws-kicker">DPI-H for Health workshop · Convergence Bangkok 2026</span><h2>Two tracks, seven modules each, one journey</h2><p class="ws-carries">Each policy module asks one question of the journey and fills one sheet of the Country Canvas. Each technical module is paired with the policy module of the same number.</p></header>`);
+  H.push(calendar());
   H.push(`<h3 id="policy-track">Policy track</h3>`);
   for (const d of [1, 2]) {
     H.push(`<p class="ws-day">${DAYS[d]}</p><div class="ws-cards">`);

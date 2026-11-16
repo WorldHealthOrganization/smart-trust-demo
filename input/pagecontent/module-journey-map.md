@@ -2,12 +2,13 @@
 
 Each module of the policy-maker track asks one question of the same story. This page shows where each policy module (M1 to M7), and then each technical module (T1 to T7), meets a step of the journeys (J1 to J4.1), and, at each meeting point, **what the system does** there and the **policy question** the table answers about it, for its own country. The same map is the *Modules × journey* step of the journeys viewer's Discussion tab.
 
-● = the module's question is asked at this step in the walkthrough. ○ = the module draws on this step without asking there.
+● = the policy module's question is asked at this step in the walkthrough. ○ = the policy module draws on this step without asking there. ◆ = the technical module works with this step (its technical question and what the system does there are under *The technical track* below).
 
 ### The map
 
 | Module | Sheet | J1 | J2a | J2b | J3a | J3b | J4.0a | J4.0b | J4.1 |
 |---|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| ***Policy track*** | |  |  |  |  |  |  |  |  |
 | **M1** From journey to capabilities | Sheet 1 | ● | ○ | ○ | ● | ○ |  | ○ | ○ |
 | **M2** The reference architecture and where you stand | Sheet 2 | ○ |  | ● | ○ |  |  | ○ |  |
 | **M3** Standards, specifications and the core data set | Sheet 3 | ○ | ● |  |  | ● |  | ○ |  |
@@ -15,6 +16,14 @@ Each module of the policy-maker track asks one question of the same story. This 
 | **M5** Governance, decision rights and the legal basis | Sheet 4 | ● |  | ● |  |  | ● | ● | ● |
 | **M6** Doing it together | Sheet 5 |  |  |  | ○ | ● |  | ● | ● |
 | **M7** First move and the investment required | Sheet 6 | ○ |  |  | ○ |  |  |  | ● |
+| ***Technical track*** | |  |  |  |  |  |  |  |  |
+| **T1** Building with FHIR and the Open Health Stack | serves M1 | ◆ |  |  |  | ◆ |  | ◆ |  |
+| **T2** Offline data capture | serves M3 |  | ◆ | ◆ |  |  |  |  |  |
+| **T3** Trust between countries: SMART Trust and the GDHCN | serves M4 | ◆ |  |  | ◆ |  |  |  | ◆ |
+| **T4** Workflows, sync and who sees what | serves M5 |  |  | ◆ |  | ◆ |  | ◆ | ◆ |
+| **T5** From records to charts | serves M2 |  |  | ◆ |  | ◆ |  |  | ◆ |
+| **T6** Verifying a card, sharing a link | serves M6 |  |  |  | ◆ |  |  | ◆ | ◆ |
+| **T7** Team build, showcase and the journey together | serves M7 |  |  | ◆ | ◆ |  | ◆ |  | ◆ |
 {: .grid }
 
 ### Where they meet
