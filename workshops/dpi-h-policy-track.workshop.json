@@ -942,207 +942,207 @@
         "module": "M1",
         "step": "J1",
         "technical": "Hospital immunization record; one DVC per birth dose, signed by Taifafeki's document signer.",
-        "policy": "The country writes its own use-case statement: which child, which record, which border."
+        "policy": "Which child, which record and which border would your country's use case cover?"
       },
       {
         "module": "M1",
         "step": "J2a",
         "kind": "draws",
         "technical": "Offline CHW app reads the cards without verifying them.",
-        "policy": "Where the domestic journey breaks first: a child no national system knows exists."
+        "policy": "Where does your own journey break first: is there a stage where no national system knows the child exists?"
       },
       {
         "module": "M1",
         "step": "J2b",
         "kind": "draws",
         "technical": "Client registry holds a child with no birth record; referral to the clinic.",
-        "policy": "Works / Partly / Breaks for a child born abroad."
+        "policy": "For a child born abroad, does each touchpoint in your country work, partly work, or break today?"
       },
       {
         "module": "M1",
         "step": "J3a",
         "technical": "Signature checked offline against the cached GDHCN trust list.",
-        "policy": "What must be true for a nurse to trust a record she did not create."
+        "policy": "What must be true before a nurse trusts a vaccination record she did not create?"
       },
       {
         "module": "M1",
         "step": "J3b",
         "kind": "draws",
         "technical": "Product code mapping and the computable national schedule.",
-        "policy": "Whether a dose given abroad counts at home."
+        "policy": "Does a dose given abroad count toward your national schedule?"
       },
       {
         "module": "M1",
         "step": "J4.0b",
         "kind": "draws",
         "technical": "National portal issues a passcode-protected link to the IPS and DVCs.",
-        "policy": "Whether the family, not the state, starts the sharing."
+        "policy": "Should the family or the state decide when a child's record is shared?"
       },
       {
         "module": "M1",
         "step": "J4.1",
         "kind": "draws",
         "technical": "Point-of-care viewer reads the whole first year from Onesa.",
-        "policy": "Continuity across a border as the use case's end point."
+        "policy": "Is continuity of the record across a border the end point of your use case?"
       },
       {
         "module": "M2",
         "step": "J1",
         "kind": "draws",
         "technical": "Facility EMR, product registry, immunization registry, trust services.",
-        "policy": "Which national block each of these maps to, and whether it exists."
+        "policy": "Which block of your national architecture does each of these systems map to, and does it exist today?"
       },
       {
         "module": "M2",
         "step": "J2b",
         "technical": "Client registry, CRVS link, offline CHW app, facility registry for the catchment.",
-        "policy": "Which block issues a child's first identifier; how a birth abroad enters the registries and the coverage denominator."
+        "policy": "Which block gives a child their first identifier, and how does a birth abroad enter your registries and your coverage denominator?"
       },
       {
         "module": "M2",
         "step": "J3a",
         "kind": "draws",
         "technical": "Clinic EHR as a verifier; trust store loaded from the national trust anchor.",
-        "policy": "Whether verification sits in each clinic or in one national service."
+        "policy": "Should a foreign record be verified in each clinic, or by one national service?"
       },
       {
         "module": "M2",
         "step": "J4.0b",
         "kind": "draws",
         "technical": "National FHIR server behind a gateway; IPS assembled from the lifelong record.",
-        "policy": "Whether a national record exists for the link to point to."
+        "policy": "Is there a national record for a shared link to point to?"
       },
       {
         "module": "M3",
         "step": "J1",
         "kind": "draws",
         "technical": "Birth-dose data elements: vaccine, product code, batch, date, giver (immunization DAK core data dictionary).",
-        "policy": "Who adopts the core data set rather than designing a national form."
+        "policy": "Will you adopt the immunization core data set, or design your own national form?"
       },
       {
         "module": "M3",
         "step": "J2a",
         "technical": "A core data element that tells a reported dose from a verified one.",
-        "policy": "Who defines that element in the national core data set."
+        "policy": "Who in your country defines the data element that tells a reported dose from a verified one?"
       },
       {
         "module": "M3",
         "step": "J3b",
         "technical": "Terminology service: Taifafeki's product code kept, Onesa's schedule code added beside it; schedule logic over every dose.",
-        "policy": "Who owns the national core data set and cross-country code maps; whether vaccine code licensing is settled."
+        "policy": "Who owns your national core data set and the code maps to other countries, and is vaccine code licensing settled?"
       },
       {
         "module": "M3",
         "step": "J4.0b",
         "kind": "draws",
         "technical": "IPS plus an immunization core as the part of the record that crosses borders.",
-        "policy": "Adopt the IPS and the VHL specification; author only national extensions."
+        "policy": "Will you adopt the IPS and the VHL specification as they are, and author only national extensions?"
       },
       {
         "module": "M4",
         "step": "J1",
         "technical": "Document signer certificate (DSC) and its key; HCERT/CWT signing of each DVC.",
-        "policy": "Who signs on behalf of the health sector: hospital, ministry or a national trust service."
+        "policy": "Who signs a vaccination record on behalf of your health sector: the hospital, the ministry, or a national trust service?"
       },
       {
         "module": "M4",
         "step": "J2a",
         "technical": "Read-unverified: the CHW device decodes but does not verify.",
-        "policy": "Who is allowed to verify a foreign credential: a phone, a clinic, or only a national service."
+        "policy": "Who is allowed to verify a foreign credential: a health worker's phone, a clinic, or only a national service?"
       },
       {
         "module": "M4",
         "step": "J3a",
         "technical": "GDHCN trust list (DID documents), cached for offline verification; kid lookup.",
-        "policy": "Who holds the national trust anchor and accepts a foreign signature; what must be decided before onboarding to the GDHCN."
+        "policy": "Who would hold your national trust anchor and accept a foreign signature, and what must be decided before you join the GDHCN?"
       },
       {
         "module": "M4",
         "step": "J4.0a",
         "technical": "Family wallet on one shared phone, one profile and one VHL per member.",
-        "policy": "Whether a wallet is a national service, a private app or both, and who approves apps that hold a record."
+        "policy": "Is a family wallet a national service, a private app or both, and who approves the apps that may hold a record?"
       },
       {
         "module": "M4",
         "step": "J4.1",
         "kind": "draws",
         "technical": "Viewer verifies the VHL's HCERT against Onesa's DSC from the trust list.",
-        "policy": "Who verifies abroad, and what a verifier sees."
+        "policy": "Who verifies your citizens' records abroad, and what may that verifier see?"
       },
       {
         "module": "M5",
         "step": "J1",
         "technical": "Credential issued to a child with no national ID.",
-        "policy": "Legal basis for a facility to issue a health credential to a non-citizen child (decision right: trust anchor; legal basis: consent for dependants)."
+        "policy": "What legal basis lets a facility issue a health credential to a child who is not a citizen and has no national ID?"
       },
       {
         "module": "M5",
         "step": "J2b",
         "technical": "Temporary id created at a home visit, offline.",
-        "policy": "Who may create a health identity for a newborn at a home visit, and on whose consent (decision right: architecture)."
+        "policy": "Who may create a health identity for a newborn at a home visit, and on whose consent?"
       },
       {
         "module": "M5",
         "step": "J4.0a",
         "technical": "Parent holds the child's record on a shared device.",
-        "policy": "Who may hold and share a child's record; the law on dependants."
+        "policy": "Who may hold and share a child's record, and what does your law say about dependants?"
       },
       {
         "module": "M5",
         "step": "J4.0b",
         "technical": "Consent resource recorded; 4-digit passcode; 14-day expiry.",
-        "policy": "Legal basis for opening a home record abroad on consent; procurement clause for IG conformance; who sets link protection."
+        "policy": "What legal basis lets a clinician abroad open a record held at home on the family's consent, and who sets how the link is protected?"
       },
       {
         "module": "M5",
         "step": "J4.1",
         "technical": "AuditEvent logged in Onesa on every access, including failed passcodes.",
-        "policy": "The agreement that every view abroad leaves an entry at home, and who reads it (legal basis: cross-border)."
+        "policy": "What agreement makes every view abroad leave an entry in your home log, and who reads it?"
       },
       {
         "module": "M6",
         "step": "J3a",
         "kind": "draws",
         "technical": "One trust network for every programme that signs credentials.",
-        "policy": "Build once for the region, not for immunization alone."
+        "policy": "Should the trust network be built once for the region and every programme, not for immunization alone?"
       },
       {
         "module": "M6",
         "step": "J3b",
         "technical": "Code map between neighbours' vaccine products.",
-        "policy": "Whether neighbours build one mapping together instead of each building it."
+        "policy": "Should neighbouring countries build one vaccine code map together instead of each building their own?"
       },
       {
         "module": "M6",
         "step": "J4.0b",
         "technical": "Regional IPS + immunization profile with national extensions.",
-        "policy": "Profile once for the region, keep national extensions sovereign."
+        "policy": "Should the part of the record that crosses borders be profiled once for the region, with national extensions left sovereign?"
       },
       {
         "module": "M6",
         "step": "J4.1",
         "technical": "Connectathon test of issuer, gateway and viewer.",
-        "policy": "What the country sends to a regional connectathon within twelve months."
+        "policy": "What would your country bring to a regional connectathon within twelve months?"
       },
       {
         "module": "M7",
         "step": "J1",
         "kind": "draws",
         "technical": "Issuing to the WHO certificate specification.",
-        "policy": "Candidate first move where issuance is missing."
+        "policy": "If your country cannot issue a signed record yet, is that your first move?"
       },
       {
         "module": "M7",
         "step": "J3a",
         "kind": "draws",
         "technical": "GDHCN onboarding and a clinic verifier.",
-        "policy": "Candidate first move where verification is missing; recurrent cost of key management."
+        "policy": "If your clinics cannot verify a foreign record yet, is that your first move, and who pays for key management year after year?"
       },
       {
         "module": "M7",
         "step": "J4.1",
         "technical": "Whichever moment breaks hardest for the country.",
-        "policy": "A twelve-month first move with a named owner, and the cost driver that dominates it."
+        "policy": "What is your twelve-month first move, who owns it, and which cost dominates it?"
       }
     ],
     "overlaps": {

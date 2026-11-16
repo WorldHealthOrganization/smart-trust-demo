@@ -24,13 +24,13 @@
 
 ### Where it meets the journey
 
-| Step | Technical | Policy |
+| Step | What the system does | Policy question for the table |
 |---|---|---|
-| ● [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) An Onesan baby is born in Taifafeki | Hospital immunization record; one DVC per birth dose, signed by Taifafeki's document signer. | The country writes its own use-case statement: which child, which record, which border. |
-| ● [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) The clinic confirms the cards are genuine | Signature checked offline against the cached GDHCN trust list. | What must be true for a nurse to trust a record she did not create. |
+| ● [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) An Onesan baby is born in Taifafeki | Hospital immunization record; one DVC per birth dose, signed by Taifafeki's document signer. | Which child, which record and which border would your country's use case cover? |
+| ● [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) The clinic confirms the cards are genuine | Signature checked offline against the cached GDHCN trust list. | What must be true before a nurse trusts a vaccination record she did not create? |
 {: .grid }
 
-Also draws on: ○ [J2a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/) (Where the domestic journey breaks first: a child no national system knows exists); ○ [J2b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/) (Works / Partly / Breaks for a child born abroad); ○ [J3b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/) (Whether a dose given abroad counts at home); ○ [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) (Whether the family, not the state, starts the sharing); ○ [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) (Continuity across a border as the use case's end point).
+Also draws on: ○ [J2a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/) (Where does your own journey break first: is there a stage where no national system knows the child exists?); ○ [J2b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/) (For a child born abroad, does each touchpoint in your country work, partly work, or break today?); ○ [J3b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/) (Does a dose given abroad count toward your national schedule?); ○ [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) (Should the family or the state decide when a child's record is shared?); ○ [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) (Is continuity of the record across a border the end point of your use case?).
 
 ### Questions for the table
 

@@ -23,14 +23,14 @@
 
 ### Where it meets the journey
 
-| Step | Technical | Policy |
+| Step | What the system does | Policy question for the table |
 |---|---|---|
-| ● [J3b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/) Taifafeki vaccines are fitted to the Onesan schedule | Code map between neighbours' vaccine products. | Whether neighbours build one mapping together instead of each building it. |
-| ● [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) Dad creates a link to share at the clinic | Regional IPS + immunization profile with national extensions. | Profile once for the region, keep national extensions sovereign. |
-| ● [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) A Taifafeki doctor sees the full history | Connectathon test of issuer, gateway and viewer. | What the country sends to a regional connectathon within twelve months. |
+| ● [J3b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/) Taifafeki vaccines are fitted to the Onesan schedule | Code map between neighbours' vaccine products. | Should neighbouring countries build one vaccine code map together instead of each building their own? |
+| ● [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) Dad creates a link to share at the clinic | Regional IPS + immunization profile with national extensions. | Should the part of the record that crosses borders be profiled once for the region, with national extensions left sovereign? |
+| ● [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) A Taifafeki doctor sees the full history | Connectathon test of issuer, gateway and viewer. | What would your country bring to a regional connectathon within twelve months? |
 {: .grid }
 
-Also draws on: ○ [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) (Build once for the region, not for immunization alone).
+Also draws on: ○ [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) (Should the trust network be built once for the region and every programme, not for immunization alone?).
 
 ### Questions for the table
 

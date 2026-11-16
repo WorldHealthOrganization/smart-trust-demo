@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T10:04:37.055Z\n"
+"POT-Creation-Date: 2026-11-16T11:44:20.862Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -82,14 +82,6 @@ msgstr ""
 msgid "Governance: who holds the four decisions"
 msgstr ""
 
-#: input/pagecontent/workshop-m5.md:27
-msgid "Legal basis for a facility to issue a health credential to a non-citizen child (decision right: trust anchor; legal basis: consent for dependants)."
-msgstr ""
-
-#: input/pagecontent/workshop-m5.md:30
-msgid "Legal basis for opening a home record abroad on consent; procurement clause for IG conformance; who sets link protection."
-msgstr ""
-
 #: input/pagecontent/workshop-m5.md:12
 msgid "On the canvas: Sheet 4 · Trust, and who decides"
 msgstr ""
@@ -103,7 +95,7 @@ msgid "Part"
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:25
-msgid "Policy"
+msgid "Policy question for the table"
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:5
@@ -122,20 +114,12 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
-#: input/pagecontent/workshop-m5.md:25
-msgid "Technical"
-msgstr ""
-
 #: input/pagecontent/workshop-m5.md:28
 msgid "Temporary id created at a home visit, offline."
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:44
 msgid "Terms you will hear"
-msgstr ""
-
-#: input/pagecontent/workshop-m5.md:31
-msgid "The agreement that every view abroad leaves an entry at home, and who reads it (legal basis: cross-border)."
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:16
@@ -146,8 +130,24 @@ msgstr ""
 msgid "What agreement makes every view abroad leave an entry in the home country’s log — and who reads it? (<a0>J4.1</a0>)"
 msgstr ""
 
+#: input/pagecontent/workshop-m5.md:31
+msgid "What agreement makes every view abroad leave an entry in your home log, and who reads it?"
+msgstr ""
+
+#: input/pagecontent/workshop-m5.md:30
+msgid "What legal basis lets a clinician abroad open a record held at home on the family's consent, and who sets how the link is protected?"
+msgstr ""
+
+#: input/pagecontent/workshop-m5.md:27
+msgid "What legal basis lets a facility issue a health credential to a child who is not a citizen and has no national ID?"
+msgstr ""
+
 #: input/pagecontent/workshop-m5.md:39
 msgid "What legal basis lets a record held at home be opened by a clinician abroad, on the family’s consent? (<a0>J4.0b</a0>)"
+msgstr ""
+
+#: input/pagecontent/workshop-m5.md:25
+msgid "What the system does"
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:16
@@ -163,7 +163,7 @@ msgid "Who holds each decision — and what legal basis lets the record cross a 
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:28
-msgid "Who may create a health identity for a newborn at a home visit, and on whose consent (decision right: architecture)."
+msgid "Who may create a health identity for a newborn at a home visit, and on whose consent?"
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:37
@@ -171,7 +171,7 @@ msgid "Who may create a health identity for a newborn at a home visit, and on wh
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:29
-msgid "Who may hold and share a child's record; the law on dependants."
+msgid "Who may hold and share a child's record, and what does your law say about dependants?"
 msgstr ""
 
 #: input/pagecontent/workshop-m5.md:38

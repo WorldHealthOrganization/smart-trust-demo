@@ -115,7 +115,7 @@ for (const m of mods) {
   L.push("| Part | Time | What the table does |", "|---|---|---|");
   for (const p of parts) L.push(`| **${cell(p.title)}** | ${p.minutes ? `${p.minutes} min` : ""} | ${cell(p.what)} |`);
   L.push("{: .grid }", "", `[The whole canvas](country-canvas.html) · [Word file (A3)](${canvas.docx}) · [PDF](${canvas.pdf})`, "");
-  L.push("### Where it meets the journey", "", "| Step | Technical | Policy |", "|---|---|---|");
+  L.push("### Where it meets the journey", "", "| Step | What the system does | Policy question for the table |", "|---|---|---|");
   for (const c of asked) L.push(`| ● ${stepLink(c.step)} ${cell(stepTitle.get(c.step) ?? "")} | ${cell(c.technical)} | ${cell(c.policy)} |`);
   L.push("{: .grid }", "");
   if (draws.length) L.push(`Also draws on: ${draws.map((c: any) => `○ ${stepLink(c.step)} (${c.policy.replace(/\.$/, "")})`).join("; ")}.`, "");

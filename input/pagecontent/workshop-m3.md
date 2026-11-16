@@ -24,13 +24,13 @@
 
 ### Where it meets the journey
 
-| Step | Technical | Policy |
+| Step | What the system does | Policy question for the table |
 |---|---|---|
-| ● [J2a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/) A health worker finds the baby — and reads his cards | A core data element that tells a reported dose from a verified one. | Who defines that element in the national core data set. |
-| ● [J3b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/) Taifafeki vaccines are fitted to the Onesan schedule | Terminology service: Taifafeki's product code kept, Onesa's schedule code added beside it; schedule logic over every dose. | Who owns the national core data set and cross-country code maps; whether vaccine code licensing is settled. |
+| ● [J2a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/) A health worker finds the baby — and reads his cards | A core data element that tells a reported dose from a verified one. | Who in your country defines the data element that tells a reported dose from a verified one? |
+| ● [J3b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/) Taifafeki vaccines are fitted to the Onesan schedule | Terminology service: Taifafeki's product code kept, Onesa's schedule code added beside it; schedule logic over every dose. | Who owns your national core data set and the code maps to other countries, and is vaccine code licensing settled? |
 {: .grid }
 
-Also draws on: ○ [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) (Who adopts the core data set rather than designing a national form); ○ [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) (Adopt the IPS and the VHL specification; author only national extensions).
+Also draws on: ○ [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) (Will you adopt the immunization core data set, or design your own national form?); ○ [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) (Will you adopt the IPS and the VHL specification as they are, and author only national extensions?).
 
 ### Questions for the table
 

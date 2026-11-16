@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T10:04:37.051Z\n"
+"POT-Creation-Date: 2026-11-16T11:44:20.857Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -31,7 +31,7 @@ msgid "● <a0>J2b</a0> Registered at home, and referred"
 msgstr ""
 
 #: input/pagecontent/workshop-m2.md:31
-msgid "Also draws on: ○ <a0>J1</a0> (Which national block each of these maps to, and whether it exists); ○ <a1>J3a</a1> (Whether verification sits in each clinic or in one national service); ○ <a2>J4.0b</a2> (Whether a national record exists for the link to point to)."
+msgid "Also draws on: ○ <a0>J1</a0> (Which block of your national architecture does each of these systems map to, and does it exist today?); ○ <a1>J3a</a1> (Should a foreign record be verified in each clinic, or by one national service?); ○ <a2>J4.0b</a2> (Is there a national record for a shared link to point to?)."
 msgstr ""
 
 #: input/pagecontent/workshop-m2.md:28
@@ -59,7 +59,7 @@ msgid "Part"
 msgstr ""
 
 #: input/pagecontent/workshop-m2.md:26
-msgid "Policy"
+msgid "Policy question for the table"
 msgstr ""
 
 #: input/pagecontent/workshop-m2.md:5
@@ -86,10 +86,6 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
-#: input/pagecontent/workshop-m2.md:26
-msgid "Technical"
-msgstr ""
-
 #: input/pagecontent/workshop-m2.md:38
 msgid "Terms you will hear"
 msgstr ""
@@ -100,6 +96,10 @@ msgstr ""
 
 #: input/pagecontent/workshop-m2.md:16
 msgid "Time"
+msgstr ""
+
+#: input/pagecontent/workshop-m2.md:26
+msgid "What the system does"
 msgstr ""
 
 #: input/pagecontent/workshop-m2.md:16
@@ -114,12 +114,12 @@ msgstr ""
 msgid "Where it meets the journey"
 msgstr ""
 
-#: input/pagecontent/workshop-m2.md:35
-msgid "Which block gives this child his first identifier in your country: birth registration, the national ID, or the health client registry? Exists, partial or absent? (<a0>J2b</a0>)"
+#: input/pagecontent/workshop-m2.md:28
+msgid "Which block gives a child their first identifier, and how does a birth abroad enter your registries and your coverage denominator?"
 msgstr ""
 
-#: input/pagecontent/workshop-m2.md:28
-msgid "Which block issues a child's first identifier; how a birth abroad enters the registries and the coverage denominator."
+#: input/pagecontent/workshop-m2.md:35
+msgid "Which block gives this child his first identifier in your country: birth registration, the national ID, or the health client registry? Exists, partial or absent? (<a0>J2b</a0>)"
 msgstr ""
 
 #: input/pagecontent/workshop-m2.md:10

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T10:04:37.049Z\n"
+"POT-Creation-Date: 2026-11-16T11:44:20.855Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -51,7 +51,7 @@ msgid "A child vaccinated in ___ should be able to ___ in ___."
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:33
-msgid "Also draws on: ○ <a0>J2a</a0> (Where the domestic journey breaks first: a child no national system knows exists); ○ <a1>J2b</a1> (Works / Partly / Breaks for a child born abroad); ○ <a2>J3b</a2> (Whether a dose given abroad counts at home); ○ <a3>J4.0b</a3> (Whether the family, not the state, starts the sharing); ○ <a4>J4.1</a4> (Continuity across a border as the use case's end point)."
+msgid "Also draws on: ○ <a0>J2a</a0> (Where does your own journey break first: is there a stage where no national system knows the child exists?); ○ <a1>J2b</a1> (For a child born abroad, does each touchpoint in your country work, partly work, or break today?); ○ <a2>J3b</a2> (Does a dose given abroad count toward your national schedule?); ○ <a3>J4.0b</a3> (Should the family or the state decide when a child's record is shared?); ○ <a4>J4.1</a4> (Is continuity of the record across a border the end point of your use case?)."
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:8
@@ -83,7 +83,7 @@ msgid "Part"
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:27
-msgid "Policy"
+msgid "Policy question for the table"
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:5
@@ -110,20 +110,12 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
-#: input/pagecontent/workshop-m1.md:27
-msgid "Technical"
-msgstr ""
-
 #: input/pagecontent/workshop-m1.md:40
 msgid "Terms you will hear"
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:20
 msgid "The capabilities this journey needs"
-msgstr ""
-
-#: input/pagecontent/workshop-m1.md:29
-msgid "The country writes its own use-case statement: which child, which record, which border."
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:19
@@ -139,11 +131,15 @@ msgid "What had to exist for this moment to work — and where does our version 
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:30
-msgid "What must be true for a nurse to trust a record she did not create."
+msgid "What must be true before a nurse trusts a vaccination record she did not create?"
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:38
 msgid "What must be true for this nurse to trust a record she did not create? (<a0>J3a</a0>)"
+msgstr ""
+
+#: input/pagecontent/workshop-m1.md:27
+msgid "What the system does"
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:16
@@ -152,6 +148,10 @@ msgstr ""
 
 #: input/pagecontent/workshop-m1.md:25
 msgid "Where it meets the journey"
+msgstr ""
+
+#: input/pagecontent/workshop-m1.md:29
+msgid "Which child, which record and which border would your country's use case cover?"
 msgstr ""
 
 #: input/pagecontent/workshop-m1.md:37

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T10:04:37.057Z\n"
+"POT-Creation-Date: 2026-11-16T11:44:20.865Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -43,12 +43,8 @@ msgstr ""
 msgid "8 min"
 msgstr ""
 
-#: input/pagecontent/workshop-m7.md:30
-msgid "A twelve-month first move with a named owner, and the cost driver that dominates it."
-msgstr ""
-
 #: input/pagecontent/workshop-m7.md:33
-msgid "Also draws on: ○ <a0>J1</a0> (Candidate first move where issuance is missing); ○ <a1>J3a</a1> (Candidate first move where verification is missing; recurrent cost of key management)."
+msgid "Also draws on: ○ <a0>J1</a0> (If your country cannot issue a signed record yet, is that your first move?); ○ <a1>J3a</a1> (If your clinics cannot verify a foreign record yet, is that your first move, and who pays for key management year after year?)."
 msgstr ""
 
 #: input/pagecontent/workshop-m7.md:20
@@ -88,7 +84,7 @@ msgid "Part"
 msgstr ""
 
 #: input/pagecontent/workshop-m7.md:28
-msgid "Policy"
+msgid "Policy question for the table"
 msgstr ""
 
 #: input/pagecontent/workshop-m7.md:5
@@ -111,10 +107,6 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
-#: input/pagecontent/workshop-m7.md:28
-msgid "Technical"
-msgstr ""
-
 #: input/pagecontent/workshop-m7.md:39
 msgid "Terms you will hear"
 msgstr ""
@@ -135,8 +127,16 @@ msgstr ""
 msgid "What is realistic in twelve months with the people and money we have — and who owns it?"
 msgstr ""
 
+#: input/pagecontent/workshop-m7.md:30
+msgid "What is your twelve-month first move, who owns it, and which cost dominates it?"
+msgstr ""
+
 #: input/pagecontent/workshop-m7.md:20
 msgid "What it costs, and who could fund it"
+msgstr ""
+
+#: input/pagecontent/workshop-m7.md:28
+msgid "What the system does"
 msgstr ""
 
 #: input/pagecontent/workshop-m7.md:16

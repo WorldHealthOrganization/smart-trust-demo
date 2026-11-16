@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T10:04:37.054Z\n"
+"POT-Creation-Date: 2026-11-16T11:44:20.859Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -47,7 +47,7 @@ msgid "18 min"
 msgstr ""
 
 #: input/pagecontent/workshop-m4.md:33
-msgid "Also draws on: ○ <a0>J4.1</a0> (Who verifies abroad, and what a verifier sees)."
+msgid "Also draws on: ○ <a0>J4.1</a0> (Who verifies your citizens' records abroad, and what may that verifier see?)."
 msgstr ""
 
 #: input/pagecontent/workshop-m4.md:8
@@ -70,6 +70,10 @@ msgstr ""
 msgid "GDHCN trust list (DID documents), cached for offline verification; kid lookup."
 msgstr ""
 
+#: input/pagecontent/workshop-m4.md:30
+msgid "Is a family wallet a national service, a private app or both, and who approves the apps that may hold a record?"
+msgstr ""
+
 #: input/pagecontent/workshop-m4.md:41
 msgid "Is a family wallet a national service, a private app, or both — and who decides which apps may hold a record? (<a0>J4.0a</a0>)"
 msgstr ""
@@ -87,7 +91,7 @@ msgid "Part"
 msgstr ""
 
 #: input/pagecontent/workshop-m4.md:25
-msgid "Policy"
+msgid "Policy question for the table"
 msgstr ""
 
 #: input/pagecontent/workshop-m4.md:5
@@ -110,10 +114,6 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
-#: input/pagecontent/workshop-m4.md:25
-msgid "Technical"
-msgstr ""
-
 #: input/pagecontent/workshop-m4.md:43
 msgid "Terms you will hear"
 msgstr ""
@@ -130,6 +130,10 @@ msgstr ""
 msgid "What must your country have, and what must it decide, before it can verify a neighbour’s card offline? Name it; do not decide it here. (<a0>J3a</a0>)"
 msgstr ""
 
+#: input/pagecontent/workshop-m4.md:25
+msgid "What the system does"
+msgstr ""
+
 #: input/pagecontent/workshop-m4.md:16
 msgid "What the table does"
 msgstr ""
@@ -138,32 +142,28 @@ msgstr ""
 msgid "Where it meets the journey"
 msgstr ""
 
-#: input/pagecontent/workshop-m4.md:30
-msgid "Whether a wallet is a national service, a private app or both, and who approves apps that hold a record."
-msgstr ""
-
-#: input/pagecontent/workshop-m4.md:29
-msgid "Who holds the national trust anchor and accepts a foreign signature; what must be decided before onboarding to the GDHCN."
-msgstr ""
-
 #: input/pagecontent/workshop-m4.md:37
 msgid "Who in your government would sign this card on behalf of the health sector: the hospital, the ministry, or a national trust service? (<a0>J1</a0>)"
+msgstr ""
+
+#: input/pagecontent/workshop-m4.md:28
+msgid "Who is allowed to verify a foreign credential: a health worker's phone, a clinic, or only a national service?"
 msgstr ""
 
 #: input/pagecontent/workshop-m4.md:38
 msgid "Who is allowed to verify a foreign credential: a health worker’s phone, a clinic, or only a national service? (<a0>J2a</a0>)"
 msgstr ""
 
-#: input/pagecontent/workshop-m4.md:28
-msgid "Who is allowed to verify a foreign credential: a phone, a clinic, or only a national service."
-msgstr ""
-
 #: input/pagecontent/workshop-m4.md:27
-msgid "Who signs on behalf of the health sector: hospital, ministry or a national trust service."
+msgid "Who signs a vaccination record on behalf of your health sector: the hospital, the ministry, or a national trust service?"
 msgstr ""
 
 #: input/pagecontent/workshop-m4.md:10
 msgid "Who signs, who verifies, and who would hold the national trust anchor? Name it; do not decide it."
+msgstr ""
+
+#: input/pagecontent/workshop-m4.md:29
+msgid "Who would hold your national trust anchor and accept a foreign signature, and what must be decided before you join the GDHCN?"
 msgstr ""
 
 #: input/pagecontent/workshop-m4.md:39

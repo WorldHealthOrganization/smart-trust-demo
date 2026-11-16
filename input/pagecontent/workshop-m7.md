@@ -25,12 +25,12 @@
 
 ### Where it meets the journey
 
-| Step | Technical | Policy |
+| Step | What the system does | Policy question for the table |
 |---|---|---|
-| ● [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) A Taifafeki doctor sees the full history | Whichever moment breaks hardest for the country. | A twelve-month first move with a named owner, and the cost driver that dominates it. |
+| ● [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) A Taifafeki doctor sees the full history | Whichever moment breaks hardest for the country. | What is your twelve-month first move, who owns it, and which cost dominates it? |
 {: .grid }
 
-Also draws on: ○ [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) (Candidate first move where issuance is missing); ○ [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) (Candidate first move where verification is missing; recurrent cost of key management).
+Also draws on: ○ [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) (If your country cannot issue a signed record yet, is that your first move?); ○ [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) (If your clinics cannot verify a foreign record yet, is that your first move, and who pays for key management year after year?).
 
 ### Questions for the table
 

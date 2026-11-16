@@ -22,13 +22,13 @@
 
 ### Where it meets the journey
 
-| Step | Technical | Policy |
+| Step | What the system does | Policy question for the table |
 |---|---|---|
-| ● [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) An Onesan baby is born in Taifafeki | Credential issued to a child with no national ID. | Legal basis for a facility to issue a health credential to a non-citizen child (decision right: trust anchor; legal basis: consent for dependants). |
-| ● [J2b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/) Registered at home, and referred | Temporary id created at a home visit, offline. | Who may create a health identity for a newborn at a home visit, and on whose consent (decision right: architecture). |
-| ● [J4.0a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0a/) One phone holds the whole family’s records | Parent holds the child's record on a shared device. | Who may hold and share a child's record; the law on dependants. |
-| ● [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) Dad creates a link to share at the clinic | Consent resource recorded; 4-digit passcode; 14-day expiry. | Legal basis for opening a home record abroad on consent; procurement clause for IG conformance; who sets link protection. |
-| ● [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) A Taifafeki doctor sees the full history | AuditEvent logged in Onesa on every access, including failed passcodes. | The agreement that every view abroad leaves an entry at home, and who reads it (legal basis: cross-border). |
+| ● [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) An Onesan baby is born in Taifafeki | Credential issued to a child with no national ID. | What legal basis lets a facility issue a health credential to a child who is not a citizen and has no national ID? |
+| ● [J2b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/) Registered at home, and referred | Temporary id created at a home visit, offline. | Who may create a health identity for a newborn at a home visit, and on whose consent? |
+| ● [J4.0a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0a/) One phone holds the whole family’s records | Parent holds the child's record on a shared device. | Who may hold and share a child's record, and what does your law say about dependants? |
+| ● [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) Dad creates a link to share at the clinic | Consent resource recorded; 4-digit passcode; 14-day expiry. | What legal basis lets a clinician abroad open a record held at home on the family's consent, and who sets how the link is protected? |
+| ● [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) A Taifafeki doctor sees the full history | AuditEvent logged in Onesa on every access, including failed passcodes. | What agreement makes every view abroad leave an entry in your home log, and who reads it? |
 {: .grid }
 
 ### Questions for the table

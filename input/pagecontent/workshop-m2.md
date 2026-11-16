@@ -23,12 +23,12 @@
 
 ### Where it meets the journey
 
-| Step | Technical | Policy |
+| Step | What the system does | Policy question for the table |
 |---|---|---|
-| ● [J2b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/) Registered at home, and referred | Client registry, CRVS link, offline CHW app, facility registry for the catchment. | Which block issues a child's first identifier; how a birth abroad enters the registries and the coverage denominator. |
+| ● [J2b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/) Registered at home, and referred | Client registry, CRVS link, offline CHW app, facility registry for the catchment. | Which block gives a child their first identifier, and how does a birth abroad enter your registries and your coverage denominator? |
 {: .grid }
 
-Also draws on: ○ [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) (Which national block each of these maps to, and whether it exists); ○ [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) (Whether verification sits in each clinic or in one national service); ○ [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) (Whether a national record exists for the link to point to).
+Also draws on: ○ [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) (Which block of your national architecture does each of these systems map to, and does it exist today?); ○ [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) (Should a foreign record be verified in each clinic, or by one national service?); ○ [J4.0b](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/) (Is there a national record for a shared link to point to?).
 
 ### Questions for the table
 

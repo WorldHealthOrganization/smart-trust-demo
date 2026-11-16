@@ -22,15 +22,15 @@
 
 ### Where it meets the journey
 
-| Step | Technical | Policy |
+| Step | What the system does | Policy question for the table |
 |---|---|---|
-| ● [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) An Onesan baby is born in Taifafeki | Document signer certificate (DSC) and its key; HCERT/CWT signing of each DVC. | Who signs on behalf of the health sector: hospital, ministry or a national trust service. |
-| ● [J2a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/) A health worker finds the baby — and reads his cards | Read-unverified: the CHW device decodes but does not verify. | Who is allowed to verify a foreign credential: a phone, a clinic, or only a national service. |
-| ● [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) The clinic confirms the cards are genuine | GDHCN trust list (DID documents), cached for offline verification; kid lookup. | Who holds the national trust anchor and accepts a foreign signature; what must be decided before onboarding to the GDHCN. |
-| ● [J4.0a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0a/) One phone holds the whole family’s records | Family wallet on one shared phone, one profile and one VHL per member. | Whether a wallet is a national service, a private app or both, and who approves apps that hold a record. |
+| ● [J1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/) An Onesan baby is born in Taifafeki | Document signer certificate (DSC) and its key; HCERT/CWT signing of each DVC. | Who signs a vaccination record on behalf of your health sector: the hospital, the ministry, or a national trust service? |
+| ● [J2a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/) A health worker finds the baby — and reads his cards | Read-unverified: the CHW device decodes but does not verify. | Who is allowed to verify a foreign credential: a health worker's phone, a clinic, or only a national service? |
+| ● [J3a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/) The clinic confirms the cards are genuine | GDHCN trust list (DID documents), cached for offline verification; kid lookup. | Who would hold your national trust anchor and accept a foreign signature, and what must be decided before you join the GDHCN? |
+| ● [J4.0a](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0a/) One phone holds the whole family’s records | Family wallet on one shared phone, one profile and one VHL per member. | Is a family wallet a national service, a private app or both, and who approves the apps that may hold a record? |
 {: .grid }
 
-Also draws on: ○ [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) (Who verifies abroad, and what a verifier sees).
+Also draws on: ○ [J4.1](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/) (Who verifies your citizens' records abroad, and what may that verifier see?).
 
 ### Questions for the table
 

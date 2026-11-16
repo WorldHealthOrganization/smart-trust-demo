@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T10:04:37.052Z\n"
+"POT-Creation-Date: 2026-11-16T11:44:20.858Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -52,7 +52,7 @@ msgid "A core data element that tells a reported dose from a verified one."
 msgstr ""
 
 #: input/pagecontent/workshop-m3.md:33
-msgid "Also draws on: ○ <a0>J1</a0> (Who adopts the core data set rather than designing a national form); ○ <a1>J4.0b</a1> (Adopt the IPS and the VHL specification; author only national extensions)."
+msgid "Also draws on: ○ <a0>J1</a0> (Will you adopt the immunization core data set, or design your own national form?); ○ <a1>J4.0b</a1> (Will you adopt the IPS and the VHL specification as they are, and author only national extensions?)."
 msgstr ""
 
 #: input/pagecontent/workshop-m3.md:18
@@ -84,7 +84,7 @@ msgid "Part"
 msgstr ""
 
 #: input/pagecontent/workshop-m3.md:27
-msgid "Policy"
+msgid "Policy question for the table"
 msgstr ""
 
 #: input/pagecontent/workshop-m3.md:5
@@ -107,10 +107,6 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
-#: input/pagecontent/workshop-m3.md:27
-msgid "Technical"
-msgstr ""
-
 #: input/pagecontent/workshop-m3.md:30
 msgid "Terminology service: Taifafeki's product code kept, Onesa's schedule code added beside it; schedule logic over every dose."
 msgstr ""
@@ -121,6 +117,10 @@ msgstr ""
 
 #: input/pagecontent/workshop-m3.md:16
 msgid "Time"
+msgstr ""
+
+#: input/pagecontent/workshop-m3.md:27
+msgid "What the system does"
 msgstr ""
 
 #: input/pagecontent/workshop-m3.md:16
@@ -140,19 +140,19 @@ msgid "Which standards do we adopt rather than author — and who owns the natio
 msgstr ""
 
 #: input/pagecontent/workshop-m3.md:29
-msgid "Who defines that element in the national core data set."
+msgid "Who in your country defines the data element that tells a reported dose from a verified one?"
 msgstr ""
 
 #: input/pagecontent/workshop-m3.md:20
 msgid "Who owns it, and what we buy"
 msgstr ""
 
-#: input/pagecontent/workshop-m3.md:30
-msgid "Who owns the national core data set and cross-country code maps; whether vaccine code licensing is settled."
-msgstr ""
-
 #: input/pagecontent/workshop-m3.md:38
 msgid "Who owns the national core data set and the mapping between other countries’ vaccine codes and yours? (<a0>J3b</a0>)"
+msgstr ""
+
+#: input/pagecontent/workshop-m3.md:30
+msgid "Who owns your national core data set and the code maps to other countries, and is vaccine code licensing settled?"
 msgstr ""
 
 #: input/pagecontent/workshop-m3.md:20
