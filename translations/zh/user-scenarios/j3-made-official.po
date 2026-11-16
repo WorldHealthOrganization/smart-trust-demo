@@ -60,11 +60,6 @@ msgctxt "step.experiences.doing"
 msgid "Brings Somsak in for the referral visit."
 msgstr "带 Somsak 来进行转诊就诊。"
 
-#: scenarios/user-scenarios/j3-made-official.json:197
-msgctxt "step.experiences.doing"
-msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
-msgstr "确认泰法费基产品即奥内萨的出生剂次；系统预约 6 周龄疫苗。"
-
 #: scenarios/user-scenarios/j3-made-official.json:203
 msgctxt "step.experiences.doing"
 msgid "Leaves with a date for Somsak’s next vaccines."
@@ -94,11 +89,6 @@ msgstr "“现在我确切知道什么时候该回来了。”"
 msgctxt "step.experiences.feeling"
 msgid "“They believe the Taifafeki papers!”"
 msgstr "“他们相信泰法费基的纸质记录！”"
-
-#: scenarios/user-scenarios/j3-made-official.json:316
-msgctxt "step.fhirChanges.change"
-msgid "6-week pentavalent booked"
-msgstr "已预约 6 周龄五联疫苗"
 
 #: scenarios/user-scenarios/j3-made-official.json:148
 msgctxt "step.fhirChanges.change"
@@ -134,11 +124,6 @@ msgstr "日后任何人对某一剂次有疑问，都可以沿着它追溯到已
 msgctxt "step.fhirChanges.why"
 msgid "Onesa’s own map from vaccine products to its schedule; a product with no mapping goes to the nurse."
 msgstr "奥内萨自己的疫苗产品到接种计划的映射；没有映射的产品交由护士判断。"
-
-#: scenarios/user-scenarios/j3-made-official.json:317
-msgctxt "step.fhirChanges.why"
-msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
-msgstr "奥内萨接种计划（PlanDefinition）找出到期的 6 周龄剂次；提醒让他按时回来。"
 
 #: scenarios/user-scenarios/j3-made-official.json:295
 msgctxt "step.fhirChanges.why"
@@ -204,22 +189,6 @@ msgid ""
 "catch-up policy.\n"
 msgstr ""
 "Chanthason 护士打开转诊单并扫描 QR 码。EHR 针对该副本离线**验证**每个 DVC（STT-VER-001…009、STT-KID-002），无需联系泰法费基。两者都验证通过，因此它将其作为 FHIR `Immunization`（`TrustDemoJ3HepB`、`TrustDemoJ3Bcg`）连同来源记录（`TrustDemoJ3Verification`；STT-VER-007、STT-VER-008）一并导入，取代 J2 中已报告的剂次。如果某个 DVC 验证失败（例如卡片被篡改），EHR 会指明失败的步骤和原因，剂次保持未验证，由护士依据国家补种政策作出决定。\n"
-
-#: scenarios/user-scenarios/j3-made-official.json:192
-msgctxt "step.narrative"
-msgid ""
-"The Taifafeki Hep B product matches nothing on the national schedule.\n"
-"The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
-"it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
-"the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
-"the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
-"added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
-"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
-"at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
-"(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
-"measles-rubella at 9 months, in Onesa.\n"
-msgstr ""
-"泰法费基的 Hep B 产品与国家接种计划中的任何条目都不匹配。EHR 保留泰法费基的产品编码，并根据国家映射表（`TrustDemoProductToOnesaEpi`）在其旁边添加接种计划编码。对于该 Hep B 产品，映射表中没有条目，因此 Chanthason 护士作出临床判断，认定它是接种计划中的出生剂次（`TrustDemoJ3Adjudication`），她的决定被加入映射表，供下一家诊所使用。随后接种计划（`TrustDemoOnesaInfantSchedule`）开始运行：出生剂次计入，五联疫苗第 1 剂、bOPV 第 1 剂和 PCV 第 1 剂在 6 周龄时到期（`TrustDemoJ3Recommendation`）。Khamla 带着日期离开（`TrustDemoJ3Reminder`）。在这一年里，Somsak 在奥内萨接种了这些剂次，并在 9 月龄时接种麻疹-风疹疫苗。\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:51
 msgctxt "step.painPoint"
@@ -326,11 +295,6 @@ msgctxt "step.uses.role"
 msgid "Delivers the CHW’s referral to this clinic; the nurse can only see patients referred to her facility"
 msgstr "将 CHW 的转诊送达本诊所；护士只能查看转诊到其所在机构的患者"
 
-#: scenarios/user-scenarios/j3-made-official.json:257
-msgctxt "step.uses.role"
-msgid "Onesan schedule logic calculates the 6-week doses"
-msgstr "奥内萨接种计划逻辑计算 6 周龄剂次"
-
 #: scenarios/user-scenarios/j3-made-official.json:253
 msgctxt "step.uses.role"
 msgid "PreQual product → WHO vaccine type → Onesan EPI code"
@@ -381,12 +345,6 @@ msgctxt "step.whatIf.scenario"
 msgid "There is no automatic match for the foreign vaccine."
 msgstr "外国疫苗没有自动匹配项。"
 
-#: scenarios/user-scenarios/j3-made-official.json:20
-#: scenarios/user-scenarios/j3-made-official.json:20
-msgctxt "step.when"
-msgid "T0 + 4 weeks"
-msgstr "T0 + 4 周"
-
 #: scenarios/user-scenarios/j3-made-official.json:12
 #: scenarios/user-scenarios/j3-made-official.json:12
 msgctxt "step.where"
@@ -394,21 +352,106 @@ msgid "Lomaru District Health Center"
 msgstr "洛马鲁区卫生中心"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
-msgctxt "title"
-msgid "J3 — Made official"
-msgstr "J3 — 正式登记"
-
-#: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "views.label"
 msgid "J3"
 msgstr "J3"
-
-#: scenarios/user-scenarios/j3-made-official.json:11
-msgctxt "when"
-msgid "4 weeks later"
-msgstr "4 周后"
 
 #: scenarios/user-scenarios/j3-made-official.json:12
 msgctxt "where"
 msgid "Lomaru District Health Center"
 msgstr "洛马鲁区卫生中心"
+
+#: scenarios/user-scenarios/j3-made-official.json:197
+msgctxt "step.experiences.doing"
+msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
+msgstr ""
+
+#: scenarios/user-scenarios/j3-made-official.json:316
+msgctxt "step.fhirChanges.change"
+msgid "Overdue 6-week doses given"
+msgstr ""
+
+#: scenarios/user-scenarios/j3-made-official.json:317
+msgctxt "step.fhirChanges.why"
+msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
+msgstr ""
+
+#: scenarios/user-scenarios/j3-made-official.json:192
+msgctxt "step.narrative"
+msgid ""
+"The Taifafeki Hep B product matches nothing on the national schedule.\n"
+"The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
+"it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+"the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+"the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+"added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n"
+"6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\n"
+"Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
+"(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
+"measles-rubella at 9 months, in Onesa.\n"
+msgstr ""
+
+#: scenarios/user-scenarios/j3-made-official.json:257
+msgctxt "step.uses.role"
+msgid "Onesan schedule logic finds the 6-week doses overdue"
+msgstr ""
+
+#: scenarios/user-scenarios/j3-made-official.json:20
+#: scenarios/user-scenarios/j3-made-official.json:20
+msgctxt "step.when"
+msgid "T0 + 10 weeks"
+msgstr ""
+
+#: scenarios/user-scenarios/j3-made-official.json:4
+msgctxt "title"
+msgid "J3 — A foreign record used for the next vaccine"
+msgstr ""
+
+#: scenarios/user-scenarios/j3-made-official.json:11
+msgctxt "when"
+msgid "Somsak is 10 weeks old"
+msgstr ""
+
+#~ msgctxt "step.experiences.doing"
+#~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
+#~ msgstr "确认泰法费基产品即奥内萨的出生剂次；系统预约 6 周龄疫苗。"
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "6-week pentavalent booked"
+#~ msgstr "已预约 6 周龄五联疫苗"
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
+#~ msgstr "奥内萨接种计划（PlanDefinition）找出到期的 6 周龄剂次；提醒让他按时回来。"
+
+#~ msgctxt "step.narrative"
+#~ msgid ""
+#~ "The Taifafeki Hep B product matches nothing on the national schedule.\n"
+#~ "The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
+#~ "it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+#~ "the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+#~ "the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+#~ "added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+#~ "then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
+#~ "at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
+#~ "(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
+#~ "measles-rubella at 9 months, in Onesa.\n"
+#~ msgstr ""
+#~ "泰法费基的 Hep B 产品与国家接种计划中的任何条目都不匹配。EHR 保留泰法费基的产品编码，并根据国家映射表（`TrustDemoProductToOnesaEpi`）在其旁边添加接种计划编码。对于该 Hep B 产品，映射表中没有条目，因此 Chanthason 护士作出临床判断，认定它是接种计划中的出生剂次（`TrustDemoJ3Adjudication`），她的决定被加入映射表，供下一家诊所使用。随后接种计划（`TrustDemoOnesaInfantSchedule`）开始运行：出生剂次计入，五联疫苗第 1 剂、bOPV 第 1 剂和 PCV 第 1 剂在 6 周龄时到期（`TrustDemoJ3Recommendation`）。Khamla 带着日期离开（`TrustDemoJ3Reminder`）。在这一年里，Somsak 在奥内萨接种了这些剂次，并在 9 月龄时接种麻疹-风疹疫苗。\n"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Onesan schedule logic calculates the 6-week doses"
+#~ msgstr "奥内萨接种计划逻辑计算 6 周龄剂次"
+
+#~ msgctxt "step.when"
+#~ msgid "T0 + 4 weeks"
+#~ msgstr "T0 + 4 周"
+
+#~ msgctxt "title"
+#~ msgid "J3 — Made official"
+#~ msgstr "J3 — 正式登记"
+
+#~ msgctxt "when"
+#~ msgid "4 weeks later"
+#~ msgstr "4 周后"
