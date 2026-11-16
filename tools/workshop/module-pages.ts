@@ -32,7 +32,10 @@ const use = read("workshops/glossary-use.json");
 const glossary = read("glossary/dpi-h-policy-track.glossary.json");
 
 type Mod = { id: string; title: string; day?: number; carries?: string; sheet?: string };
-type TMod = { id: string; pairedWith: string; day: number; title: string; carries?: string; status: string };
+type TSession = { time: string; end: string; minutes: number; type: string; title: string; leads: string[]; supports: string[]; what: string; confirm?: string };
+type TStep = { step: string; technical: string; question: string };
+type TTeam = { name: string; device: string; what: string; steps: string[] };
+type TMod = { id: string; pairedWith: string; day: number; title: string; carries?: string; status: string; sessions?: TSession[]; outcomes?: string[]; steps?: TStep[]; teams?: TTeam[] };
 const mods: Mod[] = ws.modules;
 const tmods: TMod[] = tech.modules;
 const sheets = new Map<string, any>(canvas.sheets.map((s: any) => [s.id, s]));
@@ -119,7 +122,7 @@ const CSS = `<style>
 .ws-sheet{font-size:12px;font-weight:700;padding:3px 8px;border-radius:99px;background:var(--ws-teal-soft);color:var(--ws-teal)}
 .ws-mod .ws-steps{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto}
 .ws-mod .ws-steps span{font-size:12px;font-weight:700;padding:2px 7px;border-radius:5px;background:var(--ws-navy);color:#fff}
-.ws-mod.ph{background:var(--ws-soft);border-style:dashed}
+.ws-mod.ph{background:var(--ws-soft);border-style:dashed}\n.ws-q{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-right:6px;color:var(--ws-teal)}\n.ws-who{font-size:14px;color:var(--ws-muted)}\n.ws-confirm{font-size:13px;color:var(--ws-pol);background:var(--ws-amber);border-radius:6px;padding:4px 8px;align-self:flex-start}\n.ws-muted{color:var(--ws-muted);font-size:14px}\n.ws-daysum{text-transform:none;letter-spacing:0;font-weight:400}
 </style>`;
 
 /** The Policy | Technical switch, and both tracks by day, the current module marked. */
@@ -155,12 +158,16 @@ const files: Record<string, string> = {};
     }
     H.push(`</div>`);
   }
-  H.push(`<h3 id="technical-track">Technical track <span class="ws-badge">Placeholders</span></h3><p>Not written yet. Each technical module is paired with its policy module, and its page shows that module's technical points as starting material.</p>`);
+  H.push(`<h3 id="technical-track">Technical track${tech.status ? ` <span class="ws-badge">Draft</span>` : ""}</h3><p>${e(tech.promise ?? "")} ${e(tech.status ?? "")}</p>`);
   for (const d of [1, 2]) {
-    H.push(`<p class="ws-day">${DAYS[d]}</p><div class="ws-cards">`);
-    for (const t of tmods.filter((x) => x.day === d)) H.push(`<a class="ws-card ws-mod ph" href="${page(t.id)}"><span class="ws-mod-h"><span class="ws-id">${t.id}</span><span class="ws-sheet">with ${t.pairedWith}</span></span><b>${e(t.title)}</b><span>${t.status === "placeholder" ? "To be written" : e(t.carries ?? "")}</span></a>`);
+    H.push(`<p class="ws-day">${DAYS[d]}${tech.days?.[d]?.summary ? ` · <span class="ws-daysum">${e(tech.days[d].summary)}</span>` : ""}</p><div class="ws-cards">`);
+    for (const t of tmods.filter((x) => x.day === d)) {
+      const first = t.sessions?.[0], last = t.sessions?.[t.sessions.length - 1];
+      H.push(`<a class="ws-card ws-mod${t.status === "placeholder" ? " ph" : ""}" href="${page(t.id)}"><span class="ws-mod-h"><span class="ws-id">${t.id}</span><span class="ws-sheet">${first ? `${e(first.time)}–${e(last!.end)}` : `with ${t.pairedWith}`}</span></span><b>${e(t.title)}</b><span>${t.status === "placeholder" ? "To be written" : e(t.carries ?? "")}</span><span class="ws-steps">${(t.steps ?? []).map((x) => `<span>${e(x.step)}</span>`).join("")}</span></a>`);
+    }
     H.push(`</div>`);
   }
+  if (tech.toConfirm?.length) H.push(`<h3>Still to confirm</h3><ul>${tech.toConfirm.map((x: string) => `<li>${e(x)}</li>`).join("")}</ul>`);
   H.push(more([["Module × journey map", "module-journey-map.html"], ["Country Canvas", "country-canvas.html"], ["Glossary", "glossary.html"], ["Journeys viewer", `${VIEWER}overview/`]]), `</div>`);
   files["input/pagecontent/workshop.md"] = HEAD("workshops/ (the workshop, the technical track, the canvas, the module map)") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
 }
@@ -191,20 +198,30 @@ for (const m of mods) {
   files[`input/pagecontent/workshop-${m.id.toLowerCase()}.md`] = HEAD("workshops/dpi-h-policy-track.workshop.json (its matrix too), country-canvas.json and glossary-use.json") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
 }
 
-// ── a technical module (placeholder) ────────────────────────────────────
+// ── a technical module ──────────────────────────────────────────────────
+const people = (xs: string[]) => xs.map(e).join(", ");
 for (const t of tmods) {
   const m = mods.find((x) => x.id === t.pairedWith)!;
-  const asked = cellsOf(m.id).filter((c) => c.kind !== "draws");
   const ph = t.status === "placeholder";
   const H: string[] = [`<div class="ws">`, bar(t.id)];
-  H.push(`<header class="ws-head"><span class="ws-kicker">Day ${t.day} · Technical module ${t.id.slice(1)} · paired with ${m.id}</span><h2>${e(t.title)}${ph ? `<span class="ws-badge">Placeholder</span>` : ""}</h2>${t.carries ? `<p class="ws-carries">${e(t.carries)}</p>` : ""}</header>`);
+  const first = t.sessions?.[0], last = t.sessions?.[t.sessions.length - 1];
+  H.push(`<header class="ws-head"><span class="ws-kicker">Day ${t.day}${first ? ` · ${e(first.time)}–${e(last!.end)}` : ""} · Technical module ${t.id.slice(1)} · serves ${m.id}</span><h2>${e(t.title)}${ph ? `<span class="ws-badge">Placeholder</span>` : t.status === "draft" ? `<span class="ws-badge">Draft</span>` : ""}</h2>${t.carries ? `<p class="ws-carries">${e(t.carries)}</p>` : ""}</header>`);
   if (ph) H.push(`<p class="ws-note"><b>Not written yet.</b> Until it is, this page shows what its paired policy module, <a href="${page(m.id)}">${m.id} ${e(m.title)}</a>, asks of the technical side, as starting material.</p>`);
-  H.push(`<h3>What ${m.id} asks of the technical side</h3><div class="ws-cards">${asked
-    .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">What the system does</span>${e(c.technical)}</p></div>`)
+  if (t.sessions?.length) {
+    H.push(`<h3>Sessions</h3><div class="ws-cards">${t.sessions
+      .map((x) => `<div class="ws-card"><span class="ws-mod-h"><span class="ws-step">${e(x.type)}</span><span class="ws-sheet">${e(x.time)}–${e(x.end)} · ${x.minutes} min</span></span><b>${e(x.title)}</b><p>${e(x.what)}</p><p class="ws-who"><span class="ws-t">Leads</span>${people(x.leads)}${x.supports.length ? ` · <span class="ws-t">Supports</span>${people(x.supports)}` : ""}</p>${x.confirm ? `<p class="ws-confirm">${e(x.confirm)}</p>` : ""}</div>`)
+      .join("")}</div>`);
+  }
+  if (t.outcomes?.length) H.push(`<h3>By the end you can</h3><ul>${t.outcomes.map((o) => `<li>${e(o)}</li>`).join("")}</ul>`);
+  const tsteps = t.steps?.length ? t.steps : cellsOf(m.id).filter((c) => c.kind !== "draws").map((c) => ({ step: c.step, technical: c.technical, question: "" }));
+  H.push(`<h3>Where it meets the journey</h3><div class="ws-cards">${tsteps
+    .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">What the system does</span>${e(c.technical)}</p>${c.question ? `<p><span class="ws-q">Technical question</span>${e(c.question)}</p>` : ""}</div>`)
     .join("")}</div>`);
-  const tl = termsAt(asked.map((c) => c.step));
+  const qs = tsteps.filter((c) => c.question);
+  if (qs.length) H.push(`<h3>Technical questions for the room</h3><ul class="ws-qs">${qs.map((q) => `<li>${stepChip(q.step)}<span>${e(q.question)}</span></li>`).join("")}</ul>`);
+  if (t.teams?.length) H.push(`<h3>The four teams</h3><div class="ws-cards">${t.teams.map((x) => `<div class="ws-card"><b>${e(x.name)}</b><span class="ws-muted">${e(x.device)}</span><p>${e(x.what)}</p><span class="ws-steps-inline">${x.steps.map((st) => stepChip(st)).join(" ")}</span></div>`).join("")}</div>`);
+  const tl = termsAt(tsteps.map((c) => c.step));
   if (tl.length) H.push(`<h3>Terms at those steps</h3>${termChips(tl)}`);
-  if (ph) H.push(`<h3>To be written</h3><ul><li>The question this module carries</li><li>Its objectives and timings</li><li>Which canvas sheet, if any, it fills</li><li>The journey steps it teaches from</li></ul>`);
   H.push(more([[`${m.id} ${m.title}`, page(m.id)], ["Module × journey map", "module-journey-map.html"], ["All modules", "workshop.html"]]), `</div>`);
   files[`input/pagecontent/workshop-${t.id.toLowerCase()}.md`] = HEAD("workshops/technical-track.json and the matrix of dpi-h-policy-track.workshop.json") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
 }
