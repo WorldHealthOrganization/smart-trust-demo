@@ -67,6 +67,14 @@
       "fixed": 14,
       "noise": 21,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 59,
+      "drifts": 1,
+      "fixed": 1,
+      "noise": 34,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; 59 msgstr values (the 3 empty glossary.po entries are #, localised by design and left empty), read back from a msgstr-only JSON; 1 drift fixed ('each step above' read back as 'each previous step': now 'cada paso descrito arriba'); remaining differences are wording noise (e.g. Found -> Detectado, kept from the earlier es title; overdue -> atrasadas)"
     }
   },
   "fr": {
