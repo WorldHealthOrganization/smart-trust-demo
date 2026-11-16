@@ -1279,7 +1279,8 @@ msgid ""
 "A capability is usually named using a phrase that emphasizes “what we do”. It represents an outcome-oriented, strategic abstraction of the enterprise’s abilities. \n"
 "\n"
 "Examples: \n"
-"- Patient Registration & Intake\n"
+"- Patient Registration & Intake
+\n"
 "- Medication Prescribing & Dispensing\n"
 "- Clinical Decision Support\n"
 msgstr ""
@@ -1290,7 +1291,8 @@ msgstr ""
 "Une capacité est généralement nommée par une expression qui met l’accent sur « ce que nous faisons ». Elle représente une abstraction stratégique, orientée vers les résultats, des aptitudes de l’entreprise. \n"
 "\n"
 "Exemples : \n"
-"- Enregistrement et admission des patients\n"
+"- Enregistrement et admission des patients
+\n"
 "- Prescription et dispensation des médicaments\n"
 "- Aide à la décision clinique\n"
 "\n"
@@ -3718,12 +3720,16 @@ msgstr "Ministère de la Santé"
 
 #: archimate/0.1.0/model.json:0
 msgid ""
-"Monitor content quality (e.g. monitor uniqueness, consitency)\n"
-"Monitor conformance (e.g. h\n"
+"Monitor content quality (e.g. monitor uniqueness, consitency)
+\n"
+"Monitor conformance (e.g. h
+\n"
 "Monitor usage (how many users are for a given asset)\n"
 msgstr ""
-"Suivre la qualité du contenu (p. ex. suivre l’unicité, la cohérence)\n"
-"Suivre la conformité (p. ex. h\n"
+"Suivre la qualité du contenu (p. ex. suivre l’unicité, la cohérence)
+\n"
+"Suivre la conformité (p. ex. h
+\n"
 "Suivre l’utilisation (combien d’utilisateurs pour un actif donné)\n"
 "\n"
 
@@ -3824,12 +3830,12 @@ msgid "Onesa (Country B, home)"
 msgstr "Onesa (Pays B, pays d’origine)"
 
 #: en/smart-trust-demo/archimate/0.1.0/element/onesa-national-health-portal-and-gateway-country-b-xxk/index.html:0
-msgid "Onesa national health portal and gateway (Country B, XXK)"
-msgstr "Portail national de santé et passerelle d’Onesa (Pays B, XXK)"
+msgid "Onesa national health portal and gateway (Country B, XXU)"
+msgstr "Portail national de santé et passerelle d’Onesa (Pays B, XXU)"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa national health portal and gateway (Country B, XXK): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXK, so no real ministry's key is implied."
-msgstr "Portail national de santé et passerelle d’Onesa (Pays B, XXK) : le serveur FHIR national d’Onesa derrière l’OHS FHIR Info Gateway (J4.0, J4.1) : assemble l’IPS et les DVC de chaque membre de la famille, émet chacun sous forme de lien de santé vérifiable protégé par code d’accès dans un HCERT signé avec le DSC du Pays B, héberge les manifestes (ITI-YY5), vérifie le code d’accès, l’expiration et le consentement à chaque requête, et journalise chaque accès sous forme d’AuditEvent dans le pays d’origine. Le Pays B est joué sur le réseau GDHCN DEV par le participant de test XXK ; aucune clé d’un ministère réel n’est donc en jeu."
+msgid "Onesa national health portal and gateway (Country B, XXU): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
+msgstr "Portail national de santé et passerelle d’Onesa (Pays B, XXU) : le serveur FHIR national d’Onesa derrière l’OHS FHIR Info Gateway (J4.0, J4.1) : assemble l’IPS et les DVC de chaque membre de la famille, émet chacun sous forme de lien de santé vérifiable protégé par code d’accès dans un HCERT signé avec le DSC du Pays B, héberge les manifestes (ITI-YY5), vérifie le code d’accès, l’expiration et le consentement à chaque requête, et journalise chaque accès sous forme d’AuditEvent dans le pays d’origine. Le Pays B est joué sur le réseau GDHCN DEV par le participant de test XXU ; aucune clé d’un ministère réel n’est donc en jeu."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of CHW app, Onesa (Country B): The registration and referral forms of the CHW app, FHIR Questionnaires filled in with Structured Data Capture, which also read the doses on a paper DVC (J2)."
@@ -3852,32 +3858,32 @@ msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Verifies a 
 msgstr "Onesa, partie du DSE du centre de santé du district de Lomaru (Pays B) : vérifie la signature HCERT d’un DVC par rapport à la liste de confiance du GDHCN mise en cache sur l’appareil (J3)."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Answers a VHL manifest request after checking its signature, the passcode, the expiry and the consent, and logs each access in Onesa (J4.1)."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXK) : répond à une requête de manifeste VHL après avoir vérifié sa signature, le code d’accès, l’expiration et le consentement, et journalise chaque accès à Onesa (J4.1)."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Answers a VHL manifest request after checking its signature, the passcode, the expiry and the consent, and logs each access in Onesa (J4.1)."
+msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : répond à une requête de manifeste VHL après avoir vérifié sa signature, le code d’accès, l’expiration et le consentement, et journalise chaque accès à Onesa (J4.1)."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Copies the portal's FHIR data into an analytics store for reporting."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXK) : copie les données FHIR du portail dans un entrepôt d’analyse pour la production de rapports."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Copies the portal's FHIR data into an analytics store for reporting."
+msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : copie les données FHIR du portail dans un entrepôt d’analyse pour la production de rapports."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Holds each person's records (IPS, DVCs) as FHIR resources, from which the portal assembles what a VHL shares (J4.0, J4.1)."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXK) : détient les dossiers de chaque personne (IPS, DVC) sous forme de ressources FHIR, à partir desquelles le portail assemble ce qu’un VHL partage (J4.0, J4.1)."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Holds each person's records (IPS, DVCs) as FHIR resources, from which the portal assembles what a VHL shares (J4.0, J4.1)."
+msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : détient les dossiers de chaque personne (IPS, DVC) sous forme de ressources FHIR, à partir desquelles le portail assemble ce qu’un VHL partage (J4.0, J4.1)."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Identifies each person the portal serves, children and their households included."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXK) : identifie chaque personne que le portail dessert, y compris les enfants et leurs ménages."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Identifies each person the portal serves, children and their households included."
+msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : identifie chaque personne que le portail dessert, y compris les enfants et leurs ménages."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXK) : émet un lien de santé vérifiable protégé par code d’accès pour chaque membre de la famille, dans un HCERT signé avec la clé de signataire de documents d’Onesa (J4.0)."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
+msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : émet un lien de santé vérifiable protégé par code d’accès pour chaque membre de la famille, dans un HCERT signé avec la clé de signataire de documents d’Onesa (J4.0)."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Lists the clinics and health centres that record and share care."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXK) : répertorie les cliniques et les centres de santé qui enregistrent et partagent les soins."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the clinics and health centres that record and share care."
+msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : répertorie les cliniques et les centres de santé qui enregistrent et partagent les soins."
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Lists the health workers, community health workers and nurses among them, who record care."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXK) : répertorie les personnels de santé, dont les agents de santé communautaires et les infirmières, qui enregistrent les soins."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the health workers, community health workers and nurses among them, who record care."
+msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : répertorie les personnels de santé, dont les agents de santé communautaires et les infirmières, qui enregistrent les soins."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of The family's shared phone: The wallet app on the family's phone: a profile per family member, each holding that member's VHL QR, shown when asked (J4.0, J4.1)."
