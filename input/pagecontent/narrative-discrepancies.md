@@ -71,16 +71,16 @@ The canvas now replaces the viewer's table sheets: the sheet titles and write-in
 
 ### E. The glossary
 
-77 terms. 45 match a term in the DPI-H RA (smart-ra) or the DTH-PHC (dth-phc) glossary exactly, a few more closely; the rest are the workshop's own. The DTH-PHC glossary is linked from litlfred/dth-phc until it moves to WorldHealthOrganization/dth-phc.
+77 terms. Where the DPI-H RA (smart-ra) defines the same or a close concept, the glossary now uses the RA's term and definition, word for word, and drops the handout's (owner, 2026-11-16): 18 terms. The rest keep the handout's wording, linked to smart-ra and DTH-PHC (dth-phc) where they have the term. The DTH-PHC glossary is linked from litlfred/dth-phc until it moves to WorldHealthOrganization/dth-phc.
 
 | # | Term | Discrepancy | Proposed resolution |
 |---|---|---|---|
-| E1 | Client registry (MPI) | The handout makes MPI the client registry's acronym; the DPI-H RA has Client Registry (CR) and Master Patient Index as two concepts | Write "also called a master patient index" rather than an acronym |
-| E2 | AEFI | "Adverse event following immunization" (singular); the RA: "Adverse Events Following Immunization" | Either; WHO uses the singular in the glossary sense |
+| E1 | Client registry (MPI) | The handout made MPI the client registry's acronym; the DPI-H RA has Client Registry and Master Patient Index as two concepts | Done: the term now uses the RA's Client Registry and its definition; MPI stays an alternative label |
+| E2 | AEFI | Now uses the RA's term, whose definition is only an expansion ("Adverse effects following immunisation"); the handout's was a real definition ("Any health problem after vaccination, reported for safety monitoring") | Propose a fuller definition to the RA glossary |
 | E3 | Missing terms the journeys use | DVC (digital vaccination certificate), HCERT, VHL (Verifiable Health Link), DSC (document signer certificate), trust network participant, provenance: the site's step pages use them; the handout does not | Add a short "in the demonstrator" block to the glossary, or map each to its nearest handout term (DVC → VC, VHL → consent + IPS) |
 | E4 | Facility, workforce and product registries | One handout term for three RA concepts | Keep; it is linked to all three (*covers*) |
-| E5 | Decision support engine | The RA's term is *Computable Decision Support Engine* | Keep the plain term; linked as *close to* |
+| E5 | Decision support engine | The RA's term is *Computable Decision Support Engine* | Done: the term now uses the RA's concept and definition |
 | E6 | Core data set | No RA or DTH-PHC term; nearest are *National Health Data Dictionary* and *Data Dictionary* | Propose *core data set* to the RA glossary |
 | E7 | Trust anchor, trust list, verifiable credential, digital wallet | No RA or DTH-PHC term; the SMART Trust guide defines them | Link to SMART Trust's definitions when its glossary is published as SKOS |
 | E8 | Organisations | ADB, World Bank, CSIRO, UNICC, MoPH Thailand, SNOMED International and the openEHR Foundation are in neither glossary | Propose them to smart-ra's organizations scheme |
-
+| E9 | API, PHR, HIE, CRVS, DAK, IG, IPS, ICVP, IHR, PKI, GDHCN, DIIG, TWG | The DPI-H RA has each concept but no definition yet, so the handout's wording is kept | Propose the handout's wording to the RA glossary, or wait for the RA's own; switch when it lands |

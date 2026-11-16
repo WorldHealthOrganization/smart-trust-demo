@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T09:49:18.256Z\n"
+"POT-Creation-Date: 2026-11-16T09:55:10.998Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -15,19 +15,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: input/pagecontent/glossary.md:15
-msgid "<a0>Client registry</a0>, <a1>CRVS</a1>, <a2>Point-of-service application</a2>, <a3>Facility, workforce and product registries</a3>, <a4>Consent</a4>, <a5>Interoperability</a5>"
+msgid "<a0>Client Registry</a0>, <a1>CRVS</a1>, <a2>Point-of-Service Applications</a2>, <a3>Facility, workforce and product registries</a3>, <a4>Consent</a4>, <a5>Interoperability</a5>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:18
-msgid "<a0>Digital wallet</a0>, <a1>PHR</a1>, <a2>Lifelong health record</a2>, <a3>Consent</a3>"
+msgid "<a0>Digital wallet</a0>, <a1>PHR</a1>, <a2>Lifelong Health Record</a2>, <a3>Consent</a3>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:27
+#: input/pagecontent/glossary.md:28
+#: input/pagecontent/glossary.md:29
+#: input/pagecontent/glossary.md:30
+#: input/pagecontent/glossary.md:31
+#: input/pagecontent/glossary.md:33
+#: input/pagecontent/glossary.md:35
+#: input/pagecontent/glossary.md:38
+#: input/pagecontent/glossary.md:40
+#: input/pagecontent/glossary.md:42
+#: input/pagecontent/glossary.md:44
+#: input/pagecontent/glossary.md:52
+#: input/pagecontent/glossary.md:56
+#: input/pagecontent/glossary.md:62
+#: input/pagecontent/glossary.md:64
+#: input/pagecontent/glossary.md:103
+#: input/pagecontent/glossary.md:109
+#: input/pagecontent/glossary.md:118
+msgid "<a0>DPI-H RA</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:13
-msgid "<a0>EIR</a0>, <a1>Client registry</a1>, <a2>Facility, workforce and product registries</a2>, <a3>Dose number and series</a3>, <a4>Batch number</a4>, <a5>VC</a5>, <a6>Digital signature</a6>, <a7>PKI</a7>, <a8>Issuer · holder · verifier</a8>, <a9>HCID</a9>, <a10>ICVP</a10>, <a11>Consent</a11>"
+msgid "<a0>EIR</a0>, <a1>Client Registry</a1>, <a2>Facility, workforce and product registries</a2>, <a3>Dose number and series</a3>, <a4>Batch number</a4>, <a5>VC</a5>, <a6>Digital signature</a6>, <a7>PKI</a7>, <a8>Issuer · holder · verifier</a8>, <a9>HCID</a9>, <a10>ICVP</a10>, <a11>Consent</a11>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:20
-msgid "<a0>GDHCN</a0>, <a1>Trust list</a1>, <a2>IPS</a2>, <a3>HIE</a3>, <a4>Lifelong health record</a4>, <a5>Consent</a5>"
+msgid "<a0>GDHCN</a0>, <a1>Trust list</a1>, <a2>IPS</a2>, <a3>HIE</a3>, <a4>Lifelong Health Record</a4>, <a5>Consent</a5>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:19
@@ -35,11 +56,11 @@ msgid "<a0>IPS</a0>, <a1>FHIR</a1>, <a2>IG</a2>, <a3>Profile</a3>, <a4>Consent</
 msgstr ""
 
 #: input/pagecontent/glossary.md:14
-msgid "<a0>Point-of-service application</a0>, <a1>VC</a1>, <a2>Digital signature</a2>, <a3>Core data set</a3>"
+msgid "<a0>Point-of-Service Applications</a0>, <a1>VC</a1>, <a2>Digital signature</a2>, <a3>Core data set</a3>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:17
-msgid "<a0>Terminology service</a0>, <a1>Core data set</a1>, <a2>Logical information model</a2>, <a3>SNOMED CT</a3>, <a4>Decision support engine</a4>, <a5>SMART Guidelines</a5>, <a6>DAK</a6>, <a7>Dose number and series</a7>, <a8>EPI</a8>"
+msgid "<a0>Terminology Service</a0>, <a1>Core data set</a1>, <a2>Logical information model</a2>, <a3>SNOMED CT</a3>, <a4>Computable Decision Support Engine</a4>, <a5>SMART Guidelines</a5>, <a6>DAK</a6>, <a7>Dose number and series</a7>, <a8>EPI</a8>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:16
@@ -66,10 +87,6 @@ msgstr ""
 msgid "A FHIR specification for one use case: profiles, codes and tests. It can be adopted rather than authored."
 msgstr ""
 
-#: input/pagecontent/glossary.md:35
-msgid "A person's health history that follows them across providers and over time. Also called a shared health record."
-msgstr ""
-
 #: input/pagecontent/glossary.md:83
 msgid "A person's permission for their data to be used or shared. Rules for minors and dependants differ by country."
 msgstr ""
@@ -80,6 +97,10 @@ msgstr ""
 
 #: input/pagecontent/glossary.md:78
 msgid "A published list of keys accepted as valid issuers. The GDHCN shares these between countries."
+msgstr ""
+
+#: input/pagecontent/glossary.md:27
+msgid "A set of shared digital systems that should be secure and interoperable, and can be built on open standards and specifications to deliver and provide equitable access to public and/or private services at societal scale and are governed by applicable legal frameworks and enabling rules to drive development, inclusion, innovation, trust, and competition, while respecting human rights and fundamental freedoms. (G20/UNDP)"
 msgstr ""
 
 #: input/pagecontent/glossary.md:90
@@ -98,16 +119,20 @@ msgstr ""
 msgid "A standing national or regional facility for conformance testing and building local skills."
 msgstr ""
 
+#: input/pagecontent/glossary.md:30
+msgid "A technology-neutral blueprint that captures the common building blocks, relationships, and design principles of a technical environment."
+msgstr ""
+
 #: input/pagecontent/glossary.md:118
-msgid "Adverse event following immunization (AEFI)"
+msgid "Adverse effects following immunisation"
+msgstr ""
+
+#: input/pagecontent/glossary.md:118
+msgid "Adverse Events Following Immunization (AEFI)"
 msgstr ""
 
 #: input/pagecontent/glossary.md:94
 msgid "AeHIN's method for aligning a ministry and its partners behind one national architecture and investment plan."
-msgstr ""
-
-#: input/pagecontent/glossary.md:42
-msgid "Aggregate reporting and analytics, such as DHIS2."
 msgstr ""
 
 #: input/pagecontent/glossary.md:25
@@ -136,16 +161,8 @@ msgstr ""
 msgid "An open-source integration tool used to connect legacy systems and migrate them to standards."
 msgstr ""
 
-#: input/pagecontent/glossary.md:118
-msgid "Any health problem after vaccination, reported for safety monitoring."
-msgstr ""
-
 #: input/pagecontent/glossary.md:32
 msgid "Application programming interface (API)"
-msgstr ""
-
-#: input/pagecontent/glossary.md:40
-msgid "Applies guideline logic, for example to work out which vaccine dose is due next."
 msgstr ""
 
 #: input/pagecontent/glossary.md:130
@@ -176,36 +193,28 @@ msgstr ""
 msgid "Birth registration can start a child's immunization record."
 msgstr ""
 
-#: input/pagecontent/glossary.md:103
-msgid "Blueprint"
-msgstr ""
-
-#: input/pagecontent/glossary.md:109
-msgid "Build costs plus running costs over a system's whole life."
-msgstr ""
-
 #: input/pagecontent/glossary.md:43
 msgid "Civil registration and vital statistics (CRVS)"
 msgstr ""
 
 #: input/pagecontent/glossary.md:33
-msgid "Client registry"
+msgid "Client Registry"
 msgstr ""
 
-#: input/pagecontent/glossary.md:62
-msgid "Clinical terminology. Use needs a licence, managed at national level; licensing is a national decision."
+#: input/pagecontent/glossary.md:33
+msgid "close to <a0>DPI-H RA: master-patient-index</a0>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:40
-msgid "close to <a0>DPI-H RA: computable-decision-support-engine</a0>related <a1>DTH-PHC: decision-support-system</a1>related <a2>DTH-PHC: decision-support-logic</a2>"
+#: input/pagecontent/glossary.md:35
+msgid "close to <a0>DPI-H RA: shared-health-record</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:103
-msgid "close to <a0>DPI-H RA: enterprise-architecture</a0>close to <a1>DTH-PHC: enterprise-architecture</a1>"
+msgid "close to <a0>DTH-PHC: enterprise-architecture</a0>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:64
-msgid "Codes for laboratory tests and observations."
+#: input/pagecontent/glossary.md:40
+msgid "Computable Decision Support Engine"
 msgstr ""
 
 #: input/pagecontent/glossary.md:66
@@ -248,8 +257,14 @@ msgstr ""
 msgid "Decision rights"
 msgstr ""
 
-#: input/pagecontent/glossary.md:40
-msgid "Decision support engine"
+#: input/pagecontent/glossary.md:25
+#: input/pagecontent/glossary.md:49
+#: input/pagecontent/glossary.md:71
+#: input/pagecontent/glossary.md:88
+#: input/pagecontent/glossary.md:100
+#: input/pagecontent/glossary.md:115
+#: input/pagecontent/glossary.md:126
+msgid "Definition"
 msgstr ""
 
 #: input/pagecontent/glossary.md:25
@@ -259,7 +274,11 @@ msgstr ""
 #: input/pagecontent/glossary.md:100
 #: input/pagecontent/glossary.md:115
 #: input/pagecontent/glossary.md:126
-msgid "Definition"
+msgid "Definition from"
+msgstr ""
+
+#: input/pagecontent/glossary.md:5
+msgid "Definition from says whose words the definition is. same as: both glossaries mean the same thing. close to: nearly the same. covers: this term covers several of theirs. related: it only touches theirs. Every term is a candidate until a person adopts it."
 msgstr ""
 
 #: input/pagecontent/glossary.md:110
@@ -283,7 +302,7 @@ msgid "Digital Implementation Investment Guide (DIIG)"
 msgstr ""
 
 #: input/pagecontent/glossary.md:27
-msgid "Digital public infrastructure (DPI)"
+msgid "Digital Public Infrastructure (DPI)"
 msgstr ""
 
 #: input/pagecontent/glossary.md:75
@@ -298,12 +317,12 @@ msgstr ""
 msgid "Dose number and series"
 msgstr ""
 
-#: input/pagecontent/glossary.md:28
-msgid "DPI for health (DPI-H)"
-msgstr ""
-
 #: input/pagecontent/glossary.md:36
 msgid "Electronic immunization registry (EIR)"
+msgstr ""
+
+#: input/pagecontent/glossary.md:103
+msgid "Enterprise Architecture"
 msgstr ""
 
 #: input/pagecontent/glossary.md:117
@@ -315,11 +334,19 @@ msgid "Facility, workforce and product registries"
 msgstr ""
 
 #: input/pagecontent/glossary.md:56
-msgid "Fast Healthcare Interoperability Resources. The main standard for exchanging health data through APIs."
+msgid "Fast Healthcare Interoperability Resources (FHIR)"
+msgstr ""
+
+#: input/pagecontent/glossary.md:56
+msgid "FHIR is a standard for healthcare data exchange, published by HL7®"
 msgstr ""
 
 #: input/pagecontent/glossary.md:29
-msgid "Foundational DPI (DPI-F)"
+msgid "Foundational Digital Public Infrastructure (DPI-F)"
+msgstr ""
+
+#: input/pagecontent/glossary.md:29
+msgid "Foundational Digital Public Infrastructure (DPI-F) is the digital public infrastructure, such as identity, payments and data exchange, upon which the health sector can build. DPI-H is distinct from DPI-F and builds on it."
 msgstr ""
 
 #: input/pagecontent/glossary.md:79
@@ -330,8 +357,78 @@ msgstr ""
 msgid "Governance, planning and financing"
 msgstr ""
 
+#: input/pagecontent/glossary.md:32
+#: input/pagecontent/glossary.md:34
+#: input/pagecontent/glossary.md:36
+#: input/pagecontent/glossary.md:37
+#: input/pagecontent/glossary.md:39
+#: input/pagecontent/glossary.md:41
+#: input/pagecontent/glossary.md:43
+#: input/pagecontent/glossary.md:51
+#: input/pagecontent/glossary.md:53
+#: input/pagecontent/glossary.md:54
+#: input/pagecontent/glossary.md:55
+#: input/pagecontent/glossary.md:57
+#: input/pagecontent/glossary.md:58
+#: input/pagecontent/glossary.md:59
+#: input/pagecontent/glossary.md:60
+#: input/pagecontent/glossary.md:61
+#: input/pagecontent/glossary.md:63
+#: input/pagecontent/glossary.md:65
+#: input/pagecontent/glossary.md:66
+#: input/pagecontent/glossary.md:73
+#: input/pagecontent/glossary.md:74
+#: input/pagecontent/glossary.md:75
+#: input/pagecontent/glossary.md:76
+#: input/pagecontent/glossary.md:77
+#: input/pagecontent/glossary.md:78
+#: input/pagecontent/glossary.md:79
+#: input/pagecontent/glossary.md:80
+#: input/pagecontent/glossary.md:81
+#: input/pagecontent/glossary.md:82
+#: input/pagecontent/glossary.md:83
+#: input/pagecontent/glossary.md:90
+#: input/pagecontent/glossary.md:91
+#: input/pagecontent/glossary.md:92
+#: input/pagecontent/glossary.md:93
+#: input/pagecontent/glossary.md:94
+#: input/pagecontent/glossary.md:95
+#: input/pagecontent/glossary.md:102
+#: input/pagecontent/glossary.md:104
+#: input/pagecontent/glossary.md:105
+#: input/pagecontent/glossary.md:106
+#: input/pagecontent/glossary.md:107
+#: input/pagecontent/glossary.md:108
+#: input/pagecontent/glossary.md:110
+#: input/pagecontent/glossary.md:117
+#: input/pagecontent/glossary.md:119
+#: input/pagecontent/glossary.md:120
+#: input/pagecontent/glossary.md:121
+#: input/pagecontent/glossary.md:128
+#: input/pagecontent/glossary.md:129
+#: input/pagecontent/glossary.md:130
+#: input/pagecontent/glossary.md:131
+#: input/pagecontent/glossary.md:132
+#: input/pagecontent/glossary.md:133
+#: input/pagecontent/glossary.md:134
+#: input/pagecontent/glossary.md:135
+#: input/pagecontent/glossary.md:136
+#: input/pagecontent/glossary.md:137
+#: input/pagecontent/glossary.md:138
+#: input/pagecontent/glossary.md:139
+msgid "Handout"
+msgstr ""
+
 #: input/pagecontent/glossary.md:82
 msgid "Health certificate identifier (HCID)"
+msgstr ""
+
+#: input/pagecontent/glossary.md:28
+msgid "Health Digital Public Infrastructure (DPI-H)"
+msgstr ""
+
+#: input/pagecontent/glossary.md:28
+msgid "Health Digital Public Infrastructure (DPI-H) refers to digital resources that are built as a shared means for fulfilling multiple health agency functions."
 msgstr ""
 
 #: input/pagecontent/glossary.md:41
@@ -343,19 +440,11 @@ msgid "Health information the person can see and control, for example in a walle
 msgstr ""
 
 #: input/pagecontent/glossary.md:42
-msgid "Health management information system (HMIS)"
+msgid "Health Management Information System (HMIS)"
 msgstr ""
 
 #: input/pagecontent/glossary.md:137
 msgid "HL7"
-msgstr ""
-
-#: input/pagecontent/glossary.md:56
-msgid "HL7 FHIR (FHIR)"
-msgstr ""
-
-#: input/pagecontent/glossary.md:33
-msgid "Identifies one person reliably across systems and links their records."
 msgstr ""
 
 #: input/pagecontent/glossary.md:120
@@ -402,6 +491,10 @@ msgstr ""
 msgid "Interoperability"
 msgstr ""
 
+#: input/pagecontent/glossary.md:44
+msgid "Interoperability is the standards-based capability of heterogeneous information systems to communicate, exchange data, and use the exchanged information to execute functions effectively."
+msgstr ""
+
 #: input/pagecontent/glossary.md:92
 msgid "Interoperability lab"
 msgstr ""
@@ -439,7 +532,7 @@ msgid "L1 narrative guideline · L2 DAK · L3 machine-readable FHIR IG · L4 ref
 msgstr ""
 
 #: input/pagecontent/glossary.md:35
-msgid "Lifelong health record"
+msgid "Lifelong Health Record"
 msgstr ""
 
 #: input/pagecontent/glossary.md:39
@@ -452,6 +545,10 @@ msgstr ""
 
 #: input/pagecontent/glossary.md:121
 msgid "Logistics management information system (LMIS)"
+msgstr ""
+
+#: input/pagecontent/glossary.md:64
+msgid "LOINC is a common language (a set of identifiers, names, and codes) for identifying health measurements, observations, and documents."
 msgstr ""
 
 #: input/pagecontent/glossary.md:136
@@ -483,7 +580,11 @@ msgid "Personal health record (PHR)"
 msgstr ""
 
 #: input/pagecontent/glossary.md:31
-msgid "Point-of-service application"
+msgid "Point-of-Service Applications"
+msgstr ""
+
+#: input/pagecontent/glossary.md:31
+msgid "Point-of-service applications are end-user application components (IT systems or software tools) used by individuals directly engaged in healthcare—such as clinicians, community health workers, and patients—that enable interaction with the broader healthcare ecosystem."
 msgstr ""
 
 #: input/pagecontent/glossary.md:108
@@ -507,7 +608,7 @@ msgid "Records each person's doses. Often the first working part of a lifelong r
 msgstr ""
 
 #: input/pagecontent/glossary.md:30
-msgid "Reference architecture"
+msgid "Reference Architecture"
 msgstr ""
 
 #: input/pagecontent/glossary.md:36
@@ -530,12 +631,12 @@ msgstr ""
 msgid "related <a0>DPI-H RA: smart-guidelines</a0>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:108
-msgid "Requirements written into tenders, such as conformance to the national IG, that steer what suppliers build."
+#: input/pagecontent/glossary.md:40
+msgid "related <a0>DTH-PHC: decision-support-system</a0>related <a1>DTH-PHC: decision-support-logic</a1>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:118
-msgid "same as <a0>DPI-H RA: adverse-events-following-immunization</a0>"
+#: input/pagecontent/glossary.md:108
+msgid "Requirements written into tenders, such as conformance to the national IG, that steer what suppliers build."
 msgstr ""
 
 #: input/pagecontent/glossary.md:32
@@ -546,10 +647,6 @@ msgstr ""
 msgid "same as <a0>DPI-H RA: civil-registration-and-vital-statistics</a0>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:33
-msgid "same as <a0>DPI-H RA: client-registry</a0>close to <a1>DPI-H RA: master-patient-index</a1>"
-msgstr ""
-
 #: input/pagecontent/glossary.md:54
 msgid "same as <a0>DPI-H RA: digital-adaptation-kit</a0>same as <a1>DTH-PHC: digital-adaptation-kits</a1>"
 msgstr ""
@@ -558,32 +655,12 @@ msgstr ""
 msgid "same as <a0>DPI-H RA: digital-implementation-investment-guide</a0>same as <a1>DTH-PHC: digital-implementation-investment-guide</a1>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:27
-msgid "same as <a0>DPI-H RA: digital-public-infrastructure</a0>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:56
-msgid "same as <a0>DPI-H RA: fast-healthcare-interoperability-resources</a0>same as <a1>DTH-PHC: fast-healthcare-interoperability-resources</a1>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:29
-msgid "same as <a0>DPI-H RA: foundational-digital-public-infrastructure</a0>"
-msgstr ""
-
 #: input/pagecontent/glossary.md:79
 msgid "same as <a0>DPI-H RA: global-digital-health-certification-network</a0>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:28
-msgid "same as <a0>DPI-H RA: health-digital-public-infrastructure</a0>"
-msgstr ""
-
 #: input/pagecontent/glossary.md:41
 msgid "same as <a0>DPI-H RA: health-information-exchange</a0>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:42
-msgid "same as <a0>DPI-H RA: health-management-information-system</a0>same as <a1>DTH-PHC: health-management-information-system</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:57
@@ -602,60 +679,32 @@ msgstr ""
 msgid "same as <a0>DPI-H RA: international-patient-summary</a0>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:44
-msgid "same as <a0>DPI-H RA: interoperability</a0>same as <a1>DTH-PHC: interoperability</a1>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:35
-msgid "same as <a0>DPI-H RA: lifelong-health-record</a0>close to <a1>DPI-H RA: shared-health-record</a1>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:64
-msgid "same as <a0>DPI-H RA: logical-observation-identifiers-names-and-codes</a0>same as <a1>DTH-PHC: logical-observation-identifiers-names-and-codes</a1>"
-msgstr ""
-
 #: input/pagecontent/glossary.md:37
 msgid "same as <a0>DPI-H RA: personal-health-record</a0>same as <a1>DTH-PHC: personal-health-record</a1>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:31
-msgid "same as <a0>DPI-H RA: point-of-service-applications</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:76
 msgid "same as <a0>DPI-H RA: public-key-infrastructure</a0>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:30
-msgid "same as <a0>DPI-H RA: reference-architecture</a0>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:52
-msgid "same as <a0>DPI-H RA: smart-guidelines</a0>same as <a1>DTH-PHC: smart-guidelines</a1>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:62
-msgid "same as <a0>DPI-H RA: snomed-ct</a0>same as <a1>DTH-PHC: snomed-ct</a1>"
-msgstr ""
-
 #: input/pagecontent/glossary.md:106
 msgid "same as <a0>DPI-H RA: technical-working-group</a0>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:38
-msgid "same as <a0>DPI-H RA: terminology-service</a0>"
-msgstr ""
-
-#: input/pagecontent/glossary.md:109
-msgid "same as <a0>DPI-H RA: total-cost-of-ownership</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:130
 msgid "same as <a0>DTH-PHC: asia-ehealth-information-network</a0>"
 msgstr ""
 
+#: input/pagecontent/glossary.md:56
+msgid "same as <a0>DTH-PHC: fast-healthcare-interoperability-resources</a0>"
+msgstr ""
+
 #: input/pagecontent/glossary.md:137
 msgid "same as <a0>DTH-PHC: health-level-seven</a0>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:42
+msgid "same as <a0>DTH-PHC: health-management-information-system</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:63
@@ -666,6 +715,22 @@ msgstr ""
 msgid "same as <a0>DTH-PHC: international-telecommunications-union</a0>"
 msgstr ""
 
+#: input/pagecontent/glossary.md:44
+msgid "same as <a0>DTH-PHC: interoperability</a0>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:64
+msgid "same as <a0>DTH-PHC: logical-observation-identifiers-names-and-codes</a0>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:52
+msgid "same as <a0>DTH-PHC: smart-guidelines</a0>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:62
+msgid "same as <a0>DTH-PHC: snomed-ct</a0>"
+msgstr ""
+
 #: input/pagecontent/glossary.md:135
 msgid "same as <a0>DTH-PHC: unicef</a0>"
 msgstr ""
@@ -674,20 +739,8 @@ msgstr ""
 msgid "same as <a0>DTH-PHC: world-health-organization</a0>"
 msgstr ""
 
-#: input/pagecontent/glossary.md:5
-msgid "same as: both glossaries mean the same thing. close to: nearly the same. covers: this term covers several of theirs. related: it only touches theirs. Every term is a candidate until a person adopts it."
-msgstr ""
-
 #: input/pagecontent/glossary.md:90
 msgid "Sandbox"
-msgstr ""
-
-#: input/pagecontent/glossary.md:38
-msgid "Serves shared code systems (SNOMED CT, ICD, LOINC) so that data means the same thing everywhere."
-msgstr ""
-
-#: input/pagecontent/glossary.md:27
-msgid "Shared, government-stewarded systems, such as ID, payments and data exchange, that many services reuse."
 msgstr ""
 
 #: input/pagecontent/glossary.md:25
@@ -716,10 +769,6 @@ msgstr ""
 msgid "SNOMED International"
 msgstr ""
 
-#: input/pagecontent/glossary.md:31
-msgid "Software people use every day: a clinic record system, an immunization app, a citizen app. It uses the shared layers through APIs."
-msgstr ""
-
 #: input/pagecontent/glossary.md:54
 msgid "Software-neutral L2 content: personas, workflows, core data dictionary, decision logic, indicators and requirements."
 msgstr ""
@@ -740,12 +789,16 @@ msgstr ""
 msgid "Standards body for FHIR."
 msgstr ""
 
+#: input/pagecontent/glossary.md:52
+msgid "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines are a comprehensive set of reusable digital health components (e.g., interoperability standards, code libraries, algorithms, technical and operational specifications) that transform the guideline adaptation and implementation process to preserve fidelity and accelerate uptake. SMART Guidelines provide a five-step pathway to advance the adoption of best clinical and data practices, even if a country is not yet fully digital."
+msgstr ""
+
 #: input/pagecontent/glossary.md:11
 msgid "Step"
 msgstr ""
 
-#: input/pagecontent/glossary.md:44
-msgid "Systems exchanging data and using it with the same meaning. It needs shared standards and governance, not only connections."
+#: input/pagecontent/glossary.md:62
+msgid "Systematized Nomenclature of Medicine Clinical Terms is a structured clinical terminology standard for use in electronic health records."
 msgstr ""
 
 #: input/pagecontent/glossary.md:106
@@ -763,7 +816,7 @@ msgid "Term"
 msgstr ""
 
 #: input/pagecontent/glossary.md:38
-msgid "Terminology service"
+msgid "Terminology Service"
 msgstr ""
 
 #: input/pagecontent/glossary.md:11
@@ -790,6 +843,14 @@ msgstr ""
 msgid "The agreed structure of the data: elements, types and rules, independent of any software."
 msgstr ""
 
+#: input/pagecontent/glossary.md:33
+msgid "The Client Registry is the national authoritative source of health-specific person identity. It is the foundational health-sector component that maintains a unique, verifiable identity record for every person who accesses or is eligible to access health services within a jurisdiction."
+msgstr ""
+
+#: input/pagecontent/glossary.md:40
+msgid "The Computable Decision Support Engine is a governed, shared application component that delivers context-appropriate, evidence-based guidance at the point of clinical decision-making by applying computable clinical rules and knowledge artefacts to person-specific health data."
+msgstr ""
+
 #: input/pagecontent/glossary.md:55
 msgid "The elements a country agrees to record for a use case, each mapped to standard codes. Also called a minimum data set."
 msgstr ""
@@ -797,6 +858,10 @@ msgstr ""
 #: input/pagecontent/glossary.md:144
 #, python-brace-format
 msgid "The handout: DPI-H for Health Workshop, Policy-maker track, Glossary: Terms You Will Hear (2 sides), which cites the WHO/ITU Reference Architecture for DPI-H (Draft v1.0), WHO SMART Guidelines, the digital ICVP specification and the WHO DIIG. The SKOS scheme is {code0}. The dth-phc glossary is linked where litlfred/dth-phc publishes it, until it moves to WorldHealthOrganization/dth-phc."
+msgstr ""
+
+#: input/pagecontent/glossary.md:42
+msgid "The Health Management Information System is a governed, shared application component responsible for the systematic collection, aggregation, analysis, and dissemination of population-level and facility-level health data to support health system planning, performance monitoring, resource allocation, and policy decision-making."
 msgstr ""
 
 #: input/pagecontent/glossary.md:9
@@ -811,6 +876,10 @@ msgstr ""
 msgid "The layer that routes data securely between systems."
 msgstr ""
 
+#: input/pagecontent/glossary.md:35
+msgid "The Lifelong Health Record (LHR) is one or more governed data repositories, whether physically consolidated or virtually federated, that collectively maintain a longitudinal, person-centred record of an individual's key health information across care settings and over their lifetime."
+msgstr ""
+
 #: input/pagecontent/glossary.md:77
 msgid "The national authority whose key vouches for the health sector's signers."
 msgstr ""
@@ -823,16 +892,20 @@ msgstr ""
 msgid "The national vision and priorities for digital health."
 msgstr ""
 
-#: input/pagecontent/glossary.md:28
-msgid "The shared health layer: registries, health record, terminology and decision support, built once and used by many programmes."
+#: input/pagecontent/glossary.md:103
+msgid "The organising logic for business processes and IT infrastructure reflecting the integration and standardisation requirements of the organisation's operating model."
 msgstr ""
 
-#: input/pagecontent/glossary.md:103
-msgid "The target design for the national system and how its parts fit together."
+#: input/pagecontent/glossary.md:109
+msgid "The resources required to support a digital health intervention throughout its life cycle."
+msgstr ""
+
+#: input/pagecontent/glossary.md:38
+msgid "The Terminology Service is a governed, publicly accessible service that manages, publishes, and provides access to the standardised terminologies, code systems, value sets, and concept maps used across the digital health ecosystem."
 msgstr ""
 
 #: input/pagecontent/glossary.md:3
-msgid "The terms the DPI-H for Health workshop's policy-maker track hands every table, in plain language. The definitions are the handout's own words (<a0>the handout, PDF</a0>). Each term links to the same concept in the <a1>DPI-H Reference Architecture</a1> glossary (smart-ra) and the Digital Transformation Handbook for Primary Health Care glossary (dth-phc), where they have one."
+msgid "The terms the DPI-H for Health workshop's policy-maker track hands every table, in plain language. Where the <a0>DPI-H Reference Architecture</a0> glossary (smart-ra) defines the same or a close concept, the term is smart-ra's and so is the definition, word for word; elsewhere the definition is the handout's (<a1>the handout, PDF</a1>). Each term also links to the Digital Transformation Handbook for Primary Health Care glossary (dth-phc) where it has one."
 msgstr ""
 
 #: input/pagecontent/glossary.md:74
@@ -843,12 +916,8 @@ msgstr ""
 msgid "The unique ID of an issued certificate."
 msgstr ""
 
-#: input/pagecontent/glossary.md:30
-msgid "The WHO/ITU map of DPI-H components and layers. A reading tool, not a product list or a sequence."
-msgstr ""
-
 #: input/pagecontent/glossary.md:109
-msgid "Total cost of ownership (TCO)"
+msgid "Total Cost of Ownership (TCO)"
 msgstr ""
 
 #: input/pagecontent/glossary.md:121
@@ -905,14 +974,6 @@ msgstr ""
 
 #: input/pagecontent/glossary.md:81
 msgid "WHO's earlier specification; much of its approach carries into the digital ICVP."
-msgstr ""
-
-#: input/pagecontent/glossary.md:52
-msgid "WHO's path from narrative guidelines to digital content that is standards-based, machine-readable, adaptive, requirements-based and testable."
-msgstr ""
-
-#: input/pagecontent/glossary.md:29
-msgid "Whole-of-government systems not specific to health: national ID, civil registration, payments, trust services."
 msgstr ""
 
 #: input/pagecontent/glossary.md:132

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T09:49:18.279Z\n"
+"POT-Creation-Date: 2026-11-16T09:55:20.388Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -36,10 +36,6 @@ msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:35
 msgid "“across a border”"
-msgstr ""
-
-#: input/pagecontent/narrative-discrepancies.md:79
-msgid "\"Adverse event following immunization\" (singular); the RA: \"Adverse Events Following Immunization\""
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:44
@@ -91,7 +87,7 @@ msgid "\"Vaccinated abroad, and leaves with a paper card and a QR code\" (one ca
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:74
-msgid "77 terms. 45 match a term in the DPI-H RA (smart-ra) or the DTH-PHC (dth-phc) glossary exactly, a few more closely; the rest are the workshop's own. The DTH-PHC glossary is linked from litlfred/dth-phc until it moves to WorldHealthOrganization/dth-phc."
+msgid "77 terms. Where the DPI-H RA (smart-ra) defines the same or a close concept, the glossary now uses the RA's term and definition, word for word, and drops the handout's (owner, 2026-11-16): 18 terms. The rest keep the handout's wording, linked to smart-ra and DTH-PHC (dth-phc) where they have the term. The DTH-PHC glossary is linked from litlfred/dth-phc until it moves to WorldHealthOrganization/dth-phc."
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:12
@@ -152,6 +148,10 @@ msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:12
 msgid "An Onesan national living in Onesa who gave birth in Taifafeki, “away from home”"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:86
+msgid "API, PHR, HIE, CRVS, DAK, IG, IPS, ICVP, IHR, PKI, GDHCN, DIIG, TWG"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:29
@@ -215,6 +215,14 @@ msgstr ""
 msgid "Discrepancy"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:78
+msgid "Done: the term now uses the RA's Client Registry and its definition; MPI stays an alternative label"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:82
+msgid "Done: the term now uses the RA's concept and definition"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:67
 msgid "Done: the workshop's legal-bases table now has the canvas's three"
 msgstr ""
@@ -241,10 +249,6 @@ msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:72
 msgid "E. The glossary"
-msgstr ""
-
-#: input/pagecontent/narrative-discrepancies.md:79
-msgid "Either; WHO uses the singular in the glossary sense"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:81
@@ -331,10 +335,6 @@ msgstr ""
 msgid "Keep on the site (it drives M3 and M6), or drop it to match the deck"
 msgstr ""
 
-#: input/pagecontent/narrative-discrepancies.md:82
-msgid "Keep the plain term; linked as close to"
-msgstr ""
-
 #: input/pagecontent/narrative-discrepancies.md:15
 msgid "Keep two cards (one HCERT per dose is how the DVC works) and change the deck to “cards”, or add a note. Decide whether an Onesan mother has a Taifafeki citizen app"
 msgstr ""
@@ -387,6 +387,10 @@ msgstr ""
 msgid "Note"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:79
+msgid "Now uses the RA's term, whose definition is only an expansion (\"Adverse effects following immunisation\"); the handout's was a real definition (\"Any health problem after vaccination, reported for safety monitoring\")"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:24
 msgid "Nurse Chanthason makes the clinical call; it is added to the national map (J3b)"
 msgstr ""
@@ -424,8 +428,16 @@ msgstr ""
 msgid "Pick one place name"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:79
+msgid "Propose a fuller definition to the RA glossary"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:83
 msgid "Propose core data set to the RA glossary"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:86
+msgid "Propose the handout's wording to the RA glossary, or wait for the RA's own; switch when it lands"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:85
@@ -574,6 +586,10 @@ msgstr ""
 msgid "The deck's four journeys map to the site's steps as J1 → J1; J2 → J2a, J2b; J3 → J3a, J3b; J4 → J4.0a, J4.0b, J4.1. The <a0>module × journey map</a0> uses the site's steps"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:86
+msgid "The DPI-H RA has each concept but no definition yet, so the handout's wording is kept"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:5
 msgid "The editable <a0>Country Canvas</a0> (A3) and the policy-maker track's <a1>glossary</a1> are reviewed in sections D and E."
 msgstr ""
@@ -583,7 +599,7 @@ msgid "The family shares Somsak's IPS with consent; Dr Anan reads it"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:78
-msgid "The handout makes MPI the client registry's acronym; the DPI-H RA has Client Registry (CR) and Master Patient Index as two concepts"
+msgid "The handout made MPI the client registry's acronym; the DPI-H RA has Client Registry and Master Patient Index as two concepts"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:24
@@ -702,8 +718,4 @@ msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:13
 msgid "Who gives the birth doses"
-msgstr ""
-
-#: input/pagecontent/narrative-discrepancies.md:78
-msgid "Write \"also called a master patient index\" rather than an acronym"
 msgstr ""
