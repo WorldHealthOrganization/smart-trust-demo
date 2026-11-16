@@ -16334,6 +16334,10 @@
       "source" : "input/pagecontent/countries.md",
       "resources" : []
     },
+    "country-canvas.md" : {
+      "source" : "input/pagecontent/country-canvas.md",
+      "resources" : []
+    },
     "data-models-and-exchange.md" : {
       "source" : "input/pagecontent/data-models-and-exchange.md",
       "resources" : []
@@ -16356,6 +16360,10 @@
     },
     "functional-requirements.md" : {
       "source" : "input/pagecontent/functional-requirements.md",
+      "resources" : []
+    },
+    "glossary.md" : {
+      "source" : "input/pagecontent/glossary.md",
       "resources" : []
     },
     "index.md" : {
@@ -16382,6 +16390,14 @@
       "source" : "fsh-generated/includes/menu.xml",
       "resources" : []
     },
+    "module-journey-map.md" : {
+      "source" : "input/pagecontent/module-journey-map.md",
+      "resources" : []
+    },
+    "narrative-discrepancies.md" : {
+      "source" : "input/pagecontent/narrative-discrepancies.md",
+      "resources" : []
+    },
     "personas.md" : {
       "source" : "input/pagecontent/personas.md",
       "resources" : []
@@ -16404,6 +16420,66 @@
     },
     "upstream-who-smart-trust-phw-receive-a-vhl.md" : {
       "source" : "input/pagecontent/upstream-who-smart-trust-phw-receive-a-vhl.md",
+      "resources" : []
+    },
+    "workshop-m1.md" : {
+      "source" : "input/pagecontent/workshop-m1.md",
+      "resources" : []
+    },
+    "workshop-m2.md" : {
+      "source" : "input/pagecontent/workshop-m2.md",
+      "resources" : []
+    },
+    "workshop-m3.md" : {
+      "source" : "input/pagecontent/workshop-m3.md",
+      "resources" : []
+    },
+    "workshop-m4.md" : {
+      "source" : "input/pagecontent/workshop-m4.md",
+      "resources" : []
+    },
+    "workshop-m5.md" : {
+      "source" : "input/pagecontent/workshop-m5.md",
+      "resources" : []
+    },
+    "workshop-m6.md" : {
+      "source" : "input/pagecontent/workshop-m6.md",
+      "resources" : []
+    },
+    "workshop-m7.md" : {
+      "source" : "input/pagecontent/workshop-m7.md",
+      "resources" : []
+    },
+    "workshop-t1.md" : {
+      "source" : "input/pagecontent/workshop-t1.md",
+      "resources" : []
+    },
+    "workshop-t2.md" : {
+      "source" : "input/pagecontent/workshop-t2.md",
+      "resources" : []
+    },
+    "workshop-t3.md" : {
+      "source" : "input/pagecontent/workshop-t3.md",
+      "resources" : []
+    },
+    "workshop-t4.md" : {
+      "source" : "input/pagecontent/workshop-t4.md",
+      "resources" : []
+    },
+    "workshop-t5.md" : {
+      "source" : "input/pagecontent/workshop-t5.md",
+      "resources" : []
+    },
+    "workshop-t6.md" : {
+      "source" : "input/pagecontent/workshop-t6.md",
+      "resources" : []
+    },
+    "workshop-t7.md" : {
+      "source" : "input/pagecontent/workshop-t7.md",
+      "resources" : []
+    },
+    "workshop.md" : {
+      "source" : "input/pagecontent/workshop.md",
       "resources" : []
     }
   },
@@ -22664,6 +22740,11 @@
       "resources" : [],
       "fragments" : ["menu.xml"]
     },
+    "country-canvas.html" : {
+      "source" : "input/pagecontent/country-canvas.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
     "data-models-and-exchange.html" : {
       "source" : "input/pagecontent/data-models-and-exchange.md",
       "resources" : [],
@@ -22689,6 +22770,11 @@
       "resources" : [],
       "fragments" : ["menu.xml"]
     },
+    "glossary.html" : {
+      "source" : "input/pagecontent/glossary.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
     "index.html" : {
       "source" : "input/pagecontent/index.md",
       "resources" : [],
@@ -22711,6 +22797,16 @@
     },
     "journeys.html" : {
       "source" : "input/pagecontent/journeys.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "module-journey-map.html" : {
+      "source" : "input/pagecontent/module-journey-map.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "narrative-discrepancies.html" : {
+      "source" : "input/pagecontent/narrative-discrepancies.md",
       "resources" : [],
       "fragments" : ["menu.xml"]
     },
@@ -22747,6 +22843,81 @@
     },
     "upstream-who-smart-trust-phw-receive-a-vhl.html" : {
       "source" : "input/pagecontent/upstream-who-smart-trust-phw-receive-a-vhl.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-m1.html" : {
+      "source" : "input/pagecontent/workshop-m1.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-m2.html" : {
+      "source" : "input/pagecontent/workshop-m2.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-m3.html" : {
+      "source" : "input/pagecontent/workshop-m3.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-m4.html" : {
+      "source" : "input/pagecontent/workshop-m4.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-m5.html" : {
+      "source" : "input/pagecontent/workshop-m5.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-m6.html" : {
+      "source" : "input/pagecontent/workshop-m6.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-m7.html" : {
+      "source" : "input/pagecontent/workshop-m7.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-t1.html" : {
+      "source" : "input/pagecontent/workshop-t1.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-t2.html" : {
+      "source" : "input/pagecontent/workshop-t2.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-t3.html" : {
+      "source" : "input/pagecontent/workshop-t3.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-t4.html" : {
+      "source" : "input/pagecontent/workshop-t4.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-t5.html" : {
+      "source" : "input/pagecontent/workshop-t5.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-t6.html" : {
+      "source" : "input/pagecontent/workshop-t6.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop-t7.html" : {
+      "source" : "input/pagecontent/workshop-t7.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "workshop.html" : {
+      "source" : "input/pagecontent/workshop.md",
       "resources" : [],
       "fragments" : ["menu.xml"]
     }
