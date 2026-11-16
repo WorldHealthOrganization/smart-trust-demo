@@ -255,16 +255,25 @@ msgid ""
 "follow the VHL, and Dr Anan treats whatever the family can show as he\n"
 "would a paper record.\n"
 msgstr ""
+"回到故事开始的地方，Anan 医生（一位儿科医生）在凯萨罗的一家儿科诊所为 Somsak 看诊。Bounmy 在手机上出示 QR 码并说出通行码。诊所查看器和奥内萨网关分五步进行：\n"
+"\n"
+"1. 查看器对照其信任列表副本中 B 国的 DSC 验证 HCERT。\n"
+"2. 它通过 ITI-YY5 请求清单，并用 HTTP Message Signatures 签名（STT-VHL-005、STT-VHL-006、STT-VHL-008）。\n"
+"3. 奥内萨网关核查通行码、有效期和同意，返回清单，并在本国记录此次访问（`TrustDemoJ41Access`）。\n"
+"4. 查看器解密 IPS 和 DVC（STT-VHL-007）（`TrustDemoJ41Received`）。\n"
+"5. 将其展示给 Anan 医生：自出生以来的每一剂次，只查看，从不复制。\n"
+"\n"
+"错误的通行码会被拒绝，而该尝试仍会记录在奥内萨（`TrustDemoJ41WrongPasscode`）。如果 HCERT 未通过验证（例如缓存列表中缺少 B 国的 DSC），就没有数字验证。诊所会指明失败的步骤和原因（STT-VER-008），不跟随 VHL，Anan 医生会像对待纸质记录一样对待这家人能出示的任何材料。\n"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:22
 msgctxt "step.where"
 msgid "Kesaro paediatric clinic"
-msgstr ""
+msgstr "凯萨罗儿科诊所"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:4
 msgctxt "title"
 msgid "J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history"
-msgstr ""
+msgstr "J4.1 — 跨境连续性：一位泰法费基儿科医生看到完整的接种史"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""

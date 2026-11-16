@@ -376,22 +376,23 @@ msgid ""
 "(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\n"
 "list. It shows the doses, but checks no signature and saves nothing yet.\n"
 msgstr ""
+"Khamla 已带 Somsak 回到奥内萨的家。在一次对 Village 04（Khamla 所在的村庄）的例行访视中，Vilay 发现了一个奥内萨系统并不知道其存在的新生儿。她的手机已经几周没有信号了。Khamla 出示了两张卡片。CHW 应用以 **read-unverified**（STT-VER-011；STT-B45-002、STT-ZIP-002、STT-CBR-003）读取它们，这无需信任列表。应用显示剂次，但不核查任何签名，也暂不保存任何内容。\n"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 msgctxt "step.when"
 msgid "T0 + 7 weeks"
-msgstr ""
+msgstr "T0 + 7 周"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:4
 msgctxt "title"
 msgid "J2 — Found and registered"
-msgstr ""
+msgstr "J2 — 被发现并登记"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:13
 msgctxt "when"
 msgid "Somsak is 7 weeks old"
-msgstr ""
+msgstr "Somsak 7 周大"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""

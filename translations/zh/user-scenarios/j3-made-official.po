@@ -364,17 +364,17 @@ msgstr "洛马鲁区卫生中心"
 #: scenarios/user-scenarios/j3-made-official.json:197
 msgctxt "step.experiences.doing"
 msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
-msgstr ""
+msgstr "确认泰法费基产品即奥内萨的出生剂次；接种逾期的 6 周龄疫苗。"
 
 #: scenarios/user-scenarios/j3-made-official.json:316
 msgctxt "step.fhirChanges.change"
 msgid "Overdue 6-week doses given"
-msgstr ""
+msgstr "已接种逾期的 6 周龄剂次"
 
 #: scenarios/user-scenarios/j3-made-official.json:317
 msgctxt "step.fhirChanges.why"
 msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
-msgstr ""
+msgstr "奥内萨接种计划（PlanDefinition）发现 6 周龄剂次已逾期，因此现在接种；提醒让他按时回来接种下一批剂次。"
 
 #: scenarios/user-scenarios/j3-made-official.json:192
 msgctxt "step.narrative"
@@ -391,27 +391,28 @@ msgid ""
 "(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
 "measles-rubella at 9 months, in Onesa.\n"
 msgstr ""
+"泰法费基的 Hep B 产品与国家接种计划中的任何条目都不匹配。EHR 保留泰法费基的产品编码，并根据国家映射表（`TrustDemoProductToOnesaEpi`）在其旁边添加接种计划编码。对于该 Hep B 产品，映射表中没有条目，因此 Chanthason 护士作出临床判断，认定它是接种计划中的出生剂次（`TrustDemoJ3Adjudication`），她的决定被加入映射表，供下一家诊所使用。随后接种计划（`TrustDemoOnesaInfantSchedule`）开始运行：出生剂次计入，五联疫苗第 1 剂、bOPV 第 1 剂和 PCV 第 1 剂应在 6 周龄时接种，到 10 周龄时已逾期（`TrustDemoJ3Recommendation`），因此 Chanthason 护士当天为他接种。Khamla 带着下一批剂次的日期离开（`TrustDemoJ3Reminder`）。在这一年里，Somsak 在奥内萨接种了其余剂次，并在 9 月龄时接种麻疹-风疹疫苗。\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:257
 msgctxt "step.uses.role"
 msgid "Onesan schedule logic finds the 6-week doses overdue"
-msgstr ""
+msgstr "奥内萨接种计划逻辑发现 6 周龄剂次已逾期"
 
 #: scenarios/user-scenarios/j3-made-official.json:20
 #: scenarios/user-scenarios/j3-made-official.json:20
 msgctxt "step.when"
 msgid "T0 + 10 weeks"
-msgstr ""
+msgstr "T0 + 10 周"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "title"
 msgid "J3 — A foreign record used for the next vaccine"
-msgstr ""
+msgstr "J3 — 外国记录用于下一次接种"
 
 #: scenarios/user-scenarios/j3-made-official.json:11
 msgctxt "when"
 msgid "Somsak is 10 weeks old"
-msgstr ""
+msgstr "Somsak 10 周大"
 
 #~ msgctxt "step.experiences.doing"
 #~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
