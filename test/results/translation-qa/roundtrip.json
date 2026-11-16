@@ -122,6 +122,14 @@
       "fixed": 22,
       "noise": 74,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 59,
+      "drifts": 1,
+      "fixed": 1,
+      "noise": 16,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; 59 new msgstrs (journeys, index, navbar, personas, scenarios, user scenarios J1-J4.1) read back from a msgstr-only JSON; 1 drift fixed (J1 narrative reused an older obsolete msgstr that added 'as in VaxLink'; replaced by the current one); the 16 noise items are wording only. The 4 '#, localised' entries of glossary.po stay empty by design. Unofficial machine translation; every person and place is fictional."
     }
   }
 }

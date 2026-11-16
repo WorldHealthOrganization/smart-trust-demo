@@ -33,10 +33,6 @@ msgstr "新增示例：家庭 {code0}、登记 {code1} 及其应答、已报告�
 msgid "New process steps: J2 adds the newborn to the household and saves the doses as reported, not verified; J3 adds the national schedule code beside the foreign vaccine code (the nurse decides unmapped products); J4.0 records the holder's consent with a passcode and an expiry; J4.1 adds the home portal's lane, which checks the passcode, returns the manifest and logs every access."
 msgstr "新增流程步骤：J2 将新生儿加入家庭，并将剂次保存为已报告、未验证；J3 在境外疫苗代码旁添加国家接种计划代码（未映射的产品由护士判定）；J4.0 记录持有人的同意，并附通行码和有效期；J4.1 新增本国门户的泳道，负责核验通行码、返回清单并记录每一次访问。"
 
-#: input/pagecontent/changes.md:4
-msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXU), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
-msgstr "这些旅程讲述 <a0>VaxLink</a0> 的故事（问题 <a1>#21</a1>）：Somsak SENGMANY 出生于泰法费基（XXR），生活在奥内萨（Onesa，XXU），一年后再次在泰法费基就诊。人物画像、系统参与者和故事已重新编写；业务流程已通用化（其中不含人名）。"
-
 #: input/pagecontent/changes.md:9
 msgid "New page: <a0>Journey examples</a0>, mapping each walkthrough screen and payload to its example here."
 msgstr "新页面：<a0>旅程示例</a0>，将演练的每个界面和载荷映射到此处对应的示例。"
@@ -51,5 +47,17 @@ msgstr "新术语：{code0} 和 {code1} ValueSet，即本演示自有的示意�
 msgid "The DEMO-VHL trust domain's terms of use: {code0} and the {code1} ValueSet. The J4.0 consent is now a Personal Health Wallet explicit consent ({code2}) that names {code3} in {code4}."
 msgstr "DEMO-VHL 信任域的使用条款：{code0} 和 {code1} ValueSet。J4.0 的同意现在是一项 Personal Health Wallet（个人健康钱包）明示同意（{code2}），在 {code4} 中指明 {code3}。"
 
+#: input/pagecontent/changes.md:3
+#, python-brace-format
+msgid "Onesa's code is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, Onesan identifiers, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
+msgstr "奥内萨的代码现为 XXU（原为 XXK），即 SMART Trust 的 Participants-DEV 中名为 \"Onesa\" 的 DEV 测试参与方（WorldHealthOrganization/smart-trust#161）：涉及国家定义、奥内萨标识符、接种程序代码（{code0}）、批号、国家门户、流程、设备界面、示例和翻译。"
+
+#: input/pagecontent/changes.md:5
+msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXK), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
+msgstr "这些旅程讲述 <a0>VaxLink</a0> 的故事（议题 <a1>#21</a1>）：Somsak SENGMANY 出生于泰法费基（XXR），居住在奥内萨（XXK），一年后在泰法费基再次就诊。人物、系统参与者和故事均已重写；业务流程改为通用形式（其中不含人名）。"
+
 #~ msgid "New page: <a0>VaxLink examples</a0>, mapping each walkthrough screen and payload to its example here."
 #~ msgstr "新页面：<a0>VaxLink 示例</a0>，将演练的每个界面和载荷映射到此处对应的示例。"
+
+#~ msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXU), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
+#~ msgstr "这些旅程讲述 <a0>VaxLink</a0> 的故事（问题 <a1>#21</a1>）：Somsak SENGMANY 出生于泰法费基（XXR），生活在奥内萨（Onesa，XXU），一年后再次在泰法费基就诊。人物画像、系统参与者和故事已重新编写；业务流程已通用化（其中不含人名）。"
