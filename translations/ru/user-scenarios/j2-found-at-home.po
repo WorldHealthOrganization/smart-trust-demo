@@ -376,22 +376,28 @@ msgid ""
 "(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\n"
 "list. It shows the doses, but checks no signature and saves nothing yet.\n"
 msgstr ""
+"Khamla привезла Somsak домой в Онесу. Во время планового визита в деревню 04,\n"
+"где живёт Khamla, Vilay обнаруживает новорождённого, о существовании\n"
+"которого онесская система не знает. На её телефоне уже несколько недель нет сигнала. Khamla\n"
+"показывает две карточки. Приложение CHW считывает их в режиме **read-unverified**\n"
+"(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), для которого список доверия\n"
+"не нужен. Оно показывает дозы, но не проверяет подпись и пока ничего не сохраняет.\n"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 msgctxt "step.when"
 msgid "T0 + 7 weeks"
-msgstr ""
+msgstr "T0 + 7 недель"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:4
 msgctxt "title"
 msgid "J2 — Found and registered"
-msgstr ""
+msgstr "J2 — Найден и зарегистрирован"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:13
 msgctxt "when"
 msgid "Somsak is 7 weeks old"
-msgstr ""
+msgstr "Somsak исполнилось 7 недель"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""

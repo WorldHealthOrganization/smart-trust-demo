@@ -364,17 +364,17 @@ msgstr "Районный медицинский центр Ломару"
 #: scenarios/user-scenarios/j3-made-official.json:197
 msgctxt "step.experiences.doing"
 msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
-msgstr ""
+msgstr "Подтверждает, что тайфафекский продукт соответствует онесской дозе при рождении; вводит просроченные прививки, положенные в 6 недель."
 
 #: scenarios/user-scenarios/j3-made-official.json:316
 msgctxt "step.fhirChanges.change"
 msgid "Overdue 6-week doses given"
-msgstr ""
+msgstr "Введены просроченные дозы, положенные в 6 недель"
 
 #: scenarios/user-scenarios/j3-made-official.json:317
 msgctxt "step.fhirChanges.why"
 msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
-msgstr ""
+msgstr "Онесский график (PlanDefinition) определяет, что дозы, положенные в 6 недель, просрочены, поэтому их вводят сейчас; напоминание приводит его обратно за следующими."
 
 #: scenarios/user-scenarios/j3-made-official.json:192
 msgctxt "step.narrative"
@@ -391,27 +391,38 @@ msgid ""
 "(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
 "measles-rubella at 9 months, in Onesa.\n"
 msgstr ""
+"Тайфафекский продукт Hep B не соответствует ничему в национальном графике.\n"
+"EHR сохраняет тайфафекскую кодировку продукта и добавляет рядом кодировку графика\n"
+"из национальной таблицы соответствия (`TrustDemoProductToOnesaEpi`). Для продукта Hep B\n"
+"в таблице нет записи, поэтому медсестра Chanthason принимает клиническое решение о том, что это\n"
+"доза при рождении по графику (`TrustDemoJ3Adjudication`), и её решение\n"
+"добавляется в таблицу для следующей клиники. Затем применяется график (`TrustDemoOnesaInfantSchedule`):\n"
+"дозы при рождении засчитываются, а пентавалентная 1, bOPV 1 и PCV 1, положенные\n"
+"в 6 недель, в 10 недель оказываются просроченными (`TrustDemoJ3Recommendation`), поэтому медсестра\n"
+"Chanthason вводит их в тот же день. Khamla уходит с датой следующих доз\n"
+"(`TrustDemoJ3Reminder`). В течение года Somsak получает остальные дозы и\n"
+"вакцину против кори и краснухи в 9 месяцев — в Онесе.\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:257
 msgctxt "step.uses.role"
 msgid "Onesan schedule logic finds the 6-week doses overdue"
-msgstr ""
+msgstr "Логика онесского графика определяет, что дозы, положенные в 6 недель, просрочены"
 
 #: scenarios/user-scenarios/j3-made-official.json:20
 #: scenarios/user-scenarios/j3-made-official.json:20
 msgctxt "step.when"
 msgid "T0 + 10 weeks"
-msgstr ""
+msgstr "T0 + 10 недель"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "title"
 msgid "J3 — A foreign record used for the next vaccine"
-msgstr ""
+msgstr "J3 — Иностранная запись используется для следующей прививки"
 
 #: scenarios/user-scenarios/j3-made-official.json:11
 msgctxt "when"
 msgid "Somsak is 10 weeks old"
-msgstr ""
+msgstr "Somsak исполнилось 10 недель"
 
 #~ msgctxt "step.experiences.doing"
 #~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
