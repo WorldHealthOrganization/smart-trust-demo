@@ -362,17 +362,17 @@ msgstr "Centro de Salud de Distrito de Lomaru"
 #: scenarios/user-scenarios/j3-made-official.json:197
 msgctxt "step.experiences.doing"
 msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
-msgstr ""
+msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer de Onesa; administra las vacunas atrasadas de las 6 semanas."
 
 #: scenarios/user-scenarios/j3-made-official.json:316
 msgctxt "step.fhirChanges.change"
 msgid "Overdue 6-week doses given"
-msgstr ""
+msgstr "Dosis atrasadas de las 6 semanas administradas"
 
 #: scenarios/user-scenarios/j3-made-official.json:317
 msgctxt "step.fhirChanges.why"
 msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
-msgstr ""
+msgstr "El calendario de Onesa (PlanDefinition) determina que las dosis de las 6 semanas están atrasadas, así que se administran en ese momento; el recordatorio hace que vuelva para las siguientes."
 
 #: scenarios/user-scenarios/j3-made-official.json:192
 msgctxt "step.narrative"
@@ -388,28 +388,28 @@ msgid ""
 "Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
 "(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
 "measles-rubella at 9 months, in Onesa.\n"
-msgstr ""
+msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1, que corresponden a las 6 semanas, están atrasadas a las 10 semanas\n(`TrustDemoJ3Recommendation`), así que la enfermera Chanthason las administra ese mismo día.\nKhamla se va con la fecha de las siguientes dosis (`TrustDemoJ3Reminder`). A lo largo del\naño, Somsak recibe el resto de sus dosis y la vacuna contra el sarampión y la rubéola a los\n9 meses, en Onesa.\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:257
 msgctxt "step.uses.role"
 msgid "Onesan schedule logic finds the 6-week doses overdue"
-msgstr ""
+msgstr "La lógica del calendario de Onesa determina que las dosis de las 6 semanas están atrasadas"
 
 #: scenarios/user-scenarios/j3-made-official.json:20
 #: scenarios/user-scenarios/j3-made-official.json:20
 msgctxt "step.when"
 msgid "T0 + 10 weeks"
-msgstr ""
+msgstr "T0 + 10 semanas"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "title"
 msgid "J3 — A foreign record used for the next vaccine"
-msgstr ""
+msgstr "J3 — Un registro extranjero usado para la siguiente vacuna"
 
 #: scenarios/user-scenarios/j3-made-official.json:11
 msgctxt "when"
 msgid "Somsak is 10 weeks old"
-msgstr ""
+msgstr "Somsak tiene 10 semanas"
 
 #~ msgctxt "step.experiences.doing"
 #~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."

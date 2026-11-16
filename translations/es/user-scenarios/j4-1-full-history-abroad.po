@@ -253,17 +253,17 @@ msgid ""
 "verification. The clinic names the step and the reason (STT-VER-008), does not\n"
 "follow the VHL, and Dr Anan treats whatever the family can show as he\n"
 "would a paper record.\n"
-msgstr ""
+msgstr "De vuelta donde empezó todo, el Dr. Anan, pediatra, atiende a Somsak en una clínica pediátrica de Kesaro. Bounmy muestra el QR en su teléfono y dice el código de acceso. El visor de la clínica y la puerta de enlace de Onesa siguen cinco pasos:\n\n1. El visor verifica el HCERT contra el DSC del País B en su copia de la lista de confianza.\n2. Solicita el manifiesto mediante ITI-YY5, firmado con HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n3. La puerta de enlace de Onesa comprueba el código de acceso, la caducidad y el consentimiento, devuelve el manifiesto y registra el acceso en el país de residencia (`TrustDemoJ41Access`).\n4. El visor descifra el IPS y los DVC (STT-VHL-007) (`TrustDemoJ41Received`).\n5. Se los muestra al Dr. Anan: todas las dosis desde el nacimiento, consultadas, nunca copiadas.\n\nUn código de acceso incorrecto se rechaza, y el intento igualmente queda registrado en Onesa (`TrustDemoJ41WrongPasscode`). Si el HCERT no se verifica (por ejemplo, porque el DSC del País B falta en la lista en caché), no hay verificación digital. La clínica indica el paso y el motivo (STT-VER-008), no sigue el VHL, y el Dr. Anan trata lo que la familia pueda mostrar como trataría un registro en papel.\n"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:22
 msgctxt "step.where"
 msgid "Kesaro paediatric clinic"
-msgstr ""
+msgstr "Clínica pediátrica de Kesaro"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:4
 msgctxt "title"
 msgid "J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history"
-msgstr ""
+msgstr "J4.1 — Continuidad a través de una frontera: un pediatra de Taifafeki ve el historial completo"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""

@@ -373,23 +373,23 @@ msgid ""
 "shows the two cards. The CHW app reads them with **read-unverified**\n"
 "(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\n"
 "list. It shows the doses, but checks no signature and saves nothing yet.\n"
-msgstr ""
+msgstr "Khamla ha traído a Somsak a casa, a Onesa. En una visita de rutina a Village 04,\nla aldea de Khamla, Vilay encuentra a un recién nacido cuya existencia\ndesconoce el sistema de Onesa. Su teléfono lleva semanas sin señal. Khamla muestra las dos\ntarjetas. La aplicación del CHW las lee con **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), que no necesita lista de\nconfianza. Muestra las dosis, pero no comprueba ninguna firma ni guarda nada todavía.\n"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 msgctxt "step.when"
 msgid "T0 + 7 weeks"
-msgstr ""
+msgstr "T0 + 7 semanas"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:4
 msgctxt "title"
 msgid "J2 — Found and registered"
-msgstr ""
+msgstr "J2 — Detectado y registrado"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:13
 msgctxt "when"
 msgid "Somsak is 7 weeks old"
-msgstr ""
+msgstr "Somsak tiene 7 semanas"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""
