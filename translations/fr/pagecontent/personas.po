@@ -84,10 +84,6 @@ msgstr "Bounmy SENGMANY (père, détient le téléphone familial) ; Khamla SENGM
 msgid "Chanthason (Nurse · District Health Center, Onesa)"
 msgstr "Chanthason (Infirmière · centre de santé de district, Onesa)"
 
-#: input/pagecontent/personas.md:27
-msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
-msgstr "Visualiseur de la clinique de soins primaires de Kesaro, Taifafeki (J4.1)"
-
 #: input/pagecontent/personas.md:22
 msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR)"
 msgstr "Système de l’hôpital provincial de Kesaro, Taifafeki (Pays A, XXR)"
@@ -227,17 +223,9 @@ msgstr "Persona pour J2 : l’agent de santé communautaire de la zone de desser
 msgid "Persona for J3: the nurse at Lomaru District Health Center in Onesa (Country B), on the clinic's tablet (OHS app, facility configuration). Makes the clinical call when a foreign product has no mapping. Fictional."
 msgstr "Persona pour J3 : l’infirmière du centre de santé du district de Lomaru à Onesa (Pays B), sur la tablette de la clinique (application OHS, configuration établissement). Prend la décision clinique lorsqu’un produit étranger n’a pas de correspondance. Fictive."
 
-#: input/pagecontent/personas.md:45
-msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional."
-msgstr "Persona : un clinicien de Taifafeki de Kesaro qui administre à Somsak les doses à la naissance contre l’hépatite B et le BCG et imprime les deux DVC signés (J1), et qui le revoit un an plus tard dans une clinique de soins primaires, en lisant son dossier au moyen du VHL (J4.1). Fictif."
-
 #: input/pagecontent/personas.md:53
 msgid "Persona: Somsak's father, 29, head of the household in Onesa, who holds the family's one shared phone (J4). Creates Somsak's passcode-protected VHL (J4.0) and says the passcode aloud at the clinic (J4.1). Fictional."
 msgstr "Persona : le père de Somsak, 29 ans, chef du ménage à Onesa, qui détient l’unique téléphone partagé de la famille (J4). Crée le VHL de Somsak protégé par code d’accès (J4.0) et prononce le code d’accès à voix haute à la clinique (J4.1). Fictif."
-
-#: input/pagecontent/personas.md:69
-msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
-msgstr "Persona : la mère de Somsak, 26 ans, ressortissante d’Onesa vivant à Onesa (Pays B), qui a accouché à Taifafeki (Pays A). Détient les deux DVC papier de J1 à J3. Fictive."
 
 #: input/pagecontent/personas.md:26
 msgid "Personal health wallet"
@@ -389,6 +377,27 @@ msgstr "La personne que concernent les dossiers : l'enfant dont les doses sont a
 msgid "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the journeys viewer shows the same text."
 msgstr "Chacun est fictif. Leurs objectifs, besoins et frustrations sont conservés dans {code0} ({code1}), et le visualiseur de parcours affiche le même texte."
 
+#: input/pagecontent/personas.md:28
+msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
+msgstr ""
+
+#: input/pagecontent/personas.md:46
+msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
+msgstr ""
+
+#: input/pagecontent/personas.md:70
+msgid "Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
+msgstr ""
+
 #~ #, python-brace-format
 #~ msgid "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the VaxLink walkthrough shows the same text."
 #~ msgstr "Chacun est fictif. Leurs objectifs, besoins et frustrations sont conservés dans {code0} ({code1}), et la présentation guidée VaxLink affiche le même texte."
+
+#~ msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
+#~ msgstr "Visualiseur de la clinique de soins primaires de Kesaro, Taifafeki (J4.1)"
+
+#~ msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional."
+#~ msgstr "Persona : un clinicien de Taifafeki de Kesaro qui administre à Somsak les doses à la naissance contre l’hépatite B et le BCG et imprime les deux DVC signés (J1), et qui le revoit un an plus tard dans une clinique de soins primaires, en lisant son dossier au moyen du VHL (J4.1). Fictif."
+
+#~ msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
+#~ msgstr "Persona : la mère de Somsak, 26 ans, ressortissante d’Onesa vivant à Onesa (Pays B), qui a accouché à Taifafeki (Pays A). Détient les deux DVC papier de J1 à J3. Fictive."
