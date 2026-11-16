@@ -30,6 +30,7 @@ const canvas = read("workshops/country-canvas.json");
 const map = ws.matrix;
 const use = read("workshops/glossary-use.json");
 const glossary = read("glossary/dpi-h-policy-track.glossary.json");
+const materials: { title: string; kind: string; href: string; what: string; also?: { label: string; href: string }[] }[] = read("workshops/materials.json").materials;
 
 type Mod = { id: string; title: string; day?: number; carries?: string; sheet?: string };
 type TSession = { time: string; end: string; minutes: number; type: string; title: string; leads: string[]; supports: string[]; what: string; confirm?: string };
@@ -168,6 +169,9 @@ const files: Record<string, string> = {};
     H.push(`</div>`);
   }
   if (tech.toConfirm?.length) H.push(`<h3>Still to confirm</h3><ul>${tech.toConfirm.map((x: string) => `<li>${e(x)}</li>`).join("")}</ul>`);
+  if (materials.length) H.push(`<h3 id="materials">Workshop materials</h3><div class="ws-cards">${materials
+    .map((x) => `<div class="ws-card"><span class="ws-mod-h"><span class="ws-sheet">${e(x.kind)}</span></span><b><a href="${e(x.href)}">${e(x.title)}</a></b><p>${e(x.what)}</p>${x.also?.length ? `<p class="ws-links">${x.also.map((a) => `<a href="${e(a.href)}">${e(a.label)}</a>`).join("")}</p>` : ""}</div>`)
+    .join("")}</div>`);
   H.push(more([["Module × journey map", "module-journey-map.html"], ["Country Canvas", "country-canvas.html"], ["Glossary", "glossary.html"], ["Journeys viewer", `${VIEWER}overview/`]]), `</div>`);
   files["input/pagecontent/workshop.md"] = HEAD("workshops/ (the workshop, the technical track, the canvas, the module map)") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
 }
