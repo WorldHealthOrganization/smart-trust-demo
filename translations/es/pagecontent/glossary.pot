@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T09:55:10.997Z\n"
+"POT-Creation-Date: 2026-11-16T11:30:19.748Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -49,6 +49,68 @@ msgstr ""
 
 #: input/pagecontent/glossary.md:20
 msgid "<a0>GDHCN</a0>, <a1>Trust list</a1>, <a2>IPS</a2>, <a3>HIE</a3>, <a4>Lifelong Health Record</a4>, <a5>Consent</a5>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:32
+#: input/pagecontent/glossary.md:34
+#: input/pagecontent/glossary.md:36
+#: input/pagecontent/glossary.md:37
+#: input/pagecontent/glossary.md:39
+#: input/pagecontent/glossary.md:41
+#: input/pagecontent/glossary.md:43
+#: input/pagecontent/glossary.md:51
+#: input/pagecontent/glossary.md:53
+#: input/pagecontent/glossary.md:54
+#: input/pagecontent/glossary.md:55
+#: input/pagecontent/glossary.md:57
+#: input/pagecontent/glossary.md:58
+#: input/pagecontent/glossary.md:59
+#: input/pagecontent/glossary.md:60
+#: input/pagecontent/glossary.md:61
+#: input/pagecontent/glossary.md:63
+#: input/pagecontent/glossary.md:65
+#: input/pagecontent/glossary.md:66
+#: input/pagecontent/glossary.md:73
+#: input/pagecontent/glossary.md:74
+#: input/pagecontent/glossary.md:75
+#: input/pagecontent/glossary.md:76
+#: input/pagecontent/glossary.md:77
+#: input/pagecontent/glossary.md:78
+#: input/pagecontent/glossary.md:79
+#: input/pagecontent/glossary.md:80
+#: input/pagecontent/glossary.md:81
+#: input/pagecontent/glossary.md:82
+#: input/pagecontent/glossary.md:83
+#: input/pagecontent/glossary.md:90
+#: input/pagecontent/glossary.md:91
+#: input/pagecontent/glossary.md:92
+#: input/pagecontent/glossary.md:93
+#: input/pagecontent/glossary.md:94
+#: input/pagecontent/glossary.md:95
+#: input/pagecontent/glossary.md:102
+#: input/pagecontent/glossary.md:104
+#: input/pagecontent/glossary.md:105
+#: input/pagecontent/glossary.md:106
+#: input/pagecontent/glossary.md:107
+#: input/pagecontent/glossary.md:108
+#: input/pagecontent/glossary.md:110
+#: input/pagecontent/glossary.md:117
+#: input/pagecontent/glossary.md:119
+#: input/pagecontent/glossary.md:120
+#: input/pagecontent/glossary.md:121
+#: input/pagecontent/glossary.md:128
+#: input/pagecontent/glossary.md:129
+#: input/pagecontent/glossary.md:130
+#: input/pagecontent/glossary.md:131
+#: input/pagecontent/glossary.md:132
+#: input/pagecontent/glossary.md:133
+#: input/pagecontent/glossary.md:134
+#: input/pagecontent/glossary.md:135
+#: input/pagecontent/glossary.md:136
+#: input/pagecontent/glossary.md:137
+#: input/pagecontent/glossary.md:138
+#: input/pagecontent/glossary.md:139
+msgid "<a0>Handout</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:19
@@ -202,15 +264,23 @@ msgid "Client Registry"
 msgstr ""
 
 #: input/pagecontent/glossary.md:33
-msgid "close to <a0>DPI-H RA: master-patient-index</a0>"
+msgid "close to <a0>DPI-H RA: Master patient index</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:35
-msgid "close to <a0>DPI-H RA: shared-health-record</a0>"
+msgid "close to <a0>DPI-H RA: Shared health record</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:103
-msgid "close to <a0>DTH-PHC: enterprise-architecture</a0>"
+msgid "close to <a0>DTH-PHC: Enterprise architecture</a0>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:78
+msgid "close to <a0>SMART Trust: Trust Lists</a0>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:73
+msgid "close to <a0>SMART Trust: Verifiable Digital Health Certificate</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:40
@@ -246,7 +316,11 @@ msgid "Costed investment plan"
 msgstr ""
 
 #: input/pagecontent/glossary.md:34
-msgid "covers <a0>DPI-H RA: health-facility-registry</a0>covers <a1>DPI-H RA: health-workforce-registry</a1>covers <a2>DPI-H RA: product-registry</a2>"
+msgid "covers <a0>DPI-H RA: Health facility registry</a0>covers <a1>DPI-H RA: Health workforce registry</a1>covers <a2>DPI-H RA: Product registry</a2>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:74
+msgid "covers <a0>SMART Trust: Issuer</a0>covers <a1>SMART Trust: Holder</a1>covers <a2>SMART Trust: Receiver</a2>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:133
@@ -278,7 +352,7 @@ msgid "Definition from"
 msgstr ""
 
 #: input/pagecontent/glossary.md:5
-msgid "Definition from says whose words the definition is. same as: both glossaries mean the same thing. close to: nearly the same. covers: this term covers several of theirs. related: it only touches theirs. Every term is a candidate until a person adopts it."
+msgid "Definition from says whose words the definition is, and links to them: the handout (PDF) or the DPI-H RA glossary. Also defined in links the same concept in the DPI-H RA, DTH-PHC and SMART Trust glossaries. same as: both glossaries mean the same thing. close to: nearly the same. covers: this term covers several of theirs. related: it only touches theirs. Every term is a candidate until a person adopts it."
 msgstr ""
 
 #: input/pagecontent/glossary.md:110
@@ -355,68 +429,6 @@ msgstr ""
 
 #: input/pagecontent/glossary.md:98
 msgid "Governance, planning and financing"
-msgstr ""
-
-#: input/pagecontent/glossary.md:32
-#: input/pagecontent/glossary.md:34
-#: input/pagecontent/glossary.md:36
-#: input/pagecontent/glossary.md:37
-#: input/pagecontent/glossary.md:39
-#: input/pagecontent/glossary.md:41
-#: input/pagecontent/glossary.md:43
-#: input/pagecontent/glossary.md:51
-#: input/pagecontent/glossary.md:53
-#: input/pagecontent/glossary.md:54
-#: input/pagecontent/glossary.md:55
-#: input/pagecontent/glossary.md:57
-#: input/pagecontent/glossary.md:58
-#: input/pagecontent/glossary.md:59
-#: input/pagecontent/glossary.md:60
-#: input/pagecontent/glossary.md:61
-#: input/pagecontent/glossary.md:63
-#: input/pagecontent/glossary.md:65
-#: input/pagecontent/glossary.md:66
-#: input/pagecontent/glossary.md:73
-#: input/pagecontent/glossary.md:74
-#: input/pagecontent/glossary.md:75
-#: input/pagecontent/glossary.md:76
-#: input/pagecontent/glossary.md:77
-#: input/pagecontent/glossary.md:78
-#: input/pagecontent/glossary.md:79
-#: input/pagecontent/glossary.md:80
-#: input/pagecontent/glossary.md:81
-#: input/pagecontent/glossary.md:82
-#: input/pagecontent/glossary.md:83
-#: input/pagecontent/glossary.md:90
-#: input/pagecontent/glossary.md:91
-#: input/pagecontent/glossary.md:92
-#: input/pagecontent/glossary.md:93
-#: input/pagecontent/glossary.md:94
-#: input/pagecontent/glossary.md:95
-#: input/pagecontent/glossary.md:102
-#: input/pagecontent/glossary.md:104
-#: input/pagecontent/glossary.md:105
-#: input/pagecontent/glossary.md:106
-#: input/pagecontent/glossary.md:107
-#: input/pagecontent/glossary.md:108
-#: input/pagecontent/glossary.md:110
-#: input/pagecontent/glossary.md:117
-#: input/pagecontent/glossary.md:119
-#: input/pagecontent/glossary.md:120
-#: input/pagecontent/glossary.md:121
-#: input/pagecontent/glossary.md:128
-#: input/pagecontent/glossary.md:129
-#: input/pagecontent/glossary.md:130
-#: input/pagecontent/glossary.md:131
-#: input/pagecontent/glossary.md:132
-#: input/pagecontent/glossary.md:133
-#: input/pagecontent/glossary.md:134
-#: input/pagecontent/glossary.md:135
-#: input/pagecontent/glossary.md:136
-#: input/pagecontent/glossary.md:137
-#: input/pagecontent/glossary.md:138
-#: input/pagecontent/glossary.md:139
-msgid "Handout"
 msgstr ""
 
 #: input/pagecontent/glossary.md:82
@@ -612,27 +624,39 @@ msgid "Reference Architecture"
 msgstr ""
 
 #: input/pagecontent/glossary.md:36
-msgid "related <a0>DPI-H RA: lifelong-health-record</a0>related <a1>DPI-H RA: registry</a1>"
+msgid "related <a0>DPI-H RA: Lifelong health record</a0>related <a1>DPI-H RA: Registry</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:39
-msgid "related <a0>DPI-H RA: logical-information-model-repository</a0>"
+msgid "related <a0>DPI-H RA: Logical information model repository</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:55
-msgid "related <a0>DPI-H RA: national-health-data-dictionary</a0>related <a1>DTH-PHC: data-dictionary</a1>"
+msgid "related <a0>DPI-H RA: National health data dictionary</a0>related <a1>DTH-PHC: Data dictionary</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:51
-msgid "related <a0>DPI-H RA: open-standards</a0>related <a1>DTH-PHC: interoperability-standards</a1>"
+msgid "related <a0>DPI-H RA: Open standards</a0>related <a1>DTH-PHC: Interoperability standards</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:53
-msgid "related <a0>DPI-H RA: smart-guidelines</a0>"
+msgid "related <a0>DPI-H RA: Smart guidelines</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:40
-msgid "related <a0>DTH-PHC: decision-support-system</a0>related <a1>DTH-PHC: decision-support-logic</a1>"
+msgid "related <a0>DTH-PHC: Decision support system</a0>related <a1>DTH-PHC: Decision support logic</a1>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:75
+msgid "related <a0>SMART Trust: Document Signer</a0>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:80
+msgid "related <a0>SMART Trust: Holder</a0>"
+msgstr ""
+
+#: input/pagecontent/glossary.md:77
+msgid "related <a0>SMART Trust: Trust Network Gateway – Trust Anchor</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:108
@@ -640,103 +664,103 @@ msgid "Requirements written into tenders, such as conformance to the national IG
 msgstr ""
 
 #: input/pagecontent/glossary.md:32
-msgid "same as <a0>DPI-H RA: application-programming-interface</a0>same as <a1>DTH-PHC: application-programming-interface</a1>"
+msgid "same as <a0>DPI-H RA: Application programming interface</a0>same as <a1>DTH-PHC: Application programming interface</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:43
-msgid "same as <a0>DPI-H RA: civil-registration-and-vital-statistics</a0>"
+msgid "same as <a0>DPI-H RA: Civil registration and vital statistics</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:54
-msgid "same as <a0>DPI-H RA: digital-adaptation-kit</a0>same as <a1>DTH-PHC: digital-adaptation-kits</a1>"
+msgid "same as <a0>DPI-H RA: Digital adaptation kit</a0>same as <a1>DTH-PHC: Digital adaptation kits</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:105
-msgid "same as <a0>DPI-H RA: digital-implementation-investment-guide</a0>same as <a1>DTH-PHC: digital-implementation-investment-guide</a1>"
+msgid "same as <a0>DPI-H RA: Digital implementation investment guide</a0>same as <a1>DTH-PHC: Digital implementation investment guide</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:79
-msgid "same as <a0>DPI-H RA: global-digital-health-certification-network</a0>"
+msgid "same as <a0>DPI-H RA: Global digital health certification network</a0>same as <a1>SMART Trust: GDHCN Trust Network</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:41
-msgid "same as <a0>DPI-H RA: health-information-exchange</a0>"
+msgid "same as <a0>DPI-H RA: Health information exchange</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:57
-msgid "same as <a0>DPI-H RA: implementation-guide</a0>"
+msgid "same as <a0>DPI-H RA: Implementation guide</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:60
-msgid "same as <a0>DPI-H RA: international-certificate-of-vaccination-or-prophylaxis</a0>"
+msgid "same as <a0>DPI-H RA: International certificate of vaccination or prophylaxis</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:61
-msgid "same as <a0>DPI-H RA: international-health-regulations</a0>"
+msgid "same as <a0>DPI-H RA: International health regulations</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:59
-msgid "same as <a0>DPI-H RA: international-patient-summary</a0>"
+msgid "same as <a0>DPI-H RA: International patient summary</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:37
-msgid "same as <a0>DPI-H RA: personal-health-record</a0>same as <a1>DTH-PHC: personal-health-record</a1>"
+msgid "same as <a0>DPI-H RA: Personal health record</a0>same as <a1>DTH-PHC: Personal health record</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:76
-msgid "same as <a0>DPI-H RA: public-key-infrastructure</a0>"
+msgid "same as <a0>DPI-H RA: Public key infrastructure</a0>same as <a1>SMART Trust: Public Key Infrastructure (PKI)</a1>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:106
-msgid "same as <a0>DPI-H RA: technical-working-group</a0>"
+msgid "same as <a0>DPI-H RA: Technical working group</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:130
-msgid "same as <a0>DTH-PHC: asia-ehealth-information-network</a0>"
+msgid "same as <a0>DTH-PHC: Asia ehealth information network</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:56
-msgid "same as <a0>DTH-PHC: fast-healthcare-interoperability-resources</a0>"
+msgid "same as <a0>DTH-PHC: Fast healthcare interoperability resources</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:137
-msgid "same as <a0>DTH-PHC: health-level-seven</a0>"
+msgid "same as <a0>DTH-PHC: Health level seven</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:42
-msgid "same as <a0>DTH-PHC: health-management-information-system</a0>"
+msgid "same as <a0>DTH-PHC: Health management information system</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:63
-msgid "same as <a0>DTH-PHC: international-classification-of-diseases</a0>covers <a1>DPI-H RA: international-classification-of-diseases-11th-revision</a1>covers <a2>DTH-PHC: international-classification-of-diseases-11</a2>"
+msgid "same as <a0>DTH-PHC: International classification of diseases</a0>covers <a1>DPI-H RA: International classification of diseases 11th revision</a1>covers <a2>DTH-PHC: International classification of diseases 11</a2>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:129
-msgid "same as <a0>DTH-PHC: international-telecommunications-union</a0>"
+msgid "same as <a0>DTH-PHC: International telecommunications union</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:44
-msgid "same as <a0>DTH-PHC: interoperability</a0>"
+msgid "same as <a0>DTH-PHC: Interoperability</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:64
-msgid "same as <a0>DTH-PHC: logical-observation-identifiers-names-and-codes</a0>"
+msgid "same as <a0>DTH-PHC: Logical observation identifiers names and codes</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:52
-msgid "same as <a0>DTH-PHC: smart-guidelines</a0>"
+msgid "same as <a0>DTH-PHC: Smart guidelines</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:62
-msgid "same as <a0>DTH-PHC: snomed-ct</a0>"
+msgid "same as <a0>DTH-PHC: Snomed ct</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:135
-msgid "same as <a0>DTH-PHC: unicef</a0>"
+msgid "same as <a0>DTH-PHC: Unicef</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:128
-msgid "same as <a0>DTH-PHC: world-health-organization</a0>"
+msgid "same as <a0>DTH-PHC: World health organization</a0>"
 msgstr ""
 
 #: input/pagecontent/glossary.md:90
