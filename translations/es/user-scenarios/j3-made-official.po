@@ -59,11 +59,6 @@ msgctxt "step.experiences.doing"
 msgid "Brings Somsak in for the referral visit."
 msgstr "Lleva a Somsak a la visita de derivación."
 
-#: scenarios/user-scenarios/j3-made-official.json:197
-msgctxt "step.experiences.doing"
-msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
-msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer de Onesa; el sistema programa las vacunas de las 6 semanas."
-
 #: scenarios/user-scenarios/j3-made-official.json:203
 msgctxt "step.experiences.doing"
 msgid "Leaves with a date for Somsak’s next vaccines."
@@ -93,11 +88,6 @@ msgstr "“Ahora sé exactamente cuándo volver.”"
 msgctxt "step.experiences.feeling"
 msgid "“They believe the Taifafeki papers!”"
 msgstr "“¡Creen en los papeles de Taifafeki!”"
-
-#: scenarios/user-scenarios/j3-made-official.json:316
-msgctxt "step.fhirChanges.change"
-msgid "6-week pentavalent booked"
-msgstr "Pentavalente de las 6 semanas programada"
 
 #: scenarios/user-scenarios/j3-made-official.json:148
 msgctxt "step.fhirChanges.change"
@@ -133,11 +123,6 @@ msgstr "Cualquiera que más adelante dude de una dosis puede rastrearla hasta el
 msgctxt "step.fhirChanges.why"
 msgid "Onesa’s own map from vaccine products to its schedule; a product with no mapping goes to the nurse."
 msgstr "El mapa propio de Onesa entre los productos de vacuna y su calendario; un producto sin correspondencia pasa a la enfermera."
-
-#: scenarios/user-scenarios/j3-made-official.json:317
-msgctxt "step.fhirChanges.why"
-msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
-msgstr "El calendario de Onesa (PlanDefinition) determina que corresponden las dosis de las 6 semanas; el recordatorio hace que vuelva."
 
 #: scenarios/user-scenarios/j3-made-official.json:295
 msgctxt "step.fhirChanges.why"
@@ -202,21 +187,6 @@ msgid ""
 "the reason, the doses stay unverified, and the nurse decides by national\n"
 "catch-up policy.\n"
 msgstr "La enfermera Chanthason abre la derivación y escanea los QR. La EHR\n**verifica** cada DVC sin conexión contra esa copia (STT-VER-001…009,\nSTT-KID-002), sin contactar con Taifafeki. Ambos se verifican, así que la EHR los importa como\n`Immunization` de FHIR (`TrustDemoJ3HepB`, `TrustDemoJ3Bcg`) con su procedencia\n(`TrustDemoJ3Verification`; STT-VER-007, STT-VER-008), en sustitución de las dosis\nnotificadas en J2. Si un DVC no se verifica (por ejemplo, una tarjeta manipulada), la EHR indica\nel paso y el motivo, las dosis siguen sin verificar y la enfermera decide según la política\nnacional de vacunación de puesta al día.\n"
-
-#: scenarios/user-scenarios/j3-made-official.json:192
-msgctxt "step.narrative"
-msgid ""
-"The Taifafeki Hep B product matches nothing on the national schedule.\n"
-"The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
-"it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
-"the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
-"the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
-"added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
-"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
-"at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
-"(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
-"measles-rubella at 9 months, in Onesa.\n"
-msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1 corresponden a las 6 semanas (`TrustDemoJ3Recommendation`). Khamla se va con la\nfecha (`TrustDemoJ3Reminder`). A lo largo del año, Somsak recibe esas dosis y la vacuna\ncontra el sarampión y la rubéola a los 9 meses, en Onesa.\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:51
 msgctxt "step.painPoint"
@@ -323,11 +293,6 @@ msgctxt "step.uses.role"
 msgid "Delivers the CHW’s referral to this clinic; the nurse can only see patients referred to her facility"
 msgstr "Entrega a esta clínica la derivación del CHW; la enfermera solo puede ver a los pacientes derivados a su establecimiento"
 
-#: scenarios/user-scenarios/j3-made-official.json:257
-msgctxt "step.uses.role"
-msgid "Onesan schedule logic calculates the 6-week doses"
-msgstr "La lógica del calendario de Onesa calcula las dosis de las 6 semanas"
-
 #: scenarios/user-scenarios/j3-made-official.json:253
 msgctxt "step.uses.role"
 msgid "PreQual product → WHO vaccine type → Onesan EPI code"
@@ -378,12 +343,6 @@ msgctxt "step.whatIf.scenario"
 msgid "There is no automatic match for the foreign vaccine."
 msgstr "No hay una correspondencia automática para la vacuna extranjera."
 
-#: scenarios/user-scenarios/j3-made-official.json:20
-#: scenarios/user-scenarios/j3-made-official.json:20
-msgctxt "step.when"
-msgid "T0 + 4 weeks"
-msgstr "T0 + 4 semanas"
-
 #: scenarios/user-scenarios/j3-made-official.json:12
 #: scenarios/user-scenarios/j3-made-official.json:12
 msgctxt "step.where"
@@ -391,21 +350,105 @@ msgid "Lomaru District Health Center"
 msgstr "Centro de Salud de Distrito de Lomaru"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
-msgctxt "title"
-msgid "J3 — Made official"
-msgstr "J3 — Oficializado"
-
-#: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "views.label"
 msgid "J3"
 msgstr "J3"
-
-#: scenarios/user-scenarios/j3-made-official.json:11
-msgctxt "when"
-msgid "4 weeks later"
-msgstr "4 semanas después"
 
 #: scenarios/user-scenarios/j3-made-official.json:12
 msgctxt "where"
 msgid "Lomaru District Health Center"
 msgstr "Centro de Salud de Distrito de Lomaru"
+
+#: scenarios/user-scenarios/j3-made-official.json:197
+msgctxt "step.experiences.doing"
+msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
+msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer de Onesa; administra las vacunas atrasadas de las 6 semanas."
+
+#: scenarios/user-scenarios/j3-made-official.json:316
+msgctxt "step.fhirChanges.change"
+msgid "Overdue 6-week doses given"
+msgstr "Dosis atrasadas de las 6 semanas administradas"
+
+#: scenarios/user-scenarios/j3-made-official.json:317
+msgctxt "step.fhirChanges.why"
+msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
+msgstr "El calendario de Onesa (PlanDefinition) determina que las dosis de las 6 semanas están atrasadas, así que se administran en ese momento; el recordatorio hace que vuelva para las siguientes."
+
+#: scenarios/user-scenarios/j3-made-official.json:192
+msgctxt "step.narrative"
+msgid ""
+"The Taifafeki Hep B product matches nothing on the national schedule.\n"
+"The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
+"it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+"the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+"the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+"added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n"
+"6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\n"
+"Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
+"(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
+"measles-rubella at 9 months, in Onesa.\n"
+msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1, que corresponden a las 6 semanas, están atrasadas a las 10 semanas\n(`TrustDemoJ3Recommendation`), así que la enfermera Chanthason las administra ese mismo día.\nKhamla se va con la fecha de las siguientes dosis (`TrustDemoJ3Reminder`). A lo largo del\naño, Somsak recibe el resto de sus dosis y la vacuna contra el sarampión y la rubéola a los\n9 meses, en Onesa.\n"
+
+#: scenarios/user-scenarios/j3-made-official.json:257
+msgctxt "step.uses.role"
+msgid "Onesan schedule logic finds the 6-week doses overdue"
+msgstr "La lógica del calendario de Onesa determina que las dosis de las 6 semanas están atrasadas"
+
+#: scenarios/user-scenarios/j3-made-official.json:20
+#: scenarios/user-scenarios/j3-made-official.json:20
+msgctxt "step.when"
+msgid "T0 + 10 weeks"
+msgstr "T0 + 10 semanas"
+
+#: scenarios/user-scenarios/j3-made-official.json:4
+msgctxt "title"
+msgid "J3 — A foreign record used for the next vaccine"
+msgstr "J3 — Un registro extranjero usado para la siguiente vacuna"
+
+#: scenarios/user-scenarios/j3-made-official.json:11
+msgctxt "when"
+msgid "Somsak is 10 weeks old"
+msgstr "Somsak tiene 10 semanas"
+
+#~ msgctxt "step.experiences.doing"
+#~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
+#~ msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer de Onesa; el sistema programa las vacunas de las 6 semanas."
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "6-week pentavalent booked"
+#~ msgstr "Pentavalente de las 6 semanas programada"
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
+#~ msgstr "El calendario de Onesa (PlanDefinition) determina que corresponden las dosis de las 6 semanas; el recordatorio hace que vuelva."
+
+#~ msgctxt "step.narrative"
+#~ msgid ""
+#~ "The Taifafeki Hep B product matches nothing on the national schedule.\n"
+#~ "The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
+#~ "it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+#~ "the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+#~ "the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+#~ "added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+#~ "then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
+#~ "at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
+#~ "(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
+#~ "measles-rubella at 9 months, in Onesa.\n"
+#~ msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1 corresponden a las 6 semanas (`TrustDemoJ3Recommendation`). Khamla se va con la\nfecha (`TrustDemoJ3Reminder`). A lo largo del año, Somsak recibe esas dosis y la vacuna\ncontra el sarampión y la rubéola a los 9 meses, en Onesa.\n"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Onesan schedule logic calculates the 6-week doses"
+#~ msgstr "La lógica del calendario de Onesa calcula las dosis de las 6 semanas"
+
+#~ msgctxt "step.when"
+#~ msgid "T0 + 4 weeks"
+#~ msgstr "T0 + 4 semanas"
+
+#~ msgctxt "title"
+#~ msgid "J3 — Made official"
+#~ msgstr "J3 — Oficializado"
+
+#~ msgctxt "when"
+#~ msgid "4 weeks later"
+#~ msgstr "4 semanas después"

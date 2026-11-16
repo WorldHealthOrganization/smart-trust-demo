@@ -85,10 +85,6 @@ msgstr "Bounmy SENGMANY (отец, владелец семейного теле�
 msgid "Chanthason (Nurse · District Health Center, Onesa)"
 msgstr "Chanthason (медсестра · районный медицинский центр, Онеса)"
 
-#: input/pagecontent/personas.md:27
-msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
-msgstr "Средство просмотра клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки (J4.1)"
-
 #: input/pagecontent/personas.md:22
 msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR)"
 msgstr "Система провинциальной больницы Кесаро, Тайфафеки (страна A, XXR)"
@@ -228,17 +224,9 @@ msgstr "Персона для J2: общинный медицинский раб
 msgid "Persona for J3: the nurse at Lomaru District Health Center in Onesa (Country B), on the clinic's tablet (OHS app, facility configuration). Makes the clinical call when a foreign product has no mapping. Fictional."
 msgstr "Персона для J3: медсестра районного медицинского центра Ломару в Онесе (страна B), работающая на планшете клиники (приложение OHS, конфигурация учреждения). Принимает клиническое решение, когда для иностранного препарата нет сопоставления. Вымышленный персонаж."
 
-#: input/pagecontent/personas.md:45
-msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional."
-msgstr "Персона: тайфафекский клиницист в Кесаро, который вводит Somsak дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и печатает два подписанных DVC (J1), а через год снова осматривает его в клинике первичной медико-санитарной помощи, читая его запись через VHL (J4.1). Вымышленный персонаж."
-
 #: input/pagecontent/personas.md:53
 msgid "Persona: Somsak's father, 29, head of the household in Onesa, who holds the family's one shared phone (J4). Creates Somsak's passcode-protected VHL (J4.0) and says the passcode aloud at the clinic (J4.1). Fictional."
 msgstr "Персона: отец Somsak, 29 лет, глава семьи в Онесе, владелец единственного общего телефона семьи (J4). Создаёт для Somsak защищённую паролем VHL (J4.0) и называет код доступа вслух в клинике (J4.1). Вымышленный персонаж."
-
-#: input/pagecontent/personas.md:69
-msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
-msgstr "Персона: мать Somsak, 26 лет, гражданка Онесы, проживающая в Онесе (страна B), которая родила в Тайфафеки (страна A). Хранит два бумажных DVC с J1 по J3. Вымышленный персонаж."
 
 #: input/pagecontent/personas.md:26
 msgid "Personal health wallet"
@@ -390,6 +378,27 @@ msgstr "Лицо, к которому относятся записи: ребё�
 msgid "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the journeys viewer shows the same text."
 msgstr "Все они вымышлены. Их цели, потребности и трудности хранятся в {code0} ({code1}), и просмотрщик путей показывает тот же текст."
 
+#: input/pagecontent/personas.md:28
+msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
+msgstr "Средство просмотра педиатрической клиники в Кесаро, Тайфафеки (J4.1)"
+
+#: input/pagecontent/personas.md:46
+msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
+msgstr "Персона: тайфафекский клиницист в Кесаро, который вводит Somsak дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и печатает два подписанных DVC (J1), а через год снова осматривает его в педиатрической клинике, читая его запись через VHL (J4.1). Вымышленный персонаж."
+
+#: input/pagecontent/personas.md:70
+msgid "Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
+msgstr "Персона: мать Somsak, 26 лет, гражданка Онесы, работающая в Тайфафеки (страна A), где она родила, и привозящая Somsak домой в Онесу (страна B). Хранит два бумажных DVC с J1 по J3. Вымышленный персонаж."
+
 #~ #, python-brace-format
 #~ msgid "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the VaxLink walkthrough shows the same text."
 #~ msgstr "Все они вымышлены. Их цели, потребности и трудности хранятся в {code0} ({code1}), и пошаговый обзор VaxLink показывает тот же текст."
+
+#~ msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
+#~ msgstr "Средство просмотра клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки (J4.1)"
+
+#~ msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional."
+#~ msgstr "Персона: тайфафекский клиницист в Кесаро, который вводит Somsak дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и печатает два подписанных DVC (J1), а через год снова осматривает его в клинике первичной медико-санитарной помощи, читая его запись через VHL (J4.1). Вымышленный персонаж."
+
+#~ msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
+#~ msgstr "Персона: мать Somsak, 26 лет, гражданка Онесы, проживающая в Онесе (страна B), которая родила в Тайфафеки (страна A). Хранит два бумажных DVC с J1 по J3. Вымышленный персонаж."
