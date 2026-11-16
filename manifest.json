@@ -7,7 +7,7 @@
     "versions"
   ],
   "provisionalUntil": "a full IG Publisher run",
-  "generatedAt": "2026-11-16T10:24:38.571996625Z",
+  "generatedAt": "2026-11-16T11:47:58.165422750Z",
   "ig": {
     "root": ".",
     "version": "4.0.1"
@@ -17,8 +17,8 @@
   },
   "inputs": {
     "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-    "sourceRevision": "991d8b855d3858e09becdace22bdda66a2803553",
-    "inputDigest": "e499945280fde1a1c1a53cb534f9e6f3ee785123a33b0fe5086ec6b6551cdd6f"
+    "sourceRevision": "17e7c0e060abbd403814142143ebd23b16716447",
+    "inputDigest": "72304c9c005519dcb4d663f5a5f8e92a41784624c3c56ea0e619170f63e4ad22"
   },
   "packages": [
     {
@@ -164,7 +164,7 @@
   "terminology": {
     "server": {
       "address": "https://tx.fhir.org/r4",
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "expansions": [
       {
@@ -652,7 +652,7 @@
       "version": null,
       "resourceType": "Organization",
       "id": "TrustDemoKesaroClinic",
-      "name": "Kesaro primary care clinic (demonstrator)",
+      "name": "Kesaro paediatric clinic (demonstrator)",
       "file": "resources/Organization/TrustDemoKesaroClinic.json",
       "source": "fsh-generated/resources/Organization-TrustDemoKesaroClinic.json"
     },

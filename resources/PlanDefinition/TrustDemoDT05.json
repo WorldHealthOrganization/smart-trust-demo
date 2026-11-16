@@ -3,7 +3,7 @@
   "id" : "TrustDemoDT05",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-0fe347d0-3c22-401b-bd7c-ec98bd4f19ac.html): unexpected non-end of element null::a  at line 126 column 50</b></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-4028c2f6-9648-4bc4-a5ca-67f03d93f5ad.html): unexpected non-end of element null::a  at line 126 column 50</b></p></div>"
   },
   "url" : "http://smart.who.int/trust-demo/PlanDefinition/TrustDemoDT05",
   "version" : "0.1.0",
@@ -17,7 +17,7 @@
   },
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-16T10:22:51+00:00",
+  "date" : "2026-11-16T11:45:32+00:00",
   "publisher" : "litlfred",
   "contact" : [{
     "name" : "litlfred",

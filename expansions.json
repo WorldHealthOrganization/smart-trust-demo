@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "bc8e05e7-83ce-4773-a5aa-5726cda2e3d8",
+  "id" : "8e071a29-e335-4b43-b03d-64df66565130",
   "meta" : {
-    "lastUpdated" : "2026-11-16T10:22:51.059+00:00"
+    "lastUpdated" : "2026-11-16T11:45:32.520+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,10 +19,10 @@
       "title" : "How an imported dose got its national schedule code",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:850480dd-e6bb-4f8e-9bb0-d1c26374d468",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:3228d517-98b7-450e-ba19-3224afb2b564",
+        "timestamp" : "2026-11-16T11:47:13+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -82,10 +82,10 @@
       "title" : "What a scanned DVC becomes in the record",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e4d34b1c-e55e-4572-b3f5-4c858e65ee10",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:a5841610-371c-44fb-a071-d068781d820d",
+        "timestamp" : "2026-11-16T11:47:13+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -145,10 +145,10 @@
       "title" : "National schedule codes of the journeys",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6aafadd2-5cab-4c53-a3d6-c1d66d45c5ad",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:d47491a2-c2d7-4a28-90a7-f80aad58776d",
+        "timestamp" : "2026-11-16T11:47:14+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -218,10 +218,10 @@
       "title" : "Trust domains of the journeys",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:90e63767-d583-42b7-b4fa-7c5d210b854a",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:da41df8a-eb67-495b-9211-51c4e919b304",
+        "timestamp" : "2026-11-16T11:47:14+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -263,7 +263,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-TrustDemoVaccineProduct.html\">codesystem Vaccine products (illustrative PreQual-style codes) v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b><a href=\"ValueSet-TrustDemoOnesaEpiScheduleCodes.html\">J3 map: vaccine product to national schedule dose</a></b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-hepb-peds-monovalent\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-hepb-peds-monovalent\">vp-hepb-peds-monovalent</a></td><td>Hepatitis B vaccine, paediatric, monovalent</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-HEPB-BD\">XXK-EPI-HEPB-BD</a><i>(Added from the nurse's adjudication at Lomaru District Health Center, 2025-11-25: a monovalent paediatric Hep B dose given within 24 hours of birth counts as the schedule's birth dose.)</i></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-hepb-peds-monovalent&quot;, &quot;display&quot;: &quot;Hepatitis B vaccine, paediatric, monovalent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-hepb-peds-monovalent&quot;/&gt;&lt;display value=&quot;Hepatitis B vaccine, paediatric, monovalent&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-bcg-freeze-dried\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-bcg-freeze-dried\">vp-bcg-freeze-dried</a></td><td>BCG vaccine, freeze-dried</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-BCG\">XXK-EPI-BCG</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-bcg-freeze-dried&quot;, &quot;display&quot;: &quot;BCG vaccine, freeze-dried&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-bcg-freeze-dried&quot;/&gt;&lt;display value=&quot;BCG vaccine, freeze-dried&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-pentavalent-liquid\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-pentavalent-liquid\">vp-pentavalent-liquid</a></td><td>DTP-HepB-Hib (pentavalent), liquid</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-PENTA-1\">XXK-EPI-PENTA-1</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-pentavalent-liquid&quot;, &quot;display&quot;: &quot;DTP-HepB-Hib (pentavalent), liquid&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-pentavalent-liquid&quot;/&gt;&lt;display value=&quot;DTP-HepB-Hib (pentavalent), liquid&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-bopv-drops\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-bopv-drops\">vp-bopv-drops</a></td><td>Bivalent oral polio vaccine (bOPV), drops</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-OPV-1\">XXK-EPI-OPV-1</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-bopv-drops&quot;, &quot;display&quot;: &quot;Bivalent oral polio vaccine (bOPV), drops&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-bopv-drops&quot;/&gt;&lt;display value=&quot;Bivalent oral polio vaccine (bOPV), drops&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-pcv-13-dose\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-pcv-13-dose\">vp-pcv-13-dose</a></td><td>Pneumococcal conjugate vaccine (PCV)</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-PCV-1\">XXK-EPI-PCV-1</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-pcv-13-dose&quot;, &quot;display&quot;: &quot;Pneumococcal conjugate vaccine (PCV)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-pcv-13-dose&quot;/&gt;&lt;display value=&quot;Pneumococcal conjugate vaccine (PCV)&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-mr-freeze-dried\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-mr-freeze-dried\">vp-mr-freeze-dried</a></td><td>Measles-rubella vaccine, freeze-dried</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-MR-1\">XXK-EPI-MR-1</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-mr-freeze-dried&quot;, &quot;display&quot;: &quot;Measles-rubella vaccine, freeze-dried&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-mr-freeze-dried&quot;/&gt;&lt;display value=&quot;Measles-rubella vaccine, freeze-dried&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-TrustDemoVaccineProduct.html\">codesystem Vaccine products (illustrative PreQual-style codes) v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b><a href=\"ValueSet-TrustDemoOnesaEpiScheduleCodes.html\">J3 map: vaccine product to national schedule dose</a></b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-hepb-peds-monovalent\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-hepb-peds-monovalent\">vp-hepb-peds-monovalent</a></td><td>Hepatitis B vaccine, paediatric, monovalent</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-HEPB-BD\">XXK-EPI-HEPB-BD</a><i>(Added from the nurse's adjudication at Lomaru District Health Center, 2026-01-06: a monovalent paediatric Hep B dose given within 24 hours of birth counts as the schedule's birth dose.)</i></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-hepb-peds-monovalent&quot;, &quot;display&quot;: &quot;Hepatitis B vaccine, paediatric, monovalent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-hepb-peds-monovalent&quot;/&gt;&lt;display value=&quot;Hepatitis B vaccine, paediatric, monovalent&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-bcg-freeze-dried\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-bcg-freeze-dried\">vp-bcg-freeze-dried</a></td><td>BCG vaccine, freeze-dried</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-BCG\">XXK-EPI-BCG</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-bcg-freeze-dried&quot;, &quot;display&quot;: &quot;BCG vaccine, freeze-dried&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-bcg-freeze-dried&quot;/&gt;&lt;display value=&quot;BCG vaccine, freeze-dried&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-pentavalent-liquid\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-pentavalent-liquid\">vp-pentavalent-liquid</a></td><td>DTP-HepB-Hib (pentavalent), liquid</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-PENTA-1\">XXK-EPI-PENTA-1</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-pentavalent-liquid&quot;, &quot;display&quot;: &quot;DTP-HepB-Hib (pentavalent), liquid&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-pentavalent-liquid&quot;/&gt;&lt;display value=&quot;DTP-HepB-Hib (pentavalent), liquid&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-bopv-drops\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-bopv-drops\">vp-bopv-drops</a></td><td>Bivalent oral polio vaccine (bOPV), drops</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-OPV-1\">XXK-EPI-OPV-1</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-bopv-drops&quot;, &quot;display&quot;: &quot;Bivalent oral polio vaccine (bOPV), drops&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-bopv-drops&quot;/&gt;&lt;display value=&quot;Bivalent oral polio vaccine (bOPV), drops&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-pcv-13-dose\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-pcv-13-dose\">vp-pcv-13-dose</a></td><td>Pneumococcal conjugate vaccine (PCV)</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-PCV-1\">XXK-EPI-PCV-1</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-pcv-13-dose&quot;, &quot;display&quot;: &quot;Pneumococcal conjugate vaccine (PCV)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-pcv-13-dose&quot;/&gt;&lt;display value=&quot;Pneumococcal conjugate vaccine (PCV)&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-vp-mr-freeze-dried\"> </a><code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-TrustDemoVaccineProduct.html#TrustDemoVaccineProduct-vp-mr-freeze-dried\">vp-mr-freeze-dried</a></td><td>Measles-rubella vaccine, freeze-dried</td><td><span title=\"EQUIVALENT\">~</span><a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-MR-1\">XXK-EPI-MR-1</a></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vp-mr-freeze-dried&quot;, &quot;display&quot;: &quot;Measles-rubella vaccine, freeze-dried&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;vp-mr-freeze-dried&quot;/&gt;&lt;display value=&quot;Measles-rubella vaccine, freeze-dried&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts",
       "version" : "0.1.0",
@@ -271,10 +271,10 @@
       "title" : "Vaccine products of the journeys",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:cf68aed5-e595-452a-ac8b-52127215879f",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:1240c653-bed6-476d-bd52-6e476c67ed29",
+        "timestamp" : "2026-11-16T11:47:14+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -344,10 +344,10 @@
       "title" : "Verification failure reasons",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9d4ec95b-4913-44d3-a769-2b1656c6686e",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:52b05f2b-8396-4325-b665-b69b79819458",
+        "timestamp" : "2026-11-16T11:47:14+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -467,10 +467,10 @@
       "title" : "Result of reading a DVC",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0d971bfe-6ee6-472e-b730-e0df14029fd4",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:06a5b0ef-1f99-406f-84f9-3e3000dc5537",
+        "timestamp" : "2026-11-16T11:47:14+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -525,10 +525,10 @@
       "title" : "Verification steps",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:985a10ef-b347-424c-9f73-9cc162933340",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:a7eb86b1-ebfd-48d4-9fe2-47606df1612f",
+        "timestamp" : "2026-11-16T11:47:14+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -628,10 +628,10 @@
       "title" : "Why a shared link released nothing",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8a19eef8-8ae0-4674-8a05-858dced8382e",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:a42b7a96-dd90-40ed-9c37-5b3e58f7e72d",
+        "timestamp" : "2026-11-16T11:47:14+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -686,10 +686,10 @@
       "title" : "Terms of use of the demo VHL trust domain",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2026-11-16T10:22:51+00:00",
+      "date" : "2026-11-16T11:45:32+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:629c93fd-5067-4c9e-a0bb-97034663d5d6",
-        "timestamp" : "2026-11-16T10:23:51+00:00",
+        "identifier" : "urn:uuid:9dd2e810-2e72-482d-90db-9138faf7e368",
+        "timestamp" : "2026-11-16T11:47:14+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
