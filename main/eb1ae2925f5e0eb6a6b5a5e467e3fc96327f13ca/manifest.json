@@ -1,0 +1,15 @@
+{
+  "$schema": "qa-reports-manifest/v1",
+  "key": "main/eb1ae2925f5e0eb6a6b5a5e467e3fc96327f13ca",
+  "source": "eb1ae2925f5e0eb6a6b5a5e467e3fc96327f13ca",
+  "written_at": "2026-11-16T12:52:44.093Z",
+  "producer": {
+    "run": "https://github.com/WorldHealthOrganization/smart-trust-demo/actions/runs/43870380681"
+  },
+  "roots": [
+    "smart-trust-demo/test/results"
+  ],
+  "payloadTree": "0e823d8f1c1124fcd4e28377c104204d81657184",
+  "files": 45,
+  "bytes": 148382
+}
