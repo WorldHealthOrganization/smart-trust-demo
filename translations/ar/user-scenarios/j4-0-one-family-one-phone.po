@@ -344,11 +344,6 @@ msgid "Lomaru, Onesa"
 msgstr "لومارو، أونيسا (Onesa)"
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4
-msgctxt "title"
-msgid "J4.0 — Crossing back: one family, one phone"
-msgstr "J4.0 — العودة عبر الحدود: أسرة واحدة، هاتف واحد"
-
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4
 msgctxt "views.label"
 msgid "J4.0"
 msgstr "J4.0"
@@ -362,3 +357,12 @@ msgstr "بعد 12 شهرًا"
 msgctxt "where"
 msgid "Onesa"
 msgstr "أونيسا (Onesa)"
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4
+msgctxt "title"
+msgid "J4.0 — Continuity across a border: one family, one phone"
+msgstr "J4.0 — الاستمرارية عبر الحدود: أسرة واحدة، هاتف واحد"
+
+#~ msgctxt "title"
+#~ msgid "J4.0 — Crossing back: one family, one phone"
+#~ msgstr "J4.0 — العودة عبر الحدود: أسرة واحدة، هاتف واحد"
