@@ -835,6 +835,29 @@ def _plan_id(d):
     return "TrustDemoDT" + d["code"].rsplit(".", 1)[1]
 
 
+def _x(s):
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def _decision_narrative(d, src, deps, rules):
+    """The decision table's own narrative. The template's generated PlanDefinition
+    narrative does not parse for these resources ("Exception parsing generated
+    Narrative"), so the generator writes the table it would have drawn."""
+    rows = "".join(f"<tr><td>{n}</td><td>{_x(w)}</td><td>{_x(t)}</td><td>{_x(r)}</td></tr>"
+                   for n, (w, t, r) in enumerate(rules, 1))
+    dep = ""
+    if deps:
+        dep = "<p>Depends on: " + ", ".join(f'<a href="{rt}-{n}.html">{n}</a>' for rt, n in deps) + ".</p>"
+    return ('<div xmlns="http://www.w3.org/1999/xhtml">'
+            f"<p><b>{_x(d['code'])} {_x(d['name'])}</b></p>"
+            f"<p>{_x(d['description'])}</p>"
+            f"<p>Requirements: {_x(', '.join(d['requirements']))}. Hit policy {_x(d['hitPolicy'])}: "
+            "the rules are tried in order and the first that matches applies.</p>"
+            "<table class=\"grid\"><tr><th>Rule</th><th>When</th><th>Then</th><th>Why</th></tr>"
+            f"{rows}</table>{dep}"
+            f'<p>Source: <a href="{REPO}{src}">{_x(d["file"].name)}</a> (OMG DMN 1.3).</p></div>')
+
+
 def gen_decision_fsh(decisions):
     files = {}
     for d in decisions:
@@ -858,17 +881,22 @@ def gen_decision_fsh(decisions):
                  f'* relatedArtifact[=].display = "Decision table {d["code"]} (OMG DMN 1.3): {d["file"].name}"',
                  f'* relatedArtifact[=].document.url = "{REPO}{src}"',
                  f'* relatedArtifact[=].document.title = "{d["file"].name}"']
+        deps, rules = [], []
         for ref in d["artifacts"]:
             rtype, _, name = ref.partition("/")
             if rtype in ("PlanDefinition", "ConceptMap", "StructureDefinition"):
+                deps.append((rtype, name))
                 lines += ["* relatedArtifact[+].type = #depends-on",
                           f"* relatedArtifact[=].resource = Canonical({name})"]
         for n, rule in enumerate(d["rules"], 1):
             when = " and ".join(f"{i['expression']} is {_feel(t, md=False)}"
                                 for i, t in zip(d["inputs"], rule["inputs"]) if t != "-") or "always"
             then = "; ".join(f"{o['name']} = {_feel(t, md=False)}" for o, t in zip(d["outputs"], rule["outputs"]) if t != "null")
+            rules.append((when, then.rstrip("."), rule["description"]))
             lines.append(f'* action[+].title = "Rule {n}"')
             lines.append(f'* action[=].description = "When {fsh_str(when)}: {fsh_str(then.rstrip("."))}. {fsh_str(rule["description"])}"')
+        lines += ["* text.status = #generated",
+                  f'* text.div = "{fsh_str(_decision_narrative(d, src, deps, rules))}"']
         files[f"input/fsh/dak/{pid}.fsh"] = "\n".join(lines) + "\n"
     return files
 
