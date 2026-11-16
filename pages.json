@@ -16418,6 +16418,10 @@
       "source" : "input/pagecontent/system-actors.md",
       "resources" : []
     },
+    "technical-changes.md" : {
+      "source" : "input/pagecontent/technical-changes.md",
+      "resources" : []
+    },
     "upstream-who-smart-trust-phw-receive-a-vhl.md" : {
       "source" : "input/pagecontent/upstream-who-smart-trust-phw-receive-a-vhl.md",
       "resources" : []
@@ -22835,6 +22839,11 @@
     },
     "system-actors.html" : {
       "source" : "input/pagecontent/system-actors.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "technical-changes.html" : {
+      "source" : "input/pagecontent/technical-changes.md",
       "resources" : [],
       "fragments" : ["menu.xml"]
     },

@@ -4,7 +4,7 @@
   "language" : "zh",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"zh\" lang=\"zh\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TrustDemoOnesaEpiSchedule-zh</b></p><a name=\"TrustDemoOnesaEpiSchedule-zh\"> </a><a name=\"hcTrustDemoOnesaEpiSchedule-zh\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: zh</p></div><p>This code system supplement <code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule-zh</code> defines displays on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-HEPB-BD\">XXK-EPI-HEPB-BD</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXK-EPI-HEPB-BD\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-BCG\">XXK-EPI-BCG</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXK-EPI-BCG\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-PENTA-1\">XXK-EPI-PENTA-1</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXK-EPI-PENTA-1\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-OPV-1\">XXK-EPI-OPV-1</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXK-EPI-OPV-1\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-PCV-1\">XXK-EPI-PCV-1</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXK-EPI-PCV-1\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXK-EPI-MR-1\">XXK-EPI-MR-1</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXK-EPI-MR-1\"> </a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"zh\" lang=\"zh\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TrustDemoOnesaEpiSchedule-zh</b></p><a name=\"TrustDemoOnesaEpiSchedule-zh\"> </a><a name=\"hcTrustDemoOnesaEpiSchedule-zh\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: zh</p></div><p>This code system supplement <code>http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule-zh</code> defines displays on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXU-EPI-HEPB-BD\">XXU-EPI-HEPB-BD</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXU-EPI-HEPB-BD\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXU-EPI-BCG\">XXU-EPI-BCG</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXU-EPI-BCG\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXU-EPI-PENTA-1\">XXU-EPI-PENTA-1</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXU-EPI-PENTA-1\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXU-EPI-OPV-1\">XXU-EPI-OPV-1</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXU-EPI-OPV-1\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXU-EPI-PCV-1\">XXU-EPI-PCV-1</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXU-EPI-PCV-1\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html#TrustDemoOnesaEpiSchedule-XXU-EPI-MR-1\">XXU-EPI-MR-1</a><a name=\"TrustDemoOnesaEpiSchedule-zh-XXU-EPI-MR-1\"> </a></td></tr></table></div>"
   },
   "url" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule-zh",
   "version" : "0.1.0",
@@ -12,7 +12,7 @@
   "title" : "TrustDemoOnesaEpiSchedule — Chinese (zh) supplement",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-16T11:52:38+00:00",
+  "date" : "2026-11-16T12:30:42+00:00",
   "publisher" : "litlfred",
   "contact" : [{
     "name" : "litlfred",
@@ -25,42 +25,42 @@
   "content" : "supplement",
   "supplements" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule",
   "concept" : [{
-    "code" : "XXK-EPI-HEPB-BD",
+    "code" : "XXU-EPI-HEPB-BD",
     "designation" : [{
       "language" : "zh",
       "value" : "乙型肝炎出生剂次"
     }]
   },
   {
-    "code" : "XXK-EPI-BCG",
+    "code" : "XXU-EPI-BCG",
     "designation" : [{
       "language" : "zh",
       "value" : "卡介苗（BCG）"
     }]
   },
   {
-    "code" : "XXK-EPI-PENTA-1",
+    "code" : "XXU-EPI-PENTA-1",
     "designation" : [{
       "language" : "zh",
       "value" : "五联疫苗（DTP-HepB-Hib），第 1 剂"
     }]
   },
   {
-    "code" : "XXK-EPI-OPV-1",
+    "code" : "XXU-EPI-OPV-1",
     "designation" : [{
       "language" : "zh",
       "value" : "bOPV，第 1 剂"
     }]
   },
   {
-    "code" : "XXK-EPI-PCV-1",
+    "code" : "XXU-EPI-PCV-1",
     "designation" : [{
       "language" : "zh",
       "value" : "PCV，第 1 剂"
     }]
   },
   {
-    "code" : "XXK-EPI-MR-1",
+    "code" : "XXU-EPI-MR-1",
     "designation" : [{
       "language" : "zh",
       "value" : "麻疹-风疹，第 1 剂"
