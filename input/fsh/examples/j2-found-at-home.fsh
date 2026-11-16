@@ -6,11 +6,11 @@
 
 Instance: TrustDemoHousehold
 InstanceOf: TrustDemoOnesaHousehold
-Title: "J2a the Sengmany household (HH-XXK-204)"
+Title: "J2a the Sengmany household (HH-XXU-204)"
 Description: "The household roster Vilay updates on her offline phone: Somsak is added beside his mother and father."
 Usage: #example
 * identifier[household].system = $HouseholdId
-* identifier[household].value = "HH-XXK-204"
+* identifier[household].value = "HH-XXU-204"
 * type = #person
 * actual = true
 * code = $v3-RoleCode#FAMMEMB "family member"
@@ -69,7 +69,7 @@ Usage: #example
 * author = Reference(TrustDemoVilay)
 * source = Reference(TrustDemoBounmy)
 * item[+].linkId = "household"
-* item[=].answer.valueString = "HH-XXK-204"
+* item[=].answer.valueString = "HH-XXU-204"
 * item[+].linkId = "given"
 * item[=].answer.valueString = "Somsak"
 * item[+].linkId = "family"
