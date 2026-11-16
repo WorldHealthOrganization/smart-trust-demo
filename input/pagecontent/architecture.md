@@ -3,7 +3,7 @@
 <!-- translations: architecture -->
 
 The journeys and systems of this demonstrator, drawn as an ArchiMate overlay
-on the [DPI-H Reference Architecture](https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html)'s
+on the [Reference Architecture (DPI-H)](https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html)'s
 own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are
 unchanged and keep their ids, so each RA box here is the element
 [smart-ra publishes](https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/archimate/0.3.0-draft.1/).

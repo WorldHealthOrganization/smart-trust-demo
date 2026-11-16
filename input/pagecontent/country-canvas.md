@@ -9,7 +9,7 @@ Print one set per table, A3 landscape, at 100%. The Word file is the source. The
 | Sheet | What you work on | When | Journey steps |
 |---|---|---|---|
 | **1** | **Our journey and where it breaks.** The immunization journey and the capabilities it needs. | Day 1 · M1 | All four journeys, rated Works / Partly / Breaks |
-| **2** | **Our architecture today.** Your real digital capabilities needed for the use case, grounded in the DPI-H reference architecture components. | Day 1 · M2 | [J2b](glossary.html#step-j2b) and the blocks every step draws on |
+| **2** | **Our architecture today.** Your real digital capabilities needed for the use case, grounded in the components of the [reference architecture (DPI-H)](glossary.html#term-reference-architecture). | Day 1 · M2 | [J2b](glossary.html#step-j2b) and the blocks every step draws on |
 | **3** | **Core data set, terminology and specifications.** Data elements, who owns the national data set, and links to interoperability standards. | Day 1 · M3 | [J2a](glossary.html#step-j2a), [J3b](glossary.html#step-j3b) |
 | **4** | **Trust, and who decides.** Who signs and verifies, who holds the authority, and who needs to be part of decisions. | Day 2 · M4 and M5 | [J1](glossary.html#step-j1), [J3a](glossary.html#step-j3a), [J4.0a](glossary.html#step-j4-0a), [J4.0b](glossary.html#step-j4-0b), [J4.1](glossary.html#step-j4-1) |
 | **5** | **Doing it together.** A joint data model, shared testing, a connectathon, and the nomination. | Day 2 · M6 | J3b, J4.0b, J4.1 |
@@ -43,7 +43,7 @@ The country, table number, facilitators and delegation members (role and institu
 
 ### Sheet 2 · Our architecture today (Day 1, M2)
 
-Each block of the DPI-H reference architecture, pre-filled from the country questionnaire and corrected by the table. For each block: the system used today and E (exists), P (partial) or A (absent). IMMZ marks the blocks this use case touches.
+Each block of the [reference architecture (DPI-H)](glossary.html#term-reference-architecture), pre-filled from the country questionnaire and corrected by the table. For each block: the system used today and E (exists), P (partial) or A (absent). IMMZ marks the blocks this use case touches.
 
 - **Point-of-service applications:** provider systems, the immunization app, CHW and outreach, the citizen app or wallet, the verifier app, supply chain, public health apps.
 - **DPI-H layer:** decision support engine, HMIS, public health surveillance, benefits package registry; the client registry, lifelong health record, health workforce, facility and product registries, terminology service, logical information model repository.

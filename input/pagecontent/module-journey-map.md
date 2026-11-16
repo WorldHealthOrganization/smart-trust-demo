@@ -10,7 +10,7 @@ Each module of the policy-maker track asks one question of the same story. This 
 |---|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | ***Policy track*** | |  |  |  |  |  |  |  |  |
 | **M1** From journey to capabilities | Sheet 1 | ● | ○ | ○ | ● | ○ |  | ○ | ○ |
-| **M2** The reference architecture and where you stand | Sheet 2 | ○ |  | ● | ○ |  |  | ○ |  |
+| **M2** The [reference architecture (DPI-H)](glossary.html#term-reference-architecture) and where you stand | Sheet 2 | ○ |  | ● | ○ |  |  | ○ |  |
 | **M3** Standards, specifications and the core data set | Sheet 3 | ○ | ● |  |  | ● |  | ○ |  |
 | **M4** Trust, credentials and wallets | Sheet 4 | ● | ● |  | ● |  | ● |  | ○ |
 | **M5** Governance, decision rights and the legal basis | Sheet 4 | ● |  | ● |  |  | ● | ● | ● |
@@ -43,7 +43,7 @@ Each module of the policy-maker track asks one question of the same story. This 
 | J4.1 | ○ | Point-of-care viewer reads the whole first year from Onesa. | Is continuity of the record across a border the end point of your use case? |
 {: .grid }
 
-#### M2 · The reference architecture and where you stand
+#### M2 · The [reference architecture (DPI-H)](glossary.html#term-reference-architecture) and where you stand
 
 *Which system do we use today for each block — and is it there, partly there, or absent?*
 

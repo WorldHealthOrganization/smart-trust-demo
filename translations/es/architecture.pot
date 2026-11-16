@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-11T09:12:58.641Z\n"
+"POT-Creation-Date: 2026-11-16T12:40:52.191Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -112,7 +112,7 @@ msgid "Systems on the Integrated View"
 msgstr ""
 
 #: docs/architecture.md:8
-msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>DPI-H Reference Architecture</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
+msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>Reference Architecture (DPI-H)</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
 msgstr ""
 
 #: docs/architecture.md:15
