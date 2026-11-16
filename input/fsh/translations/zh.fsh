@@ -469,24 +469,24 @@ Description: "Unofficial Simplified Chinese (zh) display designations for the Tr
 * ^language = #zh
 * ^content = #supplement
 * ^supplements = Canonical(TrustDemoOnesaEpiSchedule)
-* #XXK-EPI-HEPB-BD
-* #XXK-EPI-HEPB-BD ^designation[+].language = #zh
-* #XXK-EPI-HEPB-BD ^designation[=].value = "乙型肝炎出生剂次"
-* #XXK-EPI-BCG
-* #XXK-EPI-BCG ^designation[+].language = #zh
-* #XXK-EPI-BCG ^designation[=].value = "卡介苗（BCG）"
-* #XXK-EPI-PENTA-1
-* #XXK-EPI-PENTA-1 ^designation[+].language = #zh
-* #XXK-EPI-PENTA-1 ^designation[=].value = "五联疫苗（DTP-HepB-Hib），第 1 剂"
-* #XXK-EPI-OPV-1
-* #XXK-EPI-OPV-1 ^designation[+].language = #zh
-* #XXK-EPI-OPV-1 ^designation[=].value = "bOPV，第 1 剂"
-* #XXK-EPI-PCV-1
-* #XXK-EPI-PCV-1 ^designation[+].language = #zh
-* #XXK-EPI-PCV-1 ^designation[=].value = "PCV，第 1 剂"
-* #XXK-EPI-MR-1
-* #XXK-EPI-MR-1 ^designation[+].language = #zh
-* #XXK-EPI-MR-1 ^designation[=].value = "麻疹-风疹，第 1 剂"
+* #XXU-EPI-HEPB-BD
+* #XXU-EPI-HEPB-BD ^designation[+].language = #zh
+* #XXU-EPI-HEPB-BD ^designation[=].value = "乙型肝炎出生剂次"
+* #XXU-EPI-BCG
+* #XXU-EPI-BCG ^designation[+].language = #zh
+* #XXU-EPI-BCG ^designation[=].value = "卡介苗（BCG）"
+* #XXU-EPI-PENTA-1
+* #XXU-EPI-PENTA-1 ^designation[+].language = #zh
+* #XXU-EPI-PENTA-1 ^designation[=].value = "五联疫苗（DTP-HepB-Hib），第 1 剂"
+* #XXU-EPI-OPV-1
+* #XXU-EPI-OPV-1 ^designation[+].language = #zh
+* #XXU-EPI-OPV-1 ^designation[=].value = "bOPV，第 1 剂"
+* #XXU-EPI-PCV-1
+* #XXU-EPI-PCV-1 ^designation[+].language = #zh
+* #XXU-EPI-PCV-1 ^designation[=].value = "PCV，第 1 剂"
+* #XXU-EPI-MR-1
+* #XXU-EPI-MR-1 ^designation[+].language = #zh
+* #XXU-EPI-MR-1 ^designation[=].value = "麻疹-风疹，第 1 剂"
 
 CodeSystem: TrustDemoTrustDomainZh
 Id: TrustDemoTrustDomain-zh

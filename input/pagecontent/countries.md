@@ -2,13 +2,13 @@ The journeys take place in two fictional countries, so that no real country, min
 
 | Country | Code | Role | Places | In these journeys |
 |---|---|---|---|---|
-| **Onesa** (adjective: Onesan) | XXK | home | Lomaru (capital), Village 04, Tanavu (coastal town) | Country B: the family's home (J2, J3, J4.0), whose national portal serves their records abroad (J4.1); the pilgrim's home in the pilgrimage |
+| **Onesa** (adjective: Onesan) | XXU | home | Lomaru (capital), Village 04, Tanavu (coastal town) | Country B: the family's home (J2, J3, J4.0), whose national portal serves their records abroad (J4.1); the pilgrim's home in the pilgrimage |
 | **Taifafeki** (adjective: Taifafeki) | XXR | visited | Lumara (capital), Kesaro (border province), Nalemi (tent valley), Toreva (plain) | Country A: where the newborn is born (J1) and later seen at the point of care (J4.1); the host of the pilgrimage |
 {: .grid }
 
 ### Codes
 
-Both codes are in the SMART Trust value set of GDHCN DEV participants, [Participants-DEV](http://smart.who.int/trust/ValueSet/Participants-DEV), whose code system names XXK "Onesa" and XXR "Taifafeki". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXK plays Onesa's national portal in J4. Their keys are test keys, not any ministry's.
+Both codes are in the SMART Trust value set of GDHCN DEV participants, [Participants-DEV](http://smart.who.int/trust/ValueSet/Participants-DEV), whose code system names XXU "Onesa" and XXR "Taifafeki". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXU plays Onesa's national portal in J4. Their keys are test keys, not any ministry's.
 
 ### Reuse
 
