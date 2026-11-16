@@ -33,10 +33,6 @@ msgstr "Новые примеры: домохозяйство {code0}, реги�
 msgid "New process steps: J2 adds the newborn to the household and saves the doses as reported, not verified; J3 adds the national schedule code beside the foreign vaccine code (the nurse decides unmapped products); J4.0 records the holder's consent with a passcode and an expiry; J4.1 adds the home portal's lane, which checks the passcode, returns the manifest and logs every access."
 msgstr "Новые шаги процессов: в J2 новорождённый добавляется в домохозяйство, а дозы сохраняются как заявленные, а не проверенные; в J3 код национального графика добавляется рядом с иностранным кодом вакцины (по несопоставленным препаратам решение принимает медсестра); в J4.0 записывается согласие владельца с кодом доступа и сроком действия; в J4.1 добавлена дорожка портала страны проживания, который проверяет код доступа, возвращает манифест и регистрирует каждый доступ."
 
-#: input/pagecontent/changes.md:4
-msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXU), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
-msgstr "Пути рассказывают историю <a0>VaxLink</a0> (задача <a1>#21</a1>): Somsak SENGMANY родился в Тайфафеки (XXR), живёт в Онесе (Onesa, XXU) и через год снова обращается за помощью в Тайфафеки. Персоны, системные акторы и истории переработаны; бизнес-процессы сделаны обобщёнными (без имён людей)."
-
 #: input/pagecontent/changes.md:9
 msgid "New page: <a0>Journey examples</a0>, mapping each walkthrough screen and payload to its example here."
 msgstr "Новая страница: <a0>Примеры путей</a0>, где каждый экран и каждая полезная нагрузка пошагового обзора сопоставлены с соответствующим примером в этом руководстве."
@@ -51,5 +47,17 @@ msgstr "Новая терминология: {code0} и ValueSet {code1} — с�
 msgid "The DEMO-VHL trust domain's terms of use: {code0} and the {code1} ValueSet. The J4.0 consent is now a Personal Health Wallet explicit consent ({code2}) that names {code3} in {code4}."
 msgstr "Условия использования домена доверия DEMO-VHL: {code0} и ValueSet {code1}. Согласие в J4.0 теперь является явным согласием персонального кошелька медицинских данных (Personal Health Wallet) ({code2}), в котором {code3} указан в {code4}."
 
+#: input/pagecontent/changes.md:3
+#, python-brace-format
+msgid "Onesa's code is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, Onesan identifiers, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
+msgstr "Код Онесы теперь XXU (ранее XXK) — это тестовый участник DEV, которого Participants-DEV SMART Trust называет «Onesa» (WorldHealthOrganization/smart-trust#161): определение страны, идентификаторы Онесы, коды графика ({code0}), номера серий, национальный портал, процессы, экраны устройств, примеры и переводы."
+
+#: input/pagecontent/changes.md:5
+msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXK), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
+msgstr "Пути рассказывают историю <a0>VaxLink</a0> (задача <a1>#21</a1>): Somsak SENGMANY, родившийся в Тайфафеки (XXR) и живущий в Онесе (XXK), через год снова попадает к врачу в Тайфафеки. Персонажи, системные участники и истории переработаны; бизнес-процессы сделаны обобщёнными (без имён людей)."
+
 #~ msgid "New page: <a0>VaxLink examples</a0>, mapping each walkthrough screen and payload to its example here."
 #~ msgstr "Новая страница: <a0>Примеры VaxLink</a0>, где каждый экран и каждая полезная нагрузка пошагового обзора сопоставлены с соответствующим примером в этом руководстве."
+
+#~ msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXU), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
+#~ msgstr "Пути рассказывают историю <a0>VaxLink</a0> (задача <a1>#21</a1>): Somsak SENGMANY родился в Тайфафеки (XXR), живёт в Онесе (Onesa, XXU) и через год снова обращается за помощью в Тайфафеки. Персоны, системные акторы и истории переработаны; бизнес-процессы сделаны обобщёнными (без имён людей)."

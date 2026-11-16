@@ -39,6 +39,14 @@
       "fixed": 21,
       "noise": 68,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 59,
+      "drifts": 5,
+      "fixed": 5,
+      "noise": 46,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; the 59 new msgstrs (journeys, scenarios, personas, index, navbar, user-scenarios) read back from a msgstr-only file. 5 drifts, one cause: J1's new title 'Vaccinated and recorded' read back as 'registered', colliding with J2's 'Found and registered'; fixed to «Привит, прививки записаны» and re-checked. 8 identical, the rest wording noise ('10 weeks of age', 'examines' for 'sees', 'mapping table' for 'map'). The 9 '#, localised' glossary.po markers stay empty by design."
     }
   },
   "es": {
