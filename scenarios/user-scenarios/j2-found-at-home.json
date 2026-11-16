@@ -220,7 +220,7 @@
           "change": "Created with a temporary Onesan ID",
           "why": "He is not in the Onesan civil registry yet; a temporary id lets the CHW, clinic and portal all mean the same child. Taifafeki only gave him a hospital number.",
           "profile": "TrustDemoOnesaPatient",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "Patient/TrustDemoSomsak",
             "Patient/TrustDemoTaifafekiSomsak"
@@ -232,7 +232,7 @@
           "change": "Somsak added as member",
           "why": "CHW work is organised by household: the roster is how a missing newborn is noticed.",
           "profile": "TrustDemoOnesaHousehold",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "Group/TrustDemoHousehold"
           ],
@@ -243,7 +243,7 @@
           "change": "The registration form, answered offline (SDC)",
           "why": "The form is configuration, not code; keeping the answers lets every extracted record trace back to what was asked.",
           "profile": "TrustDemoOnesaRegistration",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "QuestionnaireResponse/TrustDemoJ2Registration",
             "Questionnaire/TrustDemoHouseholdRegistration"
@@ -255,7 +255,7 @@
           "change": "Created as primarySource = false",
           "why": "Read without checking the signature, so kept as reported: not lost, but not counted by the schedule yet.",
           "profile": "TrustDemoOnesaReportedImmunization",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "Immunization/TrustDemoJ2HepBReported",
             "Immunization/TrustDemoJ1HepB"
@@ -267,7 +267,7 @@
           "change": "Referral to District Health Center",
           "why": "The phone cannot verify a DVC but the clinic can; the referral points at exactly the doses to check.",
           "profile": "TrustDemoOnesaReferral",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "ServiceRequest/TrustDemoJ2Referral"
           ],

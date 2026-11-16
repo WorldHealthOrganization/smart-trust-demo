@@ -42,24 +42,24 @@ Description: "French (fr) supplement to TrustDemoOnesaEpiSchedule: displays and 
 * ^status = #draft
 * ^experimental = true
 * ^count = 6
-* #XXK-EPI-HEPB-BD "Dose à la naissance contre l'hépatite B"
-* #XXK-EPI-HEPB-BD ^designation[0].language = #fr
-* #XXK-EPI-HEPB-BD ^designation[0].value = "Dose à la naissance contre l'hépatite B"
-* #XXK-EPI-BCG "BCG"
-* #XXK-EPI-BCG ^designation[0].language = #fr
-* #XXK-EPI-BCG ^designation[0].value = "BCG"
-* #XXK-EPI-PENTA-1 "Pentavalent (DTC-HepB-Hib), dose 1"
-* #XXK-EPI-PENTA-1 ^designation[0].language = #fr
-* #XXK-EPI-PENTA-1 ^designation[0].value = "Pentavalent (DTC-HepB-Hib), dose 1"
-* #XXK-EPI-OPV-1 "VPOb, dose 1"
-* #XXK-EPI-OPV-1 ^designation[0].language = #fr
-* #XXK-EPI-OPV-1 ^designation[0].value = "VPOb, dose 1"
-* #XXK-EPI-PCV-1 "VPC, dose 1"
-* #XXK-EPI-PCV-1 ^designation[0].language = #fr
-* #XXK-EPI-PCV-1 ^designation[0].value = "VPC, dose 1"
-* #XXK-EPI-MR-1 "Rougeole-rubéole, dose 1"
-* #XXK-EPI-MR-1 ^designation[0].language = #fr
-* #XXK-EPI-MR-1 ^designation[0].value = "Rougeole-rubéole, dose 1"
+* #XXU-EPI-HEPB-BD "Dose à la naissance contre l'hépatite B"
+* #XXU-EPI-HEPB-BD ^designation[0].language = #fr
+* #XXU-EPI-HEPB-BD ^designation[0].value = "Dose à la naissance contre l'hépatite B"
+* #XXU-EPI-BCG "BCG"
+* #XXU-EPI-BCG ^designation[0].language = #fr
+* #XXU-EPI-BCG ^designation[0].value = "BCG"
+* #XXU-EPI-PENTA-1 "Pentavalent (DTC-HepB-Hib), dose 1"
+* #XXU-EPI-PENTA-1 ^designation[0].language = #fr
+* #XXU-EPI-PENTA-1 ^designation[0].value = "Pentavalent (DTC-HepB-Hib), dose 1"
+* #XXU-EPI-OPV-1 "VPOb, dose 1"
+* #XXU-EPI-OPV-1 ^designation[0].language = #fr
+* #XXU-EPI-OPV-1 ^designation[0].value = "VPOb, dose 1"
+* #XXU-EPI-PCV-1 "VPC, dose 1"
+* #XXU-EPI-PCV-1 ^designation[0].language = #fr
+* #XXU-EPI-PCV-1 ^designation[0].value = "VPC, dose 1"
+* #XXU-EPI-MR-1 "Rougeole-rubéole, dose 1"
+* #XXU-EPI-MR-1 ^designation[0].language = #fr
+* #XXU-EPI-MR-1 ^designation[0].value = "Rougeole-rubéole, dose 1"
 
 CodeSystem: TrustDemoDataElementsFr
 Id: TrustDemoDataElements-fr

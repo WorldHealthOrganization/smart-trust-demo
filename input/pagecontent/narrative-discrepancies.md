@@ -18,7 +18,7 @@ What was done:
   - A6 and A7: Journey 2 at 7 weeks, Journey 3 at 10 weeks. The 6-week doses are overdue and given at the Journey 3 visit (catch-up), in the FHIR examples, scenarios and device screens.
   - A8: Village 04 is Khamla's village.
   - A16: Journey 4 is at a paediatric clinic.
-- **Still to do:** the site changes that need new process steps (A4 hospital identifier, A9 national-ID search, A10 late birth registration, A11 reminder, B11 coverage denominator), the canvas file (D2–D10), the glossary additions (E3, E6–E8) and C2. They are listed with the demo-application changes they need in *Technical track and demo applications: what changed, what is needed*.
+- **Still to do:** the site changes that need new process steps (A4 hospital identifier, A9 national-ID search, A10 late birth registration, A11 reminder, B11 coverage denominator), the canvas file (D2–D10), the glossary additions (E3, E6–E8) and C2. They are listed with the demo-application changes they need in [Technical track and demo applications: what changed, what is needed](technical-changes.html).
 
 The names and countries already match. Both tell the story of Khamla, Somsak and Bounmy, Vilay, Nurse Chanthason and Dr Anan, in Onesa and Taifafeki, with Hep B and BCG birth doses, a GDHCN trust list and a 12-month return to Taifafeki. Somsak's birth date on the site, 2025-10-28, is a Tuesday, as the deck says.
 

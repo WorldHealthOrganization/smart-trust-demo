@@ -21,8 +21,8 @@ msgid "A journey that needs a home country and a visited country takes Onesa and
 msgstr "Путь, которому нужны страна проживания и посещаемая страна, берёт Онесу и Тайфафеки из {code0} и {code1}: название, прилагательное, код, роль и места. Люди в каждом пути свои и тоже вымышлены."
 
 #: input/pagecontent/countries.md:11
-msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXK \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXK plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
-msgstr "Оба кода входят в набор значений SMART Trust для участников GDHCN DEV, <a0>Participants-DEV</a0>, в системе кодов которого XXK называется \"Onesa\", а XXR — \"Taifafeki\". Оба являются подключёнными тестовыми участниками сети GDHCN DEV (WorldHealthOrganization/tng-participants-dev): ключ подписанта документов XXR подписывает DVC доз при рождении в J1, а XXK играет роль национального портала Онесы в J4. Их ключи — тестовые ключи, а не ключи какого-либо министерства."
+msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXU \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXU plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
+msgstr "Оба кода входят в набор значений SMART Trust для участников GDHCN DEV, <a0>Participants-DEV</a0>, в системе кодов которого XXU называется \"Onesa\", а XXR — \"Taifafeki\". Оба являются подключёнными тестовыми участниками сети GDHCN DEV (WorldHealthOrganization/tng-participants-dev): ключ подписанта документов XXR подписывает DVC доз при рождении в J1, а XXU играет роль национального портала Онесы в J4. Их ключи — тестовые ключи, а не ключи какого-либо министерства."
 
 #: input/pagecontent/countries.md:3
 msgid "Code"
@@ -90,8 +90,8 @@ msgid "visited"
 msgstr "посещаемая"
 
 #: input/pagecontent/countries.md:5
-msgid "XXK"
-msgstr "XXK"
+msgid "XXU"
+msgstr "XXU"
 
 #: input/pagecontent/countries.md:6
 msgid "XXR"
