@@ -7,10 +7,9 @@
  *
  * | input | what it gives |
  * |---|---|
- * | `workshops/dpi-h-policy-track.workshop.json` | the policy modules, their sheets, and the questions asked at each step |
+ * | `workshops/dpi-h-policy-track.workshop.json` | the policy modules, their sheets, the questions asked at each step, and its `matrix`: where each module meets each step, technical and policy |
  * | `workshops/technical-track.json` | the technical modules, each paired with a policy module |
  * | `workshops/country-canvas.json` | each canvas sheet's parts, minutes and preview |
- * | `workshops/module-journey-map.json` | where each module meets each step, technical and policy |
  * | `workshops/glossary-use.json`, `glossary/dpi-h-policy-track.glossary.json` | the terms at each step |
  * | `scenarios/user-scenarios/*.json` | each step's title |
  *
@@ -23,7 +22,7 @@ const read = (p: string) => JSON.parse(readFileSync(p, "utf8"));
 const ws = read("workshops/dpi-h-policy-track.workshop.json");
 const tech = read("workshops/technical-track.json");
 const canvas = read("workshops/country-canvas.json");
-const map = read("workshops/module-journey-map.json");
+const map = ws.matrix;
 const use = read("workshops/glossary-use.json");
 const glossary = read("glossary/dpi-h-policy-track.glossary.json");
 
@@ -109,7 +108,7 @@ for (const m of mods) {
   const asked = cs.filter((c) => c.kind !== "draws");
   const draws = cs.filter((c) => c.kind === "draws");
   const qs = steps.flatMap((s) => (s.questions ?? []).filter((q) => q.module === m.id).map((q) => ({ step: s.step, text: q.text })));
-  const L: string[] = [HEAD("workshops/dpi-h-policy-track.workshop.json, country-canvas.json, module-journey-map.json and glossary-use.json")];
+  const L: string[] = [HEAD("workshops/dpi-h-policy-track.workshop.json (its matrix too), country-canvas.json and glossary-use.json")];
   L.push(trackSwitch(m.id), "", strip(m.id), "", `**Day ${m.day} · Module ${n} · fills Sheet ${sh.n}${sh.parts.some((p: any) => p.module !== m.id) ? ` (with ${[...new Set(sh.parts.filter((p: any) => p.module !== m.id).map((p: any) => p.module))].join(", ")})` : ""}**`, "");
   if (m.carries) L.push(`> *${m.carries}*`, "");
   L.push(`### On the canvas: Sheet ${sh.n} · ${sh.title}`, "", `<img src="${sh.preview}" alt="Country Canvas Sheet ${sh.n}: ${sh.title}" style="width:100%;max-width:900px;border:1px solid #ccc"/>`, "");
@@ -135,7 +134,7 @@ for (const m of mods) {
 for (const t of tmods) {
   const m = mods.find((x) => x.id === t.pairedWith)!;
   const asked = cellsOf(m.id).filter((c) => c.kind !== "draws");
-  const L: string[] = [HEAD("workshops/technical-track.json and module-journey-map.json")];
+  const L: string[] = [HEAD("workshops/technical-track.json and the matrix of dpi-h-policy-track.workshop.json")];
   L.push(trackSwitch(t.id), "", strip(t.id), "", `**Day ${t.day} · ${t.id} · paired with [${m.id} ${m.title}](${page(m.id)})**`, "");
   if (t.status === "placeholder") L.push(`> **Placeholder.** ${t.id} is not written yet. Until it is, this page shows what its paired policy module asks of the technical side, as starting material.`, "");
   if (t.carries) L.push(`> *${t.carries}*`, "");
