@@ -379,22 +379,28 @@ msgid ""
 "(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\n"
 "list. It shows the doses, but checks no signature and saves nothing yet.\n"
 msgstr ""
+"أعادت Khamla الطفل Somsak إلى الوطن في أونيسا (Onesa). وفي زيارة روتينية إلى القرية 04،\n"
+"قرية Khamla، تعثر Vilay على مولود جديد لا يعلم النظام\n"
+"الأونيسي بوجوده. لم يكن لهاتفها تغطية منذ أسابيع. تُري Khamla\n"
+"البطاقتين. يقرأهما تطبيق CHW بوظيفة **read-unverified**\n"
+"(STT-VER-011؛ STT-B45-002، STT-ZIP-002، STT-CBR-003)، التي لا تحتاج إلى قائمة\n"
+"ثقة. يعرض الجرعات، لكنه لا يتحقق من أي توقيع ولا يحفظ شيئًا بعد.\n"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 msgctxt "step.when"
 msgid "T0 + 7 weeks"
-msgstr ""
+msgstr "T0 + 7 أسابيع"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:4
 msgctxt "title"
 msgid "J2 — Found and registered"
-msgstr ""
+msgstr "J2 — العثور عليه وتسجيله"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:13
 msgctxt "when"
 msgid "Somsak is 7 weeks old"
-msgstr ""
+msgstr "عمر Somsak 7 أسابيع"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""

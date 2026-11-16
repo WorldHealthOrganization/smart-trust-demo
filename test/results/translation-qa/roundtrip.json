@@ -27,6 +27,14 @@
       "fixed": 10,
       "noise": 67,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 59,
+      "drifts": 5,
+      "fixed": 5,
+      "noise": 19,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; one drift in 5 strings: the J1 title 'Vaccinated and recorded' (التطعيم والتسجيل) read back as 'vaccination and registration', blurring it with J2's 'registered': fixed (تطعيمه وتسجيل جرعاته); noise: 'a border' read back as plural, 'sees' as 'examines', paediatric clinic as 'children's clinic', the file-established 'Republic of Onesa' and «القراءة دون تحقق» renderings"
     }
   },
   "ru": {

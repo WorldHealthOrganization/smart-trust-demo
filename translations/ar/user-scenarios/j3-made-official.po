@@ -367,17 +367,17 @@ msgstr "المركز الصحي لمنطقة لومارو"
 #: scenarios/user-scenarios/j3-made-official.json:197
 msgctxt "step.experiences.doing"
 msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
-msgstr ""
+msgstr "تؤكد أن المنتج التايفافيكي يعادل جرعة الولادة في الجدول الأونيسي؛ وتعطي لقاحات عمر 6 أسابيع المتأخرة."
 
 #: scenarios/user-scenarios/j3-made-official.json:316
 msgctxt "step.fhirChanges.change"
 msgid "Overdue 6-week doses given"
-msgstr ""
+msgstr "أُعطيت جرعات عمر 6 أسابيع المتأخرة"
 
 #: scenarios/user-scenarios/j3-made-official.json:317
 msgctxt "step.fhirChanges.why"
 msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
-msgstr ""
+msgstr "يحدّد جدول التطعيم الأونيسي (PlanDefinition) أن جرعات عمر 6 أسابيع متأخرة، فتُعطى الآن؛ ويعيده التذكير إلى العيادة لتلقي الجرعات التالية."
 
 #: scenarios/user-scenarios/j3-made-official.json:192
 msgctxt "step.narrative"
@@ -394,27 +394,38 @@ msgid ""
 "(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
 "measles-rubella at 9 months, in Onesa.\n"
 msgstr ""
+"لا يطابق منتج Hep B التايفافيكي أي شيء في جدول التطعيم الوطني.\n"
+"يحتفظ EHR بترميز المنتج الخاص بتايفافيكي ويضيف ترميز الجدول إلى جانبه،\n"
+"من الخريطة الوطنية (`TrustDemoProductToOnesaEpi`). وبما أن الخريطة لا تتضمن مدخلًا\n"
+"لمنتج Hep B، تتخذ الممرضة Chanthason القرار السريري بأنه\n"
+"جرعة الولادة في الجدول (`TrustDemoJ3Adjudication`)، ويُضاف قرارها\n"
+"إلى الخريطة لصالح العيادة التالية. ثم يُشغَّل الجدول (`TrustDemoOnesaInfantSchedule`):\n"
+"فتُحتسب جرعات الولادة، أما الجرعة 1 من اللقاح الخماسي و bOPV 1 و PCV 1، المستحقة\n"
+"عند عمر 6 أسابيع، فهي متأخرة عند عمر 10 أسابيع (`TrustDemoJ3Recommendation`)، لذا تعطيها الممرضة\n"
+"Chanthason في اليوم نفسه. وتغادر Khamla ومعها موعد الجرعات التالية\n"
+"(`TrustDemoJ3Reminder`). وعلى مدار العام يتلقى Somsak بقية جرعاته\n"
+"ولقاح الحصبة والحصبة الألمانية في عمر 9 أشهر، في أونيسا (Onesa).\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:257
 msgctxt "step.uses.role"
 msgid "Onesan schedule logic finds the 6-week doses overdue"
-msgstr ""
+msgstr "يجد منطق جدول التطعيم الأونيسي أن جرعات عمر 6 أسابيع متأخرة"
 
 #: scenarios/user-scenarios/j3-made-official.json:20
 #: scenarios/user-scenarios/j3-made-official.json:20
 msgctxt "step.when"
 msgid "T0 + 10 weeks"
-msgstr ""
+msgstr "T0 + 10 أسابيع"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "title"
 msgid "J3 — A foreign record used for the next vaccine"
-msgstr ""
+msgstr "J3 — سجل أجنبي يُستخدم للقاح التالي"
 
 #: scenarios/user-scenarios/j3-made-official.json:11
 msgctxt "when"
 msgid "Somsak is 10 weeks old"
-msgstr ""
+msgstr "عمر Somsak 10 أسابيع"
 
 #~ msgctxt "step.experiences.doing"
 #~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
