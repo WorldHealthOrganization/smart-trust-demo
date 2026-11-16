@@ -60,7 +60,7 @@ The keys of the walkthrough's `MOCK_FHIR_RESOURCES`
 
 ### What the examples change from the walkthrough's copies
 
-- **Code systems.** The walkthrough's product codes (`vp-hepb-peds-monovalent` and so on) and Onesan schedule codes (`XXK-EPI-HEPB-BD` and so on) are illustrative. They are defined here as the code systems `TrustDemoVaccineProduct` and `TrustDemoOnesaEpiSchedule`, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system.
-- **Countries.** Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXK. Neither is a production key.
+- **Code systems.** The walkthrough's product codes (`vp-hepb-peds-monovalent` and so on) and Onesan schedule codes (`XXU-EPI-HEPB-BD` and so on) are illustrative. They are defined here as the code systems `TrustDemoVaccineProduct` and `TrustDemoOnesaEpiSchedule`, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system.
+- **Countries.** Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key.
 - **The passcode.** The walkthrough shows `4829` on screen. No example stores a passcode: the consent and audit records say only that one was checked.
 - **Dates.** As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the Onesan doses 2025-12-10 and 2026-07-28, the trip 2026-10-28.

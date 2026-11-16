@@ -15,7 +15,7 @@
     {
       "type": "header",
       "app": "Somsak Sengmany (10 Weeks Old)",
-      "subtitle": "#HH-XXK-204",
+      "subtitle": "#HH-XXU-204",
       "icon": "user",
       "chips": [
         {
@@ -75,7 +75,7 @@
         },
         {
           "label": "Code",
-          "value": "XXK-EPI-HEPB-BD",
+          "value": "XXU-EPI-HEPB-BD",
           "mono": true
         }
       ],
@@ -189,7 +189,7 @@
             },
             {
               "label": "Code",
-              "value": "XXK-EPI-HEPB-BD",
+              "value": "XXU-EPI-HEPB-BD",
               "mono": true
             }
           ],
@@ -242,7 +242,7 @@
           "id": "adjudication",
           "mono": true,
           "icon": "file",
-          "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXK-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
+          "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
         }
       ],
       "try": "Both codes travel together: the source code as issued, the national code beside it"

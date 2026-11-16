@@ -17,7 +17,7 @@ The home country's portal that issues each family member's records (IPS, DVCs) a
 
 **Played in the journeys by** (fictional):
 
-- Onesa national health portal and gateway (Country B, XXK)
+- Onesa national health portal and gateway (Country B, XXU)
 
 **In the user scenarios**:
 
