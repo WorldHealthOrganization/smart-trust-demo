@@ -1279,7 +1279,8 @@ msgid ""
 "A capability is usually named using a phrase that emphasizes “what we do”. It represents an outcome-oriented, strategic abstraction of the enterprise’s abilities. \n"
 "\n"
 "Examples: \n"
-"- Patient Registration & Intake\n"
+"- Patient Registration & Intake
+\n"
 "- Medication Prescribing & Dispensing\n"
 "- Clinical Decision Support\n"
 msgstr ""
@@ -3718,8 +3719,10 @@ msgstr "卫生部"
 
 #: archimate/0.1.0/model.json:0
 msgid ""
-"Monitor content quality (e.g. monitor uniqueness, consitency)\n"
-"Monitor conformance (e.g. h\n"
+"Monitor content quality (e.g. monitor uniqueness, consitency)
+\n"
+"Monitor conformance (e.g. h
+\n"
 "Monitor usage (how many users are for a given asset)\n"
 msgstr "监测内容质量（例如监测唯一性、一致性）\n监测符合性（例如 h\n监测使用情况（某一资产有多少用户）\n"
 
@@ -3820,12 +3823,12 @@ msgid "Onesa (Country B, home)"
 msgstr "奥内萨（B 国，本国）"
 
 #: en/smart-trust-demo/archimate/0.1.0/element/onesa-national-health-portal-and-gateway-country-b-xxk/index.html:0
-msgid "Onesa national health portal and gateway (Country B, XXK)"
-msgstr "奥内萨国家卫生门户及网关（B 国，XXK）"
+msgid "Onesa national health portal and gateway (Country B, XXU)"
+msgstr "奥内萨国家卫生门户及网关（B 国，XXU）"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa national health portal and gateway (Country B, XXK): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXK, so no real ministry's key is implied."
-msgstr "奥内萨国家卫生门户及网关（B 国，XXK）：位于 OHS FHIR Info Gateway 之后的奥内萨国家 FHIR 服务器（J4.0、J4.1）：为每位家庭成员汇集 IPS 和 DVC，将每份记录签发为受通行码保护的可验证健康链接，置于以 B 国 DSC 签名的 HCERT 中，托管清单（ITI-YY5），对每个请求检查通行码、有效期和同意，并在本国以 AuditEvent 记录每次访问。B 国在 GDHCN DEV 网络上由测试参与方 XXK 扮演，因此不涉及任何真实卫生部的密钥。"
+msgid "Onesa national health portal and gateway (Country B, XXU): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
+msgstr "奥内萨国家卫生门户及网关（B 国，XXU）：位于 OHS FHIR Info Gateway 之后的奥内萨国家 FHIR 服务器（J4.0、J4.1）：为每位家庭成员汇集 IPS 和 DVC，将每份记录签发为受通行码保护的可验证健康链接，置于以 B 国 DSC 签名的 HCERT 中，托管清单（ITI-YY5），对每个请求检查通行码、有效期和同意，并在本国以 AuditEvent 记录每次访问。B 国在 GDHCN DEV 网络上由测试参与方 XXU 扮演，因此不涉及任何真实卫生部的密钥。"
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of CHW app, Onesa (Country B): The registration and referral forms of the CHW app, FHIR Questionnaires filled in with Structured Data Capture, which also read the doses on a paper DVC (J2)."
@@ -3848,32 +3851,32 @@ msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Verifies a 
 msgstr "奥内萨，洛马鲁区卫生中心 EHR（B 国）的部件：依据设备上缓存的 GDHCN 信任列表验证 DVC 的 HCERT 签名（J3）。"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Answers a VHL manifest request after checking its signature, the passcode, the expiry and the consent, and logs each access in Onesa (J4.1)."
-msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXK）的部件：在检查签名、通行码、有效期和同意后响应 VHL 清单请求，并在奥内萨记录每次访问（J4.1）。"
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Answers a VHL manifest request after checking its signature, the passcode, the expiry and the consent, and logs each access in Onesa (J4.1)."
+msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXU）的部件：在检查签名、通行码、有效期和同意后响应 VHL 清单请求，并在奥内萨记录每次访问（J4.1）。"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Copies the portal's FHIR data into an analytics store for reporting."
-msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXK）的部件：将门户的 FHIR 数据复制到分析存储中用于报告。"
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Copies the portal's FHIR data into an analytics store for reporting."
+msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXU）的部件：将门户的 FHIR 数据复制到分析存储中用于报告。"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Holds each person's records (IPS, DVCs) as FHIR resources, from which the portal assembles what a VHL shares (J4.0, J4.1)."
-msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXK）的部件：以 FHIR 资源形式保存每个人的记录（IPS、DVC），门户据此汇集 VHL 所共享的内容（J4.0、J4.1）。"
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Holds each person's records (IPS, DVCs) as FHIR resources, from which the portal assembles what a VHL shares (J4.0, J4.1)."
+msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXU）的部件：以 FHIR 资源形式保存每个人的记录（IPS、DVC），门户据此汇集 VHL 所共享的内容（J4.0、J4.1）。"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Identifies each person the portal serves, children and their households included."
-msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXK）的部件：识别门户所服务的每个人，包括儿童及其家庭。"
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Identifies each person the portal serves, children and their households included."
+msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXU）的部件：识别门户所服务的每个人，包括儿童及其家庭。"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
-msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXK）的部件：为每位家庭成员签发一个受通行码保护的可验证健康链接，置于以奥内萨文档签名者密钥签名的 HCERT 中（J4.0）。"
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
+msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXU）的部件：为每位家庭成员签发一个受通行码保护的可验证健康链接，置于以奥内萨文档签名者密钥签名的 HCERT 中（J4.0）。"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Lists the clinics and health centres that record and share care."
-msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXK）的部件：列出记录和共享照护信息的诊所和卫生中心。"
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the clinics and health centres that record and share care."
+msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXU）的部件：列出记录和共享照护信息的诊所和卫生中心。"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXK): Lists the health workers, community health workers and nurses among them, who record care."
-msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXK）的部件：列出记录照护信息的卫生工作者，其中包括社区卫生工作者和护士。"
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the health workers, community health workers and nurses among them, who record care."
+msgstr "奥内萨，奥内萨国家卫生门户及网关（B 国，XXU）的部件：列出记录照护信息的卫生工作者，其中包括社区卫生工作者和护士。"
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of The family's shared phone: The wallet app on the family's phone: a profile per family member, each holding that member's VHL QR, shown when asked (J4.0, J4.1)."
