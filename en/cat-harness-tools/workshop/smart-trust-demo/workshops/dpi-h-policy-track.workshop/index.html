@@ -187,14 +187,14 @@
   },
   {
     &quot;id&quot;: &quot;M6&quot;,
-    &quot;title&quot;: &quot;Doing it once, together&quot;,
+    &quot;title&quot;: &quot;Doing it together&quot;,
     &quot;day&quot;: 2,
     &quot;carries&quot;: &quot;Would your neighbour need this too? If yes, why would you each build it?&quot;,
     &quot;sheet&quot;: &quot;sheet-5&quot;
   },
   {
     &quot;id&quot;: &quot;M7&quot;,
-    &quot;title&quot;: &quot;Our first move, what it costs, and what we ask for&quot;,
+    &quot;title&quot;: &quot;First move and the investment required&quot;,
     &quot;day&quot;: 2,
     &quot;carries&quot;: &quot;What is realistic in twelve months with the people and money we have — and who owns it?&quot;,
     &quot;sheet&quot;: &quot;sheet-6&quot;,
@@ -242,6 +242,11 @@
     &quot;module&quot;: &quot;M5&quot;,
     &quot;rows&quot;: [
       {
+        &quot;id&quot;: &quot;data-protection&quot;,
+        &quot;label&quot;: &quot;Data protection covers health data&quot;,
+        &quot;question&quot;: &quot;Does your data protection law cover health data, including a child&#39;s immunization record?&quot;
+      },
+      {
         &quot;id&quot;: &quot;cross-border&quot;,
         &quot;label&quot;: &quot;Legal basis for cross-border sharing&quot;
       },
@@ -261,19 +266,19 @@
         &quot;id&quot;: &quot;narrow&quot;,
         &quot;label&quot;: &quot;Start narrow&quot;,
         &quot;what&quot;: &quot;One population, one credential, one facility type.&quot;,
-        &quot;example&quot;: &quot;Malaysia’s Hajj Health Card&quot;
+        &quot;example&quot;: &quot;Hajj Health Card&quot;
       },
       {
         &quot;id&quot;: &quot;shared&quot;,
         &quot;label&quot;: &quot;Start shared&quot;,
-        &quot;what&quot;: &quot;Build the foundation once for several programmes, not once for immunization.&quot;,
-        &quot;example&quot;: &quot;Taifafeki’s registry shared across parts of government&quot;
+        &quot;what&quot;: &quot;Build the foundation once for several programmes, not only for immunization.&quot;,
+        &quot;example&quot;: &quot;Registries across government&quot;
       },
       {
         &quot;id&quot;: &quot;borrowed&quot;,
         &quot;label&quot;: &quot;Start borrowed&quot;,
-        &quot;what&quot;: &quot;Adopt a regional or international artefact rather than authoring your own.&quot;,
-        &quot;example&quot;: &quot;The ICVP IG, the IPS, a SNOMED subset&quot;
+        &quot;what&quot;: &quot;Adopt a regional or international artefact instead of authoring your own.&quot;,
+        &quot;example&quot;: &quot;The ICVP FHIR IG, the IPS, or a SNOMED subset&quot;
       }
     ]
   },
@@ -293,11 +298,16 @@
       },
       {
         &quot;id&quot;: &quot;devices&quot;,
-        &quot;label&quot;: &quot;Devices and connectivity at the point of care&quot;
+        &quot;label&quot;: &quot;Devices and connectivity at point of care&quot;
       },
       {
         &quot;id&quot;: &quot;recurrent&quot;,
-        &quot;label&quot;: &quot;Recurrent cost of running shared infrastructure&quot;
+        &quot;label&quot;: &quot;Running shared infrastructure (recurrent)&quot;
+      },
+      {
+        &quot;id&quot;: &quot;training&quot;,
+        &quot;label&quot;: &quot;Training and change management&quot;,
+        &quot;what&quot;: &quot;Training health workers and managers, and changing how the work is done, so the system is used.&quot;
       },
       {
         &quot;id&quot;: &quot;not-once&quot;,
@@ -876,7 +886,17 @@
     &quot;modules&quot;: [
       &quot;M1&quot;
     ],
-    &quot;assessmentStrip&quot;: true
+    &quot;assessmentStrip&quot;: true,
+    &quot;fields&quot;: [
+      {
+        &quot;label&quot;: &quot;Our use case: a child vaccinated in ___ should be able to ___ in ___.&quot;,
+        &quot;lines&quot;: 2
+      },
+      {
+        &quot;label&quot;: &quot;Where our journey breaks hardest: touchpoint no., and why there?&quot;,
+        &quot;lines&quot;: 2
+      }
+    ]
   },
   {
     &quot;id&quot;: &quot;sheet-2&quot;,
@@ -886,7 +906,21 @@
     &quot;modules&quot;: [
       &quot;M2&quot;
     ],
-    &quot;assessmentStrip&quot;: true
+    &quot;assessmentStrip&quot;: true,
+    &quot;fields&quot;: [
+      {
+        &quot;label&quot;: &quot;Standards we use today&quot;,
+        &quot;lines&quot;: 1
+      },
+      {
+        &quot;label&quot;: &quot;Where did we disagree?&quot;,
+        &quot;lines&quot;: 2
+      },
+      {
+        &quot;label&quot;: &quot;Regional: which starred blocks could be shared across countries, and who would hold them?&quot;,
+        &quot;lines&quot;: 2
+      }
+    ]
   },
   {
     &quot;id&quot;: &quot;sheet-3&quot;,
@@ -896,7 +930,21 @@
     &quot;modules&quot;: [
       &quot;M3&quot;
     ],
-    &quot;assessmentStrip&quot;: true
+    &quot;assessmentStrip&quot;: true,
+    &quot;fields&quot;: [
+      {
+        &quot;label&quot;: &quot;Which institution would own and govern our national core data set?&quot;,
+        &quot;lines&quot;: 1
+      },
+      {
+        &quot;label&quot;: &quot;Who would run the terminology service?&quot;,
+        &quot;lines&quot;: 1
+      },
+      {
+        &quot;label&quot;: &quot;What we would put in the next step (procurement)&quot;,
+        &quot;lines&quot;: 2
+      }
+    ]
   },
   {
     &quot;id&quot;: &quot;sheet-4&quot;,
@@ -907,22 +955,58 @@
       &quot;M4&quot;,
       &quot;M5&quot;
     ],
-    &quot;assessmentStrip&quot;: true
+    &quot;assessmentStrip&quot;: true,
+    &quot;fields&quot;: [
+      {
+        &quot;label&quot;: &quot;Which institution digitally signs credentials for our health sector?&quot;,
+        &quot;lines&quot;: 1
+      },
+      {
+        &quot;label&quot;: &quot;Who would hold our national trust anchor?&quot;,
+        &quot;lines&quot;: 1
+      },
+      {
+        &quot;label&quot;: &quot;Three questions to take home&quot;,
+        &quot;lines&quot;: 3
+      },
+      {
+        &quot;label&quot;: &quot;The one change that would unblock the most&quot;,
+        &quot;lines&quot;: 2
+      }
+    ]
   },
   {
     &quot;id&quot;: &quot;sheet-5&quot;,
     &quot;label&quot;: &quot;Sheet 5&quot;,
-    &quot;title&quot;: &quot;Doing it once, together: our nomination&quot;,
+    &quot;title&quot;: &quot;Doing it together&quot;,
     &quot;size&quot;: &quot;A3&quot;,
     &quot;modules&quot;: [
       &quot;M6&quot;
     ],
-    &quot;assessmentStrip&quot;: true
+    &quot;assessmentStrip&quot;: true,
+    &quot;fields&quot;: [
+      {
+        &quot;label&quot;: &quot;Our nomination: the component or artefact to do once, regionally&quot;,
+        &quot;lines&quot;: 2
+      },
+      {
+        &quot;label&quot;: &quot;Why together, not each of us?&quot;,
+        &quot;lines&quot;: 2
+      },
+      {
+        &quot;label&quot;: &quot;What our country would contribute&quot;,
+        &quot;lines&quot;: 2
+      },
+      {
+        &quot;label&quot;: &quot;First regional step&quot;,
+        &quot;lines&quot;: 1
+      }
+    ]
   },
   {
     &quot;id&quot;: &quot;sheet-6&quot;,
     &quot;label&quot;: &quot;Sheet 6&quot;,
-    &quot;title&quot;: &quot;Our first move and our ask&quot;,
+    &quot;title&quot;: &quot;First move and the investment required&quot;,
     &quot;size&quot;: &quot;A3&quot;,
     &quot;modules&quot;: [
       &quot;M7&quot;
@@ -930,16 +1014,28 @@
     &quot;assessmentStrip&quot;: true,
     &quot;fields&quot;: [
       {
-        &quot;label&quot;: &quot;Our first move in twelve months&quot;,
+        &quot;label&quot;: &quot;Our top national priority: component, why this one, biggest gap or risk&quot;,
         &quot;lines&quot;: 3
       },
       {
-        &quot;label&quot;: &quot;Named owner&quot;,
+        &quot;label&quot;: &quot;Our 12-month action (two lines)&quot;,
+        &quot;lines&quot;: 2
+      },
+      {
+        &quot;label&quot;: &quot;Owner (institution), and what it depends on&quot;,
         &quot;lines&quot;: 1
       },
       {
-        &quot;label&quot;: &quot;What we ask of partners&quot;,
-        &quot;lines&quot;: 3
+        &quot;label&quot;: &quot;What it costs, and who could fund it&quot;,
+        &quot;lines&quot;: 2
+      },
+      {
+        &quot;label&quot;: &quot;Regional commitment (from our Sheet 5 nomination)&quot;,
+        &quot;lines&quot;: 2
+      },
+      {
+        &quot;label&quot;: &quot;The one gap we refer for follow-up&quot;,
+        &quot;lines&quot;: 2
       }
     ]
   }
@@ -990,10 +1086,122 @@
   },
   {
     &quot;id&quot;: &quot;a3-canvas&quot;,
-    &quot;title&quot;: &quot;The table canvas, Sheets 1 to 6 (A3)&quot;,
+    &quot;title&quot;: &quot;Country Canvas, a cover and Sheets 1 to 6 (A3)&quot;,
     &quot;kind&quot;: &quot;handout&quot;,
-    &quot;href&quot;: &quot;sheets/&quot;,
-    &quot;description&quot;: &quot;Print one set per table, A3 landscape.&quot;
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/country-canvas.html&quot;,
+    &quot;description&quot;: &quot;The canvas each table fills in: print one set per table, A3 landscape. The page links the editable Word file and a print-ready PDF.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;module-journey-map&quot;,
+    &quot;title&quot;: &quot;Module × journey map: technical and policy overlaps&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/module-journey-map.html&quot;,
+    &quot;modules&quot;: [
+      &quot;M1&quot;,
+      &quot;M2&quot;,
+      &quot;M3&quot;,
+      &quot;M4&quot;,
+      &quot;M5&quot;,
+      &quot;M6&quot;,
+      &quot;M7&quot;
+    ],
+    &quot;description&quot;: &quot;Where each module meets a step of the journeys, and what is technical and what is policy there.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary&quot;,
+    &quot;title&quot;: &quot;Glossary: terms you will hear&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html&quot;,
+    &quot;modules&quot;: [
+      &quot;M1&quot;,
+      &quot;M2&quot;,
+      &quot;M3&quot;,
+      &quot;M4&quot;,
+      &quot;M5&quot;,
+      &quot;M6&quot;,
+      &quot;M7&quot;
+    ],
+    &quot;description&quot;: &quot;The policy-maker track&#39;s glossary, each term linked to the DPI-H RA and DTH-PHC glossaries.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary-j1&quot;,
+    &quot;title&quot;: &quot;Terms at J1&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j1&quot;,
+    &quot;steps&quot;: [
+      &quot;j1-born-abroad#J1&quot;
+    ],
+    &quot;body&quot;: &quot;- **Electronic immunization registry (EIR)**: Records each person&#39;s doses. Often the first working part of a lifelong record.\n- **Client Registry**: The Client Registry is the national authoritative source of health-specific person identity. It is the foundational health-sector component that maintains a unique, verifiable identity record for every person who accesses or is eligible to access health services within a jurisdiction.\n- **Facility, workforce and product registries**: Authoritative lists of health facilities, health workers, and products such as vaccines and their batches.\n- **Dose number and series**: Which dose this is, out of how many in the schedule. Needed to work out what is due next.\n- **Batch number**: Identifies the production batch of a vaccine. Needed for recalls and safety checks.\n- **Verifiable credential (VC)**: A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered.\n- **Digital signature**: A cryptographic seal made with the issuer&#39;s private key. Verifiers check it with the matching public key.\n- **Public key infrastructure (PKI)**: The keys, certificates and rules that make digital signatures trustworthy.\n- **Issuer · holder · verifier**: The three roles: who signs the credential, who keeps it, and who checks it.\n- **Health certificate identifier (HCID)**: The unique ID of an issued certificate.\n- **International Certificate of Vaccination or Prophylaxis (ICVP)**: The \&quot;yellow card\&quot;. The digital ICVP is its signed, verifiable form.\n- **Consent**: A person&#39;s permission for their data to be used or shared. Rules for minors and dependants differ by country.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary-j2a&quot;,
+    &quot;title&quot;: &quot;Terms at J2a&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j2a&quot;,
+    &quot;steps&quot;: [
+      &quot;j2-found-at-home#J2a&quot;
+    ],
+    &quot;body&quot;: &quot;- **Point-of-Service Applications**: Point-of-service applications are end-user application components (IT systems or software tools) used by individuals directly engaged in healthcare—such as clinicians, community health workers, and patients—that enable interaction with the broader healthcare ecosystem.\n- **Verifiable credential (VC)**: A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered.\n- **Digital signature**: A cryptographic seal made with the issuer&#39;s private key. Verifiers check it with the matching public key.\n- **Core data set**: The elements a country agrees to record for a use case, each mapped to standard codes. Also called a minimum data set.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary-j2b&quot;,
+    &quot;title&quot;: &quot;Terms at J2b&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j2b&quot;,
+    &quot;steps&quot;: [
+      &quot;j2-found-at-home#J2b&quot;
+    ],
+    &quot;body&quot;: &quot;- **Client Registry**: The Client Registry is the national authoritative source of health-specific person identity. It is the foundational health-sector component that maintains a unique, verifiable identity record for every person who accesses or is eligible to access health services within a jurisdiction.\n- **Civil registration and vital statistics (CRVS)**: Birth registration can start a child&#39;s immunization record.\n- **Point-of-Service Applications**: Point-of-service applications are end-user application components (IT systems or software tools) used by individuals directly engaged in healthcare—such as clinicians, community health workers, and patients—that enable interaction with the broader healthcare ecosystem.\n- **Facility, workforce and product registries**: Authoritative lists of health facilities, health workers, and products such as vaccines and their batches.\n- **Consent**: A person&#39;s permission for their data to be used or shared. Rules for minors and dependants differ by country.\n- **Interoperability**: Interoperability is the standards-based capability of heterogeneous information systems to communicate, exchange data, and use the exchanged information to execute functions effectively.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary-j3a&quot;,
+    &quot;title&quot;: &quot;Terms at J3a&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j3a&quot;,
+    &quot;steps&quot;: [
+      &quot;j3-made-official#J3a&quot;
+    ],
+    &quot;body&quot;: &quot;- **Trust list**: A published list of keys accepted as valid issuers. The GDHCN shares these between countries.\n- **Global Digital Health Certification Network (GDHCN)**: WHO Global Digital Health Certification Network. A trust network so countries can verify each other&#39;s health documents. Countries onboard per use case.\n- **Trust anchor**: The national authority whose key vouches for the health sector&#39;s signers.\n- **Public key infrastructure (PKI)**: The keys, certificates and rules that make digital signatures trustworthy.\n- **Digital signature**: A cryptographic seal made with the issuer&#39;s private key. Verifiers check it with the matching public key.\n- **Issuer · holder · verifier**: The three roles: who signs the credential, who keeps it, and who checks it.\n- **Verifiable credential (VC)**: A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary-j3b&quot;,
+    &quot;title&quot;: &quot;Terms at J3b&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j3b&quot;,
+    &quot;steps&quot;: [
+      &quot;j3-made-official#J3b&quot;
+    ],
+    &quot;body&quot;: &quot;- **Terminology Service**: The Terminology Service is a governed, publicly accessible service that manages, publishes, and provides access to the standardised terminologies, code systems, value sets, and concept maps used across the digital health ecosystem.\n- **Core data set**: The elements a country agrees to record for a use case, each mapped to standard codes. Also called a minimum data set.\n- **Logical information model**: The agreed structure of the data: elements, types and rules, independent of any software.\n- **SNOMED CT**: Systematized Nomenclature of Medicine Clinical Terms is a structured clinical terminology standard for use in electronic health records.\n- **Computable Decision Support Engine**: The Computable Decision Support Engine is a governed, shared application component that delivers context-appropriate, evidence-based guidance at the point of clinical decision-making by applying computable clinical rules and knowledge artefacts to person-specific health data.\n- **SMART Guidelines**: Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines are a comprehensive set of reusable digital health components (e.g., interoperability standards, code libraries, algorithms, technical and operational specifications) that transform the guideline adaptation and implementation process to preserve fidelity and accelerate uptake. SMART Guidelines provide a five-step pathway to advance the adoption of best clinical and data practices, even if a country is not yet fully digital.\n- **Digital adaptation kit (DAK)**: Software-neutral L2 content: personas, workflows, core data dictionary, decision logic, indicators and requirements.\n- **Dose number and series**: Which dose this is, out of how many in the schedule. Needed to work out what is due next.\n- **Expanded Programme on Immunization (EPI)**: The national immunization programme.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary-j4-0a&quot;,
+    &quot;title&quot;: &quot;Terms at J4.0a&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j4-0a&quot;,
+    &quot;steps&quot;: [
+      &quot;j4-0-one-family-one-phone#J4.0a&quot;
+    ],
+    &quot;body&quot;: &quot;- **Digital wallet**: An app where a person holds their credentials. A signed paper QR code can play the same role.\n- **Personal health record (PHR)**: Health information the person can see and control, for example in a wallet or citizen app.\n- **Lifelong Health Record**: The Lifelong Health Record (LHR) is one or more governed data repositories, whether physically consolidated or virtually federated, that collectively maintain a longitudinal, person-centred record of an individual&#39;s key health information across care settings and over their lifetime.\n- **Consent**: A person&#39;s permission for their data to be used or shared. Rules for minors and dependants differ by country.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary-j4-0b&quot;,
+    &quot;title&quot;: &quot;Terms at J4.0b&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j4-0b&quot;,
+    &quot;steps&quot;: [
+      &quot;j4-0-one-family-one-phone#J4.0b&quot;
+    ],
+    &quot;body&quot;: &quot;- **International Patient Summary (IPS)**: A standard minimal health summary, including immunizations, readable across borders.\n- **Fast Healthcare Interoperability Resources (FHIR)**: FHIR is a standard for healthcare data exchange, published by HL7®\n- **Implementation guide (IG)**: A FHIR specification for one use case: profiles, codes and tests. It can be adopted rather than authored.\n- **Profile**: A FHIR resource tailored to a use case, for example by making some fields required.\n- **Consent**: A person&#39;s permission for their data to be used or shared. Rules for minors and dependants differ by country.\n- **Procurement conditions**: Requirements written into tenders, such as conformance to the national IG, that steer what suppliers build.\n- **Application programming interface (API)**: A defined, documented way for one system to ask another for data.&quot;
+  },
+  {
+    &quot;id&quot;: &quot;glossary-j4-1&quot;,
+    &quot;title&quot;: &quot;Terms at J4.1&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html#step-j4-1&quot;,
+    &quot;steps&quot;: [
+      &quot;j4-1-full-history-abroad#J4.1&quot;
+    ],
+    &quot;body&quot;: &quot;- **Global Digital Health Certification Network (GDHCN)**: WHO Global Digital Health Certification Network. A trust network so countries can verify each other&#39;s health documents. Countries onboard per use case.\n- **Trust list**: A published list of keys accepted as valid issuers. The GDHCN shares these between countries.\n- **International Patient Summary (IPS)**: A standard minimal health summary, including immunizations, readable across borders.\n- **Health information exchange (HIE)**: The layer that routes data securely between systems.\n- **Lifelong Health Record**: The Lifelong Health Record (LHR) is one or more governed data repositories, whether physically consolidated or virtually federated, that collectively maintain a longitudinal, person-centred record of an individual&#39;s key health information across care settings and over their lifetime.\n- **Consent**: A person&#39;s permission for their data to be used or shared. Rules for minors and dependants differ by country.&quot;
   }
 ]</pre></dd>
 <dt>presentation</dt><dd><pre>{
@@ -1066,6 +1274,10 @@
       &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/journey-examples.html&quot;
     },
     {
+      &quot;label&quot;: &quot;Glossary&quot;,
+      &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/glossary.html&quot;
+    },
+    {
       &quot;label&quot;: &quot;Source&quot;,
       &quot;href&quot;: &quot;https://github.com/litlfred/smart-trust-demo&quot;,
       &quot;frame&quot;: &quot;IG source&quot;
@@ -1127,13 +1339,19 @@
     ]
   },
   &quot;cover&quot;: {
-    &quot;table&quot;: &quot;patterns&quot;
+    &quot;table&quot;: &quot;patterns&quot;,
+    &quot;fields&quot;: [
+      &quot;Country&quot;,
+      &quot;Table no.&quot;,
+      &quot;Facilitators&quot;,
+      &quot;Delegation members&quot;
+    ]
   }
 }</pre></dd>
 <dt>lab</dt><dd><pre>{
-  &quot;name&quot;: &quot;The table’s eight steps&quot;,
-  &quot;intro&quot;: &quot;One country per table, the delegation plus buddies. Work through the steps in order; each has a timer and a prompt to read aloud. What the table writes stays in this browser and is gathered on one page in step 7.&quot;,
-  &quot;credit&quot;: &quot;The eight steps, their timers and DISCUSS prompts, the use-case cards and the readiness rows are adapted from DPI-H Lab, created by Umer Nisar (CSIRO), in collaboration with Rumanusina Maua (SPC) and Jordi Piera Jimenez, under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Changes: more than one use case may be ticked, the use case starts from the journeys, the journeys’ questions and tables are woven into the steps, and steps 3 to 7 are written for this workshop. DPI-H Lab is informed by the WHO/ITU DPI-H Reference Architecture, Draft V1.0, and is not produced or endorsed by WHO or ITU.&quot;,
+  &quot;name&quot;: &quot;The table’s nine steps&quot;,
+  &quot;intro&quot;: &quot;One country per table, the delegation plus buddies. Work through the steps in order; each has a timer and a prompt to read aloud. What the table writes stays in this browser and is gathered on one page in step 8.&quot;,
+  &quot;credit&quot;: &quot;The eight steps, their timers and DISCUSS prompts, the use-case cards and the readiness rows are adapted from DPI-H Lab, created by Umer Nisar (CSIRO), in collaboration with Rumanusina Maua (SPC) and Jordi Piera Jimenez, under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Changes: more than one use case may be ticked, the use case starts from the journeys, the journeys’ questions and tables are woven into the steps, steps 3 to 8 are written for this workshop, and step 7 (Modules × journey) is added. DPI-H Lab is informed by the WHO/ITU DPI-H Reference Architecture, Draft V1.0, and is not produced or endorsed by WHO or ITU.&quot;,
   &quot;creditHref&quot;: &quot;https://dpih.fhirlab.net/&quot;,
   &quot;creditLabel&quot;: &quot;DPI-H Lab&quot;,
   &quot;useCases&quot;: [
@@ -1332,6 +1550,26 @@
       &quot;modules&quot;: [
         &quot;M6&quot;,
         &quot;M7&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;map&quot;,
+      &quot;label&quot;: &quot;Modules × journey&quot;,
+      &quot;title&quot;: &quot;Where does each module meet the journey?&quot;,
+      &quot;lede&quot;: &quot;Every question the table answered, by module, with the journey step it was asked at. The full map, with the technical and policy overlaps at each meeting point, is linked below.&quot;,
+      &quot;minutes&quot;: 5,
+      &quot;discuss&quot;: &quot;Which component or decision did more than one module land on? That is where to build, or decide, once.&quot;,
+      &quot;modules&quot;: [
+        &quot;M1&quot;,
+        &quot;M2&quot;,
+        &quot;M3&quot;,
+        &quot;M4&quot;,
+        &quot;M5&quot;,
+        &quot;M6&quot;,
+        &quot;M7&quot;
+      ],
+      &quot;resources&quot;: [
+        &quot;module-journey-map&quot;
       ]
     },
     {

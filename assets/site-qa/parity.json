@@ -42,13 +42,13 @@
   }
  },
  "candidate": {
-  "pages": 5123,
+  "pages": 5296,
   "counts": {
    "siteNav": 0,
-   "search": 2522,
-   "navbarRow": 1521,
-   "rail": 2474,
-   "translationMeta": 2522
+   "search": 2618,
+   "navbarRow": 1617,
+   "rail": 2570,
+   "translationMeta": 2618
   },
   "dirs": [
    "ar",
@@ -56,6 +56,7 @@
    "artifact",
    "assets",
    "cat-harness",
+   "country-canvas",
    "en",
    "es",
    "fhir-artifact-index",
@@ -81,13 +82,13 @@
  },
  "baseline": {
   "features": {
-   "pages": 5123,
+   "pages": 5296,
    "counts": {
     "siteNav": 0,
-    "search": 2522,
-    "navbarRow": 1521,
-    "rail": 2474,
-    "translationMeta": 2522
+    "search": 2618,
+    "navbarRow": 1617,
+    "rail": 2570,
+    "translationMeta": 2618
    },
    "dirs": [
     "ar",
@@ -95,6 +96,7 @@
     "artifact",
     "assets",
     "cat-harness",
+    "country-canvas",
     "en",
     "es",
     "fhir-artifact-index",
@@ -118,6 +120,6 @@
     "present": true
    }
   },
-  "from": "f1fe7419d3b1"
+  "from": "250e4110aa8d"
  }
 }

@@ -1,9 +1,16 @@
 {
  "$schema": "fhir-harness/page-render-qa/v1",
- "generatedAt": "2026-11-16T08:47:34.359Z",
- "scanned": 194,
+ "generatedAt": "2026-11-16T11:20:21.686Z",
+ "scanned": 213,
  "unfinished": [],
  "findings": [
+  {
+   "page": "country-canvas.html",
+   "markup": [
+    "bold"
+   ],
+   "excerpt": "Our use case (8 min): A child vaccinated in ___ should be able to ___ in ___."
+  },
   {
    "page": "qa.html",
    "markup": [

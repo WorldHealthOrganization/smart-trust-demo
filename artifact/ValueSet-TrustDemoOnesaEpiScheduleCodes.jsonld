@@ -30,7 +30,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/2fb72f3e03bfea05d8598da0c39d00c67ec181bc/resources/ValueSet/TrustDemoOnesaEpiScheduleCodes.json"
+        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/505adc7f64720e2974211f8dda072a93ee27f7ca/resources/ValueSet/TrustDemoOnesaEpiScheduleCodes.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -39,7 +39,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "591b19970f043cb0e242da5788c2101e0edd4855"
+    "prov:used": "991d8b855d3858e09becdace22bdda66a2803553"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",
