@@ -46,11 +46,6 @@ msgctxt "scene.label"
 msgid "Taifafeki doctor sees it all"
 msgstr "Тайфафекский врач видит всё"
 
-#: scenarios/user-scenarios/j4-family-records-abroad.json:4
-msgctxt "title"
-msgid "J4 — One family, one phone, a history abroad"
-msgstr "J4 — Одна семья, один телефон, история за рубежом"
-
 #: scenarios/user-scenarios/j4-family-records-abroad.json:15
 msgctxt "when"
 msgid "6 to 12 months later"
@@ -60,3 +55,12 @@ msgstr "От 6 до 12 месяцев спустя"
 msgctxt "where"
 msgid "Onesa and Kesaro"
 msgstr "Онеса и Кесаро"
+
+#: scenarios/user-scenarios/j4-family-records-abroad.json:4
+msgctxt "title"
+msgid "J4 — Continuity across a border"
+msgstr "J4 — Непрерывность через границу"
+
+#~ msgctxt "title"
+#~ msgid "J4 — One family, one phone, a history abroad"
+#~ msgstr "J4 — Одна семья, один телефон, история за рубежом"

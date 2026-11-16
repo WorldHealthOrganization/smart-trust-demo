@@ -63,6 +63,14 @@
       "fixed": 21,
       "noise": 68,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 59,
+      "drifts": 5,
+      "fixed": 5,
+      "noise": 46,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; the 59 new msgstrs (journeys, scenarios, personas, index, navbar, user-scenarios) read back from a msgstr-only file. 5 drifts, one cause: J1's new title 'Vaccinated and recorded' read back as 'registered', colliding with J2's 'Found and registered'; fixed to «Привит, прививки записаны» and re-checked. 8 identical, the rest wording noise ('10 weeks of age', 'examines' for 'sees', 'mapping table' for 'map'). The 9 '#, localised' glossary.po markers stay empty by design."
     }
   },
   "es": {
@@ -91,6 +99,14 @@
       "fixed": 14,
       "noise": 21,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 59,
+      "drifts": 1,
+      "fixed": 1,
+      "noise": 34,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; 59 msgstr values (the 3 empty glossary.po entries are #, localised by design and left empty), read back from a msgstr-only JSON; 1 drift fixed ('each step above' read back as 'each previous step': now 'cada paso descrito arriba'); remaining differences are wording noise (e.g. Found -> Detectado, kept from the earlier es title; overdue -> atrasadas)"
     }
   },
   "fr": {
@@ -119,6 +135,14 @@
       "fixed": 10,
       "noise": 40,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 51,
+      "drifts": 0,
+      "fixed": 0,
+      "noise": 18,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; 59 new msgstrs (51 distinct) read back from a msgstr-only JSON with no source; no meaning drift; noise is wording only (recorded/registered both read back as enregistré, back home read back as country of residence, meets read back as joins, policy-maker track read back as decision-makers track)"
     }
   },
   "zh": {
@@ -146,6 +170,14 @@
       "fixed": 22,
       "noise": 74,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 59,
+      "drifts": 1,
+      "fixed": 1,
+      "noise": 16,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; 59 new msgstrs (journeys, index, navbar, personas, scenarios, user scenarios J1-J4.1) read back from a msgstr-only JSON; 1 drift fixed (J1 narrative reused an older obsolete msgstr that added 'as in VaxLink'; replaced by the current one); the 16 noise items are wording only. The 4 '#, localised' entries of glossary.po stay empty by design. Unofficial machine translation; every person and place is fictional."
     }
   }
 }

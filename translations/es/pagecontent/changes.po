@@ -32,10 +32,6 @@ msgstr "Nuevos ejemplos: {code0} del hogar, {code1} de registro y su respuesta, 
 msgid "New process steps: J2 adds the newborn to the household and saves the doses as reported, not verified; J3 adds the national schedule code beside the foreign vaccine code (the nurse decides unmapped products); J4.0 records the holder's consent with a passcode and an expiry; J4.1 adds the home portal's lane, which checks the passcode, returns the manifest and logs every access."
 msgstr "Nuevos pasos de proceso: J2 añade al recién nacido al hogar y guarda las dosis como notificadas, no verificadas; J3 añade el código del calendario nacional junto al código extranjero de la vacuna (la enfermera decide sobre los productos sin correspondencia); J4.0 registra el consentimiento del titular con un código de acceso y una fecha de caducidad; J4.1 añade el carril del portal del país de residencia, que comprueba el código de acceso, devuelve el manifiesto y registra cada acceso."
 
-#: input/pagecontent/changes.md:4
-msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXU), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
-msgstr "Los recorridos cuentan la historia de <a0>VaxLink</a0> (incidencia <a1>#21</a1>): Somsak SENGMANY, nacido en Taifafeki (XXR), residente en Onesa (XXU), atendido de nuevo en Taifafeki un año después. Se rehicieron las personas (perfiles), los actores del sistema y las historias; los procesos de negocio se hicieron genéricos (sin nombres de personas)."
-
 #: input/pagecontent/changes.md:9
 msgid "New page: <a0>Journey examples</a0>, mapping each walkthrough screen and payload to its example here."
 msgstr "Nueva página: <a0>ejemplos de los recorridos</a0>, que asigna cada pantalla y carga útil de la visita guiada a su ejemplo en esta guía."
@@ -50,5 +46,17 @@ msgstr "Nueva terminología: {code0} y el ValueSet {code1}, los ámbitos de conf
 msgid "The DEMO-VHL trust domain's terms of use: {code0} and the {code1} ValueSet. The J4.0 consent is now a Personal Health Wallet explicit consent ({code2}) that names {code3} in {code4}."
 msgstr "Las condiciones de uso del ámbito de confianza DEMO-VHL: {code0} y el ValueSet {code1}. El consentimiento de J4.0 es ahora un consentimiento explícito de la billetera sanitaria personal (Personal Health Wallet) ({code2}) que nombra {code3} en {code4}."
 
+#: input/pagecontent/changes.md:3
+#, python-brace-format
+msgid "Onesa's code is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, Onesan identifiers, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
+msgstr "El código de Onesa es ahora XXU (antes XXK), el participante de prueba DEV que el Participants-DEV de SMART Trust llama \"Onesa\" (WorldHealthOrganization/smart-trust#161): la definición del país, los identificadores de Onesa, los códigos del calendario ({code0}), los números de lote, el portal nacional, los procesos, las pantallas de los dispositivos, los ejemplos y las traducciones."
+
+#: input/pagecontent/changes.md:5
+msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXK), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
+msgstr "Los recorridos cuentan la historia de <a0>VaxLink</a0> (incidencia <a1>#21</a1>): Somsak SENGMANY, nacido en Taifafeki (XXR), que vive en Onesa (XXK) y vuelve a ser atendido en Taifafeki un año después. Se rehicieron los personajes, los actores del sistema y las historias; los procesos de negocio se hicieron genéricos (sin nombres de personas)."
+
 #~ msgid "New page: <a0>VaxLink examples</a0>, mapping each walkthrough screen and payload to its example here."
 #~ msgstr "Nueva página: <a0>ejemplos de VaxLink</a0>, que asigna cada pantalla y carga útil del recorrido guiado a su ejemplo en esta guía."
+
+#~ msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXU), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
+#~ msgstr "Los recorridos cuentan la historia de <a0>VaxLink</a0> (incidencia <a1>#21</a1>): Somsak SENGMANY, nacido en Taifafeki (XXR), residente en Onesa (XXU), atendido de nuevo en Taifafeki un año después. Se rehicieron las personas (perfiles), los actores del sistema y las historias; los procesos de negocio se hicieron genéricos (sin nombres de personas)."
