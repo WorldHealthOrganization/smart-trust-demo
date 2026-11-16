@@ -23,7 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DMN = "{https://www.omg.org/spec/DMN/20191111/MODEL/}"
-TRACE = "{https://litlfred.github.io/smart-trust-demo/ns/dak/}"
+TRACE = "{https://worldhealthorganization.github.io/smart-trust-demo/ns/dak/}"
 BPMN = "{http://www.omg.org/spec/BPMN/20100524/MODEL}"
 REQ_ID = re.compile(r"\bST[TD]-[A-Z0-9]+-\d{3}\b")
 DT_ID = re.compile(r"\bTD\.DT\.\d{2}\b")

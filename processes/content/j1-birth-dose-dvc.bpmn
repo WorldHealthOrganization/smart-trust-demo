@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bootstrap.processes="https://litlfred.github.io/bootstrap/v0/processes/ns/" xmlns:cat-harness.processes="https://litlfred.github.io/cat-harness/v0/processes/ns/"
-                  id="Definitions_Process_J1BirthDoseDvc" targetNamespace="https://litlfred.github.io/smart-trust-demo/processes" exporter="smart-trust-demo" exporterVersion="1">
+                  id="Definitions_Process_J1BirthDoseDvc" targetNamespace="https://worldhealthorganization.github.io/smart-trust-demo/processes" exporter="smart-trust-demo" exporterVersion="1">
   <bpmn:resource id="caregiver" name="Caregiver"/>
   <bpmn:resource id="birth-clinic-vaccinator" name="Birth clinic vaccinator"/>
   <bpmn:resource id="birth-clinic-system" name="Birth clinic issuing system"/>

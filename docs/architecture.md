@@ -6,14 +6,14 @@ nav_order: 4
 # Architecture: the demonstrator on the DPI-H RA
 
 The journeys and systems of this demonstrator, drawn as an ArchiMate overlay
-on the [DPI-H Reference Architecture](https://litlfred.github.io/smart-ra/en/dpi-h-ra/index.html)'s
+on the [DPI-H Reference Architecture](https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html)'s
 own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are
 unchanged and keep their ids, so each RA box here is the element
-[smart-ra publishes](https://litlfred.github.io/smart-ra/en/dpi-h-ra/archimate/0.3.0-draft.1/).
+[smart-ra publishes](https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/archimate/0.3.0-draft.1/).
 The overlay adds:
 
 - the journeys J1 to J4.1 (the use cases) as business processes, one per
-  [BPMN process](https://litlfred.github.io/smart-trust-demo/business-processes.html);
+  [BPMN process](https://worldhealthorganization.github.io/smart-trust-demo/business-processes.html);
 - the people who take part, as business roles assigned to the journeys
   whose BPMN has their lane;
 - each of those roles **associated** with the RA stakeholder it belongs to:
