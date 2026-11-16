@@ -20,8 +20,8 @@ msgid "A journey that needs a home country and a visited country takes Onesa and
 msgstr "Un parcours qui a besoin d'un pays d'origine et d'un pays visité reprend Onesa et Taifafeki de {code0} et {code1} : le nom, l'adjectif, le code, le rôle et les lieux. Les personnes d'un parcours lui sont propres, et fictives elles aussi."
 
 #: input/pagecontent/countries.md:11
-msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXK \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXK plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
-msgstr "Les deux codes figurent dans l'ensemble de valeurs SMART Trust des participants DEV du GDHCN, <a0>Participants-DEV</a0>, dont le système de codes nomme XXK « Onesa » et XXR « Taifafeki ». Tous deux sont des participants de test enregistrés du réseau DEV du GDHCN (WorldHealthOrganization/tng-participants-dev) : la clé de signataire de documents de XXR signe les DVC des doses à la naissance de J1, et XXK joue le rôle du portail national d’Onesa dans J4. Leurs clés sont des clés de test, et non celles d'un quelconque ministère."
+msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXU \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXU plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
+msgstr "Les deux codes figurent dans l'ensemble de valeurs SMART Trust des participants DEV du GDHCN, <a0>Participants-DEV</a0>, dont le système de codes nomme XXU « Onesa » et XXR « Taifafeki ». Tous deux sont des participants de test enregistrés du réseau DEV du GDHCN (WorldHealthOrganization/tng-participants-dev) : la clé de signataire de documents de XXR signe les DVC des doses à la naissance de J1, et XXU joue le rôle du portail national d’Onesa dans J4. Leurs clés sont des clés de test, et non celles d'un quelconque ministère."
 
 #: input/pagecontent/countries.md:3
 msgid "Code"
@@ -89,8 +89,8 @@ msgid "visited"
 msgstr "visité"
 
 #: input/pagecontent/countries.md:5
-msgid "XXK"
-msgstr "XXK"
+msgid "XXU"
+msgstr "XXU"
 
 #: input/pagecontent/countries.md:6
 msgid "XXR"
