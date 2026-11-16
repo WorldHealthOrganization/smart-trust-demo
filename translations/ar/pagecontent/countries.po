@@ -29,8 +29,8 @@ msgid "A journey that needs a home country and a visited country takes Onesa and
 msgstr "الرحلة التي تحتاج إلى بلد أم وبلد مُزار تأخذ أونيسا (Onesa) وتايفافيكي من {code0} و{code1}: الاسم والصفة والرمز والدور والأماكن. أما الأشخاص في كل رحلة فهم خاصون بها، وهم خياليون أيضًا."
 
 #: input/pagecontent/countries.md:11
-msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXK \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXK plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
-msgstr "كلا الرمزين موجود في مجموعة القيم الخاصة بـ SMART Trust لمشاركي GDHCN DEV، <a0>Participants-DEV</a0>، التي يسمّي نظام رموزها XXK «Onesa» وXXR «Taifafeki». وكلاهما مشارك تجريبي مُنضَمّ إلى شبكة GDHCN DEV (WorldHealthOrganization/tng-participants-dev): يوقّع مفتاح موقِّع المستندات الخاص بـ XXR شهادات DVC لجرعات الولادة في J1، ويؤدي XXK دور البوابة الوطنية لأونيسا في J4. ومفاتيحهما مفاتيح اختبار، وليست مفاتيح أي وزارة."
+msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXU \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXU plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
+msgstr "كلا الرمزين موجود في مجموعة القيم الخاصة بـ SMART Trust لمشاركي GDHCN DEV، <a0>Participants-DEV</a0>، التي يسمّي نظام رموزها XXU «Onesa» وXXR «Taifafeki». وكلاهما مشارك تجريبي مُنضَمّ إلى شبكة GDHCN DEV (WorldHealthOrganization/tng-participants-dev): يوقّع مفتاح موقِّع المستندات الخاص بـ XXR شهادات DVC لجرعات الولادة في J1، ويؤدي XXU دور البوابة الوطنية لأونيسا في J4. ومفاتيحهما مفاتيح اختبار، وليست مفاتيح أي وزارة."
 
 #: input/pagecontent/countries.md:3
 msgid "Code"
@@ -98,8 +98,8 @@ msgid "visited"
 msgstr "البلد المُزار"
 
 #: input/pagecontent/countries.md:5
-msgid "XXK"
-msgstr "XXK"
+msgid "XXU"
+msgstr "XXU"
 
 #: input/pagecontent/countries.md:6
 msgid "XXR"
