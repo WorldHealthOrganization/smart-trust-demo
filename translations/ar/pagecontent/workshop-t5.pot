@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T10:04:37.062Z\n"
+"POT-Creation-Date: 2026-11-16T11:46:27.622Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -14,102 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/workshop-t5.md:34
-msgid "<a0>All modules</a0>"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:25
-msgid "<a0>EIR</a0> · <a1>Client Registry</a1> · <a2>Facility, workforce and product registries</a2> · <a3>Dose number and series</a3> · <a4>Batch number</a4> · <a5>VC</a5> · <a6>Digital signature</a6> · <a7>PKI</a7> · <a8>Issuer · holder · verifier</a8> · <a9>HCID</a9> · <a10>ICVP</a10> · <a11>Consent</a11> · <a12>CRVS</a12> · <a13>Point-of-Service Applications</a13> · <a14>Interoperability</a14> · <a15>Digital wallet</a15> · <a16>PHR</a16> · <a17>Lifelong Health Record</a17> · <a18>IPS</a18> · <a19>FHIR</a19> · <a20>IG</a20> · <a21>Profile</a21> · <a22>Procurement conditions</a22> · <a23>API</a23> · <a24>GDHCN</a24> · <a25>Trust list</a25> · <a26>HIE</a26>"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:16
-msgid "<a0>J1</a0> An Onesan baby is born in Taifafeki"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:17
-msgid "<a0>J2b</a0> Registered at home, and referred"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:18
-msgid "<a0>J4.0a</a0> One phone holds the whole family’s records"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:19
-msgid "<a0>J4.0b</a0> Dad creates a link to share at the clinic"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:20
-msgid "<a0>J4.1</a0> A Taifafeki doctor sees the full history"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:3
-msgid "<a0>Policy track: M5</a0> · Technical track: T5"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:20
-msgid "AuditEvent logged in Onesa on every access, including failed passcodes."
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:19
-msgid "Consent resource recorded; 4-digit passcode; 14-day expiry."
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:16
-msgid "Credential issued to a child with no national ID."
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:8
-msgid "Day 2 · T5 · paired with <a0>M5 Governance, decision rights and the legal basis</a0>"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:30
-msgid "Its objectives and timings"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:18
-msgid "Parent holds the child's record on a shared device."
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:10
-msgid "Placeholder. T5 is not written yet. Until it is, this page shows what its paired policy module asks of the technical side, as starting material."
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:5
-msgid "Policy track: Day 1 <a0>M1</a0> · <a1>M2</a1> · <a2>M3</a2> &nbsp;|&nbsp; Day 2 <a3>M4</a3> · <a4>M5</a4> · <a5>M6</a5> · <a6>M7</a6> Technical track: Day 1 <a7>T1</a7> · <a8>T2</a8> · <a9>T3</a9> &nbsp;|&nbsp; Day 2 <a10>T4</a10> · T5 · <a11>T6</a11> · <a12>T7</a12>"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:14
-msgid "Step"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:14
-msgid "Technical"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:17
-msgid "Temporary id created at a home visit, offline."
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:23
-msgid "Terms at those steps"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:32
-msgid "The journey steps it teaches from"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:29
-msgid "The question this module carries"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:27
-msgid "To be written"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:12
-msgid "What M5 asks of the technical side"
-msgstr ""
-
-#: input/pagecontent/workshop-t5.md:31
-msgid "Which canvas sheet, if any, it fills"
+#: input/pagecontent/workshop-t5.md:58
+msgid "Policy · M5Technical · T5PolicyDay 1M1M2M3Day 2M4M5M6M7TechnicalDay 1T1T2T3Day 2T4T5T6T7 Day 2 · Technical module 5 · paired with M5Technical module 5Placeholder Not written yet. Until it is, this page shows what its paired policy module, M5 Governance, decision rights and the legal basis, asks of the technical side, as starting material. What M5 asks of the technical sideJ1An Onesan baby is born in TaifafekiWhat the system doesCredential issued to a child with no national ID.J2bRegistered at home, and referredWhat the system doesTemporary id created at a home visit, offline.J4.0aOne phone holds the whole family’s recordsWhat the system doesParent holds the child's record on a shared device.J4.0bDad creates a link to share at the clinicWhat the system doesConsent resource recorded; 4-digit passcode; 14-day expiry.J4.1A Taifafeki doctor sees the full historyWhat the system doesAuditEvent logged in Onesa on every access, including failed passcodes. Terms at those stepsElectronic immunization registryClient RegistryFacility, workforce and product registriesDose number and seriesBatch numberVerifiable credentialDigital signaturePublic key infrastructureIssuer · holder · verifierHealth certificate identifierInternational Certificate of Vaccination or ProphylaxisConsentCivil registration and vital statisticsPoint-of-Service ApplicationsInteroperabilityDigital walletPersonal health recordLifelong Health RecordInternational Patient SummaryFast Healthcare Interoperability ResourcesImplementation guideProfileProcurement conditionsApplication programming interfaceGlobal Digital Health Certification NetworkTrust listHealth information exchange To be writtenThe question this module carriesIts objectives and timingsWhich canvas sheet, if any, it fillsThe journey steps it teaches from M5 Governance, decision rights and the legal basisModule × journey mapAll modules"
 msgstr ""

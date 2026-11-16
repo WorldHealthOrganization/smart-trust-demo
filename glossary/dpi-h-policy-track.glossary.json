@@ -9,69 +9,69 @@
   "terms": [
     {
       "id": "digital-public-infrastructure",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-public-infrastructure",
       "prefLabel": "Digital Public Infrastructure",
       "altLabel": [
         "Digital public infrastructure",
         "DPI"
       ],
-      "notation": "DPI",
       "definition": "A set of shared digital systems that should be secure and interoperable, and can be built on open standards and specifications to deliver and provide equitable access to public and/or private services at societal scale and are governed by applicable legal frameworks and enabling rules to drive development, inclusion, innovation, trust, and competition, while respecting human rights and fundamental freedoms. (G20/UNDP)",
+      "notation": "DPI",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, digital-public-infrastructure), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#digital-public-infrastructure",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-public-infrastructure"
+      "status": "candidate"
     },
     {
       "id": "dpi-for-health",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure",
       "prefLabel": "Health Digital Public Infrastructure",
       "altLabel": [
         "DPI for health",
         "DPI-H"
       ],
-      "notation": "DPI-H",
       "definition": "Health Digital Public Infrastructure (DPI-H) refers to digital resources that are built as a shared means for fulfilling multiple health agency functions.",
+      "notation": "DPI-H",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, health-digital-public-infrastructure), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#health-digital-public-infrastructure",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure"
+      "status": "candidate"
     },
     {
       "id": "foundational-dpi",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/foundational-digital-public-infrastructure",
       "prefLabel": "Foundational Digital Public Infrastructure",
       "altLabel": [
         "Foundational DPI",
         "DPI-F"
       ],
-      "notation": "DPI-F",
       "definition": "Foundational Digital Public Infrastructure (DPI-F) is the digital public infrastructure, such as identity, payments and data exchange, upon which the health sector can build. DPI-H is distinct from DPI-F and builds on it.",
+      "notation": "DPI-F",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, foundational-digital-public-infrastructure), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#foundational-digital-public-infrastructure",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/foundational-digital-public-infrastructure"
+      "status": "candidate"
     },
     {
       "id": "reference-architecture",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture",
       "prefLabel": "Reference Architecture",
+      "altLabel": [
+        "Reference architecture"
+      ],
       "definition": "A technology-neutral blueprint that captures the common building blocks, relationships, and design principles of a technical environment.",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, reference-architecture), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture. Matters most on canvas Sheet 2.",
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#reference-architecture",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture",
-      "altLabel": [
-        "Reference architecture"
-      ]
+      "status": "candidate"
     },
     {
       "id": "point-of-service-application",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
       "prefLabel": "Point-of-Service Applications",
+      "altLabel": [
+        "Point-of-service application"
+      ],
       "definition": "Point-of-service applications are end-user application components (IT systems or software tools) used by individuals directly engaged in healthcare—such as clinicians, community health workers, and patients—that enable interaction with the broader healthcare ecosystem.",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, point-of-service-applications), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#point-of-service-applications",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
-      "altLabel": [
-        "Point-of-service application"
-      ]
+      "status": "candidate"
     },
     {
       "id": "application-programming-interface",
@@ -79,8 +79,8 @@
       "altLabel": [
         "API"
       ],
-      "notation": "API",
       "definition": "A defined, documented way for one system to ask another for data.",
+      "notation": "API",
       "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-programming-interface",
@@ -91,6 +91,7 @@
     },
     {
       "id": "client-registry",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client-registry",
       "prefLabel": "Client Registry",
       "altLabel": [
         "Client registry",
@@ -103,8 +104,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/master-patient-index"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#client-registry",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client-registry"
+      "status": "candidate"
     },
     {
       "id": "facility-workforce-and-product-registries",
@@ -126,6 +126,7 @@
     },
     {
       "id": "lifelong-health-record",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record",
       "prefLabel": "Lifelong Health Record",
       "altLabel": [
         "Lifelong health record",
@@ -137,8 +138,7 @@
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/shared-health-record"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#lifelong-health-record",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record"
+      "status": "candidate"
     },
     {
       "id": "electronic-immunization-registry",
@@ -146,8 +146,8 @@
       "altLabel": [
         "EIR"
       ],
-      "notation": "EIR",
       "definition": "Records each person's doses. Often the first working part of a lifelong record.",
+      "notation": "EIR",
       "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
       "related": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record",
@@ -162,8 +162,8 @@
       "altLabel": [
         "PHR"
       ],
-      "notation": "PHR",
       "definition": "Health information the person can see and control, for example in a wallet or citizen app.",
+      "notation": "PHR",
       "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/personal-health-record",
@@ -174,15 +174,15 @@
     },
     {
       "id": "terminology-service",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/terminology-service",
       "prefLabel": "Terminology Service",
+      "altLabel": [
+        "Terminology service"
+      ],
       "definition": "The Terminology Service is a governed, publicly accessible service that manages, publishes, and provides access to the standardised terminologies, code systems, value sets, and concept maps used across the digital health ecosystem.",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, terminology-service), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#terminology-service",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/terminology-service",
-      "altLabel": [
-        "Terminology service"
-      ]
+      "status": "candidate"
     },
     {
       "id": "logical-information-model",
@@ -197,7 +197,11 @@
     },
     {
       "id": "decision-support-engine",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/computable-decision-support-engine",
       "prefLabel": "Computable Decision Support Engine",
+      "altLabel": [
+        "Decision support engine"
+      ],
       "definition": "The Computable Decision Support Engine is a governed, shared application component that delivers context-appropriate, evidence-based guidance at the point of clinical decision-making by applying computable clinical rules and knowledge artefacts to person-specific health data.",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, computable-decision-support-engine), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
       "related": [
@@ -205,11 +209,7 @@
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#computable-decision-support-engine",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/computable-decision-support-engine",
-      "altLabel": [
-        "Decision support engine"
-      ]
+      "status": "candidate"
     },
     {
       "id": "health-information-exchange",
@@ -218,8 +218,8 @@
         "HIE",
         "Information mediator"
       ],
-      "notation": "HIE",
       "definition": "The layer that routes data securely between systems.",
+      "notation": "HIE",
       "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-exchange"
@@ -229,20 +229,20 @@
     },
     {
       "id": "health-management-information-system",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-management-information-system",
       "prefLabel": "Health Management Information System",
       "altLabel": [
         "Health management information system",
         "HMIS"
       ],
-      "notation": "HMIS",
       "definition": "The Health Management Information System is a governed, shared application component responsible for the systematic collection, aggregation, analysis, and dissemination of population-level and facility-level health data to support health system planning, performance monitoring, resource allocation, and policy decision-making.",
+      "notation": "HMIS",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, health-management-information-system), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
       "exactMatch": [
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-management-information-system"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#health-management-information-system",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-management-information-system"
+      "status": "candidate"
     },
     {
       "id": "civil-registration-and-vital-statistics",
@@ -250,8 +250,8 @@
       "altLabel": [
         "CRVS"
       ],
-      "notation": "CRVS",
       "definition": "Birth registration can start a child's immunization record.",
+      "notation": "CRVS",
       "scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/civil-registration-and-vital-statistics"
@@ -261,6 +261,7 @@
     },
     {
       "id": "interoperability",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
       "prefLabel": "Interoperability",
       "definition": "Interoperability is the standards-based capability of heterogeneous information systems to communicate, exchange data, and use the exchanged information to execute functions effectively.",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, interoperability), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
@@ -268,8 +269,7 @@
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#interoperability",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability"
+      "status": "candidate"
     },
     {
       "id": "standard-vs-specification",
@@ -289,6 +289,7 @@
     },
     {
       "id": "smart-guidelines",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines",
       "prefLabel": "SMART Guidelines",
       "definition": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines are a comprehensive set of reusable digital health components (e.g., interoperability standards, code libraries, algorithms, technical and operational specifications) that transform the guideline adaptation and implementation process to preserve fidelity and accelerate uptake. SMART Guidelines provide a five-step pathway to advance the adoption of best clinical and data practices, even if a country is not yet fully digital.",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, smart-guidelines), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Standards and specifications.",
@@ -296,8 +297,7 @@
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#smart-guidelines",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines"
+      "status": "candidate"
     },
     {
       "id": "smart-levels",
@@ -319,8 +319,8 @@
       "altLabel": [
         "DAK"
       ],
-      "notation": "DAK",
       "definition": "Software-neutral L2 content: personas, workflows, core data dictionary, decision logic, indicators and requirements.",
+      "notation": "DAK",
       "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it. Matters most on canvas Sheets 1, 3.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-adaptation-kit",
@@ -346,21 +346,21 @@
     },
     {
       "id": "hl7-fhir",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
       "prefLabel": "Fast Healthcare Interoperability Resources",
       "altLabel": [
         "HL7 FHIR",
         "FHIR",
         "Fast Healthcare Interoperability Resources"
       ],
-      "notation": "FHIR",
       "definition": "FHIR is a standard for healthcare data exchange, published by HL7®",
+      "notation": "FHIR",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, fast-healthcare-interoperability-resources), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Standards and specifications.",
       "exactMatch": [
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/fast-healthcare-interoperability-resources"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#fast-healthcare-interoperability-resources",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources"
+      "status": "candidate"
     },
     {
       "id": "implementation-guide",
@@ -368,8 +368,8 @@
       "altLabel": [
         "IG"
       ],
-      "notation": "IG",
       "definition": "A FHIR specification for one use case: profiles, codes and tests. It can be adopted rather than authored.",
+      "notation": "IG",
       "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/implementation-guide"
@@ -391,8 +391,8 @@
       "altLabel": [
         "IPS"
       ],
-      "notation": "IPS",
       "definition": "A standard minimal health summary, including immunizations, readable across borders.",
+      "notation": "IPS",
       "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-patient-summary"
@@ -408,8 +408,8 @@
         "Yellow card",
         "Digital ICVP"
       ],
-      "notation": "ICVP",
       "definition": "The \"yellow card\". The digital ICVP is its signed, verifiable form.",
+      "notation": "ICVP",
       "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-certificate-of-vaccination-or-prophylaxis"
@@ -424,8 +424,8 @@
         "IHR",
         "IHR (2005)"
       ],
-      "notation": "IHR",
       "definition": "International Health Regulations (2005), amended in 2024. The legal basis for the ICVP and other cross-border health documents.",
+      "notation": "IHR",
       "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-health-regulations"
@@ -435,6 +435,7 @@
     },
     {
       "id": "snomed-ct",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
       "prefLabel": "SNOMED CT",
       "definition": "Systematized Nomenclature of Medicine Clinical Terms is a structured clinical terminology standard for use in electronic health records.",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, snomed-ct), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Standards and specifications. Matters most on canvas Sheet 3.",
@@ -442,8 +443,7 @@
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/snomed-ct"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#snomed-ct",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct"
+      "status": "candidate"
     },
     {
       "id": "international-classification-of-diseases",
@@ -453,8 +453,8 @@
         "ICD-10",
         "ICD-11"
       ],
-      "notation": "ICD",
       "definition": "WHO's classification; ICD-11 is the current version.",
+      "notation": "ICD",
       "scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases"
@@ -468,19 +468,19 @@
     },
     {
       "id": "logical-observation-identifiers-names-and-codes",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
       "prefLabel": "Logical Observation Identifiers Names and Codes",
       "altLabel": [
         "LOINC"
       ],
-      "notation": "LOINC",
       "definition": "LOINC is a common language (a set of identifiers, names, and codes) for identifying health measurements, observations, and documents.",
+      "notation": "LOINC",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, logical-observation-identifiers-names-and-codes), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Standards and specifications.",
       "exactMatch": [
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/logical-observation-identifiers-names-and-codes"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#logical-observation-identifiers-names-and-codes",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes"
+      "status": "candidate"
     },
     {
       "id": "openehr",
@@ -504,9 +504,12 @@
       "altLabel": [
         "VC"
       ],
-      "notation": "VC",
       "definition": "A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered.",
+      "notation": "VC",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "closeMatch": [
+        "https://smart.who.int/trust/concepts.html#verifiable-digital-health-certificate"
+      ],
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
     },
@@ -520,6 +523,11 @@
       ],
       "definition": "The three roles: who signs the credential, who keeps it, and who checks it.",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "narrowMatch": [
+        "https://smart.who.int/trust/concepts.html#issuer",
+        "https://smart.who.int/trust/concepts.html#holder",
+        "https://smart.who.int/trust/concepts.html#receiver"
+      ],
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
     },
@@ -528,6 +536,9 @@
       "prefLabel": "Digital signature",
       "definition": "A cryptographic seal made with the issuer's private key. Verifiers check it with the matching public key.",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "related": [
+        "https://smart.who.int/trust/concepts.html#document-signer"
+      ],
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
     },
@@ -537,11 +548,12 @@
       "altLabel": [
         "PKI"
       ],
-      "notation": "PKI",
       "definition": "The keys, certificates and rules that make digital signatures trustworthy.",
+      "notation": "PKI",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-key-infrastructure"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-key-infrastructure",
+        "https://smart.who.int/trust/concepts.html#public-key-infrastructure-pki"
       ],
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
@@ -551,6 +563,9 @@
       "prefLabel": "Trust anchor",
       "definition": "The national authority whose key vouches for the health sector's signers.",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "related": [
+        "https://smart.who.int/trust/concepts.html#trust-network-gateway---trust-anchor--tngta"
+      ],
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
     },
@@ -559,6 +574,9 @@
       "prefLabel": "Trust list",
       "definition": "A published list of keys accepted as valid issuers. The GDHCN shares these between countries.",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "closeMatch": [
+        "https://smart.who.int/trust/concepts.html#trust-lists"
+      ],
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
     },
@@ -568,11 +586,12 @@
       "altLabel": [
         "GDHCN"
       ],
-      "notation": "GDHCN",
       "definition": "WHO Global Digital Health Certification Network. A trust network so countries can verify each other's health documents. Countries onboard per use case.",
+      "notation": "GDHCN",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
       "exactMatch": [
-        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-digital-health-certification-network"
+        "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-digital-health-certification-network",
+        "https://smart.who.int/trust/concepts.html#gdhcn-trust-network"
       ],
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
@@ -585,6 +604,9 @@
       ],
       "definition": "An app where a person holds their credentials. A signed paper QR code can play the same role.",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "related": [
+        "https://smart.who.int/trust/concepts.html#holder"
+      ],
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
     },
@@ -594,8 +616,8 @@
       "altLabel": [
         "DDCC"
       ],
-      "notation": "DDCC",
       "definition": "WHO's earlier specification; much of its approach carries into the digital ICVP.",
+      "notation": "DDCC",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
@@ -606,8 +628,8 @@
       "altLabel": [
         "HCID"
       ],
-      "notation": "HCID",
       "definition": "The unique ID of an issued certificate.",
+      "notation": "HCID",
       "scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 3.",
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
@@ -685,6 +707,7 @@
     },
     {
       "id": "blueprint",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
       "prefLabel": "Enterprise Architecture",
       "altLabel": [
         "Blueprint",
@@ -696,8 +719,7 @@
         "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/enterprise-architecture"
       ],
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#enterprise-architecture",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture"
+      "status": "candidate"
     },
     {
       "id": "costed-investment-plan",
@@ -713,8 +735,8 @@
       "altLabel": [
         "DIIG"
       ],
-      "notation": "DIIG",
       "definition": "WHO Digital Implementation Investment Guide. Steps to plan, cost and integrate digital health investments.",
+      "notation": "DIIG",
       "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-implementation-investment-guide",
@@ -729,8 +751,8 @@
       "altLabel": [
         "TWG"
       ],
-      "notation": "TWG",
       "definition": "Coordinates standards and architecture decisions across government and partners.",
+      "notation": "TWG",
       "scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
       "exactMatch": [
         "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/technical-working-group"
@@ -756,17 +778,17 @@
     },
     {
       "id": "total-cost-of-ownership",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/total-cost-of-ownership",
       "prefLabel": "Total Cost of Ownership",
       "altLabel": [
         "Total cost of ownership",
         "TCO"
       ],
-      "notation": "TCO",
       "definition": "The resources required to support a digital health intervention throughout its life cycle.",
+      "notation": "TCO",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, total-cost-of-ownership), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Governance, planning and financing. Matters most on canvas Sheet 6.",
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#total-cost-of-ownership",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/total-cost-of-ownership"
+      "status": "candidate"
     },
     {
       "id": "vendor-lock-in",
@@ -782,25 +804,25 @@
       "altLabel": [
         "EPI"
       ],
-      "notation": "EPI",
       "definition": "The national immunization programme.",
+      "notation": "EPI",
       "scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"
     },
     {
       "id": "adverse-event-following-immunization",
+      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/adverse-events-following-immunization",
       "prefLabel": "Adverse Events Following Immunization",
       "altLabel": [
         "Adverse event following immunization",
         "AEFI"
       ],
-      "notation": "AEFI",
       "definition": "Adverse effects following immunisation",
+      "notation": "AEFI",
       "scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, adverse-events-following-immunization), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Immunization.",
       "source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#adverse-events-following-immunization",
-      "status": "candidate",
-      "iri": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/adverse-events-following-immunization"
+      "status": "candidate"
     },
     {
       "id": "dose-number-and-series",
@@ -832,8 +854,8 @@
         "LMIS",
         "Cold chain"
       ],
-      "notation": "LMIS",
       "definition": "Tracks vaccine stock; the cold chain keeps vaccines at the right temperature.",
+      "notation": "LMIS",
       "scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
       "source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "status": "candidate"

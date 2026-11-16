@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T10:04:37.060Z\n"
+"POT-Creation-Date: 2026-11-16T11:46:27.622Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -14,94 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/workshop-t4.md:33
-msgid "<a0>All modules</a0>"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:24
-msgid "<a0>EIR</a0> · <a1>Client Registry</a1> · <a2>Facility, workforce and product registries</a2> · <a3>Dose number and series</a3> · <a4>Batch number</a4> · <a5>VC</a5> · <a6>Digital signature</a6> · <a7>PKI</a7> · <a8>Issuer · holder · verifier</a8> · <a9>HCID</a9> · <a10>ICVP</a10> · <a11>Consent</a11> · <a12>Point-of-Service Applications</a12> · <a13>Core data set</a13> · <a14>Trust list</a14> · <a15>GDHCN</a15> · <a16>Trust anchor</a16> · <a17>Digital wallet</a17> · <a18>PHR</a18> · <a19>Lifelong Health Record</a19>"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:16
-msgid "<a0>J1</a0> An Onesan baby is born in Taifafeki"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:17
-msgid "<a0>J2a</a0> A health worker finds the baby — and reads his cards"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:18
-msgid "<a0>J3a</a0> The clinic confirms the cards are genuine"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:19
-msgid "<a0>J4.0a</a0> One phone holds the whole family’s records"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:3
-msgid "<a0>Policy track: M4</a0> · Technical track: T4"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:8
-msgid "Day 2 · T4 · paired with <a0>M4 Trust, credentials and wallets</a0>"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:16
-msgid "Document signer certificate (DSC) and its key; HCERT/CWT signing of each DVC."
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:19
-msgid "Family wallet on one shared phone, one profile and one VHL per member."
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:18
-msgid "GDHCN trust list (DID documents), cached for offline verification; kid lookup."
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:29
-msgid "Its objectives and timings"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:10
-msgid "Placeholder. T4 is not written yet. Until it is, this page shows what its paired policy module asks of the technical side, as starting material."
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:5
-msgid "Policy track: Day 1 <a0>M1</a0> · <a1>M2</a1> · <a2>M3</a2> &nbsp;|&nbsp; Day 2 <a3>M4</a3> · <a4>M5</a4> · <a5>M6</a5> · <a6>M7</a6> Technical track: Day 1 <a7>T1</a7> · <a8>T2</a8> · <a9>T3</a9> &nbsp;|&nbsp; Day 2 T4 · <a10>T5</a10> · <a11>T6</a11> · <a12>T7</a12>"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:17
-msgid "Read-unverified: the CHW device decodes but does not verify."
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:14
-msgid "Step"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:14
-msgid "Technical"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:22
-msgid "Terms at those steps"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:31
-msgid "The journey steps it teaches from"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:28
-msgid "The question this module carries"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:26
-msgid "To be written"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:12
-msgid "What M4 asks of the technical side"
-msgstr ""
-
-#: input/pagecontent/workshop-t4.md:30
-msgid "Which canvas sheet, if any, it fills"
+#: input/pagecontent/workshop-t4.md:58
+msgid "Policy · M4Technical · T4PolicyDay 1M1M2M3Day 2M4M5M6M7TechnicalDay 1T1T2T3Day 2T4T5T6T7 Day 2 · Technical module 4 · paired with M4Technical module 4Placeholder Not written yet. Until it is, this page shows what its paired policy module, M4 Trust, credentials and wallets, asks of the technical side, as starting material. What M4 asks of the technical sideJ1An Onesan baby is born in TaifafekiWhat the system doesDocument signer certificate (DSC) and its key; HCERT/CWT signing of each DVC.J2aA health worker finds the baby — and reads his cardsWhat the system doesRead-unverified: the CHW device decodes but does not verify.J3aThe clinic confirms the cards are genuineWhat the system doesGDHCN trust list (DID documents), cached for offline verification; kid lookup.J4.0aOne phone holds the whole family’s recordsWhat the system doesFamily wallet on one shared phone, one profile and one VHL per member. Terms at those stepsElectronic immunization registryClient RegistryFacility, workforce and product registriesDose number and seriesBatch numberVerifiable credentialDigital signaturePublic key infrastructureIssuer · holder · verifierHealth certificate identifierInternational Certificate of Vaccination or ProphylaxisConsentPoint-of-Service ApplicationsCore data setTrust listGlobal Digital Health Certification NetworkTrust anchorDigital walletPersonal health recordLifelong Health Record To be writtenThe question this module carriesIts objectives and timingsWhich canvas sheet, if any, it fillsThe journey steps it teaches from M4 Trust, credentials and walletsModule × journey mapAll modules"
 msgstr ""
