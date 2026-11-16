@@ -1,0 +1,31 @@
+{
+  "$schema": "ig-ast-history/v1",
+  "repository": "WorldHealthOrganization/smart-trust-demo",
+  "versions": [
+    {
+      "commit": "b03f15e54bafc511c2900c05f2d3c04100e4da3c",
+      "date": "2026-11-16T11:54:07+00:00",
+      "src": "e3fd3d34a"
+    },
+    {
+      "commit": "611b651456b9147af9383634246a7a984b8fc153",
+      "date": "2026-11-16T11:48:08+00:00",
+      "src": "17e7c0e06"
+    },
+    {
+      "commit": "505adc7f64720e2974211f8dda072a93ee27f7ca",
+      "date": "2026-11-16T10:24:52+00:00",
+      "src": "991d8b855"
+    },
+    {
+      "commit": "2fb72f3e03bfea05d8598da0c39d00c67ec181bc",
+      "date": "2026-11-16T08:17:22+00:00",
+      "src": "591b19970"
+    },
+    {
+      "commit": "0909f813193d5adce247226ccf38c114f842f7df",
+      "date": "2026-11-16T07:07:05+00:00",
+      "src": "97918a1"
+    }
+  ]
+}

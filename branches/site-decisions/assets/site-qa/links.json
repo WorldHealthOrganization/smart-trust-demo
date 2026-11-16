@@ -1,0 +1,992 @@
+{
+ "$schema": "site-link-report/v1",
+ "pages": 5337,
+ "unresolved": [],
+ "selfAddress": [
+  {
+   "page": "ar/folio-assistant-core/glossary/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/ar/folio-assistant-core/glossary/"
+  },
+  {
+   "page": "en/cat-harness/attestations/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/attestations/"
+  },
+  {
+   "page": "en/cat-harness/beans/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/beans/"
+  },
+  {
+   "page": "en/cat-harness/block-kinds/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/block-kinds/"
+  },
+  {
+   "page": "en/cat-harness/code-lists/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/code-lists/"
+  },
+  {
+   "page": "en/cat-harness/code-lists/smart-trust-demo/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/code-lists/smart-trust-demo/"
+  },
+  {
+   "page": "en/cat-harness/code/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/code/"
+  },
+  {
+   "page": "en/cat-harness/code/smart-trust-demo/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/code/smart-trust-demo/"
+  },
+  {
+   "page": "en/cat-harness/content-adapters/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/content-adapters/"
+  },
+  {
+   "page": "en/cat-harness/graph-typologies/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/graph-typologies/"
+  },
+  {
+   "page": "en/cat-harness/health/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/health/"
+  },
+  {
+   "page": "en/cat-harness/issue-marks/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/issue-marks/"
+  },
+  {
+   "page": "en/cat-harness/memory/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/memory/"
+  },
+  {
+   "page": "en/cat-harness/memory/smart-trust-demo/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/memory/smart-trust-demo/"
+  },
+  {
+   "page": "en/cat-harness/merge-reviews/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/merge-reviews/"
+  },
+  {
+   "page": "en/cat-harness/pipeline-plugins/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/pipeline-plugins/"
+  },
+  {
+   "page": "en/cat-harness/policies/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/policies/"
+  },
+  {
+   "page": "en/cat-harness/processes/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/"
+  },
+  {
+   "page": "en/cat-harness/processes/j1-birth-dose-dvc.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/j1-birth-dose-dvc.html"
+  },
+  {
+   "page": "en/cat-harness/processes/j2-chw-discovery-referral.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/j2-chw-discovery-referral.html"
+  },
+  {
+   "page": "en/cat-harness/processes/j3-clinic-verification-schedule.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/j3-clinic-verification-schedule.html"
+  },
+  {
+   "page": "en/cat-harness/processes/j4-0-family-vhl-issuance.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/j4-0-family-vhl-issuance.html"
+  },
+  {
+   "page": "en/cat-harness/processes/j4-1-vhl-point-of-care.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/j4-1-vhl-point-of-care.html"
+  },
+  {
+   "page": "en/cat-harness/processes/panel-links-qa.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/panel-links-qa.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/chw-refer.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/chw-refer.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/chw-register-infant.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/chw-register-infant.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/complete-sdc-questionnaire.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/complete-sdc-questionnaire.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/ehr-import-immunization.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/ehr-import-immunization.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/extract-questionnaire-response.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/extract-questionnaire-response.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hand-over-credential.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hand-over-credential.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-assemble-payload.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-assemble-payload.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-build-cwt.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-build-cwt.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-compress.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-compress.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-encode-base45.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-encode-base45.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-encode-cbor.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-encode-cbor.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-prefix-context.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-prefix-context.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-select-payload.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-select-payload.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-sign-cose.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-sign-cose.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-trust-list.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-trust-list.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/hcert-verify.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/hcert-verify.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/holder-consent-to-share.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/holder-consent-to-share.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/holder-present-credential.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/holder-present-credential.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/inform-client.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/inform-client.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/map-vaccine-codes.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/map-vaccine-codes.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/portal-assemble-records.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/portal-assemble-records.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/portal-serve-manifest.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/portal-serve-manifest.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/receiver-scan-credential.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/receiver-scan-credential.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/record-decision-rationale.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/record-decision-rationale.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/review-client-history.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/review-client-history.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/review-decision-support-guidance.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/review-decision-support-guidance.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/schedule-evaluate.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/schedule-evaluate.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/vhl-receive.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/vhl-receive.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/vhl-share.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/vhl-share.html"
+  },
+  {
+   "page": "en/cat-harness/processes/skills/wallet-hold-vhl.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/skills/wallet-hold-vhl.html"
+  },
+  {
+   "page": "en/cat-harness/processes/smart-trust-demo/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/processes/smart-trust-demo/"
+  },
+  {
+   "page": "en/cat-harness/qa-checkers/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/qa-checkers/"
+  },
+  {
+   "page": "en/cat-harness/qa/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/qa/"
+  },
+  {
+   "page": "en/cat-harness/qa/smart-trust-demo/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/qa/smart-trust-demo/"
+  },
+  {
+   "page": "en/cat-harness/scenarios/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/scenarios/"
+  },
+  {
+   "page": "en/cat-harness/scenarios/smart-trust-demo/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/scenarios/smart-trust-demo/"
+  },
+  {
+   "page": "en/cat-harness/schemas/bootstrap-tools/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/bootstrap-tools/"
+  },
+  {
+   "page": "en/cat-harness/schemas/bootstrap/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/bootstrap/"
+  },
+  {
+   "page": "en/cat-harness/schemas/cat-harness-tools/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/cat-harness-tools/"
+  },
+  {
+   "page": "en/cat-harness/schemas/cat-harness/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/cat-harness/"
+  },
+  {
+   "page": "en/cat-harness/schemas/fhir-harness/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/fhir-harness/"
+  },
+  {
+   "page": "en/cat-harness/schemas/folio-assistant-core/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/folio-assistant-core/"
+  },
+  {
+   "page": "en/cat-harness/schemas/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/"
+  },
+  {
+   "page": "en/cat-harness/schemas/smart-base/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/smart-base/"
+  },
+  {
+   "page": "en/cat-harness/schemas/smart-trust-demo/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/smart-trust-demo/"
+  },
+  {
+   "page": "en/cat-harness/schemas/who-iris/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/schemas/who-iris/"
+  },
+  {
+   "page": "en/cat-harness/substrate-snapshots/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/substrate-snapshots/"
+  },
+  {
+   "page": "en/cat-harness/swimlane-glossary/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/swimlane-glossary/"
+  },
+  {
+   "page": "en/cat-harness/test-plans/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/test-plans/"
+  },
+  {
+   "page": "en/cat-harness/todos/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/todos/"
+  },
+  {
+   "page": "en/cat-harness/tool-releases/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/tool-releases/"
+  },
+  {
+   "page": "en/cat-harness/uploads-queue/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/uploads-queue/"
+  },
+  {
+   "page": "en/cat-harness/validators/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/validators/"
+  },
+  {
+   "page": "en/cat-harness/vocab-mappings/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/cat-harness/vocab-mappings/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/bpmn-activities/a-d/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/bpmn-activities/a-d/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/bpmn-activities/e-q/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/bpmn-activities/e-q/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/bpmn-activities/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/bpmn-activities/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/bpmn-activities/r-z/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/bpmn-activities/r-z/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/dmn-decisions/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/dmn-decisions/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-chw-app/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-chw-app/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-district-health-center-ehr/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-district-health-center-ehr/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-family-phone/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-family-phone/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-gdhcn-dev-trust-anchor/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-gdhcn-dev-trust-anchor/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-kesaro-clinic-viewer/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-kesaro-clinic-viewer/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-kesaro-provincial-hospital/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-kesaro-provincial-hospital/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-onesa-national-portal/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-onesa-national-portal/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-xxr-dsc-key/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/actor-xxr-dsc-key/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-chw-community/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-chw-community/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-citizen-patient-apps/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-citizen-patient-apps/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-client-registry-for-health/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-client-registry-for-health/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-computable-decision-support-engine/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-computable-decision-support-engine/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-dpi-f-information-mediator/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-dpi-f-information-mediator/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-health-facility-registry/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-health-facility-registry/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-health-management-information-system/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-health-management-information-system/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-health-workforce-registry/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-health-workforce-registry/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-lifelong-health-record/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-lifelong-health-record/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-national-trust-services/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-national-trust-services/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-provider-systems/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-provider-systems/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-terminology-service/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-onesa-terminology-service/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-taifafeki-lifelong-health-record/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-taifafeki-lifelong-health-record/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-taifafeki-national-trust-services/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-taifafeki-national-trust-services/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-taifafeki-product-registry/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-taifafeki-product-registry/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-taifafeki-provider-systems/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/instance-taifafeki-provider-systems/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j1/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j1/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j2/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j2/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j3/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j3/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j4-0/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j4-0/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j4-1/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/journey-j4-1/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-chw-app/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-chw-app/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-client-registry/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-client-registry/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-conceptmap/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-conceptmap/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-data-pipes/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-data-pipes/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-dhc-ehr/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-dhc-ehr/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-dvc-verifier/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-dvc-verifier/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-facility-registry/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-facility-registry/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-family-wallet/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-family-wallet/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-info-gateway/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-info-gateway/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-national-fhir/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-national-fhir/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-schedule/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-schedule/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-vhl-issuer/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-vhl-issuer/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-workforce-registry/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxk-workforce-registry/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-birth-ehr/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-birth-ehr/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-dvc-signer/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-dvc-signer/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-immunization-record/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-immunization-record/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-product-codes/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-product-codes/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-vhl-viewer/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/part-xxr-vhl-viewer/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-birth-clinic-vaccinator/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-birth-clinic-vaccinator/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-caregiver/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-caregiver/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-community-health-worker/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-community-health-worker/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-home-clinic-provider/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-home-clinic-provider/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-poc-provider/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-poc-provider/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-subject-of-care/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/architecture/role-subject-of-care/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/adb/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/adb/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/adverse-event-following-immunization/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/adverse-event-following-immunization/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/aehin/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/aehin/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/application-programming-interface/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/application-programming-interface/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/batch-number/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/batch-number/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/blueprint/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/blueprint/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/civil-registration-and-vital-statistics/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/civil-registration-and-vital-statistics/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/client-registry/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/client-registry/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/conformance/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/conformance/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/connectathon/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/connectathon/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/consent/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/consent/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/convergence-workshop/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/convergence-workshop/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/core-data-set/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/core-data-set/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/costed-investment-plan/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/costed-investment-plan/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/csiro/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/csiro/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/decision-rights/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/decision-rights/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/decision-support-engine/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/decision-support-engine/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-adaptation-kit/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-adaptation-kit/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-documentation-of-covid-19-certificates/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-documentation-of-covid-19-certificates/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-health-strategy/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-health-strategy/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-implementation-investment-guide/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-implementation-investment-guide/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-public-infrastructure/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-public-infrastructure/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-signature/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-signature/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-wallet/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/digital-wallet/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/dose-number-and-series/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/dose-number-and-series/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/dpi-for-health/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/dpi-for-health/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/electronic-immunization-registry/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/electronic-immunization-registry/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/expanded-programme-on-immunization/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/expanded-programme-on-immunization/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/facility-workforce-and-product-registries/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/facility-workforce-and-product-registries/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/foundational-dpi/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/foundational-dpi/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/global-digital-health-certification-network/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/global-digital-health-certification-network/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/health-certificate-identifier/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/health-certificate-identifier/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/health-information-exchange/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/health-information-exchange/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/health-management-information-system/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/health-management-information-system/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/hl7-fhir/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/hl7-fhir/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/hl7/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/hl7/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/implementation-guide/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/implementation-guide/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/international-certificate-of-vaccination-or-prophylaxis/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/international-certificate-of-vaccination-or-prophylaxis/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/international-classification-of-diseases/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/international-classification-of-diseases/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/international-health-regulations/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/international-health-regulations/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/international-patient-summary/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/international-patient-summary/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/interoperability-lab/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/interoperability-lab/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/interoperability/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/interoperability/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/issuer-holder-verifier/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/issuer-holder-verifier/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/itu/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/itu/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/lifelong-health-record/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/lifelong-health-record/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/logical-information-model/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/logical-information-model/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/logical-observation-identifiers-names-and-codes/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/logical-observation-identifiers-names-and-codes/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/logistics-management-information-system/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/logistics-management-information-system/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/moph-thailand/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/moph-thailand/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/openehr-foundation/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/openehr-foundation/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/openehr/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/openehr/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/openfn/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/openfn/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/personal-health-record/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/personal-health-record/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/point-of-service-application/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/point-of-service-application/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/procurement-conditions/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/procurement-conditions/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/profile/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/profile/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/public-key-infrastructure/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/public-key-infrastructure/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/reference-architecture/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/reference-architecture/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/sandbox/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/sandbox/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/smart-guidelines/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/smart-guidelines/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/smart-levels/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/smart-levels/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/snomed-ct/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/snomed-ct/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/snomed-international/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/snomed-international/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/standard-vs-specification/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/standard-vs-specification/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/technical-working-group/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/technical-working-group/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/terminology-service/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/terminology-service/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/test-suite/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/test-suite/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/total-cost-of-ownership/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/total-cost-of-ownership/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/trust-anchor/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/trust-anchor/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/trust-list/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/trust-list/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/unicc/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/unicc/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/unicef/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/unicef/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/vendor-lock-in/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/vendor-lock-in/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/verifiable-credential/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/verifiable-credential/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/who/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/who/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/world-bank/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/dpi-h-policy-track/world-bank/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/instance/smart-trust-demo/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/instance/smart-trust-demo/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/schema-fields/a-c/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/schema-fields/a-c/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/schema-fields/d-e/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/schema-fields/d-e/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/schema-fields/f-l/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/schema-fields/f-l/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/schema-fields/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/schema-fields/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/schema-fields/m-o/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/schema-fields/m-o/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/schema-fields/p-r/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/schema-fields/p-r/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/schema-fields/s/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/schema-fields/s/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/schema-fields/t-z/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/schema-fields/t-z/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/skills/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/skills/"
+  },
+  {
+   "page": "en/folio-assistant-core/glossary/tools/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/en/folio-assistant-core/glossary/tools/"
+  },
+  {
+   "page": "es/folio-assistant-core/glossary/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/es/folio-assistant-core/glossary/"
+  },
+  {
+   "page": "fr/folio-assistant-core/glossary/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/fr/folio-assistant-core/glossary/"
+  },
+  {
+   "page": "ru/folio-assistant-core/glossary/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/ru/folio-assistant-core/glossary/"
+  },
+  {
+   "page": "zh/folio-assistant-core/glossary/index.html",
+   "href": "https://worldhealthorganization.github.io/smart-trust-demo/branches/site-decisions/zh/folio-assistant-core/glossary/"
+  }
+ ],
+ "content": [
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "favicon.ico"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "main.dd0ec5f4ab3ef14c.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "polyfills.741ec81967e9c9c3.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "runtime.821ff28674267dd4.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "scripts.5c83cbb4dbb11a83.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "styles.29b9bdb6e634f66b.css"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/index.html",
+   "href": "webcomponents/webcomponents-loader.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "favicon.ico"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "main.dd0ec5f4ab3ef14c.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "polyfills.741ec81967e9c9c3.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "runtime.821ff28674267dd4.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "scripts.5c83cbb4dbb11a83.js"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "styles.29b9bdb6e634f66b.css"
+  },
+  {
+   "page": "assets/formbuilder/12.9.0/window-open.html",
+   "href": "webcomponents/webcomponents-loader.js"
+  }
+ ],
+ "diagrams": 64,
+ "inDiagrams": [
+  {
+   "page": "assets/img/workflows/j1-birth-dose-dvc.svg",
+   "href": "../../../en/cat-harness/processes/questionnaire-data-capture.html"
+  },
+  {
+   "page": "assets/img/workflows/j2-chw-discovery-referral.svg",
+   "href": "../../../en/cat-harness/processes/questionnaire-data-capture.html"
+  }
+ ]
+}

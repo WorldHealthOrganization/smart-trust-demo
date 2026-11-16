@@ -1,0 +1,57 @@
+{
+ "$schema": "fhir-harness/page-render-qa/v1",
+ "generatedAt": "2026-11-16T12:29:12.448Z",
+ "scanned": 214,
+ "unfinished": [],
+ "findings": [
+  {
+   "page": "country-canvas.html",
+   "markup": [
+    "bold"
+   ],
+   "excerpt": "Our use case (8 min): A child vaccinated in ___ should be able to ___ in ___."
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://terminology.hl7.org/ValueSet/v3-PurposeOfUse]'. It m"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://terminology.hl7.org/ValueSet/v3-PurposeOfUse]'. It m"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://terminology.hl7.org/ValueSet/v3-PurposeOfUse]'. It m"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://terminology.hl7.org/ValueSet/v3-PurposeOfUse]'. It m"
+  },
+  {
+   "page": "workshop-m1.html",
+   "markup": [
+    "bold"
+   ],
+   "excerpt": "8 minOur use caseA child vaccinated in ___ should be able to ___ in ___."
+  },
+  {
+   "page": "workshop-m1.html",
+   "markup": [
+    "bold"
+   ],
+   "excerpt": "[J1]Write your country’s use-case statement: “A child vaccinated in ___ should be able to ___ in ___.”"
+  }
+ ]
+}
