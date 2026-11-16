@@ -98,10 +98,6 @@ msgstr "Bounmy SENGMANY (الأب، يحمل هاتف الأسرة)؛ Khamla SEN
 msgid "Chanthason (Nurse · District Health Center, Onesa)"
 msgstr "Chanthason (ممرضة · المركز الصحي في المنطقة، أونيسا (Onesa))"
 
-#: input/pagecontent/personas.md:27
-msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
-msgstr "عارض عيادة الرعاية الأولية في كيسارو، تايفافيكي (J4.1)"
-
 #: input/pagecontent/personas.md:22
 msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR)"
 msgstr "نظام مستشفى مقاطعة كيسارو، تايفافيكي (البلد A، XXR)"
@@ -241,17 +237,9 @@ msgstr "شخصية افتراضية للرحلة J2: عاملة الصحة ال�
 msgid "Persona for J3: the nurse at Lomaru District Health Center in Onesa (Country B), on the clinic's tablet (OHS app, facility configuration). Makes the clinical call when a foreign product has no mapping. Fictional."
 msgstr "شخصية افتراضية للرحلة J3: الممرضة في المركز الصحي في منطقة لومارو في أونيسا (Onesa) (البلد B)، على الجهاز اللوحي للعيادة (تطبيق OHS، بإعدادات المرفق الصحي). تتخذ القرار السريري حين لا يكون لمنتج أجنبي ربط. شخصية خيالية."
 
-#: input/pagecontent/personas.md:45
-msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional."
-msgstr "شخصية افتراضية: ممارس سريري تايفافيكي في كيسارو يعطي Somsak جرعتي الولادة من Hep B وBCG ويطبع شهادتي DVC الموقَّعتين (J1)، ثم يراه مجددًا بعد عام في عيادة رعاية أولية، فيقرأ سجله عبر VHL (J4.1). شخصية خيالية."
-
 #: input/pagecontent/personas.md:53
 msgid "Persona: Somsak's father, 29, head of the household in Onesa, who holds the family's one shared phone (J4). Creates Somsak's passcode-protected VHL (J4.0) and says the passcode aloud at the clinic (J4.1). Fictional."
 msgstr "شخصية افتراضية: والد Somsak، 29 عامًا، ربّ الأسرة في أونيسا (Onesa)، يحمل الهاتف الوحيد المشترك للأسرة (J4). ينشئ رابط VHL الخاص بـ Somsak والمحمي برمز مرور (J4.0) وينطق رمز المرور بصوت عالٍ في العيادة (J4.1). شخصية خيالية."
-
-#: input/pagecontent/personas.md:69
-msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
-msgstr "شخصية افتراضية: والدة Somsak، 26 عامًا، مواطنة أونيسية تعيش في أونيسا (Onesa) (البلد B) ووضعت مولودها في تايفافيكي (البلد A). تحمل شهادتي DVC الورقيتين من J1 إلى J3. شخصية خيالية."
 
 #: input/pagecontent/personas.md:26
 msgid "Personal health wallet"
@@ -403,6 +391,27 @@ msgstr "الشخص الذي تخصّه السجلات: الطفل الذي تُ�
 msgid "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the journeys viewer shows the same text."
 msgstr "جميعهم خياليون. تُحفَظ أهدافهم واحتياجاتهم وإحباطاتهم في {code0} ({code1})، ويعرض عارض الرحلات النص نفسه."
 
+#: input/pagecontent/personas.md:28
+msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
+msgstr ""
+
+#: input/pagecontent/personas.md:46
+msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
+msgstr ""
+
+#: input/pagecontent/personas.md:70
+msgid "Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
+msgstr ""
+
 #~ #, python-brace-format
 #~ msgid "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the VaxLink walkthrough shows the same text."
 #~ msgstr "جميعهم خياليون. تُحفَظ أهدافهم واحتياجاتهم وإحباطاتهم في {code0} ({code1})، وتعرض الجولة الإرشادية VaxLink النص نفسه."
+
+#~ msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
+#~ msgstr "عارض عيادة الرعاية الأولية في كيسارو، تايفافيكي (J4.1)"
+
+#~ msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional."
+#~ msgstr "شخصية افتراضية: ممارس سريري تايفافيكي في كيسارو يعطي Somsak جرعتي الولادة من Hep B وBCG ويطبع شهادتي DVC الموقَّعتين (J1)، ثم يراه مجددًا بعد عام في عيادة رعاية أولية، فيقرأ سجله عبر VHL (J4.1). شخصية خيالية."
+
+#~ msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
+#~ msgstr "شخصية افتراضية: والدة Somsak، 26 عامًا، مواطنة أونيسية تعيش في أونيسا (Onesa) (البلد B) ووضعت مولودها في تايفافيكي (البلد A). تحمل شهادتي DVC الورقيتين من J1 إلى J3. شخصية خيالية."
