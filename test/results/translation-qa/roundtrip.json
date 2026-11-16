@@ -11,7 +11,15 @@
       "'registry abroad' read back as 'record': fixed (سجلّ مركزي)",
       "'clinician' read back as 'doctor' in 3 persona strings: fixed (ممارس سريري)",
       "a counterfactual ('would normally stay locked') read back as fact: fixed"
-    ]
+    ],
+    "journeys-viewer": {
+      "verdict": "PASS",
+      "backTranslated": 1960,
+      "drifts": 8,
+      "fixed": 8,
+      "noise": 29,
+      "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    }
   },
   "ru": {
     "verdict": "PASS",
