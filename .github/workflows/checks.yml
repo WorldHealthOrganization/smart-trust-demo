@@ -66,6 +66,8 @@ jobs:
         run: bun tools/workshop/module-journey-map.ts --check
       - name: The glossary page and its per-step resources are current (input/pagecontent/glossary.md)
         run: bun tools/workshop/glossary.ts --check
+      - name: The workshop module pages are current (input/pagecontent/workshop*.md)
+        run: bun tools/workshop/module-pages.ts --check
       - name: The translation templates are current (translations/)
         # One extraction for every translator: BPMN by the harness's
         # translate-bpmn, the pages by tools/translation/pages-pot.ts (the

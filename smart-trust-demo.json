@@ -151,7 +151,7 @@
       "graphTypologies": [
         "workshop"
       ],
-      "description": "The DPI-H policy-maker track taught from the journeys. module-journey-map.json: where each module meets each journey step, technical and policy (rendered by tools/workshop/module-journey-map.ts); glossary-use.json: each glossary term's section and canvas sheets, and the terms at each step."
+      "description": "The DPI-H policy-maker track taught from the journeys. module-journey-map.json: where each module meets each journey step, technical and policy (rendered by tools/workshop/module-journey-map.ts); glossary-use.json: each glossary term's section and canvas sheets, and the terms at each step. technical-track.json: the technical track's modules T1-T7, placeholders paired with M1-M7; country-canvas.json: each canvas sheet's parts and timings. tools/workshop/module-pages.ts renders the hub workshop.md and a page per module, with a switch between the tracks."
     },
     {
       "id": "code-lists",

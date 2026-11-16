@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T09:49:18.204Z\n"
+"POT-Creation-Date: 2026-11-16T10:04:36.975Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -664,16 +664,20 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
-#: docs/journeys.md:247
+#: docs/journeys.md:248
 msgid "The <a0>Country Canvas</a0> is the A3 table canvas (a cover and Sheets 1 to 6) the tables fill in."
 msgstr ""
 
-#: docs/journeys.md:246
+#: docs/journeys.md:247
 msgid "The <a0>glossary</a0> defines the terms the policy-maker track uses, each linked to the DPI-H Reference Architecture and DTH-PHC glossaries. Its <a1>terms at each step</a1> are also shown on every step of the journeys viewer."
 msgstr ""
 
-#: docs/journeys.md:245
+#: docs/journeys.md:246
 msgid "The <a0>module × journey map</a0> shows where each workshop module (M1 to M7) meets each step above, and what is technical and what is policy at that point."
+msgstr ""
+
+#: docs/journeys.md:245
+msgid "The <a0>workshop module pages</a0> give each policy module (M1 to M7) and each technical module (T1 to T7, placeholders for now) a page: its canvas sheet, the journey steps it meets, its questions and its terms, with a switch between the two tracks."
 msgstr ""
 
 #: docs/journeys.md:32

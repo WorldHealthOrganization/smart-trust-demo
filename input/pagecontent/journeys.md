@@ -237,6 +237,7 @@ The journeys walkthrough closes with four policy questions:
 
 #### Modules, terms and the canvas
 
+- The [workshop module pages](workshop.html) give each policy module (M1 to M7) and each technical module (T1 to T7, placeholders for now) a page: its canvas sheet, the journey steps it meets, its questions and its terms, with a switch between the two tracks.
 - The [module × journey map](module-journey-map.html) shows where each workshop module (M1 to M7) meets each step above, and what is technical and what is policy at that point.
 - The [glossary](glossary.html) defines the terms the policy-maker track uses, each linked to the DPI-H Reference Architecture and DTH-PHC glossaries. Its [terms at each step](glossary.html#step-j1) are also shown on every step of the journeys viewer.
 - The [Country Canvas](country-canvas.html) is the A3 table canvas (a cover and Sheets 1 to 6) the tables fill in.
