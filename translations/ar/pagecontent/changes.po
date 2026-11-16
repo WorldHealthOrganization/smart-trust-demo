@@ -46,10 +46,6 @@ msgstr "أمثلة جديدة: {code0} للأسرة المعيشية، و{code1}
 msgid "New process steps: J2 adds the newborn to the household and saves the doses as reported, not verified; J3 adds the national schedule code beside the foreign vaccine code (the nurse decides unmapped products); J4.0 records the holder's consent with a passcode and an expiry; J4.1 adds the home portal's lane, which checks the passcode, returns the manifest and logs every access."
 msgstr "خطوات عمليات جديدة: تضيف J2 المولود الجديد إلى الأسرة المعيشية وتحفظ الجرعات بوصفها مُبلَّغاً عنها، غير مُتحقَّق منها؛ وتضيف J3 رمز جدول التطعيم الوطني إلى جانب رمز اللقاح الأجنبي (وتبتّ الممرضة في المنتجات غير المعيَّنة)؛ وتسجّل J4.0 موافقة الحامل مع رمز مرور وتاريخ انتهاء؛ وتضيف J4.1 مسار البوابة في البلد الأم، الذي يتحقق من رمز المرور ويعيد البيان ويسجّل كل وصول."
 
-#: input/pagecontent/changes.md:4
-msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXU), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
-msgstr "تروي الرحلات قصة <a0>VaxLink</a0> (المسألة <a1>#21</a1>): Somsak SENGMANY، المولود في تايفافيكي (XXR)، والمقيم في أونيسا (Onesa) (XXU)، والذي يُعاين مجدداً في تايفافيكي بعد عام. أُعيدت صياغة الشخصيات الافتراضية والجهات الفاعلة النظامية والقصص؛ وجُعلت عمليات العمل عامة (لا أسماء أشخاص فيها)."
-
 #: input/pagecontent/changes.md:9
 msgid "New page: <a0>Journey examples</a0>, mapping each walkthrough screen and payload to its example here."
 msgstr "صفحة جديدة: <a0>أمثلة الرحلات</a0>، تربط كل شاشة وكل حمولة في الجولة الإرشادية بمثالها هنا."
@@ -64,5 +60,17 @@ msgstr "مصطلحات جديدة: {code0} ومجموعة القيم (ValueSet) 
 msgid "The DEMO-VHL trust domain's terms of use: {code0} and the {code1} ValueSet. The J4.0 consent is now a Personal Health Wallet explicit consent ({code2}) that names {code3} in {code4}."
 msgstr "شروط استخدام نطاق الثقة DEMO-VHL: {code0} ومجموعة القيم (ValueSet) {code1}. وأصبحت موافقة J4.0 الآن موافقةً صريحة وفق دليل المحفظة الصحية الشخصية (Personal Health Wallet) ({code2})، تُسمّي {code3} في {code4}."
 
+#: input/pagecontent/changes.md:3
+#, python-brace-format
+msgid "Onesa's code is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, Onesan identifiers, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
+msgstr "أصبح رمز أونيسا (Onesa) الآن XXU (كان XXK)، وهو مشارك الاختبار DEV الذي تسمّيه قائمة Participants-DEV في SMART Trust ‏\"Onesa\" (WorldHealthOrganization/smart-trust#161): تعريف البلد، ومعرّفات أونيسا، ورموز الجدول ({code0})، وأرقام التشغيلات، والبوابة الوطنية، والعمليات، وشاشات الأجهزة، والأمثلة، والترجمات."
+
+#: input/pagecontent/changes.md:5
+msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXK), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
+msgstr "تروي الرحلات قصة <a0>VaxLink</a0> (المسألة <a1>#21</a1>): Somsak SENGMANY، المولود في تايفافيكي (XXR) والمقيم في أونيسا (XXK)، يُفحَص مجددًا في تايفافيكي بعد عام. أُعيدت صياغة الشخصيات والجهات الفاعلة في النظام والقصص، وجُعلت العمليات التجارية عامة (دون أسماء أشخاص فيها)."
+
 #~ msgid "New page: <a0>VaxLink examples</a0>, mapping each walkthrough screen and payload to its example here."
 #~ msgstr "صفحة جديدة: <a0>أمثلة VaxLink</a0>، تربط كل شاشة وكل حمولة في الجولة الإرشادية بمثالها هنا."
+
+#~ msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXU), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
+#~ msgstr "تروي الرحلات قصة <a0>VaxLink</a0> (المسألة <a1>#21</a1>): Somsak SENGMANY، المولود في تايفافيكي (XXR)، والمقيم في أونيسا (Onesa) (XXU)، والذي يُعاين مجدداً في تايفافيكي بعد عام. أُعيدت صياغة الشخصيات الافتراضية والجهات الفاعلة النظامية والقصص؛ وجُعلت عمليات العمل عامة (لا أسماء أشخاص فيها)."
