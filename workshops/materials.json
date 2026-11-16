@@ -1,0 +1,8 @@
+{
+  "_comment": "The workshop's downloadable materials, listed on the workshop hub (tools/workshop/module-pages.ts). Files are under input/images/ and served at the site root.",
+  "materials": [
+    {"title": "The Immunization Journey: shared story deck", "kind": "Slides (PowerPoint)", "href": "immunization-journey-narrative.pptx", "what": "The policy-maker track's end-to-end use case narrative, 30 slides, updated on 16 November 2026 with the owner's decisions on the narrative review.", "also": [{"label": "Slide-by-slide changelog (Word)", "href": "immunization-journey-narrative-changelog.docx"}]},
+    {"title": "Country Canvas (A3)", "kind": "Table sheets", "href": "country-canvas.html", "what": "The cover and Sheets 1 to 6 each table fills in, one country per table.", "also": [{"label": "Word (A3)", "href": "country-canvas-a3.docx"}, {"label": "PDF", "href": "country-canvas-a3.pdf"}]},
+    {"title": "Terms you will hear", "kind": "Glossary handout (PDF)", "href": "dpi-h-glossary-policy-maker-track.pdf", "what": "The policy-maker track's plain-language glossary; the glossary page links each term to its source definition.", "also": [{"label": "Glossary page", "href": "glossary.html"}]}
+  ]
+}

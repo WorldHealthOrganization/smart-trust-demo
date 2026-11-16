@@ -64,14 +64,20 @@ lines.push(
   "",
   "Each module of the policy-maker track asks one question of the same story. This page shows where each policy module (M1 to M7), and then each technical module (T1 to T7), meets a step of the journeys (J1 to J4.1), and, at each meeting point, **what the system does** there and the **policy question** the table answers about it, for its own country. The same map is the *Modules × journey* step of the journeys viewer's Discussion tab.",
   "",
-  "● = the module's question is asked at this step in the walkthrough. ○ = the module draws on this step without asking there.",
+  "● = the policy module's question is asked at this step in the walkthrough. ○ = the policy module draws on this step without asking there. ◆ = the technical module works with this step (its technical question and what the system does there are under *The technical track* below).",
   "",
   "### The map",
   "",
   `| Module | Sheet | ${map.columns.join(" | ")} |`,
   `|---|---|${map.columns.map(() => ":-:").join("|")}|`,
 );
+lines.push(`| ***Policy track*** | | ${map.columns.map(() => "").join(" | ")} |`);
 for (const m of modules) lines.push(`| **${m.id}** ${m.title} | ${sheet(m.sheet)} | ${map.columns.map((s) => cellMark(m.id, s)).join(" | ")} |`);
+lines.push(`| ***Technical track*** | | ${map.columns.map(() => "").join(" | ")} |`);
+for (const t of tmods) {
+  const at = new Set((t.steps ?? []).map((c) => c.step));
+  lines.push(`| **${t.id}** ${t.title} | serves ${t.pairedWith} | ${map.columns.map((s) => (at.has(s) ? "◆" : "")).join(" | ")} |`);
+}
 lines.push("{: .grid }", "");
 
 lines.push("### Where they meet", "");
