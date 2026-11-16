@@ -81,7 +81,7 @@ REPO = "https://github.com/litlfred/smart-trust-demo/blob/main/"
 # "The viewer"; cat-harness-tools scripts/journeys/render.ts). The IG is in
 # the source locale, en. Swap for a harness helper if one exposes the route.
 JOURNEYS_ROUTE = "en/{instance}/journeys/"
-SITE = "https://litlfred.github.io/smart-trust-demo/"
+SITE = "https://worldhealthorganization.github.io/smart-trust-demo/"
 # Where the site build puts its drawing of each diagram, from a page at the site root.
 WORKFLOWS = "assets/img/workflows/"
 # The processes viewer's directory, from a page at the site root: each

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://litlfred.github.io/smart-trust-demo/docs/proposals/user-scenario/user-scenario.schema.json",
+  "$id": "https://worldhealthorganization.github.io/smart-trust-demo/docs/proposals/user-scenario/user-scenario.schema.json",
   "_draft": "PROPOSAL for a cat-harness kind (bean smart-trust-demo-kg01). Hand-written here; once adopted, the source is a Zod schema in cat-harness-tools and this file is generated.",
   "title": "User scenario",
   "description": "A DAK user scenario (smart-base logical model UserScenario: id, title, description, personas) told as a journey map: its ordered steps, and for each step who does what and how they feel, what goes wrong and what makes it work, and how far the record can be trusted. Each step links to the user stories it satisfies (DAK functional requirements: actor, I want, so that), the BPMN tasks that carry it out, the requirements it exercises and the FHIR examples it produces. One file per scenario.",

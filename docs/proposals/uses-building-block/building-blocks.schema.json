@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://litlfred.github.io/smart-trust-demo/docs/proposals/uses-building-block/building-blocks.schema.json",
+  "$id": "https://worldhealthorganization.github.io/smart-trust-demo/docs/proposals/uses-building-block/building-blocks.schema.json",
   "_draft": "PROPOSAL for a cat-harness kind (bean smart-trust-demo-kg01, gap 2). Hand-written here; once adopted, the source is a Zod schema in cat-harness-tools and this file is generated.",
   "title": "Building blocks",
   "description": "The catalogue a journey's steps point into when they say what they use: the tools, systems, standards and trust networks of the demonstrator, each in one architecture layer, each linked to the ArchiMate components that deploy it where there are any. A step's `uses` edge (user-scenario schema) names a block here, with the role that block plays in that step.",

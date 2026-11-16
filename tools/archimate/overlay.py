@@ -408,7 +408,7 @@ def _interactions():
 
 INTERACTIONS = _interactions()  # (type, source part, target part, label, journeys)
 
-IG_BASE = "https://litlfred.github.io/smart-trust-demo/"
+IG_BASE = "https://worldhealthorganization.github.io/smart-trust-demo/"
 
 
 def _ig(ref):
@@ -427,7 +427,7 @@ def _ig(ref):
 # and system names the FHIR ActorDefinition it realizes (fhir-actor), as
 # cat-harness's archimate-models skill asks; ig_gen.py writes those too.
 GLOSSARY_FILE = ROOT / "glossary" / "architecture.glossary.json"
-GLOSSARY_NS = "https://litlfred.github.io/smart-trust-demo/v0/ns/glossary/architecture/"
+GLOSSARY_NS = "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/architecture/"
 _TERMS = {t["id"]: t for t in __import__("json").loads(GLOSSARY_FILE.read_text(encoding="utf-8"))["terms"]}
 ACTOR_CANONICAL = "http://smart.who.int/trust-demo/ActorDefinition/TrustDemo.Role."
 

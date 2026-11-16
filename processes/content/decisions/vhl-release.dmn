@@ -7,10 +7,10 @@
   that reason before the passcode is checked, so the log says why.
 -->
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
-             xmlns:trace="https://litlfred.github.io/smart-trust-demo/ns/dak/"
+             xmlns:trace="https://worldhealthorganization.github.io/smart-trust-demo/ns/dak/"
              id="Definitions_VhlRelease"
              name="Release a shared link's manifest"
-             namespace="https://litlfred.github.io/smart-trust-demo/decisions">
+             namespace="https://worldhealthorganization.github.io/smart-trust-demo/decisions">
   <decision id="Decision_VhlRelease" name="Does the portal release the manifest for this request?">
     <description>For one manifest request (ITI-YY5), decide whether the portal releases the manifest, and what the access log records.</description>
     <extensionElements>

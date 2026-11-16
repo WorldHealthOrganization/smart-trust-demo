@@ -7,10 +7,10 @@
   the records are treated like paper (Task_Unverified).
 -->
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
-             xmlns:trace="https://litlfred.github.io/smart-trust-demo/ns/dak/"
+             xmlns:trace="https://worldhealthorganization.github.io/smart-trust-demo/ns/dak/"
              id="Definitions_VhlFollow"
              name="Follow a VHL at the point of care"
-             namespace="https://litlfred.github.io/smart-trust-demo/decisions">
+             namespace="https://worldhealthorganization.github.io/smart-trust-demo/decisions">
   <decision id="Decision_VhlFollow" name="Does the receiver follow the VHL?">
     <description>For one scanned VHL, decide whether the receiver requests the manifest or treats the family's records like paper.</description>
     <extensionElements>

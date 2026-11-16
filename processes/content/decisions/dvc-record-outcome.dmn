@@ -12,10 +12,10 @@
   illustration of "decide doses by national policy", not a national rule.
 -->
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
-             xmlns:trace="https://litlfred.github.io/smart-trust-demo/ns/dak/"
+             xmlns:trace="https://worldhealthorganization.github.io/smart-trust-demo/ns/dak/"
              id="Definitions_DvcRecordOutcome"
              name="What a scanned DVC becomes in the record"
-             namespace="https://litlfred.github.io/smart-trust-demo/decisions">
+             namespace="https://worldhealthorganization.github.io/smart-trust-demo/decisions">
   <decision id="Decision_DvcRecordOutcome" name="What does a scanned DVC become in the child's record?">
     <description>From the result of reading one foreign DVC, decide whether its dose is recorded as verified, kept as reported and not verified, or not recorded from it at all.</description>
     <extensionElements>

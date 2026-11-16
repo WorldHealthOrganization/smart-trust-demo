@@ -6,10 +6,10 @@
   as a Provenance (TrustDemoJ3Adjudication) and added to the map.
 -->
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
-             xmlns:trace="https://litlfred.github.io/smart-trust-demo/ns/dak/"
+             xmlns:trace="https://worldhealthorganization.github.io/smart-trust-demo/ns/dak/"
              id="Definitions_VaccineCodeMapping"
              name="National schedule code of an imported dose"
-             namespace="https://litlfred.github.io/smart-trust-demo/decisions">
+             namespace="https://worldhealthorganization.github.io/smart-trust-demo/decisions">
   <decision id="Decision_VaccineCodeMapping" name="Which national schedule code does an imported dose carry?">
     <description>For one dose, decide whether and how the national schedule code is added beside the issuer's product code, which is always kept.</description>
     <extensionElements>
