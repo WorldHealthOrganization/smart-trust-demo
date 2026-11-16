@@ -39,6 +39,10 @@ pages:
       title: Changes
     journeys.md:
       title: Journeys J1 to J4
+    module-journey-map.md:
+      title: Module × journey map
+    narrative-discrepancies.md:
+      title: "Narrative review: open discrepancies"
     countries.md:
       title: Fictional countries
     journey-examples.md:
@@ -84,6 +88,8 @@ menu:
     Changes: changes.html
   Project:
     Journeys J1 to J4: journeys.html
+    Module × Journey Map: module-journey-map.html
+    Narrative Discrepancies: narrative-discrepancies.html
     Fictional Countries: countries.html
     Journey Examples: journey-examples.html
     Architecture (ArchiMate): architecture.html

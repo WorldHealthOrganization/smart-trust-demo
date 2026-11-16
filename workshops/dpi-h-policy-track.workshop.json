@@ -874,6 +874,22 @@
       "kind": "handout",
       "href": "sheets/",
       "description": "Print one set per table, A3 landscape."
+    },
+    {
+      "id": "module-journey-map",
+      "title": "Module × journey map: technical and policy overlaps",
+      "kind": "reading",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/module-journey-map.html",
+      "modules": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7"
+      ],
+      "description": "Where each module meets a step of the journeys, and what is technical and what is policy there."
     }
   ],
   "presentation": {
@@ -1011,9 +1027,9 @@
     }
   },
   "lab": {
-    "name": "The table’s eight steps",
-    "intro": "One country per table, the delegation plus buddies. Work through the steps in order; each has a timer and a prompt to read aloud. What the table writes stays in this browser and is gathered on one page in step 7.",
-    "credit": "The eight steps, their timers and DISCUSS prompts, the use-case cards and the readiness rows are adapted from DPI-H Lab, created by Umer Nisar (CSIRO), in collaboration with Rumanusina Maua (SPC) and Jordi Piera Jimenez, under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Changes: more than one use case may be ticked, the use case starts from the journeys, the journeys’ questions and tables are woven into the steps, and steps 3 to 7 are written for this workshop. DPI-H Lab is informed by the WHO/ITU DPI-H Reference Architecture, Draft V1.0, and is not produced or endorsed by WHO or ITU.",
+    "name": "The table’s nine steps",
+    "intro": "One country per table, the delegation plus buddies. Work through the steps in order; each has a timer and a prompt to read aloud. What the table writes stays in this browser and is gathered on one page in step 8.",
+    "credit": "The eight steps, their timers and DISCUSS prompts, the use-case cards and the readiness rows are adapted from DPI-H Lab, created by Umer Nisar (CSIRO), in collaboration with Rumanusina Maua (SPC) and Jordi Piera Jimenez, under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Changes: more than one use case may be ticked, the use case starts from the journeys, the journeys’ questions and tables are woven into the steps, steps 3 to 8 are written for this workshop, and step 7 (Modules × journey) is added. DPI-H Lab is informed by the WHO/ITU DPI-H Reference Architecture, Draft V1.0, and is not produced or endorsed by WHO or ITU.",
     "creditHref": "https://dpih.fhirlab.net/",
     "creditLabel": "DPI-H Lab",
     "useCases": [
@@ -1212,6 +1228,26 @@
         "modules": [
           "M6",
           "M7"
+        ]
+      },
+      {
+        "id": "map",
+        "label": "Modules × journey",
+        "title": "Where does each module meet the journey?",
+        "lede": "Every question the table answered, by module, with the journey step it was asked at. The full map, with the technical and policy overlaps at each meeting point, is linked below.",
+        "minutes": 5,
+        "discuss": "Which component or decision did more than one module land on? That is where to build, or decide, once.",
+        "modules": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "resources": [
+          "module-journey-map"
         ]
       },
       {

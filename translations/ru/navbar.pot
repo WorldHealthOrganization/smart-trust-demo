@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-13T07:04:51.756Z\n"
+"POT-Creation-Date: 2026-11-16T09:30:14.675Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -14,52 +14,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: sushi-config.yaml:91
+#: sushi-config.yaml:97
 #. Navbar entry for proposal-app-platform.html (sushi-config.yaml menu).
 msgid "App Platform Proposal"
 msgstr ""
 
-#: sushi-config.yaml:89
+#: sushi-config.yaml:95
 #. Navbar entry for architecture.html (sushi-config.yaml menu).
 msgid "Architecture (ArchiMate)"
 msgstr ""
 
-#: sushi-config.yaml:105
+#: sushi-config.yaml:111
 #. Navbar entry for artifacts.html (sushi-config.yaml menu).
 msgid "Artifact Index"
 msgstr ""
 
-#: sushi-config.yaml:97
+#: sushi-config.yaml:103
 #. Navbar entry for business-processes.html (sushi-config.yaml menu).
 msgid "Business Processes"
 msgstr ""
 
-#: sushi-config.yaml:94
+#: sushi-config.yaml:100
 #. Navbar group (sushi-config.yaml menu).
 msgid "Business Requirements"
 msgstr ""
 
-#: sushi-config.yaml:84
+#: sushi-config.yaml:88
 #. Navbar entry for changes.html (sushi-config.yaml menu).
 msgid "Changes"
 msgstr ""
 
-#: sushi-config.yaml:98
+#: sushi-config.yaml:104
 #. Navbar entry for dictionary.html (sushi-config.yaml menu).
 msgid "Data Dictionary"
 msgstr ""
 
-#: sushi-config.yaml:102
+#: sushi-config.yaml:108
 #. Navbar group (sushi-config.yaml menu).
 msgid "Data Models and Exchange"
 msgstr ""
 
-#: sushi-config.yaml:99
+#: sushi-config.yaml:105
 #. Navbar entry for decision-logic.html (sushi-config.yaml menu).
 msgid "Decision-support Logic"
 msgstr ""
 
-#: sushi-config.yaml:92
+#: sushi-config.yaml:98
 #. Navbar entry for dependencies.html (sushi-config.yaml menu).
 msgid "Dependency Register"
 msgstr ""
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Drag to widen or narrow the navigation"
 msgstr ""
 
-#: sushi-config.yaml:87
+#: sushi-config.yaml:93
 #. Navbar entry for countries.html (sushi-config.yaml menu).
 msgid "Fictional Countries"
 msgstr ""
@@ -79,12 +79,12 @@ msgstr ""
 msgid "Folders"
 msgstr ""
 
-#: sushi-config.yaml:101
+#: sushi-config.yaml:107
 #. Navbar entry for functional-requirements.html (sushi-config.yaml menu).
 msgid "Functional Requirements"
 msgstr ""
 
-#: sushi-config.yaml:95
+#: sushi-config.yaml:101
 #. Navbar entry for personas.html (sushi-config.yaml menu).
 msgid "Generic Personas"
 msgstr ""
@@ -94,29 +94,39 @@ msgstr ""
 msgid "Harnesses"
 msgstr ""
 
-#: sushi-config.yaml:82
+#: sushi-config.yaml:86
 #. Navbar group (sushi-config.yaml menu).
 msgid "Home"
 msgstr ""
 
-#: sushi-config.yaml:100
+#: sushi-config.yaml:106
 #. Navbar entry for indicators.html (sushi-config.yaml menu).
 msgid "Indicators and Performance Metrics"
 msgstr ""
 
-#: sushi-config.yaml:104
+#: sushi-config.yaml:110
 #. Navbar group (sushi-config.yaml menu).
 msgid "Indices"
 msgstr ""
 
-#: sushi-config.yaml:88
+#: sushi-config.yaml:94
 #. Navbar entry for journey-examples.html (sushi-config.yaml menu).
 msgid "Journey Examples"
 msgstr ""
 
-#: sushi-config.yaml:86
+#: sushi-config.yaml:90
 #. Navbar entry for journeys.html (sushi-config.yaml menu).
 msgid "Journeys J1 to J4"
+msgstr ""
+
+#: sushi-config.yaml:91
+#. Navbar entry for module-journey-map.html (sushi-config.yaml menu).
+msgid "Module × Journey Map"
+msgstr ""
+
+#: sushi-config.yaml:92
+#. Navbar entry for narrative-discrepancies.html (sushi-config.yaml menu).
+msgid "Narrative Discrepancies"
 msgstr ""
 
 #: cat-harness-tools/scripts/lib/navbar-strings.ts:2
@@ -134,12 +144,12 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: sushi-config.yaml:90
+#: sushi-config.yaml:96
 #. Navbar entry for plan.html (sushi-config.yaml menu).
 msgid "Plan"
 msgstr ""
 
-#: sushi-config.yaml:85
+#: sushi-config.yaml:89
 #. Navbar group (sushi-config.yaml menu).
 msgid "Project"
 msgstr ""
@@ -154,12 +164,12 @@ msgstr ""
 msgid "SMART Trust demonstrator: journeys J1 to J4"
 msgstr ""
 
-#: sushi-config.yaml:83
+#: sushi-config.yaml:87
 #. Navbar entry for index.html (sushi-config.yaml menu).
 msgid "Summary"
 msgstr ""
 
-#: sushi-config.yaml:103
+#: sushi-config.yaml:109
 #. Navbar entry for system-actors.html (sushi-config.yaml menu).
 msgid "System Actors"
 msgstr ""
@@ -169,12 +179,12 @@ msgstr ""
 msgid "Table of Contents"
 msgstr ""
 
-#: sushi-config.yaml:93
+#: sushi-config.yaml:99
 #. Navbar entry for upstream-who-smart-trust-phw-receive-a-vhl.html (sushi-config.yaml menu).
 msgid "Upstream Issue (smart-trust-phw)"
 msgstr ""
 
-#: sushi-config.yaml:96
+#: sushi-config.yaml:102
 #. Navbar entry for scenarios.html (sushi-config.yaml menu).
 msgid "User Scenarios"
 msgstr ""
