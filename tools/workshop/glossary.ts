@@ -66,12 +66,37 @@ const SOURCES: { ns: string; name: string; page: (rest: string) => string | unde
     name: "DTH-PHC",
     page: (rest) => `https://litlfred.github.io/dth-phc/en/folio-assistant-core/glossary/instance/dth-phc/dth-phc/${rest}/`,
   },
+  {
+    // The SMART Trust guide's own glossary (Concepts), one heading per term; the IRI is the heading's anchor.
+    ns: "https://smart.who.int/trust/concepts.html#",
+    name: "SMART Trust",
+    page: (rest) => `https://smart.who.int/trust/concepts.html#${rest}`,
+  },
 ];
+/** How a matched concept is named on the page: SMART Trust's headings as the guide prints them, else the concept id in words. */
+const SMART_TRUST_LABELS: Record<string, string> = {
+  "trust-lists": "Trust Lists",
+  "gdhcn-trust-network": "GDHCN Trust Network",
+  "public-key-infrastructure-pki": "Public Key Infrastructure (PKI)",
+  holder: "Holder",
+  issuer: "Issuer",
+  receiver: "Receiver",
+  "document-signer": "Document Signer",
+  "trust-network-gateway---trust-anchor--tngta": "Trust Network Gateway – Trust Anchor",
+  "verifiable-digital-health-certificate": "Verifiable Digital Health Certificate",
+  "trust-network-participant-tnp": "Trust Network Participant",
+};
+const conceptLabel = (rest: string): string => {
+  const id = rest.split("/").pop()!;
+  if (SMART_TRUST_LABELS[id]) return SMART_TRUST_LABELS[id];
+  const words = id.replace(/-/g, " ");
+  return words.charAt(0).toUpperCase() + words.slice(1);
+};
 const KIND: Record<string, string> = { exactMatch: "same as", closeMatch: "close to", narrowMatch: "covers", broadMatch: "within", related: "related" };
 /** Where the definition shown comes from: smart-ra's concept (the term's `iri`), or the handout. */
 const definedBy = (t: Term): string => {
   const s = t.iri ? SOURCES.find((x) => t.iri!.startsWith(x.ns)) : undefined;
-  if (!s) return "Handout";
+  if (!s) return `[Handout](${PDF})`;
   const rest = t.iri!.slice(s.ns.length);
   return `[${s.name}](${s.page(rest)})`;
 };
@@ -82,7 +107,7 @@ const links = (t: Term): string =>
         const s = SOURCES.find((x) => iri.startsWith(x.ns));
         if (!s) return `${KIND[k]} <${iri}>`;
         const rest = iri.slice(s.ns.length);
-        return `${KIND[k]} [${s.name}: ${rest.split("/").pop()}](${s.page(rest)})`;
+        return `${KIND[k]} [${s.name}: ${conceptLabel(rest)}](${s.page(rest)})`;
       }),
     )
     .join("<br/>");
@@ -98,7 +123,7 @@ L.push(
   "",
   `The terms the DPI-H for Health workshop's policy-maker track hands every table, in plain language. Where the [DPI-H Reference Architecture](https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html) glossary (smart-ra) defines the same or a close concept, the term is smart-ra's and so is the definition, word for word; elsewhere the definition is the handout's ([the handout, PDF](${PDF})). Each term also links to the Digital Transformation Handbook for Primary Health Care glossary (dth-phc) where it has one.`,
   "",
-  "*Definition from* says whose words the definition is. *same as*: both glossaries mean the same thing. *close to*: nearly the same. *covers*: this term covers several of theirs. *related*: it only touches theirs. Every term is a candidate until a person adopts it.",
+  "*Definition from* says whose words the definition is, and links to them: the handout (PDF) or the DPI-H RA glossary. *Also defined in* links the same concept in the DPI-H RA, DTH-PHC and SMART Trust glossaries. *same as*: both glossaries mean the same thing. *close to*: nearly the same. *covers*: this term covers several of theirs. *related*: it only touches theirs. Every term is a candidate until a person adopts it.",
   "",
   "### Terms at each journey step",
   "",
