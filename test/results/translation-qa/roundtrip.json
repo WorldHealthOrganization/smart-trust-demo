@@ -103,6 +103,14 @@
       "fixed": 10,
       "noise": 40,
       "note": "blind back-translation of every non-identical string; adjudicator reviewed all, fixed every drift; remaining differences are back-translation noise"
+    },
+    "new-strings-2026-11-16": {
+      "verdict": "PASS",
+      "backTranslated": 51,
+      "drifts": 0,
+      "fixed": 0,
+      "noise": 18,
+      "note": "blind back-translation of the strings added after smart-trust-demo #20/#21; 59 new msgstrs (51 distinct) read back from a msgstr-only JSON with no source; no meaning drift; noise is wording only (recorded/registered both read back as enregistré, back home read back as country of residence, meets read back as joins, policy-maker track read back as decision-makers track)"
     }
   },
   "zh": {
