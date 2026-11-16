@@ -136,7 +136,7 @@
           "change": "primarySource flipped to true",
           "why": "A verified DVC is the signing hospital’s own record, so the dose now counts; the Taifafeki record it came from is unchanged.",
           "profile": "TrustDemoOnesaImmunization",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "Immunization/TrustDemoJ3HepB",
             "Immunization/TrustDemoJ1HepB"
@@ -148,7 +148,7 @@
           "change": "Created: author = Taifafeki MOPH, verifier = nurse",
           "why": "Anyone who later doubts a dose can follow it back to the signed certificate and Taifafeki’s key.",
           "profile": "TrustDemoOnesaDvcVerification",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "Provenance/TrustDemoJ3Verification"
           ],
@@ -294,7 +294,7 @@
           "change": "Onesan EPI code added; PreQual code kept",
           "why": "The Onesan schedule runs on Onesan EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten.",
           "profile": "TrustDemoOnesaImmunization",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "Immunization/TrustDemoJ3HepB",
             "Immunization/TrustDemoJ1HepB"
