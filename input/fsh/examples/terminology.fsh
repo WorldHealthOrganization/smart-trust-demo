@@ -24,12 +24,12 @@ Title: "National schedule antigen-dose codes (illustrative, Onesa)"
 Description: "Illustrative antigen-and-dose codes of a national immunization schedule, as the VaxLink walkthrough names them for Onesa. Not the official Onesan EPI coding."
 * ^experimental = true
 * ^caseSensitive = true
-* #XXK-EPI-HEPB-BD "Hepatitis B birth dose"
-* #XXK-EPI-BCG "BCG"
-* #XXK-EPI-PENTA-1 "Pentavalent (DTP-HepB-Hib), dose 1"
-* #XXK-EPI-OPV-1 "bOPV, dose 1"
-* #XXK-EPI-PCV-1 "PCV, dose 1"
-* #XXK-EPI-MR-1 "Measles-rubella, dose 1"
+* #XXU-EPI-HEPB-BD "Hepatitis B birth dose"
+* #XXU-EPI-BCG "BCG"
+* #XXU-EPI-PENTA-1 "Pentavalent (DTP-HepB-Hib), dose 1"
+* #XXU-EPI-OPV-1 "bOPV, dose 1"
+* #XXU-EPI-PCV-1 "PCV, dose 1"
+* #XXU-EPI-MR-1 "Measles-rubella, dose 1"
 
 ValueSet: TrustDemoVaccineProducts
 Id: TrustDemoVaccineProducts
@@ -59,23 +59,23 @@ Usage: #definition
 * group[+].source = Canonical(TrustDemoVaccineProduct)
 * group[=].target = Canonical(TrustDemoOnesaEpiSchedule)
 * group[=].element[+].code = #vp-hepb-peds-monovalent
-* group[=].element[=].target[+].code = #XXK-EPI-HEPB-BD
+* group[=].element[=].target[+].code = #XXU-EPI-HEPB-BD
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[=].comment = "Added from the nurse's adjudication at Lomaru District Health Center, 2026-01-06: a monovalent paediatric Hep B dose given within 24 hours of birth counts as the schedule's birth dose."
 * group[=].element[+].code = #vp-bcg-freeze-dried
-* group[=].element[=].target[+].code = #XXK-EPI-BCG
+* group[=].element[=].target[+].code = #XXU-EPI-BCG
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[+].code = #vp-pentavalent-liquid
-* group[=].element[=].target[+].code = #XXK-EPI-PENTA-1
+* group[=].element[=].target[+].code = #XXU-EPI-PENTA-1
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[+].code = #vp-bopv-drops
-* group[=].element[=].target[+].code = #XXK-EPI-OPV-1
+* group[=].element[=].target[+].code = #XXU-EPI-OPV-1
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[+].code = #vp-pcv-13-dose
-* group[=].element[=].target[+].code = #XXK-EPI-PCV-1
+* group[=].element[=].target[+].code = #XXU-EPI-PCV-1
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[+].code = #vp-mr-freeze-dried
-* group[=].element[=].target[+].code = #XXK-EPI-MR-1
+* group[=].element[=].target[+].code = #XXU-EPI-MR-1
 * group[=].element[=].target[=].equivalence = #equivalent
 
 Instance: TrustDemoOnesaInfantSchedule
@@ -90,22 +90,22 @@ Usage: #definition
 * experimental = true
 * type = http://terminology.hl7.org/CodeSystem/plan-definition-type#clinical-protocol
 * action[+].title = "Birth doses"
-* action[=].code = TrustDemoOnesaEpiSchedule#XXK-EPI-HEPB-BD "Hepatitis B birth dose"
+* action[=].code = TrustDemoOnesaEpiSchedule#XXU-EPI-HEPB-BD "Hepatitis B birth dose"
 * action[=].timingAge = 0 'd' "days"
 * action[+].title = "BCG"
-* action[=].code = TrustDemoOnesaEpiSchedule#XXK-EPI-BCG "BCG"
+* action[=].code = TrustDemoOnesaEpiSchedule#XXU-EPI-BCG "BCG"
 * action[=].timingAge = 0 'd' "days"
 * action[+].title = "6 weeks: pentavalent 1"
-* action[=].code = TrustDemoOnesaEpiSchedule#XXK-EPI-PENTA-1 "Pentavalent (DTP-HepB-Hib), dose 1"
+* action[=].code = TrustDemoOnesaEpiSchedule#XXU-EPI-PENTA-1 "Pentavalent (DTP-HepB-Hib), dose 1"
 * action[=].timingAge = 6 'wk' "weeks"
 * action[+].title = "6 weeks: bOPV 1"
-* action[=].code = TrustDemoOnesaEpiSchedule#XXK-EPI-OPV-1 "bOPV, dose 1"
+* action[=].code = TrustDemoOnesaEpiSchedule#XXU-EPI-OPV-1 "bOPV, dose 1"
 * action[=].timingAge = 6 'wk' "weeks"
 * action[+].title = "6 weeks: PCV 1"
-* action[=].code = TrustDemoOnesaEpiSchedule#XXK-EPI-PCV-1 "PCV, dose 1"
+* action[=].code = TrustDemoOnesaEpiSchedule#XXU-EPI-PCV-1 "PCV, dose 1"
 * action[=].timingAge = 6 'wk' "weeks"
 * action[+].title = "9 months: measles-rubella 1"
-* action[=].code = TrustDemoOnesaEpiSchedule#XXK-EPI-MR-1 "Measles-rubella, dose 1"
+* action[=].code = TrustDemoOnesaEpiSchedule#XXU-EPI-MR-1 "Measles-rubella, dose 1"
 * action[=].timingAge = 9 'mo' "months"
 
 // The trust domains of the journeys. A GDHCN trust domain scopes what a
