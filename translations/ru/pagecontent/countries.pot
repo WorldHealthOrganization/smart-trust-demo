@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-11T09:10:10.573Z\n"
+"POT-Creation-Date: 2026-11-16T11:53:31.351Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgid "A journey that needs a home country and a visited country takes Onesa and
 msgstr ""
 
 #: input/pagecontent/countries.md:11
-msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXK \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXK plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
+msgid "Both codes are in the SMART Trust value set of GDHCN DEV participants, <a0>Participants-DEV</a0>, whose code system names XXU \"Onesa\" and XXR \"Taifafeki\". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXU plays Onesa's national portal in J4. Their keys are test keys, not any ministry's."
 msgstr ""
 
 #: input/pagecontent/countries.md:3
@@ -88,10 +88,10 @@ msgstr ""
 msgid "visited"
 msgstr ""
 
-#: input/pagecontent/countries.md:5
-msgid "XXK"
-msgstr ""
-
 #: input/pagecontent/countries.md:6
 msgid "XXR"
+msgstr ""
+
+#: input/pagecontent/countries.md:5
+msgid "XXU"
 msgstr ""

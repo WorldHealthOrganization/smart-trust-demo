@@ -14,7 +14,7 @@ Description: "The Hep B birth dose after the EHR verified its DVC: the verified 
 Usage: #example
 * status = #completed
 * vaccineCode.coding[product] = TrustDemoVaccineProduct#vp-hepb-peds-monovalent "Hepatitis B vaccine, paediatric, monovalent"
-* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXK-EPI-HEPB-BD "Hepatitis B birth dose"
+* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXU-EPI-HEPB-BD "Hepatitis B birth dose"
 * vaccineCode.coding[cvx] = $cvx#08 "Hep B, adolescent or pediatric"
 * vaccineCode.text = "Hepatitis B paediatric birth dose"
 * patient = Reference(TrustDemoSomsak)
@@ -32,7 +32,7 @@ Description: "The BCG birth dose after the EHR verified its DVC, with the nation
 Usage: #example
 * status = #completed
 * vaccineCode.coding[product] = TrustDemoVaccineProduct#vp-bcg-freeze-dried "BCG vaccine, freeze-dried"
-* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXK-EPI-BCG "BCG"
+* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXU-EPI-BCG "BCG"
 * vaccineCode.coding[cvx] = $cvx#19 "BCG"
 * vaccineCode.text = "BCG"
 * patient = Reference(TrustDemoSomsak)
@@ -76,7 +76,7 @@ Usage: #example
 * target[+] = Reference(TrustDemoJ3HepB)
 * target[+] = Reference(TrustDemoProductToOnesaEpi)
 * recorded = "2026-01-06T10:21:00+07:00"
-* activity.text = "Confirmed vp-hepb-peds-monovalent as equivalent to XXK-EPI-HEPB-BD; issuer coding kept, schedule coding added"
+* activity.text = "Confirmed vp-hepb-peds-monovalent as equivalent to XXU-EPI-HEPB-BD; issuer coding kept, schedule coding added"
 * agent[+].type = http://terminology.hl7.org/CodeSystem/provenance-participant-type#attester "Attester"
 * agent[=].who = Reference(TrustDemoChanthason)
 
@@ -88,16 +88,16 @@ Usage: #example
 * patient = Reference(TrustDemoSomsak)
 * date = "2026-01-06T10:22:00+07:00"
 * authority = Reference(TrustDemoLomaruDhc)
-* recommendation[+].vaccineCode = TrustDemoOnesaEpiSchedule#XXK-EPI-PENTA-1 "Pentavalent (DTP-HepB-Hib), dose 1"
+* recommendation[+].vaccineCode = TrustDemoOnesaEpiSchedule#XXU-EPI-PENTA-1 "Pentavalent (DTP-HepB-Hib), dose 1"
 * recommendation[=].forecastStatus = http://terminology.hl7.org/CodeSystem/immunization-recommendation-status#overdue "Overdue"
 * recommendation[=].dateCriterion.code = $loinc#30980-7 "Date vaccine due"
 * recommendation[=].dateCriterion.value = "2025-12-09"
 * recommendation[=].supportingImmunization[+] = Reference(TrustDemoJ3HepB)
-* recommendation[+].vaccineCode = TrustDemoOnesaEpiSchedule#XXK-EPI-OPV-1 "bOPV, dose 1"
+* recommendation[+].vaccineCode = TrustDemoOnesaEpiSchedule#XXU-EPI-OPV-1 "bOPV, dose 1"
 * recommendation[=].forecastStatus = http://terminology.hl7.org/CodeSystem/immunization-recommendation-status#overdue "Overdue"
 * recommendation[=].dateCriterion.code = $loinc#30980-7 "Date vaccine due"
 * recommendation[=].dateCriterion.value = "2025-12-09"
-* recommendation[+].vaccineCode = TrustDemoOnesaEpiSchedule#XXK-EPI-PCV-1 "PCV, dose 1"
+* recommendation[+].vaccineCode = TrustDemoOnesaEpiSchedule#XXU-EPI-PCV-1 "PCV, dose 1"
 * recommendation[=].forecastStatus = http://terminology.hl7.org/CodeSystem/immunization-recommendation-status#overdue "Overdue"
 * recommendation[=].dateCriterion.code = $loinc#30980-7 "Date vaccine due"
 * recommendation[=].dateCriterion.value = "2025-12-09"
@@ -127,12 +127,12 @@ Description: "Given at Lomaru District Health Center at 10 weeks, at the J3 visi
 Usage: #example
 * status = #completed
 * vaccineCode.coding[product] = TrustDemoVaccineProduct#vp-pentavalent-liquid "DTP-HepB-Hib (pentavalent), liquid"
-* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXK-EPI-PENTA-1 "Pentavalent (DTP-HepB-Hib), dose 1"
+* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXU-EPI-PENTA-1 "Pentavalent (DTP-HepB-Hib), dose 1"
 * patient = Reference(TrustDemoSomsak)
 * occurrenceDateTime = "2026-01-06"
 * primarySource = true
 * performer.actor = Reference(TrustDemoChanthason)
-* lotNumber = "XXK-2201"
+* lotNumber = "XXU-2201"
 * location.display = "Lomaru District Health Center, Onesa"
 * protocolApplied.doseNumberPositiveInt = 1
 
@@ -143,12 +143,12 @@ Description: "Given at Lomaru District Health Center at 10 weeks, at the J3 visi
 Usage: #example
 * status = #completed
 * vaccineCode.coding[product] = TrustDemoVaccineProduct#vp-bopv-drops "Bivalent oral polio vaccine (bOPV), drops"
-* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXK-EPI-OPV-1 "bOPV, dose 1"
+* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXU-EPI-OPV-1 "bOPV, dose 1"
 * patient = Reference(TrustDemoSomsak)
 * occurrenceDateTime = "2026-01-06"
 * primarySource = true
 * performer.actor = Reference(TrustDemoChanthason)
-* lotNumber = "XXK-5531"
+* lotNumber = "XXU-5531"
 * location.display = "Lomaru District Health Center, Onesa"
 * protocolApplied.doseNumberPositiveInt = 1
 
@@ -159,12 +159,12 @@ Description: "Given at Lomaru District Health Center at 10 weeks, at the J3 visi
 Usage: #example
 * status = #completed
 * vaccineCode.coding[product] = TrustDemoVaccineProduct#vp-pcv-13-dose "Pneumococcal conjugate vaccine (PCV)"
-* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXK-EPI-PCV-1 "PCV, dose 1"
+* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXU-EPI-PCV-1 "PCV, dose 1"
 * patient = Reference(TrustDemoSomsak)
 * occurrenceDateTime = "2026-01-06"
 * primarySource = true
 * performer.actor = Reference(TrustDemoChanthason)
-* lotNumber = "XXK-8819"
+* lotNumber = "XXU-8819"
 * location.display = "Lomaru District Health Center, Onesa"
 * protocolApplied.doseNumberPositiveInt = 1
 
@@ -175,11 +175,11 @@ Description: "Given at Lomaru District Health Center at 9 months."
 Usage: #example
 * status = #completed
 * vaccineCode.coding[product] = TrustDemoVaccineProduct#vp-mr-freeze-dried "Measles-rubella vaccine, freeze-dried"
-* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXK-EPI-MR-1 "Measles-rubella, dose 1"
+* vaccineCode.coding[onesaEpi] = TrustDemoOnesaEpiSchedule#XXU-EPI-MR-1 "Measles-rubella, dose 1"
 * patient = Reference(TrustDemoSomsak)
 * occurrenceDateTime = "2026-07-28"
 * primarySource = true
 * performer.actor = Reference(TrustDemoChanthason)
-* lotNumber = "XXK-9923"
+* lotNumber = "XXU-9923"
 * location.display = "Lomaru District Health Center, Onesa"
 * protocolApplied.doseNumberPositiveInt = 1
