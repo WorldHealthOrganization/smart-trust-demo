@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Track and Demo App Changes — SMART Trust demonstrator: journeys J1 to J4</title>
+<link rel="canonical" href="./technical-changes.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Trust demonstrator: journeys J1 to J4">
+<link rel="stylesheet" href="./assets/page-layout.css" data-fa-page-layout>
+<script src="./assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="./assets/ig-artifact.css">
+<link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="./assets/navbar/row-2acuhncsmbg.js" defer></script><script src="./assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><style data-ig-version-chrome>.ig-topbar-head{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem}.ig-topbar-head .ig-topbar-home{flex:none}.ig-topbar-ver{font-weight:400;font-size:.9em;opacity:.95;white-space:nowrap}.ig-topbar-flag{font-size:1.1em}.ig-version-banner{box-sizing:border-box;margin:0;padding:.5rem 1.5rem;background:#ffffa0;color:#222;border-bottom:1px solid #0a0008;font-size:.95rem;line-height:1.45}.ig-version-banner a{color:#1a4b8c;text-decoration:underline}html:not([data-fa-scheme="light"]) .ig-version-banner{background:#4a4520;color:#fff8d0;border-color:#8a7d2a}html:not([data-fa-scheme="light"]) .ig-version-banner a{color:#ffe680}.ig-metadata{border-collapse:collapse;margin:0 0 1rem;font-size:.95rem}.ig-metadata td{border:1px solid #c8c8c8;padding:.25rem .6rem;vertical-align:top}.ig-metadata code{overflow-wrap:anywhere}</style><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-3v8loi77pj.js" defer></script><script src="./assets/js/navbar.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content="."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-3v8loi77pj","here":"/technical-changes.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">SMART Trust demonstrator: journeys J1 to J4</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Trust demonstrator: journeys J1 to J4 menu"><span class="ig-topbar-head"><a class="ig-topbar-home" href="./index.html">SMART Trust demonstrator: journeys J1 to J4</a><span class="ig-topbar-ver">0.1.0 - ci-build</span></span><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="./index.html">Summary</a></li><li><a href="./changes.html">Changes</a></li></ul></details><details class="ig-topbar-group"><summary>Project</summary><ul><li><a href="./journeys.html">Journeys J1 to J4</a></li><li><a href="./workshop.html">Workshop Modules (M and T)</a></li><li><a href="./module-journey-map.html">Module × Journey Map</a></li><li><a href="./narrative-discrepancies.html">Narrative Discrepancies</a></li><li><a href="./technical-changes.html">Technical Track and Demo App Changes</a></li><li><a href="./country-canvas.html">Country Canvas</a></li><li><a href="./glossary.html">Glossary</a></li><li><a href="./countries.html">Fictional Countries</a></li><li><a href="./journey-examples.html">Journey Examples</a></li><li><a href="./architecture.html">Architecture (ArchiMate)</a></li><li><a href="./plan.html">Plan</a></li><li><a href="./proposal-app-platform.html">App Platform Proposal</a></li><li><a href="./dependencies.html">Dependency Register</a></li><li><a href="./upstream-who-smart-trust-phw-receive-a-vhl.html">Upstream Issue (smart-trust-phw)</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="./personas.html">Generic Personas</a></li><li><a href="./scenarios.html">User Scenarios</a></li><li><a href="./business-processes.html">Business Processes</a></li><li><a href="./dictionary.html">Data Dictionary</a></li><li><a href="./decision-logic.html">Decision-support Logic</a></li><li><a href="./indicators.html">Indicators and Performance Metrics</a></li><li><a href="./functional-requirements.html">Functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="./system-actors.html">System Actors</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="./artifacts.html">Artifact Index</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="./assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="./assets/ig-search.js" defer></script></div><p class="ig-version-banner" role="note">This page is part of the SMART Trust demonstrator: journeys J1 to J4 (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/trust-demo/history.html">Directory of published versions</a>.</p>
+<main class="ig-main main-content fa-page-main" id="main-content">
+
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<p>SMART Trust demonstrator (WorldHealthOrganization/smart-trust-demo), 16 November 2026. It follows the owner’s decisions on the narrative review cards (A–E), the updated deck and the Country Canvas.</p>
+
+<p><strong>Status key:</strong> <strong>Done</strong> = merged to main (PR #16 or #20). <strong>Needs work</strong> = a change to a demo application, BPMN process, decision table, FHIR example or the viewer that someone has to make. <strong>Decide</strong> = needs an owner call first.</p>
+
+<h3 id="1-the-technical-track-t1t7-what-changed">1. The technical track (T1–T7): what changed</h3>
+
+<p><strong>Update, 16 November 2026:</strong> T1–T7 are no longer placeholders. They are drafted from the technical track schedule (draft for the team to confirm; names and times are proposals): each has its sessions, leads, outcomes, the journey steps it teaches from and technical questions, and T7 has the four Day 2 teams. See the <a href="workshop.html">workshop modules</a> and the technical track on the <a href="module-journey-map.html">module × journey map</a>. The rows below record the state before that.</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>What</th>
+      <th>Where</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Seven technical modules, T1–T7, created as <strong>placeholders</strong>, each paired with the policy module of the same number and day (T1 ↔ M1 … T7 ↔ M7)</td>
+      <td><code class="language-plaintext highlighter-rouge">workshops/technical-track.json</code></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>A page per technical module, with a switch to its policy pair and a strip of both tracks; each placeholder is seeded with its pair’s technical points at every journey step, as starting material</td>
+      <td><code class="language-plaintext highlighter-rouge">workshop-t1.html</code> … <code class="language-plaintext highlighter-rouge">workshop-t7.html</code>, generated by <code class="language-plaintext highlighter-rouge">tools/workshop/module-pages.ts</code></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>The hub lists both tracks by day</td>
+      <td><code class="language-plaintext highlighter-rouge">workshop.html</code></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>The technical column of the module × journey map: for every meeting point, what is technical (DSC signing, read-unverified, trust-list caching, terminology map, wallet, VHL, AuditEvent…) and four technical threads that cross modules</td>
+      <td><code class="language-plaintext highlighter-rouge">module-journey-map.html</code></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>The glossary uses the DPI-H RA’s definitions where it has the concept (18 terms, many technical: Client Registry, Terminology Service, Computable Decision Support Engine, HL7 FHIR, LOINC, SNOMED CT…)</td>
+      <td><code class="language-plaintext highlighter-rouge">glossary.html</code></td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Still needed to write the technical track</strong></p>
+
+<ol>
+  <li>For each T module: the question it carries, objectives, timings and the journey steps it teaches from. Today only the pairing exists. <em>(Needs work: content from the technical-track owners.)</em></li>
+  <li><strong>A technical canvas or not.</strong> The Country Canvas has six policy sheets and no technical sheet. Decide whether T modules fill their own sheets, share the policy sheets, or have none. <em>(Decide.)</em></li>
+  <li><strong>The journeys viewer shows one workshop.</strong> <code class="language-plaintext highlighter-rouge">dpi-h-policy-track.workshop.json</code> is the policy track. The technical track needs its own workshop file (<code class="language-plaintext highlighter-rouge">dpi-h-technical-track.workshop.json</code>) for the viewer to teach it with walkthrough questions, a Discussion lab and sheets. <em>(Needs work, once 1 is written.)</em></li>
+  <li><strong>Technical terms the handout lacks (E3):</strong> DVC, HCERT, VHL, DSC, Trust Network Participant, provenance, CWT, COSE, DID document. Add them, ideally as a technical glossary for the T track, linked to the SMART Trust guide. <em>(Needs work.)</em></li>
+  <li><strong>The 13 RA concepts with no definition yet (E9):</strong> API, PHR, HIE, CRVS, DAK, IG, IPS, ICVP, IHR, PKI, GDHCN, DIIG, TWG keep the handout’s wording until the RA defines them. <em>(Needs work upstream in smart-ra.)</em></li>
+</ol>
+
+<h3 id="2-story-changes-that-reach-the-technical-layer">2. Story changes that reach the technical layer</h3>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Decision</th>
+      <th>Story change</th>
+      <th>Artefacts affected</th>
+      <th>Change needed</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A1, B1–B3, D1</td>
+      <td>Journey titles: <em>Vaccinated and recorded</em>, <em>Found and registered</em>, <em>A foreign record used for the next vaccine</em>, <em>Continuity across a border</em></td>
+      <td>user scenarios J1–J4, docs/journeys.md, the workshop’s chapter titles, viewer chapter names, device-screen headings, translations</td>
+      <td>Retitle</td>
+      <td>Done, #20</td>
+    </tr>
+    <tr>
+      <td>C2 <em>(discuss)</em></td>
+      <td>Clean up the J numbering (J2a, J2b, J3a, J3b, J4.0a, J4.0b, J4.1) to match the deck’s four journeys</td>
+      <td>step ids in scenarios, workshop, glossary-use, module map, module pages, FHIR example names, BPMN file names, viewer URLs (<code class="language-plaintext highlighter-rouge">walkthrough/J2a/</code>)</td>
+      <td><strong>Recommended:</strong> keep the step ids (stable links, example names) and <em>show</em> them as Journey 1–4 with parts (2a, 2b…); merge J4.0 and J4.1 into “Journey 4, parts 1 and 2” in titles</td>
+      <td>Decide</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>Khamla works in Taifafeki and brings Somsak home to Onesa after the birth</td>
+      <td>actor <code class="language-plaintext highlighter-rouge">khamla-sengmany</code>, J1 and J2 narratives</td>
+      <td>Description and narrative text</td>
+      <td>Done, #20</td>
+    </tr>
+    <tr>
+      <td>A4</td>
+      <td>Somsak has no national ID; the hospital gives him an identifier at birth, linked to his mother</td>
+      <td>J1 FHIR example (Patient), S1 device screen</td>
+      <td>Add a Kesaro Provincial Hospital identifier to Somsak’s J1 Patient and a link to Khamla; S1 shows “registered with hospital ID, linked to mother”. The DVC payload is unchanged (no identity document, STT-PAY-005)</td>
+      <td>Needs work</td>
+    </tr>
+    <tr>
+      <td>A6</td>
+      <td>Journey 2 happens at <strong>7 weeks</strong> (was 3)</td>
+      <td>J2 scenario <code class="language-plaintext highlighter-rouge">when</code>, J2 FHIR examples (<code class="language-plaintext highlighter-rouge">TrustDemoJ2Referral.authoredOn</code> 2025-11-18 → <strong>2025-12-16</strong>), S3 screen</td>
+      <td>Dates and labels</td>
+      <td>Done, #20</td>
+    </tr>
+    <tr>
+      <td>A7</td>
+      <td>Journey 3 happens at <strong>10 weeks</strong> (was about 7)</td>
+      <td>J3 scenario, J3 FHIR examples (verification and recommendation 2025-11-25 → <strong>2026-01-06</strong>), S4 “Age: 4 Weeks”, S5 “4 Weeks Old”</td>
+      <td>Dates and labels. <strong>Also logic:</strong> at 10 weeks pentavalent 1, bOPV 1 and PCV 1 (due at 6 weeks, 2025-12-09) are <strong>overdue</strong>, so J3b becomes a catch-up: give them that day, and the next doses 4 weeks later</td>
+      <td>Done, #20 (dates); Needs work (logic, below)</td>
+    </tr>
+    <tr>
+      <td>A7 → logic</td>
+      <td>The national schedule must handle a late visit</td>
+      <td><code class="language-plaintext highlighter-rouge">processes/content/decisions/dose-due.dmn</code>, <code class="language-plaintext highlighter-rouge">dose-counts.dmn</code>, <code class="language-plaintext highlighter-rouge">TrustDemoJ3Recommendation</code> (forecast status <em>overdue</em>), S5 schedule panel</td>
+      <td>A catch-up rule: a dose past its due date is due now; the minimum interval sets the next</td>
+      <td>Needs work</td>
+    </tr>
+    <tr>
+      <td>A8</td>
+      <td>Khamla’s village is named (the deck says “Khamla’s village”; the site calls it Village 04)</td>
+      <td>narratives, actor <code class="language-plaintext highlighter-rouge">vilay</code>, S3</td>
+      <td>Say “Khamla’s village (Village 04)” once, keep Village 04</td>
+      <td>Done, #20</td>
+    </tr>
+    <tr>
+      <td>A9</td>
+      <td>Vilay finds Khamla in the client registry <strong>by her national ID</strong> and registers Somsak as her child</td>
+      <td>J2 BPMN (<code class="language-plaintext highlighter-rouge">j2-chw-discovery-referral.bpmn</code>), CHW app (S3), J2 FHIR examples, requirements</td>
+      <td>New task “search client registry by caregiver’s national ID” before registration; Khamla’s Patient gets an Onesa national ID; Somsak linked to her (RelatedPerson or <code class="language-plaintext highlighter-rouge">Patient.link</code>). <strong>Design point:</strong> Vilay is offline for weeks, so the lookup needs a cached extract of the catchment’s registry on the phone, or the match is queued until sync</td>
+      <td>Needs work (+ Decide on offline lookup)</td>
+    </tr>
+    <tr>
+      <td>A10</td>
+      <td>Registration <strong>notifies the civil registry</strong> of a birth abroad (late birth registration)</td>
+      <td>J2 BPMN, a new actor (Onesa civil registry, CRVS), J2 FHIR examples, S3</td>
+      <td>New message flow to CRVS, queued offline and sent on sync; a FHIR Task or message Bundle as the example</td>
+      <td>Needs work</td>
+    </tr>
+    <tr>
+      <td>A11</td>
+      <td>The CHW app <strong>schedules a reminder</strong> to bring Somsak to the clinic</td>
+      <td>J2 BPMN, S3, J2 FHIR examples (J3 already has <code class="language-plaintext highlighter-rouge">TrustDemoJ3Reminder</code>)</td>
+      <td>A reminder step after the referral; a CommunicationRequest in J2</td>
+      <td>Needs work</td>
+    </tr>
+    <tr>
+      <td>A12, A13</td>
+      <td>“Reported, not verified” happens in J2; the family’s one phone is Bounmy’s</td>
+      <td>—</td>
+      <td>Already how the site and app work; deck changed</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>A14</td>
+      <td>The unmapped Taifafeki Hep B product and the nurse’s clinical call stay</td>
+      <td>—</td>
+      <td>No change</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>A15</td>
+      <td>The deck now names the passcode-protected link and the access log</td>
+      <td>—</td>
+      <td>Already in the site and examples</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>A16</td>
+      <td>In Journey 4, Dr. Anan is a <strong>paediatrician</strong> (the site said primary care clinic)</td>
+      <td>actor <code class="language-plaintext highlighter-rouge">kesaro-clinic-viewer</code>, S8 (“Kesaro Primary Care Clinic”), J4 FHIR examples (Organization, PractitionerRole)</td>
+      <td>“Kesaro paediatric clinic”; PractitionerRole specialty paediatrics</td>
+      <td>Done, #20</td>
+    </tr>
+    <tr>
+      <td>A17</td>
+      <td>Onesa keeps a national FHIR health portal (the deck now says so)</td>
+      <td>—</td>
+      <td>No change</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>B11</td>
+      <td>HMIS counts a child registered at home (J2) in the coverage denominator</td>
+      <td>indicators <code class="language-plaintext highlighter-rouge">TrustDemoIND01…04</code>, J2</td>
+      <td>Check the denominator definition includes children registered at J2 who were born abroad; say so in the indicator</td>
+      <td>Needs work</td>
+    </tr>
+    <tr>
+      <td>D2–D10</td>
+      <td>Canvas fixes (fifth touchpoint, “[Dates]”, capitalisation, cost-driver wording, notifications and consent capabilities)</td>
+      <td>the Word canvas</td>
+      <td>Edit the .docx (not the site)</td>
+      <td>Needs work</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3-demo-applications-and-tests">3. Demo applications and tests</h3>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Change needed</th>
+      <th>Driven by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>OHS app</strong> (<code class="language-plaintext highlighter-rouge">app/</code>, Kotlin Multiplatform: <code class="language-plaintext highlighter-rouge">Journeys.kt</code>, <code class="language-plaintext highlighter-rouge">JourneyScreen.kt</code>, <code class="language-plaintext highlighter-rouge">ImmunizationImport.kt</code>)</td>
+      <td>Journey titles where shown; the CHW flow gains a national-ID search, a CRVS notification and a reminder; the clinic flow’s schedule shows catch-up doses at 10 weeks; the J1 hospital flow carries a hospital identifier. <code class="language-plaintext highlighter-rouge">AndroidHcertJourneys.feature</code> scenarios updated to match</td>
+      <td>A1, A4, A7, A9–A11</td>
+    </tr>
+    <tr>
+      <td><strong>Android emulator test</strong> (<code class="language-plaintext highlighter-rouge">android-test/</code>)</td>
+      <td>None: it tests the HCERT library against the WHO guide’s vectors, which the story changes do not touch</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><strong>Device screens</strong> (<code class="language-plaintext highlighter-rouge">scenarios/device-screens/</code>)</td>
+      <td>S1 hospital identifier; S3 national-ID search, CRVS notice, reminder, 7 weeks; S4 and S5 “10 weeks”, catch-up schedule; S8 paediatric clinic</td>
+      <td>A4, A6, A7, A9–A11, A16</td>
+    </tr>
+    <tr>
+      <td><strong>BPMN processes</strong> (<code class="language-plaintext highlighter-rouge">processes/content/</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">j2-chw-discovery-referral</code>: search by national ID, CRVS message, reminder; <code class="language-plaintext highlighter-rouge">j3-clinic-verification-schedule</code>: catch-up branch; <code class="language-plaintext highlighter-rouge">j4-1-vhl-point-of-care</code>: lane name (paediatric clinic). Re-render the SVGs and checklists (<code class="language-plaintext highlighter-rouge">render:bpmn</code>, <code class="language-plaintext highlighter-rouge">bpmn:checklist</code>)</td>
+      <td>A7, A9–A11, A16</td>
+    </tr>
+    <tr>
+      <td><strong>Decision tables</strong> (<code class="language-plaintext highlighter-rouge">processes/content/decisions/</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">dose-due.dmn</code> / <code class="language-plaintext highlighter-rouge">dose-counts.dmn</code> catch-up rule</td>
+      <td>A7</td>
+    </tr>
+    <tr>
+      <td><strong>FHIR examples</strong> (<code class="language-plaintext highlighter-rouge">input/fsh/examples/</code>)</td>
+      <td>Dates (J2 +4 weeks, J3 +6 weeks), J1 hospital identifier, Khamla’s national ID, CRVS Task, J2 reminder, J4 paediatric PractitionerRole; regenerate the journey-examples page</td>
+      <td>A4, A6, A7, A9–A11, A16</td>
+    </tr>
+    <tr>
+      <td><strong>Journeys viewer</strong></td>
+      <td>The canvas in the Table sheets tab and the matrix in Discussion are built (litlfred/cat-harness-tools#2354) and wired up downstream in PR #17. They wait on #2354 merging and a cat-harness-tools re-pin here. A second workshop file when the T track is written</td>
+      <td>JV-05, JV-06, T track</td>
+    </tr>
+    <tr>
+      <td><strong>Translations</strong> (ar, es, fr, ru, zh)</td>
+      <td>Every changed English string leaves the five locales’ catalogues behind (reported, not failing). Run a translation refresh after the site PR merges</td>
+      <td>All text changes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="4-suggested-order">4. Suggested order</h3>
+
+<ol>
+  <li><del>Site PR</del> Done in #20: titles, timings and dates, place names, Khamla, the paediatric clinic, and the FHIR example dates.</li>
+  <li><strong>Decide</strong> C2 (J numbering) and the offline national-ID lookup (A9).</li>
+  <li><strong>Logic PR:</strong> the catch-up rule (DMN, J3 recommendation, S5).</li>
+  <li><strong>J2 process PR:</strong> national-ID search, CRVS notification, reminder, across BPMN, FHIR examples, S3 and the app.</li>
+  <li><del>Re-pin cat-harness-tools after #2354, then merge the viewer wiring.</del> Done in #21.</li>
+  <li>Translation refresh.</li>
+  <li>Technical track content, then its workshop file and glossary.</li>
+</ol>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/technical-changes.md" data-repo="WorldHealthOrganization/smart-trust-demo" href="https://github.com/WorldHealthOrganization/smart-trust-demo/edit/main/input/pagecontent/technical-changes.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/technical-changes.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/technical-changes.md", "lines": [{"t":"1. The technical track (T1–T7): what changed","l":5},{"t":"2. Story changes that reach the technical layer","l":26},{"t":"3. Demo applications and tests","l":50},{"t":"4. Suggested order","l":64}]}</script>
+
+<script src="./assets/ig-source-links.js"></script>
+
+
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
+<script>(function(){
+var main=document.getElementById("main-content");
+if(!main||main.querySelector(".igi-contents"))return;
+var rowsOf=function igContentsRows(hs) {
+  let top = 0;
+  for (const h of hs)
+    if (h.level >= 2 && h.level <= 4 && (top === 0 || h.level < top))
+      top = h.level;
+  if (top === 0)
+    return [];
+  const rows = [];
+  let count = 0;
+  for (const h of hs)
+    if (h.level === top) {
+      rows.push({ i: h.i, sub: [] });
+      count++;
+    } else if (h.level === top + 1) {
+      const last = rows[rows.length - 1];
+      if (last)
+        last.sub.push(h.i);
+      else
+        rows.push({ i: h.i, sub: [] });
+      count++;
+    }
+  return count < 2 ? [] : rows;
+};
+var hs=Array.prototype.filter.call(main.querySelectorAll("h2,h3,h4"),function(h){return !h.closest(".igi-contents,#ig-footer,.ig-edit,.ig-metadata")&&h.textContent.trim();});
+var rows=rowsOf(hs.map(function(h,i){return {level:+h.tagName.charAt(1),i:i};}));
+if(!rows.length)return;
+var used={};
+function slug(t){var b=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"section",s=b,i=1;while(used[s]||document.getElementById(s))s=b+"-"+(++i);used[s]=1;return s;}
+function item(h){if(!h.id)h.id=slug(h.textContent);var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;
+var c=h.cloneNode(true);Array.prototype.forEach.call(c.querySelectorAll(".anchor-heading,.fa-sec-box,svg,button"),function(n){n.remove();});
+a.textContent=c.textContent.replace(/\s+/g," ").trim();li.appendChild(a);return li;}
+var nav=document.createElement("nav");nav.className="igi-contents";nav.setAttribute("aria-label","Contents");
+var t=document.createElement("p");t.className="igi-contents-title";t.textContent="Contents";nav.appendChild(t);
+var ul=document.createElement("ul");
+rows.forEach(function(r){var li=item(hs[r.i]);if(r.sub.length){var sub=document.createElement("ul");sub.className="igi-contents-sub";r.sub.forEach(function(k){sub.appendChild(item(hs[k]));});li.appendChild(sub);}ul.appendChild(li);});
+nav.appendChild(ul);
+var h1=main.querySelector("h1"),meta=main.querySelector(":scope > .ig-metadata");
+if(h1&&h1.parentNode===main)h1.insertAdjacentElement("afterend",nav);else if(meta)meta.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.firstChild);
+})();</script>
+</main>
+<link rel="stylesheet" href="assets/ig-pages.css">
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="narrative-discrepancies.html">&lt;prev</a> | <a href="#">top</a> | <a href="country-canvas.html">next&gt;</a></p>
+<p class="ig-footer-band">IG © 2026+ <a href="https://github.com/litlfred/smart-trust-demo" rel="external">litlfred</a>. Package <code>smart.who.int.trust-demo#0.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-16</p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC0-1.0.html" rel="external">License</a></p>
+</footer>
+
+</body>
+</html>

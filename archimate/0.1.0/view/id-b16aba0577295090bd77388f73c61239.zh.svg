@@ -1,0 +1,669 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1623" viewBox="0 0 1800 1623" font-family='system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif' role="img" aria-label="DPI-H Reference Architecture — Integrated View (Fig. 3.2)">
+<rect width="1800" height="1623" fill="#f8f9fb"/>
+<rect width="1800" height="72" fill="#14213d"/>
+<text x="36" y="42" font-size="26" font-weight="800" fill="#ffffff">DPI-H 参考架构 — 集成视图（图 3.2）</text>
+<text x="36" y="61" font-size="11" fill="#c9d6e6" font-style="italic">绘制自 ArchiMate 模型“WHO DPI-H 参考架构上的 SMART Trust 演示项目”，视图“DPI-H 参考架构 — 集成视图（图 3.2）”</text>
+<rect x="36.0" y="82.0" width="1442.0" height="143.0" rx="8" fill="#e0e0ff" stroke="#7e7e9e" stroke-width="1.4"/>
+<path d="M36 90 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#56566b"/>
+<text x="50.0" y="100.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">战略卫生目标</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/build-trusted-data-foundations/" target="_top">
+<rect x="48.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="57.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">构建可信数据</text>
+<text x="57.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">基础</text>
+<text x="57.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 一次采集，多次使用</text>
+<text x="57.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 质量、二次利用、AI</text>
+<text x="57.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">培训</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/support-a-capable-well-distributed-health-workforce/" target="_top">
+<rect x="252.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="261.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">支持一支有能力、</text>
+<text x="261.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">分布合理的卫生</text>
+<text x="261.0" y="157.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">人力</text>
+<text x="261.0" y="173.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 按时发薪、技能经验证、</text>
+<text x="261.0" y="185.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">公平分布</text>
+<text x="261.0" y="197.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 薪酬、资质证书、CPD</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/ensure-quality-and-continuity-of-care/" target="_top">
+<rect x="456.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="465.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">确保质量和</text>
+<text x="465.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">照护连续性</text>
+<text x="465.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 指导性规程，</text>
+<text x="465.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 决策支持、照护</text>
+<text x="465.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">协调</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/establish-trusted-personal-health-records/" target="_top">
+<rect x="660.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="669.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">建立可信的个人</text>
+<text x="669.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">健康记录</text>
+<text x="669.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 拥有自己记录的权利</text>
+<text x="669.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 可携带、安全、</text>
+<text x="669.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">同意驱动</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/optimise-supply-chain-management/" target="_top">
+<rect x="864.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="873.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">优化供应链</text>
+<text x="873.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">管理</text>
+<text x="873.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 安全的卫生产品，在需要的时间与</text>
+<text x="873.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">在需要的地点</text>
+<text x="873.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 预测、可追溯性</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/advance-efficient-and-equitable-health-financing/" target="_top">
+<rect x="1068.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1077.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">推进高效且</text>
+<text x="1077.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">公平的卫生筹资</text>
+<text x="1077.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 更明智的支出，更强的</text>
+<text x="1077.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">保护</text>
+<text x="1077.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PFM、覆盖、理赔</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/strengthen-climate-and-epidemic-resilience/" target="_top">
+<rect x="1272.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1281.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">增强气候与</text>
+<text x="1281.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">疫情韧性</text>
+<text x="1281.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 及早预测，快速行动</text>
+<text x="1281.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 监测、AER、响应</text>
+</a>
+<rect x="36.0" y="237.0" width="1442.0" height="152.0" rx="8" fill="#e0e0ff" stroke="#7e7e9e" stroke-width="1.4"/>
+<path d="M36 245 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#56566b"/>
+<text x="50.0" y="255.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">跨领域治理</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/policy-legislation-regulation/" target="_top">
+<rect x="48.0" y="265.0" width="275.6" height="112.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="57.0" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">政策、立法与监管</text>
+<text x="57.0" y="298.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 法定授权</text>
+<text x="57.0" y="310.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 数据保护法</text>
+<text x="57.0" y="322.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 架构原则</text>
+<text x="57.0" y="334.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 投资治理</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/cybersecurity-privacy-consent/" target="_top">
+<rect x="333.6" y="265.0" width="275.6" height="112.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="342.6" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">网络安全、隐私与同意</text>
+<text x="342.6" y="298.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 零信任 · 加密</text>
+<text x="342.6" y="310.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PKI 管理</text>
+<text x="342.6" y="322.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 细粒度、可撤销、限定用途</text>
+<text x="342.6" y="334.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">同意</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/standards-certification-conformance/" target="_top">
+<rect x="619.2" y="265.0" width="275.6" height="112.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="628.2" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">标准、认证与</text>
+<text x="628.2" y="297.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">符合性</text>
+<text x="628.2" y="313.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· FHIR 配置文件 · SNOMED · ICD</text>
+<text x="628.2" y="325.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· LOINC · GS1</text>
+<text x="628.2" y="337.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 测试框架</text>
+<text x="628.2" y="349.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IHE Connectathon</text>
+<text x="628.2" y="361.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 认证</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/semantic-governance-stewardship/" target="_top">
+<rect x="904.8" y="265.0" width="275.6" height="112.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="913.8" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">语义治理与管护</text>
+<text x="913.8" y="298.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 参考术语与本地术语整理</text>
+<text x="913.8" y="310.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 逻辑模型版本管理</text>
+<text x="913.8" y="322.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 代码系统映射</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/auditability-assurance-accountability/" target="_top">
+<rect x="1190.4" y="265.0" width="275.6" height="112.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1199.4" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">可审计性、保证与</text>
+<text x="1199.4" y="297.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">问责</text>
+<text x="1199.4" y="313.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 不可篡改日志</text>
+<text x="1199.4" y="325.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 数字签名</text>
+<text x="1199.4" y="337.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 独立审计</text>
+<text x="1199.4" y="349.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 公开披露</text>
+</a>
+<rect x="36.0" y="401.0" width="1442.0" height="116.0" rx="8" fill="#e0e0ff" stroke="#7e7e9e" stroke-width="1.4"/>
+<path d="M36 409 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#56566b"/>
+<text x="50.0" y="419.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">利益相关方</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/citizens-care-recipients/" target="_top">
+<rect x="48.0" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="57.0" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">公民/照护</text>
+<text x="57.0" y="461.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">接受者</text>
+<text x="57.0" y="477.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 家庭与照护者</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/health-workers/" target="_top">
+<rect x="226.5" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="235.5" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生工作者</text>
+<text x="235.5" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 服务提供者、CHW、系统</text>
+<text x="235.5" y="474.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">管理者</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/ministry-of-health/" target="_top">
+<rect x="405.0" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="414.0" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生部</text>
+<text x="414.0" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 监管机构、财政部、公众</text>
+<text x="414.0" y="474.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">卫生主管部门</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/healthcare-facilities/" target="_top">
+<rect x="583.5" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="592.5" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">医疗卫生机构</text>
+<text x="592.5" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 医院、实验室、诊所</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/financial-entities/" target="_top">
+<rect x="762.0" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="771.0" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">金融实体</text>
+<text x="771.0" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 支付方、保险机构、</text>
+<text x="771.0" y="474.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">采购</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/suppliers-manufacturers/" target="_top">
+<rect x="940.5" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="949.5" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">供应商/</text>
+<text x="949.5" y="461.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">制造商</text>
+<text x="949.5" y="477.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 其他供应链</text>
+<text x="949.5" y="489.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">参与者</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/int-l-development-agencies/" target="_top">
+<rect x="1119.0" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1128.0" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">国际与发展</text>
+<text x="1128.0" y="461.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">机构</text>
+<text x="1128.0" y="477.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 公民社会、媒体、</text>
+<text x="1128.0" y="489.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">倡导</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/research-academia/" target="_top">
+<rect x="1297.5" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1306.5" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">研究/学术界</text>
+<text x="1306.5" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 培训、学术、</text>
+<text x="1306.5" y="474.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">研究</text>
+</a>
+<rect x="36.0" y="529.0" width="1442.0" height="212.0" rx="8" fill="#f9ebcc" stroke="#988a69" stroke-width="1.4"/>
+<path d="M36 537 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#675d47"/>
+<text x="50.0" y="547.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">能力</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/identity-management/" target="_top">
+<rect x="48.0" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="57.0" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">身份</text>
+<text x="57.0" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">管理</text>
+<text x="57.0" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 个人</text>
+<text x="57.0" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">识别</text>
+<text x="57.0" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 记录关联</text>
+<text x="57.0" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 身份</text>
+<text x="57.0" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">核对</text>
+<text x="57.0" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 与 DPI-F 联合</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/access-consent-trust/" target="_top">
+<rect x="190.8" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="199.8" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">访问、同意、</text>
+<text x="199.8" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">信任</text>
+<text x="199.8" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 同意与访问</text>
+<text x="199.8" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">管理</text>
+<text x="199.8" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 验证 ·</text>
+<text x="199.8" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  Provenance</text>
+<text x="199.8" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 信任服务</text>
+<text x="199.8" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">集成</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/health-record-management/" target="_top">
+<rect x="333.6" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="342.6" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">健康记录</text>
+<text x="342.6" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">管理</text>
+<text x="342.6" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 纵向记录</text>
+<text x="342.6" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">整理</text>
+<text x="342.6" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 来源信息与</text>
+<text x="342.6" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">版本管理</text>
+<text x="342.6" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 患者控制</text>
+<text x="342.6" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">视图</text>
+<text x="342.6" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 二次利用</text>
+<text x="342.6" y="689.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">赋能</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/knowledge-management/" target="_top">
+<rect x="476.4" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="485.4" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">知识</text>
+<text x="485.4" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">管理</text>
+<text x="485.4" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 术语</text>
+<text x="485.4" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">整理</text>
+<text x="485.4" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 逻辑信息模型</text>
+<text x="485.4" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">编写</text>
+<text x="485.4" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 可计算</text>
+<text x="485.4" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">指南</text>
+<text x="485.4" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 语义</text>
+<text x="485.4" y="689.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">管护</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/clinical-services-care-coordination/" target="_top">
+<rect x="619.2" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="628.2" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">临床服务</text>
+<text x="628.2" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">与照护</text>
+<text x="628.2" y="604.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">协调</text>
+<text x="628.2" y="620.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 决策支持，位于</text>
+<text x="628.2" y="632.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  PoC</text>
+<text x="628.2" y="644.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 照护计划与</text>
+<text x="628.2" y="656.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">过渡</text>
+<text x="628.2" y="668.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 医嘱与药品</text>
+<text x="628.2" y="680.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">管理</text>
+<text x="628.2" y="692.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 转诊与任务</text>
+<text x="628.2" y="704.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">管理</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/health-workforce-management/" target="_top">
+<rect x="762.0" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="771.0" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生人力</text>
+<text x="771.0" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">管理</text>
+<text x="771.0" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 登记与</text>
+<text x="771.0" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">执照发放</text>
+<text x="771.0" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 薪酬与</text>
+<text x="771.0" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">激励</text>
+<text x="771.0" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 资格、CPD</text>
+<text x="771.0" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">与胜任能力</text>
+<text x="771.0" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 人力规划</text>
+<text x="771.0" y="689.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">与分配</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/health-financing-management/" target="_top">
+<rect x="904.8" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="913.8" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生筹资</text>
+<text x="913.8" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">管理</text>
+<text x="913.8" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PFM 与风险分担</text>
+<text x="913.8" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 参保登记、</text>
+<text x="913.8" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">资格与</text>
+<text x="913.8" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">权益</text>
+<text x="913.8" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 购买与理赔</text>
+<text x="913.8" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 合同、支付</text>
+<text x="913.8" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">与收入</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/supply-chain/" target="_top">
+<rect x="1047.6" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="1056.6" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">供应链</text>
+<text x="1056.6" y="590.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 预测与</text>
+<text x="1056.6" y="602.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">规划</text>
+<text x="1056.6" y="614.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 采购与</text>
+<text x="1056.6" y="626.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">物流</text>
+<text x="1056.6" y="638.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 配发与</text>
+<text x="1056.6" y="650.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">可追溯性</text>
+<text x="1056.6" y="662.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 供应商与产品</text>
+<text x="1056.6" y="674.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">管护</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/analytics-business-intelligence/" target="_top">
+<rect x="1190.4" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="1199.4" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">分析与</text>
+<text x="1199.4" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">业务</text>
+<text x="1199.4" y="604.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">智能</text>
+<text x="1199.4" y="620.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 分析 ·</text>
+<text x="1199.4" y="632.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">报告</text>
+<text x="1199.4" y="644.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 业务</text>
+<text x="1199.4" y="656.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">智能</text>
+<text x="1199.4" y="668.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 绩效与</text>
+<text x="1199.4" y="680.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">公平性洞察</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/climate-ph-surveillance/" target="_top">
+<rect x="1333.2" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="1342.2" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">气候与公共卫生</text>
+<text x="1342.2" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">监测</text>
+<text x="1342.2" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 疾病</text>
+<text x="1342.2" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">监测与</text>
+<text x="1342.2" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">预警</text>
+<text x="1342.2" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 不良事件</text>
+<text x="1342.2" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">报告</text>
+<text x="1342.2" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 疫情管理与</text>
+<text x="1342.2" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">常规 HMIS</text>
+<text x="1342.2" y="689.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 通信管理</text>
+<text x="1342.2" y="701.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 气候与事件</text>
+<text x="1342.2" y="713.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">管理</text>
+</a>
+<rect x="36.0" y="753.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 761 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="771.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">服务点与功能性应用</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/provider-systems/" target="_top">
+<rect x="48.0" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">医疗服务提供者系统</text>
+<text x="57.0" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· EMR / EHR · HIS ·</text>
+<text x="57.0" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  LIMS · PACS</text>
+<text x="57.0" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· RIS</text>
+<text x="57.0" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 电子处方（EPMA）</text>
+<text x="57.0" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 远程医疗客户端</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/case-management/" target="_top">
+<rect x="206.7" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="215.7" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">个案管理</text>
+<text x="215.7" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 电子</text>
+<text x="215.7" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">免疫接种登记</text>
+<text x="215.7" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HIV / TB / MNCH</text>
+<text x="215.7" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">登记系统</text>
+<text x="215.7" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 特定疾病</text>
+<text x="215.7" y="874.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">工具</text>
+<text x="215.7" y="886.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 患者随访</text>
+<text x="215.7" y="898.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">工作流</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/dispensing-system/" target="_top">
+<rect x="365.3" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="374.3" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">配发系统</text>
+<text x="374.3" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 药房管理系统</text>
+<text x="374.3" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 配发应用</text>
+<text x="374.3" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 药物警戒</text>
+<text x="374.3" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">进入</text>
+<text x="374.3" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 服务点库存</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/chw-community/" target="_top">
+<rect x="524.0" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CHW 与社区</text>
+<text x="533.0" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· CHW 现场应用</text>
+<text x="533.0" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 外展/运动</text>
+<text x="533.0" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 离线优先工具</text>
+<text x="533.0" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 家庭</text>
+<text x="533.0" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">登记</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/citizen-patient-apps/" target="_top">
+<rect x="682.7" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="691.7" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">公民/患者</text>
+<text x="691.7" y="813.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">应用</text>
+<text x="691.7" y="829.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PHR / 数字健康</text>
+<text x="691.7" y="841.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">钱包</text>
+<text x="691.7" y="853.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 自助预约</text>
+<text x="691.7" y="865.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 公民预警</text>
+<text x="691.7" y="877.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">客户端</text>
+<text x="691.7" y="889.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 同意仪表板界面</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/supply-chain-functional/" target="_top">
+<rect x="841.3" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="850.3" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">供应链</text>
+<text x="850.3" y="813.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">功能性</text>
+<text x="850.3" y="829.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· WMS / LMIS</text>
+<text x="850.3" y="841.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 运输管理（TMS）</text>
+<text x="850.3" y="853.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 采购/</text>
+<text x="850.3" y="865.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">电子招标</text>
+<text x="850.3" y="877.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 冷链监测</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/health-coverage-claims/" target="_top">
+<rect x="1000.0" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生覆盖与</text>
+<text x="1009.0" y="813.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">理赔</text>
+<text x="1009.0" y="829.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 理赔单编制</text>
+<text x="1009.0" y="841.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 受益人登记系统</text>
+<text x="1009.0" y="853.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 成员/服务提供者</text>
+<text x="1009.0" y="865.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">门户</text>
+<text x="1009.0" y="877.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 合同与福利</text>
+<text x="1009.0" y="889.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">管理</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/financing-workforce-ops/" target="_top">
+<rect x="1158.7" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1167.7" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">筹资与</text>
+<text x="1167.7" y="813.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">人力运营</text>
+<text x="1167.7" y="829.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IFMIS / 国库</text>
+<text x="1167.7" y="841.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HFIS / 预算</text>
+<text x="1167.7" y="853.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">规划 · HRIS</text>
+<text x="1167.7" y="865.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 薪酬</text>
+<text x="1167.7" y="877.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· LMS / 培训</text>
+<text x="1167.7" y="889.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 审计与披露</text>
+<text x="1167.7" y="901.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">工具</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/public-health-apps/" target="_top">
+<rect x="1317.3" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1326.3" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">公共卫生应用</text>
+<text x="1326.3" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 接触者追踪</text>
+<text x="1326.3" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 疫情管理</text>
+<text x="1326.3" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 疾病监测</text>
+<text x="1326.3" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">仪表板</text>
+<text x="1326.3" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 疫情预警</text>
+</a>
+<rect x="36.0" y="941.0" width="1442.0" height="204.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 949 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="959.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">DPI-H 可重复使用组件</text>
+<rect x="48.0" y="969.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="58.0" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">临床服务</text>
+<text x="58.0" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">使用 LHR 等资源的组件</text>
+<text x="58.0" y="1011.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">医疗服务点的知识</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/computable-decision-support-engine/" target="_top">
+<rect x="56.0" y="1025.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="65.0" y="1042.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">可计算决策</text>
+<text x="65.0" y="1057.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">支持引擎</text>
+<text x="65.0" y="1073.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· CDS Hooks · SMART on FHIR</text>
+<text x="65.0" y="1085.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 使用 LHR +</text>
+<text x="65.0" y="1097.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">基于标准的可计算</text>
+<text x="65.0" y="1109.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">指南</text>
+</a>
+<rect x="254.9" y="969.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="264.9" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">供应链</text>
+<text x="264.9" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">共享服务，面向供应商和</text>
+<text x="264.9" y="1011.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">贯穿物流的可追溯性数据</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/supplier-registry/" target="_top">
+<rect x="262.9" y="1025.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="271.9" y="1042.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">供应商登记系统</text>
+<text x="271.9" y="1058.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 经审核的制造商、第三方物流</text>
+<text x="271.9" y="1070.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 跨领域复用，用于</text>
+<text x="271.9" y="1082.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">采购与可追溯性</text>
+</a>
+<rect x="461.7" y="969.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="471.7" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">卫生筹资</text>
+<text x="471.7" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">参考数据，用于定义覆盖范围和</text>
+<text x="471.7" y="1011.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">购买权益</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/benefits-package-registry/" target="_top">
+<rect x="469.7" y="1025.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="478.7" y="1042.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">福利包</text>
+<text x="478.7" y="1057.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">登记系统</text>
+<text x="478.7" y="1073.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 权威规范：</text>
+<text x="478.7" y="1085.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">覆盖服务、价目</text>
+<text x="478.7" y="1097.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">与规则</text>
+<text x="478.7" y="1109.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 供理赔与 PFM 使用</text>
+</a>
+<rect x="668.6" y="969.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="678.6" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">公共卫生与分析</text>
+<text x="678.6" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">用于二次利用、智能分析和响应的平台</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/ph-surveillance-platform/" target="_top">
+<rect x="676.6" y="1013.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="685.6" y="1030.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">公共卫生监测平台</text>
+<text x="685.6" y="1046.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 事件/病例发现</text>
+<text x="685.6" y="1058.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 疫情工作流</text>
+<text x="685.6" y="1070.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IHR / IPS 跨境</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/health-management-information-system/" target="_top">
+<rect x="871.9" y="1013.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="880.9" y="1030.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生管理</text>
+<text x="880.9" y="1045.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">信息系统</text>
+<text x="880.9" y="1061.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 汇总指标 · 监测与评价</text>
+<text x="880.9" y="1073.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 仪表板</text>
+<text x="880.9" y="1085.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 绩效与公平</text>
+</a>
+<rect x="1077.3" y="969.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="1087.3" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">跨领域</text>
+<text x="1087.3" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">跨领域</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/ai-enabled-intelligence/" target="_top">
+<rect x="1085.3" y="1013.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1094.3" y="1030.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">AI 赋能的智能</text>
+<text x="1094.3" y="1046.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 主权、可复用模型</text>
+<text x="1094.3" y="1058.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 风险分层</text>
+<text x="1094.3" y="1070.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 气候与健康预测</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/secondary-use/" target="_top">
+<rect x="1280.6" y="1013.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1289.6" y="1030.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">二次利用</text>
+<text x="1289.6" y="1046.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 经整理、经同意、</text>
+<text x="1289.6" y="1058.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">去标识化摘录流向</text>
+<text x="1289.6" y="1070.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">进入 AI / ML 训练、</text>
+<text x="1289.6" y="1082.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">公益性分析、</text>
+<text x="1289.6" y="1094.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">绩效与公平、IHR /</text>
+<text x="1289.6" y="1106.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">IPS 报告</text>
+</a>
+<rect x="36.0" y="1157.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 1165 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="1175.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">DPI-H 共享数据层</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/client-registry-for-health/" target="_top">
+<rect x="48.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生服务对象登记系统</text>
+<text x="57.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 个人身份</text>
+<text x="57.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 卫生部门主患者</text>
+<text x="57.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">索引</text>
+<text x="57.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 唯一健康标识</text>
+<text x="57.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 身份核对</text>
+<text x="57.0" y="1278.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 记录关联</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/lifelong-health-record/" target="_top">
+<rect x="252.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="261.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">终身健康记录</text>
+<text x="261.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 健康记录</text>
+<text x="261.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 纵向记录</text>
+<text x="261.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 基于 FHIR 的存储</text>
+<text x="261.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 来源信息、版本管理</text>
+<text x="261.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 按同意范围的视图</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/health-workforce-registry/" target="_top">
+<rect x="456.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="465.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生人力登记系统</text>
+<text x="465.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 人力</text>
+<text x="465.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 经验证的服务提供者、</text>
+<text x="465.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">资质证书、执照发放</text>
+<text x="465.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 供 EMR、理赔、</text>
+<text x="465.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">监测</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/health-facility-registry/" target="_top">
+<rect x="660.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="669.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">卫生机构登记系统</text>
+<text x="669.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 位置</text>
+<text x="669.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 列出所有卫生</text>
+<text x="669.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">机构（公立 +</text>
+<text x="669.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">私立）</text>
+<text x="669.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 地理编码、所提供服务</text>
+<text x="669.0" y="1278.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 服务区域</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/product-registry/" target="_top">
+<rect x="864.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="873.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">产品登记系统</text>
+<text x="873.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 卫生产品</text>
+<text x="873.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 卫生产品、器械和</text>
+<text x="873.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">商品</text>
+<text x="873.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· GTIN · IDMP · UDI · GS1</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/terminology-service/" target="_top">
+<rect x="1068.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1077.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">术语服务</text>
+<text x="1077.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 语义——含义</text>
+<text x="1077.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 代码系统、值集与</text>
+<text x="1077.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">概念映射</text>
+<text x="1077.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· SNOMED · ICD · LOINC</text>
+<text x="1077.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 本地代码系统</text>
+<text x="1077.0" y="1278.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 参考值集</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/logical-information-model-repository/" target="_top">
+<rect x="1272.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1281.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">逻辑信息模型</text>
+<text x="1281.0" y="1217.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">存储库</text>
+<text x="1281.0" y="1233.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 语法——结构</text>
+<text x="1281.0" y="1245.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 结构性制品和</text>
+<text x="1281.0" y="1257.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">国家数据集</text>
+<text x="1281.0" y="1269.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· FHIR 配置文件 · eObjects ·</text>
+<text x="1281.0" y="1281.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  IPS</text>
+<text x="1281.0" y="1293.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 数据集</text>
+<text x="1281.0" y="1305.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 版本管理与管护</text>
+</a>
+<rect x="36.0" y="1345.0" width="1442.0" height="125.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 1353 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="1363.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">基础性 DPI（DPI-F）</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/foundational-identity/" target="_top">
+<rect x="48.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">基础身份</text>
+<text x="57.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· eKYC · MFA · 生物识别</text>
+<text x="57.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 国家/联合身份</text>
+<text x="57.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 人口登记</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/national-trust-services/" target="_top">
+<rect x="286.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="295.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">国家信任服务</text>
+<text x="295.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PKI</text>
+<text x="295.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 数字签名</text>
+<text x="295.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 可验证凭证</text>
+<text x="295.0" y="1442.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 证书颁发机构 · GDHCN</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/payment-rails/" target="_top">
+<rect x="524.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">支付通道</text>
+<text x="533.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 国库 · 快速支付</text>
+<text x="533.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 向服务提供者拨付</text>
+<text x="533.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 人力薪酬</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/data-exchange-fabric/" target="_top">
+<rect x="762.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="771.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">数据交换基础结构</text>
+<text x="771.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 跨部门</text>
+<text x="771.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 可扩展架构</text>
+<text x="771.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 经中介的 API 访问</text>
+<text x="771.0" y="1442.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 审计、限流、SLA</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/crvs-other-sector/" target="_top">
+<rect x="1000.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CRVS 与其他部门</text>
+<text x="1009.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 整体政府</text>
+<text x="1009.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 出生、死亡（死因：ICD）</text>
+<text x="1009.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 社会保护、教育</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/geo-location-notification/" target="_top">
+<rect x="1238.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1247.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">地理定位 · 通知</text>
+<text x="1247.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 跨部门数据 + 渠道</text>
+<text x="1247.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 通用地理登记 · 地址 · 短信</text>
+<text x="1247.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 电子邮件 · 推送</text>
+</a>
+<rect x="36.0" y="1482.0" width="1442.0" height="113.0" rx="8" fill="#dff1d4" stroke="#7d8f71" stroke-width="1.4"/>
+<path d="M36 1490 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#54614d"/>
+<text x="50.0" y="1500.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">技术</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/hybrid-sovereign-cloud/" target="_top">
+<rect x="48.0" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="57.0" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">混合云/主权云</text>
+<text x="57.0" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 公有、私有、本地部署</text>
+<text x="57.0" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 数据驻留 · 容器</text>
+<text x="57.0" y="1567.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Kubernetes · 边缘</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/ai-ml-platform/" target="_top">
+<rect x="333.6" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="342.6" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">AI / ML 平台</text>
+<text x="342.6" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 主权且负责任的 AI</text>
+<text x="342.6" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 模型注册库 · MLOps</text>
+<text x="342.6" y="1567.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 偏差监测</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/security-trust-operations/" target="_top">
+<rect x="619.2" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="628.2" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">安全与信任运营</text>
+<text x="628.2" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 零信任态势 · SIEM / SOAR</text>
+<text x="628.2" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IAM · HSM · 加密</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/data-platform/" target="_top">
+<rect x="904.8" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="913.8" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">数据平台</text>
+<text x="913.8" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 湖仓 + 数据仓库</text>
+<text x="913.8" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· ETL / ELT · MDM</text>
+<text x="913.8" y="1567.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 隐私保护</text>
+</a>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/observability-devsecops/" target="_top">
+<rect x="1190.4" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="1199.4" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">可观测性 · DevSecOps</text>
+<text x="1199.4" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 连接、SRE、CI/CD · 日志</text>
+<text x="1199.4" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 指标 · 追踪 · IaC</text>
+</a>
+<rect x="1494.0" y="82.0" width="270.0" height="1513.0" rx="10" fill="#d3ffff" stroke="#4c6b6b" stroke-width="2" stroke-dasharray="8 5"/>
+<path d="M1494 92 a10 10 0 0 1 10 -10 h250 a10 10 0 0 1 10 10 v26 h-270 z" fill="#4c6b6b"/>
+<text x="1629.0" y="106.0" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">互操作性（跨领域）</text>
+<a href="../../../zh/smart-trust-demo/archimate/0.1.0/element/dpi-f-information-mediator/" target="_top">
+<rect x="1506.0" y="122.0" width="246.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1515.0" y="139.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">DPI-F 信息中介</text>
+<text x="1515.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· API 网关 · HIE</text>
+<text x="1515.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 认证、授权、路由、</text>
+<text x="1515.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">转换，审计每笔交易</text>
+<text x="1515.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· 在可用时复用 DPI-F 基础结构</text>
+</a>
+<text x="1506.0" y="223.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">开放标准</text>
+<rect x="1506.0" y="231.0" width="62.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1537.4" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">HL7 FHIR</text>
+<rect x="1574.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1592.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IHE</text>
+<rect x="1615.6" y="231.0" width="57.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1644.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">openEHR</text>
+<rect x="1678.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1696.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IPS</text>
+<rect x="1506.0" y="255.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1540.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SNOMED CT</text>
+<rect x="1580.4" y="255.0" width="51.6" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1606.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">ICD-11</text>
+<rect x="1638.0" y="255.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1661.0" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">LOINC</text>
+<rect x="1506.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1543.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">GS1 / GTIN</text>
+<rect x="1586.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1623.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IDMP / UDI</text>
+<rect x="1666.0" y="279.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1700.2" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">CDS Hooks</text>
+<rect x="1506.0" y="303.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1551.4" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SMART on FHIR</text>
+<rect x="1602.8" y="303.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1653.8" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">OpenID / OAuth2</text>
+<rect x="1506.0" y="327.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1529.0" y="340.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">DICOM</text>
+<text x="1506.0" y="365.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">集成模式</text>
+<rect x="1506.0" y="373.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">REST API（FHIR R4）</text>
+<rect x="1636.4" y="373.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1681.8" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">事件流</text>
+<rect x="1506.0" y="397.0" width="96.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1554.2" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">文档（IHE）</text>
+<rect x="1608.4" y="397.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1659.4" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">联合查询</text>
+<rect x="1506.0" y="421.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="434.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">批量数据（$export）</text>
+<rect x="1506.0" y="445.0" width="141.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1576.6" y="458.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">跨境（IHR/IPS）</text>
+</svg>

@@ -98,7 +98,7 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Reference Architecture"
+          "@value": "Reference Architecture (DPI-H)"
         }
       ],
       "skos:altLabel": [
@@ -992,6 +992,11 @@
       ],
       "skos:notation": "VC",
       "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:closeMatch": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#verifiable-digital-health-certificate"
+        }
+      ],
       "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "skos:note": "candidate"
     },
@@ -1017,6 +1022,17 @@
         }
       ],
       "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "skos:narrowMatch": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#issuer"
+        },
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#holder"
+        },
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#receiver"
+        }
+      ],
       "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "skos:note": "candidate"
     },
@@ -1037,6 +1053,11 @@
         }
       ],
       "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:related": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#document-signer"
+        }
+      ],
       "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "skos:note": "candidate"
     },
@@ -1064,6 +1085,9 @@
       "skos:exactMatch": [
         {
           "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-key-infrastructure"
+        },
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#public-key-infrastructure-pki"
         }
       ],
       "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
@@ -1086,6 +1110,11 @@
         }
       ],
       "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "skos:related": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#trust-network-gateway---trust-anchor--tngta"
+        }
+      ],
       "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "skos:note": "candidate"
     },
@@ -1106,6 +1135,11 @@
         }
       ],
       "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:closeMatch": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#trust-lists"
+        }
+      ],
       "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "skos:note": "candidate"
     },
@@ -1133,6 +1167,9 @@
       "skos:exactMatch": [
         {
           "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-digital-health-certification-network"
+        },
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#gdhcn-trust-network"
         }
       ],
       "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
@@ -1158,6 +1195,11 @@
         }
       ],
       "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:related": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#holder"
+        }
+      ],
       "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
       "skos:note": "candidate"
     },

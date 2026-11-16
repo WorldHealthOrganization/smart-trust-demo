@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>J3 — Made official — user-scenario</title>
+<title>J3 — A foreign record used for the next vaccine — user-scenario</title>
 <style>
   :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
   @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
@@ -114,21 +114,21 @@
 <body data-fa-node-kind-page>
 <header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../../../index.html">SMART Trust demonstrator: journeys J1 to J4</a><span class="ig-topbar-ver">0.1.0 - ci-build</span><form class="ig-search" role="search" data-ig-search-index="../../../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header><p class="ig-version-banner" role="note">This page is part of the SMART Trust demonstrator: journeys J1 to J4 (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/trust-demo/history.html">Directory of published versions</a>.</p><script type="application/json" id="fa-rail" data-fa-root="../../../../../../.." data-fa-to-root="../../../../../../..">{"data":"rail-a873u7lqey","here":"/en/cat-harness-tools/user-scenario/smart-trust-demo/scenarios/user-scenarios/j3-made-official/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../">folio-assistant</a></nav>
 <main>
-<h1 id="nk-title">J3 — Made official</h1>
+<h1 id="nk-title">J3 — A foreign record used for the next vaccine</h1>
 <p class="m">A <a href="../../../../">user-scenario</a> node held by <a href="../../../">smart-trust-demo</a>, at <code>scenarios/user-scenarios/j3-made-official.json</code>.</p>
 
 <h2 id="fields">Fields</h2>
 <dl>
 <dt>$schema</dt><dd>user-scenario/0.3.0</dd>
 <dt>id</dt><dd>j3-made-official</dd>
-<dt>title</dt><dd>J3 — Made official</dd>
+<dt>title</dt><dd>J3 — A foreign record used for the next vaccine</dd>
 <dt>description</dt><dd>A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesan schedule.</dd>
 <dt>personas</dt><dd><pre>[
   &quot;chanthason&quot;,
   &quot;khamla-sengmany&quot;
 ]</pre></dd>
 <dt>follows</dt><dd>j2-found-at-home</dd>
-<dt>when</dt><dd>4 weeks later</dd>
+<dt>when</dt><dd>Somsak is 10 weeks old</dd>
 <dt>where</dt><dd>Lomaru District Health Center</dd>
 <dt>country</dt><dd>Onesa</dd>
 <dt>trustLadder</dt><dd>record-trust</dd>
@@ -137,7 +137,7 @@
     &quot;id&quot;: &quot;J3a&quot;,
     &quot;title&quot;: &quot;The clinic confirms the cards are genuine&quot;,
     &quot;headline&quot;: &quot;Nurse Chanthason scans the card, and her tablet checks Taifafeki’s digital signature against the WHO trust list — without contacting Taifafeki.&quot;,
-    &quot;when&quot;: &quot;T0 + 4 weeks&quot;,
+    &quot;when&quot;: &quot;T0 + 10 weeks&quot;,
     &quot;where&quot;: &quot;Lomaru District Health Center&quot;,
     &quot;touchpoint&quot;: &quot;Clinic tablet (verification)&quot;,
     &quot;preconditions&quot;: [
@@ -256,7 +256,7 @@
         &quot;change&quot;: &quot;primarySource flipped to true&quot;,
         &quot;why&quot;: &quot;A verified DVC is the signing hospital’s own record, so the dose now counts; the Taifafeki record it came from is unchanged.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaImmunization&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;Immunization/TrustDemoJ3HepB&quot;,
           &quot;Immunization/TrustDemoJ1HepB&quot;
@@ -268,7 +268,7 @@
         &quot;change&quot;: &quot;Created: author = Taifafeki MOPH, verifier = nurse&quot;,
         &quot;why&quot;: &quot;Anyone who later doubts a dose can follow it back to the signed certificate and Taifafeki’s key.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaDvcVerification&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;Provenance/TrustDemoJ3Verification&quot;
         ],
@@ -306,15 +306,15 @@
     &quot;id&quot;: &quot;J3b&quot;,
     &quot;title&quot;: &quot;Taifafeki vaccines are fitted to the Onesan schedule&quot;,
     &quot;headline&quot;: &quot;The Taifafeki Hep B product doesn’t match anything on the Onesan schedule. Chanthason makes the clinical call, and the system works out what’s due next.&quot;,
-    &quot;when&quot;: &quot;T0 + 4 weeks&quot;,
+    &quot;when&quot;: &quot;T0 + 10 weeks&quot;,
     &quot;where&quot;: &quot;Lomaru District Health Center&quot;,
     &quot;touchpoint&quot;: &quot;Clinic tablet (vaccine matching + schedule)&quot;,
-    &quot;narrative&quot;: &quot;The Taifafeki Hep B product matches nothing on the national schedule.\nThe EHR keeps Taifafeki&#39;s product coding and adds the schedule coding beside\nit, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\nthe map has no entry, so Nurse Chanthason makes the clinical call that it is\nthe schedule&#39;s birth dose (`TrustDemoJ3Adjudication`), and her decision is\nadded to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\nthen runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\nat 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\nmeasles-rubella at 9 months, in Onesa.&quot;,
+    &quot;narrative&quot;: &quot;The Taifafeki Hep B product matches nothing on the national schedule.\nThe EHR keeps Taifafeki&#39;s product coding and adds the schedule coding beside\nit, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\nthe map has no entry, so Nurse Chanthason makes the clinical call that it is\nthe schedule&#39;s birth dose (`TrustDemoJ3Adjudication`), and her decision is\nadded to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\nthen runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\nChanthason gives them that day. Khamla leaves with the date of the next doses\n(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\nmeasles-rubella at 9 months, in Onesa.&quot;,
     &quot;lead&quot;: &quot;chanthason&quot;,
     &quot;experiences&quot;: [
       {
         &quot;actor&quot;: &quot;chanthason&quot;,
-        &quot;doing&quot;: &quot;Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines.&quot;,
+        &quot;doing&quot;: &quot;Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines.&quot;,
         &quot;feeling&quot;: &quot;“Different name, same vaccine — I can make that call.”&quot;,
         &quot;emotion&quot;: 1
       },
@@ -374,7 +374,7 @@
       },
       {
         &quot;block&quot;: &quot;plandefinition&quot;,
-        &quot;role&quot;: &quot;Onesan schedule logic calculates the 6-week doses&quot;
+        &quot;role&quot;: &quot;Onesan schedule logic finds the 6-week doses overdue&quot;
       },
       {
         &quot;block&quot;: &quot;ohs-fhir-sdk&quot;,
@@ -414,7 +414,7 @@
         &quot;change&quot;: &quot;Onesan EPI code added; PreQual code kept&quot;,
         &quot;why&quot;: &quot;The Onesan schedule runs on Onesan EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaImmunization&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;Immunization/TrustDemoJ3HepB&quot;,
           &quot;Immunization/TrustDemoJ1HepB&quot;
@@ -433,8 +433,8 @@
       },
       {
         &quot;resource&quot;: &quot;Task / Appointment&quot;,
-        &quot;change&quot;: &quot;6-week pentavalent booked&quot;,
-        &quot;why&quot;: &quot;The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back.&quot;,
+        &quot;change&quot;: &quot;Overdue 6-week doses given&quot;,
+        &quot;why&quot;: &quot;The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones.&quot;,
         &quot;examples&quot;: [
           &quot;PlanDefinition/TrustDemoOnesaInfantSchedule&quot;,
           &quot;Task/TrustDemoJ3Reminder&quot;

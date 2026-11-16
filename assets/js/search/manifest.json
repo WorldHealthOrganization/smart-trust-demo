@@ -2,66 +2,66 @@
   "$schema": "folio-search-manifest/v1",
   "source": {
     "path": "assets/js/search-data.json",
-    "sha256": "0cebf022626972d9e3ead13973af4e453fff6e27fce607a22b756e3b3acdf95f",
-    "entries": 1114,
-    "bytes": 1845048
+    "sha256": "518046f3c913b22b08f72df21f2562dee9e66231f1fc6bf4befe086b7ef05950",
+    "entries": 1173,
+    "bytes": 2282586
   },
   "scopes": [
     {
       "id": "_platform",
       "kind": "platform",
       "path": "assets/js/search/_platform.json",
-      "entries": 54,
-      "bytes": 223851
+      "entries": 70,
+      "bytes": 269903
     },
     {
       "id": "cat-harness",
       "kind": "instance",
       "path": "assets/js/search/cat-harness.json",
       "entries": 291,
-      "bytes": 574728
+      "bytes": 574803
     },
     {
       "id": "folio-assistant-core",
       "kind": "instance",
       "path": "assets/js/search/folio-assistant-core.json",
-      "entries": 654,
-      "bytes": 430273
+      "entries": 657,
+      "bytes": 432301
     },
     {
       "id": "locale-ar",
       "kind": "locale",
       "path": "assets/js/search/locale-ar.json",
-      "entries": 23,
-      "bytes": 130849
+      "entries": 31,
+      "bytes": 218437
     },
     {
       "id": "locale-es",
       "kind": "locale",
       "path": "assets/js/search/locale-es.json",
-      "entries": 23,
-      "bytes": 104531
+      "entries": 31,
+      "bytes": 173245
     },
     {
       "id": "locale-fr",
       "kind": "locale",
       "path": "assets/js/search/locale-fr.json",
-      "entries": 23,
-      "bytes": 107135
+      "entries": 31,
+      "bytes": 179113
     },
     {
       "id": "locale-ru",
       "kind": "locale",
       "path": "assets/js/search/locale-ru.json",
-      "entries": 23,
-      "bytes": 150386
+      "entries": 31,
+      "bytes": 249531
     },
     {
       "id": "locale-zh",
       "kind": "locale",
       "path": "assets/js/search/locale-zh.json",
-      "entries": 23,
-      "bytes": 90602
+      "entries": 31,
+      "bytes": 150767
     }
   ],
   "remote": [

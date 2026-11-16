@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>J2 — Found at home — user-scenario</title>
+<title>J2 — Found and registered — user-scenario</title>
 <style>
   :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
   @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
@@ -114,14 +114,14 @@
 <body data-fa-node-kind-page>
 <header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../../../index.html">SMART Trust demonstrator: journeys J1 to J4</a><span class="ig-topbar-ver">0.1.0 - ci-build</span><form class="ig-search" role="search" data-ig-search-index="../../../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header><p class="ig-version-banner" role="note">This page is part of the SMART Trust demonstrator: journeys J1 to J4 (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/trust-demo/history.html">Directory of published versions</a>.</p><script type="application/json" id="fa-rail" data-fa-root="../../../../../../.." data-fa-to-root="../../../../../../..">{"data":"rail-oq2dfruju9","here":"/en/cat-harness-tools/user-scenario/smart-trust-demo/scenarios/user-scenarios/j2-found-at-home/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../">folio-assistant</a></nav>
 <main>
-<h1 id="nk-title">J2 — Found at home</h1>
+<h1 id="nk-title">J2 — Found and registered</h1>
 <p class="m">A <a href="../../../../">user-scenario</a> node held by <a href="../../../">smart-trust-demo</a>, at <code>scenarios/user-scenarios/j2-found-at-home.json</code>.</p>
 
 <h2 id="fields">Fields</h2>
 <dl>
 <dt>$schema</dt><dd>user-scenario/0.3.0</dd>
 <dt>id</dt><dd>j2-found-at-home</dd>
-<dt>title</dt><dd>J2 — Found at home</dd>
+<dt>title</dt><dd>J2 — Found and registered</dd>
 <dt>description</dt><dd>A health worker registers him offline and records the cards as &quot;reported, not yet verified&quot;.</dd>
 <dt>personas</dt><dd><pre>[
   &quot;vilay&quot;,
@@ -130,7 +130,7 @@
   &quot;bounmy-sengmany&quot;
 ]</pre></dd>
 <dt>follows</dt><dd>j1-born-abroad</dd>
-<dt>when</dt><dd>3 weeks later</dd>
+<dt>when</dt><dd>Somsak is 7 weeks old</dd>
 <dt>where</dt><dd>Onesa</dd>
 <dt>country</dt><dd>Onesa</dd>
 <dt>trustLadder</dt><dd>record-trust</dd>
@@ -139,10 +139,10 @@
     &quot;id&quot;: &quot;J2a&quot;,
     &quot;title&quot;: &quot;A health worker finds the baby — and reads his cards&quot;,
     &quot;headline&quot;: &quot;On a routine village visit, Vilay finds a newborn the Onesan system doesn’t know exists. She can read the vaccines on his cards, but she can’t prove they are genuine.&quot;,
-    &quot;when&quot;: &quot;T0 + 3 weeks&quot;,
+    &quot;when&quot;: &quot;T0 + 7 weeks&quot;,
     &quot;where&quot;: &quot;Catchment Village 04&quot;,
     &quot;touchpoint&quot;: &quot;Offline phone app (QR scan)&quot;,
-    &quot;narrative&quot;: &quot;On a routine visit to Village 04, Vilay finds a newborn the Onesan\nsystem does not know exists. Her phone has had no signal for weeks. Khamla\nshows the two cards. The CHW app reads them with **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\nlist. It shows the doses, but checks no signature and saves nothing yet.&quot;,
+    &quot;narrative&quot;: &quot;Khamla has brought Somsak home to Onesa. On a routine visit to Village 04,\nKhamla&#39;s village, Vilay finds a newborn the Onesan\nsystem does not know exists. Her phone has had no signal for weeks. Khamla\nshows the two cards. The CHW app reads them with **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\nlist. It shows the doses, but checks no signature and saves nothing yet.&quot;,
     &quot;lead&quot;: &quot;vilay&quot;,
     &quot;experiences&quot;: [
       {
@@ -237,7 +237,7 @@
     &quot;id&quot;: &quot;J2b&quot;,
     &quot;title&quot;: &quot;Registered at home, and referred&quot;,
     &quot;headline&quot;: &quot;With no signal, Vilay adds Somsak to his household, saves his doses as “reported”, and refers the family to the clinic.&quot;,
-    &quot;when&quot;: &quot;T0 + 3 weeks&quot;,
+    &quot;when&quot;: &quot;T0 + 7 weeks&quot;,
     &quot;where&quot;: &quot;Catchment Village 04&quot;,
     &quot;touchpoint&quot;: &quot;Offline phone app (household form + referral)&quot;,
     &quot;narrative&quot;: &quot;On the CHW app&#39;s newborn form (structured data capture,\n`TrustDemoHouseholdRegistration`) she adds Somsak to the Sengmany household\n(`TrustDemoHousehold`), with a temporary id. Bounmy confirms the details as\nhead of household. The app saves the doses read from the cards as reported by\nthe family, not verified (`TrustDemoJ2HepBReported`, `TrustDemoJ2BcgReported`:\n`primarySource` false). Vilay refers Somsak to the district health center\n(`TrustDemoJ2Referral`). Everything stays queued on the phone, for 28 days if\nneed be, and syncs when it next reaches a signal.&quot;,
@@ -340,7 +340,7 @@
         &quot;change&quot;: &quot;Created with a temporary Onesan ID&quot;,
         &quot;why&quot;: &quot;He is not in the Onesan civil registry yet; a temporary id lets the CHW, clinic and portal all mean the same child. Taifafeki only gave him a hospital number.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaPatient&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;Patient/TrustDemoSomsak&quot;,
           &quot;Patient/TrustDemoTaifafekiSomsak&quot;
@@ -352,7 +352,7 @@
         &quot;change&quot;: &quot;Somsak added as member&quot;,
         &quot;why&quot;: &quot;CHW work is organised by household: the roster is how a missing newborn is noticed.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaHousehold&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;Group/TrustDemoHousehold&quot;
         ],
@@ -363,7 +363,7 @@
         &quot;change&quot;: &quot;The registration form, answered offline (SDC)&quot;,
         &quot;why&quot;: &quot;The form is configuration, not code; keeping the answers lets every extracted record trace back to what was asked.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaRegistration&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;QuestionnaireResponse/TrustDemoJ2Registration&quot;,
           &quot;Questionnaire/TrustDemoHouseholdRegistration&quot;
@@ -375,7 +375,7 @@
         &quot;change&quot;: &quot;Created as primarySource = false&quot;,
         &quot;why&quot;: &quot;Read without checking the signature, so kept as reported: not lost, but not counted by the schedule yet.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaReportedImmunization&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;Immunization/TrustDemoJ2HepBReported&quot;,
           &quot;Immunization/TrustDemoJ1HepB&quot;
@@ -387,7 +387,7 @@
         &quot;change&quot;: &quot;Referral to District Health Center&quot;,
         &quot;why&quot;: &quot;The phone cannot verify a DVC but the clinic can; the referral points at exactly the doses to check.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaReferral&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;ServiceRequest/TrustDemoJ2Referral&quot;
         ],

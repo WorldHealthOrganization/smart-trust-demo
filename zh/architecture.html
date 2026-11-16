@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh" dir="ltr">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<script type="application/json" id="fa-translation-meta">{"lang":"zh","translationStatus":"unverified","translationSource":"architecture.html","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":["en","ar","es","fr","ru","zh"]}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Architecture (ArchiMate) — SMART Trust demonstrator: journeys J1 to J4</title>
+<link rel="canonical" href="../zh/architecture.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Trust demonstrator: journeys J1 to J4">
+<link rel="stylesheet" href="../assets/page-layout.css" data-fa-page-layout>
+<script src="../assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="../assets/ig-artifact.css">
+<link rel="stylesheet" href="../assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="../assets/navbar/row-2acuhncsmbg.js" defer></script><script src="../assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<style data-ig-version-chrome>.ig-topbar-head{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem}.ig-topbar-head .ig-topbar-home{flex:none}.ig-topbar-ver{font-weight:400;font-size:.9em;opacity:.95;white-space:nowrap}.ig-topbar-flag{font-size:1.1em}.ig-version-banner{box-sizing:border-box;margin:0;padding:.5rem 1.5rem;background:#ffffa0;color:#222;border-bottom:1px solid #0a0008;font-size:.95rem;line-height:1.45}.ig-version-banner a{color:#1a4b8c;text-decoration:underline}html:not([data-fa-scheme="light"]) .ig-version-banner{background:#4a4520;color:#fff8d0;border-color:#8a7d2a}html:not([data-fa-scheme="light"]) .ig-version-banner a{color:#ffe680}.ig-metadata{border-collapse:collapse;margin:0 0 1rem;font-size:.95rem}.ig-metadata td{border:1px solid #c8c8c8;padding:.25rem .6rem;vertical-align:top}.ig-metadata code{overflow-wrap:anywhere}</style><link rel="stylesheet" href="../assets/css/navbar.css"><script src="../assets/navbar/rail-3v8loi77pj.js" defer></script><script src="../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../assets/css/navbar-row.css"><script src="../assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content=".."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root=".." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="..">{"data":"rail-3v8loi77pj","here":"/zh/architecture.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../">SMART Trust demonstrator: journeys J1 to J4</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Trust demonstrator: journeys J1 to J4 menu"><span class="ig-topbar-head"><a class="ig-topbar-home" href="../index.html">SMART Trust demonstrator: journeys J1 to J4</a><span class="ig-topbar-ver">0.1.0 - ci-build</span></span><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li></ul></details><details class="ig-topbar-group"><summary>Project</summary><ul><li><a href="../journeys.html">Journeys J1 to J4</a></li><li><a href="../workshop.html">Workshop Modules (M and T)</a></li><li><a href="../module-journey-map.html">Module × Journey Map</a></li><li><a href="../narrative-discrepancies.html">Narrative Discrepancies</a></li><li><a href="../technical-changes.html">Technical Track and Demo App Changes</a></li><li><a href="../country-canvas.html">Country Canvas</a></li><li><a href="../glossary.html">Glossary</a></li><li><a href="../countries.html">Fictional Countries</a></li><li><a href="../journey-examples.html">Journey Examples</a></li><li><a href="../architecture.html">Architecture (ArchiMate)</a></li><li><a href="../plan.html">Plan</a></li><li><a href="../proposal-app-platform.html">App Platform Proposal</a></li><li><a href="../dependencies.html">Dependency Register</a></li><li><a href="../upstream-who-smart-trust-phw-receive-a-vhl.html">Upstream Issue (smart-trust-phw)</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicators and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div><p class="ig-version-banner" role="note">This page is part of the SMART Trust demonstrator: journeys J1 to J4 (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/trust-demo/history.html">Directory of published versions</a>.</p>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="zh" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>机器翻译——未经人工审校</strong></p><p class="ig-tr-notice__body">本页面为自动翻译。尚无任何人审校或裁定此译文，可能存在错误。以源语言页面为准。 <a class="ig-tr-notice__source" href="../architecture.html">阅读原文（英文）</a></p></div><div class="ig-tr-notice__lang" lang="en" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>Machine translation — not reviewed by a person</strong></p><p class="ig-tr-notice__body">This page was translated automatically. No person has reviewed or adjudicated this translation, and it may contain errors. The source-language page is the authoritative text. <a class="ig-tr-notice__source" href="../architecture.html">Read the original (English)</a></p></div></div>
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<div class="ig-tr-unreviewed" data-tr-catalogue="architecture" data-tr-label="未经人工审校">
+
+  <!-- Generated by tools/ig-gen/ig_gen.py from docs/architecture.md. Do not edit; edit the source and rerun. -->
+
+  <!-- translations: architecture -->
+
+  <p>The journeys and systems of this demonstrator, drawn as an ArchiMate overlay
+on the <a href="https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html">Reference Architecture (DPI-H)</a>’s
+own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA’s elements are
+unchanged and keep their ids, so each RA box here is the element
+<a href="https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/archimate/0.3.0-draft.1/">smart-ra publishes</a>.
+The overlay adds:</p>
+
+  <ul>
+    <li>旅程 J1 至 J4.1（用例），作为业务流程，每个 <a href="https://worldhealthorganization.github.io/smart-trust-demo/business-processes.html">BPMN 流程</a>对应一个；</li>
+    <li>参与的人物，作为业务角色，分配给其 BPMN 中包含其泳道的旅程；</li>
+    <li>上述每个角色与其所属的 RA 利益相关方相关联：照护者关联 Citizens / Care recipients（公民 / 照护对象），临床医生和社区卫生工作者关联 Health Workers（卫生工作者）（角色和利益相关方是不同的元素类型，因此 ArchiMate 允许关联关系，而非特化关系）；</li>
+    <li>泰法费基和奥内萨的系统，服务于其参与的旅程，每个系统包含其部件，每个部件按其功能命名（Patient record（患者记录）、Smart forms (SDC)（智能表单）、Health workforce registry (CHWs, nurses)（卫生人力登记系统，含 CHW、护士））；家庭共用手机是一个技术设备，它实现其上的钱包应用，而不是软件；</li>
+    <li>对每个国家，为其部件所承担的每个 RA 构建块绘制该国自己的实例，例如 Provider Systems (Taifafeki) 和 Provider Systems (Onesa)：泰法费基和奥内萨（Onesa）是不同的司法管辖区，因此泰法费基的部件实现泰法费基的实例，正如 RA 将一个具体系统画为实现其所承担的组件（其表 3.3），而该实例是 RA 构建块的特化；</li>
+    <li>两国交汇之处，作为其部件之间的流关系和触发关系，读取自 BPMN：J1 打印、由家人带到 J2 和 J3 的纸质 DVC；在 J4.1 中，家庭手机向泰法费基诊所出示的 VHL QR 码、诊所向奥内萨网关发出的已签名 ITI-YY5 清单请求，以及网关返回的清单，该次访问记录在 Onesa；</li>
+    <li>两国之间只放置它们共享的内容：WHO GDHCN 及其所实现的 WHO SMART Trust 规范；</li>
+    <li>RA 自身的构建块，通用且不属于任何国家，在每个旅程的视图中位于两国下方的独立区带中；</li>
+    <li>每个旅程对其所运用的 RA 能力的实现。</li>
+  </ul>
+
+  <p>每条连线都以正交方式穿过方框之间的空隙，从不穿过方框，并终止于方框上不遮挡其类型标签的一侧。</p>
+
+  <p>每个元素都注明其在<a href="https://github.com/litlfred/smart-trust-demo/blob/main/glossary/architecture.glossary.json">术语表</a>（<code class="language-plaintext highlighter-rouge">skosConcept</code>）中的概念，术语表与模型取自相同来源；每个角色和系统都注明其所实现的 FHIR <code class="language-plaintext highlighter-rouge">ActorDefinition</code>（<code class="language-plaintext highlighter-rouge">fhir-actor</code>）。</p>
+
+  <p>图中每个方框都链接到其元素的页面。<a href="../en/smart-trust-demo/archimate/0.1.0/">所有视图和元素</a>。</p>
+
+  <h3 id="section">集成视图上的系统</h3>
+
+  <p>分为两栏：左侧为泰法费基，右侧为 Onesa。在每一栏中，该国的系统按其所服务的第一个旅程的顺序自上而下排列，每个系统包含其部件，每个部件在自己的方框内以标签（如 «Provider Systems»）注明其承担的 DPI-H RA 构建块。系统中与另一国或 GDHCN 交汇的部件位于朝向中间的一侧，每个泰法费基系统与其交汇的第一个奥内萨系统保持水平对齐，因此两国交汇处的虚线横向贯穿。两栏之间只放置双方共享的内容：WHO GDHCN 和 SMART Trust 规范。各国的 RA 构建块实例、部件对它们的实现以及 RA 自身的构建块都在模型中，并绘制在每个旅程的视图里，从而使本视图保持紧凑、连线较少。</p>
+
+  <p><a href="../en/smart-trust-demo/archimate/0.1.0/view/smart-trust-demo-on-the-dpi-h-integrated-view/">DPI-H 集成视图上的系统</a></p>
+
+  <h3 id="section-1">旅程（用例）</h3>
+
+  <p><a href="../en/smart-trust-demo/archimate/0.1.0/view/smart-trust-demo-journeys-use-cases/">旅程、人物与能力</a></p>
+
+  <h3 id="section-2">每个旅程一个视图</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>旅程</th>
+        <th>视图</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>J1 签发出生剂次 DVC</td>
+        <td><a href="../en/smart-trust-demo/archimate/0.1.0/view/j1-on-the-dpi-h-ra/">DPI-H RA 上的 J1</a></td>
+      </tr>
+      <tr>
+        <td>J2 发现并转诊婴儿</td>
+        <td><a href="../en/smart-trust-demo/archimate/0.1.0/view/j2-on-the-dpi-h-ra/">DPI-H RA 上的 J2</a></td>
+      </tr>
+      <tr>
+        <td>J3 验证、导入并制定接种计划</td>
+        <td><a href="../en/smart-trust-demo/archimate/0.1.0/view/j3-on-the-dpi-h-ra/">DPI-H RA 上的 J3</a></td>
+      </tr>
+      <tr>
+        <td>J4.0 签发家庭的 VHL</td>
+        <td><a href="../en/smart-trust-demo/archimate/0.1.0/view/j4-0-on-the-dpi-h-ra/">DPI-H RA 上的 J4.0</a></td>
+      </tr>
+      <tr>
+        <td>J4.1 在医疗服务点读取记录</td>
+        <td><a href="../en/smart-trust-demo/archimate/0.1.0/view/j4-1-on-the-dpi-h-ra/">DPI-H RA 上的 J4.1</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 id="section-3">制作方式</h3>
+
+  <p>该模型是生成的，而非手绘：<code class="language-plaintext highlighter-rouge">python3 -I tools/archimate/build.py</code> 按 <code class="language-plaintext highlighter-rouge">tools/archimate/smart-ra.lock.json</code> 中的提交获取 smart-ra 的模型及其 <code class="language-plaintext highlighter-rouge">add_views.py</code>（已校验 sha256），应用 <code class="language-plaintext highlighter-rouge">tools/archimate/overlay.py</code>，重新布局叠加图的各视图并在方框之间留出空间，将每条连线以正交方式布设为 Archi 折点（<code class="language-plaintext highlighter-rouge">tools/archimate/layout.py</code>），然后写出 <code class="language-plaintext highlighter-rouge">archimate/0.1.0/smart-trust-demo.archimate</code>。旅程及其人物读取自 <code class="language-plaintext highlighter-rouge">processes/content/</code> 和 <code class="language-plaintext highlighter-rouge">scenarios/roles.json</code>，两国交汇之处读取自 BPMN 的顺序流；系统是 <code class="language-plaintext highlighter-rouge">scenarios/actors/</code> 的系统行动者，其部件是每个行动者的 <code class="language-plaintext highlighter-rouge">meta.parts</code>（最初绘制为 VaxLink 的架构视图）。<code class="language-plaintext highlighter-rouge">tools/ig-gen/ig_gen.py</code> 从相同来源写出术语表。如果已提交的模型与构建结果不一致，CI 将失败。这些图由 cat-harness 的 <code class="language-plaintext highlighter-rouge">archimate</code> 子图绘制：无需 Archi，也无需 Java。</p>
+
+</div>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/architecture.md" data-repo="WorldHealthOrganization/smart-trust-demo" href="https://github.com/WorldHealthOrganization/smart-trust-demo/edit/main/input/pagecontent/architecture.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/architecture.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/architecture.md", "lines": [{"t":"Systems on the Integrated View","l":54},{"t":"Journeys (use cases)","l":70},{"t":"One view per journey","l":74},{"t":"How it is made","l":84}]}</script>
+
+<script src="../assets/ig-source-links.js"></script>
+
+
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
+<script>(function(){
+var main=document.getElementById("main-content");
+if(!main||main.querySelector(".igi-contents"))return;
+var rowsOf=function igContentsRows(hs) {
+  let top = 0;
+  for (const h of hs)
+    if (h.level >= 2 && h.level <= 4 && (top === 0 || h.level < top))
+      top = h.level;
+  if (top === 0)
+    return [];
+  const rows = [];
+  let count = 0;
+  for (const h of hs)
+    if (h.level === top) {
+      rows.push({ i: h.i, sub: [] });
+      count++;
+    } else if (h.level === top + 1) {
+      const last = rows[rows.length - 1];
+      if (last)
+        last.sub.push(h.i);
+      else
+        rows.push({ i: h.i, sub: [] });
+      count++;
+    }
+  return count < 2 ? [] : rows;
+};
+var hs=Array.prototype.filter.call(main.querySelectorAll("h2,h3,h4"),function(h){return !h.closest(".igi-contents,#ig-footer,.ig-edit,.ig-metadata")&&h.textContent.trim();});
+var rows=rowsOf(hs.map(function(h,i){return {level:+h.tagName.charAt(1),i:i};}));
+if(!rows.length)return;
+var used={};
+function slug(t){var b=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"section",s=b,i=1;while(used[s]||document.getElementById(s))s=b+"-"+(++i);used[s]=1;return s;}
+function item(h){if(!h.id)h.id=slug(h.textContent);var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;
+var c=h.cloneNode(true);Array.prototype.forEach.call(c.querySelectorAll(".anchor-heading,.fa-sec-box,svg,button"),function(n){n.remove();});
+a.textContent=c.textContent.replace(/\s+/g," ").trim();li.appendChild(a);return li;}
+var nav=document.createElement("nav");nav.className="igi-contents";nav.setAttribute("aria-label","Contents");
+var t=document.createElement("p");t.className="igi-contents-title";t.textContent="Contents";nav.appendChild(t);
+var ul=document.createElement("ul");
+rows.forEach(function(r){var li=item(hs[r.i]);if(r.sub.length){var sub=document.createElement("ul");sub.className="igi-contents-sub";r.sub.forEach(function(k){sub.appendChild(item(hs[k]));});li.appendChild(sub);}ul.appendChild(li);});
+nav.appendChild(ul);
+var h1=main.querySelector("h1"),meta=main.querySelector(":scope > .ig-metadata");
+if(h1&&h1.parentNode===main)h1.insertAdjacentElement("afterend",nav);else if(meta)meta.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.firstChild);
+})();</script>
+</main>
+
+</body>
+</html>

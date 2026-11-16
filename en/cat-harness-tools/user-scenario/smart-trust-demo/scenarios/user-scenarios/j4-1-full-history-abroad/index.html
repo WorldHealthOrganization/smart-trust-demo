@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>J4.1 — Crossing back: a Taifafeki doctor sees the full history — user-scenario</title>
+<title>J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history — user-scenario</title>
 <style>
   :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
   @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
@@ -114,14 +114,14 @@
 <body data-fa-node-kind-page>
 <header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../../../index.html">SMART Trust demonstrator: journeys J1 to J4</a><span class="ig-topbar-ver">0.1.0 - ci-build</span><form class="ig-search" role="search" data-ig-search-index="../../../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header><p class="ig-version-banner" role="note">This page is part of the SMART Trust demonstrator: journeys J1 to J4 (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/trust-demo/history.html">Directory of published versions</a>.</p><script type="application/json" id="fa-rail" data-fa-root="../../../../../../.." data-fa-to-root="../../../../../../..">{"data":"rail-8hn69osrrz","here":"/en/cat-harness-tools/user-scenario/smart-trust-demo/scenarios/user-scenarios/j4-1-full-history-abroad/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../">folio-assistant</a></nav>
 <main>
-<h1 id="nk-title">J4.1 — Crossing back: a Taifafeki doctor sees the full history</h1>
+<h1 id="nk-title">J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history</h1>
 <p class="m">A <a href="../../../../">user-scenario</a> node held by <a href="../../../">smart-trust-demo</a>, at <code>scenarios/user-scenarios/j4-1-full-history-abroad.json</code>.</p>
 
 <h2 id="fields">Fields</h2>
 <dl>
 <dt>$schema</dt><dd>user-scenario/0.3.0</dd>
 <dt>id</dt><dd>j4-1-full-history-abroad</dd>
-<dt>title</dt><dd>J4.1 — Crossing back: a Taifafeki doctor sees the full history</dd>
+<dt>title</dt><dd>J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history</dd>
 <dt>description</dt><dd>Back where it all began, Dr. Anan scans the link, hears the passcode, and sees Somsak’s whole first year — and Onesa is told who looked.</dd>
 <dt>personas</dt><dd><pre>[
   &quot;anan&quot;,
@@ -139,7 +139,7 @@
     &quot;title&quot;: &quot;A Taifafeki doctor sees the full history&quot;,
     &quot;headline&quot;: &quot;Back where it all began, Dr. Anan scans the link, hears the passcode, and sees Somsak’s whole first year — and Onesa is told who looked.&quot;,
     &quot;when&quot;: &quot;T0 + 12 months&quot;,
-    &quot;where&quot;: &quot;Kesaro primary care clinic&quot;,
+    &quot;where&quot;: &quot;Kesaro paediatric clinic&quot;,
     &quot;touchpoint&quot;: &quot;Clinic viewer (scan link + passcode)&quot;,
     &quot;preconditions&quot;: [
       {
@@ -153,7 +153,7 @@
         ]
       }
     ],
-    &quot;narrative&quot;: &quot;Back where it began, Dr Anan sees Somsak at a primary care clinic in\nKesaro. Bounmy shows the QR on his phone and says the passcode. The\nclinic viewer and the Onesan gateway take five steps:\n\n1. The viewer verifies the HCERT against Country B&#39;s DSC in its copy of the trust list.\n2. It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n3. The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n4. The viewer decrypts the IPS and DVCs (STT-VHL-007) (`TrustDemoJ41Received`).\n5. It shows them to Dr Anan: every dose since the birth, viewed, never copied.\n\nA wrong passcode is refused, and the attempt is still logged in Onesa\n(`TrustDemoJ41WrongPasscode`). If the HCERT does not verify (for example,\nCountry B&#39;s DSC is missing from the cached list), there is no digital\nverification. The clinic names the step and the reason (STT-VER-008), does not\nfollow the VHL, and Dr Anan treats whatever the family can show as he\nwould a paper record.&quot;,
+    &quot;narrative&quot;: &quot;Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric\nclinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The\nclinic viewer and the Onesan gateway take five steps:\n\n1. The viewer verifies the HCERT against Country B&#39;s DSC in its copy of the trust list.\n2. It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n3. The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n4. The viewer decrypts the IPS and DVCs (STT-VHL-007) (`TrustDemoJ41Received`).\n5. It shows them to Dr Anan: every dose since the birth, viewed, never copied.\n\nA wrong passcode is refused, and the attempt is still logged in Onesa\n(`TrustDemoJ41WrongPasscode`). If the HCERT does not verify (for example,\nCountry B&#39;s DSC is missing from the cached list), there is no digital\nverification. The clinic names the step and the reason (STT-VER-008), does not\nfollow the VHL, and Dr Anan treats whatever the family can show as he\nwould a paper record.&quot;,
     &quot;lead&quot;: &quot;anan&quot;,
     &quot;experiences&quot;: [
       {
@@ -294,7 +294,7 @@
         &quot;change&quot;: &quot;Created at Onesan Info Gateway&quot;,
         &quot;why&quot;: &quot;The data stays home, so the access log does too: the family can see who looked, from where and when.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaVhlAccess&quot;,
-        &quot;profileOf&quot;: &quot;XXK&quot;,
+        &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
           &quot;AuditEvent/TrustDemoJ41Access&quot;,
           &quot;AuditEvent/TrustDemoJ41WrongPasscode&quot;

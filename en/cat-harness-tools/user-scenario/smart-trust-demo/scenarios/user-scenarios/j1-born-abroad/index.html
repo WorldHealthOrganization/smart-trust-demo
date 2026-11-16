@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>J1 — Born abroad — user-scenario</title>
+<title>J1 — Vaccinated and recorded — user-scenario</title>
 <style>
   :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
   @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
@@ -114,14 +114,14 @@
 <body data-fa-node-kind-page>
 <header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../../../index.html">SMART Trust demonstrator: journeys J1 to J4</a><span class="ig-topbar-ver">0.1.0 - ci-build</span><form class="ig-search" role="search" data-ig-search-index="../../../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header><p class="ig-version-banner" role="note">This page is part of the SMART Trust demonstrator: journeys J1 to J4 (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/trust-demo/history.html">Directory of published versions</a>.</p><script type="application/json" id="fa-rail" data-fa-root="../../../../../../.." data-fa-to-root="../../../../../../..">{"data":"rail-1lw3jpj967b","here":"/en/cat-harness-tools/user-scenario/smart-trust-demo/scenarios/user-scenarios/j1-born-abroad/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../">folio-assistant</a></nav>
 <main>
-<h1 id="nk-title">J1 — Born abroad</h1>
+<h1 id="nk-title">J1 — Vaccinated and recorded</h1>
 <p class="m">A <a href="../../../../">user-scenario</a> node held by <a href="../../../">smart-trust-demo</a>, at <code>scenarios/user-scenarios/j1-born-abroad.json</code>.</p>
 
 <h2 id="fields">Fields</h2>
 <dl>
 <dt>$schema</dt><dd>user-scenario/0.3.0</dd>
 <dt>id</dt><dd>j1-born-abroad</dd>
-<dt>title</dt><dd>J1 — Born abroad</dd>
+<dt>title</dt><dd>J1 — Vaccinated and recorded</dd>
 <dt>description</dt><dd>An Onesan baby gets his first vaccines in Taifafeki and leaves with signed paper cards.</dd>
 <dt>personas</dt><dd><pre>[
   &quot;anan&quot;,
@@ -149,7 +149,7 @@
         ]
       }
     ],
-    &quot;narrative&quot;: &quot;Khamla gives birth to Somsak on 2025-10-28 at Kesaro Provincial\nHospital, away from home. He has no Taifafeki identity number. Dr Anan gives the\nHep B and BCG birth doses and records them with their WHO PreQual product\ncodes. For each dose, the hospital system does three things:\n\n1. It builds a DVCMinPreQual payload: STT-PAY-001…005 and STT-PAY-007, with subclaim −6 (STT-SEL-003). No identity document is needed (STT-PAY-005).\n2. It prepares the CWT and the bytes to sign: STT-CWT-001…005, STT-ISS-004.\n3. It has XXR&#39;s key sign them (STT-COS-002, STT-COS-006), then finishes the HC1 text: STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001, STT-QR-001.\n\nKhamla leaves with two paper DVCs.\n*In the demo:* the library tests use the WHO guide&#39;s own two signed HC1\nstrings ([QR Code Generation §12](https://smart.who.int/trust/qr_code_generation.html)),\nwhich verify against the live DEV trust list under the same XXR key. Somsak&#39;s\nDVC payloads are illustrative. Live issuance in the app uses a\nTEST-ONLY key (STT-ISS-003), whose DSC is not on the GDHCN list, so its DVCs\ndo not verify in J3.&quot;,
+    &quot;narrative&quot;: &quot;Khamla, an Onesan who works in Taifafeki, gives birth to Somsak on 2025-10-28\nat Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the\nHep B and BCG birth doses and records them with their WHO PreQual product\ncodes. For each dose, the hospital system does three things:\n\n1. It builds a DVCMinPreQual payload: STT-PAY-001…005 and STT-PAY-007, with subclaim −6 (STT-SEL-003). No identity document is needed (STT-PAY-005).\n2. It prepares the CWT and the bytes to sign: STT-CWT-001…005, STT-ISS-004.\n3. It has XXR&#39;s key sign them (STT-COS-002, STT-COS-006), then finishes the HC1 text: STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001, STT-QR-001.\n\nKhamla leaves with two paper DVCs.\n*In the demo:* the library tests use the WHO guide&#39;s own two signed HC1\nstrings ([QR Code Generation §12](https://smart.who.int/trust/qr_code_generation.html)),\nwhich verify against the live DEV trust list under the same XXR key. Somsak&#39;s\nDVC payloads are illustrative. Live issuance in the app uses a\nTEST-ONLY key (STT-ISS-003), whose DSC is not on the GDHCN list, so its DVCs\ndo not verify in J3.&quot;,
     &quot;lead&quot;: &quot;anan&quot;,
     &quot;experiences&quot;: [
       {
