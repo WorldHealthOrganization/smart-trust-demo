@@ -1,0 +1,669 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1623" viewBox="0 0 1800 1623" font-family='system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif' role="img" aria-label="DPI-H Reference Architecture — Integrated View (Fig. 3.2)">
+<rect width="1800" height="1623" fill="#f8f9fb"/>
+<rect width="1800" height="72" fill="#14213d"/>
+<text x="36" y="42" font-size="26" font-weight="800" fill="#ffffff">Architecture de référence DPI-H — vue intégrée (fig. 3.2)</text>
+<text x="36" y="61" font-size="11" fill="#c9d6e6" font-style="italic">Tiré du modèle ArchiMate « Démonstrateur SMART Trust sur l’architecture de référence DPI-H de l’OMS », vue « Architecture de référence DPI-H — vue intégrée (fig. 3.2) »</text>
+<rect x="36.0" y="82.0" width="1442.0" height="143.0" rx="8" fill="#e0e0ff" stroke="#7e7e9e" stroke-width="1.4"/>
+<path d="M36 90 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#56566b"/>
+<text x="50.0" y="100.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">BUTS DE SANTÉ STRATÉGIQUES</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/build-trusted-data-foundations/" target="_top">
+<rect x="48.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="57.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Bâtir des fondations</text>
+<text x="57.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">de données fiables</text>
+<text x="57.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Saisir une fois, utiliser plusieurs fois</text>
+<text x="57.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Qualité, usage secondaire,</text>
+<text x="57.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">entraînement de l’IA</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/support-a-capable-well-distributed-health-workforce/" target="_top">
+<rect x="252.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="261.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Soutenir des personnels</text>
+<text x="261.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">de santé compétents et</text>
+<text x="261.0" y="157.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">bien répartis</text>
+<text x="261.0" y="173.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Paie ponctuelle, compétences avérées,</text>
+<text x="261.0" y="185.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">répartition équitable</text>
+<text x="261.0" y="197.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Paie, attestations, CPD</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/ensure-quality-and-continuity-of-care/" target="_top">
+<rect x="456.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="465.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Garantir la qualité et</text>
+<text x="465.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">la continuité des soins</text>
+<text x="465.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Des protocoles qui guident</text>
+<text x="465.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Aide à la décision, coordination</text>
+<text x="465.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">des soins</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/establish-trusted-personal-health-records/" target="_top">
+<rect x="660.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="669.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Établir des dossiers de santé</text>
+<text x="669.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">personnels fiables</text>
+<text x="669.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Droit à son propre dossier</text>
+<text x="669.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Portables, sécurisés,</text>
+<text x="669.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">fondés sur le consentement</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/optimise-supply-chain-management/" target="_top">
+<rect x="864.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="873.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Optimiser la chaîne d’approvisionnement</text>
+<text x="873.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">(gestion)</text>
+<text x="873.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Des produits de santé sûrs quand et</text>
+<text x="873.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">où il le faut</text>
+<text x="873.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Prévision, traçabilité</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/advance-efficient-and-equitable-health-financing/" target="_top">
+<rect x="1068.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1077.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Promouvoir un financement</text>
+<text x="1077.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">de la santé efficace et équitable</text>
+<text x="1077.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Dépenses plus judicieuses,</text>
+<text x="1077.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">protection renforcée</text>
+<text x="1077.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PFM, couverture, remboursements</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/strengthen-climate-and-epidemic-resilience/" target="_top">
+<rect x="1272.0" y="110.0" width="194.0" height="103.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1281.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Renforcer la résilience</text>
+<text x="1281.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">climatique et épidémique</text>
+<text x="1281.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Prévoir tôt, agir vite</text>
+<text x="1281.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Surveillance, AER, riposte</text>
+</a>
+<rect x="36.0" y="237.0" width="1442.0" height="152.0" rx="8" fill="#e0e0ff" stroke="#7e7e9e" stroke-width="1.4"/>
+<path d="M36 245 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#56566b"/>
+<text x="50.0" y="255.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">GOUVERNANCE TRANSVERSALE</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/policy-legislation-regulation/" target="_top">
+<rect x="48.0" y="265.0" width="275.6" height="112.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="57.0" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Politique, législation et réglementation</text>
+<text x="57.0" y="298.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Mandats légaux</text>
+<text x="57.0" y="310.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· loi sur la protection des données</text>
+<text x="57.0" y="322.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Principes d’architecture</text>
+<text x="57.0" y="334.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· gouvernance des investissements</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/cybersecurity-privacy-consent/" target="_top">
+<rect x="333.6" y="265.0" width="275.6" height="112.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="342.6" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Cybersécurité, vie privée et consentement</text>
+<text x="342.6" y="298.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Zéro confiance · chiffrement</text>
+<text x="342.6" y="310.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Gestion de l’ICP</text>
+<text x="342.6" y="322.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Consentement granulaire, révocable,</text>
+<text x="342.6" y="334.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">lié à une finalité</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/standards-certification-conformance/" target="_top">
+<rect x="619.2" y="265.0" width="275.6" height="112.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="628.2" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Normes, certification et</text>
+<text x="628.2" y="297.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Conformité</text>
+<text x="628.2" y="313.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Profils FHIR · SNOMED · ICD</text>
+<text x="628.2" y="325.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· LOINC · GS1</text>
+<text x="628.2" y="337.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Bancs de test</text>
+<text x="628.2" y="349.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Connectathons IHE</text>
+<text x="628.2" y="361.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· certification</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/semantic-governance-stewardship/" target="_top">
+<rect x="904.8" y="265.0" width="275.6" height="112.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="913.8" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Gouvernance et intendance sémantiques</text>
+<text x="913.8" y="298.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Curation des terminologies de référence + locales</text>
+<text x="913.8" y="310.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Versionnage du modèle logique</text>
+<text x="913.8" y="322.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· correspondances de systèmes de codes</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/auditability-assurance-accountability/" target="_top">
+<rect x="1190.4" y="265.0" width="275.6" height="112.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1199.4" y="282.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Auditabilité, assurance et</text>
+<text x="1199.4" y="297.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">redevabilité</text>
+<text x="1199.4" y="313.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Journaux immuables</text>
+<text x="1199.4" y="325.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· signatures numériques</text>
+<text x="1199.4" y="337.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Audit indépendant</text>
+<text x="1199.4" y="349.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· divulgation transparente</text>
+</a>
+<rect x="36.0" y="401.0" width="1442.0" height="116.0" rx="8" fill="#e0e0ff" stroke="#7e7e9e" stroke-width="1.4"/>
+<path d="M36 409 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#56566b"/>
+<text x="50.0" y="419.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">PARTIES PRENANTES</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/citizens-care-recipients/" target="_top">
+<rect x="48.0" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="57.0" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Citoyens / bénéficiaires</text>
+<text x="57.0" y="461.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">de soins</text>
+<text x="57.0" y="477.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Familles et aidants</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/health-workers/" target="_top">
+<rect x="226.5" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="235.5" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Personnels de santé</text>
+<text x="235.5" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Prestataires, CHW, gestionnaires</text>
+<text x="235.5" y="474.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">de systèmes</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/ministry-of-health/" target="_top">
+<rect x="405.0" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="414.0" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Ministère de la Santé</text>
+<text x="414.0" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Régulateurs, MoF, autorités</text>
+<text x="414.0" y="474.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">de santé publique</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/healthcare-facilities/" target="_top">
+<rect x="583.5" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="592.5" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Établissements de santé</text>
+<text x="592.5" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Hôpitaux, laboratoires, cliniques</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/financial-entities/" target="_top">
+<rect x="762.0" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="771.0" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Entités financières</text>
+<text x="771.0" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Payeurs, assureurs,</text>
+<text x="771.0" y="474.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">achats</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/suppliers-manufacturers/" target="_top">
+<rect x="940.5" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="949.5" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Fournisseurs /</text>
+<text x="949.5" y="461.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Fabricants</text>
+<text x="949.5" y="477.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Autres acteurs</text>
+<text x="949.5" y="489.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">de la chaîne d’approvisionnement</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/int-l-development-agencies/" target="_top">
+<rect x="1119.0" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1128.0" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Agences internationales</text>
+<text x="1128.0" y="461.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">et de développement</text>
+<text x="1128.0" y="477.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Société civile, médias,</text>
+<text x="1128.0" y="489.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">plaidoyer</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/research-academia/" target="_top">
+<rect x="1297.5" y="429.0" width="168.5" height="76.0" rx="6" fill="#ccccff" stroke="#70708c" stroke-width="1.3"/>
+<text x="1306.5" y="446.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Recherche / milieu universitaire</text>
+<text x="1306.5" y="462.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Formation, milieu universitaire,</text>
+<text x="1306.5" y="474.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">recherche</text>
+</a>
+<rect x="36.0" y="529.0" width="1442.0" height="212.0" rx="8" fill="#f9ebcc" stroke="#988a69" stroke-width="1.4"/>
+<path d="M36 537 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#675d47"/>
+<text x="50.0" y="547.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">CAPACITÉS</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/identity-management/" target="_top">
+<rect x="48.0" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="57.0" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Identité</text>
+<text x="57.0" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Gestion</text>
+<text x="57.0" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Identification</text>
+<text x="57.0" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">des personnes</text>
+<text x="57.0" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Couplage des enregistrements</text>
+<text x="57.0" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Rapprochement</text>
+<text x="57.0" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">des identités</text>
+<text x="57.0" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Fédération avec la DPI-F</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/access-consent-trust/" target="_top">
+<rect x="190.8" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="199.8" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Accès, consentement,</text>
+<text x="199.8" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">confiance</text>
+<text x="199.8" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Consentement et accès</text>
+<text x="199.8" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">(gestion)</text>
+<text x="199.8" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Vérification ·</text>
+<text x="199.8" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  Provenance</text>
+<text x="199.8" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Services de confiance</text>
+<text x="199.8" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">intégration</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/health-record-management/" target="_top">
+<rect x="333.6" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="342.6" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Dossier de santé</text>
+<text x="342.6" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Gestion</text>
+<text x="342.6" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Dossier longitudinal</text>
+<text x="342.6" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  curation</text>
+<text x="342.6" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Provenance et</text>
+<text x="342.6" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">versionnage</text>
+<text x="342.6" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Vues contrôlées</text>
+<text x="342.6" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">par le patient</text>
+<text x="342.6" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Facilitation de</text>
+<text x="342.6" y="689.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">l’usage secondaire</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/knowledge-management/" target="_top">
+<rect x="476.4" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="485.4" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Connaissances</text>
+<text x="485.4" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Gestion</text>
+<text x="485.4" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Terminologie</text>
+<text x="485.4" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  curation</text>
+<text x="485.4" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Modèle d’information logique</text>
+<text x="485.4" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">rédaction</text>
+<text x="485.4" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Version computable des</text>
+<text x="485.4" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">lignes directrices</text>
+<text x="485.4" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Sémantique</text>
+<text x="485.4" y="689.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">intendance</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/clinical-services-care-coordination/" target="_top">
+<rect x="619.2" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="628.2" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Services cliniques</text>
+<text x="628.2" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">et soins</text>
+<text x="628.2" y="604.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Coordination</text>
+<text x="628.2" y="620.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Aide à la décision au</text>
+<text x="628.2" y="632.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  PoC</text>
+<text x="628.2" y="644.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Planification des soins et</text>
+<text x="628.2" y="656.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  transitions</text>
+<text x="628.2" y="668.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Commandes et médicaments</text>
+<text x="628.2" y="680.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">(gestion)</text>
+<text x="628.2" y="692.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Orientations et tâches</text>
+<text x="628.2" y="704.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">(gestion)</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/health-workforce-management/" target="_top">
+<rect x="762.0" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="771.0" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Personnels de santé</text>
+<text x="771.0" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Gestion</text>
+<text x="771.0" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Enregistrement et</text>
+<text x="771.0" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">autorisation d’exercer</text>
+<text x="771.0" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Paie et</text>
+<text x="771.0" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">incitations</text>
+<text x="771.0" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Qualifications, CPD</text>
+<text x="771.0" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">et compétences</text>
+<text x="771.0" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Planification des personnels</text>
+<text x="771.0" y="689.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">et répartition</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/health-financing-management/" target="_top">
+<rect x="904.8" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="913.8" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Financement de la santé</text>
+<text x="913.8" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Gestion</text>
+<text x="913.8" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PFM et mutualisation des risques</text>
+<text x="913.8" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Inscription,</text>
+<text x="913.8" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">admissibilité et</text>
+<text x="913.8" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">droits</text>
+<text x="913.8" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Achats et remboursements</text>
+<text x="913.8" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Contrats, paiements</text>
+<text x="913.8" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">et recettes</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/supply-chain/" target="_top">
+<rect x="1047.6" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="1056.6" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Chaîne d’approvisionnement</text>
+<text x="1056.6" y="590.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Prévision et</text>
+<text x="1056.6" y="602.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">planification</text>
+<text x="1056.6" y="614.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Achats et</text>
+<text x="1056.6" y="626.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">logistique</text>
+<text x="1056.6" y="638.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Dispensation et</text>
+<text x="1056.6" y="650.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">traçabilité</text>
+<text x="1056.6" y="662.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Fournisseurs et produits</text>
+<text x="1056.6" y="674.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">intendance</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/analytics-business-intelligence/" target="_top">
+<rect x="1190.4" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="1199.4" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Analyse et intelligence</text>
+<text x="1199.4" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Métier</text>
+<text x="1199.4" y="604.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">(informatique décisionnelle)</text>
+<text x="1199.4" y="620.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Analyse ·</text>
+<text x="1199.4" y="632.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">Rapports</text>
+<text x="1199.4" y="644.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Informatique</text>
+<text x="1199.4" y="656.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">décisionnelle</text>
+<text x="1199.4" y="668.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Performance et</text>
+<text x="1199.4" y="680.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">éclairages sur l’équité</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/climate-ph-surveillance/" target="_top">
+<rect x="1333.2" y="557.0" width="132.8" height="172.0" rx="6" fill="#f5deaa" stroke="#877a5e" stroke-width="1.3"/>
+<text x="1342.2" y="574.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Climat et santé publique :</text>
+<text x="1342.2" y="589.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Surveillance</text>
+<text x="1342.2" y="605.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Surveillance</text>
+<text x="1342.2" y="617.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">des maladies et</text>
+<text x="1342.2" y="629.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">alerte</text>
+<text x="1342.2" y="641.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Événements indésirables :</text>
+<text x="1342.2" y="653.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">notification</text>
+<text x="1342.2" y="665.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Gestion des épidémies et</text>
+<text x="1342.2" y="677.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">HMIS de routine</text>
+<text x="1342.2" y="689.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Gestion des communications</text>
+<text x="1342.2" y="701.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Climat et incidents</text>
+<text x="1342.2" y="713.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">(gestion)</text>
+</a>
+<rect x="36.0" y="753.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 761 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="771.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">APPLICATIONS DE POINT DE SERVICE ET APPLICATIONS FONCTIONNELLES</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/provider-systems/" target="_top">
+<rect x="48.0" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Systèmes des prestataires</text>
+<text x="57.0" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· DME / DSE · HIS ·</text>
+<text x="57.0" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  LIMS · PACS</text>
+<text x="57.0" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· RIS</text>
+<text x="57.0" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Prescription électronique (EPMA)</text>
+<text x="57.0" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Clients de télémédecine</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/case-management/" target="_top">
+<rect x="206.7" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="215.7" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Gestion des cas</text>
+<text x="215.7" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Registre électronique</text>
+<text x="215.7" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">de vaccination</text>
+<text x="215.7" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HIV / TB / MNCH</text>
+<text x="215.7" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">registres</text>
+<text x="215.7" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Outils</text>
+<text x="215.7" y="874.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">propres à une maladie</text>
+<text x="215.7" y="886.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Suivi des patients</text>
+<text x="215.7" y="898.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">flux de travail</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/dispensing-system/" target="_top">
+<rect x="365.3" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="374.3" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Système de dispensation</text>
+<text x="374.3" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Système de gestion de pharmacie</text>
+<text x="374.3" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Applications de dispensation</text>
+<text x="374.3" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Pharmacovigilance</text>
+<text x="374.3" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">(saisie)</text>
+<text x="374.3" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Stocks au POS</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/chw-community/" target="_top">
+<rect x="524.0" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CHW et communauté</text>
+<text x="533.0" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Applications de terrain des CHW</text>
+<text x="533.0" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Sensibilisation / campagnes</text>
+<text x="533.0" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Outils conçus pour le hors ligne</text>
+<text x="533.0" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Enregistrement</text>
+<text x="533.0" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">des ménages</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/citizen-patient-apps/" target="_top">
+<rect x="682.7" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="691.7" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Applications</text>
+<text x="691.7" y="813.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">citoyens / patients</text>
+<text x="691.7" y="829.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PHR / Portefeuille</text>
+<text x="691.7" y="841.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">de santé numérique</text>
+<text x="691.7" y="853.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Prise de rendez-vous en libre-service</text>
+<text x="691.7" y="865.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Alerte des citoyens</text>
+<text x="691.7" y="877.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  client</text>
+<text x="691.7" y="889.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IU du tableau de bord de consentement</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/supply-chain-functional/" target="_top">
+<rect x="841.3" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="850.3" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Chaîne d’approvisionnement</text>
+<text x="850.3" y="813.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">(applications fonctionnelles)</text>
+<text x="850.3" y="829.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· WMS / LMIS</text>
+<text x="850.3" y="841.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Gestion des transports (TMS)</text>
+<text x="850.3" y="853.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Achats /</text>
+<text x="850.3" y="865.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">appels d’offres électroniques</text>
+<text x="850.3" y="877.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Surveillance de la chaîne du froid</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/health-coverage-claims/" target="_top">
+<rect x="1000.0" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Couverture santé et</text>
+<text x="1009.0" y="813.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">demandes de remboursement</text>
+<text x="1009.0" y="829.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Rédaction des demandes de remboursement</text>
+<text x="1009.0" y="841.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Registre des bénéficiaires</text>
+<text x="1009.0" y="853.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Portails des affiliés /</text>
+<text x="1009.0" y="865.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">des prestataires</text>
+<text x="1009.0" y="877.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Contrats et prestations</text>
+<text x="1009.0" y="889.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">(gestion)</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/financing-workforce-ops/" target="_top">
+<rect x="1158.7" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1167.7" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Financement et</text>
+<text x="1167.7" y="813.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">opérations des personnels</text>
+<text x="1167.7" y="829.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IFMIS / Trésor</text>
+<text x="1167.7" y="841.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HFIS / Budget</text>
+<text x="1167.7" y="853.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">planification · HRIS</text>
+<text x="1167.7" y="865.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Paie</text>
+<text x="1167.7" y="877.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· LMS / formation</text>
+<text x="1167.7" y="889.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Audit et divulgation</text>
+<text x="1167.7" y="901.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">outils</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/public-health-apps/" target="_top">
+<rect x="1317.3" y="781.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1326.3" y="798.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Applications de santé publique</text>
+<text x="1326.3" y="814.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Recherche des contacts</text>
+<text x="1326.3" y="826.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Gestion des épidémies</text>
+<text x="1326.3" y="838.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Surveillance des maladies</text>
+<text x="1326.3" y="850.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">tableaux de bord</text>
+<text x="1326.3" y="862.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Alerte en cas d’épidémie</text>
+</a>
+<rect x="36.0" y="941.0" width="1442.0" height="204.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 949 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="959.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">COMPOSANTS RÉUTILISABLES DPI-H</text>
+<rect x="48.0" y="969.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="58.0" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Services cliniques</text>
+<text x="58.0" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Composants qui utilisent le LHR et les</text>
+<text x="58.0" y="1011.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">connaissances au point de soins</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/computable-decision-support-engine/" target="_top">
+<rect x="56.0" y="1025.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="65.0" y="1042.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Moteur d’aide à la</text>
+<text x="65.0" y="1057.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">décision computable</text>
+<text x="65.0" y="1073.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· CDS Hooks · SMART on FHIR</text>
+<text x="65.0" y="1085.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Utilise le LHR +</text>
+<text x="65.0" y="1097.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">versions computables, fondées sur des normes, des</text>
+<text x="65.0" y="1109.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">lignes directrices</text>
+</a>
+<rect x="254.9" y="969.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="264.9" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Chaîne d’approvisionnement</text>
+<text x="264.9" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Services partagés pour les données fournisseurs et</text>
+<text x="264.9" y="1011.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">de traçabilité dans toute la logistique</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/supplier-registry/" target="_top">
+<rect x="262.9" y="1025.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="271.9" y="1042.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Registre des fournisseurs</text>
+<text x="271.9" y="1058.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Fabricants, 3PL agréés</text>
+<text x="271.9" y="1070.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Réutilisation interdomaines pour</text>
+<text x="271.9" y="1082.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">achats et traçabilité</text>
+</a>
+<rect x="461.7" y="969.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="471.7" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Financement de la santé</text>
+<text x="471.7" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Données de référence définissant la couverture et</text>
+<text x="471.7" y="1011.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">les droits pour l’achat de services</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/benefits-package-registry/" target="_top">
+<rect x="469.7" y="1025.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="478.7" y="1042.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Paniers de prestations</text>
+<text x="478.7" y="1057.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Registre</text>
+<text x="478.7" y="1073.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Spécification de référence des</text>
+<text x="478.7" y="1085.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">services couverts, tarifs</text>
+<text x="478.7" y="1097.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">et règles</text>
+<text x="478.7" y="1109.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Utilisé par les remboursements et la PFM</text>
+</a>
+<rect x="668.6" y="969.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="678.6" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Santé publique et analyse</text>
+<text x="678.6" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Plateformes pour l’usage secondaire, l’intelligence et la riposte</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/ph-surveillance-platform/" target="_top">
+<rect x="676.6" y="1013.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="685.6" y="1030.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Plateforme de surveillance de la santé publique</text>
+<text x="685.6" y="1046.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Détection d’événements / de cas</text>
+<text x="685.6" y="1058.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Flux de travail des épidémies</text>
+<text x="685.6" y="1070.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IHR / IPS transfrontaliers</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/health-management-information-system/" target="_top">
+<rect x="871.9" y="1013.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="880.9" y="1030.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Gestion sanitaire</text>
+<text x="880.9" y="1045.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Système d’information</text>
+<text x="880.9" y="1061.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Indicateurs agrégés · M&amp;E</text>
+<text x="880.9" y="1073.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· tableaux de bord</text>
+<text x="880.9" y="1085.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Performance et équité</text>
+</a>
+<rect x="1077.3" y="969.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="1087.3" y="987.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Transversal</text>
+<text x="1087.3" y="1000.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Transversal</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/ai-enabled-intelligence/" target="_top">
+<rect x="1085.3" y="1013.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1094.3" y="1030.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Intelligence fondée sur l’IA</text>
+<text x="1094.3" y="1046.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Modèles souverains et réutilisables</text>
+<text x="1094.3" y="1058.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Stratification des risques</text>
+<text x="1094.3" y="1070.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Prévision climat-santé</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/secondary-use/" target="_top">
+<rect x="1280.6" y="1013.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1289.6" y="1030.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Usage secondaire</text>
+<text x="1289.6" y="1046.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Des extraits organisés, consentis,</text>
+<text x="1289.6" y="1058.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">désidentifiés alimentent</text>
+<text x="1289.6" y="1070.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">l’entraînement IA / ML,</text>
+<text x="1289.6" y="1082.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">les analyses d’intérêt public,</text>
+<text x="1289.6" y="1094.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">la performance et l’équité, IHR /</text>
+<text x="1289.6" y="1106.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">les rapports IPS</text>
+</a>
+<rect x="36.0" y="1157.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 1165 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="1175.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">COUCHE DE DONNÉES PARTAGÉE DPI-H</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/client-registry-for-health/" target="_top">
+<rect x="48.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Registre des patients de santé</text>
+<text x="57.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Identité de la personne</text>
+<text x="57.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Index maître des patients</text>
+<text x="57.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">du secteur de la santé</text>
+<text x="57.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Identifiant de santé unique</text>
+<text x="57.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Rapprochement des identités</text>
+<text x="57.0" y="1278.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Couplage des enregistrements</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/lifelong-health-record/" target="_top">
+<rect x="252.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="261.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Dossier de santé tout au long de la vie</text>
+<text x="261.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Dossier de santé</text>
+<text x="261.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Dossier longitudinal</text>
+<text x="261.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Entrepôt fondé sur FHIR</text>
+<text x="261.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Provenance, versionnage</text>
+<text x="261.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Vues limitées par le consentement</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/health-workforce-registry/" target="_top">
+<rect x="456.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="465.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Registre des personnels de santé</text>
+<text x="465.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Personnels</text>
+<text x="465.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Prestataires vérifiés,</text>
+<text x="465.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">attestations, autorisations d’exercer</text>
+<text x="465.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Utilisé par le DME, les remboursements,</text>
+<text x="465.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  surveillance</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/health-facility-registry/" target="_top">
+<rect x="660.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="669.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Registre des établissements de santé</text>
+<text x="669.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Localisation</text>
+<text x="669.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Liste de tous les</text>
+<text x="669.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">établissements de santé (publics +</text>
+<text x="669.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">privés)</text>
+<text x="669.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Géocodage, services offerts</text>
+<text x="669.0" y="1278.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· zones de desserte</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/product-registry/" target="_top">
+<rect x="864.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="873.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Registre des produits</text>
+<text x="873.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Produits de santé</text>
+<text x="873.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Produits de santé, dispositifs et</text>
+<text x="873.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">fournitures</text>
+<text x="873.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· GTIN · IDMP · UDI · GS1</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/terminology-service/" target="_top">
+<rect x="1068.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1077.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Service de terminologie</text>
+<text x="1077.0" y="1218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Sémantique – sens</text>
+<text x="1077.0" y="1230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Systèmes de codes, jeux de valeurs et</text>
+<text x="1077.0" y="1242.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">correspondances de concepts</text>
+<text x="1077.0" y="1254.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· SNOMED · ICD · LOINC</text>
+<text x="1077.0" y="1266.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Systèmes de codes locaux</text>
+<text x="1077.0" y="1278.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Jeux de valeurs de référence</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/logical-information-model-repository/" target="_top">
+<rect x="1272.0" y="1185.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1281.0" y="1202.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Modèle d’information logique</text>
+<text x="1281.0" y="1217.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Référentiel</text>
+<text x="1281.0" y="1233.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Syntaxe – structure</text>
+<text x="1281.0" y="1245.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Artefacts structurels et</text>
+<text x="1281.0" y="1257.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">jeux de données nationaux</text>
+<text x="1281.0" y="1269.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Profils FHIR · eObjects ·</text>
+<text x="1281.0" y="1281.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  IPS</text>
+<text x="1281.0" y="1293.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· jeux de données</text>
+<text x="1281.0" y="1305.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Versionnage et intendance</text>
+</a>
+<rect x="36.0" y="1345.0" width="1442.0" height="125.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 1353 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="1363.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">DPI FONDAMENTALE (DPI-F)</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/foundational-identity/" target="_top">
+<rect x="48.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Identité fondamentale</text>
+<text x="57.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· eKYC · MFA · biométrie</text>
+<text x="57.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· ID national / fédéré</text>
+<text x="57.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Registre de la population</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/national-trust-services/" target="_top">
+<rect x="286.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="295.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Services nationaux de confiance</text>
+<text x="295.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· ICP</text>
+<text x="295.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· signatures numériques</text>
+<text x="295.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Attestations vérifiables</text>
+<text x="295.0" y="1442.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Autorité de certification · GDHCN</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/payment-rails/" target="_top">
+<rect x="524.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Infrastructures de paiement</text>
+<text x="533.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Trésor · paiements rapides</text>
+<text x="533.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Paiements aux prestataires</text>
+<text x="533.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Paie des personnels</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/data-exchange-fabric/" target="_top">
+<rect x="762.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="771.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Infrastructure d’échange de données</text>
+<text x="771.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Intersectoriel</text>
+<text x="771.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Arch. évolutive</text>
+<text x="771.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Accès aux API par intermédiation</text>
+<text x="771.0" y="1442.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Audit, limitation de débit, SLA</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/crvs-other-sector/" target="_top">
+<rect x="1000.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CRVS et autres secteurs</text>
+<text x="1009.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Approche pangouvernementale</text>
+<text x="1009.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Naissance, décès (cause : ICD)</text>
+<text x="1009.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Protection sociale, éducation</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/geo-location-notification/" target="_top">
+<rect x="1238.0" y="1373.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1247.0" y="1390.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Géolocalisation · Notification</text>
+<text x="1247.0" y="1406.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Données et canaux intersectoriels</text>
+<text x="1247.0" y="1418.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Registre géo. commun · adresse · SMS</text>
+<text x="1247.0" y="1430.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· courriel · push</text>
+</a>
+<rect x="36.0" y="1482.0" width="1442.0" height="113.0" rx="8" fill="#dff1d4" stroke="#7d8f71" stroke-width="1.4"/>
+<path d="M36 1490 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#54614d"/>
+<text x="50.0" y="1500.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">TECHNOLOGIE</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/hybrid-sovereign-cloud/" target="_top">
+<rect x="48.0" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="57.0" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Cloud hybride / souverain</text>
+<text x="57.0" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Public, privé, sur site</text>
+<text x="57.0" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· résidence des données · Conteneurs</text>
+<text x="57.0" y="1567.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Kubernetes · périphérie</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/ai-ml-platform/" target="_top">
+<rect x="333.6" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="342.6" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Plateforme IA / ML</text>
+<text x="342.6" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IA souveraine + responsable</text>
+<text x="342.6" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Registre de modèles · MLOps</text>
+<text x="342.6" y="1567.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· surveillance des biais</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/security-trust-operations/" target="_top">
+<rect x="619.2" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="628.2" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Opérations de sécurité et de confiance</text>
+<text x="628.2" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Posture zéro confiance · SIEM / SOAR</text>
+<text x="628.2" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IAM · HSM · chiffrement</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/data-platform/" target="_top">
+<rect x="904.8" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="913.8" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Plateforme de données</text>
+<text x="913.8" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Lakehouse + entrepôt de données</text>
+<text x="913.8" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· ETL / ELT · MDM</text>
+<text x="913.8" y="1567.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· préservant la vie privée</text>
+</a>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/observability-devsecops/" target="_top">
+<rect x="1190.4" y="1510.0" width="275.6" height="73.0" rx="6" fill="#c9e7b7" stroke="#6f7f65" stroke-width="1.3"/>
+<text x="1199.4" y="1527.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Observabilité · DevSecOps</text>
+<text x="1199.4" y="1543.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Connectivité, SRE, CI/CD · Journaux</text>
+<text x="1199.4" y="1555.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· métriques · traces · IaC</text>
+</a>
+<rect x="1494.0" y="82.0" width="270.0" height="1513.0" rx="10" fill="#d3ffff" stroke="#4c6b6b" stroke-width="2" stroke-dasharray="8 5"/>
+<path d="M1494 92 a10 10 0 0 1 10 -10 h250 a10 10 0 0 1 10 10 v26 h-270 z" fill="#4c6b6b"/>
+<text x="1629.0" y="106.0" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">INTEROPÉRABILITÉ (TRANSVERSALE)</text>
+<a href="../../../fr/smart-trust-demo/archimate/0.1.0/element/dpi-f-information-mediator/" target="_top">
+<rect x="1506.0" y="122.0" width="246.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1515.0" y="139.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Médiateur d’information DPI-F</text>
+<text x="1515.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Passerelle d’API · HIE</text>
+<text x="1515.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Authentifie, autorise, achemine,</text>
+<text x="1515.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">transforme, audite chaque transaction</text>
+<text x="1515.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Réutilise l’infrastructure DPI-F lorsqu’elle existe</text>
+</a>
+<text x="1506.0" y="223.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">NORMES OUVERTES</text>
+<rect x="1506.0" y="231.0" width="62.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1537.4" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">HL7 FHIR</text>
+<rect x="1574.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1592.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IHE</text>
+<rect x="1615.6" y="231.0" width="57.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1644.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">openEHR</text>
+<rect x="1678.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1696.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IPS</text>
+<rect x="1506.0" y="255.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1540.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SNOMED CT</text>
+<rect x="1580.4" y="255.0" width="51.6" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1606.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">ICD-11</text>
+<rect x="1638.0" y="255.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1661.0" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">LOINC</text>
+<rect x="1506.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1543.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">GS1 / GTIN</text>
+<rect x="1586.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1623.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IDMP / UDI</text>
+<rect x="1666.0" y="279.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1700.2" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">CDS Hooks</text>
+<rect x="1506.0" y="303.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1551.4" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SMART on FHIR</text>
+<rect x="1602.8" y="303.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1653.8" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">OpenID / OAuth2</text>
+<rect x="1506.0" y="327.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1529.0" y="340.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">DICOM</text>
+<text x="1506.0" y="365.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">MODÈLES D’INTÉGRATION</text>
+<rect x="1506.0" y="373.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">API REST (FHIR R4)</text>
+<rect x="1636.4" y="373.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1681.8" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Flux d’événements</text>
+<rect x="1506.0" y="397.0" width="96.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1554.2" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Document (IHE)</text>
+<rect x="1608.4" y="397.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1659.4" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Requête fédérée</text>
+<rect x="1506.0" y="421.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="434.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Données en masse ($export)</text>
+<rect x="1506.0" y="445.0" width="141.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1576.6" y="458.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Transfrontalier (IHR/IPS)</text>
+</svg>

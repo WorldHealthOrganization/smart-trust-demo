@@ -24,7 +24,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b03f15e54bafc511c2900c05f2d3c04100e4da3c/resources/Patient/TrustDemoTaifafekiSomsak.json"
+        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b8d167d6c369afa8e4ad73a4703b5cab5382d76c/resources/Patient/TrustDemoTaifafekiSomsak.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -33,7 +33,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "e3fd3d34ac51e762677fba278c5ec5a311b24d81"
+    "prov:used": "867eb4cd4799755b8ce45b674d2d9e98baecb8a6"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

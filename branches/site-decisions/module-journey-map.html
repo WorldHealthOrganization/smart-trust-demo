@@ -36,7 +36,7 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
 
 <p>Each module of the policy-maker track asks one question of the same story. This page shows where each policy module (M1 to M7), and then each technical module (T1 to T7), meets a step of the journeys (J1 to J4.1), and, at each meeting point, <strong>what the system does</strong> there and the <strong>policy question</strong> the table answers about it, for its own country. The same map is the <em>Modules × journey</em> step of the journeys viewer’s Discussion tab.</p>
 
-<p>● = the module’s question is asked at this step in the walkthrough. ○ = the module draws on this step without asking there.</p>
+<p>● = the policy module’s question is asked at this step in the walkthrough. ○ = the policy module draws on this step without asking there. ◆ = the technical module works with this step (its technical question and what the system does there are under <em>The technical track</em> below).</p>
 
 <h3 id="the-map">The map</h3>
 
@@ -56,6 +56,18 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><strong><em>Policy track</em></strong></td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
     <tr>
       <td><strong>M1</strong> From journey to capabilities</td>
       <td>Sheet 1</td>
@@ -139,6 +151,102 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
       <td style="text-align: center"> </td>
       <td style="text-align: center"> </td>
       <td style="text-align: center">●</td>
+    </tr>
+    <tr>
+      <td><strong><em>Technical track</em></strong></td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td><strong>T1</strong> Building with FHIR and the Open Health Stack</td>
+      <td>serves M1</td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td><strong>T2</strong> Offline data capture</td>
+      <td>serves M3</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td><strong>T3</strong> Trust between countries: SMART Trust and the GDHCN</td>
+      <td>serves M4</td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+    </tr>
+    <tr>
+      <td><strong>T4</strong> Workflows, sync and who sees what</td>
+      <td>serves M5</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center">◆</td>
+    </tr>
+    <tr>
+      <td><strong>T5</strong> From records to charts</td>
+      <td>serves M2</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+    </tr>
+    <tr>
+      <td><strong>T6</strong> Verifying a card, sharing a link</td>
+      <td>serves M6</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center">◆</td>
+    </tr>
+    <tr>
+      <td><strong>T7</strong> Team build, showcase and the journey together</td>
+      <td>serves M7</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">◆</td>
     </tr>
   </tbody>
 </table>
@@ -880,7 +988,7 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
 <p>The steps and the questions asked at them are the workshop’s (<code class="language-plaintext highlighter-rouge">workshops/dpi-h-policy-track.workshop.json</code>); the journeys are <code class="language-plaintext highlighter-rouge">j1-born-abroad</code>, <code class="language-plaintext highlighter-rouge">j2-found-at-home</code>, <code class="language-plaintext highlighter-rouge">j3-made-official</code>, <code class="language-plaintext highlighter-rouge">j4-0-one-family-one-phone</code>, <code class="language-plaintext highlighter-rouge">j4-1-full-history-abroad</code>. The cell text and the overlaps are its <code class="language-plaintext highlighter-rouge">matrix</code>; the technical track is <code class="language-plaintext highlighter-rouge">workshops/technical-track.json</code>.</p>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/module-journey-map.md" data-repo="WorldHealthOrganization/smart-trust-demo" href="https://github.com/WorldHealthOrganization/smart-trust-demo/edit/main/input/pagecontent/module-journey-map.md">Edit this page on GitHub</a></p>
-<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/module-journey-map.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/module-journey-map.md", "lines": [{"t":"The map","l":7},{"t":"Where they meet","l":20},{"t":"M1 · From journey to capabilities","l":22},{"t":"M2 · The reference architecture and where you stand","l":37},{"t":"M3 · Standards, specifications and the core data set","l":49},{"t":"M4 · Trust, credentials and wallets","l":61},{"t":"M5 · Governance, decision rights and the legal basis","l":74},{"t":"M6 · Doing it together","l":87},{"t":"M7 · First move and the investment required","l":99},{"t":"The technical track","l":110},{"t":"T1 · Building with FHIR and the Open Health Stack","l":125},{"t":"T2 · Offline data capture","l":136},{"t":"T3 · Trust between countries: SMART Trust and the GDHCN","l":146},{"t":"T4 · Workflows, sync and who sees what","l":157},{"t":"T5 · From records to charts","l":169},{"t":"T6 · Verifying a card, sharing a link","l":180},{"t":"T7 · Team build, showcase and the journey together","l":191},{"t":"Technical overlaps","l":203},{"t":"Policy overlaps","l":215},{"t":"Sources","l":227}]}</script>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/module-journey-map.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/module-journey-map.md", "lines": [{"t":"The map","l":7},{"t":"Where they meet","l":29},{"t":"M1 · From journey to capabilities","l":31},{"t":"M2 · The reference architecture and where you stand","l":46},{"t":"M3 · Standards, specifications and the core data set","l":58},{"t":"M4 · Trust, credentials and wallets","l":70},{"t":"M5 · Governance, decision rights and the legal basis","l":83},{"t":"M6 · Doing it together","l":96},{"t":"M7 · First move and the investment required","l":108},{"t":"The technical track","l":119},{"t":"T1 · Building with FHIR and the Open Health Stack","l":134},{"t":"T2 · Offline data capture","l":145},{"t":"T3 · Trust between countries: SMART Trust and the GDHCN","l":155},{"t":"T4 · Workflows, sync and who sees what","l":166},{"t":"T5 · From records to charts","l":178},{"t":"T6 · Verifying a card, sharing a link","l":189},{"t":"T7 · Team build, showcase and the journey together","l":200},{"t":"Technical overlaps","l":212},{"t":"Policy overlaps","l":224},{"t":"Sources","l":236}]}</script>
 
 <script src="./assets/ig-source-links.js"></script>
 

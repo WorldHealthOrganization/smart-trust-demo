@@ -7,11 +7,11 @@
   "source": {
     "repo": "WorldHealthOrganization/smart-trust-demo",
     "ref": "claude/site-decisions",
-    "commit": "de3b1b004c2fe1b01ac7abe137d59c68ab7841d1"
+    "commit": "0882fb2727a234a90a935245beda8a802258563f"
   },
-  "builtAt": "2026-11-16T12:28:54.839Z",
+  "builtAt": "2026-11-16T12:42:00.291Z",
   "ast": {
-    "commit": "e3fd3d34ac51e762677fba278c5ec5a311b24d81",
+    "commit": "867eb4cd4799755b8ce45b674d2d9e98baecb8a6",
     "verdict": "stale-inputs",
     "kind": "full"
   }

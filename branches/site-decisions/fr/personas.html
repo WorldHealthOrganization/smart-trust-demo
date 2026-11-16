@@ -134,7 +134,7 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
       <tr>
         <td><a href="../artifact/ActorDefinition-TrustDemo.Role.PocReceiver.html">Destinataire au point de soins</a></td>
         <td>Le système de la clinique à l’étranger qui scanne un VHL, le vérifie, récupère le manifeste (ITI-YY5) et déchiffre les documents (J4.1) : le destinataire VHL.</td>
-        <td>Kesaro paediatric clinic viewer, Taifafeki (J4.1)</td>
+        <td>Visualiseur de la clinique pédiatrique de Kesaro, Taifafeki (J4.1)</td>
         <td>Destinataire VHL (IHE ITI VHL) ; destinataire des VHL de la famille (destinataire SMART Trust)</td>
       </tr>
     </tbody>
@@ -171,12 +171,12 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
 
   <p>Chacun est fictif. Leurs objectifs, besoins et frustrations sont conservés dans <code class="language-plaintext highlighter-rouge">scenarios/actors/*.json</code> (<code class="language-plaintext highlighter-rouge">meta.persona</code>), et le visualiseur de parcours affiche le même texte.</p>
 
-  <h4 id="dr-anan-clinicien-tha--naissance-et-suivi-taifafeki">Dr Anan (clinicien thaï · naissance et suivi, Taifafeki)</h4>
+  <h4 id="dr-anan-clinicien-de-taifafeki--naissance-et-suivi-taifafeki">Dr Anan (clinicien de Taifafeki · naissance et suivi, Taifafeki)</h4>
 
-  <p>Persona: a Taifafeki clinician in Kesaro who gives Somsak’s Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional.</p>
+  <p>Persona : un clinicien de Taifafeki de Kesaro qui administre à Somsak les doses à la naissance contre l’hépatite B et le BCG et imprime les deux DVC signés (J1), et qui le revoit un an plus tard dans une clinique pédiatrique, en lisant son dossier au moyen du VHL (J4.1). Fictif.</p>
 
   <ul>
-    <li>Objectif : prodiguer des soins appropriés à un bébé non thaï, à la naissance et à son retour.</li>
+    <li>Objectif : prodiguer des soins appropriés à un bébé qui n’est pas ressortissant de Taifafeki, à la naissance et à son retour.</li>
     <li>Besoins : un moyen d’émettre des dossiers qui voyagent avec la famille ; l’historique complet d’un enfant au point de soins ; l’assurance que les données sont authentiques</li>
     <li>Frustrations : aucun identifiant national auquel rattacher les dossiers ; des dossiers venus de l’étranger qu’il ne peut ni lire ni vérifier</li>
   </ul>
@@ -203,7 +203,7 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
 
   <h4 id="khamla-mre-onesa">Khamla (Mère, Onesa)</h4>
 
-  <p>Persona: Somsak’s mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional.</p>
+  <p>Persona : la mère de Somsak, 26 ans, ressortissante d’Onesa qui travaille à Taifafeki (Pays A), où elle a accouché, et qui ramène Somsak chez elle, à Onesa (Pays B). Détient les deux DVC papier de J1 à J3. Fictive.</p>
 
   <ul>
     <li>Objectif : faire reconnaître les soins de Somsak dans son pays, sans repartir de zéro.</li>
@@ -213,7 +213,7 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
 
   <h4 id="somsak-bb--le-dossier-le-suit-onesa">Somsak (Bébé · le dossier le suit, Onesa)</h4>
 
-  <p>Le sujet de chaque parcours : un petit garçon d’Onesa né le 2025-10-28 à l’hôpital provincial de Kesaro, Taifafeki (Pays A), alors que sa famille vit à Onesa (Pays B). N’a pas de numéro d’identité thaï ; enregistré à Onesa avec un identifiant temporaire par le CHW (J2). Ne détient aucun appareil et agit par l’intermédiaire de ses parents. L’histoire est celle de la présentation guidée de l’atelier VaxLink (fredhersch/vaxlink). Fictif.</p>
+  <p>Le sujet de chaque parcours : un petit garçon d’Onesa né le 2025-10-28 à l’hôpital provincial de Kesaro, Taifafeki (Pays A), alors que sa famille vit à Onesa (Pays B). N’a pas de numéro d’identité de Taifafeki ; enregistré à Onesa avec un identifiant temporaire par le CHW (J2). Ne détient aucun appareil et agit par l’intermédiaire de ses parents. L’histoire est celle de la présentation guidée de l’atelier VaxLink (fredhersch/vaxlink). Fictif.</p>
 
   <ul>
     <li>Objectif : recevoir chaque vaccin dont il a besoin, une seule fois, où qu’il soit.</li>

@@ -87,6 +87,24 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
 .ws-mod .ws-steps{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto}
 .ws-mod .ws-steps span{font-size:12px;font-weight:700;padding:2px 7px;border-radius:5px;background:var(--ws-navy);color:#fff}
 .ws-mod.ph{background:var(--ws-soft);border-style:dashed}
+.ws-cal-wrap{overflow-x:auto;margin:0 0 8px}
+.ws-cal{display:grid;grid-template-columns:64px minmax(260px,1fr) minmax(260px,1fr);gap:4px;min-width:620px}
+.ws-cal-h{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ws-muted);padding:4px 6px}
+.ws-cal-t{font-size:12px;font-variant-numeric:tabular-nums;color:var(--ws-muted);padding:6px 4px;border-top:1px solid var(--ws-line)}
+.ws-cal-i{border-radius:8px;padding:6px 10px;display:flex;flex-direction:column;gap:2px;font-size:13px;line-height:1.35;border:1px solid var(--ws-line);background:#fff}
+.ws-cal-i a{text-decoration:none;color:inherit!important;display:flex;flex-direction:column;gap:2px}
+.ws-cal-i a:hover b{text-decoration:underline}
+.ws-cal-i small{color:var(--ws-muted)}
+.ws-cal-time{font-size:11px;font-variant-numeric:tabular-nums;color:var(--ws-muted)}
+.ws-cal-tag{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.k-joint{background:var(--ws-navy);border-color:var(--ws-navy);color:#fff}
+.k-joint small,.k-joint .ws-cal-time{color:#dfe6f2}
+.k-break{background:var(--ws-soft);border-style:dashed;color:var(--ws-muted)}
+.k-logistics{background:var(--ws-soft);color:var(--ws-muted)}
+.k-policy{background:var(--ws-amber);border-color:#f1d7a6}
+.k-policy .ws-cal-tag{color:var(--ws-pol)}
+.k-tech{background:#e7eef9;border-color:#c9d8ef}
+.k-tech .ws-cal-tag{color:var(--ws-tech)}
 .ws-q{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-right:6px;color:var(--ws-teal)}
 .ws-who{font-size:14px;color:var(--ws-muted)}
 .ws-confirm{font-size:13px;color:var(--ws-pol);background:var(--ws-amber);border-radius:6px;padding:4px 8px;align-self:flex-start}
