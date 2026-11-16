@@ -1,4 +1,24 @@
-This page lists every place where the site's journeys differ from the policy-maker track's shared story deck, *The Immunization Journey: End-to-End Use Case Narrative* (M1, 30 November and 1 December 2026, 30 slides). The deck is the reference for names, countries and story. **Nothing on the site has been changed to match it yet.** Each row needs a decision first: change the site, change the deck, or keep both as they are.
+This page lists every place where the site's journeys differ from the policy-maker track's shared story deck, *The Immunization Journey: End-to-End Use Case Narrative* (M1, 30 November and 1 December 2026, 30 slides). The deck is the reference for names, countries and story.
+
+### Decisions (owner, 16 November 2026)
+
+Every row below was decided on the review cards:
+
+- **Accepted as proposed:** all of A1–A16, B1–B14, D1–D10 and E1–E9.
+- **A17:** follows the site.
+- **C1:** noted.
+- **C2:** to discuss.
+
+What was done:
+
+- **The deck:** B1–B14, A2, A4, A5, A12, A13, A15 and A17 are applied in the updated deck *The Immunization Journey*, with a slide-by-slide changelog. Slide 26 (Journey 4, "If you don't have it yet") was also rewritten for the IPS story.
+- **The site** (this change):
+  - A1 and D1, the journey titles: *Vaccinated and recorded*, *Found and registered*, *A foreign record used for the next vaccine*, *Continuity across a border*.
+  - A2: Khamla works in Taifafeki and brings Somsak home.
+  - A6 and A7: Journey 2 at 7 weeks, Journey 3 at 10 weeks. The 6-week doses are overdue and given at the Journey 3 visit (catch-up), in the FHIR examples, scenarios and device screens.
+  - A8: Village 04 is Khamla's village.
+  - A16: Journey 4 is at a paediatric clinic.
+- **Still to do:** the site changes that need new process steps (A4 hospital identifier, A9 national-ID search, A10 late birth registration, A11 reminder, B11 coverage denominator), the canvas file (D2–D10), the glossary additions (E3, E6–E8) and C2. They are listed with the demo-application changes they need in *Technical track and demo applications: what changed, what is needed*.
 
 The names and countries already match. Both tell the story of Khamla, Somsak and Bounmy, Vilay, Nurse Chanthason and Dr Anan, in Onesa and Taifafeki, with Hep B and BCG birth doses, a GDHCN trust list and a 12-month return to Taifafeki. Somsak's birth date on the site, 2025-10-28, is a Tuesday, as the deck says.
 

@@ -21,8 +21,8 @@ The DSC private key of the issuing participant, in an HSM, cloud KMS or Android 
 
 **In the user scenarios**:
 
-- [J1 — Born abroad](scenarios.html#j1--born-abroad-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
-- [J4.0 — Crossing back: one family, one phone](scenarios.html#j40--crossing-back-one-family-one-phone-onesa-12-months-later): J4.0b Dad creates a link to share at the clinic
+- [J1 — Vaccinated and recorded](scenarios.html#j1--vaccinated-and-recorded-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
+- [J4.0 — Continuity across a border: one family, one phone](scenarios.html#j40--continuity-across-a-border-one-family-one-phone-onesa-12-months-later): J4.0b Dad creates a link to share at the clinic
 
 **On the device screens**: [S1 Birth Abroad & Printed DVC QR Cards (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/); [S7 VHL QR Display & Passcode Protection (Bounmy's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S7/)
 
