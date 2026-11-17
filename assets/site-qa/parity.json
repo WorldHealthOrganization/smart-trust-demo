@@ -1,7 +1,9 @@
 {
  "$schema": "site-parity-report/v1",
- "outcome": "carries-everything",
- "shortfall": [],
+ "outcome": "published-with-shortfall",
+ "shortfall": [
+  "directories the current root serves and the candidate does not: openapi/"
+ ],
  "droppedByRuling": [],
  "current": {
   "pages": 13840,
@@ -43,13 +45,13 @@
   }
  },
  "candidate": {
-  "pages": 13840,
+  "pages": 13831,
   "counts": {
    "siteNav": 0,
-   "search": 9901,
-   "navbarRow": 8395,
-   "rail": 9349,
-   "translationMeta": 9919
+   "search": 9899,
+   "navbarRow": 8393,
+   "rail": 9347,
+   "translationMeta": 9917
   },
   "dirs": [
    "ar",
@@ -64,7 +66,6 @@
    "folio-assistant-core",
    "fr",
    "id-lookup",
-   "openapi",
    "questionnaires",
    "ru",
    "smart-base",
