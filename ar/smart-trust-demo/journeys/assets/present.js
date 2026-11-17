@@ -3,7 +3,7 @@
    without it; it adds what a facilitator does in a room:
    - ← / PageUp and → / PageDown: the previous and next moment (the page's
      <link rel="prev|next">);
-   - W: reveal the "What if…"; T: show or hide what is under the hood;
+   - W: reveal the "What if…"; T: switch between the policy and the technical view (under the hood);
    - presenter mode: the presenter's note and the facilitator cue, on or off,
      remembered in this browser;
    - the gap strip's answers, remembered in this browser only;
@@ -63,13 +63,28 @@
     });
   }
 
+  // Below the journey: the policy view or the technical one (under the hood), or,
+  // on a step with nothing for the table, the hood alone behind its toggle.
+  function hoodShown() {
+    var hood = doc.querySelector("[data-jp-hood]");
+    return Boolean(hood && !hood.hidden);
+  }
   function setHood(show) {
     var hood = doc.querySelector("[data-jp-hood]");
+    if (!hood) return;
+    var policy = doc.querySelector("[data-jp-policy]");
     var btn = doc.querySelector("[data-jp-hood-toggle]");
-    if (!hood || !btn) return;
     hood.hidden = !show;
-    btn.classList.toggle("is-on", show);
-    btn.setAttribute("aria-expanded", String(show));
+    if (policy) policy.hidden = show;
+    if (btn) {
+      btn.classList.toggle("is-on", show);
+      btn.setAttribute("aria-expanded", String(show));
+    }
+    each("[data-jp-lens]", function (b) {
+      var on = (b.getAttribute("data-jp-lens") === "technical") === show;
+      b.classList.toggle("is-on", on);
+      b.setAttribute("aria-selected", String(on));
+    });
     store("jp:hood", show ? "on" : "off");
   }
 
@@ -436,18 +451,96 @@
     window.addEventListener("storage", function (ev) {
       if (ev.key && ev.key.indexOf("jv:") === 0) draw();
     });
+    window.addEventListener("jv:sync", draw);
     draw();
   }
 
   // Write-ins and ticks kept in this browser (jv:<name>), as the gap strip keeps its
-  // ratings: a journey question's answer is one key on the walkthrough and the lab.
+  // ratings: a journey question's answer is one key wherever the question shows (its
+  // walkthrough step, and each lab step listing its module). Every box under one name
+  // shows the one answer: typed in one, the others on the page follow at once, other
+  // tabs follow by the `storage` event, and a page brought back by Back (the
+  // back/forward cache, or the browser restoring the form) reads the store again.
+  function sameName(el, fn) {
+    Array.prototype.forEach.call(doc.getElementsByName(el.name), function (x) {
+      if (x !== el) fn(x);
+    });
+  }
+  // An answer kept under the question's old key (`data-jv-was`: its step and position)
+  // moves to its own key the first time the question is shown.
+  // Several earlier keys, space-separated, are tried in order (a question that has
+  // since become a canvas field: its own key, then its step-and-position key).
+  function migrate(el) {
+    var was = el.getAttribute("data-jv-was");
+    if (!was || store("jv:" + el.name) !== null) return;
+    var keys = was.split(/\s+/);
+    for (var i = 0; i < keys.length; i++) {
+      if (!keys[i]) continue;
+      var old = store("jv:" + keys[i]);
+      if (old === null) continue;
+      store("jv:" + el.name, old);
+      forget("jv:" + keys[i]);
+      return;
+    }
+  }
   function keepText(el) {
     var key = "jv:" + el.name;
+    migrate(el);
     var v = store(key);
     if (v !== null) el.value = v;
     el.addEventListener("input", function () {
       store(key, el.value);
+      sameName(el, function (x) {
+        if (x.hasAttribute("data-jv-text") && x.value !== el.value) x.value = el.value;
+      });
     });
+  }
+  var COUNTRY_ORIG = typeof WeakMap === "function" ? new WeakMap() : null;
+  function renameCountries() {
+    var src = doc.getElementById("jp-countries");
+    if (!src || !COUNTRY_ORIG) return;
+    var list;
+    try {
+      list = JSON.parse(src.textContent);
+    } catch (_e) {
+      return;
+    }
+    var pairs = [];
+    list.forEach(function (c) {
+      var to = (store("jv:" + c.key) || "").trim();
+      if (to && to !== c.name) pairs.push([c.name, to]);
+    });
+    // Longest first, so "North Onesa" is renamed before "Onesa".
+    pairs.sort(function (a, b) {
+      return b[0].length - a[0].length;
+    });
+    function reEsc(t) {
+      return t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+    var walker = doc.createTreeWalker(doc.body, 4, {
+      acceptNode: function (n) {
+        var p = n.parentNode;
+        if (!p || /^(SCRIPT|STYLE|TEXTAREA|OPTION)$/.test(p.nodeName)) return 2;
+        if (p.closest && p.closest("[data-jp-countries-keep], .jp-countries label > span")) return 2;
+        return 1;
+      },
+    });
+    var n;
+    while ((n = walker.nextNode())) {
+      var orig = COUNTRY_ORIG.get(n);
+      if (orig === undefined) {
+        if (!pairs.length) continue;
+        orig = n.nodeValue;
+      }
+      var out = orig;
+      pairs.forEach(function (pr) {
+        out = out.replace(new RegExp("(^|[^\\p{L}\\p{N}])" + reEsc(pr[0]) + "(?=$|[^\\p{L}\\p{N}])", "gu"), function (_m, pre) {
+          return pre + pr[1];
+        });
+      });
+      if (out !== orig) COUNTRY_ORIG.set(n, orig);
+      if (n.nodeValue !== out) n.nodeValue = out;
+    }
   }
   function keepCheck(el) {
     var key = "jv:" + el.name;
@@ -455,7 +548,31 @@
     if (v !== null) el.checked = v === "1";
     el.addEventListener("change", function () {
       store(key, el.checked ? "1" : "0");
+      sameName(el, function (x) {
+        if (x.hasAttribute("data-jv-check")) x.checked = el.checked;
+      });
     });
+  }
+  // Read every kept answer on the page from the store again; then whatever draws from
+  // the store (the gap report, the lab's summary) redraws on `jv:sync`.
+  function resync() {
+    each("[data-jv-text]", function (el) {
+      var v = store("jv:" + el.name);
+      if (v !== null && el.value !== v) el.value = v;
+    });
+    each("input[data-jv-check]", function (el) {
+      var v = store("jv:" + el.name);
+      if (v !== null) el.checked = v === "1";
+    });
+    each("input[data-jv-store]", function (el) {
+      var v = store("jv:" + el.name);
+      if (v !== null) el.checked = v === el.value;
+    });
+    try {
+      window.dispatchEvent(new Event("jv:sync"));
+    } catch (_e) {
+      /* no Event constructor: nothing redraws */
+    }
   }
   function forget(key) {
     try {
@@ -508,14 +625,20 @@
     var ws = box.getAttribute("data-jp-lab");
     var steps = box.querySelectorAll("[data-jp-lab-step]");
     var tabs = doc.querySelectorAll("[data-jp-lab-tab]");
-    function show(id, scroll) {
+    // The step an element of the page sits in (`#sheets`, `#sheet-s1`: the Table sheets panel in the summary).
+    function stepOf(id) {
+      var t = id ? doc.getElementById(id) : null;
+      var s = t && t.closest ? t.closest("[data-jp-lab-step]") : null;
+      return s ? s.getAttribute("data-jp-lab-step") : null;
+    }
+    function show(id, scroll, keepHash) {
       var found = false;
       Array.prototype.forEach.call(steps, function (s) {
         var on = s.getAttribute("data-jp-lab-step") === id;
         s.hidden = !on;
         found = found || on;
       });
-      if (!found) return show(steps[0].getAttribute("data-jp-lab-step"), scroll);
+      if (!found) return show(steps[0].getAttribute("data-jp-lab-step"), scroll, keepHash);
       Array.prototype.forEach.call(tabs, function (t) {
         var on = t.getAttribute("data-jp-lab-tab") === id;
         t.classList.toggle("is-on", on);
@@ -523,7 +646,7 @@
         else t.removeAttribute("aria-current");
       });
       store("jp:lab:" + ws, id);
-      if (history.replaceState) history.replaceState(null, "", "#lab-" + id);
+      if (history.replaceState && !keepHash) history.replaceState(null, "", "#lab-" + id);
       if (scroll) {
         var nav = doc.querySelector(".jp-lab-tabs");
         if (nav) nav.scrollIntoView({ block: "start" });
@@ -537,7 +660,13 @@
       });
     });
     var m = /^#lab-(.+)$/.exec(location.hash);
-    show(m ? m[1] : store("jp:lab:" + ws) || steps[0].getAttribute("data-jp-lab-step"), false);
+    var inner = !m && location.hash.length > 1 ? stepOf(decodeURIComponent(location.hash.slice(1))) : null;
+    if (inner) show(inner, false, true);
+    else show(m ? m[1] : store("jp:lab:" + ws) || steps[0].getAttribute("data-jp-lab-step"), false);
+    window.addEventListener("hashchange", function () {
+      var s = stepOf(decodeURIComponent(location.hash.slice(1)));
+      if (s) show(s, false, true);
+    });
 
     // The aside: the statement's first line and the ticked use cases.
     var text = box.querySelector("[data-jp-usecase]");
@@ -702,6 +831,7 @@
     window.addEventListener("storage", function (ev) {
       if (ev.key && ev.key.indexOf("jv:") === 0) drawSummary();
     });
+    window.addEventListener("jv:sync", drawSummary);
     drawSummary();
   }
 
@@ -817,11 +947,30 @@
         setHood(!b.classList.contains("is-on"));
       });
     });
-    if (store("jp:hood") === "off") setHood(false);
+    each("[data-jp-lens]", function (b) {
+      b.addEventListener("click", function () {
+        setHood(b.getAttribute("data-jp-lens") === "technical");
+      });
+      // The arrow keys move between the two tabs, as a tab list's do.
+      b.addEventListener("keydown", function (ev) {
+        if (ev.key !== "ArrowLeft" && ev.key !== "ArrowRight") return;
+        ev.preventDefault();
+        ev.stopPropagation();
+        setHood(!hoodShown());
+        var to = doc.querySelector('[data-jp-lens="' + (hoodShown() ? "technical" : "policy") + '"]');
+        if (to) to.focus();
+      });
+    });
+    // Under the hood starts hidden (owner, 2026-11-17); shown when this browser last showed it.
+    if (store("jp:hood") === "on") setHood(true);
     each(".jp-proc", zoom);
     each("input[data-jv-store]", remember);
     each("[data-jv-text]", keepText);
     each("input[data-jv-check]", keepCheck);
+    window.addEventListener("storage", function (ev) {
+      if (ev.key === null || ev.key.indexOf("jv:") === 0) resync();
+    });
+    window.addEventListener("pageshow", resync);
     each("[data-jp-text-reset]", function (b) {
       b.addEventListener("click", function () {
         var name = b.getAttribute("data-jp-text-reset");
@@ -856,6 +1005,38 @@
       fit();
     });
     each("[data-jp-gapreport]", gapReport);
+    // The Table sheets panel (discuss/#sheets, where sheets/ redirects): an address
+    // naming it, or a sheet in it, opens it; its print button prints the sheets alone.
+    function openTarget() {
+      var id = location.hash.length > 1 ? decodeURIComponent(location.hash.slice(1)) : "";
+      var t = id ? doc.getElementById(id) : null;
+      if (!t || !t.closest) return;
+      var d = t.closest("details");
+      if (d) d.open = true;
+      t.scrollIntoView({ block: "start" });
+    }
+    openTarget();
+    window.addEventListener("hashchange", openTarget);
+    each("[data-jp-sheets-print]", function (b) {
+      b.addEventListener("click", function () {
+        var d = b.closest("details");
+        if (d) d.open = true;
+        root.classList.add("jp-print-sheets");
+        doc.body.classList.add("jv-print-sheets");
+        window.print();
+      });
+    });
+    window.addEventListener("afterprint", function () {
+      root.classList.remove("jp-print-sheets");
+      doc.body.classList.remove("jv-print-sheets");
+    });
+    // The room's own names for the fictional countries (owner, 2026-11-17): kept per
+    // workshop, put in place of the old names throughout the page's text, live.
+    renameCountries();
+    each("[data-jp-country]", function (el) {
+      el.addEventListener("input", renameCountries);
+    });
+    window.addEventListener("jv:sync", renameCountries);
     each("[data-jv-print]", function (b) {
       b.addEventListener("click", function () {
         window.print();
@@ -870,8 +1051,7 @@
       else if (ev.key === "ArrowLeft" || ev.key === "PageUp") go = linkHref("prev");
       else if (ev.key === "w" || ev.key === "W") toggleWhatIf();
       else if (ev.key === "t" || ev.key === "T") {
-        var b = doc.querySelector("[data-jp-hood-toggle]");
-        if (b) setHood(!b.classList.contains("is-on"));
+        if (doc.querySelector("[data-jp-hood]")) setHood(!hoodShown());
       }
       if (go) {
         ev.preventDefault();
