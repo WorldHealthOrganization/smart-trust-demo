@@ -7,7 +7,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "4f1a2ade78a923fedcd6a9b38b907891ee7395d4",
+          "ref": "1b9db9fa961d4790c76f6db69e81f7199c10af00",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -17,8 +17,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-17",
-              "ref": "4f1a2ade78a923fedcd6a9b38b907891ee7395d4",
-              "evidence": "litlfred 2026-11-17 ~17:40Z, AskUserQuestion card in session session_01EucfRmoifSn3y5VFa3kXuQ: 'Yes, all five (Recommended)' — re-pin cat-harness-tools, fhir-harness, cat-harness, folio-assistant-core and smart-base to main for smart-trust-demo#38 (workshop canvas; viewer #2404-#2409, fhir-harness#457)"
+              "ref": "1b9db9fa961d4790c76f6db69e81f7199c10af00",
+              "evidence": "litlfred 2026-11-17 ~17:50Z, AskUserQuestion card in session session_01EucfRn2hmBbRNLTgxehoZV: 'All four (Recommended)' — PR here bumping the fhir-harness pin to the merged fix for the QA summary (fhir-harness#459), forced AST rebuild, gh-pages publish, live check"
             }
           }
         }
