@@ -40,7 +40,7 @@ pages:
     journeys.md:
       title: Journeys J1 to J4
     workshop.md:
-      title: "Workshop: modules M1 to M7, T1 to T7"
+      title: "Workshop (moved to the journeys viewer)"
       workshop-m1.md:
         title: "M1 From journey to capabilities"
       workshop-m2.md:
@@ -124,7 +124,8 @@ menu:
     Changes: changes.html
   Project:
     Journeys J1 to J4: journeys.html
-    Workshop Modules (M and T): workshop.html
+    "Workshop: Technical Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html
+    "Workshop: Policy-Maker Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html
     Module × Journey Map: module-journey-map.html
     Narrative Discrepancies: narrative-discrepancies.html
     Technical Track and Demo App Changes: technical-changes.html

@@ -112,10 +112,6 @@ msgstr "每个旅程一个视图"
 msgid "Systems on the Integrated View"
 msgstr "集成视图上的系统"
 
-#: docs/architecture.md:8
-msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>DPI-H Reference Architecture</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
-msgstr "本演示项目的旅程和系统，以 ArchiMate 叠加图的形式绘制在 <a0>DPI-H 参考架构</a0>自身的 ArchiMate 模型（smart-ra，版本 0.3.0-draft.1）之上。RA 的元素保持不变并保留其 id，因此此处每个 RA 方框都是 <a1>smart-ra 发布的</a1>元素。叠加图新增了："
-
 #: docs/architecture.md:15
 msgid "the journeys J1 to J4.1 (the use cases) as business processes, one per <a0>BPMN process</a0>;"
 msgstr "旅程 J1 至 J4.1（用例），作为业务流程，每个 <a0>BPMN 流程</a0>对应一个；"
@@ -152,3 +148,10 @@ msgstr "两国之间只放置它们共享的内容：WHO GDHCN 及其所实现�
 #: docs/architecture.md:35
 msgid "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesan gateway, and the manifest it returns, the access logged in Onesa;"
 msgstr "两国交汇之处，作为其部件之间的流关系和触发关系，读取自 BPMN：J1 打印、由家人带到 J2 和 J3 的纸质 DVC；在 J4.1 中，家庭手机向泰法费基诊所出示的 VHL QR 码、诊所向奥内萨网关发出的已签名 ITI-YY5 清单请求，以及网关返回的清单，该次访问记录在 Onesa；"
+
+#: docs/architecture.md:8
+msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>Reference Architecture (DPI-H)</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
+msgstr ""
+
+#~ msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>DPI-H Reference Architecture</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
+#~ msgstr "本演示项目的旅程和系统，以 ArchiMate 叠加图的形式绘制在 <a0>DPI-H 参考架构</a0>自身的 ArchiMate 模型（smart-ra，版本 0.3.0-draft.1）之上。RA 的元素保持不变并保留其 id，因此此处每个 RA 方框都是 <a1>smart-ra 发布的</a1>元素。叠加图新增了："

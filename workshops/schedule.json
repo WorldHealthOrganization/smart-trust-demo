@@ -1,10 +1,10 @@
 {
-  "_comment": "The two days as a calendar, policy and technical tracks side by side, for the workshop hub (tools/workshop/module-pages.ts). The technical sessions and the joint sessions come from technical-track.json (the owner's draft technical schedule, 16 November 2026); this file adds the rows both tracks share (logistics and breaks, from the same schedule) and the policy track's slots. The policy slots are a PROPOSAL: the source schedule gives the joint sessions and the technical times but no policy times, so each policy module is placed in the parallel window it most likely fills, by its canvas sheet's timings, and marked to confirm.",
+  "_comment": "The two days as a calendar, policy and technical tracks side by side, for the technical-track workshop's two-day timetable (tools/workshop/module-pages.ts). The technical sessions and the joint sessions come from technical-track.json; this file adds the rows both tracks share (logistics and breaks) and the policy track's slots, each policy module placed in the parallel window it fills by its canvas sheet's timings. A suggested timetable for a general two-day workshop: a host adapts the times.",
   "days": [
     {
       "day": 1,
       "shared": [
-        {"time": "08:30", "end": "09:00", "kind": "logistics", "title": "Registration and Heropa login", "note": "Technical track: Nawi and OHS crew"},
+        {"time": "08:30", "end": "09:00", "kind": "logistics", "title": "Registration and Heropa login", "note": "Technical track: support crew"},
         {"time": "10:30", "end": "11:00", "kind": "break", "title": "Coffee, then move to the track rooms"},
         {"time": "12:30", "end": "13:30", "kind": "break", "title": "Lunch"},
         {"time": "15:00", "end": "15:30", "kind": "break", "title": "Coffee"}
@@ -18,11 +18,11 @@
     {
       "day": 2,
       "shared": [
-        {"time": "08:30", "end": "09:00", "kind": "logistics", "title": "Arrival and Heropa login", "note": "Technical track: Nawi and OHS crew"},
+        {"time": "08:30", "end": "09:00", "kind": "logistics", "title": "Arrival and Heropa login", "note": "Technical track: support crew"},
         {"time": "10:30", "end": "11:00", "kind": "break", "title": "Coffee, then back to the track rooms"},
         {"time": "12:30", "end": "13:30", "kind": "break", "title": "Lunch"},
         {"time": "15:00", "end": "15:30", "kind": "break", "title": "Coffee, and set up the devices for the finale"},
-        {"time": "16:15", "end": "16:30", "kind": "logistics", "title": "Move to the main room and brief the finale", "note": "Nawi and OHS crew"}
+        {"time": "16:15", "end": "16:30", "kind": "logistics", "title": "Move to the main room and brief the finale", "note": "Support crew"}
       ],
       "policy": [
         {"time": "11:00", "end": "11:30", "module": "M4"},

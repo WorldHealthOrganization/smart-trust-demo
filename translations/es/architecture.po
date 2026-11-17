@@ -111,10 +111,6 @@ msgstr "Una vista por recorrido"
 msgid "Systems on the Integrated View"
 msgstr "Sistemas sobre la Vista Integrada"
 
-#: docs/architecture.md:8
-msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>DPI-H Reference Architecture</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
-msgstr "Los recorridos y sistemas de este demostrador, dibujados como una superposición ArchiMate sobre el propio modelo ArchiMate de la <a0>Arquitectura de Referencia DPI-H</a0> (smart-ra, versión 0.3.0-draft.1). Los elementos de la RA no se modifican y conservan sus id, de modo que cada recuadro de la RA aquí es el elemento que <a1>publica smart-ra</a1>. La superposición añade:"
-
 #: docs/architecture.md:15
 msgid "the journeys J1 to J4.1 (the use cases) as business processes, one per <a0>BPMN process</a0>;"
 msgstr "los recorridos J1 a J4.1 (los casos de uso) como procesos de negocio, uno por <a0>proceso BPMN</a0>;"
@@ -151,3 +147,10 @@ msgstr "lo que comparten, y nada más, entre ambos: la GDHCN de la OMS y las esp
 #: docs/architecture.md:35
 msgid "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesan gateway, and the manifest it returns, the access logged in Onesa;"
 msgstr "dónde se encuentran los dos países, como relaciones de flujo y de activación entre sus partes, leídas del BPMN: el DVC en papel que imprime J1 y que la familia lleva a J2 y J3; en J4.1, el QR VHL que el teléfono de la familia muestra a la clínica de Taifafeki, la solicitud firmada del manifiesto ITI-YY5 de la clínica a la puerta de enlace de Onesa, y el manifiesto que esta devuelve, con el acceso registrado en Onesa;"
+
+#: docs/architecture.md:8
+msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>Reference Architecture (DPI-H)</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
+msgstr ""
+
+#~ msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>DPI-H Reference Architecture</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
+#~ msgstr "Los recorridos y sistemas de este demostrador, dibujados como una superposición ArchiMate sobre el propio modelo ArchiMate de la <a0>Arquitectura de Referencia DPI-H</a0> (smart-ra, versión 0.3.0-draft.1). Los elementos de la RA no se modifican y conservan sus id, de modo que cada recuadro de la RA aquí es el elemento que <a1>publica smart-ra</a1>. La superposición añade:"

@@ -1,149 +1,480 @@
 {
-  "_comment": "The technical track of the WHO Pre-GDHF workshop, Bangkok, 30 November and 1 December 2026: seven modules (T1-T7) drawn from the owner's draft schedule of 16 November 2026 (\"Technical track schedule\", a draft for the team to confirm; names and times are proposals). Each module is paired with the policy module whose question it serves, so the module pages can switch between the two tracks; each names the journey steps it teaches from, with the technical point there and a technical question for the room. Read by tools/workshop/module-pages.ts and tools/workshop/module-journey-map.ts.",
+  "_comment": "The technical track of a general two-day DPI-H for Health workshop: seven modules (T1-T7). Each module is paired with the policy module whose question it serves; each names the journey steps it teaches from, with the technical point there and a technical question for the room. Leads are roles, not people; times are a suggested timetable a host adapts. tools/workshop/module-pages.ts turns this file, schedule.json and policy-agenda.json into the journeys viewer's technical-track workshop (technical-track.workshop.json); tools/workshop/module-journey-map.ts reads it too.",
   "track": "Technical track",
   "title": "Technical track schedule",
   "promise": "Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.",
-  "status": "Draft for the team to confirm. Names and times are proposals.",
   "days": {
-    "1": {"date": "Monday 30 November", "summary": "Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa."},
-    "2": {"date": "Tuesday 1 December", "summary": "Teams build one app in the journey, show it, and then everything runs together."}
+    "1": {
+      "summary": "Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa."
+    },
+    "2": {
+      "summary": "Teams build one app in the journey, show it, and then everything runs together."
+    }
   },
   "modules": [
     {
-      "id": "T1", "pairedWith": "M1", "day": 1, "status": "draft",
+      "id": "T1",
+      "pairedWith": "M1",
+      "day": 1,
+      "status": "ready",
       "title": "Building with FHIR and the Open Health Stack",
       "carries": "Which FHIR resources, terminologies and tools carry this journey, and where does each lab use them?",
       "sessions": [
-        {"time": "11:00", "end": "11:40", "minutes": 40, "type": "Talk", "title": "Talk 1: Building with FHIR and the Open Health Stack", "leads": ["Fred Hersch"], "supports": ["Jing Tang"],
-         "what": "A developer's tour of FHIR, then of the tools around it: the HAPI FHIR server, other open global goods, and where the OHS libraries and the OHS Player fit."}
+        {
+          "time": "11:00",
+          "end": "11:40",
+          "minutes": 40,
+          "type": "Talk",
+          "title": "Talk 1: Building with FHIR and the Open Health Stack",
+          "leads": [
+            "Lead facilitator"
+          ],
+          "supports": [
+            "Co-facilitator"
+          ],
+          "what": "A developer's tour of FHIR, then of the tools around it: the HAPI FHIR server, other open global goods, and where the OHS libraries and the OHS Player fit."
+        }
       ],
-      "outcomes": ["Name the FHIR resources you will use over the two days and say what each is for", "Explain how terminologies and implementation guides keep data meaningful", "Say which parts of the stack each lab uses"],
+      "outcomes": [
+        "Name the FHIR resources you will use over the two days and say what each is for",
+        "Explain how terminologies and implementation guides keep data meaningful",
+        "Say which parts of the stack each lab uses"
+      ],
       "steps": [
-        {"step": "J1", "technical": "Patient and Immunization in the hospital record; each dose signed as a DVC (HCERT).", "question": "Which FHIR resources does the hospital write for a birth dose, and which of their fields end up in the signed card?"},
-        {"step": "J3b", "technical": "ConceptMap from Taifafeki's product codes to Onesa's schedule codes; the schedule as a PlanDefinition.", "question": "How does an implementation guide let two countries keep their own vaccine codes and still count each other's doses?"},
-        {"step": "J4.0b", "technical": "The IPS as a FHIR document Bundle assembled from the national record.", "question": "What makes the IPS readable in another country's system without a bilateral agreement?"}
+        {
+          "step": "J1",
+          "technical": "Patient and Immunization in the hospital record; each dose signed as a DVC (HCERT).",
+          "question": "Which FHIR resources does the hospital write for a birth dose, and which of their fields end up in the signed card?"
+        },
+        {
+          "step": "J3b",
+          "technical": "ConceptMap from Taifafeki's product codes to Onesa's schedule codes; the schedule as a PlanDefinition.",
+          "question": "How does an implementation guide let two countries keep their own vaccine codes and still count each other's doses?"
+        },
+        {
+          "step": "J4.0b",
+          "technical": "The IPS as a FHIR document Bundle assembled from the national record.",
+          "question": "What makes the IPS readable in another country's system without a bilateral agreement?"
+        }
       ]
     },
     {
-      "id": "T2", "pairedWith": "M3", "day": 1, "status": "draft",
+      "id": "T2",
+      "pairedWith": "M3",
+      "day": 1,
+      "status": "ready",
       "title": "Offline data capture",
       "carries": "How does a form on a health worker's phone become a patient record, with no signal?",
       "sessions": [
-        {"time": "11:40", "end": "12:30", "minutes": 50, "type": "Lab", "title": "Lab 1: Offline data capture", "leads": ["Fikri"], "supports": ["Simon Njoroge"],
-         "what": "The stack is already running on Heropa. Open a questionnaire in the form editor, change it, and watch the change appear in the OHS Player in your browser. Then add a validation rule or a skip rule. If time allows, see how the answers turn into FHIR resources. Optional: a QR code for the gallery app, to try the same forms on iOS or Android."}
+        {
+          "time": "11:40",
+          "end": "12:30",
+          "minutes": 50,
+          "type": "Lab",
+          "title": "Lab 1: Offline data capture",
+          "leads": [
+            "Lab facilitator"
+          ],
+          "supports": [
+            "Co-facilitator"
+          ],
+          "what": "The stack is already running on Heropa. Open a questionnaire in the form editor, change it, and watch the change appear in the OHS Player in your browser. Then add a validation rule or a skip rule. If time allows, see how the answers turn into FHIR resources. Optional: a QR code for the gallery app, to try the same forms on iOS or Android."
+        }
       ],
-      "outcomes": ["Edit a FHIR Questionnaire and see the result straight away", "Add a validation or skip rule", "Describe how captured answers become patient records"],
+      "outcomes": [
+        "Edit a FHIR Questionnaire and see the result straight away",
+        "Add a validation or skip rule",
+        "Describe how captured answers become patient records"
+      ],
       "steps": [
-        {"step": "J2a", "technical": "The CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.", "question": "Which data elements can the form take from a scanned card, and how does it mark them as reported, not verified?"},
-        {"step": "J2b", "technical": "The household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.", "question": "Which validation or skip rule stops a duplicate child being registered in the same household?"}
+        {
+          "step": "J2a",
+          "technical": "The CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.",
+          "question": "Which data elements can the form take from a scanned card, and how does it mark them as reported, not verified?"
+        },
+        {
+          "step": "J2b",
+          "technical": "The household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.",
+          "question": "Which validation or skip rule stops a duplicate child being registered in the same household?"
+        }
       ]
     },
     {
-      "id": "T3", "pairedWith": "M4", "day": 1, "status": "draft",
+      "id": "T3",
+      "pairedWith": "M4",
+      "day": 1,
+      "status": "ready",
       "title": "Trust between countries: SMART Trust and the GDHCN",
       "carries": "How can a clinic in one country trust a vaccination record from another, and when is a card better than a link?",
       "sessions": [
-        {"time": "13:30", "end": "13:50", "minutes": 20, "type": "Talk", "title": "Talk 2: Trust between countries, SMART Trust and the GDHCN", "leads": ["Carl Leitner"], "supports": [], "confirm": "To confirm with Carl",
-         "what": "How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link."}
+        {
+          "time": "13:30",
+          "end": "13:50",
+          "minutes": 20,
+          "type": "Talk",
+          "title": "Talk 2: Trust between countries, SMART Trust and the GDHCN",
+          "leads": [
+            "Trust facilitator"
+          ],
+          "supports": [],
+          "what": "How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link."
+        }
       ],
-      "outcomes": ["Explain what the GDHCN is and why a verifier needs a trust list", "Tell a DVC from a VHL and say when each one fits", "Know which parts you will work with on Day 2"],
+      "outcomes": [
+        "Explain what the GDHCN is and why a verifier needs a trust list",
+        "Tell a DVC from a VHL and say when each one fits",
+        "Know which parts you will work with on Day 2"
+      ],
       "steps": [
-        {"step": "J1", "technical": "Taifafeki's document signer key (DSC of XXR) signs each DVC as a CWT in COSE.", "question": "What does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document?"},
-        {"step": "J3a", "technical": "The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.", "question": "How fresh does the cached trust list have to be, and what should the app show when a signature fails?"},
-        {"step": "J4.1", "technical": "The viewer verifies the VHL's HCERT against Onesa's DSC (XXU) before it fetches anything.", "question": "Why is the health data not in the QR, and what does the viewer check before it opens the link?"}
+        {
+          "step": "J1",
+          "technical": "Taifafeki's document signer key (DSC of XXR) signs each DVC as a CWT in COSE.",
+          "question": "What does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document?"
+        },
+        {
+          "step": "J3a",
+          "technical": "The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.",
+          "question": "How fresh does the cached trust list have to be, and what should the app show when a signature fails?"
+        },
+        {
+          "step": "J4.1",
+          "technical": "The viewer verifies the VHL's HCERT against Onesa's DSC (XXU) before it fetches anything.",
+          "question": "Why is the health data not in the QR, and what does the viewer check before it opens the link?"
+        }
       ]
     },
     {
-      "id": "T4", "pairedWith": "M5", "day": 1, "status": "draft",
+      "id": "T4",
+      "pairedWith": "M5",
+      "day": 1,
+      "status": "ready",
       "title": "Workflows, sync and who sees what",
       "carries": "What should happen next for this child, how does the record reach the server, and who is allowed to see it?",
       "sessions": [
-        {"time": "13:50", "end": "14:00", "minutes": 10, "type": "Talk", "title": "Talk 3: Workflows, sync and who sees what", "leads": ["Jing Tang"], "supports": ["Elly Nandi"],
-         "what": "A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach."},
-        {"time": "14:00", "end": "15:00", "minutes": 60, "type": "Lab", "title": "Lab 2: Sync data and run a workflow", "leads": ["Elly Nandi", "Fikri"], "supports": ["Jing Tang"],
-         "what": "In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10."}
+        {
+          "time": "13:50",
+          "end": "14:00",
+          "minutes": 10,
+          "type": "Talk",
+          "title": "Talk 3: Workflows, sync and who sees what",
+          "leads": [
+            "Co-facilitator"
+          ],
+          "supports": [
+            "Lab facilitator"
+          ],
+          "what": "A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach."
+        },
+        {
+          "time": "14:00",
+          "end": "15:00",
+          "minutes": 60,
+          "type": "Lab",
+          "title": "Lab 2: Sync data and run a workflow",
+          "leads": [
+            "Lab facilitator"
+          ],
+          "supports": [
+            "Co-facilitator"
+          ],
+          "what": "In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10."
+        }
       ],
-      "outcomes": ["Sync records between the Player and the FHIR server", "Read a plan definition and follow it through a workflow", "Show that the gateway filters records by user"],
+      "outcomes": [
+        "Sync records between the Player and the FHIR server",
+        "Read a plan definition and follow it through a workflow",
+        "Show that the gateway filters records by user"
+      ],
       "steps": [
-        {"step": "J2b", "technical": "Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.", "question": "What happens to a queued registration if the clinic registers the same child before the phone syncs?"},
-        {"step": "J3b", "technical": "The Onesan schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.", "question": "How does the plan definition decide a dose is overdue, and what sets the date of the next one?"},
-        {"step": "J4.0b", "technical": "The family's consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.", "question": "Where does the gateway read the consent from, and what does it do when the link has expired?"},
-        {"step": "J4.1", "technical": "Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.", "question": "Which AuditEvent fields let Onesa tell the family who looked at the record, and when?"}
+        {
+          "step": "J2b",
+          "technical": "Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.",
+          "question": "What happens to a queued registration if the clinic registers the same child before the phone syncs?"
+        },
+        {
+          "step": "J3b",
+          "technical": "The Onesan schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.",
+          "question": "How does the plan definition decide a dose is overdue, and what sets the date of the next one?"
+        },
+        {
+          "step": "J4.0b",
+          "technical": "The family's consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.",
+          "question": "Where does the gateway read the consent from, and what does it do when the link has expired?"
+        },
+        {
+          "step": "J4.1",
+          "technical": "Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.",
+          "question": "Which AuditEvent fields let Onesa tell the family who looked at the record, and when?"
+        }
       ]
     },
     {
-      "id": "T5", "pairedWith": "M2", "day": 1, "status": "draft",
+      "id": "T5",
+      "pairedWith": "M2",
+      "day": 1,
+      "status": "ready",
       "title": "From records to charts",
       "carries": "How does a FHIR record become a row, a chart and a coverage number, and who accessed what?",
       "sessions": [
-        {"time": "15:30", "end": "15:40", "minutes": 10, "type": "Talk", "title": "Talk 4: From records to charts", "leads": ["Roy Munge"], "supports": ["Fred Hersch"],
-         "what": "How data gets out of the FHIR server and into tables you can chart. A look at FHIR Data Pipes, how one resource becomes a row, and what a dashboard reads."},
-        {"time": "15:40", "end": "16:30", "minutes": 50, "type": "Lab", "title": "Lab 3: Build your first dashboard", "leads": ["Roy Munge"], "supports": [], "confirm": "Observable Framework, the shared test data and Matt's help once the apps are seeded are still to confirm",
-         "what": "A guided start in class, then a take-home task. Look at a dashboard built on the data from Lab 2. Add a small batch of new records, run the pipeline again and watch the chart update. Look at the audit events to see who accessed what. You then have about 24 hours to finish a dashboard of your own."}
+        {
+          "time": "15:30",
+          "end": "15:40",
+          "minutes": 10,
+          "type": "Talk",
+          "title": "Talk 4: From records to charts",
+          "leads": [
+            "Data facilitator"
+          ],
+          "supports": [
+            "Lead facilitator"
+          ],
+          "what": "How data gets out of the FHIR server and into tables you can chart. A look at FHIR Data Pipes, how one resource becomes a row, and what a dashboard reads."
+        },
+        {
+          "time": "15:40",
+          "end": "16:30",
+          "minutes": 50,
+          "type": "Lab",
+          "title": "Lab 3: Build your first dashboard",
+          "leads": [
+            "Data facilitator"
+          ],
+          "supports": [],
+          "what": "A guided start in class, then a take-home task. Look at a dashboard built on the data from Lab 2. Add a small batch of new records, run the pipeline again and watch the chart update. Look at the audit events to see who accessed what. You then have about 24 hours to finish a dashboard of your own."
+        }
       ],
-      "outcomes": ["Describe the path from a FHIR resource to a chart", "Run the pipeline and see new data appear on a chart", "Read the audit events for who accessed which record", "Finish a simple dashboard of your own"],
+      "outcomes": [
+        "Describe the path from a FHIR resource to a chart",
+        "Run the pipeline and see new data appear on a chart",
+        "Read the audit events for who accessed which record",
+        "Finish a simple dashboard of your own"
+      ],
       "steps": [
-        {"step": "J2b", "technical": "A child born abroad and registered at home enters the coverage denominator here.", "question": "Which flattened table and which column put Somsak in the coverage denominator, and when?"},
-        {"step": "J3b", "technical": "Verified doses, including those given abroad, count toward coverage indicators.", "question": "How does the indicator count a dose given abroad without counting it twice?"},
-        {"step": "J4.1", "technical": "AuditEvents become an access log you can chart.", "question": "What would a 'who looked at this child's record abroad' chart need from the AuditEvent rows?"}
+        {
+          "step": "J2b",
+          "technical": "A child born abroad and registered at home enters the coverage denominator here.",
+          "question": "Which flattened table and which column put Somsak in the coverage denominator, and when?"
+        },
+        {
+          "step": "J3b",
+          "technical": "Verified doses, including those given abroad, count toward coverage indicators.",
+          "question": "How does the indicator count a dose given abroad without counting it twice?"
+        },
+        {
+          "step": "J4.1",
+          "technical": "AuditEvents become an access log you can chart.",
+          "question": "What would a 'who looked at this child's record abroad' chart need from the AuditEvent rows?"
+        }
       ]
     },
     {
-      "id": "T6", "pairedWith": "M6", "day": 2, "status": "draft",
+      "id": "T6",
+      "pairedWith": "M6",
+      "day": 2,
+      "status": "ready",
       "title": "Verifying a card, sharing a link",
       "carries": "How does an app go from a scanned QR to a verified result, and from a shared link to the records behind it?",
       "sessions": [
-        {"time": "11:00", "end": "11:30", "minutes": 30, "type": "Talk", "title": "Talk 5: Verifying a card, sharing a link, and what you build today", "leads": ["Carl Leitner"], "supports": [],
-         "what": "The trust ideas from Day 1 in practice. How an app reads a vaccination QR and checks it against the trust list, and how a shared health link is opened. Then a look at the four pieces the teams will build."}
+        {
+          "time": "11:00",
+          "end": "11:30",
+          "minutes": 30,
+          "type": "Talk",
+          "title": "Talk 5: Verifying a card, sharing a link, and what you build today",
+          "leads": [
+            "Trust facilitator"
+          ],
+          "supports": [],
+          "what": "The trust ideas from Day 1 in practice. How an app reads a vaccination QR and checks it against the trust list, and how a shared health link is opened. Then a look at the four pieces the teams will build."
+        }
       ],
-      "outcomes": ["Follow a card from scan to verified result", "Follow a health link from QR to records", "Pick the team you will join"],
+      "outcomes": [
+        "Follow a card from scan to verified result",
+        "Follow a health link from QR to records",
+        "Pick the team you will join"
+      ],
       "steps": [
-        {"step": "J3a", "technical": "Scan, Base45 and zlib decode, COSE signature check against the trust list, then import with provenance.", "question": "At which step of decoding does a tampered card fail, and what does the nurse see?"},
-        {"step": "J4.0b", "technical": "The portal encrypts the IPS and DVCs, publishes a manifest and signs the link as an HCERT.", "question": "What is inside the link QR, and why can a 4-digit passcode be enough?"},
-        {"step": "J4.1", "technical": "The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents.", "question": "What does the viewer need from the trust list, and what does it need from Onesa's gateway?"}
+        {
+          "step": "J3a",
+          "technical": "Scan, Base45 and zlib decode, COSE signature check against the trust list, then import with provenance.",
+          "question": "At which step of decoding does a tampered card fail, and what does the nurse see?"
+        },
+        {
+          "step": "J4.0b",
+          "technical": "The portal encrypts the IPS and DVCs, publishes a manifest and signs the link as an HCERT.",
+          "question": "What is inside the link QR, and why can a 4-digit passcode be enough?"
+        },
+        {
+          "step": "J4.1",
+          "technical": "The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents.",
+          "question": "What does the viewer need from the trust list, and what does it need from Onesa's gateway?"
+        }
       ]
     },
     {
-      "id": "T7", "pairedWith": "M7", "day": 2, "status": "draft",
+      "id": "T7",
+      "pairedWith": "M7",
+      "day": 2,
+      "status": "ready",
       "title": "Team build, showcase and the journey together",
       "carries": "Can each team change one app in the journey and then run the whole journey live, from a birth abroad to a clinic back home to the family travelling again?",
       "sessions": [
-        {"time": "11:30", "end": "12:30", "minutes": 60, "type": "Team build", "title": "Team build, part 1", "leads": ["Roy Munge", "Elly Nandi", "Fikri", "Simon Njoroge"], "supports": ["One per team"],
-         "what": "Each team takes one app in the journey. Everything is pre-configured, so there is no Android Studio. You run the app, read how its configuration works, and change it. Test with the vaccination cards."},
-        {"time": "13:30", "end": "14:25", "minutes": 55, "type": "Team build", "title": "Team build, part 2", "leads": ["Roy Munge", "Elly Nandi", "Fikri", "Simon Njoroge"], "supports": ["One per team"],
-         "what": "Finish the change, test it with the cards, and get ready to show it."},
-        {"time": "14:25", "end": "15:00", "minutes": 35, "type": "Showcase", "title": "Team presentations", "leads": ["Fred Hersch (chair)"], "supports": [], "confirm": "Proposed",
-         "what": "Each team shows what it built, about seven minutes each. Volunteers present."},
-        {"time": "15:30", "end": "16:15", "minutes": 45, "type": "Team build", "title": "Putting the journey together", "leads": ["Roy Munge", "Simon Njoroge"], "supports": ["A volunteer from each team"], "confirm": "Proposed",
-         "what": "Volunteers run the whole journey on the demo system, each using their own piece. This is the rehearsal for the finale."}
+        {
+          "time": "11:30",
+          "end": "12:30",
+          "minutes": 60,
+          "type": "Team build",
+          "title": "Team build, part 1",
+          "leads": [
+            "Team facilitators"
+          ],
+          "supports": [
+            "One per team"
+          ],
+          "what": "Each team takes one app in the journey. Everything is pre-configured, so there is no Android Studio. You run the app, read how its configuration works, and change it. Test with the vaccination cards."
+        },
+        {
+          "time": "13:30",
+          "end": "14:25",
+          "minutes": 55,
+          "type": "Team build",
+          "title": "Team build, part 2",
+          "leads": [
+            "Team facilitators"
+          ],
+          "supports": [
+            "One per team"
+          ],
+          "what": "Finish the change, test it with the cards, and get ready to show it."
+        },
+        {
+          "time": "14:25",
+          "end": "15:00",
+          "minutes": 35,
+          "type": "Showcase",
+          "title": "Team presentations",
+          "leads": [
+            "Lead facilitator (chair)"
+          ],
+          "supports": [],
+          "what": "Each team shows what it built, about seven minutes each. Volunteers present."
+        },
+        {
+          "time": "15:30",
+          "end": "16:15",
+          "minutes": 45,
+          "type": "Team build",
+          "title": "Putting the journey together",
+          "leads": [
+            "Team facilitators"
+          ],
+          "supports": [
+            "A volunteer from each team"
+          ],
+          "what": "Volunteers run the whole journey on the demo system, each using their own piece. This is the rehearsal for the finale."
+        }
       ],
-      "outcomes": ["Run your app and find where its configuration lives", "Make one change and see it work", "Have a working piece you can show in under seven minutes"],
+      "outcomes": [
+        "Run your app and find where its configuration lives",
+        "Make one change and see it work",
+        "Have a working piece you can show in under seven minutes"
+      ],
       "teams": [
-        {"name": "CHW app", "device": "The health worker's phone", "what": "Scan a vaccination card, add the child to the household, and refer them to a clinic.", "steps": ["J2a", "J2b"]},
-        {"name": "Clinic app", "device": "The nurse's tablet", "what": "Receive the referral, verify the card against the trust list, and plan the next visit.", "steps": ["J3a", "J3b"]},
-        {"name": "Family app", "device": "The parent's phone", "what": "Hold the family's records and share a child's record as a health link.", "steps": ["J4.0a", "J4.0b"]},
-        {"name": "Viewer app", "device": "The clinic abroad", "what": "Open a shared health link and read the records behind it.", "steps": ["J4.1"]}
+        {
+          "name": "CHW app",
+          "device": "The health worker's phone",
+          "what": "Scan a vaccination card, add the child to the household, and refer them to a clinic.",
+          "steps": [
+            "J2a",
+            "J2b"
+          ]
+        },
+        {
+          "name": "Clinic app",
+          "device": "The nurse's tablet",
+          "what": "Receive the referral, verify the card against the trust list, and plan the next visit.",
+          "steps": [
+            "J3a",
+            "J3b"
+          ]
+        },
+        {
+          "name": "Family app",
+          "device": "The parent's phone",
+          "what": "Hold the family's records and share a child's record as a health link.",
+          "steps": [
+            "J4.0a",
+            "J4.0b"
+          ]
+        },
+        {
+          "name": "Viewer app",
+          "device": "The clinic abroad",
+          "what": "Open a shared health link and read the records behind it.",
+          "steps": [
+            "J4.1"
+          ]
+        }
       ],
       "steps": [
-        {"step": "J2b", "technical": "CHW app team: the registration form, the household, the referral.", "question": "Which one configuration change would make the CHW app fit your country's household register?"},
-        {"step": "J3a", "technical": "Clinic app team: the verifier and its trust store.", "question": "How would your clinic app load your country's trust list, and how often would it refresh it?"},
-        {"step": "J4.0a", "technical": "Family app team: one phone, one profile and one link per member.", "question": "How should the family app separate each member's records on a shared phone?"},
-        {"step": "J4.1", "technical": "Viewer app team: open the link, enter the passcode, read the records.", "question": "What must the viewer show the clinician about where the records came from?"}
+        {
+          "step": "J2b",
+          "technical": "CHW app team: the registration form, the household, the referral.",
+          "question": "Which one configuration change would make the CHW app fit your country's household register?"
+        },
+        {
+          "step": "J3a",
+          "technical": "Clinic app team: the verifier and its trust store.",
+          "question": "How would your clinic app load your country's trust list, and how often would it refresh it?"
+        },
+        {
+          "step": "J4.0a",
+          "technical": "Family app team: one phone, one profile and one link per member.",
+          "question": "How should the family app separate each member's records on a shared phone?"
+        },
+        {
+          "step": "J4.1",
+          "technical": "Viewer app team: open the link, enter the passcode, read the records.",
+          "question": "What must the viewer show the clinician about where the records came from?"
+        }
       ]
     }
   ],
   "joint": [
-    {"day": 1, "time": "09:00", "end": "10:30", "title": "FHIR around the world and the story we follow", "leads": "WHO and OHS, with the policy track", "confirm": "To agree"},
-    {"day": 1, "time": "16:30", "end": "17:00", "title": "What we did today", "leads": "Fred Hersch for the technical track", "confirm": "To agree"},
-    {"day": 2, "time": "09:00", "end": "10:30", "title": "Day 1 recap and today's plan", "leads": "WHO with the host", "confirm": "To agree"},
-    {"day": 2, "time": "16:30", "end": "17:00", "title": "The journey live, readouts and next steps", "leads": "Fred Hersch with WHO and Nawi", "confirm": "To agree"}
+    {
+      "day": 1,
+      "time": "09:00",
+      "end": "10:30",
+      "title": "FHIR around the world and the story we follow",
+      "leads": "Workshop hosts, with the policy track"
+    },
+    {
+      "day": 1,
+      "time": "16:30",
+      "end": "17:00",
+      "title": "What we did today",
+      "leads": "Lead facilitator for the technical track"
+    },
+    {
+      "day": 2,
+      "time": "09:00",
+      "end": "10:30",
+      "title": "Day 1 recap and today's plan",
+      "leads": "Workshop hosts"
+    },
+    {
+      "day": 2,
+      "time": "16:30",
+      "end": "17:00",
+      "title": "The journey live, readouts and next steps",
+      "leads": "Lead facilitator with the workshop hosts"
+    }
   ],
-  "toConfirm": [
-    "Carl to confirm the Day 1 trust talk, 13:30 to 13:50.",
-    "Joint sessions on both days to be agreed with the policy track, including who leads the two 16:30 slots.",
-    "Heropa classroom test late next week. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio.",
-    "Lab 3: confirm Observable Framework, the shared test data, and Matt's help once the apps are seeded.",
-    "Which facilitator takes which Day 2 team.",
-    "A short recording of the full journey as a fallback for the finale."
+  "prepare": [
+    "Agree the joint sessions on both days with the policy track, and who leads each closing slot.",
+    "Test the hosted classroom environment (Heropa) the week before. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio.",
+    "Lab 3: set up the dashboard tooling and the shared test data, with help on hand once the apps are seeded.",
+    "Assign a facilitator to each Day 2 team.",
+    "Record the full journey once as a fallback for the finale."
   ]
 }

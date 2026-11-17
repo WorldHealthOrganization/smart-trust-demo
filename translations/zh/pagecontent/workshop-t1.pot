@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T12:46:16.174Z\n"
+"POT-Creation-Date: 2026-11-17T07:41:43.949Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -14,6 +14,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/workshop-t1.md:88
-msgid "Policy · M1Technical · T1PolicyDay 1M1M2M3Day 2M4M5M6M7TechnicalDay 1T1T2T3T4T5Day 2T6T7 Day 1 · 11:00–11:40 · Technical module 1 · serves M1Building with FHIR and the Open Health StackDraftWhich FHIR resources, terminologies and tools carry this journey, and where does each lab use them? SessionsTalk11:00–11:40 · 40 minTalk 1: Building with FHIR and the Open Health StackA developer's tour of FHIR, then of the tools around it: the HAPI FHIR server, other open global goods, and where the OHS libraries and the OHS Player fit.LeadsFred Hersch · SupportsJing Tang By the end you canName the FHIR resources you will use over the two days and say what each is forExplain how terminologies and implementation guides keep data meaningfulSay which parts of the stack each lab uses Where it meets the journeyJ1An Onesan baby is born in TaifafekiWhat the system doesPatient and Immunization in the hospital record; each dose signed as a DVC (HCERT).Technical questionWhich FHIR resources does the hospital write for a birth dose, and which of their fields end up in the signed card?J3bTaifafeki vaccines are fitted to the Onesan scheduleWhat the system doesConceptMap from Taifafeki's product codes to Onesa's schedule codes; the schedule as a PlanDefinition.Technical questionHow does an implementation guide let two countries keep their own vaccine codes and still count each other's doses?J4.0bDad creates a link to share at the clinicWhat the system doesThe IPS as a FHIR document Bundle assembled from the national record.Technical questionWhat makes the IPS readable in another country's system without a bilateral agreement? Technical questions for the roomJ1Which FHIR resources does the hospital write for a birth dose, and which of their fields end up in the signed card?J3bHow does an implementation guide let two countries keep their own vaccine codes and still count each other's doses?J4.0bWhat makes the IPS readable in another country's system without a bilateral agreement? Terms at those stepsElectronic immunization registryClient RegistryFacility, workforce and product registriesDose number and seriesBatch numberVerifiable credentialDigital signaturePublic key infrastructureIssuer · holder · verifierHealth certificate identifierInternational Certificate of Vaccination or ProphylaxisConsentTerminology ServiceCore data setLogical information modelSNOMED CTComputable Decision Support EngineSMART GuidelinesDigital adaptation kitExpanded Programme on ImmunizationInternational Patient SummaryFast Healthcare Interoperability ResourcesImplementation guideProfileProcurement conditionsApplication programming interface M1 From journey to capabilitiesModule × journey mapAll modules"
+#: input/pagecontent/workshop-t1.md:3
+msgid "Module T1, Building with FHIR and the Open Health Stack, of the technical track has moved to the journeys viewer: <a0>T1 in the journeys viewer</a0>."
+msgstr ""
+
+#: input/pagecontent/workshop-t1.md:5
+msgid "The whole workshop: <a0>technical track</a0> · <a1>policy-maker track</a1>."
 msgstr ""

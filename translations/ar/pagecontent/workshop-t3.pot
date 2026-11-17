@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T12:46:16.175Z\n"
+"POT-Creation-Date: 2026-11-17T07:41:43.949Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -14,6 +14,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/workshop-t3.md:88
-msgid "Policy · M4Technical · T3PolicyDay 1M1M2M3Day 2M4M5M6M7TechnicalDay 1T1T2T3T4T5Day 2T6T7 Day 1 · 13:30–13:50 · Technical module 3 · serves M4Trust between countries: SMART Trust and the GDHCNDraftHow can a clinic in one country trust a vaccination record from another, and when is a card better than a link? SessionsTalk13:30–13:50 · 20 minTalk 2: Trust between countries, SMART Trust and the GDHCNHow a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link.LeadsCarl LeitnerTo confirm with Carl By the end you canExplain what the GDHCN is and why a verifier needs a trust listTell a DVC from a VHL and say when each one fitsKnow which parts you will work with on Day 2 Where it meets the journeyJ1An Onesan baby is born in TaifafekiWhat the system doesTaifafeki's document signer key (DSC of XXR) signs each DVC as a CWT in COSE.Technical questionWhat does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document?J3aThe clinic confirms the cards are genuineWhat the system doesThe clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.Technical questionHow fresh does the cached trust list have to be, and what should the app show when a signature fails?J4.1A Taifafeki doctor sees the full historyWhat the system doesThe viewer verifies the VHL's HCERT against Onesa's DSC (XXU) before it fetches anything.Technical questionWhy is the health data not in the QR, and what does the viewer check before it opens the link? Technical questions for the roomJ1What does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document?J3aHow fresh does the cached trust list have to be, and what should the app show when a signature fails?J4.1Why is the health data not in the QR, and what does the viewer check before it opens the link? Terms at those stepsElectronic immunization registryClient RegistryFacility, workforce and product registriesDose number and seriesBatch numberVerifiable credentialDigital signaturePublic key infrastructureIssuer · holder · verifierHealth certificate identifierInternational Certificate of Vaccination or ProphylaxisConsentTrust listGlobal Digital Health Certification NetworkTrust anchorInternational Patient SummaryHealth information exchangeLifelong Health Record M4 Trust, credentials and walletsModule × journey mapAll modules"
+#: input/pagecontent/workshop-t3.md:3
+msgid "Module T3, Trust between countries: SMART Trust and the GDHCN, of the technical track has moved to the journeys viewer: <a0>T3 in the journeys viewer</a0>."
+msgstr ""
+
+#: input/pagecontent/workshop-t3.md:5
+msgid "The whole workshop: <a0>technical track</a0> · <a1>policy-maker track</a1>."
 msgstr ""

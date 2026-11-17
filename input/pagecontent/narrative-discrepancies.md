@@ -1,4 +1,4 @@
-This page lists every place where the site's journeys differ from the policy-maker track's shared story deck, *The Immunization Journey: End-to-End Use Case Narrative* (M1, 30 November and 1 December 2026, 30 slides). The deck is the reference for names, countries and story.
+This page lists every place where the site's journeys differ from the policy-maker track's shared story deck, *The Immunization Journey: End-to-End Use Case Narrative* (M1, 30 slides). The deck is the reference for names, countries and story.
 
 ### Decisions (owner, 16 November 2026)
 
@@ -83,7 +83,7 @@ The canvas now replaces the viewer's table sheets: the sheet titles and write-in
 | D3 | Sheet 1, touchpoint 1 | "Vaccinated abroad, and leaves with a paper card and a QR code" (one card) | See A5: the site issues one signed card per dose |
 | D4 | Sheet 1, touchpoint 4 | "Checked at a paediatrician office … any verifier can check it": the IPS story fetches the record from Onesa, so a verifier needs Onesa's gateway | See B7, B8 |
 | D5 | Sheet 1, touchpoint 3 | "…can be read here. the schedule logic…" | Capitalise "The" |
-| D6 | Sheets 1 to 6, header | "Bangkok · [Dates]" is a placeholder; the cover has "30 Nov & 1 Dec 2026" | Fill in the dates |
+| D6 | Sheets 1 to 6, header | The sheet headers named a venue and dates | Done: the canvas is for a general two-day workshop; every header reads *Policy-maker track · Day 1 and Day 2* |
 | D7 | Sheet 4, legal basis | Three rows (data protection, cross-border, consent for minors); the workshop had two | Done: the workshop's legal-bases table now has the canvas's three |
 | D8 | Sheet 6, cost drivers | Six drivers, including *Training and change management*; the workshop had five, and called the last *The cost of not doing it once* (regionally), where the canvas says *The cost of not doing it* | Training added; decide whether the last driver means "not at all" or "not once, together" |
 | D9 | Sheet 2 | The capability list on Sheet 1 has no notifications or consent block, but Sheet 2 and the deck's J2 (reminder) use them | Add them to Sheet 1, or leave Sheet 1 short on purpose |
