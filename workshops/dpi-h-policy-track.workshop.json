@@ -282,11 +282,13 @@
       "questions": [
         {
           "module": "M1",
-          "text": "Write your country’s use-case statement: “A child vaccinated in ___ should be able to ___ in ___.”"
+          "text": "Write your country’s use-case statement: “A child vaccinated in ___ should be able to ___ in ___.”",
+          "canvas": "sheet-1:use-case"
         },
         {
           "module": "M4",
-          "text": "Who in your government would sign this card on behalf of the health sector: the hospital, the ministry, or a national trust service?"
+          "text": "Who in your government would sign this card on behalf of the health sector: the hospital, the ministry, or a national trust service?",
+          "canvas": "sheet-4:issuer"
         },
         {
           "module": "M5",
@@ -433,7 +435,8 @@
         },
         {
           "module": "M4",
-          "text": "Who would hold your national trust anchor, and who accepts a foreign signature on behalf of your health sector?"
+          "text": "Who would hold your national trust anchor, and who accepts a foreign signature on behalf of your health sector?",
+          "canvas": "sheet-4:trust-anchor"
         },
         {
           "module": "M4",
@@ -474,7 +477,8 @@
       "questions": [
         {
           "module": "M3",
-          "text": "Who owns the national core data set and the mapping between other countries’ vaccine codes and yours?"
+          "text": "Who owns the national core data set and the mapping between other countries’ vaccine codes and yours?",
+          "canvas": "sheet-3:data-set-owner"
         },
         {
           "module": "M3",
@@ -935,6 +939,2263 @@
       "../input/images/country-canvas/page-7.png"
     ],
     "size": "A3"
+  },
+  "canvas": {
+    "title": "Country Canvas",
+    "description": "The canvas each table fills in, as a form: the cover and Sheets 1 to 6, field by field as on the printed A3 sheets. What the table writes here, and on the journeys’ questions that ask the same thing, is one answer; the journeys’ other questions follow each sheet as its annex. Download it as an editable PDF, filled in with this browser’s answers.",
+    "size": "A3",
+    "sheets": [
+      {
+        "id": "cover",
+        "label": "Cover",
+        "title": "Country Canvas",
+        "intro": "Verifiable immunization records, at home and across borders: personal health record built on DPIs and standards.",
+        "sections": [
+          {
+            "id": "table",
+            "fields": [
+              {
+                "id": "country",
+                "label": "Country",
+                "type": "text",
+                "lines": 1
+              },
+              {
+                "id": "table",
+                "label": "Table no.",
+                "type": "text",
+                "lines": 1
+              },
+              {
+                "id": "facilitators",
+                "label": "Facilitators",
+                "type": "text",
+                "lines": 1
+              }
+            ]
+          },
+          {
+            "id": "delegation",
+            "title": "Delegation",
+            "fields": [
+              {
+                "id": "members",
+                "label": "Delegation members",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "member-1",
+                    "label": "Member 1"
+                  },
+                  {
+                    "id": "member-2",
+                    "label": "Member 2"
+                  },
+                  {
+                    "id": "member-3",
+                    "label": "Member 3"
+                  },
+                  {
+                    "id": "member-4",
+                    "label": "Member 4"
+                  },
+                  {
+                    "id": "member-5",
+                    "label": "Member 5"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "name",
+                    "label": "Delegation member",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "role",
+                    "label": "Role and institution",
+                    "cell": "text"
+                  }
+                ],
+                "hint": "Names and roles only. No email addresses, phone numbers or other personal details."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sheet-1",
+        "label": "Sheet 1",
+        "title": "Our journey and where it breaks",
+        "intro": "Write down how the immunization journey works in your country today. Then identify the digital capabilities that are needed for the immunization journey.",
+        "modules": [
+          "M1"
+        ],
+        "sections": [
+          {
+            "id": "use-case",
+            "title": "1 Our use case (8 min)",
+            "fields": [
+              {
+                "id": "use-case",
+                "label": "A child vaccinated in ___ should be able to ___ in ___.",
+                "type": "text",
+                "lines": 2,
+                "hint": "Each person says the use case in their own words. Agree one sentence the whole delegation can defend."
+              }
+            ]
+          },
+          {
+            "id": "journey",
+            "title": "2 The journey (25 min): write, then circle one rating per touchpoint",
+            "fields": [
+              {
+                "id": "journey",
+                "label": "In our country today",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "tp-1",
+                    "label": "1 Vaccinated and recorded",
+                    "hint": "A child is vaccinated abroad, and leaves with a paper card and a QR code. Must be true: the dose is recorded against the right person, in codes that mean the same everywhere."
+                  },
+                  {
+                    "id": "tp-2",
+                    "label": "2 Found and registered",
+                    "hint": "Back home, a community health worker finds an infant who is in no register. Must be true: the child can be identified and linked to records made elsewhere."
+                  },
+                  {
+                    "id": "tp-3",
+                    "label": "3 A foreign record used for the next vaccine",
+                    "hint": "At the clinic, a nurse is shown a record issued in another country. Can she trust it? What is due now, given doses that were given somewhere else? Must be true: the issuer can be verified, and the data can be read here; the schedule logic reads every dose, wherever it was given."
+                  },
+                  {
+                    "id": "tp-4",
+                    "label": "4 Continuity across border",
+                    "hint": "The family travels again, the record on a phone or paper QR, checked at a paediatrician office. Must be true: the person holds the record, and any verifier can check it."
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "today",
+                    "label": "In our country today",
+                    "cell": "text"
+                  }
+                ],
+                "hint": "Each person tells your country’s version of one touchpoint before you write."
+              },
+              {
+                "id": "rating",
+                "label": "Rating per touchpoint",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "tp-1",
+                    "label": "1 Vaccinated and recorded"
+                  },
+                  {
+                    "id": "tp-2",
+                    "label": "2 Found and registered"
+                  },
+                  {
+                    "id": "tp-3",
+                    "label": "3 A foreign record used for the next vaccine"
+                  },
+                  {
+                    "id": "tp-4",
+                    "label": "4 Continuity across border"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "works",
+                    "label": "Works"
+                  },
+                  {
+                    "id": "partly",
+                    "label": "Partly"
+                  },
+                  {
+                    "id": "breaks",
+                    "label": "Breaks"
+                  }
+                ]
+              },
+              {
+                "id": "hardest",
+                "label": "★ Where our journey breaks hardest: touchpoint no.",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "tp-1",
+                    "label": "1"
+                  },
+                  {
+                    "id": "tp-2",
+                    "label": "2"
+                  },
+                  {
+                    "id": "tp-3",
+                    "label": "3"
+                  },
+                  {
+                    "id": "tp-4",
+                    "label": "4"
+                  }
+                ]
+              },
+              {
+                "id": "why-there",
+                "label": "Why there?",
+                "type": "text",
+                "lines": 2
+              }
+            ]
+          },
+          {
+            "id": "capabilities",
+            "title": "3 The capabilities this journey needs (7 min): tick Needed, circle the touchpoints that use it",
+            "fields": [
+              {
+                "id": "capabilities",
+                "label": "Capabilities",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "identify",
+                    "label": "Identify the person",
+                    "hint": "Often provided by: national ID, client registry"
+                  },
+                  {
+                    "id": "facility-worker",
+                    "label": "Know the facility and the health worker",
+                    "hint": "Often provided by: facility registry, workforce registry"
+                  },
+                  {
+                    "id": "record",
+                    "label": "Keep the record over time",
+                    "hint": "Often provided by: immunization registry, lifelong health record"
+                  },
+                  {
+                    "id": "codes",
+                    "label": "Make codes mean the same everywhere",
+                    "hint": "Often provided by: terminology service, core data set"
+                  },
+                  {
+                    "id": "due-next",
+                    "label": "Work out what is due next",
+                    "hint": "Often provided by: decision support (SMART Guidelines logic)"
+                  },
+                  {
+                    "id": "sign-verify",
+                    "label": "Sign and verify the record",
+                    "hint": "Often provided by: trust services, PKI, GDHCN"
+                  },
+                  {
+                    "id": "hold",
+                    "label": "Let the person hold it",
+                    "hint": "Often provided by: wallet, citizen app, paper QR"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "needed",
+                    "label": "Needed?",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "tp-1",
+                    "label": "1",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "tp-2",
+                    "label": "2",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "tp-3",
+                    "label": "3",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "tp-4",
+                    "label": "4",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "tp-5",
+                    "label": "5",
+                    "cell": "tick"
+                  }
+                ],
+                "hint": "The ticked capabilities carry onto Sheet 2."
+              }
+            ]
+          },
+          {
+            "id": "gaps",
+            "title": "What we don’t have yet (8 min): the last step of every sheet",
+            "fields": [
+              {
+                "id": "gaps",
+                "label": "The gaps, and the pattern to start from",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "gap",
+                    "label": "Gap: from the Partly or Breaks items above",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "narrow",
+                    "label": "Narrow",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "shared",
+                    "label": "Shared",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "borrowed",
+                    "label": "Borrowed",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "debt",
+                    "label": "Debt this creates",
+                    "cell": "text"
+                  }
+                ],
+                "hint": "“Absent” is a finding, not a failure. The only question is whether it blocks this use case. Narrow: one population or credential · Shared: build once for many programmes · Borrowed: adopt a regional or international artefact."
+              },
+              {
+                "id": "urgency",
+                "label": "How urgent is each gap?",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "now",
+                    "label": "Blocks us now"
+                  },
+                  {
+                    "id": "12m",
+                    "label": "Needed in 12 months"
+                  },
+                  {
+                    "id": "wait",
+                    "label": "Can wait"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sheet-2",
+        "label": "Sheet 2",
+        "title": "Our architecture today",
+        "intro": "Each block is pre-filled from your questionnaire: correct it. Write the system you use today, then circle E exists, P partial or A absent. IMMZ marks blocks this use case touches. Draw a ★ on any block you would share regionally.",
+        "modules": [
+          "M2"
+        ],
+        "sections": [
+          {
+            "id": "map",
+            "title": "The architecture map",
+            "fields": [
+              {
+                "id": "blocks",
+                "label": "Block: the system we use today",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "provider-systems",
+                    "label": "Provider systems",
+                    "hint": "Point-of-service applications · Clinic · EMR · HIS · IMMZ"
+                  },
+                  {
+                    "id": "immunization-app",
+                    "label": "Immunization app",
+                    "hint": "Point-of-service applications · Programme · EIR client · tally sheet · IMMZ"
+                  },
+                  {
+                    "id": "chw-outreach",
+                    "label": "CHW and outreach",
+                    "hint": "Point-of-service applications · Community · field app · tracing · IMMZ"
+                  },
+                  {
+                    "id": "citizen-app",
+                    "label": "Citizen app or wallet",
+                    "hint": "Point-of-service applications · Citizen · PHR · superapp · IMMZ"
+                  },
+                  {
+                    "id": "verifier-app",
+                    "label": "Verifier app",
+                    "hint": "Point-of-service applications · Verifier · border · school · port · IMMZ"
+                  },
+                  {
+                    "id": "supply-chain",
+                    "label": "Supply chain",
+                    "hint": "Point-of-service applications · Supply · LMIS · cold chain"
+                  },
+                  {
+                    "id": "public-health-apps",
+                    "label": "Public health apps",
+                    "hint": "Point-of-service applications · Public health · AEFI · outbreak"
+                  },
+                  {
+                    "id": "decision-support",
+                    "label": "Decision support engine",
+                    "hint": "DPI-H business services · Clinical · schedule logic from the SMART Guidelines DAK · IMMZ"
+                  },
+                  {
+                    "id": "hmis",
+                    "label": "Health management information system",
+                    "hint": "DPI-H business services · Analytics · coverage indicators, e.g. DHIS2 · IMMZ"
+                  },
+                  {
+                    "id": "surveillance",
+                    "label": "Public health surveillance platform",
+                    "hint": "DPI-H business services · Public health · adverse events, outbreak detection"
+                  },
+                  {
+                    "id": "benefits-registry",
+                    "label": "Benefits package registry",
+                    "hint": "DPI-H business services · Financing · which health services are covered, for whom"
+                  },
+                  {
+                    "id": "client-registry",
+                    "label": "Client registry",
+                    "hint": "DPI-H registries · Identity · one person, across systems · IMMZ"
+                  },
+                  {
+                    "id": "lifelong-record",
+                    "label": "Lifelong health record",
+                    "hint": "DPI-H registries · Record · incl. immunization registry · IMMZ"
+                  },
+                  {
+                    "id": "workforce-registry",
+                    "label": "Health workforce registry",
+                    "hint": "DPI-H registries · Workforce · who vaccinated · IMMZ"
+                  },
+                  {
+                    "id": "facility-registry",
+                    "label": "Facility registry",
+                    "hint": "DPI-H registries · Location · where it was given · IMMZ"
+                  },
+                  {
+                    "id": "product-registry",
+                    "label": "Product registry",
+                    "hint": "DPI-H registries · Products · vaccines, batches · IMMZ"
+                  },
+                  {
+                    "id": "terminology-service",
+                    "label": "Terminology service",
+                    "hint": "DPI-H registries · Meaning · SNOMED CT · ICD · LOINC · IMMZ"
+                  },
+                  {
+                    "id": "information-model",
+                    "label": "Logical information model repository",
+                    "hint": "DPI-H registries · Structure · core data set · FHIR IG · OpenEHR · IMMZ"
+                  },
+                  {
+                    "id": "national-id",
+                    "label": "National digital ID",
+                    "hint": "Foundational DPI · Identity · national or federated ID · IMMZ"
+                  },
+                  {
+                    "id": "crvs",
+                    "label": "CRVS",
+                    "hint": "Foundational DPI · Civil registration · births that feed the registry · IMMZ"
+                  },
+                  {
+                    "id": "trust-services",
+                    "label": "Trust services",
+                    "hint": "Foundational DPI · Trust · PKI · signatures · GDHCN · verifiable credentials · IMMZ"
+                  },
+                  {
+                    "id": "data-exchange",
+                    "label": "Data exchange",
+                    "hint": "Foundational DPI · Exchange · government data exchange layer · IMMZ"
+                  },
+                  {
+                    "id": "consent",
+                    "label": "Consent and privacy",
+                    "hint": "Foundational DPI · Consent · consent records, access logs"
+                  },
+                  {
+                    "id": "notifications",
+                    "label": "Notifications",
+                    "hint": "Foundational DPI · Messaging · SMS reminders · push notification"
+                  },
+                  {
+                    "id": "hie-gateway",
+                    "label": "HIE / API gateway",
+                    "hint": "Interoperability, through every layer · Information mediator · IMMZ"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "system",
+                    "label": "System we use today",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "regional",
+                    "label": "★ Share regionally",
+                    "cell": "tick"
+                  }
+                ],
+                "hint": "One person points to each block; the delegation names the system and agrees E, P or A. Experienced countries at the table go last. A disagreement is a finding: write it down below."
+              },
+              {
+                "id": "epa",
+                "label": "E / P / A: where each block stands",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "provider-systems",
+                    "label": "Provider systems"
+                  },
+                  {
+                    "id": "immunization-app",
+                    "label": "Immunization app"
+                  },
+                  {
+                    "id": "chw-outreach",
+                    "label": "CHW and outreach"
+                  },
+                  {
+                    "id": "citizen-app",
+                    "label": "Citizen app or wallet"
+                  },
+                  {
+                    "id": "verifier-app",
+                    "label": "Verifier app"
+                  },
+                  {
+                    "id": "supply-chain",
+                    "label": "Supply chain"
+                  },
+                  {
+                    "id": "public-health-apps",
+                    "label": "Public health apps"
+                  },
+                  {
+                    "id": "decision-support",
+                    "label": "Decision support engine"
+                  },
+                  {
+                    "id": "hmis",
+                    "label": "Health management information system"
+                  },
+                  {
+                    "id": "surveillance",
+                    "label": "Public health surveillance platform"
+                  },
+                  {
+                    "id": "benefits-registry",
+                    "label": "Benefits package registry"
+                  },
+                  {
+                    "id": "client-registry",
+                    "label": "Client registry"
+                  },
+                  {
+                    "id": "lifelong-record",
+                    "label": "Lifelong health record"
+                  },
+                  {
+                    "id": "workforce-registry",
+                    "label": "Health workforce registry"
+                  },
+                  {
+                    "id": "facility-registry",
+                    "label": "Facility registry"
+                  },
+                  {
+                    "id": "product-registry",
+                    "label": "Product registry"
+                  },
+                  {
+                    "id": "terminology-service",
+                    "label": "Terminology service"
+                  },
+                  {
+                    "id": "information-model",
+                    "label": "Logical information model repository"
+                  },
+                  {
+                    "id": "national-id",
+                    "label": "National digital ID"
+                  },
+                  {
+                    "id": "crvs",
+                    "label": "CRVS"
+                  },
+                  {
+                    "id": "trust-services",
+                    "label": "Trust services"
+                  },
+                  {
+                    "id": "data-exchange",
+                    "label": "Data exchange"
+                  },
+                  {
+                    "id": "consent",
+                    "label": "Consent and privacy"
+                  },
+                  {
+                    "id": "notifications",
+                    "label": "Notifications"
+                  },
+                  {
+                    "id": "hie-gateway",
+                    "label": "HIE / API gateway"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "standards",
+            "fields": [
+              {
+                "id": "standards",
+                "label": "Standards we use today",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "fhir",
+                    "label": "HL7 FHIR"
+                  },
+                  {
+                    "id": "ips",
+                    "label": "IPS"
+                  },
+                  {
+                    "id": "icvp",
+                    "label": "ICVP IG"
+                  },
+                  {
+                    "id": "smart-dak",
+                    "label": "SMART DAK"
+                  },
+                  {
+                    "id": "snomed",
+                    "label": "SNOMED CT"
+                  },
+                  {
+                    "id": "icd",
+                    "label": "ICD-10 / 11"
+                  },
+                  {
+                    "id": "loinc",
+                    "label": "LOINC"
+                  },
+                  {
+                    "id": "openehr",
+                    "label": "openEHR"
+                  },
+                  {
+                    "id": "gs1",
+                    "label": "GS1"
+                  },
+                  {
+                    "id": "other",
+                    "label": "Other"
+                  }
+                ]
+              },
+              {
+                "id": "standards-other",
+                "label": "Other standards",
+                "type": "text",
+                "lines": 1
+              },
+              {
+                "id": "disagree",
+                "label": "Where did we disagree?",
+                "type": "text",
+                "lines": 3
+              },
+              {
+                "id": "regional",
+                "label": "★ Regional: which starred blocks could be shared across countries, and who would hold them?",
+                "type": "text",
+                "lines": 3,
+                "hint": "Carries to Sheet 5."
+              }
+            ]
+          },
+          {
+            "id": "gaps",
+            "title": "What we don’t have yet (8 min): the last step of every sheet",
+            "fields": [
+              {
+                "id": "gaps",
+                "label": "The gaps, and the pattern to start from",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "gap",
+                    "label": "Gap: an IMMZ block marked P or A above",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "narrow",
+                    "label": "Narrow",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "shared",
+                    "label": "Shared",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "borrowed",
+                    "label": "Borrowed",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "debt",
+                    "label": "Debt this creates",
+                    "cell": "text"
+                  }
+                ],
+                "hint": "“Absent” is a finding, not a failure. The only question is whether it blocks this use case. Narrow: one population or credential · Shared: build once for many programmes · Borrowed: adopt a regional or international artefact."
+              },
+              {
+                "id": "urgency",
+                "label": "How urgent is each gap?",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "now",
+                    "label": "Blocks us now"
+                  },
+                  {
+                    "id": "12m",
+                    "label": "Needed in 12 months"
+                  },
+                  {
+                    "id": "wait",
+                    "label": "Can wait"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sheet-3",
+        "label": "Sheet 3",
+        "title": "Core data set, terminology and specifications",
+        "intro": "Decisions to be discussed: who governs the core data set, and how terminology is licensed and served.",
+        "modules": [
+          "M3"
+        ],
+        "sections": [
+          {
+            "id": "elements",
+            "title": "1 Data elements: how do we need to capture them? (20 min, circle one per row)",
+            "fields": [
+              {
+                "id": "capture",
+                "label": "How we capture each element",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "unique-id",
+                    "label": "Unique identifier",
+                    "hint": "IMMZ.C.DE.1 · ID · on the ICVP"
+                  },
+                  {
+                    "id": "name",
+                    "label": "Name",
+                    "hint": "IMMZ.C.DE.2 · Text · on the ICVP"
+                  },
+                  {
+                    "id": "birth-date",
+                    "label": "Date of birth",
+                    "hint": "IMMZ.C.DE.10 · Date · on the ICVP"
+                  },
+                  {
+                    "id": "sex",
+                    "label": "Sex",
+                    "hint": "IMMZ.C.DE.5 · Coded · on the ICVP"
+                  },
+                  {
+                    "id": "caregiver",
+                    "label": "Caregiver’s full name",
+                    "hint": "IMMZ.C.DE.15 · Text · on the ICVP"
+                  },
+                  {
+                    "id": "vaccine-brand",
+                    "label": "Vaccine brand",
+                    "hint": "IMMZ.D.DE.18 · Coded · on the ICVP"
+                  },
+                  {
+                    "id": "vaccination-date",
+                    "label": "Date and time of vaccination",
+                    "hint": "IMMZ.D.DE.20 · Date-time · on the ICVP"
+                  },
+                  {
+                    "id": "dose-number",
+                    "label": "Dose number",
+                    "hint": "IMMZ.D.DE.124 · Number"
+                  },
+                  {
+                    "id": "series-doses",
+                    "label": "Total doses in series",
+                    "hint": "IMMZ.D.DE.125 · Number"
+                  },
+                  {
+                    "id": "manufacturer",
+                    "label": "Vaccine manufacturer",
+                    "hint": "IMMZ.D.DE.23 · Coded · on the ICVP"
+                  },
+                  {
+                    "id": "batch",
+                    "label": "Vaccine batch number",
+                    "hint": "IMMZ.D.DE.24 · Text · on the ICVP"
+                  },
+                  {
+                    "id": "health-worker",
+                    "label": "Health worker identifier",
+                    "hint": "IMMZ.D.DE.35 · ID · on the ICVP"
+                  },
+                  {
+                    "id": "next-due",
+                    "label": "Due date of next dose",
+                    "hint": "IMMZ.D.DE.149 · Date"
+                  },
+                  {
+                    "id": "certificate-id",
+                    "label": "Health certificate identifier",
+                    "hint": "IMMZ.D.DE.152 · ID · on the ICVP"
+                  },
+                  {
+                    "id": "signature",
+                    "label": "Issuer’s digital signature",
+                    "hint": "ICVP core · Signature · on the ICVP"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "same",
+                    "label": "Same"
+                  },
+                  {
+                    "id": "differently",
+                    "label": "Differently"
+                  },
+                  {
+                    "id": "not",
+                    "label": "Not at all"
+                  }
+                ],
+                "hint": "Go row by row. Differently means the data exists, but in another form, code or system: say where. Elements from the immunization DAK."
+              },
+              {
+                "id": "where",
+                "label": "Where or how we capture it today",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "unique-id",
+                    "label": "Unique identifier"
+                  },
+                  {
+                    "id": "name",
+                    "label": "Name"
+                  },
+                  {
+                    "id": "birth-date",
+                    "label": "Date of birth"
+                  },
+                  {
+                    "id": "sex",
+                    "label": "Sex"
+                  },
+                  {
+                    "id": "caregiver",
+                    "label": "Caregiver’s full name"
+                  },
+                  {
+                    "id": "vaccine-brand",
+                    "label": "Vaccine brand"
+                  },
+                  {
+                    "id": "vaccination-date",
+                    "label": "Date and time of vaccination"
+                  },
+                  {
+                    "id": "dose-number",
+                    "label": "Dose number"
+                  },
+                  {
+                    "id": "series-doses",
+                    "label": "Total doses in series"
+                  },
+                  {
+                    "id": "manufacturer",
+                    "label": "Vaccine manufacturer"
+                  },
+                  {
+                    "id": "batch",
+                    "label": "Vaccine batch number"
+                  },
+                  {
+                    "id": "health-worker",
+                    "label": "Health worker identifier"
+                  },
+                  {
+                    "id": "next-due",
+                    "label": "Due date of next dose"
+                  },
+                  {
+                    "id": "certificate-id",
+                    "label": "Health certificate identifier"
+                  },
+                  {
+                    "id": "signature",
+                    "label": "Issuer’s digital signature"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "where",
+                    "label": "Where or how we capture it today",
+                    "cell": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "terminology",
+            "title": "2 Our terminology and specifications (5 min)",
+            "fields": [
+              {
+                "id": "snomed",
+                "label": "SNOMED CT / SNOMED GPS",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "licensed",
+                    "label": "Licensed"
+                  },
+                  {
+                    "id": "in-discussion",
+                    "label": "In discussion"
+                  },
+                  {
+                    "id": "no",
+                    "label": "No"
+                  },
+                  {
+                    "id": "unsure",
+                    "label": "Unsure"
+                  }
+                ]
+              },
+              {
+                "id": "icd",
+                "label": "ICD in use",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "icd-10",
+                    "label": "ICD-10"
+                  },
+                  {
+                    "id": "icd-11",
+                    "label": "ICD-11"
+                  },
+                  {
+                    "id": "both",
+                    "label": "Both"
+                  }
+                ]
+              },
+              {
+                "id": "loinc",
+                "label": "LOINC",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "used",
+                    "label": "Used"
+                  },
+                  {
+                    "id": "not-used",
+                    "label": "Not used"
+                  },
+                  {
+                    "id": "unsure",
+                    "label": "Unsure"
+                  }
+                ]
+              },
+              {
+                "id": "terminology-service",
+                "label": "Terminology service",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "running",
+                    "label": "Running"
+                  },
+                  {
+                    "id": "partly",
+                    "label": "Partly"
+                  },
+                  {
+                    "id": "none",
+                    "label": "None"
+                  }
+                ]
+              },
+              {
+                "id": "core-data-set",
+                "label": "National core data set",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "exists",
+                    "label": "Exists"
+                  },
+                  {
+                    "id": "draft",
+                    "label": "Draft"
+                  },
+                  {
+                    "id": "none",
+                    "label": "None"
+                  }
+                ]
+              },
+              {
+                "id": "national-ig",
+                "label": "National FHIR IG (immunization or otherwise?)",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "published",
+                    "label": "Published"
+                  },
+                  {
+                    "id": "draft",
+                    "label": "Draft"
+                  },
+                  {
+                    "id": "none",
+                    "label": "None"
+                  }
+                ]
+              },
+              {
+                "id": "ips",
+                "label": "IPS",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "adopted",
+                    "label": "Adopted"
+                  },
+                  {
+                    "id": "planned",
+                    "label": "Planned"
+                  },
+                  {
+                    "id": "no",
+                    "label": "No"
+                  }
+                ]
+              },
+              {
+                "id": "smart-dak",
+                "label": "SMART immunization DAK",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "adapted",
+                    "label": "Adapted"
+                  },
+                  {
+                    "id": "reviewed",
+                    "label": "Reviewed"
+                  },
+                  {
+                    "id": "not-yet",
+                    "label": "Not yet"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "owns",
+            "title": "3 Who owns it, and what we buy (5 min)",
+            "fields": [
+              {
+                "id": "data-set-owner",
+                "label": "Which institution would own and govern our national core data set?",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "terminology-runner",
+                "label": "Who would run the terminology service?",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "next-step",
+                "label": "What we would put in the next step",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "national-ig",
+                    "label": "Conformance to the national FHIR IG"
+                  },
+                  {
+                    "id": "dak",
+                    "label": "Functional, data and interoperability requirements leveraged from a WHO SMART Digital Adaptation Kit and/or FHIR IG"
+                  },
+                  {
+                    "id": "bindings",
+                    "label": "Terminology bindings: SNOMED, ICD, LOINC, etc."
+                  },
+                  {
+                    "id": "open-apis",
+                    "label": "Open APIs and interoperability standards used, no lock-in"
+                  },
+                  {
+                    "id": "tested",
+                    "label": "Each digital solution tested at an interoperability lab or connect-a-thon before go-live"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gaps",
+            "title": "What we don’t have yet (8 min): the last step of every sheet",
+            "fields": [
+              {
+                "id": "gaps",
+                "label": "The gaps, and the pattern to start from",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "gap",
+                    "label": "Gap: a “Not at all” element, or a missing standard or owner",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "narrow",
+                    "label": "Narrow",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "shared",
+                    "label": "Shared",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "borrowed",
+                    "label": "Borrowed",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "debt",
+                    "label": "Debt this creates",
+                    "cell": "text"
+                  }
+                ],
+                "hint": "“Absent” is a finding, not a failure. The only question is whether it blocks this use case. Narrow: one population or credential · Shared: build once for many programmes · Borrowed: adopt a regional or international artefact."
+              },
+              {
+                "id": "urgency",
+                "label": "How urgent is each gap?",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "now",
+                    "label": "Blocks us now"
+                  },
+                  {
+                    "id": "12m",
+                    "label": "Needed in 12 months"
+                  },
+                  {
+                    "id": "wait",
+                    "label": "Can wait"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sheet-4",
+        "label": "Sheet 4",
+        "title": "Trust, and who decides",
+        "intro": "The hard part is not cryptography and trust architecture. It is deciding which national institution is authorized to sign for the health sector, who accepts a foreign digital signature, and which institution holds each decision, and maintains the digital systems.",
+        "modules": [
+          "M4",
+          "M5"
+        ],
+        "sections": [
+          {
+            "id": "trust",
+            "title": "1 Module 4 · Trust. Who signs, who holds it, who checks it (18 min, name, don’t decide)",
+            "fields": [
+              {
+                "id": "issuer",
+                "label": "Issuer · signs: which institution digitally signs credentials for our health sector?",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "held",
+                "label": "Credential · held by the person: where does the person hold it today?",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "paper-card",
+                    "label": "Paper card"
+                  },
+                  {
+                    "id": "paper-qr",
+                    "label": "Paper QR"
+                  },
+                  {
+                    "id": "citizen-app",
+                    "label": "Citizen app"
+                  },
+                  {
+                    "id": "wallet",
+                    "label": "Wallet"
+                  },
+                  {
+                    "id": "nowhere",
+                    "label": "Nowhere yet"
+                  }
+                ]
+              },
+              {
+                "id": "verifier",
+                "label": "Verifier · checks: who needs to check it?",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "clinic",
+                    "label": "Clinic"
+                  },
+                  {
+                    "id": "school",
+                    "label": "School"
+                  },
+                  {
+                    "id": "border",
+                    "label": "Border or port health"
+                  },
+                  {
+                    "id": "employer",
+                    "label": "Employer"
+                  },
+                  {
+                    "id": "other",
+                    "label": "Other"
+                  }
+                ]
+              },
+              {
+                "id": "verifier-other",
+                "label": "Other verifier",
+                "type": "text",
+                "lines": 1
+              },
+              {
+                "id": "trust-anchor",
+                "label": "Who would hold our national trust anchor?",
+                "type": "text",
+                "lines": 1,
+                "hint": "Trust network · GDHCN: countries exchange public keys, so a verifier anywhere can check a signature made here."
+              },
+              {
+                "id": "have",
+                "label": "What we already have (Y / P / N)",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "pki",
+                    "label": "National PKI or certificate authority"
+                  },
+                  {
+                    "id": "e-signature",
+                    "label": "E-signature recognised in law"
+                  },
+                  {
+                    "id": "signed-before",
+                    "label": "Signed health certificates issued before"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "y",
+                    "label": "Y"
+                  },
+                  {
+                    "id": "p",
+                    "label": "P"
+                  },
+                  {
+                    "id": "n",
+                    "label": "N"
+                  }
+                ]
+              },
+              {
+                "id": "gdhcn",
+                "label": "GDHCN",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "onboarded",
+                    "label": "Onboarded"
+                  },
+                  {
+                    "id": "in-process",
+                    "label": "In process"
+                  },
+                  {
+                    "id": "not-yet",
+                    "label": "Not yet"
+                  },
+                  {
+                    "id": "unsure",
+                    "label": "Unsure"
+                  }
+                ]
+              },
+              {
+                "id": "take-home",
+                "label": "Three questions to take home",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "q-1",
+                    "label": "1"
+                  },
+                  {
+                    "id": "q-2",
+                    "label": "2"
+                  },
+                  {
+                    "id": "q-3",
+                    "label": "3"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "question",
+                    "label": "Question",
+                    "cell": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "governance",
+            "title": "2 Module 5 · Governance. Who holds the four decisions (30 min, name an institution, not a person)",
+            "fields": [
+              {
+                "id": "decisions",
+                "label": "Who holds each decision",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "architecture",
+                    "label": "Architecture authority",
+                    "hint": "Which blocks are national, and which systems connect"
+                  },
+                  {
+                    "id": "standards",
+                    "label": "Standards mandate",
+                    "hint": "Which standards are required, including in procurement"
+                  },
+                  {
+                    "id": "data-set",
+                    "label": "Core data set custodian",
+                    "hint": "Who maintains the data set and its codes"
+                  },
+                  {
+                    "id": "trust-anchor",
+                    "label": "Trust anchor",
+                    "hint": "Who digitally signs for health, and who accepts foreign signatures"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "holder",
+                    "label": "Who holds it today",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "law",
+                    "label": "Law",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "decree",
+                    "label": "Decree",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "twg",
+                    "label": "TWG",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "none",
+                    "label": "None",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "unassigned",
+                    "label": "Unassigned",
+                    "cell": "tick"
+                  }
+                ],
+                "hint": "If no one can name the holder, write UNASSIGNED. That is the finding. Law, Decree, TWG and None are the formal basis."
+              },
+              {
+                "id": "one-change",
+                "label": "The one change that would unblock the most",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "legal",
+                "label": "Legal basis (Y / P / N)",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "data-protection",
+                    "label": "Data protection covers health data"
+                  },
+                  {
+                    "id": "cross-border",
+                    "label": "Basis for cross-border sharing"
+                  },
+                  {
+                    "id": "minors",
+                    "label": "Consent for minors and dependants"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "y",
+                    "label": "Y"
+                  },
+                  {
+                    "id": "p",
+                    "label": "P"
+                  },
+                  {
+                    "id": "n",
+                    "label": "N"
+                  }
+                ]
+              },
+              {
+                "id": "levers",
+                "label": "Levers we can actually pull",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "procurement",
+                    "label": "Procurement conditions"
+                  },
+                  {
+                    "id": "twg",
+                    "label": "Technical Working Group (TWG) mandate"
+                  },
+                  {
+                    "id": "financing",
+                    "label": "Conditional financing"
+                  },
+                  {
+                    "id": "regulation",
+                    "label": "Regulation or licensing"
+                  },
+                  {
+                    "id": "certification",
+                    "label": "System certification"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gaps",
+            "title": "What we don’t have yet (8 min): the last step of every sheet",
+            "fields": [
+              {
+                "id": "gaps",
+                "label": "The gaps, and the pattern to start from",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "gap",
+                    "label": "Gap: a missing signer, legal basis or unassigned decision",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "narrow",
+                    "label": "Narrow",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "shared",
+                    "label": "Shared",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "borrowed",
+                    "label": "Borrowed",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "debt",
+                    "label": "Debt this creates",
+                    "cell": "text"
+                  }
+                ],
+                "hint": "“Absent” is a finding, not a failure. The only question is whether it blocks this use case. Narrow: one population or credential · Shared: build once for many programmes · Borrowed: adopt a regional or international artefact."
+              },
+              {
+                "id": "urgency",
+                "label": "How urgent is each gap?",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "now",
+                    "label": "Blocks us now"
+                  },
+                  {
+                    "id": "12m",
+                    "label": "Needed in 12 months"
+                  },
+                  {
+                    "id": "wait",
+                    "label": "Can wait"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sheet-5",
+        "label": "Sheet 5",
+        "title": "Doing it together",
+        "intro": "From a national landscape to a regional proposition. Discuss these ideas against your country, then write what your country proposes and would nominate for the region.",
+        "modules": [
+          "M6"
+        ],
+        "sections": [
+          {
+            "id": "card-a",
+            "title": "1 Three propositions, against our position (25 min, circle one per card) · A: a joint data model for the personal health record",
+            "fields": [
+              {
+                "id": "a-response",
+                "label": "IPS plus an immunization core, profiled once for the region and adopted nationally. National extensions stay sovereign.",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "adopt",
+                    "label": "We’d adopt it"
+                  },
+                  {
+                    "id": "changes",
+                    "label": "With changes"
+                  },
+                  {
+                    "id": "not-yet",
+                    "label": "Not yet"
+                  }
+                ],
+                "hint": "Would you adopt it? What would you have to change? What would stop you?"
+              },
+              {
+                "id": "a-change",
+                "label": "What we would have to change",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "a-stop",
+                "label": "What would stop us",
+                "type": "text",
+                "lines": 2
+              }
+            ]
+          },
+          {
+            "id": "card-b",
+            "title": "B: shared testing and an interoperability lab",
+            "fields": [
+              {
+                "id": "b-response",
+                "label": "A regional sandbox and test suite where systems prove conformance before national go-live, and where skills are built.",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "use",
+                    "label": "We’d use it"
+                  },
+                  {
+                    "id": "changes",
+                    "label": "With changes"
+                  },
+                  {
+                    "id": "not-yet",
+                    "label": "Not yet"
+                  }
+                ]
+              },
+              {
+                "id": "b-change",
+                "label": "What we would have to change",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "b-stop",
+                "label": "What would stop us",
+                "type": "text",
+                "lines": 2
+              }
+            ]
+          },
+          {
+            "id": "card-c",
+            "title": "C: a regional connect-a-thon within 12 months",
+            "fields": [
+              {
+                "id": "c-response",
+                "label": "A target window, a host, a scope: immunization records exchanged and verified across borders.",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "take-part",
+                    "label": "We’d take part"
+                  },
+                  {
+                    "id": "observers",
+                    "label": "As observers"
+                  },
+                  {
+                    "id": "not-yet",
+                    "label": "Not yet"
+                  }
+                ]
+              },
+              {
+                "id": "c-send",
+                "label": "What we would send",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "system",
+                    "label": "A system"
+                  },
+                  {
+                    "id": "ig",
+                    "label": "Our IG"
+                  },
+                  {
+                    "id": "technical",
+                    "label": "Technical staff"
+                  },
+                  {
+                    "id": "policy",
+                    "label": "Policy leads"
+                  }
+                ]
+              },
+              {
+                "id": "c-need",
+                "label": "What we need first",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "ig",
+                    "label": "An adopted IG"
+                  },
+                  {
+                    "id": "system",
+                    "label": "A system willing to test"
+                  },
+                  {
+                    "id": "funded",
+                    "label": "Someone funded to prepare"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nomination",
+            "title": "★ Our nomination (35 min, each country writes its own)",
+            "fields": [
+              {
+                "id": "component",
+                "label": "Component or artefact to do once, regionally",
+                "type": "text",
+                "lines": 2,
+                "hint": "Look back at the ★ blocks on Sheet 2 for candidates."
+              },
+              {
+                "id": "why-together",
+                "label": "Why together, not each of us?",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "contribute",
+                "label": "What our country would contribute",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "first-step",
+                "label": "First regional step",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "table-check",
+                "label": "Table check: the other nominations at our table",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "other-1",
+                    "label": "Country 1"
+                  },
+                  {
+                    "id": "other-2",
+                    "label": "Country 2"
+                  },
+                  {
+                    "id": "other-3",
+                    "label": "Country 3"
+                  },
+                  {
+                    "id": "other-4",
+                    "label": "Country 4"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "country",
+                    "label": "Country",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "nomination",
+                    "label": "Their nomination",
+                    "cell": "text"
+                  }
+                ]
+              },
+              {
+                "id": "table-match",
+                "label": "Their nomination against ours",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "other-1",
+                    "label": "Country 1"
+                  },
+                  {
+                    "id": "other-2",
+                    "label": "Country 2"
+                  },
+                  {
+                    "id": "other-3",
+                    "label": "Country 3"
+                  },
+                  {
+                    "id": "other-4",
+                    "label": "Country 4"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "same",
+                    "label": "Same"
+                  },
+                  {
+                    "id": "close",
+                    "label": "Close"
+                  },
+                  {
+                    "id": "different",
+                    "label": "Different"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gaps",
+            "title": "What we don’t have yet (8 min): the last step of every sheet",
+            "fields": [
+              {
+                "id": "gaps",
+                "label": "The gaps, and the pattern to start from",
+                "type": "grid",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "columns": [
+                  {
+                    "id": "gap",
+                    "label": "Gap: what would stop us joining A, B or C",
+                    "cell": "text"
+                  },
+                  {
+                    "id": "narrow",
+                    "label": "Narrow",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "shared",
+                    "label": "Shared",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "borrowed",
+                    "label": "Borrowed",
+                    "cell": "tick"
+                  },
+                  {
+                    "id": "debt",
+                    "label": "Debt this creates",
+                    "cell": "text"
+                  }
+                ],
+                "hint": "“Absent” is a finding, not a failure. The only question is whether it blocks this use case. Narrow: one population or credential · Shared: build once for many programmes · Borrowed: adopt a regional or international artefact."
+              },
+              {
+                "id": "urgency",
+                "label": "How urgent is each gap?",
+                "type": "gap",
+                "rows": [
+                  {
+                    "id": "gap-1",
+                    "label": "Gap 1"
+                  },
+                  {
+                    "id": "gap-2",
+                    "label": "Gap 2"
+                  },
+                  {
+                    "id": "gap-3",
+                    "label": "Gap 3"
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "now",
+                    "label": "Blocks us now"
+                  },
+                  {
+                    "id": "12m",
+                    "label": "Needed in 12 months"
+                  },
+                  {
+                    "id": "wait",
+                    "label": "Can wait"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sheet-6",
+        "label": "Sheet 6",
+        "title": "First move and the investment required",
+        "intro": "Keep it short: you will read it out in 60 seconds. Choose a speaker who did not write it. Our use case comes from Sheet 1.",
+        "modules": [
+          "M7"
+        ],
+        "sections": [
+          {
+            "id": "speaker",
+            "fields": [
+              {
+                "id": "speaker",
+                "label": "Speaker",
+                "type": "text",
+                "lines": 1
+              }
+            ]
+          },
+          {
+            "id": "priority",
+            "title": "1 Our top national priority (8 min)",
+            "fields": [
+              {
+                "id": "component",
+                "label": "Component",
+                "type": "text",
+                "lines": 1,
+                "hint": "Each person names their pick from the gap analyses on Sheets 1 to 5. Then agree ONE."
+              },
+              {
+                "id": "why",
+                "label": "Why this one",
+                "type": "text",
+                "lines": 2
+              },
+              {
+                "id": "risk",
+                "label": "Biggest gap or risk",
+                "type": "text",
+                "lines": 2
+              }
+            ]
+          },
+          {
+            "id": "action",
+            "title": "2 Our 12-month action (10 min)",
+            "fields": [
+              {
+                "id": "action",
+                "label": "Action (two lines)",
+                "type": "text",
+                "lines": 2,
+                "hint": "Facilitator asks: “Is this realistic in twelve months with the people and money you have? If not, make it smaller.”"
+              },
+              {
+                "id": "owner",
+                "label": "Owner (institution)",
+                "type": "text",
+                "lines": 1
+              },
+              {
+                "id": "depends-on",
+                "label": "Depends on",
+                "type": "text",
+                "lines": 1
+              }
+            ]
+          },
+          {
+            "id": "cost",
+            "title": "3 What it costs, and who could fund it (10 min, cost drivers, not unit costs)",
+            "fields": [
+              {
+                "id": "drivers",
+                "label": "Cost drivers",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "integration",
+                    "label": "Integration effort"
+                  },
+                  {
+                    "id": "licensing",
+                    "label": "Terminology licensing"
+                  },
+                  {
+                    "id": "devices",
+                    "label": "Devices and connectivity at point of care"
+                  },
+                  {
+                    "id": "infrastructure",
+                    "label": "Running shared infrastructure (recurrent)"
+                  },
+                  {
+                    "id": "training",
+                    "label": "Training and change management"
+                  },
+                  {
+                    "id": "not-doing",
+                    "label": "The cost of not doing it"
+                  }
+                ],
+                "hint": "Tick the drivers for your action, then circle the one that dominates."
+              },
+              {
+                "id": "dominant",
+                "label": "The driver that dominates",
+                "type": "choice",
+                "options": [
+                  {
+                    "id": "integration",
+                    "label": "Integration effort"
+                  },
+                  {
+                    "id": "licensing",
+                    "label": "Terminology licensing"
+                  },
+                  {
+                    "id": "devices",
+                    "label": "Devices and connectivity"
+                  },
+                  {
+                    "id": "infrastructure",
+                    "label": "Shared infrastructure"
+                  },
+                  {
+                    "id": "training",
+                    "label": "Training and change"
+                  },
+                  {
+                    "id": "not-doing",
+                    "label": "Not doing it"
+                  }
+                ]
+              },
+              {
+                "id": "funding",
+                "label": "Likely funding source",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "domestic",
+                    "label": "Domestic budget"
+                  },
+                  {
+                    "id": "world-bank",
+                    "label": "World Bank"
+                  },
+                  {
+                    "id": "adb",
+                    "label": "ADB"
+                  },
+                  {
+                    "id": "bilateral",
+                    "label": "Bilateral or other donor"
+                  },
+                  {
+                    "id": "other",
+                    "label": "Other"
+                  }
+                ]
+              },
+              {
+                "id": "funding-other",
+                "label": "Other funding source",
+                "type": "text",
+                "lines": 1
+              },
+              {
+                "id": "support",
+                "label": "Support needed",
+                "type": "ticks",
+                "options": [
+                  {
+                    "id": "ta",
+                    "label": "Technical assistance"
+                  },
+                  {
+                    "id": "funding",
+                    "label": "Funding"
+                  },
+                  {
+                    "id": "training",
+                    "label": "Training"
+                  },
+                  {
+                    "id": "standards",
+                    "label": "Standards or licensing"
+                  },
+                  {
+                    "id": "policy",
+                    "label": "Policy or governance"
+                  },
+                  {
+                    "id": "peer",
+                    "label": "Peer learning"
+                  }
+                ]
+              },
+              {
+                "id": "from-whom",
+                "label": "From whom",
+                "type": "text",
+                "lines": 1
+              }
+            ]
+          },
+          {
+            "id": "regional",
+            "title": "★ Regional commitment (10 min, from your Sheet 5 nomination)",
+            "fields": [
+              {
+                "id": "commitment",
+                "label": "Two or three sentences, in your own words. The table merges where they coincide.",
+                "type": "text",
+                "lines": 3
+              }
+            ]
+          },
+          {
+            "id": "follow-up",
+            "title": "5 The one gap we refer for follow-up (5 min)",
+            "fields": [
+              {
+                "id": "gap",
+                "label": "The gap (two lines)",
+                "type": "text",
+                "lines": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "matrix": {
     "cells": [
@@ -1683,7 +3944,10 @@
             "lines": 1
           }
         ],
-        "note": "Don’t enter personal health information."
+        "note": "Don’t enter personal health information.",
+        "canvas": [
+          "cover"
+        ]
       },
       {
         "id": "use-case",
@@ -1694,6 +3958,9 @@
         "useCases": true,
         "modules": [
           "M1"
+        ],
+        "canvas": [
+          "sheet-1"
         ]
       },
       {
@@ -1720,6 +3987,9 @@
         "modules": [
           "M4",
           "M5"
+        ],
+        "canvas": [
+          "sheet-4"
         ]
       },
       {
@@ -1735,6 +4005,9 @@
         ],
         "resources": [
           "dpi-h-ra"
+        ],
+        "canvas": [
+          "sheet-2"
         ]
       },
       {
@@ -1759,6 +4032,9 @@
         "resources": [
           "smart-trust",
           "ihe-vhl"
+        ],
+        "canvas": [
+          "sheet-3"
         ]
       },
       {
@@ -1790,6 +4066,10 @@
         "modules": [
           "M6",
           "M7"
+        ],
+        "canvas": [
+          "sheet-5",
+          "sheet-6"
         ]
       },
       {
