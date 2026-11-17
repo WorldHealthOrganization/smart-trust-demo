@@ -44,17 +44,17 @@ msgstr "DEMO-VHL 信任域的使用条款：{code0} 和 {code1} ValueSet。J4.0 
 
 #: input/pagecontent/changes.md:5
 msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXK), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
-msgstr "这些旅程讲述 <a0>VaxLink</a0> 的故事（议题 <a1>#21</a1>）：Somsak SENGMANY 出生于泰法费基（XXR），居住在奥内萨（XXK），一年后在泰法费基再次就诊。人物、系统参与者和故事均已重写；业务流程改为通用形式（其中不含人名）。"
+msgstr "这些旅程讲述 <a0>VaxLink</a0> 的故事（议题 <a1>#21</a1>）：Somsak SENGMANY 出生于 Taifafeki（XXR），居住在 Onesa（XXK），一年后在 Taifafeki 再次就诊。人物、系统参与者和故事均已重写；业务流程改为通用形式（其中不含人名）。"
 
 #: input/pagecontent/changes.md:7
 #, python-brace-format
 msgid "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Two illustrative code systems stand in for PreQual product ids and national schedule codes."
-msgstr ""
+msgstr "新增示例：家庭 {code0}、登记 {code1} 及其应答、已报告和已验证的 {code2}、验证与裁定 {code3}、从产品代码到接种计划代码的 {code4}、示意性接种计划 {code5}、{code6} 和提醒 {code7}、在 Onesa 接种的四个剂次、一份包含六个剂次的 IPS、{code8}，以及两个 {code9}（访问已允许、通行码错误）。两个示意性代码系统分别代替 PreQual 产品 id 和国家接种计划代码。"
 
 #: input/pagecontent/changes.md:3
 #, python-brace-format
 msgid "The code of Onesa is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, the identifiers of Onesa, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
-msgstr ""
+msgstr "Onesa 的代码现为 XXU（原为 XXK），即 SMART Trust 的 Participants-DEV 中名为 \"Onesa\" 的 DEV 测试参与方（WorldHealthOrganization/smart-trust#161）：涉及国家定义、Onesa 的标识符、接种程序代码（{code0}）、批号、国家门户、流程、设备界面、示例和翻译。"
 
 #~ msgid "New page: <a0>VaxLink examples</a0>, mapping each walkthrough screen and payload to its example here."
 #~ msgstr "新页面：<a0>VaxLink 示例</a0>，将演练的每个界面和载荷映射到此处对应的示例。"

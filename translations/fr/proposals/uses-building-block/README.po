@@ -137,12 +137,12 @@ msgstr "Vérifications : {code0} du harnais résout chaque {code1} en un bloc d'
 #: docs/proposals/uses-building-block/README.md:26
 #, python-brace-format
 msgid "{code0} (OHS FHIR SDK), {code1} (the national FHIR server of Onesa), {code2} (IHE VHL), or {code3} (WHO GDHCN)"
-msgstr ""
+msgstr "{code0} (SDK FHIR d'OHS), {code1} (le serveur FHIR national du pays Onesa), {code2} (VHL d'IHE) ou {code3} (GDHCN de l'OMS)"
 
 #: docs/proposals/uses-building-block/README.md:16
 #, python-brace-format
 msgid "{code0}: 18 deployed components ({code1}), each a part of a system in Taifafeki or Onesa and a specialization of a DPI-H RA block."
-msgstr ""
+msgstr "{code0} : 18 composants déployés ({code1}), chacun faisant partie d'un système à Taifafeki ou à Onesa et constituant une spécialisation d'un bloc de la RA DPI-H."
 
 #~ #, python-brace-format
 #~ msgid "{code0} now also checks:"

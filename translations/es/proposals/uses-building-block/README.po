@@ -137,12 +137,12 @@ msgstr "Comprobaciones: {code0} del arnés resuelve cada {code1} en un bloque de
 #: docs/proposals/uses-building-block/README.md:26
 #, python-brace-format
 msgid "{code0} (OHS FHIR SDK), {code1} (the national FHIR server of Onesa), {code2} (IHE VHL), or {code3} (WHO GDHCN)"
-msgstr ""
+msgstr "{code0} (OHS FHIR SDK), {code1} (el servidor FHIR nacional de Onesa), {code2} (IHE VHL) o {code3} (GDHCN de la OMS)"
 
 #: docs/proposals/uses-building-block/README.md:16
 #, python-brace-format
 msgid "{code0}: 18 deployed components ({code1}), each a part of a system in Taifafeki or Onesa and a specialization of a DPI-H RA block."
-msgstr ""
+msgstr "{code0}: 18 componentes desplegados ({code1}), cada uno parte de un sistema de Taifafeki o de Onesa y especialización de un bloque de la RA DPI-H."
 
 #~ #, python-brace-format
 #~ msgid "{code0} now also checks:"

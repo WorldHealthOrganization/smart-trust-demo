@@ -151,12 +151,12 @@ msgstr "عمليات التحقق: يَحُلّ {code0} الخاص بالإطا�
 #: docs/proposals/uses-building-block/README.md:26
 #, python-brace-format
 msgid "{code0} (OHS FHIR SDK), {code1} (the national FHIR server of Onesa), {code2} (IHE VHL), or {code3} (WHO GDHCN)"
-msgstr ""
+msgstr "{code0} (OHS FHIR SDK)، أو {code1} (خادم FHIR الوطني في Onesa)، أو {code2} (IHE VHL)، أو {code3} (WHO GDHCN)"
 
 #: docs/proposals/uses-building-block/README.md:16
 #, python-brace-format
 msgid "{code0}: 18 deployed components ({code1}), each a part of a system in Taifafeki or Onesa and a specialization of a DPI-H RA block."
-msgstr ""
+msgstr "{code0}: 18 مكوِّناً منشوراً ({code1})، كلٌّ منها جزء من نظام في Taifafeki أو في Onesa وتخصيص للبنة في البنية المرجعية DPI-H RA."
 
 #~ #, python-brace-format
 #~ msgid "{code0} now also checks:"

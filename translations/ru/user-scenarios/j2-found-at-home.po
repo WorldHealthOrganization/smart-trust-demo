@@ -19,7 +19,7 @@ msgstr ""
 #: scenarios/user-scenarios/j2-found-at-home.json:14
 msgctxt "country"
 msgid "Onesa"
-msgstr "Онеса"
+msgstr "Onesa"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:5
 msgctxt "description"
@@ -79,7 +79,7 @@ msgstr "Сканирует обе карточки с QR-кодом и счит�
 #: scenarios/user-scenarios/j2-found-at-home.json:30
 msgctxt "step.experiences.doing"
 msgid "Tells Vilay about the birth in Taifafeki and shows the cards."
-msgstr "Рассказывает Vilay о родах в Тайфафеки и показывает карточки."
+msgstr "Рассказывает Vilay о родах в стране Taifafeki и показывает карточки."
 
 #: scenarios/user-scenarios/j2-found-at-home.json:147
 msgctxt "step.experiences.feeling"
@@ -333,7 +333,7 @@ msgstr "J2"
 #: scenarios/user-scenarios/j2-found-at-home.json:14
 msgctxt "where"
 msgid "Onesa"
-msgstr "Онеса"
+msgstr "Onesa"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:22
 #: scenarios/user-scenarios/j2-found-at-home.json:22
@@ -354,28 +354,28 @@ msgstr "Somsak исполнилось 7 недель"
 #: scenarios/user-scenarios/j2-found-at-home.json:134
 msgctxt "step.experiences.doing"
 msgid "Is added to his household: the Onesa health system now knows he exists."
-msgstr ""
+msgstr "Добавлен в своё домохозяйство: система здравоохранения страны Onesa теперь знает о его существовании."
 
 #: scenarios/user-scenarios/j2-found-at-home.json:220
 msgctxt "step.fhirChanges.change"
 msgid "Created with a temporary ID from Onesa"
-msgstr ""
+msgstr "Создано с временным идентификатором из страны Onesa"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:221
 msgctxt "step.fhirChanges.why"
 msgid "He is not in the Onesa civil registry yet; a temporary id lets the CHW, clinic and portal all mean the same child. Taifafeki only gave him a hospital number."
-msgstr ""
+msgstr "Его ещё нет в реестре актов гражданского состояния страны Onesa; временный идентификатор позволяет CHW, клинике и порталу однозначно иметь в виду одного и того же ребёнка. Страна Taifafeki выдала ему только больничный номер."
 
 #: scenarios/user-scenarios/j2-found-at-home.json:21
 msgctxt "step.headline"
 msgid "On a routine village visit, Vilay finds a newborn the Onesa system doesn’t know exists. She can read the vaccines on his cards, but she can’t prove they are genuine."
-msgstr ""
+msgstr "Во время планового визита в деревню Vilay обнаруживает новорождённого, о существовании которого система страны Onesa не знает. Она может прочитать сведения о прививках на его карточках, но не может доказать их подлинность."
 
 #: scenarios/user-scenarios/j2-found-at-home.json:99
 #: scenarios/user-scenarios/j2-found-at-home.json:99
 msgctxt "step.illustration.alt"
 msgid "In a village in Onesa with no signal, Vilay, the community health worker, scans the paper cards with her phone while Khamla holds Somsak and Bounmy looks on"
-msgstr ""
+msgstr "В деревне в стране Onesa, где нет сигнала, Vilay, общинный медицинский работник, сканирует бумажные карточки своим телефоном, пока Khamla держит Somsak, а Bounmy наблюдает"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:25
 msgctxt "step.narrative"
@@ -386,12 +386,12 @@ msgid ""
 "shows the two cards. The CHW app reads them with **read-unverified**\n"
 "(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\n"
 "list. It shows the doses, but checks no signature and saves nothing yet.\n"
-msgstr ""
+msgstr "Khamla привезла Somsak домой, в страну Onesa. Во время планового визита в деревню 04,\nгде живёт Khamla, Vilay обнаруживает новорождённого, о существовании\nкоторого система страны Onesa не знает. На её телефоне уже несколько недель нет сигнала. Khamla\nпоказывает две карточки. Приложение CHW считывает их в режиме **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), для которого список доверия\nне нужен. Оно показывает дозы, но не проверяет подпись и пока ничего не сохраняет.\n"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:88
 msgctxt "step.uses.role"
 msgid "PreQual codes read, but not yet mapped to the Onesa schedule"
-msgstr ""
+msgstr "Коды PreQual считаны, но ещё не сопоставлены с графиком страны Onesa"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""

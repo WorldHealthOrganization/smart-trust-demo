@@ -201,7 +201,7 @@ msgstr "الرمز هو SNOMED CT {code0} (إحالة مريض) مع نص الج
 
 #: docs/vaxlink-examples.md:68
 msgid "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key."
-msgstr "البلدان. تؤدي تايفافيكي دورها على شبكة GDHCN DEV عبر المشارك التجريبي XXR، وتؤديه أونيسا (Onesa) عبر المشارك الخيالي XXU. وليس أيٌّ منهما مفتاح إنتاج."
+msgstr "البلدان. تؤدي Taifafeki دورها على شبكة GDHCN DEV عبر المشارك التجريبي XXR، وتؤديه Onesa عبر المشارك الخيالي XXU. وليس أيٌّ منهما مفتاح إنتاج."
 
 #: docs/vaxlink-examples.md:35
 msgid "Country"
@@ -286,19 +286,19 @@ msgstr "المفتاح"
 #: docs/vaxlink-examples.md:46
 #: docs/vaxlink-examples.md:47
 msgid "Onesa"
-msgstr "أونيسا (Onesa)"
+msgstr "Onesa"
 
 #: docs/vaxlink-examples.md:23
 #: docs/vaxlink-examples.md:24
 #: docs/vaxlink-examples.md:27
 #: docs/vaxlink-examples.md:28
 msgid "Onesa, mobile"
-msgstr "أونيسا (Onesa)، هاتف محمول"
+msgstr "Onesa، هاتف محمول"
 
 #: docs/vaxlink-examples.md:25
 #: docs/vaxlink-examples.md:26
 msgid "Onesa, tablet"
-msgstr "أونيسا (Onesa)، جهاز لوحي"
+msgstr "Onesa، جهاز لوحي"
 
 #: docs/vaxlink-examples.md:20
 #: docs/vaxlink-examples.md:35
@@ -355,12 +355,12 @@ msgstr "نظام المعرّف المؤقت خاص بهذا الدليل ({code
 #: docs/vaxlink-examples.md:38
 #: docs/vaxlink-examples.md:39
 msgid "Taifafeki"
-msgstr "تايفافيكي"
+msgstr "Taifafeki"
 
 #: docs/vaxlink-examples.md:22
 #: docs/vaxlink-examples.md:29
 msgid "Taifafeki, tablet"
-msgstr "تايفافيكي، جهاز لوحي"
+msgstr "Taifafeki، جهاز لوحي"
 
 #: docs/vaxlink-examples.md:42
 msgid "The answers on the offline registration form (Structured Data Capture), kept so the extracted records trace back to them."
@@ -398,11 +398,11 @@ msgstr "درج الحمولات"
 
 #: docs/vaxlink-examples.md:22
 msgid "the Taifafeki records behind the cards: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; the doses as later verified in Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
-msgstr "السجلات التايفافيكية وراء البطاقتين: <a0>TrustDemoTaifafekiSomsak</a0>، <a1>TrustDemoJ1HepB</a1>، <a2>TrustDemoJ1Bcg</a2>؛ والجرعات كما تُحقِّق منها لاحقًا في أونيسا (Onesa): <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>)، <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>)؛ <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>)، <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
+msgstr "سجلات Taifafeki وراء البطاقتين: <a0>TrustDemoTaifafekiSomsak</a0>، <a1>TrustDemoJ1HepB</a1>، <a2>TrustDemoJ1Bcg</a2>؛ والجرعات كما تُحقِّق منها لاحقًا في Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>)، <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>)؛ <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>)، <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
 
 #: docs/vaxlink-examples.md:23
 msgid "the Taifafeki records on the cards: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>"
-msgstr "السجلات التايفافيكية على البطاقتين: <a0>TrustDemoJ1HepB</a0>، <a1>TrustDemoJ1Bcg</a1>"
+msgstr "سجلات Taifafeki على البطاقتين: <a0>TrustDemoJ1HepB</a0>، <a1>TrustDemoJ1Bcg</a1>"
 
 #: docs/vaxlink-examples.md:55
 msgid "Type"
@@ -419,7 +419,7 @@ msgstr "رمز QR لـ VHL مع رمز مرور من 4 أرقام وصلاحية
 
 #: docs/vaxlink-examples.md:29
 msgid "VHL viewer: passcode unlock, wrong-passcode test, access logged in Onesa"
-msgstr "عارض VHL: فتح برمز المرور، واختبار رمز مرور خاطئ، وتسجيل الوصول في أونيسا (Onesa)"
+msgstr "عارض VHL: فتح برمز المرور، واختبار رمز مرور خاطئ، وتسجيل الوصول في Onesa"
 
 #: docs/vaxlink-examples.md:55
 msgid "What changed"
@@ -457,29 +457,29 @@ msgstr "تعرض الجولة الإرشادية للرحلات (التي رُو
 
 #: docs/journey-examples.md:45
 msgid "A dose on the national schedule: the Onesa EPI code is required, and a foreign product code is kept beside it."
-msgstr ""
+msgstr "جرعة ضمن جدول التطعيم الوطني: رمز EPI في Onesa مطلوب، ويُحتفَظ برمز المنتج الأجنبي إلى جانبه."
 
 #: docs/journey-examples.md:66
 #, python-brace-format
 msgid "Code systems. The walkthrough's product codes ({code0} and so on) and the schedule codes of Onesa ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
-msgstr ""
+msgstr "أنظمة الرموز. رموز المنتجات في الجولة الإرشادية ({code0} وغيرها) ورموز جدول التطعيم في Onesa ({code1} وغيرها) توضيحية. وهي معرّفة هنا بوصفها نظامي الرموز {code2} و{code3}، موسومةً بأنها تجريبية، ضمن المعرّف القانوني لهذا الدليل، بحيث لا يوحي أي URL بوزارة حقيقية أو بنظام رموز حقيقي لمنظمة الصحة العالمية (WHO)."
 
 #: docs/journey-examples.md:69
 msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28."
-msgstr ""
+msgstr "التواريخ. كما في الجولة الإرشادية: الولادة 2025-10-28، وJ2 في 2025-11-18، وJ3 في 2025-11-25، والجرعات في Onesa في 2025-12-10 و2026-07-28، والرحلة في 2026-10-28."
 
 #: docs/journey-examples.md:61
 #, python-brace-format
 msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesa gateway the custodian and observer. The passcode is never logged."
-msgstr ""
+msgstr "بنية R4: {code0}، {code1}، {code2}، {code3}؛ الجهة المُستقبِلة هي الطالب، وبوابة الربط في Onesa هي الأمين والمراقب. ولا يُسجَّل رمز المرور أبدًا."
 
 #: docs/journey-examples.md:36
 msgid "The birth hospital's newborn: a hospital number, since a baby of parents from Onesa has no Taifafeki citizen id."
-msgstr ""
+msgstr "المولود الجديد في مستشفى الولادة: رقم مستشفى، إذ لا يملك رضيع لأبوين من Onesa رقم هوية مواطن في Taifafeki."
 
 #: docs/journey-examples.md:38
 msgid "What the Taifafeki clinic keeps when it views a summary from Onesa through a VHL: viewed, not copied."
-msgstr ""
+msgstr "ما تحتفظ به العيادة في Taifafeki عندما تعرض ملخصًا من Onesa عبر VHL: معروض، لا منسوخ."
 
 #~ #, python-brace-format
 #~ msgid "Every example is published twice: as a page, and as raw JSON at a stable URL the walkthrough can fetch ({code0}). They are FHIR R5, as this guide is."

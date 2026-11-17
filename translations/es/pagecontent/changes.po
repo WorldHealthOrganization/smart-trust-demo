@@ -48,12 +48,12 @@ msgstr "Los recorridos cuentan la historia de <a0>VaxLink</a0> (incidencia <a1>#
 #: input/pagecontent/changes.md:7
 #, python-brace-format
 msgid "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Two illustrative code systems stand in for PreQual product ids and national schedule codes."
-msgstr ""
+msgstr "Nuevos ejemplos: {code0} del hogar, {code1} de registro y su respuesta, {code2} notificados y verificados, {code3} de verificación y adjudicación, {code4} del código de producto al código del calendario, un {code5} ilustrativo del calendario, {code6} y un {code7} de recordatorio, las cuatro dosis administradas en Onesa, un IPS de seis dosis, {code8} y dos {code9} (acceso concedido, código de acceso incorrecto). Dos sistemas de códigos ilustrativos sustituyen a los identificadores de producto de PreQual y a los códigos del calendario nacional."
 
 #: input/pagecontent/changes.md:3
 #, python-brace-format
 msgid "The code of Onesa is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, the identifiers of Onesa, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
-msgstr ""
+msgstr "El código de Onesa es ahora XXU (antes XXK), el participante de prueba DEV que el Participants-DEV de SMART Trust llama \"Onesa\" (WorldHealthOrganization/smart-trust#161): la definición del país, los identificadores de Onesa, los códigos del calendario ({code0}), los números de lote, el portal nacional, los procesos, las pantallas de los dispositivos, los ejemplos y las traducciones."
 
 #~ msgid "New page: <a0>VaxLink examples</a0>, mapping each walkthrough screen and payload to its example here."
 #~ msgstr "Nueva página: <a0>ejemplos de VaxLink</a0>, que asigna cada pantalla y carga útil del recorrido guiado a su ejemplo en esta guía."

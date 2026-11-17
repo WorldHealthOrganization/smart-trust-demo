@@ -138,12 +138,12 @@ msgstr "检查：工具框架的 {code0} 将每个 {code1} 解析为已声明目
 #: docs/proposals/uses-building-block/README.md:26
 #, python-brace-format
 msgid "{code0} (OHS FHIR SDK), {code1} (the national FHIR server of Onesa), {code2} (IHE VHL), or {code3} (WHO GDHCN)"
-msgstr ""
+msgstr "{code0}（OHS FHIR SDK）、{code1}（Onesa 国家 FHIR 服务器）、{code2}（IHE VHL）或 {code3}（WHO GDHCN）"
 
 #: docs/proposals/uses-building-block/README.md:16
 #, python-brace-format
 msgid "{code0}: 18 deployed components ({code1}), each a part of a system in Taifafeki or Onesa and a specialization of a DPI-H RA block."
-msgstr ""
+msgstr "{code0}：18 个已部署组件（{code1}），每个都是某个 Taifafeki 或 Onesa 系统的部件，并且是某个 DPI-H RA 构建块的特化。"
 
 #~ #, python-brace-format
 #~ msgid "{code0} now also checks:"

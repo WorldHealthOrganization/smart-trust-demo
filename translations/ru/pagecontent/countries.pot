@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-17T18:50:35.692Z\n"
+"POT-Creation-Date: 2026-11-17T18:56:58.599Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: input/pagecontent/countries.md:15
 #, python-brace-format
-msgid "A journey that needs a home country and a visited country takes Onesa and Taifafeki from {code0} and {code1}: the name, adjective, code, role and places. The people in a journey are its own, and fictional too."
+msgid "A journey that needs a home country and a visited country takes Onesa and Taifafeki from {code0} and {code1}: the name, code, role and places. The people in a journey are its own, and fictional too."
 msgstr ""
 
 #: input/pagecontent/countries.md:11
@@ -76,7 +76,7 @@ msgid "Role"
 msgstr ""
 
 #: input/pagecontent/countries.md:6
-msgid "Taifafeki (adjective: Taifafeki)"
+msgid "Taifafeki"
 msgstr ""
 
 #: input/pagecontent/countries.md:1

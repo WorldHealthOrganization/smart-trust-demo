@@ -428,7 +428,7 @@ msgstr "<0>caregiver-3</0> Como <1>cuidador</1>, quiero decidir quién ve el reg
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "<0>Chanthason</0>: Confirms the Taifafeki product equals the birth dose on the Onesa schedule; gives the overdue 6-week vaccines."
-msgstr ""
+msgstr "<0>Chanthason</0>: Confirma que el producto de Taifafeki equivale a la dosis al nacer del calendario de Onesa; administra las vacunas atrasadas de las 6 semanas."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/index.html:0
 msgid "<0>Chanthason</0>: Scans the card; the tablet confirms the Taifafeki signature and marks the doses verified."
@@ -588,7 +588,7 @@ msgstr "<0>Objetivo:</0> Confiar lo suficiente en los registros extranjeros como
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "<0>Hand-off:</0> <1>Somsak</1> continues on the Onesa schedule for a year"
-msgstr ""
+msgstr "<0>Traspaso:</0> <1>Somsak</1> sigue el calendario de Onesa durante un año"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0a/index.html:0
 msgid "<0>Hand-off:</0> <1>Somsak</1>’s summary is ready to share"
@@ -664,7 +664,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "<0>J1</0> A baby from Onesa is born in Taifafeki"
-msgstr ""
+msgstr "<0>J1</0> Un bebé de Onesa nace en Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/anan/index.html:0
 msgid "<0>J1</0> T0 · Birth day · Kesaro Provincial Hospital"
@@ -676,7 +676,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t3/index.html:0
 msgid "<0>J1</0>: The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE."
-msgstr ""
+msgstr "<0>J1</0>: La clave del firmante de documentos de Taifafeki (DSC de XXR) firma cada DVC como un CWT en COSE."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "<0>J2a</0> A health worker finds the baby — and reads his cards"
@@ -740,15 +740,15 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "<0>J3b</0> Taifafeki vaccines are fitted to the Onesa schedule"
-msgstr ""
+msgstr "<0>J3b</0> Las vacunas de Taifafeki se incorporan al calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t1/index.html:0
 msgid "<0>J3b</0>: ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition."
-msgstr ""
+msgstr "<0>J3b</0>: ConceptMap de los códigos de producto de Taifafeki a los códigos del calendario de Onesa; el calendario como PlanDefinition."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/index.html:0
 msgid "<0>J3b</0>: The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue."
-msgstr ""
+msgstr "<0>J3b</0>: El calendario de Onesa (PlanDefinition) se aplica a todas las dosis; a las 10 semanas, las dosis de las 6 semanas resultan atrasadas."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t5/index.html:0
 msgid "<0>J3b</0>: Verified doses, including those given abroad, count toward coverage indicators."
@@ -772,7 +772,7 @@ msgstr "<0>J4.0b</0> Papá crea un enlace para compartir en la clínica"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/bounmy-sengmany/index.html:0
 msgid "<0>J4.0b</0> T0 + 12 months · Onesa–Taifafeki Friendship Bridge"
-msgstr ""
+msgstr "<0>J4.0b</0> T0 + 12 meses · Puente de la Amistad Onesa–Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/index.html:0
 msgid "<0>J4.0b</0>: The family's consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request."
@@ -788,7 +788,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "<0>J4.1</0> A doctor in Taifafeki sees the full history"
-msgstr ""
+msgstr "<0>J4.1</0> Un médico de Taifafeki ve el historial completo"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/anan/index.html:0
 msgid "<0>J4.1</0> T0 + 12 months · Kesaro paediatric clinic"
@@ -800,7 +800,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/index.html:0
 msgid "<0>J4.1</0>: Each view is logged as an AuditEvent in Onesa, including failed passcode attempts."
-msgstr ""
+msgstr "<0>J4.1</0>: Cada consulta queda registrada como AuditEvent en Onesa, incluidos los intentos fallidos de código de acceso."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t6/index.html:0
 msgid "<0>J4.1</0>: The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents."
@@ -808,7 +808,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t3/index.html:0
 msgid "<0>J4.1</0>: The viewer verifies the VHL's HCERT against the DSC of Onesa (XXU) before it fetches anything."
-msgstr ""
+msgstr "<0>J4.1</0>: El visor verifica el HCERT del VHL contra el DSC de Onesa (XXU) antes de obtener nada."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t7/index.html:0
 msgid "<0>J4.1</0>: Viewer app team: open the link, enter the passcode, read the records."
@@ -916,7 +916,7 @@ msgstr "<0>Punto de política.</0> Los recién nacidos pueden registrarse en cas
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "<0>Policy point.</0> Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
-msgstr ""
+msgstr "<0>Punto de política.</0> La confianza está descentralizada: una clínica de Onesa verifica por sí misma una firma de Taifafeki, sin contactar con Taifafeki."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
 msgid "<0>Policy track, <1>M1</1>:</0> From journey to capabilities"
@@ -1200,7 +1200,7 @@ msgstr "<0>Por qué importa:</0> Cada consulta transfronteriza queda registrada 
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "<0>So what:</0> Foreign vaccines are translated without overwriting them. The original Taifafeki code stays alongside the code of Onesa."
-msgstr ""
+msgstr "<0>Por qué importa:</0> Las vacunas extranjeras se traducen sin sobrescribirlas. El código original de Taifafeki permanece junto al código de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "<0>So what:</0> It is the common language. Every system in this story reads and writes the same resource shapes."
@@ -1216,11 +1216,11 @@ msgstr "<0>Por qué importa:</0> Pone a la familia al mando de lo que se compart
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "<0>So what:</0> Once foreign doses are mapped, they automatically count toward the schedule of Onesa. No mental arithmetic for the nurse."
-msgstr ""
+msgstr "<0>Por qué importa:</0> Una vez establecida la correspondencia de las dosis extranjeras, cuentan automáticamente para el calendario de Onesa. La enfermera no tiene que hacer cálculos mentales."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "<0>So what:</0> Onesa can verify a signature from Taifafeki without a bilateral agreement or a live call to Taifafeki. Trust is set up once and works between all members."
-msgstr ""
+msgstr "<0>Por qué importa:</0> Onesa puede verificar una firma de Taifafeki sin un acuerdo bilateral ni una llamada en directo a Taifafeki. La confianza se establece una vez y funciona entre todos los miembros."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "<0>So what:</0> Proof travels with the person and can be checked anywhere, even offline and even on paper."
@@ -1244,7 +1244,7 @@ msgstr "<0>Por qué importa:</0> El Ministerio ve tendencias, no solo registros 
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "<0>So what:</0> The Taifafeki clinic needs no account in the system of Onesa. Any viewer that follows the VHL standard works."
-msgstr ""
+msgstr "<0>Por qué importa:</0> La clínica de Taifafeki no necesita ninguna cuenta en el sistema de Onesa. Funciona cualquier visor que siga el estándar VHL."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "<0>So what:</0> The Taifafeki doctor gets a predictable summary they know how to read, not a dump of another country’s records."
@@ -1252,11 +1252,11 @@ msgstr "<0>Por qué importa:</0> El médico de Taifafeki recibe un resumen previ
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "<0>Somsak</0> continues on the Onesa schedule for a year"
-msgstr ""
+msgstr "<0>Somsak</0> sigue el calendario de Onesa durante un año"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html:0
 msgid "<0>Somsak</0> gets his birth vaccines in a hospital in Taifafeki — and the only thing that will cross the border with him is a pair of paper cards."
-msgstr ""
+msgstr "<0>Somsak</0> recibe sus vacunas al nacer en un hospital de Taifafeki — y lo único que cruzará la frontera con él es un par de tarjetas en papel."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "<0>Somsak</0>’s summary is ready to share"
@@ -1520,7 +1520,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> AuditEvent logged in Onesa on every access, including failed passcodes."
-msgstr ""
+msgstr "<0>Aspecto técnico.</0> AuditEvent registrado en Onesa en cada acceso, incluidos los códigos de acceso fallidos."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> Birth-dose data elements: vaccine, product code, batch, date, giver (immunization DAK core data dictionary)."
@@ -1576,7 +1576,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> Hospital immunization record; one DVC per birth dose, signed by the document signer of Taifafeki."
-msgstr ""
+msgstr "<0>Aspecto técnico.</0> Registro de inmunización del hospital; un DVC por cada dosis al nacer, firmado por el firmante de documentos de Taifafeki."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> IPS plus an immunization core as the part of the record that crosses borders."
@@ -1608,7 +1608,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> Point-of-care viewer reads the whole first year from Onesa."
-msgstr ""
+msgstr "<0>Aspecto técnico.</0> El visor del punto de atención lee todo el primer año desde Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> Product code mapping and the computable national schedule."
@@ -1632,11 +1632,11 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> Terminology service: the product code of Taifafeki kept, the schedule code of Onesa added beside it; schedule logic over every dose."
-msgstr ""
+msgstr "<0>Aspecto técnico.</0> Servicio de terminología: se conserva el código de producto de Taifafeki y se añade junto a él el código del calendario de Onesa; lógica del calendario aplicada a todas las dosis."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> Viewer verifies the VHL's HCERT against the DSC of Onesa from the trust list."
-msgstr ""
+msgstr "<0>Aspecto técnico.</0> El visor verifica el HCERT del VHL contra el DSC de Onesa procedente de la lista de confianza."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "<0>Technical.</0> Whichever moment breaks hardest for the country."
@@ -1652,7 +1652,7 @@ msgstr "<0>La tarjeta ha sido manipulada.</0> La comprobación de la firma falla
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "<0>The cards are lost on the way home.</0> The doses still happened, but no proof travels. Clinicians in Onesa must re-vaccinate or rely on memory."
-msgstr ""
+msgstr "<0>Las tarjetas se pierden de camino a casa.</0> Las dosis se administraron igualmente, pero no viaja ninguna prueba. Los profesionales clínicos de Onesa tienen que volver a vacunar o fiarse de la memoria."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/discuss/index.html:0
 msgid "<0>The scope promise.</0> Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together."
@@ -1776,7 +1776,7 @@ msgstr "📍 Lomaru, Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/index.html:0
 msgid "📍 Onesa–Taifafeki Friendship Bridge"
-msgstr ""
+msgstr "📍 Puente de la Amistad Onesa–Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "🕒 T0 · Birth day"
@@ -1892,7 +1892,7 @@ msgstr "12 meses después · Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "12-month summary: 2 Taifafeki + 4 Onesa doses"
-msgstr ""
+msgstr "Resumen de los 12 meses: 2 dosis de Taifafeki + 4 de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S7/index.html:0
 msgid "14 Days (Dec 15, 2026)"
@@ -2016,15 +2016,15 @@ msgstr "2025-10-28 • Tuberculosis • Lote: XXR-9012 • Nacido en Taifafeki �
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "2026-01-06 • Diphtheria, Tetanus, Pertussis, Hep B, Hib • Lot: XXU-2201 • Lomaru District Health Center (Onesa)"
-msgstr ""
+msgstr "2026-01-06 • Difteria, tétanos, tos ferina, Hep B, Hib • Lote: XXU-2201 • Centro de Salud de Distrito de Lomaru (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "2026-01-06 • Poliomyelitis • Lot: XXU-5531 • Lomaru District Health Center (Onesa)"
-msgstr ""
+msgstr "2026-01-06 • Poliomielitis • Lote: XXU-5531 • Centro de Salud de Distrito de Lomaru (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "2026-01-06 • Streptococcus pneumoniae • Lot: XXU-8819 • Lomaru District Health Center (Onesa)"
-msgstr ""
+msgstr "2026-01-06 • Streptococcus pneumoniae • Lote: XXU-8819 • Centro de Salud de Distrito de Lomaru (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "2026-07-28 • Measles, Rubella • Lot: XXU-9923 • Lomaru District Health Center (Onesa)"
@@ -2212,11 +2212,11 @@ msgstr "Un bebé y cinco personas a su alrededor, cuatro momentos, doce meses. S
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "A baby from Onesa gets his first vaccines in Taifafeki and leaves with signed paper cards."
-msgstr ""
+msgstr "Un bebé de Onesa recibe sus primeras vacunas en Taifafeki y se va con tarjetas firmadas en papel."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "A baby from Onesa is born in Taifafeki"
-msgstr ""
+msgstr "Un bebé de Onesa nace en Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "A certificate failing verification SHALL produce a Failed result, not an exception or panic. Failed results SHALL name the step that failed and a reason from a closed set shared by both languages: BadPrefix, UnsupportedContextVersion, Base45Invalid, InflateFailed, LimitExceeded, CoseMalformed, HeaderInvalid, UnsupportedAlgorithm, KidNotFound, SignatureInvalid, KeyUsageMismatch, Expired, NotYetValid, HcertMissing, MultipleSubclaims, PayloadInvalid. Exceptions or errors SHALL be reserved for programming errors and infrastructure failures."
@@ -2232,7 +2232,7 @@ msgstr "Un niño vacunado en ___ debería poder ___ en ___."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "A child vaccinated in Taifafeki should be able to have every dose counted at home in Onesa, and shown back to a clinician in Taifafeki a year later."
-msgstr ""
+msgstr "Un niño vacunado en Taifafeki debería poder tener todas sus dosis contabilizadas en su país, Onesa, y mostradas de nuevo a un profesional clínico de Taifafeki un año después."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/anan/index.html:0
 msgid "A child's full history at the point of care"
@@ -2288,7 +2288,7 @@ msgstr "Una tarjeta QR firmada digitalmente viaja con la familia — sin necesid
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "A doctor in Taifafeki sees the full history"
-msgstr ""
+msgstr "Un médico de Taifafeki ve el historial completo"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "A DVCMin SHALL carry exactly one vx. The library SHALL provide a helper that turns one visit with N administered vaccines into N payloads, one per vaccine, and so N certificates."
@@ -2368,7 +2368,7 @@ msgstr "Un servicio nacional que firme certificados de vacunación: Dónde estam
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesa schedule."
-msgstr ""
+msgstr "Una enfermera verifica que las tarjetas son auténticas e incorpora las dosis de Taifafeki al calendario de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "A phone app that holds health summaries for several household members and can create shareable links."
@@ -2720,7 +2720,7 @@ msgstr "Cualquiera puede ver más adelante que una dosis fue emitida por Taifafe
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/index.html:0
 msgid "Anyone who later doubts a dose can follow it back to the signed certificate and the key of Taifafeki."
-msgstr ""
+msgstr "Cualquiera que más adelante dude de una dosis puede rastrearla hasta el certificado firmado y la clave de Taifafeki."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "Appears in 2 of 8 steps"
@@ -2816,7 +2816,7 @@ msgstr "Pregunte quién en la sala ha trabajado con CHW. ¿Qué significa realme
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/index.html:0
 msgid "Ask who signed the cards, and what a health worker in Onesa can check without a network"
-msgstr ""
+msgstr "Pregunte quién firmó las tarjetas y qué puede comprobar sin red una trabajadora de salud de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Ask: <0>what is inside this QR?</0> (a pointer and a key, not the health data)."
@@ -2844,7 +2844,7 @@ msgstr "En el Hospital de Kesaro, el Dr. Anan muestra dos tarjetas QR firmadas a
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesa schedule; Khamla and Bounmy hold Somsak"
-msgstr ""
+msgstr "En el centro de salud del distrito, la enfermera Chanthason comprueba las tarjetas en una tableta: firma verificada, en el calendario de Onesa; Khamla y Bounmy sostienen a Somsak"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "At which step of decoding does a tampered card fail, and what does the nurse see?"
@@ -2928,7 +2928,7 @@ msgstr "De vuelta donde empezó todo, el Dr. Anan escanea el enlace, escucha el 
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesa gateway take five steps:"
-msgstr ""
+msgstr "De vuelta donde empezó todo, el Dr. Anan, pediatra, atiende a Somsak en una clínica pediátrica de Kesaro. Bounmy muestra el QR en su teléfono y dice el código de acceso. El visor de la clínica y la puerta de enlace de Onesa siguen cinco pasos:"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "base standard"
@@ -3288,7 +3288,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/index.html:0
 msgid "Born Abroad — Taifafeki [No Onesa National ID Yet]"
-msgstr ""
+msgstr "Nacido en el extranjero — Taifafeki [aún sin documento nacional de identidad de Onesa]"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "Born here, vaccinated there — and I can see all of it."
@@ -3828,11 +3828,11 @@ msgstr "CHW y comunidad (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "CHW & Community (Onesa): our name for it"
-msgstr ""
+msgstr "CHW & Community (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "CHW & Community (Onesa): we have this"
-msgstr ""
+msgstr "CHW & Community (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "CHW & Community: our name for it"
@@ -3880,11 +3880,11 @@ msgstr "Aplicación del CHW, Onesa (País B)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "CHW app, Onesa (Country B): our name for it"
-msgstr ""
+msgstr "Aplicación del CHW, Onesa (País B): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "CHW app, Onesa (Country B): we have this"
-msgstr ""
+msgstr "Aplicación del CHW, Onesa (País B): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/index.html:0
 msgid "CHW phone"
@@ -3912,11 +3912,11 @@ msgstr "Aplicaciones para ciudadanos y pacientes (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Citizen / Patient Apps (Onesa): our name for it"
-msgstr ""
+msgstr "Citizen / Patient Apps (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Citizen / Patient Apps (Onesa): we have this"
-msgstr ""
+msgstr "Citizen / Patient Apps (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Citizen / Patient Apps: our name for it"
@@ -4000,11 +4000,11 @@ msgstr "Registro de clientes de salud (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Client Registry for Health (Onesa): our name for it"
-msgstr ""
+msgstr "Client Registry for Health (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Client Registry for Health (Onesa): we have this"
-msgstr ""
+msgstr "Client Registry for Health (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Client Registry for Health: our name for it"
@@ -4064,7 +4064,7 @@ msgstr "Tableta de la clínica (verificación)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Clinic tablet → Onesa national FHIR server"
-msgstr ""
+msgstr "Tableta de la clínica → servidor FHIR nacional de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Clinic tablet app; caches the trust list"
@@ -4072,7 +4072,7 @@ msgstr "Aplicación de la tableta de la clínica; guarda en caché la lista de c
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "Clinic tablet, then Signature verified, then On the Onesa schedule"
-msgstr ""
+msgstr "Tableta de la clínica, luego Firma verificada, luego En el calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/index.html:0
 msgid "Clinic Verification Referral (FHIR ServiceRequest)"
@@ -4124,15 +4124,15 @@ msgstr "Código"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Code mapping service (product to Onesa EPI)"
-msgstr ""
+msgstr "Servicio de correspondencia de códigos (producto a EPI de Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Code mapping service (product to Onesa EPI): our name for it"
-msgstr ""
+msgstr "Servicio de correspondencia de códigos (producto a EPI de Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Code mapping service (product to Onesa EPI): we have this"
-msgstr ""
+msgstr "Servicio de correspondencia de códigos (producto a EPI de Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
 msgid "Coffee"
@@ -4200,11 +4200,11 @@ msgstr "Motor computable de apoyo a la decisión (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Computable Decision Support Engine (Onesa): our name for it"
-msgstr ""
+msgstr "Computable Decision Support Engine (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Computable Decision Support Engine (Onesa): we have this"
-msgstr ""
+msgstr "Computable Decision Support Engine (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Computable Decision Support Engine: our name for it"
@@ -4260,7 +4260,7 @@ msgstr "Confirma los datos del hogar como cabeza de familia."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Confirms the Taifafeki product equals the birth dose on the Onesa schedule; gives the overdue 6-week vaccines."
-msgstr ""
+msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer del calendario de Onesa; administra las vacunas atrasadas de las 6 semanas."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Conformance to the national FHIR IG"
@@ -4648,7 +4648,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "Counts toward the Onesa schedule."
-msgstr ""
+msgstr "Cuenta para el calendario de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Cover"
@@ -4668,7 +4668,7 @@ msgstr "Creado con primarySource = false"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/index.html:0
 msgid "Created at the Onesa Info Gateway"
-msgstr ""
+msgstr "Creado en el Info Gateway de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "Created in the Taifafeki system (Hep B, BCG)"
@@ -4676,7 +4676,7 @@ msgstr "Creado en el sistema de Taifafeki (Hep B, BCG)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/index.html:0
 msgid "Created with a temporary ID from Onesa"
-msgstr ""
+msgstr "Creado con un identificador temporal de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3a/index.html:0
 msgid "Created: author = Taifafeki MOPH, verifier = nurse"
@@ -4736,7 +4736,7 @@ msgstr "Procedencia transfronteriza: Taifafeki (T0)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "Cross-border verified provenance linking Taifafeki birth doses and the Onesa national EPI"
-msgstr ""
+msgstr "Procedencia verificada transfronteriza que vincula las dosis al nacer de Taifafeki y el EPI nacional de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html:0
 msgid "Cross-Border Visitor — Paper DVC Required"
@@ -5348,11 +5348,11 @@ msgstr "Mediador de información DPI-F (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "DPI-F Information Mediator (Onesa): our name for it"
-msgstr ""
+msgstr "DPI-F Information Mediator (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "DPI-F Information Mediator (Onesa): we have this"
-msgstr ""
+msgstr "DPI-F Information Mediator (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "DPI-F Information Mediator: our name for it"
@@ -5656,7 +5656,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Each country builds its own stack on the layers of the reference architecture (DPI-H). Underneath both is WHO GDHCN: the shared trust list that lets a clinic in Onesa believe a certificate from Taifafeki, and a clinic in Taifafeki believe a link from Onesa, with no direct connection between the two."
-msgstr ""
+msgstr "Cada país construye su propia pila sobre las capas de la arquitectura de referencia (DPI-H). Por debajo de ambos está la GDHCN de la OMS: la lista de confianza compartida que permite a una clínica de Onesa dar por válido un certificado de Taifafeki, y a una clínica de Taifafeki dar por válido un enlace de Onesa, sin conexión directa entre ambos."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Each digital solution tested at an interoperability lab or connect-a-thon before go-live"
@@ -5892,7 +5892,7 @@ msgstr "Billetera familiar"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Family wallet → Onesa national server"
-msgstr ""
+msgstr "Billetera familiar → servidor nacional de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/family-wallet/index.html:0
 msgid "Family wallet app"
@@ -5944,7 +5944,7 @@ msgstr "Padre (29 años) • Cabeza de familia"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "Father (Bounmy Sengmany) must say the 4-digit code from the Onesa Family Wallet"
-msgstr ""
+msgstr "El padre (Bounmy Sengmany) debe decir el código de 4 dígitos de la billetera familiar de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S6/index.html:0
 msgid "Father (Head)"
@@ -6176,7 +6176,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "followed by <0>J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history</0> →"
-msgstr ""
+msgstr "seguido de <0>J4.1 — Continuidad a través de una frontera: un pediatra de Taifafeki ve el historial completo</0> →"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "For each gap, ask first whether you can borrow it. Adopt before you author."
@@ -6212,15 +6212,15 @@ msgstr "Origen extranjero"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/index.html:0
 msgid "Foreign vaccination cards presented at household in Village 04 — require cryptographic signature verification & Onesa EPI schedule check."
-msgstr ""
+msgstr "Tarjetas de vacunación extranjeras presentadas en el hogar en Village 04 — requieren la verificación de la firma criptográfica y la comprobación del calendario EPI de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/conceptmap/index.html:0
 msgid "Foreign vaccines are translated without overwriting them. The original Taifafeki code stays alongside the code of Onesa."
-msgstr ""
+msgstr "Las vacunas extranjeras se traducen sin sobrescribirlas. El código original de Taifafeki permanece junto al código de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/chanthason/index.html:0
 msgid "Foreign vaccines translated to the Onesa schedule"
-msgstr ""
+msgstr "Vacunas extranjeras traducidas al calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/index.html:0
 msgid "Forget this workshop's answers and the presenter's choices in this browser, and go back to the overview"
@@ -6504,7 +6504,7 @@ msgstr "Verificado por la GDHCN"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0a/index.html:0
 msgid "Generated: 2 Taifafeki + 4 Onesa doses"
-msgstr ""
+msgstr "Generado: 2 dosis de Taifafeki + 4 de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "Generates the link and passcode"
@@ -6640,7 +6640,7 @@ msgstr "¿HCERT verificado?"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2b/index.html:0
 msgid "He is not in the Onesa civil registry yet; a temporary id lets the CHW, clinic and portal all mean the same child. Taifafeki only gave him a hospital number."
-msgstr ""
+msgstr "Todavía no figura en el registro civil de Onesa; un identificador temporal permite que el CHW, la clínica y el portal se refieran al mismo niño. Taifafeki solo le dio un número de hospital."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "He isn’t Taifafeki, but he still needs a record he can take home."
@@ -6692,11 +6692,11 @@ msgstr "Registro de establecimientos de salud (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health Facility Registry (Onesa): our name for it"
-msgstr ""
+msgstr "Health Facility Registry (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health Facility Registry (Onesa): we have this"
-msgstr ""
+msgstr "Health Facility Registry (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health Facility Registry: our name for it"
@@ -6720,11 +6720,11 @@ msgstr "Sistema de información para la gestión sanitaria (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health Management Information System (Onesa): our name for it"
-msgstr ""
+msgstr "Health Management Information System (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health Management Information System (Onesa): we have this"
-msgstr ""
+msgstr "Health Management Information System (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health management information system: ★ Share regionally"
@@ -6820,11 +6820,11 @@ msgstr "Registro del personal de salud (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health Workforce Registry (Onesa): our name for it"
-msgstr ""
+msgstr "Health Workforce Registry (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health Workforce Registry (Onesa): we have this"
-msgstr ""
+msgstr "Health Workforce Registry (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Health workforce registry: ★ Share regionally"
@@ -6876,19 +6876,19 @@ msgstr "Dónde está: el bolso de Khamla"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "Held in: Onesa national health records"
-msgstr ""
+msgstr "Dónde está: registros nacionales de salud de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/index.html:0
 msgid "Held in: Onesa national records"
-msgstr ""
+msgstr "Dónde está: registros nacionales de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/index.html:0
 msgid "Held in: Onesa national records (QR is just a pointer)"
-msgstr ""
+msgstr "Dónde está: registros nacionales de Onesa (el QR es solo un puntero)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0a/index.html:0
 msgid "Held in: Onesa national records + family wallet"
-msgstr ""
+msgstr "Dónde está: registros nacionales de Onesa + billetera familiar"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/index.html:0
 msgid "Held in: Paper cards + CHW phone"
@@ -6908,19 +6908,19 @@ msgstr "Dónde está: el bolso de Khamla"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Held: Onesa national health records"
-msgstr ""
+msgstr "Dónde está: registros nacionales de salud de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "Held: Onesa national records"
-msgstr ""
+msgstr "Dónde está: registros nacionales de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "Held: Onesa national records (QR is just a pointer)"
-msgstr ""
+msgstr "Dónde está: registros nacionales de Onesa (el QR es solo un puntero)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "Held: Onesa national records + family wallet"
-msgstr ""
+msgstr "Dónde está: registros nacionales de Onesa + billetera familiar"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "Held: Paper cards + CHW phone"
@@ -7540,7 +7540,7 @@ msgstr "Importar las dosis como recursos Immunization de FHIR"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "In a village in Onesa with no signal, Vilay, the community health worker, scans the paper cards with her phone while Khamla holds Somsak and Bounmy looks on"
-msgstr ""
+msgstr "En una aldea de Onesa sin señal, Vilay, la agente comunitaria de salud, escanea las tarjetas en papel con su teléfono mientras Khamla sostiene a Somsak y Bounmy observa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "In discussion"
@@ -7616,7 +7616,7 @@ msgstr "Inspeccionar la matriz de doble codificación"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "Inspect Fetched VHL Manifest & Onesa AuditEvent JSON"
-msgstr ""
+msgstr "Inspeccionar el JSON del manifiesto VHL obtenido y del AuditEvent de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html:0
 msgid "Inspect Raw DVCMinPreQual & CBOR"
@@ -7652,11 +7652,11 @@ msgstr "Interoperabilidad (transversal)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "Invalid passcode: 1 attempt(s) remaining before link revocation. Live AuditEvent: the failed attempt is logged at the Onesa OHS Info Gateway."
-msgstr ""
+msgstr "Código de acceso no válido: queda(n) 1 intento(s) antes de la revocación del enlace. AuditEvent en directo: el intento fallido queda registrado en el OHS Info Gateway de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "Invalid passcode: 2 attempt(s) remaining before link revocation. Live AuditEvent: the failed attempt is logged at the Onesa OHS Info Gateway."
-msgstr ""
+msgstr "Código de acceso no válido: queda(n) 2 intento(s) antes de la revocación del enlace. AuditEvent en directo: el intento fallido queda registrado en el OHS Info Gateway de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/index.html:0
 msgid "Invisible to the home system until someone registers him"
@@ -7684,7 +7684,7 @@ msgstr "¿Es una billetera familiar un servicio nacional, una aplicación privad
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "Is added to his household: the Onesa health system now knows he exists."
-msgstr ""
+msgstr "Se le añade a su hogar: el sistema de salud de Onesa ya sabe que existe."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/index.html:0
 msgid "Is an “unverified but recorded” vaccine useful to the next clinician — or a risk?"
@@ -7836,27 +7836,27 @@ msgstr "J1 → J4.1 (Taifafeki ⇄ Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/index.html:0
 msgid "J1 A baby from Onesa is born in Taifafeki"
-msgstr ""
+msgstr "J1 Un bebé de Onesa nace en Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "J1 A baby from Onesa is born in Taifafeki — Journeys"
-msgstr ""
+msgstr "J1 Un bebé de Onesa nace en Taifafeki — Recorridos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/walkthrough/J1/index.html:0
 msgid "J1 A baby from Onesa is born in Taifafeki — Verifiable immunization records across borders: the technical track"
-msgstr ""
+msgstr "J1 Un bebé de Onesa nace en Taifafeki — Registros de inmunización verificables a través de las fronteras: el itinerario técnico"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/index.html:0
 msgid "J1 A baby from Onesa is born in Taifafeki: Neutral"
-msgstr ""
+msgstr "J1 Un bebé de Onesa nace en Taifafeki: Neutral"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/anan/index.html:0
 msgid "J1 A baby from Onesa is born in Taifafeki: Reassured"
-msgstr ""
+msgstr "J1 Un bebé de Onesa nace en Taifafeki: Tranquila"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/khamla-sengmany/index.html:0
 msgid "J1 A baby from Onesa is born in Taifafeki: Worried"
-msgstr ""
+msgstr "J1 Un bebé de Onesa nace en Taifafeki: Preocupada"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "J1 Issue the newborn's birth-dose DVCs in Country A"
@@ -7868,7 +7868,7 @@ msgstr "J1 en la RA de DPI-H"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "J1: A baby from Onesa is born in Taifafeki"
-msgstr ""
+msgstr "J1: Un bebé de Onesa nace en Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J1: Dose data packed into CBOR, signed (COSE, ES256) and printed as a QR"
@@ -7880,7 +7880,7 @@ msgstr "J1: Registra la Hep B + la BCG y solicita los certificados"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J1: The signing key of Taifafeki (kid 916ffa…) is published on the trust list"
-msgstr ""
+msgstr "J1: La clave de firma de Taifafeki (kid 916ffa…) se publica en la lista de confianza"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J1: Vaccines coded with WHO PreQual product codes"
@@ -7960,7 +7960,7 @@ msgstr "J2a: Decodifica el QR sin conexión"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J2a: PreQual codes read, but not yet mapped to the Onesa schedule"
-msgstr ""
+msgstr "J2a: Códigos PreQual leídos, pero aún sin hacerlos corresponder con el calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J2a: QR decoded (CBOR) but signature not checked"
@@ -8132,7 +8132,7 @@ msgstr "J3a: Registra que Taifafeki es la autora de las dosis y que Onesa las ve
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J3a: Supplies the public key of Taifafeki (downloaded in advance)"
-msgstr ""
+msgstr "J3a: Proporciona la clave pública de Taifafeki (descargada con antelación)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "J3a: The clinic confirms the cards are genuine"
@@ -8164,27 +8164,27 @@ msgstr "J3b · ¿Necesitaría su país vecino también esta correspondencia? Si 
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/index.html:0
 msgid "J3b Taifafeki vaccines are fitted to the Onesa schedule"
-msgstr ""
+msgstr "J3b Las vacunas de Taifafeki se incorporan al calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "J3b Taifafeki vaccines are fitted to the Onesa schedule — Journeys"
-msgstr ""
+msgstr "J3b Las vacunas de Taifafeki se incorporan al calendario de Onesa — Recorridos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/walkthrough/J3b/index.html:0
 msgid "J3b Taifafeki vaccines are fitted to the Onesa schedule — Verifiable immunization records across borders: the technical track"
-msgstr ""
+msgstr "J3b Las vacunas de Taifafeki se incorporan al calendario de Onesa — Registros de inmunización verificables a través de las fronteras: el itinerario técnico"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "J3b Taifafeki vaccines are fitted to the Onesa schedule →"
-msgstr ""
+msgstr "J3b Las vacunas de Taifafeki se incorporan al calendario de Onesa →"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/khamla-sengmany/index.html:0
 msgid "J3b Taifafeki vaccines are fitted to the Onesa schedule: Delighted"
-msgstr ""
+msgstr "J3b Las vacunas de Taifafeki se incorporan al calendario de Onesa: Encantada"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/chanthason/index.html:0
 msgid "J3b Taifafeki vaccines are fitted to the Onesa schedule: Reassured"
-msgstr ""
+msgstr "J3b Las vacunas de Taifafeki se incorporan al calendario de Onesa: Tranquila"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J3b: Checks the nurse’s role and facility before accepting the update"
@@ -8196,7 +8196,7 @@ msgstr "J3b: Los códigos PreQual comunes hacen posible la correspondencia"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J3b: PreQual product → WHO vaccine type → Onesa EPI code"
-msgstr ""
+msgstr "J3b: Producto PreQual → tipo de vacuna de la OMS → código EPI de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J3b: Receives the verified, mapped record"
@@ -8208,15 +8208,15 @@ msgstr "J3b: Guarda el registro con doble codificación y lo sincroniza con el s
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J3b: Schedule logic of Onesa finds the 6-week doses overdue"
-msgstr ""
+msgstr "J3b: La lógica del calendario de Onesa determina que las dosis de las 6 semanas están atrasadas"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "J3b: Taifafeki vaccines are fitted to the Onesa schedule"
-msgstr ""
+msgstr "J3b: Las vacunas de Taifafeki se incorporan al calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J3b: Verified doses from Taifafeki, with their Provenance, count toward coverage reports in Onesa"
-msgstr ""
+msgstr "J3b: Las dosis de Taifafeki verificadas, con su Provenance, cuentan para los informes de cobertura de Onesa"
 
 #: en/smart-trust-demo/journeys/index.html:0
 msgid "J4 — Continuity across a border"
@@ -8400,11 +8400,11 @@ msgstr "J4.1"
 
 #: en/smart-trust-demo/journeys/index.html:0
 msgid "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history"
-msgstr ""
+msgstr "J4.1 — Continuidad a través de una frontera: un pediatra de Taifafeki ve el historial completo"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history — journeys"
-msgstr ""
+msgstr "J4.1 — Continuidad a través de una frontera: un pediatra de Taifafeki ve el historial completo — recorridos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/index.html:0
 msgid "J4.1 · 8/8"
@@ -8432,23 +8432,23 @@ msgstr "J4.1 · ¿Qué enviaría su país a un connectathon regional en un plazo
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/index.html:0
 msgid "J4.1 A doctor in Taifafeki sees the full history"
-msgstr ""
+msgstr "J4.1 Un médico de Taifafeki ve el historial completo"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/index.html:0
 msgid "J4.1 A doctor in Taifafeki sees the full history — Journeys"
-msgstr ""
+msgstr "J4.1 Un médico de Taifafeki ve el historial completo — Recorridos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/walkthrough/J4.1/index.html:0
 msgid "J4.1 A doctor in Taifafeki sees the full history — Verifiable immunization records across borders: the technical track"
-msgstr ""
+msgstr "J4.1 Un médico de Taifafeki ve el historial completo — Registros de inmunización verificables a través de las fronteras: el itinerario técnico"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/anan/index.html:0
 msgid "J4.1 A doctor in Taifafeki sees the full history: Delighted"
-msgstr ""
+msgstr "J4.1 Un médico de Taifafeki ve el historial completo: Encantado"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/index.html:0
 msgid "J4.1 A doctor in Taifafeki sees the full history: Reassured"
-msgstr ""
+msgstr "J4.1 Un médico de Taifafeki ve el historial completo: Tranquilo"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J4.1 on the DPI-H RA"
@@ -8460,7 +8460,7 @@ msgstr "J4.1 Leer los registros de un miembro de la familia en el punto de atenc
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "J4.1: A doctor in Taifafeki sees the full history"
-msgstr ""
+msgstr "J4.1: Un médico de Taifafeki ve el historial completo"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "J4.1: AuditEvent recorded in Onesa"
@@ -8612,11 +8612,11 @@ msgstr "Visor de la clínica pediátrica de Kesaro, Taifafeki (J4.1)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1): our name for it"
-msgstr ""
+msgstr "Visor de la clínica pediátrica de Kesaro, Taifafeki (J4.1): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1): we have this"
-msgstr ""
+msgstr "Visor de la clínica pediátrica de Kesaro, Taifafeki (J4.1): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html:0
 msgid "Kesaro Provincial Hospital — Newborn Immunization Discharge"
@@ -8628,11 +8628,11 @@ msgstr "Sistema del Hospital Provincial de Kesaro, Taifafeki (País A, XXR)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): our name for it"
-msgstr ""
+msgstr "Sistema del Hospital Provincial de Kesaro, Taifafeki (País A, XXR): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): we have this"
-msgstr ""
+msgstr "Sistema del Hospital Provincial de Kesaro, Taifafeki (País A, XXR): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/index.html:0
 msgid "Key ID (kid)"
@@ -8672,7 +8672,7 @@ msgstr "Khamla <0>Madre · Onesa</0>"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "Khamla has brought Somsak home to Onesa. On a routine visit to Village 04, Khamla's village, Vilay finds a newborn the Onesa system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with <0>read-unverified</0> (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet."
-msgstr ""
+msgstr "Khamla ha traído a Somsak a casa, a Onesa. En una visita de rutina a Village 04, la aldea de Khamla, Vilay encuentra a un recién nacido cuya existencia desconoce el sistema de Onesa. Su teléfono lleva semanas sin señal. Khamla muestra las dos tarjetas. La aplicación del CHW las lee con <0>read-unverified</0> (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), que no necesita lista de confianza. Muestra las dosis, pero no comprueba ninguna firma ni guarda nada todavía."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "Khamla leaves with two paper DVCs. <0>In the demo:</0> the library tests use the WHO guide's own two signed HC1 strings (<1>QR Code Generation §12</1>), which verify against the live DEV trust list under the same XXR key. Somsak's DVC payloads are illustrative. Live issuance in the app uses a TEST-ONLY key (STT-ISS-003), whose DSC is not on the GDHCN list, so its DVCs do not verify in J3."
@@ -8692,7 +8692,7 @@ msgstr "Khamla viaja sola con Somsak."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "Khamla, a woman from Onesa who works in Taifafeki, gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
-msgstr ""
+msgstr "Khamla, una ciudadana de Onesa que trabaja en Taifafeki, da a luz a Somsak el 2025-10-28 en el Hospital Provincial de Kesaro. El bebé no tiene número de identidad de Taifafeki. El Dr. Anan administra las dosis al nacer contra la Hep B y la BCG y las registra con sus códigos de producto de la precalificación (PreQual) de la OMS. Para cada dosis, el sistema hospitalario hace tres cosas:"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/khamla-sengmany/index.html:0
 msgid "Khamla’s touchpoints (7)"
@@ -8900,11 +8900,11 @@ msgstr "Historia clínica de por vida (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Lifelong Health Record (Onesa): our name for it"
-msgstr ""
+msgstr "Lifelong Health Record (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Lifelong Health Record (Onesa): we have this"
-msgstr ""
+msgstr "Lifelong Health Record (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Lifelong Health Record (Taifafeki)"
@@ -8912,11 +8912,11 @@ msgstr "Historia clínica de por vida (Taifafeki)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Lifelong Health Record (Taifafeki): our name for it"
-msgstr ""
+msgstr "Lifelong Health Record (Taifafeki): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Lifelong Health Record (Taifafeki): we have this"
-msgstr ""
+msgstr "Lifelong Health Record (Taifafeki): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Lifelong health record: ★ Share regionally"
@@ -9000,7 +9000,7 @@ msgstr "Validez del enlace"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "Live AuditEvent: Logged at the Onesa OHS Info Gateway"
-msgstr ""
+msgstr "AuditEvent en directo: registrado en el OHS Info Gateway de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Logical information model repository"
@@ -9928,11 +9928,11 @@ msgstr "Servicios nacionales de confianza (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "National Trust Services (Onesa): our name for it"
-msgstr ""
+msgstr "National Trust Services (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "National Trust Services (Onesa): we have this"
-msgstr ""
+msgstr "National Trust Services (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "National Trust Services (Taifafeki)"
@@ -9940,11 +9940,11 @@ msgstr "Servicios nacionales de confianza (Taifafeki)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "National Trust Services (Taifafeki): our name for it"
-msgstr ""
+msgstr "National Trust Services (Taifafeki): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "National Trust Services (Taifafeki): we have this"
-msgstr ""
+msgstr "National Trust Services (Taifafeki): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "National Trust Services: our name for it"
@@ -10020,7 +10020,7 @@ msgstr "Todavía no hay ningún acuerdo que establezca quién lee el registro de
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
 msgid "No automated ConceptMap match found in the Onesa national registry for Taifafeki GPO lot XXR-4821."
-msgstr ""
+msgstr "No se encontró ninguna correspondencia automática de ConceptMap en el registro nacional de Onesa para el lote GPO XXR-4821 de Taifafeki."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
 msgid "No automatic match: ask who should own the national ConceptMap, and who may confirm an equivalence"
@@ -10040,7 +10040,7 @@ msgstr "No se han registrado alergias conocidas a medicamentos ni a vacunas."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S2/index.html:0
 msgid "No Local Onesa Schedule Mapping — Stored as Issued"
-msgstr ""
+msgstr "Sin correspondencia local con el calendario de Onesa — almacenado tal como se emitió"
 
 #: assets/gap-report.js:0
 msgid "No module"
@@ -10104,7 +10104,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "Not FHIR: the HCERT certificate that travels on paper, verifiable offline with the key of Taifafeki from GDHCN."
-msgstr ""
+msgstr "No es FHIR: el certificado HCERT que viaja en papel, verificable sin conexión con la clave de Taifafeki procedente de la GDHCN."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "not in this step"
@@ -10216,7 +10216,7 @@ msgstr "Enfermera · Centro de Salud de Distrito · Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/index.html:0
 msgid "Nurse <0>Chanthason</0> scans the card, and her tablet checks the digital signature from Taifafeki against the WHO trust list — without contacting Taifafeki."
-msgstr ""
+msgstr "La enfermera <0>Chanthason</0> escanea la tarjeta y su tableta comprueba la firma digital de Taifafeki contra la lista de confianza de la OMS — sin contactar con Taifafeki."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Nurse Chanthason opens the referral and scans the QRs. The EHR <0>verifies</0> each DVC offline against that copy (STT-VER-001…009, STT-KID-002), without contacting Taifafeki. Both verify, so it imports them as FHIR <1/>s (<2/>, <3/>) with provenance (<4/>; STT-VER-007, STT-VER-008), replacing the reported doses of J2. If a DVC fails (a tampered card, say), the EHR names the step and the reason, the doses stay unverified, and the nurse decides by national catch-up policy."
@@ -10224,11 +10224,11 @@ msgstr "La enfermera Chanthason abre la derivación y escanea los QR. La EHR <0>
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/index.html:0
 msgid "Nurse Chanthason scans a card from Taifafeki: the signature is checked against the GDHCN trust list, and the doses can be recorded as verified."
-msgstr ""
+msgstr "La enfermera Chanthason escanea una tarjeta de Taifafeki: la firma se comprueba contra la lista de confianza de la GDHCN, y las dosis pueden registrarse como verificadas."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Nurse Chanthason scans the card, and her tablet checks the digital signature from Taifafeki against the WHO trust list — without contacting Taifafeki."
-msgstr ""
+msgstr "La enfermera Chanthason escanea la tarjeta y su tableta comprueba la firma digital de Taifafeki contra la lista de confianza de la OMS — sin contactar con Taifafeki."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "Nurse’s mapping decision recorded"
@@ -10352,11 +10352,11 @@ msgstr "Biblioteca OHS Structured Data Capture: Muestra los FHIR Questionnaire c
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S2/index.html:0
 msgid "On a routine village visit, <0>Vilay</0> finds a newborn the Onesa system doesn’t know exists. She can read the vaccines on his cards, but she can’t prove they are genuine."
-msgstr ""
+msgstr "En una visita de rutina a la aldea, <0>Vilay</0> encuentra a un recién nacido cuya existencia desconoce el sistema de Onesa. Puede leer las vacunas de sus tarjetas, pero no puede demostrar que sean auténticas."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "On a routine village visit, Vilay finds a newborn the Onesa system doesn’t know exists. She can read the vaccines on his cards, but she can’t prove they are genuine."
-msgstr ""
+msgstr "En una visita de rutina a la aldea, Vilay encuentra a un recién nacido cuya existencia desconoce el sistema de Onesa. Puede leer las vacunas de sus tarjetas, pero no puede demostrar que sean auténticas."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "On paper"
@@ -10376,7 +10376,7 @@ msgstr "En el formulario de recién nacidos de la aplicación del CHW (captura d
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "On the Onesa schedule"
-msgstr ""
+msgstr "En el calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Onboarded"
@@ -10384,7 +10384,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/plandefinition/index.html:0
 msgid "Once foreign doses are mapped, they automatically count toward the schedule of Onesa. No mental arithmetic for the nurse."
-msgstr ""
+msgstr "Una vez establecida la correspondencia de las dosis extranjeras, cuentan automáticamente para el calendario de Onesa. La enfermera no tiene que hacer cálculos mentales."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/bounmy-sengmany/index.html:0
 msgid "One app for three people on one phone"
@@ -10428,7 +10428,7 @@ msgstr "Un teléfono, tres personas: Bounmy tiene los registros de toda la famil
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa signs, with its own key, the VHL a viewer in Taifafeki checks (J4.1). Built once, for every credential."
-msgstr ""
+msgstr "Una sola PKI sostiene tres momentos: Taifafeki firma los DVC (J1), Onesa los verifica sin conexión (J3a) y Onesa firma, con su propia clave, el VHL que comprueba un visor de Taifafeki (J4.1). Se construye una vez, para todas las credenciales."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "One population, one credential, one facility type."
@@ -10464,11 +10464,11 @@ msgstr "Onesa y Kesaro"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Onesa caches the list, so its clinics verify Taifafeki cards offline; Taifafeki does the same for VHLs from Onesa."
-msgstr ""
+msgstr "Onesa guarda la lista en caché, de modo que sus clínicas verifican sin conexión las tarjetas de Taifafeki; Taifafeki hace lo mismo con los VHL de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/gdhcn/index.html:0
 msgid "Onesa can verify a signature from Taifafeki without a bilateral agreement or a live call to Taifafeki. Trust is set up once and works between all members."
-msgstr ""
+msgstr "Onesa puede verificar una firma de Taifafeki sin un acuerdo bilateral ni una llamada en directo a Taifafeki. La confianza se establece una vez y funciona entre todos los miembros."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/index.html:0
 msgid "Onesa Community Health"
@@ -10476,11 +10476,11 @@ msgstr "Salud comunitaria de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "Onesa EPI code added; PreQual code kept"
-msgstr ""
+msgstr "Código EPI de Onesa añadido; código PreQual conservado"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
 msgid "Onesa EPI: HepB-BD (Birth Dose Monovalent)"
-msgstr ""
+msgstr "EPI de Onesa: HepB-BD (dosis al nacer, monovalente)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S6/index.html:0
 msgid "Onesa Family Health Wallet"
@@ -10496,27 +10496,27 @@ msgstr "MOH de Onesa (basada en OHS) · Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/national-fhir/index.html:0
 msgid "Onesa national FHIR repository"
-msgstr ""
+msgstr "Repositorio FHIR nacional de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/national-fhir/index.html:0
 msgid "Onesa national FHIR repository — How it works — Journeys"
-msgstr ""
+msgstr "Repositorio FHIR nacional de Onesa — Cómo funciona — Recorridos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/how/national-fhir/index.html:0
 msgid "Onesa national FHIR repository — How it works — Verifiable immunization records across borders: the technical track"
-msgstr ""
+msgstr "Repositorio FHIR nacional de Onesa — Cómo funciona — Registros de inmunización verificables a través de las fronteras: el itinerario técnico"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "Onesa national FHIR repository: The national store of immunization and health summary data, using the FHIR standard API."
-msgstr ""
+msgstr "Repositorio FHIR nacional de Onesa: El almacén nacional de datos de inmunización y de resúmenes de salud, con la API del estándar FHIR."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "Onesa national FHIR server"
-msgstr ""
+msgstr "Servidor FHIR nacional de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Onesa national FHIR server → Family wallet"
-msgstr ""
+msgstr "Servidor FHIR nacional de Onesa → billetera familiar"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Onesa national health portal and gateway (Country B, XXU)"
@@ -10524,19 +10524,19 @@ msgstr "Portal nacional de salud y puerta de enlace de Onesa (País B, XXU)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Onesa national health portal and gateway (Country B, XXU): our name for it"
-msgstr ""
+msgstr "Portal nacional de salud y puerta de enlace de Onesa (País B, XXU): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Onesa national health portal and gateway (Country B, XXU): we have this"
-msgstr ""
+msgstr "Portal nacional de salud y puerta de enlace de Onesa (País B, XXU): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.0b/index.html:0
 msgid "Onesa national server"
-msgstr ""
+msgstr "Servidor nacional de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Onesa national server → Taifafeki clinic viewer"
-msgstr ""
+msgstr "Servidor nacional de Onesa → visor de la clínica de Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "online"
@@ -10796,11 +10796,11 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for CHW & Community (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para CHW & Community (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for CHW app, Onesa (Country B)"
-msgstr ""
+msgstr "Nuestro nombre para Aplicación del CHW, Onesa (País B)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Citizen / Patient Apps"
@@ -10808,7 +10808,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Citizen / Patient Apps (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Citizen / Patient Apps (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Client registry (children, households)"
@@ -10820,11 +10820,11 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Client Registry for Health (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Client Registry for Health (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Code mapping service (product to Onesa EPI)"
-msgstr ""
+msgstr "Nuestro nombre para Servicio de correspondencia de códigos (producto a EPI de Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Computable Decision Support Engine"
@@ -10832,7 +10832,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Computable Decision Support Engine (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Computable Decision Support Engine (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "Our name for Cross-Border"
@@ -10844,7 +10844,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for DPI-F Information Mediator (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para DPI-F Information Mediator (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for DVC signer (HCERT)"
@@ -10876,7 +10876,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Health Facility Registry (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Health Facility Registry (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Health Management Information System"
@@ -10884,7 +10884,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Health Management Information System (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Health Management Information System (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Health Workforce Registry"
@@ -10896,7 +10896,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Health Workforce Registry (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Health Workforce Registry (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Immunization record service"
@@ -10912,11 +10912,11 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
-msgstr ""
+msgstr "Nuestro nombre para Visor de la clínica pediátrica de Kesaro, Taifafeki (J4.1)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Kesaro Provincial Hospital system, Taifafeki (Country A, XXR)"
-msgstr ""
+msgstr "Nuestro nombre para Sistema del Hospital Provincial de Kesaro, Taifafeki (País A, XXR)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Lifelong Health Record"
@@ -10924,11 +10924,11 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Lifelong Health Record (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Lifelong Health Record (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Lifelong Health Record (Taifafeki)"
-msgstr ""
+msgstr "Nuestro nombre para Lifelong Health Record (Taifafeki)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Lomaru District Health Center EHR (Country B)"
@@ -10940,19 +10940,19 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for National Trust Services (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para National Trust Services (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for National Trust Services (Taifafeki)"
-msgstr ""
+msgstr "Nuestro nombre para National Trust Services (Taifafeki)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "Our name for Onesa"
-msgstr ""
+msgstr "Nuestro nombre para Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Onesa national health portal and gateway (Country B, XXU)"
-msgstr ""
+msgstr "Nuestro nombre para Portal nacional de salud y puerta de enlace de Onesa (País B, XXU)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Patient record"
@@ -10968,7 +10968,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Product Registry (Taifafeki)"
-msgstr ""
+msgstr "Nuestro nombre para Product Registry (Taifafeki)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Provider Systems"
@@ -10976,15 +10976,15 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Provider Systems (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Provider Systems (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Provider Systems (Taifafeki)"
-msgstr ""
+msgstr "Nuestro nombre para Provider Systems (Taifafeki)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Schedule evaluator (Onesa infant schedule)"
-msgstr ""
+msgstr "Nuestro nombre para Evaluador del calendario (calendario infantil de Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Smart forms (SDC)"
@@ -10992,7 +10992,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "Our name for Taifafeki"
-msgstr ""
+msgstr "Nuestro nombre para Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Terminology Service"
@@ -11000,7 +11000,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Terminology Service (Onesa)"
-msgstr ""
+msgstr "Nuestro nombre para Terminology Service (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Our name for Vaccine product code registry"
@@ -11284,7 +11284,7 @@ msgstr "Neumocócica conjugada (PCV-1)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html:0
 msgid "Point at what the card carries: a WHO PreQual product code, a lot and a date, signed by the key of Taifafeki (kid 916ffa567c0f44a2)"
-msgstr ""
+msgstr "Señale lo que lleva la tarjeta: un código de producto PreQual de la OMS, un lote y una fecha, firmados con la clave de Taifafeki (kid 916ffa567c0f44a2)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "Point-of-care provider"
@@ -11352,15 +11352,15 @@ msgstr "Preparar: declaraciones (claims) CWT y la Sig_structure de COSE"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "PreQual codes read, but not yet mapped to the Onesa schedule"
-msgstr ""
+msgstr "Códigos PreQual leídos, pero aún sin hacerlos corresponder con el calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "PreQual product → WHO vaccine type → Onesa EPI code"
-msgstr ""
+msgstr "Producto PreQual → tipo de vacuna de la OMS → código EPI de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S6/index.html:0
 msgid "Prescribed at the Onesa National Hospital"
-msgstr ""
+msgstr "Prescrito en el Hospital Nacional de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/personas/anan/index.html:0
 msgid "Present"
@@ -11484,11 +11484,11 @@ msgstr "Registro de productos (Taifafeki)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Product Registry (Taifafeki): our name for it"
-msgstr ""
+msgstr "Product Registry (Taifafeki): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Product Registry (Taifafeki): we have this"
-msgstr ""
+msgstr "Product Registry (Taifafeki): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Product registry: ★ Share regionally"
@@ -11532,7 +11532,7 @@ msgstr "La prueba viaja con la persona y puede comprobarse en cualquier lugar, i
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
 msgid "Proposed Onesa EPI Match"
-msgstr ""
+msgstr "Correspondencia propuesta con el EPI de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Provenance"
@@ -11564,11 +11564,11 @@ msgstr "Sistemas de los proveedores (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Provider Systems (Onesa): our name for it"
-msgstr ""
+msgstr "Provider Systems (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Provider Systems (Onesa): we have this"
-msgstr ""
+msgstr "Provider Systems (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Provider Systems (Taifafeki)"
@@ -11576,11 +11576,11 @@ msgstr "Sistemas de los proveedores (Taifafeki)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Provider Systems (Taifafeki): our name for it"
-msgstr ""
+msgstr "Provider Systems (Taifafeki): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Provider Systems (Taifafeki): we have this"
-msgstr ""
+msgstr "Provider Systems (Taifafeki): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Provider systems: ★ Share regionally"
@@ -12156,19 +12156,19 @@ msgstr "Escanea el QR, introduce el código de acceso que le dice Bounmy y ve la
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Schedule evaluator (Onesa infant schedule)"
-msgstr ""
+msgstr "Evaluador del calendario (calendario infantil de Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Schedule evaluator (Onesa infant schedule): our name for it"
-msgstr ""
+msgstr "Evaluador del calendario (calendario infantil de Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Schedule evaluator (Onesa infant schedule): we have this"
-msgstr ""
+msgstr "Evaluador del calendario (calendario infantil de Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Schedule logic of Onesa finds the 6-week doses overdue"
-msgstr ""
+msgstr "La lógica del calendario de Onesa determina que las dosis de las 6 semanas están atrasadas"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Scheduled"
@@ -12176,7 +12176,7 @@ msgstr "Programado"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "Scheduled: Counts toward the Onesa schedule."
-msgstr ""
+msgstr "Programado: cuenta para el calendario de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "School"
@@ -12320,7 +12320,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesa schedule. Computable schedule logic then works out what’s due next."
-msgstr ""
+msgstr "Los códigos compartidos de la OMS y un ConceptMap de FHIR traducen las vacunas de Taifafeki al calendario de Onesa. Después, una lógica computable del calendario calcula qué corresponde a continuación."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Sheet 1"
@@ -12512,7 +12512,7 @@ msgstr "QR firmado que contiene una URL de manifiesto + una clave de descifrado"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S7/index.html:0
 msgid "Signed VHL Manifest • Onesa National Portal"
-msgstr ""
+msgstr "Manifiesto VHL firmado • Portal nacional de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Signing and the trust list"
@@ -12612,11 +12612,11 @@ msgstr "Somsak añadido como miembro"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Somsak continues on the Onesa schedule for a year"
-msgstr ""
+msgstr "Somsak sigue el calendario de Onesa durante un año"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "Somsak gets his birth vaccines in a hospital in Taifafeki — and the only thing that will cross the border with him is a pair of paper cards."
-msgstr ""
+msgstr "Somsak recibe sus vacunas al nacer en un hospital de Taifafeki — y lo único que cruzará la frontera con él es un par de tarjetas en papel."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Somsak is 10 weeks old"
@@ -12632,7 +12632,7 @@ msgstr "Somsak tiene 7 semanas"
 
 #: en/smart-trust-demo/journeys/index.html:0
 msgid "Somsak is 7 weeks old · Onesa"
-msgstr ""
+msgstr "Somsak tiene 7 semanas de vida · Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "Somsak is born"
@@ -12640,7 +12640,7 @@ msgstr "Nace Somsak"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "Somsak is born in Taifafeki, grows up in Onesa, and one year later a doctor in Taifafeki can see every vaccine he has ever had — without a single record being copied across the border."
-msgstr ""
+msgstr "Somsak nace en Taifafeki, crece en Onesa y, un año después, un médico de Taifafeki puede ver todas las vacunas que ha recibido — sin que se copie ni un solo registro a través de la frontera."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html:0
 msgid "Somsak Sengmany"
@@ -12724,11 +12724,11 @@ msgstr "Etapa J2b (Registro del recién nacido y derivación a la clínica) — 
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/index.html:0
 msgid "Stage J3a (Clinic Referral & GDHCN Verification) — Nurse Chanthason scans a card from Taifafeki: the signature is checked against the GDHCN trust list, and the doses can be recorded as verified."
-msgstr ""
+msgstr "Etapa J3a (Derivación a la clínica y verificación con la GDHCN) — La enfermera Chanthason escanea una tarjeta de Taifafeki: la firma se comprueba contra la lista de confianza de la GDHCN, y las dosis pueden registrarse como verificadas."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
 msgid "Stage J3b (Terminology Adjudication & National Schedule) — The Taifafeki product code is kept as issued; the nurse confirms its equivalent in Onesa, and the national schedule is worked out from there."
-msgstr ""
+msgstr "Etapa J3b (Adjudicación terminológica y calendario nacional) — El código de producto de Taifafeki se conserva tal como se emitió; la enfermera confirma su equivalente en Onesa, y a partir de ahí se calcula el calendario nacional."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S6/index.html:0
 msgid "Stage J4.0a (One Family, One Phone Household Wallet) — One phone, three people: Bounmy holds the whole family's records, Somsak's immunization summary first."
@@ -13012,7 +13012,7 @@ msgstr "Resumen consultado, no almacenado en Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Supplies the public key of Taifafeki (downloaded in advance)"
-msgstr ""
+msgstr "Proporciona la clave pública de Taifafeki (descargada con antelación)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Supply chain"
@@ -13132,11 +13132,11 @@ msgstr "T0 + 12 meses · Lomaru, Onesa · Aplicación de billetera familiar en e
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "T0 + 12 months · Onesa–Taifafeki Friendship Bridge"
-msgstr ""
+msgstr "T0 + 12 meses · Puente de la Amistad Onesa–Taifafeki"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "T0 + 12 months · Onesa–Taifafeki Friendship Bridge · Family wallet app (share link) · told through <0>BS</0> Bounmy"
-msgstr ""
+msgstr "T0 + 12 meses · Puente de la Amistad Onesa–Taifafeki · Aplicación de billetera familiar (compartir enlace) · contado a través de <0>BS</0> Bounmy"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "T0 + 7 weeks · Catchment Village 04"
@@ -13336,7 +13336,7 @@ msgstr "Sistema hospitalario de Taifafeki + servicio de emisión de DVC — Cóm
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/how/thai-his/index.html:0
 msgid "Taifafeki hospital system + DVC issuing service — How it works — Verifiable immunization records across borders: the technical track"
-msgstr ""
+msgstr "Sistema hospitalario de Taifafeki + servicio de emisión de DVC — Cómo funciona — Registros de inmunización verificables a través de las fronteras: el itinerario técnico"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "Taifafeki hospital system + DVC issuing service: The hospital’s own information system records the birth doses and calls a national signing service to print Digital Vaccine Certificates."
@@ -13368,7 +13368,7 @@ msgstr "Taifafeki firma el registro una sola vez. A partir de entonces, cualquie
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Taifafeki vaccines are fitted to the Onesa schedule"
-msgstr ""
+msgstr "Las vacunas de Taifafeki se incorporan al calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/index.html:0
 msgid "Tampered card"
@@ -13500,11 +13500,11 @@ msgstr "Servicio de terminología (Onesa)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Terminology Service (Onesa): our name for it"
-msgstr ""
+msgstr "Terminology Service (Onesa): nuestro nombre para esto"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Terminology Service (Onesa): we have this"
-msgstr ""
+msgstr "Terminology Service (Onesa): lo tenemos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Terminology service: ★ Share regionally"
@@ -13680,7 +13680,7 @@ msgstr "El teléfono del CHW, la tableta de la clínica y la billetera familiar 
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "The clinic checks the signature from Taifafeki against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
-msgstr ""
+msgstr "La clínica comprueba la firma de Taifafeki contra la lista de confianza de la OMS, almacenada localmente. Una sola comprobación convierte una tarjeta extranjera en papel en datos clínicos de confianza, sin llamar a Taifafeki."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "The clinic confirms the cards are genuine"
@@ -13724,7 +13724,7 @@ msgstr "Los documentos DID ya están cargados"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "The doses still happened, but no proof travels. Clinicians in Onesa must re-vaccinate or rely on memory."
-msgstr ""
+msgstr "Las dosis se administraron igualmente, pero no viaja ninguna prueba. Los profesionales clínicos de Onesa tienen que volver a vacunar o fiarse de la memoria."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "The doses, read but not checked, go into the registration"
@@ -14020,7 +14020,7 @@ msgstr "La correspondencia en este recorrido (IG)"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "The map of Onesa from vaccine products to its own schedule; a product with no mapping goes to the nurse."
-msgstr ""
+msgstr "El mapa de Onesa entre los productos de vacuna y su propio calendario; un producto sin correspondencia pasa a la enfermera."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/ohs-sdc/index.html:0
 msgid "The Ministry can change a registration form by publishing a new Questionnaire, without rebuilding the app."
@@ -14056,15 +14056,15 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "The Onesa gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (<0/>)."
-msgstr ""
+msgstr "La puerta de enlace de Onesa comprueba el código de acceso, la caducidad y el consentimiento, devuelve el manifiesto y registra el acceso en el país de residencia (<0/>)."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "The Onesa schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
-msgstr ""
+msgstr "El calendario de Onesa (PlanDefinition) determina que las dosis de las 6 semanas están atrasadas, así que se administran en ese momento; el recordatorio hace que vuelva para las siguientes."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J3b/index.html:0
 msgid "The Onesa schedule runs on Onesa EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
-msgstr ""
+msgstr "El calendario de Onesa funciona con códigos EPI de Onesa, por lo que se necesita uno; el código de producto de Taifafeki permanece junto a él, nunca se sobrescribe."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
 msgid "The ordered states of the record along the journeys, from signed paper to shared and audited abroad. Each state includes the ones before it."
@@ -14072,7 +14072,7 @@ msgstr "Los estados ordenados del registro a lo largo de los recorridos, desde e
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due."
-msgstr ""
+msgstr "Se conserva el código original de Taifafeki y se añade el código de Onesa junto a él; el motor del calendario calcula qué dosis corresponden."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "The other track of the same two days, with the timetable of both tracks; each technical module is paired with one of this track's modules."
@@ -14124,7 +14124,7 @@ msgstr "El QR contiene solo un puntero y una clave: el registro permanece en One
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "The QR is a key, not a copy. The record stays on the Onesa server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
-msgstr ""
+msgstr "El QR es una llave, no una copia. El registro permanece en el servidor de Onesa, y el consentimiento de la familia (quién y durante cuánto tiempo) se registra en un formato estándar y se hace cumplir."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/index.html:0
 msgid "The questions, along the journey"
@@ -14192,11 +14192,11 @@ msgstr "La firma de este certificado en papel no coincide con el hash de su carg
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "The signing key of Taifafeki (kid 916ffa…) is published on the trust list"
-msgstr ""
+msgstr "La clave de firma de Taifafeki (kid 916ffa…) se publica en la lista de confianza"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally."
-msgstr ""
+msgstr "La clave de firma de Taifafeki figura en la lista de confianza compartida de la OMS, por lo que cualquier clínica puede comprobarla localmente."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "The story"
@@ -14220,11 +14220,11 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J4.1/index.html:0
 msgid "The Taifafeki clinic keeps a note of what it saw and how it was verified, without copying the Onesa record."
-msgstr ""
+msgstr "La clínica de Taifafeki guarda una nota de lo que vio y de cómo se verificó, sin copiar el registro de Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/vhl-viewer/index.html:0
 msgid "The Taifafeki clinic needs no account in the system of Onesa. Any viewer that follows the VHL standard works."
-msgstr ""
+msgstr "La clínica de Taifafeki no necesita ninguna cuenta en el sistema de Onesa. Funciona cualquier visor que siga el estándar VHL."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/ips/index.html:0
 msgid "The Taifafeki doctor gets a predictable summary they know how to read, not a dump of another country’s records."
@@ -14232,19 +14232,19 @@ msgstr "El médico de Taifafeki recibe un resumen previsible que sabe leer, no u
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
 msgid "The Taifafeki Hep B product doesn’t match anything on the Onesa schedule. <0>Chanthason</0> makes the clinical call, and the system works out what’s due next."
-msgstr ""
+msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario de Onesa. <0>Chanthason</0> toma la decisión clínica y el sistema calcula qué corresponde a continuación."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "The Taifafeki Hep B product doesn’t match anything on the Onesa schedule. Chanthason makes the clinical call, and the system works out what’s due next."
-msgstr ""
+msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario de Onesa. Chanthason toma la decisión clínica y el sistema calcula qué corresponde a continuación."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps the product coding of Taifafeki and adds the schedule coding beside it, from the national map (<0/>). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose (<1/>), and her decision is added to the map for the next clinic. The schedule (<2/>) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at 6 weeks, are overdue at 10 weeks (<3/>), so Nurse Chanthason gives them that day. Khamla leaves with the date of the next doses (<4/>). Over the year Somsak gets the rest of his doses and measles-rubella at 9 months, in Onesa."
-msgstr ""
+msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional. La EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación del calendario, a partir del mapa nacional (<0/>). El mapa no tiene ninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la decisión clínica de que es la dosis al nacer del calendario (<1/>), y su decisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario (<2/>): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y la PCV 1, que corresponden a las 6 semanas, están atrasadas a las 10 semanas (<3/>), así que la enfermera Chanthason las administra ese mismo día. Khamla se va con la fecha de las siguientes dosis (<4/>). A lo largo del año, Somsak recibe el resto de sus dosis y la vacuna contra el sarampión y la rubéola a los 9 meses, en Onesa."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
 msgid "The Taifafeki product code is kept as issued; the nurse confirms its equivalent in Onesa, and the national schedule is worked out from there."
-msgstr ""
+msgstr "El código de producto de Taifafeki se conserva tal como se emitió; la enfermera confirma su equivalente en Onesa, y a partir de ahí se calcula el calendario nacional."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "The technical track (T1 to T7)"
@@ -14556,7 +14556,7 @@ msgstr "Confiar lo suficiente en los registros extranjeros como para no repetir 
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
-msgstr ""
+msgstr "La confianza está descentralizada: una clínica de Onesa verifica por sí misma una firma de Taifafeki, sin contactar con Taifafeki."
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Trust network · GDHCN: countries exchange public keys, so a verifier anywhere can check a signature made here."
@@ -14948,7 +14948,7 @@ msgstr "Verificado"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Verified doses from Taifafeki, with their Provenance, count toward coverage reports in Onesa"
-msgstr ""
+msgstr "Las dosis de Taifafeki verificadas, con su Provenance, cuentan para los informes de cobertura de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "Verified doses, ready to schedule"
@@ -14960,7 +14960,7 @@ msgstr "DVC verificado → Immunization actualizado"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "Verified Onesa EPI"
-msgstr ""
+msgstr "EPI de Onesa verificado"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "Verified: Signature checked against the WHO trust list."
@@ -15024,7 +15024,7 @@ msgstr "Verificar cada HCERT contra la lista de confianza"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/index.html:0
 msgid "Verify foreign DVC signature & map birth doses to Onesa schedule"
-msgstr ""
+msgstr "Verificar la firma del DVC extranjero y hacer corresponder las dosis al nacer con el calendario de Onesa"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/index.html:0
 msgid "Verify Passcode & Fetch IPS Bundle"
@@ -15204,7 +15204,7 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "What does the viewer need from the trust list, and what does it need from the gateway of Onesa?"
-msgstr ""
+msgstr "¿Qué necesita el visor de la lista de confianza, y qué necesita de la puerta de enlace de Onesa?"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "What each moment hands to the next: from whom to whom, how it travels, and what the next moment receives."
@@ -15536,7 +15536,7 @@ msgstr "Dónde estamos"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
 msgid "Which AuditEvent fields let Onesa tell the family who looked at the record, and when?"
-msgstr ""
+msgstr "¿Qué campos del AuditEvent permiten a Onesa decir a la familia quién consultó el registro, y cuándo?"
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "Which block gives this child his first identifier in your country: birth registration, the national ID, or the health client registry? Exists, partial or absent?"

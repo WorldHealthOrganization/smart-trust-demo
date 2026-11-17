@@ -18,7 +18,7 @@ msgstr ""
 #: scenarios/user-scenarios/j1-born-abroad.json:5
 msgctxt "country"
 msgid "Taifafeki"
-msgstr "泰法费基"
+msgstr "Taifafeki"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:188
 msgctxt "references.label"
@@ -33,7 +33,7 @@ msgstr "Somsak 出生"
 #: scenarios/user-scenarios/j1-born-abroad.json:19
 msgctxt "scene.label"
 msgid "Taifafeki hospital"
-msgstr "泰法费基医院"
+msgstr "Taifafeki 医院"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:183
 msgctxt "scene.label"
@@ -63,7 +63,7 @@ msgstr "出生，并在几小时内接种乙肝（Hep B）和 BCG 出生剂次�
 #: scenarios/user-scenarios/j1-born-abroad.json:38
 msgctxt "step.experiences.feeling"
 msgid "“He isn’t Taifafeki, but he still needs a record he can take home.”"
-msgstr "“他不是泰法费基人，但他仍然需要一份能带回家的记录。”"
+msgstr "“他不是 Taifafeki 公民，但他仍然需要一份能带回家的记录。”"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:44
 msgctxt "step.experiences.feeling"
@@ -78,7 +78,7 @@ msgstr "“家乡会有人相信这些纸吗？”"
 #: scenarios/user-scenarios/j1-born-abroad.json:147
 msgctxt "step.fhirChanges.change"
 msgid "Created in the Taifafeki system (Hep B, BCG)"
-msgstr "在泰法费基系统中创建（Hep B、BCG）"
+msgstr "在 Taifafeki 系统中创建（Hep B、BCG）"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:159
 msgctxt "step.fhirChanges.change"
@@ -113,7 +113,7 @@ msgstr "在凯萨罗医院，Anan 医生为 Khamla 和 Bounmy 举起两张已签
 #: scenarios/user-scenarios/j1-born-abroad.json:54
 msgctxt "step.painPoint"
 msgid "The baby has no Taifafeki ID number, so his records would normally stay locked inside the Taifafeki hospital’s system."
-msgstr "婴儿没有泰法费基身份证号，因此他的记录通常会被锁在泰法费基医院的系统里。"
+msgstr "婴儿没有 Taifafeki 身份证号，因此他的记录通常会被锁在 Taifafeki 医院的系统里。"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:56
 msgctxt "step.policy"
@@ -143,7 +143,7 @@ msgstr "Khamla 的包里"
 #: scenarios/user-scenarios/j1-born-abroad.json:93
 msgctxt "step.technicalSummary"
 msgid "Taifafeki signs the record once. From then on, anyone on the WHO trust network can check it, with no database lookup and no national ID."
-msgstr "泰法费基只需对记录签名一次。此后，WHO 信任网络中的任何人都可以对其进行核验，无需查询数据库，也无需国民身份证。"
+msgstr "Taifafeki 只需对记录签名一次。此后，WHO 信任网络中的任何人都可以对其进行核验，无需查询数据库，也无需国民身份证。"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:22
 msgctxt "step.touchpoint"
@@ -193,7 +193,7 @@ msgstr "出生当天"
 #: scenarios/user-scenarios/j1-born-abroad.json:5
 msgctxt "where"
 msgid "Taifafeki"
-msgstr "泰法费基"
+msgstr "Taifafeki"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:4
 msgctxt "title"
@@ -203,17 +203,17 @@ msgstr "J1 — 接种并记录"
 #: scenarios/user-scenarios/j1-born-abroad.json:5
 msgctxt "description"
 msgid "A baby from Onesa gets his first vaccines in Taifafeki and leaves with signed paper cards."
-msgstr ""
+msgstr "一名来自 Onesa 的婴儿在 Taifafeki 接种了他的第一批疫苗，带着已签名的纸质卡片离开。"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:160
 msgctxt "step.fhirChanges.why"
 msgid "Not FHIR: the HCERT certificate that travels on paper, verifiable offline with the key of Taifafeki from GDHCN."
-msgstr ""
+msgstr "不是 FHIR：这是随纸张同行的 HCERT 证书，可使用 GDHCN 提供的 Taifafeki 密钥离线验证。"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:19
 msgctxt "step.headline"
 msgid "Somsak gets his birth vaccines in a hospital in Taifafeki — and the only thing that will cross the border with him is a pair of paper cards."
-msgstr ""
+msgstr "Somsak 在 Taifafeki 的一家医院接种了出生疫苗——而能随他跨越国境的，只有两张纸质卡片。"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:32
 msgctxt "step.narrative"
@@ -234,22 +234,22 @@ msgid ""
 "DVC payloads are illustrative. Live issuance in the app uses a\n"
 "TEST-ONLY key (STT-ISS-003), whose DSC is not on the GDHCN list, so its DVCs\n"
 "do not verify in J3.\n"
-msgstr ""
+msgstr "Khamla 是一位来自 Onesa、在 Taifafeki 工作的女性，她于 2025-10-28 在凯萨罗府医院生下 Somsak。他没有 Taifafeki 身份证号。Anan 医生为他接种乙肝（Hep B）和 BCG 出生剂次，并用其 WHO PreQual 产品代码进行记录。对每一剂次，医院系统做三件事：\n\n1. 构建 DVCMinPreQual 载荷：STT-PAY-001…005 和 STT-PAY-007，子声明为 −6（STT-SEL-003）。无需身份证件（STT-PAY-005）。\n2. 准备 CWT 和待签名字节：STT-CWT-001…005、STT-ISS-004。\n3. 由 XXR 的密钥对其签名（STT-COS-002、STT-COS-006），然后生成最终的 HC1 文本：STT-COS-001、STT-ZIP-001、STT-B45-001、STT-HC1-001、STT-QR-001。\n\nKhamla 带着两张纸质 DVC 离开。\n*在演示中：*库测试使用 WHO 指南自带的两个已签名 HC1 字符串（[QR Code Generation §12](https://smart.who.int/trust/qr_code_generation.html)），它们在同一 XXR 密钥下可通过实时 DEV 信任列表验证。Somsak 的 DVC 载荷仅为示意。应用中的实时签发使用 TEST-ONLY 密钥（STT-ISS-003），其 DSC 不在 GDHCN 列表上，因此其 DVC 在 J3 中无法通过验证。\n"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:18
 msgctxt "step.title"
 msgid "A baby from Onesa is born in Taifafeki"
-msgstr ""
+msgstr "一名来自 Onesa 的婴儿在 Taifafeki 出生"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:109
 msgctxt "step.uses.role"
 msgid "The signing key of Taifafeki (kid 916ffa…) is published on the trust list"
-msgstr ""
+msgstr "Taifafeki 的签名密钥（kid 916ffa…）已在信任列表上发布"
 
 #: scenarios/user-scenarios/j1-born-abroad.json:73
 msgctxt "step.whatIf.outcome"
 msgid "The doses still happened, but no proof travels. Clinicians in Onesa must re-vaccinate or rely on memory."
-msgstr ""
+msgstr "剂次确实已接种，但没有任何证明随行。Onesa 的临床医生只能重新接种或依靠记忆。"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""

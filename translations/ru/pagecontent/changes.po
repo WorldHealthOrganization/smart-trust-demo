@@ -44,17 +44,17 @@ msgstr "Условия использования домена доверия DE
 
 #: input/pagecontent/changes.md:5
 msgid "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXK), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them)."
-msgstr "Пути рассказывают историю <a0>VaxLink</a0> (задача <a1>#21</a1>): Somsak SENGMANY, родившийся в Тайфафеки (XXR) и живущий в Онесе (XXK), через год снова попадает к врачу в Тайфафеки. Персонажи, системные участники и истории переработаны; бизнес-процессы сделаны обобщёнными (без имён людей)."
+msgstr "Пути рассказывают историю <a0>VaxLink</a0> (задача <a1>#21</a1>): Somsak SENGMANY родился в стране Taifafeki (XXR), живёт в стране Onesa (XXK) и через год снова обращается за помощью в стране Taifafeki. Персоны, системные акторы и истории переработаны; бизнес-процессы сделаны обобщёнными (без имён людей)."
 
 #: input/pagecontent/changes.md:7
 #, python-brace-format
 msgid "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Two illustrative code systems stand in for PreQual product ids and national schedule codes."
-msgstr ""
+msgstr "Новые примеры: домохозяйство {code0}, регистрация {code1} и ответ, заявленные и проверенные {code2}, проверка и вынесение решения {code3}, {code4} от препарата к коду графика, иллюстративный график {code5}, {code6} и напоминание {code7}, четыре дозы, введённые в стране Onesa, IPS с шестью дозами, {code8} и два {code9} (доступ предоставлен, неверный код доступа). Две иллюстративные кодовые системы заменяют идентификаторы препаратов PreQual и коды национального графика."
 
 #: input/pagecontent/changes.md:3
 #, python-brace-format
 msgid "The code of Onesa is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, the identifiers of Onesa, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
-msgstr ""
+msgstr "Код страны Onesa теперь XXU (ранее XXK) — это тестовый участник DEV, которого Participants-DEV SMART Trust называет «Onesa» (WorldHealthOrganization/smart-trust#161): определение страны, идентификаторы страны Onesa, коды графика ({code0}), номера серий, национальный портал, процессы, экраны устройств, примеры и переводы."
 
 #~ msgid "New page: <a0>VaxLink examples</a0>, mapping each walkthrough screen and payload to its example here."
 #~ msgstr "Новая страница: <a0>Примеры VaxLink</a0>, где каждый экран и каждая полезная нагрузка пошагового обзора сопоставлены с соответствующим примером в этом руководстве."

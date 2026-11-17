@@ -224,12 +224,12 @@ msgstr "Clinique pédiatrique de Kesaro"
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:174
 msgctxt "step.fhirChanges.change"
 msgid "Created at the Onesa Info Gateway"
-msgstr ""
+msgstr "Créé à l’Info Gateway du pays Onesa"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:163
 msgctxt "step.fhirChanges.why"
 msgid "The Taifafeki clinic keeps a note of what it saw and how it was verified, without copying the Onesa record."
-msgstr ""
+msgstr "La clinique de Taifafeki conserve une trace de ce qu’elle a vu et de la manière dont cela a été vérifié, sans copier le dossier du pays Onesa."
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:36
 msgctxt "step.narrative"
@@ -250,22 +250,22 @@ msgid ""
 "verification. The clinic names the step and the reason (STT-VER-008), does not\n"
 "follow the VHL, and Dr Anan treats whatever the family can show as he\n"
 "would a paper record.\n"
-msgstr ""
+msgstr "De retour là où tout a commencé, le Dr Anan, pédiatre, reçoit Somsak dans une clinique pédiatrique de\nKesaro. Bounmy montre le code QR sur son téléphone et prononce le code d’accès. Le\nvisualiseur de la clinique et la passerelle du pays Onesa effectuent cinq étapes :\n\n1. Le visualiseur vérifie le HCERT par rapport au DSC du Pays B dans sa copie de la liste de confiance.\n2. Il demande le manifeste par ITI-YY5, signé avec HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n3. La passerelle du pays Onesa vérifie le code d’accès, l’expiration et le consentement, renvoie le manifeste et journalise l’accès dans le pays de résidence (`TrustDemoJ41Access`).\n4. Le visualiseur déchiffre l’IPS et les DVC (STT-VHL-007) (`TrustDemoJ41Received`).\n5. Il les présente au Dr Anan : chaque dose depuis la naissance, consultée, jamais copiée.\n\nUn code d’accès erroné est refusé, et la tentative est tout de même journalisée à Onesa\n(`TrustDemoJ41WrongPasscode`). Si le HCERT n’est pas vérifié (par exemple, le\nDSC du Pays B est absent de la liste en cache), il n’y a pas de vérification\nnumérique. La clinique indique l’étape et le motif (STT-VER-008), ne suit pas\nle VHL, et le Dr Anan traite ce que la famille peut présenter comme il\ntraiterait un dossier papier.\n"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:70
 msgctxt "step.record.heldWhere"
 msgid "Onesa national records"
-msgstr ""
+msgstr "Registres nationaux du pays Onesa"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:19
 msgctxt "step.title"
 msgid "A doctor in Taifafeki sees the full history"
-msgstr ""
+msgstr "Un médecin à Taifafeki voit l’historique complet"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:4
 msgctxt "title"
 msgid "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history"
-msgstr ""
+msgstr "J4.1 — Continuité par-delà une frontière : un pédiatre à Taifafeki voit l’historique complet"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""

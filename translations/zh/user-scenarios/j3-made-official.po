@@ -18,7 +18,7 @@ msgstr ""
 #: scenarios/user-scenarios/j3-made-official.json:13
 msgctxt "country"
 msgid "Onesa"
-msgstr "奥内萨"
+msgstr "Onesa"
 
 #: scenarios/user-scenarios/j3-made-official.json:373
 msgctxt "references.label"
@@ -48,7 +48,7 @@ msgstr "带着 Somsak 下一次接种的日期离开。"
 #: scenarios/user-scenarios/j3-made-official.json:40
 msgctxt "step.experiences.doing"
 msgid "Scans the card; the tablet confirms the Taifafeki signature and marks the doses verified."
-msgstr "扫描卡片；平板电脑确认泰法费基签名，并将剂次标记为已验证。"
+msgstr "扫描卡片；平板电脑确认 Taifafeki 签名，并将剂次标记为已验证。"
 
 #: scenarios/user-scenarios/j3-made-official.json:41
 msgctxt "step.experiences.feeling"
@@ -68,12 +68,12 @@ msgstr "“现在我确切知道什么时候该回来了。”"
 #: scenarios/user-scenarios/j3-made-official.json:47
 msgctxt "step.experiences.feeling"
 msgid "“They believe the Taifafeki papers!”"
-msgstr "“他们相信泰法费基的纸质记录！”"
+msgstr "“他们相信 Taifafeki 的纸质记录！”"
 
 #: scenarios/user-scenarios/j3-made-official.json:148
 msgctxt "step.fhirChanges.change"
 msgid "Created: author = Taifafeki MOPH, verifier = nurse"
-msgstr "已创建：author = 泰法费基公共卫生部（MOPH），verifier = 护士"
+msgstr "已创建：author = Taifafeki 公共卫生部（MOPH），verifier = 护士"
 
 #: scenarios/user-scenarios/j3-made-official.json:306
 msgctxt "step.fhirChanges.change"
@@ -88,7 +88,7 @@ msgstr "primarySource 改为 true"
 #: scenarios/user-scenarios/j3-made-official.json:137
 msgctxt "step.fhirChanges.why"
 msgid "A verified DVC is the signing hospital’s own record, so the dose now counts; the Taifafeki record it came from is unchanged."
-msgstr "经验证的 DVC 是签名医院自身的记录，因此该剂次现在计入；其来源的泰法费基记录保持不变。"
+msgstr "经验证的 DVC 是签名医院自身的记录，因此该剂次现在计入；其来源的 Taifafeki 记录保持不变。"
 
 #: scenarios/user-scenarios/j3-made-official.json:61
 msgctxt "step.handoff.carrier"
@@ -126,8 +126,7 @@ msgid ""
 "doses of J2. If a DVC fails (a tampered card, say), the EHR names the step and\n"
 "the reason, the doses stay unverified, and the nurse decides by national\n"
 "catch-up policy.\n"
-msgstr ""
-"Chanthason 护士打开转诊单并扫描 QR 码。EHR 针对该副本离线**验证**每个 DVC（STT-VER-001…009、STT-KID-002），无需联系泰法费基。两者都验证通过，因此它将其作为 FHIR `Immunization`（`TrustDemoJ3HepB`、`TrustDemoJ3Bcg`）连同来源记录（`TrustDemoJ3Verification`；STT-VER-007、STT-VER-008）一并导入，取代 J2 中已报告的剂次。如果某个 DVC 验证失败（例如卡片被篡改），EHR 会指明失败的步骤和原因，剂次保持未验证，由护士依据国家补种政策作出决定。\n"
+msgstr "Chanthason 护士打开转诊单并扫描 QR 码。EHR 针对该副本离线**验证**每个 DVC（STT-VER-001…009、STT-KID-002），无需联系 Taifafeki。两者都验证通过，因此它将其作为 FHIR `Immunization`（`TrustDemoJ3HepB`、`TrustDemoJ3Bcg`）连同来源记录（`TrustDemoJ3Verification`；STT-VER-007、STT-VER-008）一并导入，取代 J2 中已报告的剂次。如果某个 DVC 验证失败（例如卡片被篡改），EHR 会指明失败的步骤和原因，剂次保持未验证，由护士依据国家补种政策作出决定。\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:51
 msgctxt "step.painPoint"
@@ -162,7 +161,7 @@ msgstr "出生剂次计入；已预约下次就诊"
 #: scenarios/user-scenarios/j3-made-official.json:56
 msgctxt "step.record.description"
 msgid "Doses verified; Taifafeki recorded as the source"
-msgstr "剂次已验证；泰法费基被记录为来源"
+msgstr "剂次已验证；Taifafeki 被记录为来源"
 
 #: scenarios/user-scenarios/j3-made-official.json:57
 msgctxt "step.record.heldWhere"
@@ -217,7 +216,7 @@ msgstr "接收已验证并完成映射的记录"
 #: scenarios/user-scenarios/j3-made-official.json:109
 msgctxt "step.uses.role"
 msgid "Records that Taifafeki authored and Onesa verified the doses"
-msgstr "记录这些剂次由泰法费基创建、由奥内萨验证"
+msgstr "记录这些剂次由 Taifafeki 创建、由 Onesa 验证"
 
 #: scenarios/user-scenarios/j3-made-official.json:261
 msgctxt "step.uses.role"
@@ -284,73 +283,73 @@ msgstr "Somsak 10 周大"
 #: scenarios/user-scenarios/j3-made-official.json:5
 msgctxt "description"
 msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesa schedule."
-msgstr ""
+msgstr "一名护士验证卡片为真，并将 Taifafeki 的剂次纳入 Onesa 接种计划。"
 
 #: scenarios/user-scenarios/j3-made-official.json:368
 msgctxt "scene.label"
 msgid "On the Onesa schedule"
-msgstr ""
+msgstr "已纳入 Onesa 接种计划"
 
 #: scenarios/user-scenarios/j3-made-official.json:209
 msgctxt "step.enabler"
 msgid "The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due."
-msgstr ""
+msgstr "保留来自 Taifafeki 的原始代码，并在其旁边添加 Onesa 代码；接种计划引擎计算出到期的剂次。"
 
 #: scenarios/user-scenarios/j3-made-official.json:52
 msgctxt "step.enabler"
 msgid "The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally."
-msgstr ""
+msgstr "Taifafeki 的签名密钥在共享的 WHO 信任列表上，因此任何诊所都可以在本地核验。"
 
 #: scenarios/user-scenarios/j3-made-official.json:197
 msgctxt "step.experiences.doing"
 msgid "Confirms the Taifafeki product equals the birth dose on the Onesa schedule; gives the overdue 6-week vaccines."
-msgstr ""
+msgstr "确认 Taifafeki 的产品即 Onesa 接种计划中的出生剂次；接种逾期的 6 周龄疫苗。"
 
 #: scenarios/user-scenarios/j3-made-official.json:294
 msgctxt "step.fhirChanges.change"
 msgid "Onesa EPI code added; PreQual code kept"
-msgstr ""
+msgstr "已添加 Onesa EPI 代码；保留 PreQual 代码"
 
 #: scenarios/user-scenarios/j3-made-official.json:149
 msgctxt "step.fhirChanges.why"
 msgid "Anyone who later doubts a dose can follow it back to the signed certificate and the key of Taifafeki."
-msgstr ""
+msgstr "日后任何人对某一剂次有疑问，都可以沿着它追溯到已签名的证书和 Taifafeki 的密钥。"
 
 #: scenarios/user-scenarios/j3-made-official.json:307
 msgctxt "step.fhirChanges.why"
 msgid "The map of Onesa from vaccine products to its own schedule; a product with no mapping goes to the nurse."
-msgstr ""
+msgstr "Onesa 从疫苗产品到其自身接种计划的映射；没有映射的产品交由护士判断。"
 
 #: scenarios/user-scenarios/j3-made-official.json:317
 msgctxt "step.fhirChanges.why"
 msgid "The Onesa schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
-msgstr ""
+msgstr "Onesa 接种计划（PlanDefinition）发现 6 周龄剂次已逾期，因此现在接种；提醒让他按时回来接种下一批剂次。"
 
 #: scenarios/user-scenarios/j3-made-official.json:295
 msgctxt "step.fhirChanges.why"
 msgid "The Onesa schedule runs on Onesa EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
-msgstr ""
+msgstr "Onesa 接种计划基于 Onesa EPI 代码运行，因此必须有一个；Taifafeki 产品代码保留在其旁边，绝不覆盖。"
 
 #: scenarios/user-scenarios/j3-made-official.json:217
 msgctxt "step.handoff.summary"
 msgid "Somsak continues on the Onesa schedule for a year"
-msgstr ""
+msgstr "Somsak 在一年内继续按 Onesa 接种计划接种"
 
 #: scenarios/user-scenarios/j3-made-official.json:19
 msgctxt "step.headline"
 msgid "Nurse Chanthason scans the card, and her tablet checks the digital signature from Taifafeki against the WHO trust list — without contacting Taifafeki."
-msgstr ""
+msgstr "Chanthason 护士扫描卡片，她的平板电脑对照 WHO 信任列表核查来自 Taifafeki 的数字签名——无需联系 Taifafeki。"
 
 #: scenarios/user-scenarios/j3-made-official.json:188
 msgctxt "step.headline"
 msgid "The Taifafeki Hep B product doesn’t match anything on the Onesa schedule. Chanthason makes the clinical call, and the system works out what’s due next."
-msgstr ""
+msgstr "Taifafeki 的 Hep B 产品与 Onesa 接种计划中的任何条目都不匹配。Chanthason 作出临床判断，系统计算出下一步到期的剂次。"
 
 #: scenarios/user-scenarios/j3-made-official.json:131
 #: scenarios/user-scenarios/j3-made-official.json:131
 msgctxt "step.illustration.alt"
 msgid "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesa schedule; Khamla and Bounmy hold Somsak"
-msgstr ""
+msgstr "在区卫生中心，Chanthason 护士在平板电脑上核查卡片：签名已验证，已纳入 Onesa 接种计划；Khamla 和 Bounmy 抱着 Somsak"
 
 #: scenarios/user-scenarios/j3-made-official.json:192
 msgctxt "step.narrative"
@@ -366,52 +365,52 @@ msgid ""
 "Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
 "(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
 "measles-rubella at 9 months, in Onesa.\n"
-msgstr ""
+msgstr "Taifafeki 的 Hep B 产品与国家接种计划中的任何条目都不匹配。EHR 保留 Taifafeki 的产品编码，并根据国家映射表（`TrustDemoProductToOnesaEpi`）在其旁边添加接种计划编码。对于该 Hep B 产品，映射表中没有条目，因此 Chanthason 护士作出临床判断，认定它是接种计划中的出生剂次（`TrustDemoJ3Adjudication`），她的决定被加入映射表，供下一家诊所使用。随后接种计划（`TrustDemoOnesaInfantSchedule`）开始运行：出生剂次计入，五联疫苗第 1 剂、bOPV 第 1 剂和 PCV 第 1 剂应在 6 周龄时接种，到 10 周龄时已逾期（`TrustDemoJ3Recommendation`），因此 Chanthason 护士当天为他接种。Khamla 带着下一批剂次的日期离开（`TrustDemoJ3Reminder`）。在这一年里，Somsak 在 Onesa 接种了其余剂次，并在 9 月龄时接种麻疹-风疹疫苗。\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:53
 msgctxt "step.policy"
 msgid "Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
-msgstr ""
+msgstr "信任是去中心化的：Onesa 的诊所自行验证来自 Taifafeki 的签名，无需联系 Taifafeki。"
 
 #: scenarios/user-scenarios/j3-made-official.json:214
 msgctxt "step.record.heldWhere"
 msgid "Onesa national health records"
-msgstr ""
+msgstr "Onesa 国家卫生记录"
 
 #: scenarios/user-scenarios/j3-made-official.json:245
 msgctxt "step.technicalSummary"
 msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesa schedule. Computable schedule logic then works out what’s due next."
-msgstr ""
+msgstr "共享的 WHO 代码和 FHIR ConceptMap 将 Taifafeki 疫苗转换到 Onesa 接种计划。随后，可计算的接种计划逻辑计算出下一步到期的剂次。"
 
 #: scenarios/user-scenarios/j3-made-official.json:89
 msgctxt "step.technicalSummary"
 msgid "The clinic checks the signature from Taifafeki against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
-msgstr ""
+msgstr "诊所对照存储在本地的 WHO 信任列表核查来自 Taifafeki 的签名。一次核查就能把一张外国纸质卡片变成可信的临床数据，无需联系 Taifafeki。"
 
 #: scenarios/user-scenarios/j3-made-official.json:187
 msgctxt "step.title"
 msgid "Taifafeki vaccines are fitted to the Onesa schedule"
-msgstr ""
+msgstr "Taifafeki 疫苗被纳入 Onesa 接种计划"
 
 #: scenarios/user-scenarios/j3-made-official.json:253
 msgctxt "step.uses.role"
 msgid "PreQual product → WHO vaccine type → Onesa EPI code"
-msgstr ""
+msgstr "PreQual 产品 → WHO 疫苗类型 → Onesa EPI 代码"
 
 #: scenarios/user-scenarios/j3-made-official.json:257
 msgctxt "step.uses.role"
 msgid "Schedule logic of Onesa finds the 6-week doses overdue"
-msgstr ""
+msgstr "Onesa 的接种计划逻辑发现 6 周龄剂次已逾期"
 
 #: scenarios/user-scenarios/j3-made-official.json:101
 msgctxt "step.uses.role"
 msgid "Supplies the public key of Taifafeki (downloaded in advance)"
-msgstr ""
+msgstr "提供 Taifafeki 的公钥（事先下载）"
 
 #: scenarios/user-scenarios/j3-made-official.json:269
 msgctxt "step.uses.role"
 msgid "Verified doses from Taifafeki, with their Provenance, count toward coverage reports in Onesa"
-msgstr ""
+msgstr "来自 Taifafeki 的已验证剂次连同其 Provenance 计入 Onesa 的覆盖率报告"
 
 #~ msgctxt "step.experiences.doing"
 #~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."

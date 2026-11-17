@@ -70,7 +70,7 @@ msgstr "врач за рубежом мог лечить нас без бума�
 #: input/pagecontent/scenarios.md:154
 #, python-brace-format
 msgid "A wrong passcode is refused, and the attempt is still logged in Onesa ({code0}). If the HCERT does not verify (for example, Country B's DSC is missing from the cached list), there is no digital verification. The clinic names the step and the reason (<a0>STT-VER-008</a0>), does not follow the VHL, and Dr Anan treats whatever the family can show as he would a paper record."
-msgstr "Неверный код доступа отклоняется, но попытка всё равно регистрируется в Онесе ({code0}). Если HCERT не проходит проверку (например, DSC Страны B отсутствует в кэшированном списке), цифровая проверка невозможна. Клиника указывает шаг и причину (<a0>STT-VER-008</a0>), не переходит по VHL, и доктор Anan относится ко всему, что может показать семья, как к бумажной записи."
+msgstr "Неверный код доступа отклоняется, но попытка всё равно регистрируется в стране Onesa ({code0}). Если HCERT не проходит проверку (например, DSC Страны B отсутствует в кэшированном списке), цифровая проверка невозможна. Клиника указывает шаг и причину (<a0>STT-VER-008</a0>), не переходит по VHL, и доктор Anan относится ко всему, что может показать семья, как к бумажной записи."
 
 #: input/pagecontent/scenarios.md:13
 msgid "Birth clinic vaccinator"
@@ -118,7 +118,7 @@ msgstr "Что помогает: карточка с QR и цифровой по
 
 #: input/pagecontent/scenarios.md:162
 msgid "Enabler: The record is fetched live from Onesa, viewed without being copied, and an access log is sent home."
-msgstr "Что помогает: запись запрашивается в реальном времени из Онесы, просматривается без копирования, а журнал доступа отправляется в страну происхождения."
+msgstr "Что помогает: запись извлекается в реальном времени из страны Onesa, просматривается без копирования, а журнал доступа отправляется на родину."
 
 #: input/pagecontent/scenarios.md:10
 msgid "Have my son's birth doses from abroad recognised at home"
@@ -186,12 +186,12 @@ msgstr "J2b. В форме новорождённого в приложении 
 #: input/pagecontent/scenarios.md:88
 #, python-brace-format
 msgid "J3a. Nurse Chanthason opens the referral and scans the QRs. The EHR verifies each DVC offline against that copy (<a0>STT-VER-001</a0>…<a1>009</a1>, <a2>STT-KID-002</a2>), without contacting Taifafeki. Both verify, so it imports them as FHIR {code0}s ({code1}, {code2}) with provenance ({code3}; <a3>STT-VER-007</a3>, <a4>STT-VER-008</a4>), replacing the reported doses of J2. If a DVC fails (a tampered card, say), the EHR names the step and the reason, the doses stay unverified, and the nurse decides by national catch-up policy."
-msgstr "J3a. Медсестра Chanthason открывает направление и сканирует QR. Электронная медицинская карта (EHR) проверяет каждый DVC офлайн по этой копии (<a0>STT-VER-001</a0>…<a1>009</a1>, <a2>STT-KID-002</a2>), не обращаясь к Тайфафеки. Оба проходят проверку, поэтому EHR импортирует их как ресурсы FHIR {code0} ({code1}, {code2}) со сведениями о происхождении ({code3}; <a3>STT-VER-007</a3>, <a4>STT-VER-008</a4>), заменяя заявленные дозы из J2. Если DVC не проходит проверку (например, карточка подделана), EHR указывает шаг и причину, дозы остаются непроверенными, и медсестра принимает решение в соответствии с национальной политикой догоняющей вакцинации."
+msgstr "J3a. Медсестра Chanthason открывает направление и сканирует QR. Электронная медицинская карта (EHR) проверяет каждый DVC офлайн по этой копии (<a0>STT-VER-001</a0>…<a1>009</a1>, <a2>STT-KID-002</a2>), не обращаясь к стране Taifafeki. Оба проходят проверку, поэтому EHR импортирует их как ресурсы FHIR {code0} ({code1}, {code2}) со сведениями о происхождении ({code3}; <a3>STT-VER-007</a3>, <a4>STT-VER-008</a4>), заменяя заявленные дозы из J2. Если DVC не проходит проверку (например, карточка подделана), EHR указывает шаг и причину, дозы остаются непроверенными, и медсестра принимает решение в соответствии с национальной политикой догоняющей вакцинации."
 
 #: input/pagecontent/scenarios.md:117
 #, python-brace-format
 msgid "J4.0a. The family plans a trip to Taifafeki. Bounmy's phone holds the family wallet, with a profile for each of them. Somsak's summary ({code0}) shows six doses: two from Taifafeki, four from Onesa."
-msgstr "J4.0a. Семья планирует поездку в Тайфафеки. На телефоне Bounmy находится семейный кошелёк с профилем для каждого из них. Сводка Somsak ({code0}) показывает шесть доз: две из Тайфафеки, четыре из Онесы."
+msgstr "J4.0a. Семья планирует поездку в страну Taifafeki. На телефоне Bounmy находится семейный кошелёк с профилем для каждого из них. Сводка Somsak ({code0}) показывает шесть доз: две из страны Taifafeki, четыре из страны Onesa."
 
 #: input/pagecontent/scenarios.md:123
 #, python-brace-format
@@ -240,7 +240,7 @@ msgstr "Проблема (J4.0b): отправка фотографий или P
 
 #: input/pagecontent/scenarios.md:56
 msgid "Pain point: The baby has no Taifafeki ID number, so his records would normally stay locked inside the Taifafeki hospital’s system."
-msgstr "Проблема: у ребёнка нет тайфафекского ID-номера, поэтому его записи обычно оставались бы запертыми в системе тайфафекской больницы."
+msgstr "Проблема: у младенца нет идентификационного номера страны Taifafeki, поэтому его записи обычно оставались бы запертыми в системе больницы в стране Taifafeki."
 
 #: input/pagecontent/scenarios.md:161
 msgid "Pain point: Without the history, the doctor would repeat vaccines or have to guess."
@@ -269,7 +269,7 @@ msgstr "Политика (J4.0a): проектировать решения дл
 
 #: input/pagecontent/scenarios.md:138
 msgid "Policy (J4.0b): Data sovereignty: the record stays in Onesa until the family authorizes someone to open it."
-msgstr "Политика (J4.0b): суверенитет данных: запись остаётся в Онесе, пока семья не разрешит кому-либо её открыть."
+msgstr "Политика (J4.0b): суверенитет данных: запись остаётся в стране Onesa, пока семья не разрешит кому-либо её открыть."
 
 #: input/pagecontent/scenarios.md:58
 msgid "Policy: Babies born abroad can get a verifiable vaccine record before they have the host country’s civil registration or a national ID — and registering the birth at home still matters."
@@ -281,7 +281,7 @@ msgstr "Политика: непрерывность медицинской по
 
 #: input/pagecontent/scenarios.md:121
 msgid "Precondition, as in J1: Country B's DSC, under Country B's CSCA, is already shared with the GDHCN, the Trust Anchor. That is what lets the clinic in Taifafeki verify the link in J4.1."
-msgstr "Предварительное условие, как в J1: DSC Страны B, выданный в рамках CSCA Страны B, уже передан в GDHCN — якорь доверия. Именно это позволяет клинике в Тайфафеки проверить ссылку в J4.1."
+msgstr "Предварительное условие, как в J1: DSC страны B, выданный под CSCA страны B, уже передан в GDHCN — якорь доверия. Именно это позволяет клинике в стране Taifafeki проверить ссылку в J4.1."
 
 #: input/pagecontent/scenarios.md:142
 msgid "Precondition, as in J3: the DID documents are already loaded. The clinic viewer's trust store is a cached copy of the GDHCN trust list, including Country B's DSC DID document (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). The clinic refreshes it nightly or hourly, against about weekly at the offline J3 clinic. It does not need to be online to verify: verifying reads the cache and never fetches the list. A DSC published after the last refresh fails the trust-list check (<a3>STT-VER-006</a3>), naming that reason."
@@ -345,7 +345,7 @@ msgstr "запись другой страны никогда не переза�
 
 #: input/pagecontent/scenarios.md:131
 msgid "The QR holds only a pointer and a key: the record stays in Onesa."
-msgstr "QR содержит только указатель и ключ: запись остаётся в Онесе."
+msgstr "QR-код содержит только указатель и ключ: запись остаётся в стране Onesa."
 
 #: input/pagecontent/scenarios.md:12
 msgid "the record stays at home and I know who has looked"
@@ -387,11 +387,11 @@ msgstr "Khamla уходит с двумя бумажными DVC. В демон�
 
 #: input/pagecontent/scenarios.md:35
 msgid "J1 — Vaccinated and recorded (Taifafeki, birth day)"
-msgstr "J1 — Привит, прививки записаны (Тайфафеки, день рождения)"
+msgstr "J1 — Привит, прививки записаны (Taifafeki, день рождения)"
 
 #: input/pagecontent/scenarios.md:60
 msgid "J2 — Found and registered (Onesa, Somsak is 7 weeks old)"
-msgstr "J2 — Найден и зарегистрирован (Онеса, Somsak исполнилось 7 недель)"
+msgstr "J2 — Найден и зарегистрирован (Onesa, Somsak исполнилось 7 недель)"
 
 #: input/pagecontent/scenarios.md:85
 msgid "J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)"
@@ -399,45 +399,45 @@ msgstr "J3 — Иностранная запись используется дл
 
 #: input/pagecontent/scenarios.md:117
 msgid "J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)"
-msgstr "J4.0 — Непрерывность через границу: одна семья, один телефон (Онеса, 12 месяцев спустя)"
+msgstr "J4.0 — Непрерывность через границу: одна семья, один телефон (Onesa, 12 месяцев спустя)"
 
 #: input/pagecontent/scenarios.md:146
 msgid "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesa gateway take five steps:"
-msgstr ""
+msgstr "Там, где всё началось: доктор Anan, педиатр, осматривает Somsak в педиатрической клинике в Кесаро. Bounmy показывает QR-код на своём телефоне и называет код доступа. Программа просмотра клиники и шлюз страны Onesa выполняют пять шагов:"
 
 #: input/pagecontent/scenarios.md:112
 msgid "Enabler (J3a): The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally."
-msgstr ""
+msgstr "Что помогает (J3a): ключ подписи страны Taifafeki находится в общем списке доверия ВОЗ, поэтому любая клиника может проверить его локально."
 
 #: input/pagecontent/scenarios.md:113
 msgid "Enabler (J3b): The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due."
-msgstr ""
+msgstr "Что помогает (J3b): исходный код из страны Taifafeki сохраняется, а код страны Onesa добавляется рядом; механизм графика рассчитывает, какие дозы положены."
 
 #: input/pagecontent/scenarios.md:62
 msgid "J2a. Khamla has brought Somsak home to Onesa. On a routine visit to Village 04, Khamla's village, Vilay finds a newborn the Onesa system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with read-unverified (<a0>STT-VER-011</a0>; <a1>STT-B45-002</a1>, <a2>STT-ZIP-002</a2>, <a3>STT-CBR-003</a3>), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet."
-msgstr ""
+msgstr "J2a. Khamla привезла Somsak домой, в страну Onesa. Во время планового визита в деревню 04, где живёт Khamla, Vilay находит новорождённого, о существовании которого система страны Onesa не знает. Её телефон уже несколько недель не ловит сигнал. Khamla показывает две карточки. Приложение CHW считывает их функцией read-unverified (<a0>STT-VER-011</a0>; <a1>STT-B45-002</a1>, <a2>STT-ZIP-002</a2>, <a3>STT-CBR-003</a3>), которой не нужен список доверия. Оно показывает дозы, но не проверяет подписи и пока ничего не сохраняет."
 
 #: input/pagecontent/scenarios.md:98
 #, python-brace-format
 msgid "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps the product coding of Taifafeki and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at 6 weeks, are overdue at 10 weeks ({code3}), so Nurse Chanthason gives them that day. Khamla leaves with the date of the next doses ({code4}). Over the year Somsak gets the rest of his doses and measles-rubella at 9 months, in Onesa."
-msgstr ""
+msgstr "J3b. Продукт против гепатита B (Hep B) из страны Taifafeki не соответствует ничему в национальном графике. EHR сохраняет кодировку продукта страны Taifafeki и добавляет рядом кодировку графика из национальной таблицы соответствия ({code0}). Для продукта Hep B в таблице нет записи, поэтому медсестра Chanthason принимает клиническое решение о том, что это доза при рождении по графику ({code1}), и её решение добавляется в таблицу для следующей клиники. Затем применяется график ({code2}): дозы при рождении засчитываются, а пентавалентная 1, bOPV 1 и PCV 1, положенные в 6 недель, в 10 недель оказываются просроченными ({code3}), поэтому медсестра Chanthason вводит их в тот же день. Khamla уходит с датой следующих доз ({code4}). В течение года Somsak получает остальные дозы и вакцину против кори и краснухи в 9 месяцев — в стране Onesa."
 
 #: input/pagecontent/scenarios.md:142
 msgid "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history (Kesaro, 12 months later)"
-msgstr ""
+msgstr "J4.1 — Непрерывность через границу: педиатр в стране Taifafeki видит всю историю (Кесаро, 12 месяцев спустя)"
 
 #: input/pagecontent/scenarios.md:39
 msgid "Khamla, a woman from Onesa who works in Taifafeki, gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
-msgstr ""
+msgstr "Khamla, женщина из страны Onesa, работающая в стране Taifafeki, рожает Somsak 2025-10-28 в провинциальной больнице Кесаро. У него нет идентификационного номера страны Taifafeki. Доктор Anan вводит дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и регистрирует их с кодами продуктов преквалификации ВОЗ (PreQual). Для каждой дозы больничная система выполняет три действия:"
 
 #: input/pagecontent/scenarios.md:114
 msgid "Policy (J3a): Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
-msgstr ""
+msgstr "Политика (J3a): доверие децентрализовано: клиника в стране Onesa сама проверяет подпись из страны Taifafeki, не обращаясь к стране Taifafeki."
 
 #: input/pagecontent/scenarios.md:152
 #, python-brace-format
 msgid "The Onesa gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home ({code0})."
-msgstr ""
+msgstr "Шлюз страны Onesa проверяет код доступа, срок действия и согласие, возвращает манифест и регистрирует доступ на родине ({code0})."
 
 #~ #, python-brace-format
 #~ msgid "Each step names the requirements of <a0>smart-trust-tools</a0> it exercises, and the FHIR examples of this guide it produces. The stories are in <a1>{code0}</a1>. Each moment ends with its pain point, what enables it, and the policy point it makes, as the VaxLink walkthrough presents them."

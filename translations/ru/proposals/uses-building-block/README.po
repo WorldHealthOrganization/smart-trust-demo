@@ -138,12 +138,12 @@ msgstr "Проверки: {code0} обвязки сопоставляет каж
 #: docs/proposals/uses-building-block/README.md:26
 #, python-brace-format
 msgid "{code0} (OHS FHIR SDK), {code1} (the national FHIR server of Onesa), {code2} (IHE VHL), or {code3} (WHO GDHCN)"
-msgstr ""
+msgstr "{code0} (OHS FHIR SDK), {code1} (национальный FHIR-сервер страны Onesa), {code2} (IHE VHL) или {code3} (GDHCN ВОЗ)"
 
 #: docs/proposals/uses-building-block/README.md:16
 #, python-brace-format
 msgid "{code0}: 18 deployed components ({code1}), each a part of a system in Taifafeki or Onesa and a specialization of a DPI-H RA block."
-msgstr ""
+msgstr "{code0}: 18 развёрнутых компонентов ({code1}), каждый — часть системы в стране Taifafeki или Onesa и специализация блока DPI-H RA."
 
 #~ #, python-brace-format
 #~ msgid "{code0} now also checks:"

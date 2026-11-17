@@ -188,7 +188,7 @@ msgstr "Код — SNOMED CT {code0} (направление пациента) �
 
 #: docs/vaxlink-examples.md:68
 msgid "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key."
-msgstr "Страны. В сети GDHCN DEV роль Тайфафеки играет тестовый участник XXR, а роль Онесы (Onesa) — вымышленный XXU. Ни один из ключей не является рабочим."
+msgstr "Страны. В сети GDHCN DEV роль страны Taifafeki играет тестовый участник XXR, а роль страны Onesa — вымышленный XXU. Ни один из ключей не является рабочим."
 
 #: docs/vaxlink-examples.md:35
 msgid "Country"
@@ -273,19 +273,19 @@ msgstr "Ключ"
 #: docs/vaxlink-examples.md:46
 #: docs/vaxlink-examples.md:47
 msgid "Onesa"
-msgstr "Онеса"
+msgstr "Onesa"
 
 #: docs/vaxlink-examples.md:23
 #: docs/vaxlink-examples.md:24
 #: docs/vaxlink-examples.md:27
 #: docs/vaxlink-examples.md:28
 msgid "Onesa, mobile"
-msgstr "Онеса, мобильный телефон"
+msgstr "Onesa, мобильный телефон"
 
 #: docs/vaxlink-examples.md:25
 #: docs/vaxlink-examples.md:26
 msgid "Onesa, tablet"
-msgstr "Онеса, планшет"
+msgstr "Onesa, планшет"
 
 #: docs/vaxlink-examples.md:20
 #: docs/vaxlink-examples.md:35
@@ -342,12 +342,12 @@ msgstr "Система временных идентификаторов при�
 #: docs/vaxlink-examples.md:38
 #: docs/vaxlink-examples.md:39
 msgid "Taifafeki"
-msgstr "Тайфафеки"
+msgstr "Taifafeki"
 
 #: docs/vaxlink-examples.md:22
 #: docs/vaxlink-examples.md:29
 msgid "Taifafeki, tablet"
-msgstr "Тайфафеки, планшет"
+msgstr "Taifafeki, планшет"
 
 #: docs/vaxlink-examples.md:42
 msgid "The answers on the offline registration form (Structured Data Capture), kept so the extracted records trace back to them."
@@ -385,11 +385,11 @@ msgstr "Панель полезной нагрузки"
 
 #: docs/vaxlink-examples.md:22
 msgid "the Taifafeki records behind the cards: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; the doses as later verified in Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
-msgstr "тайфафекские записи, стоящие за карточками: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; дозы в том виде, в каком они позже проверены в Онесе: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
+msgstr "записи страны Taifafeki, стоящие за карточками: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; дозы в том виде, в каком они позже проверены в стране Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
 
 #: docs/vaxlink-examples.md:23
 msgid "the Taifafeki records on the cards: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>"
-msgstr "тайфафекские записи на карточках: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>"
+msgstr "записи страны Taifafeki на карточках: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>"
 
 #: docs/vaxlink-examples.md:55
 msgid "Type"
@@ -406,7 +406,7 @@ msgstr "QR с VHL, 4-значным кодом доступа и сроком д
 
 #: docs/vaxlink-examples.md:29
 msgid "VHL viewer: passcode unlock, wrong-passcode test, access logged in Onesa"
-msgstr "Средство просмотра VHL: разблокировка кодом доступа, проверка неверного кода, доступ зарегистрирован в Онесе"
+msgstr "Средство просмотра VHL: разблокировка кодом доступа, проверка неверного кода, доступ зарегистрирован в стране Onesa"
 
 #: docs/vaxlink-examples.md:55
 msgid "What changed"
@@ -444,29 +444,29 @@ msgstr "Пошаговый обзор путей (впервые предста�
 
 #: docs/journey-examples.md:45
 msgid "A dose on the national schedule: the Onesa EPI code is required, and a foreign product code is kept beside it."
-msgstr ""
+msgstr "Доза национального графика: код EPI страны Onesa обязателен, а иностранный код препарата сохраняется рядом с ним."
 
 #: docs/journey-examples.md:66
 #, python-brace-format
 msgid "Code systems. The walkthrough's product codes ({code0} and so on) and the schedule codes of Onesa ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
-msgstr ""
+msgstr "Системы кодов. Коды препаратов в пошаговом обзоре ({code0} и т. д.) и коды графика страны Onesa ({code1} и т. д.) являются иллюстративными. Здесь они определены как системы кодов {code2} и {code3}, помеченные как экспериментальные, в каноническом пространстве этого руководства, так что ни один URL не подразумевает реальное министерство или реальную систему кодов ВОЗ."
 
 #: docs/journey-examples.md:69
 msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28."
-msgstr ""
+msgstr "Даты. Как в пошаговом обзоре: рождение 2025-10-28, J2 2025-11-18, J3 2025-11-25, дозы в стране Onesa 2025-12-10 и 2026-07-28, поездка 2026-10-28."
 
 #: docs/journey-examples.md:61
 #, python-brace-format
 msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesa gateway the custodian and observer. The passcode is never logged."
-msgstr ""
+msgstr "Структура R4: {code0}, {code1}, {code2}, {code3}; получатель — запрашивающая сторона, шлюз страны Onesa — хранитель и наблюдатель. Код доступа никогда не регистрируется."
 
 #: docs/journey-examples.md:36
 msgid "The birth hospital's newborn: a hospital number, since a baby of parents from Onesa has no Taifafeki citizen id."
-msgstr ""
+msgstr "Новорождённый в родильной больнице: больничный номер, поскольку у ребёнка родителей из страны Onesa нет идентификатора гражданина страны Taifafeki."
 
 #: docs/journey-examples.md:38
 msgid "What the Taifafeki clinic keeps when it views a summary from Onesa through a VHL: viewed, not copied."
-msgstr ""
+msgstr "Что сохраняет клиника в стране Taifafeki при просмотре сводки из страны Onesa по VHL: просмотрено, не скопировано."
 
 #~ #, python-brace-format
 #~ msgid "Every example is published twice: as a page, and as raw JSON at a stable URL the walkthrough can fetch ({code0}). They are FHIR R5, as this guide is."

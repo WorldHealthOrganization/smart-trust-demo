@@ -3769,7 +3769,7 @@ msgstr "Onesa (Pays B, pays d’origine)"
 
 #: en/smart-trust-demo/archimate/0.1.0/element/onesa-national-health-portal-and-gateway-country-b-xxk/index.html:0
 msgid "Onesa national health portal and gateway (Country B, XXU)"
-msgstr "Portail national de santé et passerelle d’Onesa (Pays B, XXU)"
+msgstr "Portail national de santé et passerelle du pays Onesa (Pays B, XXU)"
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of CHW app, Onesa (Country B): The registration and referral forms of the CHW app, FHIR Questionnaires filled in with Structured Data Capture, which also read the doses on a paper DVC (J2)."
@@ -3785,27 +3785,27 @@ msgstr "Onesa, partie du DSE du centre de santé du district de Lomaru (Pays B) 
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Answers a VHL manifest request after checking its signature, the passcode, the expiry and the consent, and logs each access in Onesa (J4.1)."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : répond à une requête de manifeste VHL après avoir vérifié sa signature, le code d’accès, l’expiration et le consentement, et journalise chaque accès à Onesa (J4.1)."
+msgstr "Onesa, partie du portail national de santé et passerelle du pays Onesa (Pays B, XXU) : répond à une requête de manifeste VHL après avoir vérifié sa signature, le code d’accès, l’expiration et le consentement, et journalise chaque accès à Onesa (J4.1)."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Copies the portal's FHIR data into an analytics store for reporting."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : copie les données FHIR du portail dans un entrepôt d’analyse pour la production de rapports."
+msgstr "Onesa, partie du portail national de santé et passerelle du pays Onesa (Pays B, XXU) : copie les données FHIR du portail dans un entrepôt d’analyse pour la production de rapports."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Holds each person's records (IPS, DVCs) as FHIR resources, from which the portal assembles what a VHL shares (J4.0, J4.1)."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : détient les dossiers de chaque personne (IPS, DVC) sous forme de ressources FHIR, à partir desquelles le portail assemble ce qu’un VHL partage (J4.0, J4.1)."
+msgstr "Onesa, partie du portail national de santé et passerelle du pays Onesa (Pays B, XXU) : détient les dossiers de chaque personne (IPS, DVC) sous forme de ressources FHIR, à partir desquelles le portail assemble ce qu’un VHL partage (J4.0, J4.1)."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Identifies each person the portal serves, children and their households included."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : identifie chaque personne que le portail dessert, y compris les enfants et leurs ménages."
+msgstr "Onesa, partie du portail national de santé et passerelle du pays Onesa (Pays B, XXU) : identifie chaque personne que le portail dessert, y compris les enfants et leurs ménages."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the clinics and health centres that record and share care."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : répertorie les cliniques et les centres de santé qui enregistrent et partagent les soins."
+msgstr "Onesa, partie du portail national de santé et passerelle du pays Onesa (Pays B, XXU) : répertorie les cliniques et les centres de santé qui enregistrent et partagent les soins."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the health workers, community health workers and nurses among them, who record care."
-msgstr "Onesa, partie du portail national de santé et passerelle d’Onesa (Pays B, XXU) : répertorie les personnels de santé, dont les agents de santé communautaires et les infirmières, qui enregistrent les soins."
+msgstr "Onesa, partie du portail national de santé et passerelle du pays Onesa (Pays B, XXU) : répertorie les personnels de santé, dont les agents de santé communautaires et les infirmières, qui enregistrent les soins."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of The family's shared phone: The wallet app on the family's phone: a profile per family member, each holding that member's VHL QR, shown when asked (J4.0, J4.1)."
@@ -3813,51 +3813,51 @@ msgstr "Onesa, partie du téléphone partagé de la famille : l’application de
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block CHW & Community: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique CHW et communauté de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique CHW et communauté de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Citizen / Patient Apps: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Applications citoyens / patients de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Applications citoyens / patients de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Client Registry for Health: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Registre des patients de santé de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Registre des patients de santé de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Computable Decision Support Engine: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Moteur d’aide à la décision computable de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Moteur d’aide à la décision computable de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block DPI-F Information Mediator: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Médiateur d’information DPI-F de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Médiateur d’information DPI-F de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Health Facility Registry: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Registre des établissements de santé de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Registre des établissements de santé de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Health Management Information System: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Système d’information sanitaire de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Système d’information sanitaire de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Health Workforce Registry: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Registre des personnels de santé de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Registre des personnels de santé de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Lifelong Health Record: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Dossier de santé tout au long de la vie de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Dossier de santé tout au long de la vie de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block National Trust Services: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Services nationaux de confiance de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Services nationaux de confiance de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Provider Systems: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Systèmes des prestataires de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Systèmes des prestataires de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa’s instance of the DPI-H RA building block Terminology Service: what Onesa’s parts in the demonstrator that play this block are, and a specialization of the RA’s block. One per jurisdiction, since neither country’s systems are the other’s."
-msgstr "L’instance d’Onesa de la brique Service de terminologie de l’AR DPI-H : ce que sont les parties d’Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
+msgstr "L’instance du pays Onesa de la brique Service de terminologie de l’AR DPI-H : ce que sont les parties du pays Onesa dans le démonstrateur qui jouent cette brique, et une spécialisation de la brique de l’AR. Une par juridiction, puisque les systèmes d’aucun des deux pays ne sont ceux de l’autre."
 
 #: en/smart-trust-demo/archimate/0.1.0/element/open-standards/index.html:0
 msgid "Open standards"
@@ -5684,7 +5684,7 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/code-mapping-service-product-to-onesa-epi/index.html:0
 msgid "Code mapping service (product to Onesa EPI)"
-msgstr ""
+msgstr "Service de correspondance des codes (produit vers EPI du pays Onesa)"
 
 #: archimate/0.1.0/view/id-3ad41900b17d47f78129e16d32ed2f38.svg:0
 msgid "Components — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
@@ -5736,15 +5736,15 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/kesaro-paediatric-clinic-viewer-taifafeki-j4-1/index.html:0
 msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
-msgstr ""
+msgstr "Visualiseur de la clinique pédiatrique de Kesaro, Taifafeki (J4.1)"
 
 #: archimate/0.1.0/model.json:0
 msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1): The VHL viewer of a paediatric clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection."
-msgstr ""
+msgstr "Visualiseur de la clinique pédiatrique de Kesaro, Taifafeki (J4.1) : le visualiseur VHL d’une clinique pédiatrique de Kesaro, à Taifafeki, de retour dans le Pays A un an après la naissance (J4.1) : vérifie le VHL, récupère le manifeste avec une signature de message HTTP après la saisie du code d’accès, et déchiffre les documents pour les afficher. Son magasin de confiance est chargé avant la visite à partir d’un cache de la liste de confiance du GDHCN actualisé chaque nuit ou chaque heure ; la vérification ne nécessite aucune connexion."
 
 #: archimate/0.1.0/model.json:0
 msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): The hospital record system and DVC issuing service of Kesaro Provincial Hospital in Taifafeki (Country A, the birth country): issues one DVC per birth dose (J1), signing with the DSC of GDHCN DEV test participant XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), which plays Taifafeki in the demonstrator. XXR is a DEV test participant, not the production key of Taifafeki."
-msgstr ""
+msgstr "Système de l’hôpital provincial de Kesaro, Taifafeki (Pays A, XXR) : le système de dossiers hospitaliers et le service d’émission de DVC de l’hôpital provincial de Kesaro à Taifafeki (Pays A, pays de naissance) : émet un DVC par dose à la naissance (J1), en signant avec le DSC du participant de test XXR du GDHCN DEV (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), qui joue Taifafeki dans le démonstrateur. XXR est un participant de test DEV, et non la clé de production de Taifafeki."
 
 #: archimate/0.1.0/view/id-dbcfb8e417294161ac0b1614c2e18cc5.svg:0
 msgid "LMIR Overview — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
@@ -5752,7 +5752,7 @@ msgstr ""
 
 #: archimate/0.1.0/model.json:0
 msgid "Lomaru District Health Center EHR (Country B): The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the schedule code of Onesa beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3."
-msgstr ""
+msgstr "DSE du centre de santé du district de Lomaru (Pays B) : le système de dossiers fondé sur OHS du centre de santé de district dans le pays Onesa (Pays B), sur une tablette (J3) : vérifie les DVC par rapport à sa liste de confiance du GDHCN en cache, les importe avec leur provenance, ajoute le code de calendrier du pays Onesa à côté de chaque code de vaccin étranger et évalue le calendrier national. Un destinataire ; le Pays B, en tant que participant au réseau de confiance, récupère le matériel d’ICP qu’il utilise. Son magasin de confiance est chargé avant la visite, à partir de la copie de la liste de confiance qu’il a actualisée lors de sa dernière connexion (pour une clinique hors ligne, environ une fois par semaine) ; il ne récupère rien pendant J3."
 
 #: archimate/0.1.0/view/id-f7a5524bbac84f1a9cf424754750819d.svg:0
 msgid "Metadata Registry Governance — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
@@ -5779,19 +5779,19 @@ msgstr ""
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa national health portal and gateway (Country B, XXU): The national FHIR server of Onesa, behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
-msgstr ""
+msgstr "Portail national de santé et passerelle du pays Onesa (Pays B, XXU) : le serveur FHIR national du pays Onesa derrière l’OHS FHIR Info Gateway (J4.0, J4.1) : assemble l’IPS et les DVC de chaque membre de la famille, émet chacun sous forme de lien de santé vérifiable protégé par code d’accès dans un HCERT signé avec le DSC du Pays B, héberge les manifestes (ITI-YY5), vérifie le code d’accès, l’expiration et le consentement à chaque requête, et journalise chaque accès sous forme d’AuditEvent dans le pays d’origine. Le Pays B est joué sur le réseau GDHCN DEV par le participant de test XXU ; aucune clé d’un ministère réel n’est donc en jeu."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Evaluates the infant immunization schedule of Onesa against the child's doses, imported ones included, and says which are due (J3)."
-msgstr ""
+msgstr "Onesa, partie du DSE du centre de santé du district de Lomaru (Pays B) : évalue le calendrier de vaccination du nourrisson du pays Onesa au regard des doses de l’enfant, y compris celles importées, et indique celles qui sont dues (J3)."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Maps a foreign vaccine product code to the Onesa EPI schedule code, which is added beside the original code on import (J3)."
-msgstr ""
+msgstr "Onesa, partie du DSE du centre de santé du district de Lomaru (Pays B) : fait correspondre un code de produit vaccinal étranger au code du calendrier EPI du pays Onesa, qui est ajouté à côté du code d’origine lors de l’importation (J3)."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with the document signer key of Onesa (J4.0)."
-msgstr ""
+msgstr "Onesa, partie du portail national de santé et passerelle du pays Onesa (Pays B, XXU) : émet un lien de santé vérifiable protégé par code d’accès pour chaque membre de la famille, dans un HCERT signé avec la clé de signataire de documents du pays Onesa (J4.0)."
 
 #: archimate/0.1.0/view/id-053fa0e33f6b5b0bb218195486c05160.svg:0
 msgid "Product Master Data Information Model (DTH PC Figs. 8-9) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
@@ -5799,7 +5799,7 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/schedule-evaluator-onesa-infant-schedule/index.html:0
 msgid "Schedule evaluator (Onesa infant schedule)"
-msgstr ""
+msgstr "Évaluateur du calendrier (calendrier du nourrisson du pays Onesa)"
 
 #: archimate/0.1.0/view/id-cefde7ed0dcd47d3bb214657ac3e5725.svg:0
 msgid "SHR — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
@@ -5819,11 +5819,11 @@ msgstr ""
 
 #: archimate/0.1.0/model.json:0
 msgid "Taifafeki, part of Kesaro paediatric clinic viewer, Taifafeki (J4.1): Reads a Verifiable Health Link QR at the point of care, checks its signature against the GDHCN trust list, fetches the manifest from Onesa with a signed request and shows the decrypted records (J4.1)."
-msgstr ""
+msgstr "Taifafeki, partie du visualiseur de la clinique pédiatrique de Kesaro, Taifafeki (J4.1) : lit un QR de lien de santé vérifiable au point de soins, vérifie sa signature par rapport à la liste de confiance du GDHCN, récupère le manifeste auprès du pays Onesa au moyen d’une requête signée et affiche les dossiers déchiffrés (J4.1)."
 
 #: archimate/0.1.0/model.json:0
 msgid "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Builds each Digital Vaccination Certificate as an HCERT payload and has it signed with the document signer key of Taifafeki, published to GDHCN (J1)."
-msgstr ""
+msgstr "Taifafeki, partie du système de l’hôpital provincial de Kesaro, Taifafeki (Pays A, XXR) : construit chaque certificat de vaccination numérique sous forme de charge utile HCERT et le fait signer avec la clé de signataire de documents de Taifafeki, publiée dans le GDHCN (J1)."
 
 #: archimate/0.1.0/view/id-0e97a3f6a8f545f5bd90e123c11a2545.svg:0
 msgid "Testing — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
@@ -5835,7 +5835,7 @@ msgstr ""
 
 #: archimate/0.1.0/model.json:0
 msgid "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets a clinic in Onesa believe a certificate from Taifafeki, and a clinic in Taifafeki a link from Onesa, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries."
-msgstr ""
+msgstr "Le Réseau mondial de certification de la santé numérique de l’OMS : la liste de confiance des clés publiques des participants qui permet à une clinique à Onesa de croire un certificat de Taifafeki, et à une clinique à Taifafeki de croire un lien du pays Onesa, sans aucune connexion entre les systèmes des deux pays. Ce n’est pas une brique de la vue intégrée de l’AR : il se situe sous les deux pays."
 
 #~ msgid ""
 #~ "A high-level ability that an organization, system, or individual possesses or must develop in order to achieve its strategic goals. It expresses what the enterprise is able to do, independent of how that ability is implemented.\n"

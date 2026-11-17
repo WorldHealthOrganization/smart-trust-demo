@@ -402,41 +402,41 @@ msgstr "J4.0 — Continuité par-delà une frontière : une famille, un téléph
 
 #: input/pagecontent/scenarios.md:146
 msgid "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesa gateway take five steps:"
-msgstr ""
+msgstr "De retour là où tout a commencé, le Dr Anan, pédiatre, reçoit Somsak dans une clinique pédiatrique de Kesaro. Bounmy montre le code QR sur son téléphone et prononce le code d’accès. Le visualiseur de la clinique et la passerelle du pays Onesa effectuent cinq étapes :"
 
 #: input/pagecontent/scenarios.md:112
 msgid "Enabler (J3a): The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally."
-msgstr ""
+msgstr "Facilitateur (J3a) : la clé de signature de Taifafeki figure sur la liste de confiance partagée de l’OMS, de sorte que toute clinique peut la vérifier localement."
 
 #: input/pagecontent/scenarios.md:113
 msgid "Enabler (J3b): The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due."
-msgstr ""
+msgstr "Facilitateur (J3b) : le code d’origine de Taifafeki est conservé et le code du pays Onesa est ajouté à côté ; le moteur de calendrier calcule ce qui est dû."
 
 #: input/pagecontent/scenarios.md:62
 msgid "J2a. Khamla has brought Somsak home to Onesa. On a routine visit to Village 04, Khamla's village, Vilay finds a newborn the Onesa system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with read-unverified (<a0>STT-VER-011</a0>; <a1>STT-B45-002</a1>, <a2>STT-ZIP-002</a2>, <a3>STT-CBR-003</a3>), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet."
-msgstr ""
+msgstr "J2a. Khamla a ramené Somsak chez elle, à Onesa. Lors d’une visite de routine au Village 04, le village de Khamla, Vilay trouve un nouveau-né dont le système du pays Onesa ignore l’existence. Son téléphone n’a pas eu de signal depuis des semaines. Khamla montre les deux cartes. L’application CHW les lit en mode read-unverified (<a0>STT-VER-011</a0> ; <a1>STT-B45-002</a1>, <a2>STT-ZIP-002</a2>, <a3>STT-CBR-003</a3>), qui ne nécessite aucune liste de confiance. Elle affiche les doses, mais ne vérifie aucune signature et n’enregistre encore rien."
 
 #: input/pagecontent/scenarios.md:98
 #, python-brace-format
 msgid "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps the product coding of Taifafeki and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at 6 weeks, are overdue at 10 weeks ({code3}), so Nurse Chanthason gives them that day. Khamla leaves with the date of the next doses ({code4}). Over the year Somsak gets the rest of his doses and measles-rubella at 9 months, in Onesa."
-msgstr ""
+msgstr "J3b. Le produit de Taifafeki contre l’hépatite B ne correspond à rien dans le calendrier national. Le DSE conserve le codage de produit de Taifafeki et ajoute à côté le codage du calendrier, à partir de la table de correspondance nationale ({code0}). Pour le produit contre l’hépatite B, la table ne contient aucune entrée ; l’infirmière Chanthason prend donc la décision clinique qu’il s’agit de la dose à la naissance du calendrier ({code1}), et sa décision est ajoutée à la table pour la clinique suivante. Le calendrier ({code2}) s’exécute alors : les doses à la naissance sont comptabilisées, et le pentavalent 1, le VPOb 1 et le PCV 1, dus à 6 semaines, sont en retard à 10 semaines ({code3}) ; l’infirmière Chanthason les administre donc le jour même. Khamla repart avec la date des prochaines doses ({code4}). Au cours de l’année, Somsak reçoit le reste de ses doses ainsi que le vaccin rougeole-rubéole à 9 mois, à Onesa."
 
 #: input/pagecontent/scenarios.md:142
 msgid "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history (Kesaro, 12 months later)"
-msgstr ""
+msgstr "J4.1 — Continuité par-delà une frontière : un pédiatre à Taifafeki voit l’historique complet (Kesaro, 12 mois plus tard)"
 
 #: input/pagecontent/scenarios.md:39
 msgid "Khamla, a woman from Onesa who works in Taifafeki, gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
-msgstr ""
+msgstr "Khamla, une femme du pays Onesa qui travaille à Taifafeki, donne naissance à Somsak le 2025-10-28 à l’hôpital provincial de Kesaro. Il n’a pas de numéro d’identité de Taifafeki. Le Dr Anan administre les doses à la naissance contre l’hépatite B et le BCG et les enregistre avec leurs codes de produit de préqualification de l’OMS. Pour chaque dose, le système de l’hôpital effectue trois opérations :"
 
 #: input/pagecontent/scenarios.md:114
 msgid "Policy (J3a): Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
-msgstr ""
+msgstr "Politique (J3a) : la confiance est décentralisée : une clinique à Onesa vérifie elle-même une signature de Taifafeki, sans contacter Taifafeki."
 
 #: input/pagecontent/scenarios.md:152
 #, python-brace-format
 msgid "The Onesa gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home ({code0})."
-msgstr ""
+msgstr "La passerelle du pays Onesa vérifie le code d’accès, l’expiration et le consentement, renvoie le manifeste et journalise l’accès dans le pays de résidence ({code0})."
 
 #~ #, python-brace-format
 #~ msgid "Each step names the requirements of <a0>smart-trust-tools</a0> it exercises, and the FHIR examples of this guide it produces. The stories are in <a1>{code0}</a1>. Each moment ends with its pain point, what enables it, and the policy point it makes, as the VaxLink walkthrough presents them."

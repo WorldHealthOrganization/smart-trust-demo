@@ -48,12 +48,12 @@ msgstr "Les parcours racontent l’histoire de <a0>VaxLink</a0> (ticket <a1>#21<
 #: input/pagecontent/changes.md:7
 #, python-brace-format
 msgid "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Two illustrative code systems stand in for PreQual product ids and national schedule codes."
-msgstr ""
+msgstr "Nouveaux exemples : {code0} du ménage, {code1} d'enregistrement et réponse, {code2} déclarés et vérifiés, {code3} de vérification et d'arbitrage, {code4} du produit au code du calendrier, un {code5} de calendrier à titre d'illustration, {code6} et {code7} de rappel, les quatre doses administrées à Onesa, un IPS à six doses, {code8}, et deux {code9} (accès accordé, code d'accès erroné). Deux systèmes de codes illustratifs remplacent les identifiants de produits PreQual et les codes des calendriers nationaux."
 
 #: input/pagecontent/changes.md:3
 #, python-brace-format
 msgid "The code of Onesa is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, the identifiers of Onesa, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
-msgstr ""
+msgstr "Le code du pays Onesa est désormais XXU (auparavant XXK), le participant de test DEV que Participants-DEV de SMART Trust nomme « Onesa » (WorldHealthOrganization/smart-trust#161) : la définition du pays, les identifiants du pays Onesa, les codes du calendrier ({code0}), les numéros de lot, le portail national, les processus, les écrans des appareils, les exemples et les traductions."
 
 #~ msgid "New page: <a0>VaxLink examples</a0>, mapping each walkthrough screen and payload to its example here."
 #~ msgstr "Nouvelle page : <a0>exemples VaxLink</a0>, mettant en correspondance chaque écran et chaque charge utile de la présentation guidée avec son exemple ici."

@@ -443,29 +443,29 @@ msgstr "La présentation guidée des parcours (racontée d'abord dans l'atelier 
 
 #: docs/journey-examples.md:45
 msgid "A dose on the national schedule: the Onesa EPI code is required, and a foreign product code is kept beside it."
-msgstr ""
+msgstr "Une dose du calendrier national : le code PEV du pays Onesa est obligatoire, et un code de produit étranger est conservé à côté."
 
 #: docs/journey-examples.md:66
 #, python-brace-format
 msgid "Code systems. The walkthrough's product codes ({code0} and so on) and the schedule codes of Onesa ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
-msgstr ""
+msgstr "Systèmes de codes. Les codes de produit de la présentation guidée ({code0}, etc.) et les codes du calendrier du pays Onesa ({code1}, etc.) sont illustratifs. Ils sont définis ici comme les systèmes de codes {code2} et {code3}, marqués comme expérimentaux, sous l'URL canonique de ce guide, afin qu'aucune URL ne suggère un ministère réel ou un système de codes réel de l'OMS."
 
 #: docs/journey-examples.md:69
 msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28."
-msgstr ""
+msgstr "Dates. Comme dans la présentation guidée : naissance le 2025-10-28, J2 le 2025-11-18, J3 le 2025-11-25, les doses à Onesa le 2025-12-10 et le 2026-07-28, le voyage le 2026-10-28."
 
 #: docs/journey-examples.md:61
 #, python-brace-format
 msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesa gateway the custodian and observer. The passcode is never logged."
-msgstr ""
+msgstr "Forme R4 : {code0}, {code1}, {code2}, {code3} ; le destinataire est le demandeur, la passerelle du pays Onesa le dépositaire et l'observateur. Le code d'accès n'est jamais journalisé."
 
 #: docs/journey-examples.md:36
 msgid "The birth hospital's newborn: a hospital number, since a baby of parents from Onesa has no Taifafeki citizen id."
-msgstr ""
+msgstr "Le nouveau-né de l'hôpital de naissance : un numéro d'hôpital, car un bébé de parents du pays Onesa n'a pas de numéro d'identité de citoyen de Taifafeki."
 
 #: docs/journey-examples.md:38
 msgid "What the Taifafeki clinic keeps when it views a summary from Onesa through a VHL: viewed, not copied."
-msgstr ""
+msgstr "Ce que le centre de santé de Taifafeki conserve lorsqu'il consulte un résumé du pays Onesa au moyen d'un VHL : consulté, non copié."
 
 #~ #, python-brace-format
 #~ msgid "Every example is published twice: as a page, and as raw JSON at a stable URL the walkthrough can fetch ({code0}). They are FHIR R5, as this guide is."

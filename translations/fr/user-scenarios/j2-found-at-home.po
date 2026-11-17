@@ -354,28 +354,28 @@ msgstr "Somsak a 7 semaines"
 #: scenarios/user-scenarios/j2-found-at-home.json:134
 msgctxt "step.experiences.doing"
 msgid "Is added to his household: the Onesa health system now knows he exists."
-msgstr ""
+msgstr "Est ajouté à son ménage : le système de santé du pays Onesa sait désormais qu’il existe."
 
 #: scenarios/user-scenarios/j2-found-at-home.json:220
 msgctxt "step.fhirChanges.change"
 msgid "Created with a temporary ID from Onesa"
-msgstr ""
+msgstr "Créé avec un identifiant temporaire du pays Onesa"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:221
 msgctxt "step.fhirChanges.why"
 msgid "He is not in the Onesa civil registry yet; a temporary id lets the CHW, clinic and portal all mean the same child. Taifafeki only gave him a hospital number."
-msgstr ""
+msgstr "Il ne figure pas encore à l’état civil du pays Onesa ; un identifiant temporaire permet au CHW, à la clinique et au portail de désigner le même enfant. Taifafeki ne lui a donné qu’un numéro d’hôpital."
 
 #: scenarios/user-scenarios/j2-found-at-home.json:21
 msgctxt "step.headline"
 msgid "On a routine village visit, Vilay finds a newborn the Onesa system doesn’t know exists. She can read the vaccines on his cards, but she can’t prove they are genuine."
-msgstr ""
+msgstr "Lors d’une visite de routine au village, Vilay trouve un nouveau-né dont le système du pays Onesa ignore l’existence. Elle peut lire les vaccins sur ses cartes, mais ne peut pas prouver qu’ils sont authentiques."
 
 #: scenarios/user-scenarios/j2-found-at-home.json:99
 #: scenarios/user-scenarios/j2-found-at-home.json:99
 msgctxt "step.illustration.alt"
 msgid "In a village in Onesa with no signal, Vilay, the community health worker, scans the paper cards with her phone while Khamla holds Somsak and Bounmy looks on"
-msgstr ""
+msgstr "Dans un village du pays Onesa sans signal, Vilay, l’agente de santé communautaire, scanne les cartes papier avec son téléphone pendant que Khamla tient Somsak et que Bounmy regarde"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:25
 msgctxt "step.narrative"
@@ -386,12 +386,12 @@ msgid ""
 "shows the two cards. The CHW app reads them with **read-unverified**\n"
 "(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\n"
 "list. It shows the doses, but checks no signature and saves nothing yet.\n"
-msgstr ""
+msgstr "Khamla a ramené Somsak chez elle, à Onesa. Lors d’une visite de routine au Village 04,\nle village de Khamla, Vilay trouve un nouveau-né dont le système du pays Onesa\nignore l’existence. Son téléphone n’a pas de signal depuis des semaines. Khamla\nmontre les deux cartes. L’application du CHW les lit avec **read-unverified**\n(STT-VER-011 ; STT-B45-002, STT-ZIP-002, STT-CBR-003), qui ne nécessite aucune liste\nde confiance. Elle affiche les doses, mais ne vérifie aucune signature et n’enregistre encore rien.\n"
 
 #: scenarios/user-scenarios/j2-found-at-home.json:88
 msgctxt "step.uses.role"
 msgid "PreQual codes read, but not yet mapped to the Onesa schedule"
-msgstr ""
+msgstr "Codes PreQual lus, mais pas encore mis en correspondance avec le calendrier du pays Onesa"
 
 #~ msgctxt "step.narrative"
 #~ msgid ""
