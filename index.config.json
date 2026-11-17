@@ -7,7 +7,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "4f1a2ade78a923fedcd6a9b38b907891ee7395d4",
+          "ref": "d34ae7692a304983a495b20b62f37b8b98d3cb85",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -17,8 +17,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-17",
-              "ref": "4f1a2ade78a923fedcd6a9b38b907891ee7395d4",
-              "evidence": "litlfred 2026-11-17 ~17:40Z, AskUserQuestion card in session session_01EucfRmoifSn3y5VFa3kXuQ: 'Yes, all five (Recommended)' — re-pin cat-harness-tools, fhir-harness, cat-harness, folio-assistant-core and smart-base to main for smart-trust-demo#38 (workshop canvas; viewer #2404-#2409, fhir-harness#457)"
+              "ref": "d34ae7692a304983a495b20b62f37b8b98d3cb85",
+              "evidence": "litlfred 2026-11-17 ~23:52Z, in session session_01EucfRn2hmBbRNLTgxehoZV: 're-pin fhir-harness and folio-assistant-core to main too' (smart-trust-demo#41, so lock:coherence:check passes)"
             }
           }
         }
@@ -29,7 +29,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "54a22454274f345ea0b4117aa5862f7e071b927e",
+          "ref": "54484a85b464e2cbc1d26d41c40f32d4a1f7bf0f",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -45,8 +45,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-17",
-              "ref": "54a22454274f345ea0b4117aa5862f7e071b927e",
-              "evidence": "litlfred 2026-11-17 ~17:40Z, AskUserQuestion card in session session_01EucfRmoifSn3y5VFa3kXuQ: 'Yes, all five (Recommended)' — re-pin cat-harness-tools, fhir-harness, cat-harness, folio-assistant-core and smart-base to main for smart-trust-demo#38 (workshop canvas; viewer #2404-#2409, fhir-harness#457)"
+              "ref": "54484a85b464e2cbc1d26d41c40f32d4a1f7bf0f",
+              "evidence": "litlfred 2026-11-17 ~23:52Z, in session session_01EucfRn2hmBbRNLTgxehoZV: 're-pin fhir-harness and folio-assistant-core to main too' (smart-trust-demo#41, so lock:coherence:check passes)"
             }
           }
         }
@@ -57,7 +57,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "54b6919c792b368217ce0188f85480bc9ab12382",
+          "ref": "72b0bc13606ea3ca2e1ec0a064a36a04835eb7bb",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -73,8 +73,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-17",
-              "ref": "54b6919c792b368217ce0188f85480bc9ab12382",
-              "evidence": "litlfred 2026-11-17 ~17:40Z, AskUserQuestion card in session session_01EucfRmoifSn3y5VFa3kXuQ: 'Yes, all five (Recommended)' — re-pin cat-harness-tools, fhir-harness, cat-harness, folio-assistant-core and smart-base to main for smart-trust-demo#38 (workshop canvas; viewer #2404-#2409, fhir-harness#457)"
+              "ref": "72b0bc13606ea3ca2e1ec0a064a36a04835eb7bb",
+              "evidence": "litlfred 2026-11-17 ~19:25Z, AskUserQuestion card in session session_01EucfRn2hmBbRNLTgxehoZV: 'Yes, both in #41 (Recommended)' — re-pin cat-harness and cat-harness-tools to main in smart-trust-demo#41 with the fhir-harness#459 re-pin, so lock:coherence:check passes"
             }
           }
         }
@@ -85,7 +85,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "f753755f2ec07c41dac67e21dc817a0eb75781a1",
+          "ref": "7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -98,8 +98,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-17",
-              "ref": "f753755f2ec07c41dac67e21dc817a0eb75781a1",
-              "evidence": "litlfred 2026-11-17 ~17:40Z, AskUserQuestion card in session session_01EucfRmoifSn3y5VFa3kXuQ: 'Yes, all five (Recommended)' — re-pin cat-harness-tools, fhir-harness, cat-harness, folio-assistant-core and smart-base to main for smart-trust-demo#38 (workshop canvas; viewer #2404-#2409, fhir-harness#457)"
+              "ref": "7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d",
+              "evidence": "litlfred 2026-11-17 ~19:25Z, AskUserQuestion card in session session_01EucfRn2hmBbRNLTgxehoZV: 'Yes, both in #41 (Recommended)' — re-pin cat-harness and cat-harness-tools to main in smart-trust-demo#41 with the fhir-harness#459 re-pin, so lock:coherence:check passes"
             }
           }
         }
