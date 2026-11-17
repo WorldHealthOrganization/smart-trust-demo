@@ -76,11 +76,6 @@ msgctxt "step.experiences.feeling"
 msgid "“No folder of papers this time.”"
 msgstr "«На этот раз никакой папки с бумагами»."
 
-#: scenarios/user-scenarios/j4-1-full-history-abroad.json:174
-msgctxt "step.fhirChanges.change"
-msgid "Created at Onesan Info Gateway"
-msgstr "Создано в Onesan Info Gateway"
-
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:162
 msgctxt "step.fhirChanges.change"
 msgid "Summary viewed, not stored in Taifafeki"
@@ -90,11 +85,6 @@ msgstr "Сводка просмотрена, но не сохранена в Т�
 msgctxt "step.fhirChanges.why"
 msgid "The data stays home, so the access log does too: the family can see who looked, from where and when."
 msgstr "Данные остаются на родине, а значит, и журнал доступа тоже: семья может видеть, кто просматривал запись, откуда и когда."
-
-#: scenarios/user-scenarios/j4-1-full-history-abroad.json:163
-msgctxt "step.fhirChanges.why"
-msgid "The Taifafeki clinic keeps a note of what it saw and how it was verified, without copying the Onesan record."
-msgstr "Тайфафекская клиника сохраняет заметку о том, что она видела и как это было проверено, не копируя онесскую запись."
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:146
 msgctxt "step.gaps"
@@ -151,11 +141,6 @@ msgctxt "step.record.description"
 msgid "Viewed in Taifafeki, never copied; access logged in Onesa"
 msgstr "Просмотрено в Тайфафеки, не скопировано; доступ зарегистрирован в Онесе"
 
-#: scenarios/user-scenarios/j4-1-full-history-abroad.json:70
-msgctxt "step.record.heldWhere"
-msgid "Onesan national records"
-msgstr "Национальные записи Онесы"
-
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:150
 msgctxt "step.references.label"
 msgid "IHE ITI VHL: Retrieve Manifest (ITI-YY5)"
@@ -165,11 +150,6 @@ msgstr "IHE ITI VHL: получение манифеста (Retrieve Manifest, I
 msgctxt "step.technicalSummary"
 msgid "A standard viewer fetches the record from Onesa, decrypts it in memory, and leaves an audit trail at home. Cross-border care with no shared database between the countries."
 msgstr "Стандартная программа просмотра получает запись из Онесы, расшифровывает её в памяти и оставляет журнал аудита на родине. Трансграничная помощь без общей базы данных между странами."
-
-#: scenarios/user-scenarios/j4-1-full-history-abroad.json:19
-msgctxt "step.title"
-msgid "A Taifafeki doctor sees the full history"
-msgstr "Тайфафекский врач видит всю историю"
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:23
 msgctxt "step.touchpoint"
@@ -236,16 +216,31 @@ msgctxt "where"
 msgid "Kesaro"
 msgstr "Кесаро"
 
+#: scenarios/user-scenarios/j4-1-full-history-abroad.json:22
+msgctxt "step.where"
+msgid "Kesaro paediatric clinic"
+msgstr "Педиатрическая клиника в Кесаро"
+
+#: scenarios/user-scenarios/j4-1-full-history-abroad.json:174
+msgctxt "step.fhirChanges.change"
+msgid "Created at the Onesa Info Gateway"
+msgstr ""
+
+#: scenarios/user-scenarios/j4-1-full-history-abroad.json:163
+msgctxt "step.fhirChanges.why"
+msgid "The Taifafeki clinic keeps a note of what it saw and how it was verified, without copying the Onesa record."
+msgstr ""
+
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:36
 msgctxt "step.narrative"
 msgid ""
 "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric\n"
 "clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The\n"
-"clinic viewer and the Onesan gateway take five steps:\n"
+"clinic viewer and the Onesa gateway take five steps:\n"
 "\n"
 "1. The viewer verifies the HCERT against Country B's DSC in its copy of the trust list.\n"
 "2. It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n"
-"3. The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n"
+"3. The Onesa gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n"
 "4. The viewer decrypts the IPS and DVCs (STT-VHL-007) (`TrustDemoJ41Received`).\n"
 "5. It shows them to Dr Anan: every dose since the birth, viewed, never copied.\n"
 "\n"
@@ -256,31 +251,21 @@ msgid ""
 "follow the VHL, and Dr Anan treats whatever the family can show as he\n"
 "would a paper record.\n"
 msgstr ""
-"Там, где всё началось: доктор Anan, педиатр, осматривает Somsak в педиатрической\n"
-"клинике в Кесаро. Bounmy показывает QR-код на своём телефоне\n"
-"и называет код доступа. Программа просмотра клиники и онесский шлюз выполняют пять шагов:\n"
-"\n"
-"1. Программа просмотра проверяет HCERT по DSC страны B в своей копии списка доверия.\n"
-"2. Она запрашивает манифест посредством ITI-YY5 с подписью HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n"
-"3. Онесский шлюз проверяет код доступа, срок действия и согласие, возвращает манифест и регистрирует доступ на родине (`TrustDemoJ41Access`).\n"
-"4. Программа просмотра расшифровывает IPS и DVC (STT-VHL-007) (`TrustDemoJ41Received`).\n"
-"5. Она показывает их доктору Anan: все дозы с момента рождения — просмотренные, но не скопированные.\n"
-"\n"
-"Неверный код доступа отклоняется, но попытка всё равно регистрируется в Онесе\n"
-"(`TrustDemoJ41WrongPasscode`). Если HCERT не проходит проверку (например,\n"
-"DSC страны B отсутствует в кэшированном списке), цифровая проверка невозможна.\n"
-"Клиника называет этап и причину (STT-VER-008), не переходит по VHL, а доктор Anan\n"
-"относится ко всему, что может показать семья, как к бумажной записи.\n"
 
-#: scenarios/user-scenarios/j4-1-full-history-abroad.json:22
-msgctxt "step.where"
-msgid "Kesaro paediatric clinic"
-msgstr "Педиатрическая клиника в Кесаро"
+#: scenarios/user-scenarios/j4-1-full-history-abroad.json:70
+msgctxt "step.record.heldWhere"
+msgid "Onesa national records"
+msgstr ""
+
+#: scenarios/user-scenarios/j4-1-full-history-abroad.json:19
+msgctxt "step.title"
+msgid "A doctor in Taifafeki sees the full history"
+msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:4
 msgctxt "title"
-msgid "J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history"
-msgstr "J4.1 — Непрерывность через границу: тайфафекский педиатр видит всю историю"
+msgid "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history"
+msgstr ""
 
 #~ msgctxt "step.narrative"
 #~ msgid ""
@@ -309,3 +294,58 @@ msgstr "J4.1 — Непрерывность через границу: тайф�
 #~ msgctxt "title"
 #~ msgid "J4.1 — Crossing back: a Taifafeki doctor sees the full history"
 #~ msgstr "J4.1 — Обратный путь: тайфафекский врач видит всю историю"
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "Created at Onesan Info Gateway"
+#~ msgstr "Создано в Onesan Info Gateway"
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Taifafeki clinic keeps a note of what it saw and how it was verified, without copying the Onesan record."
+#~ msgstr "Тайфафекская клиника сохраняет заметку о том, что она видела и как это было проверено, не копируя онесскую запись."
+
+#~ msgctxt "step.record.heldWhere"
+#~ msgid "Onesan national records"
+#~ msgstr "Национальные записи Онесы"
+
+#~ msgctxt "step.title"
+#~ msgid "A Taifafeki doctor sees the full history"
+#~ msgstr "Тайфафекский врач видит всю историю"
+
+#~ msgctxt "step.narrative"
+#~ msgid ""
+#~ "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric\n"
+#~ "clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The\n"
+#~ "clinic viewer and the Onesan gateway take five steps:\n"
+#~ "\n"
+#~ "1. The viewer verifies the HCERT against Country B's DSC in its copy of the trust list.\n"
+#~ "2. It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n"
+#~ "3. The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n"
+#~ "4. The viewer decrypts the IPS and DVCs (STT-VHL-007) (`TrustDemoJ41Received`).\n"
+#~ "5. It shows them to Dr Anan: every dose since the birth, viewed, never copied.\n"
+#~ "\n"
+#~ "A wrong passcode is refused, and the attempt is still logged in Onesa\n"
+#~ "(`TrustDemoJ41WrongPasscode`). If the HCERT does not verify (for example,\n"
+#~ "Country B's DSC is missing from the cached list), there is no digital\n"
+#~ "verification. The clinic names the step and the reason (STT-VER-008), does not\n"
+#~ "follow the VHL, and Dr Anan treats whatever the family can show as he\n"
+#~ "would a paper record.\n"
+#~ msgstr ""
+#~ "Там, где всё началось: доктор Anan, педиатр, осматривает Somsak в педиатрической\n"
+#~ "клинике в Кесаро. Bounmy показывает QR-код на своём телефоне\n"
+#~ "и называет код доступа. Программа просмотра клиники и онесский шлюз выполняют пять шагов:\n"
+#~ "\n"
+#~ "1. Программа просмотра проверяет HCERT по DSC страны B в своей копии списка доверия.\n"
+#~ "2. Она запрашивает манифест посредством ITI-YY5 с подписью HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n"
+#~ "3. Онесский шлюз проверяет код доступа, срок действия и согласие, возвращает манифест и регистрирует доступ на родине (`TrustDemoJ41Access`).\n"
+#~ "4. Программа просмотра расшифровывает IPS и DVC (STT-VHL-007) (`TrustDemoJ41Received`).\n"
+#~ "5. Она показывает их доктору Anan: все дозы с момента рождения — просмотренные, но не скопированные.\n"
+#~ "\n"
+#~ "Неверный код доступа отклоняется, но попытка всё равно регистрируется в Онесе\n"
+#~ "(`TrustDemoJ41WrongPasscode`). Если HCERT не проходит проверку (например,\n"
+#~ "DSC страны B отсутствует в кэшированном списке), цифровая проверка невозможна.\n"
+#~ "Клиника называет этап и причину (STT-VER-008), не переходит по VHL, а доктор Anan\n"
+#~ "относится ко всему, что может показать семья, как к бумажной записи.\n"
+
+#~ msgctxt "title"
+#~ msgid "J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history"
+#~ msgstr "J4.1 — Непрерывность через границу: тайфафекский педиатр видит всю историю"

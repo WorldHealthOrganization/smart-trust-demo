@@ -33,7 +33,7 @@ Description: "ملحق باللغة العربية (ar) لنظام الرموز 
 
 CodeSystem: TrustDemoOnesaEpiScheduleAr
 Id: TrustDemoOnesaEpiSchedule-ar
-Title: "رموز المستضدات والجرعات في جدول التطعيم الوطني (توضيحية، أونيسا (Onesa))"
+Title: "رموز المستضدات والجرعات في جدول التطعيم الوطني (توضيحية، Onesa)"
 Description: "ملحق باللغة العربية (ar) لنظام الرموز TrustDemoOnesaEpiSchedule: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية."
 * ^status = #draft
 * ^experimental = true

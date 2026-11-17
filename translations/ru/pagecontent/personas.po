@@ -188,10 +188,6 @@ msgstr "Khamla (мать, Онеса)"
 msgid "Onesa national health portal and gateway (Country B, XXU)"
 msgstr "Национальный портал здравоохранения и шлюз Онесы (страна B, XXU)"
 
-#: input/pagecontent/personas.md:64
-msgid "Needs: A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesan schedule; Automatic calculation of what is due next"
-msgstr "Потребности: надёжный ответ «да/нет» о подлинности карты; перевод иностранных вакцин в онесский график; автоматический расчёт того, что положено далее"
-
 #: input/pagecontent/personas.md:48
 msgid "Needs: A way to issue records that travel with the family; A child's full history at the point of care; Confidence the data is authentic"
 msgstr "Потребности: способ выдавать записи, которые путешествуют вместе с семьёй; полная история ребёнка в месте оказания помощи; уверенность в подлинности данных"
@@ -304,10 +300,6 @@ msgstr "Родитель, который хранит бумажные DVC ре�
 msgid "The people of the journeys"
 msgstr "Люди пользовательских путей"
 
-#: input/pagecontent/personas.md:77
-msgid "The subject of every journey: an Onesan baby boy born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional."
-msgstr "Субъект каждого пути: онесский мальчик, родившийся 2025-10-28 в провинциальной больнице Кесаро, Тайфафеки (страна A), в то время как его семья живёт в Онесе (страна B). Не имеет тайфафекского идентификационного номера; зарегистрирован в Онесе с временным идентификатором общинным медицинским работником (CHW) (J2). Не имеет устройства и действует через родителей. Сюжет взят из пошагового обзора практического семинара VaxLink (fredhersch/vaxlink). Вымышленный персонаж."
-
 #: input/pagecontent/personas.md:4
 #, python-brace-format
 msgid "These are the generic personas of the journeys J1 to J4: the roles that play the lanes of the <a0>business processes</a0>, each defined as an {code0}. The people and systems that play them in the journeys are fictional."
@@ -382,13 +374,21 @@ msgstr "Все они вымышлены. Их цели, потребности 
 msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
 msgstr "Средство просмотра педиатрической клиники в Кесаро, Тайфафеки (J4.1)"
 
+#: input/pagecontent/personas.md:65
+msgid "Needs: A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesa schedule; Automatic calculation of what is due next"
+msgstr ""
+
 #: input/pagecontent/personas.md:46
-msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
-msgstr "Персона: тайфафекский клиницист в Кесаро, который вводит Somsak дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и печатает два подписанных DVC (J1), а через год снова осматривает его в педиатрической клинике, читая его запись через VHL (J4.1). Вымышленный персонаж."
+msgid "Persona: a clinician in Kesaro, Taifafeki, who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
+msgstr ""
 
 #: input/pagecontent/personas.md:70
-msgid "Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
-msgstr "Персона: мать Somsak, 26 лет, гражданка Онесы, работающая в Тайфафеки (страна A), где она родила, и привозящая Somsak домой в Онесу (страна B). Хранит два бумажных DVC с J1 по J3. Вымышленный персонаж."
+msgid "Persona: Somsak's mother, 26, a national of Onesa who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
+msgstr ""
+
+#: input/pagecontent/personas.md:78
+msgid "The subject of every journey: a baby boy from Onesa, born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional."
+msgstr ""
 
 #~ #, python-brace-format
 #~ msgid "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the VaxLink walkthrough shows the same text."
@@ -402,3 +402,15 @@ msgstr "Персона: мать Somsak, 26 лет, гражданка Онес�
 
 #~ msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
 #~ msgstr "Персона: мать Somsak, 26 лет, гражданка Онесы, проживающая в Онесе (страна B), которая родила в Тайфафеки (страна A). Хранит два бумажных DVC с J1 по J3. Вымышленный персонаж."
+
+#~ msgid "Needs: A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesan schedule; Automatic calculation of what is due next"
+#~ msgstr "Потребности: надёжный ответ «да/нет» о подлинности карты; перевод иностранных вакцин в онесский график; автоматический расчёт того, что положено далее"
+
+#~ msgid "The subject of every journey: an Onesan baby boy born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional."
+#~ msgstr "Субъект каждого пути: онесский мальчик, родившийся 2025-10-28 в провинциальной больнице Кесаро, Тайфафеки (страна A), в то время как его семья живёт в Онесе (страна B). Не имеет тайфафекского идентификационного номера; зарегистрирован в Онесе с временным идентификатором общинным медицинским работником (CHW) (J2). Не имеет устройства и действует через родителей. Сюжет взят из пошагового обзора практического семинара VaxLink (fredhersch/vaxlink). Вымышленный персонаж."
+
+#~ msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
+#~ msgstr "Персона: тайфафекский клиницист в Кесаро, который вводит Somsak дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и печатает два подписанных DVC (J1), а через год снова осматривает его в педиатрической клинике, читая его запись через VHL (J4.1). Вымышленный персонаж."
+
+#~ msgid "Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
+#~ msgstr "Персона: мать Somsak, 26 лет, гражданка Онесы, работающая в Тайфафеки (страна A), где она родила, и привозящая Somsak домой в Онесу (страна B). Хранит два бумажных DVC с J1 по J3. Вымышленный персонаж."

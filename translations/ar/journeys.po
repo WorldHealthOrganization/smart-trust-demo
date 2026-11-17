@@ -241,14 +241,6 @@ msgstr "عامل التمكين (J2a): يقرأ الهاتف البطاقة دو
 msgid "Enabler (J2b): An offline form links the baby to his household immediately; it syncs once the phone finds a signal."
 msgstr "عامل التمكين (J2b): نموذج يعمل دون اتصال يربط الطفل بأسرته المعيشية فورًا، ويُزامَن حالما يجد الهاتف إشارة."
 
-#: docs/journeys.md:177
-msgid "Enabler (J3a): Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally."
-msgstr "عامل التمكين (J3a): مفتاح التوقيع الخاص بتايفافيكي موجود على قائمة الثقة المشتركة لمنظمة الصحة العالمية (WHO)، لذا يمكن لأي عيادة التحقق منه محليًا."
-
-#: docs/journeys.md:178
-msgid "Enabler (J3b): Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due."
-msgstr "عامل التمكين (J3b): يُحتفظ برمز تايفافيكي الأصلي ويُضاف الرمز الأونيسي بجانبه، ويحسب محرك الجدول ما هو مستحق."
-
 #: docs/journeys.md:202
 msgid "Enabler (J4.0a): A household wallet on one phone, with a separate health summary for each person."
 msgstr "عامل التمكين (J4.0a): محفظة للأسرة المعيشية على هاتف واحد، مع ملخص صحي منفصل لكل فرد."
@@ -407,11 +399,6 @@ msgstr "Khamla SENGMANY (J1–J3)، Bounmy SENGMANY (J4)"
 msgid "Khamla's bag"
 msgstr "حقيبة Khamla"
 
-#: docs/journeys.md:52
-#: docs/journeys.md:54
-msgid "Onesan national records"
-msgstr "السجلات الوطنية الأونيسية"
-
 #: docs/journeys.md:81
 msgid "Onesa national portal and gateway (XXU)"
 msgstr "البوابة الإلكترونية الوطنية وبوابة الربط الوطنية في جمهورية أونيسا (Onesa) (XXU)"
@@ -419,10 +406,6 @@ msgstr "البوابة الإلكترونية الوطنية وبوابة الر
 #: docs/journeys.md:42
 msgid "Onesa to Taifafeki"
 msgstr "من جمهورية أونيسا (Onesa) إلى تايفافيكي"
-
-#: docs/journeys.md:53
-msgid "Onesan records, link on the phone"
-msgstr "السجلات الأونيسية، والرابط على الهاتف"
 
 #: docs/journeys.md:240
 msgid "Matching vaccines across countries (J3b): when a monovalent vaccine is given abroad but the home schedule uses a combination (pentavalent), how should schedule rules count the doses still due?"
@@ -483,10 +466,6 @@ msgstr "السياسة (J2a): الحفاظ على خط فاصل واضح بين 
 #: docs/journeys.md:149
 msgid "Policy (J2b): Newborns can be registered at home, offline, before civil registration or a national ID exists."
 msgstr "السياسة (J2b): يمكن تسجيل المواليد في الوطن، دون اتصال، قبل وجود التسجيل المدني أو هوية وطنية (ID)."
-
-#: docs/journeys.md:179
-msgid "Policy (J3a): Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki."
-msgstr "السياسة (J3a): الثقة لامركزية: تتحقق عيادة أونيسية من توقيع تايفافيكي بنفسها، دون الاتصال بتايفافيكي."
 
 #: docs/journeys.md:180
 msgid "Policy (J3b): Never overwrite another country’s record: keep the original coding alongside the national one."
@@ -584,10 +563,6 @@ msgstr "تُربط متطلبات smart-trust-phw بالرحلات على الن
 msgid "smart-trust-tools"
 msgstr "smart-trust-tools"
 
-#: docs/journeys.md:8
-msgid "Somsak is born in Taifafeki, grows up in Onesa, and one year later a Taifafeki doctor can see every vaccine he has ever had, without a single record being copied across the border."
-msgstr "يولد Somsak في تايفافيكي، وينشأ في جمهورية أونيسا (Onesa)، وبعد عام واحد يستطيع طبيب تايفافيكي رؤية كل لقاح تلقاه في حياته، دون نسخ أي سجل عبر الحدود."
-
 #: docs/journeys.md:47
 msgid "Step"
 msgstr "الخطوة"
@@ -595,11 +570,6 @@ msgstr "الخطوة"
 #: docs/journeys.md:32
 msgid "The cast: Khamla SENGMANY (mother), Bounmy SENGMANY (father, holds the family phone), Vilay (community health worker, Village 04), Nurse Chanthason (Lomaru District Health Center) and Dr Anan (Taifafeki clinician, at the birth and a year later)."
 msgstr "الشخصيات: Khamla SENGMANY (الأم)، وBounmy SENGMANY (الأب، ويحمل هاتف الأسرة)، وVilay (عاملة صحة مجتمعية، القرية 04)، والممرضة Chanthason (المركز الصحي لمنطقة لومارو) ود. Anan (طبيب تايفافيكي، عند الولادة وبعد عام)."
-
-#: docs/journeys.md:217
-#, python-brace-format
-msgid "The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home ({code0})."
-msgstr "تتحقق بوابة الربط الأونيسية من رمز المرور وتاريخ الانتهاء والموافقة، وتُعيد البيان، وتسجّل الوصول في الوطن ({code0})."
 
 #: docs/journeys.md:198
 msgid "The QR holds only a pointer and a key: the record stays in Onesa."
@@ -732,10 +702,6 @@ msgstr "عمره 7 أسابيع"
 msgid "A foreign record used for the next vaccine"
 msgstr "سجل أجنبي يُستخدم للقاح التالي"
 
-#: docs/journeys.md:213
-msgid "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesan gateway take five steps:"
-msgstr "وفي المكان الذي بدأت فيه القصة، يفحص د. Anan، وهو طبيب أطفال، الطفلَ Somsak في عيادة أطفال في كيسارو. يُظهر Bounmy رمز QR على هاتفه وينطق رمز المرور. ويتّخذ عارض العيادة وبوابة الربط الأونيسية خمس خطوات:"
-
 #: docs/journeys.md:42
 msgid "Continuity across a border"
 msgstr "الاستمرارية عبر الحدود"
@@ -752,30 +718,13 @@ msgstr "J1 — تطعيمه وتسجيل جرعاته (تايفافيكي، يو
 msgid "J2 — Found and registered (Onesa, Somsak is 7 weeks old)"
 msgstr "J2 — العثور عليه وتسجيله (جمهورية أونيسا (Onesa)، عمر Somsak 7 أسابيع)"
 
-#: docs/journeys.md:129
-msgid "J2a. Khamla has brought Somsak home to Onesa. On a routine visit to Village 04, Khamla's village, Vilay finds a newborn the Onesan system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with read-unverified (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet."
-msgstr "J2a. أعادت Khamla الطفلَ Somsak إلى الوطن في جمهورية أونيسا (Onesa). وفي زيارة روتينية إلى القرية 04، قرية Khamla، تعثر Vilay على مولود لا يعلم النظام الأونيسي بوجوده. لم يكن في هاتفها أي إشارة منذ أسابيع. تُظهر Khamla البطاقتين. يقرؤهما تطبيق CHW بوضع read-unverified (STT-VER-011؛ STT-B45-002، STT-ZIP-002، STT-CBR-003)، الذي لا يحتاج إلى قائمة ثقة. ويعرض الجرعات، لكنه لا يتحقق من أي توقيع ولا يحفظ شيئًا بعد."
-
 #: docs/journeys.md:152
 msgid "J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)"
 msgstr "J3 — سجل أجنبي يُستخدم للقاح التالي (المركز الصحي لمنطقة لومارو، عمر Somsak 10 أسابيع)"
 
-#: docs/journeys.md:165
-#, python-brace-format
-msgid "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps Taifafeki's product coding and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at 6 weeks, are overdue at 10 weeks ({code3}), so Nurse Chanthason gives them that day. Khamla leaves with the date of the next doses ({code4}). Over the year Somsak gets the rest of his doses and measles-rubella at 9 months, in Onesa."
-msgstr "J3b. لا يطابق منتج Hep B التايفافيكي أي شيء في الجدول الوطني. فيحتفظ نظام EHR بترميز المنتج الخاص بتايفافيكي ويضيف ترميز الجدول بجانبه، من الخريطة الوطنية ({code0}). ولا تحتوي الخريطة على قيد لمنتج Hep B، لذا تتخذ الممرضة Chanthason القرار السريري بأنه جرعة الولادة في الجدول ({code1})، ويُضاف قرارها إلى الخريطة للعيادة التالية. ثم يُشغَّل جدول التطعيم ({code2}): تُحتسب جرعات الولادة، أما جرعات الخماسي 1 وbOPV 1 وPCV 1، المستحقة عند 6 أسابيع، فهي متأخرة عند 10 أسابيع ({code3})، لذا تعطيها الممرضة Chanthason في اليوم نفسه. وتغادر Khamla ومعها موعد الجرعات التالية ({code4}). وعلى مدار السنة يتلقى Somsak بقية جرعاته، ولقاح الحصبة والحصبة الألمانية عند 9 أشهر، في جمهورية أونيسا (Onesa)."
-
 #: docs/journeys.md:184
 msgid "J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)"
 msgstr "J4.0 — الاستمرارية عبر الحدود: أسرة واحدة، هاتف واحد (جمهورية أونيسا (Onesa)، بعد 12 شهرًا)"
-
-#: docs/journeys.md:209
-msgid "J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history (Kesaro, 12 months later)"
-msgstr "J4.1 — الاستمرارية عبر الحدود: طبيب أطفال تايفافيكي يرى التاريخ الكامل (كيسارو، بعد 12 شهرًا)"
-
-#: docs/journeys.md:106
-msgid "Khamla, an Onesan who works in Taifafeki, gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
-msgstr "تلد Khamla، وهي أونيسية تعمل في تايفافيكي، الطفلَ Somsak في 2025-10-28 في مستشفى مقاطعة كيسارو. ليس لديه رقم هوية تايفافيكي. يعطي د. Anan جرعتي الولادة من لقاحَي Hep B وBCG ويسجّلهما برموز منتجات WHO PreQual الخاصة بهما. ولكل جرعة، يقوم نظام المستشفى بثلاثة أمور:"
 
 #: docs/journeys.md:245
 msgid "Modules, terms and the canvas"
@@ -803,6 +752,57 @@ msgstr ""
 
 #: docs/journeys.md:247
 msgid "The workshop lives in the journeys viewer, beside the journeys it teaches from: the <a0>technical track</a0> (T1 to T7, with the two-day timetable of both tracks) and the <a1>policy-maker track</a1> (M1 to M7). Each module has a page there: its sessions, the journey steps it meets and its questions."
+msgstr ""
+
+#: docs/journeys.md:213
+msgid "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesa gateway take five steps:"
+msgstr ""
+
+#: docs/journeys.md:179
+msgid "Enabler (J3a): The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally."
+msgstr ""
+
+#: docs/journeys.md:180
+msgid "Enabler (J3b): The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due."
+msgstr ""
+
+#: docs/journeys.md:129
+msgid "J2a. Khamla has brought Somsak home to Onesa. On a routine visit to Village 04, Khamla's village, Vilay finds a newborn the Onesa system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with read-unverified (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet."
+msgstr ""
+
+#: docs/journeys.md:165
+#, python-brace-format
+msgid "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps the product coding of Taifafeki and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at 6 weeks, are overdue at 10 weeks ({code3}), so Nurse Chanthason gives them that day. Khamla leaves with the date of the next doses ({code4}). Over the year Somsak gets the rest of his doses and measles-rubella at 9 months, in Onesa."
+msgstr ""
+
+#: docs/journeys.md:209
+msgid "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history (Kesaro, 12 months later)"
+msgstr ""
+
+#: docs/journeys.md:106
+msgid "Khamla, a woman from Onesa who works in Taifafeki, gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
+msgstr ""
+
+#: docs/journeys.md:52
+#: docs/journeys.md:54
+msgid "national records of Onesa"
+msgstr ""
+
+#: docs/journeys.md:181
+msgid "Policy (J3a): Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
+msgstr ""
+
+#: docs/journeys.md:53
+msgid "records in Onesa, link on the phone"
+msgstr ""
+
+#: docs/journeys.md:8
+msgid "Somsak is born in Taifafeki, grows up in Onesa, and one year later a doctor in Taifafeki can see every vaccine he has ever had, without a single record being copied across the border."
+msgstr ""
+
+#: docs/journeys.md:219
+#, python-brace-format
+msgid "The Onesa gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home ({code0})."
 msgstr ""
 
 #~ #, python-brace-format
@@ -879,3 +879,41 @@ msgstr ""
 
 #~ msgid "The <a0>workshop module pages</a0> give each policy module (M1 to M7) and each technical module (T1 to T7, placeholders for now) a page: its canvas sheet, the journey steps it meets, its questions and its terms, with a switch between the two tracks."
 #~ msgstr "تخصّص <a0>صفحات وحدات ورشة العمل</a0> صفحةً لكل وحدة سياساتية (M1 إلى M7) ولكل وحدة تقنية (T1 إلى T7، وهي عناصر نائبة حاليًا): ورقة اللوحة الخاصة بها، وخطوات الرحلة التي تلتقي بها، وأسئلتها ومصطلحاتها، مع مفتاح للتبديل بين المسارين."
+
+#~ msgid "Enabler (J3a): Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally."
+#~ msgstr "عامل التمكين (J3a): مفتاح التوقيع الخاص بتايفافيكي موجود على قائمة الثقة المشتركة لمنظمة الصحة العالمية (WHO)، لذا يمكن لأي عيادة التحقق منه محليًا."
+
+#~ msgid "Enabler (J3b): Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due."
+#~ msgstr "عامل التمكين (J3b): يُحتفظ برمز تايفافيكي الأصلي ويُضاف الرمز الأونيسي بجانبه، ويحسب محرك الجدول ما هو مستحق."
+
+#~ msgid "Onesan national records"
+#~ msgstr "السجلات الوطنية الأونيسية"
+
+#~ msgid "Onesan records, link on the phone"
+#~ msgstr "السجلات الأونيسية، والرابط على الهاتف"
+
+#~ msgid "Policy (J3a): Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki."
+#~ msgstr "السياسة (J3a): الثقة لامركزية: تتحقق عيادة أونيسية من توقيع تايفافيكي بنفسها، دون الاتصال بتايفافيكي."
+
+#~ msgid "Somsak is born in Taifafeki, grows up in Onesa, and one year later a Taifafeki doctor can see every vaccine he has ever had, without a single record being copied across the border."
+#~ msgstr "يولد Somsak في تايفافيكي، وينشأ في جمهورية أونيسا (Onesa)، وبعد عام واحد يستطيع طبيب تايفافيكي رؤية كل لقاح تلقاه في حياته، دون نسخ أي سجل عبر الحدود."
+
+#~ #, python-brace-format
+#~ msgid "The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home ({code0})."
+#~ msgstr "تتحقق بوابة الربط الأونيسية من رمز المرور وتاريخ الانتهاء والموافقة، وتُعيد البيان، وتسجّل الوصول في الوطن ({code0})."
+
+#~ msgid "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesan gateway take five steps:"
+#~ msgstr "وفي المكان الذي بدأت فيه القصة، يفحص د. Anan، وهو طبيب أطفال، الطفلَ Somsak في عيادة أطفال في كيسارو. يُظهر Bounmy رمز QR على هاتفه وينطق رمز المرور. ويتّخذ عارض العيادة وبوابة الربط الأونيسية خمس خطوات:"
+
+#~ msgid "J2a. Khamla has brought Somsak home to Onesa. On a routine visit to Village 04, Khamla's village, Vilay finds a newborn the Onesan system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with read-unverified (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet."
+#~ msgstr "J2a. أعادت Khamla الطفلَ Somsak إلى الوطن في جمهورية أونيسا (Onesa). وفي زيارة روتينية إلى القرية 04، قرية Khamla، تعثر Vilay على مولود لا يعلم النظام الأونيسي بوجوده. لم يكن في هاتفها أي إشارة منذ أسابيع. تُظهر Khamla البطاقتين. يقرؤهما تطبيق CHW بوضع read-unverified (STT-VER-011؛ STT-B45-002، STT-ZIP-002، STT-CBR-003)، الذي لا يحتاج إلى قائمة ثقة. ويعرض الجرعات، لكنه لا يتحقق من أي توقيع ولا يحفظ شيئًا بعد."
+
+#~ #, python-brace-format
+#~ msgid "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps Taifafeki's product coding and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at 6 weeks, are overdue at 10 weeks ({code3}), so Nurse Chanthason gives them that day. Khamla leaves with the date of the next doses ({code4}). Over the year Somsak gets the rest of his doses and measles-rubella at 9 months, in Onesa."
+#~ msgstr "J3b. لا يطابق منتج Hep B التايفافيكي أي شيء في الجدول الوطني. فيحتفظ نظام EHR بترميز المنتج الخاص بتايفافيكي ويضيف ترميز الجدول بجانبه، من الخريطة الوطنية ({code0}). ولا تحتوي الخريطة على قيد لمنتج Hep B، لذا تتخذ الممرضة Chanthason القرار السريري بأنه جرعة الولادة في الجدول ({code1})، ويُضاف قرارها إلى الخريطة للعيادة التالية. ثم يُشغَّل جدول التطعيم ({code2}): تُحتسب جرعات الولادة، أما جرعات الخماسي 1 وbOPV 1 وPCV 1، المستحقة عند 6 أسابيع، فهي متأخرة عند 10 أسابيع ({code3})، لذا تعطيها الممرضة Chanthason في اليوم نفسه. وتغادر Khamla ومعها موعد الجرعات التالية ({code4}). وعلى مدار السنة يتلقى Somsak بقية جرعاته، ولقاح الحصبة والحصبة الألمانية عند 9 أشهر، في جمهورية أونيسا (Onesa)."
+
+#~ msgid "J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history (Kesaro, 12 months later)"
+#~ msgstr "J4.1 — الاستمرارية عبر الحدود: طبيب أطفال تايفافيكي يرى التاريخ الكامل (كيسارو، بعد 12 شهرًا)"
+
+#~ msgid "Khamla, an Onesan who works in Taifafeki, gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:"
+#~ msgstr "تلد Khamla، وهي أونيسية تعمل في تايفافيكي، الطفلَ Somsak في 2025-10-28 في مستشفى مقاطعة كيسارو. ليس لديه رقم هوية تايفافيكي. يعطي د. Anan جرعتي الولادة من لقاحَي Hep B وBCG ويسجّلهما برموز منتجات WHO PreQual الخاصة بهما. ولكل جرعة، يقوم نظام المستشفى بثلاثة أمور:"

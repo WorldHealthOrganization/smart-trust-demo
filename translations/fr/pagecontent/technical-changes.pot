@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-17T07:41:43.943Z\n"
+"POT-Creation-Date: 2026-11-17T18:50:35.750Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -364,7 +364,7 @@ msgstr ""
 
 #: input/pagecontent/technical-changes.md:38
 #, python-brace-format
-msgid "New task \"search client registry by caregiver's national ID\" before registration; Khamla's Patient gets an Onesa national ID; Somsak linked to her (RelatedPerson or {code0}). Design point: Vilay is offline for weeks, so the lookup needs a cached extract of the catchment's registry on the phone, or the match is queued until sync"
+msgid "New task \"search client registry by caregiver's national ID\" before registration; Khamla's Patient gets a national ID from Onesa; Somsak linked to her (RelatedPerson or {code0}). Design point: Vilay is offline for weeks, so the lookup needs a cached extract of the catchment's registry on the phone, or the match is queued until sync"
 msgstr ""
 
 #: input/pagecontent/technical-changes.md:42

@@ -602,11 +602,6 @@ msgstr "是（{code0}、{code1}）"
 msgid "yes ({code0})"
 msgstr "是（{code0}）"
 
-#: docs/proposals/journeys-viewer-parity/README.md:105
-#, python-brace-format
-msgid "yes ({code0}). Taifafeki–Onesan chapters: {code1} in VaxLink. Pilgrimage: {code2}"
-msgstr "是（{code0}）。泰–老章节：VaxLink 中为 {code1}。朝圣：{code2}"
-
 #: docs/proposals/journeys-viewer-parity/README.md:109
 #, python-brace-format
 msgid "yes, via {code0} (J4 holds J4.0 and J4.1)"
@@ -621,5 +616,14 @@ msgstr "是，凡是实例有屏幕之处"
 msgid "Status: spec, 2026-11-05. VaxLink was retired on 2026-11-11 by the owner's choice (issue #111): {code0} and {code1} are gone, and the gaps still open are beans."
 msgstr "状态：规格说明（spec），2026-11-05。VaxLink 已于 2026-11-11 按所有者的决定停用（issue #111）：{code0} 和 {code1} 已移除，仍未解决的差距记录为 bean。"
 
+#: docs/proposals/journeys-viewer-parity/README.md:105
+#, python-brace-format
+msgid "yes ({code0}). Taifafeki–Onesa chapters: {code1} in VaxLink. Pilgrimage: {code2}"
+msgstr ""
+
 #~ msgid "Status: spec, 2026-11-05."
 #~ msgstr "状态：规格说明（spec），2026-11-05。"
+
+#~ #, python-brace-format
+#~ msgid "yes ({code0}). Taifafeki–Onesan chapters: {code1} in VaxLink. Pilgrimage: {code2}"
+#~ msgstr "是（{code0}）。泰–老章节：VaxLink 中为 {code1}。朝圣：{code2}"

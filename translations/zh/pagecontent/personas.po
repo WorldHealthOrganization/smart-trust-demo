@@ -188,10 +188,6 @@ msgstr "Khamla（母亲，奥内萨）"
 msgid "Onesa national health portal and gateway (Country B, XXU)"
 msgstr "奥内萨国家卫生门户及网关（B 国，XXU）"
 
-#: input/pagecontent/personas.md:64
-msgid "Needs: A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesan schedule; Automatic calculation of what is due next"
-msgstr "需求：对接种卡是否真实给出可靠的是/否判断；将外国疫苗换算到奥内萨的接种计划；自动计算下一剂应接种什么"
-
 #: input/pagecontent/personas.md:48
 msgid "Needs: A way to issue records that travel with the family; A child's full history at the point of care; Confidence the data is authentic"
 msgstr "需求：一种能让记录随家庭流动的签发方式；在医疗服务点获得儿童的完整病史；确信数据是真实的"
@@ -304,10 +300,6 @@ msgstr "持有儿童纸质 DVC 和家庭手机并出示它们的家长；即 IHE
 msgid "The people of the journeys"
 msgstr "旅程中的人们"
 
-#: input/pagecontent/personas.md:77
-msgid "The subject of every journey: an Onesan baby boy born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional."
-msgstr "每段旅程的主体：一名奥内萨男婴，2025-10-28 出生于泰法费基（A 国）凯萨罗府医院，而他的家庭居住在奥内萨（B 国）。他没有泰法费基身份号码；由 CHW 在奥内萨以临时 id 为他登记（J2）。他不持有任何设备，由父母代为行事。故事来自 VaxLink 工作坊演练（fredhersch/vaxlink）。虚构人物。"
-
 #: input/pagecontent/personas.md:4
 #, python-brace-format
 msgid "These are the generic personas of the journeys J1 to J4: the roles that play the lanes of the <a0>business processes</a0>, each defined as an {code0}. The people and systems that play them in the journeys are fictional."
@@ -382,13 +374,21 @@ msgstr "以下人物均为虚构。他们的目标、需求和困扰记录在 {c
 msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
 msgstr "泰法费基凯萨罗儿科诊所查看端（J4.1）"
 
+#: input/pagecontent/personas.md:65
+msgid "Needs: A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesa schedule; Automatic calculation of what is due next"
+msgstr ""
+
 #: input/pagecontent/personas.md:46
-msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
-msgstr "人物画像：泰法费基凯萨罗的一名临床医生，为 Somsak 接种乙肝（Hep B）和卡介苗（BCG）出生剂次并打印两份已签名的 DVC（J1），一年后又在一家儿科诊所再次为他看诊，通过 VHL 读取他的记录（J4.1）。虚构人物。"
+msgid "Persona: a clinician in Kesaro, Taifafeki, who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
+msgstr ""
 
 #: input/pagecontent/personas.md:70
-msgid "Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
-msgstr "人物画像：Somsak 的母亲，26 岁，在泰法费基（A 国）工作的奥内萨公民，在那里分娩，并带 Somsak 回到奥内萨（B 国）的家。从 J1 到 J3 一直持有两份纸质 DVC。虚构人物。"
+msgid "Persona: Somsak's mother, 26, a national of Onesa who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
+msgstr ""
+
+#: input/pagecontent/personas.md:78
+msgid "The subject of every journey: a baby boy from Onesa, born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional."
+msgstr ""
 
 #~ #, python-brace-format
 #~ msgid "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the VaxLink walkthrough shows the same text."
@@ -402,3 +402,15 @@ msgstr "人物画像：Somsak 的母亲，26 岁，在泰法费基（A 国）工
 
 #~ msgid "Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional."
 #~ msgstr "人物画像：Somsak 的母亲，26 岁，居住在奥内萨（B 国）的奥内萨公民，在泰法费基（A 国）分娩。从 J1 到 J3 一直持有两份纸质 DVC。虚构人物。"
+
+#~ msgid "Needs: A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesan schedule; Automatic calculation of what is due next"
+#~ msgstr "需求：对接种卡是否真实给出可靠的是/否判断；将外国疫苗换算到奥内萨的接种计划；自动计算下一剂应接种什么"
+
+#~ msgid "The subject of every journey: an Onesan baby boy born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional."
+#~ msgstr "每段旅程的主体：一名奥内萨男婴，2025-10-28 出生于泰法费基（A 国）凯萨罗府医院，而他的家庭居住在奥内萨（B 国）。他没有泰法费基身份号码；由 CHW 在奥内萨以临时 id 为他登记（J2）。他不持有任何设备，由父母代为行事。故事来自 VaxLink 工作坊演练（fredhersch/vaxlink）。虚构人物。"
+
+#~ msgid "Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional."
+#~ msgstr "人物画像：泰法费基凯萨罗的一名临床医生，为 Somsak 接种乙肝（Hep B）和卡介苗（BCG）出生剂次并打印两份已签名的 DVC（J1），一年后又在一家儿科诊所再次为他看诊，通过 VHL 读取他的记录（J4.1）。虚构人物。"
+
+#~ msgid "Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional."
+#~ msgstr "人物画像：Somsak 的母亲，26 岁，在泰法费基（A 国）工作的奥内萨公民，在那里分娩，并带 Somsak 回到奥内萨（B 国）的家。从 J1 到 J3 一直持有两份纸质 DVC。虚构人物。"

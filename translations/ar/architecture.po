@@ -81,10 +81,6 @@ msgstr "يُسمّي كل عنصر مفهومه في <a0>المسرد</a0> ({cod
 msgid "Every line is routed orthogonally through the gaps between boxes and never through a box, and ends on a side of its box clear of the box's type label."
 msgstr "يُوجَّه كل خط توجيهاً متعامداً عبر الفجوات بين المربعات ولا يمر أبداً عبر مربع، وينتهي على جانب من مربعه بعيد عن تسمية نوع المربع."
 
-#: docs/architecture.md:29
-msgid "for each country, its own instance of every RA building block its parts play, such as Provider Systems (Taifafeki) and Provider Systems (Onesa): Taifafeki and Onesa are different jurisdictions, so a Taifafeki part realizes Taifafeki's instance, as the RA draws a concrete system realizing the component it plays (its Table 3.3), and that instance is a specialization of the RA's block;"
-msgstr "لكل بلد، نسخته الخاصة من كل لبنة بناء في البنية المرجعية (RA) تؤديها أجزاؤه، مثل «أنظمة مقدمي الخدمات (تايفافيكي)» و«أنظمة مقدمي الخدمات (Onesa)»: فتايفافيكي وأونيسا ولايتان قضائيتان مختلفتان، ولذلك يجسّد الجزء التايفافيكي نسخة تايفافيكي، كما ترسم البنية المرجعية نظاماً ملموساً يجسّد المكوِّن الذي يؤديه (جدولها 3.3)، وتلك النسخة تخصيص للبنة البنية المرجعية؛"
-
 #: docs/architecture.md:87
 msgid "How it is made"
 msgstr "كيف صُنع"
@@ -142,14 +138,6 @@ msgstr "الأشخاص المشاركون، بوصفهم أدوار عمل مُ�
 msgid "the RA's own building blocks, generic and no country's, in a band of their own below both countries in each journey's view;"
 msgstr "لبنات البناء الخاصة بالبنية المرجعية (RA)، العامة وغير المنتمية إلى أي بلد، في شريط مستقل أسفل البلدين في عرض كل رحلة؛"
 
-#: docs/architecture.md:24
-msgid "the Taifafeki and Onesan systems, serving the journeys they take part in, each holding its parts, each part named by what it does (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); the family's shared phone is a technology device that realizes the wallet app on it, not software;"
-msgstr "الأنظمة التايفافيكية والأونيسية، التي تخدم الرحلات التي تشارك فيها، ويحتوي كلٌّ منها على أجزائه، ويُسمّى كل جزء بحسب وظيفته (سجل المريض، النماذج الذكية (SDC)، سجل القوى العاملة الصحية (عمال الصحة المجتمعيون، الممرضون))؛ أما هاتف الأسرة المشترك فهو جهاز تقني يجسّد تطبيق المحفظة الموجود عليه، وليس برمجيات؛"
-
-#: docs/architecture.md:59
-msgid "Two columns: Taifafeki on the left, Onesa on the right. In each, the country's systems stack top to bottom in the order of the first journey they serve, each holding its parts, and each part says inside its own box which DPI-H RA building block it plays, as a tag such as «Provider Systems». A system's parts that meet the other country, or GDHCN, sit on the side facing the middle, and each Taifafeki system stands level with the first Onesan system it meets, so the dashed lines where the countries meet run across. Between the columns, only what both share: WHO GDHCN and the SMART Trust specifications. The countries' instances of the RA blocks, the parts' realizations of them, and the RA's own blocks are in the model and drawn in each journey's view, which keeps this one narrow and its lines few."
-msgstr "عمودان: تايفافيكي على اليسار، وأونيسا (Onesa) على اليمين. في كلٍّ منهما تتراص أنظمة البلد من الأعلى إلى الأسفل بترتيب أول رحلة تخدمها، ويحتوي كل نظام على أجزائه، ويذكر كل جزء داخل مربعه لبنة البناء في البنية المرجعية DPI-H RA التي يؤديها، على هيئة وسم مثل «أنظمة مقدمي الخدمات». وتقع أجزاء النظام التي تلتقي بالبلد الآخر أو بـ GDHCN على الجانب المواجه للوسط، ويقف كل نظام تايفافيكي على مستوى أول نظام أونيسي يلتقيه، بحيث تمتد الخطوط المتقطعة عند نقاط التقاء البلدين أفقياً. وبين العمودين لا يوجد إلا ما يشترك فيه البلدان: GDHCN التابعة لمنظمة الصحة العالمية (WHO) ومواصفات SMART Trust. أما نسخ البلدين من لبنات البنية المرجعية، وتجسيدات الأجزاء لها، ولبنات البنية المرجعية نفسها، فهي موجودة في النموذج ومرسومة في عرض كل رحلة، مما يُبقي هذا العرض ضيقاً وخطوطه قليلة."
-
 #: docs/architecture.md:79
 msgid "View"
 msgstr "العرض"
@@ -158,13 +146,37 @@ msgstr "العرض"
 msgid "what they share, and nothing else, between them: WHO GDHCN and the WHO SMART Trust specifications it realizes;"
 msgstr "ما يشتركان فيه، ولا شيء غيره، بينهما: GDHCN التابعة لمنظمة الصحة العالمية (WHO) ومواصفات WHO SMART Trust التي تجسّدها؛"
 
-#: docs/architecture.md:35
-msgid "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesan gateway, and the manifest it returns, the access logged in Onesa;"
-msgstr "نقاط التقاء البلدين، بوصفها علاقات تدفق وتشغيل بين أجزائهما، مقروءة من BPMN: شهادة التطعيم الرقمية (DVC) الورقية التي تطبعها J1 وتحملها الأسرة إلى J2 وJ3؛ وفي J4.1، رمز QR الخاص بـ VHL الذي يعرضه هاتف الأسرة على العيادة التايفافيكية، وطلب البيان الموقَّع ITI-YY5 من العيادة إلى بوابة الربط الأونيسية، والبيان الذي تعيده، مع تسجيل الوصول في أونيسا (Onesa)؛"
-
 #: docs/architecture.md:8
 msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>Reference Architecture (DPI-H)</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
 msgstr ""
 
+#: docs/architecture.md:29
+msgid "for each country, its own instance of every RA building block its parts play, such as Provider Systems (Taifafeki) and Provider Systems (Onesa): Taifafeki and Onesa are different jurisdictions, so a part in Taifafeki realizes the instance of Taifafeki, as the RA draws a concrete system realizing the component it plays (its Table 3.3), and that instance is a specialization of the RA's block;"
+msgstr ""
+
+#: docs/architecture.md:24
+msgid "the systems of Taifafeki and Onesa, serving the journeys they take part in, each holding its parts, each part named by what it does (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); the family's shared phone is a technology device that realizes the wallet app on it, not software;"
+msgstr ""
+
+#: docs/architecture.md:59
+msgid "Two columns: Taifafeki on the left, Onesa on the right. In each, the country's systems stack top to bottom in the order of the first journey they serve, each holding its parts, and each part says inside its own box which DPI-H RA building block it plays, as a tag such as «Provider Systems». A system's parts that meet the other country, or GDHCN, sit on the side facing the middle, and each Taifafeki system stands level with the first system of Onesa it meets, so the dashed lines where the countries meet run across. Between the columns, only what both share: WHO GDHCN and the SMART Trust specifications. The countries' instances of the RA blocks, the parts' realizations of them, and the RA's own blocks are in the model and drawn in each journey's view, which keeps this one narrow and its lines few."
+msgstr ""
+
+#: docs/architecture.md:35
+msgid "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesa gateway, and the manifest it returns, the access logged in Onesa;"
+msgstr ""
+
 #~ msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>DPI-H Reference Architecture</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
 #~ msgstr "رحلات هذا النموذج التوضيحي وأنظمته، مرسومة على هيئة طبقة ArchiMate فوق نموذج ArchiMate الخاص بـ<a0>البنية المرجعية DPI-H</a0> (smart-ra، الإصدار 0.3.0-draft.1). تبقى عناصر البنية المرجعية (RA) دون تغيير وتحتفظ بمعرّفاتها، فكل مربع للبنية المرجعية هنا هو العنصر الذي <a1>تنشره smart-ra</a1>. وتضيف الطبقة ما يلي:"
+
+#~ msgid "for each country, its own instance of every RA building block its parts play, such as Provider Systems (Taifafeki) and Provider Systems (Onesa): Taifafeki and Onesa are different jurisdictions, so a Taifafeki part realizes Taifafeki's instance, as the RA draws a concrete system realizing the component it plays (its Table 3.3), and that instance is a specialization of the RA's block;"
+#~ msgstr "لكل بلد، نسخته الخاصة من كل لبنة بناء في البنية المرجعية (RA) تؤديها أجزاؤه، مثل «أنظمة مقدمي الخدمات (تايفافيكي)» و«أنظمة مقدمي الخدمات (Onesa)»: فتايفافيكي وأونيسا ولايتان قضائيتان مختلفتان، ولذلك يجسّد الجزء التايفافيكي نسخة تايفافيكي، كما ترسم البنية المرجعية نظاماً ملموساً يجسّد المكوِّن الذي يؤديه (جدولها 3.3)، وتلك النسخة تخصيص للبنة البنية المرجعية؛"
+
+#~ msgid "the Taifafeki and Onesan systems, serving the journeys they take part in, each holding its parts, each part named by what it does (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); the family's shared phone is a technology device that realizes the wallet app on it, not software;"
+#~ msgstr "الأنظمة التايفافيكية والأونيسية، التي تخدم الرحلات التي تشارك فيها، ويحتوي كلٌّ منها على أجزائه، ويُسمّى كل جزء بحسب وظيفته (سجل المريض، النماذج الذكية (SDC)، سجل القوى العاملة الصحية (عمال الصحة المجتمعيون، الممرضون))؛ أما هاتف الأسرة المشترك فهو جهاز تقني يجسّد تطبيق المحفظة الموجود عليه، وليس برمجيات؛"
+
+#~ msgid "Two columns: Taifafeki on the left, Onesa on the right. In each, the country's systems stack top to bottom in the order of the first journey they serve, each holding its parts, and each part says inside its own box which DPI-H RA building block it plays, as a tag such as «Provider Systems». A system's parts that meet the other country, or GDHCN, sit on the side facing the middle, and each Taifafeki system stands level with the first Onesan system it meets, so the dashed lines where the countries meet run across. Between the columns, only what both share: WHO GDHCN and the SMART Trust specifications. The countries' instances of the RA blocks, the parts' realizations of them, and the RA's own blocks are in the model and drawn in each journey's view, which keeps this one narrow and its lines few."
+#~ msgstr "عمودان: تايفافيكي على اليسار، وأونيسا (Onesa) على اليمين. في كلٍّ منهما تتراص أنظمة البلد من الأعلى إلى الأسفل بترتيب أول رحلة تخدمها، ويحتوي كل نظام على أجزائه، ويذكر كل جزء داخل مربعه لبنة البناء في البنية المرجعية DPI-H RA التي يؤديها، على هيئة وسم مثل «أنظمة مقدمي الخدمات». وتقع أجزاء النظام التي تلتقي بالبلد الآخر أو بـ GDHCN على الجانب المواجه للوسط، ويقف كل نظام تايفافيكي على مستوى أول نظام أونيسي يلتقيه، بحيث تمتد الخطوط المتقطعة عند نقاط التقاء البلدين أفقياً. وبين العمودين لا يوجد إلا ما يشترك فيه البلدان: GDHCN التابعة لمنظمة الصحة العالمية (WHO) ومواصفات SMART Trust. أما نسخ البلدين من لبنات البنية المرجعية، وتجسيدات الأجزاء لها، ولبنات البنية المرجعية نفسها، فهي موجودة في النموذج ومرسومة في عرض كل رحلة، مما يُبقي هذا العرض ضيقاً وخطوطه قليلة."
+
+#~ msgid "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesan gateway, and the manifest it returns, the access logged in Onesa;"
+#~ msgstr "نقاط التقاء البلدين، بوصفها علاقات تدفق وتشغيل بين أجزائهما، مقروءة من BPMN: شهادة التطعيم الرقمية (DVC) الورقية التي تطبعها J1 وتحملها الأسرة إلى J2 وJ3؛ وفي J4.1، رمز QR الخاص بـ VHL الذي يعرضه هاتف الأسرة على العيادة التايفافيكية، وطلب البيان الموقَّع ITI-YY5 من العيادة إلى بوابة الربط الأونيسية، والبيان الذي تعيده، مع تسجيل الوصول في أونيسا (Onesa)؛"

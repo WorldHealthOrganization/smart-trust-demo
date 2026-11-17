@@ -84,11 +84,6 @@ msgctxt "step.fhirChanges.change"
 msgid "Drives the profile switcher"
 msgstr "يُشغِّل أداة التبديل بين ملفات التعريف"
 
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:96
-msgctxt "step.fhirChanges.change"
-msgid "Generated: 2 Taifafeki + 4 Onesan doses"
-msgstr "أُنتج: 2 من الجرعات التايفافيكية + 4 من الجرعات الأونيسية"
-
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:227
 msgctxt "step.fhirChanges.change"
 msgid "Signed pointer to encrypted IPS"
@@ -212,35 +207,15 @@ msgctxt "step.preconditions.title"
 msgid "Country B's DSC is shared with the trust anchor"
 msgstr "شهادة DSC الخاصة بالبلد B مُشارَكة مع مرسى الثقة"
 
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:43
-msgctxt "step.record.description"
-msgid "12-month summary: 2 Taifafeki + 4 Onesan doses"
-msgstr "ملخص 12 شهرًا: 2 من الجرعات التايفافيكية + 4 من الجرعات الأونيسية"
-
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:146
 msgctxt "step.record.description"
 msgid "Shareable link created; data stays in Onesa"
 msgstr "أُنشئ رابط قابل للمشاركة؛ وتبقى البيانات في أونيسا (Onesa)"
 
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:147
-msgctxt "step.record.heldWhere"
-msgid "Onesan national records (QR is just a pointer)"
-msgstr "السجلات الوطنية الأونيسية (رمز QR مجرد مؤشر)"
-
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:44
-msgctxt "step.record.heldWhere"
-msgid "Onesan national records + family wallet"
-msgstr "السجلات الوطنية الأونيسية + محفظة الأسرة"
-
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:63
 msgctxt "step.technicalSummary"
 msgid "A year of records from two countries is assembled into one International Patient Summary, a format any clinician abroad knows how to read."
 msgstr "تُجمَّع سجلات عام كامل من بلدين في ملخص مريض دولي واحد، وهو تنسيق يعرف أي ممارس سريري في الخارج كيف يقرؤه."
-
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:181
-msgctxt "step.technicalSummary"
-msgid "The QR is a key, not a copy. The record stays on the Onesan server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
-msgstr "رمز QR مفتاح، لا نسخة. يبقى السجل على الخادم الأونيسي، وتُسجَّل موافقة الأسرة (مَن، ولكم من الوقت) في صيغة معيارية ويُفرَض تطبيقها."
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:119
 msgctxt "step.title"
@@ -333,11 +308,6 @@ msgctxt "step.when"
 msgid "T0 + 12 months"
 msgstr "T0 + 12 شهرًا"
 
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:122
-msgctxt "step.where"
-msgid "Onesan–Taifafeki Friendship Bridge"
-msgstr "جسر الصداقة الأونيسي–التايفافيكي"
-
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:20
 msgctxt "step.where"
 msgid "Lomaru, Onesa"
@@ -363,6 +333,60 @@ msgctxt "title"
 msgid "J4.0 — Continuity across a border: one family, one phone"
 msgstr "J4.0 — الاستمرارية عبر الحدود: أسرة واحدة، هاتف واحد"
 
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:96
+msgctxt "step.fhirChanges.change"
+msgid "Generated: 2 Taifafeki + 4 Onesa doses"
+msgstr ""
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:43
+msgctxt "step.record.description"
+msgid "12-month summary: 2 Taifafeki + 4 Onesa doses"
+msgstr ""
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:147
+msgctxt "step.record.heldWhere"
+msgid "Onesa national records (QR is just a pointer)"
+msgstr ""
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:44
+msgctxt "step.record.heldWhere"
+msgid "Onesa national records + family wallet"
+msgstr ""
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:181
+msgctxt "step.technicalSummary"
+msgid "The QR is a key, not a copy. The record stays on the Onesa server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
+msgstr ""
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:122
+msgctxt "step.where"
+msgid "Onesa–Taifafeki Friendship Bridge"
+msgstr ""
+
 #~ msgctxt "title"
 #~ msgid "J4.0 — Crossing back: one family, one phone"
 #~ msgstr "J4.0 — العودة عبر الحدود: أسرة واحدة، هاتف واحد"
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "Generated: 2 Taifafeki + 4 Onesan doses"
+#~ msgstr "أُنتج: 2 من الجرعات التايفافيكية + 4 من الجرعات الأونيسية"
+
+#~ msgctxt "step.record.description"
+#~ msgid "12-month summary: 2 Taifafeki + 4 Onesan doses"
+#~ msgstr "ملخص 12 شهرًا: 2 من الجرعات التايفافيكية + 4 من الجرعات الأونيسية"
+
+#~ msgctxt "step.record.heldWhere"
+#~ msgid "Onesan national records (QR is just a pointer)"
+#~ msgstr "السجلات الوطنية الأونيسية (رمز QR مجرد مؤشر)"
+
+#~ msgctxt "step.record.heldWhere"
+#~ msgid "Onesan national records + family wallet"
+#~ msgstr "السجلات الوطنية الأونيسية + محفظة الأسرة"
+
+#~ msgctxt "step.technicalSummary"
+#~ msgid "The QR is a key, not a copy. The record stays on the Onesan server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
+#~ msgstr "رمز QR مفتاح، لا نسخة. يبقى السجل على الخادم الأونيسي، وتُسجَّل موافقة الأسرة (مَن، ولكم من الوقت) في صيغة معيارية ويُفرَض تطبيقها."
+
+#~ msgctxt "step.where"
+#~ msgid "Onesan–Taifafeki Friendship Bridge"
+#~ msgstr "جسر الصداقة الأونيسي–التايفافيكي"

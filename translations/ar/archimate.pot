@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo ArchiMate pages\n"
-"POT-Creation-Date: 2026-11-16T08:25:14.670Z\n"
+"POT-Creation-Date: 2026-11-17T18:50:37.276Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -1206,6 +1206,10 @@ msgstr ""
 msgid "1. Central Health Workforce Registry"
 msgstr ""
 
+#: archimate/0.1.0/view/id-007936f8c2424b96ad1893ef0ff66059.svg:0
+msgid "1. Central Health Workforce Registry — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: archimate/0.1.0/model.json:0
 msgid "1. Reference Architecture"
 msgstr ""
@@ -1279,8 +1283,7 @@ msgid ""
 "A capability is usually named using a phrase that emphasizes “what we do”. It represents an outcome-oriented, strategic abstraction of the enterprise’s abilities. \n"
 "\n"
 "Examples: \n"
-"- Patient Registration & Intake
-\n"
+"- Patient Registration & Intake\n"
 "- Medication Prescribing & Dispensing\n"
 "- Clinical Decision Support\n"
 msgstr ""
@@ -1452,8 +1455,16 @@ msgstr ""
 msgid "ALL High Level - Health Workforce"
 msgstr ""
 
+#: archimate/0.1.0/view/id-19be800d18a34a618d6e1955cf58e956.svg:0
+msgid "ALL High Level - Health Workforce — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/view/all-hrh-conceptual-view-stakeholder/index.html:0
 msgid "ALL HRH Conceptual View - Stakeholder"
+msgstr ""
+
+#: archimate/0.1.0/view/id-47ad69becbb84be59434bf289bd24a20.svg:0
+msgid "ALL HRH Conceptual View - Stakeholder — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
@@ -1728,6 +1739,10 @@ msgstr ""
 msgid "B"
 msgstr ""
 
+#: archimate/0.1.0/view/id-d7e3215f6d3d4e5e8b39ee521f8248c2.svg:0
+msgid "B — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: archimate/0.1.0/view/id-007936f8c2424b96ad1893ef0ff66059.svg:0
 msgid "Band with a dark header: a grouping for layout only; it adds no meaning (tinted in the layer most of its boxes belong to)"
 msgstr ""
@@ -1766,6 +1781,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/view/business-draft/index.html:0
 msgid "Business (draft)"
+msgstr ""
+
+#: archimate/0.1.0/view/id-455051f03d504b2e8e6e430bb9719792.svg:0
+msgid "Business (draft) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/business-actor/index.html:0
@@ -1856,6 +1875,10 @@ msgstr ""
 msgid "Capabilities-Goals"
 msgstr ""
 
+#: archimate/0.1.0/view/id-4e6e25746e8d4398add06fcbc4fb5a4e.svg:0
+msgid "Capabilities-Goals — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/element/capability/index.html:0
 msgid "Capability"
 msgstr ""
@@ -1907,6 +1930,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/metamodel/index.html:0
 msgid "CDS"
+msgstr ""
+
+#: archimate/0.1.0/view/id-4c98f10e0a244315acddaf5257c7822e.svg:0
+msgid "CDS — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: archimate/0.1.0/view/id-76c0e5d33b895f68af49f8590466474b.svg:0
@@ -2049,8 +2076,8 @@ msgstr ""
 msgid "cluster_4"
 msgstr ""
 
-#: en/smart-trust-demo/archimate/0.1.0/element/code-mapping-service-product-to-onesan-epi/index.html:0
-msgid "Code mapping service (product to Onesan EPI)"
+#: en/smart-trust-demo/archimate/0.1.0/element/code-mapping-service-product-to-onesa-epi/index.html:0
+msgid "Code mapping service (product to Onesa EPI)"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/cold-chain-management/index.html:0
@@ -2105,8 +2132,16 @@ msgstr ""
 msgid "Components"
 msgstr ""
 
+#: archimate/0.1.0/view/id-3ad41900b17d47f78129e16d32ed2f38.svg:0
+msgid "Components — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/view/components-draft/index.html:0
 msgid "Components draft"
+msgstr ""
+
+#: archimate/0.1.0/view/id-9528f400d14d4ad6b5273a8db4b83a44.svg:0
+msgid "Components draft — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: archimate/0.1.0/view/id-76c0e5d33b895f68af49f8590466474b.svg:0
@@ -2171,6 +2206,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/view/conformance/index.html:0
 msgid "Conformance"
+msgstr ""
+
+#: archimate/0.1.0/view/id-b44f768c54ea493c8b33499e5d2e2d33.svg:0
+msgid "Conformance — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: archimate/0.1.0/view/id-b16aba0577295090bd77388f73c61239.svg:0
@@ -2313,6 +2352,10 @@ msgstr ""
 msgid "D"
 msgstr ""
 
+#: archimate/0.1.0/view/id-ba6aa15d5d84416dab9fbd8a9f9fea14.svg:0
+msgid "D — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: archimate/0.1.0/view/id-76c0e5d33b895f68af49f8590466474b.svg:0
 msgid "dashboards"
 msgstr ""
@@ -2395,6 +2438,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/view/default-view/index.html:0
 msgid "Default View"
+msgstr ""
+
+#: archimate/0.1.0/view/id-2aa7a2e239e8406988adff73e76dcd88.svg:0
+msgid "Default View — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/demand-forecasting/index.html:0
@@ -3053,6 +3100,10 @@ msgstr ""
 msgid "Health Supply Chain Partners and Processes (DTH SC Figs. 1-3)"
 msgstr ""
 
+#: archimate/0.1.0/view/id-2d524cffba25509e82684f47d624cc42.svg:0
+msgid "Health Supply Chain Partners and Processes (DTH SC Figs. 1-3) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/element/health-supply-chain-processes/index.html:0
 msgid "Health Supply Chain Processes"
 msgstr ""
@@ -3297,6 +3348,10 @@ msgstr ""
 msgid "INTEROPERABILITY LAYER"
 msgstr ""
 
+#: archimate/0.1.0/view/id-8c5dd12b8d4e425184f6003d0513d569.svg:0
+msgid "Interoperability Layer — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/element/interoperability-management/index.html:0
 msgid "Interoperability Management"
 msgstr ""
@@ -3329,6 +3384,10 @@ msgstr ""
 msgid "J1 on the DPI-H RA"
 msgstr ""
 
+#: archimate/0.1.0/view/id-18d2033f445f5b8895f20719cb97bd91.svg:0
+msgid "J1 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/element/j2-discover-and-refer-an-unregistered-infant-in-country-b/index.html:0
 msgid "J2 Discover and refer an unregistered infant in Country B"
 msgstr ""
@@ -3341,8 +3400,16 @@ msgstr ""
 msgid "J2 on the DPI-H RA"
 msgstr ""
 
+#: archimate/0.1.0/view/id-099b088dc52f57289c647bfb64e8c4d6.svg:0
+msgid "J2 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/metamodel/index.html:0
 msgid "J3 on the DPI-H RA"
+msgstr ""
+
+#: archimate/0.1.0/view/id-c1154579a67d5815921b72f71587df50.svg:0
+msgid "J3 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/j3-verify-import-and-schedule-at-the-home-clinic/index.html:0
@@ -3365,8 +3432,16 @@ msgstr ""
 msgid "J4.0 on the DPI-H RA"
 msgstr ""
 
+#: archimate/0.1.0/view/id-ae1502fd9fb158c3bcb643bf39006d41.svg:0
+msgid "J4.0 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/metamodel/index.html:0
 msgid "J4.1 on the DPI-H RA"
+msgstr ""
+
+#: archimate/0.1.0/view/id-42b408eba96159c187c0612ce7c2c6cf.svg:0
+msgid "J4.1 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/j4-1-read-a-family-member-s-records-at-the-point-of-care/index.html:0
@@ -3401,12 +3476,12 @@ msgstr ""
 msgid "Journeys (use cases)"
 msgstr ""
 
-#: en/smart-trust-demo/archimate/0.1.0/element/kesaro-primary-care-clinic-viewer-taifafeki-j4-1/index.html:0
-msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
+#: en/smart-trust-demo/archimate/0.1.0/element/kesaro-paediatric-clinic-viewer-taifafeki-j4-1/index.html:0
+msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1): The VHL viewer of a primary care clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection."
+msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1): The VHL viewer of a paediatric clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection."
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/kesaro-provincial-hospital-system-taifafeki-country-a-xxr/index.html:0
@@ -3414,7 +3489,7 @@ msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR)"
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): The hospital record system and DVC issuing service of Kesaro Provincial Hospital in Taifafeki (Country A, the birth country): issues one DVC per birth dose (J1), signing with the DSC of GDHCN DEV test participant XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), which plays Taifafeki in the demonstrator. XXR is a DEV test participant, not Taifafeki's production key."
+msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): The hospital record system and DVC issuing service of Kesaro Provincial Hospital in Taifafeki (Country A, the birth country): issues one DVC per birth dose (J1), signing with the DSC of GDHCN DEV test participant XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), which plays Taifafeki in the demonstrator. XXR is a DEV test participant, not the production key of Taifafeki."
 msgstr ""
 
 #: archimate/0.1.0/view/id-007936f8c2424b96ad1893ef0ff66059.svg:0
@@ -3479,6 +3554,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/view/lmir-overview/index.html:0
 msgid "LMIR Overview"
+msgstr ""
+
+#: archimate/0.1.0/view/id-dbcfb8e417294161ac0b1614c2e18cc5.svg:0
+msgid "LMIR Overview — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/a-central-health-workforce-registry/index.html:0
@@ -3546,7 +3625,7 @@ msgid "Lomaru District Health Center EHR (Country B)"
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Lomaru District Health Center EHR (Country B): The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the Onesan schedule code beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3."
+msgid "Lomaru District Health Center EHR (Country B): The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the schedule code of Onesa beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3."
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/maintain-logical-information-models/index.html:0
@@ -3617,8 +3696,16 @@ msgstr ""
 msgid "Metadata Registry Governance"
 msgstr ""
 
+#: archimate/0.1.0/view/id-f7a5524bbac84f1a9cf424754750819d.svg:0
+msgid "Metadata Registry Governance — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/view/metamodel/index.html:0
 msgid "Metamodel"
+msgstr ""
+
+#: archimate/0.1.0/view/id-84f16b3860924939af7b99e625a96e5a.svg:0
+msgid "Metamodel — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/metamodel/index.html:0
@@ -3631,6 +3718,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/view/metamodel-vs-eira/index.html:0
 msgid "Metamodel vs EIRA"
+msgstr ""
+
+#: archimate/0.1.0/view/id-f6a9d019b02a4865a75ae76a8282fa1d.svg:0
+msgid "Metamodel vs EIRA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: archimate/0.1.0/view/id-76c0e5d33b895f68af49f8590466474b.svg:0
@@ -3659,10 +3750,8 @@ msgstr ""
 
 #: archimate/0.1.0/model.json:0
 msgid ""
-"Monitor content quality (e.g. monitor uniqueness, consitency)
-\n"
-"Monitor conformance (e.g. h
-\n"
+"Monitor content quality (e.g. monitor uniqueness, consitency)\n"
+"Monitor conformance (e.g. h\n"
 "Monitor usage (how many users are for a given asset)\n"
 msgstr ""
 
@@ -3704,6 +3793,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/view/national-product-catalogue-dth-pc-fig-2-ch-2-3/index.html:0
 msgid "National Product Catalogue (DTH PC Fig. 2, Ch. 2-3)"
+msgstr ""
+
+#: archimate/0.1.0/view/id-02175c6feb9155618981ff120f954420.svg:0
+msgid "National Product Catalogue (DTH PC Fig. 2, Ch. 2-3) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/national-regulatory-authority/index.html:0
@@ -3762,12 +3855,12 @@ msgstr ""
 msgid "Onesa (Country B, home)"
 msgstr ""
 
-#: en/smart-trust-demo/archimate/0.1.0/element/onesa-national-health-portal-and-gateway-country-b-xxk/index.html:0
+#: en/smart-trust-demo/archimate/0.1.0/element/onesa-national-health-portal-and-gateway-country-b-xxu/index.html:0
 msgid "Onesa national health portal and gateway (Country B, XXU)"
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa national health portal and gateway (Country B, XXU): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
+msgid "Onesa national health portal and gateway (Country B, XXU): The national FHIR server of Onesa, behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
@@ -3775,11 +3868,11 @@ msgid "Onesa, part of CHW app, Onesa (Country B): The registration and referral 
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Evaluates the Onesan infant immunization schedule against the child's doses, imported ones included, and says which are due (J3)."
+msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Evaluates the infant immunization schedule of Onesa against the child's doses, imported ones included, and says which are due (J3)."
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Maps a foreign vaccine product code to the Onesan EPI schedule code, which is added beside the original code on import (J3)."
+msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Maps a foreign vaccine product code to the Onesa EPI schedule code, which is added beside the original code on import (J3)."
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
@@ -3807,7 +3900,7 @@ msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU):
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with the document signer key of Onesa (J4.0)."
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
@@ -4042,7 +4135,7 @@ msgstr ""
 msgid "Plays <0>Computable Decision Support Engine</0> in smart-ra 0.3.0-draft.1"
 msgstr ""
 
-#: en/smart-trust-demo/archimate/0.1.0/element/schedule-evaluator-onesan-infant-schedule/index.html:0
+#: en/smart-trust-demo/archimate/0.1.0/element/schedule-evaluator-onesa-infant-schedule/index.html:0
 msgid "Plays <0>Computable Decision Support Engine</0> in smart-ra 0.3.0-draft.1 (through Computable Decision Support Engine (Onesa))"
 msgstr ""
 
@@ -4126,7 +4219,7 @@ msgstr ""
 msgid "Plays <0>Terminology Service</0> in smart-ra 0.3.0-draft.1"
 msgstr ""
 
-#: en/smart-trust-demo/archimate/0.1.0/element/code-mapping-service-product-to-onesan-epi/index.html:0
+#: en/smart-trust-demo/archimate/0.1.0/element/code-mapping-service-product-to-onesa-epi/index.html:0
 msgid "Plays <0>Terminology Service</0> in smart-ra 0.3.0-draft.1 (through Terminology Service (Onesa))"
 msgstr ""
 
@@ -4240,6 +4333,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/view/product-master-data-information-model-dth-pc-figs-8-9/index.html:0
 msgid "Product Master Data Information Model (DTH PC Figs. 8-9)"
+msgstr ""
+
+#: archimate/0.1.0/view/id-053fa0e33f6b5b0bb218195486c05160.svg:0
+msgid "Product Master Data Information Model (DTH PC Figs. 8-9) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/product-master-data-management/index.html:0
@@ -4610,8 +4707,8 @@ msgstr ""
 msgid "routine HMIS"
 msgstr ""
 
-#: en/smart-trust-demo/archimate/0.1.0/element/schedule-evaluator-onesan-infant-schedule/index.html:0
-msgid "Schedule evaluator (Onesan infant schedule)"
+#: en/smart-trust-demo/archimate/0.1.0/element/schedule-evaluator-onesa-infant-schedule/index.html:0
+msgid "Schedule evaluator (Onesa infant schedule)"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/secondary-use/index.html:0
@@ -4698,6 +4795,10 @@ msgstr ""
 msgid "SHR"
 msgstr ""
 
+#: archimate/0.1.0/view/id-cefde7ed0dcd47d3bb214657ac3e5725.svg:0
+msgid "SHR — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/element/simulator/index.html:0
 msgid "Simulator"
 msgstr ""
@@ -4726,8 +4827,16 @@ msgstr ""
 msgid "SMART Trust demo journeys (use cases)"
 msgstr ""
 
+#: archimate/0.1.0/view/id-c6cae81c85da5fc197ab58547274a481.svg:0
+msgid "SMART Trust demo journeys (use cases) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/metamodel/index.html:0
 msgid "SMART Trust demo on the DPI-H Integrated View"
+msgstr ""
+
+#: archimate/0.1.0/view/id-249a1002c32e50199e27a502ef0ec3d8.svg:0
+msgid "SMART Trust demo on the DPI-H Integrated View — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
@@ -4874,6 +4983,10 @@ msgstr ""
 msgid "SUB-GOAL 1. Central Health Workforce Registry"
 msgstr ""
 
+#: archimate/0.1.0/view/id-6702871f89b641d4823ad05fbd2a4bdb.svg:0
+msgid "SUB-GOAL 1. Central Health Workforce Registry — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
 #: en/smart-trust-demo/archimate/0.1.0/element/subject-of-care/index.html:0
 msgid "Subject of care"
 msgstr ""
@@ -4979,11 +5092,11 @@ msgid "Taifafeki (Country A, XXR)"
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Taifafeki, part of Kesaro primary care clinic viewer, Taifafeki (J4.1): Reads a Verifiable Health Link QR at the point of care, checks its signature against the GDHCN trust list, fetches the manifest from Onesa with a signed request and shows the decrypted records (J4.1)."
+msgid "Taifafeki, part of Kesaro paediatric clinic viewer, Taifafeki (J4.1): Reads a Verifiable Health Link QR at the point of care, checks its signature against the GDHCN trust list, fetches the manifest from Onesa with a signed request and shows the decrypted records (J4.1)."
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Builds each Digital Vaccination Certificate as an HCERT payload and has it signed with Taifafeki's document signer key, published to GDHCN (J1)."
+msgid "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Builds each Digital Vaccination Certificate as an HCERT payload and has it signed with the document signer key of Taifafeki, published to GDHCN (J1)."
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
@@ -5096,6 +5209,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/view/testing/index.html:0
 msgid "Testing"
+msgstr ""
+
+#: archimate/0.1.0/view/id-0e97a3f6a8f545f5bd90e123c11a2545.svg:0
+msgid "Testing — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/testing-platform-ms/index.html:0
@@ -5331,6 +5448,10 @@ msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/metamodel/index.html:0
 msgid "Track and Trace through DHSC Components (DTH SC Fig. 24)"
+msgstr ""
+
+#: archimate/0.1.0/view/id-bea56e01c8345fbc803dee47a17ccfd3.svg:0
+msgid "Track and Trace through DHSC Components (DTH SC Fig. 24) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
 msgstr ""
 
 #: en/smart-trust-demo/archimate/0.1.0/element/tracking/index.html:0
@@ -5578,7 +5699,7 @@ msgid "WHO SMART Trust specifications (HCERT, DVC, VHL)"
 msgstr ""
 
 #: archimate/0.1.0/model.json:0
-msgid "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets an Onesan clinic believe a Taifafeki certificate, and a Taifafeki clinic an Onesan link, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries."
+msgid "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets a clinic in Onesa believe a certificate from Taifafeki, and a clinic in Taifafeki a link from Onesa, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries."
 msgstr ""
 
 #: archimate/0.1.0/view/id-007936f8c2424b96ad1893ef0ff66059.svg:0

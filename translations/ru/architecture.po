@@ -68,10 +68,6 @@ msgstr "Каждый элемент называет своё понятие в 
 msgid "Every line is routed orthogonally through the gaps between boxes and never through a box, and ends on a side of its box clear of the box's type label."
 msgstr "Каждая линия прокладывается ортогонально через промежутки между блоками и никогда не проходит через блок, а заканчивается на той стороне своего блока, где нет метки типа блока."
 
-#: docs/architecture.md:29
-msgid "for each country, its own instance of every RA building block its parts play, such as Provider Systems (Taifafeki) and Provider Systems (Onesa): Taifafeki and Onesa are different jurisdictions, so a Taifafeki part realizes Taifafeki's instance, as the RA draws a concrete system realizing the component it plays (its Table 3.3), and that instance is a specialization of the RA's block;"
-msgstr "для каждой страны — её собственный экземпляр каждого стандартного блока RA, роль которого исполняют её части, например Provider Systems (Taifafeki) и Provider Systems (Onesa): Тайфафеки и Онеса — разные юрисдикции, поэтому тайфафекская часть реализует экземпляр Тайфафеки, так же как RA изображает конкретную систему, реализующую компонент, роль которого она исполняет (её таблица 3.3), и этот экземпляр является специализацией блока RA;"
-
 #: docs/architecture.md:87
 msgid "How it is made"
 msgstr "Как это сделано"
@@ -129,14 +125,6 @@ msgstr "людей, которые принимают участие, как б�
 msgid "the RA's own building blocks, generic and no country's, in a band of their own below both countries in each journey's view;"
 msgstr "собственные стандартные блоки RA, обобщённые и не принадлежащие ни одной стране, в отдельной полосе под обеими странами в представлении каждого пути;"
 
-#: docs/architecture.md:24
-msgid "the Taifafeki and Onesan systems, serving the journeys they take part in, each holding its parts, each part named by what it does (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); the family's shared phone is a technology device that realizes the wallet app on it, not software;"
-msgstr "тайфафекские и онесские системы, обслуживающие пути, в которых они участвуют, каждая со своими частями, и каждая часть названа по тому, что она делает (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); общий телефон семьи — это технологическое устройство, реализующее установленное на нём приложение-кошелёк, а не программное обеспечение;"
-
-#: docs/architecture.md:59
-msgid "Two columns: Taifafeki on the left, Onesa on the right. In each, the country's systems stack top to bottom in the order of the first journey they serve, each holding its parts, and each part says inside its own box which DPI-H RA building block it plays, as a tag such as «Provider Systems». A system's parts that meet the other country, or GDHCN, sit on the side facing the middle, and each Taifafeki system stands level with the first Onesan system it meets, so the dashed lines where the countries meet run across. Between the columns, only what both share: WHO GDHCN and the SMART Trust specifications. The countries' instances of the RA blocks, the parts' realizations of them, and the RA's own blocks are in the model and drawn in each journey's view, which keeps this one narrow and its lines few."
-msgstr "Две колонки: Тайфафеки слева, Онеса справа. В каждой системы страны расположены сверху вниз в порядке первого пути, который они обслуживают, каждая со своими частями, и каждая часть внутри своего блока указывает, роль какого стандартного блока DPI-H RA она исполняет, в виде метки, например «Provider Systems». Части системы, которые взаимодействуют с другой страной или с GDHCN, расположены на стороне, обращённой к середине, и каждая тайфафекская система стоит на одном уровне с первой онесской системой, с которой она взаимодействует, так что пунктирные линии в местах встречи стран идут поперёк. Между колонками — только то, что общее для обеих: GDHCN ВОЗ и спецификации SMART Trust. Экземпляры блоков RA стран, их реализации частями и собственные блоки RA есть в модели и изображены в представлении каждого пути, что сохраняет это представление узким, а его линии — немногочисленными."
-
 #: docs/architecture.md:79
 msgid "View"
 msgstr "Представление"
@@ -145,13 +133,37 @@ msgstr "Представление"
 msgid "what they share, and nothing else, between them: WHO GDHCN and the WHO SMART Trust specifications it realizes;"
 msgstr "то, что у них общее, и ничего более, между ними: GDHCN ВОЗ и реализуемые ею спецификации SMART Trust ВОЗ;"
 
-#: docs/architecture.md:35
-msgid "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesan gateway, and the manifest it returns, the access logged in Onesa;"
-msgstr "места встречи двух стран — как отношения потока и инициирования между их частями, прочитанные из BPMN: бумажный DVC, который печатается в J1 и который семья несёт в J2 и J3; в J4.1 — QR-код VHL, который телефон семьи показывает тайфафекской клинике, подписанный запрос манифеста ITI-YY5 клиники к онесскому шлюзу и возвращаемый им манифест, с регистрацией доступа в Онесе;"
-
 #: docs/architecture.md:8
 msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>Reference Architecture (DPI-H)</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
 msgstr ""
 
+#: docs/architecture.md:29
+msgid "for each country, its own instance of every RA building block its parts play, such as Provider Systems (Taifafeki) and Provider Systems (Onesa): Taifafeki and Onesa are different jurisdictions, so a part in Taifafeki realizes the instance of Taifafeki, as the RA draws a concrete system realizing the component it plays (its Table 3.3), and that instance is a specialization of the RA's block;"
+msgstr ""
+
+#: docs/architecture.md:24
+msgid "the systems of Taifafeki and Onesa, serving the journeys they take part in, each holding its parts, each part named by what it does (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); the family's shared phone is a technology device that realizes the wallet app on it, not software;"
+msgstr ""
+
+#: docs/architecture.md:59
+msgid "Two columns: Taifafeki on the left, Onesa on the right. In each, the country's systems stack top to bottom in the order of the first journey they serve, each holding its parts, and each part says inside its own box which DPI-H RA building block it plays, as a tag such as «Provider Systems». A system's parts that meet the other country, or GDHCN, sit on the side facing the middle, and each Taifafeki system stands level with the first system of Onesa it meets, so the dashed lines where the countries meet run across. Between the columns, only what both share: WHO GDHCN and the SMART Trust specifications. The countries' instances of the RA blocks, the parts' realizations of them, and the RA's own blocks are in the model and drawn in each journey's view, which keeps this one narrow and its lines few."
+msgstr ""
+
+#: docs/architecture.md:35
+msgid "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesa gateway, and the manifest it returns, the access logged in Onesa;"
+msgstr ""
+
 #~ msgid "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>DPI-H Reference Architecture</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:"
 #~ msgstr "Пути и системы этого демонстратора, изображённые как наложение ArchiMate на собственную модель ArchiMate <a0>эталонной архитектуры DPI-H</a0> (smart-ra, версия 0.3.0-draft.1). Элементы RA не изменены и сохраняют свои идентификаторы, поэтому каждый блок RA здесь — это элемент, который <a1>публикует smart-ra</a1>. Наложение добавляет:"
+
+#~ msgid "for each country, its own instance of every RA building block its parts play, such as Provider Systems (Taifafeki) and Provider Systems (Onesa): Taifafeki and Onesa are different jurisdictions, so a Taifafeki part realizes Taifafeki's instance, as the RA draws a concrete system realizing the component it plays (its Table 3.3), and that instance is a specialization of the RA's block;"
+#~ msgstr "для каждой страны — её собственный экземпляр каждого стандартного блока RA, роль которого исполняют её части, например Provider Systems (Taifafeki) и Provider Systems (Onesa): Тайфафеки и Онеса — разные юрисдикции, поэтому тайфафекская часть реализует экземпляр Тайфафеки, так же как RA изображает конкретную систему, реализующую компонент, роль которого она исполняет (её таблица 3.3), и этот экземпляр является специализацией блока RA;"
+
+#~ msgid "the Taifafeki and Onesan systems, serving the journeys they take part in, each holding its parts, each part named by what it does (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); the family's shared phone is a technology device that realizes the wallet app on it, not software;"
+#~ msgstr "тайфафекские и онесские системы, обслуживающие пути, в которых они участвуют, каждая со своими частями, и каждая часть названа по тому, что она делает (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); общий телефон семьи — это технологическое устройство, реализующее установленное на нём приложение-кошелёк, а не программное обеспечение;"
+
+#~ msgid "Two columns: Taifafeki on the left, Onesa on the right. In each, the country's systems stack top to bottom in the order of the first journey they serve, each holding its parts, and each part says inside its own box which DPI-H RA building block it plays, as a tag such as «Provider Systems». A system's parts that meet the other country, or GDHCN, sit on the side facing the middle, and each Taifafeki system stands level with the first Onesan system it meets, so the dashed lines where the countries meet run across. Between the columns, only what both share: WHO GDHCN and the SMART Trust specifications. The countries' instances of the RA blocks, the parts' realizations of them, and the RA's own blocks are in the model and drawn in each journey's view, which keeps this one narrow and its lines few."
+#~ msgstr "Две колонки: Тайфафеки слева, Онеса справа. В каждой системы страны расположены сверху вниз в порядке первого пути, который они обслуживают, каждая со своими частями, и каждая часть внутри своего блока указывает, роль какого стандартного блока DPI-H RA она исполняет, в виде метки, например «Provider Systems». Части системы, которые взаимодействуют с другой страной или с GDHCN, расположены на стороне, обращённой к середине, и каждая тайфафекская система стоит на одном уровне с первой онесской системой, с которой она взаимодействует, так что пунктирные линии в местах встречи стран идут поперёк. Между колонками — только то, что общее для обеих: GDHCN ВОЗ и спецификации SMART Trust. Экземпляры блоков RA стран, их реализации частями и собственные блоки RA есть в модели и изображены в представлении каждого пути, что сохраняет это представление узким, а его линии — немногочисленными."
+
+#~ msgid "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesan gateway, and the manifest it returns, the access logged in Onesa;"
+#~ msgstr "места встречи двух стран — как отношения потока и инициирования между их частями, прочитанные из BPMN: бумажный DVC, который печатается в J1 и который семья несёт в J2 и J3; в J4.1 — QR-код VHL, который телефон семьи показывает тайфафекской клинике, подписанный запрос манифеста ITI-YY5 клиники к онесскому шлюзу и возвращаемый им манифест, с регистрацией доступа в Онесе;"

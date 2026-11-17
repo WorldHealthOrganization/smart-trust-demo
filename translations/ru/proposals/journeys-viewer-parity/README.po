@@ -602,11 +602,6 @@ msgstr "да ({code0}, {code1})"
 msgid "yes ({code0})"
 msgstr "да ({code0})"
 
-#: docs/proposals/journeys-viewer-parity/README.md:105
-#, python-brace-format
-msgid "yes ({code0}). Taifafeki–Onesan chapters: {code1} in VaxLink. Pilgrimage: {code2}"
-msgstr "да ({code0}). Тайфафекско-онесские главы: {code1} в VaxLink. Паломничество: {code2}"
-
 #: docs/proposals/journeys-viewer-parity/README.md:109
 #, python-brace-format
 msgid "yes, via {code0} (J4 holds J4.0 and J4.1)"
@@ -621,5 +616,14 @@ msgstr "да, везде, где у экземпляра есть экраны"
 msgid "Status: spec, 2026-11-05. VaxLink was retired on 2026-11-11 by the owner's choice (issue #111): {code0} and {code1} are gone, and the gaps still open are beans."
 msgstr "Статус: спецификация, 2026-11-05. VaxLink выведен из эксплуатации 2026-11-11 по решению владельца (issue #111): {code0} и {code1} удалены, а оставшиеся открытыми пробелы оформлены как beans."
 
+#: docs/proposals/journeys-viewer-parity/README.md:105
+#, python-brace-format
+msgid "yes ({code0}). Taifafeki–Onesa chapters: {code1} in VaxLink. Pilgrimage: {code2}"
+msgstr ""
+
 #~ msgid "Status: spec, 2026-11-05."
 #~ msgstr "Статус: спецификация, 2026-11-05."
+
+#~ #, python-brace-format
+#~ msgid "yes ({code0}). Taifafeki–Onesan chapters: {code1} in VaxLink. Pilgrimage: {code2}"
+#~ msgstr "да ({code0}). Тайфафекско-онесские главы: {code1} в VaxLink. Паломничество: {code2}"

@@ -1272,32 +1272,6 @@ msgstr "Центральный реестр медицинских кадров"
 
 #: archimate/0.1.0/model.json:0
 msgid ""
-"A high-level ability that an organization, system, or individual possesses or must develop in order to achieve its strategic goals. It expresses what the enterprise is able to do, independent of how that ability is implemented.\n"
-"\n"
-"\n"
-"\n"
-"A capability is usually named using a phrase that emphasizes “what we do”. It represents an outcome-oriented, strategic abstraction of the enterprise’s abilities. \n"
-"\n"
-"Examples: \n"
-"- Patient Registration & Intake
-\n"
-"- Medication Prescribing & Dispensing\n"
-"- Clinical Decision Support\n"
-msgstr ""
-"Высокоуровневая способность, которой организация, система или отдельное лицо обладает или которую должна развить для достижения своих стратегических целей. Она выражает то, что предприятие способно делать, независимо от того, как эта способность реализована.\n"
-"\n"
-"\n"
-"\n"
-"Возможность обычно называют фразой, подчёркивающей, «что мы делаем». Она представляет собой ориентированную на результат стратегическую абстракцию способностей предприятия. \n"
-"\n"
-"Примеры: \n"
-"- Регистрация и приём пациентов\n"
-"- Назначение и отпуск лекарственных средств\n"
-"- Клиническая поддержка принятия решений\n"
-"\n"
-
-#: archimate/0.1.0/model.json:0
-msgid ""
 "A high-level statement of intent, direction, or desired state for an organization and its stakeholders. \n"
 "\n"
 "Goals are expressed qualitatively, and can represent anything a stakeholder may desire, such as a state of affairs, or a produced value.  Goals define direction and intention, and may be broken into smaller sub-goals or linked to measurable outcomes. \n"
@@ -2108,10 +2082,6 @@ msgstr "cluster_3"
 #: archimate/0.1.0/metamodel.dependency-dynamic.svg:0
 msgid "cluster_4"
 msgstr "cluster_4"
-
-#: en/smart-trust-demo/archimate/0.1.0/element/code-mapping-service-product-to-onesan-epi/index.html:0
-msgid "Code mapping service (product to Onesan EPI)"
-msgstr "Служба сопоставления кодов (продукт → онесский EPI)"
 
 #: en/smart-trust-demo/archimate/0.1.0/element/cold-chain-management/index.html:0
 msgid "Cold Chain Management"
@@ -3461,21 +3431,9 @@ msgstr "Путь J4.1 («J4.1 Прочитать записи члена сем�
 msgid "Journeys (use cases)"
 msgstr "Пути (варианты использования)"
 
-#: en/smart-trust-demo/archimate/0.1.0/element/kesaro-primary-care-clinic-viewer-taifafeki-j4-1/index.html:0
-msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
-msgstr "Средство просмотра клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки (J4.1)"
-
-#: archimate/0.1.0/model.json:0
-msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1): The VHL viewer of a primary care clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection."
-msgstr "Средство просмотра клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки (J4.1): программа просмотра VHL клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки, снова в стране A через год после рождения (J4.1): проверяет VHL, после ввода кода доступа загружает манифест с подписью HTTP Message Signature и расшифровывает документы для просмотра. Её хранилище доверия загружается перед визитом из кэша списка доверия GDHCN, обновляемого ежедневно ночью или ежечасно; для проверки соединение не требуется."
-
 #: en/smart-trust-demo/archimate/0.1.0/element/kesaro-provincial-hospital-system-taifafeki-country-a-xxr/index.html:0
 msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR)"
 msgstr "Система провинциальной больницы Кесаро, Тайфафеки (страна A, XXR)"
-
-#: archimate/0.1.0/model.json:0
-msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): The hospital record system and DVC issuing service of Kesaro Provincial Hospital in Taifafeki (Country A, the birth country): issues one DVC per birth dose (J1), signing with the DSC of GDHCN DEV test participant XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), which plays Taifafeki in the demonstrator. XXR is a DEV test participant, not Taifafeki's production key."
-msgstr "Система провинциальной больницы Кесаро, Тайфафеки (страна A, XXR): больничная система записей и служба выдачи DVC провинциальной больницы Кесаро в Тайфафеки (страна A, страна рождения): выдаёт по одному DVC на каждую дозу при рождении (J1), подписывая его DSC тестового участника GDHCN DEV XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), который играет роль Тайфафеки в демонстраторе. XXR — тестовый участник DEV, а не производственный ключ Тайфафеки."
 
 #: archimate/0.1.0/view/id-007936f8c2424b96ad1893ef0ff66059.svg:0
 msgid "Key"
@@ -3605,10 +3563,6 @@ msgstr "LOINC"
 msgid "Lomaru District Health Center EHR (Country B)"
 msgstr "EHR районного медицинского центра Ломару (страна B)"
 
-#: archimate/0.1.0/model.json:0
-msgid "Lomaru District Health Center EHR (Country B): The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the Onesan schedule code beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3."
-msgstr "EHR районного медицинского центра Ломару (страна B): система записей районного медицинского центра в Онесе (страна B) на основе OHS, на планшете (J3): проверяет DVC по кэшированному списку доверия GDHCN, импортирует их с указанием происхождения, добавляет онесский код графика рядом с каждым иностранным кодом вакцины и оценивает национальный график. Получатель; страна B как участник сети доверия получает используемые им материалы PKI. Его хранилище доверия загружается перед визитом из копии списка доверия, обновлённой при последнем подключении (для офлайн-клиники — примерно раз в неделю); во время J3 оно ничего не загружает."
-
 #: en/smart-trust-demo/archimate/0.1.0/element/maintain-logical-information-models/index.html:0
 msgid "Maintain Logical Information Models"
 msgstr "Ведение логических информационных моделей"
@@ -3717,19 +3671,6 @@ msgstr "Минимальные потери из-за истечения сро�
 msgid "Ministry of Health"
 msgstr "Министерство здравоохранения"
 
-#: archimate/0.1.0/model.json:0
-msgid ""
-"Monitor content quality (e.g. monitor uniqueness, consitency)
-\n"
-"Monitor conformance (e.g. h
-\n"
-"Monitor usage (how many users are for a given asset)\n"
-msgstr ""
-"Мониторинг качества содержимого (например, уникальности, согласованности)\n"
-"Мониторинг соответствия (например, h\n"
-"Мониторинг использования (сколько пользователей у данного ресурса)\n"
-"\n"
-
 #: en/smart-trust-demo/archimate/0.1.0/element/monitored-reliable-suppliers-and-deliveries/index.html:0
 msgid "Monitored reliable suppliers and deliveries"
 msgstr "Отслеживаемые надёжные поставщики и поставки"
@@ -3831,20 +3772,8 @@ msgid "Onesa national health portal and gateway (Country B, XXU)"
 msgstr "Национальный портал здравоохранения и шлюз Онесы (страна B, XXU)"
 
 #: archimate/0.1.0/model.json:0
-msgid "Onesa national health portal and gateway (Country B, XXU): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
-msgstr "Национальный портал здравоохранения и шлюз Онесы (страна B, XXU): национальный сервер FHIR Онесы за OHS FHIR Info Gateway (J4.0, J4.1): собирает IPS и DVC каждого члена семьи, выдаёт каждую запись как защищённую кодом доступа Verifiable Health Link в HCERT, подписанном DSC страны B, размещает манифесты (ITI-YY5), проверяет код доступа, срок действия и согласие при каждом запросе и регистрирует каждый доступ как AuditEvent в своей стране. Страну B в сети GDHCN DEV представляет тестовый участник XXU, поэтому ключ какого-либо реального министерства не подразумевается."
-
-#: archimate/0.1.0/model.json:0
 msgid "Onesa, part of CHW app, Onesa (Country B): The registration and referral forms of the CHW app, FHIR Questionnaires filled in with Structured Data Capture, which also read the doses on a paper DVC (J2)."
 msgstr "Онеса, часть приложения CHW, Онеса (страна B): формы регистрации и направления приложения CHW — опросники FHIR, заполняемые с помощью Structured Data Capture, которые также считывают дозы с бумажного DVC (J2)."
-
-#: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Evaluates the Onesan infant immunization schedule against the child's doses, imported ones included, and says which are due (J3)."
-msgstr "Онеса, часть EHR районного медицинского центра Ломару (страна B): оценивает онесский график иммунизации младенцев по дозам ребёнка, включая импортированные, и указывает, какие дозы положены (J3)."
-
-#: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Maps a foreign vaccine product code to the Onesan EPI schedule code, which is added beside the original code on import (J3)."
-msgstr "Онеса, часть EHR районного медицинского центра Ломару (страна B): сопоставляет иностранный код вакцинного продукта с кодом онесского графика EPI, который при импорте добавляется рядом с исходным кодом (J3)."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Lomaru District Health Center EHR (Country B): The health centre's record of each patient, where imported immunizations are kept with their provenance (J3)."
@@ -3869,10 +3798,6 @@ msgstr "Онеса, часть национального портала здр�
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Identifies each person the portal serves, children and their households included."
 msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): идентифицирует каждого человека, которого обслуживает портал, включая детей и их домохозяйства."
-
-#: archimate/0.1.0/model.json:0
-msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
-msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): выдаёт защищённую кодом доступа Verifiable Health Link для каждого члена семьи в HCERT, подписанном ключом подписанта документов Онесы (J4.0)."
 
 #: archimate/0.1.0/model.json:0
 msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Lists the clinics and health centres that record and share care."
@@ -4674,10 +4599,6 @@ msgstr "Скруглённые концы: сервис, предлагаемы�
 msgid "routine HMIS"
 msgstr "рутинная HMIS"
 
-#: en/smart-trust-demo/archimate/0.1.0/element/schedule-evaluator-onesan-infant-schedule/index.html:0
-msgid "Schedule evaluator (Onesan infant schedule)"
-msgstr "Модуль оценки графика (онесский график для младенцев)"
-
 #: en/smart-trust-demo/archimate/0.1.0/element/secondary-use/index.html:0
 msgid "Secondary use"
 msgstr "Вторичное использование"
@@ -5041,14 +4962,6 @@ msgstr "Системы вне экосистемы общественного з
 #: en/smart-trust-demo/archimate/0.1.0/element/taifafeki-country-a-xxr/index.html:0
 msgid "Taifafeki (Country A, XXR)"
 msgstr "Тайфафеки (страна A, XXR)"
-
-#: archimate/0.1.0/model.json:0
-msgid "Taifafeki, part of Kesaro primary care clinic viewer, Taifafeki (J4.1): Reads a Verifiable Health Link QR at the point of care, checks its signature against the GDHCN trust list, fetches the manifest from Onesa with a signed request and shows the decrypted records (J4.1)."
-msgstr "Тайфафеки, часть средства просмотра клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки (J4.1): считывает QR-код Verifiable Health Link в месте оказания помощи, проверяет его подпись по списку доверия GDHCN, загружает манифест из Онесы с помощью подписанного запроса и показывает расшифрованные записи (J4.1)."
-
-#: archimate/0.1.0/model.json:0
-msgid "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Builds each Digital Vaccination Certificate as an HCERT payload and has it signed with Taifafeki's document signer key, published to GDHCN (J1)."
-msgstr "Тайфафеки, часть системы провинциальной больницы Кесаро, Тайфафеки (страна A, XXR): формирует каждый цифровой сертификат вакцинации (DVC) как полезную нагрузку HCERT и подписывает его ключом подписанта документов Тайфафеки, опубликованным в GDHCN (J1)."
 
 #: archimate/0.1.0/model.json:0
 msgid "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Keeps the newborn's immunizations as FHIR Immunization resources, from which each DVC is made (J1)."
@@ -5671,10 +5584,6 @@ msgstr "WHO SMART Guidelines"
 msgid "WHO SMART Trust specifications (HCERT, DVC, VHL)"
 msgstr "Спецификации WHO SMART Trust (HCERT, DVC, VHL)"
 
-#: archimate/0.1.0/model.json:0
-msgid "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets an Onesan clinic believe a Taifafeki certificate, and a Taifafeki clinic an Onesan link, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries."
-msgstr "Глобальная сеть сертификации цифрового здравоохранения ВОЗ: список доверия открытых ключей участников, позволяющий онесской клинике доверять сертификату Тайфафеки, а клинике Тайфафеки — онесской ссылке без какого-либо соединения между системами двух стран. Не является строительным блоком интегрированного представления эталонной архитектуры: она лежит в основе обеих стран."
-
 #: archimate/0.1.0/view/id-007936f8c2424b96ad1893ef0ff66059.svg:0
 msgid "Why: who cares (stakeholders), and the drivers, goals, outcomes, values and requirements"
 msgstr "Зачем: кто заинтересован (заинтересованные стороны), а также движущие силы, цели, результаты, ценности и требования"
@@ -5730,3 +5639,276 @@ msgstr "Ключ подписанта документов XXR (страна A, 
 #: archimate/0.1.0/model.json:0
 msgid "XXR document signer key (Country A, Taifafeki): The private key of XXR's document signer certificate (DSC), kid kW/6VnwPRKI= (hex 916ffa567c0f44a2), whose public DID document is on the GDHCN DEV trust list (did:web:tng-cdn-dev.who.int:v2:trustlist:-:XXR:DSC, as the DEV host serves it; the guide prints the production host, smart-trust-tools OI-34). XXR is a Trust Network Participant."
 msgstr "Ключ подписанта документов XXR (страна A, Тайфафеки): закрытый ключ сертификата подписанта документов (DSC) XXR, kid kW/6VnwPRKI= (hex 916ffa567c0f44a2), открытый DID-документ которого находится в списке доверия GDHCN DEV (did:web:tng-cdn-dev.who.int:v2:trustlist:-:XXR:DSC, как его предоставляет хост DEV; в руководстве указан производственный хост, smart-trust-tools OI-34). XXR — участник сети доверия."
+
+#: archimate/0.1.0/view/id-007936f8c2424b96ad1893ef0ff66059.svg:0
+msgid "1. Central Health Workforce Registry — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid ""
+"A high-level ability that an organization, system, or individual possesses or must develop in order to achieve its strategic goals. It expresses what the enterprise is able to do, independent of how that ability is implemented.\n"
+"\n"
+"\n"
+"\n"
+"A capability is usually named using a phrase that emphasizes “what we do”. It represents an outcome-oriented, strategic abstraction of the enterprise’s abilities. \n"
+"\n"
+"Examples: \n"
+"- Patient Registration & Intake\n"
+"- Medication Prescribing & Dispensing\n"
+"- Clinical Decision Support\n"
+msgstr ""
+
+#: archimate/0.1.0/view/id-19be800d18a34a618d6e1955cf58e956.svg:0
+msgid "ALL High Level - Health Workforce — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-47ad69becbb84be59434bf289bd24a20.svg:0
+msgid "ALL HRH Conceptual View - Stakeholder — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-d7e3215f6d3d4e5e8b39ee521f8248c2.svg:0
+msgid "B — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-455051f03d504b2e8e6e430bb9719792.svg:0
+msgid "Business (draft) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-4e6e25746e8d4398add06fcbc4fb5a4e.svg:0
+msgid "Capabilities-Goals — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-4c98f10e0a244315acddaf5257c7822e.svg:0
+msgid "CDS — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: en/smart-trust-demo/archimate/0.1.0/element/code-mapping-service-product-to-onesa-epi/index.html:0
+msgid "Code mapping service (product to Onesa EPI)"
+msgstr ""
+
+#: archimate/0.1.0/view/id-3ad41900b17d47f78129e16d32ed2f38.svg:0
+msgid "Components — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-9528f400d14d4ad6b5273a8db4b83a44.svg:0
+msgid "Components draft — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-b44f768c54ea493c8b33499e5d2e2d33.svg:0
+msgid "Conformance — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-ba6aa15d5d84416dab9fbd8a9f9fea14.svg:0
+msgid "D — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-2aa7a2e239e8406988adff73e76dcd88.svg:0
+msgid "Default View — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-2d524cffba25509e82684f47d624cc42.svg:0
+msgid "Health Supply Chain Partners and Processes (DTH SC Figs. 1-3) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-8c5dd12b8d4e425184f6003d0513d569.svg:0
+msgid "Interoperability Layer — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-18d2033f445f5b8895f20719cb97bd91.svg:0
+msgid "J1 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-099b088dc52f57289c647bfb64e8c4d6.svg:0
+msgid "J2 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-c1154579a67d5815921b72f71587df50.svg:0
+msgid "J3 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-ae1502fd9fb158c3bcb643bf39006d41.svg:0
+msgid "J4.0 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-42b408eba96159c187c0612ce7c2c6cf.svg:0
+msgid "J4.1 on the DPI-H RA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: en/smart-trust-demo/archimate/0.1.0/element/kesaro-paediatric-clinic-viewer-taifafeki-j4-1/index.html:0
+msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1)"
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Kesaro paediatric clinic viewer, Taifafeki (J4.1): The VHL viewer of a paediatric clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection."
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): The hospital record system and DVC issuing service of Kesaro Provincial Hospital in Taifafeki (Country A, the birth country): issues one DVC per birth dose (J1), signing with the DSC of GDHCN DEV test participant XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), which plays Taifafeki in the demonstrator. XXR is a DEV test participant, not the production key of Taifafeki."
+msgstr ""
+
+#: archimate/0.1.0/view/id-dbcfb8e417294161ac0b1614c2e18cc5.svg:0
+msgid "LMIR Overview — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Lomaru District Health Center EHR (Country B): The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the schedule code of Onesa beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3."
+msgstr ""
+
+#: archimate/0.1.0/view/id-f7a5524bbac84f1a9cf424754750819d.svg:0
+msgid "Metadata Registry Governance — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-84f16b3860924939af7b99e625a96e5a.svg:0
+msgid "Metamodel — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-f6a9d019b02a4865a75ae76a8282fa1d.svg:0
+msgid "Metamodel vs EIRA — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid ""
+"Monitor content quality (e.g. monitor uniqueness, consitency)\n"
+"Monitor conformance (e.g. h\n"
+"Monitor usage (how many users are for a given asset)\n"
+msgstr ""
+
+#: archimate/0.1.0/view/id-02175c6feb9155618981ff120f954420.svg:0
+msgid "National Product Catalogue (DTH PC Fig. 2, Ch. 2-3) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Onesa national health portal and gateway (Country B, XXU): The national FHIR server of Onesa, behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Evaluates the infant immunization schedule of Onesa against the child's doses, imported ones included, and says which are due (J3)."
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Maps a foreign vaccine product code to the Onesa EPI schedule code, which is added beside the original code on import (J3)."
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with the document signer key of Onesa (J4.0)."
+msgstr ""
+
+#: archimate/0.1.0/view/id-053fa0e33f6b5b0bb218195486c05160.svg:0
+msgid "Product Master Data Information Model (DTH PC Figs. 8-9) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: en/smart-trust-demo/archimate/0.1.0/element/schedule-evaluator-onesa-infant-schedule/index.html:0
+msgid "Schedule evaluator (Onesa infant schedule)"
+msgstr ""
+
+#: archimate/0.1.0/view/id-cefde7ed0dcd47d3bb214657ac3e5725.svg:0
+msgid "SHR — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-c6cae81c85da5fc197ab58547274a481.svg:0
+msgid "SMART Trust demo journeys (use cases) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-249a1002c32e50199e27a502ef0ec3d8.svg:0
+msgid "SMART Trust demo on the DPI-H Integrated View — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-6702871f89b641d4823ad05fbd2a4bdb.svg:0
+msgid "SUB-GOAL 1. Central Health Workforce Registry — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Taifafeki, part of Kesaro paediatric clinic viewer, Taifafeki (J4.1): Reads a Verifiable Health Link QR at the point of care, checks its signature against the GDHCN trust list, fetches the manifest from Onesa with a signed request and shows the decrypted records (J4.1)."
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Builds each Digital Vaccination Certificate as an HCERT payload and has it signed with the document signer key of Taifafeki, published to GDHCN (J1)."
+msgstr ""
+
+#: archimate/0.1.0/view/id-0e97a3f6a8f545f5bd90e123c11a2545.svg:0
+msgid "Testing — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/view/id-bea56e01c8345fbc803dee47a17ccfd3.svg:0
+msgid "Track and Trace through DHSC Components (DTH SC Fig. 24) — SMART Trust demonstrator on the WHO DPI-H Reference Architecture"
+msgstr ""
+
+#: archimate/0.1.0/model.json:0
+msgid "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets a clinic in Onesa believe a certificate from Taifafeki, and a clinic in Taifafeki a link from Onesa, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries."
+msgstr ""
+
+#~ msgid ""
+#~ "A high-level ability that an organization, system, or individual possesses or must develop in order to achieve its strategic goals. It expresses what the enterprise is able to do, independent of how that ability is implemented.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "A capability is usually named using a phrase that emphasizes “what we do”. It represents an outcome-oriented, strategic abstraction of the enterprise’s abilities. \n"
+#~ "\n"
+#~ "Examples: \n"
+#~ "- Patient Registration & Intake
+#~ \n"
+#~ "- Medication Prescribing & Dispensing\n"
+#~ "- Clinical Decision Support\n"
+#~ msgstr ""
+#~ "Высокоуровневая способность, которой организация, система или отдельное лицо обладает или которую должна развить для достижения своих стратегических целей. Она выражает то, что предприятие способно делать, независимо от того, как эта способность реализована.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "Возможность обычно называют фразой, подчёркивающей, «что мы делаем». Она представляет собой ориентированную на результат стратегическую абстракцию способностей предприятия. \n"
+#~ "\n"
+#~ "Примеры: \n"
+#~ "- Регистрация и приём пациентов\n"
+#~ "- Назначение и отпуск лекарственных средств\n"
+#~ "- Клиническая поддержка принятия решений\n"
+#~ "\n"
+
+#~ msgid "Code mapping service (product to Onesan EPI)"
+#~ msgstr "Служба сопоставления кодов (продукт → онесский EPI)"
+
+#~ msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1)"
+#~ msgstr "Средство просмотра клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки (J4.1)"
+
+#~ msgid "Kesaro primary care clinic viewer, Taifafeki (J4.1): The VHL viewer of a primary care clinic in Kesaro, Taifafeki, back in Country A a year after the birth (J4.1): verifies the VHL, fetches the manifest with an HTTP Message Signature after the passcode is entered, and decrypts the documents for viewing. Its trust store is loaded before the visit from a cache of the GDHCN trust list refreshed nightly or hourly; verifying needs no connection."
+#~ msgstr "Средство просмотра клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки (J4.1): программа просмотра VHL клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки, снова в стране A через год после рождения (J4.1): проверяет VHL, после ввода кода доступа загружает манифест с подписью HTTP Message Signature и расшифровывает документы для просмотра. Её хранилище доверия загружается перед визитом из кэша списка доверия GDHCN, обновляемого ежедневно ночью или ежечасно; для проверки соединение не требуется."
+
+#~ msgid "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): The hospital record system and DVC issuing service of Kesaro Provincial Hospital in Taifafeki (Country A, the birth country): issues one DVC per birth dose (J1), signing with the DSC of GDHCN DEV test participant XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), which plays Taifafeki in the demonstrator. XXR is a DEV test participant, not Taifafeki's production key."
+#~ msgstr "Система провинциальной больницы Кесаро, Тайфафеки (страна A, XXR): больничная система записей и служба выдачи DVC провинциальной больницы Кесаро в Тайфафеки (страна A, страна рождения): выдаёт по одному DVC на каждую дозу при рождении (J1), подписывая его DSC тестового участника GDHCN DEV XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), который играет роль Тайфафеки в демонстраторе. XXR — тестовый участник DEV, а не производственный ключ Тайфафеки."
+
+#~ msgid "Lomaru District Health Center EHR (Country B): The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the Onesan schedule code beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3."
+#~ msgstr "EHR районного медицинского центра Ломару (страна B): система записей районного медицинского центра в Онесе (страна B) на основе OHS, на планшете (J3): проверяет DVC по кэшированному списку доверия GDHCN, импортирует их с указанием происхождения, добавляет онесский код графика рядом с каждым иностранным кодом вакцины и оценивает национальный график. Получатель; страна B как участник сети доверия получает используемые им материалы PKI. Его хранилище доверия загружается перед визитом из копии списка доверия, обновлённой при последнем подключении (для офлайн-клиники — примерно раз в неделю); во время J3 оно ничего не загружает."
+
+#~ msgid ""
+#~ "Monitor content quality (e.g. monitor uniqueness, consitency)
+#~ \n"
+#~ "Monitor conformance (e.g. h
+#~ \n"
+#~ "Monitor usage (how many users are for a given asset)\n"
+#~ msgstr ""
+#~ "Мониторинг качества содержимого (например, уникальности, согласованности)\n"
+#~ "Мониторинг соответствия (например, h\n"
+#~ "Мониторинг использования (сколько пользователей у данного ресурса)\n"
+#~ "\n"
+
+#~ msgid "Onesa national health portal and gateway (Country B, XXU): Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
+#~ msgstr "Национальный портал здравоохранения и шлюз Онесы (страна B, XXU): национальный сервер FHIR Онесы за OHS FHIR Info Gateway (J4.0, J4.1): собирает IPS и DVC каждого члена семьи, выдаёт каждую запись как защищённую кодом доступа Verifiable Health Link в HCERT, подписанном DSC страны B, размещает манифесты (ITI-YY5), проверяет код доступа, срок действия и согласие при каждом запросе и регистрирует каждый доступ как AuditEvent в своей стране. Страну B в сети GDHCN DEV представляет тестовый участник XXU, поэтому ключ какого-либо реального министерства не подразумевается."
+
+#~ msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Evaluates the Onesan infant immunization schedule against the child's doses, imported ones included, and says which are due (J3)."
+#~ msgstr "Онеса, часть EHR районного медицинского центра Ломару (страна B): оценивает онесский график иммунизации младенцев по дозам ребёнка, включая импортированные, и указывает, какие дозы положены (J3)."
+
+#~ msgid "Onesa, part of Lomaru District Health Center EHR (Country B): Maps a foreign vaccine product code to the Onesan EPI schedule code, which is added beside the original code on import (J3)."
+#~ msgstr "Онеса, часть EHR районного медицинского центра Ломару (страна B): сопоставляет иностранный код вакцинного продукта с кодом онесского графика EPI, который при импорте добавляется рядом с исходным кодом (J3)."
+
+#~ msgid "Onesa, part of Onesa national health portal and gateway (Country B, XXU): Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
+#~ msgstr "Онеса, часть национального портала здравоохранения и шлюза Онесы (страна B, XXU): выдаёт защищённую кодом доступа Verifiable Health Link для каждого члена семьи в HCERT, подписанном ключом подписанта документов Онесы (J4.0)."
+
+#~ msgid "Schedule evaluator (Onesan infant schedule)"
+#~ msgstr "Модуль оценки графика (онесский график для младенцев)"
+
+#~ msgid "Taifafeki, part of Kesaro primary care clinic viewer, Taifafeki (J4.1): Reads a Verifiable Health Link QR at the point of care, checks its signature against the GDHCN trust list, fetches the manifest from Onesa with a signed request and shows the decrypted records (J4.1)."
+#~ msgstr "Тайфафеки, часть средства просмотра клиники первичной медико-санитарной помощи в Кесаро, Тайфафеки (J4.1): считывает QR-код Verifiable Health Link в месте оказания помощи, проверяет его подпись по списку доверия GDHCN, загружает манифест из Онесы с помощью подписанного запроса и показывает расшифрованные записи (J4.1)."
+
+#~ msgid "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Builds each Digital Vaccination Certificate as an HCERT payload and has it signed with Taifafeki's document signer key, published to GDHCN (J1)."
+#~ msgstr "Тайфафеки, часть системы провинциальной больницы Кесаро, Тайфафеки (страна A, XXR): формирует каждый цифровой сертификат вакцинации (DVC) как полезную нагрузку HCERT и подписывает его ключом подписанта документов Тайфафеки, опубликованным в GDHCN (J1)."
+
+#~ msgid "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets an Onesan clinic believe a Taifafeki certificate, and a Taifafeki clinic an Onesan link, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries."
+#~ msgstr "Глобальная сеть сертификации цифрового здравоохранения ВОЗ: список доверия открытых ключей участников, позволяющий онесской клинике доверять сертификату Тайфафеки, а клинике Тайфафеки — онесской ссылке без какого-либо соединения между системами двух стран. Не является строительным блоком интегрированного представления эталонной архитектуры: она лежит в основе обеих стран."
