@@ -2,7 +2,15 @@
   "id": "taifafeki",
   "name": "Taifafeki",
   "fictional": true,
-  "adjective": "Taifafeki",
+  "notForms": [
+    "Taifafekian",
+    "Тайфафек",
+    "тайфафек",
+    "تايفافيك",
+    "泰法费基",
+    "泰法菲基"
+  ],
+  "notFormsNote": "Renameable in the journeys viewer: every text names the country by its bare name, in Latin script; these derived forms and transliterations, once used, are refused by tools/translation/country-names.ts (memory dir-renameable-countries).",
   "flag": {
     "image": "taifafeki.flag.svg",
     "description": "A teal field with a gold bar along the bottom and, in the centre, a gold sun with a white core.",

@@ -155,13 +155,13 @@
       "id": "actions"
     }
   ],
-  "try": "Ask who signed the cards, and what an Onesan health worker can check without a network",
+  "try": "Ask who signed the cards, and what a health worker in Onesa can check without a network",
   "stateLabel": "Cards ready",
   "states": [
     {
       "id": "raw-payload",
       "label": "Raw CBOR payload",
-      "try": "Point at what the card carries: a WHO PreQual product code, a lot and a date, signed by Taifafeki's key (kid 916ffa567c0f44a2)"
+      "try": "Point at what the card carries: a WHO PreQual product code, a lot and a date, signed by the key of Taifafeki (kid 916ffa567c0f44a2)"
     },
     {
       "id": "printed",

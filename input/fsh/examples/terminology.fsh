@@ -21,7 +21,7 @@ Description: "Illustrative product codes in the style of WHO PreQual product ids
 CodeSystem: TrustDemoOnesaEpiSchedule
 Id: TrustDemoOnesaEpiSchedule
 Title: "National schedule antigen-dose codes (illustrative, Onesa)"
-Description: "Illustrative antigen-and-dose codes of a national immunization schedule, as the VaxLink walkthrough names them for Onesa. Not the official Onesan EPI coding."
+Description: "Illustrative antigen-and-dose codes of a national immunization schedule, as the VaxLink walkthrough names them for Onesa. Not the official EPI coding of Onesa."
 * ^experimental = true
 * ^caseSensitive = true
 * #XXU-EPI-HEPB-BD "Hepatitis B birth dose"

@@ -266,7 +266,7 @@ GDHCN_JOURNEYS = [j for j in JOURNEYS if any(j in SYSTEM_JOURNEYS[_HOST[k]] for 
 # holds the private key (two-phase signing). A Node, the HSM, cloud KMS or
 # keystore that holds it, in its own country (meta.country), Serving the part
 # it signs for and the journeys its lane is in that the part's system serves
-# (the issuer-key lane of J4.0 is the Onesan portal's key, which no actor plays
+# (the issuer-key lane of J4.0 is the key of the Onesa portal, which no actor plays
 # yet). (actor, the part it serves)
 SIGNING_KEYS = [("xxr-dsc-key", "xxr-dvc-signer")]
 KEY_JOURNEYS = {a: [j for j in graph.journeys_of_roles(ACTORS[a]["roles"], PROCESSES) if j in SYSTEM_JOURNEYS[_HOST[k]]] for a, k in SIGNING_KEYS}
@@ -299,8 +299,8 @@ def _blocks(key):
 TRUST_FRAMEWORK = ("trust-framework", "WHO SMART Trust specifications (HCERT, DVC, VHL)")
 
 # --- Jurisdictions: each country's instance of the RA blocks it uses -------
-# Taifafeki and Onesa are different jurisdictions: a Taifafeki part is an
-# instance of Taifafeki's provider systems, not of Onesa's. So each country
+# Taifafeki and Onesa are different jurisdictions: a part in Taifafeki is an
+# instance of the provider systems of Taifafeki, not of those of Onesa. So each country
 # has its own instance of every RA block its parts play, keyed <cc>-<RA key>
 # (xxr-ra-provider-systems), which specializes the RA block; the country's
 # parts specialize that instance.
@@ -497,7 +497,7 @@ for a, k in SIGNING_KEYS:
                           **concept("actor-" + a), "fhir-actor": fhir_actor(ACTORS[a]["roles"][0])})
 
 ELEMENTS[GDHCN[0]] = ("ApplicationComponent", ACTORS[GDHCN[2]]["title"],
-                      "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets an Onesan clinic believe a Taifafeki certificate, and a Taifafeki clinic an Onesan link, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries.",
+                      "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets a clinic in Onesa believe a certificate from Taifafeki, and a clinic in Taifafeki a link from Onesa, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries.",
                       {"scenarioActor": f"scenarios/actors/{GDHCN[2]}.json", "spec": "https://smart.who.int/trust/",
                        **concept("actor-" + GDHCN[2]), "fhir-actor": fhir_actor(ACTORS[GDHCN[2]]["roles"][0]), **_blocks(GDHCN[0])})
 
@@ -814,7 +814,7 @@ def _systems_view():
     """Taifafeki (left) and Onesa (right) as columns, what they share between them.
 
     Onesa is laid out first: each Taifafeki system stands level with the first
-    Onesan system it meets, so the lines where they meet run across.
+    system in Onesa it meets, so the lines where they meet run across.
     """
     la, la_parts, la_at = country_column("Onesa", "country-xxk")
     level = {}

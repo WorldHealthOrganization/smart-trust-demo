@@ -21,7 +21,7 @@ The clinic's OHS-based record system: verifies DVCs against the GDHCN trust list
 
 **In the user scenarios**:
 
-- [J3 — A foreign record used for the next vaccine](scenarios.html#j3--a-foreign-record-used-for-the-next-vaccine-lomaru-district-health-center-somsak-is-10-weeks-old): J3a The clinic confirms the cards are genuine; J3b Taifafeki vaccines are fitted to the Onesan schedule
+- [J3 — A foreign record used for the next vaccine](scenarios.html#j3--a-foreign-record-used-for-the-next-vaccine-lomaru-district-health-center-somsak-is-10-weeks-old): J3a The clinic confirms the cards are genuine; J3b Taifafeki vaccines are fitted to the Onesa schedule
 
 **On the device screens**: [S4 Clinic Referral & GDHCN Verification (Chanthason's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/); [S5 Terminology Adjudication & National Schedule (Chanthason's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/)
 

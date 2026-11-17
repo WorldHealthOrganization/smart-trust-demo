@@ -2,7 +2,7 @@
   "$schema": "device-screen/0.1.0",
   "id": "S4",
   "title": "Clinic Referral & GDHCN Verification",
-  "description": "Nurse Chanthason scans a Taifafeki card: the signature is checked against the GDHCN trust list, and the doses can be recorded as verified.",
+  "description": "Nurse Chanthason scans a card from Taifafeki: the signature is checked against the GDHCN trust list, and the doses can be recorded as verified.",
   "device": "tablet",
   "owner": "chanthason",
   "steps": [
@@ -52,7 +52,7 @@
         },
         {
           "label": "Reason",
-          "value": "Foreign vaccination cards presented at household in Village 04 — require cryptographic signature verification & Onesan EPI schedule check."
+          "value": "Foreign vaccination cards presented at household in Village 04 — require cryptographic signature verification & Onesa EPI schedule check."
         }
       ]
     },

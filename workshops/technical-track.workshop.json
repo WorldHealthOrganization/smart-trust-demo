@@ -18,7 +18,7 @@
       "title": "Building with FHIR and the Open Health Stack",
       "day": 1,
       "carries": "Which FHIR resources, terminologies and tools carry this journey, and where does each lab use them?",
-      "description": "Day 1. Serves the policy module [M1 From journey to capabilities](../../dpi-h-policy-track/m1/).\n\n### Sessions\n\n- **11:00–11:40 · Talk · Talk 1: Building with FHIR and the Open Health Stack** (40 min). A developer's tour of FHIR, then of the tools around it: the HAPI FHIR server, other open global goods, and where the OHS libraries and the OHS Player fit. *Leads:* Lead facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J1**: Patient and Immunization in the hospital record; each dose signed as a DVC (HCERT).\n- **J3b**: ConceptMap from Taifafeki's product codes to Onesa's schedule codes; the schedule as a PlanDefinition.\n- **J4.0b**: The IPS as a FHIR document Bundle assembled from the national record.",
+      "description": "Day 1. Serves the policy module [M1 From journey to capabilities](../../dpi-h-policy-track/m1/).\n\n### Sessions\n\n- **11:00–11:40 · Talk · Talk 1: Building with FHIR and the Open Health Stack** (40 min). A developer's tour of FHIR, then of the tools around it: the HAPI FHIR server, other open global goods, and where the OHS libraries and the OHS Player fit. *Leads:* Lead facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J1**: Patient and Immunization in the hospital record; each dose signed as a DVC (HCERT).\n- **J3b**: ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition.\n- **J4.0b**: The IPS as a FHIR document Bundle assembled from the national record.",
       "objectives": [
         "Name the FHIR resources you will use over the two days and say what each is for",
         "Explain how terminologies and implementation guides keep data meaningful",
@@ -44,7 +44,7 @@
       "title": "Trust between countries: SMART Trust and the GDHCN",
       "day": 1,
       "carries": "How can a clinic in one country trust a vaccination record from another, and when is a card better than a link?",
-      "description": "Day 1. Serves the policy module [M4 Trust, credentials and wallets](../../dpi-h-policy-track/m4/).\n\n### Sessions\n\n- **13:30–13:50 · Talk · Talk 2: Trust between countries, SMART Trust and the GDHCN** (20 min). How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J1**: Taifafeki's document signer key (DSC of XXR) signs each DVC as a CWT in COSE.\n- **J3a**: The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.\n- **J4.1**: The viewer verifies the VHL's HCERT against Onesa's DSC (XXU) before it fetches anything.",
+      "description": "Day 1. Serves the policy module [M4 Trust, credentials and wallets](../../dpi-h-policy-track/m4/).\n\n### Sessions\n\n- **13:30–13:50 · Talk · Talk 2: Trust between countries, SMART Trust and the GDHCN** (20 min). How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J1**: The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.\n- **J3a**: The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.\n- **J4.1**: The viewer verifies the VHL's HCERT against the DSC of Onesa (XXU) before it fetches anything.",
       "objectives": [
         "Explain what the GDHCN is and why a verifier needs a trust list",
         "Tell a DVC from a VHL and say when each one fits",
@@ -57,7 +57,7 @@
       "title": "Workflows, sync and who sees what",
       "day": 1,
       "carries": "What should happen next for this child, how does the record reach the server, and who is allowed to see it?",
-      "description": "Day 1. Serves the policy module [M5 Governance, decision rights and the legal basis](../../dpi-h-policy-track/m5/).\n\n### Sessions\n\n- **13:50–14:00 · Talk · Talk 3: Workflows, sync and who sees what** (10 min). A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **14:00–15:00 · Lab · Lab 2: Sync data and run a workflow** (60 min). In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2b**: Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.\n- **J3b**: The Onesan schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.\n- **J4.0b**: The family's consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.\n- **J4.1**: Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.",
+      "description": "Day 1. Serves the policy module [M5 Governance, decision rights and the legal basis](../../dpi-h-policy-track/m5/).\n\n### Sessions\n\n- **13:50–14:00 · Talk · Talk 3: Workflows, sync and who sees what** (10 min). A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **14:00–15:00 · Lab · Lab 2: Sync data and run a workflow** (60 min). In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2b**: Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.\n- **J3b**: The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.\n- **J4.0b**: The family's consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.\n- **J4.1**: Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.",
       "objectives": [
         "Sync records between the Player and the FHIR server",
         "Read a plan definition and follow it through a workflow",
@@ -235,7 +235,7 @@
         },
         {
           "module": "T6",
-          "text": "What does the viewer need from the trust list, and what does it need from Onesa's gateway?"
+          "text": "What does the viewer need from the trust list, and what does it need from the gateway of Onesa?"
         },
         {
           "module": "T7",
@@ -255,7 +255,7 @@
       {
         "module": "T1",
         "step": "J3b",
-        "technical": "ConceptMap from Taifafeki's product codes to Onesa's schedule codes; the schedule as a PlanDefinition."
+        "technical": "ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition."
       },
       {
         "module": "T1",
@@ -275,7 +275,7 @@
       {
         "module": "T3",
         "step": "J1",
-        "technical": "Taifafeki's document signer key (DSC of XXR) signs each DVC as a CWT in COSE."
+        "technical": "The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE."
       },
       {
         "module": "T3",
@@ -285,7 +285,7 @@
       {
         "module": "T3",
         "step": "J4.1",
-        "technical": "The viewer verifies the VHL's HCERT against Onesa's DSC (XXU) before it fetches anything."
+        "technical": "The viewer verifies the VHL's HCERT against the DSC of Onesa (XXU) before it fetches anything."
       },
       {
         "module": "T4",
@@ -295,7 +295,7 @@
       {
         "module": "T4",
         "step": "J3b",
-        "technical": "The Onesan schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue."
+        "technical": "The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue."
       },
       {
         "module": "T4",

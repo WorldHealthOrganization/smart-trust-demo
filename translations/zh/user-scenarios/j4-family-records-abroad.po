@@ -23,7 +23,7 @@ msgstr "跨境"
 #: scenarios/user-scenarios/j4-family-records-abroad.json:5
 msgctxt "description"
 msgid "The family's records go on one shared phone as Verifiable Health Links (J4.0), and a year later a doctor back in Taifafeki reads the whole history from Onesa (J4.1). One chapter of the walkthrough, two BPMN processes, so two sub-journeys."
-msgstr "这家人的记录以可验证健康链接的形式存放在一部共享手机上（J4.0），一年后，回到泰法费基的一位医生从奥内萨读取完整的接种史（J4.1）。演练中的一章，两个 BPMN 流程，因此分为两个子旅程。"
+msgstr "这家人的记录以可验证健康链接的形式存放在一部共享手机上（J4.0），一年后，回到 Taifafeki 的一位医生从 Onesa 读取完整的接种史（J4.1）。演练中的一章，两个 BPMN 流程，因此分为两个子旅程。"
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:34
 msgctxt "references.label"
@@ -33,7 +33,7 @@ msgstr "实施指南（IG）中的用户场景（J4.0 和 J4.1）"
 #: scenarios/user-scenarios/j4-family-records-abroad.json:25
 msgctxt "scene.label"
 msgid "Onesa ⇄ Taifafeki"
-msgstr "奥内萨 ⇄ 泰法费基"
+msgstr "Onesa ⇄ Taifafeki"
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:21
 msgctxt "scene.label"
@@ -43,7 +43,7 @@ msgstr "爸爸手机上的通行码链接"
 #: scenarios/user-scenarios/j4-family-records-abroad.json:29
 msgctxt "scene.label"
 msgid "Taifafeki doctor sees it all"
-msgstr "泰法费基医生看到全部记录"
+msgstr "Taifafeki 医生看到全部记录"
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:15
 msgctxt "when"
@@ -53,7 +53,7 @@ msgstr "6 到 12 个月后"
 #: scenarios/user-scenarios/j4-family-records-abroad.json:16
 msgctxt "where"
 msgid "Onesa and Kesaro"
-msgstr "奥内萨和凯萨罗"
+msgstr "Onesa 和凯萨罗"
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:4
 msgctxt "title"

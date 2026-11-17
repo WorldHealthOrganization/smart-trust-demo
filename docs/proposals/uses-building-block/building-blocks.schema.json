@@ -76,7 +76,7 @@
             "standard",
             "network"
           ],
-          "description": "tool: software anyone can deploy (OHS FHIR SDK). system: a country's deployed system (the Onesan national FHIR server). standard: a specification (IPS, IHE VHL). network: a trust network (WHO GDHCN)."
+          "description": "tool: software anyone can deploy (OHS FHIR SDK). system: a country's deployed system (the national FHIR server of Onesa). standard: a specification (IPS, IHE VHL). network: a trust network (WHO GDHCN)."
         },
         "layer": {
           "$ref": "#/$defs/id",

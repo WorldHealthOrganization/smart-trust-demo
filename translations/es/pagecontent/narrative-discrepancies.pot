@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-17T07:41:43.928Z\n"
+"POT-Creation-Date: 2026-11-17T18:50:35.733Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -27,11 +27,11 @@ msgid "“4 weeks later” (about 7 weeks)"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:35
-msgid "“A paper card that carries a QR code”, plus the same record in Taifafeki's citizen app"
+msgid "“A paper card that carries a QR code”, plus the same record in the citizen app of Taifafeki"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:60
-msgid "“A verifier can check it without access to Onesa's systems”"
+msgid "“A verifier can check it without access to the systems of Onesa”"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:55
@@ -43,7 +43,7 @@ msgid "“At a glance” is a placeholder: “To attach the scenario and illustr
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:84
-msgid "\"Checked at a paediatrician office … any verifier can check it\": the IPS story fetches the record from Onesa, so a verifier needs Onesa's gateway"
+msgid "\"Checked at a paediatrician office … any verifier can check it\": the IPS story fetches the record from Onesa, so a verifier needs the Onesa gateway"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:55
@@ -71,11 +71,7 @@ msgid "“No national FHIR implementation guide yet”"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:65
-msgid "“Taifafeki's”; “Both countries are”"
-msgstr ""
-
-#: input/pagecontent/narrative-discrepancies.md:65
-msgid "“Taifafekis health authority” (no apostrophe); “Both countries is connected”"
+msgid "“the health authority of Taifafeki”; “Both countries are”"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:83
@@ -94,8 +90,16 @@ msgstr ""
 msgid "A national FHIR server and gateway issue the family's links (J4)"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:32
+msgid "A national of Onesa living in Onesa who gave birth in Taifafeki, “away from home”"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:46
 msgid "A paediatrician in Taifafeki"
+msgstr ""
+
+#: input/pagecontent/narrative-discrepancies.md:65
+msgid "A possessive of Taifafeki with no apostrophe (“… health authority”); “Both countries is connected”"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:46
@@ -168,10 +172,6 @@ msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:99
 msgid "AEFI"
-msgstr ""
-
-#: input/pagecontent/narrative-discrepancies.md:32
-msgid "An Onesan national living in Onesa who gave birth in Taifafeki, “away from home”"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:106
@@ -299,6 +299,10 @@ msgstr ""
 msgid "Facility, workforce and product registries"
 msgstr ""
 
+#: input/pagecontent/narrative-discrepancies.md:47
+msgid "FHIR in Onesa"
+msgstr ""
+
 #: input/pagecontent/narrative-discrepancies.md:63
 msgid "HMIS (coverage indicators) is marked for J3 only"
 msgstr ""
@@ -376,7 +380,7 @@ msgid "Keep on the site (it drives M3 and M6), or drop it to match the deck"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:35
-msgid "Keep two cards (one HCERT per dose is how the DVC works) and change the deck to “cards”, or add a note. Decide whether an Onesan mother has a Taifafeki citizen app"
+msgid "Keep two cards (one HCERT per dose is how the DVC works) and change the deck to “cards”, or add a note. Decide whether a mother from Onesa has the citizen app of Taifafeki"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:101
@@ -454,10 +458,6 @@ msgstr ""
 #: input/pagecontent/narrative-discrepancies.md:53
 #: input/pagecontent/narrative-discrepancies.md:54
 msgid "One title"
-msgstr ""
-
-#: input/pagecontent/narrative-discrepancies.md:47
-msgid "Onesa's FHIR"
 msgstr ""
 
 #: input/pagecontent/narrative-discrepancies.md:105

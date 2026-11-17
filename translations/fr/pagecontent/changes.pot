@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T11:53:31.351Z\n"
+"POT-Creation-Date: 2026-11-17T18:50:35.692Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: input/pagecontent/changes.md:7
 #, python-brace-format
-msgid "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four Onesan doses, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Two illustrative code systems stand in for PreQual product ids and national schedule codes."
+msgid "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Two illustrative code systems stand in for PreQual product ids and national schedule codes."
 msgstr ""
 
 #: input/pagecontent/changes.md:10
@@ -43,7 +43,7 @@ msgstr ""
 
 #: input/pagecontent/changes.md:3
 #, python-brace-format
-msgid "Onesa's code is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, Onesan identifiers, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
+msgid "The code of Onesa is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, the identifiers of Onesa, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations."
 msgstr ""
 
 #: input/pagecontent/changes.md:9

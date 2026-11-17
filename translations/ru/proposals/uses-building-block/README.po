@@ -15,11 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: docs/proposals/uses-building-block/README.md:26
-#, python-brace-format
-msgid "{code0} (OHS FHIR SDK), {code1} (the Onesan national FHIR server), {code2} (IHE VHL), or {code3} (WHO GDHCN)"
-msgstr "{code0} (OHS FHIR SDK), {code1} (национальный FHIR-сервер Онесы), {code2} (IHE VHL) или {code3} (GDHCN ВОЗ)"
-
 #: docs/proposals/uses-building-block/README.md:45
 #, python-brace-format
 msgid "{code0} (optional) names which deployment plays it, when a block has more than one ({code1} → {code2}, {code3})."
@@ -34,11 +29,6 @@ msgstr "{code0} — суть этого ребра: один и тот же бл
 #, python-brace-format
 msgid "{code0}, {code1}, or {code2}. A country's deployed system is that country's; what anyone can adopt is International. The ArchiMate views are to split the RA by jurisdiction on this field (owner, 2026-11-05)"
 msgstr "{code0}, {code1} или {code2}. Развёрнутая система страны принадлежит этой стране; то, что может внедрить любой, — International. Представления ArchiMate должны разделять RA по юрисдикциям на основе этого поля (владелец, 2026-11-05)"
-
-#: docs/proposals/uses-building-block/README.md:16
-#, python-brace-format
-msgid "{code0}: 18 deployed components ({code1}), each a part of a Taifafeki or Onesan system and a specialization of a DPI-H RA block."
-msgstr "{code0}: 18 развёрнутых компонентов ({code1}), каждый — часть тайфафекской или онесской системы и специализация блока DPI-H RA."
 
 #: docs/proposals/uses-building-block/README.md:55
 #, python-brace-format
@@ -145,6 +135,16 @@ msgstr "{code0} (теперь в {code1} — каталоге, объявляю�
 msgid "Checks: the harness's {code0} resolves each {code1} to a block of a declared catalogue, and its kind validator checks the catalogue's shape; {code2} refuses a component that is not an element of the overlay and records each element's blocks as a property. ({code3}, which did this first, is retired.)"
 msgstr "Проверки: {code0} обвязки сопоставляет каждый {code1} с блоком объявленного каталога, а его валидатор вида проверяет форму каталога; {code2} отклоняет компонент, не являющийся элементом наложения, и записывает блоки каждого элемента как свойство. ({code3}, который делал это первым, выведен из эксплуатации.)"
 
+#: docs/proposals/uses-building-block/README.md:26
+#, python-brace-format
+msgid "{code0} (OHS FHIR SDK), {code1} (the national FHIR server of Onesa), {code2} (IHE VHL), or {code3} (WHO GDHCN)"
+msgstr "{code0} (OHS FHIR SDK), {code1} (национальный FHIR-сервер страны Onesa), {code2} (IHE VHL) или {code3} (GDHCN ВОЗ)"
+
+#: docs/proposals/uses-building-block/README.md:16
+#, python-brace-format
+msgid "{code0}: 18 deployed components ({code1}), each a part of a system in Taifafeki or Onesa and a specialization of a DPI-H RA block."
+msgstr "{code0}: 18 развёрнутых компонентов ({code1}), каждый — часть системы в стране Taifafeki или Onesa и специализация блока DPI-H RA."
+
 #~ #, python-brace-format
 #~ msgid "{code0} now also checks:"
 #~ msgstr "{code0} теперь также проверяет:"
@@ -163,3 +163,11 @@ msgstr "Проверки: {code0} обвязки сопоставляет каж
 #~ #, python-brace-format
 #~ msgid "the catalogue's block ids are unique, its layers are known, and its components are element keys of {code0}."
 #~ msgstr "идентификаторы блоков каталога уникальны, его уровни известны, а его компоненты являются ключами элементов {code0}."
+
+#~ #, python-brace-format
+#~ msgid "{code0} (OHS FHIR SDK), {code1} (the Onesan national FHIR server), {code2} (IHE VHL), or {code3} (WHO GDHCN)"
+#~ msgstr "{code0} (OHS FHIR SDK), {code1} (национальный FHIR-сервер Онесы), {code2} (IHE VHL) или {code3} (GDHCN ВОЗ)"
+
+#~ #, python-brace-format
+#~ msgid "{code0}: 18 deployed components ({code1}), each a part of a Taifafeki or Onesan system and a specialization of a DPI-H RA block."
+#~ msgstr "{code0}: 18 развёрнутых компонентов ({code1}), каждый — часть тайфафекской или онесской системы и специализация блока DPI-H RA."

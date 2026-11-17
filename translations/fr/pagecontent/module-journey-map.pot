@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T12:46:16.142Z\n"
+"POT-Creation-Date: 2026-11-17T18:50:35.725Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -79,7 +79,7 @@ msgid "Components that more than one module and more than one step depend on: bu
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:141
-msgid "ConceptMap from Taifafeki's product codes to Onesa's schedule codes; the schedule as a PlanDefinition."
+msgid "ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:105
@@ -163,7 +163,7 @@ msgid "GDHCN trust list (DID documents), cached for offline verification; kid lo
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:37
-msgid "Hospital immunization record; one DVC per birth dose, signed by Taifafeki's document signer."
+msgid "Hospital immunization record; one DVC per birth dose, signed by the document signer of Taifafeki."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:157
@@ -446,7 +446,7 @@ msgid "Offline CHW app reads the cards without verifying them."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:219
-msgid "One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa's own key signs the VHL a Taifafeki viewer checks (J4.1). Built once, for every credential."
+msgid "One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa signs, with its own key, the VHL a viewer in Taifafeki checks (J4.1). Built once, for every credential."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:102
@@ -681,10 +681,6 @@ msgstr ""
 msgid "T7 Team build, showcase and the journey together"
 msgstr ""
 
-#: input/pagecontent/module-journey-map.md:161
-msgid "Taifafeki's document signer key (DSC of XXR) signs each DVC as a CWT in COSE."
-msgstr ""
-
 #: input/pagecontent/module-journey-map.md:212
 msgid "Technical overlaps"
 msgstr ""
@@ -708,7 +704,7 @@ msgid "Temporary id created at a home visit, offline."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:66
-msgid "Terminology service: Taifafeki's product code kept, Onesa's schedule code added beside it; schedule logic over every dose."
+msgid "Terminology service: the product code of Taifafeki kept, the schedule code of Onesa added beside it; schedule logic over every dose."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:231
@@ -721,6 +717,10 @@ msgstr ""
 
 #: input/pagecontent/module-journey-map.md:162
 msgid "The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid."
+msgstr ""
+
+#: input/pagecontent/module-journey-map.md:161
+msgid "The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:174
@@ -744,7 +744,7 @@ msgid "The national record, the wallet and the gateway's audit log are one servi
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:173
-msgid "The Onesan schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue."
+msgid "The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:196
@@ -777,7 +777,7 @@ msgid "The viewer fetches the manifest with an HTTP Message Signature, sends the
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:163
-msgid "The viewer verifies the VHL's HCERT against Onesa's DSC (XXU) before it fetches anything."
+msgid "The viewer verifies the VHL's HCERT against the DSC of Onesa (XXU) before it fetches anything."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:216
@@ -798,7 +798,7 @@ msgid "Viewer app team: open the link, enter the passcode, read the records."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:80
-msgid "Viewer verifies the VHL's HCERT against Onesa's DSC from the trust list."
+msgid "Viewer verifies the VHL's HCERT against the DSC of Onesa from the trust list."
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:93
@@ -810,7 +810,7 @@ msgid "What does the DVC carry, and what does it deliberately leave out, so a ca
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:197
-msgid "What does the viewer need from the trust list, and what does it need from Onesa's gateway?"
+msgid "What does the viewer need from the trust list, and what does it need from the gateway of Onesa?"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:33
