@@ -2,7 +2,7 @@
   "id": "onesa-national-portal",
   "title": "Onesa national health portal and gateway (Country B, XXU)",
   "kind": "system",
-  "description": "Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied.",
+  "description": "The national FHIR server of Onesa, behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied.",
   "roles": [
     "national-portal"
   ],
@@ -31,7 +31,7 @@
         "id": "xxk-vhl-issuer",
         "title": "VHL issuer",
         "raBlock": "National Trust Services",
-        "description": "Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
+        "description": "Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with the document signer key of Onesa (J4.0)."
       },
       {
         "id": "xxk-info-gateway",

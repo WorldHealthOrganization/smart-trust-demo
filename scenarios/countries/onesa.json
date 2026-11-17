@@ -2,7 +2,15 @@
   "id": "onesa",
   "name": "Onesa",
   "fictional": true,
-  "adjective": "Onesan",
+  "notForms": [
+    "Onesan",
+    "Онес",
+    "онес",
+    "أونيس",
+    "اونيس",
+    "奥内萨"
+  ],
+  "notFormsNote": "Renameable in the journeys viewer: every text names the country by its bare name, in Latin script; these derived forms and transliterations, once used, are refused by tools/translation/country-names.ts (memory dir-renameable-countries).",
   "flag": {
     "image": "onesa.flag.svg",
     "description": "Two equal horizontal bands, indigo over orange, with a white five-pointed star in the upper hoist.",

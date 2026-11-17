@@ -48,7 +48,7 @@
         },
         {
           "step": "J3b",
-          "technical": "ConceptMap from Taifafeki's product codes to Onesa's schedule codes; the schedule as a PlanDefinition.",
+          "technical": "ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition.",
           "question": "How does an implementation guide let two countries keep their own vaccine codes and still count each other's doses?"
         },
         {
@@ -128,7 +128,7 @@
       "steps": [
         {
           "step": "J1",
-          "technical": "Taifafeki's document signer key (DSC of XXR) signs each DVC as a CWT in COSE.",
+          "technical": "The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.",
           "question": "What does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document?"
         },
         {
@@ -138,7 +138,7 @@
         },
         {
           "step": "J4.1",
-          "technical": "The viewer verifies the VHL's HCERT against Onesa's DSC (XXU) before it fetches anything.",
+          "technical": "The viewer verifies the VHL's HCERT against the DSC of Onesa (XXU) before it fetches anything.",
           "question": "Why is the health data not in the QR, and what does the viewer check before it opens the link?"
         }
       ]
@@ -193,7 +193,7 @@
         },
         {
           "step": "J3b",
-          "technical": "The Onesan schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.",
+          "technical": "The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.",
           "question": "How does the plan definition decide a dose is overdue, and what sets the date of the next one?"
         },
         {
@@ -307,7 +307,7 @@
         {
           "step": "J4.1",
           "technical": "The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents.",
-          "question": "What does the viewer need from the trust list, and what does it need from Onesa's gateway?"
+          "question": "What does the viewer need from the trust list, and what does it need from the gateway of Onesa?"
         }
       ]
     },

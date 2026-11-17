@@ -2,7 +2,7 @@
   "id": "district-health-center-ehr",
   "title": "Lomaru District Health Center EHR (Country B)",
   "kind": "system",
-  "description": "The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the Onesan schedule code beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3.",
+  "description": "The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the schedule code of Onesa beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3.",
   "roles": [
     "home-clinic-ehr"
   ],
@@ -27,16 +27,16 @@
       },
       {
         "id": "xxk-conceptmap",
-        "title": "Code mapping service (product to Onesan EPI)",
+        "title": "Code mapping service (product to Onesa EPI)",
         "raBlock": "Terminology Service",
-        "description": "Maps a foreign vaccine product code to the Onesan EPI schedule code, which is added beside the original code on import (J3).",
+        "description": "Maps a foreign vaccine product code to the Onesa EPI schedule code, which is added beside the original code on import (J3).",
         "ig": "ConceptMap/TrustDemoProductToOnesaEpi"
       },
       {
         "id": "xxk-schedule",
-        "title": "Schedule evaluator (Onesan infant schedule)",
+        "title": "Schedule evaluator (Onesa infant schedule)",
         "raBlock": "Computable Decision Support Engine",
-        "description": "Evaluates the Onesan infant immunization schedule against the child's doses, imported ones included, and says which are due (J3).",
+        "description": "Evaluates the infant immunization schedule of Onesa against the child's doses, imported ones included, and says which are due (J3).",
         "ig": "PlanDefinition/TrustDemoOnesaInfantSchedule"
       },
       {
