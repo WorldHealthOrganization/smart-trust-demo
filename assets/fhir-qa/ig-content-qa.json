@@ -1,7 +1,7 @@
 {
   "$schema": "ig-content-qa-verdict/v1",
   "items": 2587,
-  "contentDigest": "sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7",
+  "contentDigest": "sha256:9aebc17de010a89ce105a8845201d5974289140998212ee28372de4d97e60f93",
   "patternHits": [],
   "reviewedDigest": "sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7",
   "reviewer": {
@@ -11,7 +11,37 @@
   },
   "reviewedAt": "2026-11-16T13:30:22.488Z",
   "ok": true,
-  "state": "reviewed",
+  "state": "stale",
   "openFindings": [],
-  "said": "2587 text(s) reviewed by agent claude at 2026-11-16T13:30:22.488Z; no pattern hit, no open finding"
+  "unreviewed": [
+    {
+      "where": "PlanDefinition/TrustDemoDT01",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/TrustDemoDT02",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/TrustDemoDT03",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/TrustDemoDT04",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/TrustDemoDT05",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/TrustDemoDT06",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/TrustDemoOnesaInfantSchedule",
+      "field": "text.div"
+    }
+  ],
+  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:9aebc17de010a89ce105a8845201d5974289140998212ee28372de4d97e60f93 (2587); published anyway, with no pattern hit; 7 text(s) not reviewed:\n  PlanDefinition/TrustDemoDT01 text.div\n  PlanDefinition/TrustDemoDT02 text.div\n  PlanDefinition/TrustDemoDT03 text.div\n  PlanDefinition/TrustDemoDT04 text.div\n  PlanDefinition/TrustDemoDT05 text.div\n  PlanDefinition/TrustDemoDT06 text.div\n  PlanDefinition/TrustDemoOnesaInfantSchedule text.div; an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
 }
