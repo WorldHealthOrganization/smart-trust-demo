@@ -11,7 +11,7 @@
   "title" : "National schedule antigen-dose codes (illustrative, Onesa)",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-17T18:39:35+00:00",
+  "date" : "2026-11-17T19:20:34+00:00",
   "publisher" : "litlfred",
   "contact" : [{
     "name" : "litlfred",
@@ -20,7 +20,7 @@
       "value" : "https://github.com/litlfred/smart-trust-demo"
     }]
   }],
-  "description" : "Illustrative antigen-and-dose codes of a national immunization schedule, as the VaxLink walkthrough names them for Onesa. Not the official Onesan EPI coding.",
+  "description" : "Illustrative antigen-and-dose codes of a national immunization schedule, as the VaxLink walkthrough names them for Onesa. Not the official EPI coding of Onesa.",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 6,

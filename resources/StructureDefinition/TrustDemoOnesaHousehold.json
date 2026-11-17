@@ -10,7 +10,7 @@
   "name" : "TrustDemoOnesaHousehold",
   "title" : "Onesa: household on the CHW's roster",
   "status" : "draft",
-  "date" : "2026-11-17T18:39:35+00:00",
+  "date" : "2026-11-17T19:20:34+00:00",
   "publisher" : "litlfred",
   "contact" : [{
     "name" : "litlfred",
@@ -19,7 +19,7 @@
       "value" : "https://github.com/litlfred/smart-trust-demo"
     }]
   }],
-  "description" : "How it is used: J2a. The CHW finds that a newborn is missing from the household roster and adds Somsak as a member.\n\nWhy: Onesan community health work is organized by household. The roster is how a CHW notices that a child is missing, and it is the unit the family phone shares under in J4 (one phone, three profiles).",
+  "description" : "How it is used: J2a. The CHW finds that a newborn is missing from the household roster and adds Somsak as a member.\n\nWhy: community health work in Onesa is organized by household. The roster is how a CHW notices that a child is missing, and it is the unit the family phone shares under in J4 (one phone, three profiles).",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "rim",
