@@ -2,27 +2,27 @@
   "$schema": "folio-search-manifest/v1",
   "source": {
     "path": "assets/js/search-data.json",
-    "sha256": "b718549f5e3a8fc9a39e0e99d77e530c081ba7c4fca1b2c411173561ae458c79",
-    "entries": 3560,
-    "bytes": 3666535
+    "sha256": "4a60ee5b978a88bfb4832a50c5c5e02f74a4dfd5411b1aeaaf06ead03f4bbb63",
+    "entries": 3545,
+    "bytes": 3617955
   },
   "scopes": [
     {
       "id": "_platform",
       "kind": "platform",
       "path": "assets/js/search/_platform.json",
-      "entries": 70,
-      "bytes": 269911
+      "entries": 55,
+      "bytes": 221861
     },
     {
       "id": "cat-harness",
       "kind": "instance",
       "path": "assets/js/search/cat-harness.json",
       "entries": 2678,
-      "bytes": 1887142,
+      "bytes": 1887397,
       "index": {
         "path": "assets/js/search/cat-harness.idx.json",
-        "bytes": 5946546
+        "bytes": 5948662
       }
     },
     {
@@ -37,35 +37,35 @@
       "kind": "locale",
       "path": "assets/js/search/locale-ar.json",
       "entries": 31,
-      "bytes": 218439
+      "bytes": 218326
     },
     {
       "id": "locale-es",
       "kind": "locale",
       "path": "assets/js/search/locale-es.json",
       "entries": 31,
-      "bytes": 173247
+      "bytes": 173226
     },
     {
       "id": "locale-fr",
       "kind": "locale",
       "path": "assets/js/search/locale-fr.json",
       "entries": 31,
-      "bytes": 179123
+      "bytes": 179096
     },
     {
       "id": "locale-ru",
       "kind": "locale",
       "path": "assets/js/search/locale-ru.json",
       "entries": 31,
-      "bytes": 249516
+      "bytes": 249291
     },
     {
       "id": "locale-zh",
       "kind": "locale",
       "path": "assets/js/search/locale-zh.json",
       "entries": 31,
-      "bytes": 150755
+      "bytes": 150791
     }
   ],
   "remote": [

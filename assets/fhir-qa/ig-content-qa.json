@@ -1,7 +1,7 @@
 {
   "$schema": "ig-content-qa-verdict/v1",
   "items": 2587,
-  "contentDigest": "sha256:9aebc17de010a89ce105a8845201d5974289140998212ee28372de4d97e60f93",
+  "contentDigest": "sha256:91db3ab86fb210358024c797db49ce7a371bf237cbbe53a2a533e25330608190",
   "patternHits": [],
   "reviewedDigest": "sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7",
   "reviewer": {
@@ -14,6 +14,110 @@
   "state": "stale",
   "openFindings": [],
   "unreviewed": [
+    {
+      "where": "Basic/TrustDemo.Role.BirthClinicSystem",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.BirthClinicVaccinator",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.Caregiver",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.ChwApp",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.CommunityHealthWorker",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.FamilyPhone",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.HomeClinicEhr",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.HomeClinicProvider",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.IssuerKey",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.NationalPortal",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.PocProvider",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.PocReceiver",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "Basic/TrustDemo.Role.SubjectOfCare",
+      "field": "extension[9].valueMarkdown"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[0].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[1].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[4].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[6].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[10].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[22].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[24].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[25].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[28].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[56].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[75].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[76].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[86].description"
+    },
     {
       "where": "PlanDefinition/TrustDemoDT01",
       "field": "text.div"
@@ -41,7 +145,83 @@
     {
       "where": "PlanDefinition/TrustDemoOnesaInfantSchedule",
       "field": "text.div"
+    },
+    {
+      "where": "input/pagecontent/country-canvas.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/journeys.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/narrative-discrepancies.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/technical-changes.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-m1.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-m2.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-m3.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-m4.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-m5.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-m6.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-m7.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-t1.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-t2.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-t3.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-t4.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-t5.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-t6.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop-t7.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/workshop.md",
+      "field": "page"
     }
   ],
-  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:9aebc17de010a89ce105a8845201d5974289140998212ee28372de4d97e60f93 (2587); published anyway, with no pattern hit; 7 text(s) not reviewed:\n  PlanDefinition/TrustDemoDT01 text.div\n  PlanDefinition/TrustDemoDT02 text.div\n  PlanDefinition/TrustDemoDT03 text.div\n  PlanDefinition/TrustDemoDT04 text.div\n  PlanDefinition/TrustDemoDT05 text.div\n  PlanDefinition/TrustDemoDT06 text.div\n  PlanDefinition/TrustDemoOnesaInfantSchedule text.div; an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
+  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:91db3ab86fb210358024c797db49ce7a371bf237cbbe53a2a533e25330608190 (2587); published anyway, with no pattern hit; 52 text(s) not reviewed:\n  Basic/TrustDemo.Role.BirthClinicSystem extension[9].valueMarkdown\n  Basic/TrustDemo.Role.BirthClinicVaccinator extension[9].valueMarkdown\n  Basic/TrustDemo.Role.Caregiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.ChwApp extension[9].valueMarkdown\n  Basic/TrustDemo.Role.CommunityHealthWorker extension[9].valueMarkdown\n  Basic/TrustDemo.Role.FamilyPhone extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicEhr extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.IssuerKey extension[9].valueMarkdown\n  Basic/TrustDemo.Role.NationalPortal extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocReceiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.SubjectOfCare extension[9].valueMarkdown\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[0].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[1].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[4].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[6].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[10].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[22].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[24].description\n  … and 32 more (the verdict lists every one); an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
 }

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta name="rendered-by" content="journeys-viewer">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verifiable immunization records across borders: the technical track — workshop</title>
+<link rel="canonical" href="./">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 16 16&#39;%3E%3Crect width=&#39;16&#39; height=&#39;16&#39; rx=&#39;3&#39; fill=&#39;%23276749&#39;/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<link rel="stylesheet" href="../../../assets/journeys.css">
+<script src="../../../assets/journeys.js" defer></script>
+
+<link rel="alternate" hreflang="en" href="../../../../../../en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/"><link rel="alternate" hreflang="ar" href="../../../../../../ar/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/"><link rel="alternate" hreflang="zh" href="../../../../../../zh/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/"><link rel="alternate" hreflang="fr" href="../../../../../../fr/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/"><link rel="alternate" hreflang="ru" href="../../../../../../ru/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/"><link rel="alternate" hreflang="es" href="../../../../../../es/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/"><script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["en","ar","zh","fr","ru","es"],"availableLocales":["en","ar","zh","fr","ru","es"]}</script><link rel="stylesheet" href="../../../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../../../assets/page-layout.js" defer data-fa-page-layout></script><link rel="stylesheet" href="../../../../../../assets/ig-artifact.css"><style data-ig-version-chrome>.ig-topbar-head{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem}.ig-topbar-head .ig-topbar-home{flex:none}.ig-topbar-ver{font-weight:400;font-size:.9em;opacity:.95;white-space:nowrap}.ig-topbar-flag{font-size:1.1em}.ig-version-banner{box-sizing:border-box;margin:0;padding:.5rem 1.5rem;background:#ffffa0;color:#222;border-bottom:1px solid #0a0008;font-size:.95rem;line-height:1.45}.ig-version-banner a{color:#1a4b8c;text-decoration:underline}html:not([data-fa-scheme="light"]) .ig-version-banner{background:#4a4520;color:#fff8d0;border-color:#8a7d2a}html:not([data-fa-scheme="light"]) .ig-version-banner a{color:#ffe680}.ig-metadata{border-collapse:collapse;margin:0 0 1rem;font-size:.95rem}.ig-metadata td{border:1px solid #c8c8c8;padding:.25rem .6rem;vertical-align:top}.ig-metadata code{overflow-wrap:anywhere}</style><link rel="stylesheet" href="../../../../../../assets/css/navbar.css"><script src="../../../../../../assets/navbar/rail-2cbagaiqkyj.js" defer></script><script src="../../../../../../assets/js/navbar.js" defer></script><script src="../../../../../../assets/navbar/row-2acuhncsmbg.js" defer></script><link rel="stylesheet" href="../../../../../../assets/css/navbar-row.css"><script src="../../../../../../assets/js/navbar-row.js" defer></script><meta name="fa-platform-base" content="https://litlfred.github.io/folio-assistant" data-fa-platform-ui><link rel="stylesheet" href="../../../../../../assets/css/docs-ui.css" data-fa-platform-ui><script src="../../../../../../assets/js/docs-ui.js" defer data-fa-platform-ui></script><meta name="fa-pinned-data" content="../../../../../.."></head>
+<body class="jv jv-workshop"><script type="application/json" id="fa-navbar-row" data-fa-root="../../../../../.." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../../../..">{"data":"rail-2cbagaiqkyj","here":"/en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../">SMART Trust demonstrator: journeys J1 to J4</a></nav>
+<header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../../index.html">SMART Trust demonstrator: journeys J1 to J4</a><form class="ig-search" role="search" data-ig-search-index="../../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header><p class="ig-version-banner" role="note">This page is part of the SMART Trust demonstrator: journeys J1 to J4 (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/trust-demo/history.html">Directory of published versions</a>.</p>
+<nav class="jv-crumbs" aria-label="Breadcrumb"><a href="../../../">Journeys</a><span class="jv-sep" aria-hidden="true">›</span><a href="../../../smart-trust-demo/">smart-trust-demo</a><span class="jv-sep" aria-hidden="true">›</span><span aria-current="page">Verifiable immunization records across borders: the technical track</span></nav>
+<nav class="jv-langs" aria-label="Languages"><span lang="en" aria-current="true" translate="no">English</span><a lang="ar" hreflang="ar" href="../../../../../../ar/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/" translate="no">العربية</a><a lang="zh" hreflang="zh" href="../../../../../../zh/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/" translate="no">中文</a><a lang="fr" hreflang="fr" href="../../../../../../fr/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/" translate="no">Français</a><a lang="ru" hreflang="ru" href="../../../../../../ru/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/" translate="no">Русский</a><a lang="es" hreflang="es" href="../../../../../../es/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/" translate="no">Español</a></nav>
+<main class="jv-main">
+<header class="jv-hero">
+<p class="jv-kicker">Workshop · SMART Trust demonstrator</p>
+<h1>Verifiable immunization records across borders: the technical track</h1>
+<div class="jv-lede"><p>The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family. It runs beside the <a href="../dpi-h-policy-track/">policy-maker track</a> (M1 to M7): each technical module serves the policy module it is paired with, and both tracks meet in joint sessions each morning and at the close of each day.</p>
+<p>Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.</p>
+<h2>The two days</h2>
+<p>A suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.</p>
+<h3>Day 1</h3>
+<p>Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa.</p>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Session</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>08:30–09:00</td>
+<td>Registration and Heropa login (Technical track: support crew)</td>
+</tr>
+<tr>
+<td>09:00–10:30</td>
+<td><strong>Joint, both tracks:</strong> FHIR around the world and the story we follow (Workshop hosts, with the policy track). P1.1 Welcome; P1.2 WHO remarks; P1.3 How the two days work; P1.4 Country panel; P1.5 Walkthrough of the five journeys</td>
+</tr>
+<tr>
+<td>10:30–11:00</td>
+<td>Coffee, then move to the track rooms</td>
+</tr>
+<tr>
+<td>11:00–12:30</td>
+<td><strong>Policy track, <a href="../dpi-h-policy-track/m1/">M1</a>:</strong> From journey to capabilities</td>
+</tr>
+<tr>
+<td>11:00–11:40</td>
+<td><strong>Technical track, <a href="t1/">T1</a>:</strong> Talk 1: Building with FHIR and the Open Health Stack (talk)</td>
+</tr>
+<tr>
+<td>11:40–12:30</td>
+<td><strong>Technical track, <a href="t2/">T2</a>:</strong> Lab 1: Offline data capture (lab)</td>
+</tr>
+<tr>
+<td>12:30–13:30</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<td>13:30–15:00</td>
+<td><strong>Policy track, <a href="../dpi-h-policy-track/m2/">M2</a>:</strong> The reference architecture (DPI-H) and where you stand</td>
+</tr>
+<tr>
+<td>13:30–13:50</td>
+<td><strong>Technical track, <a href="t3/">T3</a>:</strong> Talk 2: Trust between countries, SMART Trust and the GDHCN (talk)</td>
+</tr>
+<tr>
+<td>13:50–14:00</td>
+<td><strong>Technical track, <a href="t4/">T4</a>:</strong> Talk 3: Workflows, sync and who sees what (talk)</td>
+</tr>
+<tr>
+<td>14:00–15:00</td>
+<td><strong>Technical track, <a href="t4/">T4</a>:</strong> Lab 2: Sync data and run a workflow (lab)</td>
+</tr>
+<tr>
+<td>15:00–15:30</td>
+<td>Coffee</td>
+</tr>
+<tr>
+<td>15:30–16:30</td>
+<td><strong>Policy track, <a href="../dpi-h-policy-track/m3/">M3</a>:</strong> Standards, specifications and the core data set</td>
+</tr>
+<tr>
+<td>15:30–15:40</td>
+<td><strong>Technical track, <a href="t5/">T5</a>:</strong> Talk 4: From records to charts (talk)</td>
+</tr>
+<tr>
+<td>15:40–16:30</td>
+<td><strong>Technical track, <a href="t5/">T5</a>:</strong> Lab 3: Build your first dashboard (lab)</td>
+</tr>
+<tr>
+<td>16:30–17:00</td>
+<td><strong>Joint, both tracks:</strong> What we did today (Lead facilitator for the technical track). S1.1 Policy-maker track; S1.2 Technologist track; S1.3 Close of Day 1</td>
+</tr>
+</tbody>
+</table>
+<h3>Day 2</h3>
+<p>Teams build one app in the journey, show it, and then everything runs together.</p>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Session</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>08:30–09:00</td>
+<td>Arrival and Heropa login (Technical track: support crew)</td>
+</tr>
+<tr>
+<td>09:00–10:30</td>
+<td><strong>Joint, both tracks:</strong> Day 1 recap and today's plan (Workshop hosts). P2.1 Day 1 recap; P2.2 Host country digital health showcase; P2.3 Country vignettes; P2.4 Framing Day 2</td>
+</tr>
+<tr>
+<td>10:30–11:00</td>
+<td>Coffee, then back to the track rooms</td>
+</tr>
+<tr>
+<td>11:00–11:30</td>
+<td><strong>Policy track, <a href="../dpi-h-policy-track/m4/">M4</a>:</strong> Trust, credentials and wallets</td>
+</tr>
+<tr>
+<td>11:00–11:30</td>
+<td><strong>Technical track, <a href="t6/">T6</a>:</strong> Talk 5: Verifying a card, sharing a link, and what you build today (talk)</td>
+</tr>
+<tr>
+<td>11:30–12:30</td>
+<td><strong>Policy track, <a href="../dpi-h-policy-track/m5/">M5</a>:</strong> Governance, decision rights and the legal basis</td>
+</tr>
+<tr>
+<td>11:30–12:30</td>
+<td><strong>Technical track, <a href="t7/">T7</a>:</strong> Team build, part 1 (team build)</td>
+</tr>
+<tr>
+<td>12:30–13:30</td>
+<td>Lunch</td>
+</tr>
+<tr>
+<td>13:30–15:00</td>
+<td><strong>Policy track, <a href="../dpi-h-policy-track/m6/">M6</a>:</strong> Doing it together</td>
+</tr>
+<tr>
+<td>13:30–14:25</td>
+<td><strong>Technical track, <a href="t7/">T7</a>:</strong> Team build, part 2 (team build)</td>
+</tr>
+<tr>
+<td>14:25–15:00</td>
+<td><strong>Technical track, <a href="t7/">T7</a>:</strong> Team presentations (showcase)</td>
+</tr>
+<tr>
+<td>15:00–15:30</td>
+<td>Coffee, and set up the devices for the finale</td>
+</tr>
+<tr>
+<td>15:30–16:15</td>
+<td><strong>Policy track, <a href="../dpi-h-policy-track/m7/">M7</a>:</strong> First move and the investment required</td>
+</tr>
+<tr>
+<td>15:30–16:15</td>
+<td><strong>Technical track, <a href="t7/">T7</a>:</strong> Putting the journey together (team build)</td>
+</tr>
+<tr>
+<td>16:15–16:30</td>
+<td>Move to the main room and brief the finale (Support crew)</td>
+</tr>
+<tr>
+<td>16:30–17:00</td>
+<td><strong>Joint, both tracks:</strong> The journey live, readouts and next steps (Lead facilitator with the workshop hosts). S2.1 Live demonstration; S2.2 Country first moves and the regional ask; S2.3 Handover</td>
+</tr>
+</tbody>
+</table>
+<h2>Before you run it</h2>
+<ul>
+<li>Agree the joint sessions on both days with the policy track, and who leads each closing slot.</li>
+<li>Test the hosted classroom environment (Heropa) the week before. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio.</li>
+<li>Lab 3: set up the dashboard tooling and the shared test data, with help on hand once the apps are seeded.</li>
+<li>Assign a facilitator to each Day 2 team.</li>
+<li>Record the full journey once as a fallback for the finale.</li>
+</ul></div>
+<p><b>For:</b> Developers, implementers and digital health architects, working in teams on one app of the journey each</p>
+<p class="jv-promise">Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.</p>
+
+<p><a class="jv-btn" href="overview/">Present it: overview and walkthrough</a></p>
+</header>
+<section><h2>Taught from</h2><ol class="jv-tree"><li class="jv-node">
+<a class="jv-card" href="../../../smart-trust-demo/j1-born-abroad/" data-jv-text="j1 — vaccinated and recorded an onesan baby gets his first vaccines in taifafeki and leaves with signed paper cards. j1 an onesan baby is born in taifafeki">
+<span class="jv-card-code">J1</span>
+<span class="jv-card-title">J1 — Vaccinated and recorded</span>
+<span class="jv-card-meta">birth day · Taifafeki</span>
+<span class="jv-card-foot"><span class="jv-avs"><span class="jv-av jv-av-s" style="--c:#d97706" title="Dr. Anan · Taifafeki clinician · birth &amp; follow-up" aria-hidden="true">DA</span><span class="jv-av jv-av-s" style="--c:#65a30d" title="Somsak · Baby · the record follows him" aria-hidden="true">SS</span><span class="jv-av jv-av-s" style="--c:#e11d48" title="Khamla · Mother" aria-hidden="true">KS</span></span><span class="jv-card-count">1 step</span></span>
+</a>
+</li>
+<li class="jv-node">
+<a class="jv-card" href="../../../smart-trust-demo/j2-found-at-home/" data-jv-text="j2 — found and registered a health worker registers him offline and records the cards as &quot;reported, not yet verified&quot;. j2a a health worker finds the baby — and reads his cards j2b registered at home, and referred">
+<span class="jv-card-code">J2a–J2b</span>
+<span class="jv-card-title">J2 — Found and registered</span>
+<span class="jv-card-meta">Somsak is 7 weeks old · Onesa</span>
+<span class="jv-card-foot"><span class="jv-avs"><span class="jv-av jv-av-s" style="--c:#0d9488" title="Vilay · Community health worker · Village 04" aria-hidden="true">VI</span><span class="jv-av jv-av-s" style="--c:#e11d48" title="Khamla · Mother" aria-hidden="true">KS</span><span class="jv-av jv-av-s" style="--c:#65a30d" title="Somsak · Baby · the record follows him" aria-hidden="true">SS</span><span class="jv-av jv-av-s" style="--c:#7c3aed" title="Bounmy · Father · holds the family phone" aria-hidden="true">BS</span></span><svg class="jv-spark" viewBox="0 0 80 22" width="80" height="22" aria-label="How the lead feels across the steps"><line x1="0" x2="80" y1="11" y2="11" class="jv-spark-zero"/><polyline points="2.0,11.0 78.0,11.0"/></svg><span class="jv-card-count">2 steps</span></span>
+</a>
+</li>
+<li class="jv-node">
+<a class="jv-card" href="../../../smart-trust-demo/j3-made-official/" data-jv-text="j3 — a foreign record used for the next vaccine a nurse verifies the cards are genuine and fits the taifafeki doses into the onesan schedule. j3a the clinic confirms the cards are genuine j3b taifafeki vaccines are fitted to the onesan schedule">
+<span class="jv-card-code">J3a–J3b</span>
+<span class="jv-card-title">J3 — A foreign record used for the next vaccine</span>
+<span class="jv-card-meta">Somsak is 10 weeks old · Lomaru District Health Center</span>
+<span class="jv-card-foot"><span class="jv-avs"><span class="jv-av jv-av-s" style="--c:#0284c7" title="Chanthason · Nurse · District Health Center" aria-hidden="true">CH</span><span class="jv-av jv-av-s" style="--c:#e11d48" title="Khamla · Mother" aria-hidden="true">KS</span></span><svg class="jv-spark" viewBox="0 0 80 22" width="80" height="22" aria-label="How the lead feels across the steps"><line x1="0" x2="80" y1="11" y2="11" class="jv-spark-zero"/><polyline points="2.0,3.0 78.0,7.0"/></svg><span class="jv-card-count">2 steps</span></span>
+</a>
+</li>
+<li class="jv-node">
+<a class="jv-card" href="../../../smart-trust-demo/j4-0-one-family-one-phone/" data-jv-text="j4.0 — continuity across a border: one family, one phone a year on, the family plans a trip to taifafeki. bounmy’s phone holds records for all three of them, including somsak’s six verified doses. j4.0a one phone holds the whole family’s records j4.0b dad creates a link to share at the clinic">
+<span class="jv-card-code">J4.0a–J4.0b</span>
+<span class="jv-card-title">J4.0 — Continuity across a border: one family, one phone</span>
+<span class="jv-card-meta">12 months later · Onesa</span>
+<span class="jv-card-foot"><span class="jv-avs"><span class="jv-av jv-av-s" style="--c:#7c3aed" title="Bounmy · Father · holds the family phone" aria-hidden="true">BS</span><span class="jv-av jv-av-s" style="--c:#e11d48" title="Khamla · Mother" aria-hidden="true">KS</span></span><svg class="jv-spark" viewBox="0 0 80 22" width="80" height="22" aria-label="How the lead feels across the steps"><line x1="0" x2="80" y1="11" y2="11" class="jv-spark-zero"/><polyline points="2.0,7.0 78.0,3.0"/></svg><span class="jv-card-count">2 steps</span></span>
+</a>
+</li>
+<li class="jv-node">
+<a class="jv-card" href="../../../smart-trust-demo/j4-1-full-history-abroad/" data-jv-text="j4.1 — continuity across a border: a taifafeki paediatrician sees the full history back where it all began, dr. anan scans the link, hears the passcode, and sees somsak’s whole first year — and onesa is told who looked. j4.1 a taifafeki doctor sees the full history">
+<span class="jv-card-code">J4.1</span>
+<span class="jv-card-title">J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history</span>
+<span class="jv-card-meta">12 months later · Kesaro</span>
+<span class="jv-card-foot"><span class="jv-avs"><span class="jv-av jv-av-s" style="--c:#d97706" title="Dr. Anan · Taifafeki clinician · birth &amp; follow-up" aria-hidden="true">DA</span><span class="jv-av jv-av-s" style="--c:#65a30d" title="Somsak · Baby · the record follows him" aria-hidden="true">SS</span><span class="jv-av jv-av-s" style="--c:#7c3aed" title="Bounmy · Father · holds the family phone" aria-hidden="true">BS</span><span class="jv-av jv-av-s" style="--c:#e11d48" title="Khamla · Mother" aria-hidden="true">KS</span></span><span class="jv-card-count">1 step</span></span>
+</a>
+</li></ol></section>
+<section><h2>Modules</h2><h3>Day 1</h3><ol class="jv-modules"><li><a class="jv-card jv-card-mod" href="t1/"><span class="jv-card-code">T1</span><span class="jv-card-title">Building with FHIR and the Open Health Stack</span><span class="jv-card-meta">Which FHIR resources, terminologies and tools carry this journey, and where does each lab use them?</span><span class="jv-card-foot"><span class="jv-card-count">3 questions on the journey</span></span></a></li><li><a class="jv-card jv-card-mod" href="t2/"><span class="jv-card-code">T2</span><span class="jv-card-title">Offline data capture</span><span class="jv-card-meta">How does a form on a health worker&#39;s phone become a patient record, with no signal?</span><span class="jv-card-foot"><span class="jv-card-count">2 questions on the journey</span></span></a></li><li><a class="jv-card jv-card-mod" href="t3/"><span class="jv-card-code">T3</span><span class="jv-card-title">Trust between countries: SMART Trust and the GDHCN</span><span class="jv-card-meta">How can a clinic in one country trust a vaccination record from another, and when is a card better than a link?</span><span class="jv-card-foot"><span class="jv-card-count">3 questions on the journey</span></span></a></li><li><a class="jv-card jv-card-mod" href="t4/"><span class="jv-card-code">T4</span><span class="jv-card-title">Workflows, sync and who sees what</span><span class="jv-card-meta">What should happen next for this child, how does the record reach the server, and who is allowed to see it?</span><span class="jv-card-foot"><span class="jv-card-count">4 questions on the journey</span></span></a></li><li><a class="jv-card jv-card-mod" href="t5/"><span class="jv-card-code">T5</span><span class="jv-card-title">From records to charts</span><span class="jv-card-meta">How does a FHIR record become a row, a chart and a coverage number, and who accessed what?</span><span class="jv-card-foot"><span class="jv-card-count">3 questions on the journey</span></span></a></li></ol><h3>Day 2</h3><ol class="jv-modules"><li><a class="jv-card jv-card-mod" href="t6/"><span class="jv-card-code">T6</span><span class="jv-card-title">Verifying a card, sharing a link</span><span class="jv-card-meta">How does an app go from a scanned QR to a verified result, and from a shared link to the records behind it?</span><span class="jv-card-foot"><span class="jv-card-count">3 questions on the journey</span></span></a></li><li><a class="jv-card jv-card-mod" href="t7/"><span class="jv-card-code">T7</span><span class="jv-card-title">Team build, showcase and the journey together</span><span class="jv-card-meta">Can each team change one app in the journey and then run the whole journey live, from a birth abroad to a clinic back home to the family travelling again?</span><span class="jv-card-foot"><span class="jv-card-count">4 questions on the journey</span></span></a></li></ol></section>
+
+
+
+<section><h2>Job aids and resources</h2><ul class="jv-resources"><li class="jv-resource" id="res-policy-track"><span class="jv-badge">link</span> <a href="../dpi-h-policy-track/">The policy-maker track (M1 to M7)</a><p>The other track of the same two days; each technical module is paired with one of its modules.</p></li><li class="jv-resource" id="res-material-1"><span class="jv-badge">slides</span> <a href="https://worldhealthorganization.github.io/smart-trust-demo/immunization-journey-narrative.pptx">The Immunization Journey: shared story deck</a><p>The policy-maker track&#39;s end-to-end use case narrative, 30 slides, with the decisions from the narrative review. Also: Slide-by-slide changelog (Word) (https://worldhealthorganization.github.io/smart-trust-demo/immunization-journey-narrative-changelog.docx).</p></li><li class="jv-resource" id="res-material-2"><span class="jv-badge">template</span> <a href="https://worldhealthorganization.github.io/smart-trust-demo/country-canvas.html">Country Canvas (A3)</a><p>The cover and Sheets 1 to 6 each table fills in, one country per table. Also: Word (A3) (https://worldhealthorganization.github.io/smart-trust-demo/country-canvas-a3.docx); PDF (https://worldhealthorganization.github.io/smart-trust-demo/country-canvas-a3.pdf).</p></li><li class="jv-resource" id="res-material-3"><span class="jv-badge">handout</span> <a href="https://worldhealthorganization.github.io/smart-trust-demo/dpi-h-glossary-policy-maker-track.pdf">Terms you will hear</a><p>The policy-maker track&#39;s plain-language glossary; the glossary page links each term to its source definition. Also: Glossary page (https://worldhealthorganization.github.io/smart-trust-demo/glossary.html).</p></li><li class="jv-resource" id="res-module-journey-map"><span class="jv-badge">reading</span> <a href="https://worldhealthorganization.github.io/smart-trust-demo/module-journey-map.html">Module × journey map</a><p>Where each module of both tracks meets each journey step, technical and policy.</p></li></ul></section>
+<p class="jv-src">Source: <a href="https://github.com/litlfred/smart-trust-demo/blob/HEAD/workshops/technical-track.workshop.json"><code>workshops/technical-track.workshop.json</code></a></p>
+</main>
+<footer class="jv-foot">Drawn by the journeys viewer from the <code>user-scenario</code> and <code>workshop</code> nodes the checkout's instances declare. Every person is fictional.</footer>
+<script src="../../../../../../assets/ig-search.js" defer></script>
+</body>
+</html>
