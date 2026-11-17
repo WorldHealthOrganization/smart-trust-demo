@@ -125,7 +125,7 @@
         <td>Taifafeki</td>
         <td>J1</td>
         <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoTaifafekiPatient.html">TrustDemoTaifafekiPatient</a></td>
-        <td>Le nouveau-né de l’hôpital de naissance : un numéro d’hôpital, car un bébé de parents d’Onesa n’a pas de numéro d’identité de citoyen de Taifafeki.</td>
+        <td>Le nouveau-né de l’hôpital de naissance : un numéro d’hôpital, car un bébé de parents du pays Onesa n’a pas de numéro d’identité de citoyen de Taifafeki.</td>
         <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Patient-TrustDemoTaifafekiSomsak.html">TrustDemoTaifafekiSomsak</a></td>
       </tr>
       <tr>
@@ -139,7 +139,7 @@
         <td>Taifafeki</td>
         <td>J4.1</td>
         <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoTaifafekiVhlReceipt.html">TrustDemoTaifafekiVhlReceipt</a></td>
-        <td>Ce que le centre de santé de Taifafeki conserve lorsqu’il consulte un résumé d’Onesa au moyen d’un VHL : consulté, non copié.</td>
+        <td>Ce que le centre de santé de Taifafeki conserve lorsqu’il consulte un résumé du pays Onesa au moyen d’un VHL : consulté, non copié.</td>
         <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ41Received.html">TrustDemoJ41Received</a></td>
       </tr>
       <tr>
@@ -188,7 +188,7 @@
         <td>Onesa</td>
         <td>J3</td>
         <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaImmunization.html">TrustDemoOnesaImmunization</a></td>
-        <td>Une dose du calendrier national : le code PEV d’Onesa est obligatoire, et un code de produit étranger est conservé à côté.</td>
+        <td>Une dose du calendrier national : le code PEV du pays Onesa est obligatoire, et un code de produit étranger est conservé à côté.</td>
         <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3HepB.html">TrustDemoJ3HepB</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3Bcg.html">TrustDemoJ3Bcg</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoOnesaPenta1.html">TrustDemoOnesaPenta1</a></td>
       </tr>
       <tr>
@@ -249,7 +249,7 @@
         <td><code class="language-plaintext highlighter-rouge">auditEvent</code></td>
         <td>AuditEvent</td>
         <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41Access.html">TrustDemoJ41Access</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/AuditEvent-TrustDemoJ41Access.json">json</a>)</td>
-        <td>Forme R4 : <code class="language-plaintext highlighter-rouge">type</code>, <code class="language-plaintext highlighter-rouge">subtype</code>, <code class="language-plaintext highlighter-rouge">outcome</code>, <code class="language-plaintext highlighter-rouge">outcomeDesc</code> ; le destinataire est le demandeur, la passerelle d’Onesa le dépositaire et l’observateur. Le code d’accès n’est jamais journalisé.</td>
+        <td>Forme R4 : <code class="language-plaintext highlighter-rouge">type</code>, <code class="language-plaintext highlighter-rouge">subtype</code>, <code class="language-plaintext highlighter-rouge">outcome</code>, <code class="language-plaintext highlighter-rouge">outcomeDesc</code> ; le destinataire est le demandeur, la passerelle du pays Onesa le dépositaire et l’observateur. Le code d’accès n’est jamais journalisé.</td>
       </tr>
       <tr>
         <td><code class="language-plaintext highlighter-rouge">cborPayload</code></td>
@@ -263,10 +263,10 @@
   <h3 id="ce-que-les-exemples-modifient-par-rapport-aux-copies-de-la-prsentation-guide">Ce que les exemples modifient par rapport aux copies de la présentation guidée</h3>
 
   <ul>
-    <li>Systèmes de codes. Les codes de produit de la présentation guidée (<code class="language-plaintext highlighter-rouge">vp-hepb-peds-monovalent</code>, etc.) et les codes du calendrier d’Onesa (<code class="language-plaintext highlighter-rouge">XXU-EPI-HEPB-BD</code>, etc.) sont illustratifs. Ils sont définis ici comme les systèmes de codes <code class="language-plaintext highlighter-rouge">TrustDemoVaccineProduct</code> et <code class="language-plaintext highlighter-rouge">TrustDemoOnesaEpiSchedule</code>, marqués comme expérimentaux, sous l’URL canonique de ce guide, afin qu’aucune URL ne suggère un ministère réel ou un système de codes réel de l’OMS.</li>
+    <li>Systèmes de codes. Les codes de produit de la présentation guidée (<code class="language-plaintext highlighter-rouge">vp-hepb-peds-monovalent</code>, etc.) et les codes du calendrier du pays Onesa (<code class="language-plaintext highlighter-rouge">XXU-EPI-HEPB-BD</code>, etc.) sont illustratifs. Ils sont définis ici comme les systèmes de codes <code class="language-plaintext highlighter-rouge">TrustDemoVaccineProduct</code> et <code class="language-plaintext highlighter-rouge">TrustDemoOnesaEpiSchedule</code>, marqués comme expérimentaux, sous l’URL canonique de ce guide, afin qu’aucune URL ne suggère un ministère réel ou un système de codes réel de l’OMS.</li>
     <li>Pays. Taifafeki est jouée sur le réseau DEV du GDHCN par le participant de test XXR, et Onesa par le participant fictif XXU. Aucune de ces clés n’est une clé de production.</li>
     <li>Le code d’accès. La présentation guidée affiche <code class="language-plaintext highlighter-rouge">4829</code> à l’écran. Aucun exemple ne stocke de code d’accès : les enregistrements de consentement et d’audit indiquent seulement qu’un code a été vérifié.</li>
-    <li>Dates. Comme dans la présentation guidée : naissance le 2025-10-28, J2 le 2025-11-18, J3 le 2025-11-25, les doses d’Onesa le 2025-12-10 et le 2026-07-28, le voyage le 2026-10-28.</li>
+    <li>Dates. Comme dans la présentation guidée : naissance le 2025-10-28, J2 le 2025-11-18, J3 le 2025-11-25, les doses à Onesa le 2025-12-10 et le 2026-07-28, le voyage le 2026-10-28.</li>
   </ul>
 
 </div>

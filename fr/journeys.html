@@ -31,7 +31,7 @@
   <!-- translations: journeys -->
 
   <blockquote>
-    <p>Somsak naît à Taifafeki, grandit à Onesa et, un an plus tard, un médecin de Taifafeki peut voir tous les vaccins qu’il a jamais reçus, sans qu’un seul dossier soit copié de l’autre côté de la frontière.</p>
+    <p>Somsak naît à Taifafeki, grandit à Onesa et, un an plus tard, un médecin à Taifafeki peut voir tous les vaccins qu’il a jamais reçus, sans qu’un seul dossier soit copié de l’autre côté de la frontière.</p>
   </blockquote>
 
   <p>Le récit est celui que raconte la <a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/">présentation guidée des parcours</a>, moment par moment, avec les personnes, la couche technique et les questions de politique (interactive ; sa source est <code class="language-plaintext highlighter-rouge">web/</code> dans ce dépôt), documenté ici sous forme de DAK L2 et de guide d’implémentation L3 des lignes directrices SMART de l’OMS. Ses exemples FHIR sont matérialisés dans ce guide ; la page <a href="journey-examples.html">Exemples des parcours</a> met en correspondance chaque moment et chaque écran d’appareil avec ces exemples.</p>
@@ -121,19 +121,19 @@
       <tr>
         <td>J3b</td>
         <td>Planifié : compte pour le calendrier national</td>
-        <td>Registres nationaux d’Onesa</td>
+        <td>Registres nationaux du pays Onesa</td>
         <td>calendrier <code class="language-plaintext highlighter-rouge">coding</code> ajouté, <code class="language-plaintext highlighter-rouge">ImmunizationRecommendation</code>, <code class="language-plaintext highlighter-rouge">Task</code></td>
       </tr>
       <tr>
         <td>J4.0</td>
         <td>Portable : un résumé que la famille peut partager</td>
-        <td>Registres d’Onesa, lien sur le téléphone</td>
+        <td>Registres à Onesa, lien sur le téléphone</td>
         <td>IPS <code class="language-plaintext highlighter-rouge">Bundle</code>, <code class="language-plaintext highlighter-rouge">Consent</code></td>
       </tr>
       <tr>
         <td>J4.1</td>
         <td>Partagé et audité : consulté à l’étranger, journalisé dans le pays de résidence</td>
-        <td>Registres nationaux d’Onesa</td>
+        <td>Registres nationaux du pays Onesa</td>
         <td><code class="language-plaintext highlighter-rouge">Provenance</code>, <code class="language-plaintext highlighter-rouge">AuditEvent</code></td>
       </tr>
     </tbody>
@@ -250,7 +250,7 @@
       </tr>
       <tr>
         <td>national-portal</td>
-        <td>Portail national et passerelle d’Onesa (XXU)</td>
+        <td>Portail national et passerelle du pays Onesa (XXU)</td>
         <td>Émetteur ; participant au réseau de confiance</td>
         <td>Émetteur ; participant au réseau de confiance</td>
         <td><a href="https://profiles.ihe.net/ITI/VHL/ActorDefinition-VHLSharer.html">VHLSharer</a></td>
@@ -293,7 +293,7 @@
 
   <p>Condition préalable : le DSC de l’émetteur figure sur la liste de confiance. Le certificat de signataire de documents (DSC) de XXR, émis sous l’autorité de certification de signature du pays (CSCA) de XXR, a été partagé avec le GDHCN, l’ancre de confiance, avant la signature de tout DVC ; le GDHCN le publie sous forme de document DID. Ce partage n’est pas une étape de l’émission. Un DVC signé avec une clé dont le DSC n’a jamais été partagé échoue à la vérification de la liste de confiance de tout destinataire (STT-VER-006).</p>
 
-  <p>Khamla, ressortissante d’Onesa qui travaille à Taifafeki, donne naissance à Somsak le 2025-10-28 à l’hôpital provincial de Kesaro. Il n’a pas de numéro d’identité de Taifafeki. Le Dr Anan administre les doses à la naissance contre l’hépatite B et le BCG et les enregistre avec leurs codes de produit de préqualification de l’OMS. Pour chaque dose, le système de l’hôpital effectue trois opérations :</p>
+  <p>Khamla, une femme du pays Onesa qui travaille à Taifafeki, donne naissance à Somsak le 2025-10-28 à l’hôpital provincial de Kesaro. Il n’a pas de numéro d’identité de Taifafeki. Le Dr Anan administre les doses à la naissance contre l’hépatite B et le BCG et les enregistre avec leurs codes de produit de préqualification de l’OMS. Pour chaque dose, le système de l’hôpital effectue trois opérations :</p>
 
   <ol>
     <li>Il construit une charge utile DVCMinPreQual : STT-PAY-001…005 et STT-PAY-007, avec la sous-revendication −6 (STT-SEL-003). Aucun document d’identité n’est nécessaire (STT-PAY-005).</li>
@@ -317,7 +317,7 @@ do not verify in J3.</p>
 
   <h4 id="j2--retrouv-et-enregistr-onesa-somsak-a-7-semaines">J2 — Retrouvé et enregistré (Onesa, Somsak a 7 semaines)</h4>
 
-  <p>J2a. Khamla a ramené Somsak chez elle, à Onesa. Lors d’une visite de routine au Village 04, le village de Khamla, Vilay trouve un nouveau-né dont le système d’Onesa ignore l’existence. Son téléphone n’a pas eu de signal depuis des semaines. Khamla montre les deux cartes. L’application CHW les lit avec read-unverified (STT-VER-011 ; STT-B45-002, STT-ZIP-002, STT-CBR-003), qui ne nécessite aucune liste de confiance. Elle affiche les doses, mais ne vérifie aucune signature et n’enregistre encore rien.</p>
+  <p>J2a. Khamla a ramené Somsak chez elle, à Onesa. Lors d’une visite de routine au Village 04, le village de Khamla, Vilay trouve un nouveau-né dont le système du pays Onesa ignore l’existence. Son téléphone n’a pas eu de signal depuis des semaines. Khamla montre les deux cartes. L’application CHW les lit avec read-unverified (STT-VER-011 ; STT-B45-002, STT-ZIP-002, STT-CBR-003), qui ne nécessite aucune liste de confiance. Elle affiche les doses, mais ne vérifie aucune signature et n’enregistre encore rien.</p>
 
   <p>J2b. Dans le formulaire de nouveau-né de l’application CHW (saisie de données structurées, <code class="language-plaintext highlighter-rouge">TrustDemoHouseholdRegistration</code>), elle ajoute Somsak au ménage Sengmany (<code class="language-plaintext highlighter-rouge">TrustDemoHousehold</code>), avec un identifiant temporaire. Bounmy confirme les informations en tant que chef de ménage. L’application enregistre les doses lues sur les cartes comme déclarées par la famille, non vérifiées (<code class="language-plaintext highlighter-rouge">TrustDemoJ2HepBReported</code>, <code class="language-plaintext highlighter-rouge">TrustDemoJ2BcgReported</code> : <code class="language-plaintext highlighter-rouge">primarySource</code> false). Vilay oriente Somsak vers le centre de santé de district (<code class="language-plaintext highlighter-rouge">TrustDemoJ2Referral</code>). Tout reste en file d’attente sur le téléphone, pendant 28 jours si nécessaire, et se synchronise dès qu’un signal est de nouveau disponible.</p>
 
@@ -349,8 +349,8 @@ catch-up policy.</p>
     <li>Point de friction (J3a) : les cliniciens se méfient des documents papier étrangers et revaccinent, ou leur font aveuglément confiance.</li>
     <li>Point de friction (J3b) : les pays nomment et conditionnent les vaccins différemment, si bien que des doses sont omises ou répétées.</li>
     <li>Facilitateur (J3a) : la clé de signature de Taifafeki figure sur la liste de confiance partagée de l’OMS, de sorte que toute clinique peut la vérifier localement.</li>
-    <li>Facilitateur (J3b) : le code d’origine de Taifafeki est conservé et le code d’Onesa est ajouté à côté ; le moteur de calendrier calcule ce qui est dû.</li>
-    <li>Politique (J3a) : la confiance est décentralisée : une clinique d’Onesa vérifie elle-même une signature de Taifafeki, sans contacter Taifafeki.</li>
+    <li>Facilitateur (J3b) : le code d’origine de Taifafeki est conservé et le code du pays Onesa est ajouté à côté ; le moteur de calendrier calcule ce qui est dû.</li>
+    <li>Politique (J3a) : la confiance est décentralisée : une clinique à Onesa vérifie elle-même une signature de Taifafeki, sans contacter Taifafeki.</li>
     <li>Politique (J3b) : ne jamais écraser le dossier d’un autre pays : conserver le codage d’origine à côté du codage national.</li>
   </ul>
 
@@ -379,16 +379,16 @@ catch-up policy.</p>
     <li>Politique (J4.0b) : souveraineté des données : le dossier reste à Onesa jusqu’à ce que la famille autorise quelqu’un à l’ouvrir.</li>
   </ul>
 
-  <h4 id="j41--continuit-par-del-une-frontire--un-pdiatre-de-taifafeki-voit-lhistorique-complet-kesaro-12-mois-plus-tard">J4.1 — Continuité par-delà une frontière : un pédiatre de Taifafeki voit l’historique complet (Kesaro, 12 mois plus tard)</h4>
+  <h4 id="j41--continuit-par-del-une-frontire--un-pdiatre--taifafeki-voit-lhistorique-complet-kesaro-12-mois-plus-tard">J4.1 — Continuité par-delà une frontière : un pédiatre à Taifafeki voit l’historique complet (Kesaro, 12 mois plus tard)</h4>
 
   <p>Condition préalable, comme dans J3 : les documents DID sont déjà chargés. Le magasin de confiance du visualiseur de la clinique est une copie en cache de la liste de confiance du GDHCN, comprenant le document DID du DSC du Pays B (STT-TRU-001, STT-TRU-002, STT-TRU-005). La clinique l’actualise chaque nuit ou chaque heure, contre environ une fois par semaine à la clinique hors ligne de J3. Elle n’a pas besoin d’être en ligne pour vérifier : la vérification lit le cache et ne récupère jamais la liste. Un DSC publié après la dernière actualisation échoue à la vérification de la liste de confiance (STT-VER-006), avec indication de ce motif.</p>
 
-  <p>De retour là où tout a commencé, le Dr Anan, pédiatre, reçoit Somsak dans une clinique pédiatrique de Kesaro. Bounmy montre le code QR sur son téléphone et prononce le code d’accès. Le visualiseur de la clinique et la passerelle d’Onesa effectuent cinq étapes :</p>
+  <p>De retour là où tout a commencé, le Dr Anan, pédiatre, reçoit Somsak dans une clinique pédiatrique de Kesaro. Bounmy montre le code QR sur son téléphone et prononce le code d’accès. Le visualiseur de la clinique et la passerelle du pays Onesa effectuent cinq étapes :</p>
 
   <ol>
     <li>Le visualiseur vérifie le HCERT par rapport au DSC du Pays B dans sa copie de la liste de confiance.</li>
     <li>Il demande le manifeste par ITI-YY5, signé avec HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).</li>
-    <li>La passerelle d’Onesa vérifie le code d’accès, l’expiration et le consentement, renvoie le manifeste et journalise l’accès dans le pays de résidence (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Access</code>).</li>
+    <li>La passerelle du pays Onesa vérifie le code d’accès, l’expiration et le consentement, renvoie le manifeste et journalise l’accès dans le pays de résidence (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Access</code>).</li>
     <li>The viewer decrypts the IPS and DVCs (<a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-vhl-007">STT-VHL-007</a>) (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Received</code>).</li>
     <li>Il les présente au Dr Anan : chaque dose depuis la naissance, consultée, jamais copiée.</li>
   </ol>
@@ -431,7 +431,7 @@ would a paper record.</p>
 </div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/journeys.md" data-repo="WorldHealthOrganization/smart-trust-demo" href="https://github.com/WorldHealthOrganization/smart-trust-demo/edit/main/input/pagecontent/journeys.md">Edit this page on GitHub</a></p>
-<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/journeys.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/journeys.md", "lines": [{"t":"Roles, actors and the guides' actor definitions","l":61},{"t":"User scenarios","l":88},{"t":"J1 — Vaccinated and recorded (Taifafeki, birth day)","l":99},{"t":"J2 — Found and registered (Onesa, Somsak is 7 weeks old)","l":124},{"t":"J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)","l":149},{"t":"J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)","l":181},{"t":"J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history (Kesaro, 12 months later)","l":206},{"t":"Questions for discussion","l":233},{"t":"Modules, terms and the canvas","l":242}]}</script>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/journeys.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/journeys.md", "lines": [{"t":"Roles, actors and the guides' actor definitions","l":61},{"t":"User scenarios","l":88},{"t":"J1 — Vaccinated and recorded (Taifafeki, birth day)","l":99},{"t":"J2 — Found and registered (Onesa, Somsak is 7 weeks old)","l":124},{"t":"J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)","l":149},{"t":"J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)","l":181},{"t":"J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history (Kesaro, 12 months later)","l":206},{"t":"Questions for discussion","l":233},{"t":"Modules, terms and the canvas","l":242}]}</script>
 
 <script src="../assets/ig-source-links.js"></script>
 

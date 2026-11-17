@@ -130,7 +130,7 @@ makes, as the journeys walkthrough presents them.</p>
 
 <p><strong>Precondition: the issuer’s DSC is on the trust list.</strong> XXR’s document signer certificate (DSC), issued under XXR’s Country Signing CA (CSCA), was shared with the GDHCN, the Trust Anchor, before any DVC is signed; the GDHCN publishes it as a DID document. Sharing it is not a step of issuing. A DVC signed with a key whose DSC was never shared fails every receiver’s trust-list check (<a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-006">STT-VER-006</a>).</p>
 
-<p>Khamla, an Onesan who works in Taifafeki, gives birth to Somsak on 2025-10-28
+<p>Khamla, a woman from Onesa who works in Taifafeki, gives birth to Somsak on 2025-10-28
 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the
 Hep B and BCG birth doses and records them with their WHO PreQual product
 codes. For each dose, the hospital system does three things:</p>
@@ -158,7 +158,7 @@ do not verify in J3.</p>
 <h4 id="j2--found-and-registered-onesa-somsak-is-7-weeks-old">J2 — Found and registered (Onesa, Somsak is 7 weeks old)</h4>
 
 <p><strong>J2a.</strong> Khamla has brought Somsak home to Onesa. On a routine visit to Village 04,
-Khamla’s village, Vilay finds a newborn the Onesan
+Khamla’s village, Vilay finds a newborn the Onesa
 system does not know exists. Her phone has had no signal for weeks. Khamla
 shows the two cards. The CHW app reads them with <strong>read-unverified</strong>
 (<a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-011">STT-VER-011</a>; <a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-b45-002">STT-B45-002</a>, <a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-zip-002">STT-ZIP-002</a>, <a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-cbr-003">STT-CBR-003</a>), which needs no trust
@@ -196,7 +196,7 @@ the reason, the doses stay unverified, and the nurse decides by national
 catch-up policy.</p>
 
 <p><strong>J3b.</strong> The Taifafeki Hep B product matches nothing on the national schedule.
-The EHR keeps Taifafeki’s product coding and adds the schedule coding beside
+The EHR keeps the product coding of Taifafeki and adds the schedule coding beside
 it, from the national map (<code class="language-plaintext highlighter-rouge">TrustDemoProductToOnesaEpi</code>). For the Hep B product
 the map has no entry, so Nurse Chanthason makes the clinical call that it is
 the schedule’s birth dose (<code class="language-plaintext highlighter-rouge">TrustDemoJ3Adjudication</code>), and her decision is
@@ -210,9 +210,9 @@ measles-rubella at 9 months, in Onesa.</p>
 <ul>
   <li><em>Pain point (J3a):</em> Clinicians either distrust foreign paper and re-vaccinate, or trust it blindly.</li>
   <li><em>Pain point (J3b):</em> Countries name and package vaccines differently, so doses get missed or repeated.</li>
-  <li><em>Enabler (J3a):</em> Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally.</li>
-  <li><em>Enabler (J3b):</em> Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due.</li>
-  <li><em>Policy (J3a):</em> Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki.</li>
+  <li><em>Enabler (J3a):</em> The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally.</li>
+  <li><em>Enabler (J3b):</em> The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due.</li>
+  <li><em>Policy (J3a):</em> Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki.</li>
   <li><em>Policy (J3b):</em> Never overwrite another country’s record: keep the original coding alongside the national one.</li>
 </ul>
 
@@ -245,18 +245,18 @@ can say aloud, valid for 14 days. The portal records his consent
   <li><em>Policy (J4.0b):</em> Data sovereignty: the record stays in Onesa until the family authorizes someone to open it.</li>
 </ul>
 
-<h4 id="j41--continuity-across-a-border-a-taifafeki-paediatrician-sees-the-full-history-kesaro-12-months-later">J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history (Kesaro, 12 months later)</h4>
+<h4 id="j41--continuity-across-a-border-a-paediatrician-in-taifafeki-sees-the-full-history-kesaro-12-months-later">J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history (Kesaro, 12 months later)</h4>
 
 <p><strong>Precondition, as in J3: the DID documents are already loaded.</strong> The clinic viewer’s trust store is a cached copy of the GDHCN trust list, including Country B’s DSC DID document (<a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-tru-001">STT-TRU-001</a>, <a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-tru-002">STT-TRU-002</a>, <a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-tru-005">STT-TRU-005</a>). The clinic refreshes it nightly or hourly, against about weekly at the offline J3 clinic. It does not need to be online to verify: verifying reads the cache and never fetches the list. A DSC published after the last refresh fails the trust-list check (<a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-006">STT-VER-006</a>), naming that reason.</p>
 
 <p>Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric
 clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The
-clinic viewer and the Onesan gateway take five steps:</p>
+clinic viewer and the Onesa gateway take five steps:</p>
 
 <ol>
   <li>The viewer verifies the HCERT against Country B’s DSC in its copy of the trust list.</li>
   <li>It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (<a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-vhl-005">STT-VHL-005</a>, <a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-vhl-006">STT-VHL-006</a>, <a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-vhl-008">STT-VHL-008</a>).</li>
-  <li>The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Access</code>).</li>
+  <li>The Onesa gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Access</code>).</li>
   <li>The viewer decrypts the IPS and DVCs (<a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-vhl-007">STT-VHL-007</a>) (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Received</code>).</li>
   <li>It shows them to Dr Anan: every dose since the birth, viewed, never copied.</li>
 </ol>
@@ -277,7 +277,7 @@ would a paper record.</p>
 <!-- END user scenarios -->
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/scenarios.md" data-repo="WorldHealthOrganization/smart-trust-demo" href="https://github.com/WorldHealthOrganization/smart-trust-demo/edit/main/input/pagecontent/scenarios.md">Edit this page on GitHub</a></p>
-<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/scenarios.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/scenarios.md", "lines": [{"t":"User stories","l":4},{"t":"User scenarios","l":24},{"t":"J1 — Vaccinated and recorded (Taifafeki, birth day)","l":35},{"t":"J2 — Found and registered (Onesa, Somsak is 7 weeks old)","l":60},{"t":"J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)","l":85},{"t":"J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)","l":117},{"t":"J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history (Kesaro, 12 months later)","l":142}]}</script>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/scenarios.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/scenarios.md", "lines": [{"t":"User stories","l":4},{"t":"User scenarios","l":24},{"t":"J1 — Vaccinated and recorded (Taifafeki, birth day)","l":35},{"t":"J2 — Found and registered (Onesa, Somsak is 7 weeks old)","l":60},{"t":"J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)","l":85},{"t":"J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)","l":117},{"t":"J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history (Kesaro, 12 months later)","l":142}]}</script>
 
 <script src="./assets/ig-source-links.js"></script>
 

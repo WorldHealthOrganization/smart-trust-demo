@@ -220,7 +220,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the Onesan schedule code beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3."
+          "@value": "The district health center's OHS-based record system in Onesa (Country B), on a tablet (J3): verifies DVCs against its cached GDHCN trust list, imports them with provenance, adds the schedule code of Onesa beside each foreign vaccine code and evaluates the national schedule. A Receiver; Country B, as a Trust Network Participant, retrieves the PKI material it uses. Its trust store is loaded before the visit, from the copy of the trust list it refreshed when last connected (for an offline clinic, about weekly); it fetches nothing during J3."
         }
       ],
       "dcterms:source": "scenarios/actors/district-health-center-ehr.json",
@@ -263,12 +263,12 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Code mapping service (product to Onesan EPI)"
+          "@value": "Code mapping service (product to Onesa EPI)"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Maps a foreign vaccine product code to the Onesan EPI schedule code, which is added beside the original code on import (J3)."
+          "@value": "Maps a foreign vaccine product code to the Onesa EPI schedule code, which is added beside the original code on import (J3)."
         }
       ],
       "skos:broader": [
@@ -292,12 +292,12 @@
       },
       "skos:prefLabel": [
         {
-          "@value": "Schedule evaluator (Onesan infant schedule)"
+          "@value": "Schedule evaluator (Onesa infant schedule)"
         }
       ],
       "skos:definition": [
         {
-          "@value": "Evaluates the Onesan infant immunization schedule against the child's doses, imported ones included, and says which are due (J3)."
+          "@value": "Evaluates the infant immunization schedule of Onesa against the child's doses, imported ones included, and says which are due (J3)."
         }
       ],
       "skos:broader": [
@@ -482,7 +482,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "The hospital record system and DVC issuing service of Kesaro Provincial Hospital in Taifafeki (Country A, the birth country): issues one DVC per birth dose (J1), signing with the DSC of GDHCN DEV test participant XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), which plays Taifafeki in the demonstrator. XXR is a DEV test participant, not Taifafeki's production key."
+          "@value": "The hospital record system and DVC issuing service of Kesaro Provincial Hospital in Taifafeki (Country A, the birth country): issues one DVC per birth dose (J1), signing with the DSC of GDHCN DEV test participant XXR (kid kW/6VnwPRKI=, hex 916ffa567c0f44a2), which plays Taifafeki in the demonstrator. XXR is a DEV test participant, not the production key of Taifafeki."
         }
       ],
       "dcterms:source": "scenarios/actors/kesaro-provincial-hospital.json",
@@ -588,7 +588,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Builds each Digital Vaccination Certificate as an HCERT payload and has it signed with Taifafeki's document signer key, published to GDHCN (J1)."
+          "@value": "Builds each Digital Vaccination Certificate as an HCERT payload and has it signed with the document signer key of Taifafeki, published to GDHCN (J1)."
         }
       ],
       "skos:broader": [
@@ -616,11 +616,11 @@
         }
       ],
       "skos:altLabel": [
-        "Onesan national health portal"
+        "Onesa national health portal"
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's national FHIR server behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
+          "@value": "The national FHIR server of Onesa, behind the OHS FHIR Info Gateway (J4.0, J4.1): assembles each family member's IPS and DVCs, issues each as a passcode-protected Verifiable Health Link in an HCERT signed with Country B's DSC, hosts the manifests (ITI-YY5), checks passcode, expiry and consent on each request, and logs every access as an AuditEvent at home. Country B is played on the GDHCN DEV network by the test participant XXU, so no real ministry's key is implied."
         }
       ],
       "dcterms:source": "scenarios/actors/onesa-national-portal.json",
@@ -668,7 +668,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with Onesa's document signer key (J4.0)."
+          "@value": "Issues a passcode-protected Verifiable Health Link per family member, in an HCERT signed with the document signer key of Onesa (J4.0)."
         }
       ],
       "skos:broader": [
@@ -971,7 +971,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block CHW & Community: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block CHW & Community: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -990,7 +990,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Citizen / Patient Apps: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Citizen / Patient Apps: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1009,7 +1009,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Client Registry for Health: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Client Registry for Health: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1028,7 +1028,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Computable Decision Support Engine: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Computable Decision Support Engine: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1047,7 +1047,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block DPI-F Information Mediator: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block DPI-F Information Mediator: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1066,7 +1066,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Health Facility Registry: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Health Facility Registry: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1085,7 +1085,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Health Management Information System: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Health Management Information System: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1104,7 +1104,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Health Workforce Registry: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Health Workforce Registry: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1123,7 +1123,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Lifelong Health Record: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Lifelong Health Record: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1142,7 +1142,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block National Trust Services: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block National Trust Services: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1161,7 +1161,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Provider Systems: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Provider Systems: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1180,7 +1180,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Onesa's instance of the Reference Architecture (DPI-H) building block Terminology Service: what Onesa's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Onesa of the Reference Architecture (DPI-H) building block Terminology Service: what the parts of Onesa that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1199,7 +1199,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Taifafeki's instance of the Reference Architecture (DPI-H) building block Lifelong Health Record: what Taifafeki's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Taifafeki of the Reference Architecture (DPI-H) building block Lifelong Health Record: what the parts of Taifafeki that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1218,7 +1218,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Taifafeki's instance of the Reference Architecture (DPI-H) building block National Trust Services: what Taifafeki's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Taifafeki of the Reference Architecture (DPI-H) building block National Trust Services: what the parts of Taifafeki that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1237,7 +1237,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Taifafeki's instance of the Reference Architecture (DPI-H) building block Product Registry: what Taifafeki's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Taifafeki of the Reference Architecture (DPI-H) building block Product Registry: what the parts of Taifafeki that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",
@@ -1256,7 +1256,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Taifafeki's instance of the Reference Architecture (DPI-H) building block Provider Systems: what Taifafeki's parts that play that block are, one per jurisdiction, since neither country's systems are the other's."
+          "@value": "The instance in Taifafeki of the Reference Architecture (DPI-H) building block Provider Systems: what the parts of Taifafeki that play that block are, one per jurisdiction, since neither country's systems are the other's."
         }
       ],
       "dcterms:source": "scenarios/actors/ (meta.country and meta.parts[].raBlock)",

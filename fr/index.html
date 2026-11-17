@@ -30,14 +30,14 @@
 
   <!-- translations: index -->
 
-  <p>Un bébé · deux pays · une année Somsak naît à Taifafeki et grandit à Onesa. Un an plus tard, un médecin de Taifafeki voit tous les vaccins qu’il a reçus, et aucun dossier n’est copié de l’autre côté de la frontière. Ce guide est cette histoire, racontée sous la forme des parcours J1 à J4, transcrite sous la forme d’un kit d’adaptation numérique (L2) des lignes directrices SMART de l’OMS et d’un guide d’implémentation FHIR (L3). Il s’appuie sur les bibliothèques HCERT SMART Trust et le GDHCN de l’OMS. Suivre les parcours pas à pas Lire les parcours Voir les exemples FHIR</p>
+  <p>Un bébé · deux pays · une année Somsak naît à Taifafeki et grandit à Onesa. Un an plus tard, un médecin à Taifafeki voit tous les vaccins qu’il a reçus, et aucun dossier n’est copié de l’autre côté de la frontière. Ce guide est cette histoire, racontée sous la forme des parcours J1 à J4, transcrite sous la forme d’un kit d’adaptation numérique (L2) des lignes directrices SMART de l’OMS et d’un guide d’implémentation FHIR (L3). Il s’appuie sur les bibliothèques HCERT SMART Trust et le GDHCN de l’OMS. Suivre les parcours pas à pas Lire les parcours Voir les exemples FHIR</p>
 
   <h3 id="quatre-moments-qui-comptent">Quatre moments qui comptent</h3>
 
   <p>Chaque moment est un processus métier (BPMN), joué par des personnes fictives. Chacun est relié au scénario utilisateur, au processus et aux enregistrements FHIR qu’il crée. Cliquez sur une image pour parcourir ce moment dans la <a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/">présentation guidée des parcours</a>.</p>
 
   <ol>
-    <li>Vacciné et enregistré Jour de la naissance · Kesaro, Taifafeki · J1 Un bébé d’Onesa reçoit ses premiers vaccins à Taifafeki. L’hôpital signe chaque dose sous forme de certificat de vaccination numérique, et la famille repart avec deux cartes QR papier. Parcourir l’étape · Scénario · Processus · Profil de Taifafeki    2. Retrouvé et enregistré Âgé de 7 semaines · Village 04, Onesa · J2 Une agente de santé l’enregistre hors ligne et lit les cartes. Elle consigne les doses comme « déclarées, pas encore vérifiées » et l’oriente vers le centre de santé. Parcourir l’étape · Scénario · Processus · Profil d’Onesa    3. Un dossier étranger utilisé pour le vaccin suivant Âgé de 10 semaines · centre de santé de district, Onesa · J3 Une infirmière vérifie les signatures par rapport à la liste de confiance du GDHCN, hors ligne. Elle fait correspondre les codes de vaccins de Taifafeki au calendrier d’Onesa et administre les doses de 6 semaines en retard. Parcourir l’étape · Scénario · Processus · Profil d’Onesa    4. Continuité par-delà une frontière 12 mois plus tard · Onesa → Taifafeki · J4.0, J4.1 La famille partage l’intégralité du dossier du bébé avec un médecin de Taifafeki au moyen d’un lien de santé vérifiable sur le téléphone de son père. Chaque accès est journalisé dans le pays de résidence. Parcourir l’étape · Scénario · Processus · Profil d’Onesa</li>
+    <li>Vacciné et enregistré Jour de la naissance · Kesaro, Taifafeki · J1 Un bébé du pays Onesa reçoit ses premiers vaccins à Taifafeki. L’hôpital signe chaque dose sous forme de certificat de vaccination numérique, et la famille repart avec deux cartes QR papier. Parcourir l’étape · Scénario · Processus · Profil de Taifafeki    2. Retrouvé et enregistré Âgé de 7 semaines · Village 04, Onesa · J2 Une agente de santé l’enregistre hors ligne et lit les cartes. Elle consigne les doses comme « déclarées, pas encore vérifiées » et l’oriente vers le centre de santé. Parcourir l’étape · Scénario · Processus · Profil du pays Onesa    3. Un dossier étranger utilisé pour le vaccin suivant Âgé de 10 semaines · centre de santé de district, Onesa · J3 Une infirmière vérifie les signatures par rapport à la liste de confiance du GDHCN, hors ligne. Elle fait correspondre les codes de vaccins de Taifafeki au calendrier du pays Onesa et administre les doses de 6 semaines en retard. Parcourir l’étape · Scénario · Processus · Profil du pays Onesa    4. Continuité par-delà une frontière 12 mois plus tard · Onesa → Taifafeki · J4.0, J4.1 La famille partage l’intégralité du dossier du bébé avec un médecin à Taifafeki au moyen d’un lien de santé vérifiable sur le téléphone de son père. Chaque accès est journalisé dans le pays de résidence. Parcourir l’étape · Scénario · Processus · Profil du pays Onesa</li>
   </ol>
 
   <h3 id="contenu-de-ce-guide">Contenu de ce guide</h3>
@@ -73,22 +73,22 @@
       </tr>
       <tr>
         <td>Profils de Taifafeki</td>
-        <td>Le patient et la dose de l’hôpital de naissance (la source de chaque DVC), et l’enregistrement que conserve une clinique de Taifafeki lorsqu’elle lit un VHL</td>
+        <td>Le patient et la dose de l’hôpital de naissance (la source de chaque DVC), et l’enregistrement que conserve une clinique à Taifafeki lorsqu’elle lit un VHL</td>
         <td><a href="journey-examples.html#country-profiles">Profils par pays</a></td>
       </tr>
       <tr>
-        <td>Profils d’Onesa</td>
+        <td>Profils du pays Onesa</td>
         <td>L’enfant et le ménage que l’agent de santé communautaire (CHW) enregistre, les doses déclarées et vérifiées, l’orientation, la vérification des DVC et le journal des accès</td>
         <td><a href="journey-examples.html#country-profiles">Profils par pays</a></td>
       </tr>
       <tr>
         <td>Terminologie et logique</td>
-        <td>Les produits vaccinaux, les codes du calendrier d’Onesa, la ConceptMap qui les relie et le calendrier du nourrisson sous forme de PlanDefinition</td>
+        <td>Les produits vaccinaux, les codes du calendrier du pays Onesa, la ConceptMap qui les relie et le calendrier du nourrisson sous forme de PlanDefinition</td>
         <td><a href="journey-examples.html">Exemples des parcours</a></td>
       </tr>
       <tr>
         <td>Exemples</td>
-        <td>Chaque écran et chaque charge utile de la présentation guidée des parcours sous forme d’exemple FHIR, de Taifafeki et d’Onesa</td>
+        <td>Chaque écran et chaque charge utile de la présentation guidée des parcours sous forme d’exemple FHIR, Taifafeki et Onesa</td>
         <td><a href="journey-examples.html">Exemples des parcours</a></td>
       </tr>
     </tbody>
@@ -96,7 +96,7 @@
 
   <h3 id="comment-la-confiance-fonctionne-ici">Comment la confiance fonctionne ici</h3>
 
-  <p>Taifafeki et Onesa ne se connectent jamais l’une à l’autre. Toutes deux s’appuient sur le GDHCN de l’OMS. Taifafeki publie la clé avec laquelle elle signe les certificats, et Onesa met en cache la liste de confiance, de sorte que ses centres de santé peuvent vérifier une carte de Taifafeki sans aucun signal. Un an plus tard, la même liste de confiance permet à une clinique de Taifafeki de vérifier le VHL d’Onesa. Les données ne franchissent la frontière que de deux manières : sous forme de carte QR signée que la famille transporte, ou sous forme de lien que la famille choisit de partager. La <a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/">vue « How it works » de la présentation guidée des parcours</a> présente les composants des deux pays sur l’<a href="https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html">architecture de référence DPI-H</a>, avec le GDHCN pour fondation ; la même image, sous forme de surcouche ArchiMate sur le propre modèle de la RA, figure sur la <a href="architecture.html">page d’architecture</a>.</p>
+  <p>Taifafeki et Onesa ne se connectent jamais entre eux. Les deux pays s’appuient sur le GDHCN de l’OMS. Taifafeki publie la clé avec laquelle ce pays signe les certificats, et Onesa met en cache la liste de confiance, de sorte que ses centres de santé peuvent vérifier une carte de Taifafeki sans aucun signal. Un an plus tard, la même liste de confiance permet à une clinique à Taifafeki de vérifier le VHL du pays Onesa. Les données ne franchissent la frontière que de deux manières : sous forme de carte QR signée que la famille transporte, ou sous forme de lien que la famille choisit de partager. La <a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/">vue « How it works » de la présentation guidée des parcours</a> présente les composants des deux pays sur l’<a href="https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html">architecture de référence DPI-H</a>, avec le GDHCN pour fondation ; la même image, sous forme de surcouche ArchiMate sur le propre modèle de la RA, figure sur la <a href="architecture.html">page d’architecture</a>.</p>
 
   <p>Les parcours exécutent les bibliothèques HCERT et VHL de <a href="https://litlfred.github.io/smart-trust-tools/">smart-trust-tools</a> par rapport à <a href="https://smart.who.int/trust">WHO SMART Trust</a> et <a href="https://smart.who.int/trust-phw">WHO SMART Trust PHW</a>.</p>
 

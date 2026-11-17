@@ -4,13 +4,13 @@
  "shortfall": [],
  "droppedByRuling": [],
  "current": {
-  "pages": 13831,
+  "pages": 13860,
   "counts": {
    "siteNav": 0,
-   "search": 9899,
-   "navbarRow": 8393,
-   "rail": 9347,
-   "translationMeta": 9917
+   "search": 9901,
+   "navbarRow": 8395,
+   "rail": 9349,
+   "translationMeta": 9919
   },
   "dirs": [
    "ar",
@@ -25,6 +25,7 @@
    "folio-assistant-core",
    "fr",
    "id-lookup",
+   "openapi",
    "questionnaires",
    "ru",
    "smart-base",
@@ -42,7 +43,7 @@
   }
  },
  "candidate": {
-  "pages": 13860,
+  "pages": 13840,
   "counts": {
    "siteNav": 0,
    "search": 9901,
@@ -82,7 +83,7 @@
  },
  "baseline": {
   "features": {
-   "pages": 13860,
+   "pages": 13840,
    "counts": {
     "siteNav": 0,
     "search": 9901,
@@ -120,6 +121,6 @@
     "present": true
    }
   },
-  "from": "780469fa75e7"
+  "from": "9c51bebac7d1"
  }
 }

@@ -8,7 +8,7 @@
   "@type": "archimate:ApplicationComponent",
   "schema:identifier": "id-ad7b54ac197c58518d808570205dec48",
   "schema:name": "GDHCN DEV trust network (WHO)",
-  "schema:description": "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets an Onesan clinic believe a Taifafeki certificate, and a Taifafeki clinic an Onesan link, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries.",
+  "schema:description": "WHO’s Global Digital Health Certification Network: the trust list of participants’ public keys that lets a clinic in Onesa believe a certificate from Taifafeki, and a clinic in Taifafeki a link from Onesa, with no connection between the two countries' systems. Not a building block of the RA's Integrated View: it sits beneath both countries.",
   "schema:category": "Application",
   "dcterms:isPartOf": "https://worldhealthorganization.github.io/smart-trust-demo/archimate/0.1.0"
 }

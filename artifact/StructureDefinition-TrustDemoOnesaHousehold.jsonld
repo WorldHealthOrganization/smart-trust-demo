@@ -11,7 +11,7 @@
   "dcterms:identifier": "StructureDefinition/TrustDemoOnesaHousehold",
   "schema:name": "TrustDemoOnesaHousehold",
   "dcterms:title": "Onesa: household on the CHW's roster",
-  "dcterms:description": "How it is used: J2a. The CHW finds that a newborn is missing from the household roster and adds Somsak as a member.\n\nWhy: Onesan community health work is organized by household. The roster is how a CHW notices that a child is missing, and it is the unit the family phone shares under in J4 (one phone, three profiles).",
+  "dcterms:description": "How it is used: J2a. The CHW finds that a newborn is missing from the household roster and adds Somsak as a member.\n\nWhy: community health work in Onesa is organized by household. The roster is how a CHW notices that a child is missing, and it is the unit the family phone shares under in J4 (one phone, three profiles).",
   "schema:version": "0.1.0",
   "dcterms:type": "Structures: Resource Profiles",
   "schema:sameAs": {
@@ -30,7 +30,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/resources/StructureDefinition/TrustDemoOnesaHousehold.json"
+        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/af9f5523918ec8f87ed426c6a535b6176d625c9f/resources/StructureDefinition/TrustDemoOnesaHousehold.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -39,7 +39,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "780469fa75e720423bf7384693350edb9df09aea"
+    "prov:used": "9c51bebac7d177ef6377d2106af4c689f244fc2d"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

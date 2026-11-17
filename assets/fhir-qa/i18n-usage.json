@@ -3,14 +3,30 @@
  "locales": {
   "ar": {
    "counts": {
-    "publisher": 0,
-    "machine": 256,
-    "source": 304
+    "publisher": 291,
+    "machine": 264,
+    "source": 5
    },
-   "refused": [],
+   "refused": [
+    {
+     "locale": "ar",
+     "messageId": "INV_FAILED",
+     "why": "placeholders [0] differ from the English [0,1]"
+    },
+    {
+     "locale": "ar",
+     "messageId": "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG",
+     "why": "placeholders \"malformed\" differ from the English [0,1,2]"
+    },
+    {
+     "locale": "ar",
+     "messageId": "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS",
+     "why": "placeholders \"malformed\" differ from the English [0,1,2]"
+    }
+   ],
    "keys": {
-    "untranslated|MSG_EXPERIMENTAL": {
-     "origin": "source",
+    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
+     "origin": "publisher",
      "count": 193,
      "links": [
       "ar/qa.html#qa-m17-6",
@@ -53,8 +69,8 @@
       "ar/qa.html#qa-m5-0"
      ]
     },
-    "untranslated|CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL": {
-     "origin": "source",
+    "CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL|CodeSystems SHOULD NOT have a stated value for the {0} element when they are a supplement": {
+     "origin": "publisher",
      "count": 33,
      "links": [
       "ar/qa.html#qa-m19-0",
@@ -64,8 +80,8 @@
       "ar/qa.html#qa-m26-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE|A definition could not be found for Canonical URL ''{0}''": {
+     "origin": "publisher",
      "count": 19,
      "links": [
       "ar/qa.html#qa-m1-0",
@@ -75,8 +91,8 @@
       "ar/qa.html#qa-m4-0"
      ]
     },
-    "untranslated|Type_Specific_Checks_DT_URL_Resolve": {
-     "origin": "source",
+    "Type_Specific_Checks_DT_URL_Resolve|No definition could be found for URL value ''{0}''": {
+     "origin": "publisher",
      "count": 14,
      "links": [
       "ar/qa.html#qa-m17-5",
@@ -86,8 +102,8 @@
       "ar/qa.html#qa-m117-0"
      ]
     },
-    "untranslated|Bundle_BUNDLE_Entry_NotFound": {
-     "origin": "source",
+    "Bundle_BUNDLE_Entry_NotFound|Can''t find ''{0}'' in the bundle ({1})": {
+     "origin": "publisher",
      "count": 9,
      "links": [
       "ar/qa.html#qa-m17-19",
@@ -97,8 +113,19 @@
       "ar/qa.html#qa-m17-23"
      ]
     },
-    "untranslated|MEASURE_M_CRITERIA_UNKNOWN": {
-     "origin": "source",
+    "INV_FAILED|Constraint failed: {0}: ''{1}''": {
+     "origin": "machine",
+     "count": 8,
+     "links": [
+      "ar/qa.html#qa-m17-0",
+      "ar/qa.html#qa-m17-1",
+      "ar/qa.html#qa-m17-2",
+      "ar/qa.html#qa-m84-0",
+      "ar/qa.html#qa-m84-1"
+     ]
+    },
+    "MEASURE_M_CRITERIA_UNKNOWN|The expression language {0} is not supported, so can''t be validated": {
+     "origin": "publisher",
      "count": 8,
      "links": [
       "ar/qa.html#qa-m105-0",
@@ -108,19 +135,8 @@
       "ar/qa.html#qa-m107-0"
      ]
     },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Composition#cmp-1": {
-     "origin": "source",
-     "count": 6,
-     "links": [
-      "ar/qa.html#qa-m17-0",
-      "ar/qa.html#qa-m17-1",
-      "ar/qa.html#qa-m17-2",
-      "ar/qa.html#qa-m84-0",
-      "ar/qa.html#qa-m84-1"
-     ]
-    },
-    "untranslated|SD_ED_EXPERIMENTAL_BINDING": {
-     "origin": "source",
+    "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
+     "origin": "publisher",
      "count": 6,
      "links": [
       "ar/qa.html#qa-m144-1",
@@ -140,8 +156,8 @@
       "ar/qa.html#qa-m84-4"
      ]
     },
-    "untranslated|IG_DEPENDENCY_VERSION_WARNING_OLD": {
-     "origin": "source",
+    "IG_DEPENDENCY_VERSION_WARNING_OLD|The ImplementationGuide uses package {0} released on {2}, but the most recent appropriate version is {1}. This reference is getting old and the more recent version should be considered": {
+     "origin": "publisher",
      "count": 4,
      "links": [
       "ar/qa.html#qa-m104-3",
@@ -160,14 +176,6 @@
       "ar/qa.html#qa-m152-0"
      ]
     },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Age#age-1": {
-     "origin": "source",
-     "count": 2,
-     "links": [
-      "ar/qa.html#qa-m123-1",
-      "ar/qa.html#qa-m123-3"
-     ]
-    },
     "untranslated|text": {
      "origin": "source",
      "count": 1,
@@ -175,36 +183,36 @@
       "ar/qa.html#qa-m0-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML|The markdown contains content that appears to be an embedded HTML tag starting at ''{0}''. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ar/qa.html#qa-m24-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE|Canonical URLs must be absolute URLs if they are not fragment references ({0})": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ar/qa.html#qa-m104-0"
      ]
     },
-    "untranslated|SECURITY_STRING_CONTENT_WARNING": {
-     "origin": "source",
+    "SECURITY_STRING_CONTENT_WARNING|The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ar/qa.html#qa-m104-2"
      ]
     },
-    "untranslated|VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY": {
-     "origin": "source",
+    "VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY|Profile reference ''{0}'' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ar/qa.html#qa-m104-7"
      ]
     },
-    "untranslated|MSG_DEPENDS_ON_DEPRECATED_NOTE": {
-     "origin": "source",
+    "MSG_DEPENDS_ON_DEPRECATED_NOTE|The {0} {1} is deprecated with the note: ''{2}''": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ar/qa.html#qa-m142-0"
@@ -214,11 +222,22 @@
   },
   "es": {
    "counts": {
-    "publisher": 0,
-    "machine": 459,
-    "source": 101
+    "publisher": 78,
+    "machine": 467,
+    "source": 15
    },
-   "refused": [],
+   "refused": [
+    {
+     "locale": "es",
+     "messageId": "INV_FAILED",
+     "why": "placeholders [0] differ from the English [0,1]"
+    },
+    {
+     "locale": "es",
+     "messageId": "Display_Name_for__should_be_one_of__instead_of_one",
+     "why": "placeholders [1,2,3,4] differ from the English [1,2,3,4,5]"
+    }
+   ],
    "keys": {
     "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
      "origin": "machine",
@@ -264,8 +283,8 @@
       "es/qa.html#qa-m5-0"
      ]
     },
-    "untranslated|CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL": {
-     "origin": "source",
+    "CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL|CodeSystems SHOULD NOT have a stated value for the {0} element when they are a supplement": {
+     "origin": "publisher",
      "count": 33,
      "links": [
       "es/qa.html#qa-m19-0",
@@ -275,8 +294,8 @@
       "es/qa.html#qa-m26-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE|A definition could not be found for Canonical URL ''{0}''": {
+     "origin": "publisher",
      "count": 19,
      "links": [
       "es/qa.html#qa-m1-0",
@@ -286,8 +305,8 @@
       "es/qa.html#qa-m4-0"
      ]
     },
-    "untranslated|Type_Specific_Checks_DT_URL_Resolve": {
-     "origin": "source",
+    "Type_Specific_Checks_DT_URL_Resolve|No definition could be found for URL value ''{0}''": {
+     "origin": "publisher",
      "count": 14,
      "links": [
       "es/qa.html#qa-m17-5",
@@ -308,8 +327,19 @@
       "es/qa.html#qa-m17-23"
      ]
     },
-    "untranslated|MEASURE_M_CRITERIA_UNKNOWN": {
-     "origin": "source",
+    "INV_FAILED|Constraint failed: {0}: ''{1}''": {
+     "origin": "machine",
+     "count": 8,
+     "links": [
+      "es/qa.html#qa-m17-0",
+      "es/qa.html#qa-m17-1",
+      "es/qa.html#qa-m17-2",
+      "es/qa.html#qa-m84-0",
+      "es/qa.html#qa-m84-1"
+     ]
+    },
+    "MEASURE_M_CRITERIA_UNKNOWN|The expression language {0} is not supported, so can''t be validated": {
+     "origin": "publisher",
      "count": 8,
      "links": [
       "es/qa.html#qa-m105-0",
@@ -317,17 +347,6 @@
       "es/qa.html#qa-m106-0",
       "es/qa.html#qa-m106-1",
       "es/qa.html#qa-m107-0"
-     ]
-    },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Composition#cmp-1": {
-     "origin": "source",
-     "count": 6,
-     "links": [
-      "es/qa.html#qa-m17-0",
-      "es/qa.html#qa-m17-1",
-      "es/qa.html#qa-m17-2",
-      "es/qa.html#qa-m84-0",
-      "es/qa.html#qa-m84-1"
      ]
     },
     "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
@@ -371,14 +390,6 @@
       "es/qa.html#qa-m152-0"
      ]
     },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Age#age-1": {
-     "origin": "source",
-     "count": 2,
-     "links": [
-      "es/qa.html#qa-m123-1",
-      "es/qa.html#qa-m123-3"
-     ]
-    },
     "untranslated|text": {
      "origin": "source",
      "count": 1,
@@ -386,29 +397,29 @@
       "es/qa.html#qa-m0-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML|The markdown contains content that appears to be an embedded HTML tag starting at ''{0}''. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "es/qa.html#qa-m24-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE|Canonical URLs must be absolute URLs if they are not fragment references ({0})": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "es/qa.html#qa-m104-0"
      ]
     },
-    "untranslated|SECURITY_STRING_CONTENT_WARNING": {
-     "origin": "source",
+    "SECURITY_STRING_CONTENT_WARNING|The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "es/qa.html#qa-m104-2"
      ]
     },
-    "untranslated|VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY": {
-     "origin": "source",
+    "VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY|Profile reference ''{0}'' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "es/qa.html#qa-m104-7"
@@ -426,8 +437,8 @@
   "fr": {
    "counts": {
     "publisher": 0,
-    "machine": 525,
-    "source": 35
+    "machine": 533,
+    "source": 27
    },
    "refused": [],
    "keys": {
@@ -519,6 +530,17 @@
       "fr/qa.html#qa-m17-23"
      ]
     },
+    "INV_FAILED|Constraint failed: {0}: ''{1}''": {
+     "origin": "machine",
+     "count": 8,
+     "links": [
+      "fr/qa.html#qa-m17-0",
+      "fr/qa.html#qa-m17-1",
+      "fr/qa.html#qa-m17-2",
+      "fr/qa.html#qa-m84-0",
+      "fr/qa.html#qa-m84-1"
+     ]
+    },
     "untranslated|MEASURE_M_CRITERIA_UNKNOWN": {
      "origin": "source",
      "count": 8,
@@ -528,17 +550,6 @@
       "fr/qa.html#qa-m106-0",
       "fr/qa.html#qa-m106-1",
       "fr/qa.html#qa-m107-0"
-     ]
-    },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Composition#cmp-1": {
-     "origin": "source",
-     "count": 6,
-     "links": [
-      "fr/qa.html#qa-m17-0",
-      "fr/qa.html#qa-m17-1",
-      "fr/qa.html#qa-m17-2",
-      "fr/qa.html#qa-m84-0",
-      "fr/qa.html#qa-m84-1"
      ]
     },
     "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
@@ -580,14 +591,6 @@
       "fr/qa.html#qa-m149-0",
       "fr/qa.html#qa-m149-1",
       "fr/qa.html#qa-m152-0"
-     ]
-    },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Age#age-1": {
-     "origin": "source",
-     "count": 2,
-     "links": [
-      "fr/qa.html#qa-m123-1",
-      "fr/qa.html#qa-m123-3"
      ]
     },
     "untranslated|text": {
@@ -636,14 +639,14 @@
   },
   "ru": {
    "counts": {
-    "publisher": 0,
-    "machine": 122,
-    "source": 438
+    "publisher": 428,
+    "machine": 130,
+    "source": 2
    },
    "refused": [],
    "keys": {
-    "untranslated|MSG_EXPERIMENTAL": {
-     "origin": "source",
+    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
+     "origin": "publisher",
      "count": 193,
      "links": [
       "ru/qa.html#qa-m17-6",
@@ -653,8 +656,8 @@
       "ru/qa.html#qa-m17-10"
      ]
     },
-    "untranslated|CODESYSTEM_DESIGNATION_DISP_CLASH_LANG": {
-     "origin": "source",
+    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
+     "origin": "publisher",
      "count": 130,
      "links": [
       "ru/qa.html#qa-m22-1",
@@ -686,8 +689,8 @@
       "ru/qa.html#qa-m5-0"
      ]
     },
-    "untranslated|CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL": {
-     "origin": "source",
+    "CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL|CodeSystems SHOULD NOT have a stated value for the {0} element when they are a supplement": {
+     "origin": "publisher",
      "count": 33,
      "links": [
       "ru/qa.html#qa-m19-0",
@@ -697,8 +700,8 @@
       "ru/qa.html#qa-m26-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE|A definition could not be found for Canonical URL ''{0}''": {
+     "origin": "publisher",
      "count": 19,
      "links": [
       "ru/qa.html#qa-m1-0",
@@ -708,8 +711,8 @@
       "ru/qa.html#qa-m4-0"
      ]
     },
-    "untranslated|Type_Specific_Checks_DT_URL_Resolve": {
-     "origin": "source",
+    "Type_Specific_Checks_DT_URL_Resolve|No definition could be found for URL value ''{0}''": {
+     "origin": "publisher",
      "count": 14,
      "links": [
       "ru/qa.html#qa-m17-5",
@@ -719,8 +722,8 @@
       "ru/qa.html#qa-m117-0"
      ]
     },
-    "untranslated|Bundle_BUNDLE_Entry_NotFound": {
-     "origin": "source",
+    "Bundle_BUNDLE_Entry_NotFound|Can''t find ''{0}'' in the bundle ({1})": {
+     "origin": "publisher",
      "count": 9,
      "links": [
       "ru/qa.html#qa-m17-19",
@@ -730,8 +733,19 @@
       "ru/qa.html#qa-m17-23"
      ]
     },
-    "untranslated|MEASURE_M_CRITERIA_UNKNOWN": {
-     "origin": "source",
+    "INV_FAILED|Constraint failed: {0}: ''{1}''": {
+     "origin": "machine",
+     "count": 8,
+     "links": [
+      "ru/qa.html#qa-m17-0",
+      "ru/qa.html#qa-m17-1",
+      "ru/qa.html#qa-m17-2",
+      "ru/qa.html#qa-m84-0",
+      "ru/qa.html#qa-m84-1"
+     ]
+    },
+    "MEASURE_M_CRITERIA_UNKNOWN|The expression language {0} is not supported, so can''t be validated": {
+     "origin": "publisher",
      "count": 8,
      "links": [
       "ru/qa.html#qa-m105-0",
@@ -741,19 +755,8 @@
       "ru/qa.html#qa-m107-0"
      ]
     },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Composition#cmp-1": {
-     "origin": "source",
-     "count": 6,
-     "links": [
-      "ru/qa.html#qa-m17-0",
-      "ru/qa.html#qa-m17-1",
-      "ru/qa.html#qa-m17-2",
-      "ru/qa.html#qa-m84-0",
-      "ru/qa.html#qa-m84-1"
-     ]
-    },
-    "untranslated|SD_ED_EXPERIMENTAL_BINDING": {
-     "origin": "source",
+    "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
+     "origin": "publisher",
      "count": 6,
      "links": [
       "ru/qa.html#qa-m144-1",
@@ -763,8 +766,8 @@
       "ru/qa.html#qa-m150-1"
      ]
     },
-    "untranslated|Display_Name_for__should_be_one_of__instead_of": {
-     "origin": "source",
+    "Display_Name_for__should_be_one_of__instead_of_one|Wrong Display Name ''{4}'' for {1}#{2}. Valid display is {3} (for the language(s) ''{5}'')": {
+     "origin": "publisher",
      "count": 4,
      "links": [
       "ru/qa.html#qa-m17-3",
@@ -773,8 +776,8 @@
       "ru/qa.html#qa-m84-4"
      ]
     },
-    "untranslated|IG_DEPENDENCY_VERSION_WARNING_OLD": {
-     "origin": "source",
+    "IG_DEPENDENCY_VERSION_WARNING_OLD|The ImplementationGuide uses package {0} released on {2}, but the most recent appropriate version is {1}. This reference is getting old and the more recent version should be considered": {
+     "origin": "publisher",
      "count": 4,
      "links": [
       "ru/qa.html#qa-m104-3",
@@ -783,22 +786,14 @@
       "ru/qa.html#qa-m104-6"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS|There are multiple different potential matches for the url ''{0}''. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version ''{1}'', found versions: {2}. Suggested fix: change the canonical reference from ''{0}'' to ''{0}|{1}''": {
+     "origin": "publisher",
      "count": 4,
      "links": [
       "ru/qa.html#qa-m142-1",
       "ru/qa.html#qa-m149-0",
       "ru/qa.html#qa-m149-1",
       "ru/qa.html#qa-m152-0"
-     ]
-    },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Age#age-1": {
-     "origin": "source",
-     "count": 2,
-     "links": [
-      "ru/qa.html#qa-m123-1",
-      "ru/qa.html#qa-m123-3"
      ]
     },
     "untranslated|text": {
@@ -808,29 +803,29 @@
       "ru/qa.html#qa-m0-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML|The markdown contains content that appears to be an embedded HTML tag starting at ''{0}''. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ru/qa.html#qa-m24-0"
      ]
     },
-    "untranslated|TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE": {
-     "origin": "source",
+    "TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE|Canonical URLs must be absolute URLs if they are not fragment references ({0})": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ru/qa.html#qa-m104-0"
      ]
     },
-    "untranslated|SECURITY_STRING_CONTENT_WARNING": {
-     "origin": "source",
+    "SECURITY_STRING_CONTENT_WARNING|The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ru/qa.html#qa-m104-2"
      ]
     },
-    "untranslated|VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY": {
-     "origin": "source",
+    "VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY|Profile reference ''{0}'' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles": {
+     "origin": "publisher",
      "count": 1,
      "links": [
       "ru/qa.html#qa-m104-7"
@@ -848,8 +843,8 @@
   "zh": {
    "counts": {
     "publisher": 0,
-    "machine": 525,
-    "source": 35
+    "machine": 533,
+    "source": 27
    },
    "refused": [],
    "keys": {
@@ -941,6 +936,17 @@
       "zh/qa.html#qa-m17-23"
      ]
     },
+    "INV_FAILED|Constraint failed: {0}: ''{1}''": {
+     "origin": "machine",
+     "count": 8,
+     "links": [
+      "zh/qa.html#qa-m17-0",
+      "zh/qa.html#qa-m17-1",
+      "zh/qa.html#qa-m17-2",
+      "zh/qa.html#qa-m84-0",
+      "zh/qa.html#qa-m84-1"
+     ]
+    },
     "untranslated|MEASURE_M_CRITERIA_UNKNOWN": {
      "origin": "source",
      "count": 8,
@@ -950,17 +956,6 @@
       "zh/qa.html#qa-m106-0",
       "zh/qa.html#qa-m106-1",
       "zh/qa.html#qa-m107-0"
-     ]
-    },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Composition#cmp-1": {
-     "origin": "source",
-     "count": 6,
-     "links": [
-      "zh/qa.html#qa-m17-0",
-      "zh/qa.html#qa-m17-1",
-      "zh/qa.html#qa-m17-2",
-      "zh/qa.html#qa-m84-0",
-      "zh/qa.html#qa-m84-1"
      ]
     },
     "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
@@ -1002,14 +997,6 @@
       "zh/qa.html#qa-m149-0",
       "zh/qa.html#qa-m149-1",
       "zh/qa.html#qa-m152-0"
-     ]
-    },
-    "untranslated|http://hl7.org/fhir/StructureDefinition/Age#age-1": {
-     "origin": "source",
-     "count": 2,
-     "links": [
-      "zh/qa.html#qa-m123-1",
-      "zh/qa.html#qa-m123-3"
      ]
     },
     "untranslated|text": {

@@ -41,9 +41,9 @@ The overlay adds:</p>
     <li>旅程 J1 至 J4.1（用例），作为业务流程，每个 <a href="https://worldhealthorganization.github.io/smart-trust-demo/business-processes.html">BPMN 流程</a>对应一个；</li>
     <li>参与的人物，作为业务角色，分配给其 BPMN 中包含其泳道的旅程；</li>
     <li>上述每个角色与其所属的 RA 利益相关方相关联：照护者关联 Citizens / Care recipients（公民 / 照护对象），临床医生和社区卫生工作者关联 Health Workers（卫生工作者）（角色和利益相关方是不同的元素类型，因此 ArchiMate 允许关联关系，而非特化关系）；</li>
-    <li>泰法费基和奥内萨的系统，服务于其参与的旅程，每个系统包含其部件，每个部件按其功能命名（Patient record（患者记录）、Smart forms (SDC)（智能表单）、Health workforce registry (CHWs, nurses)（卫生人力登记系统，含 CHW、护士））；家庭共用手机是一个技术设备，它实现其上的钱包应用，而不是软件；</li>
-    <li>对每个国家，为其部件所承担的每个 RA 构建块绘制该国自己的实例，例如 Provider Systems (Taifafeki) 和 Provider Systems (Onesa)：泰法费基和奥内萨（Onesa）是不同的司法管辖区，因此泰法费基的部件实现泰法费基的实例，正如 RA 将一个具体系统画为实现其所承担的组件（其表 3.3），而该实例是 RA 构建块的特化；</li>
-    <li>两国交汇之处，作为其部件之间的流关系和触发关系，读取自 BPMN：J1 打印、由家人带到 J2 和 J3 的纸质 DVC；在 J4.1 中，家庭手机向泰法费基诊所出示的 VHL QR 码、诊所向奥内萨网关发出的已签名 ITI-YY5 清单请求，以及网关返回的清单，该次访问记录在 Onesa；</li>
+    <li>Taifafeki 和 Onesa 的系统，服务于其参与的旅程，每个系统包含其部件，每个部件按其功能命名（Patient record（患者记录）、Smart forms (SDC)（智能表单）、Health workforce registry (CHWs, nurses)（卫生人力登记系统，含 CHW、护士））；家庭共用手机是一个技术设备，它实现其上的钱包应用，而不是软件；</li>
+    <li>对每个国家，为其部件所承担的每个 RA 构建块绘制该国自己的实例，例如 Provider Systems (Taifafeki) 和 Provider Systems (Onesa)：Taifafeki 和 Onesa 是不同的司法管辖区，因此位于 Taifafeki 的部件实现 Taifafeki 的实例，正如 RA 将一个具体系统画为实现其所承担的组件（其表 3.3），而该实例是 RA 构建块的特化；</li>
+    <li>两国交汇之处，作为其部件之间的流关系和触发关系，读取自 BPMN：J1 打印、由家人带到 J2 和 J3 的纸质 DVC；在 J4.1 中，家庭手机向 Taifafeki 诊所出示的 VHL QR 码、诊所向 Onesa 网关发出的已签名 ITI-YY5 清单请求，以及网关返回的清单，该次访问记录在 Onesa；</li>
     <li>两国之间只放置它们共享的内容：WHO GDHCN 及其所实现的 WHO SMART Trust 规范；</li>
     <li>RA 自身的构建块，通用且不属于任何国家，在每个旅程的视图中位于两国下方的独立区带中；</li>
     <li>每个旅程对其所运用的 RA 能力的实现。</li>
@@ -57,7 +57,7 @@ The overlay adds:</p>
 
   <h3 id="section">集成视图上的系统</h3>
 
-  <p>分为两栏：左侧为泰法费基，右侧为 Onesa。在每一栏中，该国的系统按其所服务的第一个旅程的顺序自上而下排列，每个系统包含其部件，每个部件在自己的方框内以标签（如 «Provider Systems»）注明其承担的 DPI-H RA 构建块。系统中与另一国或 GDHCN 交汇的部件位于朝向中间的一侧，每个泰法费基系统与其交汇的第一个奥内萨系统保持水平对齐，因此两国交汇处的虚线横向贯穿。两栏之间只放置双方共享的内容：WHO GDHCN 和 SMART Trust 规范。各国的 RA 构建块实例、部件对它们的实现以及 RA 自身的构建块都在模型中，并绘制在每个旅程的视图里，从而使本视图保持紧凑、连线较少。</p>
+  <p>分为两栏：左侧为 Taifafeki，右侧为 Onesa。在每一栏中，该国的系统按其所服务的第一个旅程的顺序自上而下排列，每个系统包含其部件，每个部件在自己的方框内以标签（如 «Provider Systems»）注明其承担的 DPI-H RA 构建块。系统中与另一国或 GDHCN 交汇的部件位于朝向中间的一侧，每个 Taifafeki 系统与其交汇的第一个 Onesa 系统保持水平对齐，因此两国交汇处的虚线横向贯穿。两栏之间只放置双方共享的内容：WHO GDHCN 和 SMART Trust 规范。各国的 RA 构建块实例、部件对它们的实现以及 RA 自身的构建块都在模型中，并绘制在每个旅程的视图里，从而使本视图保持紧凑、连线较少。</p>
 
   <p><a href="../en/smart-trust-demo/archimate/0.1.0/view/smart-trust-demo-on-the-dpi-h-integrated-view/">DPI-H 集成视图上的系统</a></p>
 

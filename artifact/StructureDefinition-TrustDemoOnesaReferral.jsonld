@@ -11,7 +11,7 @@
   "dcterms:identifier": "StructureDefinition/TrustDemoOnesaReferral",
   "schema:name": "TrustDemoOnesaReferral",
   "dcterms:title": "Onesa: CHW referral to verify foreign cards",
-  "dcterms:description": "How it is used: J2b. The CHW refers Somsak to the district health center to have his foreign cards verified and his doses fitted to the Onesan schedule.\n\nWhy: the CHW cannot verify a DVC on the phone, but the clinic can. The referral points at the reported doses it is about, so the clinic knows exactly what to check, and the CHW can see when it is done.",
+  "dcterms:description": "How it is used: J2b. The CHW refers Somsak to the district health center to have his foreign cards verified and his doses fitted to the schedule of Onesa.\n\nWhy: the CHW cannot verify a DVC on the phone, but the clinic can. The referral points at the reported doses it is about, so the clinic knows exactly what to check, and the CHW can see when it is done.",
   "schema:version": "0.1.0",
   "dcterms:type": "Structures: Resource Profiles",
   "schema:sameAs": {
@@ -30,7 +30,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/resources/StructureDefinition/TrustDemoOnesaReferral.json"
+        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/af9f5523918ec8f87ed426c6a535b6176d625c9f/resources/StructureDefinition/TrustDemoOnesaReferral.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -39,7 +39,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "780469fa75e720423bf7384693350edb9df09aea"
+    "prov:used": "9c51bebac7d177ef6377d2106af4c689f244fc2d"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

@@ -45,22 +45,22 @@ the caregiver with <em>Citizens / Care recipients</em>, the clinicians and the
 community health worker with <em>Health Workers</em> (a role and a stakeholder are
 different element types, so ArchiMate allows an association, not a
 specialization);</li>
-  <li>the Taifafeki and Onesan systems, serving the journeys they take part in, each
+  <li>the systems of Taifafeki and Onesa, serving the journeys they take part in, each
 holding its parts, each part named by what it does (<em>Patient record</em>,
 <em>Smart forms (SDC)</em>, <em>Health workforce registry (CHWs, nurses)</em>); the
 family’s shared phone is a technology <strong>device</strong> that realizes the wallet
 app on it, not software;</li>
   <li>for each country, its own <strong>instance</strong> of every RA building block its parts
 play, such as <em>Provider Systems (Taifafeki)</em> and <em>Provider Systems (Onesa)</em>:
-Taifafeki and Onesa are different jurisdictions, so a Taifafeki part
-<strong>realizes</strong> Taifafeki’s instance, as the RA draws a concrete system
+Taifafeki and Onesa are different jurisdictions, so a part in Taifafeki
+<strong>realizes</strong> the instance of Taifafeki, as the RA draws a concrete system
 realizing the component it plays (its Table 3.3), and that instance is a
 <strong>specialization</strong> of the RA’s block;</li>
   <li><strong>where the two countries meet</strong>, as flow and triggering relationships
 between their parts, read from the BPMN: the paper DVC that J1 prints and
 the family carries to J2 and J3; in J4.1, the VHL QR the family’s phone
 shows the Taifafeki clinic, the clinic’s signed ITI-YY5 manifest request to the
-Onesan gateway, and the manifest it returns, the access logged in Onesa;</li>
+Onesa gateway, and the manifest it returns, the access logged in Onesa;</li>
   <li><strong>what they share</strong>, and nothing else, between them: WHO GDHCN and the WHO
 SMART Trust specifications it realizes;</li>
   <li>the RA’s own building blocks, generic and no country’s, in a band of their
@@ -86,7 +86,7 @@ country’s systems stack top to bottom in the order of the first journey they
 serve, each holding its parts, and each part says inside its own box which
 DPI-H RA building block it plays, as a tag such as «Provider Systems». A
 system’s parts that meet the other country, or GDHCN, sit on the side facing
-the middle, and each Taifafeki system stands level with the first Onesan system it
+the middle, and each Taifafeki system stands level with the first system of Onesa it
 meets, so the dashed lines where the countries meet run across. Between the
 columns, only what both share: WHO GDHCN and the SMART Trust specifications.
 The countries’ instances of the RA blocks, the parts’ realizations of them,

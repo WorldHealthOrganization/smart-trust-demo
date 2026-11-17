@@ -30,14 +30,14 @@
 
   <!-- translations: index -->
 
-  <p>一个婴儿 · 两个国家 · 一年 Somsak 出生在泰法费基，在奥内萨（Onesa）长大。一年后，一位泰法费基医生能看到他接种过的每一剂疫苗，而没有任何记录被复制到境外。本指南讲述的就是这个故事，以旅程 J1 至 J4 的形式呈现，并将其写成世卫组织（WHO）SMART 指南数字适配工具包（L2）和 FHIR 实施指南（L3）。它基于 SMART Trust HCERT 库和 WHO GDHCN 构建。演练旅程 阅读旅程 查看 FHIR 示例</p>
+  <p>一个婴儿 · 两个国家 · 一年 Somsak 出生在 Taifafeki，在 Onesa 长大。一年后，Taifafeki 的一位医生能看到他接种过的每一剂疫苗，而没有任何记录被复制到境外。本指南讲述的就是这个故事，以旅程 J1 至 J4 的形式呈现，并将其写成世卫组织（WHO）SMART 指南数字适配工具包（L2）和 FHIR 实施指南（L3）。它基于 SMART Trust HCERT 库和 WHO GDHCN 构建。演练旅程 阅读旅程 查看 FHIR 示例</p>
 
   <h3 id="section">四个关键时刻</h3>
 
   <p>每个时刻都是一个业务流程（BPMN），由虚构人物演绎。每个时刻都链接到其用户场景、流程以及它所创建的 FHIR 记录。点击图片，即可在<a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/">旅程演练</a>中逐步体验该时刻。</p>
 
   <ol>
-    <li>接种并记录 出生当天 · 凯萨罗，泰法费基 · J1 一名奥内萨婴儿在泰法费基接种了他的第一批疫苗。医院将每一剂次签名为数字疫苗接种证书（DVC），一家人带着两张纸质 QR 卡离开。演练 · 场景 · 流程 · 泰法费基 Profile    2. 被发现并登记 7 周大 · Village 04，奥内萨（Onesa） · J2 一名卫生工作者在离线状态下为他登记并读取卡片。她将其记录为“已报告，尚未验证”，并将他转诊至诊所。演练 · 场景 · 流程 · 奥内萨 Profile    3. 外国记录用于下一次接种 10 周大 · 县卫生中心，奥内萨 · J3 一名护士在离线状态下依据 GDHCN 信任列表核验签名。她将泰法费基疫苗代码映射到奥内萨接种计划，并接种逾期的 6 周龄剂次。演练 · 场景 · 流程 · 奥内萨 Profile    4. 跨境连续性 12 个月后 · 奥内萨 → 泰法费基 · J4.0, J4.1 一家人通过爸爸手机上的可验证健康链接（VHL），与一位泰法费基医生分享他的完整记录。每一次访问都会记录回本国。演练 · 场景 · 流程 · 奥内萨 Profile</li>
+    <li>接种并记录 出生当天 · Taifafeki 凯萨罗 · J1 一名来自 Onesa 的婴儿在 Taifafeki 接种了他的第一批疫苗。医院将每一剂次签名为数字疫苗接种证书（DVC），一家人带着两张纸质 QR 卡离开。演练 · 场景 · 流程 · Taifafeki Profile    2. 被发现并登记 7 周大 · Onesa Village 04 · J2 一名卫生工作者在离线状态下为他登记并读取卡片。她将其记录为“已报告，尚未验证”，并将他转诊至诊所。演练 · 场景 · 流程 · Onesa Profile    3. 外国记录用于下一次接种 10 周大 · Onesa 区卫生中心 · J3 一名护士在离线状态下依据 GDHCN 信任列表核验签名。她将 Taifafeki 疫苗代码映射到 Onesa 的接种计划，并接种逾期的 6 周龄剂次。演练 · 场景 · 流程 · Onesa Profile    4. 跨境连续性 12 个月后 · Onesa → Taifafeki · J4.0, J4.1 一家人通过爸爸手机上的可验证健康链接（VHL），与 Taifafeki 的一位医生分享他的完整记录。每一次访问都会记录回本国。演练 · 场景 · 流程 · Onesa Profile</li>
   </ol>
 
   <h3 id="section-1">本指南包含的内容</h3>
@@ -72,23 +72,23 @@
         <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/functional-requirements.html">功能性需求</a></td>
       </tr>
       <tr>
-        <td>泰法费基 Profile</td>
-        <td>出生医院的患者和剂次（每份 DVC 的来源），以及泰法费基诊所读取 VHL 时保存的记录</td>
+        <td>Taifafeki 规范（profile）</td>
+        <td>出生医院的患者和剂次（每份 DVC 的来源），以及 Taifafeki 的诊所读取 VHL 时保存的记录</td>
         <td><a href="journey-examples.html#country-profiles">国家 Profile</a></td>
       </tr>
       <tr>
-        <td>奥内萨 Profile</td>
+        <td>Onesa Profile</td>
         <td>CHW 登记的儿童和家庭、已报告和已验证的剂次、转诊、DVC 验证以及访问日志</td>
         <td><a href="journey-examples.html#country-profiles">国家 Profile</a></td>
       </tr>
       <tr>
         <td>术语与逻辑</td>
-        <td>疫苗产品、奥内萨接种计划代码、二者之间的 ConceptMap，以及作为 PlanDefinition 的婴儿接种计划</td>
+        <td>疫苗产品、Onesa 的接种计划代码、二者之间的 ConceptMap，以及作为 PlanDefinition 的婴儿接种计划</td>
         <td><a href="journey-examples.html">旅程示例</a></td>
       </tr>
       <tr>
         <td>示例</td>
-        <td>旅程演练的每个界面和载荷，均以 FHIR 示例呈现，涵盖泰法费基和奥内萨</td>
+        <td>旅程演练的每个界面和载荷，均以 FHIR 示例呈现，涵盖 Taifafeki 和 Onesa</td>
         <td><a href="journey-examples.html">旅程示例</a></td>
       </tr>
     </tbody>
@@ -96,7 +96,7 @@
 
   <h3 id="section-2">此处的信任如何运作</h3>
 
-  <p>泰法费基和奥内萨（Onesa）之间从不直接连接。两国都基于 WHO GDHCN 构建。泰法费基发布其签名证书所用的密钥，Onesa 缓存信任列表，因此其诊所在没有信号的情况下也能验证泰法费基的卡片。一年后，同一份信任列表让泰法费基诊所能够验证奥内萨的 VHL。数据跨境只有两种方式：作为一家人随身携带的已签名 QR 卡，或作为一家人选择分享的链接。<a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/">旅程演练的“运作原理”视图</a>在 <a href="https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html">DPI-H 参考架构</a>上展示了两国的组件，并以 GDHCN 为基础；以 ArchiMate 叠加图形式绘制在该参考架构（RA）自身模型上的同一图景，见<a href="architecture.html">架构页面</a>。</p>
+  <p>Taifafeki 和 Onesa 之间从不直接连接。两国都基于 WHO GDHCN 构建。Taifafeki 发布其签名证书所用的密钥，Onesa 缓存信任列表，因此其诊所在没有信号的情况下也能验证来自 Taifafeki 的卡片。一年后，同一份信任列表让 Taifafeki 的诊所能够验证来自 Onesa 的 VHL。数据跨境只有两种方式：作为一家人随身携带的已签名 QR 卡，或作为一家人选择分享的链接。<a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/">旅程演练的“运作原理”视图</a>在 <a href="https://worldhealthorganization.github.io/smart-ra/en/dpi-h-ra/index.html">DPI-H 参考架构</a>上展示了两国的组件，并以 GDHCN 为基础；以 ArchiMate 叠加图形式绘制在该参考架构（RA）自身模型上的同一图景，见<a href="architecture.html">架构页面</a>。</p>
 
   <p>这些旅程针对 <a href="https://smart.who.int/trust">WHO SMART Trust</a> 和 <a href="https://smart.who.int/trust-phw">WHO SMART Trust PHW</a> 运行 <a href="https://litlfred.github.io/smart-trust-tools/">smart-trust-tools</a> 的 HCERT 和 VHL 库。</p>
 

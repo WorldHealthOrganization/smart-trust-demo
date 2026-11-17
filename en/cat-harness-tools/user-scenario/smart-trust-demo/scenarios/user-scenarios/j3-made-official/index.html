@@ -122,7 +122,7 @@
 <dt>$schema</dt><dd>user-scenario/0.3.0</dd>
 <dt>id</dt><dd>j3-made-official</dd>
 <dt>title</dt><dd>J3 — A foreign record used for the next vaccine</dd>
-<dt>description</dt><dd>A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesan schedule.</dd>
+<dt>description</dt><dd>A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesa schedule.</dd>
 <dt>personas</dt><dd><pre>[
   &quot;chanthason&quot;,
   &quot;khamla-sengmany&quot;
@@ -136,7 +136,7 @@
   {
     &quot;id&quot;: &quot;J3a&quot;,
     &quot;title&quot;: &quot;The clinic confirms the cards are genuine&quot;,
-    &quot;headline&quot;: &quot;Nurse Chanthason scans the card, and her tablet checks Taifafeki’s digital signature against the WHO trust list — without contacting Taifafeki.&quot;,
+    &quot;headline&quot;: &quot;Nurse Chanthason scans the card, and her tablet checks the digital signature from Taifafeki against the WHO trust list — without contacting Taifafeki.&quot;,
     &quot;when&quot;: &quot;T0 + 10 weeks&quot;,
     &quot;where&quot;: &quot;Lomaru District Health Center&quot;,
     &quot;touchpoint&quot;: &quot;Clinic tablet (verification)&quot;,
@@ -169,8 +169,8 @@
       }
     ],
     &quot;painPoint&quot;: &quot;Clinicians either distrust foreign paper and re-vaccinate, or trust it blindly.&quot;,
-    &quot;enabler&quot;: &quot;Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally.&quot;,
-    &quot;policy&quot;: &quot;Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki.&quot;,
+    &quot;enabler&quot;: &quot;The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally.&quot;,
+    &quot;policy&quot;: &quot;Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki.&quot;,
     &quot;record&quot;: {
       &quot;state&quot;: &quot;verified&quot;,
       &quot;description&quot;: &quot;Doses verified; Taifafeki recorded as the source&quot;,
@@ -206,7 +206,7 @@
         ]
       }
     ],
-    &quot;technicalSummary&quot;: &quot;The clinic checks Taifafeki’s signature against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki.&quot;,
+    &quot;technicalSummary&quot;: &quot;The clinic checks the signature from Taifafeki against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki.&quot;,
     &quot;uses&quot;: [
       {
         &quot;block&quot;: &quot;ohs-fhir-sdk&quot;,
@@ -218,7 +218,7 @@
       },
       {
         &quot;block&quot;: &quot;gdhcn&quot;,
-        &quot;role&quot;: &quot;Supplies Taifafeki’s public key (downloaded in advance)&quot;
+        &quot;role&quot;: &quot;Supplies the public key of Taifafeki (downloaded in advance)&quot;
       },
       {
         &quot;block&quot;: &quot;dvc&quot;,
@@ -248,7 +248,7 @@
     ],
     &quot;illustration&quot;: {
       &quot;src&quot;: &quot;docs/images/moment-j3-made-official.jpg&quot;,
-      &quot;alt&quot;: &quot;At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesan schedule; Khamla and Bounmy hold Somsak&quot;
+      &quot;alt&quot;: &quot;At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesa schedule; Khamla and Bounmy hold Somsak&quot;
     },
     &quot;fhirChanges&quot;: [
       {
@@ -266,7 +266,7 @@
       {
         &quot;resource&quot;: &quot;Provenance&quot;,
         &quot;change&quot;: &quot;Created: author = Taifafeki MOPH, verifier = nurse&quot;,
-        &quot;why&quot;: &quot;Anyone who later doubts a dose can follow it back to the signed certificate and Taifafeki’s key.&quot;,
+        &quot;why&quot;: &quot;Anyone who later doubts a dose can follow it back to the signed certificate and the key of Taifafeki.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaDvcVerification&quot;,
         &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
@@ -304,17 +304,17 @@
   },
   {
     &quot;id&quot;: &quot;J3b&quot;,
-    &quot;title&quot;: &quot;Taifafeki vaccines are fitted to the Onesan schedule&quot;,
-    &quot;headline&quot;: &quot;The Taifafeki Hep B product doesn’t match anything on the Onesan schedule. Chanthason makes the clinical call, and the system works out what’s due next.&quot;,
+    &quot;title&quot;: &quot;Taifafeki vaccines are fitted to the Onesa schedule&quot;,
+    &quot;headline&quot;: &quot;The Taifafeki Hep B product doesn’t match anything on the Onesa schedule. Chanthason makes the clinical call, and the system works out what’s due next.&quot;,
     &quot;when&quot;: &quot;T0 + 10 weeks&quot;,
     &quot;where&quot;: &quot;Lomaru District Health Center&quot;,
     &quot;touchpoint&quot;: &quot;Clinic tablet (vaccine matching + schedule)&quot;,
-    &quot;narrative&quot;: &quot;The Taifafeki Hep B product matches nothing on the national schedule.\nThe EHR keeps Taifafeki&#39;s product coding and adds the schedule coding beside\nit, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\nthe map has no entry, so Nurse Chanthason makes the clinical call that it is\nthe schedule&#39;s birth dose (`TrustDemoJ3Adjudication`), and her decision is\nadded to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\nthen runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\nChanthason gives them that day. Khamla leaves with the date of the next doses\n(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\nmeasles-rubella at 9 months, in Onesa.&quot;,
+    &quot;narrative&quot;: &quot;The Taifafeki Hep B product matches nothing on the national schedule.\nThe EHR keeps the product coding of Taifafeki and adds the schedule coding beside\nit, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\nthe map has no entry, so Nurse Chanthason makes the clinical call that it is\nthe schedule&#39;s birth dose (`TrustDemoJ3Adjudication`), and her decision is\nadded to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\nthen runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\nChanthason gives them that day. Khamla leaves with the date of the next doses\n(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\nmeasles-rubella at 9 months, in Onesa.&quot;,
     &quot;lead&quot;: &quot;chanthason&quot;,
     &quot;experiences&quot;: [
       {
         &quot;actor&quot;: &quot;chanthason&quot;,
-        &quot;doing&quot;: &quot;Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines.&quot;,
+        &quot;doing&quot;: &quot;Confirms the Taifafeki product equals the birth dose on the Onesa schedule; gives the overdue 6-week vaccines.&quot;,
         &quot;feeling&quot;: &quot;“Different name, same vaccine — I can make that call.”&quot;,
         &quot;emotion&quot;: 1
       },
@@ -326,20 +326,20 @@
       }
     ],
     &quot;painPoint&quot;: &quot;Countries name and package vaccines differently, so doses get missed or repeated.&quot;,
-    &quot;enabler&quot;: &quot;Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due.&quot;,
+    &quot;enabler&quot;: &quot;The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due.&quot;,
     &quot;policy&quot;: &quot;Never overwrite another country’s record: keep the original coding alongside the national one.&quot;,
     &quot;record&quot;: {
       &quot;state&quot;: &quot;scheduled&quot;,
       &quot;description&quot;: &quot;Birth doses count; next appointment booked&quot;,
-      &quot;heldWhere&quot;: &quot;Onesan national health records&quot;
+      &quot;heldWhere&quot;: &quot;Onesa national health records&quot;
     },
     &quot;handoff&quot;: {
-      &quot;summary&quot;: &quot;Somsak continues on the Onesan schedule for a year&quot;,
+      &quot;summary&quot;: &quot;Somsak continues on the Onesa schedule for a year&quot;,
       &quot;carrier&quot;: &quot;FHIR API via Info Gateway&quot;,
       &quot;payload&quot;: &quot;Dual-coded Immunization + next-dose Task&quot;,
       &quot;offline&quot;: false,
       &quot;from&quot;: &quot;Clinic tablet&quot;,
-      &quot;to&quot;: &quot;Onesan national FHIR server&quot;
+      &quot;to&quot;: &quot;Onesa national FHIR server&quot;
     },
     &quot;whatIf&quot;: [
       {
@@ -362,7 +362,7 @@
         ]
       }
     ],
-    &quot;technicalSummary&quot;: &quot;Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesan schedule. Computable schedule logic then works out what’s due next.&quot;,
+    &quot;technicalSummary&quot;: &quot;Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesa schedule. Computable schedule logic then works out what’s due next.&quot;,
     &quot;uses&quot;: [
       {
         &quot;block&quot;: &quot;smart-imm&quot;,
@@ -370,11 +370,11 @@
       },
       {
         &quot;block&quot;: &quot;conceptmap&quot;,
-        &quot;role&quot;: &quot;PreQual product → WHO vaccine type → Onesan EPI code&quot;
+        &quot;role&quot;: &quot;PreQual product → WHO vaccine type → Onesa EPI code&quot;
       },
       {
         &quot;block&quot;: &quot;plandefinition&quot;,
-        &quot;role&quot;: &quot;Onesan schedule logic finds the 6-week doses overdue&quot;
+        &quot;role&quot;: &quot;Schedule logic of Onesa finds the 6-week doses overdue&quot;
       },
       {
         &quot;block&quot;: &quot;ohs-fhir-sdk&quot;,
@@ -386,7 +386,7 @@
       },
       {
         &quot;block&quot;: &quot;ohs-data-pipes&quot;,
-        &quot;role&quot;: &quot;Verified Taifafeki doses, with their Provenance, count toward Onesan coverage reports&quot;
+        &quot;role&quot;: &quot;Verified doses from Taifafeki, with their Provenance, count toward coverage reports in Onesa&quot;
       },
       {
         &quot;block&quot;: &quot;national-fhir&quot;,
@@ -406,13 +406,13 @@
     ],
     &quot;illustration&quot;: {
       &quot;src&quot;: &quot;docs/images/moment-j3-made-official.jpg&quot;,
-      &quot;alt&quot;: &quot;At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesan schedule; Khamla and Bounmy hold Somsak&quot;
+      &quot;alt&quot;: &quot;At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesa schedule; Khamla and Bounmy hold Somsak&quot;
     },
     &quot;fhirChanges&quot;: [
       {
         &quot;resource&quot;: &quot;Immunization.vaccineCode&quot;,
-        &quot;change&quot;: &quot;Onesan EPI code added; PreQual code kept&quot;,
-        &quot;why&quot;: &quot;The Onesan schedule runs on Onesan EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten.&quot;,
+        &quot;change&quot;: &quot;Onesa EPI code added; PreQual code kept&quot;,
+        &quot;why&quot;: &quot;The Onesa schedule runs on Onesa EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten.&quot;,
         &quot;profile&quot;: &quot;TrustDemoOnesaImmunization&quot;,
         &quot;profileOf&quot;: &quot;XXU&quot;,
         &quot;examples&quot;: [
@@ -424,7 +424,7 @@
       {
         &quot;resource&quot;: &quot;ConceptMap&quot;,
         &quot;change&quot;: &quot;Nurse’s mapping decision recorded&quot;,
-        &quot;why&quot;: &quot;Onesa’s own map from vaccine products to its schedule; a product with no mapping goes to the nurse.&quot;,
+        &quot;why&quot;: &quot;The map of Onesa from vaccine products to its own schedule; a product with no mapping goes to the nurse.&quot;,
         &quot;examples&quot;: [
           &quot;ConceptMap/TrustDemoProductToOnesaEpi&quot;,
           &quot;Provenance/TrustDemoJ3Adjudication&quot;
@@ -434,7 +434,7 @@
       {
         &quot;resource&quot;: &quot;Task / Appointment&quot;,
         &quot;change&quot;: &quot;Overdue 6-week doses given&quot;,
-        &quot;why&quot;: &quot;The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones.&quot;,
+        &quot;why&quot;: &quot;The Onesa schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones.&quot;,
         &quot;examples&quot;: [
           &quot;PlanDefinition/TrustDemoOnesaInfantSchedule&quot;,
           &quot;Task/TrustDemoJ3Reminder&quot;
@@ -485,7 +485,7 @@
   },
   {
     &quot;icon&quot;: &quot;calendar-check&quot;,
-    &quot;label&quot;: &quot;On the Onesan schedule&quot;
+    &quot;label&quot;: &quot;On the Onesa schedule&quot;
   }
 ]</pre></dd>
 <dt>references</dt><dd><pre>[

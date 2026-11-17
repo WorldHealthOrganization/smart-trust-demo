@@ -1,7 +1,7 @@
 {
   "$schema": "ig-content-qa-verdict/v1",
   "items": 2587,
-  "contentDigest": "sha256:a410b68445d37a1e7327a8fffd5a9ae516aba9d6d8bd959f12e8856a4f18790c",
+  "contentDigest": "sha256:432accfafcc619c564703c792be630cbab854161a1e6854ea38e2f704af1f296",
   "patternHits": [],
   "reviewedDigest": "sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7",
   "reviewer": {
@@ -67,6 +67,10 @@
       "field": "extension[9].valueMarkdown"
     },
     {
+      "where": "CodeSystem/TrustDemoOnesaEpiSchedule",
+      "field": "description"
+    },
+    {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
       "field": "definition.resource[0].description"
     },
@@ -88,15 +92,7 @@
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[22].description"
-    },
-    {
-      "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[24].description"
-    },
-    {
-      "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[25].description"
+      "field": "definition.resource[26].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
@@ -104,7 +100,71 @@
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[56].description"
+      "field": "definition.resource[29].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[32].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[47].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[48].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[49].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[50].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[51].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[57].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[60].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[61].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[63].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[66].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[67].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[68].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[69].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[70].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[72].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
@@ -117,6 +177,18 @@
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
       "field": "definition.resource[86].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[90].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[91].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[92].description"
     },
     {
       "where": "PlanDefinition/TrustDemoDT01",
@@ -147,7 +219,59 @@
       "field": "text.div"
     },
     {
+      "where": "StructureDefinition/TrustDemoOnesaHousehold",
+      "field": "description"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoOnesaImmunization",
+      "field": "description"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoOnesaPatient",
+      "field": "description"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoOnesaReferral",
+      "field": "description"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoOnesaReportedImmunization",
+      "field": "description"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoOnesaVhlAccess",
+      "field": "description"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoTaifafekiPatient",
+      "field": "description"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoTaifafekiVhlReceipt",
+      "field": "description"
+    },
+    {
+      "where": "input/pagecontent/architecture.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/changes.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/countries.md",
+      "field": "page"
+    },
+    {
       "where": "input/pagecontent/country-canvas.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/index.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/journey-examples.md",
       "field": "page"
     },
     {
@@ -155,7 +279,19 @@
       "field": "page"
     },
     {
+      "where": "input/pagecontent/module-journey-map.md",
+      "field": "page"
+    },
+    {
       "where": "input/pagecontent/narrative-discrepancies.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/personas.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/scenarios.md",
       "field": "page"
     },
     {
@@ -221,7 +357,87 @@
     {
       "where": "input/pagecontent/workshop.md",
       "field": "page"
+    },
+    {
+      "where": "translations/ar/pagecontent/changes.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/ar/pagecontent/countries.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/ar/pagecontent/personas.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/ar/pagecontent/scenarios.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/es/pagecontent/changes.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/es/pagecontent/countries.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/es/pagecontent/personas.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/es/pagecontent/scenarios.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/fr/pagecontent/changes.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/fr/pagecontent/countries.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/fr/pagecontent/personas.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/fr/pagecontent/scenarios.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/ru/pagecontent/changes.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/ru/pagecontent/countries.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/ru/pagecontent/personas.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/ru/pagecontent/scenarios.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/zh/pagecontent/changes.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/zh/pagecontent/countries.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/zh/pagecontent/personas.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/zh/pagecontent/scenarios.po",
+      "field": "page"
     }
   ],
-  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:a410b68445d37a1e7327a8fffd5a9ae516aba9d6d8bd959f12e8856a4f18790c (2587); published anyway, with no pattern hit; 52 text(s) not reviewed:\n  Basic/TrustDemo.Role.BirthClinicSystem extension[9].valueMarkdown\n  Basic/TrustDemo.Role.BirthClinicVaccinator extension[9].valueMarkdown\n  Basic/TrustDemo.Role.Caregiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.ChwApp extension[9].valueMarkdown\n  Basic/TrustDemo.Role.CommunityHealthWorker extension[9].valueMarkdown\n  Basic/TrustDemo.Role.FamilyPhone extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicEhr extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.IssuerKey extension[9].valueMarkdown\n  Basic/TrustDemo.Role.NationalPortal extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocReceiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.SubjectOfCare extension[9].valueMarkdown\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[0].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[1].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[4].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[6].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[10].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[22].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[24].description\n  … and 32 more (the verdict lists every one); an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
+  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:432accfafcc619c564703c792be630cbab854161a1e6854ea38e2f704af1f296 (2587); published anyway, with no pattern hit; 106 text(s) not reviewed:\n  Basic/TrustDemo.Role.BirthClinicSystem extension[9].valueMarkdown\n  Basic/TrustDemo.Role.BirthClinicVaccinator extension[9].valueMarkdown\n  Basic/TrustDemo.Role.Caregiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.ChwApp extension[9].valueMarkdown\n  Basic/TrustDemo.Role.CommunityHealthWorker extension[9].valueMarkdown\n  Basic/TrustDemo.Role.FamilyPhone extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicEhr extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.IssuerKey extension[9].valueMarkdown\n  Basic/TrustDemo.Role.NationalPortal extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocReceiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.SubjectOfCare extension[9].valueMarkdown\n  CodeSystem/TrustDemoOnesaEpiSchedule description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[0].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[1].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[4].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[6].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[10].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[26].description\n  … and 86 more (the verdict lists every one); an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
 }

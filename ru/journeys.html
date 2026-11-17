@@ -31,20 +31,20 @@
   <!-- translations: journeys -->
 
   <blockquote>
-    <p>Somsak рождается в Тайфафеки, растёт в Онесе, и год спустя тайфафекский врач может увидеть все вакцины, которые он когда-либо получал, — и при этом ни одна запись не копируется через границу.</p>
+    <p>Somsak рождается в стране Taifafeki, растёт в стране Onesa, и год спустя врач в стране Taifafeki может увидеть все вакцины, которые он когда-либо получал, — и при этом ни одна запись не копируется через границу.</p>
   </blockquote>
 
   <p>Это та самая история, которую рассказывает <a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/">пошаговый обзор путей</a>, момент за моментом, с людьми, технологическим уровнем и вопросами политики (интерактивно; его исходный код находится в <code class="language-plaintext highlighter-rouge">web/</code> в этом репозитории), задокументированная здесь как DAK уровня L2 и руководство по внедрению уровня L3 руководящих принципов SMART ВОЗ (WHO SMART Guidelines). Её примеры FHIR материализованы в этом руководстве; страница <a href="journey-examples.html">примеров путей</a> сопоставляет с ними каждый момент и экран устройства.</p>
 
   <ul>
-    <li>Страна A (страна рождения) — Тайфафеки. Somsak рождается в провинциальной больнице Кесаро и получает там дозы при рождении (J1). В сети GDHCN DEV Тайфафеки представлен тестовым участником XXR, чей DSC (kid <code class="language-plaintext highlighter-rouge">kW/6VnwPRKI=</code>, hex <code class="language-plaintext highlighter-rouge">916ffa567c0f44a2</code>) находится в действующем списке доверия DEV.</li>
-    <li>Страна B (страна проживания, «дом») — Онеса. Там живёт семья (J2, J3, J4.0). В сети DEV её представляет вымышленный участник, обозначаемый XXU.</li>
-    <li>J4.1 возвращает семью в Тайфафеки год спустя.</li>
+    <li>Страна A (страна рождения) — Taifafeki. Somsak рождается в провинциальной больнице Кесаро и получает там дозы при рождении (J1). В сети GDHCN DEV страну Taifafeki представляет тестовый участник XXR, чей DSC (kid <code class="language-plaintext highlighter-rouge">kW/6VnwPRKI=</code>, hex <code class="language-plaintext highlighter-rouge">916ffa567c0f44a2</code>) находится в действующем списке доверия DEV.</li>
+    <li>Страна B (страна проживания, «дом») — Onesa. Там живёт семья (J2, J3, J4.0). В сети DEV её представляет вымышленный участник, обозначаемый XXU.</li>
+    <li>J4.1 возвращает семью в страну Taifafeki год спустя.</li>
   </ul>
 
   <p>XXR и XXU — тестовые участники DEV, а не производственные ключи какой-либо из стран, и ничто здесь не подразумевает реальное министерство. Все люди вымышлены.</p>
 
-  <p>Действующие лица: Khamla SENGMANY (мать), Bounmy SENGMANY (отец, у него семейный телефон), Vilay (общинный медицинский работник (CHW), деревня 04), медсестра Chanthason (районный медицинский центр Ломару) и доктор Anan (тайфафекский клиницист, при рождении и год спустя).</p>
+  <p>Действующие лица: Khamla SENGMANY (мать), Bounmy SENGMANY (отец, у него семейный телефон), Vilay (общинный медицинский работник (CHW), деревня 04), медсестра Chanthason (районный медицинский центр Ломару) и доктор Anan (клиницист в стране Taifafeki, при рождении и год спустя).</p>
 
   <table>
     <thead>
@@ -61,28 +61,28 @@
         <td>1</td>
         <td>Привит, прививки записаны</td>
         <td>день рождения, 2025-10-28</td>
-        <td>Кесаро, Тайфафеки</td>
+        <td>Кесаро, Taifafeki</td>
         <td>J1</td>
       </tr>
       <tr>
         <td>2</td>
         <td>Найден и зарегистрирован</td>
         <td>7 недель от роду</td>
-        <td>Деревня 04 (где живёт Khamla), Онеса</td>
+        <td>Деревня 04 (где живёт Khamla), Onesa</td>
         <td>J2 (J2a — считывание карточек, J2b — регистрация и направление)</td>
       </tr>
       <tr>
         <td>3</td>
         <td>Иностранная запись используется для следующей прививки</td>
         <td>10 недель от роду</td>
-        <td>Районный медицинский центр, Онеса</td>
+        <td>Районный медицинский центр, Onesa</td>
         <td>J3 (J3a — проверка, J3b — сопоставление и включение в график)</td>
       </tr>
       <tr>
         <td>4</td>
         <td>Непрерывность через границу</td>
         <td>12 месяцев от роду</td>
-        <td>Из Онесы в Тайфафеки</td>
+        <td>Из страны Onesa в страну Taifafeki</td>
         <td>J4.0 (a — кошелёк, b — ссылка для обмена), J4.1</td>
       </tr>
     </tbody>
@@ -121,19 +121,19 @@
       <tr>
         <td>J3b</td>
         <td>Включено в график: учитывается в национальном графике</td>
-        <td>Национальные записи Онесы</td>
+        <td>национальные записи страны Onesa</td>
         <td><code class="language-plaintext highlighter-rouge">coding</code> графика добавлено, <code class="language-plaintext highlighter-rouge">ImmunizationRecommendation</code>, <code class="language-plaintext highlighter-rouge">Task</code></td>
       </tr>
       <tr>
         <td>J4.0</td>
         <td>Переносимая: сводка, которой семья может поделиться</td>
-        <td>Онесские записи, ссылка на телефоне</td>
+        <td>записи в стране Onesa, ссылка на телефоне</td>
         <td>IPS <code class="language-plaintext highlighter-rouge">Bundle</code>, <code class="language-plaintext highlighter-rouge">Consent</code></td>
       </tr>
       <tr>
         <td>J4.1</td>
         <td>Передано и проверено аудитом: просмотрено за рубежом, зарегистрировано на родине</td>
-        <td>Национальные записи Онесы</td>
+        <td>национальные записи страны Onesa</td>
         <td><code class="language-plaintext highlighter-rouge">Provenance</code>, <code class="language-plaintext highlighter-rouge">AuditEvent</code></td>
       </tr>
     </tbody>
@@ -210,7 +210,7 @@
       </tr>
       <tr>
         <td>birth-clinic-system</td>
-        <td>Провинциальная больница Кесаро, Тайфафеки</td>
+        <td>Провинциальная больница Кесаро, Taifafeki</td>
         <td><a href="https://smart.who.int/trust/ActorDefinition-Issuer.html">Эмитент (Issuer)</a></td>
         <td><a href="https://smart.who.int/trust-phw/ActorDefinition-Issuer.html">Эмитент (Issuer)</a></td>
         <td><a href="https://profiles.ihe.net/ITI/VHL/ActorDefinition-VHLSharer.html">VHLSharer</a> (сторона HCERT)</td>
@@ -218,7 +218,7 @@
       </tr>
       <tr>
         <td>issuer-key</td>
-        <td>Ключ DSC XXR (представляет Тайфафеки)</td>
+        <td>Ключ DSC XXR (представляет страну Taifafeki)</td>
         <td><a href="https://smart.who.int/trust/ActorDefinition-TrustNetworkParticipant.html">Участник сети доверия (Trust Network Participant)</a> (его PKI)</td>
         <td><a href="https://smart.who.int/trust-phw/ActorDefinition-TrustNetworkParticipant.html">Участник сети доверия (Trust Network Participant)</a></td>
         <td>—</td>
@@ -226,7 +226,7 @@
       </tr>
       <tr>
         <td>chw-app</td>
-        <td>Приложение CHW, Онеса</td>
+        <td>Приложение CHW, Onesa</td>
         <td><a href="https://smart.who.int/trust/ActorDefinition-Receiver.html">Получатель (Receiver)</a> (только предварительное чтение)</td>
         <td><a href="https://smart.who.int/trust-phw/ActorDefinition-Receiver.html">Получатель (Receiver)</a></td>
         <td><a href="https://profiles.ihe.net/ITI/VHL/ActorDefinition-VHLReceiver.html">VHLReceiver</a></td>
@@ -250,7 +250,7 @@
       </tr>
       <tr>
         <td>national-portal</td>
-        <td>Национальный портал и шлюз Онесы (XXU)</td>
+        <td>Национальный портал и шлюз страны Onesa (XXU)</td>
         <td>Эмитент (Issuer); участник сети доверия (Trust Network Participant)</td>
         <td>Эмитент (Issuer); участник сети доверия (Trust Network Participant)</td>
         <td><a href="https://profiles.ihe.net/ITI/VHL/ActorDefinition-VHLSharer.html">VHLSharer</a></td>
@@ -289,11 +289,11 @@
 
   <!-- BEGIN user scenarios: generated by tools/ig-gen/ig_gen.py from scenarios/user-scenarios/*.json; do not edit -->
 
-  <h4 id="j1-------">J1 — Привит, прививки записаны (Тайфафеки, день рождения)</h4>
+  <h4 id="j1-----taifafeki--">J1 — Привит, прививки записаны (Taifafeki, день рождения)</h4>
 
   <p>Предварительное условие: DSC эмитента находится в списке доверия. Сертификат подписанта документов (DSC) XXR, выданный под удостоверяющим центром страны для подписи (Country Signing CA, CSCA) XXR, был передан в GDHCN — якорь доверия — до подписания какого-либо DVC; GDHCN публикует его в виде документа DID. Передача не является шагом выдачи. DVC, подписанный ключом, DSC которого так и не был передан, не проходит проверку по списку доверия у любого получателя (STT-VER-006).</p>
 
-  <p>Khamla, гражданка Онесы, работающая в Тайфафеки, рожает Somsak 2025-10-28 в провинциальной больнице Кесаро. У него нет тайфафекского идентификационного номера. Доктор Anan вводит дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и регистрирует их с кодами продуктов преквалификации ВОЗ (PreQual). Для каждой дозы больничная система выполняет три действия:</p>
+  <p>Khamla, женщина из страны Onesa, работающая в стране Taifafeki, рожает Somsak 2025-10-28 в провинциальной больнице Кесаро. У него нет идентификационного номера страны Taifafeki. Доктор Anan вводит дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и регистрирует их с кодами продуктов преквалификации ВОЗ (PreQual). Для каждой дозы больничная система выполняет три действия:</p>
 
   <ol>
     <li>Она формирует полезную нагрузку DVCMinPreQual: STT-PAY-001…005 и STT-PAY-007, с подзаявкой −6 (STT-SEL-003). Документ, удостоверяющий личность, не требуется (STT-PAY-005).</li>
@@ -310,14 +310,14 @@ TEST-ONLY key (<a href="https://litlfred.github.io/smart-trust-tools/viewers/req
 do not verify in J3.</p>
 
   <ul>
-    <li>Проблема: у младенца нет тайфафекского идентификационного номера, поэтому его записи обычно оставались бы запертыми в системе тайфафекской больницы.</li>
+    <li>Проблема: у младенца нет идентификационного номера страны Taifafeki, поэтому его записи обычно оставались бы запертыми в системе больницы в стране Taifafeki.</li>
     <li>Что помогает: карточка с QR-кодом, подписанная цифровой подписью, путешествует вместе с семьёй — не нужны ни идентификационный номер, ни поиск в базе данных.</li>
     <li>Политика: дети, родившиеся за рубежом, могут получить проверяемую запись о вакцинации до регистрации актов гражданского состояния в стране пребывания или получения национального удостоверения личности — и регистрация рождения на родине по-прежнему важна.</li>
   </ul>
 
-  <h4 id="j2------somsak--7-">J2 — Найден и зарегистрирован (Онеса, Somsak исполнилось 7 недель)</h4>
+  <h4 id="j2-----onesa-somsak--7-">J2 — Найден и зарегистрирован (Onesa, Somsak исполнилось 7 недель)</h4>
 
-  <p>J2a. Khamla привезла Somsak домой в Онесу. Во время планового визита в деревню 04, где живёт Khamla, Vilay обнаруживает новорождённого, о существовании которого онесская система не знает. На её телефоне уже несколько недель нет сигнала. Khamla показывает две карточки. Приложение CHW считывает их в режиме read-unverified (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), для которого список доверия не нужен. Оно показывает дозы, но не проверяет подпись и пока ничего не сохраняет.</p>
+  <p>J2a. Khamla привезла Somsak домой, в страну Onesa. Во время планового визита в деревню 04, где живёт Khamla, Vilay обнаруживает новорождённого, о существовании которого система страны Onesa не знает. На её телефоне уже несколько недель нет сигнала. Khamla показывает две карточки. Приложение CHW считывает их в режиме read-unverified (STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), для которого список доверия не нужен. Оно показывает дозы, но не проверяет подпись и пока ничего не сохраняет.</p>
 
   <p>J2b. С помощью формы новорождённого в приложении CHW (структурированный сбор данных, <code class="language-plaintext highlighter-rouge">TrustDemoHouseholdRegistration</code>) она добавляет Somsak в домохозяйство Sengmany (<code class="language-plaintext highlighter-rouge">TrustDemoHousehold</code>) с временным идентификатором (id). Bounmy как глава домохозяйства подтверждает сведения. Приложение сохраняет дозы, считанные с карточек, как заявленные семьёй, но не проверенные (<code class="language-plaintext highlighter-rouge">TrustDemoJ2HepBReported</code>, <code class="language-plaintext highlighter-rouge">TrustDemoJ2BcgReported</code>: <code class="language-plaintext highlighter-rouge">primarySource</code> false). Vilay направляет Somsak в районный медицинский центр (<code class="language-plaintext highlighter-rouge">TrustDemoJ2Referral</code>). Всё остаётся в очереди на телефоне — при необходимости до 28 дней — и синхронизируется, когда появится сигнал.</p>
 
@@ -343,22 +343,22 @@ doses of J2. If a DVC fails (a tampered card, say), the EHR names the step and
 the reason, the doses stay unverified, and the nurse decides by national
 catch-up policy.</p>
 
-  <p>J3b. Тайфафекский продукт против гепатита B (Hep B) не соответствует ничему в национальном графике. EHR сохраняет тайфафекскую кодировку продукта и добавляет рядом кодировку графика из национальной таблицы соответствия (<code class="language-plaintext highlighter-rouge">TrustDemoProductToOnesaEpi</code>). Для продукта Hep B в таблице нет записи, поэтому медсестра Chanthason принимает клиническое решение о том, что это доза при рождении по графику (<code class="language-plaintext highlighter-rouge">TrustDemoJ3Adjudication</code>), и её решение добавляется в таблицу для следующей клиники. Затем применяется график (<code class="language-plaintext highlighter-rouge">TrustDemoOnesaInfantSchedule</code>): дозы при рождении засчитываются, а пентавалентная 1, bOPV 1 и PCV 1, положенные в 6 недель, в 10 недель оказываются просроченными (<code class="language-plaintext highlighter-rouge">TrustDemoJ3Recommendation</code>), поэтому медсестра Chanthason вводит их в тот же день. Khamla уходит с датой следующих доз (<code class="language-plaintext highlighter-rouge">TrustDemoJ3Reminder</code>). В течение года Somsak получает остальные дозы и вакцину против кори и краснухи в 9 месяцев — в Онесе.</p>
+  <p>J3b. Продукт против гепатита B (Hep B) из страны Taifafeki не соответствует ничему в национальном графике. EHR сохраняет кодировку продукта страны Taifafeki и добавляет рядом кодировку графика из национальной таблицы соответствия (<code class="language-plaintext highlighter-rouge">TrustDemoProductToOnesaEpi</code>). Для продукта Hep B в таблице нет записи, поэтому медсестра Chanthason принимает клиническое решение о том, что это доза при рождении по графику (<code class="language-plaintext highlighter-rouge">TrustDemoJ3Adjudication</code>), и её решение добавляется в таблицу для следующей клиники. Затем применяется график (<code class="language-plaintext highlighter-rouge">TrustDemoOnesaInfantSchedule</code>): дозы при рождении засчитываются, а пентавалентная 1, bOPV 1 и PCV 1, положенные в 6 недель, в 10 недель оказываются просроченными (<code class="language-plaintext highlighter-rouge">TrustDemoJ3Recommendation</code>), поэтому медсестра Chanthason вводит их в тот же день. Khamla уходит с датой следующих доз (<code class="language-plaintext highlighter-rouge">TrustDemoJ3Reminder</code>). В течение года Somsak получает остальные дозы и вакцину против кори и краснухи в 9 месяцев — в стране Onesa.</p>
 
   <ul>
     <li>Проблема (J3a): клиницисты либо не доверяют иностранным бумажным документам и вакцинируют повторно, либо доверяют им слепо.</li>
     <li>Проблема (J3b): страны по-разному называют и комплектуют вакцины, поэтому дозы пропускаются или повторяются.</li>
-    <li>Что помогает (J3a): ключ подписи Тайфафеки находится в общем списке доверия ВОЗ, поэтому любая клиника может проверить его локально.</li>
-    <li>Что помогает (J3b): исходный тайфафекский код сохраняется, а онесский добавляется рядом; механизм графика рассчитывает, какие дозы положены.</li>
-    <li>Политика (J3a): доверие децентрализовано: онесская клиника сама проверяет тайфафекскую подпись, не обращаясь к Тайфафеки.</li>
+    <li>Что помогает (J3a): ключ подписи страны Taifafeki находится в общем списке доверия ВОЗ, поэтому любая клиника может проверить его локально.</li>
+    <li>Что помогает (J3b): исходный код из страны Taifafeki сохраняется, а код страны Onesa добавляется рядом; механизм графика рассчитывает, какие дозы положены.</li>
+    <li>Политика (J3a): доверие децентрализовано: клиника в стране Onesa сама проверяет подпись из страны Taifafeki, не обращаясь к стране Taifafeki.</li>
     <li>Политика (J3b): никогда не перезаписывать запись другой страны: сохранять исходную кодировку рядом с национальной.</li>
   </ul>
 
-  <h4 id="j40----------12--">J4.0 — Непрерывность через границу: одна семья, один телефон (Онеса, 12 месяцев спустя)</h4>
+  <h4 id="j40---------onesa-12--">J4.0 — Непрерывность через границу: одна семья, один телефон (Onesa, 12 месяцев спустя)</h4>
 
-  <p>J4.0a. Семья планирует поездку в Тайфафеки. На телефоне Bounmy находится семейный кошелёк с профилем для каждого из них. Сводка Somsak (<code class="language-plaintext highlighter-rouge">TrustDemoJ4Ips</code>) показывает шесть доз: две из Тайфафеки, четыре из Онесы.</p>
+  <p>J4.0a. Семья планирует поездку в страну Taifafeki. На телефоне Bounmy находится семейный кошелёк с профилем для каждого из них. Сводка Somsak (<code class="language-plaintext highlighter-rouge">TrustDemoJ4Ips</code>) показывает шесть доз: две из страны Taifafeki, четыре из страны Onesa.</p>
 
-  <p>Предварительное условие, как в J1: DSC страны B, выданный под CSCA страны B, уже передан в GDHCN — якорь доверия. Именно это позволяет клинике в Тайфафеки проверить ссылку в J4.1.</p>
+  <p>Предварительное условие, как в J1: DSC страны B, выданный под CSCA страны B, уже передан в GDHCN — якорь доверия. Именно это позволяет клинике в стране Taifafeki проверить ссылку в J4.1.</p>
 
   <p>J4.0b. Bounmy делится записью Somsak с 4-значным кодом доступа, который можно произнести вслух, сроком действия 14 дней. Портал фиксирует его согласие (<code class="language-plaintext highlighter-rouge">TrustDemoJ4Consent</code>), а затем выполняет три действия:</p>
 
@@ -368,7 +368,7 @@ catch-up policy.</p>
     <li>Он выдаёт ссылку в виде HCERT, где VHL находится под ключом 5 (STT-VHL-001, STT-VHL-002), подписанного DSC страны B.</li>
   </ol>
 
-  <p>QR-код содержит только указатель и ключ: запись остаётся в Онесе.</p>
+  <p>QR-код содержит только указатель и ключ: запись остаётся в стране Onesa.</p>
 
   <ul>
     <li>Проблема (J4.0a): многие семьи пользуются одним смартфоном; решения по принципу «одно приложение на человека» исключают их.</li>
@@ -376,19 +376,19 @@ catch-up policy.</p>
     <li>Что помогает (J4.0a): семейный кошелёк на одном телефоне с отдельной сводкой о здоровье для каждого человека.</li>
     <li>Что помогает (J4.0b): проверяемая ссылка на медицинские данные: QR-код содержит лишь защищённый указатель; данные остаются на родине, пока не назван код доступа.</li>
     <li>Политика (J4.0a): проектировать с учётом общих устройств («Одна семья, один телефон»), чтобы семьи с единственным телефоном не оставались в стороне.</li>
-    <li>Политика (J4.0b): суверенитет данных: запись остаётся в Онесе, пока семья не разрешит кому-либо её открыть.</li>
+    <li>Политика (J4.0b): суверенитет данных: запись остаётся в стране Onesa, пока семья не разрешит кому-либо её открыть.</li>
   </ul>
 
-  <h4 id="j41-----------12--">J4.1 — Непрерывность через границу: тайфафекский педиатр видит всю историю (Кесаро, 12 месяцев спустя)</h4>
+  <h4 id="j41--------taifafeki-----12--">J4.1 — Непрерывность через границу: педиатр в стране Taifafeki видит всю историю (Кесаро, 12 месяцев спустя)</h4>
 
   <p>Предварительное условие, как в J3: документы DID уже загружены. Хранилище доверия программы просмотра клиники — это кэшированная копия списка доверия GDHCN, включая документ DID для DSC страны B (STT-TRU-001, STT-TRU-002, STT-TRU-005). Клиника обновляет его ежедневно ночью или ежечасно, тогда как автономная клиника в J3 — примерно раз в неделю. Для проверки подключение к сети не требуется: проверка читает кэш и никогда не загружает список. DSC, опубликованный после последнего обновления, не проходит проверку по списку доверия (STT-VER-006) с указанием этой причины.</p>
 
-  <p>Там, где всё началось: доктор Anan, педиатр, осматривает Somsak в педиатрической клинике в Кесаро. Bounmy показывает QR-код на своём телефоне и называет код доступа. Программа просмотра клиники и онесский шлюз выполняют пять шагов:</p>
+  <p>Там, где всё началось: доктор Anan, педиатр, осматривает Somsak в педиатрической клинике в Кесаро. Bounmy показывает QR-код на своём телефоне и называет код доступа. Программа просмотра клиники и шлюз страны Onesa выполняют пять шагов:</p>
 
   <ol>
     <li>Программа просмотра проверяет HCERT по DSC страны B в своей копии списка доверия.</li>
     <li>Она запрашивает манифест посредством ITI-YY5 с подписью HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).</li>
-    <li>Онесский шлюз проверяет код доступа, срок действия и согласие, возвращает манифест и регистрирует доступ на родине (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Access</code>).</li>
+    <li>Шлюз страны Onesa проверяет код доступа, срок действия и согласие, возвращает манифест и регистрирует доступ на родине (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Access</code>).</li>
     <li>The viewer decrypts the IPS and DVCs (<a href="https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-vhl-007">STT-VHL-007</a>) (<code class="language-plaintext highlighter-rouge">TrustDemoJ41Received</code>).</li>
     <li>Она показывает их доктору Anan: все дозы с момента рождения — просмотренные, но не скопированные.</li>
   </ol>
@@ -402,7 +402,7 @@ would a paper record.</p>
 
   <ul>
     <li>Проблема: без истории врачу пришлось бы повторять вакцинацию или действовать наугад.</li>
-    <li>Что помогает: запись извлекается в реальном времени из Онесы, просматривается без копирования, а журнал доступа отправляется на родину.</li>
+    <li>Что помогает: запись извлекается в реальном времени из страны Onesa, просматривается без копирования, а журнал доступа отправляется на родину.</li>
     <li>Политика: непрерывность помощи через границы: каждая страна ведёт собственные записи, без международного регистра пациентов и без привязки к поставщику. На региональном уровне согласовываются модель данных и список доверия, а не общая копия данных.</li>
   </ul>
 
@@ -431,7 +431,7 @@ would a paper record.</p>
 </div>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/journeys.md" data-repo="WorldHealthOrganization/smart-trust-demo" href="https://github.com/WorldHealthOrganization/smart-trust-demo/edit/main/input/pagecontent/journeys.md">Edit this page on GitHub</a></p>
-<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/journeys.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/journeys.md", "lines": [{"t":"Roles, actors and the guides' actor definitions","l":61},{"t":"User scenarios","l":88},{"t":"J1 — Vaccinated and recorded (Taifafeki, birth day)","l":99},{"t":"J2 — Found and registered (Onesa, Somsak is 7 weeks old)","l":124},{"t":"J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)","l":149},{"t":"J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)","l":181},{"t":"J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history (Kesaro, 12 months later)","l":206},{"t":"Questions for discussion","l":233},{"t":"Modules, terms and the canvas","l":242}]}</script>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/journeys.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/journeys.md", "lines": [{"t":"Roles, actors and the guides' actor definitions","l":61},{"t":"User scenarios","l":88},{"t":"J1 — Vaccinated and recorded (Taifafeki, birth day)","l":99},{"t":"J2 — Found and registered (Onesa, Somsak is 7 weeks old)","l":124},{"t":"J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)","l":149},{"t":"J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)","l":181},{"t":"J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history (Kesaro, 12 months later)","l":206},{"t":"Questions for discussion","l":233},{"t":"Modules, terms and the canvas","l":242}]}</script>
 
 <script src="../assets/ig-source-links.js"></script>
 

@@ -128,7 +128,7 @@ They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Hea
       <td>Taifafeki</td>
       <td>J1</td>
       <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoTaifafekiPatient.html">TrustDemoTaifafekiPatient</a></td>
-      <td>The birth hospital’s newborn: a hospital number, since a baby of Onesan parents has no Taifafeki citizen id.</td>
+      <td>The birth hospital’s newborn: a hospital number, since a baby of parents from Onesa has no Taifafeki citizen id.</td>
       <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Patient-TrustDemoTaifafekiSomsak.html">TrustDemoTaifafekiSomsak</a></td>
     </tr>
     <tr>
@@ -142,7 +142,7 @@ They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Hea
       <td>Taifafeki</td>
       <td>J4.1</td>
       <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoTaifafekiVhlReceipt.html">TrustDemoTaifafekiVhlReceipt</a></td>
-      <td>What the Taifafeki clinic keeps when it views an Onesan summary through a VHL: viewed, not copied.</td>
+      <td>What the Taifafeki clinic keeps when it views a summary from Onesa through a VHL: viewed, not copied.</td>
       <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ41Received.html">TrustDemoJ41Received</a></td>
     </tr>
     <tr>
@@ -191,7 +191,7 @@ They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Hea
       <td>Onesa</td>
       <td>J3</td>
       <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaImmunization.html">TrustDemoOnesaImmunization</a></td>
-      <td>A dose on the national schedule: the Onesan EPI code is required, and a foreign product code is kept beside it.</td>
+      <td>A dose on the national schedule: the Onesa EPI code is required, and a foreign product code is kept beside it.</td>
       <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3HepB.html">TrustDemoJ3HepB</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3Bcg.html">TrustDemoJ3Bcg</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoOnesaPenta1.html">TrustDemoOnesaPenta1</a></td>
     </tr>
     <tr>
@@ -253,7 +253,7 @@ They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Hea
       <td><code class="language-plaintext highlighter-rouge">auditEvent</code></td>
       <td>AuditEvent</td>
       <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41Access.html">TrustDemoJ41Access</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/AuditEvent-TrustDemoJ41Access.json">json</a>)</td>
-      <td>R4 shape: <code class="language-plaintext highlighter-rouge">type</code>, <code class="language-plaintext highlighter-rouge">subtype</code>, <code class="language-plaintext highlighter-rouge">outcome</code>, <code class="language-plaintext highlighter-rouge">outcomeDesc</code>; the receiver is the requestor, the Onesan gateway the custodian and observer. The passcode is never logged.</td>
+      <td>R4 shape: <code class="language-plaintext highlighter-rouge">type</code>, <code class="language-plaintext highlighter-rouge">subtype</code>, <code class="language-plaintext highlighter-rouge">outcome</code>, <code class="language-plaintext highlighter-rouge">outcomeDesc</code>; the receiver is the requestor, the Onesa gateway the custodian and observer. The passcode is never logged.</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">cborPayload</code></td>
@@ -267,10 +267,10 @@ They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Hea
 <h3 id="what-the-examples-change-from-the-walkthroughs-copies">What the examples change from the walkthrough’s copies</h3>
 
 <ul>
-  <li><strong>Code systems.</strong> The walkthrough’s product codes (<code class="language-plaintext highlighter-rouge">vp-hepb-peds-monovalent</code> and so on) and Onesan schedule codes (<code class="language-plaintext highlighter-rouge">XXU-EPI-HEPB-BD</code> and so on) are illustrative. They are defined here as the code systems <code class="language-plaintext highlighter-rouge">TrustDemoVaccineProduct</code> and <code class="language-plaintext highlighter-rouge">TrustDemoOnesaEpiSchedule</code>, marked experimental, under this guide’s canonical, so no URL implies a real ministry or a real WHO code system.</li>
+  <li><strong>Code systems.</strong> The walkthrough’s product codes (<code class="language-plaintext highlighter-rouge">vp-hepb-peds-monovalent</code> and so on) and the schedule codes of Onesa (<code class="language-plaintext highlighter-rouge">XXU-EPI-HEPB-BD</code> and so on) are illustrative. They are defined here as the code systems <code class="language-plaintext highlighter-rouge">TrustDemoVaccineProduct</code> and <code class="language-plaintext highlighter-rouge">TrustDemoOnesaEpiSchedule</code>, marked experimental, under this guide’s canonical, so no URL implies a real ministry or a real WHO code system.</li>
   <li><strong>Countries.</strong> Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key.</li>
   <li><strong>The passcode.</strong> The walkthrough shows <code class="language-plaintext highlighter-rouge">4829</code> on screen. No example stores a passcode: the consent and audit records say only that one was checked.</li>
-  <li><strong>Dates.</strong> As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the Onesan doses 2025-12-10 and 2026-07-28, the trip 2026-10-28.</li>
+  <li><strong>Dates.</strong> As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28.</li>
 </ul>
 
 <p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/journey-examples.md" data-repo="WorldHealthOrganization/smart-trust-demo" href="https://github.com/WorldHealthOrganization/smart-trust-demo/edit/main/input/pagecontent/journey-examples.md">Edit this page on GitHub</a></p>

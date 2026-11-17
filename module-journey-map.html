@@ -262,7 +262,7 @@
     <tr>
       <td>J1</td>
       <td style="text-align: center">●</td>
-      <td>Hospital immunization record; one DVC per birth dose, signed by Taifafeki’s document signer.</td>
+      <td>Hospital immunization record; one DVC per birth dose, signed by the document signer of Taifafeki.</td>
       <td>Which child, which record and which border would your country’s use case cover?</td>
     </tr>
     <tr>
@@ -374,7 +374,7 @@
     <tr>
       <td>J3b</td>
       <td style="text-align: center">●</td>
-      <td>Terminology service: Taifafeki’s product code kept, Onesa’s schedule code added beside it; schedule logic over every dose.</td>
+      <td>Terminology service: the product code of Taifafeki kept, the schedule code of Onesa added beside it; schedule logic over every dose.</td>
       <td>Who owns your national core data set and the code maps to other countries, and is vaccine code licensing settled?</td>
     </tr>
     <tr>
@@ -427,7 +427,7 @@
     <tr>
       <td>J4.1</td>
       <td style="text-align: center">○</td>
-      <td>Viewer verifies the VHL’s HCERT against Onesa’s DSC from the trust list.</td>
+      <td>Viewer verifies the VHL’s HCERT against the DSC of Onesa from the trust list.</td>
       <td>Who verifies your citizens’ records abroad, and what may that verifier see?</td>
     </tr>
   </tbody>
@@ -691,7 +691,7 @@
     </tr>
     <tr>
       <td>J3b</td>
-      <td>ConceptMap from Taifafeki’s product codes to Onesa’s schedule codes; the schedule as a PlanDefinition.</td>
+      <td>ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition.</td>
       <td>How does an implementation guide let two countries keep their own vaccine codes and still count each other’s doses?</td>
     </tr>
     <tr>
@@ -743,7 +743,7 @@
   <tbody>
     <tr>
       <td>J1</td>
-      <td>Taifafeki’s document signer key (DSC of XXR) signs each DVC as a CWT in COSE.</td>
+      <td>The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.</td>
       <td>What does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document?</td>
     </tr>
     <tr>
@@ -753,7 +753,7 @@
     </tr>
     <tr>
       <td>J4.1</td>
-      <td>The viewer verifies the VHL’s HCERT against Onesa’s DSC (XXU) before it fetches anything.</td>
+      <td>The viewer verifies the VHL’s HCERT against the DSC of Onesa (XXU) before it fetches anything.</td>
       <td>Why is the health data not in the QR, and what does the viewer check before it opens the link?</td>
     </tr>
   </tbody>
@@ -779,7 +779,7 @@
     </tr>
     <tr>
       <td>J3b</td>
-      <td>The Onesan schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.</td>
+      <td>The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.</td>
       <td>How does the plan definition decide a dose is overdue, and what sets the date of the next one?</td>
     </tr>
     <tr>
@@ -852,7 +852,7 @@
     <tr>
       <td>J4.1</td>
       <td>The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents.</td>
-      <td>What does the viewer need from the trust list, and what does it need from Onesa’s gateway?</td>
+      <td>What does the viewer need from the trust list, and what does it need from the gateway of Onesa?</td>
     </tr>
   </tbody>
 </table>
@@ -917,7 +917,7 @@
       <td><strong>Signing and the trust list</strong></td>
       <td>M4, M6, M7</td>
       <td>J1, J3a, J4.1</td>
-      <td>One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa’s own key signs the VHL a Taifafeki viewer checks (J4.1). Built once, for every credential.</td>
+      <td>One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa signs, with its own key, the VHL a viewer in Taifafeki checks (J4.1). Built once, for every credential.</td>
     </tr>
     <tr>
       <td><strong>Core data set and terminology</strong></td>

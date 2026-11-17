@@ -3322,7 +3322,7 @@
     {
       &quot;module&quot;: &quot;M1&quot;,
       &quot;step&quot;: &quot;J1&quot;,
-      &quot;technical&quot;: &quot;Hospital immunization record; one DVC per birth dose, signed by Taifafeki&#39;s document signer.&quot;,
+      &quot;technical&quot;: &quot;Hospital immunization record; one DVC per birth dose, signed by the document signer of Taifafeki.&quot;,
       &quot;policy&quot;: &quot;Which child, which record and which border would your country&#39;s use case cover?&quot;
     },
     {
@@ -3409,7 +3409,7 @@
     {
       &quot;module&quot;: &quot;M3&quot;,
       &quot;step&quot;: &quot;J3b&quot;,
-      &quot;technical&quot;: &quot;Terminology service: Taifafeki&#39;s product code kept, Onesa&#39;s schedule code added beside it; schedule logic over every dose.&quot;,
+      &quot;technical&quot;: &quot;Terminology service: the product code of Taifafeki kept, the schedule code of Onesa added beside it; schedule logic over every dose.&quot;,
       &quot;policy&quot;: &quot;Who owns your national core data set and the code maps to other countries, and is vaccine code licensing settled?&quot;
     },
     {
@@ -3447,7 +3447,7 @@
       &quot;module&quot;: &quot;M4&quot;,
       &quot;step&quot;: &quot;J4.1&quot;,
       &quot;kind&quot;: &quot;draws&quot;,
-      &quot;technical&quot;: &quot;Viewer verifies the VHL&#39;s HCERT against Onesa&#39;s DSC from the trust list.&quot;,
+      &quot;technical&quot;: &quot;Viewer verifies the VHL&#39;s HCERT against the DSC of Onesa from the trust list.&quot;,
       &quot;policy&quot;: &quot;Who verifies your citizens&#39; records abroad, and what may that verifier see?&quot;
     },
     {
@@ -3553,7 +3553,7 @@
           &quot;J3a&quot;,
           &quot;J4.1&quot;
         ],
-        &quot;text&quot;: &quot;One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa&#39;s own key signs the VHL a Taifafeki viewer checks (J4.1). Built once, for every credential.&quot;
+        &quot;text&quot;: &quot;One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa signs, with its own key, the VHL a viewer in Taifafeki checks (J4.1). Built once, for every credential.&quot;
       },
       {
         &quot;label&quot;: &quot;Core data set and terminology&quot;,
@@ -3833,7 +3833,7 @@
   &quot;subject&quot;: &quot;Cross-Border Digital Immunization Portability&quot;,
   &quot;scope&quot;: &quot;Taifafeki ⇄ Onesa&quot;,
   &quot;status&quot;: &quot;GDHCN DEV Trust List: XXR Active&quot;,
-  &quot;story&quot;: &quot;Somsak is born in Taifafeki, grows up in Onesa, and one year later a Taifafeki doctor can see every vaccine he has ever had — without a single record being copied across the border.&quot;,
+  &quot;story&quot;: &quot;Somsak is born in Taifafeki, grows up in Onesa, and one year later a doctor in Taifafeki can see every vaccine he has ever had — without a single record being copied across the border.&quot;,
   &quot;lede&quot;: &quot;A baby and five people around him, four moments, twelve months. Follow the people first; the technology is what makes each hand-off possible.&quot;,
   &quot;recordOf&quot;: &quot;somsak-sengmany&quot;,
   &quot;cast&quot;: [
@@ -3941,21 +3941,21 @@
     &quot;countries&quot;: [
       {
         &quot;group&quot;: &quot;id-f6321e916b0759948c0ee1d2aa09f985&quot;,
-        &quot;label&quot;: &quot;Taifafeki (Kesaro)&quot;,
+        &quot;label&quot;: &quot;Taifafeki&quot;,
         &quot;code&quot;: &quot;XXR&quot;
       },
       {
         &quot;group&quot;: &quot;id-1068df9675a55b61a72544c8fad7b1d3&quot;,
-        &quot;label&quot;: &quot;Onesa (home)&quot;,
+        &quot;label&quot;: &quot;Onesa&quot;,
         &quot;code&quot;: &quot;XXU&quot;
       }
     ],
     &quot;shared&quot;: &quot;id-8393ba34788c525da7f5c9a3b6751cc0&quot;,
     &quot;title&quot;: &quot;Architecture: two countries on one trust foundation&quot;,
-    &quot;intro&quot;: &quot;Each country builds its own stack on the layers of the reference architecture (DPI-H). Underneath both is WHO GDHCN: the shared trust list that lets an Onesan clinic believe a Taifafeki certificate, and a Taifafeki clinic believe an Onesan link, with no direct connection between the two.&quot;,
+    &quot;intro&quot;: &quot;Each country builds its own stack on the layers of the reference architecture (DPI-H). Underneath both is WHO GDHCN: the shared trust list that lets a clinic in Onesa believe a certificate from Taifafeki, and a clinic in Taifafeki believe a link from Onesa, with no direct connection between the two.&quot;,
     &quot;notes&quot;: [
       &quot;Taifafeki publishes the key it signs certificates with.&quot;,
-      &quot;Onesa caches the list, so its clinics verify Taifafeki cards offline; Taifafeki does the same for Onesan VHLs.&quot;,
+      &quot;Onesa caches the list, so its clinics verify Taifafeki cards offline; Taifafeki does the same for VHLs from Onesa.&quot;,
       &quot;Data crosses only as a signed QR the family carries, or a VHL the family shares: never system to system.&quot;
     ]
   },
@@ -4019,7 +4019,7 @@
       &quot;description&quot;: &quot;A priority use case the team chooses that is not one of the listed options.&quot;
     }
   ],
-  &quot;useCaseText&quot;: &quot;A child vaccinated in Taifafeki should be able to have every dose counted at home in Onesa, and shown back to a Taifafeki clinician a year later.&quot;,
+  &quot;useCaseText&quot;: &quot;A child vaccinated in Taifafeki should be able to have every dose counted at home in Onesa, and shown back to a clinician in Taifafeki a year later.&quot;,
   &quot;scale&quot;: {
     &quot;id&quot;: &quot;readiness&quot;,
     &quot;label&quot;: &quot;Readiness&quot;,
