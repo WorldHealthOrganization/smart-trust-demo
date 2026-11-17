@@ -1,5 +1,5 @@
 {
-  "_comment": "The policy-maker track's agenda, session by session, as the owner gave it on 2026-11-16 (Session ID and segment). Read by tools/workshop/module-pages.ts: the workshop hub shows each day in order, and each module page lists its own sessions. `kind`: registration, plenary (P), module (M, with its `module`), showcase (S) or break. No times yet.",
+  "_comment": "The policy-maker track's agenda, session by session, for a general two-day workshop (Session ID and segment); a country presentation is a slot the host fills with the host country or an invited country. Read by tools/workshop/module-pages.ts: the workshop hub shows each day in order, and each module page lists its own sessions. `kind`: registration, plenary (P), module (M, with its `module`), showcase (S) or break. No times yet.",
   "days": {
     "1": [
       {
@@ -11,7 +11,7 @@
         "id": "P1.1",
         "kind": "plenary",
         "title": "Welcome",
-        "what": "Welcome from the Government of Thailand."
+        "what": "Welcome from the host government."
       },
       {
         "id": "P1.2",
@@ -29,7 +29,7 @@
         "id": "P1.4",
         "kind": "plenary",
         "title": "Country panel",
-        "what": "Thailand (Keynote), Malaysia, Indonesia, with partner panellists (OHS, ADB, World Bank)."
+        "what": "A keynote from the host country and two or three invited countries, with partner panellists."
       },
       {
         "id": "P1.5",
@@ -58,8 +58,8 @@
       {
         "id": "M1.3",
         "kind": "module",
-        "title": "Country presentation: Thailand",
-        "what": "From the yellow card to the national application; why the registry is shared across government.",
+        "title": "Country presentation",
+        "what": "From the paper card to a national application; why the registry is shared across government.",
         "module": "M1"
       },
       {
@@ -111,8 +111,8 @@
       {
         "id": "M2.2",
         "kind": "module",
-        "title": "Country presentation: Indonesia",
-        "what": "SatuSehat and the move towards a shared platform",
+        "title": "Country presentation",
+        "what": "A national health data platform and the move towards a shared platform.",
         "module": "M2"
       },
       {
@@ -164,7 +164,7 @@
       {
         "id": "M3.2",
         "kind": "module",
-        "title": "Country presentation: Thailand",
+        "title": "Country presentation",
         "what": "A common FHIR IG used across government.",
         "module": "M3"
       },
@@ -225,8 +225,8 @@
       {
         "id": "P2.2",
         "kind": "plenary",
-        "title": "Thailand digital health showcase",
-        "what": "Thailand's national platforms and immunization journey."
+        "title": "Host country digital health showcase",
+        "what": "The host country's national platforms and immunization journey."
       },
       {
         "id": "P2.3",
@@ -238,7 +238,7 @@
         "id": "P2.4",
         "kind": "plenary",
         "title": "Framing Day 2",
-        "what": "The cross-border and travel journeys (J4, J5); what goes to 2 December."
+        "what": "The cross-border and travel journeys (J4, J5); what goes to the follow-on dialogue."
       },
       {
         "kind": "break",
@@ -254,15 +254,15 @@
       {
         "id": "M4.2",
         "kind": "module",
-        "title": "Country presentation: Malaysia",
-        "what": "GDHCN and the Hajj Health Card.",
+        "title": "Country presentation",
+        "what": "Using the GDHCN for a cross-border health card.",
         "module": "M4"
       },
       {
         "id": "M4.3",
         "kind": "module",
-        "title": "Country presentation: India",
-        "what": "DPI foundations and the DigiLocker route to a citizen-held record.",
+        "title": "Country presentation",
+        "what": "DPI foundations and a national route to a citizen-held record.",
         "module": "M4"
       },
       {
@@ -428,8 +428,8 @@
       {
         "id": "S2.3",
         "kind": "showcase",
-        "title": "Handover to 2 December",
-        "what": "How outputs feed the high-level dialogue and the Bangkok Statement."
+        "title": "Handover",
+        "what": "How outputs feed a high-level dialogue and its outcome statement."
       }
     ]
   }

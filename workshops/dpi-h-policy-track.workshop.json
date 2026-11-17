@@ -1259,6 +1259,13 @@
   },
   "resources": [
     {
+      "id": "technical-track",
+      "title": "The technical track (T1 to T7)",
+      "kind": "link",
+      "description": "The other track of the same two days, with the timetable of both tracks; each technical module is paired with one of this track's modules.",
+      "href": "../technical-track/"
+    },
+    {
       "id": "facilitator-card-j4-1",
       "title": "Facilitator card: J4.1, crossing back",
       "kind": "job-aid",
@@ -1315,7 +1322,7 @@
         "M6",
         "M7"
       ],
-      "description": "The policy-maker track's end-to-end use case narrative, updated on 16 November 2026; its slide-by-slide changelog is on the workshop page."
+      "description": "The policy-maker track's end-to-end use case narrative; its slide-by-slide changelog is on the workshop page."
     },
     {
       "id": "a3-canvas",
@@ -1441,7 +1448,7 @@
     "name": "Journeys",
     "badge": "Interactive Spec",
     "tagline": "Open Health Stack (OHS) • WHO GDHCN • Verifiable Health Links (VHL)",
-    "occasion": "WHO Pre-GDHF Vignette",
+    "occasion": "DPI-H for Health workshop",
     "subject": "Cross-Border Digital Immunization Portability",
     "scope": "Taifafeki ⇄ Onesa",
     "status": "GDHCN DEV Trust List: XXR Active",

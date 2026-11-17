@@ -200,12 +200,18 @@ msgstr "Mapa de módulos × recorridos"
 msgid "Narrative Discrepancies"
 msgstr "Discrepancias narrativas"
 
-#: sushi-config.yaml:125
-#. Navbar entry for workshop.html (sushi-config.yaml menu).
-msgid "Workshop Modules (M and T)"
-msgstr "Módulos del taller (M y T)"
-
 #: sushi-config.yaml:130
 #. Navbar entry for technical-changes.html (sushi-config.yaml menu).
 msgid "Technical Track and Demo App Changes"
 msgstr "Cambios en el itinerario técnico y en la aplicación de demostración"
+
+#: sushi-config.yaml:127
+#: sushi-config.yaml:128
+#. Navbar entry for Technical Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html (sushi-config.yaml menu).
+#. Navbar entry for Policy-Maker Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html (sushi-config.yaml menu).
+msgid "Workshop"
+msgstr ""
+
+#. Navbar entry for workshop.html (sushi-config.yaml menu).
+#~ msgid "Workshop Modules (M and T)"
+#~ msgstr "Módulos del taller (M y T)"

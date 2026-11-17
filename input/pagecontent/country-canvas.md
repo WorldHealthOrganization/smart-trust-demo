@@ -1,4 +1,4 @@
-The Country Canvas is the A3 sheet set each table of the DPI-H for Health workshop's policy-maker track fills in (Convergence Bangkok 2026, 30 November and 1 December 2026). It is a cover and Sheets 1 to 6, one country per table. It replaces the table sheets the journeys viewer drew before.
+The Country Canvas is the A3 sheet set each table of the DPI-H for Health workshop's policy-maker track fills in, over the two days of the workshop. It is a cover and Sheets 1 to 6, one country per table. It replaces the table sheets the journeys viewer drew before.
 
 **Downloads:** [Country Canvas, editable Word file (A3)](country-canvas-a3.docx) · [print-ready PDF (7 pages, A3 landscape)](country-canvas-a3.pdf)
 

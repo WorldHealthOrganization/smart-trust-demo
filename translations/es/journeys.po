@@ -771,17 +771,9 @@ msgstr "Módulos, términos y el lienzo"
 msgid "The <a0>Country Canvas</a0> is the A3 table canvas (a cover and Sheets 1 to 6) the tables fill in."
 msgstr "El <a0>Lienzo del país</a0> es el lienzo de mesa A3 (una portada y las Hojas 1 a 6) que rellenan las mesas."
 
-#: docs/journeys.md:249
-msgid "The <a0>glossary</a0> defines the terms the policy-maker track uses, each linked to the DPI-H Reference Architecture and DTH-PHC glossaries. Its <a1>terms at each step</a1> are also shown on every step of the journeys viewer."
-msgstr "El <a0>glosario</a0> define los términos que usa el itinerario para responsables de políticas, cada uno vinculado a los glosarios de la Arquitectura de referencia de DPI-H y de DTH-PHC. Sus <a1>términos de cada paso</a1> se muestran también en cada paso del visor de recorridos."
-
 #: docs/journeys.md:248
 msgid "The <a0>module × journey map</a0> shows where each workshop module (M1 to M7) meets each step above, and what is technical and what is policy at that point."
 msgstr "El <a0>mapa de módulos × recorridos</a0> muestra dónde se cruza cada módulo del taller (M1 a M7) con cada paso descrito arriba, y qué es técnico y qué es de política en ese punto."
-
-#: docs/journeys.md:247
-msgid "The <a0>workshop module pages</a0> give each policy module (M1 to M7) and each technical module (T1 to T7, placeholders for now) a page: its canvas sheet, the journey steps it meets, its questions and its terms, with a switch between the two tracks."
-msgstr "Las <a0>páginas de módulos del taller</a0> dan a cada módulo de política (M1 a M7) y a cada módulo técnico (T1 a T7, por ahora marcadores de posición) una página: su hoja del lienzo, los pasos del recorrido con los que se cruza, sus preguntas y sus términos, con un conmutador entre los dos itinerarios."
 
 #: docs/journeys.md:39
 msgid "Vaccinated and recorded"
@@ -790,6 +782,14 @@ msgstr "Vacunado y registrado"
 #: docs/journeys.md:40
 msgid "Village 04 (Khamla's village), Onesa"
 msgstr "Village 04 (la aldea de Khamla), Onesa"
+
+#: docs/journeys.md:249
+msgid "The <a0>glossary</a0> defines the terms the policy-maker track uses, each linked to the <a1>Reference Architecture (DPI-H)</a1> and DTH-PHC glossaries. Its <a2>terms at each step</a2> are also shown on every step of the journeys viewer."
+msgstr ""
+
+#: docs/journeys.md:247
+msgid "The workshop lives in the journeys viewer, beside the journeys it teaches from: the <a0>technical track</a0> (T1 to T7, with the two-day timetable of both tracks) and the <a1>policy-maker track</a1> (M1 to M7). Each module has a page there: its sessions, the journey steps it meets and its questions."
+msgstr ""
 
 #~ #, python-brace-format
 #~ msgid "Each step names the requirements of <a0>smart-trust-tools</a0> it exercises, and the FHIR examples of this guide it produces. The stories are in <a1>{code0}</a1>. Each moment ends with its pain point, what enables it, and the policy point it makes, as the VaxLink walkthrough presents them."
@@ -859,3 +859,9 @@ msgstr "Village 04 (la aldea de Khamla), Onesa"
 
 #~ msgid "Village 04, Onesa"
 #~ msgstr "Village 04, Onesa"
+
+#~ msgid "The <a0>glossary</a0> defines the terms the policy-maker track uses, each linked to the DPI-H Reference Architecture and DTH-PHC glossaries. Its <a1>terms at each step</a1> are also shown on every step of the journeys viewer."
+#~ msgstr "El <a0>glosario</a0> define los términos que usa el itinerario para responsables de políticas, cada uno vinculado a los glosarios de la Arquitectura de referencia de DPI-H y de DTH-PHC. Sus <a1>términos de cada paso</a1> se muestran también en cada paso del visor de recorridos."
+
+#~ msgid "The <a0>workshop module pages</a0> give each policy module (M1 to M7) and each technical module (T1 to T7, placeholders for now) a page: its canvas sheet, the journey steps it meets, its questions and its terms, with a switch between the two tracks."
+#~ msgstr "Las <a0>páginas de módulos del taller</a0> dan a cada módulo de política (M1 a M7) y a cada módulo técnico (T1 a T7, por ahora marcadores de posición) una página: su hoja del lienzo, los pasos del recorrido con los que se cruza, sus preguntas y sus términos, con un conmutador entre los dos itinerarios."

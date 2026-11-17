@@ -4,7 +4,7 @@ SMART Trust demonstrator (WorldHealthOrganization/smart-trust-demo), 16 November
 
 ### 1. The technical track (T1–T7): what changed
 
-**Update, 16 November 2026:** T1–T7 are no longer placeholders. They are drafted from the technical track schedule (draft for the team to confirm; names and times are proposals): each has its sessions, leads, outcomes, the journey steps it teaches from and technical questions, and T7 has the four Day 2 teams. See the [workshop modules](workshop.html) and the technical track on the [module × journey map](module-journey-map.html). The rows below record the state before that.
+**Update, 16 November 2026:** T1–T7 are no longer placeholders. They are drafted from the technical track schedule (draft for the team to confirm; names and times are proposals): each has its sessions, leads, outcomes, the journey steps it teaches from and technical questions, and T7 has the four Day 2 teams. See the [technical track in the journeys viewer](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/) and the technical track on the [module × journey map](module-journey-map.html). The rows below record the state before that.
 
 | What | Where | Status |
 |---|---|---|

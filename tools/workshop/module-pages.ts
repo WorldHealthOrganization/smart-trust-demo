@@ -1,277 +1,171 @@
 #!/usr/bin/env bun
 /**
- * The workshop's module pages on the IG (option A of the owner's choice,
- * 2026-11-16): a hub, one page per policy module (M1–M7) and one per
- * technical module (T1–T7, placeholders until written), with a switch
- * between the two tracks on every page.
+ * The workshop in the journeys viewer, and the IG pages that point there.
  *
- * | input | what it gives |
+ * A general two-day workshop in two tracks: the policy-maker track (M1–M7,
+ * `workshops/dpi-h-policy-track.workshop.json`, authored by hand) and the
+ * technical track (T1–T7). Both live in the journeys viewer's workshops
+ * section (owner, 2026-11-17), not as stand-alone IG pages. This script:
+ *
+ * | writes | from |
  * |---|---|
- * | `workshops/dpi-h-policy-track.workshop.json` | the policy modules, their sheets, the questions asked at each step, and its `matrix`: where each module meets each step, technical and policy |
- * | `workshops/technical-track.json` | the technical modules, each paired with a policy module |
- * | `workshops/country-canvas.json` | each canvas sheet's parts, minutes and preview |
- * | `workshops/glossary-use.json`, `glossary/dpi-h-policy-track.glossary.json` | the terms at each step |
- * | `scenarios/user-scenarios/*.json` | each step's title |
+ * | `workshops/technical-track.workshop.json` (the harness's `workshop/0.1.0` kind, which the viewer draws at `…/journeys/smart-trust-demo/workshops/technical-track/`) | `technical-track.json` (modules, sessions, outcomes, steps, teams), `schedule.json` and `policy-agenda.json` (the two-day timetable, both tracks), `materials.json` (resources), and the policy workshop (the step → journey map, the M modules' titles) |
+ * | `input/pagecontent/workshop.md`, `workshop-m<n>.md`, `workshop-t<n>.md` | short stubs that keep the old IG URLs working and link to the workshop's new home in the viewer (the IG's content gate refuses a meta refresh, so a stub links rather than redirects) |
  *
- * The pages are HTML blocks with one shared stylesheet (`ws-` classes, the
- * WHO SMART IG theme's navy and the site's teal), so they read like the
- * mockup the owner chose rather than as markdown tables. No script: the IG's
- * content gate refuses it, and the pages need none.
- *
- * Writes `input/pagecontent/workshop.md`, `workshop-m<n>.md` and
- * `workshop-t<n>.md`. `--check` fails if any is stale.
+ * Nothing names a person, a date or a venue: leads are roles, times are a
+ * suggested timetable a host adapts. `--check` fails if any output is stale.
  */
-import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 
 const read = (p: string) => JSON.parse(readFileSync(p, "utf8"));
 const ws = read("workshops/dpi-h-policy-track.workshop.json");
 const tech = read("workshops/technical-track.json");
-/** The policy-maker track's agenda, session by session (workshops/policy-agenda.json): the calendar lists each module's sessions and the joint plenary (P) and showcase (S) sessions; a module page lists its own. */
 const agenda: { days: Record<string, AgendaItem[]> } = read("workshops/policy-agenda.json");
-const canvas = read("workshops/country-canvas.json");
-const map = ws.matrix;
-const use = read("workshops/glossary-use.json");
-const glossary = read("glossary/dpi-h-policy-track.glossary.json");
 const schedule: { days: { day: number; shared: { time: string; end: string; kind: string; title: string; note?: string }[]; policy: { time: string; end: string; module: string }[] }[] } = read("workshops/schedule.json");
 const materials: { title: string; kind: string; href: string; what: string; also?: { label: string; href: string }[] }[] = read("workshops/materials.json").materials;
 
-type Mod = { id: string; title: string; day?: number; carries?: string; sheet?: string };
-type TSession = { time: string; end: string; minutes: number; type: string; title: string; leads: string[]; supports: string[]; what: string; confirm?: string };
+type Mod = { id: string; title: string; day?: number; carries?: string };
+type TSession = { time: string; end: string; minutes: number; type: string; title: string; leads: string[]; supports: string[]; what: string };
 type TStep = { step: string; technical: string; question: string };
 type TTeam = { name: string; device: string; what: string; steps: string[] };
 type AgendaItem = { id?: string; kind: "registration" | "plenary" | "module" | "showcase" | "break"; title: string; what?: string; module?: string };
-type TMod = { id: string; pairedWith: string; day: number; title: string; carries?: string; status: string; sessions?: TSession[]; outcomes?: string[]; steps?: TStep[]; teams?: TTeam[] };
+type TMod = { id: string; pairedWith: string; day: number; title: string; carries?: string; sessions?: TSession[]; outcomes?: string[]; steps?: TStep[]; teams?: TTeam[] };
 const mods: Mod[] = ws.modules;
 const tmods: TMod[] = tech.modules;
-const sheets = new Map<string, any>(canvas.sheets.map((s: any) => [s.id, s]));
-const terms = new Map<string, any>(glossary.terms.map((t: any) => [t.id, t]));
-const steps: { scenario: string; step: string; questions?: { module: string; text: string }[] }[] = ws.steps;
 
-const stepTitle = new Map<string, string>();
-for (const f of readdirSync("scenarios/user-scenarios")) {
-  const s = read(`scenarios/user-scenarios/${f}`);
-  for (const st of s.steps ?? []) if (st.id && st.title) stepTitle.set(st.id, st.title);
-}
-const VIEWER = "en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/";
-const DAYS: Record<number, string> = { 1: "Day 1 · 30 November", 2: "Day 2 · 1 December" };
+/** The published site, for the IG pages a viewer resource links to (as the policy workshop's own resources do). */
+const SITE = "https://worldhealthorganization.github.io/smart-trust-demo/";
+/** The viewer's workshops section, from an IG page at the site root. */
+const WORKSHOPS = "en/smart-trust-demo/journeys/smart-trust-demo/workshops/";
+const TECH_ID = "technical-track";
+const seg = (id: string) => id.toLowerCase();
+
+/** Each step id the workshops teach from, and its journey (scenario), from the policy workshop. */
+const scenarioOf = new Map<string, string>((ws.steps as { scenario: string; step: string }[]).map((s) => [s.step, s.scenario]));
 
 const errors: string[] = [];
-for (const t of tmods) if (!mods.some((m) => m.id === t.pairedWith)) errors.push(`technical-track.json: ${t.id} pairs with no module ${t.pairedWith}`);
-for (const m of mods) if (m.sheet && !sheets.has(m.sheet)) errors.push(`country-canvas.json: no ${m.sheet} for ${m.id}`);
+for (const t of tmods) {
+  if (!mods.some((m) => m.id === t.pairedWith)) errors.push(`technical-track.json: ${t.id} pairs with no module ${t.pairedWith}`);
+  for (const s of [...(t.steps ?? []).map((x) => x.step), ...(t.teams ?? []).flatMap((x) => x.steps)]) if (!scenarioOf.has(s)) errors.push(`technical-track.json: ${t.id} names step ${s}, which the policy workshop does not teach`);
+}
 if (errors.length) (console.error(errors.join("\n")), process.exit(1));
 
-const e = (s: string) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-/** Escaped text with "reference architecture (DPI-H)" linked to its definition in the glossary; never inside another link. */
-const eRA = (s: string) => e(s).replace(/reference architecture \(DPI-H\)/gi, (m) => `<a href="glossary.html#term-reference-architecture">${m}</a>`);
-const page = (id: string) => `workshop-${id.toLowerCase()}.html`;
-const stepHref = (s: string) => `${VIEWER}walkthrough/${s}/`;
-const stepChip = (s: string, cls = "") => `<a class="ws-step${cls}" href="${e(stepHref(s))}">${e(s)}</a>`;
-const cellsOf = (m: string) => (map.cells as any[]).filter((c) => c.module === m);
-const termsAt = (stepIds: string[]) => [...new Set(stepIds.flatMap((s) => use.steps[s] ?? []))].filter((id) => terms.has(id));
-const termChips = (ids: string[]) =>
-  `<div class="ws-terms">${ids
-    .map((id) => {
-      const t = terms.get(id);
-      return `<a href="glossary.html#term-${e(id)}" title="${e(t.definition ?? "")}">${e(t.prefLabel)}</a>`;
-    })
-    .join("")}</div>`;
-const HEAD = (src: string) => `<!-- Generated by tools/workshop/module-pages.ts from ${src}. Do not edit by hand. -->\n`;
+const policyHref = (fromWorkshop: string, m: string) => `${fromWorkshop}../${ws.id}/${seg(m)}/`;
+const mdEsc = (s: string) => s.replace(/\|/g, "\\|");
 
-const CSS = `<style>
-.ws{--ws-navy:#2f3f6b;--ws-ink:#1b2a3a;--ws-muted:#5b6b74;--ws-line:#d5dee4;--ws-soft:#f3f6f8;--ws-teal:#0b6e79;--ws-teal-soft:#e2f1f2;--ws-tech:#24508f;--ws-pol:#9a5b00;--ws-amber:#fdf0d9;font-size:15px;line-height:1.5;color:var(--ws-ink);max-width:1100px}
-.ws a{color:var(--ws-teal)}
-.ws-bar{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;margin:0 0 18px}
-.ws-switch{display:inline-flex;padding:4px;border-radius:10px;background:var(--ws-soft);border:1px solid var(--ws-line)}
-.ws-switch a,.ws-switch span{padding:7px 14px;border-radius:7px;font-weight:600;font-size:14px;text-decoration:none;color:var(--ws-ink)}
-.ws-switch .on{background:var(--ws-navy);color:#fff}
-.ws-strip{display:flex;flex-direction:column;gap:6px;font-size:13px}
-.ws-strip div{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
-.ws-strip b{min-width:92px;color:var(--ws-muted);font-weight:600}
-.ws-strip i{font-style:normal;color:var(--ws-muted);margin:0 2px 0 8px}
-.ws-strip a,.ws-strip span{display:inline-block;min-width:34px;text-align:center;padding:3px 8px;border-radius:6px;border:1px solid var(--ws-line);text-decoration:none;font-weight:600;color:var(--ws-ink);background:#fff}
-.ws-strip .on{background:var(--ws-teal);border-color:var(--ws-teal);color:#fff}
-.ws-head{border-top:1px solid var(--ws-line);padding:18px 0 4px}
-.ws-kicker{display:block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ws-teal)}
-.ws-head h2{margin:4px 0 6px;font-size:28px;line-height:1.15;color:var(--ws-navy);border:0}
-.ws-carries{margin:0;font-size:17px;font-style:italic;color:#3d4e57}
-.ws-badge{display:inline-block;margin-left:8px;padding:2px 9px;border-radius:99px;background:var(--ws-amber);color:var(--ws-pol);font-size:12px;font-weight:700;letter-spacing:.04em;vertical-align:middle;text-transform:uppercase}
-.ws h3{font-size:19px;color:var(--ws-navy);margin:28px 0 10px;border:0}
-.ws-note{background:var(--ws-amber);border-radius:10px;padding:12px 16px;margin:14px 0}
-.ws-canvas{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px;align-items:start;background:#fff;border:1px solid var(--ws-line);border-radius:12px;padding:16px}
-@media (max-width:760px){.ws-canvas{grid-template-columns:1fr}}
-.ws-canvas img{width:100%;border:1px solid var(--ws-line);border-radius:8px;display:block}
-.ws-canvas h3{margin:0 0 8px}
-.ws-parts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
-.ws-parts li{padding:10px 12px;border-radius:8px;background:var(--ws-soft)}
-.ws-parts b{display:block}
-.ws-min{float:right;font-size:12px;font-weight:700;color:var(--ws-teal)}
-.ws-links{margin:12px 0 0;font-size:14px;display:flex;flex-wrap:wrap;gap:14px}
-.ws-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
-.ws-card{background:#fff;border:1px solid var(--ws-line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px}
-.ws-card p{margin:0}
-.ws-card>b{line-height:1.3}
-.ws-step{display:inline-block;align-self:flex-start;padding:2px 8px;border-radius:6px;background:var(--ws-navy);color:#fff!important;font-weight:700;font-size:13px;text-decoration:none}
-.ws-step.draws{background:#fff;color:var(--ws-navy)!important;border:1px solid var(--ws-navy)}
-.ws-t,.ws-p{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-right:6px}
-.ws-t{color:var(--ws-tech)}.ws-p{color:var(--ws-pol)}
-.ws-also{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0 0;font-size:14px;color:var(--ws-muted)}
-.ws-qs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
-.ws-qs li{display:flex;gap:10px;align-items:flex-start}
-.ws-terms{display:flex;flex-wrap:wrap;gap:8px}
-.ws-terms a{padding:5px 11px;border-radius:99px;border:1px solid var(--ws-line);background:#fff;text-decoration:none;color:var(--ws-ink);font-size:14px}
-.ws-terms a:hover{border-color:var(--ws-teal)}
-.ws-more{margin:28px 0 0;padding-top:14px;border-top:1px solid var(--ws-line);font-size:14px;display:flex;flex-wrap:wrap;gap:16px}
-.ws-day{margin:22px 0 10px;font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ws-muted)}
-.ws-mod{text-decoration:none;color:var(--ws-ink)!important}
-.ws-mod:hover{border-color:var(--ws-teal)}
-.ws-mod-h{display:flex;justify-content:space-between;align-items:center}
-.ws-id{font-size:22px;font-weight:800;color:var(--ws-teal)}
-.ws-sheet{font-size:12px;font-weight:700;padding:3px 8px;border-radius:99px;background:var(--ws-teal-soft);color:var(--ws-teal)}
-.ws-mod .ws-steps{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto}
-.ws-mod .ws-steps span{font-size:12px;font-weight:700;padding:2px 7px;border-radius:5px;background:var(--ws-navy);color:#fff}
-.ws-mod.ph{background:var(--ws-soft);border-style:dashed}\n.ws-cal-wrap{overflow-x:auto;margin:0 0 8px}\n.ws-cal{display:grid;grid-template-columns:64px minmax(260px,1fr) minmax(260px,1fr);gap:4px;min-width:620px}\n.ws-cal-h{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ws-muted);padding:4px 6px}\n.ws-cal-t{font-size:12px;font-variant-numeric:tabular-nums;color:var(--ws-muted);padding:6px 4px;border-top:1px solid var(--ws-line)}\n.ws-cal-i{border-radius:8px;padding:6px 10px;display:flex;flex-direction:column;gap:2px;font-size:13px;line-height:1.35;border:1px solid var(--ws-line);background:#fff}\n.ws-cal-i a{text-decoration:none;color:inherit!important;display:flex;flex-direction:column;gap:2px}\n.ws-cal-i a:hover b{text-decoration:underline}\n.ws-cal-i small{color:var(--ws-muted)}\n.ws-cal-time{font-size:11px;font-variant-numeric:tabular-nums;color:var(--ws-muted)}\n.ws-cal-tag{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}\n.k-joint{background:var(--ws-navy);border-color:var(--ws-navy);color:#fff}\n.k-joint small,.k-joint .ws-cal-time{color:#dfe6f2}\n.k-break{background:var(--ws-soft);border-style:dashed;color:var(--ws-muted)}\n.k-logistics{background:var(--ws-soft);color:var(--ws-muted)}\n.k-policy{background:var(--ws-amber);border-color:#f1d7a6}\n.k-policy .ws-cal-tag{color:var(--ws-pol)}\n.k-tech{background:#e7eef9;border-color:#c9d8ef}\n.k-tech .ws-cal-tag{color:var(--ws-tech)}\n.ws-q{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-right:6px;color:var(--ws-teal)}\n.ws-who{font-size:14px;color:var(--ws-muted)}\n.ws-confirm{font-size:13px;color:var(--ws-pol);background:var(--ws-amber);border-radius:6px;padding:4px 8px;align-self:flex-start}\n.ws-muted{color:var(--ws-muted);font-size:14px}\n.ws-daysum{text-transform:none;letter-spacing:0;font-weight:400}\n.ws-cal-s{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:1px;font-size:12px}\n.ws-cal-s span{font:700 11px/16px ui-monospace,monospace;opacity:.8;margin-right:4px}\n.ws-cal-s a{display:inline;color:inherit!important;text-decoration:underline}\n.ws-sessions{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}\n.ws-sessions li{display:grid;grid-template-columns:52px 1fr;column-gap:8px;font-size:14px}\n.ws-sessions li>span:last-child{grid-column:2;color:var(--ws-muted)}\n.ws-sid{font:700 12px/20px ui-monospace,monospace;color:var(--ws-teal)}
-</style>`;
-
-/** The Policy | Technical switch, and both tracks by day, the current module marked. */
-function bar(current: string): string {
-  const isT = current.startsWith("T");
-  const pairOf = isT ? tmods.find((t) => t.id === current)!.pairedWith : tmods.find((t) => t.pairedWith === current)?.id;
-  const sw =
-    current === "hub"
-      ? `<nav class="ws-switch" aria-label="Track"><a class="on" href="#policy-track">Policy track · M</a><a href="#technical-track">Technical track · T</a></nav>`
-      : `<nav class="ws-switch" aria-label="Track">${isT ? `<a href="${page(pairOf!)}">Policy · ${pairOf}</a><span class="on">Technical · ${current}</span>` : `<span class="on">Policy · ${current}</span>${pairOf ? `<a href="${page(pairOf)}">Technical · ${pairOf}</a>` : ""}`}</nav>`;
-  const row = (label: string, list: { id: string; day?: number }[]) =>
-    `<div><b>${label}</b>${[1, 2]
-      .map((d) => `<i>Day ${d}</i>${list.filter((m) => m.day === d).map((m) => (m.id === current ? `<span class="on">${m.id}</span>` : `<a href="${page(m.id)}">${m.id}</a>`)).join("")}`)
-      .join("")}</div>`;
-  return `<div class="ws-bar">${sw}<div class="ws-strip">${row("Policy", mods)}${row("Technical", tmods)}</div></div>`;
-}
-const more = (links: [string, string][]) => `<p class="ws-more">${links.map(([l, h]) => `<a href="${e(h)}">${e(l)}</a>`).join("")}</p>`;
-
-/** The two days as a calendar: time down the side, the policy and technical tracks side by side, shared rows (joint sessions, breaks, logistics) across both. */
-function calendar(): string {
-  const calSessions = (xs: AgendaItem[]) => (xs.length ? `<ol class="ws-cal-s">${xs.map((x) => `<li title="${e(x.what ?? "")}"><span>${e(x.id ?? "")}</span> ${eRA(x.title)}</li>`).join("")}</ol>` : "");
+// ── the two days, both tracks, as the technical workshop's description ──
+function timetable(): string {
   const out: string[] = [];
   for (const d of schedule.days) {
-    type Item = { time: string; end: string; col: "both" | "policy" | "tech"; kind: string; html: string };
-    const items: Item[] = [];
-    for (const x of d.shared) items.push({ time: x.time, end: x.end, col: "both", kind: x.kind, html: `<b>${e(x.title)}</b>${x.note ? `<small>${e(x.note)}</small>` : ""}` });
-    // The joint slots: the morning one carries the day's plenary (P) sessions, the closing one its showcase (S) sessions.
+    type Row = { time: string; end: string; order: number; text: string };
+    const rows: Row[] = [];
+    for (const x of d.shared) rows.push({ time: x.time, end: x.end, order: 0, text: `${x.title}${x.note ? ` (${x.note})` : ""}` });
     const dayItems = agenda.days[String(d.day)] ?? [];
     for (const j of (tech.joint ?? []).filter((x: any) => x.day === d.day)) {
       const kind = j.time < "12:00" ? "plenary" : "showcase";
-      items.push({ time: j.time, end: j.end, col: "both", kind: "joint", html: `<span class="ws-cal-tag">Joint · both tracks · ${kind === "plenary" ? "plenary" : "showcase"}</span><b>${e(j.title)}</b><small>${e(j.leads)}${j.confirm ? ` · ${e(j.confirm)}` : ""}</small>${calSessions(dayItems.filter((x) => x.kind === kind))}` });
+      const ses = dayItems.filter((x) => x.kind === kind).map((x) => `${x.id} ${x.title}`).join("; ");
+      rows.push({ time: j.time, end: j.end, order: 0, text: `**Joint, both tracks:** ${j.title} (${j.leads})${ses ? `. ${ses}` : ""}` });
     }
     for (const p of d.policy) {
       const m = mods.find((x) => x.id === p.module)!;
-      const sh = sheets.get(m.sheet!);
-      items.push({ time: p.time, end: p.end, col: "policy", kind: "policy", html: `<a href="${page(m.id)}"><span class="ws-cal-tag">${m.id}${sh ? ` · Sheet ${sh.n}` : ""}</span><b>${e(m.title)}</b></a><small>Time proposed</small>${calSessions(agenda.days[String(d.day)]?.filter((x) => x.module === m.id) ?? [])}` });
+      rows.push({ time: p.time, end: p.end, order: 1, text: `**Policy track, [${m.id}](${policyHref("", m.id)}):** ${m.title}` });
     }
     for (const t of tmods.filter((x) => x.day === d.day))
-      for (const x of t.sessions ?? []) items.push({ time: x.time, end: x.end, col: "tech", kind: "tech", html: `<a href="${page(t.id)}"><span class="ws-cal-tag">${t.id} · ${e(x.type)}</span><b>${e(x.title)}</b></a><small>${e(x.leads.join(", "))}${x.confirm ? ` · ${e(x.confirm)}` : ""}</small>` });
-    const marks = [...new Set(items.flatMap((i) => [i.time, i.end]))].sort();
-    const row = (t: string) => marks.indexOf(t) + 2;
-    const cells: string[] = [`<div class="ws-cal-h" style="grid-column:1">Time</div><div class="ws-cal-h" style="grid-column:2">Policy track</div><div class="ws-cal-h" style="grid-column:3">Technical track</div>`];
-    marks.slice(0, -1).forEach((t, i) => cells.push(`<div class="ws-cal-t" style="grid-row:${i + 2};grid-column:1">${t}</div>`));
-    for (const i of items) {
-      const col = i.col === "both" ? "2 / 4" : i.col === "policy" ? "2" : "3";
-      cells.push(`<div class="ws-cal-i k-${i.kind}" style="grid-row:${row(i.time)} / ${row(i.end)};grid-column:${col}"><span class="ws-cal-time">${i.time}–${i.end}</span>${i.html}</div>`);
-    }
-    out.push(`<p class="ws-day">${DAYS[d.day]}</p><div class="ws-cal-wrap"><div class="ws-cal" style="grid-template-rows:auto repeat(${marks.length - 1}, minmax(34px, auto))">${cells.join("")}</div></div>`);
+      for (const x of t.sessions ?? []) rows.push({ time: x.time, end: x.end, order: 2, text: `**Technical track, [${t.id}](${seg(t.id)}/):** ${x.title} (${x.type.toLowerCase()})` });
+    rows.sort((a, b) => a.time.localeCompare(b.time) || a.order - b.order);
+    const sum = tech.days?.[d.day]?.summary;
+    out.push(`### Day ${d.day}\n\n${sum ? `${sum}\n\n` : ""}| Time | Session |\n|---|---|\n${rows.map((r) => `| ${r.time}–${r.end} | ${mdEsc(r.text)} |`).join("\n")}`);
   }
-  return `<h3 id="two-days">The two days</h3><p>Policy and technical tracks side by side; joint sessions, breaks and logistics run across both. The technical and joint times are the draft technical schedule's; the policy modules' times are proposed, to confirm with the policy track.</p>${out.join("")}`;
+  return out.join("\n\n");
 }
+
+const description = [
+  `The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family. It runs beside the [policy-maker track](../${ws.id}/) (M1 to M7): each technical module serves the policy module it is paired with, and both tracks meet in joint sessions each morning and at the close of each day.`,
+  `${tech.promise}`,
+  `## The two days\n\nA suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.\n\n${timetable()}`,
+  tech.prepare?.length ? `## Before you run it\n\n${tech.prepare.map((x: string) => `- ${x}`).join("\n")}` : "",
+]
+  .filter(Boolean)
+  .join("\n\n");
+
+/** A technical module's page text: its pair, its sessions, where it meets the journey, and (T7) the teams. */
+function moduleDescription(t: TMod): string {
+  const m = mods.find((x) => x.id === t.pairedWith)!;
+  const parts: string[] = [`Day ${t.day}. Serves the policy module [${m.id} ${m.title}](${policyHref("../", m.id)}).`];
+  if (t.sessions?.length)
+    parts.push(
+      `### Sessions\n\n${t.sessions
+        .map((x) => `- **${x.time}–${x.end} · ${x.type} · ${x.title}** (${x.minutes} min). ${x.what} *Leads:* ${x.leads.join(", ")}${x.supports.length ? `; *supports:* ${x.supports.join(", ")}` : ""}.`)
+        .join("\n")}`,
+    );
+  if (t.steps?.length) parts.push(`### Where it meets the journey\n\n${t.steps.map((x) => `- **${x.step}**: ${x.technical}`).join("\n")}`);
+  if (t.teams?.length) parts.push(`### The four teams\n\n${t.teams.map((x) => `- **${x.name}** (${x.device}): ${x.what} Steps ${x.steps.join(", ")}.`).join("\n")}`);
+  return parts.join("\n\n");
+}
+
+const stepsOut: { scenario: string; step: string; questions: { module: string; text: string }[] }[] = [];
+for (const s of ws.steps as { scenario: string; step: string }[]) {
+  const qs = tmods.flatMap((t) => (t.steps ?? []).filter((x) => x.step === s.step && x.question).map((x) => ({ module: t.id, text: x.question })));
+  if (qs.length) stepsOut.push({ scenario: s.scenario, step: s.step, questions: qs });
+}
+
+const kindOf = (k: string) => (/slides/i.test(k) ? "slides" : /sheet|canvas/i.test(k) ? "template" : "handout");
+const abs = (h: string) => (/^[a-z][a-z0-9+.-]*:/i.test(h) ? h : `${SITE}${h}`);
+const workshop = {
+  $schema: "workshop/0.1.0",
+  id: TECH_ID,
+  title: "Verifiable immunization records across borders: the technical track",
+  description,
+  audience: "Developers, implementers and digital health architects, working in teams on one app of the journey each",
+  promise: tech.promise,
+  scenarios: ws.scenarios,
+  modules: tmods.map((t) => {
+    const minutes = (t.sessions ?? []).reduce((n, x) => n + x.minutes, 0);
+    return {
+      id: t.id,
+      title: t.title,
+      day: t.day,
+      ...(t.carries ? { carries: t.carries } : {}),
+      description: moduleDescription(t),
+      ...(t.outcomes?.length ? { objectives: t.outcomes } : {}),
+      ...(minutes ? { durationMinutes: minutes } : {}),
+    };
+  }),
+  steps: stepsOut,
+  matrix: {
+    intro: "Where each technical module meets each journey step, and what the system does there.",
+    cells: tmods.flatMap((t) => (t.steps ?? []).map((x) => ({ module: t.id, step: x.step, technical: x.technical }))),
+  },
+  resources: [
+    { id: "policy-track", title: "The policy-maker track (M1 to M7)", kind: "link", description: "The other track of the same two days; each technical module is paired with one of its modules.", href: `../${ws.id}/` },
+    ...materials.map((x, i) => ({
+      id: `material-${i + 1}`,
+      title: x.title,
+      kind: kindOf(x.kind),
+      description: `${x.what}${x.also?.length ? ` Also: ${x.also.map((a) => `${a.label} (${abs(a.href)})`).join("; ")}.` : ""}`,
+      href: abs(x.href),
+    })),
+    { id: "module-journey-map", title: "Module × journey map", kind: "reading", description: "Where each module of both tracks meets each journey step, technical and policy.", href: `${SITE}module-journey-map.html` },
+  ],
+};
 
 const files: Record<string, string> = {};
+files[`workshops/${TECH_ID}.workshop.json`] = JSON.stringify(workshop, null, 2) + "\n";
 
-// ── the hub ─────────────────────────────────────────────────────────────
-{
-  const H: string[] = [];
-  H.push(`<div class="ws">`, bar("hub"));
-  H.push(`<header class="ws-head"><span class="ws-kicker">DPI-H for Health workshop · Convergence Bangkok 2026</span><h2>Two tracks, seven modules each, one journey</h2><p class="ws-carries">Each policy module asks one question of the journey and fills one sheet of the Country Canvas. Each technical module is paired with the policy module of the same number.</p></header>`);
-  H.push(calendar());
-  H.push(`<h3 id="policy-track">Policy track</h3>`);
-  for (const d of [1, 2]) {
-    H.push(`<p class="ws-day">${DAYS[d]}</p><div class="ws-cards">`);
-    for (const m of mods.filter((x) => x.day === d)) {
-      const sh = sheets.get(m.sheet!);
-      const asked = cellsOf(m.id).filter((c) => c.kind !== "draws").map((c) => c.step);
-      H.push(`<a class="ws-card ws-mod" href="${page(m.id)}"><span class="ws-mod-h"><span class="ws-id">${m.id}</span>${sh ? `<span class="ws-sheet">Sheet ${sh.n}</span>` : ""}</span><b>${e(m.title)}</b><span>${e(m.carries ?? "")}</span><span class="ws-steps">${asked.map((s) => `<span>${e(s)}</span>`).join("")}</span></a>`);
-    }
-    H.push(`</div>`);
-  }
-  H.push(`<h3 id="technical-track">Technical track${tech.status ? ` <span class="ws-badge">Draft</span>` : ""}</h3><p>${e(tech.promise ?? "")} ${e(tech.status ?? "")}</p>`);
-  for (const d of [1, 2]) {
-    H.push(`<p class="ws-day">${DAYS[d]}${tech.days?.[d]?.summary ? ` · <span class="ws-daysum">${e(tech.days[d].summary)}</span>` : ""}</p><div class="ws-cards">`);
-    for (const t of tmods.filter((x) => x.day === d)) {
-      const first = t.sessions?.[0], last = t.sessions?.[t.sessions.length - 1];
-      H.push(`<a class="ws-card ws-mod${t.status === "placeholder" ? " ph" : ""}" href="${page(t.id)}"><span class="ws-mod-h"><span class="ws-id">${t.id}</span><span class="ws-sheet">${first ? `${e(first.time)}–${e(last!.end)}` : `with ${t.pairedWith}`}</span></span><b>${e(t.title)}</b><span>${t.status === "placeholder" ? "To be written" : e(t.carries ?? "")}</span><span class="ws-steps">${(t.steps ?? []).map((x) => `<span>${e(x.step)}</span>`).join("")}</span></a>`);
-    }
-    H.push(`</div>`);
-  }
-  if (tech.toConfirm?.length) H.push(`<h3>Still to confirm</h3><ul>${tech.toConfirm.map((x: string) => `<li>${e(x)}</li>`).join("")}</ul>`);
-  if (materials.length) H.push(`<h3 id="materials">Workshop materials</h3><div class="ws-cards">${materials
-    .map((x) => `<div class="ws-card"><span class="ws-mod-h"><span class="ws-sheet">${e(x.kind)}</span></span><b><a href="${e(x.href)}">${e(x.title)}</a></b><p>${e(x.what)}</p>${x.also?.length ? `<p class="ws-links">${x.also.map((a) => `<a href="${e(a.href)}">${e(a.label)}</a>`).join("")}</p>` : ""}</div>`)
-    .join("")}</div>`);
-  H.push(more([["Module × journey map", "module-journey-map.html"], ["Country Canvas", "country-canvas.html"], ["Glossary", "glossary.html"], ["Journeys viewer", `${VIEWER}overview/`]]), `</div>`);
-  files["input/pagecontent/workshop.md"] = HEAD("workshops/ (the workshop, the technical track, the canvas, the module map)") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
-}
-
-// ── a policy module ─────────────────────────────────────────────────────
-for (const m of mods) {
-  const n = m.id.slice(1);
-  const sh = sheets.get(m.sheet!)!;
-  const parts = sh.parts.filter((p: any) => p.module === m.id);
-  const shared = [...new Set(sh.parts.filter((p: any) => p.module !== m.id).map((p: any) => p.module))];
-  const cs = cellsOf(m.id);
-  const asked = cs.filter((c) => c.kind !== "draws");
-  const draws = cs.filter((c) => c.kind === "draws");
-  const qs = steps.flatMap((s) => (s.questions ?? []).filter((q) => q.module === m.id).map((q) => ({ step: s.step, text: q.text })));
-  const H: string[] = [`<div class="ws">`, bar(m.id)];
-  H.push(`<header class="ws-head"><span class="ws-kicker">Day ${m.day} · Module ${n} · fills Sheet ${sh.n}${shared.length ? ` (with ${shared.join(", ")})` : ""}</span><h2>${eRA(m.title)}</h2>${m.carries ? `<p class="ws-carries">${e(m.carries)}</p>` : ""}</header>`);
-  const mine = Object.values(agenda.days).flat().filter((x) => x.module === m.id);
-  if (mine.length) H.push(`<h3>Sessions</h3><ol class="ws-sessions">${mine.map((x) => `<li><span class="ws-sid">${e(x.id ?? "")}</span><b>${eRA(x.title)}</b>${x.what ? ` <span>${eRA(x.what)}</span>` : ""}</li>`).join("")}</ol>`);
-  H.push(`<h3>On the canvas</h3><section class="ws-canvas"><img src="${e(sh.preview)}" alt="Country Canvas Sheet ${sh.n}: ${e(sh.title)}"/><div><h3>Sheet ${sh.n} · ${e(sh.title)}</h3><ol class="ws-parts">${parts
-    .map((p: any) => `<li>${p.minutes ? `<span class="ws-min">${p.minutes} min</span>` : ""}<b>${e(p.title)}</b>${eRA(p.what)}</li>`)
-    .join("")}</ol><p class="ws-links"><a href="country-canvas.html">The whole canvas</a><a href="${e(canvas.docx)}">Word file (A3)</a><a href="${e(canvas.pdf)}">PDF</a></p></div></section>`);
-  H.push(`<h3>Where it meets the journey</h3><div class="ws-cards">${asked
-    .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">What the system does</span>${e(c.technical)}</p><p><span class="ws-p">Policy question</span>${e(c.policy)}</p></div>`)
-    .join("")}</div>`);
-  if (draws.length) H.push(`<p class="ws-also">Also draws on ${draws.map((c: any) => `<span title="${e(c.policy)}">${stepChip(c.step, " draws")}</span>`).join("")}</p>`);
-  if (qs.length) H.push(`<h3>Questions for the table</h3><ul class="ws-qs">${qs.map((q) => `<li>${stepChip(q.step)}<span>${e(q.text)}</span></li>`).join("")}</ul>`);
-  const tl = termsAt(asked.map((c) => c.step));
-  if (tl.length) H.push(`<h3>Terms you will hear</h3>${termChips(tl)}`);
-  H.push(more([[`${m.id} in the journeys viewer`, `${VIEWER}${m.id.toLowerCase()}/`], ["Discussion", `${VIEWER}discuss/`], ["Module × journey map", "module-journey-map.html"], ["All modules", "workshop.html"]]), `</div>`);
-  files[`input/pagecontent/workshop-${m.id.toLowerCase()}.md`] = HEAD("workshops/dpi-h-policy-track.workshop.json (its matrix too), country-canvas.json and glossary-use.json") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
-}
-
-// ── a technical module ──────────────────────────────────────────────────
-const people = (xs: string[]) => xs.map(e).join(", ");
-for (const t of tmods) {
-  const m = mods.find((x) => x.id === t.pairedWith)!;
-  const ph = t.status === "placeholder";
-  const H: string[] = [`<div class="ws">`, bar(t.id)];
-  const first = t.sessions?.[0], last = t.sessions?.[t.sessions.length - 1];
-  H.push(`<header class="ws-head"><span class="ws-kicker">Day ${t.day}${first ? ` · ${e(first.time)}–${e(last!.end)}` : ""} · Technical module ${t.id.slice(1)} · serves ${m.id}</span><h2>${e(t.title)}${ph ? `<span class="ws-badge">Placeholder</span>` : t.status === "draft" ? `<span class="ws-badge">Draft</span>` : ""}</h2>${t.carries ? `<p class="ws-carries">${e(t.carries)}</p>` : ""}</header>`);
-  if (ph) H.push(`<p class="ws-note"><b>Not written yet.</b> Until it is, this page shows what its paired policy module, <a href="${page(m.id)}">${m.id} ${e(m.title)}</a>, asks of the technical side, as starting material.</p>`);
-  if (t.sessions?.length) {
-    H.push(`<h3>Sessions</h3><div class="ws-cards">${t.sessions
-      .map((x) => `<div class="ws-card"><span class="ws-mod-h"><span class="ws-step">${e(x.type)}</span><span class="ws-sheet">${e(x.time)}–${e(x.end)} · ${x.minutes} min</span></span><b>${e(x.title)}</b><p>${e(x.what)}</p><p class="ws-who"><span class="ws-t">Leads</span>${people(x.leads)}${x.supports.length ? ` · <span class="ws-t">Supports</span>${people(x.supports)}` : ""}</p>${x.confirm ? `<p class="ws-confirm">${e(x.confirm)}</p>` : ""}</div>`)
-      .join("")}</div>`);
-  }
-  if (t.outcomes?.length) H.push(`<h3>By the end you can</h3><ul>${t.outcomes.map((o) => `<li>${e(o)}</li>`).join("")}</ul>`);
-  const tsteps = t.steps?.length ? t.steps : cellsOf(m.id).filter((c) => c.kind !== "draws").map((c) => ({ step: c.step, technical: c.technical, question: "" }));
-  H.push(`<h3>Where it meets the journey</h3><div class="ws-cards">${tsteps
-    .map((c) => `<div class="ws-card">${stepChip(c.step)}<b>${e(stepTitle.get(c.step) ?? "")}</b><p><span class="ws-t">What the system does</span>${e(c.technical)}</p>${c.question ? `<p><span class="ws-q">Technical question</span>${e(c.question)}</p>` : ""}</div>`)
-    .join("")}</div>`);
-  const qs = tsteps.filter((c) => c.question);
-  if (qs.length) H.push(`<h3>Technical questions for the room</h3><ul class="ws-qs">${qs.map((q) => `<li>${stepChip(q.step)}<span>${e(q.question)}</span></li>`).join("")}</ul>`);
-  if (t.teams?.length) H.push(`<h3>The four teams</h3><div class="ws-cards">${t.teams.map((x) => `<div class="ws-card"><b>${e(x.name)}</b><span class="ws-muted">${e(x.device)}</span><p>${e(x.what)}</p><span class="ws-steps-inline">${x.steps.map((st) => stepChip(st)).join(" ")}</span></div>`).join("")}</div>`);
-  const tl = termsAt(tsteps.map((c) => c.step));
-  if (tl.length) H.push(`<h3>Terms at those steps</h3>${termChips(tl)}`);
-  H.push(more([[`${m.id} ${m.title}`, page(m.id)], ["Module × journey map", "module-journey-map.html"], ["All modules", "workshop.html"]]), `</div>`);
-  files[`input/pagecontent/workshop-${t.id.toLowerCase()}.md`] = HEAD("workshops/technical-track.json and the matrix of dpi-h-policy-track.workshop.json") + "\n" + CSS + "\n\n" + H.join("\n") + "\n";
-}
+// ── the old IG pages: stubs that point to the viewer ────────────────────
+const STUB = "<!-- Generated by tools/workshop/module-pages.ts. The workshop lives in the journeys viewer; this page keeps the old address working. Do not edit by hand. -->\n\n";
+const techUrl = `${WORKSHOPS}${TECH_ID}/`;
+const polUrl = `${WORKSHOPS}${ws.id}/`;
+files["input/pagecontent/workshop.md"] =
+  STUB +
+  `The workshop has moved to the [journeys viewer](${WORKSHOPS.replace(/workshops\/$/, "")}), where each track sits beside the journeys it teaches from. It is a general two-day workshop in two tracks:\n\n` +
+  `- **[Technical track (T1 to T7)](${techUrl})**, with the two-day timetable of both tracks\n` +
+  `- **[Policy-maker track (M1 to M7)](${polUrl})**, with the Country Canvas each table fills in\n\n` +
+  `Also on this site: the [module × journey map](module-journey-map.html), the [Country Canvas](country-canvas.html) and the [glossary](glossary.html).\n`;
+for (const m of mods)
+  files[`input/pagecontent/workshop-${seg(m.id)}.md`] = STUB + `Module ${m.id}, *${m.title}*, of the policy-maker track has moved to the journeys viewer: [${m.id} in the journeys viewer](${polUrl}${seg(m.id)}/).\n\nThe whole workshop: [policy-maker track](${polUrl}) · [technical track](${techUrl}).\n`;
+for (const t of tmods)
+  files[`input/pagecontent/workshop-${seg(t.id)}.md`] = STUB + `Module ${t.id}, *${t.title}*, of the technical track has moved to the journeys viewer: [${t.id} in the journeys viewer](${techUrl}${seg(t.id)}/).\n\nThe whole workshop: [technical track](${techUrl}) · [policy-maker track](${polUrl}).\n`;
 
 let stale = 0;
 for (const [p, c] of Object.entries(files)) {
@@ -284,4 +178,4 @@ for (const [p, c] of Object.entries(files)) {
   } else writeFileSync(p, c);
 }
 if (stale) (console.error("run bun tools/workshop/module-pages.ts"), process.exit(1));
-console.log(process.argv.includes("--check") ? `${Object.keys(files).length} module pages are current` : `wrote ${Object.keys(files).length} module pages`);
+console.log(process.argv.includes("--check") ? `${Object.keys(files).length} workshop files are current` : `wrote ${Object.keys(files).length} workshop files`);

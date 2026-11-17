@@ -25,7 +25,7 @@ The clinic system abroad that scans a VHL, verifies it, fetches the manifest (IT
 
 **On the device screens**: [S8 Foreign Clinic VHL Viewer & Audit Trace (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/)
 
-**Discussed in the workshop modules**: [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [M7 First move and the investment required](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m7/)
+**Discussed in the workshop modules**: [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [M7 First move and the investment required](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m7/); [T3 Trust between countries: SMART Trust and the GDHCN](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t3/); [T4 Workflows, sync and who sees what](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/); [T5 From records to charts](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t5/); [T6 Verifying a card, sharing a link](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t6/); [T7 Team build, showcase and the journey together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t7/)
 
 **Lanes and tasks in the business processes**:
 

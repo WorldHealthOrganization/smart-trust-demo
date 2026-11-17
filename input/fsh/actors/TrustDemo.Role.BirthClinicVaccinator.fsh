@@ -23,7 +23,7 @@ The clinician abroad who gives the birth doses and hands over the signed paper D
 
 **On the device screens**: [S1 Birth Abroad & Printed DVC QR Cards (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/); [S8 Foreign Clinic VHL Viewer & Audit Trace (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/)
 
-**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/)
+**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [T1 Building with FHIR and the Open Health Stack](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t1/); [T3 Trust between countries: SMART Trust and the GDHCN](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t3/)
 
 **User stories** ([all stories](scenarios.html#user-stories)):
 

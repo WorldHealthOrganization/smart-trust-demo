@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-16T12:09:11.902Z\n"
+"POT-Creation-Date: 2026-11-17T07:41:43.970Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -14,27 +14,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: sushi-config.yaml:137
+#: sushi-config.yaml:138
 #. Navbar entry for proposal-app-platform.html (sushi-config.yaml menu).
 msgid "App Platform Proposal"
 msgstr ""
 
-#: sushi-config.yaml:135
+#: sushi-config.yaml:136
 #. Navbar entry for architecture.html (sushi-config.yaml menu).
 msgid "Architecture (ArchiMate)"
 msgstr ""
 
-#: sushi-config.yaml:151
+#: sushi-config.yaml:152
 #. Navbar entry for artifacts.html (sushi-config.yaml menu).
 msgid "Artifact Index"
 msgstr ""
 
-#: sushi-config.yaml:143
+#: sushi-config.yaml:144
 #. Navbar entry for business-processes.html (sushi-config.yaml menu).
 msgid "Business Processes"
 msgstr ""
 
-#: sushi-config.yaml:140
+#: sushi-config.yaml:141
 #. Navbar group (sushi-config.yaml menu).
 msgid "Business Requirements"
 msgstr ""
@@ -44,27 +44,27 @@ msgstr ""
 msgid "Changes"
 msgstr ""
 
-#: sushi-config.yaml:131
+#: sushi-config.yaml:132
 #. Navbar entry for country-canvas.html (sushi-config.yaml menu).
 msgid "Country Canvas"
 msgstr ""
 
-#: sushi-config.yaml:144
+#: sushi-config.yaml:145
 #. Navbar entry for dictionary.html (sushi-config.yaml menu).
 msgid "Data Dictionary"
 msgstr ""
 
-#: sushi-config.yaml:148
+#: sushi-config.yaml:149
 #. Navbar group (sushi-config.yaml menu).
 msgid "Data Models and Exchange"
 msgstr ""
 
-#: sushi-config.yaml:145
+#: sushi-config.yaml:146
 #. Navbar entry for decision-logic.html (sushi-config.yaml menu).
 msgid "Decision-support Logic"
 msgstr ""
 
-#: sushi-config.yaml:138
+#: sushi-config.yaml:139
 #. Navbar entry for dependencies.html (sushi-config.yaml menu).
 msgid "Dependency Register"
 msgstr ""
@@ -74,7 +74,7 @@ msgstr ""
 msgid "Drag to widen or narrow the navigation"
 msgstr ""
 
-#: sushi-config.yaml:133
+#: sushi-config.yaml:134
 #. Navbar entry for countries.html (sushi-config.yaml menu).
 msgid "Fictional Countries"
 msgstr ""
@@ -84,17 +84,17 @@ msgstr ""
 msgid "Folders"
 msgstr ""
 
-#: sushi-config.yaml:147
+#: sushi-config.yaml:148
 #. Navbar entry for functional-requirements.html (sushi-config.yaml menu).
 msgid "Functional Requirements"
 msgstr ""
 
-#: sushi-config.yaml:141
+#: sushi-config.yaml:142
 #. Navbar entry for personas.html (sushi-config.yaml menu).
 msgid "Generic Personas"
 msgstr ""
 
-#: sushi-config.yaml:132
+#: sushi-config.yaml:133
 #. Navbar entry for glossary.html (sushi-config.yaml menu).
 msgid "Glossary"
 msgstr ""
@@ -109,17 +109,17 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: sushi-config.yaml:146
+#: sushi-config.yaml:147
 #. Navbar entry for indicators.html (sushi-config.yaml menu).
 msgid "Indicators and Performance Metrics"
 msgstr ""
 
-#: sushi-config.yaml:150
+#: sushi-config.yaml:151
 #. Navbar group (sushi-config.yaml menu).
 msgid "Indices"
 msgstr ""
 
-#: sushi-config.yaml:134
+#: sushi-config.yaml:135
 #. Navbar entry for journey-examples.html (sushi-config.yaml menu).
 msgid "Journey Examples"
 msgstr ""
@@ -129,12 +129,12 @@ msgstr ""
 msgid "Journeys J1 to J4"
 msgstr ""
 
-#: sushi-config.yaml:128
+#: sushi-config.yaml:129
 #. Navbar entry for module-journey-map.html (sushi-config.yaml menu).
 msgid "Module × Journey Map"
 msgstr ""
 
-#: sushi-config.yaml:129
+#: sushi-config.yaml:130
 #. Navbar entry for narrative-discrepancies.html (sushi-config.yaml menu).
 msgid "Narrative Discrepancies"
 msgstr ""
@@ -154,7 +154,7 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: sushi-config.yaml:136
+#: sushi-config.yaml:137
 #. Navbar entry for plan.html (sushi-config.yaml menu).
 msgid "Plan"
 msgstr ""
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
-#: sushi-config.yaml:149
+#: sushi-config.yaml:150
 #. Navbar entry for system-actors.html (sushi-config.yaml menu).
 msgid "System Actors"
 msgstr ""
@@ -189,22 +189,24 @@ msgstr ""
 msgid "Table of Contents"
 msgstr ""
 
-#: sushi-config.yaml:130
+#: sushi-config.yaml:131
 #. Navbar entry for technical-changes.html (sushi-config.yaml menu).
 msgid "Technical Track and Demo App Changes"
 msgstr ""
 
-#: sushi-config.yaml:139
+#: sushi-config.yaml:140
 #. Navbar entry for upstream-who-smart-trust-phw-receive-a-vhl.html (sushi-config.yaml menu).
 msgid "Upstream Issue (smart-trust-phw)"
 msgstr ""
 
-#: sushi-config.yaml:142
+#: sushi-config.yaml:143
 #. Navbar entry for scenarios.html (sushi-config.yaml menu).
 msgid "User Scenarios"
 msgstr ""
 
 #: sushi-config.yaml:127
-#. Navbar entry for workshop.html (sushi-config.yaml menu).
-msgid "Workshop Modules (M and T)"
+#: sushi-config.yaml:128
+#. Navbar entry for Technical Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html (sushi-config.yaml menu).
+#. Navbar entry for Policy-Maker Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html (sushi-config.yaml menu).
+msgid "Workshop"
 msgstr ""
