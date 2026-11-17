@@ -80,6 +80,12 @@ jobs:
           bun run cat translate-user-scenarios:check -- --instance .
           bun run cat kg:locale:check -- --instance .
           bun run cat check:translation-officiality
+      - name: The fictional countries are named so the viewer can rename them (memory dir-renameable-countries)
+        # The journeys viewer substitutes a room's own name for Onesa and
+        # Taifafeki as whole words, in Latin script, on every locale's page:
+        # no demonym, possessive, inflected or transliterated form, in the
+        # English sources or in any translation.
+        run: bun tools/translation/country-names.ts --check
       - name: How far each translation is behind its template (warns, never fails)
         # An English change leaves translations behind; that is reported here
         # as a warning per catalogue, not a failure. A stale template fails

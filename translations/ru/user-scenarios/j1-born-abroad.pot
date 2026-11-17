@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j1-born-abroad\n"
-"POT-Creation-Date: 2026-11-16T11:18:38.276Z\n"
+"POT-Creation-Date: 2026-11-17T18:50:36.266Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:5
 msgctxt "description"
-msgid "An Onesan baby gets his first vaccines in Taifafeki and leaves with signed paper cards."
+msgid "A baby from Onesa gets his first vaccines in Taifafeki and leaves with signed paper cards."
 msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:188
@@ -34,7 +34,7 @@ msgctxt "scene.label"
 msgid "Somsak is born"
 msgstr ""
 
-#: scenarios/user-scenarios/j1-born-abroad.json:19
+#: scenarios/user-scenarios/j1-born-abroad.json:54
 msgctxt "scene.label"
 msgid "Taifafeki hospital"
 msgstr ""
@@ -91,7 +91,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:160
 msgctxt "step.fhirChanges.why"
-msgid "Not FHIR: the HCERT certificate that travels on paper, verifiable offline with Taifafeki’s key from GDHCN."
+msgid "Not FHIR: the HCERT certificate that travels on paper, verifiable offline with the key of Taifafeki from GDHCN."
 msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:148
@@ -116,7 +116,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:19
 msgctxt "step.headline"
-msgid "Somsak gets his birth vaccines in a Taifafeki hospital — and the only thing that will cross the border with him is a pair of paper cards."
+msgid "Somsak gets his birth vaccines in a hospital in Taifafeki — and the only thing that will cross the border with him is a pair of paper cards."
 msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:142
@@ -127,7 +127,7 @@ msgstr ""
 #: scenarios/user-scenarios/j1-born-abroad.json:32
 msgctxt "step.narrative"
 msgid ""
-"Khamla, an Onesan who works in Taifafeki, gives birth to Somsak on 2025-10-28\n"
+"Khamla, a woman from Onesa who works in Taifafeki, gives birth to Somsak on 2025-10-28\n"
 "at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the\n"
 "Hep B and BCG birth doses and records them with their WHO PreQual product\n"
 "codes. For each dose, the hospital system does three things:\n"
@@ -182,7 +182,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:18
 msgctxt "step.title"
-msgid "An Onesan baby is born in Taifafeki"
+msgid "A baby from Onesa is born in Taifafeki"
 msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:22
@@ -202,7 +202,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:109
 msgctxt "step.uses.role"
-msgid "Taifafeki’s signing key (kid 916ffa…) is published on the trust list"
+msgid "The signing key of Taifafeki (kid 916ffa…) is published on the trust list"
 msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:101
@@ -212,7 +212,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:73
 msgctxt "step.whatIf.outcome"
-msgid "The doses still happened, but no proof travels. Onesan clinicians must re-vaccinate or rely on memory."
+msgid "The doses still happened, but no proof travels. Clinicians in Onesa must re-vaccinate or rely on memory."
 msgstr ""
 
 #: scenarios/user-scenarios/j1-born-abroad.json:72

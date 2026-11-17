@@ -34,7 +34,7 @@ Each module of the policy-maker track asks one question of the same story. This 
 
 | Step | | What the system does | Policy question for the table |
 |---|:-:|---|---|
-| J1 | ● | Hospital immunization record; one DVC per birth dose, signed by Taifafeki's document signer. | Which child, which record and which border would your country's use case cover? |
+| J1 | ● | Hospital immunization record; one DVC per birth dose, signed by the document signer of Taifafeki. | Which child, which record and which border would your country's use case cover? |
 | J2a | ○ | Offline CHW app reads the cards without verifying them. | Where does your own journey break first: is there a stage where no national system knows the child exists? |
 | J2b | ○ | Client registry holds a child with no birth record; referral to the clinic. | For a child born abroad, does each touchpoint in your country work, partly work, or break today? |
 | J3a | ● | Signature checked offline against the cached GDHCN trust list. | What must be true before a nurse trusts a vaccination record she did not create? |
@@ -63,7 +63,7 @@ Each module of the policy-maker track asks one question of the same story. This 
 |---|:-:|---|---|
 | J1 | ○ | Birth-dose data elements: vaccine, product code, batch, date, giver (immunization DAK core data dictionary). | Will you adopt the immunization core data set, or design your own national form? |
 | J2a | ● | A core data element that tells a reported dose from a verified one. | Who in your country defines the data element that tells a reported dose from a verified one? |
-| J3b | ● | Terminology service: Taifafeki's product code kept, Onesa's schedule code added beside it; schedule logic over every dose. | Who owns your national core data set and the code maps to other countries, and is vaccine code licensing settled? |
+| J3b | ● | Terminology service: the product code of Taifafeki kept, the schedule code of Onesa added beside it; schedule logic over every dose. | Who owns your national core data set and the code maps to other countries, and is vaccine code licensing settled? |
 | J4.0b | ○ | IPS plus an immunization core as the part of the record that crosses borders. | Will you adopt the IPS and the VHL specification as they are, and author only national extensions? |
 {: .grid }
 
@@ -77,7 +77,7 @@ Each module of the policy-maker track asks one question of the same story. This 
 | J2a | ● | Read-unverified: the CHW device decodes but does not verify. | Who is allowed to verify a foreign credential: a health worker's phone, a clinic, or only a national service? |
 | J3a | ● | GDHCN trust list (DID documents), cached for offline verification; kid lookup. | Who would hold your national trust anchor and accept a foreign signature, and what must be decided before you join the GDHCN? |
 | J4.0a | ● | Family wallet on one shared phone, one profile and one VHL per member. | Is a family wallet a national service, a private app or both, and who approves the apps that may hold a record? |
-| J4.1 | ○ | Viewer verifies the VHL's HCERT against Onesa's DSC from the trust list. | Who verifies your citizens' records abroad, and what may that verifier see? |
+| J4.1 | ○ | Viewer verifies the VHL's HCERT against the DSC of Onesa from the trust list. | Who verifies your citizens' records abroad, and what may that verifier see? |
 {: .grid }
 
 #### M5 · Governance, decision rights and the legal basis
@@ -138,7 +138,7 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 | Step | What the system does | Technical question for the room |
 |---|---|---|
 | J1 | Patient and Immunization in the hospital record; each dose signed as a DVC (HCERT). | Which FHIR resources does the hospital write for a birth dose, and which of their fields end up in the signed card? |
-| J3b | ConceptMap from Taifafeki's product codes to Onesa's schedule codes; the schedule as a PlanDefinition. | How does an implementation guide let two countries keep their own vaccine codes and still count each other's doses? |
+| J3b | ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition. | How does an implementation guide let two countries keep their own vaccine codes and still count each other's doses? |
 | J4.0b | The IPS as a FHIR document Bundle assembled from the national record. | What makes the IPS readable in another country's system without a bilateral agreement? |
 {: .grid }
 
@@ -158,9 +158,9 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 
 | Step | What the system does | Technical question for the room |
 |---|---|---|
-| J1 | Taifafeki's document signer key (DSC of XXR) signs each DVC as a CWT in COSE. | What does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document? |
+| J1 | The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE. | What does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document? |
 | J3a | The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid. | How fresh does the cached trust list have to be, and what should the app show when a signature fails? |
-| J4.1 | The viewer verifies the VHL's HCERT against Onesa's DSC (XXU) before it fetches anything. | Why is the health data not in the QR, and what does the viewer check before it opens the link? |
+| J4.1 | The viewer verifies the VHL's HCERT against the DSC of Onesa (XXU) before it fetches anything. | Why is the health data not in the QR, and what does the viewer check before it opens the link? |
 {: .grid }
 
 #### T4 · Workflows, sync and who sees what
@@ -170,7 +170,7 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 | Step | What the system does | Technical question for the room |
 |---|---|---|
 | J2b | Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns. | What happens to a queued registration if the clinic registers the same child before the phone syncs? |
-| J3b | The Onesan schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue. | How does the plan definition decide a dose is overdue, and what sets the date of the next one? |
+| J3b | The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue. | How does the plan definition decide a dose is overdue, and what sets the date of the next one? |
 | J4.0b | The family's consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request. | Where does the gateway read the consent from, and what does it do when the link has expired? |
 | J4.1 | Each view is logged as an AuditEvent in Onesa, including failed passcode attempts. | Which AuditEvent fields let Onesa tell the family who looked at the record, and when? |
 {: .grid }
@@ -194,7 +194,7 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 |---|---|---|
 | J3a | Scan, Base45 and zlib decode, COSE signature check against the trust list, then import with provenance. | At which step of decoding does a tampered card fail, and what does the nurse see? |
 | J4.0b | The portal encrypts the IPS and DVCs, publishes a manifest and signs the link as an HCERT. | What is inside the link QR, and why can a 4-digit passcode be enough? |
-| J4.1 | The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents. | What does the viewer need from the trust list, and what does it need from Onesa's gateway? |
+| J4.1 | The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents. | What does the viewer need from the trust list, and what does it need from the gateway of Onesa? |
 {: .grid }
 
 #### T7 · Team build, showcase and the journey together
@@ -216,7 +216,7 @@ Components that more than one module and more than one step depend on: build or 
 | Thread | Modules | Steps | How it crosses |
 |---|---|---|---|
 | **Client registry and identifiers** | M2, M5 | J1, J2b, J4.0a | The same registry that gives Somsak a temporary id at home (J2b) is the one his IPS is assembled against (J4.0b). M2 asks whether it exists; M5 asks who may write to it. |
-| **Signing and the trust list** | M4, M6, M7 | J1, J3a, J4.1 | One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa's own key signs the VHL a Taifafeki viewer checks (J4.1). Built once, for every credential. |
+| **Signing and the trust list** | M4, M6, M7 | J1, J3a, J4.1 | One PKI carries three moments: Taifafeki signs the DVCs (J1), Onesa verifies them offline (J3a), and Onesa signs, with its own key, the VHL a viewer in Taifafeki checks (J4.1). Built once, for every credential. |
 | **Core data set and terminology** | M3, M6 | J2a, J3b, J4.0b | The reported/verified element (J2a), the product code map (J3b) and the cross-border IPS profile (J4.0b) are one core data set, read at three points. |
 | **Lifelong record and the share link** | M2, M4, M5 | J4.0a, J4.0b, J4.1 | The national record, the wallet and the gateway's audit log are one service seen from the family, the clinician and the ministry. |
 {: .grid }

@@ -29,10 +29,10 @@ The editable [Country Canvas](country-canvas.html) (A3) and the policy-maker tra
 | # | Topic | Deck (reference) | Site today | Proposed resolution |
 |---|---|---|---|---|
 | A1 | Journey titles | J1 *Recorded and vaccinated*, J2 *Found and registered at home*, J3 *A foreign record used for the next vaccine*, J4 *Continuity across border* | J1 *Born abroad*, J2 *Found at home*, J3 *Made official*, J4 *One family, one phone, a history abroad* (“Crossing back”), split into J4.0 and J4.1 | Retitle the site's journeys to the deck's titles once B1 to B3 settle the deck's own wording. Keep J4.0 and J4.1 as two parts of the deck's J4 |
-| A2 | Where Khamla lives | A citizen of Onesa, **working in** neighbouring Taifafeki | An Onesan national **living in Onesa** who gave birth in Taifafeki, “away from home” | Decide which is true. If she works in Taifafeki, the J2 “back in Onesa” return needs a reason |
+| A2 | Where Khamla lives | A citizen of Onesa, **working in** neighbouring Taifafeki | A national of Onesa **living in Onesa** who gave birth in Taifafeki, “away from home” | Decide which is true. If she works in Taifafeki, the J2 “back in Onesa” return needs a reason |
 | A3 | Who gives the birth doses | Slide 4: Dr Anan. Slide 8: “the midwife” | Dr Anan | See B4. The site matches slide 4 |
 | A4 | Somsak's identifier at birth | “Has an identifier from birth”; found “through the mother's record” | “He has no Taifafeki identity number”; no identity document needed for the DVC | Decide. The site's version is what the library tests (DVCMinPreQual, STT-PAY-005) |
-| A5 | What Khamla leaves hospital with | “A paper card that carries a QR code”, plus the same record in Taifafeki's citizen app | **Two** paper DVCs, one per dose; no Taifafeki citizen app | Keep two cards (one HCERT per dose is how the DVC works) and change the deck to “cards”, or add a note. Decide whether an Onesan mother has a Taifafeki citizen app |
+| A5 | What Khamla leaves hospital with | “A paper card that carries a QR code”, plus the same record in the citizen app of Taifafeki | **Two** paper DVCs, one per dose; no Taifafeki citizen app | Keep two cards (one HCERT per dose is how the DVC works) and change the deck to “cards”, or add a note. Decide whether a mother from Onesa has the citizen app of Taifafeki |
 | A6 | J2 timing | Somsak is **7 weeks** old | “3 weeks later” | Use 7 weeks on the site |
 | A7 | J3 timing | Somsak is **10 weeks** old | “4 weeks later” (about 7 weeks) | Use 10 weeks on the site. Pentavalent 1, bOPV 1 and PCV 1 were due at 6 weeks, so J3 becomes a catch-up |
 | A8 | J2 location | “Khamla village” | Village 04 | Pick one place name |
@@ -44,7 +44,7 @@ The editable [Country Canvas](country-canvas.html) (A3) and the policy-maker tra
 | A14 | The Hep B product with no mapping | Not in the story: the schedule runs | Nurse Chanthason makes the clinical call; it is added to the national map (J3b) | Keep on the site (it drives M3 and M6), or drop it to match the deck |
 | A15 | J4 mechanism | The family shares Somsak's **IPS** with consent; Dr Anan reads it | The same, through a passcode-protected **Verifiable Health Link** (4 digits, 14 days), every view logged in Onesa | Compatible. Mention the link and the audit in the deck, or keep it out of the policy story |
 | A16 | Where J4 takes place | A paediatrician in Taifafeki | A primary care clinic in Kesaro, Taifafeki | Compatible. Pick “paediatrician” or “primary care” |
-| A17 | Onesa's FHIR | “No national FHIR implementation guide yet” | A national FHIR server and gateway issue the family's links (J4) | Decide. If Onesa has no IG yet, J4's portal is part of the first move, not the baseline |
+| A17 | FHIR in Onesa | “No national FHIR implementation guide yet” | A national FHIR server and gateway issue the family's links (J4) | Decide. If Onesa has no IG yet, J4's portal is part of the first move, not the baseline |
 
 ### B. The deck is inconsistent with itself
 
@@ -57,12 +57,12 @@ The editable [Country Canvas](country-canvas.html) (A3) and the policy-maker tra
 | B5 | 4, 18 | Khamla holds records “on paper and on her phone”; Bounmy holds the phone with the digital record | One phone, Bounmy's, as on the site (J4.0's equity point depends on it) |
 | B6 | 4, 8 | Somsak is “he” (3, 13) but “her birth doses” and “gives her the birth doses” (4, 8) | “his” |
 | B7 | 24, 25 | J4's *What must be true* and *What this journey draws on* describe a **digital ICVP issued and checked by a port health verifier** (IHR, designated issuing authority). The J4 story is an IPS shared with a doctor | Rewrite both slides for the IPS story, or bring the ICVP back into the J4 story |
-| B8 | 24 | “A verifier can check it without access to Onesa's systems” | True for a signed certificate, not for the IPS, which is fetched from Onesa. Rewrite with B7 |
+| B8 | 24 | “A verifier can check it without access to the systems of Onesa” | True for a signed certificate, not for the IPS, which is fetched from Onesa. Rewrite with B7 |
 | B9 | 29 | M4 “who verifies (Journeys 3 and **5**)” | There is no Journey 5: “Journeys 3 and 4” |
 | B10 | 29 | M3 “data elements in Journeys 1 and 4” | J4 has no data-capture step. Probably “Journeys 1 and 3” |
 | B11 | 27 | HMIS (coverage indicators) is marked for J3 only | The site counts a child born abroad into the coverage denominator at J2 (M2). Mark J2 too, or say why not |
 | B12 | 6 | “At a glance” is a placeholder: “To attach the scenario and illustration from git webpage” | Use the journeys viewer's overview, `en/smart-trust-demo/journeys/` |
-| B13 | 8, 26 | “Taifafekis health authority” (no apostrophe); “Both countries is connected” | “Taifafeki's”; “Both countries are” |
+| B13 | 8, 26 | A possessive of Taifafeki with no apostrophe (“… health authority”); “Both countries is connected” | “the health authority of Taifafeki”; “Both countries are” |
 | B14 | Throughout | *immunization* and *immunisation* both used | One spelling. WHO uses *immunization* |
 
 ### C. Not a discrepancy, worth a check
@@ -81,7 +81,7 @@ The canvas now replaces the viewer's table sheets: the sheet titles and write-in
 | D1 | Sheet 1, journey | Touchpoint titles *Vaccinated and recorded*, *Found and registered*, *A foreign record used for the next vaccine*, *Continuity across border*: these settle B1 (J1) but differ again from the deck for J2 (*…at home*) and J3 (the deck's story slide says *…trusted at the clinic*) | Take the canvas's four titles everywhere (deck, site, viewer) |
 | D2 | Sheet 1, capabilities | The *Touchpoints* column offers 1 · 2 · 3 · 4 · **5**; there are four touchpoints (compare B9, "Journey 5") | Drop 5, or add the fifth touchpoint it was meant for |
 | D3 | Sheet 1, touchpoint 1 | "Vaccinated abroad, and leaves with a paper card and a QR code" (one card) | See A5: the site issues one signed card per dose |
-| D4 | Sheet 1, touchpoint 4 | "Checked at a paediatrician office … any verifier can check it": the IPS story fetches the record from Onesa, so a verifier needs Onesa's gateway | See B7, B8 |
+| D4 | Sheet 1, touchpoint 4 | "Checked at a paediatrician office … any verifier can check it": the IPS story fetches the record from Onesa, so a verifier needs the Onesa gateway | See B7, B8 |
 | D5 | Sheet 1, touchpoint 3 | "…can be read here. the schedule logic…" | Capitalise "The" |
 | D6 | Sheets 1 to 6, header | The sheet headers named a venue and dates | Done: the canvas is for a general two-day workshop; every header reads *Policy-maker track · Day 1 and Day 2* |
 | D7 | Sheet 4, legal basis | Three rows (data protection, cross-border, consent for minors); the workshop had two | Done: the workshop's legal-bases table now has the canvas's three |

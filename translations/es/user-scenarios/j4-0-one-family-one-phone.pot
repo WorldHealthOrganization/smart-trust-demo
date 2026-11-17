@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j4-0-one-family-one-phone\n"
-"POT-Creation-Date: 2026-11-16T11:18:38.282Z\n"
+"POT-Creation-Date: 2026-11-17T18:50:36.277Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:96
 msgctxt "step.fhirChanges.change"
-msgid "Generated: 2 Taifafeki + 4 Onesan doses"
+msgid "Generated: 2 Taifafeki + 4 Onesa doses"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:227
@@ -209,7 +209,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:43
 msgctxt "step.record.description"
-msgid "12-month summary: 2 Taifafeki + 4 Onesan doses"
+msgid "12-month summary: 2 Taifafeki + 4 Onesa doses"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:146
@@ -219,12 +219,12 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:147
 msgctxt "step.record.heldWhere"
-msgid "Onesan national records (QR is just a pointer)"
+msgid "Onesa national records (QR is just a pointer)"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:44
 msgctxt "step.record.heldWhere"
-msgid "Onesan national records + family wallet"
+msgid "Onesa national records + family wallet"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:63
@@ -234,7 +234,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:181
 msgctxt "step.technicalSummary"
-msgid "The QR is a key, not a copy. The record stays on the Onesan server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
+msgid "The QR is a key, not a copy. The record stays on the Onesa server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
 msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:119
@@ -335,7 +335,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:122
 msgctxt "step.where"
-msgid "Onesan–Taifafeki Friendship Bridge"
+msgid "Onesa–Taifafeki Friendship Bridge"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4

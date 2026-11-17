@@ -122,7 +122,7 @@ Usage: #example
 
 Instance: TrustDemoOnesaPenta1
 InstanceOf: TrustDemoOnesaImmunization
-Title: "Onesan dose: pentavalent 1 (2026-01-06)"
+Title: "Dose in Onesa: pentavalent 1 (2026-01-06)"
 Description: "Given at Lomaru District Health Center at 10 weeks, at the J3 visit, as a catch-up of the 6-week dose."
 Usage: #example
 * status = #completed
@@ -138,7 +138,7 @@ Usage: #example
 
 Instance: TrustDemoOnesaBopv1
 InstanceOf: TrustDemoOnesaImmunization
-Title: "Onesan dose: bOPV 1 (2026-01-06)"
+Title: "Dose in Onesa: bOPV 1 (2026-01-06)"
 Description: "Given at Lomaru District Health Center at 10 weeks, at the J3 visit (catch-up)."
 Usage: #example
 * status = #completed
@@ -154,7 +154,7 @@ Usage: #example
 
 Instance: TrustDemoOnesaPcv1
 InstanceOf: TrustDemoOnesaImmunization
-Title: "Onesan dose: PCV 1 (2026-01-06)"
+Title: "Dose in Onesa: PCV 1 (2026-01-06)"
 Description: "Given at Lomaru District Health Center at 10 weeks, at the J3 visit (catch-up)."
 Usage: #example
 * status = #completed
@@ -170,7 +170,7 @@ Usage: #example
 
 Instance: TrustDemoOnesaMr1
 InstanceOf: TrustDemoOnesaImmunization
-Title: "Onesan dose: measles-rubella 1 (2026-07-28)"
+Title: "Dose in Onesa: measles-rubella 1 (2026-07-28)"
 Description: "Given at Lomaru District Health Center at 9 months."
 Usage: #example
 * status = #completed

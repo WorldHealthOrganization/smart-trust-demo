@@ -90,6 +90,7 @@ main.
 | new and obsolete strings | `bun tools/translation/po-status.ts --merge` appends new msgids empty and keeps obsolete ones as `#~`; without `--merge` it reports |
 | FHIR terms | one CodeSystem supplement per locale, `input/fsh/translations/<locale>.fsh`; never edit a resource's own text |
 | QA report | `python3 -I tools/translation/glossary_qa.py --layer "smart-trust (GDHCN glossary)=<smart-trust>/…/{locale}/*.po"` writes `test/results/translation-qa/`; `--check` fails only on a lost token or an official claim |
+| country names | `bun tools/translation/country-names.ts --check`: Onesa and Taifafeki only as the bare Latin name, in every language, so the viewer can rename them (memory `dir-renameable-countries`) |
 | round-trip verdicts | `test/results/translation-qa/roundtrip.json`, the adjudicator's, by hand |
 
 The CI job `bpmn-generated` in `.github/workflows/checks.yml` runs the template

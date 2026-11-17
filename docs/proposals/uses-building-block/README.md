@@ -14,7 +14,7 @@ Today it is in two places that do not know about each other:
 - vaxlink's `techData.ts`: 19 generic blocks (`BUILDING_BLOCKS`), and per step
   the blocks it uses with a one-line role (`STEP_TECH`);
 - `tools/archimate/overlay.py`: 18 deployed components (`COMPONENTS`), each a
-  part of a Taifafeki or Onesan system and a specialization of a DPI-H RA block.
+  part of a system in Taifafeki or Onesa and a specialization of a DPI-H RA block.
 
 ## The answer: a catalogue, and an edge from the step
 
@@ -23,7 +23,7 @@ Today it is in two places that do not know about each other:
 
 | Field | |
 |---|---|
-| `kind` | `tool` (OHS FHIR SDK), `system` (the Onesan national FHIR server), `standard` (IHE VHL), or `network` (WHO GDHCN) |
+| `kind` | `tool` (OHS FHIR SDK), `system` (the national FHIR server of Onesa), `standard` (IHE VHL), or `network` (WHO GDHCN) |
 | `layer` | one of the catalogue's layers: tools & apps, data standards, trust & exchange |
 | `jurisdiction` | `Taifafeki`, `Onesa`, or `International`. A country's deployed system is that country's; what anyone can adopt is International. The ArchiMate views are to split the RA by jurisdiction on this field (owner, 2026-11-05) |
 | `owner`, `what`, `soWhat`, `links` | as the walkthrough shows them |
@@ -33,10 +33,10 @@ Today it is in two places that do not know about each other:
 ([`../user-scenario/user-scenario.schema.json`](../user-scenario/user-scenario.schema.json)):
 
 ```json
-"technicalSummary": "The clinic checks Taifafeki’s signature against WHO’s trust list, stored locally. …",
+"technicalSummary": "The clinic checks the signature from Taifafeki against WHO’s trust list, stored locally. …",
 "uses": [
   { "block": "ohs-fhir-sdk", "role": "Clinic tablet app; caches the trust list" },
-  { "block": "gdhcn", "role": "Supplies Taifafeki’s public key (downloaded in advance)" }
+  { "block": "gdhcn", "role": "Supplies the public key of Taifafeki (downloaded in advance)" }
 ]
 ```
 
