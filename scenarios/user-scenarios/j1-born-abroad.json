@@ -106,7 +106,7 @@
         },
         {
           "block": "gdhcn",
-          "role": "Taifafeki’s signing key (kid 916ffa…) is published on the trust list"
+          "role": "The signing key of Taifafeki (kid 916ffa…) is published on the trust list"
         }
       ],
       "requirements": [
@@ -157,7 +157,7 @@
         {
           "resource": "DVC payload",
           "change": "Signed CBOR/COSE certificate",
-          "why": "Not FHIR: the HCERT certificate that travels on paper, verifiable offline with Taifafeki’s key from GDHCN.",
+          "why": "Not FHIR: the HCERT certificate that travels on paper, verifiable offline with the key of Taifafeki from GDHCN.",
           "spec": "https://smart.who.int/trust/hcert_spec.html#422-qr-2d-barcode"
         }
       ],

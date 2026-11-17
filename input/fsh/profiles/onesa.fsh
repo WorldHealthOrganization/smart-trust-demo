@@ -2,7 +2,7 @@
 // the national portal that issues the family's VHLs and logs every access
 // (J4). Onesa is played on the GDHCN DEV network by the fictional
 // participant XXU. Demonstrator profiles: they show which elements each step
-// relies on, not any real Onesan national specification.
+// relies on, not any real national specification.
 
 Alias: $OnesaTmpId = http://smart.who.int/trust-demo/sid/onesa-temporary-id
 Alias: $HouseholdId = http://smart.who.int/trust-demo/sid/onesa-household-id
@@ -12,9 +12,9 @@ Parent: Patient
 Id: TrustDemoOnesaPatient
 Title: "Onesa: child registered by the community health worker"
 Description: """
-How it is used: J2 onwards. Vilay registers Somsak on a home visit, and the same patient carries every Onesan record that follows: the verified Taifafeki doses, the Onesan doses and the summary shared in J4.
+How it is used: J2 onwards. Vilay registers Somsak on a home visit, and the same patient carries every record in Onesa that follows: the verified Taifafeki doses, the doses given in Onesa and the summary shared in J4.
 
-Why: a child born abroad is not in the Onesan civil registry yet. A temporary id lets the CHW, the district clinic and the national portal all refer to the same child until civil registration catches up. The parents are recorded as contacts, because they hold the paper cards and later the family's VHLs.
+Why: a child born abroad is not in the civil registry of Onesa yet. A temporary id lets the CHW, the district clinic and the national portal all refer to the same child until civil registration catches up. The parents are recorded as contacts, because they hold the paper cards and later the family's VHLs.
 """
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #value
@@ -34,7 +34,7 @@ Title: "Onesa: household on the CHW's roster"
 Description: """
 How it is used: J2a. The CHW finds that a newborn is missing from the household roster and adds Somsak as a member.
 
-Why: Onesan community health work is organized by household. The roster is how a CHW notices that a child is missing, and it is the unit the family phone shares under in J4 (one phone, three profiles).
+Why: community health work in Onesa is organized by household. The roster is how a CHW notices that a child is missing, and it is the unit the family phone shares under in J4 (one phone, three profiles).
 """
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #value
@@ -70,7 +70,7 @@ Title: "Onesa: foreign dose as reported (not yet verified)"
 Description: """
 How it is used: J2b. The CHW app reads each Taifafeki paper DVC offline without checking its signature, and saves the dose like this.
 
-Why: a CHW phone may have no trust list and no signal, but the doses should not be lost. Recording them with primarySource false, the paper card as the report origin and the family named in the note keeps them visibly "reported, not verified". The schedule will not count them until a clinic verifies them (J3). Only the issuer's product code is present, because mapping to the Onesan schedule is a clinical step for later.
+Why: a CHW phone may have no trust list and no signal, but the doses should not be lost. Recording them with primarySource false, the paper card as the report origin and the family named in the note keeps them visibly "reported, not verified". The schedule will not count them until a clinic verifies them (J3). Only the issuer's product code is present, because mapping to the schedule of Onesa is a clinical step for later.
 """
 * status = #completed
 * patient only Reference(TrustDemoOnesaPatient)
@@ -86,7 +86,7 @@ Title: "Onesa: dose on the national schedule"
 Description: """
 How it is used: J3 and after. These are the Taifafeki birth doses once the district clinic has verified them, and every dose given in Onesa.
 
-Why: the Onesan schedule engine works on Onesan EPI codes, so each dose must carry one. A dose that came from abroad keeps the issuer's product code beside the Onesan one, added through the ConceptMap and confirmed by the nurse. Nothing the other country said is overwritten. A verified foreign dose is recorded from its primary source, the signing hospital, and its Provenance says how it was verified.
+Why: the schedule engine in Onesa works on the national EPI codes, so each dose must carry one. A dose that came from abroad keeps the issuer's product code beside the national one, added through the ConceptMap and confirmed by the nurse. Nothing the other country said is overwritten. A verified foreign dose is recorded from its primary source, the signing hospital, and its Provenance says how it was verified.
 """
 * status = #completed
 * vaccineCode.coding ^slicing.discriminator.type = #value
@@ -108,7 +108,7 @@ Parent: ServiceRequest
 Id: TrustDemoOnesaReferral
 Title: "Onesa: CHW referral to verify foreign cards"
 Description: """
-How it is used: J2b. The CHW refers Somsak to the district health center to have his foreign cards verified and his doses fitted to the Onesan schedule.
+How it is used: J2b. The CHW refers Somsak to the district health center to have his foreign cards verified and his doses fitted to the schedule of Onesa.
 
 Why: the CHW cannot verify a DVC on the phone, but the clinic can. The referral points at the reported doses it is about, so the clinic knows exactly what to check, and the CHW can see when it is done.
 """
@@ -138,7 +138,7 @@ Parent: AuditEvent
 Id: TrustDemoOnesaVhlAccess
 Title: "Onesa: every VHL access logged at home"
 Description: """
-How it is used: J4.1. The Onesan national gateway records each attempt by a clinic abroad to fetch a family member's VHL manifest, the refused ones included.
+How it is used: J4.1. The national gateway of Onesa records each attempt by a clinic abroad to fetch a family member's VHL manifest, the refused ones included.
 
 Why: the family shares a link, not a copy, and the data stays in Onesa. Logging every access at home, following IHE Basic Audit Log Patterns, is what lets the family and the ministry see who looked, from where and when. A wrong passcode is logged too.
 """

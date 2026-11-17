@@ -2,7 +2,7 @@
 // Somsak is born; Dr Anan gives the Hep B and BCG birth doses; the
 // hospital records them under its own hospital number and prints one signed
 // DVC (HCERT, XXR's key, kid 916ffa567c0f44a2) per dose. These are the Taifafeki
-// records behind those cards; the Onesan records of the same doses are in J2
+// records behind those cards; the records in Onesa of the same doses are in J2
 // (reported) and J3 (verified).
 
 Alias: $ThHn = http://smart.who.int/trust-demo/sid/xxr-kesaro-hn
@@ -11,7 +11,7 @@ Alias: $cvx = http://hl7.org/fhir/sid/cvx
 Instance: TrustDemoTaifafekiSomsak
 InstanceOf: TrustDemoTaifafekiPatient
 Title: "Taifafeki: Somsak at the birth hospital (hospital number)"
-Description: "Somsak as Kesaro Provincial Hospital registers him on the day he is born: a hospital number and no Taifafeki citizen id, since his parents are Onesan. The same child is TrustDemoSomsak in Onesa. Fictional."
+Description: "Somsak as Kesaro Provincial Hospital registers him on the day he is born: a hospital number and no Taifafeki citizen id, since his parents are from Onesa. The same child is TrustDemoSomsak in Onesa. Fictional."
 Usage: #example
 * identifier[hn].system = $ThHn
 * identifier[hn].value = "CRH-HN-68-104377"

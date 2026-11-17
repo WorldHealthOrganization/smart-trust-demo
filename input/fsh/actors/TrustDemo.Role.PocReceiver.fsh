@@ -21,7 +21,7 @@ The clinic system abroad that scans a VHL, verifies it, fetches the manifest (IT
 
 **In the user scenarios**:
 
-- [J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history](scenarios.html#j41--continuity-across-a-border-a-taifafeki-paediatrician-sees-the-full-history-kesaro-12-months-later): J4.1 A Taifafeki doctor sees the full history
+- [J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history](scenarios.html#j41--continuity-across-a-border-a-paediatrician-in-taifafeki-sees-the-full-history-kesaro-12-months-later): J4.1 A doctor in Taifafeki sees the full history
 
 **On the device screens**: [S8 Foreign Clinic VHL Viewer & Audit Trace (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/)
 

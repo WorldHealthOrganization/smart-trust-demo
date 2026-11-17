@@ -43,7 +43,7 @@ Each is fictional. Their goals, needs and frustrations are kept in `scenarios/ac
 
 #### Dr. Anan (Taifafeki clinician · birth & follow-up, Taifafeki)
 
-Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional.
+Persona: a clinician in Kesaro, Taifafeki, who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional.
 
 - **Goal:** Give a non-Taifafeki baby proper care, at birth and when he returns.
 - **Needs:** A way to issue records that travel with the family; A child's full history at the point of care; Confidence the data is authentic
@@ -62,12 +62,12 @@ Persona: Somsak's father, 29, head of the household in Onesa, who holds the fami
 Persona for J3: the nurse at Lomaru District Health Center in Onesa (Country B), on the clinic's tablet (OHS app, facility configuration). Makes the clinical call when a foreign product has no mapping. Fictional.
 
 - **Goal:** Trust foreign records enough to avoid repeating or missing vaccines.
-- **Needs:** A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesan schedule; Automatic calculation of what is due next
+- **Needs:** A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesa schedule; Automatic calculation of what is due next
 - **Frustrations:** Unfamiliar product names from other countries; Choosing between re-vaccinating and trusting paper blindly
 
 #### Khamla (Mother, Onesa)
 
-Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional.
+Persona: Somsak's mother, 26, a national of Onesa who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional.
 
 - **Goal:** Have Somsak's care recognized at home, without starting over.
 - **Needs:** Proof of the vaccines her baby got abroad; Clear guidance on when to come back; Not to be penalized for giving birth across the border
@@ -75,7 +75,7 @@ Persona: Somsak's mother, 26, an Onesan national who works in Taifafeki (Country
 
 #### Somsak (Baby · the record follows him, Onesa)
 
-The subject of every journey: an Onesan baby boy born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional.
+The subject of every journey: a baby boy from Onesa, born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional.
 
 - **Goal:** Get every vaccine he needs, once, wherever he is.
 - **Needs:** His birth doses to count at home; No repeated or missed vaccines; His history to be there when a doctor needs it

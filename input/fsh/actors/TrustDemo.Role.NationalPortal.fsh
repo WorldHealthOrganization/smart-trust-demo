@@ -22,7 +22,7 @@ The home country's portal that issues each family member's records (IPS, DVCs) a
 **In the user scenarios**:
 
 - [J4.0 — Continuity across a border: one family, one phone](scenarios.html#j40--continuity-across-a-border-one-family-one-phone-onesa-12-months-later): J4.0b Dad creates a link to share at the clinic
-- [J4.1 — Continuity across a border: a Taifafeki paediatrician sees the full history](scenarios.html#j41--continuity-across-a-border-a-taifafeki-paediatrician-sees-the-full-history-kesaro-12-months-later): J4.1 A Taifafeki doctor sees the full history
+- [J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history](scenarios.html#j41--continuity-across-a-border-a-paediatrician-in-taifafeki-sees-the-full-history-kesaro-12-months-later): J4.1 A doctor in Taifafeki sees the full history
 
 **On the device screens**: [S7 VHL QR Display & Passcode Protection (Bounmy's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S7/); [S8 Foreign Clinic VHL Viewer & Audit Trace (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/)
 

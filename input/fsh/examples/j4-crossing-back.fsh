@@ -2,7 +2,7 @@
 // Bounmy's phone, the family wallet holds a profile for each of them; for
 // Somsak he shares a passcode-protected VHL valid for 14 days (J4.0). At a
 // paediatric clinic in Kesaro, Dr Anan scans it, Bounmy says the
-// passcode, and the viewer fetches Somsak's IPS from Onesa; the Onesan gateway
+// passcode, and the viewer fetches Somsak's IPS from Onesa; the Onesa gateway
 // logs the access at home (J4.1). The Bundle follows the IPS document shape
 // (Composition, LOINC 60591-5) and carries the consent it is shared under
 // (an Advance Directives section and a Consent entry), without claiming the IPS profiles, which this
@@ -11,7 +11,7 @@
 Instance: TrustDemoJ4Composition
 InstanceOf: Composition
 Title: "J4.0 Somsak's patient summary (Composition)"
-Description: "The patient summary the Onesan portal assembles for Somsak before the trip: six doses, two from Taifafeki (verified in J3) and four given in Onesa."
+Description: "The patient summary the national portal of Onesa assembles for Somsak before the trip: six doses, two from Taifafeki (verified in J3) and four given in Onesa."
 Usage: #example
 * status = #final
 * type = $loinc#60591-5 "Patient summary Document"
@@ -45,7 +45,7 @@ Usage: #example
 Instance: TrustDemoJ4Ips
 InstanceOf: Bundle
 Title: "J4.0 Somsak's IPS (document Bundle)"
-Description: "The patient summary document behind Somsak's VHL: encrypted by the Onesan portal in J4.0, decrypted by the Kesaro clinic viewer in J4.1. Six doses, two of them from Taifafeki with their original coding kept."
+Description: "The patient summary document behind Somsak's VHL: encrypted by the national portal of Onesa in J4.0, decrypted by the Kesaro clinic viewer in J4.1. Six doses, two of them from Taifafeki with their original coding kept."
 Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:8d3f1c52-6a4e-4b0f-9c1d-2e7a5b9f0c31"
@@ -73,7 +73,7 @@ Usage: #example
 Instance: TrustDemoJ4Consent
 InstanceOf: PHWExplicitConsent
 Title: "J4.0b Bounmy's consent to share Somsak's summary for 14 days"
-Description: "Recorded when Bounmy creates Somsak's VHL (IHE Privacy Consent on FHIR): anyone he gives the QR and the spoken passcode to may read the summary for treatment, for 14 days. The passcode itself is never stored in the record. An explicit consent in the sense of the Personal Health Wallet guide (http://smart.who.int/trust-phw/consent.html): an opt-in (HL7 ActConsentDirective OPTIN) that adds this permission to the opt-in default, the IHE PCF implicit policy Policy-deny, with Bounmy's own act on the family wallet as the evidence. Consent.policyRule names the consent he agreed to, CONSENT-VHL-TREATMENT of the DEMO-VHL trust domain's terms of use (TrustDemoVhlTermsOfUse), with the version of its text he was shown. The IPS carries it as a consent entry, listed in its Advance Directives section; the copy in the IPS is evidence for the clinic, and the Onesan portal enforces the copy in its own record."
+Description: "Recorded when Bounmy creates Somsak's VHL (IHE Privacy Consent on FHIR): anyone he gives the QR and the spoken passcode to may read the summary for treatment, for 14 days. The passcode itself is never stored in the record. An explicit consent in the sense of the Personal Health Wallet guide (http://smart.who.int/trust-phw/consent.html): an opt-in (HL7 ActConsentDirective OPTIN) that adds this permission to the opt-in default, the IHE PCF implicit policy Policy-deny, with Bounmy's own act on the family wallet as the evidence. Consent.policyRule names the consent he agreed to, CONSENT-VHL-TREATMENT of the DEMO-VHL trust domain's terms of use (TrustDemoVhlTermsOfUse), with the version of its text he was shown. The IPS carries it as a consent entry, listed in its Advance Directives section; the copy in the IPS is evidence for the clinic, and the national portal of Onesa enforces the copy in its own record."
 Usage: #example
 * status = #active
 * scope = http://terminology.hl7.org/CodeSystem/consentscope#patient-privacy "Privacy Consent"
@@ -96,7 +96,7 @@ Usage: #example
 Instance: TrustDemoJ41Received
 InstanceOf: TrustDemoTaifafekiVhlReceipt
 Title: "J4.1 provenance of the summary viewed in Kesaro"
-Description: "How the Kesaro clinic viewer obtained Somsak's IPS: it verified the VHL's HCERT against Country B's DSC in its cached trust list, fetched the manifest by ITI-YY5 with an HTTP Message Signature once Bounmy said the passcode, and decrypted the document. Viewed, not copied into a Taifafeki registry."
+Description: "How the Kesaro clinic viewer obtained Somsak's IPS: it verified the VHL's HCERT against Country B's DSC in its cached trust list, fetched the manifest by ITI-YY5 with an HTTP Message Signature once Bounmy said the passcode, and decrypted the document. Viewed, not copied into any registry in Taifafeki."
 Usage: #example
 * target = Reference(TrustDemoJ4Ips)
 * recorded = "2026-10-28T14:30:20+07:00"
@@ -113,7 +113,7 @@ Usage: #example
 Instance: TrustDemoJ41Access
 InstanceOf: TrustDemoOnesaVhlAccess
 Title: "J4.1 access logged in Onesa: manifest released"
-Description: "The record the Onesan gateway keeps when the Kesaro clinic viewer retrieves Somsak's VHL manifest with the right passcode (IHE Basic Audit Log Patterns): who looked, from where, and when."
+Description: "The record the Onesa gateway keeps when the Kesaro clinic viewer retrieves Somsak's VHL manifest with the right passcode (IHE Basic Audit Log Patterns): who looked, from where, and when."
 Usage: #example
 * type = http://dicom.nema.org/resources/ontology/DCM#110112 "Query"
 * subtype.display = "IHE ITI VHL manifest retrieval (ITI-YY5)"

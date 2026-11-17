@@ -1,5 +1,5 @@
 // The people, places and systems the journey examples share. The story is the
-// VaxLink workshop walkthrough's (fredhersch/vaxlink): Somsak SENGMANY, an Onesan
+// VaxLink workshop walkthrough's (fredhersch/vaxlink): Somsak SENGMANY, a baby from Onesa
 // baby born in Taifafeki, followed over his first year. Every person here is
 // fictional (AGENTS.md). Country A, the birth country, is Taifafeki, played on
 // the GDHCN DEV network by test participant XXR; Country B, home, is Onesa,
@@ -96,7 +96,7 @@ Usage: #example
 Instance: TrustDemoChanthason
 InstanceOf: Practitioner
 Title: "Nurse Chanthason (Lomaru District Health Center)"
-Description: "The nurse who verifies the DVCs and fits the Taifafeki doses to the Onesan schedule in J3. Fictional."
+Description: "The nurse who verifies the DVCs and fits the Taifafeki doses to the schedule of Onesa in J3. Fictional."
 Usage: #example
 * name.text = "Nurse Chanthason"
 * name.given = "Chanthason"
@@ -112,7 +112,7 @@ Usage: #example
 Instance: TrustDemoLomaruDhc
 InstanceOf: Organization
 Title: "Lomaru District Health Center, Onesa (Country B)"
-Description: "The district health center of J3 and of Somsak's later Onesan doses."
+Description: "The district health center of J3 and of Somsak's later doses in Onesa."
 Usage: #example
 * name = "Lomaru District Health Center (demonstrator)"
 * contact.address.country = "XXU"
