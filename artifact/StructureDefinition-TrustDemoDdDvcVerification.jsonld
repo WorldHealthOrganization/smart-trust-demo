@@ -26,12 +26,20 @@
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/resources/StructureDefinition/TrustDemoDdDvcVerification.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "6833cd15ae5ef26a44614317aaf44db6679c1a9e"
+    "prov:used": "780469fa75e720423bf7384693350edb9df09aea"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

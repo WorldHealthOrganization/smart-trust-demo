@@ -1,0 +1,590 @@
+{
+  "@context": {
+    "schema": "https://schema.org/"
+  },
+  "@id": "assets/ig-api-hub.json",
+  "@type": "schema:WebAPI",
+  "schema:name": "DAK API",
+  "schema:documentation": "openapi/",
+  "schema:hasPart": [
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdBirthDoseDvc.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdBirthDoseDvc.openapi.json",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdBirthDoseDvc.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdBirthDoseDvc"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdBirthDoseDvc.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdBirthDoseDvc.schema.json",
+      "schema:url": "artifact/StructureDefinition-TrustDemoDdBirthDoseDvc.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdBirthDoseDvc.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdBirthDoseDvc"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdChwReferral.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdChwReferral.openapi.json",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdChwReferral.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdChwReferral"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdChwReferral.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdChwReferral.schema.json",
+      "schema:url": "artifact/StructureDefinition-TrustDemoDdChwReferral.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdChwReferral.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdChwReferral"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdChwRegistration.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdChwRegistration.openapi.json",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdChwRegistration.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdChwRegistration"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdChwRegistration.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdChwRegistration.schema.json",
+      "schema:url": "artifact/StructureDefinition-TrustDemoDdChwRegistration.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdChwRegistration.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdChwRegistration"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdDvcVerification.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdDvcVerification.openapi.json",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdDvcVerification.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdDvcVerification"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdDvcVerification.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdDvcVerification.schema.json",
+      "schema:url": "artifact/StructureDefinition-TrustDemoDdDvcVerification.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdDvcVerification.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdDvcVerification"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdImportedDose.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdImportedDose.openapi.json",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdImportedDose.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdImportedDose"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdImportedDose.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdImportedDose.schema.json",
+      "schema:url": "artifact/StructureDefinition-TrustDemoDdImportedDose.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdImportedDose.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdImportedDose"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdVhlAccess.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdVhlAccess.openapi.json",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdVhlAccess.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdVhlAccess"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdVhlAccess.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdVhlAccess.schema.json",
+      "schema:url": "artifact/StructureDefinition-TrustDemoDdVhlAccess.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdVhlAccess.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdVhlAccess"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdVhlShare.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdVhlShare.openapi.json",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdVhlShare.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdVhlShare"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-TrustDemoDdVhlShare.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/StructureDefinition-TrustDemoDdVhlShare.schema.json",
+      "schema:url": "artifact/StructureDefinition-TrustDemoDdVhlShare.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-TrustDemoDdVhlShare.html",
+        "schema:identifier": "StructureDefinition/TrustDemoDdVhlShare"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoCodeMappingBasisVS.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoCodeMappingBasisVS.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoCodeMappingBasisVS.html",
+        "schema:identifier": "ValueSet/TrustDemoCodeMappingBasisVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoCodeMappingBasisVS.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoCodeMappingBasisVS.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoCodeMappingBasisVS.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoCodeMappingBasisVS.html",
+        "schema:identifier": "ValueSet/TrustDemoCodeMappingBasisVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoCodeMappingBasisVS.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoCodeMappingBasisVS.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoCodeMappingBasisVS.html",
+        "schema:identifier": "ValueSet/TrustDemoCodeMappingBasisVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoCodeMappingBasisVS.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoCodeMappingBasisVS.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoCodeMappingBasisVS.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoCodeMappingBasisVS.html",
+        "schema:identifier": "ValueSet/TrustDemoCodeMappingBasisVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoDvcOutcomeVS.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoDvcOutcomeVS.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoDvcOutcomeVS.html",
+        "schema:identifier": "ValueSet/TrustDemoDvcOutcomeVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoDvcOutcomeVS.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoDvcOutcomeVS.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoDvcOutcomeVS.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoDvcOutcomeVS.html",
+        "schema:identifier": "ValueSet/TrustDemoDvcOutcomeVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoDvcOutcomeVS.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoDvcOutcomeVS.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoDvcOutcomeVS.html",
+        "schema:identifier": "ValueSet/TrustDemoDvcOutcomeVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoDvcOutcomeVS.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoDvcOutcomeVS.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoDvcOutcomeVS.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoDvcOutcomeVS.html",
+        "schema:identifier": "ValueSet/TrustDemoDvcOutcomeVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoOnesaEpiScheduleCodes.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoOnesaEpiScheduleCodes.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoOnesaEpiScheduleCodes.html",
+        "schema:identifier": "ValueSet/TrustDemoOnesaEpiScheduleCodes"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoOnesaEpiScheduleCodes.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoOnesaEpiScheduleCodes.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoOnesaEpiScheduleCodes.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoOnesaEpiScheduleCodes.html",
+        "schema:identifier": "ValueSet/TrustDemoOnesaEpiScheduleCodes"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoOnesaEpiScheduleCodes.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoOnesaEpiScheduleCodes.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoOnesaEpiScheduleCodes.html",
+        "schema:identifier": "ValueSet/TrustDemoOnesaEpiScheduleCodes"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoOnesaEpiScheduleCodes.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoOnesaEpiScheduleCodes.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoOnesaEpiScheduleCodes.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoOnesaEpiScheduleCodes.html",
+        "schema:identifier": "ValueSet/TrustDemoOnesaEpiScheduleCodes"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoTrustDomains.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoTrustDomains.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoTrustDomains.html",
+        "schema:identifier": "ValueSet/TrustDemoTrustDomains"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoTrustDomains.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoTrustDomains.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoTrustDomains.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoTrustDomains.html",
+        "schema:identifier": "ValueSet/TrustDemoTrustDomains"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoTrustDomains.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoTrustDomains.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoTrustDomains.html",
+        "schema:identifier": "ValueSet/TrustDemoTrustDomains"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoTrustDomains.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoTrustDomains.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoTrustDomains.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoTrustDomains.html",
+        "schema:identifier": "ValueSet/TrustDemoTrustDomains"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVaccineProducts.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVaccineProducts.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVaccineProducts.html",
+        "schema:identifier": "ValueSet/TrustDemoVaccineProducts"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVaccineProducts.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVaccineProducts.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoVaccineProducts.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVaccineProducts.html",
+        "schema:identifier": "ValueSet/TrustDemoVaccineProducts"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVaccineProducts.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVaccineProducts.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVaccineProducts.html",
+        "schema:identifier": "ValueSet/TrustDemoVaccineProducts"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVaccineProducts.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVaccineProducts.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoVaccineProducts.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVaccineProducts.html",
+        "schema:identifier": "ValueSet/TrustDemoVaccineProducts"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationFailureReasonVS.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationFailureReasonVS.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationFailureReasonVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationFailureReasonVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationFailureReasonVS.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationFailureReasonVS.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoVerificationFailureReasonVS.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationFailureReasonVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationFailureReasonVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationFailureReasonVS.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationFailureReasonVS.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationFailureReasonVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationFailureReasonVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationFailureReasonVS.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationFailureReasonVS.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoVerificationFailureReasonVS.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationFailureReasonVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationFailureReasonVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationResultVS.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationResultVS.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationResultVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationResultVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationResultVS.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationResultVS.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoVerificationResultVS.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationResultVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationResultVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationResultVS.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationResultVS.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationResultVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationResultVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationResultVS.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationResultVS.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoVerificationResultVS.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationResultVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationResultVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationStepVS.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationStepVS.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationStepVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationStepVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationStepVS.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationStepVS.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoVerificationStepVS.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationStepVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationStepVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationStepVS.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationStepVS.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationStepVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationStepVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVerificationStepVS.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVerificationStepVS.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoVerificationStepVS.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVerificationStepVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVerificationStepVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVhlRefusalReasonVS.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVhlRefusalReasonVS.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVhlRefusalReasonVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVhlRefusalReasonVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVhlRefusalReasonVS.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVhlRefusalReasonVS.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoVhlRefusalReasonVS.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVhlRefusalReasonVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVhlRefusalReasonVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVhlRefusalReasonVS.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVhlRefusalReasonVS.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVhlRefusalReasonVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVhlRefusalReasonVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVhlRefusalReasonVS.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVhlRefusalReasonVS.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoVhlRefusalReasonVS.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVhlRefusalReasonVS.html",
+        "schema:identifier": "ValueSet/TrustDemoVhlRefusalReasonVS"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVhlTermsOfUse.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVhlTermsOfUse.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVhlTermsOfUse.html",
+        "schema:identifier": "ValueSet/TrustDemoVhlTermsOfUse"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVhlTermsOfUse.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVhlTermsOfUse.jsonld",
+      "schema:url": "artifact/ValueSet-TrustDemoVhlTermsOfUse.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVhlTermsOfUse.html",
+        "schema:identifier": "ValueSet/TrustDemoVhlTermsOfUse"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVhlTermsOfUse.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVhlTermsOfUse.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVhlTermsOfUse.html",
+        "schema:identifier": "ValueSet/TrustDemoVhlTermsOfUse"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-TrustDemoVhlTermsOfUse.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/sidecars/ValueSet-TrustDemoVhlTermsOfUse.schema.json",
+      "schema:url": "artifact/ValueSet-TrustDemoVhlTermsOfUse.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-TrustDemoVhlTermsOfUse.html",
+        "schema:identifier": "ValueSet/TrustDemoVhlTermsOfUse"
+      }
+    }
+  ],
+  "schema:workExample": [
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "LogicalModels.schema.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/site/LogicalModels.schema.json"
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSets.schema.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/b13a0ed63b00de2ae0bfe56f61b44b4ea61e1e76/ig-api/site/ValueSets.schema.json"
+    }
+  ]
+}

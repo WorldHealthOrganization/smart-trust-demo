@@ -1,7 +1,7 @@
 {
  "$schema": "fhir-harness/page-render-qa/v1",
- "generatedAt": "2026-11-17T18:45:06.882Z",
- "scanned": 213,
+ "generatedAt": "2026-11-17T18:51:24.954Z",
+ "scanned": 214,
  "unfinished": [],
  "findings": [
   {
@@ -10,6 +10,34 @@
     "bold"
    ],
    "excerpt": "Our use case (8 min): A child vaccinated in ___ should be able to ___ in ___."
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://terminology.hl7.org/ValueSet/v3-PurposeOfUse]'. It m"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://terminology.hl7.org/ValueSet/v3-PurposeOfUse]'. It m"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://terminology.hl7.org/ValueSet/v3-PurposeOfUse]'. It m"
+  },
+  {
+   "page": "qa.html",
+   "markup": [
+    "code"
+   ],
+   "excerpt": "There are multiple different potential matches for the url '[http://terminology.hl7.org/ValueSet/v3-PurposeOfUse]'. It m"
   }
  ]
 }
