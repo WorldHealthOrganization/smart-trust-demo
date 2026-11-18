@@ -1,7 +1,7 @@
 {
   "$schema": "ig-content-qa-verdict/v1",
   "items": 2033,
-  "contentDigest": "sha256:6b7bb94bffa58f37521cdf706131412b7f3068ac93561e0c3cd33fc00c931e06",
+  "contentDigest": "sha256:d85c02ca06768fe949dfa022f6d4e03eb2f80e35899896dd38b5cfb90c81fe78",
   "patternHits": [],
   "reviewedDigest": "sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7",
   "reviewer": {
@@ -383,6 +383,10 @@
       "field": "page"
     },
     {
+      "where": "input/pagecontent/business-processes.md",
+      "field": "page"
+    },
+    {
       "where": "input/pagecontent/changes.md",
       "field": "page"
     },
@@ -599,5 +603,5 @@
       "field": "page"
     }
   ],
-  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:6b7bb94bffa58f37521cdf706131412b7f3068ac93561e0c3cd33fc00c931e06 (2033); published anyway, with no pattern hit; 146 text(s) not reviewed:\n  Basic/TrustDemo.Role.BirthClinicSystem extension[9].valueMarkdown\n  Basic/TrustDemo.Role.BirthClinicVaccinator extension[9].valueMarkdown\n  Basic/TrustDemo.Role.Caregiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.ChwApp extension[9].valueMarkdown\n  Basic/TrustDemo.Role.CommunityHealthWorker extension[9].valueMarkdown\n  Basic/TrustDemo.Role.FamilyPhone extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicEhr extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.IssuerKey extension[9].valueMarkdown\n  Basic/TrustDemo.Role.NationalPortal extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocReceiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.SubjectOfCare extension[9].valueMarkdown\n  Bundle/TrustDemoJ4Ips entry[2].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[3].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[4].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[5].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[6].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[7].resource.text.div\n  Immunization/TrustDemoJ1Bcg text.div\n  … and 126 more (the verdict lists every one); an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
+  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:d85c02ca06768fe949dfa022f6d4e03eb2f80e35899896dd38b5cfb90c81fe78 (2033); published anyway, with no pattern hit; 147 text(s) not reviewed:\n  Basic/TrustDemo.Role.BirthClinicSystem extension[9].valueMarkdown\n  Basic/TrustDemo.Role.BirthClinicVaccinator extension[9].valueMarkdown\n  Basic/TrustDemo.Role.Caregiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.ChwApp extension[9].valueMarkdown\n  Basic/TrustDemo.Role.CommunityHealthWorker extension[9].valueMarkdown\n  Basic/TrustDemo.Role.FamilyPhone extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicEhr extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.IssuerKey extension[9].valueMarkdown\n  Basic/TrustDemo.Role.NationalPortal extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocReceiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.SubjectOfCare extension[9].valueMarkdown\n  Bundle/TrustDemoJ4Ips entry[2].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[3].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[4].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[5].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[6].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[7].resource.text.div\n  Immunization/TrustDemoJ1Bcg text.div\n  … and 127 more (the verdict lists every one); an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
 }
