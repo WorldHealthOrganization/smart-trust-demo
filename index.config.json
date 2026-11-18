@@ -29,7 +29,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "54484a85b464e2cbc1d26d41c40f32d4a1f7bf0f",
+          "ref": "5f2558de7820ee6812efc4bf220a1ce6602e8b7e",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -44,9 +44,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-17",
-              "ref": "54484a85b464e2cbc1d26d41c40f32d4a1f7bf0f",
-              "evidence": "litlfred 2026-11-17 ~23:52Z, in session session_01EucfRn2hmBbRNLTgxehoZV: 're-pin fhir-harness and folio-assistant-core to main too' (smart-trust-demo#41, so lock:coherence:check passes)"
+              "on": "2026-11-18",
+              "ref": "5f2558de7820ee6812efc4bf220a1ce6602e8b7e",
+              "evidence": "litlfred 2026-11-18, AskUserQuestion card in session session_01EucfRqV2dGc9cS3yHU81kC: 'Yes, all four (Recommended)' — re-pin cat-harness, folio-assistant-core, smart-base and who-iris to main with the cat-harness-tools re-pin in smart-trust-demo#47 (workshop calendar, cat-harness-tools#2444), so lock:freshness passes"
             }
           }
         }
@@ -57,7 +57,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "72b0bc13606ea3ca2e1ec0a064a36a04835eb7bb",
+          "ref": "dc97a6bc1aa3643e9dbf8213574225decb7e0e73",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -72,9 +72,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-17",
-              "ref": "72b0bc13606ea3ca2e1ec0a064a36a04835eb7bb",
-              "evidence": "litlfred 2026-11-17 ~19:25Z, AskUserQuestion card in session session_01EucfRn2hmBbRNLTgxehoZV: 'Yes, both in #41 (Recommended)' — re-pin cat-harness and cat-harness-tools to main in smart-trust-demo#41 with the fhir-harness#459 re-pin, so lock:coherence:check passes"
+              "on": "2026-11-18",
+              "ref": "dc97a6bc1aa3643e9dbf8213574225decb7e0e73",
+              "evidence": "litlfred 2026-11-18, AskUserQuestion card in session session_01EucfRqV2dGc9cS3yHU81kC: 'Yes, all four (Recommended)' — re-pin cat-harness, folio-assistant-core, smart-base and who-iris to main with the cat-harness-tools re-pin in smart-trust-demo#47 (workshop calendar, cat-harness-tools#2444), so lock:freshness passes"
             }
           }
         }
@@ -85,7 +85,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d",
+          "ref": "976c22c4ac82416fcbb533586ce396910998e31c",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -97,9 +97,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-17",
-              "ref": "7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d",
-              "evidence": "litlfred 2026-11-17 ~19:25Z, AskUserQuestion card in session session_01EucfRn2hmBbRNLTgxehoZV: 'Yes, both in #41 (Recommended)' — re-pin cat-harness and cat-harness-tools to main in smart-trust-demo#41 with the fhir-harness#459 re-pin, so lock:coherence:check passes"
+              "on": "2026-11-18",
+              "ref": "976c22c4ac82416fcbb533586ce396910998e31c",
+              "evidence": "Owner consent to tools re-pins in this window (owner request relayed 2026-11-18, confirmed by the user in this session): smart-trust-demo takes litlfred/cat-harness-tools#2444 (workshop.schedule and the journeys viewer's calendar), merged as 976c22c4."
             }
           }
         }
@@ -157,7 +157,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
+          "ref": "bc7e22c3f6ee56bcf59b4f9a24edfa34df8ab707",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -181,9 +181,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-16",
-              "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-18",
+              "ref": "bc7e22c3f6ee56bcf59b4f9a24edfa34df8ab707",
+              "evidence": "litlfred 2026-11-18, AskUserQuestion card in session session_01EucfRqV2dGc9cS3yHU81kC: 'Yes, all four (Recommended)' — re-pin cat-harness, folio-assistant-core, smart-base and who-iris to main with the cat-harness-tools re-pin in smart-trust-demo#47 (workshop calendar, cat-harness-tools#2444), so lock:freshness passes"
             }
           }
         }
@@ -194,7 +194,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "6485bbf6c0ef6550796c27cf3dd921230db3c60d",
+          "ref": "0eb6c52ec3524f9ad6f139a28e1cb3a26882f71e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -230,9 +230,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-17",
-              "ref": "6485bbf6c0ef6550796c27cf3dd921230db3c60d",
-              "evidence": "litlfred 2026-11-17 ~17:40Z, AskUserQuestion card in session session_01EucfRmoifSn3y5VFa3kXuQ: 'Yes, all five (Recommended)' — re-pin cat-harness-tools, fhir-harness, cat-harness, folio-assistant-core and smart-base to main for smart-trust-demo#38 (workshop canvas; viewer #2404-#2409, fhir-harness#457)"
+              "on": "2026-11-18",
+              "ref": "0eb6c52ec3524f9ad6f139a28e1cb3a26882f71e",
+              "evidence": "litlfred 2026-11-18, AskUserQuestion card in session session_01EucfRqV2dGc9cS3yHU81kC: 'Yes, all four (Recommended)' — re-pin cat-harness, folio-assistant-core, smart-base and who-iris to main with the cat-harness-tools re-pin in smart-trust-demo#47 (workshop calendar, cat-harness-tools#2444), so lock:freshness passes"
             }
           }
         }
