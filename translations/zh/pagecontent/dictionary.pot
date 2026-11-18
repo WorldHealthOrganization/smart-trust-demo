@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-11T09:10:10.596Z\n"
+"POT-Creation-Date: 2026-11-18T11:00:19.620Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: zh\n"
@@ -14,1851 +14,1075 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/dictionary.md:137
-msgid "(example)"
+#: input/pagecontent/dictionary.md:33
+#: input/pagecontent/dictionary.md:34
+#: input/pagecontent/dictionary.md:36
+msgid "(extensible)"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:181
-msgid "(preferred)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:91
+#: input/pagecontent/dictionary.md:39
+#: input/pagecontent/dictionary.md:86
+#: input/pagecontent/dictionary.md:108
 msgid "(required)"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:15
-msgid "<a0>Consent TrustDemoJ4Consent</a0>, <a1>Bundle TrustDemoJ4Ips</a1>"
+#: input/pagecontent/dictionary.md:16
+msgid "<a0>Bundle TrustDemoJ4Ips</a0>, <a1>Consent TrustDemoJ4Consent</a1>, <a2>StructureDefinition TrustDemoOnesaVhlAccess</a2>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:197
+#: input/pagecontent/dictionary.md:151
 msgid "<a0>How an imported dose got its national schedule code</a0>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:10
-#, python-brace-format
-msgid "<a0>J1 Issue the newborn's birth-dose DVCs in Country A</a0>: Build one DVCMinPreQual payload per dose ({code0}); Prepare: CWT claims and the COSE Sig_structure ({code1}); Sign the bytes with XXR's DSC key ({code2})"
+#: input/pagecontent/dictionary.md:16
+msgid "<a0>IHE ITI Verifiable Health Links (VHL)</a0>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:13
+msgid "<a0>J1 CWT CBOR Web Token (CWT)</a0>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:12
+msgid "<a0>J1 DVCMinPreQual DVC HCERT payload (PreQual)</a0>"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:12
 #, python-brace-format
-msgid "<a0>J2 Discover and refer an unregistered infant in Country B</a0>: Create a referral to the home clinic for verification ({code0})<a1>J3 Verify, import and schedule at the home clinic</a1>: Scan the QRs and open the referral ({code1})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:11
-#, python-brace-format
-msgid "<a0>J2 Discover and refer an unregistered infant in Country B</a0>: Read each DVC unverified (triage) ({code0}); Add the infant; save doses as reported ({code1})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:14
-#, python-brace-format
-msgid "<a0>J3 Verify, import and schedule at the home clinic</a0>: Add national codes beside foreign ones ({code0}); Evaluate the national schedule ({code1}); Give due doses and book the next visit ({code2})"
+msgid "<a0>J1 Issue the newborn's birth-dose DVCs in Country A</a0>: Build one DVCMinPreQual payload per dose ({code0})<a1>J2 Discover and refer an unregistered infant in Country B</a1>: Read each DVC unverified (triage) ({code1})<a2>J3 Verify, import and schedule at the home clinic</a2>: Verify each HCERT against the trust list ({code2})"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:13
 #, python-brace-format
-msgid "<a0>J3 Verify, import and schedule at the home clinic</a0>: Verify each HCERT against the trust list ({code0}); Every DVC verified? ({code1}); Note the failure; decide doses by policy ({code2}); Import the doses as FHIR Immunization resources ({code3})"
+msgid "<a0>J1 Issue the newborn's birth-dose DVCs in Country A</a0>: Prepare: CWT claims and the COSE Sig_structure ({code0}); Sign the bytes with XXR's DSC key ({code1})<a1>J3 Verify, import and schedule at the home clinic</a1>: Verify each HCERT against the trust list ({code2}); Every DVC verified? ({code3}); Note the failure; decide doses by policy ({code4})"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:14
+#, python-brace-format
+msgid "<a0>J2 Discover and refer an unregistered infant in Country B</a0>: Add the infant; save doses as reported ({code0})<a1>J3 Verify, import and schedule at the home clinic</a1>: Evaluate the national schedule ({code1})"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:15
 #, python-brace-format
-msgid "<a0>J4.0 Issue the family's records to one phone as VHLs</a0>: Assemble each member's IPS and DVCs ({code0}); Encrypt, publish a passcode manifest ({code1})"
+msgid "<a0>J2 Discover and refer an unregistered infant in Country B</a0>: Add the infant; save doses as reported ({code0})<a1>J3 Verify, import and schedule at the home clinic</a1>: Import the doses as FHIR Immunization resources ({code1}); Add national codes beside foreign ones ({code2}); Evaluate the national schedule ({code3}); Give due doses and book the next visit ({code4})"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:14
+msgid "<a0>J2 IMMZC4 IMMZ.C4 Create client record (= IMMZ.C5.3 Update client details)</a0>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:15
+msgid "<a0>J3 IMMZImmunization IMMZ Immunization</a0>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:16
+msgid "<a0>J4 VHLPayload VHL Payload</a0>"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:16
 #, python-brace-format
-msgid "<a0>J4.1 Read a family member's records at the point of care abroad</a0>: Request the manifest (ITI-YY5), signed ({code0}); Check passcode, log access, return manifest ({code1})"
+msgid "<a0>J4.0 Issue the family's records to one phone as VHLs</a0>: Choose who to share, with a passcode and an expiry ({code0}); Encrypt, publish a passcode manifest ({code1}); Prepare the HCERT carrying the VHL at key 5 ({code2})<a1>J4.1 Read a family member's records at the point of care abroad</a1>: Verify the HCERT and read the VHL at key 5 ({code3}); Request the manifest (ITI-YY5), signed ({code4}); Check passcode, log access, return manifest ({code5})"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:11
-msgid "<a0>Questionnaire TrustDemoHouseholdRegistration</a0>, <a1>StructureDefinition TrustDemoOnesaRegistration</a1>, <a2>StructureDefinition TrustDemoOnesaHousehold</a2>, <a3>StructureDefinition TrustDemoOnesaPatient</a3>, <a4>StructureDefinition TrustDemoOnesaReportedImmunization</a4>, <a5>QuestionnaireResponse TrustDemoJ2Registration</a5>, <a6>Group TrustDemoHousehold</a6>, <a7>Immunization TrustDemoJ2HepBReported</a7>, <a8>Immunization TrustDemoJ2BcgReported</a8>"
+#: input/pagecontent/dictionary.md:14
+msgid "<a0>Questionnaire TrustDemoHouseholdRegistration</a0>, <a1>QuestionnaireResponse TrustDemoJ2Registration</a1>, <a2>StructureDefinition TrustDemoOnesaRegistration</a2>, <a3>StructureDefinition TrustDemoOnesaPatient</a3>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:193
+#: input/pagecontent/dictionary.md:147
 msgid "<a0>Result of reading a DVC</a0>"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:13
-msgid "<a0>StructureDefinition TrustDemoOnesaDvcVerification</a0>, <a1>StructureDefinition TrustDemoOnesaImmunization</a1>, <a2>Provenance TrustDemoJ3Verification</a2>, <a3>Immunization TrustDemoJ3HepB</a3>, <a4>Immunization TrustDemoJ3Bcg</a4>"
+msgid "<a0>StructureDefinition TrustDemoOnesaDvcVerification</a0>, <a1>Provenance TrustDemoJ3Verification</a1>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:14
-msgid "<a0>StructureDefinition TrustDemoOnesaImmunization</a0>, <a1>ConceptMap TrustDemoProductToOnesaEpi</a1>, <a2>Provenance TrustDemoJ3Adjudication</a2>, <a3>PlanDefinition TrustDemoOnesaInfantSchedule</a3>, <a4>ImmunizationRecommendation TrustDemoJ3Recommendation</a4>, <a5>Task TrustDemoJ3Reminder</a5>"
+#: input/pagecontent/dictionary.md:15
+msgid "<a0>StructureDefinition TrustDemoOnesaImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaReportedImmunization</a1>, <a2>Immunization TrustDemoJ2HepBReported</a2>, <a3>Immunization TrustDemoJ2BcgReported</a3>, <a4>Immunization TrustDemoJ3HepB</a4>, <a5>Immunization TrustDemoJ3Bcg</a5>"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:12
-msgid "<a0>StructureDefinition TrustDemoOnesaReferral</a0>, <a1>ServiceRequest TrustDemoJ2Referral</a1>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:16
-msgid "<a0>StructureDefinition TrustDemoOnesaVhlAccess</a0>, <a1>AuditEvent TrustDemoJ41Access</a1>, <a2>AuditEvent TrustDemoJ41WrongPasscode</a2>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:10
 msgid "<a0>StructureDefinition TrustDemoTaifafekiPatient</a0>, <a1>StructureDefinition TrustDemoTaifafekiImmunization</a1>, <a2>Patient TrustDemoTaifafekiSomsak</a2>, <a3>Immunization TrustDemoJ1HepB</a3>, <a4>Immunization TrustDemoJ1Bcg</a4>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:10
-msgid "<a0>TD.J1 Birth-dose DVC</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:11
-msgid "<a0>TD.J2A Newborn registration on a home visit</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:12
-msgid "<a0>TD.J2B Referral for verification</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:13
-msgid "<a0>TD.J3A DVC verification and import</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:14
-msgid "<a0>TD.J3B Imported dose and schedule</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:15
-msgid "<a0>TD.J40 Shared link and consent</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:16
-msgid "<a0>TD.J41 Access to a shared link</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:132
-msgid "<a0>TrustDemoCodeMappingBasisVS</a0> (required)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:10
-msgid "<a0>TrustDemoDdBirthDoseDvc</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:12
-msgid "<a0>TrustDemoDdChwReferral</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:11
-msgid "<a0>TrustDemoDdChwRegistration</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:13
-msgid "<a0>TrustDemoDdDvcVerification</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:14
-msgid "<a0>TrustDemoDdImportedDose</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:16
-msgid "<a0>TrustDemoDdVhlAccess</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:15
-msgid "<a0>TrustDemoDdVhlShare</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:71
-#: input/pagecontent/dictionary.md:113
-msgid "<a0>TrustDemoDvcOutcomeVS</a0> (required)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:131
-#: input/pagecontent/dictionary.md:136
-msgid "<a0>TrustDemoOnesaEpiScheduleCodes</a0> (required)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:34
-#: input/pagecontent/dictionary.md:67
-#: input/pagecontent/dictionary.md:130
-msgid "<a0>TrustDemoVaccineProducts</a0> (required)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:111
-msgid "<a0>TrustDemoVerificationFailureReasonVS</a0> (required)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:109
-msgid "<a0>TrustDemoVerificationResultVS</a0> (required)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:110
-msgid "<a0>TrustDemoVerificationStepVS</a0> (required)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:182
-msgid "<a0>TrustDemoVhlRefusalReasonVS</a0> (required)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:195
+#: input/pagecontent/dictionary.md:149
 msgid "<a0>Verification failure reasons</a0>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:194
+#: input/pagecontent/dictionary.md:148
 msgid "<a0>Verification steps</a0>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:196
+#: input/pagecontent/dictionary.md:150
 msgid "<a0>What a scanned DVC becomes in the record</a0>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:198
+#: input/pagecontent/dictionary.md:14
+#: input/pagecontent/dictionary.md:15
+msgid "<a0>WHO Immunization Implementation Guide</a0>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:12
+msgid "<a0>WHO SMART Trust PHW</a0>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:13
+msgid "<a0>WHO SMART Trust</a0>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:152
 msgid "<a0>Why a shared link released nothing</a0>"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:181
-msgid "0 when released; 4 (minor failure) when refused."
-msgstr ""
-
 #: input/pagecontent/dictionary.md:135
-msgid "A dose of the national schedule the evaluation finds due (decision table TD.DT.04)."
+msgid "A short description of what the link shares, for example the member's name."
 msgstr ""
 
-#: input/pagecontent/dictionary.md:91
-msgid "Active until the clinic records an outcome for every dose it lists, then completed (indicator TD.IND.03)."
+#: input/pagecontent/dictionary.md:92
+msgid "Address"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:71
-msgid "Always reported-unverified for a triage read (decision table TD.DT.01); recorded as primarySource false with a note."
+#: input/pagecontent/dictionary.md:88
+msgid "Age"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:181
-msgid "Audit outcome"
+#: input/pagecontent/dictionary.md:60
+msgid "Algorithm (alg)"
 msgstr ""
 
+#: input/pagecontent/dictionary.md:38
+#: input/pagecontent/dictionary.md:59
+#: input/pagecontent/dictionary.md:62
 #: input/pagecontent/dictionary.md:66
-#: input/pagecontent/dictionary.md:135
+#: input/pagecontent/dictionary.md:89
+#: input/pagecontent/dictionary.md:114
+#: input/pagecontent/dictionary.md:137
 msgid "BackboneElement"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:36
+#: input/pagecontent/dictionary.md:43
+#: input/pagecontent/dictionary.md:113
 msgid "Batch number"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:69
-msgid "Batch number (as read)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:28
-#: input/pagecontent/dictionary.md:54
-#: input/pagecontent/dictionary.md:83
-#: input/pagecontent/dictionary.md:103
-#: input/pagecontent/dictionary.md:128
-#: input/pagecontent/dictionary.md:151
-#: input/pagecontent/dictionary.md:173
+#: input/pagecontent/dictionary.md:29
+#: input/pagecontent/dictionary.md:57
+#: input/pagecontent/dictionary.md:80
+#: input/pagecontent/dictionary.md:105
+#: input/pagecontent/dictionary.md:129
 msgid "Binding"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:61
-#: input/pagecontent/dictionary.md:134
-#: input/pagecontent/dictionary.md:160
-#: input/pagecontent/dictionary.md:180
+#: input/pagecontent/dictionary.md:111
 msgid "boolean"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:28
-#: input/pagecontent/dictionary.md:54
-#: input/pagecontent/dictionary.md:83
-#: input/pagecontent/dictionary.md:103
-#: input/pagecontent/dictionary.md:128
-#: input/pagecontent/dictionary.md:151
-#: input/pagecontent/dictionary.md:173
+#: input/pagecontent/dictionary.md:88
+msgid "calculated, not stored"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:29
+#: input/pagecontent/dictionary.md:57
+#: input/pagecontent/dictionary.md:80
+#: input/pagecontent/dictionary.md:105
+#: input/pagecontent/dictionary.md:129
 msgid "Card."
 msgstr ""
 
+#: input/pagecontent/dictionary.md:90
+msgid "Caregiver's full name"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:89
+msgid "Caregivers"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:42
+msgid "Certificate issuer id"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:87
+msgid "Client's date of birth, or an assigned one for administrative purposes."
+msgstr ""
+
 #: input/pagecontent/dictionary.md:85
-msgid "Child"
+msgid "Client's family name or last name."
 msgstr ""
 
-#: input/pagecontent/dictionary.md:58
-msgid "Child's family name"
+#: input/pagecontent/dictionary.md:84
+msgid "Client's first name or given name."
 msgstr ""
 
-#: input/pagecontent/dictionary.md:57
-msgid "Child's given name"
+#: input/pagecontent/dictionary.md:92
+msgid "Client's home address; J2 records the household."
 msgstr ""
 
-#: input/pagecontent/dictionary.md:28
-#: input/pagecontent/dictionary.md:54
-#: input/pagecontent/dictionary.md:83
-#: input/pagecontent/dictionary.md:103
-#: input/pagecontent/dictionary.md:128
-#: input/pagecontent/dictionary.md:151
-#: input/pagecontent/dictionary.md:173
-msgid "Code"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:39
-#: input/pagecontent/dictionary.md:71
 #: input/pagecontent/dictionary.md:91
-#: input/pagecontent/dictionary.md:106
-#: input/pagecontent/dictionary.md:109
-#: input/pagecontent/dictionary.md:110
-#: input/pagecontent/dictionary.md:111
-#: input/pagecontent/dictionary.md:113
-#: input/pagecontent/dictionary.md:132
-#: input/pagecontent/dictionary.md:137
-#: input/pagecontent/dictionary.md:181
-#: input/pagecontent/dictionary.md:182
+msgid "Client's phone number, landline or mobile."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:33
+#: input/pagecontent/dictionary.md:34
+#: input/pagecontent/dictionary.md:36
+#: input/pagecontent/dictionary.md:39
+#: input/pagecontent/dictionary.md:86
+#: input/pagecontent/dictionary.md:107
 msgid "code"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:191
+#: input/pagecontent/dictionary.md:145
 msgid "Code list"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:187
+#: input/pagecontent/dictionary.md:141
 msgid "Code lists"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:191
+#: input/pagecontent/dictionary.md:108
+msgid "CodeableConcept"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:145
 msgid "Codes"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:34
-#: input/pagecontent/dictionary.md:67
-#: input/pagecontent/dictionary.md:130
-#: input/pagecontent/dictionary.md:131
-#: input/pagecontent/dictionary.md:136
-#: input/pagecontent/dictionary.md:159
+#: input/pagecontent/dictionary.md:63
 msgid "Coding"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:133
-msgid "Confirmed by"
+#: input/pagecontent/dictionary.md:107
+msgid "completed for every dose of the journeys."
 msgstr ""
 
-#: input/pagecontent/dictionary.md:183
-msgid "Consent"
+#: input/pagecontent/dictionary.md:91
+msgid "Contact phone number"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:155
-msgid "Consent.controller"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:154
-msgid "Consent.grantor"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:156
-msgid "Consent.provision.data.reference"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:158
-msgid "Consent.provision.period.end"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:157
-msgid "Consent.provision.period.start"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:159
-msgid "Consent.provision.purpose"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:161
-msgid "Consent.status = inactive; not yet realised in the examples"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:153
-msgid "Consent.subject"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:42
-msgid "COSE header kid"
+#: input/pagecontent/dictionary.md:59
+msgid "COSE header"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:60
-msgid "Country of birth"
+msgid "COSE header alg"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:134
-msgid "Counts toward the schedule"
+#: input/pagecontent/dictionary.md:61
+msgid "COSE header kid; TrustDemoOnesaDvcVerification: Provenance.entity.what.display"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:155
-#: input/pagecontent/dictionary.md:178
-msgid "Custodian"
+#: input/pagecontent/dictionary.md:62
+msgid "COSE_Sign1 payload"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:39
-msgid "CWT claim 1 (iss)"
+#: input/pagecontent/dictionary.md:59
+msgid "COSE_Sign1 protected header"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:41
-msgid "CWT claim 4 (exp)"
+#: input/pagecontent/dictionary.md:67
+msgid "COSE_Sign1 signature"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:40
-msgid "CWT claim 6 (iat)"
+#: input/pagecontent/dictionary.md:66
+msgid "CWT claim -260"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:8
+#: input/pagecontent/dictionary.md:63
+msgid "CWT claim 1; TrustDemoOnesaDvcVerification: Provenance.entity.what.display"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:64
+msgid "CWT claim 4"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:65
+msgid "CWT claim 6"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:62
+msgid "CWT payload"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:10
 msgid "Data set"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:31
-#: input/pagecontent/dictionary.md:35
-#: input/pagecontent/dictionary.md:59
-#: input/pagecontent/dictionary.md:68
-#: input/pagecontent/dictionary.md:138
-#: input/pagecontent/dictionary.md:157
-#: input/pagecontent/dictionary.md:158
+#: input/pagecontent/dictionary.md:32
+#: input/pagecontent/dictionary.md:40
 msgid "date"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:31
-#: input/pagecontent/dictionary.md:59
+#: input/pagecontent/dictionary.md:32
+#: input/pagecontent/dictionary.md:87
 msgid "Date of birth"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:35
+#: input/pagecontent/dictionary.md:40
+#: input/pagecontent/dictionary.md:110
 msgid "Date of vaccination"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:68
-msgid "Date of vaccination (as read)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:40
-#: input/pagecontent/dictionary.md:41
 #: input/pagecontent/dictionary.md:64
-#: input/pagecontent/dictionary.md:88
-#: input/pagecontent/dictionary.md:107
-#: input/pagecontent/dictionary.md:112
-#: input/pagecontent/dictionary.md:161
-#: input/pagecontent/dictionary.md:175
+#: input/pagecontent/dictionary.md:65
+#: input/pagecontent/dictionary.md:110
 msgid "dateTime"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:28
-#: input/pagecontent/dictionary.md:54
-#: input/pagecontent/dictionary.md:83
-#: input/pagecontent/dictionary.md:103
-#: input/pagecontent/dictionary.md:128
-#: input/pagecontent/dictionary.md:151
-#: input/pagecontent/dictionary.md:173
+#: input/pagecontent/dictionary.md:133
+msgid "decimal"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:132
+msgid "Decryption key"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:29
+#: input/pagecontent/dictionary.md:57
+#: input/pagecontent/dictionary.md:80
+#: input/pagecontent/dictionary.md:105
+#: input/pagecontent/dictionary.md:129
 msgid "Definition"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:191
+#: input/pagecontent/dictionary.md:145
 msgid "Description"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:184
-msgid "Document released"
+#: input/pagecontent/dictionary.md:86
+msgid "Documentation of a specific instance of sex information for the client."
 msgstr ""
 
-#: input/pagecontent/dictionary.md:135
-msgid "Dose due"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:37
+#: input/pagecontent/dictionary.md:115
 msgid "Dose number"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:66
-msgid "Dose read from a foreign card"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:90
-msgid "Doses to verify"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:138
-msgid "Due date"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:32
-msgid "DVCMinPreQual.gn"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:28
-#: input/pagecontent/dictionary.md:54
-#: input/pagecontent/dictionary.md:83
-#: input/pagecontent/dictionary.md:103
-#: input/pagecontent/dictionary.md:128
-#: input/pagecontent/dictionary.md:151
-#: input/pagecontent/dictionary.md:173
-msgid "Element"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:41
-msgid "Expires at"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:110
-msgid "Failed step"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:111
-msgid "Failure reason"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:137
-msgid "Forecast status"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:61
-msgid "Foreign vaccination cards held"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:154
-msgid "Holder"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:33
-msgid "Hospital number"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:56
-msgid "Household id"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:132
-msgid "How the schedule code was found (decision table TD.DT.02)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:33
-#: input/pagecontent/dictionary.md:56
-#: input/pagecontent/dictionary.md:62
-msgid "Identifier"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:42
-msgid "Identifies the document signer certificate on the trust list that verifies the DVC (J1: 916ffa567c0f44a2)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:135
-msgid "ImmunizationRecommendation.recommendation, as TrustDemoJ3Recommendation"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:138
-msgid "ImmunizationRecommendation.recommendation.dateCriterion (LOINC 30980-7)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:137
-msgid "ImmunizationRecommendation.recommendation.forecastStatus"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:134
-msgid "ImmunizationRecommendation.recommendation.supportingImmunization"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:136
-msgid "ImmunizationRecommendation.recommendation.vaccineCode"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:114
-msgid "Imported dose"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:65
-msgid "Informant"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:40
-msgid "Issued at"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:130
-msgid "Issuer's product code"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:39
-#: input/pagecontent/dictionary.md:106
-msgid "Issuing country"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:8
-msgid "Journey steps"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:42
-#: input/pagecontent/dictionary.md:105
-msgid "Key identifier (kid)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:28
-#: input/pagecontent/dictionary.md:54
-#: input/pagecontent/dictionary.md:83
-#: input/pagecontent/dictionary.md:103
-#: input/pagecontent/dictionary.md:128
-#: input/pagecontent/dictionary.md:151
-#: input/pagecontent/dictionary.md:173
-msgid "Label"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:8
-msgid "Logical model"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:23
-msgid "Logical model: <a0>TrustDemoDdBirthDoseDvc</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:78
-msgid "Logical model: <a0>TrustDemoDdChwReferral</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:49
-msgid "Logical model: <a0>TrustDemoDdChwRegistration</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:98
-msgid "Logical model: <a0>TrustDemoDdDvcVerification</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:123
-msgid "Logical model: <a0>TrustDemoDdImportedDose</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:168
-msgid "Logical model: <a0>TrustDemoDdVhlAccess</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:146
-msgid "Logical model: <a0>TrustDemoDdVhlShare</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:132
-msgid "Mapping basis"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:30
-msgid "Name"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:131
-msgid "National schedule code"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:112
-msgid "not yet realised in the examples"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:110
-#: input/pagecontent/dictionary.md:111
-msgid "not yet realised in the examples (J3's DVCs verify)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:66
-msgid "One dose read from a foreign DVC with the unverified triage read (<a0>STT-VER-011</a0>), saved as reported by the family."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:32
-msgid "Parent or guardian name"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:160
-msgid "Passcode set"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:179
-msgid "Patient"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:133
-msgid "Provenance.agent (attester), as TrustDemoJ3Adjudication"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:159
-msgid "Purpose"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:8
-msgid "Realised by"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:149
-msgid "Realised by: <a0>Consent TrustDemoJ4Consent</a0>, <a1>Bundle TrustDemoJ4Ips</a1>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:52
-msgid "Realised by: <a0>Questionnaire TrustDemoHouseholdRegistration</a0>, <a1>StructureDefinition TrustDemoOnesaRegistration</a1>, <a2>StructureDefinition TrustDemoOnesaHousehold</a2>, <a3>StructureDefinition TrustDemoOnesaPatient</a3>, <a4>StructureDefinition TrustDemoOnesaReportedImmunization</a4>, <a5>QuestionnaireResponse TrustDemoJ2Registration</a5>, <a6>Group TrustDemoHousehold</a6>, <a7>Immunization TrustDemoJ2HepBReported</a7>, <a8>Immunization TrustDemoJ2BcgReported</a8>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:101
-msgid "Realised by: <a0>StructureDefinition TrustDemoOnesaDvcVerification</a0>, <a1>StructureDefinition TrustDemoOnesaImmunization</a1>, <a2>Provenance TrustDemoJ3Verification</a2>, <a3>Immunization TrustDemoJ3HepB</a3>, <a4>Immunization TrustDemoJ3Bcg</a4>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:126
-msgid "Realised by: <a0>StructureDefinition TrustDemoOnesaImmunization</a0>, <a1>ConceptMap TrustDemoProductToOnesaEpi</a1>, <a2>Provenance TrustDemoJ3Adjudication</a2>, <a3>PlanDefinition TrustDemoOnesaInfantSchedule</a3>, <a4>ImmunizationRecommendation TrustDemoJ3Recommendation</a4>, <a5>Task TrustDemoJ3Reminder</a5>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:81
-msgid "Realised by: <a0>StructureDefinition TrustDemoOnesaReferral</a0>, <a1>ServiceRequest TrustDemoJ2Referral</a1>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:171
-msgid "Realised by: <a0>StructureDefinition TrustDemoOnesaVhlAccess</a0>, <a1>AuditEvent TrustDemoJ41Access</a1>, <a2>AuditEvent TrustDemoJ41WrongPasscode</a2>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:26
-msgid "Realised by: <a0>StructureDefinition TrustDemoTaifafekiPatient</a0>, <a1>StructureDefinition TrustDemoTaifafekiImmunization</a1>, <a2>Patient TrustDemoTaifafekiSomsak</a2>, <a3>Immunization TrustDemoJ1HepB</a3>, <a4>Immunization TrustDemoJ1Bcg</a4>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:28
-#: input/pagecontent/dictionary.md:54
-#: input/pagecontent/dictionary.md:83
-#: input/pagecontent/dictionary.md:103
-#: input/pagecontent/dictionary.md:128
-#: input/pagecontent/dictionary.md:151
-#: input/pagecontent/dictionary.md:173
-msgid "Realised in"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:89
-msgid "Reason"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:71
-#: input/pagecontent/dictionary.md:113
-msgid "Record outcome"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:24
-#, python-brace-format
-msgid "Recorded or read in: <a0>J1 Issue the newborn's birth-dose DVCs in Country A</a0>: Build one DVCMinPreQual payload per dose ({code0}); Prepare: CWT claims and the COSE Sig_structure ({code1}); Sign the bytes with XXR's DSC key ({code2})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:79
-#, python-brace-format
-msgid "Recorded or read in: <a0>J2 Discover and refer an unregistered infant in Country B</a0>: Create a referral to the home clinic for verification ({code0}); <a1>J3 Verify, import and schedule at the home clinic</a1>: Scan the QRs and open the referral ({code1})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:50
-#, python-brace-format
-msgid "Recorded or read in: <a0>J2 Discover and refer an unregistered infant in Country B</a0>: Read each DVC unverified (triage) ({code0}); Add the infant; save doses as reported ({code1})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:124
-#, python-brace-format
-msgid "Recorded or read in: <a0>J3 Verify, import and schedule at the home clinic</a0>: Add national codes beside foreign ones ({code0}); Evaluate the national schedule ({code1}); Give due doses and book the next visit ({code2})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:99
-#, python-brace-format
-msgid "Recorded or read in: <a0>J3 Verify, import and schedule at the home clinic</a0>: Verify each HCERT against the trust list ({code0}); Every DVC verified? ({code1}); Note the failure; decide doses by policy ({code2}); Import the doses as FHIR Immunization resources ({code3})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:147
-#, python-brace-format
-msgid "Recorded or read in: <a0>J4.0 Issue the family's records to one phone as VHLs</a0>: Assemble each member's IPS and DVCs ({code0}); Encrypt, publish a passcode manifest ({code1})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:169
-#, python-brace-format
-msgid "Recorded or read in: <a0>J4.1 Read a family member's records at the point of care abroad</a0>: Request the manifest (ITI-YY5), signed ({code0}); Check passcode, log access, return manifest ({code1})"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:156
-#: input/pagecontent/dictionary.md:184
-msgid "Reference(Bundle)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:183
-msgid "Reference(Consent)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:108
-#: input/pagecontent/dictionary.md:176
-#: input/pagecontent/dictionary.md:178
-msgid "Reference(Device)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:90
-#: input/pagecontent/dictionary.md:114
-#: input/pagecontent/dictionary.md:115
-msgid "Reference(Immunization)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:87
-#: input/pagecontent/dictionary.md:155
-msgid "Reference(Organization)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:85
-#: input/pagecontent/dictionary.md:153
-#: input/pagecontent/dictionary.md:179
-msgid "Reference(Patient)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:63
-#: input/pagecontent/dictionary.md:86
-#: input/pagecontent/dictionary.md:133
-msgid "Reference(Practitioner)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:65
-#: input/pagecontent/dictionary.md:70
-#: input/pagecontent/dictionary.md:154
-msgid "Reference(RelatedPerson)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:139
-msgid "Reference(Task)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:91
-msgid "Referral status"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:88
-msgid "Referred at"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:86
-msgid "Referred by"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:87
-msgid "Referred to"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:182
-msgid "Refusal reason"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:64
-msgid "Registered at"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:63
-msgid "Registered by"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:180
-msgid "Released"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:139
-msgid "Reminder"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:70
-msgid "Reported by"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:115
-msgid "Reported dose replaced"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:175
-msgid "Requested at"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:176
-msgid "Requester"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:177
-msgid "Requester network address"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:148
-msgid "Requirements: <a0>STD-ACC-001</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:170
-msgid "Requirements: <a0>STD-ACC-001</a0>, <a1>STT-VHL-005</a1>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:125
-msgid "Requirements: <a0>STD-SEM-001</a0>, <a1>STD-SCH-001</a1>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:25
-msgid "Requirements: <a0>STT-PAY-001</a0>, <a1>STT-PAY-002</a1>, <a2>STT-PAY-003</a2>, <a3>STT-PAY-005</a3>, <a4>STT-CWT-001</a4>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:100
-msgid "Requirements: <a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:80
-msgid "Requirements: <a0>STT-VER-011</a0>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:51
-msgid "Requirements: <a0>STT-VER-011</a0>, <a1>STT-PAY-005</a1>"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:136
-msgid "Schedule dose"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:156
-msgid "Shared document"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:30
-#: input/pagecontent/dictionary.md:32
-#: input/pagecontent/dictionary.md:36
-#: input/pagecontent/dictionary.md:37
-#: input/pagecontent/dictionary.md:38
-#: input/pagecontent/dictionary.md:42
-#: input/pagecontent/dictionary.md:57
-#: input/pagecontent/dictionary.md:58
-#: input/pagecontent/dictionary.md:60
-#: input/pagecontent/dictionary.md:69
-#: input/pagecontent/dictionary.md:89
-#: input/pagecontent/dictionary.md:105
-#: input/pagecontent/dictionary.md:177
-msgid "string"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:153
-msgid "Subject"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:38
-msgid "Supervising clinician"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:139
-msgid "Task, as TrustDemoJ3Reminder"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:19
-msgid "TD.J1 Birth-dose DVC"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:30
-msgid "TD.J1.DE01"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:31
-msgid "TD.J1.DE02"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:32
-msgid "TD.J1.DE03"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:33
-msgid "TD.J1.DE04"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:34
-msgid "TD.J1.DE05"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:35
-msgid "TD.J1.DE06"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:36
-msgid "TD.J1.DE07"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:37
-msgid "TD.J1.DE08"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:38
-msgid "TD.J1.DE09"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:39
-msgid "TD.J1.DE10"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:40
-msgid "TD.J1.DE11"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:41
-msgid "TD.J1.DE12"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:42
-msgid "TD.J1.DE13"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:45
-msgid "TD.J2A Newborn registration on a home visit"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:56
-msgid "TD.J2A.DE01"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:57
-msgid "TD.J2A.DE02"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:58
-msgid "TD.J2A.DE03"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:59
-msgid "TD.J2A.DE04"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:60
-msgid "TD.J2A.DE05"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:61
-msgid "TD.J2A.DE06"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:62
-msgid "TD.J2A.DE07"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:63
-msgid "TD.J2A.DE08"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:64
-msgid "TD.J2A.DE09"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:65
-msgid "TD.J2A.DE10"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:66
-msgid "TD.J2A.DE11"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:67
-msgid "TD.J2A.DE12"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:68
-msgid "TD.J2A.DE13"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:69
-msgid "TD.J2A.DE14"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:70
-msgid "TD.J2A.DE15"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:71
-msgid "TD.J2A.DE16"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:74
-msgid "TD.J2B Referral for verification"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:85
-msgid "TD.J2B.DE01"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:86
-msgid "TD.J2B.DE02"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:87
-msgid "TD.J2B.DE03"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:88
-msgid "TD.J2B.DE04"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:89
-msgid "TD.J2B.DE05"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:90
-msgid "TD.J2B.DE06"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:91
-msgid "TD.J2B.DE07"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:94
-msgid "TD.J3A DVC verification and import"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:105
-msgid "TD.J3A.DE01"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:106
-msgid "TD.J3A.DE02"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:107
-msgid "TD.J3A.DE03"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:108
-msgid "TD.J3A.DE04"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:109
-msgid "TD.J3A.DE05"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:110
-msgid "TD.J3A.DE06"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:111
-msgid "TD.J3A.DE07"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:112
-msgid "TD.J3A.DE08"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:113
-msgid "TD.J3A.DE09"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:114
-msgid "TD.J3A.DE10"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:115
-msgid "TD.J3A.DE11"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:116
-msgid "TD.J3A.DE12"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:119
-msgid "TD.J3B Imported dose and schedule"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:130
-msgid "TD.J3B.DE01"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:131
-msgid "TD.J3B.DE02"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:132
-msgid "TD.J3B.DE03"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:133
-msgid "TD.J3B.DE04"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:134
-msgid "TD.J3B.DE05"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:135
-msgid "TD.J3B.DE06"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:136
-msgid "TD.J3B.DE07"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:137
-msgid "TD.J3B.DE08"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:138
-msgid "TD.J3B.DE09"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:139
-msgid "TD.J3B.DE10"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:142
-msgid "TD.J40 Shared link and consent"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:153
-msgid "TD.J40.DE01"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:154
-msgid "TD.J40.DE02"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:155
-msgid "TD.J40.DE03"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:156
-msgid "TD.J40.DE04"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:157
-msgid "TD.J40.DE05"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:158
-msgid "TD.J40.DE06"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:159
-msgid "TD.J40.DE07"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:160
-msgid "TD.J40.DE08"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:161
-msgid "TD.J40.DE09"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:164
-msgid "TD.J41 Access to a shared link"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:175
-msgid "TD.J41.DE01"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:176
-msgid "TD.J41.DE02"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:177
-msgid "TD.J41.DE03"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:178
-msgid "TD.J41.DE04"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:179
-msgid "TD.J41.DE05"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:180
-msgid "TD.J41.DE06"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:181
-msgid "TD.J41.DE07"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:182
-msgid "TD.J41.DE08"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:183
-msgid "TD.J41.DE09"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:184
-msgid "TD.J41.DE10"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:62
-msgid "Temporary id"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:36
-msgid "The batch (lot) of the vaccine given."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:69
-msgid "The batch number as read from the card."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:33
-msgid "The birth hospital's own identifier for the child. It is not carried in the DVC."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:85
-msgid "The child referred."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:138
-msgid "The child's date of birth plus the schedule action's timing age."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:31
-#: input/pagecontent/dictionary.md:59
-msgid "The child's date of birth."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:58
-msgid "The child's family name."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:57
-msgid "The child's given name."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:30
-msgid "The child's name as the birth hospital records it."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:87
-msgid "The clinic that will verify the cards."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:133
-msgid "The clinician who confirmed an equivalent the map did not cover."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:38
-msgid "The clinician who gave or supervised the dose."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:195
-msgid "The closed set of reasons a DVC fails verification, shared by the Kotlin and Rust HCERT libraries (<a0>STT-VER-008</a0>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:189
-msgid "The code lists the data elements bind to, beside the vaccine code systems of the examples (<a0>TrustDemoVaccineProducts</a0>, <a1>TrustDemoOnesaEpiScheduleCodes</a1>) and FHIR's own."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:86
-msgid "The community health worker who made the referral."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:63
-msgid "The community health worker who registered the child."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:76
-msgid "The community health worker's referral of the child to the home clinic, to verify the foreign cards and fit the doses to the national schedule."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:60
-msgid "The country the child was born in, when abroad."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:4
-#, python-brace-format
-msgid "The data dictionary lists the data each journey records or exchanges, as the <a0>WHO SMART Guidelines DAK</a0> does in its component 5: one data set per step that writes or reads it, each a FHIR logical model whose elements carry a code ({code0}, CodeSystem <a1>TrustDemoDataElements</a1>), a definition, a cardinality and, where the guide has a code list, a binding. Each model's mapping {code1} says where this guide realises the element: in a profile or example, in the DVC payload of WHO SMART Trust PHW ({code2}), or in a CWT or COSE field. The data elements are read by the <a2>decision-support logic</a2> and counted by the <a3>indicators</a3>."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:68
-msgid "The date of vaccination as read from the card."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:35
-msgid "The date the dose was given. The hospital record holds the time as well; the DVC carries the date."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:114
-msgid "The dose recorded from the verified DVC."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:37
-msgid "The dose's number in its series. Recorded by the hospital; the minimal DVC payload does not carry it."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:158
-msgid "The expiry the holder chose; after it the link releases nothing (<a0>STD-ACC-001</a0>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:65
-msgid "The family member who gave the answers."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:70
-msgid "The family member who showed the card: the dose's information source."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:153
-msgid "The family member whose summary is shared."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:157
-msgid "The first day the link may be opened."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:137
-msgid "The forecast for the dose."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:183
-msgid "The holder's consent the request was checked against."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:178
-msgid "The home-country gateway that answered and logged the request."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:155
-msgid "The home-country service that hosts the record and checks every request."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:56
-msgid "The household on the CHW's roster that the child joins."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:62
-msgid "The id the child carries until civil registration catches up."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:67
-msgid "The issuer's product code as read from the card; no national code is added yet."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:105
-msgid "The kid of the DVC verified, which names the signer's certificate."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:109
-msgid "The library's typed result (<a0>STT-VER-008</a0>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:160
-msgid "the link's passcode flag (IHE ITI VHL); not in Consent"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:131
-msgid "The national schedule's antigen-and-dose code, added beside the product code. Absent for an unmapped dose, which the TrustDemoOnesaImmunization profile (onesaEpi 1..1) does not yet represent."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:196
-msgid "The outcome of decision table TD.DT.01 for one scanned DVC."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:197
-msgid "The outcome of decision table TD.DT.02 (<a0>STD-SEM-001</a0>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:32
-msgid "The parent or guardian, for a subject with no identity document such as a newborn (<a0>STT-PAY-005</a0>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:106
-msgid "The participant that signed the DVC (CWT iss)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:156
-msgid "The patient summary the link releases."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:154
-msgid "The person who shares the link and decides who may open it."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:34
-msgid "The product given, as its WHO PreQual product id."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:159
-msgid "The purpose of use the holder allows (J4: treatment)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:176
-msgid "The receiving system abroad that asked for the manifest."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:198
-msgid "The refusal reasons of decision table TD.DT.05 (<a0>STD-ACC-001</a0>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:139
-msgid "The reminder created for the next visit."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:115
-msgid "The reported dose the verified one replaces."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:90
-msgid "The reported doses the clinic is asked to verify."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:136
-msgid "The schedule's antigen-and-dose code of the dose due."
 msgstr ""
 
 #: input/pagecontent/dictionary.md:6
 #, python-brace-format
-msgid "The source is {code0}; the guide's logical models, code lists and this page are generated from it. Every person and value in the examples is fictional."
+msgid "Each element is named {code0} and is listed as its own specification defines it; that specification is the authority, and only the elements the journeys use are shown. \"Realised in\" says where this guide's profiles and examples carry the element. The elements are read by the <a0>decision-support logic</a0> and counted by the <a1>indicators</a1>."
 msgstr ""
 
-#: input/pagecontent/dictionary.md:110
-msgid "The step at which verification stopped, when it failed."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:194
-msgid "The steps of DVC verification in the order they run (<a0>STT-VER-001</a0>), as the HCERT library names them in its typed result (<a1>STT-VER-008</a1>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:184
-msgid "The summary released, when released."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:108
-msgid "The system that verified the DVC."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:116
-msgid "The trust framework the DVC was verified under."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:39
-msgid "The trust-network participant whose key signs the DVC (J1: XXR)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:130
-msgid "The vaccine code as the issuer signed it; kept, never replaced (<a0>STD-SEM-001</a0>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:112
-msgid "Trust list refreshed at"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:116
-msgid "Trust policy"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:60
-msgid "TrustDemoHouseholdRegistration item birthCountry"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:59
-msgid "TrustDemoHouseholdRegistration item birthDate; TrustDemoOnesaPatient: Patient.birthDate"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:58
-msgid "TrustDemoHouseholdRegistration item family; TrustDemoOnesaPatient: Patient.name.family"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:61
-msgid "TrustDemoHouseholdRegistration item foreignCards"
-msgstr ""
-
+#: input/pagecontent/dictionary.md:29
 #: input/pagecontent/dictionary.md:57
-msgid "TrustDemoHouseholdRegistration item given; TrustDemoOnesaPatient: Patient.name.given"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:56
-msgid "TrustDemoHouseholdRegistration item household; TrustDemoOnesaHousehold: Group.identifier[household]"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:109
-msgid "TrustDemoOnesaDvcVerification: Provenance.activity.text"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:108
-msgid "TrustDemoOnesaDvcVerification: Provenance.agent (verifier)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:115
-msgid "TrustDemoOnesaDvcVerification: Provenance.entity (role removal)"
-msgstr ""
-
+#: input/pagecontent/dictionary.md:80
 #: input/pagecontent/dictionary.md:105
-#: input/pagecontent/dictionary.md:106
-msgid "TrustDemoOnesaDvcVerification: Provenance.entity.what.display"
+#: input/pagecontent/dictionary.md:129
+msgid "Element"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:116
-msgid "TrustDemoOnesaDvcVerification: Provenance.policy"
+#: input/pagecontent/dictionary.md:133
+msgid "Expires at"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:107
-msgid "TrustDemoOnesaDvcVerification: Provenance.recorded"
+#: input/pagecontent/dictionary.md:64
+msgid "Expires at (exp)"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:114
-msgid "TrustDemoOnesaDvcVerification: Provenance.target"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:113
-msgid "TrustDemoOnesaImmunization: Immunization.primarySource = true (verified); TrustDemoOnesaDvcVerification: Provenance"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:131
-msgid "TrustDemoOnesaImmunization: Immunization.vaccineCode.coding[onesaEpi]"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:130
-msgid "TrustDemoOnesaImmunization: Immunization.vaccineCode.coding[product]"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:62
-msgid "TrustDemoOnesaPatient: Patient.identifier[temporaryId]"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:88
-msgid "TrustDemoOnesaReferral: ServiceRequest.authoredOn"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:87
-msgid "TrustDemoOnesaReferral: ServiceRequest.performer"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:89
-msgid "TrustDemoOnesaReferral: ServiceRequest.reason.concept.text"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:86
-msgid "TrustDemoOnesaReferral: ServiceRequest.requester"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:91
-msgid "TrustDemoOnesaReferral: ServiceRequest.status"
+#: input/pagecontent/dictionary.md:137
+msgid "Extensions"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:85
-msgid "TrustDemoOnesaReferral: ServiceRequest.subject"
+msgid "Family name"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:90
-msgid "TrustDemoOnesaReferral: ServiceRequest.supportingInfo"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:63
-msgid "TrustDemoOnesaRegistration: QuestionnaireResponse.author"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:64
-msgid "TrustDemoOnesaRegistration: QuestionnaireResponse.authored"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:65
-msgid "TrustDemoOnesaRegistration: QuestionnaireResponse.source"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:66
-msgid "TrustDemoOnesaReportedImmunization: Immunization"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:70
-msgid "TrustDemoOnesaReportedImmunization: Immunization.informationSource"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:69
-msgid "TrustDemoOnesaReportedImmunization: Immunization.lotNumber"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:68
-msgid "TrustDemoOnesaReportedImmunization: Immunization.occurrenceDateTime"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:71
-msgid "TrustDemoOnesaReportedImmunization: Immunization.primarySource = false; TrustDemoOnesaReportedImmunization: Immunization.note"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:67
-msgid "TrustDemoOnesaReportedImmunization: Immunization.vaccineCode"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:178
-msgid "TrustDemoOnesaVhlAccess: AuditEvent.agent (CST).who; TrustDemoOnesaVhlAccess: AuditEvent.source.observer"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:176
-msgid "TrustDemoOnesaVhlAccess: AuditEvent.agent (IRCP).who"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:177
-msgid "TrustDemoOnesaVhlAccess: AuditEvent.agent.networkString"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:183
-#: input/pagecontent/dictionary.md:184
-msgid "TrustDemoOnesaVhlAccess: AuditEvent.entity"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:179
-msgid "TrustDemoOnesaVhlAccess: AuditEvent.entity (role Patient)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:180
-#: input/pagecontent/dictionary.md:181
-msgid "TrustDemoOnesaVhlAccess: AuditEvent.outcome.code"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:182
-msgid "TrustDemoOnesaVhlAccess: AuditEvent.outcome.detail"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:175
-msgid "TrustDemoOnesaVhlAccess: AuditEvent.recorded"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:132
-msgid "TrustDemoProductToOnesaEpi: ConceptMap.group.element (concept-map); Provenance (clinician-confirmed), as TrustDemoJ3Adjudication"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:36
-msgid "TrustDemoTaifafekiImmunization: Immunization.lotNumber; DVCMinPreQual.v.bo"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:35
-msgid "TrustDemoTaifafekiImmunization: Immunization.occurrenceDateTime; DVCMinPreQual.v.dt"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:38
-msgid "TrustDemoTaifafekiImmunization: Immunization.performer.actor; DVCMinPreQual.v.cn"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:37
-msgid "TrustDemoTaifafekiImmunization: Immunization.protocolApplied.doseNumber"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:34
-msgid "TrustDemoTaifafekiImmunization: Immunization.vaccineCode.coding[product]; DVCMinPreQual.v.vp"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:31
-msgid "TrustDemoTaifafekiPatient: Patient.birthDate; DVCMinPreQual.dob"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:33
-msgid "TrustDemoTaifafekiPatient: Patient.identifier[hn]"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:30
-msgid "TrustDemoTaifafekiPatient: Patient.name; DVCMinPreQual.n"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:28
-#: input/pagecontent/dictionary.md:54
-#: input/pagecontent/dictionary.md:83
-#: input/pagecontent/dictionary.md:103
-#: input/pagecontent/dictionary.md:128
-#: input/pagecontent/dictionary.md:151
-#: input/pagecontent/dictionary.md:173
-msgid "Type"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:116
-msgid "uri"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:34
-msgid "Vaccine product"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:67
-msgid "Vaccine product (as read)"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:157
-msgid "Valid from"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:158
-msgid "Valid until"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:109
-msgid "Verification result"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:107
-msgid "Verified at"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:108
-msgid "Verifier"
-msgstr ""
-
-#: input/pagecontent/dictionary.md:21
-msgid "What the birth hospital records for each birth dose and signs into one Digital Vaccination Certificate (DVC, an HCERT) per dose: the payload, the CWT claims and the key that signs it."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:121
-msgid "What the clinic records for each imported dose's vaccine code, and what the national schedule finds due once the doses are counted."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:96
-msgid "What the clinic records when it verifies a foreign DVC against its cached copy of the trust list, and, when the DVC verifies, imports the dose in place of the reported one."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:47
-msgid "What the community health worker records offline when she finds a newborn missing from the household roster: the registration form's answers and each dose read from a foreign card without verifying it."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:113
-msgid "What the DVC becomes in the record (decision table TD.DT.01)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:193
-msgid "What the HCERT library returns for one scanned DVC: a verified result, a failed result naming the step and reason (<a0>STT-VER-008</a0>), or the distinct result of the unverified triage read (<a1>STT-VER-011</a1>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:166
-msgid "What the home country logs for every request to open a shared link, released or refused."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:144
-msgid "What the home country records when the holder shares a family member's summary as a Verifiable Health Link (VHL): who may read what, for how long, and that a passcode protects it."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:41
-msgid "When the DVC stops verifying, where the issuer sets an expiry."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:40
-msgid "When the DVC was signed."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:161
-msgid "When the holder withdrew the link, if they did."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:88
-msgid "When the referral was made."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:64
-msgid "When the registration was captured, on the phone, possibly offline."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:175
-msgid "When the request arrived."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:107
-msgid "When the verification ran."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:112
-msgid "When the verifier last refreshed its cached copy of the trust list; a signer added since then fails with KidNotFound (<a0>STT-VER-006</a0>)."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:177
-msgid "Where the request came from."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:61
-msgid "Whether the family holds vaccination cards from abroad."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:160
-msgid "Whether the holder protected the link with a passcode. The passcode itself is never stored in the record."
-msgstr ""
-
-#: input/pagecontent/dictionary.md:180
-msgid "Whether the manifest was released (decision table TD.DT.05)."
+#: input/pagecontent/dictionary.md:84
+msgid "First name"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:134
-msgid "Whether the schedule counts the dose (decision table TD.DT.03): only doses from a primary source with a national schedule code."
+msgid "Flags"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:179
-msgid "Whose record was asked for."
+#: input/pagecontent/dictionary.md:66
+msgid "Health certificate (hcert)"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:182
-msgid "Why nothing was released, when refused."
+#: input/pagecontent/dictionary.md:42
+msgid "id"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:89
-msgid "Why the child is referred: unverified foreign vaccination cards."
+#: input/pagecontent/dictionary.md:61
+msgid "Identifies the document signer certificate on the trust list that verifies the DVC (J1: 916ffa567c0f44a2)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:116
+msgid "Immunization.location"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:113
+msgid "Immunization.lotNumber"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:110
+msgid "Immunization.occurrenceDateTime"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:109
+msgid "Immunization.patient"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:114
+msgid "Immunization.protocolApplied"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:115
+msgid "Immunization.protocolApplied.doseNumberString"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:107
+msgid "Immunization.status"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:137
+msgid "Implementation-defined extensions."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:112
+msgid "Information source"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:136
+msgid "integer"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:65
+msgid "Issued at (iat)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:63
+msgid "Issuer (iss)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:47
+msgid "J1 CWT CBOR Web Token (CWT)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:19
+msgid "J1 DVCMinPreQual DVC HCERT payload (PreQual)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:70
+msgid "J2 IMMZC4 IMMZ.C4 Create client record (= IMMZ.C5.3 Update client details)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:95
+msgid "J3 IMMZImmunization IMMZ Immunization"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:119
+msgid "J4 VHLPayload VHL Payload"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:10
+msgid "Journey steps"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:61
+msgid "Key identifier (kid)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:134
+msgid "L (long-term) and P (a passcode is required); J4's links carry P."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:29
+#: input/pagecontent/dictionary.md:57
+#: input/pagecontent/dictionary.md:80
+#: input/pagecontent/dictionary.md:105
+#: input/pagecontent/dictionary.md:129
+#: input/pagecontent/dictionary.md:135
+msgid "Label"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:116
+msgid "Location"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:51
+#, python-brace-format
+msgid "Logical model: <a0>CWT</a0>, canonical {code0}"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:23
+#, python-brace-format
+msgid "Logical model: <a0>DVCMinPreQual</a0>, canonical {code0}"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:74
+#, python-brace-format
+msgid "Logical model: <a0>IMMZC4</a0>, canonical {code0}"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:123
+#, python-brace-format
+msgid "Logical model: <a0>VHLPayload</a0>, canonical {code0}"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:131
+msgid "Manifest URL"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:31
+#: input/pagecontent/dictionary.md:83
+msgid "Name"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:36
+msgid "National ID document type"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:35
+msgid "National identification document"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:34
+msgid "Nationality"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:34
+#: input/pagecontent/dictionary.md:36
+#: input/pagecontent/dictionary.md:42
+#: input/pagecontent/dictionary.md:44
+#: input/pagecontent/dictionary.md:132
+#: input/pagecontent/dictionary.md:135
+#: input/pagecontent/dictionary.md:136
+#: input/pagecontent/dictionary.md:137
+#: input/pagecontent/dictionary.md:138
+msgid "not realised in the examples"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:35
+msgid "not realised in the examples (a newborn has none)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:37
+msgid "Parent or guardian name"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:109
+msgid "Patient"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:91
+msgid "Patient.telecom"
 msgstr ""
 
 #: input/pagecontent/dictionary.md:111
-msgid "Why verification stopped, when it failed: the input of decision table TD.DT.01."
+msgid "Primary source"
 msgstr ""
 
-#: input/pagecontent/dictionary.md:161
-msgid "Withdrawn at"
+#: input/pagecontent/dictionary.md:99
+#, python-brace-format
+msgid "Profile: <a0>IMMZImmunization</a0>, canonical {code0}"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:114
+msgid "Protocol applied"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:10
+msgid "Realised by"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:127
+msgid "Realised by: <a0>Bundle TrustDemoJ4Ips</a0>, <a1>Consent TrustDemoJ4Consent</a1>, <a2>StructureDefinition TrustDemoOnesaVhlAccess</a2>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:78
+msgid "Realised by: <a0>Questionnaire TrustDemoHouseholdRegistration</a0>, <a1>QuestionnaireResponse TrustDemoJ2Registration</a1>, <a2>StructureDefinition TrustDemoOnesaRegistration</a2>, <a3>StructureDefinition TrustDemoOnesaPatient</a3>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:55
+msgid "Realised by: <a0>StructureDefinition TrustDemoOnesaDvcVerification</a0>, <a1>Provenance TrustDemoJ3Verification</a1>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:103
+msgid "Realised by: <a0>StructureDefinition TrustDemoOnesaImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaReportedImmunization</a1>, <a2>Immunization TrustDemoJ2HepBReported</a2>, <a3>Immunization TrustDemoJ2BcgReported</a3>, <a4>Immunization TrustDemoJ3HepB</a4>, <a5>Immunization TrustDemoJ3Bcg</a5>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:27
+msgid "Realised by: <a0>StructureDefinition TrustDemoTaifafekiPatient</a0>, <a1>StructureDefinition TrustDemoTaifafekiImmunization</a1>, <a2>Patient TrustDemoTaifafekiSomsak</a2>, <a3>Immunization TrustDemoJ1HepB</a3>, <a4>Immunization TrustDemoJ1Bcg</a4>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:29
+#: input/pagecontent/dictionary.md:57
+#: input/pagecontent/dictionary.md:80
+#: input/pagecontent/dictionary.md:105
+#: input/pagecontent/dictionary.md:129
+msgid "Realised in"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:25
+#, python-brace-format
+msgid "Recorded or read in: <a0>J1 Issue the newborn's birth-dose DVCs in Country A</a0>: Build one DVCMinPreQual payload per dose ({code0}); <a1>J2 Discover and refer an unregistered infant in Country B</a1>: Read each DVC unverified (triage) ({code1}); <a2>J3 Verify, import and schedule at the home clinic</a2>: Verify each HCERT against the trust list ({code2})"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:53
+#, python-brace-format
+msgid "Recorded or read in: <a0>J1 Issue the newborn's birth-dose DVCs in Country A</a0>: Prepare: CWT claims and the COSE Sig_structure ({code0}); Sign the bytes with XXR's DSC key ({code1}); <a1>J3 Verify, import and schedule at the home clinic</a1>: Verify each HCERT against the trust list ({code2}); Every DVC verified? ({code3}); Note the failure; decide doses by policy ({code4})"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:76
+#, python-brace-format
+msgid "Recorded or read in: <a0>J2 Discover and refer an unregistered infant in Country B</a0>: Add the infant; save doses as reported ({code0}); <a1>J3 Verify, import and schedule at the home clinic</a1>: Evaluate the national schedule ({code1})"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:101
+#, python-brace-format
+msgid "Recorded or read in: <a0>J2 Discover and refer an unregistered infant in Country B</a0>: Add the infant; save doses as reported ({code0}); <a1>J3 Verify, import and schedule at the home clinic</a1>: Import the doses as FHIR Immunization resources ({code1}); Add national codes beside foreign ones ({code2}); Evaluate the national schedule ({code3}); Give due doses and book the next visit ({code4})"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:125
+#, python-brace-format
+msgid "Recorded or read in: <a0>J4.0 Issue the family's records to one phone as VHLs</a0>: Choose who to share, with a passcode and an expiry ({code0}); Encrypt, publish a passcode manifest ({code1}); Prepare the HCERT carrying the VHL at key 5 ({code2}); <a1>J4.1 Read a family member's records at the point of care abroad</a1>: Verify the HCERT and read the VHL at key 5 ({code3}); Request the manifest (ITI-YY5), signed ({code4}); Check passcode, log access, return manifest ({code5})"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:116
+msgid "Reference(Location)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:109
+msgid "Reference(Patient)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:112
+msgid "Reference(RelatedPerson)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:89
+msgid "RelatedPerson; TrustDemoOnesaRegistration: QuestionnaireResponse.source"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:90
+msgid "RelatedPerson.name.text"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:126
+msgid "Requirements: <a0>STD-ACC-001</a0>, <a1>STT-VHL-005</a1>, <a2>STT-VHL-009</a2>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:54
+msgid "Requirements: <a0>STT-CWT-001</a0>, <a1>STT-VER-001</a1>, <a2>STT-VER-006</a2>, <a3>STT-VER-008</a3>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:26
+msgid "Requirements: <a0>STT-PAY-001</a0>, <a1>STT-PAY-002</a1>, <a2>STT-PAY-003</a2>, <a3>STT-PAY-005</a3>, <a4>STT-VER-011</a4>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:102
+msgid "Requirements: <a0>STT-VER-006</a0>, <a1>STD-SEM-001</a1>, <a2>STD-SCH-001</a2>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:77
+msgid "Requirements: <a0>STT-VER-011</a0>, <a1>STT-PAY-005</a1>"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:33
+#: input/pagecontent/dictionary.md:86
+msgid "Sex"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:67
+msgid "Signature"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:10
+msgid "Specification"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:124
+#, python-brace-format
+msgid "Specification: <a0>IHE ITI Verifiable Health Links (VHL)</a0>, package {code0} (ci build, branch jul26 (not yet released))"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:75
+#: input/pagecontent/dictionary.md:100
+#, python-brace-format
+msgid "Specification: <a0>WHO Immunization Implementation Guide</a0>, package {code0} (1.0.0)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:24
+#, python-brace-format
+msgid "Specification: <a0>WHO SMART Trust PHW</a0>, package {code0} (0.2.0-litlfred)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:52
+#, python-brace-format
+msgid "Specification: <a0>WHO SMART Trust</a0>, package {code0} (1.5.0)"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:107
+msgid "Status"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:31
+#: input/pagecontent/dictionary.md:35
+#: input/pagecontent/dictionary.md:37
+#: input/pagecontent/dictionary.md:41
+#: input/pagecontent/dictionary.md:43
+#: input/pagecontent/dictionary.md:44
+#: input/pagecontent/dictionary.md:60
+#: input/pagecontent/dictionary.md:61
+#: input/pagecontent/dictionary.md:67
+#: input/pagecontent/dictionary.md:82
+#: input/pagecontent/dictionary.md:83
+#: input/pagecontent/dictionary.md:84
+#: input/pagecontent/dictionary.md:85
+#: input/pagecontent/dictionary.md:87
+#: input/pagecontent/dictionary.md:88
+#: input/pagecontent/dictionary.md:90
+#: input/pagecontent/dictionary.md:91
+#: input/pagecontent/dictionary.md:92
+#: input/pagecontent/dictionary.md:113
+#: input/pagecontent/dictionary.md:115
+#: input/pagecontent/dictionary.md:132
+#: input/pagecontent/dictionary.md:134
+#: input/pagecontent/dictionary.md:135
+#: input/pagecontent/dictionary.md:138
+msgid "string"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:41
+msgid "Supervising clinician"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:132
+msgid "The 32-byte key, base64url, that decrypts the documents the manifest returns."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:43
+#: input/pagecontent/dictionary.md:113
+msgid "The batch (lot) of the vaccine given."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:49
+msgid "The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with Taifafeki's key; J3 checks each against the trust list."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:109
+msgid "The child (IMMZC4)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:72
+msgid "The client record of the WHO Immunization DAK, which also serves its IMMZ.C5.3 Update client details activity. J2's community health worker registers the newborn with it and updates the child's details later; J3's dose schedule is computed from its date of birth."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:88
+msgid "The client's age, calculated from the date of birth and the visit date."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:89
+msgid "The client's caregivers, such as the mother who shows the foreign cards."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:41
+msgid "The clinician who gave or supervised the dose."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:149
+msgid "The closed set of reasons a DVC fails verification, shared by the Kotlin and Rust HCERT libraries (<a0>STT-VER-008</a0>)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:143
+msgid "The code lists the decisions record, beside the vaccine code systems of the examples (<a0>TrustDemoVaccineProducts</a0>, <a1>TrustDemoOnesaEpiScheduleCodes</a1>) and FHIR's own."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:59
+msgid "The COSE header (COSEHeader)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:62
+msgid "The CWT claims (CWTPayload)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:4
+#, python-brace-format
+msgid "The data dictionary lists the data each journey records or exchanges, as the <a0>WHO SMART Guidelines DAK</a0> does in its component 5. This demonstrator defines no data model of its own: it shows how the existing specifications are used, so each data set is a model one of them already publishes. J1 signs the DVC payload of WHO SMART Trust PHW ({code0}) into the CBOR Web Token of WHO SMART Trust ({code1}); J2 registers the child with the client record of the WHO Immunization guide ({code2}, which is also its update of client details); J3 imports each verified dose as that guide's Immunization profile ({code3}); and J4 generates one IHE Verifiable Health Link payload ({code4}) per QR code."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:40
+msgid "The date the dose was given."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:38
+msgid "The dose the certificate is for (DVCMinVaccineDetailsPreQual)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:115
+msgid "The dose's number in its series."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:131
+msgid "the folder of Bundle TrustDemoJ4Ips"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:83
+msgid "The full name of the client."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:90
+msgid "The full name of the client's caregiver."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:66
+msgid "The hcert claim, which carries the DVC payload (DVCMinPreQual)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:32
+msgid "The holder's date of birth."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:31
+msgid "The holder's name."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:35
+msgid "The holder's national identification document number; a newborn has none."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:34
+msgid "The holder's nationality."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:33
+msgid "The holder's sex."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:97
+msgid "The Immunization profile of the WHO Immunization guide (IMMZ.D Administer vaccine). J2 saves each dose read from a foreign card with it as reported (primarySource false); J3 imports each verified dose with it (primarySource true), adds the national code beside the product code and counts it toward the schedule."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:131
+msgid "The manifest URL, a FHIR search on the List folder that holds this member's documents."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:21
+msgid "The minimal Digital Vaccination Certificate payload of WHO SMART Trust PHW, with the vaccine coded by its WHO PreQual product id. J1's birth hospital builds one per dose; J2 reads it unverified on a home visit and J3 reads it again when the clinic verifies it."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:42
+msgid "The organization that issued the certificate."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:150
+msgid "The outcome of decision table TD.DT.01 for one scanned DVC."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:151
+msgid "The outcome of decision table TD.DT.02 (<a0>STD-SEM-001</a0>)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:37
+msgid "The parent or guardian, for a holder with no identity document such as a newborn (<a0>STT-PAY-005</a0>)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:134
+msgid "the passcode the holder set"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:121
+msgid "The payload of a Verifiable Health Link (IHE ITI VHL), carried at HCERT claim key 5. J4.0 generates one per QR code, one for each family member; J4.1 reads it from the QR and requests the manifest it points to."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:108
+msgid "The product as signed (its PreQual product id) and, once mapped, the national schedule code beside it."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:39
+msgid "The product given, as its WHO PreQual product id."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:136
+msgid "The protocol version."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:152
+msgid "The refusal reasons of decision table TD.DT.05 (<a0>STD-ACC-001</a0>)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:114
+msgid "The series and the dose number in it."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:60
+msgid "The signature algorithm."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:67
+msgid "The signature over the Sig_structure, made with the signer's key."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:8
+#, python-brace-format
+msgid "The source is {code0}; this page and the code lists are generated from it. Every person and value in the examples is fictional."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:148
+msgid "The steps of DVC verification in the order they run (<a0>STT-VER-001</a0>), as the HCERT library names them in its typed result (<a1>STT-VER-008</a1>)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:63
+msgid "The trust-network participant whose key signs the DVC (J1: XXR)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:36
+msgid "The type of that document."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:44
+msgid "The version of the certificate template."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:111
+msgid "true when the dose comes from a DVC that verified; false when it was read from a card without verifying it."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:87
+msgid "TrustDemoHouseholdRegistration item birthDate; TrustDemoOnesaPatient: Patient.birthDate"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:85
+msgid "TrustDemoHouseholdRegistration item family; TrustDemoOnesaPatient: Patient.name.family"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:84
+msgid "TrustDemoHouseholdRegistration item given; TrustDemoOnesaPatient: Patient.name.given"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:92
+msgid "TrustDemoHouseholdRegistration item household; TrustDemoOnesaHousehold: Group"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:133
+msgid "TrustDemoJ4Consent: Consent.provision.period.end"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:108
+msgid "TrustDemoOnesaImmunization: Immunization.vaccineCode.coding[product], .coding[onesaEpi]; TrustDemoProductToOnesaEpi"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:111
+msgid "TrustDemoOnesaImmunization: true; TrustDemoOnesaReportedImmunization: false"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:86
+msgid "TrustDemoOnesaPatient: Patient.gender"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:82
+msgid "TrustDemoOnesaPatient: Patient.identifier[temporaryId]"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:83
+msgid "TrustDemoOnesaPatient: Patient.name"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:112
+msgid "TrustDemoOnesaReportedImmunization: Immunization.informationSource"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:38
+msgid "TrustDemoTaifafekiImmunization: Immunization"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:43
+msgid "TrustDemoTaifafekiImmunization: Immunization.lotNumber"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:40
+msgid "TrustDemoTaifafekiImmunization: Immunization.occurrenceDateTime"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:41
+msgid "TrustDemoTaifafekiImmunization: Immunization.performer.actor"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:39
+msgid "TrustDemoTaifafekiImmunization: Immunization.vaccineCode.coding[product]"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:32
+msgid "TrustDemoTaifafekiPatient: Patient.birthDate"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:37
+msgid "TrustDemoTaifafekiPatient: Patient.contact.name"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:33
+msgid "TrustDemoTaifafekiPatient: Patient.gender"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:31
+msgid "TrustDemoTaifafekiPatient: Patient.name"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:29
+#: input/pagecontent/dictionary.md:57
+#: input/pagecontent/dictionary.md:80
+#: input/pagecontent/dictionary.md:105
+#: input/pagecontent/dictionary.md:129
+msgid "Type"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:82
+msgid "Unique identifier"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:82
+msgid "Unique identifier for the client, according to the country's policies (J2: a temporary id until the clinic issues one)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:131
+msgid "url"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:108
+msgid "Vaccine code"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:38
+msgid "Vaccine details"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:39
+msgid "Vaccine product id"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:44
+#: input/pagecontent/dictionary.md:136
+msgid "Version"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:138
+msgid "VHL Sharer FHIR base URL"
+msgstr ""
+
+#: input/pagecontent/dictionary.md:147
+msgid "What the HCERT library returns for one scanned DVC: a verified result, a failed result naming the step and reason (<a0>STT-VER-008</a0>), or the distinct result of the unverified triage read (<a1>STT-VER-011</a1>)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:110
+msgid "When the dose was given."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:64
+msgid "When the DVC stops verifying, where the issuer sets an expiry."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:65
+msgid "When the DVC was signed."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:133
+msgid "When the link stops working: the end of the period the holder chose."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:116
+msgid "Where the dose was given, with its country of vaccination."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:138
+msgid "Where the receiver performs UDAP discovery before a signed manifest request (ITI-YY5)."
+msgstr ""
+
+#: input/pagecontent/dictionary.md:112
+msgid "Who reported a dose that is not from its primary source: the caregiver."
 msgstr ""

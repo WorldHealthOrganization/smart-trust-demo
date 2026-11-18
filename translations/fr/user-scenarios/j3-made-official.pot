@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j3-made-official\n"
-"POT-Creation-Date: 2026-11-17T18:50:36.272Z\n"
+"POT-Creation-Date: 2026-11-18T11:00:23.100Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -24,7 +24,7 @@ msgctxt "description"
 msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesa schedule."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:373
+#: scenarios/user-scenarios/j3-made-official.json:361
 msgctxt "references.label"
 msgid "User scenario in the IG"
 msgstr ""
@@ -34,17 +34,17 @@ msgctxt "scene.label"
 msgid "Clinic tablet"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:368
+#: scenarios/user-scenarios/j3-made-official.json:356
 msgctxt "scene.label"
 msgid "On the Onesa schedule"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:364
+#: scenarios/user-scenarios/j3-made-official.json:352
 msgctxt "scene.label"
 msgid "Signature verified"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:209
+#: scenarios/user-scenarios/j3-made-official.json:201
 msgctxt "step.enabler"
 msgid "The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due."
 msgstr ""
@@ -59,12 +59,12 @@ msgctxt "step.experiences.doing"
 msgid "Brings Somsak in for the referral visit."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:197
+#: scenarios/user-scenarios/j3-made-official.json:189
 msgctxt "step.experiences.doing"
 msgid "Confirms the Taifafeki product equals the birth dose on the Onesa schedule; gives the overdue 6-week vaccines."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:203
+#: scenarios/user-scenarios/j3-made-official.json:195
 msgctxt "step.experiences.doing"
 msgid "Leaves with a date for Somsak’s next vaccines."
 msgstr ""
@@ -79,12 +79,12 @@ msgctxt "step.experiences.feeling"
 msgid "“A green tick — I can trust a hospital I’ve never heard of.”"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:198
+#: scenarios/user-scenarios/j3-made-official.json:190
 msgctxt "step.experiences.feeling"
 msgid "“Different name, same vaccine — I can make that call.”"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:204
+#: scenarios/user-scenarios/j3-made-official.json:196
 msgctxt "step.experiences.feeling"
 msgid "“Now I know exactly when to come back.”"
 msgstr ""
@@ -99,17 +99,17 @@ msgctxt "step.fhirChanges.change"
 msgid "Created: author = Taifafeki MOPH, verifier = nurse"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:306
+#: scenarios/user-scenarios/j3-made-official.json:298
 msgctxt "step.fhirChanges.change"
 msgid "Nurse’s mapping decision recorded"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:294
+#: scenarios/user-scenarios/j3-made-official.json:286
 msgctxt "step.fhirChanges.change"
 msgid "Onesa EPI code added; PreQual code kept"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:316
+#: scenarios/user-scenarios/j3-made-official.json:308
 msgctxt "step.fhirChanges.change"
 msgid "Overdue 6-week doses given"
 msgstr ""
@@ -129,17 +129,17 @@ msgctxt "step.fhirChanges.why"
 msgid "Anyone who later doubts a dose can follow it back to the signed certificate and the key of Taifafeki."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:307
+#: scenarios/user-scenarios/j3-made-official.json:299
 msgctxt "step.fhirChanges.why"
 msgid "The map of Onesa from vaccine products to its own schedule; a product with no mapping goes to the nurse."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:317
+#: scenarios/user-scenarios/j3-made-official.json:309
 msgctxt "step.fhirChanges.why"
 msgid "The Onesa schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:295
+#: scenarios/user-scenarios/j3-made-official.json:287
 msgctxt "step.fhirChanges.why"
 msgid "The Onesa schedule runs on Onesa EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
 msgstr ""
@@ -149,12 +149,12 @@ msgctxt "step.handoff.carrier"
 msgid "Camera scan + local trust-list check"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:218
+#: scenarios/user-scenarios/j3-made-official.json:210
 msgctxt "step.handoff.carrier"
 msgid "FHIR API via Info Gateway"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:219
+#: scenarios/user-scenarios/j3-made-official.json:211
 msgctxt "step.handoff.payload"
 msgid "Dual-coded Immunization + next-dose Task"
 msgstr ""
@@ -164,7 +164,7 @@ msgctxt "step.handoff.payload"
 msgid "Verified DVC → Immunization updated"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:217
+#: scenarios/user-scenarios/j3-made-official.json:209
 msgctxt "step.handoff.summary"
 msgid "Somsak continues on the Onesa schedule for a year"
 msgstr ""
@@ -179,7 +179,7 @@ msgctxt "step.headline"
 msgid "Nurse Chanthason scans the card, and her tablet checks the digital signature from Taifafeki against the WHO trust list — without contacting Taifafeki."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:188
+#: scenarios/user-scenarios/j3-made-official.json:180
 msgctxt "step.headline"
 msgid "The Taifafeki Hep B product doesn’t match anything on the Onesa schedule. Chanthason makes the clinical call, and the system works out what’s due next."
 msgstr ""
@@ -203,7 +203,7 @@ msgid ""
 "catch-up policy.\n"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:192
+#: scenarios/user-scenarios/j3-made-official.json:184
 msgctxt "step.narrative"
 msgid ""
 "The Taifafeki Hep B product matches nothing on the national schedule.\n"
@@ -224,12 +224,12 @@ msgctxt "step.painPoint"
 msgid "Clinicians either distrust foreign paper and re-vaccinate, or trust it blindly."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:208
+#: scenarios/user-scenarios/j3-made-official.json:200
 msgctxt "step.painPoint"
 msgid "Countries name and package vaccines differently, so doses get missed or repeated."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:210
+#: scenarios/user-scenarios/j3-made-official.json:202
 msgctxt "step.policy"
 msgid "Never overwrite another country’s record: keep the original coding alongside the national one."
 msgstr ""
@@ -249,7 +249,7 @@ msgctxt "step.preconditions.title"
 msgid "The DID documents are already loaded"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:213
+#: scenarios/user-scenarios/j3-made-official.json:205
 msgctxt "step.record.description"
 msgid "Birth doses count; next appointment booked"
 msgstr ""
@@ -264,12 +264,12 @@ msgctxt "step.record.heldWhere"
 msgid "District clinic records"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:214
+#: scenarios/user-scenarios/j3-made-official.json:206
 msgctxt "step.record.heldWhere"
 msgid "Onesa national health records"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:245
+#: scenarios/user-scenarios/j3-made-official.json:237
 msgctxt "step.technicalSummary"
 msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesa schedule. Computable schedule logic then works out what’s due next."
 msgstr ""
@@ -279,7 +279,7 @@ msgctxt "step.technicalSummary"
 msgid "The clinic checks the signature from Taifafeki against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:187
+#: scenarios/user-scenarios/j3-made-official.json:179
 msgctxt "step.title"
 msgid "Taifafeki vaccines are fitted to the Onesa schedule"
 msgstr ""
@@ -289,7 +289,7 @@ msgctxt "step.title"
 msgid "The clinic confirms the cards are genuine"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:191
+#: scenarios/user-scenarios/j3-made-official.json:183
 msgctxt "step.touchpoint"
 msgid "Clinic tablet (vaccine matching + schedule)"
 msgstr ""
@@ -299,7 +299,7 @@ msgctxt "step.touchpoint"
 msgid "Clinic tablet (verification)"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:265
+#: scenarios/user-scenarios/j3-made-official.json:257
 msgctxt "step.uses.role"
 msgid "Checks the nurse’s role and facility before accepting the update"
 msgstr ""
@@ -309,7 +309,7 @@ msgctxt "step.uses.role"
 msgid "Clinic tablet app; caches the trust list"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:249
+#: scenarios/user-scenarios/j3-made-official.json:241
 msgctxt "step.uses.role"
 msgid "Common PreQual codes make the mapping possible"
 msgstr ""
@@ -324,12 +324,12 @@ msgctxt "step.uses.role"
 msgid "Delivers the CHW’s referral to this clinic; the nurse can only see patients referred to her facility"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:253
+#: scenarios/user-scenarios/j3-made-official.json:245
 msgctxt "step.uses.role"
 msgid "PreQual product → WHO vaccine type → Onesa EPI code"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:273
+#: scenarios/user-scenarios/j3-made-official.json:265
 msgctxt "step.uses.role"
 msgid "Receives the verified, mapped record"
 msgstr ""
@@ -339,12 +339,12 @@ msgctxt "step.uses.role"
 msgid "Records that Taifafeki authored and Onesa verified the doses"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:261
+#: scenarios/user-scenarios/j3-made-official.json:253
 msgctxt "step.uses.role"
 msgid "Saves dual-coded record and syncs it to the national server"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:257
+#: scenarios/user-scenarios/j3-made-official.json:249
 msgctxt "step.uses.role"
 msgid "Schedule logic of Onesa finds the 6-week doses overdue"
 msgstr ""
@@ -354,12 +354,12 @@ msgctxt "step.uses.role"
 msgid "Supplies the public key of Taifafeki (downloaded in advance)"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:269
+#: scenarios/user-scenarios/j3-made-official.json:261
 msgctxt "step.uses.role"
 msgid "Verified doses from Taifafeki, with their Provenance, count toward coverage reports in Onesa"
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:227
+#: scenarios/user-scenarios/j3-made-official.json:219
 msgctxt "step.whatIf.outcome"
 msgid "That is exactly this step. The nurse decides — and her decision could be shared so the next nurse doesn’t have to."
 msgstr ""
@@ -374,7 +374,7 @@ msgctxt "step.whatIf.scenario"
 msgid "The card has been tampered with."
 msgstr ""
 
-#: scenarios/user-scenarios/j3-made-official.json:226
+#: scenarios/user-scenarios/j3-made-official.json:218
 msgctxt "step.whatIf.scenario"
 msgid "There is no automatic match for the foreign vaccine."
 msgstr ""
