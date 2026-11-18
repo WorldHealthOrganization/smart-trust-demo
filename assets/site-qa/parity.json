@@ -2,49 +2,10 @@
  "$schema": "site-parity-report/v1",
  "outcome": "published-with-shortfall",
  "shortfall": [
-  "directories the current root serves and the candidate does not: openapi/"
+  "directories the current root serves and the candidate does not: openapi/ (against the last clean publish, 0e168939dda7)"
  ],
  "droppedByRuling": [],
  "current": {
-  "pages": 13840,
-  "counts": {
-   "siteNav": 0,
-   "search": 9901,
-   "navbarRow": 8395,
-   "rail": 9349,
-   "translationMeta": 9919
-  },
-  "dirs": [
-   "ar",
-   "archimate",
-   "artifact",
-   "assets",
-   "cat-harness",
-   "country-canvas",
-   "en",
-   "es",
-   "fhir-artifact-index",
-   "folio-assistant-core",
-   "fr",
-   "id-lookup",
-   "openapi",
-   "questionnaires",
-   "ru",
-   "smart-base",
-   "smart-trust-demo",
-   "zh"
-  ],
-  "index": [
-   "search",
-   "navbarRow",
-   "rail",
-   "translationMeta"
-  ],
-  "stamp": {
-   "present": true
-  }
- },
- "candidate": {
   "pages": 13772,
   "counts": {
    "siteNav": 0,
@@ -68,6 +29,46 @@
    "id-lookup",
    "questionnaires",
    "ru",
+   "smart-base",
+   "smart-trust-demo",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "candidate": {
+  "pages": 13773,
+  "counts": {
+   "siteNav": 0,
+   "search": 9881,
+   "navbarRow": 8375,
+   "rail": 9329,
+   "translationMeta": 9899
+  },
+  "dirs": [
+   "ar",
+   "archimate",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "country-canvas",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "payload",
+   "questionnaires",
+   "ru",
+   "slices",
    "smart-base",
    "smart-trust-demo",
    "zh"

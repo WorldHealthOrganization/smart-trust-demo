@@ -1,0 +1,211 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/functional-requirements",
+ "hashes": {
+  "ar": "03e4f3c5dbf3f6aa",
+  "es": "cf9450d0cdb05e66",
+  "fr": "62db07b7f5afc970",
+  "ru": "c0da88b8f72ec52b",
+  "zh": "127753b605deefec"
+ },
+ "strings": [
+  {
+   "msgid": "{code0} (Holder): J2, J3 and J4.1.",
+   "hash": "d0e19ecd2400e9a0",
+   "sources": [
+    "input/pagecontent/functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} (الحامل): J2 وJ3 وJ4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} (titular): J2, J3 y J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} (titulaire) : J2, J3 et J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} (владелец, Holder): J2, J3 и J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}（持有人）：J2、J3 和 J4.1。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} (Receiver): J2, J3 and J4.1.",
+   "hash": "633b9bf560505fd5",
+   "sources": [
+    "input/pagecontent/functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} (الجهة المُستقبِلة): J2 وJ3 وJ4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} (receptor): J2, J3 y J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} (destinataire) : J2, J3 et J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} (получатель, Receiver): J2, J3 и J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}（接收方）：J2、J3 和 J4.1。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0}, {code1}, {code2} and {code3}: the trust anchor and the participants, preconditions of J1, J3, J4.0 and J4.1.",
+   "hash": "0c8b7571f45764a8",
+   "sources": [
+    "input/pagecontent/functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} و{code1} و{code2} و{code3}: مرسى الثقة والمشاركون، وهي شروط مسبقة لـ J1 وJ3 وJ4.0 وJ4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0}, {code1}, {code2} y {code3}: el ancla de confianza y los participantes, condiciones previas de J1, J3, J4.0 y J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0}, {code1}, {code2} et {code3} : l'ancre de confiance et les participants, conditions préalables de J1, J3, J4.0 et J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0}, {code1}, {code2} и {code3}: якорь доверия и участники, предусловия J1, J3, J4.0 и J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}、{code1}、{code2} 和 {code3}：信任锚和参与方，是 J1、J3、J4.0 和 J4.1 的前提条件。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The journeys do not restate requirements. Each step of a <a0>user scenario</a0> names the requirement it exercises by its id (for example <a1>STT-VER-011</a1>, read without verifying, in J2). Those requirements are defined, with their tests, on <a2>smart-trust-tools' requirements page</a2> (sources in <a3>skills/requirements</a3>), which traces them to <a4>WHO SMART Trust</a4> and <a5>IHE ITI VHL</a5>.",
+   "hash": "3f9e7467fb7bab84",
+   "sources": [
+    "input/pagecontent/functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا تعيد الرحلات صياغة المتطلبات. فكل خطوة في <a0>سيناريو المستخدم</a0> تسمّي المتطلب الذي تمارسه بمعرّفه (على سبيل المثال <a1>STT-VER-011</a1>، القراءة دون تحقق، في J2). وتُعرَّف تلك المتطلبات، مع اختباراتها، في <a2>صفحة متطلبات smart-trust-tools</a2> (المصادر في <a3>skills/requirements</a3>)، التي تتتبّعها إلى <a4>WHO SMART Trust</a4> و<a5>IHE ITI VHL</a5>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los recorridos no repiten los requisitos. Cada paso de un <a0>escenario de usuario</a0> nombra por su id el requisito que ejercita (por ejemplo, <a1>STT-VER-011</a1>, leer sin verificar, en J2). Esos requisitos se definen, con sus pruebas, en la <a2>página de requisitos de smart-trust-tools</a2> (fuentes en <a3>skills/requirements</a3>), que los vincula con <a4>SMART Trust de la OMS</a4> y con <a5>IHE ITI VHL</a5>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les parcours ne reformulent pas les exigences. Chaque étape d'un <a0>scénario utilisateur</a0> désigne par son identifiant l'exigence qu'elle met en œuvre (par exemple <a1>STT-VER-011</a1>, lecture sans vérification, dans J2). Ces exigences sont définies, avec leurs tests, sur la <a2>page des exigences de smart-trust-tools</a2> (sources dans <a3>skills/requirements</a3>), qui les relie à <a4>WHO SMART Trust</a4> et à <a5>IHE ITI VHL</a5>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пути не повторяют требования. Каждый шаг <a0>пользовательского сценария</a0> называет проверяемое им требование по идентификатору (например, <a1>STT-VER-011</a1> — чтение без проверки — в J2). Эти требования вместе с их тестами определены на <a2>странице требований smart-trust-tools</a2> (исходные файлы в <a3>skills/requirements</a3>), где они прослеживаются до <a4>SMART Trust ВОЗ</a4> и <a5>IHE ITI VHL</a5>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这些旅程不重述需求。<a0>用户场景</a0>的每个步骤都以 id 注明其所检验的需求（例如 J2 中的 <a1>STT-VER-011</a1>，即不验证而读取）。这些需求连同其测试定义在 <a2>smart-trust-tools 的需求页面</a2>上（源文件位于 <a3>skills/requirements</a3>），该页面将它们追溯到 <a4>WHO SMART Trust</a4> 和 <a5>IHE ITI VHL</a5>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The WHO SMART Trust PHW requirements map onto the journeys as follows:",
+   "hash": "8d0c9f254c5c7c33",
+   "sources": [
+    "input/pagecontent/functional-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُربط متطلبات WHO SMART Trust PHW بالرحلات على النحو التالي:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los requisitos de SMART Trust PHW de la OMS se corresponden con los recorridos de la siguiente manera:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les exigences de WHO SMART Trust PHW correspondent aux parcours comme suit :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования SMART Trust PHW ВОЗ соотносятся с путями следующим образом:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "WHO SMART Trust PHW 需求与各旅程的对应关系如下：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

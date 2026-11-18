@@ -1,0 +1,94 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/data-models-and-exchange",
+ "hashes": {
+  "ar": "98c28ab819298781",
+  "es": "5c8922ebfaa8026d",
+  "fr": "9e83d6e829ba9b11",
+  "ru": "6c204ea2565b3900",
+  "zh": "f3952232e55276d4"
+ },
+ "strings": [
+  {
+   "msgid": "The <a0>system actors</a0> of the journeys and the actor definitions of WHO SMART Trust, WHO SMART Trust PHW and IHE ITI VHL each is derived from. The data the journeys exchange (DVCs as HCERTs, VHL manifests, IPS documents) is defined by those guides.",
+   "hash": "7ff28cd05dac24f1",
+   "sources": [
+    "input/pagecontent/data-models-and-exchange.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الجهات الفاعلة النظامية</a0> في الرحلات، وتعريفات الجهات الفاعلة في WHO SMART Trust وWHO SMART Trust PHW وIHE ITI VHL التي اشتُقّت منها كلٌّ منها. والبيانات التي تتبادلها الرحلات (شهادات DVC بوصفها HCERT، وبيانات VHL، ومستندات IPS) تعرّفها تلك الأدلة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los <a0>actores del sistema</a0> de los recorridos y las definiciones de actor de SMART Trust de la OMS, SMART Trust PHW de la OMS e IHE ITI VHL de las que deriva cada uno. Los datos que intercambian los recorridos (DVC como HCERT, manifiestos VHL, documentos IPS) los definen esas guías.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les <a0>acteurs système</a0> des parcours et les définitions d'acteurs de WHO SMART Trust, WHO SMART Trust PHW et IHE ITI VHL dont chacun est dérivé. Les données échangées dans les parcours (DVC sous forme de HCERT, manifestes VHL, documents IPS) sont définies par ces guides.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Системные акторы</a0> путей и определения акторов SMART Trust ВОЗ, SMART Trust PHW ВОЗ и IHE ITI VHL, от которых производен каждый из них. Данные, которыми обмениваются пути (DVC в виде HCERT, манифесты VHL, документы IPS), определены в этих руководствах.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "各旅程的<a0>系统行动者</a0>，以及它们各自所派生自的 WHO SMART Trust、WHO SMART Trust PHW 和 IHE ITI VHL 的行动者定义。各旅程交换的数据（以 HCERT 形式表示的 DVC、VHL 清单、IPS 文档）由这些指南定义。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This guide's own logical models of the data each journey records or exchanges, mapped to the profiles and examples that realise them, are on the <a0>data dictionary</a0> page; the indicators over that data are FHIR {code0}s, on the <a1>indicators</a1> page.",
+   "hash": "e1798be93bddc39e",
+   "sources": [
+    "input/pagecontent/data-models-and-exchange.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النماذج المنطقية الخاصة بهذا الدليل للبيانات التي تسجّلها كل رحلة أو تتبادلها، مربوطةً بالملفات التعريفية والأمثلة التي تجسّدها، موجودة في صفحة <a0>قاموس البيانات</a0>؛ والمؤشرات المحسوبة على تلك البيانات هي موارد {code0} في FHIR، في صفحة <a1>المؤشرات</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los modelos lógicos propios de esta guía para los datos que cada recorrido registra o intercambia, asignados a los perfiles y ejemplos que los implementan, están en la página del <a0>diccionario de datos</a0>; los indicadores sobre esos datos son {code0} de FHIR, en la página de <a1>indicadores</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les modèles logiques propres à ce guide pour les données que chaque parcours enregistre ou échange, mis en correspondance avec les profils et exemples qui les réalisent, figurent sur la page <a0>dictionnaire de données</a0> ; les indicateurs portant sur ces données sont des {code0} FHIR, sur la page <a1>indicateurs</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Собственные логические модели этого руководства для данных, которые записывает или передаёт каждый путь, с сопоставлением с реализующими их профилями и примерами, приведены на странице <a0>словаря данных</a0>; индикаторы по этим данным представлены как FHIR {code0} на странице <a1>индикаторов</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本指南自己的、关于每个旅程记录或交换的数据的逻辑模型，以及它们与实现这些模型的配置文件（profile）和示例之间的映射，见<a0>数据字典</a0>页面；基于这些数据的指标是 FHIR {code0}，见<a1>指标</a1>页面。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

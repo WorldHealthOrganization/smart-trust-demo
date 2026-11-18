@@ -1,0 +1,718 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "processes/j4-0-family-vhl-issuance",
+ "hashes": {
+  "ar": "09c487d935b69359",
+  "es": "cf5dc9311064a185",
+  "fr": "2d5e47a409afa6a9",
+  "ru": "788aaa7d8fc13020",
+  "zh": "90bb2895a6eaa5b2"
+ },
+ "strings": [
+  {
+   "msgid": "Assemble each member&#x27;s IPS and DVCs",
+   "hash": "282e355a394440e4",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تجميع ملخص المريض الدولي (IPS) وشهادات DVC لكل فرد",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Reunir el IPS y los DVC de cada miembro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Assembler l&#x27;IPS et les DVC de chaque membre",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Собрать IPS и DVC каждого члена семьи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "汇集每位成员的 IPS 和 DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Caregiver",
+   "hash": "7eecebb3e23724ed",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuidador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aidant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лицо, осуществляющее уход",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "照护者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Choose who to share, with a passcode and an expiry",
+   "hash": "c99bdb8642144d4a",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اختيار من تُشارَك سجلاته، مع رمز مرور وتاريخ انتهاء",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Elegir de quién se comparten los registros, con un código de acceso y una caducidad",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Choisir les personnes à partager, avec un code d’accès et une date d’expiration",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Выбрать, чьими данными поделиться, указав код доступа и срок действия",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "选择共享对象，设置通行码和有效期",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Family phone",
+   "hash": "e9fff053f4e09533",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هاتف الأسرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Teléfono familiar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Téléphone familial",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семейный телефон",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家庭手机",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Family plans to travel abroad",
+   "hash": "174e4a4905d4da77",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تخطط الأسرة للسفر إلى الخارج",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La familia planea viajar al extranjero",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La famille prévoit de voyager à l’étranger",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семья планирует поездку за границу",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家庭计划出境旅行",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Finish the HC1 QR text",
+   "hash": "77bc23e3e58643b9",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنهاء نص QR بصيغة HC1",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Finalizar el texto QR HC1",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Finaliser le texte du code QR HC1",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Завершить текст QR HC1",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "完成 HC1 QR 文本",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issuer signing key",
+   "hash": "3019c0cb67310f8f",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفتاح التوقيع لدى الجهة المُصدِرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clave de firma del emisor",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clé de signature de l’émetteur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключ подписи эмитента",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发方签名密钥",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0 Issue the family&#x27;s records to one phone as VHLs",
+   "hash": "d0d6a6a7cd49c7a1",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0 إصدار سجلات الأسرة إلى هاتف واحد بوصفها روابط VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0 Emitir los registros de la familia como VHL en un solo teléfono",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0 Émettre les dossiers de la famille sur un seul téléphone sous forme de VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0 Выдать записи семьи на один телефон в виде VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0 将家庭记录以 VHL 形式签发到同一部手机",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0, Outbound family travel, \"One Family, One Phone\". Before travelling, the caregiver who holds the family's one shared phone asks Country B's national portal for each family member's records, choosing for each a passcode the family can say aloud and an expiry (for example 14 days); the portal records that choice as the holder's consent to share (FHIR Consent, IHE Privacy Consent on FHIR). The portal, a VHL Sharer (IHE ITI VHL) and Issuer (SMART Trust, smart-trust-phw), issues one passcode-protected Verifiable Health Link per member: the documents (IPS, DVCs) encrypted as JWE (STT-VHL-007) behind an ITI-YY5 manifest, the link in the SMART Health Links payload format at HCERT key 5 (STT-VHL-001, STT-VHL-002), signed with Country B's DSC. The shared phone holds the QRs for the caregiver, the VHL Holder. The records themselves stay hosted in Country B: the QR carries only a pointer and a key.",
+   "hash": "da09386e27e811d0",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0، سفر الأسرة إلى الخارج، «أسرة واحدة، هاتف واحد». قبل السفر، يطلب مقدِّم الرعاية الذي يحمل هاتف الأسرة المشترك الوحيد من البوابة الوطنية للبلد B سجلات كل فرد من أفراد الأسرة، مختاراً لكلٍّ منها رمز مرور يمكن للأسرة نطقه بصوت عالٍ وتاريخ انتهاء (مثلاً 14 يوماً)؛ وتسجّل البوابة ذلك الاختيار بوصفه موافقة الحامل على المشاركة (Consent في FHIR، وIHE Privacy Consent on FHIR). وتُصدر البوابة، بصفتها جهة مُشارِكة لـ VHL (IHE ITI VHL) وجهة مُصدِرة (SMART Trust، smart-trust-phw)، رابطاً صحياً قابلاً للتحقق محمياً برمز مرور لكل فرد: المستندات (IPS، وشهادات DVC) مشفّرة بصيغة JWE (STT-VHL-007) خلف بيان ITI-YY5، والرابط بتنسيق حمولة SMART Health Links عند المفتاح 5 في HCERT (STT-VHL-001، STT-VHL-002)، موقَّعاً بشهادة DSC الخاصة بالبلد B. ويحتفظ الهاتف المشترك برموز QR لمقدِّم الرعاية، حامل VHL. وتبقى السجلات نفسها مستضافة في البلد B: فرمز QR لا يحمل إلا مؤشراً ومفتاحاً.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0, Viaje familiar al extranjero, \"Una familia, un teléfono\". Antes de viajar, el cuidador que tiene el único teléfono compartido de la familia solicita al portal nacional del País B los registros de cada miembro de la familia, y elige para cada uno un código de acceso que la familia pueda decir en voz alta y una caducidad (por ejemplo, 14 días); el portal registra esa elección como el consentimiento del titular para compartir (FHIR Consent, IHE Privacy Consent on FHIR). El portal, Compartidor VHL (IHE ITI VHL) y Emisor (SMART Trust, smart-trust-phw), emite un enlace sanitario verificable protegido con código de acceso por miembro: los documentos (IPS, DVC) cifrados como JWE (STT-VHL-007) detrás de un manifiesto ITI-YY5, y el enlace en el formato de carga útil de SMART Health Links en la clave 5 del HCERT (STT-VHL-001, STT-VHL-002), firmado con el DSC del País B. El teléfono compartido guarda los QR para el cuidador, el Titular VHL. Los registros propiamente dichos siguen alojados en el País B: el QR solo lleva un puntero y una clave.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0, Voyage de la famille à l’étranger, « Une famille, un téléphone ». Avant le voyage, l’aidant qui détient l’unique téléphone partagé de la famille demande au portail national du Pays B les dossiers de chaque membre de la famille, en choisissant pour chacun un code d’accès que la famille peut prononcer à voix haute et une date d’expiration (par exemple 14 jours) ; le portail enregistre ce choix comme le consentement du titulaire au partage (FHIR Consent, IHE Privacy Consent on FHIR). Le portail, VHL Sharer (IHE ITI VHL) et émetteur (SMART Trust, smart-trust-phw), émet un lien de santé vérifiable protégé par code d’accès par membre : les documents (IPS, DVC) chiffrés en JWE (STT-VHL-007) derrière un manifeste ITI-YY5, le lien au format de charge utile SMART Health Links à la clé 5 du HCERT (STT-VHL-001, STT-VHL-002), signé avec le DSC du Pays B. Le téléphone partagé conserve les codes QR pour l’aidant, le VHL Holder. Les dossiers eux-mêmes restent hébergés dans le Pays B : le code QR ne contient qu’un pointeur et une clé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0, Поездка семьи за границу, «Одна семья — один телефон» (\"One Family, One Phone\"). Перед поездкой лицо, осуществляющее уход, у которого находится единственный общий телефон семьи, запрашивает на национальном портале страны B записи каждого члена семьи, выбирая для каждого код доступа, который семья может произнести вслух, и срок действия (например, 14 дней); портал записывает этот выбор как согласие владельца на передачу данных (FHIR Consent, IHE Privacy Consent on FHIR). Портал, являющийся VHL Sharer (IHE ITI VHL) и эмитентом (Issuer; SMART Trust, smart-trust-phw), выдаёт по одной защищённой кодом доступа проверяемой ссылке на медицинские данные (Verifiable Health Link) на каждого члена семьи: документы (IPS, DVC), зашифрованные как JWE (STT-VHL-007), за манифестом ITI-YY5, ссылка в формате полезной нагрузки SMART Health Links под ключом HCERT 5 (STT-VHL-001, STT-VHL-002), подписанная DSC страны B. Общий телефон хранит QR-коды для лица, осуществляющего уход, — VHL Holder. Сами записи остаются размещёнными в стране B: QR содержит только указатель и ключ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0，家庭出境旅行，“一个家庭，一部手机”。出行前，持有家庭共用手机的照护者向 B 国国家门户申请每位家庭成员的记录，并为每份记录选择一个家人可以口头说出的通行码和一个有效期（例如 14 天）；门户将这一选择记录为持有人的共享同意（FHIR Consent，IHE Privacy Consent on FHIR）。该门户作为 VHL 共享方（VHL Sharer，IHE ITI VHL）和签发方（Issuer，SMART Trust、smart-trust-phw），为每位成员签发一个受通行码保护的可验证健康链接（VHL）：文档（IPS、DVC）以 JWE 加密（STT-VHL-007），置于 ITI-YY5 清单之后；链接采用 SMART Health Links 载荷格式，位于 HCERT 键 5（STT-VHL-001、STT-VHL-002），并以 B 国的 DSC 签名。共用手机为照护者（即 VHL 持有人）保存这些 QR 码。记录本身仍托管在 B 国：QR 码只携带一个指针和一个密钥。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "National health portal",
+   "hash": "6070059fd131ff65",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البوابة الصحية الوطنية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Portal nacional de salud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portail national de santé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Национальный портал здравоохранения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家健康门户",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One phone, one QR per family member",
+   "hash": "2a53ed2339e60d0d",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هاتف واحد، ورمز QR واحد لكل فرد من أفراد الأسرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un teléfono, un QR por miembro de la familia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un téléphone, un code QR par membre de la famille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Один телефон, по одному QR на каждого члена семьи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一部手机，每位家庭成员一个 QR 码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Prepare the HCERT carrying the VHL at key 5",
+   "hash": "d8117ca5e96e53f3",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تحضير HCERT يحمل VHL عند المفتاح 5",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Preparar el HCERT con el VHL en la clave 5",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Préparer le HCERT portant le VHL à la clé 5",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подготовить HCERT, содержащий VHL под ключом 5",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "准备在键 5 承载 VHL 的 HCERT",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Sign with Country B&#x27;s DSC key",
+   "hash": "8f0bda040985baf8",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التوقيع بمفتاح DSC الخاص بالبلد B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Firmar con la clave del DSC del País B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Signer avec la clé du DSC du Pays B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подписать ключом DSC страны B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用 B 国的 DSC 密钥签名",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VHL payload as a CBOR map at key 5 (STT-VHL-002); two-phase signing (STT-ISS-004).",
+   "hash": "7ab948efa468d11d",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حمولة VHL بوصفها خريطة CBOR عند المفتاح 5 (STT-VHL-002)؛ والتوقيع على مرحلتين (STT-ISS-004).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Carga útil del VHL como mapa CBOR en la clave 5 (STT-VHL-002); firma en dos fases (STT-ISS-004).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Charge utile VHL sous forme de map CBOR à la clé 5 (STT-VHL-002) ; signature en deux phases (STT-ISS-004).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Полезная нагрузка VHL в виде карты CBOR под ключом 5 (STT-VHL-002); двухфазная подпись (STT-ISS-004).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL 载荷作为键 5 处的 CBOR 映射（STT-VHL-002）；两阶段签名（STT-ISS-004）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Encrypt the documents and publish a passcode-protected manifest. VHL key generation (STT-VHL-004), JWE dir/A256GCM (STT-VHL-007), passcode flag and expiry (STT-VHL-009); the library does no I/O (STT-VHL-010).",
+   "hash": "d3106f362fdbc079",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تشفير المستندات ونشر بيان محمي برمز مرور. توليد مفتاح VHL (STT-VHL-004)، وJWE dir/A256GCM (STT-VHL-007)، وعلامة رمز المرور وتاريخ الانتهاء (STT-VHL-009)؛ ولا تُجري المكتبة أي عمليات إدخال/إخراج (STT-VHL-010).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cifrar los documentos y publicar un manifiesto protegido con código de acceso. Generación de la clave del VHL (STT-VHL-004), JWE dir/A256GCM (STT-VHL-007), indicador de código de acceso y caducidad (STT-VHL-009); la biblioteca no realiza E/S (STT-VHL-010).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chiffrer les documents et publier un manifeste protégé par code d’accès. Génération de clé VHL (STT-VHL-004), JWE dir/A256GCM (STT-VHL-007), indicateur de code d’accès et expiration (STT-VHL-009) ; la bibliothèque n’effectue aucune E/S (STT-VHL-010).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зашифровать документы и опубликовать манифест, защищённый кодом доступа. Генерация ключа VHL (STT-VHL-004), JWE dir/A256GCM (STT-VHL-007), флаг кода доступа и срок действия (STT-VHL-009); библиотека не выполняет ввод-вывод (I/O) (STT-VHL-010).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "加密文档并发布受通行码保护的清单。VHL 密钥生成（STT-VHL-004），JWE dir/A256GCM（STT-VHL-007），通行码标志和有效期（STT-VHL-009）；库不执行任何 I/O（STT-VHL-010）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Encrypt, publish a passcode manifest",
+   "hash": "9920b050a55a5500",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التشفير، ونشر بيان برمز مرور",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cifrar y publicar un manifiesto con código de acceso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chiffrer, publier un manifeste protégé par code d’accès",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зашифровать, опубликовать манифест с кодом доступа",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "加密并发布通行码清单",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Store each member&#x27;s VHL QR on the phone",
+   "hash": "b7b2f7be0ec6948e",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تخزين رمز QR لـ VHL الخاص بكل فرد على الهاتف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Guardar en el teléfono el QR VHL de cada miembro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Stocker le code QR VHL de chaque membre sur le téléphone",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохранить QR VHL каждого члена семьи на телефоне",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在手机上存储每位成员的 VHL QR 码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Store one VHL QR per member on the shared phone.",
+   "hash": "ff087ec3e538d9b0",
+   "sources": [
+    "processes/content/j4-0-family-vhl-issuance.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تخزين رمز QR واحد لـ VHL لكل فرد على الهاتف المشترك.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Guardar un QR VHL por miembro en el teléfono compartido.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Stocker un code QR VHL par membre sur le téléphone partagé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохранить на общем телефоне по одному QR VHL на каждого члена семьи.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在共用手机上为每位成员存储一个 VHL QR 码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

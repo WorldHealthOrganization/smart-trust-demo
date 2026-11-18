@@ -1,0 +1,4111 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "journey-examples",
+ "hashes": {
+  "ar": "915671f68de32ae3",
+  "es": "2b31c62fce239d9a",
+  "fr": "6fe6c82c71c24a8e",
+  "ru": "881c54d7a47d4a9a",
+  "zh": "2af0d2f0205588ba"
+ },
+ "strings": [
+  {
+   "msgid": "(not FHIR)",
+   "hash": "f96b81877a0687a0",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "(ليس FHIR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "(no es FHIR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "(pas FHIR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "(не FHIR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "（非 FHIR）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoHousehold</a0>",
+   "hash": "4bde2261e5d59a8b",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>)",
+   "hash": "7cc186f7ba517fd2",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>), <a2>TrustDemoHouseholdRegistration</a2> (<a3>json</a3>), <a4>TrustDemoJ2Registration</a4> (<a5>json</a5>), <a6>TrustDemoSomsak</a6> (<a7>json</a7>), <a8>TrustDemoKhamla</a8> (<a9>json</a9>), <a10>TrustDemoBounmy</a10> (<a11>json</a11>), <a12>TrustDemoJ2HepBReported</a12> (<a13>json</a13>), <a14>TrustDemoJ2BcgReported</a14> (<a15>json</a15>), <a16>TrustDemoJ2Referral</a16> (<a17>json</a17>)",
+   "hash": "4135743372fc1367",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>)، <a2>TrustDemoHouseholdRegistration</a2> (<a3>json</a3>)، <a4>TrustDemoJ2Registration</a4> (<a5>json</a5>)، <a6>TrustDemoSomsak</a6> (<a7>json</a7>)، <a8>TrustDemoKhamla</a8> (<a9>json</a9>)، <a10>TrustDemoBounmy</a10> (<a11>json</a11>)، <a12>TrustDemoJ2HepBReported</a12> (<a13>json</a13>)، <a14>TrustDemoJ2BcgReported</a14> (<a15>json</a15>)، <a16>TrustDemoJ2Referral</a16> (<a17>json</a17>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>), <a2>TrustDemoHouseholdRegistration</a2> (<a3>json</a3>), <a4>TrustDemoJ2Registration</a4> (<a5>json</a5>), <a6>TrustDemoSomsak</a6> (<a7>json</a7>), <a8>TrustDemoKhamla</a8> (<a9>json</a9>), <a10>TrustDemoBounmy</a10> (<a11>json</a11>), <a12>TrustDemoJ2HepBReported</a12> (<a13>json</a13>), <a14>TrustDemoJ2BcgReported</a14> (<a15>json</a15>), <a16>TrustDemoJ2Referral</a16> (<a17>json</a17>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>), <a2>TrustDemoHouseholdRegistration</a2> (<a3>json</a3>), <a4>TrustDemoJ2Registration</a4> (<a5>json</a5>), <a6>TrustDemoSomsak</a6> (<a7>json</a7>), <a8>TrustDemoKhamla</a8> (<a9>json</a9>), <a10>TrustDemoBounmy</a10> (<a11>json</a11>), <a12>TrustDemoJ2HepBReported</a12> (<a13>json</a13>), <a14>TrustDemoJ2BcgReported</a14> (<a15>json</a15>), <a16>TrustDemoJ2Referral</a16> (<a17>json</a17>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>), <a2>TrustDemoHouseholdRegistration</a2> (<a3>json</a3>), <a4>TrustDemoJ2Registration</a4> (<a5>json</a5>), <a6>TrustDemoSomsak</a6> (<a7>json</a7>), <a8>TrustDemoKhamla</a8> (<a9>json</a9>), <a10>TrustDemoBounmy</a10> (<a11>json</a11>), <a12>TrustDemoJ2HepBReported</a12> (<a13>json</a13>), <a14>TrustDemoJ2BcgReported</a14> (<a15>json</a15>), <a16>TrustDemoJ2Referral</a16> (<a17>json</a17>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoHousehold</a0> (<a1>json</a1>), <a2>TrustDemoHouseholdRegistration</a2> (<a3>json</a3>), <a4>TrustDemoJ2Registration</a4> (<a5>json</a5>), <a6>TrustDemoSomsak</a6> (<a7>json</a7>), <a8>TrustDemoKhamla</a8> (<a9>json</a9>), <a10>TrustDemoBounmy</a10> (<a11>json</a11>), <a12>TrustDemoJ2HepBReported</a12> (<a13>json</a13>), <a14>TrustDemoJ2BcgReported</a14> (<a15>json</a15>), <a16>TrustDemoJ2Referral</a16> (<a17>json</a17>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+   "hash": "96f67c40216228c7",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ1HepB</a0>، <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ2HepBReported</a0>, <a1>TrustDemoJ2BcgReported</a1>",
+   "hash": "b1f227392a7aa900",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ2HepBReported</a0>، <a1>TrustDemoJ2BcgReported</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ2HepBReported</a0>, <a1>TrustDemoJ2BcgReported</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ2HepBReported</a0>, <a1>TrustDemoJ2BcgReported</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ2HepBReported</a0>, <a1>TrustDemoJ2BcgReported</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ2HepBReported</a0>, <a1>TrustDemoJ2BcgReported</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ2Referral</a0>",
+   "hash": "dba7e10d8d5702db",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ2Referral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ2Referral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ2Referral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ2Referral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ2Referral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ2Referral</a0> (<a1>json</a1>)",
+   "hash": "fac821f0fd76b3cc",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ2Referral</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ2Referral</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ2Referral</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ2Referral</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ2Referral</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ2Registration</a0>",
+   "hash": "e21562d51d48fe4f",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ2Registration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ2Registration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ2Registration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ2Registration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ2Registration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ3HepB</a0> (<a1>json</a1>)",
+   "hash": "7b14dc2175681cf1",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ3HepB</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ3HepB</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ3HepB</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ3HepB</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ3HepB</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ3HepB</a0>, <a1>TrustDemoJ3Bcg</a1>, <a2>TrustDemoOnesaPenta1</a2>",
+   "hash": "83afd1f82a64c4ad",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ3HepB</a0>، <a1>TrustDemoJ3Bcg</a1>، <a2>TrustDemoOnesaPenta1</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ3HepB</a0>, <a1>TrustDemoJ3Bcg</a1>, <a2>TrustDemoOnesaPenta1</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ3HepB</a0>, <a1>TrustDemoJ3Bcg</a1>, <a2>TrustDemoOnesaPenta1</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ3HepB</a0>, <a1>TrustDemoJ3Bcg</a1>, <a2>TrustDemoOnesaPenta1</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ3HepB</a0>, <a1>TrustDemoJ3Bcg</a1>, <a2>TrustDemoOnesaPenta1</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ3Verification</a0>",
+   "hash": "a58ee9dd88b5aac8",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ3Verification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ3Verification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ3Verification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ3Verification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ3Verification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>)",
+   "hash": "e30c372e9cbccc10",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>), <a2>TrustDemoJ3HepB</a2> (<a3>json</a3>), <a4>TrustDemoJ3Bcg</a4> (<a5>json</a5>)",
+   "hash": "df3524c6abcb5b68",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>)، <a2>TrustDemoJ3HepB</a2> (<a3>json</a3>)، <a4>TrustDemoJ3Bcg</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>), <a2>TrustDemoJ3HepB</a2> (<a3>json</a3>), <a4>TrustDemoJ3Bcg</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>), <a2>TrustDemoJ3HepB</a2> (<a3>json</a3>), <a4>TrustDemoJ3Bcg</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>), <a2>TrustDemoJ3HepB</a2> (<a3>json</a3>), <a4>TrustDemoJ3Bcg</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ3Verification</a0> (<a1>json</a1>), <a2>TrustDemoJ3HepB</a2> (<a3>json</a3>), <a4>TrustDemoJ3Bcg</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ41Access</a0> (<a1>json</a1>)",
+   "hash": "d7f31056473d89aa",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ41Access</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ41Access</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ41Access</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ41Access</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ41Access</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ41Access</a0>, <a1>TrustDemoJ41WrongPasscode</a1>",
+   "hash": "4ee79748f76e86fc",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ41Access</a0>، <a1>TrustDemoJ41WrongPasscode</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ41Access</a0>, <a1>TrustDemoJ41WrongPasscode</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ41Access</a0>, <a1>TrustDemoJ41WrongPasscode</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ41Access</a0>, <a1>TrustDemoJ41WrongPasscode</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ41Access</a0>, <a1>TrustDemoJ41WrongPasscode</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ41Received</a0>",
+   "hash": "b48ca16ad8a94713",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ41Received</a0> (<a1>json</a1>), <a2>TrustDemoJ41Access</a2> (<a3>json</a3>), <a4>TrustDemoJ41WrongPasscode</a4> (<a5>json</a5>)",
+   "hash": "c822a3ed72c210fb",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ41Received</a0> (<a1>json</a1>)، <a2>TrustDemoJ41Access</a2> (<a3>json</a3>)، <a4>TrustDemoJ41WrongPasscode</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ41Received</a0> (<a1>json</a1>), <a2>TrustDemoJ41Access</a2> (<a3>json</a3>), <a4>TrustDemoJ41WrongPasscode</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ41Received</a0> (<a1>json</a1>), <a2>TrustDemoJ41Access</a2> (<a3>json</a3>), <a4>TrustDemoJ41WrongPasscode</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ41Received</a0> (<a1>json</a1>), <a2>TrustDemoJ41Access</a2> (<a3>json</a3>), <a4>TrustDemoJ41WrongPasscode</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ41Received</a0> (<a1>json</a1>), <a2>TrustDemoJ41Access</a2> (<a3>json</a3>), <a4>TrustDemoJ41WrongPasscode</a4> (<a5>json</a5>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ4Consent</a0> (<a1>json</a1>)",
+   "hash": "dd779987edf6a09b",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ4Consent</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ4Consent</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ4Consent</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ4Consent</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ4Consent</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoJ4Ips</a0> (<a1>json</a1>), <a2>TrustDemoOnesaPenta1</a2> (<a3>json</a3>), <a4>TrustDemoOnesaBopv1</a4> (<a5>json</a5>), <a6>TrustDemoOnesaPcv1</a6> (<a7>json</a7>), <a8>TrustDemoOnesaMr1</a8> (<a9>json</a9>), <a10>TrustDemoFamilyPhone</a10> (<a11>json</a11>)",
+   "hash": "c7f8d4884b8567ef",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoJ4Ips</a0> (<a1>json</a1>)، <a2>TrustDemoOnesaPenta1</a2> (<a3>json</a3>)، <a4>TrustDemoOnesaBopv1</a4> (<a5>json</a5>)، <a6>TrustDemoOnesaPcv1</a6> (<a7>json</a7>)، <a8>TrustDemoOnesaMr1</a8> (<a9>json</a9>)، <a10>TrustDemoFamilyPhone</a10> (<a11>json</a11>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoJ4Ips</a0> (<a1>json</a1>), <a2>TrustDemoOnesaPenta1</a2> (<a3>json</a3>), <a4>TrustDemoOnesaBopv1</a4> (<a5>json</a5>), <a6>TrustDemoOnesaPcv1</a6> (<a7>json</a7>), <a8>TrustDemoOnesaMr1</a8> (<a9>json</a9>), <a10>TrustDemoFamilyPhone</a10> (<a11>json</a11>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoJ4Ips</a0> (<a1>json</a1>), <a2>TrustDemoOnesaPenta1</a2> (<a3>json</a3>), <a4>TrustDemoOnesaBopv1</a4> (<a5>json</a5>), <a6>TrustDemoOnesaPcv1</a6> (<a7>json</a7>), <a8>TrustDemoOnesaMr1</a8> (<a9>json</a9>), <a10>TrustDemoFamilyPhone</a10> (<a11>json</a11>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoJ4Ips</a0> (<a1>json</a1>), <a2>TrustDemoOnesaPenta1</a2> (<a3>json</a3>), <a4>TrustDemoOnesaBopv1</a4> (<a5>json</a5>), <a6>TrustDemoOnesaPcv1</a6> (<a7>json</a7>), <a8>TrustDemoOnesaMr1</a8> (<a9>json</a9>), <a10>TrustDemoFamilyPhone</a10> (<a11>json</a11>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoJ4Ips</a0> (<a1>json</a1>), <a2>TrustDemoOnesaPenta1</a2> (<a3>json</a3>), <a4>TrustDemoOnesaBopv1</a4> (<a5>json</a5>), <a6>TrustDemoOnesaPcv1</a6> (<a7>json</a7>), <a8>TrustDemoOnesaMr1</a8> (<a9>json</a9>), <a10>TrustDemoFamilyPhone</a10> (<a11>json</a11>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoOnesaDvcVerification</a0>",
+   "hash": "3541ef9102664842",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoOnesaDvcVerification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoOnesaDvcVerification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoOnesaDvcVerification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoOnesaDvcVerification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoOnesaDvcVerification</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoOnesaHousehold</a0>",
+   "hash": "fceca200ac971628",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoOnesaHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoOnesaHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoOnesaHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoOnesaHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoOnesaHousehold</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoOnesaImmunization</a0>",
+   "hash": "957eec818471f6b2",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoOnesaImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoOnesaImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoOnesaImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoOnesaImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoOnesaImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoOnesaPatient</a0>",
+   "hash": "6758c4337b6d7113",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoOnesaPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoOnesaPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoOnesaPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoOnesaPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoOnesaPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoOnesaReferral</a0>",
+   "hash": "602d654318df0f65",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoOnesaReferral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoOnesaReferral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoOnesaReferral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoOnesaReferral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoOnesaReferral</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoOnesaRegistration</a0>",
+   "hash": "393b44d790deae14",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoOnesaRegistration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoOnesaRegistration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoOnesaRegistration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoOnesaRegistration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoOnesaRegistration</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoOnesaReportedImmunization</a0>",
+   "hash": "6e55ad8dcd41cc76",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoOnesaReportedImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoOnesaReportedImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoOnesaReportedImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoOnesaReportedImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoOnesaReportedImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoOnesaVhlAccess</a0>",
+   "hash": "a4113867bb95063e",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoOnesaVhlAccess</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoOnesaVhlAccess</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoOnesaVhlAccess</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoOnesaVhlAccess</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoOnesaVhlAccess</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoProductToOnesaEpi</a0> (<a1>json</a1>), <a2>TrustDemoJ3Adjudication</a2> (<a3>json</a3>), <a4>TrustDemoOnesaInfantSchedule</a4> (<a5>json</a5>), <a6>TrustDemoJ3Recommendation</a6> (<a7>json</a7>), <a8>TrustDemoJ3Reminder</a8> (<a9>json</a9>)",
+   "hash": "65453ae4141d1417",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoProductToOnesaEpi</a0> (<a1>json</a1>)، <a2>TrustDemoJ3Adjudication</a2> (<a3>json</a3>)، <a4>TrustDemoOnesaInfantSchedule</a4> (<a5>json</a5>)، <a6>TrustDemoJ3Recommendation</a6> (<a7>json</a7>)، <a8>TrustDemoJ3Reminder</a8> (<a9>json</a9>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoProductToOnesaEpi</a0> (<a1>json</a1>), <a2>TrustDemoJ3Adjudication</a2> (<a3>json</a3>), <a4>TrustDemoOnesaInfantSchedule</a4> (<a5>json</a5>), <a6>TrustDemoJ3Recommendation</a6> (<a7>json</a7>), <a8>TrustDemoJ3Reminder</a8> (<a9>json</a9>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoProductToOnesaEpi</a0> (<a1>json</a1>), <a2>TrustDemoJ3Adjudication</a2> (<a3>json</a3>), <a4>TrustDemoOnesaInfantSchedule</a4> (<a5>json</a5>), <a6>TrustDemoJ3Recommendation</a6> (<a7>json</a7>), <a8>TrustDemoJ3Reminder</a8> (<a9>json</a9>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoProductToOnesaEpi</a0> (<a1>json</a1>), <a2>TrustDemoJ3Adjudication</a2> (<a3>json</a3>), <a4>TrustDemoOnesaInfantSchedule</a4> (<a5>json</a5>), <a6>TrustDemoJ3Recommendation</a6> (<a7>json</a7>), <a8>TrustDemoJ3Reminder</a8> (<a9>json</a9>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoProductToOnesaEpi</a0> (<a1>json</a1>), <a2>TrustDemoJ3Adjudication</a2> (<a3>json</a3>), <a4>TrustDemoOnesaInfantSchedule</a4> (<a5>json</a5>), <a6>TrustDemoJ3Recommendation</a6> (<a7>json</a7>), <a8>TrustDemoJ3Reminder</a8> (<a9>json</a9>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoSomsak</a0>",
+   "hash": "0893a91f25cf5923",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoSomsak</a0> (<a1>json</a1>)",
+   "hash": "ecc9da7799cacd00",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoSomsak</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoSomsak</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoSomsak</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoSomsak</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoSomsak</a0> (<a1>json</a1>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoTaifafekiImmunization</a0>",
+   "hash": "74f03e1c24ab7163",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoTaifafekiImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoTaifafekiImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoTaifafekiImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoTaifafekiImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoTaifafekiImmunization</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoTaifafekiPatient</a0>",
+   "hash": "ad503910620149f1",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoTaifafekiPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoTaifafekiPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoTaifafekiPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoTaifafekiPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoTaifafekiPatient</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoTaifafekiSomsak</a0>",
+   "hash": "91493dae41e57cad",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoTaifafekiSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoTaifafekiSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoTaifafekiSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoTaifafekiSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoTaifafekiSomsak</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoTaifafekiVhlReceipt</a0>",
+   "hash": "4da81a50eaf2ff74",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoTaifafekiVhlReceipt</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoTaifafekiVhlReceipt</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoTaifafekiVhlReceipt</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoTaifafekiVhlReceipt</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoTaifafekiVhlReceipt</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A birth dose with every field the signed DVC (HCERT) carries: product, date, lot, dose number, performer.",
+   "hash": "798cf20eac6d0367",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جرعة ولادة بكل حقل تحمله شهادة التطعيم الرقمية (DVC) الموقَّعة (HCERT): المنتج، والتاريخ، ورقم التشغيلة، ورقم الجرعة، ومقدّم الخدمة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una dosis al nacer con todos los campos que contiene el DVC firmado (HCERT): producto, fecha, lote, número de dosis, profesional que la administró.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une dose à la naissance avec tous les champs que porte le DVC signé (HCERT) : produit, date, lot, numéro de dose, intervenant.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доза при рождении со всеми полями, которые содержит подписанный DVC (HCERT): препарат, дата, серия, номер дозы, исполнитель.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个出生剂次，包含已签名的数字疫苗接种证书（DVC）（HCERT）所携带的每个字段：产品、日期、批号、剂次编号、接种者。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A foreign dose read without verification: primarySource false, the family as source, not counted by the schedule.",
+   "hash": "242dd09f929407db",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جرعة أجنبية مقروءة دون تحقق: primarySource بقيمة false، والأسرة هي المصدر، ولا يحتسبها جدول التطعيم.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una dosis extranjera leída sin verificación: primarySource false, la familia como fuente, no contabilizada por el calendario.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une dose étrangère lue sans vérification : primarySource false, la famille comme source, non comptabilisée par le calendrier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Иностранная доза, считанная без проверки: primarySource false, источник — семья, графиком не учитывается.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "未经验证读取的外国剂次：primarySource 为 false，以家庭为来源，不计入接种计划。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "AuditEvent",
+   "hash": "c03443049879d27d",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "AuditEvent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "AuditEvent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "AuditEvent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "AuditEvent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "AuditEvent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Birth doses with their product codes; two printed DVCs signed with XXR's DEV key (kid {code0})",
+   "hash": "7bf636a311567661",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جرعات الولادة مع رموز منتجاتها؛ وشهادتا DVC مطبوعتان موقَّعتان بمفتاح DEV الخاص بـ XXR (kid {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dosis al nacer con sus códigos de producto; dos DVC impresos firmados con la clave DEV de XXR (kid {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Doses à la naissance avec leurs codes de produit ; deux DVC imprimés signés avec la clé DEV de XXR (kid {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дозы при рождении с кодами препаратов; два распечатанных DVC, подписанных DEV-ключом XXR (kid {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "带产品代码的出生剂次；两份用 XXR 的 DEV 密钥（kid {code0}）签名的纸质 DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Both codings, as on the walkthrough's payload; plus CVX {code0}. The product and schedule code systems are this guide's illustrative stand-ins.",
+   "hash": "bd49319050666e77",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كلا الترميزين، كما في حمولة الجولة الإرشادية؛ إضافةً إلى CVX {code0}. أنظمة رموز المنتجات وجدول التطعيم بدائل توضيحية خاصة بهذا الدليل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ambas codificaciones, como en la carga útil del recorrido guiado; además de CVX {code0}. Los sistemas de códigos de producto y de calendario son sustitutos ilustrativos de esta guía.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les deux codages, comme dans la charge utile de la présentation guidée ; plus le CVX {code0}. Les systèmes de codes des produits et du calendrier sont des substituts illustratifs propres à ce guide.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обе кодировки, как в полезной нагрузке пошагового обзора; плюс CVX {code0}. Системы кодов препаратов и графика — иллюстративные заменители, введённые этим руководством.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "两种编码，与演练的载荷中相同；另加 CVX {code0}。产品和接种计划代码系统是本指南的示意性替代品。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "By device screen",
+   "hash": "9424e749bada231e",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حسب شاشة الجهاز",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Por pantalla del dispositivo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Par écran d'appareil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "По экранам устройства",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "按设备屏幕",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Code is SNOMED CT {code0} (patient referral) with the walkthrough's text; the verification reason stays in {code1}.",
+   "hash": "0e79045aaca42c32",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرمز هو SNOMED CT {code0} (إحالة مريض) مع نص الجولة الإرشادية؛ ويبقى سبب التحقق في {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El código es SNOMED CT {code0} (derivación del paciente) con el texto del recorrido guiado; el motivo de la verificación permanece en {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code est SNOMED CT {code0} (orientation du patient) avec le texte de la présentation guidée ; le motif de vérification reste dans {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Код — SNOMED CT {code0} (направление пациента) с текстом из пошагового обзора; причина проверки остаётся в {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "代码为 SNOMED CT {code0}（患者转诊），附演练中的文本；验证原因保留在 {code1} 中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key.",
+   "hash": "f7adfc30176dd5b4",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلدان. تؤدي Taifafeki دورها على شبكة GDHCN DEV عبر المشارك التجريبي XXR، وتؤديه Onesa عبر المشارك الخيالي XXU. وليس أيٌّ منهما مفتاح إنتاج.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Países. En la red DEV de la GDHCN, Taifafeki está representada por el participante de prueba XXR y Onesa por el ficticio XXU. Ninguna de las dos es una clave de producción.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays. Taifafeki est jouée sur le réseau DEV du GDHCN par le participant de test XXR, et Onesa par le participant fictif XXU. Aucune de ces clés n'est une clé de production.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страны. В сети GDHCN DEV роль страны Taifafeki играет тестовый участник XXR, а роль страны Onesa — вымышленный XXU. Ни один из ключей не является рабочим.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家。在 GDHCN DEV 网络上，Taifafeki 由测试参与方 XXR 扮演，Onesa 由虚构的 XXU 扮演。两者都不是生产密钥。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Country",
+   "hash": "56e037ab746c341a",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Country profiles",
+   "hash": "165662a96fced40f",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملفات تعريف البلدان",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Perfiles por país",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Profils par pays",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Профили стран",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家配置文件",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Country, device",
+   "hash": "1f10f3cc5e053c19",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البلد، الجهاز",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "País, dispositivo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays, appareil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна, устройство",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家，设备",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Each country records only what its own step needs, so the guide has a small profile per country where the two differ. Each profile's description says how it is used in the journey and why its constraints are there. These are demonstrator profiles: they show what each step relies on and are not a ministry's national specification.",
+   "hash": "6709326d5404d978",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يسجّل كل بلد ما تحتاجه خطوته فقط، لذا يتضمن الدليل ملف تعريف صغيرًا لكل بلد حيث يختلف البلدان. ويبيّن وصف كل ملف تعريف كيفية استخدامه في الرحلة وسبب وجود قيوده. وهذه ملفات تعريف توضيحية: تُظهر ما تعتمد عليه كل خطوة، وليست مواصفة وطنية لوزارة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada país registra solo lo que necesita su propio paso, por lo que la guía tiene un pequeño perfil por país allí donde ambos difieren. La descripción de cada perfil indica cómo se usa en el recorrido y por qué tiene sus restricciones. Son perfiles de demostración: muestran aquello en lo que se basa cada paso y no son la especificación nacional de un ministerio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque pays n'enregistre que ce dont sa propre étape a besoin ; le guide comporte donc un petit profil par pays là où les deux diffèrent. La description de chaque profil indique comment il est utilisé dans le parcours et pourquoi ses contraintes existent. Ce sont des profils de démonstration : ils montrent ce sur quoi repose chaque étape et ne constituent pas la spécification nationale d'un ministère.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждая страна регистрирует только то, что нужно для её собственного шага, поэтому там, где две страны различаются, руководство содержит небольшой профиль для каждой страны. В описании каждого профиля сказано, как он используется в пути и зачем нужны его ограничения. Это демонстрационные профили: они показывают, на что опирается каждый шаг, и не являются национальной спецификацией какого-либо министерства.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个国家只记录其自身步骤所需的内容，因此在两国存在差异之处，本指南为每个国家提供一个小型配置文件。每个配置文件的描述说明它在旅程中如何使用以及其约束为何存在。这些是演示用配置文件：它们展示每个步骤所依赖的内容，并非某个卫生部的国家规范。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every VHL access logged at home, refusals included (IHE BALP pattern).",
+   "hash": "df72871059b05f5b",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل وصول إلى VHL يُسجَّل في البلد الأم، بما في ذلك حالات الرفض (نمط IHE BALP).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada acceso al VHL queda registrado en el país de residencia, incluidos los rechazos (patrón IHE BALP).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque accès au VHL est journalisé dans le pays de résidence, refus compris (modèle IHE BALP).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждый доступ по VHL регистрируется в стране происхождения, включая отказы (шаблон IHE BALP).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每次 VHL 访问都在本国记录，包括被拒绝的访问（IHE BALP 模式）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Example",
+   "hash": "035092b9264c20ee",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مثال",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ejemplo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exemple",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пример",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Examples",
+   "hash": "a1d697543bce7eed",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أمثلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ejemplos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exemples",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Примеры",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Family wallet on one phone; Somsak's IPS with six doses",
+   "hash": "049035508989db73",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محفظة الأسرة على هاتف واحد؛ وملخص IPS الخاص بـ Somsak مع ست جرعات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera familiar en un solo teléfono; IPS de Somsak con seis dosis",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille familial sur un seul téléphone ; l'IPS de Somsak avec six doses",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семейный кошелёк на одном телефоне; IPS Somsak с шестью дозами",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一部手机上的家庭钱包；Somsak 的 IPS，含六个剂次",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Group",
+   "hash": "5bd8c152a2442874",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Group",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Group",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Group",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Group",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Group",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Immunization",
+   "hash": "d23ca19c28f12fa0",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Immunization",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Immunization",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Immunization",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Immunization",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Immunization",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2a",
+   "hash": "52b93f033c7eb0af",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2b",
+   "hash": "cac0fcfa7bf6638d",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3a",
+   "hash": "222cebfd8744aabc",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3b",
+   "hash": "60e00f89bc40102b",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0a",
+   "hash": "985744c6d12a8f50",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0b",
+   "hash": "8622605801c362c6",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0b",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Key",
+   "hash": "443296714e6af36a",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المفتاح",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clave",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "键",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Onesa",
+   "hash": "145f9b288b7abb87",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Onesa, mobile",
+   "hash": "46ec83e7483efdbd",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa، هاتف محمول",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa, móvil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa, mobile",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa, мобильный телефон",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa，手机",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Onesa, tablet",
+   "hash": "4cc9b8059751332a",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa، جهاز لوحي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa, tableta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa, tablette",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa, планшет",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa，平板",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Moment",
+   "hash": "4df7bfcfa762efec",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللحظة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Momento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Moment",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Момент",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "时刻",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Offline QR scan of the two cards: read, not verified, nothing saved yet",
+   "hash": "d381a6ab74770953",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسح رمز QR دون اتصال للبطاقتين: مقروءتان، غير متحقَّق منهما، ولم يُحفَظ شيء بعد",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escaneo sin conexión del código QR de las dos tarjetas: leídas, no verificadas, nada guardado todavía",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lecture hors ligne du code QR des deux cartes : lues, non vérifiées, rien n'est encore enregistré",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Офлайн-сканирование QR двух карточек: считано, не проверено, пока ничего не сохранено",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线扫描两张卡片的 QR 码：已读取，未验证，尚未保存任何内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Offline registration of Somsak into the household through a form; the doses saved as reported ({code0} false), and a referral",
+   "hash": "82da04e988004905",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسجيل Somsak دون اتصال في الأسرة عبر استمارة؛ وحفظ الجرعات بوصفها مُبلَّغًا عنها ({code0} بقيمة false)، وإحالة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Inscripción sin conexión de Somsak en el hogar mediante un formulario; las dosis guardadas como notificadas ({code0} false) y una derivación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrement hors ligne de Somsak dans le ménage au moyen d'un formulaire ; les doses enregistrées comme déclarées ({code0} false), et une orientation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Офлайн-регистрация Somsak в домохозяйстве с помощью формы; дозы сохранены как заявленные ({code0} false), и направление",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通过表单离线将 Somsak 登记到家庭中；剂次保存为已报告（{code0} 为 false），并创建一个转诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Patient",
+   "hash": "768ef565cc3338cb",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Patient",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Patient",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Patient",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Patient",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Patient",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Product code mapped to the national schedule (nurse adjudicates the Hep B product); 6-week doses calculated; reminder",
+   "hash": "4807d9a24fc15f8d",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ربط رمز المنتج بجدول التطعيم الوطني (تبتّ الممرضة في منتج Hep B)؛ وحساب جرعات الأسبوع 6؛ وتذكير",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Código de producto asignado al calendario nacional (la enfermera dictamina sobre el producto de hepatitis B); dosis de las 6 semanas calculadas; recordatorio",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Code de produit mis en correspondance avec le calendrier national (l'infirmière statue sur le produit Hep B) ; doses de 6 semaines calculées ; rappel",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Код препарата сопоставлен с национальным графиком (медсестра принимает решение по препарату против гепатита B); рассчитаны дозы в 6 недель; напоминание",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "产品代码映射到国家接种计划（护士裁定 Hep B 产品）；计算出 6 周剂次；提醒",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Profile",
+   "hash": "8d0fadd98c04aea8",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملف التعريف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Perfil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Profil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Профиль",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "配置文件",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Provenance",
+   "hash": "033b5c9ed991ec8e",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Provenance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Provenance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Provenance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Provenance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Provenance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Screen",
+   "hash": "f65d69cce4ded5b7",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الشاشة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Pantalla",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Écran",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Экран",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "屏幕",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "ServiceRequest",
+   "hash": "bade1055dde311a9",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ServiceRequest",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "ServiceRequest",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ServiceRequest",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ServiceRequest",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "ServiceRequest",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Shows",
+   "hash": "a9cf3c7ee3d3414d",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُظهر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Muestra",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Montre",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что показывает",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "显示内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Signature verified against the cached GDHCN trust list; provenance attached",
+   "hash": "ab7bb67365084ab5",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التوقيع متحقَّق منه مقابل قائمة الثقة المخزَّنة مؤقتًا في GDHCN؛ ومصدر المنشأ مُرفَق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Firma verificada con la lista de confianza de la GDHCN almacenada en caché; procedencia adjunta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Signature vérifiée par rapport à la liste de confiance du GDHCN mise en cache ; provenance jointe",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подпись проверена по кэшированному списку доверия GDHCN; приложены сведения о происхождении (provenance)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签名已对照缓存的 GDHCN 信任列表进行验证；已附来源记录（provenance）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Temporary-id system is this guide's ({code0}), not a ministry URL.",
+   "hash": "3fd28bbafbb4aa85",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظام المعرّف المؤقت خاص بهذا الدليل ({code0})، وليس URL لوزارة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El sistema de identificadores temporales es el de esta guía ({code0}), no una URL de un ministerio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le système d'identifiants temporaires est celui de ce guide ({code0}), et non une URL ministérielle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Система временных идентификаторов принадлежит этому руководству ({code0}), а не является URL министерства.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "临时 id 系统属于本指南（{code0}），而非卫生部 URL。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Taifafeki",
+   "hash": "a636fa7b439fce31",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Taifafeki, tablet",
+   "hash": "da00bd7c8afc0c04",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Taifafeki، جهاز لوحي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Taifafeki, tableta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Taifafeki, tablette",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Taifafeki, планшет",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki，平板",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The answers on the offline registration form (Structured Data Capture), kept so the extracted records trace back to them.",
+   "hash": "ea8c5f92d2ac8e3e",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإجابات في استمارة التسجيل دون اتصال (Structured Data Capture)، محفوظةً لكي ترجع السجلات المستخرَجة إليها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las respuestas del formulario de inscripción sin conexión (Structured Data Capture), conservadas para que los registros extraídos puedan rastrearse hasta ellas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les réponses au formulaire d'enregistrement hors ligne (Structured Data Capture), conservées afin que les enregistrements extraits puissent y être rattachés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ответы в офлайн-форме регистрации (Structured Data Capture), сохраняемые, чтобы извлечённые записи можно было проследить до них.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线登记表单（结构化数据采集，Structured Data Capture）上的答案，予以保留，使提取出的记录可以追溯到它们。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The child the CHW registers, under a temporary id until civil registration catches up.",
+   "hash": "d530b6a63ba66f9d",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الطفل الذي يسجّله عامل الصحة المجتمعي (CHW)، بمعرّف مؤقت إلى أن يلحق به التسجيل المدني.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El niño que inscribe el agente comunitario de salud (CHW), con un identificador temporal hasta que el registro civil se ponga al día.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'enfant que le CHW enregistre, sous un identifiant temporaire jusqu'à ce que l'état civil soit à jour.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ребёнок, которого регистрирует общинный медицинский работник (CHW), под временным идентификатором до проведения регистрации актов гражданского состояния.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "社区卫生工作者（CHW）登记的儿童，在民事登记跟进之前使用临时 id。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The CHW's referral to the clinic, pointing at the reported doses to verify.",
+   "hash": "45892c70293791ed",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إحالة عامل الصحة المجتمعي (CHW) إلى العيادة، مشيرةً إلى الجرعات المُبلَّغ عنها التي يجب التحقق منها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La derivación del CHW a la clínica, que remite a las dosis notificadas que se deben verificar.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'orientation du CHW vers le centre de santé, pointant vers les doses déclarées à vérifier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Направление CHW в клинику со ссылкой на заявленные дозы, подлежащие проверке.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CHW 向诊所发出的转诊，指向待验证的已报告剂次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The DVC payload is an HCERT (CBOR/COSE), not a FHIR resource; its logical model is smart-trust-phw's DVCMinPreQual. It waits for bean ig01 before it is an example here.",
+   "hash": "c6d5c02978b78f3c",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حمولة DVC هي HCERT (CBOR/COSE)، وليست مورد FHIR؛ ونموذجها المنطقي هو DVCMinPreQual في smart-trust-phw. وهي تنتظر bean ig01 قبل أن تصبح مثالًا هنا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La carga útil del DVC es un HCERT (CBOR/COSE), no un recurso FHIR; su modelo lógico es DVCMinPreQual de smart-trust-phw. Queda a la espera del bean ig01 antes de ser un ejemplo aquí.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La charge utile du DVC est un HCERT (CBOR/COSE), et non une ressource FHIR ; son modèle logique est le DVCMinPreQual de smart-trust-phw. Elle attend le bean ig01 avant de devenir un exemple ici.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Полезная нагрузка DVC — это HCERT (CBOR/COSE), а не ресурс FHIR; её логическая модель — DVCMinPreQual из smart-trust-phw. Она станет примером здесь после выполнения bean ig01.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DVC 载荷是 HCERT（CBOR/COSE），而非 FHIR 资源；其逻辑模型是 smart-trust-phw 的 DVCMinPreQual。在 bean ig01 完成之前，它不会成为此处的示例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The household roster, which is how a CHW notices a missing newborn.",
+   "hash": "415a94d41db849a8",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قائمة أفراد الأسرة، وهي الطريقة التي يلاحظ بها عامل الصحة المجتمعي (CHW) مولودًا مفقودًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La lista de miembros del hogar, que es como un CHW detecta que falta un recién nacido.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La liste des membres du ménage, grâce à laquelle un CHW remarque qu'un nouveau-né manque.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Список членов домохозяйства, по которому CHW замечает неучтённого новорождённого.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家庭名册，CHW 正是借此发现遗漏的新生儿。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The keys of the walkthrough's {code0} ({code1}) and the example that replaces each one:",
+   "hash": "3c9f9435b86c550c",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفاتيح {code0} في الجولة الإرشادية ({code1}) والمثال الذي يحلّ محل كل منها:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las claves de {code0} del recorrido guiado ({code1}) y el ejemplo que sustituye a cada una:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les clés du {code0} ({code1}) de la présentation guidée et l'exemple qui remplace chacune d'elles :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключи {code0} пошагового обзора ({code1}) и пример, заменяющий каждый из них:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "演练的 {code0}（{code1}）中的各个键，以及替代每个键的示例：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The passcode. The walkthrough shows {code0} on screen. No example stores a passcode: the consent and audit records say only that one was checked.",
+   "hash": "f52ef0e84fb28cb1",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز المرور. تعرض الجولة الإرشادية {code0} على الشاشة. لا يخزّن أي مثال رمز مرور: تذكر سجلات الموافقة والتدقيق فقط أنه جرى التحقق من رمز ما.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El código de acceso. El recorrido guiado muestra {code0} en pantalla. Ningún ejemplo almacena un código de acceso: los registros de consentimiento y de auditoría solo indican que se comprobó uno.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code d'accès. La présentation guidée affiche {code0} à l'écran. Aucun exemple ne stocke de code d'accès : les enregistrements de consentement et d'audit indiquent seulement qu'un code a été vérifié.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Код доступа. Пошаговый обзор показывает {code0} на экране. Ни один пример не хранит код доступа: в записях о согласии и аудите указано лишь, что он был проверен.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通行码。演练在屏幕上显示 {code0}。没有任何示例存储通行码：同意和审计记录仅说明已检查过一个通行码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The payload drawer",
+   "hash": "7de75b5398b79aec",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "درج الحمولات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El panel desplegable de carga útil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le tiroir de charge utile",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Панель полезной нагрузки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "载荷抽屉",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the Taifafeki records behind the cards: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; the doses as later verified in Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)",
+   "hash": "f76e2395e78b6cb1",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سجلات Taifafeki وراء البطاقتين: <a0>TrustDemoTaifafekiSomsak</a0>، <a1>TrustDemoJ1HepB</a1>، <a2>TrustDemoJ1Bcg</a2>؛ والجرعات كما تُحقِّق منها لاحقًا في Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>)، <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>)؛ <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>)، <a9>TrustDemoAnan</a9> (<a10>json</a10>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los registros de Taifafeki detrás de las tarjetas: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; las dosis tal como se verificaron después en Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les enregistrements de Taifafeki derrière les cartes : <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2> ; les doses telles que vérifiées ensuite à Onesa : <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>) ; <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "записи страны Taifafeki, стоящие за карточками: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; дозы в том виде, в каком они позже проверены в стране Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "卡片背后的 Taifafeki 记录：<a0>TrustDemoTaifafekiSomsak</a0>、<a1>TrustDemoJ1HepB</a1>、<a2>TrustDemoJ1Bcg</a2>；之后在 Onesa 验证的剂次：<a3>TrustDemoJ3HepB</a3>（<a4>json</a4>）、<a5>TrustDemoJ3Bcg</a5>（<a6>json</a6>）；<a7>TrustDemoKesaroHospital</a7>（<a8>json</a8>）、<a9>TrustDemoAnan</a9>（<a10>json</a10>）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the Taifafeki records on the cards: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+   "hash": "320835108fa75d65",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سجلات Taifafeki على البطاقتين: <a0>TrustDemoJ1HepB</a0>، <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los registros de Taifafeki de las tarjetas: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les enregistrements de Taifafeki figurant sur les cartes : <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "записи страны Taifafeki на карточках: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "卡片上的 Taifafeki 记录：<a0>TrustDemoJ1HepB</a0>、<a1>TrustDemoJ1Bcg</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Type",
+   "hash": "ffb6405983a84d31",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النوع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tipo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Type",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тип",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "类型",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verifier, enterer and author agents; the DVCs as source entities and the reported doses as removed. The COSE signature stays in the DVC rather than in {code0}.",
+   "hash": "c053dd4b44555d99",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهات الفاعلة: المُتحقِّق، ومُدخِل البيانات، والمؤلف؛ وشهادات DVC بوصفها كيانات مصدرية، والجرعات المُبلَّغ عنها بوصفها مُزالة. ويبقى توقيع COSE في DVC بدلًا من {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Agentes verificador, introductor de datos (enterer) y autor; los DVC como entidades de origen y las dosis notificadas como eliminadas. La firma COSE permanece en el DVC y no en {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Agents vérificateur, de saisie et auteur ; les DVC comme entités sources et les doses déclarées comme supprimées. La signature COSE reste dans le DVC plutôt que dans {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Агенты: проверяющая сторона, лицо, вносящее данные, и автор; DVC — как исходные сущности, заявленные дозы — как удалённые. Подпись COSE остаётся в DVC, а не в {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "验证方、录入者和作者代理；DVC 作为来源实体，已报告剂次标记为已移除。COSE 签名保留在 DVC 中，而不是在 {code0} 中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VHL QR with a 4-digit passcode and a 14-day expiry; consent",
+   "hash": "79e95b49f3deff7f",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز QR لـ VHL مع رمز مرور من 4 أرقام وصلاحية لمدة 14 يومًا؛ والموافقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Código QR del VHL con un código de acceso de 4 dígitos y una caducidad de 14 días; consentimiento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Code QR VHL avec un code d'accès à 4 chiffres et une expiration à 14 jours ; consentement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR с VHL, 4-значным кодом доступа и сроком действия 14 дней; согласие",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "带 4 位通行码和 14 天有效期的 VHL QR 码；同意（Consent）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VHL viewer: passcode unlock, wrong-passcode test, access logged in Onesa",
+   "hash": "618ade8fa18ac6f4",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عارض VHL: فتح برمز المرور، واختبار رمز مرور خاطئ، وتسجيل الوصول في Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Visor del VHL: desbloqueo con código de acceso, prueba de código de acceso incorrecto, acceso registrado en Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Visionneuse VHL : déverrouillage par code d'accès, test de code d'accès erroné, accès journalisé à Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Средство просмотра VHL: разблокировка кодом доступа, проверка неверного кода, доступ зарегистрирован в стране Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL 查看器：通行码解锁、错误通行码测试、在 Onesa 记录访问",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What changed",
+   "hash": "7116cb8a076b9941",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما الذي تغيّر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Qué cambió",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce qui a changé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что изменилось",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "变更内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What the examples change from the walkthrough's copies",
+   "hash": "3a36bff5de0d06e7",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما تغيّره الأمثلة عن نسخ الجولة الإرشادية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Qué cambian los ejemplos respecto a las copias del recorrido guiado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce que les exemples modifient par rapport aux copies de la présentation guidée",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Чем примеры отличаются от копий в пошаговом обзоре",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例相对于演练副本的变更",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Who verified which DVC against the GDHCN trust list, and which reported doses it replaced.",
+   "hash": "c7d288f93d82f2c0",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مَن تحقّق من أيّ DVC مقابل قائمة الثقة في GDHCN، وأيّ الجرعات المُبلَّغ عنها استبدلها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Quién verificó qué DVC con la lista de confianza de la GDHCN y qué dosis notificadas sustituyó.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Qui a vérifié quel DVC par rapport à la liste de confiance du GDHCN, et quelles doses déclarées il a remplacées.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кто проверил какой DVC по списку доверия GDHCN и какие заявленные дозы он заменил.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "谁对照 GDHCN 信任列表验证了哪份 DVC，以及它取代了哪些已报告剂次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Why it is there",
+   "hash": "dbf16de026980354",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سبب وجوده",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Por qué está ahí",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pourquoi il est là",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зачем он нужен",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "存在原因",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0}; the members are Patients (FHIR R4 Group lists Patients, so each parent is a Patient beside their RelatedPerson role); the household code is {code1} with the text \"Household\".",
+   "hash": "30e7ef443d62a249",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0}؛ والأفراد موارد Patient (إذ يسرد Group في FHIR R4 موارد Patient، فيكون كل والد موردَ Patient إلى جانب دوره بوصفه RelatedPerson)؛ ورمز الأسرة هو {code1} مع النص «Household».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0}; los miembros son recursos Patient (en FHIR R4, Group enumera recursos Patient, así que cada progenitor es un Patient junto a su rol RelatedPerson); el código del hogar es {code1} con el texto \"Household\".",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} ; les membres sont des Patients (en FHIR R4, Group liste des Patients, donc chaque parent est un Patient à côté de son rôle RelatedPerson) ; le code du ménage est {code1}, avec le texte « Household ».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0}; члены — ресурсы Patient (в FHIR R4 Group перечисляет Patient, поэтому каждый родитель является Patient рядом со своей ролью RelatedPerson); код домохозяйства — {code1} с текстом \"Household\".",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}；成员为 Patient（FHIR R4 Group 列出的是 Patient，因此每位父母都是一个 Patient，并另有其 RelatedPerson 角色）；家庭代码为 {code1}，文本为“Household”。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every example is published twice: as a page, and as raw JSON at a stable URL the walkthrough can fetch ({code0}). They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Health Wallet guide.",
+   "hash": "b285b6392c088955",
+   "sources": [
+    "docs/vaxlink-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُنشَر كل مثال مرتين: صفحةً، وJSON خامًا على URL ثابت يمكن للجولة الإرشادية جلبه ({code0}). وهي بصيغة FHIR R4 (4.0.1)، كهذا الدليل، مثل smart-base ودليل المحفظة الصحية الشخصية (Personal Health Wallet).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada ejemplo se publica dos veces: como página y como JSON sin procesar en una URL estable que el recorrido guiado puede obtener ({code0}). Son FHIR R4 (4.0.1), como esta guía, al igual que smart-base y la guía Personal Health Wallet.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque exemple est publié deux fois : sous forme de page, et en JSON brut à une URL stable que la présentation guidée peut récupérer ({code0}). Ils sont en FHIR R4 (4.0.1), comme ce guide, ainsi que smart-base et le guide Personal Health Wallet.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждый пример публикуется дважды: как страница и как исходный JSON по стабильному URL, который может загрузить пошаговый обзор ({code0}). Они соответствуют FHIR R4 (4.0.1), как и это руководство, а также smart-base и руководство Personal Health Wallet.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个示例都发布两次：一次作为页面，一次作为位于演练可获取的稳定 URL 上的原始 JSON（{code0}）。它们是 FHIR R4（4.0.1），与本指南一致，也与 smart-base 和 Personal Health Wallet 指南一致。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journey examples",
+   "hash": "6a60af5b840d804d",
+   "sources": [
+    "docs/journey-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أمثلة الرحلات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ejemplos de los recorridos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exemples des parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Примеры путей",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程示例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The journeys walkthrough (first told in the <a0>VaxLink</a0> workshop, <a1>source</a1>) shows sample FHIR payloads in its payload drawer and on its device screens S1 to S8. This page maps each of them to the example in this guide that materializes it.",
+   "hash": "8731df39d4440ac3",
+   "sources": [
+    "docs/journey-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تعرض الجولة الإرشادية للرحلات (التي رُويت أولًا في ورشة عمل <a0>VaxLink</a0>، <a1>المصدر</a1>) حمولات FHIR نموذجية في درج الحمولات وعلى شاشات أجهزتها من S1 إلى S8. وتربط هذه الصفحة كلًّا منها بالمثال الذي يجسّده في هذا الدليل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La visita guiada de los recorridos (contada por primera vez en el taller <a0>VaxLink</a0>, <a1>fuente</a1>) muestra cargas útiles FHIR de muestra en su panel desplegable de carga útil y en sus pantallas del dispositivo S1 a S8. Esta página relaciona cada una de ellas con el ejemplo de esta guía que la materializa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La présentation guidée des parcours (racontée d'abord dans l'atelier <a0>VaxLink</a0>, <a1>source</a1>) montre des exemples de charges utiles FHIR dans son tiroir de charge utile et sur ses écrans d'appareil S1 à S8. Cette page fait correspondre chacun d'eux à l'exemple de ce guide qui le matérialise.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пошаговый обзор путей (впервые представленный на практическом семинаре <a0>VaxLink</a0>, <a1>исходный код</a1>) показывает образцы полезной нагрузки FHIR на своей панели полезной нагрузки и на экранах устройств S1–S8. На этой странице каждый из них сопоставлен с примером этого руководства, который его воплощает.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程演练（最初在 <a0>VaxLink</a0> 研讨会中讲述，<a1>源码</a1>）在其载荷抽屉和设备屏幕 S1 至 S8 上展示示例 FHIR 载荷。本页将其中每一个映射到本指南中将其具体化的示例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A dose on the national schedule: the Onesa EPI code is required, and a foreign product code is kept beside it.",
+   "hash": "f2ac15643cac1e81",
+   "sources": [
+    "docs/journey-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جرعة ضمن جدول التطعيم الوطني: رمز EPI في Onesa مطلوب، ويُحتفَظ برمز المنتج الأجنبي إلى جانبه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una dosis del calendario nacional: el código del PAI de Onesa es obligatorio y un código de producto extranjero se conserva junto a él.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une dose du calendrier national : le code PEV du pays Onesa est obligatoire, et un code de produit étranger est conservé à côté.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доза национального графика: код EPI страны Onesa обязателен, а иностранный код препарата сохраняется рядом с ним.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家接种计划中的一个剂次：Onesa EPI 代码为必需，外国产品代码保留在其旁。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Code systems. Each dose's product is coded with its WHO PreQual product id ({code0} for the Hep B birth dose and so on), from the code system {code1} of the <a0>SMART Product Dataset for Prequalified Vaccines</a0>, and the ValueSet {code2} lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa ({code3} and so on) are illustrative, defined here as the code system {code4}, marked experimental, under this guide's canonical, so no URL implies a real ministry.",
+   "hash": "cefd36f6742251f4",
+   "sources": [
+    "docs/journey-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أنظمة الرموز. يُرمَّز منتج كل جرعة بمعرّف منتج WHO PreQual الخاص به ({code0} لجرعة الولادة من لقاح التهاب الكبد B وغيرها)، من نظام الرموز {code1} في <a0>SMART Product Dataset for Prequalified Vaccines</a0>، وتسرد مجموعة القيم (ValueSet) {code2} المنتجات التي تستخدمها الرحلات؛ أمّا أيّ منتج أُعطي في كل جرعة خيالية فهو توضيحي. ورموز جدول التطعيم في Onesa ({code3} وغيرها) توضيحية، معرّفة هنا بوصفها نظام الرموز {code4}، موسومًا بأنه تجريبي، ضمن المعرّف القانوني لهذا الدليل، بحيث لا يوحي أي URL بوزارة حقيقية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sistemas de códigos. El producto de cada dosis se codifica con su identificador de producto WHO PreQual ({code0} para la dosis de nacimiento contra la hepatitis B, etc.), del sistema de códigos {code1} del <a0>SMART Product Dataset for Prequalified Vaccines</a0>, y el ValueSet {code2} enumera los que usan los recorridos; qué producto recibió cada dosis ficticia es ilustrativo. Los códigos del calendario de Onesa ({code3}, etc.) son ilustrativos y se definen aquí como el sistema de códigos {code4}, marcado como experimental, bajo la URL canónica de esta guía, de modo que ninguna URL sugiera un ministerio real.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Systèmes de codes. Le produit de chaque dose est codé avec son identifiant de produit WHO PreQual ({code0} pour la dose de naissance contre l'hépatite B, etc.), issu du système de codes {code1} du <a0>SMART Product Dataset for Prequalified Vaccines</a0>, et le ValueSet {code2} énumère ceux qu'utilisent les parcours ; le produit administré à chaque dose fictive est illustratif. Les codes du calendrier du pays Onesa ({code3}, etc.) sont illustratifs et définis ici comme le système de codes {code4}, marqué comme expérimental, sous l'URL canonique de ce guide, afin qu'aucune URL ne suggère un ministère réel.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Системы кодов. Препарат каждой дозы кодируется его идентификатором продукта WHO PreQual ({code0} для дозы против гепатита B при рождении и т. д.) из системы кодов {code1} набора <a0>SMART Product Dataset for Prequalified Vaccines</a0>, а ValueSet {code2} перечисляет те, что используются в сценариях; какой препарат получила каждая вымышленная доза, является иллюстративным. Коды графика страны Onesa ({code3} и т. д.) являются иллюстративными и определены здесь как система кодов {code4}, помеченная как экспериментальная, в каноническом пространстве этого руководства, так что ни один URL не подразумевает реальное министерство.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "代码系统。每剂次的产品均以其 WHO PreQual 产品标识符编码（乙肝出生剂次为 {code0}，以此类推），来自 <a0>SMART Product Dataset for Prequalified Vaccines</a0> 的代码系统 {code1}，ValueSet {code2} 列出各旅程所用的产品；每个虚构剂次所接种的具体产品仅作示意。Onesa 的接种计划代码（{code3} 等）仅作示意，在此被定义为代码系统 {code4}，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28.",
+   "hash": "0982f5a119a9d6f8",
+   "sources": [
+    "docs/journey-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التواريخ. كما في الجولة الإرشادية: الولادة 2025-10-28، وJ2 في 2025-11-18، وJ3 في 2025-11-25، والجرعات في Onesa في 2025-12-10 و2026-07-28، والرحلة في 2026-10-28.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Fechas. Como en el recorrido guiado: nacimiento 2025-10-28, J2 2025-11-18, J3 2025-11-25, las dosis en Onesa 2025-12-10 y 2026-07-28, el viaje 2026-10-28.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dates. Comme dans la présentation guidée : naissance le 2025-10-28, J2 le 2025-11-18, J3 le 2025-11-25, les doses à Onesa le 2025-12-10 et le 2026-07-28, le voyage le 2026-10-28.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Даты. Как в пошаговом обзоре: рождение 2025-10-28, J2 2025-11-18, J3 2025-11-25, дозы в стране Onesa 2025-12-10 и 2026-07-28, поездка 2026-10-28.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "日期。与演练中相同：出生 2025-10-28，J2 2025-11-18，J3 2025-11-25，在 Onesa 接种的剂次 2025-12-10 和 2026-07-28，出行 2026-10-28。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesa gateway the custodian and observer. The passcode is never logged.",
+   "hash": "3fe94ee89fe69b3b",
+   "sources": [
+    "docs/journey-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بنية R4: {code0}، {code1}، {code2}، {code3}؛ الجهة المُستقبِلة هي الطالب، وبوابة الربط في Onesa هي الأمين والمراقب. ولا يُسجَّل رمز المرور أبدًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estructura R4: {code0}, {code1}, {code2}, {code3}; el receptor es el solicitante, y la puerta de enlace de Onesa, el custodio y observador. El código de acceso nunca se registra.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Forme R4 : {code0}, {code1}, {code2}, {code3} ; le destinataire est le demandeur, la passerelle du pays Onesa le dépositaire et l'observateur. Le code d'accès n'est jamais journalisé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Структура R4: {code0}, {code1}, {code2}, {code3}; получатель — запрашивающая сторона, шлюз страны Onesa — хранитель и наблюдатель. Код доступа никогда не регистрируется.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "R4 结构：{code0}、{code1}、{code2}、{code3}；接收方为请求者，Onesa 网关为保管者和观察者。通行码从不记录。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The birth hospital's newborn: a hospital number, since a baby of parents from Onesa has no Taifafeki citizen id.",
+   "hash": "b723aa420a06791a",
+   "sources": [
+    "docs/journey-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المولود الجديد في مستشفى الولادة: رقم مستشفى، إذ لا يملك رضيع لأبوين من Onesa رقم هوية مواطن في Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El recién nacido del hospital de nacimiento: un número de hospital, ya que un bebé de padres de Onesa no tiene número de identificación de ciudadano de Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le nouveau-né de l'hôpital de naissance : un numéro d'hôpital, car un bébé de parents du pays Onesa n'a pas de numéro d'identité de citoyen de Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Новорождённый в родильной больнице: больничный номер, поскольку у ребёнка родителей из страны Onesa нет идентификатора гражданина страны Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生医院的新生儿：使用医院编号，因为父母来自 Onesa 的婴儿没有 Taifafeki 公民 id。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What the Taifafeki clinic keeps when it views a summary from Onesa through a VHL: viewed, not copied.",
+   "hash": "4f34ce78b8b266d5",
+   "sources": [
+    "docs/journey-examples.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما تحتفظ به العيادة في Taifafeki عندما تعرض ملخصًا من Onesa عبر VHL: معروض، لا منسوخ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lo que conserva la clínica de Taifafeki cuando consulta un resumen de Onesa mediante un VHL: consultado, no copiado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce que le centre de santé de Taifafeki conserve lorsqu'il consulte un résumé du pays Onesa au moyen d'un VHL : consulté, non copié.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что сохраняет клиника в стране Taifafeki при просмотре сводки из страны Onesa по VHL: просмотрено, не скопировано.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 的诊所通过 VHL 查看来自 Onesa 的摘要时所保留的内容：仅查看，不复制。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

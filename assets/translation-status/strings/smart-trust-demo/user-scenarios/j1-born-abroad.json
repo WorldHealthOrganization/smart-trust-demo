@@ -1,0 +1,1776 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "user-scenarios/j1-born-abroad",
+ "hashes": {
+  "ar": "d6a03298dc7c4b8e",
+  "es": "7d68f89d2936cc38",
+  "fr": "46067bd0163a970f",
+  "ru": "d214f41f709348f8",
+  "zh": "10c94661debf8ac3"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Taifafeki",
+   "hash": "1df520ff29829dcf",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "User scenario in the IG",
+   "hash": "6ec906602b6d758f",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريو المستخدم في دليل التنفيذ (IG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenario de usuario en la IG",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénario utilisateur dans le guide d’implémentation",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательский сценарий в IG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "实施指南（IG）中的用户场景",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Somsak is born",
+   "hash": "d1fc89c4bd5985f3",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ولادة Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nace Somsak",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Somsak naît",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рождение Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak 出生",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Taifafeki hospital",
+   "hash": "cb1eda134ec8a7f9",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مستشفى في Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hospital de Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Hôpital de Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Больница в стране Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 医院",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Two signed paper QR cards",
+   "hash": "8542ad60d8d6f59b",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقتان ورقيتان موقَّعتان تحملان رمز QR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dos tarjetas QR firmadas en papel",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Deux cartes QR papier signées",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Две подписанные бумажные карточки с QR-кодом",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "两张已签名的纸质 QR 码卡片",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "A digitally signed QR card travels with the family — no ID number or database lookup needed.",
+   "hash": "e1e709d43043f3ce",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقة QR موقَّعة رقميًا ترافق الأسرة — دون الحاجة إلى رقم هوية (ID) أو بحث في قاعدة بيانات.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una tarjeta QR firmada digitalmente viaja con la familia — sin necesidad de número de identificación ni de consultar una base de datos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une carte QR signée numériquement voyage avec la famille — aucun numéro d’identification ni consultation de base de données n’est nécessaire.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Карточка с QR-кодом, подписанная цифровой подписью, путешествует вместе с семьёй — не нужны ни идентификационный номер, ни поиск в базе данных.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一张经数字签名的 QR 码卡片随家人同行——无需身份证号，也无需查询数据库。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Gives birth away from home and receives two paper cards at discharge.",
+   "hash": "246d446b26dea855",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تلد بعيدًا عن البلد الأم وتتسلّم بطاقتين ورقيتين عند الخروج من المستشفى.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Da a luz lejos de su país y recibe dos tarjetas en papel al recibir el alta.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Accouche loin de chez elle et reçoit deux cartes papier à sa sortie.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рожает вдали от дома и при выписке получает две бумажные карточки.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在异国分娩，出院时领到两张纸质卡片。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Gives Hep B and BCG birth doses and prints two signed QR vaccine cards.",
+   "hash": "dedabcaf029ef831",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعطي جرعتَي الولادة من Hep B و BCG ويطبع بطاقتَي تطعيم موقَّعتين تحملان رمز QR.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Administra las dosis al nacer contra la Hep B y la BCG e imprime dos tarjetas de vacunación QR firmadas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Administre les doses à la naissance d’hépatite B et de BCG et imprime deux cartes de vaccination QR signées.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вводит дозы Hep B и BCG при рождении и печатает две подписанные карточки вакцинации с QR-кодом.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接种乙肝（Hep B）和 BCG 出生剂次，并打印两张已签名的 QR 码疫苗卡片。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Is born, and gets his Hep B and BCG birth doses within hours.",
+   "hash": "6175eedd3b60f101",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يولد، ويتلقى جرعتَي الولادة من Hep B و BCG في غضون ساعات.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nace y, en pocas horas, recibe sus dosis al nacer contra la Hep B y la BCG.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Naît, et reçoit ses doses à la naissance d’hépatite B et de BCG dans les heures qui suivent.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рождается и в течение нескольких часов получает дозы Hep B и BCG при рождении.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生，并在几小时内接种乙肝（Hep B）和 BCG 出生剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“He isn’t Taifafeki, but he still needs a record he can take home.”",
+   "hash": "cb3d264d9ae3f35b",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«إنه ليس من Taifafeki، لكنه مع ذلك يحتاج إلى سجلّ يمكنه أخذه إلى البلد الأم.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“No es de Taifafeki, pero aun así necesita un registro que pueda llevarse a casa.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Il n’est pas de Taifafeki, mais il a quand même besoin d’un dossier qu’il peut rapporter chez lui. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Он не гражданин страны Taifafeki, но ему всё равно нужна запись, которую можно увезти домой».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“他不是 Taifafeki 公民，但他仍然需要一份能带回家的记录。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Two small jabs, and a record that will follow him.”",
+   "hash": "264c79c92608bc91",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«وخزتان صغيرتان، وسجلّ سيرافقه.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Dos pinchazos pequeños, y un registro que lo acompañará.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Deux petites piqûres, et un dossier qui le suivra. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Два маленьких укола — и запись, которая пойдёт с ним дальше».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“两针小小的疫苗，还有一份会跟着他的记录。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Will anyone back home believe these papers?”",
+   "hash": "165dfc9860d55bab",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«هل سيصدّق أحد في البلد الأم هذه الأوراق؟»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“¿Alguien en casa creerá estos papeles?”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Est-ce que quelqu’un, chez nous, croira ces papiers ? »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Поверит ли кто-нибудь дома этим бумагам?»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“家乡会有人相信这些纸吗？”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Created in the Taifafeki system (Hep B, BCG)",
+   "hash": "cb40a72279b6079a",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُنشئ في نظام Taifafeki (Hep B، BCG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Creado en el sistema de Taifafeki (Hep B, BCG)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Créées dans le système de Taifafeki (Hep B, BCG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создано в системе страны Taifafeki (Hep B, BCG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Taifafeki 系统中创建（Hep B、BCG）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Signed CBOR/COSE certificate",
+   "hash": "3b8b0b42ba36dcc3",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شهادة CBOR/COSE موقَّعة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Certificado CBOR/COSE firmado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Certificat CBOR/COSE signé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подписанный сертификат CBOR/COSE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已签名的 CBOR/COSE 证书",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "The certificate can only carry what this record holds, so product, date, lot and dose number are required.",
+   "hash": "870f5bf84aaa003b",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يمكن للشهادة أن تحمل إلا ما يتضمنه هذا السجلّ، ولذا فإن المنتج والتاريخ ورقم التشغيلة ورقم الجرعة مطلوبة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El certificado solo puede contener lo que contiene este registro, por lo que el producto, la fecha, el lote y el número de dosis son obligatorios.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le certificat ne peut contenir que ce que contient ce dossier ; le produit, la date, le lot et le numéro de dose sont donc obligatoires.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сертификат может содержать только то, что есть в этой записи, поэтому продукт, дата, серия и номер дозы обязательны.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "证书只能承载这条记录中已有的内容，因此产品、日期、批号和剂次编号都是必填项。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "Printed QR code",
+   "hash": "24e2f2595510792c",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز QR مطبوع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Código QR impreso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Code QR imprimé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Напечатанный QR-код",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "打印的 QR 码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Signed DVC: HC1: prefix → CBOR + COSE_Sign1",
+   "hash": "3f63ec5052ffa8dd",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "DVC موقَّعة: البادئة HC1: → CBOR + COSE_Sign1",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "DVC firmado: prefijo HC1: → CBOR + COSE_Sign1",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DVC signé : préfixe HC1: → CBOR + COSE_Sign1",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подписанный DVC: префикс HC1: → CBOR + COSE_Sign1",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已签名的 DVC：HC1: 前缀 → CBOR + COSE_Sign1",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "Two paper cards go home with Khamla",
+   "hash": "cd70b1e9654eecc0",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقتان ورقيتان تذهبان مع Khamla إلى البلد الأم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dos tarjetas en papel se van a casa con Khamla",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Deux cartes papier rentrent à la maison avec Khamla",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Две бумажные карточки отправляются домой вместе с Khamla",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "两张纸质卡片随 Khamla 回家",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "At Kesaro Hospital, Dr Anan holds up two signed QR cards for Khamla and Bounmy, who hold newborn Somsak",
+   "hash": "9c4622d3db19395f",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في مستشفى كيسارو، يرفع د. Anan بطاقتين موقَّعتين تحملان رمز QR أمام Khamla و Bounmy، اللذين يحملان المولود الجديد Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En el Hospital de Kesaro, el Dr. Anan muestra dos tarjetas QR firmadas a Khamla y Bounmy, que sostienen al recién nacido Somsak",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À l’hôpital de Kesaro, le Dr Anan présente deux cartes QR signées à Khamla et Bounmy, qui tiennent le nouveau-né Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В больнице Кесаро доктор Anan показывает две подписанные карточки с QR-кодом Khamla и Bounmy, которые держат новорождённого Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在凯萨罗医院，Anan 医生为 Khamla 和 Bounmy 举起两张已签名的 QR 码卡片，两人抱着新生儿 Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "The baby has no Taifafeki ID number, so his records would normally stay locked inside the Taifafeki hospital’s system.",
+   "hash": "aeaf6548e831e829",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ليس لدى الطفل رقم هوية (ID) في Taifafeki، ولذا كانت سجلاته ستبقى عادةً حبيسة نظام المستشفى في Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El bebé no tiene número de identificación de Taifafeki, por lo que normalmente sus registros quedarían encerrados en el sistema del hospital de Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le bébé n’a pas de numéro d’identité de Taifafeki, de sorte que ses dossiers resteraient normalement enfermés dans le système de l’hôpital de Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "У младенца нет идентификационного номера страны Taifafeki, поэтому его записи обычно оставались бы запертыми в системе больницы в стране Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "婴儿没有 Taifafeki 身份证号，因此他的记录通常会被锁在 Taifafeki 医院的系统里。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Babies born abroad can get a verifiable vaccine record before they have the host country’s civil registration or a national ID — and registering the birth at home still matters.",
+   "hash": "e8ca3a9c10268ced",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمكن للأطفال المولودين في الخارج الحصول على سجلّ تطعيم قابل للتحقق قبل أن يحصلوا على التسجيل المدني في البلد المضيف أو على هوية وطنية (ID) — ويبقى تسجيل الولادة في البلد الأم أمرًا مهمًا.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los bebés nacidos en el extranjero pueden obtener un registro de vacunación verificable antes de contar con el registro civil del país de acogida o un documento nacional de identidad — y registrar el nacimiento en el país de residencia sigue siendo importante.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les bébés nés à l’étranger peuvent obtenir un dossier de vaccination vérifiable avant d’avoir l’enregistrement à l’état civil du pays d’accueil ou une pièce d’identité nationale — et l’enregistrement de la naissance dans le pays de résidence reste important.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дети, родившиеся за рубежом, могут получить проверяемую запись о вакцинации до регистрации актов гражданского состояния в стране пребывания или получения национального удостоверения личности — и регистрация рождения на родине по-прежнему важна.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在境外出生的婴儿可以在取得东道国民事登记或国民身份证之前获得可验证的疫苗记录——而在本国办理出生登记仍然重要。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.preconditions.description",
+   "msgid": "**Precondition: the issuer's DSC is on the trust list.** XXR's document signer certificate (DSC), issued under XXR's Country Signing CA (CSCA), was shared with the GDHCN, the Trust Anchor, before any DVC is signed; the GDHCN publishes it as a DID document. Sharing it is not a step of issuing. A DVC signed with a key whose DSC was never shared fails every receiver's trust-list check (STT-VER-006).",
+   "hash": "1b6727705bd2782f",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "**الشرط المسبق: شهادة DSC الخاصة بالجهة المُصدِرة مدرجة في قائمة الثقة.** شُورِكت شهادة موقِّع المستندات (DSC) الخاصة بـ XXR، الصادرة في إطار سلطة التصديق (CA) للتوقيع القُطري (CSCA) التابعة لـ XXR، مع GDHCN، أي مرسى الثقة، قبل توقيع أي DVC؛ وتنشرها GDHCN بوصفها مستند DID. ومشاركتها ليست خطوة من خطوات الإصدار. أما DVC الموقَّعة بمفتاح لم تُشارَك شهادة DSC الخاصة به قط، فتفشل في فحص قائمة الثقة لدى كل جهة مُستقبِلة (STT-VER-006).",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "**Condición previa: el DSC del emisor figura en la lista de confianza.** El certificado del firmante de documentos (DSC) de XXR, emitido bajo la autoridad de certificación de firma del país (CSCA) de XXR, se compartió con la GDHCN, el ancla de confianza, antes de firmar ningún DVC; la GDHCN lo publica como documento DID. Compartirlo no es un paso de la emisión. Un DVC firmado con una clave cuyo DSC nunca se compartió no supera la comprobación de la lista de confianza de ningún receptor (STT-VER-006).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "**Condition préalable : le DSC de l’émetteur figure sur la liste de confiance.** Le certificat de signataire de documents (DSC) de XXR, émis sous l’autorité de certification de signature du pays (CSCA) de XXR, a été partagé avec le GDHCN, l’ancre de confiance, avant la signature de tout DVC ; le GDHCN le publie sous forme de document DID. Ce partage n’est pas une étape de l’émission. Un DVC signé avec une clé dont le DSC n’a jamais été partagé échoue au contrôle de la liste de confiance de tout destinataire (STT-VER-006).",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "**Предварительное условие: DSC эмитента находится в списке доверия.** Сертификат подписанта документов (DSC) XXR, выданный под удостоверяющим центром страны для подписи (Country Signing CA, CSCA) XXR, был передан в GDHCN — якорь доверия — до подписания какого-либо DVC; GDHCN публикует его в виде документа DID. Передача не является шагом выдачи. DVC, подписанный ключом, DSC которого так и не был передан, не проходит проверку по списку доверия у любого получателя (STT-VER-006).",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "**前提条件：签发方的 DSC 已在信任列表上。**XXR 的文档签名证书（DSC）由 XXR 的国家签名证书颁发机构（CSCA）签发，在签名任何 DVC 之前已与信任锚 GDHCN 共享；GDHCN 将其作为 DID 文档发布。共享它不是签发的一个步骤。若 DVC 所用密钥的 DSC 从未共享，则在每个接收方的信任列表检查中都会失败（STT-VER-006）。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.preconditions.title",
+   "msgid": "The issuer's DSC is on the trust list",
+   "hash": "b0783c0ce7543d14",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شهادة DSC الخاصة بالجهة المُصدِرة مدرجة في قائمة الثقة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El DSC del emisor figura en la lista de confianza",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DSC de l’émetteur figure sur la liste de confiance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "DSC эмитента находится в списке доверия",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发方的 DSC 已在信任列表上",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "2 signed paper cards (Hep B, BCG)",
+   "hash": "85ebdc5588668601",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "2 من البطاقات الورقية الموقَّعة (Hep B، BCG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "2 tarjetas firmadas en papel (Hep B, BCG)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "2 cartes papier signées (Hep B, BCG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "2 подписанные бумажные карточки (Hep B, BCG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "2 张已签名的纸质卡片（Hep B、BCG）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Khamla’s bag",
+   "hash": "849806dffde87cb2",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حقيبة Khamla",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El bolso de Khamla",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le sac de Khamla",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сумка Khamla",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Khamla 的包里",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.technicalSummary",
+   "msgid": "Taifafeki signs the record once. From then on, anyone on the WHO trust network can check it, with no database lookup and no national ID.",
+   "hash": "a79bb0547e070c66",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "توقّع Taifafeki السجلّ مرة واحدة. ومنذ ذلك الحين، يمكن لأي طرف في شبكة الثقة التابعة لمنظمة الصحة العالمية (WHO) التحقق منه، دون بحث في قاعدة بيانات ودون هوية وطنية (ID).",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Taifafeki firma el registro una sola vez. A partir de entonces, cualquier miembro de la red de confianza de la OMS puede comprobarlo, sin consultar ninguna base de datos y sin documento nacional de identidad.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Taifafeki signe le dossier une seule fois. Dès lors, toute personne du réseau de confiance de l’OMS peut le vérifier, sans consultation de base de données ni pièce d’identité nationale.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страна Taifafeki подписывает запись один раз. С этого момента любой участник сети доверия ВОЗ может её проверить — без поиска в базе данных и без национального удостоверения личности.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 只需对记录签名一次。此后，WHO 信任网络中的任何人都可以对其进行核验，无需查询数据库，也无需国民身份证。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Hospital records + printed QR cards",
+   "hash": "cb735c3f016278db",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سجلات المستشفى + بطاقات QR مطبوعة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registros hospitalarios + tarjetas QR impresas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dossiers de l’hôpital + cartes QR imprimées",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Больничные записи + напечатанные карточки с QR-кодом",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "医院记录 + 打印的 QR 码卡片",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Dose data packed into CBOR, signed (COSE, ES256) and printed as a QR",
+   "hash": "44e60b8f76d2fa34",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُحزَم بيانات الجرعة في CBOR، وتُوقَّع (COSE، ES256) وتُطبع على هيئة رمز QR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Datos de la dosis empaquetados en CBOR, firmados (COSE, ES256) e impresos como QR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Données de dose regroupées en CBOR, signées (COSE, ES256) et imprimées sous forme de QR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Данные о дозе упаковываются в CBOR, подписываются (COSE, ES256) и печатаются в виде QR-кода",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "剂次数据打包为 CBOR，经签名（COSE，ES256）并打印为 QR 码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Records Hep B + BCG and requests the certificates",
+   "hash": "04a5d92be3086251",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يسجّل Hep B + BCG ويطلب الشهادات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registra la Hep B + la BCG y solicita los certificados",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistre Hep B + BCG et demande les certificats",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрирует Hep B + BCG и запрашивает сертификаты",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录 Hep B + BCG 并申请证书",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Vaccines coded with WHO PreQual product codes",
+   "hash": "09c61377e746757a",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللقاحات مرمَّزة برموز منتجات PreQual لمنظمة الصحة العالمية (WHO)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vacunas codificadas con códigos de producto PreQual de la OMS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vaccins codés avec les codes de produit PreQual de l’OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вакцины закодированы кодами продуктов преквалификации ВОЗ (PreQual)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "疫苗使用 WHO PreQual 产品代码编码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.scenario",
+   "msgid": "The cards are lost on the way home.",
+   "hash": "5bb1da3f70b8c984",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تضيع البطاقتان في طريق العودة إلى البلد الأم.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las tarjetas se pierden de camino a casa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les cartes sont perdues sur le chemin du retour.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Карточки теряются по дороге домой.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "卡片在回家途中丢失。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "T0 · Birth day",
+   "hash": "e024f6336b160594",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "T0 · يوم الولادة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "T0 · Día del nacimiento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "T0 · Jour de la naissance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "T0 · День рождения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "T0 · 出生当天",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "Kesaro Provincial Hospital",
+   "hash": "8230da4ae46bf04a",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مستشفى كيسارو الإقليمي",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hospital Provincial de Kesaro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Hôpital provincial de Kesaro",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Провинциальная больница Кесаро",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "凯萨罗府医院",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "views.label",
+   "msgid": "J1",
+   "hash": "1d57c5a7cd53cfb0",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J1",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J1",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J1",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J1",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J1",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "birth day",
+   "hash": "f81545f961090cfe",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوم الولادة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "día del nacimiento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "jour de la naissance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "день рождения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生当天",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Taifafeki",
+   "hash": "7d4ff47f2a3bcb3a",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "J1 — Vaccinated and recorded",
+   "hash": "f23b477443d2f685",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J1 — تطعيمه وتسجيل جرعاته",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J1 — Vacunado y registrado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J1 — Vacciné et enregistré",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J1 — Привит, прививки записаны",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J1 — 接种并记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "A baby from Onesa gets his first vaccines in Taifafeki and leaves with signed paper cards.",
+   "hash": "ffc3712406081abb",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طفل من Onesa يتلقى لقاحاته الأولى في Taifafeki ويغادر ومعه بطاقتان ورقيتان موقَّعتان.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un bebé de Onesa recibe sus primeras vacunas en Taifafeki y se va con tarjetas firmadas en papel.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un bébé du pays Onesa reçoit ses premiers vaccins à Taifafeki et repart avec des cartes papier signées.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Младенец из страны Onesa получает первые прививки в стране Taifafeki и уходит с подписанными бумажными карточками.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一名来自 Onesa 的婴儿在 Taifafeki 接种了他的第一批疫苗，带着已签名的纸质卡片离开。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "Not FHIR: the HCERT certificate that travels on paper, verifiable offline with the key of Taifafeki from GDHCN.",
+   "hash": "e1277d6e5fffc261",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ليس FHIR: إنها شهادة HCERT التي تنتقل على الورق، وهي قابلة للتحقق دون اتصال بالإنترنت باستخدام مفتاح دولة Taifafeki المتاح عبر GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No es FHIR: el certificado HCERT que viaja en papel, verificable sin conexión con la clave de Taifafeki procedente de la GDHCN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pas du FHIR : le certificat HCERT qui voyage sur papier, vérifiable hors ligne avec la clé de Taifafeki issue du GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Не FHIR: сертификат HCERT, который путешествует на бумаге и проверяется в автономном режиме с помощью ключа страны Taifafeki из GDHCN.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "不是 FHIR：这是随纸张同行的 HCERT 证书，可使用 GDHCN 提供的 Taifafeki 密钥离线验证。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Somsak gets his birth vaccines in a hospital in Taifafeki — and the only thing that will cross the border with him is a pair of paper cards.",
+   "hash": "1cac0c377dbafbc8",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتلقى Somsak لقاحات الولادة في مستشفى في Taifafeki — والشيء الوحيد الذي سيعبر الحدود معه هو بطاقتان ورقيتان.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Somsak recibe sus vacunas al nacer en un hospital de Taifafeki — y lo único que cruzará la frontera con él es un par de tarjetas en papel.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Somsak reçoit ses vaccins de naissance dans un hôpital à Taifafeki — et la seule chose qui franchira la frontière avec lui est une paire de cartes papier.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Somsak получает прививки при рождении в больнице в стране Taifafeki — и единственное, что пересечёт с ним границу, — это пара бумажных карточек.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak 在 Taifafeki 的一家医院接种了出生疫苗——而能随他跨越国境的，只有两张纸质卡片。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "Khamla, a woman from Onesa who works in Taifafeki, gives birth to Somsak on 2025-10-28\nat Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the\nHep B and BCG birth doses and records them with their WHO PreQual product\ncodes. For each dose, the hospital system does three things:\n\n1. It builds a DVCMinPreQual payload: STT-PAY-001…005 and STT-PAY-007, with subclaim −6 (STT-SEL-003). No identity document is needed (STT-PAY-005).\n2. It prepares the CWT and the bytes to sign: STT-CWT-001…005, STT-ISS-004.\n3. It has XXR's key sign them (STT-COS-002, STT-COS-006), then finishes the HC1 text: STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001, STT-QR-001.\n\nKhamla leaves with two paper DVCs.\n*In the demo:* the library tests use the WHO guide's own two signed HC1\nstrings ([QR Code Generation §12](https://smart.who.int/trust/qr_code_generation.html)),\nwhich verify against the live DEV trust list under the same XXR key. Somsak's\nDVC payloads are illustrative. Live issuance in the app uses a\nTEST-ONLY key (STT-ISS-003), whose DSC is not on the GDHCN list, so its DVCs\ndo not verify in J3.\n",
+   "hash": "c6a9aeca13935d86",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تضع Khamla، وهي امرأة من Onesa تعمل في Taifafeki، مولودها Somsak في 2025-10-28\nفي مستشفى كيسارو الإقليمي. ليس لديه رقم هوية (ID) في Taifafeki. يعطي د. Anan جرعتَي الولادة\nمن Hep B و BCG ويسجّلهما مع رموز منتجاتهما في قائمة PreQual لمنظمة الصحة العالمية (WHO).\nولكل جرعة، يقوم نظام المستشفى بثلاثة أمور:\n\n1. يبني حمولة DVCMinPreQual: STT-PAY-001…005 وSTT-PAY-007، مع المطالبة الفرعية −6 (STT-SEL-003). لا يلزم أي مستند هوية (STT-PAY-005).\n2. يُعِدّ CWT والبايتات المراد توقيعها: STT-CWT-001…005، STT-ISS-004.\n3. يجعل مفتاح XXR يوقّعها (STT-COS-002، STT-COS-006)، ثم يُكمل نص HC1: STT-COS-001، STT-ZIP-001، STT-B45-001، STT-HC1-001، STT-QR-001.\n\nتغادر Khamla ومعها شهادتا DVC ورقيتان.\n*في العرض التوضيحي:* تستخدم اختبارات المكتبة سلسلتَي HC1 الموقَّعتين الواردتين في دليل منظمة الصحة العالمية (WHO) نفسه\n([توليد رمز QR §12](https://smart.who.int/trust/qr_code_generation.html))،\nواللتين يُتحقَّق منهما مقابل قائمة الثقة DEV الحية تحت مفتاح XXR نفسه. أما حمولات DVC الخاصة بـ Somsak\nفهي توضيحية. ويستخدم الإصدار الحي في التطبيق مفتاحًا\nTEST-ONLY (STT-ISS-003)، وشهادة DSC الخاصة به ليست على قائمة GDHCN، ولذا لا يُتحقَّق من شهادات DVC الصادرة به\nفي J3.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Khamla, una ciudadana de Onesa que trabaja en Taifafeki, da a luz a Somsak el 2025-10-28\nen el Hospital Provincial de Kesaro. El bebé no tiene número de identidad de Taifafeki. El Dr. Anan administra las\ndosis al nacer contra la Hep B y la BCG y las registra con sus códigos de producto de la\nprecalificación (PreQual) de la OMS. Para cada dosis, el sistema hospitalario hace tres cosas:\n\n1. Construye una carga útil DVCMinPreQual: STT-PAY-001…005 y STT-PAY-007, con la subdeclaración −6 (STT-SEL-003). No se necesita ningún documento de identidad (STT-PAY-005).\n2. Prepara el CWT y los bytes que se van a firmar: STT-CWT-001…005, STT-ISS-004.\n3. Hace que la clave de XXR los firme (STT-COS-002, STT-COS-006) y luego completa el texto HC1: STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001, STT-QR-001.\n\nKhamla se va con dos DVC en papel.\n*En la demostración:* las pruebas de la biblioteca usan las dos cadenas HC1 firmadas\nde la propia guía de la OMS ([QR Code Generation §12](https://smart.who.int/trust/qr_code_generation.html)),\nque se verifican contra la lista de confianza DEV activa con la misma clave XXR. Las cargas\nútiles de los DVC de Somsak son ilustrativas. La emisión en vivo en la\naplicación usa una clave TEST-ONLY (STT-ISS-003), cuyo DSC no figura en la lista de la GDHCN,\npor lo que sus DVC no se verifican en J3.\n",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Khamla, une femme du pays Onesa qui travaille à Taifafeki, donne naissance à Somsak le 2025-10-28\nà l’hôpital provincial de Kesaro. Il n’a pas de numéro d’identité de Taifafeki. Le Dr Anan administre les\ndoses à la naissance d’hépatite B et de BCG et les enregistre avec leurs codes de produit\nPreQual de l’OMS. Pour chaque dose, le système de l’hôpital fait trois choses :\n\n1. Il construit une charge utile DVCMinPreQual : STT-PAY-001…005 et STT-PAY-007, avec la sous-revendication −6 (STT-SEL-003). Aucun document d’identité n’est nécessaire (STT-PAY-005).\n2. Il prépare le CWT et les octets à signer : STT-CWT-001…005, STT-ISS-004.\n3. Il les fait signer par la clé de XXR (STT-COS-002, STT-COS-006), puis finalise le texte HC1 : STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001, STT-QR-001.\n\nKhamla repart avec deux DVC papier.\n*Dans la démo :* les tests de la bibliothèque utilisent les deux chaînes HC1 signées\ndu guide de l’OMS lui-même ([Génération de code QR §12](https://smart.who.int/trust/qr_code_generation.html)),\nqui sont vérifiées par rapport à la liste de confiance DEV en service, sous la même clé XXR. Les\ncharges utiles DVC de Somsak sont illustratives. L’émission en direct dans\nl’application utilise une clé TEST-ONLY (STT-ISS-003), dont le DSC ne figure pas sur la liste du\nGDHCN ; ses DVC ne sont donc pas vérifiés dans J3.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Khamla, женщина из страны Onesa, работающая в стране Taifafeki, рожает Somsak 2025-10-28\nв провинциальной больнице Кесаро. У него нет идентификационного номера страны Taifafeki. Доктор Anan вводит\nдозы Hep B и BCG при рождении и регистрирует их с кодами продуктов\nпреквалификации ВОЗ (PreQual). Для каждой дозы больничная система выполняет три действия:\n\n1. Она формирует полезную нагрузку DVCMinPreQual: STT-PAY-001…005 и STT-PAY-007, с подзаявкой −6 (STT-SEL-003). Документ, удостоверяющий личность, не требуется (STT-PAY-005).\n2. Она подготавливает CWT и байты для подписи: STT-CWT-001…005, STT-ISS-004.\n3. Она подписывает их ключом XXR (STT-COS-002, STT-COS-006), затем формирует итоговый текст HC1: STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001, STT-QR-001.\n\nKhamla уходит с двумя бумажными DVC.\n*В демонстрации:* тесты библиотеки используют две собственные подписанные строки HC1\nиз руководства ВОЗ ([QR Code Generation §12](https://smart.who.int/trust/qr_code_generation.html)),\nкоторые проходят проверку по действующему списку доверия DEV с тем же ключом XXR. Полезные\nнагрузки DVC Somsak приведены для иллюстрации. Для выдачи в реальном времени\nв приложении используется ключ TEST-ONLY (STT-ISS-003), DSC которого нет в списке GDHCN,\nпоэтому его DVC не проходят проверку в J3.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Khamla 是一位来自 Onesa、在 Taifafeki 工作的女性，她于 2025-10-28 在凯萨罗府医院生下 Somsak。他没有 Taifafeki 身份证号。Anan 医生为他接种乙肝（Hep B）和 BCG 出生剂次，并用其 WHO PreQual 产品代码进行记录。对每一剂次，医院系统做三件事：\n\n1. 构建 DVCMinPreQual 载荷：STT-PAY-001…005 和 STT-PAY-007，子声明为 −6（STT-SEL-003）。无需身份证件（STT-PAY-005）。\n2. 准备 CWT 和待签名字节：STT-CWT-001…005、STT-ISS-004。\n3. 由 XXR 的密钥对其签名（STT-COS-002、STT-COS-006），然后生成最终的 HC1 文本：STT-COS-001、STT-ZIP-001、STT-B45-001、STT-HC1-001、STT-QR-001。\n\nKhamla 带着两张纸质 DVC 离开。\n*在演示中：*库测试使用 WHO 指南自带的两个已签名 HC1 字符串（[QR Code Generation §12](https://smart.who.int/trust/qr_code_generation.html)），它们在同一 XXR 密钥下可通过实时 DEV 信任列表验证。Somsak 的 DVC 载荷仅为示意。应用中的实时签发使用 TEST-ONLY 密钥（STT-ISS-003），其 DSC 不在 GDHCN 列表上，因此其 DVC 在 J3 中无法通过验证。\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "A baby from Onesa is born in Taifafeki",
+   "hash": "e2ad01416d66495c",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ولادة طفل من Onesa في Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un bebé de Onesa nace en Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un bébé du pays Onesa naît à Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Младенец из страны Onesa рождается в стране Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一名来自 Onesa 的婴儿在 Taifafeki 出生",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "The signing key of Taifafeki (kid 916ffa…) is published on the trust list",
+   "hash": "e07420bac69ebdba",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفتاح التوقيع الخاص بدولة Taifafeki ‏(kid 916ffa…) منشور في قائمة الثقة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La clave de firma de Taifafeki (kid 916ffa…) se publica en la lista de confianza",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La clé de signature de Taifafeki (kid 916ffa…) est publiée sur la liste de confiance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключ подписи страны Taifafeki (kid 916ffa…) опубликован в списке доверия",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 的签名密钥（kid 916ffa…）已在信任列表上发布",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.outcome",
+   "msgid": "The doses still happened, but no proof travels. Clinicians in Onesa must re-vaccinate or rely on memory.",
+   "hash": "9b504eb37cfc0a40",
+   "sources": [
+    "scenarios/user-scenarios/j1-born-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُعطيت الجرعات فعلًا، لكن لا يرافقها أي دليل. ويجب على الممارسين السريريين في Onesa إعادة التطعيم أو الاعتماد على الذاكرة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las dosis se administraron igualmente, pero no viaja ninguna prueba. Los profesionales clínicos de Onesa tienen que volver a vacunar o fiarse de la memoria.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les doses ont bien été administrées, mais aucune preuve ne voyage. Les cliniciens à Onesa doivent revacciner ou se fier à la mémoire.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дозы всё равно были введены, но никакого подтверждения с семьёй не едет. Клиницисты в стране Onesa должны вакцинировать повторно или полагаться на память.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "剂次确实已接种，但没有任何证明随行。Onesa 的临床医生只能重新接种或依靠记忆。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

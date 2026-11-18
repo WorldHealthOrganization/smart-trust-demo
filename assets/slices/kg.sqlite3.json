@@ -1,0 +1,50 @@
+{
+  "$schema": "folio-slice-sqlite/v1",
+  "slice": "kg",
+  "file": "kg.c3a39b15cfc9cd4d94ee6528c7ebedd1c40a48865f27532ba7ad4ba7282ac585.sqlite3",
+  "schemaVersion": 2,
+  "sha256": "c3a39b15cfc9cd4d94ee6528c7ebedd1c40a48865f27532ba7ad4ba7282ac585",
+  "bytes": 5849088,
+  "contentDigest": "9cdec644e665ce4a785667cedb8d4ac5e9030a65d9fa4a759f3ccf0e3876961a",
+  "sqliteVersion": "3.53.4",
+  "pageSize": 4096,
+  "fts5": {
+    "table": "kg_fts",
+    "rowsOf": "nodes",
+    "columns": [
+      "name",
+      "title",
+      "summary",
+      "description"
+    ],
+    "contentless": true,
+    "detail": "full"
+  },
+  "payloadPath": "payload/sha256/",
+  "payloads": {
+    "mode": "published",
+    "count": 385,
+    "bytes": 3684433
+  },
+  "rows": {
+    "nodes": 6282,
+    "edges": 20268,
+    "dangling": 21
+  },
+  "duplicateIds": [],
+  "findings": [],
+  "overBudget": false,
+  "search": {
+    "noun": "node",
+    "title": "The whole knowledge graph",
+    "placeholder": "e.g. \"todo manager\" or payload",
+    "select": "SELECT n.iri AS key, coalesce(n.title, n.name, n.iri) AS title, coalesce(n.type, '') || ' · ' || n.iri AS meta, n.payload_sha256 AS payload, n.summary AS snippet FROM nodes n",
+    "alias": "n",
+    "like": "coalesce(n.title, n.name, n.iri)",
+    "body": "markdown"
+  },
+  "source": {
+    "graph": "kg",
+    "path": "kg-export (bun run cat kg:export)"
+  }
+}

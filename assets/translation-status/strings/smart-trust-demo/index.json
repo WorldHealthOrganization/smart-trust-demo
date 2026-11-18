@@ -1,0 +1,1420 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "index",
+ "hashes": {
+  "ar": "23af7ba4ebbfd728",
+  "es": "b94d69c54aeeca30",
+  "fr": "888f49a4eb2c78ea",
+  "ru": "f35018b8d27d7d4a",
+  "zh": "d544e73edf359816"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>Business processes</a0>",
+   "hash": "84fa66558cbe0e86",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>عمليات العمل</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Procesos de negocio</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Processus métier</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Бизнес-процессы</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>业务流程</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Country profiles</a0>",
+   "hash": "e18c2edd6d74d436",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الملفات التعريفية القُطرية</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Perfiles de país</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Profils par pays</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Профили стран</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>国家 Profile</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Functional requirements</a0>",
+   "hash": "9985e57e8b42700a",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>المتطلبات الوظيفية</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Requisitos funcionales</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Exigences fonctionnelles</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Функциональные требования</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>功能性需求</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Journeys J1–J4</a0>, <a1>user scenarios</a1>",
+   "hash": "9c97adc87fb3526e",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الرحلات J1–J4</a0>، <a1>سيناريوهات المستخدم</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Recorridos J1–J4</a0>, <a1>escenarios de usuario</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Parcours J1–J4</a0>, <a1>scénarios utilisateur</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Пути J1–J4</a0>, <a1>пользовательские сценарии</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>旅程 J1–J4</a0>、<a1>用户场景</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Personas</a0>, <a1>system actors</a1>",
+   "hash": "b89fa9f42d72f35b",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الشخصيات الافتراضية</a0>، <a1>الجهات الفاعلة النظامية</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Personas (perfiles)</a0>, <a1>actores del sistema</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Personas</a0>, <a1>acteurs système</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Персоны</a0>, <a1>системные акторы</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>人物画像</a0>、<a1>系统参与者</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every person and record here is fictional, and every key is a test key. This guide is a demonstrator, not WHO guidance.",
+   "hash": "78c284584074df33",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل شخص وكل سجل هنا خيالي، وكل مفتاح هو مفتاح اختبار. هذا الدليل نموذج توضيحي، وليس إرشادات صادرة عن منظمة الصحة العالمية (WHO).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Todas las personas y los registros que aparecen aquí son ficticios, y todas las claves son claves de prueba. Esta guía es un demostrador, no una orientación de la OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Toutes les personnes et tous les enregistrements présentés ici sont fictifs, et toutes les clés sont des clés de test. Ce guide est un démonstrateur, et non une orientation de l'OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Все люди и записи здесь вымышлены, а все ключи — тестовые. Это руководство является демонстрационным материалом, а не руководством ВОЗ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "此处的所有人物和记录均为虚构，所有密钥均为测试密钥。本指南是一个演示项目，并非世卫组织（WHO）指导意见。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Examples",
+   "hash": "a1d697543bce7eed",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأمثلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ejemplos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exemples",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Примеры",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Five fictional adults and a baby; the generic personas and system actors who play each process lane",
+   "hash": "e3f5e52bb473ba8a",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خمسة بالغين خياليين ورضيع؛ والشخصيات الافتراضية العامة والجهات الفاعلة النظامية التي تؤدي كل مسار في كل عملية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cinco adultos ficticios y un bebé; las personas (perfiles) genéricas y los actores del sistema que ocupan cada carril del proceso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cinq adultes fictifs et un bébé ; les personas génériques et les acteurs système qui jouent chaque couloir de processus",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пятеро вымышленных взрослых и младенец; типовые персоны и системные акторы, исполняющие каждую дорожку процесса",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "五位虚构成年人和一名婴儿；以及承担各流程泳道的通用人物画像和系统参与者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Four moments that matter",
+   "hash": "5c0bd708aa9fcf62",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أربع لحظات مهمة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuatro momentos que importan",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Quatre moments qui comptent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Четыре важных момента",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "四个关键时刻",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "How trust works here",
+   "hash": "a893ded2aa63ab35",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كيف تعمل الثقة هنا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cómo funciona aquí la confianza",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Comment la confiance fonctionne ici",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Как здесь устроено доверие",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "此处的信任如何运作",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journeys",
+   "hash": "54a8b57ab5b53971",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرحلات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorridos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пути",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One BPMN process per journey: every lane a role, every task a skill",
+   "hash": "b77fc9b709a8f795",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عملية BPMN واحدة لكل رحلة: كل مسار دور، وكل مهمة مهارة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un proceso BPMN por recorrido: cada carril, un rol; cada tarea, una habilidad",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un processus BPMN par parcours : chaque couloir est un rôle, chaque tâche une skill (compétence d’agent)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Один процесс BPMN на каждый путь: каждая дорожка — роль, каждая задача — навык",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个旅程一个 BPMN 流程：每条泳道是一个角色，每个任务是一项技能",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "People",
+   "hash": "de2741a9d49ae29e",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأشخاص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Personas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Personnes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Люди",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人物",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements",
+   "hash": "583db49c6c8af0dd",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "SMART Trust demonstrator",
+   "hash": "f37bcc3cd81dbaa3",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النموذج التوضيحي لـ SMART Trust",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Demostrador de SMART Trust",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Démonstrateur SMART Trust",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Демонстратор SMART Trust",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "SMART Trust 演示项目",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Terminology and logic",
+   "hash": "6b77629346c2034a",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المصطلحات والمنطق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Terminología y lógica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Terminologie et logique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Терминология и логика",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "术语与逻辑",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Taifafeki profiles",
+   "hash": "99128bbba2f0bc11",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملفات Taifafeki التعريفية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Perfiles de Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Profils de Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Профили страны Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 规范（profile）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The <a0>plan</a0>, the <a1>app-platform proposal</a1> and the <a2>dependency register</a2>. Source: <a3>litlfred/smart-trust-demo</a3>.",
+   "hash": "a8c652849a858be3",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الخطة</a0>، و<a1>مقترح منصة التطبيقات</a1>، و<a2>سجل التبعيات</a2>. المصدر: <a3>litlfred/smart-trust-demo</a3>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El <a0>plan</a0>, la <a1>propuesta de plataforma de aplicaciones</a1> y el <a2>registro de dependencias</a2>. Fuente: <a3>litlfred/smart-trust-demo</a3>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le <a0>plan</a0>, la <a1>proposition de plateforme applicative</a1> et le <a2>registre des dépendances</a2>. Source : <a3>litlfred/smart-trust-demo</a3>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>План</a0>, <a1>предложение по платформе приложений</a1> и <a2>реестр зависимостей</a2>. Исходный код: <a3>litlfred/smart-trust-demo</a3>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>计划</a0>、<a1>应用平台提案</a1>和<a2>依赖登记表</a2>。源码：<a3>litlfred/smart-trust-demo</a3>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The child and household the CHW registers, reported and verified doses, the referral, DVC verification, and the access log",
+   "hash": "c95a3613eae04877",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الطفل والأسرة المعيشية اللذان يسجّلهما عامل الصحة المجتمعي (CHW)، والجرعات المُبلَّغ عنها والمُتحقَّق منها، والإحالة، والتحقق من شهادة DVC، وسجل الوصول",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El niño y el hogar que registra el CHW, las dosis notificadas y verificadas, la derivación, la verificación del DVC y el registro de accesos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'enfant et le ménage que l'agent de santé communautaire (CHW) enregistre, les doses déclarées et vérifiées, l'orientation, la vérification des DVC et le journal des accès",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ребёнок и домохозяйство, которых регистрирует CHW, заявленные и проверенные дозы, направление, проверка DVC и журнал доступа",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CHW 登记的儿童和家庭、已报告和已验证的剂次、转诊、DVC 验证以及访问日志",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The journeys run the HCERT and VHL libraries of <a0>smart-trust-tools</a0> against <a1>WHO SMART Trust</a1> and <a2>WHO SMART Trust PHW</a2>.",
+   "hash": "699b72a71b0337f5",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تشغّل الرحلات مكتبات HCERT وVHL من <a0>smart-trust-tools</a0> مقابل <a1>WHO SMART Trust</a1> و<a2>WHO SMART Trust PHW</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los recorridos ponen a prueba las bibliotecas HCERT y VHL de <a0>smart-trust-tools</a0> frente a <a1>SMART Trust de la OMS</a1> y <a2>SMART Trust PHW de la OMS</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les parcours exécutent les bibliothèques HCERT et VHL de <a0>smart-trust-tools</a0> par rapport à <a1>WHO SMART Trust</a1> et <a2>WHO SMART Trust PHW</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пути выполняют библиотеки HCERT и VHL из <a0>smart-trust-tools</a0> на соответствие <a1>WHO SMART Trust</a1> и <a2>WHO SMART Trust PHW</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这些旅程针对 <a1>WHO SMART Trust</a1> 和 <a2>WHO SMART Trust PHW</a2> 运行 <a0>smart-trust-tools</a0> 的 HCERT 和 VHL 库。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The project",
+   "hash": "06e0d4f9dd4e3f4d",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المشروع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El proyecto",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le projet",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проект",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "项目",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The story moment by moment, with the user scenarios and what each person needs",
+   "hash": "d2e044d369421cc6",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "القصة لحظةً بلحظة، مع سيناريوهات المستخدم وما يحتاجه كل شخص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La historia momento a momento, con los escenarios de usuario y lo que necesita cada persona",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'histoire, moment par moment, avec les scénarios utilisateur et les besoins de chaque personne",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "История момент за моментом, с пользовательскими сценариями и потребностями каждого человека",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "逐个时刻讲述的故事，附有用户场景以及每个人的需求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What",
+   "hash": "7afbf2ffdd5db47d",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ماذا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Qué",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Quoi",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What is in this guide",
+   "hash": "e34f7bb88ad5d388",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محتويات هذا الدليل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Contenido de esta guía",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Contenu de ce guide",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что входит в это руководство",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本指南包含的内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Where",
+   "hash": "705b17be8ffd4d92",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أين",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dónde",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Où",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Где",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "位置",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Where the journeys' requirements are defined, in smart-trust-tools",
+   "hash": "485814a75c035ceb",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حيث تُعرَّف متطلبات الرحلات، في smart-trust-tools",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dónde se definen los requisitos de los recorridos, en smart-trust-tools",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Où les exigences des parcours sont définies, dans smart-trust-tools",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Где определены требования путей — в smart-trust-tools",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程需求的定义位置，位于 smart-trust-tools 中",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Workflows",
+   "hash": "4c9628eee33c5272",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سير العمل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Flujos de trabajo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Flux de travail",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рабочие процессы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工作流",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Journey examples</a0>",
+   "hash": "0d92e9dc653e6127",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>أمثلة الرحلات</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Ejemplos de los recorridos</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Exemples des parcours</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Примеры путей</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>旅程示例</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Each moment is one business process (BPMN), played by fictional people. Each one is linked to the user scenario, the process and the FHIR records it creates. Click a picture to walk through that moment in the <a0>journeys walkthrough</a0>.",
+   "hash": "c56efaec52c01c8c",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل لحظة هي عملية عمل واحدة (BPMN)، يؤديها أشخاص خياليون. وكلٌّ منها مرتبط بسيناريو المستخدم والعملية وسجلات FHIR التي تنشئها. انقر على صورة لاستعراض تلك اللحظة خطوة بخطوة في <a0>الجولة الإرشادية للرحلات</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada momento es un proceso de negocio (BPMN), representado por personas ficticias. Cada uno está vinculado al escenario de usuario, al proceso y a los registros FHIR que crea. Haga clic en una imagen para recorrer ese momento en la <a0>visita guiada de los recorridos</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque moment est un processus métier (BPMN), joué par des personnes fictives. Chacun est relié au scénario utilisateur, au processus et aux enregistrements FHIR qu'il crée. Cliquez sur une image pour parcourir ce moment dans la <a0>présentation guidée des parcours</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждый момент — это один бизнес-процесс (BPMN), который разыгрывают вымышленные люди. Каждый из них связан с пользовательским сценарием, процессом и создаваемыми им записями FHIR. Нажмите на изображение, чтобы пройти этот момент в <a0>пошаговом обзоре путей</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个时刻都是一个业务流程（BPMN），由虚构人物演绎。每个时刻都链接到其用户场景、流程以及它所创建的 FHIR 记录。点击图片，即可在<a0>旅程演练</a0>中逐步体验该时刻。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "1. Vaccinated and recorded Birth day · Kesaro, Taifafeki · J1 A baby from Onesa gets his first vaccines in Taifafeki. The hospital signs each dose as a Digital Vaccination Certificate, and the family leaves with two paper QR cards. Walk through it · Scenario · Process · Taifafeki profile    2. Found and registered 7 weeks old · Village 04, Onesa · J2 A health worker registers him offline and reads the cards. She records them as \"reported, not yet verified\" and refers him to the clinic. Walk through it · Scenario · Process · Onesa profile    3. A foreign record used for the next vaccine 10 weeks old · district health centre, Onesa · J3 A nurse checks the signatures against the GDHCN trust list, offline. She maps the Taifafeki vaccine codes to the schedule of Onesa and gives the overdue 6-week doses. Walk through it · Scenario · Process · Onesa profile    4. Continuity across a border 12 months later · Onesa → Taifafeki · J4.0, J4.1 The family shares his whole record with a doctor in Taifafeki through a Verifiable Health Link on Dad's phone. Every access is logged back home. Walk through it · Scenario · Process · Onesa profile",
+   "hash": "9ccc907b12b61c88",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "1. تطعيمه وتسجيل جرعاته يوم الولادة · كيسارو، Taifafeki · J1 رضيع من Onesa يتلقى لقاحاته الأولى في Taifafeki. يوقّع المستشفى كل جرعة بوصفها شهادة تطعيم رقمية، وتغادر الأسرة ومعها بطاقتا QR ورقيتان. استعرضها خطوة بخطوة · السيناريو · العملية · ملف Taifafeki التعريفي    2. العثور عليه وتسجيله عمره 7 أسابيع · القرية 04، Onesa · J2 عاملة صحية تسجّله دون اتصال وتقرأ البطاقات. تسجّلها بوصفها «مُبلَّغاً عنها، لم يُتحقق منها بعد» وتحيله إلى العيادة. استعرضها خطوة بخطوة · السيناريو · العملية · ملف Onesa التعريفي    3. سجل أجنبي يُستخدم للقاح التالي عمره 10 أسابيع · المركز الصحي في المنطقة، Onesa · J3 ممرضة تتحقق من التوقيعات مقابل قائمة الثقة في GDHCN، دون اتصال. تربط رموز اللقاحات من Taifafeki بجدول التطعيم في Onesa وتعطي جرعات الأسبوع السادس (6) المتأخرة. استعرضها خطوة بخطوة · السيناريو · العملية · ملف Onesa التعريفي    4. الاستمرارية عبر الحدود بعد 12 شهراً · Onesa ← Taifafeki · J4.0، J4.1 تشارك الأسرة سجله الكامل مع طبيب في Taifafeki عبر رابط صحي قابل للتحقق على هاتف الأب. ويُسجَّل كل وصول في البلد الأم. استعرضها خطوة بخطوة · السيناريو · العملية · ملف Onesa التعريفي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "1. Vacunado y registrado Día del nacimiento · Kesaro, Taifafeki · J1 Un bebé de Onesa recibe sus primeras vacunas en Taifafeki. El hospital firma cada dosis como certificado digital de vacunación, y la familia se va con dos tarjetas QR en papel. Recorrerlo · Escenario · Proceso · Perfil de Taifafeki    2. Detectado y registrado 7 semanas de vida · Village 04, Onesa · J2 Una trabajadora de salud lo registra sin conexión y lee las tarjetas. Las anota como \"notificadas, aún no verificadas\" y lo deriva a la clínica. Recorrerlo · Escenario · Proceso · Perfil de Onesa    3. Un registro extranjero usado para la siguiente vacuna 10 semanas de vida · centro de salud del distrito, Onesa · J3 Una enfermera comprueba las firmas contra la lista de confianza de la GDHCN, sin conexión. Hace corresponder los códigos de vacunas de Taifafeki con el calendario de Onesa y administra las dosis atrasadas de las 6 semanas. Recorrerlo · Escenario · Proceso · Perfil de Onesa    4. Continuidad a través de una frontera 12 meses después · Onesa → Taifafeki · J4.0, J4.1 La familia comparte todo el registro del bebé con un médico de Taifafeki mediante un enlace sanitario verificable en el teléfono de papá. Cada acceso queda registrado en el país de residencia. Recorrerlo · Escenario · Proceso · Perfil de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "1. Vacciné et enregistré Jour de la naissance · Kesaro, Taifafeki · J1 Un bébé du pays Onesa reçoit ses premiers vaccins à Taifafeki. L'hôpital signe chaque dose sous forme de certificat de vaccination numérique, et la famille repart avec deux cartes QR papier. Parcourir l'étape · Scénario · Processus · Profil de Taifafeki    2. Retrouvé et enregistré Âgé de 7 semaines · Village 04, Onesa · J2 Une agente de santé l'enregistre hors ligne et lit les cartes. Elle consigne les doses comme « déclarées, pas encore vérifiées » et l'oriente vers le centre de santé. Parcourir l'étape · Scénario · Processus · Profil du pays Onesa    3. Un dossier étranger utilisé pour le vaccin suivant Âgé de 10 semaines · centre de santé de district, Onesa · J3 Une infirmière vérifie les signatures par rapport à la liste de confiance du GDHCN, hors ligne. Elle fait correspondre les codes de vaccins de Taifafeki au calendrier du pays Onesa et administre les doses de 6 semaines en retard. Parcourir l'étape · Scénario · Processus · Profil du pays Onesa    4. Continuité par-delà une frontière 12 mois plus tard · Onesa → Taifafeki · J4.0, J4.1 La famille partage l'intégralité du dossier du bébé avec un médecin à Taifafeki au moyen d'un lien de santé vérifiable sur le téléphone de son père. Chaque accès est journalisé dans le pays de résidence. Parcourir l'étape · Scénario · Processus · Profil du pays Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "1. Привит, прививки записаны День рождения · Кесаро, Taifafeki · J1 Младенец из страны Onesa получает первые вакцины в стране Taifafeki. Больница подписывает каждую дозу как цифровой сертификат о вакцинации, и семья уходит с двумя бумажными карточками с QR-кодом. Пошаговый обзор · Сценарий · Процесс · Профиль страны Taifafeki    2. Найден и зарегистрирован 7 недель от роду · деревня 04, Onesa · J2 Медицинский работник регистрирует его в автономном режиме и считывает карточки. Она записывает их как «заявлено, но ещё не проверено» и направляет его в клинику. Пошаговый обзор · Сценарий · Процесс · Профиль страны Onesa    3. Иностранная запись используется для следующей прививки 10 недель от роду · районный медицинский центр, Onesa · J3 Медсестра проверяет подписи по списку доверия GDHCN в автономном режиме. Она сопоставляет коды вакцин страны Taifafeki с графиком страны Onesa и вводит просроченные дозы, положенные в 6 недель. Пошаговый обзор · Сценарий · Процесс · Профиль страны Onesa    4. Непрерывность через границу 12 месяцев спустя · Onesa → Taifafeki · J4.0, J4.1 Семья передаёт всю его медицинскую историю врачу в стране Taifafeki через проверяемую ссылку на медицинские данные на телефоне отца. Каждое обращение регистрируется на родине. Пошаговый обзор · Сценарий · Процесс · Профиль страны Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "1. 接种并记录 出生当天 · Taifafeki 凯萨罗 · J1 一名来自 Onesa 的婴儿在 Taifafeki 接种了他的第一批疫苗。医院将每一剂次签名为数字疫苗接种证书（DVC），一家人带着两张纸质 QR 卡离开。演练 · 场景 · 流程 · Taifafeki Profile    2. 被发现并登记 7 周大 · Onesa Village 04 · J2 一名卫生工作者在离线状态下为他登记并读取卡片。她将其记录为“已报告，尚未验证”，并将他转诊至诊所。演练 · 场景 · 流程 · Onesa Profile    3. 外国记录用于下一次接种 10 周大 · Onesa 区卫生中心 · J3 一名护士在离线状态下依据 GDHCN 信任列表核验签名。她将 Taifafeki 疫苗代码映射到 Onesa 的接种计划，并接种逾期的 6 周龄剂次。演练 · 场景 · 流程 · Onesa Profile    4. 跨境连续性 12 个月后 · Onesa → Taifafeki · J4.0, J4.1 一家人通过爸爸手机上的可验证健康链接（VHL），与 Taifafeki 的一位医生分享他的完整记录。每一次访问都会记录回本国。演练 · 场景 · 流程 · Onesa Profile",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every screen and payload of the journeys walkthrough as a FHIR example, Taifafeki and Onesa",
+   "hash": "1697a38bdf0803e9",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل شاشة وكل حمولة في الجولة الإرشادية للرحلات بوصفها مثالاً في FHIR، من Taifafeki ومن Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada pantalla y carga útil de la visita guiada de los recorridos como ejemplo FHIR, de Taifafeki y de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque écran et chaque charge utile de la présentation guidée des parcours sous forme d'exemple FHIR, Taifafeki et Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждый экран и каждая полезная нагрузка пошагового обзора путей в виде примера FHIR, для стран Taifafeki и Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程演练的每个界面和载荷，均以 FHIR 示例呈现，涵盖 Taifafeki 和 Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One baby · two countries · one year Somsak is born in Taifafeki and grows up in Onesa. A year later, a doctor in Taifafeki sees every vaccine he has ever had, and no record is copied across the border. This guide is that story, told as the journeys J1 to J4, written down as a WHO SMART Guidelines digital adaptation kit (L2) and a FHIR implementation guide (L3). It is built on the SMART Trust HCERT libraries and WHO GDHCN. Walk through the journeys Read the journeys See the FHIR examples",
+   "hash": "f07cb76878cda371",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رضيع واحد · بلدان · عام واحد يولد Somsak في Taifafeki ويكبر في Onesa. وبعد عام، يطّلع طبيب في Taifafeki على كل لقاح تلقّاه، دون أن يُنسخ أي سجل عبر الحدود. هذا الدليل هو تلك القصة، مرويّةً بوصفها الرحلات من J1 إلى J4، ومكتوبةً بوصفها مجموعة أدوات التكيُّف الرقمي (L2) ضمن إرشادات SMART الصادرة عن منظمة الصحة العالمية (WHO) ودليل تنفيذ FHIR (L3). وهو مبني على مكتبات SMART Trust HCERT وعلى GDHCN التابعة لمنظمة الصحة العالمية. استعرض الرحلات خطوة بخطوة اقرأ الرحلات اطّلع على أمثلة FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un bebé · dos países · un año Somsak nace en Taifafeki y crece en Onesa. Un año después, un médico de Taifafeki ve todas las vacunas que ha recibido en su vida, y ningún registro se copia al otro lado de la frontera. Esta guía es esa historia, contada como los recorridos J1 a J4 y puesta por escrito como un kit de adaptación digital (DAK, L2) de las SMART Guidelines de la OMS y una guía de implementación FHIR (L3). Se basa en las bibliotecas HCERT de SMART Trust y en la GDHCN de la OMS. Recorrer los recorridos Leer los recorridos Ver los ejemplos FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un bébé · deux pays · une année Somsak naît à Taifafeki et grandit à Onesa. Un an plus tard, un médecin à Taifafeki voit tous les vaccins qu'il a reçus, et aucun dossier n'est copié de l'autre côté de la frontière. Ce guide est cette histoire, racontée sous la forme des parcours J1 à J4, transcrite sous la forme d'un kit d'adaptation numérique (L2) des lignes directrices SMART de l'OMS et d'un guide d'implémentation FHIR (L3). Il s'appuie sur les bibliothèques HCERT SMART Trust et le GDHCN de l'OMS. Suivre les parcours pas à pas Lire les parcours Voir les exemples FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Один младенец · две страны · один год Somsak рождается в стране Taifafeki и растёт в стране Onesa. Год спустя врач в стране Taifafeki видит все вакцины, которые он когда-либо получал, и при этом ни одна запись не копируется через границу. Это руководство — та самая история, рассказанная как пути с J1 по J4 и оформленная как пакет цифровой адаптации руководящих принципов SMART ВОЗ (WHO SMART Guidelines) (L2) и руководство по внедрению FHIR (L3). Оно основано на библиотеках SMART Trust HCERT и GDHCN ВОЗ. Пройти пути шаг за шагом Прочитать о путях Посмотреть примеры FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个婴儿 · 两个国家 · 一年 Somsak 出生在 Taifafeki，在 Onesa 长大。一年后，Taifafeki 的一位医生能看到他接种过的每一剂疫苗，而没有任何记录被复制到境外。本指南讲述的就是这个故事，以旅程 J1 至 J4 的形式呈现，并将其写成世卫组织（WHO）SMART 指南数字适配工具包（L2）和 FHIR 实施指南（L3）。它基于 SMART Trust HCERT 库和 WHO GDHCN 构建。演练旅程 阅读旅程 查看 FHIR 示例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Onesa profiles",
+   "hash": "9cb21f15d127d4e7",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملفات Onesa التعريفية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Perfiles de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Profils du pays Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Профили страны Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa Profile",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Taifafeki and Onesa never connect to each other. Both build on WHO GDHCN. Taifafeki publishes the key it signs certificates with, and Onesa caches the trust list, so its clinics can verify a card from Taifafeki with no signal. A year later the same trust list lets a clinic in Taifafeki verify the VHL from Onesa. Data crosses the border in only two ways: as a signed QR card the family carries, or as a link the family chooses to share. The <a0>journeys walkthrough's \"How it works\" view</a0> lays out both countries' components on the <a1>DPI-H reference architecture</a1>, with GDHCN as the foundation; the same picture as an ArchiMate overlay on the RA's own model is on the <a2>architecture page</a2>.",
+   "hash": "6178ad0a9aab4e54",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا تتصل Taifafeki و Onesa ببعضهما أبداً. فكلتاهما تبني على GDHCN التابعة لمنظمة الصحة العالمية (WHO). تنشر Taifafeki المفتاح الذي توقّع به الشهادات، وتخزّن Onesa قائمة الثقة مؤقتاً، فتستطيع عياداتها التحقق من بطاقة صادرة في Taifafeki دون أي إشارة اتصال. وبعد عام، تتيح قائمة الثقة نفسها لعيادة في Taifafeki التحقق من رابط VHL الصادر في Onesa. ولا تعبر البيانات الحدود إلا بطريقتين: بطاقة QR موقَّعة تحملها الأسرة، أو رابط تختار الأسرة مشاركته. ويعرض <a0>عرض «كيف يعمل» في الجولة الإرشادية للرحلات</a0> مكوِّنات البلدين على <a1>البنية المرجعية DPI-H</a1>، مع GDHCN بوصفها الأساس؛ والصورة نفسها على هيئة طبقة ArchiMate فوق نموذج البنية المرجعية (RA) نفسه موجودة في <a2>صفحة البنية</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Taifafeki y Onesa nunca se conectan entre sí. Ambas se basan en la GDHCN de la OMS. Taifafeki publica la clave con la que firma los certificados, y Onesa guarda en caché la lista de confianza, de modo que sus clínicas pueden verificar una tarjeta de Taifafeki sin señal. Un año después, la misma lista de confianza permite a una clínica de Taifafeki verificar el VHL de Onesa. Los datos cruzan la frontera solo de dos maneras: como una tarjeta QR firmada que lleva la familia, o como un enlace que la familia decide compartir. La <a0>vista \"Cómo funciona\" de la visita guiada de los recorridos</a0> sitúa los componentes de ambos países sobre la <a1>arquitectura de referencia DPI-H</a1>, con la GDHCN como base; la misma imagen, como superposición ArchiMate sobre el propio modelo de la RA, está en la <a2>página de arquitectura</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Taifafeki et Onesa ne se connectent jamais entre eux. Les deux pays s'appuient sur le GDHCN de l'OMS. Taifafeki publie la clé avec laquelle ce pays signe les certificats, et Onesa met en cache la liste de confiance, de sorte que ses centres de santé peuvent vérifier une carte de Taifafeki sans aucun signal. Un an plus tard, la même liste de confiance permet à une clinique à Taifafeki de vérifier le VHL du pays Onesa. Les données ne franchissent la frontière que de deux manières : sous forme de carte QR signée que la famille transporte, ou sous forme de lien que la famille choisit de partager. La <a0>vue « How it works » de la présentation guidée des parcours</a0> présente les composants des deux pays sur l'<a1>architecture de référence DPI-H</a1>, avec le GDHCN pour fondation ; la même image, sous forme de surcouche ArchiMate sur le propre modèle de la RA, figure sur la <a2>page d'architecture</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Taifafeki и Onesa никогда не подключаются друг к другу. Обе страны опираются на GDHCN ВОЗ. Taifafeki публикует ключ, которым подписывает сертификаты, а Onesa кэширует список доверия, поэтому её клиники могут проверить карточку из страны Taifafeki без связи. Год спустя тот же список доверия позволяет клинике в стране Taifafeki проверить VHL из страны Onesa. Данные пересекают границу только двумя способами: в виде подписанной карточки с QR-кодом, которую носит с собой семья, или в виде ссылки, которой семья решает поделиться. <a0>Представление «Как это работает» в пошаговом обзоре путей</a0> размещает компоненты обеих стран на <a1>эталонной архитектуре DPI-H</a1>, где GDHCN служит основой; та же схема в виде наложения ArchiMate на собственную модель эталонной архитектуры приведена на <a2>странице архитектуры</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 和 Onesa 之间从不直接连接。两国都基于 WHO GDHCN 构建。Taifafeki 发布其签名证书所用的密钥，Onesa 缓存信任列表，因此其诊所在没有信号的情况下也能验证来自 Taifafeki 的卡片。一年后，同一份信任列表让 Taifafeki 的诊所能够验证来自 Onesa 的 VHL。数据跨境只有两种方式：作为一家人随身携带的已签名 QR 卡，或作为一家人选择分享的链接。<a0>旅程演练的“运作原理”视图</a0>在 <a1>DPI-H 参考架构</a1>上展示了两国的组件，并以 GDHCN 为基础；以 ArchiMate 叠加图形式绘制在该参考架构（RA）自身模型上的同一图景，见<a2>架构页面</a2>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The birth hospital's patient and dose (the source of each DVC), and the record a clinic in Taifafeki keeps when it reads a VHL",
+   "hash": "711ba87687277105",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مريض مستشفى الولادة وجرعته (مصدر كل شهادة DVC)، والسجل الذي تحتفظ به عيادة في Taifafeki عندما تقرأ رابط VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El paciente y la dosis del hospital de nacimiento (el origen de cada DVC), y el registro que guarda una clínica de Taifafeki cuando lee un VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le patient et la dose de l'hôpital de naissance (la source de chaque DVC), et l'enregistrement que conserve une clinique à Taifafeki lorsqu'elle lit un VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пациент и доза в родильной больнице (источник каждого DVC), а также запись, которую сохраняет клиника в стране Taifafeki при чтении VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生医院的患者和剂次（每份 DVC 的来源），以及 Taifafeki 的诊所读取 VHL 时保存的记录",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Vaccine products, the schedule codes of Onesa, the ConceptMap between them, and the infant schedule as a PlanDefinition",
+   "hash": "ff7a654db56e909f",
+   "sources": [
+    "docs/index.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منتجات اللقاحات، ورموز جدول التطعيم في Onesa، وConceptMap بينهما، وجدول تطعيم الرضع بوصفه PlanDefinition",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los productos de vacuna, los códigos del calendario de Onesa, el ConceptMap entre ellos y el calendario del lactante como PlanDefinition",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les produits vaccinaux, les codes du calendrier du pays Onesa, la ConceptMap qui les relie et le calendrier du nourrisson sous forme de PlanDefinition",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вакцинные продукты, коды графика страны Onesa, ConceptMap между ними и график иммунизации младенцев в виде PlanDefinition",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "疫苗产品、Onesa 的接种计划代码、二者之间的 ConceptMap，以及作为 PlanDefinition 的婴儿接种计划",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

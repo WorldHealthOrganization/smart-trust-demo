@@ -1,0 +1,874 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "processes/j3-clinic-verification-schedule",
+ "hashes": {
+  "ar": "6d503a23b92c22cd",
+  "es": "82a105ce3d70fe8b",
+  "fr": "7359f04420eaf486",
+  "ru": "660a96ed7c60c120",
+  "zh": "393b46101d87eec5"
+ },
+ "strings": [
+  {
+   "msgid": "Caregiver",
+   "hash": "7eecebb3e23724ed",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuidador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aidant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лицо, осуществляющее уход",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "照护者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Evaluate the national schedule",
+   "hash": "ea8810a4dcf306d8",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقييم جدول التطعيم الوطني",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Evaluar el calendario nacional",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Évaluer le calendrier national",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Оценить национальный график",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "评估国家接种计划",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every DVC verified?",
+   "hash": "6f76bdd5a868c453",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هل تم التحقق من كل شهادة DVC؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Todos los DVC verificados?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tous les DVC vérifiés ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Все DVC проверены?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所有 DVC 均已验证？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Family arrives with the referral and the paper DVCs",
+   "hash": "1c95efa2e4d416cc",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تصل الأسرة ومعها الإحالة وشهادات DVC الورقية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La familia llega con la derivación y los DVC en papel",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La famille arrive avec l’orientation et les DVC papier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семья приходит с направлением и бумажными DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家人携转诊单和纸质 DVC 到达",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Give due doses and book the next visit",
+   "hash": "9d21274f2de22ba3",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إعطاء الجرعات المستحقة وحجز الزيارة التالية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Administrar las dosis pendientes y programar la próxima visita",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Administrer les doses dues et fixer la prochaine visite",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ввести положенные дозы и записать на следующий визит",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接种到期剂次并预约下次就诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "HcertVerifier.verify: STT-VER-001 order, no payload before the signature (STT-VER-002), every DSC with the kid tried (STT-KID-002), EKU (STT-VER-004), time with an injected clock (STT-VER-005), typed result naming step and reason (STT-VER-008), fully offline (STT-VER-009); several payloads per HCERT (STT-SEL-004). It checks against the DID list the preconditions establish: a DSC added to the GDHCN list after the clinic&#x27;s last refresh is not in that copy, so its DVC fails at the trust-list step (STT-VER-006) and takes the \"no\" path, with that reason, until the next refresh.",
+   "hash": "5aaf8f5f3838271f",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "HcertVerifier.verify: ترتيب STT-VER-001، ولا حمولة قبل التوقيع (STT-VER-002)، وتجربة كل شهادة DSC تحمل kid (STT-KID-002)، وEKU (STT-VER-004)، والوقت بساعة مُحقونة (STT-VER-005)، ونتيجة مُنمَّطة تسمّي الخطوة والسبب (STT-VER-008)، ودون اتصال بالكامل (STT-VER-009)؛ وعدة حمولات لكل HCERT (STT-SEL-004). ويتحقق مقابل قائمة DID التي تُرسيها الشروط المسبقة: فشهادة DSC المضافة إلى قائمة GDHCN بعد آخر تحديث أجرته العيادة لا تكون في تلك النسخة، فتفشل شهادة DVC الخاصة بها عند خطوة قائمة الثقة (STT-VER-006) وتسلك مسار «لا»، مع ذلك السبب، حتى التحديث التالي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HcertVerifier.verify: orden de STT-VER-001, ninguna carga útil antes de la firma (STT-VER-002), se prueban todos los DSC con ese kid (STT-KID-002), EKU (STT-VER-004), hora con un reloj inyectado (STT-VER-005), resultado tipado que indica el paso y el motivo (STT-VER-008), totalmente sin conexión (STT-VER-009); varias cargas útiles por HCERT (STT-SEL-004). Verifica contra la lista DID que establecen las precondiciones: un DSC añadido a la lista de la GDHCN después de la última actualización de la clínica no está en esa copia, por lo que su DVC falla en el paso de la lista de confianza (STT-VER-006) y sigue la vía \"no\", con ese motivo, hasta la siguiente actualización.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HcertVerifier.verify : ordre STT-VER-001, aucune charge utile avant la signature (STT-VER-002), chaque DSC ayant le kid essayé (STT-KID-002), EKU (STT-VER-004), heure avec une horloge injectée (STT-VER-005), résultat typé indiquant l&#x27;étape et le motif (STT-VER-008), entièrement hors ligne (STT-VER-009) ; plusieurs charges utiles par HCERT (STT-SEL-004). La vérification se fait par rapport à la liste DID établie par les conditions préalables : un DSC ajouté à la liste du GDHCN après la dernière actualisation de la clinique ne figure pas dans cette copie ; son DVC échoue donc à l&#x27;étape de la liste de confiance (STT-VER-006) et suit le chemin « non », avec ce motif, jusqu&#x27;à l&#x27;actualisation suivante.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HcertVerifier.verify: порядок STT-VER-001, никакой полезной нагрузки до проверки подписи (STT-VER-002), перебор каждого DSC с данным kid (STT-KID-002), EKU (STT-VER-004), время по внедрённым часам (STT-VER-005), типизированный результат с указанием шага и причины (STT-VER-008), полностью в автономном режиме (STT-VER-009); несколько полезных нагрузок на один HCERT (STT-SEL-004). Проверка выполняется по списку DID, установленному предусловиями: DSC, добавленный в список GDHCN после последнего обновления в клинике, отсутствует в этой копии, поэтому его DVC не проходит шаг списка доверия (STT-VER-006) и до следующего обновления идёт по пути «нет» с этой причиной.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HcertVerifier.verify：按 STT-VER-001 顺序，签名验证前不读取载荷（STT-VER-002），逐一尝试具有该 kid 的每个 DSC（STT-KID-002），EKU（STT-VER-004），使用注入时钟校验时间（STT-VER-005），类型化结果注明步骤和原因（STT-VER-008），完全离线（STT-VER-009）；每个 HCERT 可含多个载荷（STT-SEL-004）。它依据前提条件所建立的 DID 列表进行检查：在诊所上次刷新之后才加入 GDHCN 列表的 DSC 不在该副本中，因此其 DVC 会在信任列表步骤失败（STT-VER-006），并以该原因走“否”路径，直到下次刷新。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Home clinic EHR",
+   "hash": "bb5cdae3ee50e46f",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السجل الصحي الإلكتروني (EHR) في عيادة البلد الأم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "EHR de la clínica del país de residencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DSE de la clinique de rattachement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Система EHR клиники по месту жительства",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所属诊所 EHR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Home clinic provider",
+   "hash": "2ebda6eab064facf",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الخدمة في عيادة البلد الأم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Profesional de la clínica del país de residencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Prestataire de la clinique de rattachement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник клиники по месту жительства",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所属诊所提供者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Import the doses as FHIR Immunization resources",
+   "hash": "99a2660bd573186e",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استيراد الجرعات بوصفها موارد Immunization في FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Importar las dosis como recursos Immunization de FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Importer les doses sous forme de ressources FHIR Immunization",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Импортировать дозы как ресурсы FHIR Immunization",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将剂次导入为 FHIR Immunization 资源",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3 Verify, import and schedule at the home clinic",
+   "hash": "b01f3ccf066bbadc",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3 التحقق والاستيراد والجدولة في عيادة البلد الأم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3 Verificar, importar y programar en la clínica del país de residencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3 Vérifier, importer et planifier à la clinique de rattachement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3 Проверить, импортировать и составить график в клинике по месту жительства",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3 在所属诊所验证、导入并制定接种计划",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "no",
+   "hash": "8a1993623ee7edec",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "no",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "non",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "нет",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "否",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "PlanDefinition/$apply over the imported Immunizations, read by their national schedule codes: the Hep B and BCG birth doses count; the 6-week doses (pentavalent, bOPV, PCV) are due, and a reminder Task is created for that date.",
+   "hash": "79ae8a6804a31827",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "PlanDefinition/$apply على موارد Immunization المستوردة، مقروءةً برموز جدول التطعيم الوطني الخاصة بها: تُحتسب جرعتا الولادة من لقاحي التهاب الكبد B وBCG؛ وتستحق جرعات الأسبوع السادس (6) (اللقاح الخماسي، وbOPV، وPCV)، ويُنشأ Task تذكير لذلك التاريخ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "PlanDefinition/$apply sobre los Immunization importados, leídos por sus códigos del calendario nacional: las dosis al nacer de Hep B y BCG cuentan; corresponden las dosis de las 6 semanas (pentavalente, bOPV, PCV) y se crea un Task de recordatorio para esa fecha.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "PlanDefinition/$apply sur les Immunizations importées, lues selon leurs codes du calendrier national : les doses à la naissance contre l’hépatite B et le BCG sont comptabilisées ; les doses de 6 semaines (pentavalent, VPOb, PCV) sont dues, et une Task de rappel est créée pour cette date.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "PlanDefinition/$apply по импортированным Immunization, читаемым по их кодам национального графика: дозы против гепатита B и БЦЖ (BCG) при рождении засчитываются; подошёл срок доз в 6 недель (пентавалентная вакцина, bOPV, PCV), и на эту дату создаётся напоминание Task.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对导入的 Immunization 执行 PlanDefinition/$apply，按其国家接种计划代码读取：乙肝（Hep B）和 BCG 出生剂次计入；6 周龄剂次（五联疫苗、bOPV、PCV）到期，并为该日期创建一个提醒 Task。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Scan the QRs and open the referral",
+   "hash": "2aff48b6cc32edf2",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسح رموز QR وفتح الإحالة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escanear los QR y abrir la derivación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanner les codes QR et ouvrir l’orientation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отсканировать QR-коды и открыть направление",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扫描 QR 码并打开转诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The child is on Country B&#x27;s schedule",
+   "hash": "8c9903ed5551bc24",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الطفل مُدرَج في جدول التطعيم الخاص بالبلد B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El niño está en el calendario del País B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L&#x27;enfant figure au calendrier du Pays B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ребёнок включён в график страны B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "儿童已纳入 B 国接种计划",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verify each HCERT against the trust list",
+   "hash": "b248f76662df6f62",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحقق من كل HCERT مقابل قائمة الثقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Verificar cada HCERT contra la lista de confianza",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vérifier chaque HCERT par rapport à la liste de confiance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверить каждый HCERT по списку доверия",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "依据信任列表验证每个 HCERT",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes",
+   "hash": "29bbd53e2c3f4276",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Add national codes beside foreign ones",
+   "hash": "739a8b36df7fe10a",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إضافة الرموز الوطنية إلى جانب الرموز الأجنبية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Añadir los códigos nacionales junto a los extranjeros",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ajouter les codes nationaux à côté des codes étrangers",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавить национальные коды рядом с иностранными",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在外国编码旁添加国家编码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Add the national schedule code beside the foreign vaccine code. The imported doses keep the issuer&#x27;s vaccine coding (WHO PreQual product, as signed in the DVC) and gain the national schedule coding beside it, never in its place. The EHR translates with the national ConceptMap; a product with no mapping goes to the nurse, who confirms the equivalent schedule antigen and dose, and that decision is recorded so the next clinic need not repeat it.",
+   "hash": "034441a8e08ea9e0",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إضافة رمز جدول التطعيم الوطني إلى جانب رمز اللقاح الأجنبي. تحتفظ الجرعات المستوردة بترميز اللقاح الخاص بالجهة المُصدِرة (منتج WHO PreQual، كما وُقِّع في شهادة DVC) وتكتسب ترميز جدول التطعيم الوطني إلى جانبه، لا مكانه أبداً. يترجم السجل الصحي الإلكتروني (EHR) باستخدام ConceptMap الوطني؛ ويُحال المنتج الذي لا تعيين له إلى الممرضة، التي تؤكد المستضد والجرعة المكافئين في الجدول، ويُسجَّل ذلك القرار كي لا تضطر العيادة التالية إلى تكراره.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Añadir el código del calendario nacional junto al código extranjero de la vacuna. Las dosis importadas conservan la codificación de la vacuna del emisor (producto PreQual de la OMS, tal como se firmó en el DVC) y reciben además la codificación del calendario nacional junto a ella, nunca en su lugar. La HCE traduce con el ConceptMap nacional; un producto sin correspondencia pasa a la enfermera, que confirma el antígeno y la dosis equivalentes del calendario, y esa decisión se registra para que la siguiente clínica no tenga que repetirla.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ajouter le code du calendrier national à côté du code du vaccin étranger. Les doses importées conservent le codage vaccinal de l&#x27;émetteur (produit de préqualification de l&#x27;OMS, tel que signé dans le DVC) et reçoivent à côté le codage du calendrier national, jamais à sa place. Le DSE effectue la traduction avec la ConceptMap nationale ; un produit sans correspondance est soumis à l&#x27;infirmière, qui confirme l&#x27;antigène et la dose équivalents du calendrier, et cette décision est enregistrée afin que la clinique suivante n&#x27;ait pas à la répéter.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавить код национального графика рядом с иностранным кодом вакцины. Импортированные дозы сохраняют кодировку вакцины эмитента (препарат преквалификации ВОЗ (WHO PreQual), как подписано в DVC) и получают рядом с ней кодировку национального графика, но никогда вместо неё. EHR выполняет перевод с помощью национального ConceptMap; препарат без сопоставления передаётся медсестре, которая подтверждает эквивалентный антиген и дозу по графику, и это решение записывается, чтобы следующей клинике не пришлось его повторять.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在外国疫苗代码旁添加国家接种计划代码。导入的剂次保留签发方的疫苗编码（WHO PreQual 产品，与 DVC 中签名的一致），并在其旁边增加国家接种计划编码，而绝不取而代之。EHR 使用国家 ConceptMap 进行转换；没有映射的产品交由护士处理，护士确认对应的接种计划抗原和剂次，该决定会被记录，下一家诊所无需重复。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Note the failure; decide doses by policy",
+   "hash": "c19955eadac20e08",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تدوين الإخفاق؛ والبتّ في الجرعات وفق السياسة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Anotar el fallo; decidir las dosis según la política",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Noter l’échec ; décider des doses selon la politique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отметить сбой; решить вопрос о дозах согласно политике",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录失败；按政策决定剂次",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Record the failure reason; decide doses by national policy.",
+   "hash": "93ae0853ec96b140",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسجيل سبب الإخفاق؛ والبتّ في الجرعات وفق السياسة الوطنية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registrar el motivo del fallo; decidir las dosis según la política nacional.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrer le motif de l’échec ; décider des doses selon la politique nationale.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Записать причину сбоя; решить вопрос о дозах согласно национальной политике.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录失败原因；按国家政策决定剂次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The nurse acts on the schedule evaluation's guidance (TD.DT.04, which doses are due and from when) the way smart-base's act-on-decision-support process does it: accept or decline each proposed dose, one tap each. Saying why is optional (record-decision-rationale) and never holds up the visit.",
+   "hash": "f788be7dd99874ab",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتصرّف الممرضة بناءً على توجيهات تقييم الجدول (TD.DT.04: أيّ الجرعات مستحقة ومنذ متى) على النحو الذي تتّبعه عملية act-on-decision-support في smart-base: قبول كل جرعة مقترحة أو رفضها، بنقرة واحدة لكلٍّ منها. وذكر السبب اختياري (record-decision-rationale) ولا يؤخّر الزيارة أبدًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera actúa según la orientación de la evaluación del calendario (TD.DT.04: qué dosis corresponden y desde cuándo) tal como lo hace el proceso act-on-decision-support de smart-base: aceptar o rechazar cada dosis propuesta, con un toque cada una. Indicar el motivo es opcional (record-decision-rationale) y nunca retrasa la visita.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’infirmière agit sur les recommandations de l’évaluation du calendrier (TD.DT.04, quelles doses sont dues et à partir de quand) comme le fait le processus act-on-decision-support de smart-base : accepter ou refuser chaque dose proposée, d’un seul geste chacune. Indiquer la raison est facultatif (record-decision-rationale) et ne retarde jamais la visite.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра действует по рекомендациям оценки графика (TD.DT.04: какие дозы положены и с какого срока) так, как это делает процесс act-on-decision-support из smart-base: принимает или отклоняет каждую предложенную дозу, по одному нажатию на каждую. Указывать причину необязательно (record-decision-rationale), и это никогда не задерживает приём.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "护士按照 smart-base 的 act-on-decision-support 流程的做法，依据接种计划评估的指导（TD.DT.04：哪些剂次到期以及自何时起）采取行动：对每个建议的剂次接受或拒绝，每项轻点一次。说明理由是可选的（record-decision-rationale），且绝不耽误就诊。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3, Clinic verification and schedule generation, in Country B. The clinic EHR (Receiver in SMART Trust and smart-trust-phw, VHL Receiver side in IHE ITI VHL) holds a copy of the GDHCN trust list, which the trust anchor (Trust Network Anchor; IHE Trust Anchor) distributes and Country B, a Trust Network Participant, [retrieves (smart-trust-phw retrieve-pki-material)](https://litlfred.github.io/smart-trust-phw/artifact/Requirements-retrieve-pki-material.html). Loading the DID documents is a PRECONDITION of this visit, not a step in it: the clinic may be offline throughout, so the list it verifies against is the one it last refreshed, about weekly, when the CHW visits the base clinic or district health office. It verifies each foreign DVC in the STT-VER-001 order against XXR's DSC DID document, imports the verified doses with provenance, adds the national schedule code beside each foreign vaccine code (ConceptMap; the nurse decides any product with no mapping) and evaluates the national schedule, which finds the 6-week doses due and books them.",
+   "hash": "1868c9619560a0ce",
+   "sources": [
+    "processes/content/j3-clinic-verification-schedule.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3، التحقق في العيادة وتوليد جدول التطعيم، في البلد B. يحتفظ السجل الصحي الإلكتروني (EHR) للعيادة (الجهة المُستقبِلة في SMART Trust وsmart-trust-phw، وجانب الجهة المُستقبِلة لـ VHL في IHE ITI VHL) بنسخة من قائمة الثقة في GDHCN، التي يوزّعها مرسى الثقة (مرسى شبكة الثقة؛ Trust Anchor في IHE) ويقوم البلد B، بصفته مشاركاً في شبكة الثقة، [باسترجاعها (smart-trust-phw retrieve-pki-material)](https://litlfred.github.io/smart-trust-phw/artifact/Requirements-retrieve-pki-material.html). إن تحميل وثائق DID شرط مسبق (PRECONDITION) لهذه الزيارة، وليس خطوة فيها: فقد تكون العيادة دون اتصال طوال الوقت، ولذلك فإن القائمة التي تتحقق مقابلها هي آخر ما حدّثته، أسبوعياً تقريباً، عندما يزور عامل الصحة المجتمعي (CHW) العيادة الرئيسية أو مكتب الصحة في المنطقة. وتتحقق من كل شهادة DVC أجنبية بترتيب STT-VER-001 مقابل وثيقة DID الخاصة بشهادة DSC التابعة لـ XXR، وتستورد الجرعات المُتحقَّق منها مع مصدرها، وتضيف رمز جدول التطعيم الوطني إلى جانب كل رمز لقاح أجنبي (ConceptMap؛ وتبتّ الممرضة في أي منتج بلا تعيين)، وتقيّم جدول التطعيم الوطني، فتجد أن جرعات الأسبوع السادس (6) مستحقة وتحجزها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3, Verificación en la clínica y generación del calendario, en el País B. La EHR de la clínica (Receptor en SMART Trust y smart-trust-phw, parte Receptor VHL en IHE ITI VHL) conserva una copia de la lista de confianza de la GDHCN, que distribuye el ancla de confianza (Trust Network Anchor; IHE Trust Anchor) y que el País B, como Participante de la red de confianza, [obtiene (retrieve-pki-material de smart-trust-phw)](https://litlfred.github.io/smart-trust-phw/artifact/Requirements-retrieve-pki-material.html). Cargar los documentos DID es una PRECONDICIÓN de esta visita, no un paso de ella: la clínica puede estar sin conexión todo el tiempo, de modo que la lista con la que verifica es la de su última actualización, aproximadamente semanal, cuando el CHW visita la clínica de base o la oficina sanitaria del distrito. Verifica cada DVC extranjero en el orden de STT-VER-001 contra el documento DID del DSC de XXR, importa las dosis verificadas con su procedencia, añade el código del calendario nacional junto a cada código extranjero de vacuna (ConceptMap; la enfermera decide sobre cualquier producto sin correspondencia) y evalúa el calendario nacional, que determina que corresponden las dosis de las 6 semanas y las programa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3, Vérification en clinique et génération du calendrier, dans le Pays B. Le DSE de la clinique (destinataire dans SMART Trust et smart-trust-phw, côté VHL Receiver dans IHE ITI VHL) détient une copie de la liste de confiance du GDHCN, que l’ancre de confiance (Trust Network Anchor ; IHE Trust Anchor) distribue et que le Pays B, participant au réseau de confiance, [récupère (retrieve-pki-material de smart-trust-phw)](https://litlfred.github.io/smart-trust-phw/artifact/Requirements-retrieve-pki-material.html). Le chargement des documents DID est une CONDITION PRÉALABLE à cette visite, et non une de ses étapes : la clinique peut être hors ligne pendant toute la visite ; la liste par rapport à laquelle elle vérifie est donc celle qu’elle a actualisée en dernier, environ une fois par semaine, lorsque l’agent de santé communautaire (CHW) se rend à la clinique de référence ou au bureau de santé de district. Elle vérifie chaque DVC étranger dans l’ordre STT-VER-001 par rapport au document DID du DSC de XXR, importe les doses vérifiées avec leur provenance, ajoute le code du calendrier national à côté de chaque code de vaccin étranger (ConceptMap ; l’infirmière tranche pour tout produit sans correspondance) et évalue le calendrier national, qui détermine que les doses de 6 semaines sont dues et les programme.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3, Проверка в клинике и формирование графика в стране B. Система EHR клиники (Receiver в SMART Trust и smart-trust-phw, сторона VHL Receiver в IHE ITI VHL) хранит копию списка доверия GDHCN, который распространяет якорь доверия (Trust Network Anchor; IHE Trust Anchor) и [получает (smart-trust-phw retrieve-pki-material)](https://litlfred.github.io/smart-trust-phw/artifact/Requirements-retrieve-pki-material.html) страна B как участник сети доверия (Trust Network Participant). Загрузка документов DID является ПРЕДУСЛОВИЕМ этого визита, а не его шагом: клиника может всё это время находиться в автономном режиме, поэтому список, по которому она выполняет проверку, — тот, который она обновила последним (примерно раз в неделю, когда CHW посещает базовую клинику или районный отдел здравоохранения). Она проверяет каждый иностранный DVC в порядке STT-VER-001 по документу DID для DSC страны XXR, импортирует проверенные дозы с указанием происхождения, добавляет код национального графика рядом с каждым иностранным кодом вакцины (ConceptMap; по любому препарату без сопоставления решение принимает медсестра) и оценивает национальный график, который определяет, что подошёл срок доз в 6 недель, и записывает на их введение.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3，在 B 国进行诊所验证并生成接种计划。诊所 EHR（在 SMART Trust 和 smart-trust-phw 中为接收方，在 IHE ITI VHL 中为 VHL 接收方一侧）保存一份 GDHCN 信任列表副本，该列表由信任锚（Trust Network Anchor；IHE Trust Anchor）分发，并由信任网络参与方 B 国[获取（smart-trust-phw retrieve-pki-material）](https://litlfred.github.io/smart-trust-phw/artifact/Requirements-retrieve-pki-material.html)。加载 DID 文档是本次就诊的前提条件（PRECONDITION），而非其中的一个步骤：诊所可能全程离线，因此其验证所依据的列表是上次刷新的版本，大约每周一次，在 CHW 前往基地诊所或县卫生办公室时刷新。它按照 STT-VER-001 的顺序，依据 XXR 的 DSC DID 文档验证每份境外 DVC，连同来源信息导入经验证的剂次，在每个境外疫苗代码旁添加国家接种计划代码（ConceptMap；没有映射的产品由护士判定），并评估国家接种计划，从而发现 6 周龄剂次已到期并进行预约。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,3136 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "proposals/app-platform",
+ "hashes": {
+  "ar": "30825dfae0491838",
+  "es": "71cf48a07adf4c8e",
+  "fr": "4ea900efecd8f490",
+  "ru": "9416f6a0e5b1f715",
+  "zh": "5a1b338a90f5cf82"
+ },
+ "strings": [
+  {
+   "msgid": "\"Maintenance\"; last commit Feb–Mar 2026. Workflow runs CQL (HAPI-based, heavy).",
+   "hash": "94240bf9d656a42a",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«قيد الصيانة»؛ آخر إيداع في فبراير–مارس 2026. تشغّل مكتبة Workflow لغة CQL (مبنية على HAPI، وثقيلة).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "\"Mantenimiento\"; último commit en feb.–mar. de 2026. Workflow ejecuta CQL (basado en HAPI, pesado).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Maintenance » ; dernier commit en février–mars 2026. Workflow exécute du CQL (basé sur HAPI, lourd).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Сопровождение»; последний коммит — февраль–март 2026 г. Workflow выполняет CQL (на основе HAPI, тяжеловесно).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“维护中”；最近一次提交在 2026 年 2–3 月。Workflow 运行 CQL（基于 HAPI，较重）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} (Google Maven: AGP, AndroidX, the Android SDK) is blocked by this session's network policy. It is needed to write the Gradle verification metadata for any Android build. GitHub's runners can reach it, so CI is unaffected; local builds here are.",
+   "hash": "e283c725472fe5c8",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} (Google Maven: AGP وAndroidX وAndroid SDK) محجوب بموجب سياسة الشبكة في هذه الجلسة. وهو لازم لكتابة بيانات التحقق الوصفية في Gradle لأي بناء Android. ويمكن لمشغّلات GitHub الوصول إليه، فلا يتأثر CI؛ أما البناءات المحلية هنا فتتأثر.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} (Google Maven: AGP, AndroidX, el SDK de Android) está bloqueado por la política de red de esta sesión. Se necesita para escribir los metadatos de verificación de Gradle de cualquier compilación de Android. Los runners de GitHub pueden acceder a él, así que la CI no se ve afectada; las compilaciones locales de aquí sí.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} (Google Maven : AGP, AndroidX, le SDK Android) est bloqué par la politique réseau de cette session. Il est nécessaire pour écrire les métadonnées de vérification Gradle de toute compilation Android. Les exécuteurs de GitHub peuvent y accéder, de sorte que l'intégration continue n'est pas affectée ; les compilations locales ici le sont.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} (Google Maven: AGP, AndroidX, Android SDK) заблокирован сетевой политикой этого сеанса. Он нужен для записи метаданных верификации Gradle для любой сборки Android. Раннеры GitHub имеют к нему доступ, поэтому на CI это не влияет; влияет на локальные сборки здесь.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}（Google Maven：AGP、AndroidX、Android SDK）被本会话的网络策略阻止。为任何 Android 构建编写 Gradle 验证元数据都需要它。GitHub 的运行器可以访问它，因此 CI 不受影响；但这里的本地构建受影响。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} 1.0.0-rc03, {code1}, {code2} 2.0.0-alpha04, {code3} 2.0.0-alpha04, {code4} 2.0.0-alpha01; {code5} 1.0.0-alpha03",
+   "hash": "fcef6b2b6a3e5bf2",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} 1.0.0-rc03، {code1}، {code2} 2.0.0-alpha04، {code3} 2.0.0-alpha04، {code4} 2.0.0-alpha01؛ {code5} 1.0.0-alpha03",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} 1.0.0-rc03, {code1}, {code2} 2.0.0-alpha04, {code3} 2.0.0-alpha04, {code4} 2.0.0-alpha01; {code5} 1.0.0-alpha03",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} 1.0.0-rc03, {code1}, {code2} 2.0.0-alpha04, {code3} 2.0.0-alpha04, {code4} 2.0.0-alpha01; {code5} 1.0.0-alpha03",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} 1.0.0-rc03, {code1}, {code2} 2.0.0-alpha04, {code3} 2.0.0-alpha04, {code4} 2.0.0-alpha01; {code5} 1.0.0-alpha03",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 1.0.0-rc03，{code1}，{code2} 2.0.0-alpha04，{code3} 2.0.0-alpha04，{code4} 2.0.0-alpha01；{code5} 1.0.0-alpha03",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} has no CQL yet: the J3 schedule rules must be expressed as {code1} applicability conditions in FHIRPath (enough for a birth-dose schedule; WHO SMART immunization CQL would wait).",
+   "hash": "86637c47bd81bc19",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يدعم {code0} لغة CQL بعد: يجب التعبير عن قواعد جدول التطعيم في J3 بوصفها شروط انطباق {code1} بلغة FHIRPath (وهذا يكفي لجدول جرعة الولادة؛ أما CQL الخاصة بالتمنيع في SMART لدى منظمة الصحة العالمية (WHO) فتنتظر).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} aún no tiene CQL: las reglas del calendario de J3 deben expresarse como condiciones de aplicabilidad de {code1} en FHIRPath (suficiente para un calendario de dosis al nacer; el CQL de inmunización de SMART de la OMS tendría que esperar).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} ne prend pas encore en charge le CQL : les règles de calendrier de J3 doivent être exprimées sous forme de conditions d'applicabilité {code1} en FHIRPath (suffisant pour un calendrier de dose à la naissance ; le CQL de vaccination des lignes directrices SMART de l'OMS attendrait).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В {code0} пока нет CQL: правила графика J3 должны быть выражены как условия применимости {code1} на FHIRPath (этого достаточно для графика дозы при рождении; CQL иммунизации WHO SMART придётся отложить).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 尚无 CQL：J3 的接种计划规则必须以 FHIRPath 编写的 {code1} 适用性条件来表达（对出生剂次接种计划足够；WHO SMART 免疫接种 CQL 需要等待）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0}, {code1} (SDC), {code2}, {code3}",
+   "hash": "ee2be56e7accb356",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0}، {code1} (SDC)، {code2}، {code3}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0}, {code1} (SDC), {code2}, {code3}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0}, {code1} (SDC), {code2}, {code3}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0}, {code1} (SDC), {code2}, {code3}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}，{code1}（SDC），{code2}，{code3}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0}, {code1}: backend and deployment (FHIR gateway, data pipes).",
+   "hash": "9ded8e85eddb9bf2",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0}، {code1}: الواجهة الخلفية والنشر (بوابة FHIR، وأنابيب البيانات).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0}, {code1}: backend y despliegue (puerta de enlace FHIR, canalizaciones de datos).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0}, {code1} : serveur et déploiement (passerelle FHIR, flux de données).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0}, {code1}: серверная часть и развёртывание (шлюз FHIR, конвейеры данных).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}，{code1}：后端与部署（FHIR 网关、数据管道）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>{code0}</a0>: a TypeScript admin portal for workforce hierarchies (users, access). Not a clinical web app; not relevant to J1–J4.",
+   "hash": "5ef9716bc91505e8",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>{code0}</a0>: بوابة إدارية مكتوبة بلغة TypeScript للتسلسلات الهرمية للقوى العاملة (المستخدمون، والصلاحيات). ليست تطبيق ويب سريريًا؛ ولا صلة لها بـ J1–J4.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>{code0}</a0>: un portal de administración en TypeScript para jerarquías de personal (usuarios, acceso). No es una aplicación web clínica; no es pertinente para J1–J4.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>{code0}</a0> : un portail d'administration en TypeScript pour les hiérarchies du personnel (utilisateurs, accès). Ce n'est pas une application web clinique ; sans rapport avec J1–J4.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>{code0}</a0>: портал администрирования на TypeScript для иерархий персонала (пользователи, доступ). Это не клиническое веб-приложение; к J1–J4 не относится.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0>：一个用于卫生人力层级（用户、访问权限）的 TypeScript 管理门户。不是临床 Web 应用；与 J1–J4 无关。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>{code0}</a0>: the client, a GitHub template app in Compose Multiplatform (Android, iOS, desktop, web from one tree). Screens are driven by configuration (SQL-on-FHIR {code1}s compiled at build time), data entry by SDC questionnaires. It opens on an OIDC login and blocks on a first sync with a FHIR server; there is no bundled-data mode.",
+   "hash": "82d356d6ed7864a8",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>{code0}</a0>: العميل، وهو تطبيق قالب على GitHub مبني بـ Compose Multiplatform (Android وiOS وسطح المكتب والويب من شجرة واحدة). تُقاد الشاشات بالإعدادات ({code1} من نوع SQL-on-FHIR تُترجَم عند البناء)، ويُدخَل البيانات عبر استبيانات SDC. يُفتح على تسجيل دخول OIDC ويتوقف حتى أول مزامنة مع خادم FHIR؛ ولا يوجد وضع للبيانات المضمَّنة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>{code0}</a0>: el cliente, una aplicación plantilla de GitHub en Compose Multiplatform (Android, iOS, escritorio y web desde un mismo árbol). Las pantallas se rigen por configuración ({code1}s de SQL-on-FHIR compilados en tiempo de compilación) y la entrada de datos, por cuestionarios SDC. Se abre con un inicio de sesión OIDC y se bloquea hasta una primera sincronización con un servidor FHIR; no hay modo con datos incluidos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>{code0}</a0> : le client, une application modèle GitHub en Compose Multiplatform (Android, iOS, bureau, web à partir d'une seule arborescence). Les écrans sont pilotés par la configuration ({code1} SQL-on-FHIR compilés au moment de la compilation), la saisie des données par des questionnaires SDC. Elle s'ouvre sur une connexion OIDC et reste bloquée jusqu'à une première synchronisation avec un serveur FHIR ; il n'existe pas de mode avec données intégrées.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>{code0}</a0>: клиент, шаблонное приложение GitHub на Compose Multiplatform (Android, iOS, настольная версия и веб из одного дерева исходного кода). Экраны управляются конфигурацией ({code1} SQL-on-FHIR, компилируемые во время сборки), ввод данных — анкетами SDC. Приложение открывается входом через OIDC и блокируется до первой синхронизации с сервером FHIR; режима со встроенными данными нет.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0>：客户端，一个基于 Compose Multiplatform 的 GitHub 模板应用（Android、iOS、桌面、Web 共用一棵代码树）。界面由配置驱动（在构建时编译的 SQL-on-FHIR {code1}），数据录入由 SDC 问卷驱动。它启动时显示 OIDC 登录，并在与 FHIR 服务器首次同步完成前阻塞；没有内置数据模式。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>{code0}</a0>: the library behind it (configuration-driven FHIR views), usable on its own.",
+   "hash": "bc80aa3cd3a6c51d",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>{code0}</a0>: المكتبة التي يقوم عليها (عروض FHIR مُقادة بالإعدادات)، ويمكن استخدامها وحدها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>{code0}</a0>: la biblioteca que lo sustenta (vistas FHIR regidas por configuración), utilizable por sí sola.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>{code0}</a0> : la bibliothèque sous-jacente (vues FHIR pilotées par la configuration), utilisable seule.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>{code0}</a0>: лежащая в его основе библиотека (представления FHIR, управляемые конфигурацией), которую можно использовать самостоятельно.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0>：其背后的库（配置驱动的 FHIR 视图），可单独使用。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>{code0}</a0>: variants of the reference app (empty today). A natural place to offer the journeys upstream later — an OHS Foundation repository, so only by proposal, never from here.",
+   "hash": "a92e5f3928e60eb8",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>{code0}</a0>: متغيرات التطبيق المرجعي (فارغ حاليًا). مكان طبيعي لعرض الرحلات على المصدر الأصلي لاحقًا — وهو مستودع تابع لمؤسسة OHS، فلا يكون ذلك إلا بمقترح، ولا يكون أبدًا من هنا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>{code0}</a0>: variantes de la aplicación de referencia (vacío hoy). Un lugar natural para ofrecer más adelante los recorridos aguas arriba; es un repositorio de la OHS Foundation, así que solo mediante propuesta, nunca desde aquí.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>{code0}</a0> : variantes de l'application de référence (vide aujourd'hui). Un endroit naturel pour proposer ultérieurement les parcours en amont — un dépôt de l'OHS Foundation, donc uniquement par proposition, jamais depuis ce dépôt.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>{code0}</a0>: варианты эталонного приложения (сейчас пусто). Естественное место, чтобы позднее предложить пути в вышестоящий проект, — это репозиторий OHS Foundation, поэтому только в виде предложения и никогда отсюда.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0>：参考应用的变体（目前为空）。日后向上游提供这些旅程的自然之处——这是 OHS Foundation 的仓库，因此只能以提案方式进行，绝不从这里直接提交。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Android FHIR SDK</a0> and its <a1>Workflow library</a1>.",
+   "hash": "c9e06f42ddb9e35d",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>Android FHIR SDK</a0> و<a1>مكتبة Workflow</a1> الخاصة به.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Android FHIR SDK</a0> y su <a1>biblioteca Workflow</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>SDK Android FHIR</a0> et sa <a1>bibliothèque Workflow</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Android FHIR SDK</a0> и его <a1>библиотека Workflow</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>Android FHIR SDK</a0> 及其 <a1>Workflow 库</a1>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>OHS Foundation on GitHub</a0> — repository list and descriptions, 2026-10-23.",
+   "hash": "db360fb7137ddaba",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>مؤسسة OHS على GitHub</a0> — قائمة المستودعات وأوصافها، 2026-10-23.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>OHS Foundation en GitHub</a0>: lista de repositorios y descripciones, 2026-10-23.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>OHS Foundation sur GitHub</a0> — liste et descriptions des dépôts, 2026-10-23.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>OHS Foundation на GitHub</a0> — список репозиториев и их описания, 2026-10-23.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>GitHub 上的 OHS Foundation</a0>——仓库列表与描述，2026-10-23。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>ohs-player README</a0>, <a1>player-reference README</a1>, <a2>player-client README</a2>, <a3>kotlin-fhir-engine README</a3>, <a4>kotlin-fhir-workflow README</a4>.",
+   "hash": "ecfea398327e9c65",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>ملف README الخاص بـ ohs-player</a0>، <a1>ملف README الخاص بـ player-reference</a1>، <a2>ملف README الخاص بـ player-client</a2>، <a3>ملف README الخاص بـ kotlin-fhir-engine</a3>، <a4>ملف README الخاص بـ kotlin-fhir-workflow</a4>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>README de ohs-player</a0>, <a1>README de player-reference</a1>, <a2>README de player-client</a2>, <a3>README de kotlin-fhir-engine</a3>, <a4>README de kotlin-fhir-workflow</a4>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>README d'ohs-player</a0>, <a1>README de player-reference</a1>, <a2>README de player-client</a2>, <a3>README de kotlin-fhir-engine</a3>, <a4>README de kotlin-fhir-workflow</a4>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>README ohs-player</a0>, <a1>README player-reference</a1>, <a2>README player-client</a2>, <a3>README kotlin-fhir-engine</a3>, <a4>README kotlin-fhir-workflow</a4>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>ohs-player README</a0>，<a1>player-reference README</a1>，<a2>player-client README</a2>，<a3>kotlin-fhir-engine README</a3>，<a4>kotlin-fhir-workflow README</a4>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>WHO joins the Open Health Stack Software Foundation</a0>, WHO, July 2026.",
+   "hash": "5747a543fb102d21",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>منظمة الصحة العالمية (WHO) تنضم إلى مؤسسة Open Health Stack للبرمجيات</a0>، منظمة الصحة العالمية (WHO)، يوليو 2026.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>La OMS se une a la Open Health Stack Software Foundation</a0>, OMS, julio de 2026.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>L'OMS rejoint l'Open Health Stack Software Foundation</a0>, OMS, juillet 2026.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>ВОЗ присоединяется к Open Health Stack Software Foundation</a0>, ВОЗ, июль 2026 г.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>WHO 加入 Open Health Stack Software Foundation</a0>，WHO，2026 年 7 月。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "~57 libraries and 8 plugins in its catalogue (Koin, Ktor CIO/Darwin, Kermit, ksafe, kotlinpoet, BigNum, Compose adaptive …), several alpha, plus their transitive graph: the largest pinning and verification burden of all options.",
+   "hash": "e52599a323c8c6d1",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نحو 57 مكتبة و8 مكونات إضافية في فهرسه (Koin وKtor CIO/Darwin وKermit وksafe وkotlinpoet وBigNum وCompose adaptive …)، وعدة منها في مرحلة ألفا، إضافةً إلى رسمها البياني المتعدي: أكبر عبء تثبيت وتحقق بين جميع الخيارات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "~57 bibliotecas y 8 plugins en su catálogo (Koin, Ktor CIO/Darwin, Kermit, ksafe, kotlinpoet, BigNum, Compose adaptive …), varios en alfa, más su grafo transitivo: la mayor carga de fijación y verificación de todas las opciones.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "~57 bibliothèques et 8 plugins dans son catalogue (Koin, Ktor CIO/Darwin, Kermit, ksafe, kotlinpoet, BigNum, Compose adaptive…), dont plusieurs en alpha, plus leur graphe transitif : la plus lourde charge d'épinglage et de vérification de toutes les options.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "~57 библиотек и 8 плагинов в его каталоге (Koin, Ktor CIO/Darwin, Kermit, ksafe, kotlinpoet, BigNum, Compose adaptive …), несколько из них в альфа-версии, плюс их транзитивный граф: наибольшая нагрузка по закреплению и верификации среди всех вариантов.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "其目录中约有 57 个库和 8 个插件（Koin、Ktor CIO/Darwin、Kermit、ksafe、kotlinpoet、BigNum、Compose adaptive……），其中若干为 alpha 版，再加上它们的传递依赖图：在所有选项中固定版本与验证的负担最重。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "1. What Open Health Stack is today",
+   "hash": "3c2bd40ed37f4049",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "1. ما هو Open Health Stack اليوم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "1. Qué es hoy Open Health Stack",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "1. Ce qu'est Open Health Stack aujourd'hui",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "1. Что представляет собой Open Health Stack сегодня",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "1. Open Health Stack 现状",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "2. Constraints every option must meet",
+   "hash": "283018e46a9f65d9",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "2. القيود التي يجب أن يستوفيها كل خيار",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "2. Restricciones que toda opción debe cumplir",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "2. Contraintes que toute option doit respecter",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "2. Ограничения, которым должен удовлетворять каждый вариант",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "2. 每个选项都必须满足的约束",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "3. Options",
+   "hash": "4d43a8a353f781d1",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "3. الخيارات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "3. Opciones",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "3. Options",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "3. Варианты",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "3. 选项",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "4. Recommendation",
+   "hash": "3cc5985b38314003",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "4. التوصية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "4. Recomendación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "4. Recommandation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "4. Рекомендация",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "4. 建议",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "5. What any option needs from the environment",
+   "hash": "4bf7895b9725c9a5",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "5. ما يحتاجه أي خيار من البيئة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "5. Qué necesita del entorno cualquier opción",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "5. Ce que toute option exige de l'environnement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "5. Что любому варианту требуется от среды",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "5. 任何选项对环境的要求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A plain Android app on {code0} Engine + SDC (+ Workflow).",
+   "hash": "2bafff76745a686c",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق Android بسيط على {code0} Engine + SDC (+ Workflow).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una aplicación Android simple sobre {code0} Engine + SDC (+ Workflow).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une application Android simple sur {code0} Engine + SDC (+ Workflow).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обычное приложение Android на {code0} Engine + SDC (+ Workflow).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "基于 {code0} Engine + SDC（+ Workflow）的普通 Android 应用。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A small Compose Multiplatform app (Android first, web target alongside) written for the four journeys, using the same foundational libraries the Player uses — {code0}, {code1} (on-device store), {code2} (SDC questionnaires for J2 registration and J3 import), {code3} ({code4} for the J3 schedule) — and, optionally, {code5} for configuration-driven views.",
+   "hash": "95f89b11e594f4bd",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق صغير بـ Compose Multiplatform (Android أولًا، ومعه هدف للويب) مكتوب للرحلات الأربع، يستخدم المكتبات الأساسية نفسها التي يستخدمها Player — {code0}، و{code1} (مخزن على الجهاز)، و{code2} (استبيانات SDC للتسجيل في J2 والاستيراد في J3)، و{code3} ({code4} لجدول التطعيم في J3) — واختياريًا {code5} للعروض المُقادة بالإعدادات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una pequeña aplicación Compose Multiplatform (primero Android, con destino web en paralelo) escrita para los cuatro recorridos, que usa las mismas bibliotecas fundamentales que usa el Player —{code0}, {code1} (almacén en el dispositivo), {code2} (cuestionarios SDC para el registro de J2 y la importación de J3), {code3} ({code4} para el calendario de J3)— y, opcionalmente, {code5} para vistas regidas por configuración.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une petite application Compose Multiplatform (Android d'abord, cible web en parallèle) écrite pour les quatre parcours, utilisant les mêmes bibliothèques de base que le Player — {code0}, {code1} (stockage sur l'appareil), {code2} (questionnaires SDC pour l'enregistrement de J2 et l'importation de J3), {code3} ({code4} pour le calendrier de J3) — et, en option, {code5} pour des vues pilotées par la configuration.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Небольшое приложение на Compose Multiplatform (в первую очередь Android, параллельно веб-цель), написанное для четырёх путей, с использованием тех же базовых библиотек, что и Player, — {code0}, {code1} (хранилище на устройстве), {code2} (анкеты SDC для регистрации в J2 и импорта в J3), {code3} ({code4} для графика J3) — и, при необходимости, {code5} для представлений, управляемых конфигурацией.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个为四段旅程编写的小型 Compose Multiplatform 应用（Android 优先，同时提供 Web 目标），使用与 Player 相同的基础库——{code0}、{code1}（设备端存储）、{code2}（用于 J2 登记和 J3 导入的 SDC 问卷）、{code3}（用于 J3 接种计划的 {code4}）——并可选用 {code5} 实现配置驱动的视图。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A static page on gh-pages running J1–J4 in the browser with the Rust/wasm library (or a future browser build of hcert-core), plus only the Android test module for STT-GEN-004.",
+   "hash": "f8a8515e2523fc10",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "صفحة ثابتة على gh-pages تشغّل J1–J4 في المتصفح بمكتبة Rust/wasm (أو بنسخة مستقبلية من hcert-core للمتصفح)، إضافةً إلى وحدة اختبار Android فقط من أجل STT-GEN-004.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una página estática en gh-pages que ejecuta J1–J4 en el navegador con la biblioteca Rust/wasm (o una futura compilación para navegador de hcert-core), más solo el módulo de pruebas Android para STT-GEN-004.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une page statique sur gh-pages exécutant J1–J4 dans le navigateur avec la bibliothèque Rust/wasm (ou une future version navigateur de hcert-core), plus uniquement le module de test Android pour STT-GEN-004.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Статическая страница на gh-pages, выполняющая J1–J4 в браузере с библиотекой Rust/wasm (или будущей браузерной сборкой hcert-core), плюс только тестовый модуль Android для STT-GEN-004.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "gh-pages 上的一个静态页面，在浏览器中用 Rust/wasm 库（或将来 hcert-core 的浏览器构建）运行 J1–J4，另外只有用于 STT-GEN-004 的 Android 测试模块。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Active (commits this week); alpha APIs. Workflow does {code0}; CQL is \"still to come\".",
+   "hash": "157a7e665ce04a20",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نشط (إيداعات هذا الأسبوع)؛ واجهات برمجية في مرحلة ألفا. تنفّذ Workflow {code0}؛ أما CQL فـ«لم تأتِ بعد».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Activo (commits esta semana); API en alfa. Workflow hace {code0}; CQL está \"aún por llegar\".",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Active (commits cette semaine) ; API en alpha. Workflow prend en charge {code0} ; le CQL est « encore à venir ».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Активно (коммиты на этой неделе); API в альфа-версии. Workflow поддерживает {code0}; CQL «ещё впереди».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "活跃（本周有提交）；alpha 版 API。Workflow 支持 {code0}；CQL “仍有待推出”。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Android only",
+   "hash": "d050d6850c1e3f84",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Android فقط",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Solo Android",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Android uniquement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Только Android",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "仅 Android",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Android test module for STT-GEN-004 first (independent of this choice).",
+   "hash": "3a78b3c0fa491d07",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "وحدة اختبار Android من أجل STT-GEN-004 أولًا (مستقلة عن هذا الاختيار).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Primero el módulo de pruebas Android para STT-GEN-004 (independiente de esta elección).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Module de test Android pour STT-GEN-004 d'abord (indépendant de ce choix).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сначала тестовый модуль Android для STT-GEN-004 (не зависит от этого выбора).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "首先完成用于 STT-GEN-004 的 Android 测试模块（与本选择无关）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "android-fhir (first)",
+   "hash": "dbe0e55d003a4a4c",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "android-fhir (الجيل الأول)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "android-fhir (primera)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "android-fhir (première)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "android-fhir (первое)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "android-fhir（先行）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Android, desktop JVM, iOS, web (wasmJs, and JS for some)",
+   "hash": "f0e48776d5c0e1af",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Android، وJVM لسطح المكتب، وiOS، والويب (wasmJs، وJS لبعضها)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Android, JVM de escritorio, iOS, web (wasmJs, y JS para algunas)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Android, JVM de bureau, iOS, web (wasmJs, et JS pour certaines)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Android, настольная JVM, iOS, веб (wasmJs, а для некоторых — JS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Android、桌面 JVM、iOS、Web（wasmJs，部分支持 JS）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Android, iOS, desktop and web from one tree; configuration-driven screens; SDC questionnaires for registration (J2) and import (J3) come wired.",
+   "hash": "ab0fb64739911e97",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Android وiOS وسطح المكتب والويب من شجرة واحدة؛ شاشات مُقادة بالإعدادات؛ واستبيانات SDC للتسجيل (J2) والاستيراد (J3) موصولة جاهزةً.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Android, iOS, escritorio y web desde un mismo árbol; pantallas regidas por configuración; los cuestionarios SDC para el registro (J2) y la importación (J3) vienen ya integrados.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Android, iOS, bureau et web à partir d'une seule arborescence ; écrans pilotés par la configuration ; les questionnaires SDC pour l'enregistrement (J2) et l'importation (J3) sont déjà intégrés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Android, iOS, настольная версия и веб из одного дерева исходного кода; экраны, управляемые конфигурацией; анкеты SDC для регистрации (J2) и импорта (J3) уже подключены.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Android、iOS、桌面和 Web 共用一棵代码树；配置驱动的界面；用于登记（J2）和导入（J3）的 SDC 问卷已接好。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Cons",
+   "hash": "fd5e74d8d05f57a3",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السلبيات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Inconvenientes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Inconvénients",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Минусы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "缺点",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Create the app from the {code0} template; add an offline demo mode (bundled FHIR bundle, no login), the J1–J4 screens and the HCERT calls.",
+   "hash": "26ad38b0fef9c2e0",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء التطبيق من قالب {code0}؛ وإضافة وضع عرض توضيحي دون اتصال (حزمة FHIR مضمَّنة، دون تسجيل دخول)، وشاشات J1–J4، واستدعاءات HCERT.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Crear la aplicación a partir de la plantilla {code0}; añadir un modo de demostración sin conexión (bundle FHIR incluido, sin inicio de sesión), las pantallas de J1–J4 y las llamadas HCERT.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Créer l'application à partir du modèle {code0} ; ajouter un mode de démonstration hors ligne (bundle FHIR intégré, sans connexion), les écrans J1–J4 et les appels HCERT.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создать приложение из шаблона {code0}; добавить офлайн-режим демонстрации (встроенный пакет FHIR, без входа), экраны J1–J4 и вызовы HCERT.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "从 {code0} 模板创建应用；添加离线演示模式（内置 FHIR bundle，无需登录）、J1–J4 界面和 HCERT 调用。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dependency set is roughly the libraries' own graph (Compose MP, Ktor client, Room3/SQLite, kotlinx) — still sizeable, but every addition is chosen and listed in {code0}.",
+   "hash": "083dae955a867254",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مجموعة التبعيات هي تقريبًا الرسم البياني للمكتبات نفسها (Compose MP وKtor client وRoom3/SQLite وkotlinx) — ولا تزال كبيرة، لكن كل إضافة مختارة ومدرجة في {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El conjunto de dependencias es aproximadamente el grafo propio de las bibliotecas (Compose MP, cliente Ktor, Room3/SQLite, kotlinx): aún considerable, pero cada incorporación se elige y se lista en {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'ensemble des dépendances correspond à peu près au graphe propre des bibliothèques (Compose MP, client Ktor, Room3/SQLite, kotlinx) — encore conséquent, mais chaque ajout est choisi et répertorié dans {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Набор зависимостей примерно совпадает с собственным графом библиотек (Compose MP, клиент Ktor, Room3/SQLite, kotlinx) — всё ещё значительный, но каждое добавление выбирается осознанно и указывается в {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "依赖集大致就是这些库自身的依赖图（Compose MP、Ktor client、Room3/SQLite、kotlinx）——仍然不小，但每一项新增都是经过挑选并列入 {code0} 的。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Distribution",
+   "hash": "11e0318855169e72",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التوزيع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Distribución",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Distribution",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Распространение",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "分发",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generation",
+   "hash": "a561fb450bd79f48",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجيل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Generación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Génération",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Поколение",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "代际",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Google Maven",
+   "hash": "74dfe7a2a43123de",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Google Maven",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Google Maven",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Google Maven",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Google Maven",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Google Maven",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Google Maven artifacts; the session's network policy currently blocks {code0} (needed for this and for AGP/AndroidX in every option).",
+   "hash": "ecc5087358d9a54a",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عناصر Google Maven؛ تحجب سياسة الشبكة في الجلسة حاليًا {code0} (اللازم لهذا الخيار ولـ AGP/AndroidX في كل خيار).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Artefactos de Google Maven; la política de red de la sesión bloquea actualmente {code0} (necesario para esto y para AGP/AndroidX en todas las opciones).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Artefacts Google Maven ; la politique réseau de la session bloque actuellement {code0} (nécessaire pour ceci et pour AGP/AndroidX dans toutes les options).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Артефакты Google Maven; сетевая политика сеанса сейчас блокирует {code0} (он нужен для этого и для AGP/AndroidX в любом варианте).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Google Maven 构件；本会话的网络策略目前阻止了 {code0}（本选项以及每个选项中的 AGP/AndroidX 都需要它）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "If being the OHS Player matters more than dependency count and an offline demo, choose A: the plan is the same, with step 2 starting from the template and adding the offline mode first.",
+   "hash": "5bbcbb3e8bc67256",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إذا كان كون التطبيق هو OHS Player أهم من عدد التبعيات ومن العرض التوضيحي دون اتصال، فاختر A: تبقى الخطة نفسها، مع بدء الخطوة 2 من القالب وإضافة الوضع دون اتصال أولًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Si ser el OHS Player importa más que el número de dependencias y una demostración sin conexión, elija A: el plan es el mismo, con el paso 2 partiendo de la plantilla y añadiendo primero el modo sin conexión.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Si être l'OHS Player importe davantage que le nombre de dépendances et une démonstration hors ligne, choisir A : le plan est le même, l'étape 2 partant du modèle et ajoutant d'abord le mode hors ligne.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Если быть именно OHS Player важнее, чем число зависимостей и офлайн-демонстрация, следует выбрать A: план тот же, но шаг 2 начинается с шаблона и в первую очередь добавляет офлайн-режим.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "如果成为 OHS Player 比依赖数量和离线演示更重要，就选择 A：计划相同，只是第 2 步改为从模板开始，并首先添加离线模式。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In maintenance; not where OHS is going; Android only (no web).",
+   "hash": "6025df5ac65c9c56",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قيد الصيانة؛ وليس الاتجاه الذي تسير فيه OHS؛ وAndroid فقط (دون ويب).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En mantenimiento; no es hacia donde va OHS; solo Android (sin web).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "En maintenance ; ce n'est pas la direction que prend OHS ; Android uniquement (pas de web).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В режиме сопровождения; OHS развивается не в этом направлении; только Android (без веба).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "处于维护状态；不是 OHS 的发展方向；仅 Android（无 Web）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It is the OHS Player: the most visibly \"OHS\" outcome, and the closest to what OHS implementers will start from.",
+   "hash": "8edf5915be22651a",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنه OHS Player: النتيجة الأوضح انتماءً إلى «OHS»، والأقرب إلى ما سيبدأ منه منفّذو OHS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Es el OHS Player: el resultado más visiblemente \"OHS\" y el más cercano a aquello de lo que partirán los implementadores de OHS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "C'est l'OHS Player : le résultat le plus visiblement « OHS », et le plus proche de ce dont partiront les responsables de la mise en œuvre d'OHS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это OHS Player: наиболее наглядно «OHS»-результат и ближе всего к тому, с чего начнут внедряющие OHS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它就是 OHS Player：最明显“OHS”的成果，也最接近 OHS 实施者的起点。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kotlin 2.3 / AGP 8.11 / JDK 21; its build-logic and code generation ({code0}) are ours to audit.",
+   "hash": "3c2c50e5fbc55cc9",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Kotlin 2.3 / AGP 8.11 / JDK 21؛ ومنطق البناء وتوليد الشيفرة فيه ({code0}) علينا تدقيقهما.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kotlin 2.3 / AGP 8.11 / JDK 21; su lógica de compilación y su generación de código ({code0}) nos toca auditarlas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kotlin 2.3 / AGP 8.11 / JDK 21 ; sa logique de compilation et sa génération de code ({code0}) sont à auditer par nos soins.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kotlin 2.3 / AGP 8.11 / JDK 21; его логику сборки и генерацию кода ({code0}) проверять нам.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kotlin 2.3 / AGP 8.11 / JDK 21；其构建逻辑和代码生成（{code0}）需要我们自行审计。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kotlin Multiplatform (current)",
+   "hash": "9f29e36836dc39ca",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Kotlin Multiplatform (الحالي)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Kotlin Multiplatform (actual)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Kotlin Multiplatform (actuelle)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Kotlin Multiplatform (текущее)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kotlin Multiplatform（当前）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Later, propose the journeys to the OHS Foundation as a {code0} variant (owner's call; never pushed from here).",
+   "hash": "4a5a40a470397882",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لاحقًا، اقتراح الرحلات على مؤسسة OHS بوصفها متغيرًا من {code0} (القرار للمالك؛ ولا يُدفَع أبدًا من هنا).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Más adelante, proponer los recorridos a la OHS Foundation como variante de {code0} (decisión del propietario; nunca se envía desde aquí).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Plus tard, proposer les parcours à l'OHS Foundation en tant que variante {code0} (décision du propriétaire ; jamais poussé depuis ce dépôt).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Позднее предложить пути OHS Foundation в качестве варианта {code0} (на усмотрение владельца; никогда не отправляется отсюда).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "之后，以 {code0} 变体的形式向 OHS Foundation 提议这些旅程（由所有者决定；绝不从这里推送）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Libraries",
+   "hash": "26676aafdf17887b",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المكتبات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bibliotecas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bibliothèques",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Библиотеки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "库",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Mature, production-proven (OpenSRP, EmCare); most documentation and examples.",
+   "hash": "fc37939cafc68da7",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ناضج ومُثبَت في الإنتاج (OpenSRP وEmCare)؛ ولديه أكثر التوثيق والأمثلة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Madura, probada en producción (OpenSRP, EmCare); la mayor cantidad de documentación y ejemplos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Mature, éprouvée en production (OpenSRP, EmCare) ; la plus grande partie de la documentation et des exemples.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зрелое, проверенное в производственной эксплуатации (OpenSRP, EmCare); больше всего документации и примеров.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "成熟，经过生产验证（OpenSRP、EmCare）；文档和示例最多。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Maven Central",
+   "hash": "73c658282e40a871",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Maven Central",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Maven Central",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Maven Central",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Maven Central",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Maven Central",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Maven Central metadata for {code0} and {code1} (versions and publication dates).",
+   "hash": "a9116b014ef63e41",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بيانات Maven Central الوصفية لـ {code0} و{code1} (الإصدارات وتواريخ النشر).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Metadatos de Maven Central para {code0} y {code1} (versiones y fechas de publicación).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Métadonnées Maven Central pour {code0} et {code1} (versions et dates de publication).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Метаданные Maven Central для {code0} и {code1} (версии и даты публикации).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 和 {code1} 的 Maven Central 元数据（版本及发布日期）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Much of the template (auth, sync, workforce registers) is unrelated to the journeys and is noise in a demonstrator.",
+   "hash": "474ac9ecc9685df2",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كثير من القالب (المصادقة، والمزامنة، وسجلات القوى العاملة) لا صلة له بالرحلات، وهو ضجيج في تطبيق توضيحي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Gran parte de la plantilla (autenticación, sincronización, registros de personal) no tiene relación con los recorridos y es ruido en un demostrador.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une grande partie du modèle (authentification, synchronisation, registres du personnel) est sans rapport avec les parcours et constitue du bruit dans un démonstrateur.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Значительная часть шаблона (аутентификация, синхронизация, реестры персонала) не связана с путями и является лишним шумом в демонстраторе.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "模板的大部分内容（认证、同步、卫生人力登记）与旅程无关，在演示程序中只是干扰。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Not OHS; does not show the Kotlin library inside an OHS app, which is the stated goal.",
+   "hash": "470b4a2af77b1155",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ليس OHS؛ ولا يُظهر مكتبة Kotlin داخل تطبيق OHS، وهو الهدف المعلن.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No es OHS; no muestra la biblioteca Kotlin dentro de una aplicación OHS, que es el objetivo declarado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pas OHS ; ne montre pas la bibliothèque Kotlin dans une application OHS, ce qui est l'objectif déclaré.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Не OHS; не показывает библиотеку Kotlin внутри приложения OHS, что является заявленной целью.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "不是 OHS；无法展示 OHS 应用中的 Kotlin 库，而这正是既定目标。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Not the Player app itself; screens are ours.",
+   "hash": "4b865d33a7cccae8",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ليس تطبيق Player نفسه؛ والشاشات من صنعنا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No es la propia aplicación Player; las pantallas son nuestras.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce n'est pas l'application Player elle-même ; les écrans sont les nôtres.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это не само приложение Player; экраны — наши.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "不是 Player 应用本身；界面由我们编写。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Offline and serverless demo. J2 is offline by definition, and CI cannot stand up an OIDC provider and FHIR server for an emulator run cheaply. The app needs a bundled-data mode.",
+   "hash": "5609dc7af3871267",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض توضيحي دون اتصال ودون خادم. فالرحلة J2 دون اتصال بطبيعتها، ولا يستطيع CI إقامة مزوّد OIDC وخادم FHIR لتشغيل المحاكي بتكلفة زهيدة. لذا يحتاج التطبيق إلى وضع للبيانات المضمَّنة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Demostración sin conexión y sin servidor. J2 es sin conexión por definición, y la CI no puede levantar de forma económica un proveedor OIDC y un servidor FHIR para una ejecución en el emulador. La aplicación necesita un modo con datos incluidos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Démonstration hors ligne et sans serveur. J2 est hors ligne par définition, et l'intégration continue ne peut pas mettre en place à faible coût un fournisseur OIDC et un serveur FHIR pour une exécution sur émulateur. L'application a besoin d'un mode avec données intégrées.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Офлайн-демонстрация без сервера. J2 по определению работает офлайн, а CI не может дёшево развернуть поставщика OIDC и сервер FHIR для прогона в эмуляторе. Приложению нужен режим со встроенными данными.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线且无服务器的演示。J2 按定义就是离线的，而 CI 无法以低成本为模拟器运行搭建 OIDC 提供方和 FHIR 服务器。应用需要内置数据模式。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Offline and serverless from the start; the emulator CI job can drive the journeys.",
+   "hash": "844faa551064fce8",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دون اتصال ودون خادم منذ البداية؛ ويمكن لمهمة CI على المحاكي أن تقود الرحلات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin conexión y sin servidor desde el principio; el trabajo de CI en el emulador puede ejecutar los recorridos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Hors ligne et sans serveur dès le départ ; la tâche d'intégration continue sur émulateur peut piloter les parcours.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Офлайн и без сервера с самого начала; задание CI в эмуляторе может прогонять пути.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "从一开始就离线且无服务器；模拟器 CI 作业可以驱动这些旅程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "On top of the KMP generation sits the OHS Player, described by the foundation as a cross-stack reference toolkit, \"reference, not product\":",
+   "hash": "8f16783e4eaa7a26",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فوق جيل KMP يقع OHS Player، الذي تصفه المؤسسة بأنه مجموعة أدوات مرجعية عابرة للطبقات، «مرجع، لا منتج»:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sobre la generación KMP se sitúa el OHS Player, que la fundación describe como un conjunto de herramientas de referencia transversal a la pila, \"referencia, no producto\":",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au-dessus de la génération KMP se trouve l'OHS Player, décrit par la fondation comme une boîte à outils de référence transversale à la pile, « une référence, pas un produit » :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Поверх поколения KMP находится OHS Player, который фонд описывает как межстековый эталонный инструментарий, «эталон, а не продукт»:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 KMP 这一代之上是 OHS Player，基金会将其描述为跨技术栈的参考工具包，“是参考，而非产品”：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Open Health Stack (OHS) began as a Google-led set of components and is now the OHS Software Foundation, a community project under the Linux Foundation, which WHO joined in July 2026. Its code lives in <a0>github.com/ohs-foundation</a0> (28 repositories). There are two generations of the client libraries:",
+   "hash": "9d024e880e3551b9",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بدأ Open Health Stack (OHS) مجموعةً من المكونات بقيادة Google، وهو الآن مؤسسة OHS للبرمجيات، وهي مشروع مجتمعي تحت مظلة Linux Foundation، انضمت إليه منظمة الصحة العالمية (WHO) في يوليو 2026. تقع شيفرته في <a0>github.com/ohs-foundation</a0> (28 مستودعًا). وهناك جيلان من مكتبات العميل:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Open Health Stack (OHS) comenzó como un conjunto de componentes liderado por Google y hoy es la OHS Software Foundation, un proyecto comunitario de la Linux Foundation al que la OMS se unió en julio de 2026. Su código está en <a0>github.com/ohs-foundation</a0> (28 repositorios). Hay dos generaciones de bibliotecas cliente:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Open Health Stack (OHS) a débuté comme un ensemble de composants mené par Google et est aujourd'hui l'OHS Software Foundation, un projet communautaire relevant de la Linux Foundation, que l'OMS a rejoint en juillet 2026. Son code se trouve sur <a0>github.com/ohs-foundation</a0> (28 dépôts). Il existe deux générations de bibliothèques client :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Open Health Stack (OHS) начинался как набор компонентов под руководством Google, а теперь это OHS Software Foundation — общественный проект под эгидой Linux Foundation, к которому ВОЗ присоединилась в июле 2026 г. Его код находится в <a0>github.com/ohs-foundation</a0> (28 репозиториев). Существует два поколения клиентских библиотек:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Open Health Stack（OHS）最初是由 Google 主导的一组组件，现已成为 OHS Software Foundation，一个隶属 Linux Foundation 的社区项目，WHO 于 2026 年 7 月加入。其代码位于 <a0>github.com/ohs-foundation</a0>（28 个仓库）。客户端库有两代：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Option A — Fork the OHS Player reference app",
+   "hash": "a324bd05348856c7",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخيار A — اشتقاق نسخة من التطبيق المرجعي OHS Player",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Opción A: bifurcar la aplicación de referencia OHS Player",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Option A — Dupliquer (fork) l'application de référence OHS Player",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вариант A — форк эталонного приложения OHS Player",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "选项 A——派生（fork）OHS Player 参考应用",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Option B — Own lean Compose Multiplatform app on the OHS KMP libraries (recommended)",
+   "hash": "68cbd7acb74ac345",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخيار B — تطبيق خاص خفيف بـ Compose Multiplatform على مكتبات OHS KMP (موصى به)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Opción B: aplicación Compose Multiplatform propia y ligera sobre las bibliotecas KMP de OHS (recomendada)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Option B — Application Compose Multiplatform propre et légère sur les bibliothèques KMP d'OHS (recommandée)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вариант B — собственное компактное приложение на Compose Multiplatform на библиотеках OHS KMP (рекомендуется)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "选项 B——基于 OHS KMP 库自建精简的 Compose Multiplatform 应用（推荐）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Option B, staged:",
+   "hash": "2b7adfb3d22846d4",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخيار B، على مراحل:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Opción B, por etapas:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Option B, par étapes :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вариант B, поэтапно:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "选项 B，分阶段：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Option C — Android only, on android-fhir (first generation)",
+   "hash": "b2ab94843e6d31a7",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخيار C — Android فقط، على android-fhir (الجيل الأول)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Opción C: solo Android, sobre android-fhir (primera generación)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Option C — Android uniquement, sur android-fhir (première génération)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вариант C — только Android, на android-fhir (первое поколение)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "选项 C——仅 Android，基于 android-fhir（先行）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Option D — Web first, no Android app",
+   "hash": "07df2005be3a443b",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخيار D — الويب أولًا، دون تطبيق Android",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Opción D: primero la web, sin aplicación Android",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Option D — Web d'abord, sans application Android",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вариант D — в первую очередь веб, без приложения Android",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "选项 D——Web 优先，无 Android 应用",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Platforms",
+   "hash": "7cb8f185388bc91d",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المنصات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Plataformas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Plateformes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Платформы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "平台",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Proposal: which Open Health Stack base for the demonstrator app",
+   "hash": "946ac74e3d38f13f",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقترح: أي أساس من Open Health Stack للتطبيق التوضيحي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Propuesta: qué base de Open Health Stack usar para la aplicación demostradora",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Proposition : quelle base Open Health Stack pour l'application de démonstration",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предложение: на какой основе Open Health Stack строить демонстрационное приложение",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提案：演示应用以哪种 Open Health Stack 为基础",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pros",
+   "hash": "14d2b431220e36c2",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإيجابيات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ventajas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avantages",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Плюсы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "优点",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requires an OIDC provider and a FHIR server to start; the offline mode is ours to write and to keep merging against a template that moves weekly.",
+   "hash": "af527e83332a5876",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتطلب مزوّد OIDC وخادم FHIR للبدء؛ والوضع دون اتصال علينا كتابته ومواصلة دمجه مع قالب يتغير أسبوعيًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requiere un proveedor OIDC y un servidor FHIR para arrancar; el modo sin conexión nos toca escribirlo y mantenerlo fusionado con una plantilla que cambia cada semana.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exige un fournisseur OIDC et un serveur FHIR pour démarrer ; le mode hors ligne est à écrire par nos soins et à fusionner sans cesse avec un modèle qui évolue chaque semaine.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для запуска требуются поставщик OIDC и сервер FHIR; офлайн-режим нам придётся написать самим и постоянно сливать с шаблоном, который меняется еженедельно.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "启动需要 OIDC 提供方和 FHIR 服务器；离线模式需要我们自己编写，并不断与每周都在变化的模板合并。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Same current OHS libraries as the Player, so it demonstrates the stack the OHS Foundation is building towards, without the template's auth/sync/DI layer.",
+   "hash": "143312d8f1bc63ce",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مكتبات OHS الحالية نفسها التي يستخدمها Player، فيُظهر الطبقة التي تبنيها مؤسسة OHS، دون طبقة المصادقة/المزامنة/حقن التبعيات (DI) في القالب.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las mismas bibliotecas OHS actuales que el Player, así que demuestra la pila hacia la que avanza la OHS Foundation, sin la capa de autenticación/sincronización/inyección de dependencias de la plantilla.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Mêmes bibliothèques OHS actuelles que le Player : elle montre donc la pile vers laquelle tend l'OHS Foundation, sans la couche authentification/synchronisation/injection de dépendances du modèle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Те же текущие библиотеки OHS, что и у Player, поэтому приложение демонстрирует стек, к которому движется OHS Foundation, без слоя аутентификации/синхронизации/DI из шаблона.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "与 Player 相同的最新 OHS 库，因此能展示 OHS Foundation 正在构建的技术栈，而没有模板的认证/同步/依赖注入（DI）层。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Shapes the code so the journey screens can later be offered to {code0} as a Player variant.",
+   "hash": "8e3bb322e5ec7abc",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يشكّل الشيفرة بحيث يمكن لاحقًا عرض شاشات الرحلات على {code0} بوصفها متغيرًا من Player.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Da forma al código para que las pantallas de los recorridos puedan ofrecerse más adelante a {code0} como variante del Player.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Structure le code de sorte que les écrans des parcours puissent ensuite être proposés à {code0} comme variante du Player.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Код организуется так, чтобы экраны путей можно было позднее предложить {code0} в качестве варианта Player.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使代码结构便于日后将旅程界面作为 Player 变体提供给 {code0}。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Smallest: almost no dependencies; easiest to show anyone with a link.",
+   "hash": "0ff72c58a780f9d5",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأصغر: تبعيات شبه معدومة؛ والأسهل في عرضه على أي شخص عبر رابط.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La más pequeña: casi sin dependencias; la más fácil de mostrar a cualquiera con un enlace.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La plus petite : presque aucune dépendance ; la plus facile à montrer à quiconque dispose d'un lien.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Наименьший: почти нет зависимостей; проще всего показать кому угодно по ссылке.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "最小：几乎没有依赖；最容易通过一个链接展示给任何人。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Sources",
+   "hash": "f001fc91326def68",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المصادر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Fuentes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sources",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Источники",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "State",
+   "hash": "887c46ca7f4b4352",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحالة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "État",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Состояние",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "状态",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Status: decided 2026-10-23: option B, staged, with the Rust/wasm library for the web meanwhile (<a0>memory/dir-app-platform.md</a0>). Researched 2026-10-23. Question: on what should the J1–J4 app be built, so that it runs the Kotlin HCERT library on Android (and, ideally, the web) on the most recent, most Kotlin-native Open Health Stack?",
+   "hash": "17f3c039b3307ad7",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحالة: تقرّر في 2026-10-23: الخيار B، على مراحل، مع مكتبة Rust/wasm للويب في الأثناء (<a0>memory/dir-app-platform.md</a0>). أُجري البحث في 2026-10-23. السؤال: على أي أساس يُبنى تطبيق J1–J4، بحيث يشغّل مكتبة HCERT بلغة Kotlin على Android (وعلى الويب، في الحالة المثلى) على أحدث إصدار من Open Health Stack وأكثره أصالةً في Kotlin؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estado: decidido el 2026-10-23: opción B, por etapas, con la biblioteca Rust/wasm para la web entretanto (<a0>memory/dir-app-platform.md</a0>). Investigado el 2026-10-23. Pregunta: ¿sobre qué debería construirse la aplicación de J1–J4 para que ejecute la biblioteca HCERT de Kotlin en Android (e, idealmente, en la web) sobre la Open Health Stack más reciente y más nativa de Kotlin?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Statut : décidé le 2026-10-23 : option B, par étapes, avec entre-temps la bibliothèque Rust/wasm pour le web (<a0>memory/dir-app-platform.md</a0>). Recherches effectuées le 2026-10-23. Question : sur quelle base construire l'application J1–J4, de sorte qu'elle exécute la bibliothèque Kotlin HCERT sur Android (et, idéalement, sur le web) avec l'Open Health Stack la plus récente et la plus native en Kotlin ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Статус: решено 2026-10-23: вариант B, поэтапно, а для веба пока — библиотека Rust/wasm (<a0>memory/dir-app-platform.md</a0>). Исследовано 2026-10-23. Вопрос: на чём строить приложение J1–J4, чтобы оно выполняло библиотеку Kotlin HCERT на Android (и, в идеале, в вебе) на самой новой и наиболее нативной для Kotlin версии Open Health Stack?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "状态：已于 2026-10-23 决定：选项 B，分阶段进行，同时 Web 端暂用 Rust/wasm 库（<a0>memory/dir-app-platform.md</a0>）。调研于 2026-10-23。问题：J1–J4 应用应基于什么构建，才能在最新、最 Kotlin 原生的 Open Health Stack 上，于 Android（理想情况下还包括 Web）运行 Kotlin HCERT 库？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Supply chain. Every artifact pinned with sha256, releases ≥ 14 days old, no install scripts. Fewer dependencies is better.",
+   "hash": "89de1a7a09c13e17",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سلسلة الإمداد. كل عنصر مُثبَّت ببصمة sha256، والإصدارات عمرها ≥ 14 يومًا، ولا نصوص تثبيت. وكلما قلّت التبعيات كان أفضل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cadena de suministro. Cada artefacto fijado con sha256, versiones con ≥ 14 días de antigüedad, sin scripts de instalación. Cuantas menos dependencias, mejor.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaîne d'approvisionnement. Chaque artefact épinglé avec sha256, versions datant d'au moins 14 jours, aucun script d'installation. Moins il y a de dépendances, mieux c'est.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цепочка поставок. Каждый артефакт закреплён с sha256, релизы возрастом ≥ 14 дней, без скриптов установки. Чем меньше зависимостей, тем лучше.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "供应链。每个构件都以 sha256 固定版本，发布时间 ≥ 14 天，不运行安装脚本。依赖越少越好。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Android emulator test of the HCERT library (STT-GEN-004) must run in CI on an Android runtime, platform crypto included. This is independent of the app: it is a small Android test module that depends only on the HCERT jar (plan step 4). It can land before the app decision.",
+   "hash": "1ffec45aa80b6a7c",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجب أن يعمل اختبار المحاكي Android لمكتبة HCERT (STT-GEN-004) في CI على بيئة تشغيل Android، بما في ذلك تشفير المنصة. وهو مستقل عن التطبيق: إنه وحدة اختبار Android صغيرة لا تعتمد إلا على ملف jar الخاص بـ HCERT (الخطوة 4 من الخطة). ويمكن إدماجه قبل قرار التطبيق.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La prueba en emulador Android de la biblioteca HCERT (STT-GEN-004) debe ejecutarse en la CI sobre un entorno de ejecución Android, criptografía de la plataforma incluida. Es independiente de la aplicación: es un pequeño módulo de pruebas Android que depende solo del jar de HCERT (paso 4 del plan). Puede incorporarse antes de la decisión sobre la aplicación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le test sur émulateur Android de la bibliothèque HCERT (STT-GEN-004) doit s'exécuter en intégration continue sur un environnement d'exécution Android, cryptographie de la plateforme comprise. Il est indépendant de l'application : c'est un petit module de test Android qui ne dépend que du jar HCERT (étape 4 du plan). Il peut être livré avant la décision sur l'application.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тест библиотеки HCERT в эмуляторе Android (STT-GEN-004) должен выполняться в CI в среде выполнения Android, включая криптографию платформы. Это не зависит от приложения: это небольшой тестовый модуль Android, зависящий только от jar-файла HCERT (шаг 4 плана). Его можно влить до принятия решения о приложении.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HCERT 库的 Android 模拟器测试（STT-GEN-004）必须在 CI 中、在包含平台加密功能的 Android 运行时上运行。这与应用无关：它是一个只依赖 HCERT jar 的小型 Android 测试模块（计划第 4 步）。它可以在应用决策之前落地。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The B app, Android target, offline, J1–J4, on {code0} engine + data capture + workflow.",
+   "hash": "75504074b6b15011",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق B، بهدف Android، دون اتصال، J1–J4، على محرك {code0} + التقاط البيانات + سير العمل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La aplicación B, destino Android, sin conexión, J1–J4, sobre el motor {code0} + captura de datos + workflow.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'application B, cible Android, hors ligne, J1–J4, sur le moteur {code0} + la saisie de données + workflow.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приложение B, цель Android, офлайн, J1–J4, на {code0} engine + data capture + workflow.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "B 应用，Android 目标，离线，J1–J4，基于 {code0} 引擎 + 数据采集 + workflow。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The HCERT library comes from a pinned smart-trust-tools commit as a JVM jar (owner's choice). On Android the JVM jar works as is. On the web it does not yet: hcert-core's Kotlin/JS target uses {code0} and {code1}, so it runs on Node, not in a browser, and there is no wasmJs target. Any web front end needs either a browser target in hcert-core (WebCrypto, {code2}), a library change in smart-trust-tools, or the Rust/wasm library, which already runs in the browser with WebCrypto keys.",
+   "hash": "bbb259d58cf7f2d7",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تأتي مكتبة HCERT من إيداع مُثبَّت في smart-trust-tools بصيغة jar لـ JVM (اختيار المالك). على Android يعمل ملف jar لـ JVM كما هو. أما على الويب فلا يعمل بعد: هدف Kotlin/JS في hcert-core يستخدم {code0} و{code1}، فيعمل على Node لا في المتصفح، ولا يوجد هدف wasmJs. وأي واجهة أمامية للويب تحتاج إما إلى هدف للمتصفح في hcert-core (WebCrypto، {code2})، أو إلى تغيير في المكتبة في smart-trust-tools، أو إلى مكتبة Rust/wasm التي تعمل في المتصفح بالفعل بمفاتيح WebCrypto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La biblioteca HCERT procede de un commit fijado de smart-trust-tools como jar JVM (elección del propietario). En Android el jar JVM funciona tal cual. En la web todavía no: el destino Kotlin/JS de hcert-core usa {code0} y {code1}, así que se ejecuta en Node, no en un navegador, y no hay destino wasmJs. Cualquier interfaz web necesita o bien un destino de navegador en hcert-core (WebCrypto, {code2}), o un cambio de biblioteca en smart-trust-tools, o la biblioteca Rust/wasm, que ya se ejecuta en el navegador con claves WebCrypto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La bibliothèque HCERT provient d'un commit épinglé de smart-trust-tools sous forme de jar JVM (choix du propriétaire). Sur Android, le jar JVM fonctionne tel quel. Sur le web, pas encore : la cible Kotlin/JS de hcert-core utilise {code0} et {code1}, elle s'exécute donc sur Node et non dans un navigateur, et il n'existe pas de cible wasmJs. Tout frontal web nécessite soit une cible navigateur dans hcert-core (WebCrypto, {code2}), soit une modification de la bibliothèque dans smart-trust-tools, soit la bibliothèque Rust/wasm, qui s'exécute déjà dans le navigateur avec des clés WebCrypto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Библиотека HCERT берётся из закреплённого коммита smart-trust-tools в виде jar-файла JVM (выбор владельца). На Android jar-файл JVM работает как есть. В вебе — пока нет: цель Kotlin/JS в hcert-core использует {code0} и {code1}, поэтому она выполняется в Node, а не в браузере, и цели wasmJs нет. Любому веб-интерфейсу нужна либо браузерная цель в hcert-core (WebCrypto, {code2}), либо изменение библиотеки в smart-trust-tools, либо библиотека Rust/wasm, которая уже работает в браузере с ключами WebCrypto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HCERT 库以 JVM jar 的形式来自固定的 smart-trust-tools 提交（所有者的选择）。在 Android 上，JVM jar 可直接使用。在 Web 上目前还不行：hcert-core 的 Kotlin/JS 目标使用 {code0} 和 {code1}，因此只能在 Node 上运行，不能在浏览器中运行，而且没有 wasmJs 目标。任何 Web 前端都需要以下之一：hcert-core 中的浏览器目标（WebCrypto，{code2}）、smart-trust-tools 中的库修改，或者 Rust/wasm 库——后者已经可以在浏览器中使用 WebCrypto 密钥运行。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The KMP libraries are alpha: API breaks between alphas are ours to absorb.",
+   "hash": "07e47d9b889bd5dd",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مكتبات KMP في مرحلة ألفا: علينا استيعاب التغييرات الكاسرة في واجهات API بين إصدارات ألفا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las bibliotecas KMP están en alfa: las rupturas de API entre versiones alfa nos toca absorberlas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les bibliothèques KMP sont en alpha : les ruptures d'API entre versions alpha sont à absorber par nos soins.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Библиотеки KMP находятся в альфа-версии: несовместимые изменения API между альфа-версиями нам придётся учитывать самим.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "KMP 库为 alpha 版：各 alpha 版本之间的 API 破坏性变更需要我们自行消化。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Kotlin library on Android is exercised only by tests, not by a journey.",
+   "hash": "888d7ae29b64a091",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا تُختبَر مكتبة Kotlin على Android إلا بالاختبارات، لا عبر رحلة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La biblioteca Kotlin en Android solo se ejercita mediante pruebas, no mediante un recorrido.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La bibliothèque Kotlin sur Android n'est exercée que par des tests, et non par un parcours.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Библиотека Kotlin на Android проверяется только тестами, а не путём.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Android 上的 Kotlin 库只通过测试来运行，而不是通过旅程。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The most recent and most Kotlin-native choice is therefore the KMP generation, with or without the Player template.",
+   "hash": "cb6e70141319b862",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لذلك فإن الخيار الأحدث والأكثر أصالةً في Kotlin هو جيل KMP، مع قالب Player أو دونه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Por tanto, la opción más reciente y más nativa de Kotlin es la generación KMP, con o sin la plantilla del Player.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le choix le plus récent et le plus natif en Kotlin est donc la génération KMP, avec ou sans le modèle Player.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Поэтому самым новым и наиболее нативным для Kotlin выбором является поколение KMP — с шаблоном Player или без него.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "因此，最新且最 Kotlin 原生的选择是 KMP 这一代，无论是否使用 Player 模板。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Rust/wasm library already runs in the browser.",
+   "hash": "fdc8a78c71148aa6",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مكتبة Rust/wasm تعمل في المتصفح بالفعل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La biblioteca Rust/wasm ya se ejecuta en el navegador.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La bibliothèque Rust/wasm s'exécute déjà dans le navigateur.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Библиотека Rust/wasm уже работает в браузере.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Rust/wasm 库已经可以在浏览器中运行。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The web target of the same app once hcert-core has a browser target (to be requested in smart-trust-tools) — or, in the meantime, the journeys' QR steps on the web through the Rust/wasm library.",
+   "hash": "3a19c7cbf4963485",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هدف الويب للتطبيق نفسه متى صار لـ hcert-core هدف للمتصفح (يُطلَب في smart-trust-tools) — أو، في الأثناء، خطوات QR في الرحلات على الويب عبر مكتبة Rust/wasm.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El destino web de la misma aplicación una vez que hcert-core tenga un destino de navegador (a solicitar en smart-trust-tools) o, entretanto, los pasos de QR de los recorridos en la web mediante la biblioteca Rust/wasm.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La cible web de la même application dès que hcert-core disposera d'une cible navigateur (à demander dans smart-trust-tools) — ou, en attendant, les étapes QR des parcours sur le web au moyen de la bibliothèque Rust/wasm.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Веб-цель того же приложения, когда у hcert-core появится браузерная цель (запросить в smart-trust-tools), — или, тем временем, шаги путей с QR в вебе через библиотеку Rust/wasm.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一旦 hcert-core 有了浏览器目标（将在 smart-trust-tools 中提出请求），就提供同一应用的 Web 目标——或者在此期间，通过 Rust/wasm 库在 Web 上实现旅程中的 QR 步骤。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Upstreamable: journeys could later become a variant in {code0}.",
+   "hash": "56b38d98072bcc5d",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قابل للرفع إلى المصدر الأصلي: يمكن أن تصبح الرحلات لاحقًا متغيرًا في {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Integrable aguas arriba: los recorridos podrían convertirse más adelante en una variante en {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Possibilité de reverser en amont : les parcours pourraient ensuite devenir une variante dans {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Можно передать в вышестоящий проект: пути позднее могут стать вариантом в {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可上游化：旅程日后可以成为 {code0} 中的一个变体。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Workflow library runs CQL today (WHO SMART Guidelines content).",
+   "hash": "3be3ec4b5d58dd02",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مكتبة Workflow تشغّل CQL اليوم (محتوى إرشادات SMART لدى منظمة الصحة العالمية (WHO)).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La biblioteca Workflow ejecuta CQL hoy (contenido de SMART Guidelines de la OMS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La bibliothèque Workflow exécute du CQL aujourd'hui (contenu des lignes directrices SMART de l'OMS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Библиотека Workflow уже сейчас выполняет CQL (содержание руководящих принципов SMART ВОЗ (WHO SMART Guidelines)).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Workflow 库现已可运行 CQL（WHO SMART 指南内容）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Workflow pulls HAPI FHIR + CQL engine: a very large, JVM-heavy dependency graph.",
+   "hash": "3b80636796f16901",
+   "sources": [
+    "docs/proposals/app-platform.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تجلب Workflow مكتبة HAPI FHIR + محرك CQL: رسم بياني ضخم جدًا للتبعيات، يعتمد بكثافة على JVM.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Workflow arrastra HAPI FHIR + motor CQL: un grafo de dependencias muy grande y pesado en JVM.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Workflow entraîne HAPI FHIR + le moteur CQL : un graphe de dépendances très volumineux et lourd en JVM.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Workflow подтягивает HAPI FHIR + движок CQL: очень большой граф зависимостей, тяжёлый для JVM.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Workflow 会引入 HAPI FHIR + CQL 引擎：一个非常庞大、以 JVM 为主的依赖图。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

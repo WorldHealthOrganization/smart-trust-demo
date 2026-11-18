@@ -1,0 +1,3565 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/personas",
+ "hashes": {
+  "ar": "042ed0ca152de0ee",
+  "es": "bf3f8a4521832c75",
+  "fr": "d965294d07664177",
+  "ru": "530850d05178424a",
+  "zh": "f9a667862557fb11"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>Birth clinic issuing system</a0>",
+   "hash": "e0d103a4ea8bec02",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>نظام الإصدار في عيادة الولادة</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Sistema emisor de la clínica de nacimiento</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Système émetteur de la clinique de naissance</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Система выдачи родильной клиники</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>出生诊所签发系统</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Birth clinic vaccinator</a0>",
+   "hash": "47e222d864515437",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>مقدّم التطعيم في عيادة الولادة</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Vacunador de la clínica de nacimiento</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Vaccinateur de la clinique de naissance</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Вакцинатор родильной клиники</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>出生诊所疫苗接种员</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Caregiver</a0>",
+   "hash": "178d7a6bc517d0e2",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>مقدّم الرعاية</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Cuidador</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Aidant</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Лицо, осуществляющее уход</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>照护者</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>CHW app</a0>",
+   "hash": "f7d54ac33783faaa",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>تطبيق عامل الصحة المجتمعي (CHW)</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Aplicación del CHW</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Application CHW</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Приложение CHW</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>CHW 应用</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Community health worker</a0>",
+   "hash": "5d805dc41d106d50",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>عامل الصحة المجتمعي</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Agente comunitario de salud</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Agent de santé communautaire</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Общинный медицинский работник</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>社区卫生工作者</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Family phone</a0>",
+   "hash": "4c6d5c2a98c49c57",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>هاتف الأسرة</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Teléfono familiar</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Téléphone familial</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Семейный телефон</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>家庭手机</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>GDHCN trust anchor</a0>",
+   "hash": "cf729d10fcf9361e",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>مرسى الثقة في GDHCN</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Ancla de confianza de la GDHCN</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Ancre de confiance du GDHCN</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Якорь доверия GDHCN</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>GDHCN 信任锚</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Home clinic EHR</a0>",
+   "hash": "2967f5644811418d",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>السجل الصحي الإلكتروني (EHR) في عيادة البلد الأم</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>EHR de la clínica del país de residencia</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>DSE de la clinique de rattachement</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>EHR клиники по месту жительства</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>所属诊所 EHR</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Home clinic provider</a0>",
+   "hash": "e3b185d9031a35d3",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>مقدّم الخدمة في عيادة البلد الأم</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Profesional de la clínica del país de residencia</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Prestataire de la clinique de rattachement</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Поставщик услуг клиники по месту жительства</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>所属诊所医务人员</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Issuer signing key</a0>",
+   "hash": "c85ddc5dcc663d4c",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>مفتاح توقيع الجهة المُصدِرة</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Clave de firma del emisor</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Clé de signature de l'émetteur</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Ключ подписи эмитента</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>签发方签名密钥</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>National health portal</a0>",
+   "hash": "809dbe6cef61e434",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>البوابة الصحية الوطنية</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Portal nacional de salud</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Portail national de santé</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Национальный портал здравоохранения</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>国家卫生门户</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Point-of-care provider</a0>",
+   "hash": "f361f70fe1bb06af",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>مقدّم الخدمة في نقطة تقديم الرعاية</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Profesional del punto de atención</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Prestataire du point de soins</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Поставщик услуг в месте оказания помощи</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>医疗服务点医务人员</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Point-of-care receiver</a0>",
+   "hash": "c01700b65ed63956",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الجهة المُستقبِلة في نقطة تقديم الرعاية</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Receptor del punto de atención</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Destinataire au point de soins</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Получатель в месте оказания помощи</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>医疗服务点接收方</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Also known as",
+   "hash": "bba9577e8921c332",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعرف أيضًا باسم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "También conocido como",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Également appelé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Также известен как",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "又称",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Bounmy (Father · holds the family phone, Onesa)",
+   "hash": "b57830dbe7e4fcca",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Bounmy (الأب · يحمل هاتف الأسرة، Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bounmy (Padre · tiene el teléfono familiar, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bounmy (Père · détient le téléphone familial, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Bounmy (отец · владелец семейного телефона, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Bounmy（父亲 · 持有家庭手机，Onesa）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Bounmy SENGMANY (father, holds the family phone); Khamla SENGMANY (mother)",
+   "hash": "8d9101e7ee86b3b7",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Bounmy SENGMANY (الأب، يحمل هاتف الأسرة)؛ Khamla SENGMANY (الأم)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bounmy SENGMANY (padre, tiene el teléfono familiar); Khamla SENGMANY (madre)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bounmy SENGMANY (père, détient le téléphone familial) ; Khamla SENGMANY (mère)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Bounmy SENGMANY (отец, владелец семейного телефона); Khamla SENGMANY (мать)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Bounmy SENGMANY（父亲，持有家庭手机）；Khamla SENGMANY（母亲）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Chanthason (Nurse · District Health Center, Onesa)",
+   "hash": "8de74e1b2ead9baa",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Chanthason (ممرضة · المركز الصحي في المنطقة، Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Chanthason (Enfermera · Centro de Salud del Distrito, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chanthason (Infirmière · centre de santé de district, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Chanthason (медсестра · районный медицинский центр, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Chanthason（护士 · 区卫生中心，Onesa）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kesaro Provincial Hospital system, Taifafeki (Country A, XXR)",
+   "hash": "74a1ab6b8bfeb018",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظام مستشفى مقاطعة كيسارو، Taifafeki (البلد A، XXR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sistema del Hospital Provincial de Kesaro, Taifafeki (País A, XXR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Système de l’hôpital provincial de Kesaro, Taifafeki (Pays A, XXR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Система провинциальной больницы Кесаро, Taifafeki (страна A, XXR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 凯萨罗府医院系统（A 国，XXR）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "CHW app, Onesa (Country B)",
+   "hash": "9a28f554554bdbcd",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق عامل الصحة المجتمعي (CHW)، Onesa (البلد B)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicación del CHW, Onesa (País B)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Application CHW, Onesa (Pays B)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приложение CHW, Onesa (страна B)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa CHW 应用（B 国）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Description",
+   "hash": "12e67adba9f110ab",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الوصف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Descripción",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Description",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Описание",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "描述",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Document signer (DSC) key",
+   "hash": "c52fdfd7aad2875c",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفتاح موقِّع المستندات (DSC)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clave del firmante de documentos (DSC)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clé du signataire de documents (DSC)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключ подписанта документов (DSC)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "文档签名者（DSC）密钥",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dr Anan (clinician, Kesaro, Taifafeki)",
+   "hash": "2dbba8471155d6d9",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "د. Anan (ممارس سريري، كيسارو، Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dr. Anan (profesional clínico, Kesaro, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dr Anan (clinicien, Kesaro, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Dr Anan (клиницист, Кесаро, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Anan 医生（临床医生，Taifafeki 凯萨罗）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dr. Anan (Taifafeki clinician · birth & follow-up, Taifafeki)",
+   "hash": "1640ef1a1ac87fb7",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "د. Anan (ممارس سريري في Taifafeki · الولادة والمتابعة، Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dr. Anan (profesional clínico de Taifafeki · nacimiento y seguimiento, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dr Anan (clinicien de Taifafeki · naissance et suivi, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Dr. Anan (клиницист в стране Taifafeki · рождение и последующее наблюдение, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Anan 医生（Taifafeki 临床医生 · 出生及随访，Taifafeki）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "External actors",
+   "hash": "142f3acadae8c942",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهات الفاعلة الخارجية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Actores externos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Acteurs externes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Внешние акторы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "外部参与者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Finds unregistered children on home visits, registers them and refers them to the clinic (J2).",
+   "hash": "8045afb0d0cb398e",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعثر على الأطفال غير المسجَّلين في الزيارات المنزلية، فيسجّلهم ويحيلهم إلى العيادة (J2).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Localiza en las visitas domiciliarias a niños no registrados, los registra y los deriva a la clínica (J2).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Repère les enfants non enregistrés lors des visites à domicile, les enregistre et les oriente vers la clinique (J2).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Выявляет незарегистрированных детей во время посещений на дому, регистрирует их и направляет в клинику (J2).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在家访中发现未登记的儿童，为其登记并转诊到诊所（J2）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Frustrations: Born where he has no national ID; Invisible to the home system until someone registers him",
+   "hash": "6161f1cc9df6c606",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإحباطات: وُلد حيث لا يملك رقم هوية وطنية (ID)؛ وغير مرئي للنظام في بلده إلى أن يسجّله أحد",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Frustraciones: Nació donde no tiene documento nacional de identidad; Es invisible para el sistema de su país hasta que alguien lo registra",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Frustrations : né là où il n’a pas d’identifiant national ; invisible pour le système de son pays tant que personne ne l’enregistre",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трудности: родился там, где у него нет национального удостоверения личности; невидим для системы своей страны, пока его кто-нибудь не зарегистрирует",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "困扰：出生在他没有国民身份证（ID）的地方；在有人为他登记之前，本国系统中查无此人",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Frustrations: Can't confirm whether a foreign card is genuine; Paperwork that duplicates what the clinic does",
+   "hash": "a9d738dea690f72d",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإحباطات: لا يستطيع التأكد من أن البطاقة الأجنبية أصلية؛ وأعمال ورقية تكرّر ما تقوم به العيادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Frustraciones: No puede confirmar si una tarjeta extranjera es auténtica; Trámites que duplican lo que hace la clínica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Frustrations : ne peut pas confirmer si une carte étrangère est authentique ; formalités qui font double emploi avec le travail de la clinique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трудности: невозможно подтвердить подлинность иностранной карты; бумажная работа, дублирующая то, что делает клиника",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "困扰：无法确认外国接种卡是否真实；与诊所工作重复的文书工作",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Frustrations: Carrying folders of documents across the border; Not knowing who has seen his child’s data",
+   "hash": "340134b57c6e031d",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإحباطات: حمل ملفات من المستندات عبر الحدود؛ وعدم معرفة مَن اطّلع على بيانات طفله",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Frustraciones: Cargar carpetas de documentos al cruzar la frontera; No saber quién ha visto los datos de su hijo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Frustrations : transporter des dossiers de documents à travers la frontière ; ne pas savoir qui a vu les données de son enfant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трудности: приходится возить через границу папки с документами; неизвестно, кто видел данные его ребёнка",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "困扰：带着一沓沓文件跨越边境；不知道谁看过他孩子的数据",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Frustrations: No national ID to attach records to; Records from abroad he cannot read or verify",
+   "hash": "54fbc09335349c46",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإحباطات: لا رقم هوية وطنية (ID) تُربَط به السجلات؛ وسجلات من الخارج لا يستطيع قراءتها أو التحقق منها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Frustraciones: No hay documento nacional de identidad al que vincular los registros; Registros del extranjero que no puede leer ni verificar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Frustrations : aucun identifiant national auquel rattacher les dossiers ; des dossiers venus de l’étranger qu’il ne peut ni lire ni vérifier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трудности: нет национального удостоверения личности, к которому можно привязать записи; записи из-за рубежа, которые он не может прочитать или проверить",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "困扰：没有可关联记录的国民身份证（ID）；来自国外的记录他无法阅读或验证",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Frustrations: Paper cards are easy to lose; Extra trips to the clinic; The family's records live on her husband's phone",
+   "hash": "6e96b9cc5329c8fe",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإحباطات: البطاقات الورقية يسهل فقدانها؛ ورحلات إضافية إلى العيادة؛ وسجلات الأسرة موجودة على هاتف زوجها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Frustraciones: Las tarjetas en papel se pierden fácilmente; Viajes adicionales a la clínica; Los registros de la familia están en el teléfono de su marido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Frustrations : les cartes papier se perdent facilement ; des déplacements supplémentaires à la clinique ; les dossiers de la famille se trouvent sur le téléphone de son mari",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трудности: бумажные карты легко потерять; лишние поездки в клинику; записи семьи хранятся на телефоне её мужа",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "困扰：纸质接种卡容易丢失；需要多跑诊所；全家的记录都存放在她丈夫的手机上",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Frustrations: Unfamiliar product names from other countries; Choosing between re-vaccinating and trusting paper blindly",
+   "hash": "3016b6e1f31f8f2e",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإحباطات: أسماء منتجات غير مألوفة من بلدان أخرى؛ والاضطرار إلى الاختيار بين إعادة التطعيم والثقة العمياء بالورق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Frustraciones: Nombres de productos de otros países que no conoce; Tener que elegir entre volver a vacunar y confiar a ciegas en el papel",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Frustrations : des noms de produits peu familiers venant d’autres pays ; devoir choisir entre revacciner et se fier aveuglément au papier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трудности: незнакомые названия препаратов из других стран; выбор между повторной вакцинацией и слепым доверием бумаге",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "困扰：其他国家的产品名称陌生；只能在重新接种和盲目相信纸质记录之间二选一",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "GDHCN DEV trust network (WHO)",
+   "hash": "e7999dd10c8786d0",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شبكة الثقة GDHCN DEV (منظمة الصحة العالمية (WHO))",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Red de confianza DEV de la GDHCN (OMS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Réseau de confiance DEV du GDHCN (OMS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сеть доверия GDHCN DEV (ВОЗ)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "GDHCN DEV 信任网络（WHO）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generic personas",
+   "hash": "606f4acada0696af",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الشخصيات الافتراضية العامة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Personas (perfiles) genéricas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Personas génériques",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обобщённые персоны",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通用人物画像",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Goal: Get every vaccine he needs, once, wherever he is.",
+   "hash": "5ac878d0de6166be",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهدف: الحصول على كل لقاح يحتاجه، مرة واحدة، أينما كان.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Objetivo: Recibir todas las vacunas que necesita, una sola vez, dondequiera que esté.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Objectif : recevoir chaque vaccin dont il a besoin, une seule fois, où qu’il soit.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цель: получить каждую необходимую ему вакцину один раз, где бы он ни находился.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目标：无论身在何处，每一剂所需疫苗都接种到，且只接种一次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Goal: Give a non-Taifafeki baby proper care, at birth and when he returns.",
+   "hash": "aa42573b0dd74cda",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهدف: تقديم رعاية سليمة لرضيع ليس من Taifafeki، عند الولادة وعند عودته.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Objetivo: Atender adecuadamente a un bebé no de Taifafeki, al nacer y cuando vuelva.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Objectif : prodiguer des soins appropriés à un bébé qui n’est pas ressortissant de Taifafeki, à la naissance et à son retour.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цель: оказать надлежащую помощь младенцу, не являющемуся гражданином страны Taifafeki, при рождении и при повторном визите.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目标：为一名非 Taifafeki 籍婴儿在出生时及回诊时提供妥善的医疗服务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Goal: Have Somsak's care recognized at home, without starting over.",
+   "hash": "860c31032e8dc98b",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهدف: الاعتراف برعاية Somsak في بلده، دون البدء من جديد.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Objetivo: Lograr que la atención de Somsak se reconozca en su país, sin empezar de cero.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Objectif : faire reconnaître les soins de Somsak dans son pays, sans repartir de zéro.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цель: добиться признания помощи, оказанной Somsak, в своей стране, не начиная всё заново.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目标：让 Somsak 在国外接受的医疗服务在本国得到承认，而无需从头再来。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Goal: Keep the whole family's health records in one place he controls.",
+   "hash": "3307509af6338a4e",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهدف: الاحتفاظ بالسجلات الصحية للأسرة كلها في مكان واحد يتحكم فيه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Objetivo: Tener los registros de salud de toda la familia en un único lugar que él controle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Objectif : conserver les dossiers de santé de toute la famille en un seul endroit qu’il contrôle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цель: хранить медицинские записи всей семьи в одном месте под своим контролем.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目标：把全家的健康记录放在一个由他掌控的地方。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Goal: Make sure no newborn in her village is missed, even with no signal.",
+   "hash": "d369680911ef13f2",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهدف: ضمان عدم إغفال أي مولود جديد في قريتها، حتى دون إشارة اتصال.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Objetivo: Asegurarse de que no se pase por alto a ningún recién nacido de su aldea, incluso sin señal.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Objectif : veiller à ce qu’aucun nouveau-né de son village ne soit oublié, même sans signal.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цель: не пропустить ни одного новорождённого в своей деревне, даже без связи.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目标：确保村里没有一个新生儿被遗漏，即使没有信号也一样。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Goal: Trust foreign records enough to avoid repeating or missing vaccines.",
+   "hash": "38414d3aa40f0f48",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهدف: الثقة بالسجلات الأجنبية بما يكفي لتجنّب تكرار اللقاحات أو تفويتها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Objetivo: Confiar lo suficiente en los registros extranjeros para no repetir ni omitir vacunas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Objectif : faire suffisamment confiance aux dossiers étrangers pour éviter de répéter ou d’omettre des vaccins.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цель: доверять иностранным записям настолько, чтобы не повторять и не пропускать вакцины.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目标：足够信任外国记录，以免重复接种或漏种疫苗。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issuer of the birth-dose DVCs (SMART Trust Issuer)",
+   "hash": "55c12d27bee101ac",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهة المُصدِرة لشهادات DVC لجرعات الولادة (SMART Trust Issuer)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Emisor de los DVC de las dosis al nacer (SMART Trust Issuer)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Émetteur des DVC des doses à la naissance (émetteur SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эмитент DVC о дозах при рождении (эмитент SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生剂次 DVC 的签发方（SMART Trust 签发方）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Khamla (Mother, Onesa)",
+   "hash": "10aa3772f0d8b312",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Khamla (الأم، Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Khamla (Madre, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Khamla (Mère, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Khamla (мать, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Khamla（母亲，Onesa）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Onesa national health portal and gateway (Country B, XXU)",
+   "hash": "7c4dd050e4f7f752",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البوابة الصحية الوطنية وبوابة الشبكة في Onesa (البلد B، XXU)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Portal nacional de salud y puerta de enlace de Onesa (País B, XXU)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portail national de santé et passerelle du pays Onesa (Pays B, XXU)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Национальный портал здравоохранения и шлюз страны Onesa (страна B, XXU)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 国家卫生门户及网关（B 国，XXU）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Needs: A way to issue records that travel with the family; A child's full history at the point of care; Confidence the data is authentic",
+   "hash": "2ed29e5f2fb3fa76",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاحتياجات: طريقة لإصدار سجلات تنتقل مع الأسرة؛ والتاريخ الكامل للطفل في نقطة تقديم الرعاية؛ والثقة بأصالة البيانات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Necesidades: Una forma de emitir registros que viajen con la familia; El historial completo del niño en el punto de atención; La seguridad de que los datos son auténticos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Besoins : un moyen d’émettre des dossiers qui voyagent avec la famille ; l’historique complet d’un enfant au point de soins ; l’assurance que les données sont authentiques",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Потребности: способ выдавать записи, которые путешествуют вместе с семьёй; полная история ребёнка в месте оказания помощи; уверенность в подлинности данных",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：一种能让记录随家庭流动的签发方式；在医疗服务点获得儿童的完整病史；确信数据是真实的",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Needs: His birth doses to count at home; No repeated or missed vaccines; His history to be there when a doctor needs it",
+   "hash": "b4c6d25502ada296",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاحتياجات: أن تُحتسَب جرعات ولادته في بلده؛ وألا تتكرر اللقاحات أو تُفوَّت؛ وأن يكون تاريخه متاحًا حين يحتاجه الطبيب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Necesidades: Que sus dosis al nacer cuenten en su país; Ninguna vacuna repetida ni omitida; Que su historial esté disponible cuando un médico lo necesite",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Besoins : que ses doses à la naissance comptent dans son pays ; aucun vaccin répété ou omis ; que son historique soit disponible lorsqu’un médecin en a besoin",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Потребности: чтобы его дозы при рождении засчитывались в своей стране; никаких повторных или пропущенных вакцин; чтобы его история была доступна, когда она нужна врачу",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：他的出生剂次在本国被认可；不重复接种也不漏种；医生需要时他的病史就在那里",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Needs: One app for three people on one phone; Share records abroad without paperwork; Decide who sees what, and for how long",
+   "hash": "955597d83125af47",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاحتياجات: تطبيق واحد لثلاثة أشخاص على هاتف واحد؛ ومشاركة السجلات في الخارج دون أعمال ورقية؛ وتحديد مَن يرى ماذا، ولأي مدة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Necesidades: Una aplicación para tres personas en un solo teléfono; Compartir registros en el extranjero sin papeleo; Decidir quién ve qué, y durante cuánto tiempo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Besoins : une application pour trois personnes sur un seul téléphone ; partager les dossiers à l’étranger sans formalités ; décider qui voit quoi, et pour combien de temps",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Потребности: одно приложение для трёх человек на одном телефоне; передача записей за рубеж без бумажной работы; решать, кто что видит и как долго",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：一部手机上一个应用管理三个人；无需文书即可在国外共享记录；决定谁能看到什么、能看多久",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Needs: Proof of the vaccines her baby got abroad; Clear guidance on when to come back; Not to be penalized for giving birth across the border",
+   "hash": "d3f3552b2a53fafe",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاحتياجات: إثبات اللقاحات التي تلقّاها رضيعها في الخارج؛ وإرشاد واضح بشأن موعد العودة؛ وألا تُعاقَب لأنها وضعت مولودها عبر الحدود",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Necesidades: Prueba de las vacunas que su bebé recibió en el extranjero; Indicaciones claras sobre cuándo volver; No ser penalizada por dar a luz al otro lado de la frontera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Besoins : une preuve des vaccins reçus par son bébé à l’étranger ; des indications claires sur le moment où revenir ; ne pas être pénalisée pour avoir accouché de l’autre côté de la frontière",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Потребности: доказательство вакцин, полученных её ребёнком за рубежом; чёткие указания, когда прийти снова; не подвергаться санкциям за роды по ту сторону границы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：证明她的婴儿在国外接种过的疫苗；清楚告知何时回来复诊；不因在边境另一侧分娩而受到惩罚",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Needs: Tools that work offline for weeks; A fast way to capture foreign cards; A clear next step to hand the family",
+   "hash": "c0bd33f9dc6f183c",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاحتياجات: أدوات تعمل دون اتصال لأسابيع؛ وطريقة سريعة لالتقاط البطاقات الأجنبية؛ وخطوة تالية واضحة تُسلَّم إلى الأسرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Necesidades: Herramientas que funcionen sin conexión durante semanas; Una forma rápida de capturar tarjetas extranjeras; Un siguiente paso claro que indicar a la familia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Besoins : des outils qui fonctionnent hors ligne pendant des semaines ; un moyen rapide de saisir les cartes étrangères ; une étape suivante claire à indiquer à la famille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Потребности: инструменты, которые работают офлайн неделями; быстрый способ ввода иностранных карт; понятный следующий шаг, который можно передать семье",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：可离线工作数周的工具；快速采集外国接种卡的方法；交给家庭的明确下一步",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Nurse Chanthason (Lomaru District Health Center, Onesa)",
+   "hash": "0e6e84bc96dd1e2a",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الممرضة Chanthason (المركز الصحي في منطقة لومارو، Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enfermera Chanthason (Centro de Salud del Distrito de Lomaru, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Infirmière Chanthason (centre de santé du district de Lomaru, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра Chanthason (районный медицинский центр Ломару, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Chanthason 护士（Onesa 洛马鲁区卫生中心）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Persona for J2: the community health worker of catchment Village 04 in Onesa (Country B). Works offline for weeks at a time on an Android phone (OHS app, community configuration) and syncs when she reaches the health center. Can register a child and refer, but cannot decide whether a foreign record is genuine. Fictional.",
+   "hash": "54f985d021414451",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخصية افتراضية للرحلة J2: عاملة الصحة المجتمعية في منطقة خدمة القرية 04 في Onesa (البلد B). تعمل دون اتصال لأسابيع متواصلة على هاتف Android (تطبيق OHS، بإعدادات المجتمع) وتُجري المزامنة عند وصولها إلى المركز الصحي. يمكنها تسجيل طفل وإحالته، لكنها لا تستطيع البتّ في أصالة سجل أجنبي. شخصية خيالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Persona de J2: la agente comunitaria de salud (CHW) de la zona de captación Village 04, en Onesa (País B). Trabaja sin conexión durante semanas en un teléfono Android (aplicación OHS, configuración comunitaria) y sincroniza cuando llega al centro de salud. Puede registrar a un niño y derivarlo, pero no puede decidir si un registro extranjero es auténtico. Ficticia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Persona pour J2 : l’agent de santé communautaire de la zone de desserte du Village 04 à Onesa (Pays B). Travaille hors ligne pendant des semaines sur un téléphone Android (application OHS, configuration communautaire) et se synchronise lorsqu’elle se rend au centre de santé. Peut enregistrer un enfant et l’orienter, mais ne peut pas décider si un dossier étranger est authentique. Fictive.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Персона для J2: общинный медицинский работник зоны обслуживания «деревня 04» в стране Onesa (страна B). Неделями работает офлайн на телефоне Android (приложение OHS, общинная конфигурация) и синхронизирует данные, когда добирается до медицинского центра. Может зарегистрировать ребёнка и выдать направление, но не может решить, подлинна ли иностранная запись. Вымышленный персонаж.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2 的人物画像：Onesa（B 国）服务片区 Village 04 的社区卫生工作者。她在 Android 手机上（OHS 应用，社区配置）一次离线工作数周，到达卫生中心时再同步。她可以为儿童登记并转诊，但无法判断外国记录是否真实。虚构人物。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Persona for J3: the nurse at Lomaru District Health Center in Onesa (Country B), on the clinic's tablet (OHS app, facility configuration). Makes the clinical call when a foreign product has no mapping. Fictional.",
+   "hash": "5e6229cc2ef2cc00",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخصية افتراضية للرحلة J3: الممرضة في المركز الصحي في منطقة لومارو في Onesa (البلد B)، على الجهاز اللوحي للعيادة (تطبيق OHS، بإعدادات المرفق الصحي). تتخذ القرار السريري حين لا يكون لمنتج أجنبي ربط. شخصية خيالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Persona de J3: la enfermera del Centro de Salud del Distrito de Lomaru, en Onesa (País B), con la tableta de la clínica (aplicación OHS, configuración de establecimiento). Toma la decisión clínica cuando un producto extranjero no tiene correspondencia. Ficticia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Persona pour J3 : l’infirmière du centre de santé du district de Lomaru à Onesa (Pays B), sur la tablette de la clinique (application OHS, configuration établissement). Prend la décision clinique lorsqu’un produit étranger n’a pas de correspondance. Fictive.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Персона для J3: медсестра районного медицинского центра Ломару в стране Onesa (страна B), работающая на планшете клиники (приложение OHS, конфигурация учреждения). Принимает клиническое решение, когда для иностранного препарата нет сопоставления. Вымышленный персонаж.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3 的人物画像：Onesa（B 国）洛马鲁区卫生中心的护士，使用诊所的平板电脑（OHS 应用，机构配置）。当外国产品没有映射时，由她做出临床判断。虚构人物。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Persona: Somsak's father, 29, head of the household in Onesa, who holds the family's one shared phone (J4). Creates Somsak's passcode-protected VHL (J4.0) and says the passcode aloud at the clinic (J4.1). Fictional.",
+   "hash": "74407ec5c1a67cab",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخصية افتراضية: والد Somsak، 29 عامًا، ربّ الأسرة في Onesa، يحمل الهاتف الوحيد المشترك للأسرة (J4). ينشئ رابط VHL الخاص بـ Somsak والمحمي برمز مرور (J4.0) وينطق رمز المرور بصوت عالٍ في العيادة (J4.1). شخصية خيالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Persona: el padre de Somsak, de 29 años, jefe del hogar en Onesa, que tiene el único teléfono compartido de la familia (J4). Crea el VHL de Somsak protegido por código de acceso (J4.0) y dice el código de acceso en voz alta en la clínica (J4.1). Ficticio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Persona : le père de Somsak, 29 ans, chef du ménage à Onesa, qui détient l’unique téléphone partagé de la famille (J4). Crée le VHL de Somsak protégé par code d’accès (J4.0) et prononce le code d’accès à voix haute à la clinique (J4.1). Fictif.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Персона: отец Somsak, 29 лет, глава семьи в стране Onesa, владелец единственного общего телефона семьи (J4). Создаёт для Somsak защищённую паролем VHL (J4.0) и называет код доступа вслух в клинике (J4.1). Вымышленный персонаж.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人物画像：Somsak 的父亲，29 岁，Onesa 的一家之主，持有全家共用的一部手机（J4）。他为 Somsak 创建受通行码保护的 VHL（J4.0），并在诊所当面说出通行码（J4.1）。虚构人物。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Personal health wallet",
+   "hash": "f706eb90962defd0",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المحفظة الصحية الشخصية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Billetera sanitaria personal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portefeuille de santé personnel",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Персональный медицинский кошелёк",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "个人健康钱包",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Played by (fictional)",
+   "hash": "c9b546fcaf1f8b86",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يؤدي الدور (شخصية خيالية)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Representado por (ficticio)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Incarné par (fictif)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Исполнитель (вымышленный)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扮演者（虚构）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Role",
+   "hash": "3143dc269767c351",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الدور",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Rol",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Rôle",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Роль",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "角色",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Somsak (Baby · the record follows him, Onesa)",
+   "hash": "ac69d01f74149084",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Somsak (رضيع · السجل يتبعه، Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Somsak (Bebé · el registro lo acompaña, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Somsak (Bébé · le dossier le suit, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Somsak (младенец · запись следует за ним, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak（婴儿 · 记录跟随他，Onesa）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "System actors",
+   "hash": "2e4947c0e98525f5",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهات الفاعلة النظامية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Actores del sistema",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Acteurs système",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Системные акторы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "系统参与者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The clinic system abroad that scans a VHL, verifies it, fetches the manifest (ITI-YY5) and decrypts the documents (J4.1): the VHL Receiver.",
+   "hash": "1eef87f50e0d2bab",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظام العيادة في الخارج الذي يمسح رابط VHL ويتحقق منه ويجلب البيان (ITI-YY5) ويفك تشفير المستندات (J4.1): VHL Receiver.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El sistema de la clínica en el extranjero que escanea un VHL, lo verifica, obtiene el manifiesto (ITI-YY5) y descifra los documentos (J4.1): el VHL Receiver.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le système de la clinique à l’étranger qui scanne un VHL, le vérifie, récupère le manifeste (ITI-YY5) et déchiffre les documents (J4.1) : le destinataire VHL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Система клиники за рубежом, которая сканирует VHL, проверяет её, получает манифест (ITI-YY5) и расшифровывает документы (J4.1): получатель VHL (VHL Receiver).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国外的诊所系统：扫描 VHL、验证它、获取清单（ITI-YY5）并解密文档（J4.1），即 VHL 接收方（VHL Receiver）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The clinic's OHS-based record system: verifies DVCs against the GDHCN trust list, imports them as FHIR Immunization resources and evaluates the national schedule (J3).",
+   "hash": "1a7bce85ca3d3f36",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظام السجلات في العيادة المبني على OHS: يتحقق من شهادات DVC مقابل قائمة الثقة في GDHCN، ويستوردها بوصفها موارد FHIR Immunization، ويقيّم جدول التطعيم الوطني (J3).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El sistema de registros de la clínica basado en OHS: verifica los DVC con la lista de confianza de la GDHCN, los importa como recursos FHIR Immunization y evalúa el calendario nacional (J3).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le système de dossiers de la clinique, fondé sur OHS : vérifie les DVC par rapport à la liste de confiance du GDHCN, les importe en tant que ressources FHIR Immunization et évalue le calendrier national (J3).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Система ведения записей клиники на базе OHS: проверяет DVC по списку доверия GDHCN, импортирует их как ресурсы FHIR Immunization и оценивает национальный график (J3).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "诊所基于 OHS 的记录系统：依据 GDHCN 信任列表验证 DVC，将其作为 FHIR Immunization 资源导入，并评估国家接种计划（J3）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The clinician abroad who gives the birth doses and hands over the signed paper DVC (J1).",
+   "hash": "f9ad0a47686f3edd",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الممارس السريري في الخارج الذي يعطي جرعات الولادة ويسلّم شهادة DVC الورقية الموقَّعة (J1).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El profesional clínico en el extranjero que administra las dosis al nacer y entrega el DVC firmado en papel (J1).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le clinicien à l’étranger qui administre les doses à la naissance et remet le DVC papier signé (J1).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клиницист за рубежом, который вводит дозы при рождении и передаёт подписанный бумажный DVC (J1).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国外的临床医生：接种出生剂次并交付已签名的纸质 DVC（J1）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The clinician abroad who scans the family's QR and reads the child's records (J4.1).",
+   "hash": "37dec33ff2aa135d",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الممارس السريري في الخارج الذي يمسح رمز QR الخاص بالأسرة ويقرأ سجلات الطفل (J4.1).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El profesional clínico en el extranjero que escanea el QR de la familia y lee los registros del niño (J4.1).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le clinicien à l’étranger qui scanne le code QR de la famille et lit les dossiers de l’enfant (J4.1).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клиницист за рубежом, который сканирует QR-код семьи и читает записи ребёнка (J4.1).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国外的临床医生：扫描家庭的 QR 码并读取儿童的记录（J4.1）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The DSC private key of the issuing participant, in an HSM, cloud KMS or Android Keystore; signs the bytes the issuing system prepares (two-phase signing, <a0>STT-ISS-004</a0>).",
+   "hash": "7d8539dfb34a3d3c",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المفتاح الخاص DSC للمشارك المُصدِر، في HSM أو KMS سحابي أو Android Keystore؛ يوقّع البايتات التي يعدّها نظام الإصدار (توقيع على مرحلتين، <a0>STT-ISS-004</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La clave privada del DSC del participante emisor, en un HSM, un KMS en la nube o Android Keystore; firma los bytes que prepara el sistema emisor (firma en dos fases, <a0>STT-ISS-004</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La clé privée du DSC du participant émetteur, dans un HSM, un KMS en nuage ou l’Android Keystore ; signe les octets que prépare le système émetteur (signature en deux phases, <a0>STT-ISS-004</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Закрытый ключ DSC участника-эмитента в HSM, облачной KMS или Android Keystore; подписывает байты, подготовленные системой выдачи (двухфазное подписание, <a0>STT-ISS-004</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发参与方的 DSC 私钥，存放在 HSM、云 KMS 或 Android Keystore 中；对签发系统准备好的字节进行签名（两阶段签名，<a0>STT-ISS-004</a0>）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The family's shared phone",
+   "hash": "452209d78798f6ec",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهاتف المشترك للأسرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El teléfono compartido de la familia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le téléphone partagé de la famille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Общий телефон семьи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "全家共用的手机",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The home country's portal that issues each family member's records (IPS, DVCs) as a passcode-protected Verifiable Health Link and hosts the manifests (J4.0), checking the passcode, expiry and consent on each request and logging every access at home (J4.1): the VHL Sharer.",
+   "hash": "09b6f0f85d06f2ef",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بوابة البلد الأم التي تُصدر سجلات كل فرد من أفراد الأسرة (IPS وشهادات DVC) بوصفها رابطًا صحيًا قابلًا للتحقق (VHL) محميًا برمز مرور وتستضيف البيانات (J4.0)، وتتحقق من رمز المرور وانتهاء الصلاحية والموافقة في كل طلب، وتسجّل كل وصول في البلد الأم (J4.1): VHL Sharer.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El portal del país de residencia que emite los registros de cada miembro de la familia (IPS, DVC) como un enlace sanitario verificable (VHL) protegido por código de acceso y aloja los manifiestos (J4.0), comprobando el código de acceso, la caducidad y el consentimiento en cada solicitud y registrando cada acceso en el país de residencia (J4.1): el VHL Sharer.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le portail du pays de résidence qui émet les dossiers de chaque membre de la famille (IPS, DVC) sous forme de lien de santé vérifiable protégé par code d’accès et héberge les manifestes (J4.0), en vérifiant le code d’accès, l’expiration et le consentement à chaque requête et en journalisant chaque accès dans le pays de résidence (J4.1) : le partageur VHL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Портал страны проживания, который выдаёт записи каждого члена семьи (IPS, DVC) в виде защищённой паролем проверяемой ссылки на медицинские данные и размещает манифесты (J4.0), проверяя код доступа, срок действия и согласие при каждом запросе и регистрируя каждое обращение в своей стране (J4.1): VHL Sharer.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本国的门户：将每位家庭成员的记录（IPS、DVC）签发为受通行码保护的可验证健康链接并托管其清单（J4.0），在每次请求时检查通行码、有效期和同意，并在本国记录每一次访问（J4.1），即 VHL 共享方（VHL Sharer）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The hospital system abroad that issues a DVC per dose with the HCERT library: the HCERT issuing system (smart-trust-tools) of a trust network participant (XXR).",
+   "hash": "decaf2231dff0ac9",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظام المستشفى في الخارج الذي يُصدر شهادة DVC لكل جرعة بمكتبة HCERT: نظام إصدار HCERT (smart-trust-tools) لمشارك في شبكة الثقة (XXR).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El sistema hospitalario en el extranjero que emite un DVC por dosis con la biblioteca HCERT: el sistema emisor de HCERT (smart-trust-tools) de un participante de la red de confianza (XXR).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le système hospitalier à l’étranger qui émet un DVC par dose avec la bibliothèque HCERT : le système émetteur HCERT (smart-trust-tools) d’un participant au réseau de confiance (XXR).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Больничная система за рубежом, которая выдаёт DVC на каждую дозу с помощью библиотеки HCERT: система выдачи HCERT (smart-trust-tools) участника сети доверия (XXR).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国外的医院系统：使用 HCERT 库为每一剂次签发一份 DVC，即信任网络参与方（XXR）的 HCERT 签发系统（smart-trust-tools）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The nurse at the home clinic who receives the referral, has the foreign DVCs verified and decides catch-up doses (J3).",
+   "hash": "bf102d05f82f3788",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الممرضة في عيادة البلد الأم التي تتلقى الإحالة، وتُجري التحقق من شهادات DVC الأجنبية، وتقرّر جرعات الاستدراك (J3).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera de la clínica del país de residencia que recibe la derivación, hace verificar los DVC extranjeros y decide las dosis de puesta al día (J3).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’infirmière de la clinique de rattachement qui reçoit l’orientation, fait vérifier les DVC étrangers et décide des doses de rattrapage (J3).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра клиники по месту жительства, которая получает направление, организует проверку иностранных DVC и принимает решение о догоняющих дозах (J3).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所属诊所的护士：接收转诊，安排验证外国 DVC，并决定补种剂次（J3）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The OHS app on the CHW's phone: reads a foreign DVC without verifying it (triage read, <a0>STT-VER-011</a0>), registers the child and records a referral, all offline, syncing later.",
+   "hash": "42adef2e1346ed6f",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق OHS على هاتف عامل الصحة المجتمعي (CHW): يقرأ شهادة DVC أجنبية دون التحقق منها (قراءة فرز، <a0>STT-VER-011</a0>)، ويسجّل الطفل ويسجّل إحالة، كل ذلك دون اتصال، مع المزامنة لاحقًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La aplicación OHS en el teléfono del CHW: lee un DVC extranjero sin verificarlo (lectura de triaje, <a0>STT-VER-011</a0>), registra al niño y anota una derivación, todo sin conexión, y sincroniza más tarde.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’application OHS sur le téléphone du CHW : lit un DVC étranger sans le vérifier (lecture de tri, <a0>STT-VER-011</a0>), enregistre l’enfant et consigne une orientation, le tout hors ligne, avec synchronisation ultérieure.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приложение OHS на телефоне CHW: читает иностранный DVC без проверки (сортировочное чтение, <a0>STT-VER-011</a0>), регистрирует ребёнка и фиксирует направление — всё офлайн, с последующей синхронизацией.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CHW 手机上的 OHS 应用：读取外国 DVC 但不验证（分诊读取，<a0>STT-VER-011</a0>），为儿童登记并记录转诊，全部离线完成，之后再同步。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The one smartphone the family shares, holding one VHL QR per member (J4); holds links, not keys to anyone's records beyond what each link grants.",
+   "hash": "d895c41f3c6b8d4d",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الهاتف الذكي الوحيد الذي تتشاركه الأسرة، ويحمل رمز QR واحدًا لـ VHL لكل فرد (J4)؛ يحمل روابط، لا مفاتيح لسجلات أي شخص تتجاوز ما يمنحه كل رابط.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El único teléfono inteligente que comparte la familia, con un QR de VHL por miembro (J4); contiene enlaces, no claves para los registros de nadie más allá de lo que concede cada enlace.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’unique smartphone que partage la famille, contenant un code QR VHL par membre (J4) ; il contient des liens, et non des clés donnant accès aux dossiers de quiconque au-delà de ce que chaque lien accorde.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Единственный смартфон, общий для всей семьи, на котором хранится по одному QR-коду VHL на каждого члена (J4); он хранит ссылки, а не ключи к чьим-либо записям сверх того, что предоставляет каждая ссылка.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "全家共用的那部智能手机，为每位成员存放一个 VHL QR 码（J4）；它保存的是链接，而不是任何人记录的密钥，所能访问的不超出每个链接授予的范围。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The parent who holds the child's paper DVCs and the family phone, and presents them; IHE ITI VHL VHL Holder and smart-trust Holder.",
+   "hash": "073e38bbb29d5aea",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الوالد الذي يحمل شهادات DVC الورقية للطفل وهاتف الأسرة ويقدّمها؛ VHL Holder في IHE ITI VHL، وHolder في smart-trust.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El padre o la madre que guarda los DVC en papel del niño y el teléfono familiar, y los presenta; VHL Holder de IHE ITI VHL y Holder de smart-trust.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le parent qui détient les DVC papier de l’enfant et le téléphone familial, et les présente ; titulaire VHL au sens de l’IHE ITI VHL et titulaire au sens de smart-trust.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Родитель, который хранит бумажные DVC ребёнка и семейный телефон и предъявляет их; VHL Holder по IHE ITI VHL и Holder по smart-trust.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "持有儿童纸质 DVC 和家庭手机并出示它们的家长；即 IHE ITI VHL 的 VHL 持有人（VHL Holder）和 smart-trust 的持有人（Holder）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The people of the journeys",
+   "hash": "95fa9d7262db853e",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أشخاص الرحلات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las personas de los recorridos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les personnes des parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Люди пользовательских путей",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程中的人们",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "These are the generic personas of the journeys J1 to J4: the roles that play the lanes of the <a0>business processes</a0>, each defined as an {code0}. The people and systems that play them in the journeys are fictional.",
+   "hash": "cf516232c4e43ad4",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذه هي الشخصيات الافتراضية العامة للرحلات من J1 إلى J4: الأدوار التي تشغل مسارات <a0>عمليات العمل</a0>، وكل منها معرّف بوصفه {code0}. والأشخاص والأنظمة التي تؤديها في الرحلات خيالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estas son las personas (perfiles) genéricas de los recorridos J1 a J4: los roles que ocupan los carriles de los <a0>procesos de negocio</a0>, cada uno definido como un {code0}. Las personas y los sistemas que los representan en los recorridos son ficticios.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voici les personas génériques des parcours J1 à J4 : les rôles qui occupent les couloirs des <a0>processus métier</a0>, chacun défini comme un {code0}. Les personnes et les systèmes qui les incarnent dans les parcours sont fictifs.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это обобщённые персоны путей J1–J4: роли, исполняющие дорожки <a0>бизнес-процессов</a0>, каждая из которых определена как {code0}. Люди и системы, исполняющие их в путях, вымышлены.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以下是旅程 J1 至 J4 的通用人物画像：扮演<a0>业务流程</a0>各泳道的角色，每个都定义为一个 {code0}。在旅程中扮演这些角色的人和系统均为虚构。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Triage reader (SMART Trust Receiver, read-unverified)",
+   "hash": "9bc9e15c13528a43",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قارئ الفرز (SMART Trust Receiver، قراءة دون تحقق)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lector de triaje (SMART Trust Receiver, read-unverified)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lecteur de tri (destinataire SMART Trust, read-unverified)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сортировочный считыватель (SMART Trust Receiver, чтение без проверки)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "分诊读取方（SMART Trust 接收方，未验证读取）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Trust Network Anchor (SMART Trust); Trust Anchor (IHE ITI VHL)",
+   "hash": "e8899bac75e1fe85",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مرسى شبكة الثقة (SMART Trust)؛ مرسى الثقة (IHE ITI VHL)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Trust Network Anchor (SMART Trust); Trust Anchor (IHE ITI VHL)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ancre du réseau de confiance (SMART Trust) ; ancre de confiance (IHE ITI VHL)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Якорь сети доверия (SMART Trust); якорь доверия (IHE ITI VHL)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "信任网络锚（SMART Trust）；信任锚（IHE ITI VHL）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verifier at the home clinic (SMART Trust Receiver)",
+   "hash": "48bee157df7b5f0b",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهة المُتحقِّقة في عيادة البلد الأم (SMART Trust Receiver)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Verificador en la clínica del país de residencia (SMART Trust Receiver)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vérificateur à la clinique de rattachement (destinataire SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверяющая сторона в клинике по месту жительства (SMART Trust Receiver)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所属诊所的验证方（SMART Trust 接收方）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VHL Holder (IHE ITI VHL); Holder (SMART Trust)",
+   "hash": "7f9562e6e66e9521",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "VHL Holder (IHE ITI VHL)؛ الحامل (SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VHL Holder (IHE ITI VHL); Holder (SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Titulaire VHL (IHE ITI VHL) ; titulaire (SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VHL Holder (IHE ITI VHL); владелец (SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL 持有人（IHE ITI VHL）；持有人（SMART Trust）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VHL Receiver (IHE ITI VHL); Receiver of the family's VHLs (SMART Trust Receiver)",
+   "hash": "049bc6273c83b0da",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "VHL Receiver (IHE ITI VHL)؛ الجهة المُستقبِلة لروابط VHL الخاصة بالأسرة (SMART Trust Receiver)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VHL Receiver (IHE ITI VHL); receptor de los VHL de la familia (SMART Trust Receiver)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Destinataire VHL (IHE ITI VHL) ; destinataire des VHL de la famille (destinataire SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VHL Receiver (IHE ITI VHL); получатель VHL семьи (SMART Trust Receiver)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL 接收方（IHE ITI VHL）；家庭 VHL 的接收方（SMART Trust 接收方）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VHL Sharer (IHE ITI VHL); Issuer of the family's VHLs (SMART Trust Issuer)",
+   "hash": "551447c310d93474",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "VHL Sharer (IHE ITI VHL)؛ الجهة المُصدِرة لروابط VHL الخاصة بالأسرة (SMART Trust Issuer)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VHL Sharer (IHE ITI VHL); emisor de los VHL de la familia (SMART Trust Issuer)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Partageur VHL (IHE ITI VHL) ; émetteur des VHL de la famille (émetteur SMART Trust)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VHL Sharer (IHE ITI VHL); эмитент VHL семьи (SMART Trust Issuer)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL 共享方（IHE ITI VHL）；家庭 VHL 的签发方（SMART Trust 签发方）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Lomaru District Health Center EHR (Country B)",
+   "hash": "dbd9b09d1944a958",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السجل الصحي الإلكتروني (EHR) للمركز الصحي في منطقة لومارو (البلد B)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "EHR del Centro de Salud del Distrito de Lomaru (País B)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DSE du centre de santé du district de Lomaru (Pays B)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "EHR районного медицинского центра Ломару (страна B)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "洛马鲁区卫生中心 EHR（B 国）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Vilay (Community health worker · Village 04, Onesa)",
+   "hash": "b3b69fe807bcf61b",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Vilay (عاملة صحة مجتمعية · القرية 04، Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vilay (Agente comunitaria de salud · Village 04, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vilay (Agent de santé communautaire · Village 04, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Vilay (общинный медицинский работник · деревня 04, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Vilay（社区卫生工作者 · Village 04，Onesa）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Vilay (community health worker, Village 04, Onesa)",
+   "hash": "42b3f6c8eb7dac5a",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Vilay (عاملة صحة مجتمعية، القرية 04، Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vilay (agente comunitaria de salud, Village 04, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vilay (agent de santé communautaire, Village 04, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Vilay (общинный медицинский работник, деревня 04, Onesa)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Vilay（社区卫生工作者，Village 04，Onesa）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "WHO's GDHCN, which receives participants' PKI material and distributes it as DID trust lists; Trust Network Anchor (SMART Trust), Trust Anchor (IHE ITI VHL).",
+   "hash": "33328eb697c730e3",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "GDHCN التابعة لمنظمة الصحة العالمية (WHO)، التي تتلقى مواد PKI من المشاركين وتوزّعها بوصفها قوائم ثقة DID؛ مرسى شبكة الثقة (SMART Trust)، مرسى الثقة (IHE ITI VHL).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La GDHCN de la OMS, que recibe el material PKI de los participantes y lo distribuye como listas de confianza DID; Trust Network Anchor (SMART Trust), Trust Anchor (IHE ITI VHL).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le GDHCN de l’OMS, qui reçoit le matériel ICP (en anglais PKI) des participants et le distribue sous forme de listes de confiance DID ; ancre du réseau de confiance (SMART Trust), ancre de confiance (IHE ITI VHL).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "GDHCN ВОЗ, которая получает материалы PKI участников и распространяет их в виде списков доверия DID; якорь сети доверия (SMART Trust), якорь доверия (IHE ITI VHL).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "WHO 的 GDHCN：接收参与方的 PKI 材料，并以 DID 信任列表的形式分发；信任网络锚（SMART Trust），信任锚（IHE ITI VHL）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "XXR document signer key (Country A, Taifafeki)",
+   "hash": "eefbaf38efcb63a6",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفتاح موقِّع المستندات الخاص بـ XXR (البلد A، Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clave del firmante de documentos de XXR (País A, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clé de signataire de documents de XXR (Pays A, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключ подписанта документов XXR (страна A, Taifafeki)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "XXR 文档签名者密钥（A 国，Taifafeki）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Subject of care</a0>",
+   "hash": "e499b3966d669238",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>متلقّي الرعاية</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Sujeto de la atención</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Sujet des soins</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Субъект медицинской помощи</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>照护对象</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Patient; Care recipient",
+   "hash": "eb316b389533b79e",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المريض؛ مستفيد الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paciente; Persona atendida",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Patient ; bénéficiaire des soins",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пациент; получатель медицинской помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "患者；照护接受者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Somsak SENGMANY (newborn)",
+   "hash": "869b2d4d39ea20d1",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Somsak SENGMANY (مولود جديد)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Somsak SENGMANY (recién nacido)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Somsak SENGMANY (nouveau-né)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Somsak SENGMANY (новорождённый)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak SENGMANY（新生儿）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The person the records are about: the child whose doses are given, signed, registered, verified and shared. Acts through the caregiver, holds no device and plays no lane in the journeys' processes.",
+   "hash": "d3c43e7093c6e541",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الشخص الذي تخصّه السجلات: الطفل الذي تُعطى جرعاته وتُوقَّع وتُسجَّل ويُتحقَّق منها وتُشارَك. يتصرّف عن طريق مقدّم الرعاية، ولا يحمل أي جهاز، ولا مسار له في عمليات الرحلات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La persona a la que se refieren los registros: el niño cuyas dosis se administran, firman, registran, verifican y comparten. Actúa a través del cuidador, no tiene ningún dispositivo y no ocupa ningún carril en los procesos de los recorridos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La personne que concernent les dossiers : l'enfant dont les doses sont administrées, signées, enregistrées, vérifiées et partagées. Agit par l'intermédiaire de l'aidant, ne détient aucun appareil et n'occupe aucun couloir dans les processus des parcours.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лицо, к которому относятся записи: ребёнок, чьи дозы вводятся, подписываются, регистрируются, проверяются и передаются. Действует через лицо, осуществляющее уход, не имеет устройства и не занимает дорожку в процессах путей.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录所涉及的人：其剂次被接种、签名、登记、验证和共享的儿童。通过照护者行事，不持有设备，在旅程的流程中不占任何泳道。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Each is fictional. Their goals, needs and frustrations are kept in {code0} ({code1}), and the journeys viewer shows the same text.",
+   "hash": "fdd6c7fbbb6e8d17",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جميعهم خياليون. تُحفَظ أهدافهم واحتياجاتهم وإحباطاتهم في {code0} ({code1})، ويعرض عارض الرحلات النص نفسه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Todos son ficticios. Sus objetivos, necesidades y frustraciones se guardan en {code0} ({code1}), y el visor de recorridos muestra el mismo texto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chacun est fictif. Leurs objectifs, besoins et frustrations sont conservés dans {code0} ({code1}), et le visualiseur de parcours affiche le même texte.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Все они вымышлены. Их цели, потребности и трудности хранятся в {code0} ({code1}), и просмотрщик путей показывает тот же текст.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以下人物均为虚构。他们的目标、需求和困扰记录在 {code0}（{code1}）中，旅程查看器展示的也是同样的文字。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kesaro paediatric clinic viewer, Taifafeki (J4.1)",
+   "hash": "501bfd7a5e636b4a",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عارض عيادة الأطفال في كيسارو، Taifafeki (J4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Visor de la clínica pediátrica de Kesaro, Taifafeki (J4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Visualiseur de la clinique pédiatrique de Kesaro, Taifafeki (J4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Средство просмотра педиатрической клиники в Кесаро, Taifafeki (J4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 凯萨罗儿科诊所查看端（J4.1）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Needs: A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesa schedule; Automatic calculation of what is due next",
+   "hash": "b993f76eab96fa2b",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاحتياجات: إجابة موثوقة بنعم أو لا عن أصالة البطاقة؛ وترجمة اللقاحات الأجنبية إلى جدول التطعيم في Onesa؛ وحساب تلقائي لما يستحق بعد ذلك",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Necesidades: Un sí o un no fiable sobre si una tarjeta es auténtica; Vacunas extranjeras traducidas al calendario de Onesa; Cálculo automático de las próximas dosis",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Besoins : un oui ou non fiable sur l’authenticité d’une carte ; des vaccins étrangers transposés dans le calendrier du pays Onesa ; le calcul automatique de ce qui est dû ensuite",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Потребности: надёжный ответ «да/нет» о подлинности карты; перевод иностранных вакцин в график страны Onesa; автоматический расчёт того, что положено далее",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：对接种卡是否真实给出可靠的是/否判断；将外国疫苗换算到 Onesa 的接种计划；自动计算下一剂应接种什么",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Persona: a clinician in Kesaro, Taifafeki, who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional.",
+   "hash": "e85b77ddd5dcce70",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخصية افتراضية: ممارس سريري في كيسارو، Taifafeki، يعطي Somsak جرعتي الولادة من Hep B وBCG ويطبع شهادتي DVC الموقَّعتين (J1)، ثم يراه مجددًا بعد عام في عيادة أطفال، فيقرأ سجله عبر VHL (J4.1). شخصية خيالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Persona: un profesional clínico de Taifafeki de Kesaro que administra a Somsak las dosis al nacer contra la Hep B y la BCG e imprime los dos DVC firmados (J1), y que vuelve a atenderlo un año después en una clínica pediátrica, leyendo su registro a través del VHL (J4.1). Ficticio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Persona : un clinicien de Kesaro, à Taifafeki, qui administre à Somsak les doses à la naissance contre l’hépatite B et le BCG et imprime les deux DVC signés (J1), et qui le revoit un an plus tard dans une clinique pédiatrique, en lisant son dossier au moyen du VHL (J4.1). Fictif.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Персона: клиницист в Кесаро, Taifafeki, который вводит Somsak дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и печатает два подписанных DVC (J1), а через год снова осматривает его в педиатрической клинике, читая его запись через VHL (J4.1). Вымышленный персонаж.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人物画像：Taifafeki 凯萨罗的一名临床医生，为 Somsak 接种乙肝（Hep B）和卡介苗（BCG）出生剂次并打印两份已签名的 DVC（J1），一年后又在一家儿科诊所再次为他看诊，通过 VHL 读取他的记录（J4.1）。虚构人物。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Persona: Somsak's mother, 26, a national of Onesa who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional.",
+   "hash": "11a6fd2188818286",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخصية افتراضية: والدة Somsak، 26 عامًا، مواطنة من Onesa تعمل في Taifafeki (البلد A)، حيث وضعت مولودها، وتعود بالطفل Somsak إلى الوطن في Onesa (البلد B). تحمل شهادتي DVC الورقيتين من J1 إلى J3. شخصية خيالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Persona: la madre de Somsak, de 26 años, ciudadana de Onesa que trabaja en Taifafeki (País A), donde dio a luz, y que lleva a Somsak de vuelta a casa, a Onesa (País B). Guarda los dos DVC en papel de J1 a J3. Ficticia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Persona : la mère de Somsak, 26 ans, ressortissante du pays Onesa, qui travaille à Taifafeki (Pays A), où elle a accouché, et qui ramène Somsak chez elle, à Onesa (Pays B). Détient les deux DVC papier de J1 à J3. Fictive.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Персона: мать Somsak, 26 лет, гражданка страны Onesa, работающая в стране Taifafeki (страна A), где она родила, и привозящая Somsak домой, в страну Onesa (страна B). Хранит два бумажных DVC с J1 по J3. Вымышленный персонаж.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人物画像：Somsak 的母亲，26 岁，Onesa 国民，在 Taifafeki（A 国）工作并在那里分娩，随后带 Somsak 回到 Onesa（B 国）的家。从 J1 到 J3 一直持有两份纸质 DVC。虚构人物。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The subject of every journey: a baby boy from Onesa, born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional.",
+   "hash": "1f0e6a447e8cd160",
+   "sources": [
+    "input/pagecontent/personas.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موضوع كل رحلة: رضيع ذكر من Onesa وُلد في 2025-10-28 في مستشفى مقاطعة كيسارو، Taifafeki (البلد A)، بينما تعيش أسرته في Onesa (البلد B). لا يملك رقم هوية في Taifafeki؛ وسجّله عامل الصحة المجتمعي (CHW) في Onesa بمعرّف مؤقت (J2). لا يحمل جهازًا ويتصرف عبر والديه. والقصة مأخوذة من الجولة الإرشادية لورشة عمل VaxLink (fredhersch/vaxlink). شخصية خيالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El protagonista de todos los recorridos: un bebé de Onesa nacido el 2025-10-28 en el Hospital Provincial de Kesaro, Taifafeki (País A), mientras su familia vive en Onesa (País B). No tiene número de identidad de Taifafeki; el CHW lo registra en Onesa con un identificador temporal (J2). No tiene ningún dispositivo y actúa a través de sus padres. La historia es la del recorrido guiado del taller de VaxLink (fredhersch/vaxlink). Ficticio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le sujet de chaque parcours : un petit garçon du pays Onesa né le 2025-10-28 à l’hôpital provincial de Kesaro, Taifafeki (Pays A), alors que sa famille vit à Onesa (Pays B). N’a pas de numéro d’identité de Taifafeki ; enregistré à Onesa avec un identifiant temporaire par le CHW (J2). Ne détient aucun appareil et agit par l’intermédiaire de ses parents. L’histoire est celle de la présentation guidée de l’atelier VaxLink (fredhersch/vaxlink). Fictif.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Субъект каждого пути: мальчик из страны Onesa, родившийся 2025-10-28 в провинциальной больнице Кесаро, Taifafeki (страна A), в то время как его семья живёт в стране Onesa (страна B). Не имеет идентификационного номера страны Taifafeki; зарегистрирован в стране Onesa с временным идентификатором общинным медицинским работником (CHW) (J2). Не имеет устройства и действует через родителей. Сюжет взят из пошагового обзора практического семинара VaxLink (fredhersch/vaxlink). Вымышленный персонаж.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每段旅程的主体：一名来自 Onesa 的男婴，2025-10-28 出生于 Taifafeki（A 国）凯萨罗府医院，而他的家庭居住在 Onesa（B 国）。他没有 Taifafeki 身份号码；由 CHW 在 Onesa 以临时 id 为他登记（J2）。他不持有任何设备，由父母代为行事。故事来自 VaxLink 工作坊演练（fredhersch/vaxlink）。虚构人物。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

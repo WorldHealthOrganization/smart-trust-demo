@@ -1,0 +1,757 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "processes/j1-birth-dose-dvc",
+ "hashes": {
+  "ar": "da7dc3a7918663c9",
+  "es": "15b651979f16a8c1",
+  "fr": "794fec6c12fb18a3",
+  "ru": "7f877c83df7aac19",
+  "zh": "e1b01e89dd896a56"
+ },
+ "strings": [
+  {
+   "msgid": "A Country B family&#x27;s child is born in Country A",
+   "hash": "ea22e75e232d7037",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طفل أسرة من البلد B يولد في البلد A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nace en el País A el hijo de una familia del País B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L&#x27;enfant d&#x27;une famille du Pays B naît dans le Pays A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В стране A рождается ребёнок семьи из страны B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "B 国家庭的孩子在 A 国出生",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Birth clinic issuing system",
+   "hash": "530cf75c8e714cdf",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظام الإصدار في عيادة الولادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sistema emisor de la clínica de parto",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Système d’émission de la clinique de naissance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Система выдачи сертификатов родильной клиники",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生诊所签发系统",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Birth clinic vaccinator",
+   "hash": "231e6cf2b4f2d901",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مُعطي اللقاح في عيادة الولادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vacunador de la clínica de parto",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vaccinateur de la clinique de naissance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вакцинатор родильной клиники",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生诊所疫苗接种员",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Build one DVCMinPreQual payload per dose",
+   "hash": "6647a8324106e464",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بناء حمولة DVCMinPreQual واحدة لكل جرعة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Crear una carga útil DVCMinPreQual por dosis",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construire une charge utile DVCMinPreQual par dose",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировать по одной полезной нагрузке DVCMinPreQual на каждую дозу",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每剂次构建一个 DVCMinPreQual 载荷",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Caregiver",
+   "hash": "7eecebb3e23724ed",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuidador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aidant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лицо, осуществляющее уход",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "照护者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "ES256 or PS256 (STT-COS-002) in the HSM, KMS or Keystore; the library never holds the private key (STT-COS-006).",
+   "hash": "ef6ca8632119a106",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ES256 أو PS256 (STT-COS-002) في HSM أو KMS أو Keystore؛ لا تحتفظ المكتبة أبداً بالمفتاح الخاص (STT-COS-006).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "ES256 o PS256 (STT-COS-002) en el HSM, el KMS o el Keystore; la biblioteca nunca tiene la clave privada (STT-COS-006).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ES256 ou PS256 (STT-COS-002) dans le HSM, le KMS ou le Keystore ; la bibliothèque ne détient jamais la clé privée (STT-COS-006).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ES256 или PS256 (STT-COS-002) в HSM, KMS или Keystore; библиотека никогда не хранит закрытый ключ (STT-COS-006).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 HSM、KMS 或 Keystore 中使用 ES256 或 PS256（STT-COS-002）；库从不持有私钥（STT-COS-006）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Finish: COSE_Sign1, deflate, Base45, HC1:",
+   "hash": "27b21a20ae3c4bac",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإنهاء: COSE_Sign1، الضغط (deflate)، Base45، HC1:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Finalizar: COSE_Sign1, deflate, Base45, HC1:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Finaliser : COSE_Sign1, deflate, Base45, HC1:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Завершить: COSE_Sign1, deflate, Base45, HC1:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "完成：COSE_Sign1、deflate、Base45、HC1:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Give Hep B and BCG birth doses and record them",
+   "hash": "fa976e0f8a1fef23",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إعطاء جرعتي الولادة من لقاحي التهاب الكبد B وBCG وتسجيلهما",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Administrar y registrar las dosis al nacer de Hep B y BCG",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Administrer les doses à la naissance contre l’hépatite B et le BCG et les enregistrer",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ввести дозы вакцин против гепатита B и БЦЖ (BCG) при рождении и записать их",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接种乙肝（Hep B）和 BCG 出生剂次并记录",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "iss XR, iat, exp inside the DSC validity (STT-CWT-001 to 005); kid from the DSC (STT-KID-001); the library returns the bytes to sign (STT-ISS-004).",
+   "hash": "09d352a1f3357b76",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "iss XR، وiat، وexp ضمن مدة صلاحية DSC (من STT-CWT-001 إلى 005)؛ وkid من DSC (STT-KID-001)؛ وتعيد المكتبة البايتات المطلوب توقيعها (STT-ISS-004).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "iss XR, iat, exp dentro de la validez del DSC (STT-CWT-001 a 005); kid a partir del DSC (STT-KID-001); la biblioteca devuelve los bytes que se deben firmar (STT-ISS-004).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "iss XR, iat, exp dans la période de validité du DSC (STT-CWT-001 à 005) ; kid issu du DSC (STT-KID-001) ; la bibliothèque renvoie les octets à signer (STT-ISS-004).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "iss XR, iat, exp в пределах срока действия DSC (от STT-CWT-001 до 005); kid из DSC (STT-KID-001); библиотека возвращает байты для подписи (STT-ISS-004).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "iss XR，iat、exp 在 DSC 有效期内（STT-CWT-001 至 005）；kid 取自 DSC（STT-KID-001）；库返回待签名字节（STT-ISS-004）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issuer signing key",
+   "hash": "3019c0cb67310f8f",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفتاح التوقيع لدى الجهة المُصدِرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Clave de firma del emisor",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Clé de signature de l’émetteur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключ подписи эмитента",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签发方签名密钥",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J1 Issue the newborn&#x27;s birth-dose DVCs in Country A",
+   "hash": "3c451545dcaba2a6",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J1 إصدار شهادات DVC لجرعات الولادة للمولود الجديد في البلد A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J1 Emitir en el País A los DVC de las dosis al nacer del recién nacido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J1 Émettre les DVC des doses à la naissance du nouveau-né dans le Pays A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J1 Выдать DVC новорождённого на дозы при рождении в стране A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J1 在 A 国签发新生儿出生剂次 DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J1, Cross-border birth and initial vaccination. In Country A (XXR, the birth country) the provincial hospital gives a newborn who is not its own country's national the Hep B and BCG birth doses and issues one signed DVC per dose (DVCMinPreQual at subclaim -6) as a paper QR, with no national identity number needed (the WHO guide's QR Code Generation section 12 example is such a pair). The hospital system is the Issuer (SMART Trust) and the HCERT side of the VHL Sharer; the private key stays with the key holder (two-phase signing, STT-ISS-004, STT-COS-006). XXR's DSC, under its CSCA, being on the GDHCN trust list is a PRECONDITION of issuing, declared below, not a step. The caregiver is the Holder (SMART Trust, smart-trust-phw) and VHL Holder (IHE ITI VHL).",
+   "hash": "d92b3dba7f2927ab",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J1، الولادة عبر الحدود والتطعيم الأولي. في البلد A (XXR، بلد الولادة) يعطي مستشفى المقاطعة مولوداً جديداً لا يحمل جنسية بلده جرعتي الولادة من لقاحي التهاب الكبد B وBCG، ويُصدر شهادة DVC موقَّعة واحدة لكل جرعة (DVCMinPreQual عند المطالبة الفرعية -6) على هيئة رمز QR ورقي، دون الحاجة إلى رقم هوية وطنية (ومثال القسم 12 «توليد رمز QR» في دليل منظمة الصحة العالمية (WHO) هو زوج من هذا القبيل). نظام المستشفى هو الجهة المُصدِرة (SMART Trust) والجانب الخاص بـ HCERT من الجهة المُشارِكة لـ VHL؛ ويبقى المفتاح الخاص لدى حائز المفتاح (التوقيع على مرحلتين، STT-ISS-004، STT-COS-006). إن وجود شهادة DSC الخاصة بـ XXR، الصادرة تحت CSCA الخاصة به، على قائمة الثقة في GDHCN هو شرط مسبق (PRECONDITION) للإصدار، مُعلَن أدناه، وليس خطوة. ومقدِّم الرعاية هو الحامل (SMART Trust، smart-trust-phw) وحامل VHL (IHE ITI VHL).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J1, Nacimiento transfronterizo y vacunación inicial. En el País A (XXR, el país de nacimiento), el hospital provincial administra a un recién nacido que no es nacional de ese país las dosis al nacer de Hep B y BCG y emite un DVC firmado por dosis (DVCMinPreQual en la subdeclaración -6) como código QR en papel, sin necesidad de número de identidad nacional (el ejemplo de la sección 12, Generación de códigos QR, de la guía de la OMS es un par de este tipo). El sistema del hospital es el Emisor (SMART Trust) y la parte HCERT del Compartidor VHL; la clave privada queda en manos de quien la custodia (firma en dos fases, STT-ISS-004, STT-COS-006). Que el DSC de XXR, bajo su CSCA, figure en la lista de confianza de la GDHCN es una PRECONDICIÓN de la emisión, declarada más abajo, no un paso. El cuidador es el Titular (SMART Trust, smart-trust-phw) y el Titular VHL (IHE ITI VHL).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J1, Naissance transfrontalière et vaccination initiale. Dans le Pays A (XXR, le pays de naissance), l’hôpital provincial administre à un nouveau-né qui n’est pas ressortissant de ce pays les doses à la naissance contre l’hépatite B et le BCG et émet un DVC signé par dose (DVCMinPreQual à la sous-revendication -6) sous forme de code QR papier, sans qu’aucun numéro d’identité national soit nécessaire (l’exemple de la section 12 QR Code Generation du guide de l’OMS est une telle paire). Le système de l’hôpital est l’émetteur (SMART Trust) et le côté HCERT du VHL Sharer ; la clé privée reste chez le détenteur de la clé (signature en deux phases, STT-ISS-004, STT-COS-006). La présence du DSC de XXR, émis sous sa CSCA, sur la liste de confiance du GDHCN est une CONDITION PRÉALABLE à l’émission, déclarée ci-dessous, et non une étape. L’aidant est le titulaire (SMART Trust, smart-trust-phw) et le VHL Holder (IHE ITI VHL).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J1, Трансграничное рождение и первичная вакцинация. В стране A (XXR, страна рождения) провинциальная больница вводит новорождённому, не являющемуся гражданином этой страны, дозы вакцин против гепатита B и БЦЖ (BCG) при рождении и выдаёт по одному подписанному DVC на каждую дозу (DVCMinPreQual в подутверждении -6) в виде бумажного QR, без необходимости в национальном идентификационном номере (пример из раздела 12 «Генерация QR-кода» (QR Code Generation) руководства ВОЗ представляет собой именно такую пару). Больничная система является эмитентом (Issuer, SMART Trust) и стороной HCERT для VHL Sharer; закрытый ключ остаётся у держателя ключа (двухфазная подпись, STT-ISS-004, STT-COS-006). Наличие DSC страны XXR, выданного под её CSCA, в списке доверия GDHCN является ПРЕДУСЛОВИЕМ выдачи, объявленным ниже, а не шагом. Лицо, осуществляющее уход, является владельцем (Holder; SMART Trust, smart-trust-phw) и VHL Holder (IHE ITI VHL).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J1，跨境出生与首次疫苗接种。在 A 国（XXR，出生国），省级医院为一名非本国国民的新生儿接种乙肝（Hep B）和卡介苗（BCG）出生剂次，并为每一剂次签发一份已签名的 DVC（子声明 -6 处的 DVCMinPreQual），以纸质 QR 码形式提供，无需国民身份证号（WHO 指南“QR Code Generation”第 12 节的示例就是这样一对）。医院系统是签发方（Issuer，SMART Trust），也是 VHL 共享方（VHL Sharer）的 HCERT 一侧；私钥保留在密钥持有者处（两阶段签名，STT-ISS-004、STT-COS-006）。XXR 的 DSC（隶属其 CSCA）已列入 GDHCN 信任列表，这是签发的前提条件（PRECONDITION），在下文声明，而非一个步骤。照护者是持有人（Holder，SMART Trust、smart-trust-phw）和 VHL 持有人（VHL Holder，IHE ITI VHL）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One immunization event per DVC (STT-PAY-003), typed DVCMin models (STT-PAY-001, STT-PAY-002), nationality alpha-3 XXU (STT-PAY-007), subject with no identity document (STT-PAY-005); subclaim -6 in the development range, opted into explicitly (STT-SEL-003).",
+   "hash": "2bc8b7e7506e8ae4",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حدث تمنيع واحد لكل شهادة DVC (STT-PAY-003)، ونماذج DVCMin مُنمَّطة (STT-PAY-001، STT-PAY-002)، والجنسية بترميز alpha-3 هي XXU (STT-PAY-007)، وشخص معني دون وثيقة هوية (STT-PAY-005)؛ والمطالبة الفرعية -6 ضمن نطاق التطوير، مع الاشتراك فيها صراحةً (STT-SEL-003).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un evento de inmunización por DVC (STT-PAY-003), modelos DVCMin tipados (STT-PAY-001, STT-PAY-002), nacionalidad alfa-3 XXU (STT-PAY-007), sujeto sin documento de identidad (STT-PAY-005); subdeclaración -6 en el rango de desarrollo, elegida de forma explícita (STT-SEL-003).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un événement de vaccination par DVC (STT-PAY-003), modèles DVCMin typés (STT-PAY-001, STT-PAY-002), nationalité alpha-3 XXU (STT-PAY-007), sujet sans document d’identité (STT-PAY-005) ; sous-revendication -6 dans la plage de développement, activée explicitement (STT-SEL-003).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Одно событие иммунизации на каждый DVC (STT-PAY-003), типизированные модели DVCMin (STT-PAY-001, STT-PAY-002), гражданство в формате alpha-3 XXU (STT-PAY-007), субъект без документа, удостоверяющего личность (STT-PAY-005); подутверждение -6 в диапазоне для разработки, включаемое явным образом (STT-SEL-003).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每份 DVC 一个免疫接种事件（STT-PAY-003），类型化 DVCMin 模型（STT-PAY-001、STT-PAY-002），国籍 alpha-3 为 XXU（STT-PAY-007），对象无身份证件（STT-PAY-005）；子声明 -6 位于开发范围内，经显式选用（STT-SEL-003）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Prepare: CWT claims and the COSE Sig_structure",
+   "hash": "51c03da9c3054cb0",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحضير: مطالبات CWT وبنية COSE Sig_structure",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Preparar: declaraciones (claims) CWT y la Sig_structure de COSE",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Préparer : revendications CWT et Sig_structure COSE",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подготовить: утверждения CWT и Sig_structure COSE",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "准备：CWT 声明和 COSE Sig_structure",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Print the paper DVC, one QR per dose",
+   "hash": "7c1f966a898aabbd",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طباعة شهادة DVC الورقية، رمز QR واحد لكل جرعة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Imprimir el DVC en papel, un QR por dosis",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Imprimer le DVC papier, un code QR par dose",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Распечатать бумажный DVC, по одному QR на дозу",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "打印纸质 DVC，每剂次一个 QR 码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Sign the bytes with XXR&#x27;s DSC key",
+   "hash": "35ad92271fc469eb",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "توقيع البايتات بمفتاح DSC الخاص بـ XXR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Firmar los bytes con la clave del DSC de XXR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Signer les octets avec la clé du DSC de XXR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подписать байты ключом DSC страны XXR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用 XXR 的 DSC 密钥签名字节",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001; QR-ready text, no QR encoding in the library (STT-QR-001).",
+   "hash": "94b09a46a79508e9",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "STT-COS-001، STT-ZIP-001، STT-B45-001، STT-HC1-001؛ نص جاهز لرمز QR، دون ترميز QR في المكتبة (STT-QR-001).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001; texto listo para el QR, sin codificación QR en la biblioteca (STT-QR-001).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001 ; texte prêt pour le code QR, aucun encodage QR dans la bibliothèque (STT-QR-001).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "STT-COS-001, STT-ZIP-001, STT-B45-001, STT-HC1-001; текст, готовый для QR, без кодирования QR в библиотеке (STT-QR-001).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "STT-COS-001、STT-ZIP-001、STT-B45-001、STT-HC1-001；输出可直接生成 QR 的文本，库内不做 QR 编码（STT-QR-001）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The caregiver holds two signed paper DVCs",
+   "hash": "c89bcec26cc2aea4",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يحمل مقدِّم الرعاية شهادتي DVC ورقيتين موقَّعتين",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El cuidador tiene dos DVC firmados en papel",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’aidant détient deux DVC papier signés",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "У лица, осуществляющего уход, два подписанных бумажных DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "照护者持有两份已签名的纸质 DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The vaccinator records each dose (vaccine product, date, batch) in the hospital system, on its dose form, through smart-base's reusable SDC data-capture process: complete-sdc-questionnaire, then extract-questionnaire-response, which writes the Immunization each DVC is built from.",
+   "hash": "b527cbbb625ce31d",
+   "sources": [
+    "processes/content/j1-birth-dose-dvc.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يسجّل مُعطي اللقاح كل جرعة (منتج اللقاح، التاريخ، رقم التشغيلة) في نظام المستشفى، على استمارة الجرعة الخاصة بها، عبر العملية القابلة لإعادة الاستخدام لالتقاط البيانات بمعيار SDC في smart-base: complete-sdc-questionnaire، ثم extract-questionnaire-response، التي تكتب مورد Immunization الذي تُبنى منه كل شهادة DVC.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El vacunador registra cada dosis (producto de vacuna, fecha, lote) en el sistema del hospital, en su formulario de dosis, mediante el proceso reutilizable de captura de datos SDC de smart-base: complete-sdc-questionnaire y, a continuación, extract-questionnaire-response, que escribe el recurso Immunization a partir del cual se construye cada DVC.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le vaccinateur enregistre chaque dose (produit vaccinal, date, lot) dans le système de l’hôpital, sur son formulaire de dose, au moyen du processus réutilisable de saisie de données SDC de smart-base : complete-sdc-questionnaire, puis extract-questionnaire-response, qui écrit l’Immunization à partir de laquelle chaque DVC est construit.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вакцинатор записывает каждую дозу (вакцинный препарат, дата, серия) в больничной системе, в форме этой дозы, через многократно используемый процесс сбора данных SDC из smart-base: complete-sdc-questionnaire, затем extract-questionnaire-response, который записывает Immunization, на основе которой формируется каждый DVC.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接种人员通过 smart-base 可复用的 SDC 数据采集流程，在医院系统中以剂次表单记录每一剂次（疫苗产品、日期、批号）：先 complete-sdc-questionnaire，再 extract-questionnaire-response，后者写出用于构建每份 DVC 的 Immunization。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

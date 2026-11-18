@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/business-requirements",
+ "hashes": {
+  "ar": "cda3dba0d5232f91",
+  "es": "985103b6acf742fd",
+  "fr": "318bebc5748e5f65",
+  "ru": "2a66f6a574722527",
+  "zh": "f722bc7feb025843"
+ },
+ "strings": [
+  {
+   "msgid": "The business requirements of the journeys: who takes part (<a0>generic personas</a0>), what they want (<a1>user scenarios</a1>), how the work flows (<a2>business processes</a2>), what data each step records or exchanges (<a3>data dictionary</a3>), the decisions the steps make (<a4>decision-support logic</a4>), what a programme would count from that data (<a5>indicators and performance metrics</a5>), and what the systems must do (<a6>functional requirements</a6>).",
+   "hash": "d33f50209fec572f",
+   "sources": [
+    "input/pagecontent/business-requirements.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "متطلبات العمل الخاصة بالرحلات: من يشارك (<a0>الشخصيات الافتراضية العامة</a0>)، وماذا يريدون (<a1>سيناريوهات المستخدم</a1>)، وكيف يسير العمل (<a2>عمليات العمل</a2>)، وما البيانات التي تسجّلها كل خطوة أو تتبادلها (<a3>قاموس البيانات</a3>)، والقرارات التي تتخذها الخطوات (<a4>منطق دعم القرار</a4>)، وما الذي يمكن لبرنامج ما أن يحصيه من تلك البيانات (<a5>المؤشرات ومقاييس الأداء</a5>)، وما يجب أن تفعله الأنظمة (<a6>المتطلبات الوظيفية</a6>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los requisitos empresariales de los recorridos: quién participa (<a0>personas (perfiles) genéricas</a0>), qué quieren (<a1>escenarios de usuario</a1>), cómo fluye el trabajo (<a2>procesos de negocio</a2>), qué datos registra o intercambia cada paso (<a3>diccionario de datos</a3>), qué decisiones toman los pasos (<a4>lógica de apoyo a la decisión</a4>), qué contabilizaría un programa a partir de esos datos (<a5>indicadores y métricas de desempeño</a5>) y qué deben hacer los sistemas (<a6>requisitos funcionales</a6>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les exigences métier des parcours : qui y prend part (<a0>personas génériques</a0>), ce qu'ils veulent (<a1>scénarios utilisateur</a1>), comment le travail se déroule (<a2>processus métier</a2>), quelles données chaque étape enregistre ou échange (<a3>dictionnaire de données</a3>), les décisions que prennent les étapes (<a4>logique d'aide à la décision</a4>), ce qu'un programme compterait à partir de ces données (<a5>indicateurs et mesures de performance</a5>), et ce que les systèmes doivent faire (<a6>exigences fonctionnelles</a6>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-требования путей: кто участвует (<a0>обобщённые персоны</a0>), чего они хотят (<a1>пользовательские сценарии</a1>), как протекает работа (<a2>бизнес-процессы</a2>), какие данные записывает или передаёт каждый шаг (<a3>словарь данных</a3>), какие решения принимаются на шагах (<a4>логика поддержки принятия решений</a4>), что программа могла бы подсчитывать на основе этих данных (<a5>индикаторы и показатели эффективности</a5>) и что должны делать системы (<a6>функциональные требования</a6>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "各旅程的业务需求：谁参与（<a0>通用人物画像</a0>）、他们想要什么（<a1>用户场景</a1>）、工作如何流转（<a2>业务流程</a2>）、每个步骤记录或交换哪些数据（<a3>数据字典</a3>）、各步骤作出的决策（<a4>决策支持逻辑</a4>）、项目会从这些数据中统计什么（<a5>指标和绩效衡量标准</a5>），以及系统必须做什么（<a6>功能性需求</a6>）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

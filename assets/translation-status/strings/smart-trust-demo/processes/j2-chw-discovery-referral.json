@@ -1,0 +1,601 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "processes/j2-chw-discovery-referral",
+ "hashes": {
+  "ar": "8163a56db4b79534",
+  "es": "a8e28f289114bfa5",
+  "fr": "0a6acb3329d13321",
+  "ru": "073ff174639b8f5d",
+  "zh": "8aa1c0053d3549f1"
+ },
+ "strings": [
+  {
+   "msgid": "Caregiver",
+   "hash": "7eecebb3e23724ed",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuidador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aidant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лицо, осуществляющее уход",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "照护者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "CHW app",
+   "hash": "3f91424fd2a74b69",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق عامل الصحة المجتمعي (CHW)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicación del CHW",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Application CHW",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приложение CHW",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CHW 应用",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Community health worker",
+   "hash": "203c4bff8d990d08",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عامل الصحة المجتمعي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Agente comunitario de salud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Agent de santé communautaire",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Общинный медицинский работник",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "社区卫生工作者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Create a referral to the home clinic for verification",
+   "hash": "5fc8506080257ea1",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إنشاء إحالة إلى عيادة البلد الأم للتحقق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Crear una derivación a la clínica del país de residencia para verificación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Créer une orientation vers la clinique de rattachement pour vérification",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создать направление в клинику по месту жительства для проверки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "创建转诊至所属诊所进行验证",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Explain the referral to the family",
+   "hash": "0416573c0b022f1d",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شرح الإحالة للأسرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Explicar la derivación a la familia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Expliquer l’orientation à la famille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Объяснить семье направление",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "向家人说明转诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Family has a referral; the record syncs when online",
+   "hash": "af648c238dc63a7b",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لدى الأسرة إحالة؛ ويُزامَن السجل عند الاتصال بالشبكة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La familia tiene una derivación; el registro se sincroniza al haber conexión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La famille dispose d’une orientation ; le dossier se synchronise une fois en ligne",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "У семьи есть направление; запись синхронизируется при подключении к сети",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家庭获得转诊；记录联网时同步",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Home visit finds an unregistered infant",
+   "hash": "7ef1b8733d68efc0",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "زيارة منزلية تكشف عن رضيع غير مسجَّل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La visita domiciliaria encuentra a un lactante no registrado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une visite à domicile découvre un nourrisson non enregistré",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "При посещении на дому выявлен незарегистрированный младенец",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家访发现未登记婴儿",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2 Discover and refer an unregistered infant in Country B",
+   "hash": "007f288c7f5627e4",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2 اكتشاف رضيع غير مسجَّل في البلد B وإحالته",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2 Detectar y derivar a un lactante no registrado en el País B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2 Découvrir et orienter un nourrisson non enregistré dans le Pays B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2 Выявить и направить незарегистрированного младенца в стране B",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2 在 B 国发现并转诊未登记婴儿",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2, Return home, CHW discovery and referral. Back in Country B (home, XXU), where the family resides, the community health worker finds an infant born abroad who is missing from the household roster on a home visit. Offline, the CHW app adds the infant to the household (a FHIR Group, through a structured data capture form), reads the foreign DVCs without verifying them (read-unverified, STT-VER-011: the triage read stops before the trust lookup and marks every field unverified), saves the doses as reported by the family, not verified (Immunization.primarySource false), and refers the infant to the clinic for verification. Everything is queued on the phone and syncs when it next has a signal. The CHW app is a Receiver (SMART Trust, smart-trust-phw) that deliberately stops before trust; the caregiver provides the VDHC as Holder (smart-trust-phw requirement provide-a-vhl-to-a-receiver).",
+   "hash": "7bec866fa9b2308a",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2، العودة إلى الوطن، واكتشاف عامل الصحة المجتمعي والإحالة. بالعودة إلى البلد B (الوطن، XXU)، حيث تقيم الأسرة، يعثر عامل الصحة المجتمعي في زيارة منزلية على رضيع وُلد في الخارج وغير مُدرَج في سجل أفراد الأسرة المعيشية. ودون اتصال، يضيف تطبيق عامل الصحة المجتمعي (CHW) الرضيع إلى الأسرة المعيشية (مورد Group في FHIR، عبر نموذج لالتقاط البيانات المنظَّمة)، ويقرأ شهادات DVC الأجنبية دون التحقق منها (قراءة دون تحقق، STT-VER-011: تتوقف قراءة الفرز قبل البحث في قائمة الثقة وتَسِم كل حقل بأنه غير مُتحقَّق منه)، ويحفظ الجرعات بوصفها مُبلَّغاً عنها من الأسرة، غير مُتحقَّق منها (Immunization.primarySource false)، ويحيل الرضيع إلى العيادة للتحقق. ويُوضع كل شيء في قائمة انتظار على الهاتف ويُزامَن عند توفر إشارة اتصال. تطبيق عامل الصحة المجتمعي هو جهة مُستقبِلة (SMART Trust، smart-trust-phw) تتوقف عمداً قبل الثقة؛ ويقدّم مقدِّم الرعاية شهادة VDHC بصفته الحامل (متطلب smart-trust-phw المسمى provide-a-vhl-to-a-receiver).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2, Regreso a casa, detección y derivación por el agente comunitario de salud (CHW). De vuelta en el País B (país de residencia, XXU), donde reside la familia, el agente comunitario de salud encuentra, en una visita domiciliaria, a un lactante nacido en el extranjero que no figura en el padrón del hogar. Sin conexión, la aplicación del CHW añade al lactante al hogar (un Group de FHIR, mediante un formulario de captura de datos estructurada), lee los DVC extranjeros sin verificarlos (read-unverified, STT-VER-011: la lectura de triaje se detiene antes de la consulta de confianza y marca todos los campos como no verificados), guarda las dosis como notificadas por la familia, no verificadas (Immunization.primarySource false), y deriva al lactante a la clínica para su verificación. Todo queda en cola en el teléfono y se sincroniza cuando vuelve a haber señal. La aplicación del CHW es un Receptor (SMART Trust, smart-trust-phw) que se detiene deliberadamente antes de la verificación de confianza; el cuidador proporciona el VDHC como Titular (requisito provide-a-vhl-to-a-receiver de smart-trust-phw).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2, Retour au domicile, découverte et orientation par l’CHW. De retour dans le Pays B (domicile, XXU), où réside la famille, l’agent de santé communautaire découvre lors d’une visite à domicile un nourrisson né à l’étranger qui ne figure pas sur la liste des membres du ménage. Hors ligne, l’application CHW ajoute le nourrisson au ménage (un Group FHIR, au moyen d’un formulaire de saisie de données structurées), lit les DVC étrangers sans les vérifier (read-unverified, STT-VER-011 : la lecture de triage s’arrête avant la recherche de confiance et marque chaque champ comme non vérifié), enregistre les doses comme déclarées par la famille, non vérifiées (Immunization.primarySource false), et oriente le nourrisson vers la clinique pour vérification. Tout est mis en file d’attente sur le téléphone et se synchronise dès qu’un signal est de nouveau disponible. L’application CHW est un destinataire (SMART Trust, smart-trust-phw) qui s’arrête délibérément avant la confiance ; l’aidant fournit le VDHC en tant que titulaire (exigence provide-a-vhl-to-a-receiver de smart-trust-phw).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2, Возвращение домой, выявление и направление общинным медицинским работником (CHW). Вернувшись в страну B (домой, XXU), где проживает семья, общинный медицинский работник во время посещения на дому обнаруживает родившегося за границей младенца, отсутствующего в списке членов домохозяйства. В автономном режиме приложение CHW добавляет младенца в домохозяйство (FHIR Group, через форму структурированного сбора данных), читает иностранные DVC без их проверки (read-unverified, STT-VER-011: чтение для триажа останавливается до поиска в списке доверия и помечает каждое поле как непроверенное), сохраняет дозы как заявленные семьёй, а не проверенные (Immunization.primarySource false), и направляет младенца в клинику для проверки. Всё ставится в очередь на телефоне и синхронизируется, когда снова появится сигнал. Приложение CHW является получателем (Receiver; SMART Trust, smart-trust-phw), который намеренно останавливается до проверки доверия; лицо, осуществляющее уход, предоставляет VDHC в качестве владельца (Holder; требование smart-trust-phw provide-a-vhl-to-a-receiver).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2，回国、CHW 发现与转诊。回到家庭居住的 B 国（本国，XXU）后，社区卫生工作者在一次家访中发现一名在境外出生、未列入家庭成员名册的婴儿。在离线状态下，CHW 应用将该婴儿添加到家庭中（一个 FHIR Group，通过结构化数据采集表单），读取境外 DVC 但不验证（read-unverified，STT-VER-011：分诊读取在信任查询之前停止，并将每个字段标记为未验证），将剂次保存为家庭报告、未经验证（Immunization.primarySource 为 false），并将婴儿转诊至诊所进行验证。所有内容都在手机上排队，待下次有信号时同步。CHW 应用是一个接收方（Receiver，SMART Trust、smart-trust-phw），它有意在信任环节之前停止；照护者作为持有人提供 VDHC（smart-trust-phw 需求 provide-a-vhl-to-a-receiver）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Read each DVC unverified (triage)",
+   "hash": "bbd6d8ae3d3054d0",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قراءة كل شهادة DVC دون تحقق (الفرز)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Leer cada DVC sin verificar (triaje)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lire chaque DVC sans vérification (triage)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Прочитать каждый DVC без проверки (триаж)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "读取每份 DVC，不验证（分诊）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "read-unverified (STT-VER-011): strip HC1:, Base45, inflate within limits (STT-B45-002, STT-ZIP-002), bounded CBOR (STT-CBR-003), payloads read but flagged unverified; no trust list needed, fully offline.",
+   "hash": "0e6221229c4e212e",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "القراءة دون تحقق (STT-VER-011): نزع HC1:، وفك Base45، وفك الضغط ضمن الحدود (STT-B45-002، STT-ZIP-002)، وCBOR محدود (STT-CBR-003)، وتُقرأ الحمولات لكن تُوسَم بأنها غير مُتحقَّق منها؛ لا حاجة إلى قائمة ثقة، ويتم ذلك دون اتصال بالكامل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "read-unverified (STT-VER-011): quitar HC1:, Base45, descomprimir dentro de los límites (STT-B45-002, STT-ZIP-002), CBOR acotado (STT-CBR-003), cargas útiles leídas pero marcadas como no verificadas; no se necesita lista de confianza, totalmente sin conexión.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "read-unverified (STT-VER-011) : retirer HC1:, Base45, décompresser dans les limites (STT-B45-002, STT-ZIP-002), CBOR borné (STT-CBR-003), charges utiles lues mais marquées non vérifiées ; aucune liste de confiance nécessaire, entièrement hors ligne.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "read-unverified (STT-VER-011): удаление HC1:, Base45, распаковка (inflate) в установленных пределах (STT-B45-002, STT-ZIP-002), ограниченный CBOR (STT-CBR-003), полезные нагрузки читаются, но помечаются как непроверенные; список доверия не нужен, работа полностью в автономном режиме.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "read-unverified（STT-VER-011）：去除 HC1:，Base45 解码，在限制范围内解压（STT-B45-002、STT-ZIP-002），有界 CBOR（STT-CBR-003），载荷已读取但标记为未验证；无需信任列表，完全离线。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Scan each QR with the CHW app",
+   "hash": "c762bdc7b680de57",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسح كل رمز QR بتطبيق عامل الصحة المجتمعي (CHW)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escanear cada QR con la aplicación del CHW",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanner chaque code QR avec l’application CHW",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отсканировать каждый QR приложением CHW",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用 CHW 应用扫描每个 QR 码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Show the paper DVCs from Country A",
+   "hash": "b913c2b976d7f15c",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض شهادات DVC الورقية الصادرة من البلد A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Mostrar los DVC en papel del País A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Montrer les DVC papier du Pays A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Показать бумажные DVC из страны A",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出示 A 国的纸质 DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Add the infant; save doses as reported",
+   "hash": "b8a93aec3331fd0f",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إضافة الرضيع؛ وحفظ الجرعات بوصفها مُبلَّغاً عنها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Añadir al lactante; guardar las dosis como notificadas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ajouter le nourrisson ; enregistrer les doses comme déclarées",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавить младенца; сохранить дозы как заявленные",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "添加婴儿；剂次保存为已报告",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Add the infant to the household; save the doses as reported, not verified. The CHW completes the newborn registration form (data dictionary TD.J2A) in the CHW app through smart-base's reusable SDC data-capture process: complete-sdc-questionnaire, then extract-questionnaire-response. chw-register-infant is what this journey's extraction writes: the Patient and the caregiver's RelatedPerson, and each dose read by the triage read as an Immunization tagged unverified.",
+   "hash": "8a575609064bab78",
+   "sources": [
+    "processes/content/j2-chw-discovery-referral.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إضافة الرضيع إلى الأسرة المعيشية؛ وحفظ الجرعات بوصفها مُبلَّغاً عنها، غير مُتحقَّق منها. يملأ عامل الصحة المجتمعي (CHW) استمارة تسجيل المولود الجديد (قاموس البيانات TD.J2A) في تطبيق CHW عبر العملية القابلة لإعادة الاستخدام لالتقاط البيانات بمعيار SDC في smart-base: complete-sdc-questionnaire، ثم extract-questionnaire-response. وchw-register-infant هو ما يكتبه الاستخراج في هذه الرحلة: مورد Patient، ومورد RelatedPerson الخاص بمقدّم الرعاية، وكل جرعة قُرئت في قراءة الفرز بوصفها مورد Immunization موسومًا بأنه غير متحقَّق منه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Añadir al lactante al hogar; guardar las dosis como notificadas, no verificadas. El agente comunitario de salud (CHW) cumplimenta el formulario de registro del recién nacido (diccionario de datos TD.J2A) en la aplicación del CHW mediante el proceso reutilizable de captura de datos SDC de smart-base: complete-sdc-questionnaire y, a continuación, extract-questionnaire-response. chw-register-infant es lo que escribe la extracción de este recorrido: el recurso Patient y el RelatedPerson del cuidador, y cada dosis leída en el triaje como un Immunization etiquetado como no verificado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ajouter le nourrisson au ménage ; enregistrer les doses comme déclarées, non vérifiées. Le CHW remplit le formulaire d’enregistrement du nouveau-né (dictionnaire de données TD.J2A) dans l’application CHW au moyen du processus réutilisable de saisie de données SDC de smart-base : complete-sdc-questionnaire, puis extract-questionnaire-response. chw-register-infant est ce que l’extraction de ce parcours écrit : le Patient et la RelatedPerson de l’aidant, ainsi que chaque dose lue par la lecture de triage, sous forme d’Immunization étiquetée non vérifiée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавить младенца в домохозяйство; сохранить дозы как заявленные, а не проверенные. CHW заполняет форму регистрации новорождённого (словарь данных TD.J2A) в приложении CHW через многократно используемый процесс сбора данных SDC из smart-base: complete-sdc-questionnaire, затем extract-questionnaire-response. chw-register-infant — это то, что записывает извлечение в этом пути: Patient и RelatedPerson лица, осуществляющего уход, а также каждую дозу, считанную при чтении для сортировки, в виде Immunization с пометкой «не проверено» (unverified).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将婴儿加入家庭；将剂次保存为已报告、未验证。CHW 通过 smart-base 可复用的 SDC 数据采集流程，在 CHW 应用中填写新生儿登记表（数据字典 TD.J2A）：先 complete-sdc-questionnaire，再 extract-questionnaire-response。chw-register-infant 是本旅程的提取所写出的内容：Patient 和照护者的 RelatedPerson，以及经分诊读取的每一剂次，作为标记为未验证的 Immunization。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

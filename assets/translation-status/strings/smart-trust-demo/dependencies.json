@@ -1,0 +1,1459 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "dependencies",
+ "hashes": {
+  "ar": "61de235201e5f2ac",
+  "es": "4c4aff6d49d3dbb5",
+  "fr": "ff789169d9adb9ad",
+  "ru": "521438eaa2f81dea",
+  "zh": "c68c507655a5a1b9"
+ },
+ "strings": [
+  {
+   "msgid": "{code0} 1.0.0-rc03 (2026-09-07; rc04 of 2026-10-12 is under 14 days old), {code1} 1.11.0 (2026-04-24), {code2} 0.8.0 (2026-05-08), and {code3} 0.3.10 through the model",
+   "hash": "d4002ef841f21251",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} 1.0.0-rc03 (2026-09-07؛ إذ إن rc04 الصادر في 2026-10-12 عمره أقل من 14 يومًا)، و{code1} 1.11.0 (2026-04-24)، و{code2} 0.8.0 (2026-05-08)، و{code3} 0.3.10 من خلال النموذج",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} 1.0.0-rc03 (2026-09-07; la rc04 del 2026-10-12 tiene menos de 14 días), {code1} 1.11.0 (2026-04-24), {code2} 0.8.0 (2026-05-08) y {code3} 0.3.10 a través del modelo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} 1.0.0-rc03 (2026-09-07 ; la rc04 du 2026-10-12 a moins de 14 jours), {code1} 1.11.0 (2026-04-24), {code2} 0.8.0 (2026-05-08) et {code3} 0.3.10 par l'intermédiaire du modèle",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} 1.0.0-rc03 (2026-09-07; rc04 от 2026-10-12 моложе 14 дней), {code1} 1.11.0 (2026-04-24), {code2} 0.8.0 (2026-05-08) и {code3} 0.3.10 через модель",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 1.0.0-rc03（2026-09-07；2026-10-12 的 rc04 发布不足 14 天）、{code1} 1.11.0（2026-04-24）、{code2} 0.8.0（2026-05-08），以及经由该模型引入的 {code3} 0.3.10",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>{code0}</a0> integrity, installed with {code1}, resolved with {code2} 14 days back",
+   "hash": "ebb2c7ef448adf99",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سلامة <a0>{code0}</a0>، مُثبَّتة بـ {code1}، ومُحَلّة بـ {code2} بالرجوع 14 يومًا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "integridad en <a0>{code0}</a0>, instalado con {code1}, resuelto con {code2} 14 días atrás",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "intégrité <a0>{code0}</a0>, installé avec {code1}, résolu avec {code2} 14 jours en arrière",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Целостность по <a0>{code0}</a0>, установка с {code1}, разрешение с {code2} на 14 дней назад",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0> 完整性校验，使用 {code1} 安装，使用 {code2} 按 14 天前的状态解析",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Action",
+   "hash": "b3189ff163d86d21",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإجراء",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Acción",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Action",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Действие",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Action",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Android Gradle Plugin 8.10.1, Kotlin Android plugin 2.0.21, {code0} 1.6.2, {code1} 1.2.1, {code2} 2.0.21, and their graphs",
+   "hash": "5612875f0ab6eefa",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Android Gradle Plugin 8.10.1، وKotlin Android plugin 2.0.21، و{code0} 1.6.2، و{code1} 1.2.1، و{code2} 2.0.21، ومخططات تبعياتها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Android Gradle Plugin 8.10.1, plugin Kotlin Android 2.0.21, {code0} 1.6.2, {code1} 1.2.1, {code2} 2.0.21 y sus grafos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Android Gradle Plugin 8.10.1, plugin Kotlin Android 2.0.21, {code0} 1.6.2, {code1} 1.2.1, {code2} 2.0.21, et leurs graphes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Android Gradle Plugin 8.10.1, плагин Kotlin Android 2.0.21, {code0} 1.6.2, {code1} 1.2.1, {code2} 2.0.21 и их графы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Android Gradle Plugin 8.10.1、Kotlin Android 插件 2.0.21、{code0} 1.6.2、{code1} 1.2.1、{code2} 2.0.21，及其依赖图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Boots the Android emulators (API 26 and 35) the HCERT library's instrumented tests run on. The emulator system images it installs come from the runner's Android SDK manager, not from Gradle.",
+   "hash": "7e1026f56f0f56cb",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُشغِّل محاكيات Android (API 26 و35) التي تعمل عليها الاختبارات المُجهَّزة لمكتبة HCERT. وتأتي صور النظام للمحاكيات التي يثبّتها من مدير Android SDK في المُشغِّل، لا من Gradle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Arranca los emuladores Android (API 26 y 35) en los que se ejecutan las pruebas instrumentadas de la biblioteca HCERT. Las imágenes de sistema del emulador que instala proceden del gestor del SDK de Android del runner, no de Gradle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Démarre les émulateurs Android (API 26 et 35) sur lesquels s'exécutent les tests instrumentés de la bibliothèque HCERT. Les images système d'émulateur qu'il installe proviennent du gestionnaire de SDK Android de l'exécuteur, et non de Gradle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запускает эмуляторы Android (API 26 и 35), на которых выполняются инструментированные тесты библиотеки HCERT. Устанавливаемые им системные образы эмулятора поступают из менеджера Android SDK раннера, а не из Gradle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "启动运行 HCERT 库插桩测试的 Android 模拟器（API 26 和 35）。它安装的模拟器系统映像来自运行器的 Android SDK 管理器，而非 Gradle。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Builds the L3 IG from FSH (CI job {code0}). The HL7 tool every FHIR IG is built with; not reimplementable.",
+   "hash": "55cdcd04fd9db75e",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبني دليل التنفيذ (IG) من المستوى L3 من FSH (مهمة CI {code0}). وهي أداة HL7 التي يُبنى بها كل دليل تنفيذ FHIR IG؛ ولا يمكن إعادة تنفيذها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Compila la IG L3 a partir de FSH (trabajo de CI {code0}). Es la herramienta de HL7 con la que se compila toda IG de FHIR; no es reimplementable.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Construit l'IG L3 à partir du FSH (tâche CI {code0}). L'outil HL7 avec lequel tout IG FHIR est construit ; impossible à réimplémenter.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Собирает IG уровня L3 из FSH (задание CI {code0}). Инструмент HL7, с помощью которого собирается каждое FHIR IG; не поддаётся повторной реализации.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "从 FSH 构建 L3 IG（CI 作业 {code0}）。这是构建每个 FHIR IG 所用的 HL7 工具，无法自行重新实现。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Bun, for the harness's BPMN drawing and checklist generators in CI job {code0}; the same pin the harness layers use. Bun itself installs from {code1} ({code2}), whose install scripts stay off ({code3}). The renderer's Chromium is the build the lockfile's Playwright names, installed by {code4}, as the harness layers' CI does.",
+   "hash": "d9b4f229181336e5",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Bun، لمولِّدات رسوم BPMN وقوائم التحقق الخاصة بالإطار (harness) في مهمة CI {code0}؛ وهو الإصدار المثبَّت نفسه الذي تستخدمه طبقات الإطار. ويُثبَّت Bun نفسه من {code1} ({code2})، مع إبقاء برامج التثبيت النصية الخاصة به مُعطَّلة ({code3}). وChromium الخاص بالمُصيِّر هو الإصدار الذي يحدده Playwright في ملف القفل، ويُثبَّت بواسطة {code4}، كما يفعل CI في طبقات الإطار.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bun, para los generadores de dibujos BPMN y de listas de verificación del arnés en el trabajo de CI {code0}; la misma versión fijada que usan las capas del arnés. El propio Bun se instala desde {code1} ({code2}), cuyos scripts de instalación permanecen desactivados ({code3}). El Chromium del renderizador es la compilación que indica el Playwright del archivo de bloqueo (lockfile), instalada por {code4}, como hace la CI de las capas del arnés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bun, pour les générateurs de dessins BPMN et de listes de contrôle du harnais dans la tâche CI {code0} ; la même version épinglée que celle des couches du harnais. Bun lui-même s'installe depuis {code1} ({code2}), dont les scripts d'installation restent désactivés ({code3}). Le Chromium du moteur de rendu est la version que nomme le Playwright du fichier de verrouillage, installée par {code4}, comme le fait la CI des couches du harnais.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Bun для генераторов BPMN-схем и чек-листов обвязки в задании CI {code0}; то же закрепление, что используют слои обвязки. Сам Bun устанавливается из {code1} ({code2}), скрипты установки которого остаются отключёнными ({code3}). Chromium для рендерера — это сборка, указанная Playwright из lock-файла, устанавливаемая {code4}, как это делает CI слоёв обвязки.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Bun，用于 CI 作业 {code0} 中工具框架的 BPMN 绘图和检查清单生成器；与工具框架各层使用的固定版本相同。Bun 本身从 {code1}（{code2}）安装，其安装脚本保持关闭（{code3}）。渲染器使用的 Chromium 是锁文件中 Playwright 所指定的构建，由 {code4} 安装，与工具框架各层的 CI 做法一致。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Check out the repository; the same pin smart-trust-tools uses.",
+   "hash": "5670092612af9138",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سحب المستودع؛ وهو التثبيت نفسه الذي يستخدمه smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hace checkout del repositorio; la misma versión fijada que usa smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Extraire le dépôt ; la même version épinglée que celle qu'utilise smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Извлечь репозиторий; то же закрепление, что использует smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检出仓库；与 smart-trust-tools 使用的固定版本相同。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dependency",
+   "hash": "4df7d0a2e1fe4ba7",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التبعية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dependencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dépendance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зависимость",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "依赖",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dependency register",
+   "hash": "927383aaaf0554c1",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سجل التبعيات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registro de dependencias",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Registre des dépendances",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Реестр зависимостей",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "依赖登记表",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "DPI-H RA ArchiMate model ({code0}) and {code1}",
+   "hash": "ea4c36eebbfb2b61",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نموذج DPI-H RA ArchiMate ({code0}) و{code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Modelo ArchiMate de la RA DPI-H ({code0}) y {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Modèle ArchiMate de la RA DPI-H ({code0}) et {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Модель ArchiMate DPI-H RA ({code0}) и {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DPI-H RA ArchiMate 模型（{code0}）和 {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every dependency of this repository, with its reason. A new or bumped dependency is a release at least 14 days old, pinned (lockfile or {code0} with sha256) and added here in the same pull request.",
+   "hash": "5f2cb6c0d361e278",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل تبعية لهذا المستودع، مع سببها. والتبعية الجديدة أو المُحدَّثة هي إصدار لا يقل عمره عن 14 يومًا، مُثبَّت (بملف القفل أو {code0} مع sha256) ومُضاف هنا في طلب السحب نفسه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Todas las dependencias de este repositorio, con su motivo. Una dependencia nueva o actualizada es una versión publicada hace al menos 14 días, fijada (archivo de bloqueo o {code0} con sha256) y añadida aquí en el mismo pull request (PR).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque dépendance de ce dépôt, avec sa justification. Une dépendance nouvelle ou mise à niveau est une version publiée depuis au moins 14 jours, épinglée (fichier de verrouillage ou {code0} avec sha256) et ajoutée ici dans la même demande de fusion (pull request).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждая зависимость этого репозитория с обоснованием. Новая или обновлённая зависимость — это релиз возрастом не менее 14 дней, закреплённый (lock-файлом или {code0} с sha256) и добавленный сюда в том же pull request.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本仓库的每一项依赖及其理由。新增或升级的依赖必须是发布至少 14 天的版本，须固定版本（通过锁文件或带 sha256 的 {code0}），并在同一个拉取请求中添加到此处。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "GitHub Actions (pinned by commit SHA)",
+   "hash": "e2cf947548066690",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "GitHub Actions (مُثبَّتة بـ SHA الإيداع)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "GitHub Actions (fijadas por SHA de commit)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "GitHub Actions (épinglées par SHA de commit)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "GitHub Actions (закреплены по SHA коммита)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "GitHub Actions（按提交 SHA 固定）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Gradle 8.14.3, the version smart-trust-tools builds with.",
+   "hash": "36db0d44eb4886aa",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Gradle 8.14.3، وهو الإصدار الذي يُبنى به smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Gradle 8.14.3, la versión con la que compila smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Gradle 8.14.3, la version avec laquelle smart-trust-tools est construit.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Gradle 8.14.3 — версия, с которой собирается smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Gradle 8.14.3，即 smart-trust-tools 构建所用的版本。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3 import: a verified DVC becomes a FHIR R4 {code0} with its {code1}. The OHS model is the one the OHS FHIR engine uses, so the record can move into it later. The two kotlinx libraries are the model's own dependencies, named so the app's code can use them.",
+   "hash": "8c92ed50656c9936",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاستيراد في J3: تصبح شهادة التطعيم الرقمية (DVC) المُتحقَّق منها {code0} في FHIR R4 مع {code1} الخاص بها. ونموذج OHS هو النموذج الذي يستخدمه محرك OHS FHIR، بحيث يمكن نقل السجل إليه لاحقًا. ومكتبتا kotlinx هما من تبعيات النموذج نفسه، وقد سُمّيتا كي تتمكن شيفرة التطبيق من استخدامهما.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Importación de J3: un DVC verificado se convierte en un {code0} de FHIR R4 con su {code1}. El modelo de OHS es el que usa el motor FHIR de OHS, de modo que el registro puede pasar a él más adelante. Las dos bibliotecas kotlinx son dependencias propias del modelo, declaradas para que el código de la aplicación pueda usarlas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Import J3 : un DVC vérifié devient un {code0} FHIR R4 avec son {code1}. Le modèle OHS est celui qu'utilise le moteur FHIR OHS ; le dossier pourra donc y être transféré ultérieurement. Les deux bibliothèques kotlinx sont les propres dépendances du modèle, nommées afin que le code de l'application puisse les utiliser.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Импорт J3: проверенный DVC становится ресурсом FHIR R4 {code0} со своим {code1}. Модель OHS — та, которую использует FHIR-движок OHS, поэтому запись позднее может быть перенесена в него. Две библиотеки kotlinx — собственные зависимости модели, указанные явно, чтобы код приложения мог их использовать.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3 导入：经验证的 DVC 成为带有其 {code1} 的 FHIR R4 {code0}。OHS 模型就是 OHS FHIR 引擎所用的模型，因此该记录以后可以迁入其中。两个 kotlinx 库是该模型自身的依赖，在此列出以便应用代码使用它们。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Keeps the emulator test reports.",
+   "hash": "7ec75a4ebdaf69d4",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يحتفظ بتقارير اختبار المحاكي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Conserva los informes de las pruebas en el emulador.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conserve les rapports de test de l'émulateur.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохраняет отчёты тестов эмулятора.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "保存模拟器测试报告。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kotlin HCERT library ({code0}, {code1}, JVM jars)",
+   "hash": "bf2533a13d43a7f1",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مكتبة Kotlin HCERT ({code0}، {code1}، ملفات JVM jar)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Biblioteca HCERT en Kotlin ({code0}, {code1}, jars de JVM)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bibliothèque HCERT Kotlin ({code0}, {code1}, fichiers JAR JVM)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Библиотека HCERT на Kotlin ({code0}, {code1}, JVM-jar-файлы)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kotlin HCERT 库（{code0}、{code1}，JVM jar 包）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Kotlin Multiplatform and Compose compiler plugins 2.3.21 (2026-04-22), Compose Multiplatform 1.11.1 (2026-06-03: runtime, foundation, material3), {code0} 1.10.1, Android Gradle Plugin 8.10.1, and their graphs",
+   "hash": "cb373cc0206b81f2",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إضافات Kotlin Multiplatform وCompose compiler 2.3.21 (2026-04-22)، وCompose Multiplatform 1.11.1 (2026-06-03: runtime، foundation، material3)، و{code0} 1.10.1، وAndroid Gradle Plugin 8.10.1، ومخططات تبعياتها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Plugins de Kotlin Multiplatform y del compilador de Compose 2.3.21 (2026-04-22), Compose Multiplatform 1.11.1 (2026-06-03: runtime, foundation, material3), {code0} 1.10.1, Android Gradle Plugin 8.10.1 y sus grafos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Plugins de compilation Kotlin Multiplatform et Compose 2.3.21 (2026-04-22), Compose Multiplatform 1.11.1 (2026-06-03 : runtime, foundation, material3), {code0} 1.10.1, Android Gradle Plugin 8.10.1, et leurs graphes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Плагины компилятора Kotlin Multiplatform и Compose 2.3.21 (2026-04-22), Compose Multiplatform 1.11.1 (2026-06-03: runtime, foundation, material3), {code0} 1.10.1, Android Gradle Plugin 8.10.1 и их графы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Kotlin Multiplatform 和 Compose 编译器插件 2.3.21（2026-04-22）、Compose Multiplatform 1.11.1（2026-06-03：runtime、foundation、material3）、{code0} 1.10.1、Android Gradle Plugin 8.10.1，及其依赖图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "litlfred/smart-ra at the commit and sha256 in <a0>{code0}</a0>, fetched by {code1}, which refuses a file whose sha256 differs",
+   "hash": "eeef0aab49e4f58a",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "litlfred/smart-ra عند الإيداع وsha256 المذكورين في <a0>{code0}</a0>، ويُجلب بواسطة {code1}، الذي يرفض أي ملف يختلف sha256 الخاص به",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "litlfred/smart-ra en el commit y con el sha256 registrados en <a0>{code0}</a0>, obtenido por {code1}, que rechaza cualquier archivo cuyo sha256 no coincida",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "litlfred/smart-ra au commit et au sha256 indiqués dans <a0>{code0}</a0>, récupéré par {code1}, qui refuse tout fichier dont le sha256 diffère",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "litlfred/smart-ra на коммите и с sha256 из <a0>{code0}</a0>, загружаемый {code1}, который отвергает файл с отличающимся sha256",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "litlfred/smart-ra，采用 <a0>{code0}</a0> 中的提交和 sha256，由 {code1} 获取；sha256 不一致的文件会被拒绝",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "litlfred/smart-trust-tools at the commit and jar sha256 in <a0>{code0}</a0>",
+   "hash": "7d039325608cd6ae",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "litlfred/smart-trust-tools عند الإيداع وsha256 ملف jar المذكورين في <a0>{code0}</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "litlfred/smart-trust-tools en el commit y con el sha256 del jar registrados en <a0>{code0}</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "litlfred/smart-trust-tools au commit et au sha256 de JAR indiqués dans <a0>{code0}</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "litlfred/smart-trust-tools на коммите и с sha256 jar-файлов из <a0>{code0}</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "litlfred/smart-trust-tools，采用 <a0>{code0}</a0> 中的提交和 jar sha256",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pin",
+   "hash": "26e08cc4a8f91058",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التثبيت",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Versión fijada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Épinglage",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Закрепление",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "固定版本",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Python 3.12 for the repository checks (standard library only).",
+   "hash": "21d1681bfa780307",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Python 3.12 لفحوص المستودع (المكتبة القياسية فقط).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Python 3.12 para las comprobaciones del repositorio (solo la biblioteca estándar).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Python 3.12 pour les vérifications du dépôt (bibliothèque standard uniquement).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Python 3.12 для проверок репозитория (только стандартная библиотека).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Python 3.12，用于仓库检查（仅标准库）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Release",
+   "hash": "1a0da0060fe8b0ae",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإصدار",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Versión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Version",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Релиз",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "发布版本",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Runtime and build dependencies",
+   "hash": "0cb5baa63ef83bf1",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبعيات التشغيل والبناء",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dependencias de ejecución y de compilación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dépendances d'exécution et de construction",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зависимости времени выполнения и сборки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "运行时与构建依赖",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "sha256 in {code0}",
+   "hash": "fc720b07e923204a",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "sha256 في {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sha256 en {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "sha256 dans {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "sha256 в {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 中的 sha256",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "sha256 in {code0}, as above",
+   "hash": "af24e2a01086aa6b",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "sha256 في {code0}، كما سبق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sha256 en {code0}, como arriba",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "sha256 dans {code0}, comme ci-dessus",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "sha256 в {code0}, как выше",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 中的 sha256，同上",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "sha256 in {code0}, written on GitHub's runner and committed for review, as for {code1}",
+   "hash": "408e2ccdff0f04af",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "sha256 في {code0}، مكتوب على مُشغِّل GitHub ومُودَع للمراجعة، كما في {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sha256 en {code0}, escrito en el runner de GitHub y incluido en un commit para revisión, como en {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "sha256 dans {code0}, écrit sur l'exécuteur de GitHub et versionné pour examen, comme pour {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "sha256 в {code0}, записанные на раннере GitHub и закоммиченные для проверки, как для {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 中的 sha256，在 GitHub 运行器上写入并提交供审查，与 {code1} 相同",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "sha512 in <a0>{code0}</a0>, checked by {code1} before unpacking",
+   "hash": "614a95bb8cc16083",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "sha512 في <a0>{code0}</a0>، يتحقق منه {code1} قبل فك الحزمة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sha512 en <a0>{code0}</a0>, comprobado por {code1} antes de desempaquetar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "sha512 dans <a0>{code0}</a0>, vérifié par {code1} avant décompression",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "sha512 в <a0>{code0}</a0>, проверяемый {code1} перед распаковкой",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0> 中的 sha512，解包前由 {code1} 校验",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "SUSHI ({code0} 3.20.1, 2026-08-18) and its npm graph",
+   "hash": "084b975f40f6b8c6",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "SUSHI ({code0} 3.20.1، 2026-08-18) ومخطط تبعياته في npm",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "SUSHI ({code0} 3.20.1, 2026-08-18) y su grafo npm",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "SUSHI ({code0} 3.20.1, 2026-08-18) et son graphe npm",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "SUSHI ({code0} 3.20.1, 2026-08-18) и его граф npm",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "SUSHI（{code0} 3.20.1，2026-08-18）及其 npm 依赖图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Temurin JDK 17 to build the HCERT library; the same pin smart-trust-tools uses.",
+   "hash": "7dab1515dc21751b",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Temurin JDK 17 لبناء مكتبة HCERT؛ وهو التثبيت نفسه الذي يستخدمه smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Temurin JDK 17 para compilar la biblioteca HCERT; la misma versión fijada que usa smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "JDK Temurin 17 pour construire la bibliothèque HCERT ; la même version épinglée que celle qu'utilise smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Temurin JDK 17 для сборки библиотеки HCERT; то же закрепление, что использует smart-trust-tools.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Temurin JDK 17，用于构建 HCERT 库；与 smart-trust-tools 使用的固定版本相同。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Android emulator test of the HCERT library (plan step 4, STT-GEN-004). Test-only: nothing here ships. The metadata is written once on GitHub's runner, because this sandbox cannot reach Google Maven, and committed for review (trust on first use, over TLS).",
+   "hash": "6928c515b57029ef",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اختبار مكتبة HCERT على محاكي Android (الخطوة 4 من الخطة، STT-GEN-004). للاختبار فقط: لا يُشحَن شيء من هنا. وتُكتب البيانات الوصفية مرة واحدة على مُشغِّل GitHub، لأن بيئة العزل هذه لا تستطيع الوصول إلى Google Maven، وتُودَع للمراجعة (الثقة عند الاستخدام الأول، عبر TLS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La prueba en emulador Android de la biblioteca HCERT (paso 4 del plan, STT-GEN-004). Solo para pruebas: nada de esto se distribuye. Los metadatos se escriben una vez en el runner de GitHub, porque este entorno aislado no puede acceder a Google Maven, y se confirman para revisión (confianza en el primer uso, sobre TLS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le test sur émulateur Android de la bibliothèque HCERT (étape 4 du plan, STT-GEN-004). Réservé aux tests : rien ici n'est livré. Les métadonnées sont écrites une seule fois sur l'exécuteur de GitHub, car ce bac à sable ne peut pas atteindre Google Maven, puis versionnées pour examen (confiance à la première utilisation, via TLS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тест библиотеки HCERT на эмуляторе Android (шаг плана 4, STT-GEN-004). Только для тестов: ничего отсюда не поставляется. Метаданные записываются один раз на раннере GitHub, поскольку эта песочница не может связаться с Google Maven, и закоммичены для проверки (доверие при первом использовании, поверх TLS).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HCERT 库的 Android 模拟器测试（计划第 4 步，STT-GEN-004）。仅用于测试：此处内容均不发布。由于本沙箱无法访问 Google Maven，元数据在 GitHub 运行器上一次性写入，并提交供审查（首次使用即信任，经由 TLS）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The demonstrator app (plan step 5, option B). Kotlin 2.3.21 is the Kotlin the OHS KMP libraries ({code0}) are built with, so they join in the next step without a bump.",
+   "hash": "8e2f1f197d0afda5",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التطبيق التوضيحي (الخطوة 5 من الخطة، الخيار B). وKotlin 2.3.21 هو إصدار Kotlin الذي بُنيت به مكتبات OHS KMP ({code0})، بحيث تنضم في الخطوة التالية دون تحديث.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La aplicación demostradora (paso 5 del plan, opción B). Kotlin 2.3.21 es la versión de Kotlin con la que se compilan las bibliotecas KMP de OHS ({code0}), de modo que se incorporan en el siguiente paso sin actualizar la versión.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'application du démonstrateur (étape 5 du plan, option B). Kotlin 2.3.21 est la version de Kotlin avec laquelle les bibliothèques KMP d'OHS ({code0}) sont construites ; elles pourront donc être intégrées à l'étape suivante sans mise à niveau.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Демонстрационное приложение (шаг плана 5, вариант B). Kotlin 2.3.21 — это версия Kotlin, с которой собраны библиотеки OHS KMP ({code0}), поэтому они подключатся на следующем шаге без обновления.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "演示应用（计划第 5 步，方案 B）。Kotlin 2.3.21 是构建 OHS KMP 库（{code0}）所用的 Kotlin 版本，因此下一步引入这些库时无需升级。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The library this demonstrator exists to exercise. Built from source by <a0>{code0}</a0> with smart-trust-tools' own {code1} (Kotlin 2.0.21 Gradle plugin and its graph); no third-party runtime dependency beyond the Kotlin standard library.",
+   "hash": "028760c6642ff90a",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المكتبة التي وُجد هذا العرض التوضيحي لتشغيلها. تُبنى من المصدر بواسطة <a0>{code0}</a0> باستخدام {code1} الخاص بـ smart-trust-tools (إضافة Kotlin 2.0.21 لـ Gradle ومخطط تبعياتها)؛ دون أي تبعية تشغيل من طرف ثالث سوى مكتبة Kotlin القياسية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La biblioteca que este demostrador existe para poner a prueba. Se compila desde el código fuente mediante <a0>{code0}</a0> con el propio {code1} de smart-trust-tools (plugin de Gradle de Kotlin 2.0.21 y su grafo); sin dependencias de ejecución de terceros aparte de la biblioteca estándar de Kotlin.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La bibliothèque que ce démonstrateur a pour raison d'être de mettre en œuvre. Construite à partir des sources par <a0>{code0}</a0> avec le propre {code1} de smart-trust-tools (plugin Gradle Kotlin 2.0.21 et son graphe) ; aucune dépendance d'exécution tierce au-delà de la bibliothèque standard Kotlin.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Библиотека, для проверки которой существует этот демонстратор. Собирается из исходного кода <a0>{code0}</a0> с собственным {code1} smart-trust-tools (плагин Gradle Kotlin 2.0.21 и его граф); никаких сторонних зависимостей времени выполнения, кроме стандартной библиотеки Kotlin.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本演示项目所要检验的库。由 <a0>{code0}</a0> 使用 smart-trust-tools 自身的 {code1}（Kotlin 2.0.21 Gradle 插件及其依赖图）从源码构建；除 Kotlin 标准库外没有第三方运行时依赖。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The model the <a0>ArchiMate overlay</a0> is drawn on, and smart-ra's own script for adding to it without rewriting it. Source files, not a package; the generated model is committed, so the site build does not fetch.",
+   "hash": "14140215d2e81d4f",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النموذج الذي يُرسم عليه <a0>تراكب ArchiMate</a0>، والبرنامج النصي الخاص بـ smart-ra للإضافة إليه دون إعادة كتابته. ملفات مصدرية، لا حزمة؛ والنموذج المولَّد مُودَع، بحيث لا يجلب بناء الموقع أي شيء.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El modelo sobre el que se dibuja la <a0>superposición ArchiMate</a0>, y el propio script de smart-ra para añadirle elementos sin reescribirlo. Archivos fuente, no un paquete; el modelo generado está confirmado en el repositorio, así que la compilación del sitio no descarga nada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le modèle sur lequel la <a0>surcouche ArchiMate</a0> est dessinée, et le propre script de smart-ra permettant d'y ajouter des éléments sans le réécrire. Des fichiers sources, et non un paquet ; le modèle généré est versionné ; la construction du site ne télécharge donc rien.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Модель, на которой нарисовано <a0>наложение ArchiMate</a0>, и собственный скрипт smart-ra для её дополнения без переписывания. Исходные файлы, а не пакет; сгенерированная модель закоммичена, поэтому сборка сайта ничего не загружает.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "绘制 <a0>ArchiMate 叠加图</a0>所基于的模型，以及 smart-ra 自带的、可在不重写模型的情况下向其添加内容的脚本。这些是源文件而非软件包；生成的模型已提交，因此站点构建时不会获取。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Why",
+   "hash": "5bf073501a51f6b0",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السبب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Motivo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Justification",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обоснование",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "理由",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "FHIR packages: {code0} 4.0.1, {code1} 7.0.1, {code2} 5.3.0, {code3} 1.1.0, {code4} 0.2.0, {code5} 0.2.0-litlfred",
+   "hash": "d063a941fda4bb93",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حزم FHIR: {code0} 4.0.1، و{code1} 7.0.1، و{code2} 5.3.0، و{code3} 1.1.0، و{code4} 0.2.0، و{code5} 0.2.0-litlfred",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paquetes FHIR: {code0} 4.0.1, {code1} 7.0.1, {code2} 5.3.0, {code3} 1.1.0, {code4} 0.2.0, {code5} 0.2.0-litlfred",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Paquets FHIR : {code0} 4.0.1, {code1} 7.0.1, {code2} 5.3.0, {code3} 1.1.0, {code4} 0.2.0, {code5} 0.2.0-litlfred",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пакеты FHIR: {code0} 4.0.1, {code1} 7.0.1, {code2} 5.3.0, {code3} 1.1.0, {code4} 0.2.0, {code5} 0.2.0-litlfred",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "FHIR 包：{code0} 4.0.1、{code1} 7.0.1、{code2} 5.3.0、{code3} 1.1.0、{code4} 0.2.0、{code5} 0.2.0-litlfred",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The packages the IG's FSH is resolved against: FHIR R4 4.0.1 (as smart-base, smart-trust and smart-trust-phw use), the three SUSHI provides for an R4 guide, and the WHO SMART guides the IG depends on. Taken from the registry.npmjs.org mirrors of the FHIR package registry, because SUSHI must not download at run time; {code0} (npm holds only a placeholder) and {code1} 5.3.0 (npm holds only the ballot) from <a0>litlfred/fhir-package-mirror</a0> at a pinned commit, checked against the same sha512. {code2} 0.2.0-litlfred is the fork build of the Personal Health Wallet guide (R4, with consent): the {code3} on litlfred/smart-trust-phw's gh-pages, pinned by commit and sha512, never published to packages.fhir.org under WHO's id.",
+   "hash": "d9b9f3e11e337d65",
+   "sources": [
+    "docs/dependencies.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحزم التي يُحَل مقابلها FSH الخاص بدليل التنفيذ (IG): FHIR R4 4.0.1 (كما يستخدمه smart-base وsmart-trust وsmart-trust-phw)، والحزم الثلاث التي يوفّرها SUSHI لدليل R4، وأدلة SMART لمنظمة الصحة العالمية (WHO) التي يعتمد عليها دليل التنفيذ. وهي مأخوذة من مرايا registry.npmjs.org لسجل حزم FHIR، لأن SUSHI يجب ألا يُنزِّل شيئًا في وقت التشغيل؛ أما {code0} (لا يحوي npm منها إلا عنصرًا نائبًا) و{code1} 5.3.0 (لا يحوي npm منها إلا نسخة الاقتراع) فمن <a0>litlfred/fhir-package-mirror</a0> عند إيداع مثبَّت، ويُتحقَّق منها مقابل قيمة sha512 نفسها. و{code2} 0.2.0-litlfred هو البناء المتفرّع (fork) لدليل المحفظة الصحية الشخصية (Personal Health Wallet) (R4، مع الموافقة): وهو {code3} الموجود على gh-pages الخاص بـ litlfred/smart-trust-phw، مثبَّتًا بالإيداع وبقيمة sha512، ولم يُنشَر قط على packages.fhir.org تحت معرِّف WHO.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los paquetes con los que se resuelve el FSH de la IG: FHIR R4 4.0.1 (como usan smart-base, smart-trust y smart-trust-phw), los tres que SUSHI proporciona para una guía R4 y las guías SMART de la OMS de las que depende la IG. Se toman de las réplicas en registry.npmjs.org del registro de paquetes FHIR, porque SUSHI no debe descargar nada en tiempo de ejecución; {code0} (npm solo contiene un marcador de posición) y {code1} 5.3.0 (npm solo contiene la versión en votación) se toman de <a0>litlfred/fhir-package-mirror</a0> en un commit fijado y se comprueban con el mismo sha512. {code2} 0.2.0-litlfred es la compilación de la bifurcación de la guía de la billetera sanitaria personal (Personal Health Wallet; R4, con consentimiento): el {code3} de la rama gh-pages de litlfred/smart-trust-phw, fijado por commit y sha512, que nunca se ha publicado en packages.fhir.org con el identificador de la OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les paquets par rapport auxquels le FSH de l'IG est résolu : FHIR R4 4.0.1 (comme l'utilisent smart-base, smart-trust et smart-trust-phw), les trois que SUSHI fournit pour un guide R4, et les guides SMART de l'OMS dont dépend l'IG. Tirés des miroirs registry.npmjs.org du registre de paquets FHIR, car SUSHI ne doit rien télécharger à l'exécution ; {code0} (npm ne contient qu'un paquet de substitution) et {code1} 5.3.0 (npm ne contient que la version soumise au vote) proviennent de <a0>litlfred/fhir-package-mirror</a0> à un commit épinglé, vérifiés au regard du même sha512. {code2} 0.2.0-litlfred est la version de fork du guide Personal Health Wallet (R4, avec consentement) : le {code3} publié sur les gh-pages de litlfred/smart-trust-phw, épinglé par commit et sha512, jamais publié sur packages.fhir.org sous l'identifiant de l'OMS.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пакеты, относительно которых разрешается FSH руководства по внедрению (IG): FHIR R4 4.0.1 (как в smart-base, smart-trust и smart-trust-phw), три пакета, которые SUSHI предоставляет для руководства R4, и руководства SMART ВОЗ, от которых зависит IG. Взяты из зеркал реестра пакетов FHIR на registry.npmjs.org, поскольку SUSHI не должен ничего загружать во время выполнения; {code0} (в npm есть только заглушка) и {code1} 5.3.0 (в npm есть только версия для голосования) — из <a0>litlfred/fhir-package-mirror</a0> на закреплённом коммите, с проверкой по тому же sha512. {code2} 0.2.0-litlfred — это сборка форка руководства по персональному кошельку медицинских данных (R4, с согласием): {code3} из gh-pages репозитория litlfred/smart-trust-phw, закреплённый по коммиту и sha512 и никогда не публиковавшийся в packages.fhir.org под идентификатором ВОЗ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "解析 IG 的 FSH 所依据的包：FHIR R4 4.0.1（与 smart-base、smart-trust 和 smart-trust-phw 相同）、SUSHI 为 R4 指南提供的三个包，以及该 IG 所依赖的 WHO SMART 指南。这些包取自 FHIR 包注册中心在 registry.npmjs.org 上的镜像，因为 SUSHI 不得在运行时下载；{code0}（npm 上只有占位包）和 {code1} 5.3.0（npm 上只有投票版）取自固定提交的 <a0>litlfred/fhir-package-mirror</a0>，并以同一 sha512 校验。{code2} 0.2.0-litlfred 是 Personal Health Wallet 指南（个人健康钱包，R4，含同意）的派生构建版本：即 litlfred/smart-trust-phw 的 gh-pages 上的 {code3}，按提交和 sha512 固定，从未以世卫组织（WHO）的 id 发布到 packages.fhir.org。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

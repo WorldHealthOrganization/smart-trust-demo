@@ -1,0 +1,3016 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "user-scenarios/j3-made-official",
+ "hashes": {
+  "ar": "20e47e2293da8057",
+  "es": "e64d65580acd1ccd",
+  "fr": "318554ed3599fb97",
+  "ru": "af71d515019057f0",
+  "zh": "d3a1d1e676731de1"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Onesa",
+   "hash": "1cccc8eebd0e2356",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "User scenario in the IG",
+   "hash": "6ec906602b6d758f",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريو المستخدم في دليل التنفيذ (IG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenario de usuario en la IG",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénario utilisateur dans le guide d’implémentation",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательский сценарий в IG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "实施指南（IG）中的用户场景",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Clinic tablet",
+   "hash": "92d08f264742ee16",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهاز اللوحي في العيادة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tableta de la clínica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tablette de la clinique",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Планшет клиники",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "诊所平板电脑",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Signature verified",
+   "hash": "7d4d675bacd7590e",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التوقيع مُتحقَّق منه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Firma verificada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Signature vérifiée",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подпись проверена",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签名已验证",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Brings Somsak in for the referral visit.",
+   "hash": "cd481fcada91793f",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُحضِر Somsak إلى زيارة الإحالة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lleva a Somsak a la visita de derivación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Amène Somsak à la consultation prévue par l’orientation.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приводит Somsak на визит по направлению.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "带 Somsak 来进行转诊就诊。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Leaves with a date for Somsak’s next vaccines.",
+   "hash": "d3f9b58a286a1dfc",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تغادر ومعها موعد للقاحات Somsak التالية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se va con una fecha para las próximas vacunas de Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Repart avec une date pour les prochains vaccins de Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Уходит с датой следующих прививок Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "带着 Somsak 下一次接种的日期离开。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Scans the card; the tablet confirms the Taifafeki signature and marks the doses verified.",
+   "hash": "5a5fd6d31828e5e6",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح البطاقة ضوئيًا؛ فيؤكد الجهاز اللوحي توقيع Taifafeki ويَسِم الجرعات بأنها مُتحقَّق منها.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escanea la tarjeta; la tableta confirma la firma de Taifafeki y marca las dosis como verificadas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanne la carte ; la tablette confirme la signature de Taifafeki et marque les doses comme vérifiées.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сканирует карточку; планшет подтверждает подпись страны Taifafeki и отмечает дозы как проверенные.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扫描卡片；平板电脑确认 Taifafeki 签名，并将剂次标记为已验证。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“A green tick — I can trust a hospital I’ve never heard of.”",
+   "hash": "c4bffd9e5025bc07",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«علامة صحّ خضراء — يمكنني أن أثق بمستشفى لم أسمع به من قبل.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Una marca verde — puedo confiar en un hospital del que nunca he oído hablar.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Une coche verte — je peux faire confiance à un hôpital dont je n’ai jamais entendu parler. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Зелёная галочка — я могу доверять больнице, о которой никогда не слышала».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“一个绿色对勾——我可以信任一家从没听说过的医院。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Different name, same vaccine — I can make that call.”",
+   "hash": "26ba501074f44d6d",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«اسم مختلف، واللقاح نفسه — بإمكاني أن أتخذ هذا القرار.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Otro nombre, la misma vacuna — esa decisión la puedo tomar yo.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Nom différent, même vaccin — c’est une décision que je peux prendre. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Название другое, вакцина та же — это решение я могу принять».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“名字不同，疫苗相同——这个判断我可以做。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Now I know exactly when to come back.”",
+   "hash": "ac9918965bc70428",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«الآن أعرف بالضبط متى أعود.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Ahora sé exactamente cuándo volver.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Maintenant, je sais exactement quand revenir. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Теперь я точно знаю, когда прийти снова».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“现在我确切知道什么时候该回来了。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“They believe the Taifafeki papers!”",
+   "hash": "9130727326ef41aa",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«إنهم يصدّقون أوراق Taifafeki!»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“¡Creen en los papeles de Taifafeki!”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Ils croient les papiers de Taifafeki ! »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Они верят бумагам из страны Taifafeki!»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“他们相信 Taifafeki 的纸质记录！”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Created: author = Taifafeki MOPH, verifier = nurse",
+   "hash": "065f05386a241b1a",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُنشئ: المؤلِّف = وزارة الصحة العامة في Taifafeki (MOPH)، والجهة المُتحقِّقة = الممرضة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Creado: autor = MOPH de Taifafeki, verificador = enfermera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Créée : auteur = MOPH de Taifafeki, vérificateur = infirmière",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создано: автор = Министерство здравоохранения страны Taifafeki (MOPH), проверяющая сторона = медсестра",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已创建：author = Taifafeki 公共卫生部（MOPH），verifier = 护士",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Nurse’s mapping decision recorded",
+   "hash": "09e42a4c4f33cdd0",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سُجِّل قرار المطابقة الذي اتخذته الممرضة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Decisión de correspondencia de la enfermera registrada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Décision de mise en correspondance de l’infirmière enregistrée",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Записано решение медсестры о сопоставлении",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已记录护士的映射决定",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "primarySource flipped to true",
+   "hash": "53ccd482e314b261",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تغيّرت قيمة primarySource إلى true",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "primarySource cambiado a true",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "primarySource passé à true",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "primarySource изменён на true",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "primarySource 改为 true",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "A verified DVC is the signing hospital’s own record, so the dose now counts; the Taifafeki record it came from is unchanged.",
+   "hash": "3632e039c36d6b8b",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شهادة التطعيم الرقمية (DVC) المُتحقَّق منها هي السجل الخاص بالمستشفى الموقِّع، لذا تُحتسب الجرعة الآن؛ ويبقى سجل Taifafeki الذي صدرت عنه دون تغيير.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un DVC verificado es el propio registro del hospital firmante, por lo que la dosis ahora cuenta; el registro de Taifafeki del que procede no se modifica.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un DVC vérifié constitue le dossier propre de l’hôpital signataire, de sorte que la dose compte désormais ; le dossier de Taifafeki dont il est issu reste inchangé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверенный DVC — это собственная запись подписавшей его больницы, поэтому доза теперь засчитывается; запись страны Taifafeki, из которой он получен, не изменяется.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "经验证的 DVC 是签名医院自身的记录，因此该剂次现在计入；其来源的 Taifafeki 记录保持不变。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "Camera scan + local trust-list check",
+   "hash": "d0e735b28fc406da",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسح ضوئي بالكاميرا + تحقق محلي من قائمة الثقة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escaneo con la cámara + comprobación local de la lista de confianza",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scan par caméra + contrôle local de la liste de confiance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сканирование камерой + локальная проверка по списку доверия",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "相机扫描 + 本地信任列表检查",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "FHIR API via Info Gateway",
+   "hash": "a30d978a7454a24c",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "FHIR API عبر بوابة ربط المعلومات (Info Gateway)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "API FHIR a través de Info Gateway",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "API FHIR via l’Info Gateway",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "FHIR API через Info Gateway",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通过 Info Gateway 的 FHIR API",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Dual-coded Immunization + next-dose Task",
+   "hash": "481bf3ab0c439237",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سجل Immunization مزدوج الترميز + Task للجرعة التالية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Immunization con doble codificación + Task de la siguiente dosis",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Immunization à double codage + Task de prochaine dose",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Immunization с двойной кодировкой + Task на следующую дозу",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "双重编码的 Immunization + 下一剂次 Task",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Verified DVC → Immunization updated",
+   "hash": "cae52981a475ec49",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "DVC مُتحقَّق منها → تحديث Immunization",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "DVC verificado → Immunization actualizado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DVC vérifié → Immunization mise à jour",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверенный DVC → Immunization обновлён",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已验证的 DVC → 更新 Immunization",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "Verified doses, ready to schedule",
+   "hash": "2e4e952070b7ca5c",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جرعات مُتحقَّق منها، جاهزة للجدولة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dosis verificadas, listas para programar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Doses vérifiées, prêtes à être planifiées",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверенные дозы, готовые к включению в график",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已验证的剂次，可纳入接种计划",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "Nurse Chanthason opens the referral and scans the QRs. The EHR\n**verifies** each DVC offline against that copy (STT-VER-001…009,\nSTT-KID-002), without contacting Taifafeki. Both verify, so it imports them as\nFHIR `Immunization`s (`TrustDemoJ3HepB`, `TrustDemoJ3Bcg`) with provenance\n(`TrustDemoJ3Verification`; STT-VER-007, STT-VER-008), replacing the reported\ndoses of J2. If a DVC fails (a tampered card, say), the EHR names the step and\nthe reason, the doses stay unverified, and the nurse decides by national\ncatch-up policy.\n",
+   "hash": "693367a49ec420c9",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تفتح الممرضة Chanthason الإحالة وتمسح رموز QR ضوئيًا. ويقوم السجل الصحي الإلكتروني (EHR)\n**بالتحقق** من كل DVC دون اتصال مقابل تلك النسخة (STT-VER-001…009،\nSTT-KID-002)، دون التواصل مع Taifafeki. وتجتاز كلتاهما التحقق، فيستوردهما بوصفهما\nموارد FHIR من نوع `Immunization` (`TrustDemoJ3HepB`، `TrustDemoJ3Bcg`) مع بيانات المصدر\n(`TrustDemoJ3Verification`؛ STT-VER-007، STT-VER-008)، لتحلّ محل الجرعات المُبلَّغ عنها\nفي J2. وإذا فشل التحقق من DVC (بطاقة عُبث بها مثلًا)، يحدّد EHR الخطوة\nوالسبب، وتبقى الجرعات غير مُتحقَّق منها، وتقرر الممرضة وفق السياسة الوطنية\nللتطعيم الاستدراكي.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera Chanthason abre la derivación y escanea los QR. La EHR\n**verifica** cada DVC sin conexión contra esa copia (STT-VER-001…009,\nSTT-KID-002), sin contactar con Taifafeki. Ambos se verifican, así que la EHR los importa como\n`Immunization` de FHIR (`TrustDemoJ3HepB`, `TrustDemoJ3Bcg`) con su procedencia\n(`TrustDemoJ3Verification`; STT-VER-007, STT-VER-008), en sustitución de las dosis\nnotificadas en J2. Si un DVC no se verifica (por ejemplo, una tarjeta manipulada), la EHR indica\nel paso y el motivo, las dosis siguen sin verificar y la enfermera decide según la política\nnacional de vacunación de puesta al día.\n",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’infirmière Chanthason ouvre l’orientation et scanne les QR. Le DSE\n**vérifie** chaque DVC hors ligne par rapport à cette copie (STT-VER-001…009,\nSTT-KID-002), sans contacter Taifafeki. Les deux sont vérifiés ; il les importe donc comme\n`Immunization` FHIR (`TrustDemoJ3HepB`, `TrustDemoJ3Bcg`) avec leur provenance\n(`TrustDemoJ3Verification` ; STT-VER-007, STT-VER-008), en remplacement des doses déclarées\nde J2. Si un DVC échoue (une carte falsifiée, par exemple), le DSE indique l’étape et\nle motif, les doses restent non vérifiées et l’infirmière décide selon la politique nationale\nde rattrapage.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра Chanthason открывает направление и сканирует QR-коды. EHR\n**проверяет** каждый DVC в автономном режиме по этой копии (STT-VER-001…009,\nSTT-KID-002), не обращаясь к стране Taifafeki. Оба проходят проверку, поэтому она импортирует их как\nFHIR `Immunization` (`TrustDemoJ3HepB`, `TrustDemoJ3Bcg`) с указанием происхождения\n(`TrustDemoJ3Verification`; STT-VER-007, STT-VER-008), заменяя заявленные\nдозы из J2. Если DVC не проходит проверку (например, карточка подделана), EHR называет этап\nи причину, дозы остаются непроверенными, и медсестра принимает решение в соответствии с национальной\nполитикой догоняющей вакцинации.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Chanthason 护士打开转诊单并扫描 QR 码。EHR 针对该副本离线**验证**每个 DVC（STT-VER-001…009、STT-KID-002），无需联系 Taifafeki。两者都验证通过，因此它将其作为 FHIR `Immunization`（`TrustDemoJ3HepB`、`TrustDemoJ3Bcg`）连同来源记录（`TrustDemoJ3Verification`；STT-VER-007、STT-VER-008）一并导入，取代 J2 中已报告的剂次。如果某个 DVC 验证失败（例如卡片被篡改），EHR 会指明失败的步骤和原因，剂次保持未验证，由护士依据国家补种政策作出决定。\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Clinicians either distrust foreign paper and re-vaccinate, or trust it blindly.",
+   "hash": "f75530bb1947dde0",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إما أن يرتاب الممارسون السريريون في الأوراق الأجنبية فيعيدوا التطعيم، أو يثقوا بها ثقة عمياء.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los profesionales clínicos o bien desconfían de los documentos extranjeros en papel y vuelven a vacunar, o bien confían en ellos ciegamente.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les cliniciens se méfient des documents papier étrangers et revaccinent, ou leur font aveuglément confiance.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клиницисты либо не доверяют иностранным бумажным документам и вакцинируют повторно, либо доверяют им слепо.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "临床医生要么不信任外国纸质记录而重新接种，要么盲目信任。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Countries name and package vaccines differently, so doses get missed or repeated.",
+   "hash": "46d5dd8b1c28f01c",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تختلف البلدان في تسمية اللقاحات وتعبئتها، فتُفوَّت جرعات أو تتكرر.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los países nombran y combinan las vacunas de forma distinta, por lo que se omiten o se repiten dosis.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les pays nomment et conditionnent les vaccins différemment, si bien que des doses sont omises ou répétées.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страны по-разному называют и комплектуют вакцины, поэтому дозы пропускаются или повторяются.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "各国对疫苗的命名和包装各不相同，因此剂次会被遗漏或重复。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Never overwrite another country’s record: keep the original coding alongside the national one.",
+   "hash": "85b6295682770f23",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يُستبدَل سجل بلد آخر أبدًا: يُحتفَظ بالترميز الأصلي إلى جانب الترميز الوطني.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nunca sobrescribir el registro de otro país: conservar la codificación original junto a la nacional.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ne jamais écraser le dossier d’un autre pays : conserver le codage d’origine à côté du codage national.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Никогда не перезаписывать запись другой страны: сохранять исходную кодировку рядом с национальной.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "绝不覆盖另一个国家的记录：在国家编码旁边保留原始编码。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.preconditions.description",
+   "msgid": "**Precondition: the DID documents are already loaded.** Loading them is not a step of this visit. The clinic may be offline all day, so the EHR fetches nothing during it: its trust store holds the GDHCN DEV trust list as it was last refreshed, including XXR's DSC DID document (STT-TRU-001, STT-TRU-002, STT-TRU-005). A clinic with no connection of its own refreshes it about weekly, when the CHW visits the base clinic or district health office, where Country B retrieves the list the GDHCN trust anchor distributes. A DSC published after that refresh is not in the clinic's copy, so its DVC fails the trust-list check (STT-VER-006) until the next refresh.",
+   "hash": "1d1a5057213fc641",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "**شرط مسبق: وثائق DID محمَّلة مسبقًا.** تحميلها ليس خطوة من خطوات هذه الزيارة. قد تكون العيادة غير متصلة طوال اليوم، لذا لا يجلب EHR أي شيء خلالها: يحتفظ مخزن الثقة لديه بقائمة الثقة DEV التابعة لـ GDHCN كما كانت عند آخر تحديث، بما في ذلك وثيقة DID الخاصة بشهادة DSC لـ XXR (STT-TRU-001، STT-TRU-002، STT-TRU-005). والعيادة التي لا تملك اتصالًا خاصًا بها تحدّثها أسبوعيًا تقريبًا، عندما يزور عامل الصحة المجتمعي (CHW) العيادة الأساسية أو مكتب الصحة في المنطقة، حيث يسترجع البلد B القائمة التي يوزّعها مرسى الثقة لـ GDHCN. وشهادة DSC المنشورة بعد ذلك التحديث ليست في نسخة العيادة، لذا تفشل شهادة DVC الخاصة بها في التحقق من قائمة الثقة (STT-VER-006) حتى التحديث التالي.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "**Condición previa: los documentos DID ya están cargados.** Cargarlos no es un paso de esta visita. La clínica puede estar sin conexión todo el día, por lo que la EHR no descarga nada durante la visita: su almacén de confianza contiene la lista de confianza GDHCN DEV tal como estaba en la última actualización, incluido el documento DID del DSC de XXR (STT-TRU-001, STT-TRU-002, STT-TRU-005). Una clínica que no tiene conexión propia la actualiza aproximadamente una vez por semana, cuando el CHW visita la clínica de base o la oficina sanitaria de distrito, donde el País B obtiene la lista que distribuye el ancla de confianza de la GDHCN. Un DSC publicado después de esa actualización no está en la copia de la clínica, por lo que su DVC no supera la comprobación de la lista de confianza (STT-VER-006) hasta la siguiente actualización.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "**Condition préalable : les documents DID sont déjà chargés.** Leur chargement n’est pas une étape de cette visite. La clinique peut être hors ligne toute la journée ; le DSE ne récupère donc rien pendant ce temps : son magasin de confiance contient la liste de confiance DEV du GDHCN telle qu’elle a été actualisée pour la dernière fois, y compris le document DID du DSC de XXR (STT-TRU-001, STT-TRU-002, STT-TRU-005). Une clinique sans connexion propre l’actualise environ une fois par semaine, lorsque le CHW se rend à la clinique de référence ou au bureau de santé de district, où le Pays B récupère la liste que distribue l’ancre de confiance du GDHCN. Un DSC publié après cette actualisation ne figure pas dans la copie de la clinique ; son DVC échoue donc au contrôle de la liste de confiance (STT-VER-006) jusqu’à l’actualisation suivante.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "**Предварительное условие: документы DID уже загружены.** Их загрузка не является шагом этого визита. Клиника может весь день работать без связи, поэтому EHR ничего не загружает во время визита: её хранилище доверия содержит список доверия GDHCN DEV в состоянии на момент последнего обновления, включая документ DID для DSC XXR (STT-TRU-001, STT-TRU-002, STT-TRU-005). Клиника без собственного подключения обновляет его примерно раз в неделю, когда CHW посещает базовую клинику или районный отдел здравоохранения, где страна B получает список, распространяемый якорем доверия GDHCN. DSC, опубликованный после этого обновления, отсутствует в копии клиники, поэтому подписанный им DVC не проходит проверку по списку доверия (STT-VER-006) до следующего обновления.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "**前提条件：DID 文档已加载。**加载它们不是此次就诊的步骤。诊所可能整天离线，因此 EHR 在就诊期间不获取任何内容：其信任存储中保存着上次刷新时的 GDHCN DEV 信任列表，包括 XXR 的 DSC DID 文档（STT-TRU-001、STT-TRU-002、STT-TRU-005）。没有自身网络连接的诊所大约每周刷新一次，即 CHW 前往基地诊所或区卫生办公室时，B 国在那里获取 GDHCN 信任锚所分发的列表。在该次刷新之后发布的 DSC 不在诊所的副本中，因此其 DVC 在下次刷新前都无法通过信任列表检查（STT-VER-006）。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.preconditions.title",
+   "msgid": "The DID documents are already loaded",
+   "hash": "0ac0c1450475de0b",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "وثائق DID محمَّلة مسبقًا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los documentos DID ya están cargados",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les documents DID sont déjà chargés",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Документы DID уже загружены",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DID 文档已加载",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "Birth doses count; next appointment booked",
+   "hash": "a0e4899998fe0fe3",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُحتسب جرعات الولادة؛ وحُجز الموعد التالي",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las dosis al nacer cuentan; próxima cita programada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les doses à la naissance comptent ; prochain rendez-vous fixé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дозы при рождении засчитаны; следующий приём назначен",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生剂次计入；已预约下次就诊",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "Doses verified; Taifafeki recorded as the source",
+   "hash": "d565b10dda0f5329",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جرعات مُتحقَّق منها؛ و Taifafeki مسجَّلة بوصفها المصدر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dosis verificadas; Taifafeki registrada como origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Doses vérifiées ; Taifafeki enregistrée comme source",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дозы проверены; страна Taifafeki записана как источник",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "剂次已验证；Taifafeki 被记录为来源",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "District clinic records",
+   "hash": "4beadc7ff3d9ac8f",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سجلات عيادة المنطقة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registros de la clínica de distrito",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dossiers de la clinique de district",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Записи районной клиники",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "区诊所记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "The clinic confirms the cards are genuine",
+   "hash": "dbdade099850c7b2",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العيادة تؤكد أن البطاقات أصلية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La clínica confirma que las tarjetas son auténticas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La clinique confirme que les cartes sont authentiques",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клиника подтверждает подлинность карточек",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "诊所确认卡片为真",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Clinic tablet (vaccine matching + schedule)",
+   "hash": "db22e5bee40b5daf",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهاز اللوحي في العيادة (مطابقة اللقاحات + جدول التطعيم)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tableta de la clínica (correspondencia de vacunas + calendario)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tablette de la clinique (correspondance des vaccins + calendrier)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Планшет клиники (сопоставление вакцин + график)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "诊所平板电脑（疫苗匹配 + 接种计划）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Clinic tablet (verification)",
+   "hash": "ef4fcc0db7261ecf",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهاز اللوحي في العيادة (التحقق)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tableta de la clínica (verificación)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tablette de la clinique (vérification)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Планшет клиники (проверка)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "诊所平板电脑（验证）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Checks the nurse’s role and facility before accepting the update",
+   "hash": "c5d97614c246975a",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتحقق من دور الممرضة ومرفقها الصحي قبل قبول التحديث",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Comprueba el rol y el establecimiento de la enfermera antes de aceptar la actualización",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vérifie le rôle et l’établissement de l’infirmière avant d’accepter la mise à jour",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверяет роль медсестры и учреждение, прежде чем принять обновление",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在接受更新前核查护士的角色和机构",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Clinic tablet app; caches the trust list",
+   "hash": "fa5e848bcb7e5bf1",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق الجهاز اللوحي في العيادة؛ يخزّن قائمة الثقة مؤقتًا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicación de la tableta de la clínica; guarda en caché la lista de confianza",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Application pour tablette de la clinique ; met en cache la liste de confiance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приложение на планшете клиники; кэширует список доверия",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "诊所平板电脑应用；缓存信任列表",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Common PreQual codes make the mapping possible",
+   "hash": "58ce9bafd8df208b",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رموز PreQual المشتركة تجعل المطابقة ممكنة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los códigos PreQual comunes hacen posible la correspondencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Des codes PreQual communs rendent la mise en correspondance possible",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Общие коды PreQual делают сопоставление возможным",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通用的 PreQual 代码使映射成为可能",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "COSE_Sign1 signature verified (ES256)",
+   "hash": "fae6c564b6164360",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التوقيع COSE_Sign1 مُتحقَّق منه (ES256)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Firma COSE_Sign1 verificada (ES256)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Signature COSE_Sign1 vérifiée (ES256)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подпись COSE_Sign1 проверена (ES256)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COSE_Sign1 签名已验证（ES256）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Delivers the CHW’s referral to this clinic; the nurse can only see patients referred to her facility",
+   "hash": "dea3fcaaa6c1aff8",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوصل إحالة عامل الصحة المجتمعي (CHW) إلى هذه العيادة؛ ولا يمكن للممرضة أن ترى إلا المرضى المُحالين إلى مرفقها الصحي",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Entrega a esta clínica la derivación del CHW; la enfermera solo puede ver a los pacientes derivados a su establecimiento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transmet l’orientation du CHW à cette clinique ; l’infirmière ne peut voir que les patients orientés vers son établissement",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доставляет направление CHW в эту клинику; медсестра видит только пациентов, направленных в её учреждение",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将 CHW 的转诊送达本诊所；护士只能查看转诊到其所在机构的患者",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Receives the verified, mapped record",
+   "hash": "30b675979c77d355",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يستقبل السجل المُتحقَّق منه والمُطابَق",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recibe el registro verificado y con correspondencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Reçoit le dossier vérifié et mis en correspondance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получает проверенную и сопоставленную запись",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "接收已验证并完成映射的记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Records that Taifafeki authored and Onesa verified the doses",
+   "hash": "8ae6b7f486275ae1",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يسجّل أن Taifafeki هي التي أعدّت سجل الجرعات وأن Onesa تحققت منها",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registra que Taifafeki es la autora de las dosis y que Onesa las verificó",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistre que Taifafeki est l’auteur des doses et que Onesa les a vérifiées",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Фиксирует, что автором доз является страна Taifafeki, а проверила их страна Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录这些剂次由 Taifafeki 创建、由 Onesa 验证",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Saves dual-coded record and syncs it to the national server",
+   "hash": "1f0f2fa7e27bd434",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يحفظ السجل مزدوج الترميز ويزامنه مع الخادم الوطني",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Guarda el registro con doble codificación y lo sincroniza con el servidor nacional",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistre le dossier à double codage et le synchronise avec le serveur national",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохраняет запись с двойной кодировкой и синхронизирует её с национальным сервером",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "保存双重编码的记录并同步到国家服务器",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.outcome",
+   "msgid": "That is exactly this step. The nurse decides — and her decision could be shared so the next nurse doesn’t have to.",
+   "hash": "a09cf0ffc0525e4e",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا بالضبط ما تتناوله هذه الخطوة. تقرر الممرضة — ويمكن مشاركة قرارها حتى لا تضطر الممرضة التالية إلى ذلك.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Eso es exactamente este paso. La enfermera decide — y su decisión podría compartirse para que la siguiente enfermera no tenga que hacerlo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "C’est exactement cette étape. L’infirmière décide — et sa décision pourrait être partagée pour que l’infirmière suivante n’ait pas à le faire.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это именно этот шаг. Медсестра принимает решение — и её решением можно было бы поделиться, чтобы следующей медсестре не пришлось этого делать.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这正是本步骤。由护士作出决定——她的决定可以共享，下一位护士就不必再判断。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.outcome",
+   "msgid": "The signature check fails, the doses stay unverified and the nurse follows the local catch-up policy.",
+   "hash": "c00feda9645dd46f",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يفشل التحقق من التوقيع، وتبقى الجرعات غير مُتحقَّق منها، وتتبع الممرضة السياسة المحلية للتطعيم الاستدراكي.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La comprobación de la firma falla, las dosis siguen sin verificar y la enfermera aplica la política local de vacunación de puesta al día.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La vérification de la signature échoue, les doses restent non vérifiées et l’infirmière applique la politique locale de rattrapage.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверка подписи не проходит, дозы остаются непроверенными, и медсестра следует местной политике догоняющей вакцинации.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签名检查失败，剂次保持未验证，护士遵循当地补种政策。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.scenario",
+   "msgid": "The card has been tampered with.",
+   "hash": "2f362b9dd08689d1",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عُبث بالبطاقة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La tarjeta ha sido manipulada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La carte a été falsifiée.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Карточка была подделана.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "卡片已被篡改。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.scenario",
+   "msgid": "There is no automatic match for the foreign vaccine.",
+   "hash": "bcbfb738b5ddac19",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا توجد مطابقة تلقائية للقاح الأجنبي.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No hay una correspondencia automática para la vacuna extranjera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il n’existe aucune correspondance automatique pour le vaccin étranger.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для иностранной вакцины нет автоматического соответствия.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "外国疫苗没有自动匹配项。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "Lomaru District Health Center",
+   "hash": "b79674df7fcc70fd",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المركز الصحي لمنطقة لومارو",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Centro de Salud de Distrito de Lomaru",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Centre de santé du district de Lomaru",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Районный медицинский центр Ломару",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "洛马鲁区卫生中心",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "views.label",
+   "msgid": "J3",
+   "hash": "750bc4b37fabf94a",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Lomaru District Health Center",
+   "hash": "aff1ea43992a9e49",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المركز الصحي لمنطقة لومارو",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Centro de Salud de Distrito de Lomaru",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Centre de santé du district de Lomaru",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Районный медицинский центр Ломару",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "洛马鲁区卫生中心",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Overdue 6-week doses given",
+   "hash": "3567d8153d847b60",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُعطيت جرعات عمر 6 أسابيع المتأخرة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dosis atrasadas de las 6 semanas administradas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Doses de 6 semaines en retard administrées",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Введены просроченные дозы, положенные в 6 недель",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已接种逾期的 6 周龄剂次",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "T0 + 10 weeks",
+   "hash": "96e46d3028a95e9d",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "T0 + 10 أسابيع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "T0 + 10 semanas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "T0 + 10 semaines",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "T0 + 10 недель",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "T0 + 10 周",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "J3 — A foreign record used for the next vaccine",
+   "hash": "7a142a07e263aa71",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3 — سجل أجنبي يُستخدم للقاح التالي",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3 — Un registro extranjero usado para la siguiente vacuna",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3 — Un dossier étranger utilisé pour le vaccin suivant",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3 — Иностранная запись используется для следующей прививки",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3 — 外国记录用于下一次接种",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "Somsak is 10 weeks old",
+   "hash": "a89ebc7b32c0b307",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمر Somsak 10 أسابيع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Somsak tiene 10 semanas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Somsak a 10 semaines",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Somsak исполнилось 10 недель",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak 10 周大",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesa schedule.",
+   "hash": "8d43c26c3b30dfad",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ممرضةٌ تتحقق من أن البطاقات أصلية وتُدرج جرعات Taifafeki في جدول التطعيم في Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una enfermera verifica que las tarjetas son auténticas e incorpora las dosis de Taifafeki al calendario de Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une infirmière vérifie que les cartes sont authentiques et intègre les doses de Taifafeki au calendrier du pays Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра проверяет подлинность карточек и вписывает дозы из страны Taifafeki в график страны Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一名护士验证卡片为真，并将 Taifafeki 的剂次纳入 Onesa 接种计划。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "On the Onesa schedule",
+   "hash": "24d525a275f5cd07",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "على جدول التطعيم في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En el calendario de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Intégré au calendrier du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В графике страны Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已纳入 Onesa 接种计划",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due.",
+   "hash": "2c971353b36ac60a",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُحتفَظ بالرمز الأصلي الصادر عن Taifafeki ويُضاف رمز Onesa إلى جانبه؛ ويحسب محرّك جدول التطعيم ما هو مستحق.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se conserva el código original de Taifafeki y se añade el código de Onesa junto a él; el motor del calendario calcula qué dosis corresponden.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code d’origine de Taifafeki est conservé et le code du pays Onesa est ajouté à côté ; le moteur de calendrier calcule ce qui est dû.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Исходный код из страны Taifafeki сохраняется, а код страны Onesa добавляется рядом; механизм графика рассчитывает, какие дозы положены.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "保留来自 Taifafeki 的原始代码，并在其旁边添加 Onesa 代码；接种计划引擎计算出到期的剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally.",
+   "hash": "16fdb6712ffe4116",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفتاح التوقيع الخاص بدولة Taifafeki مُدرَج في قائمة الثقة المشتركة لمنظمة الصحة العالمية (WHO)، لذا يمكن لأي عيادة التحقق منه محليًا.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La clave de firma de Taifafeki figura en la lista de confianza compartida de la OMS, por lo que cualquier clínica puede comprobarla localmente.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La clé de signature de Taifafeki figure sur la liste de confiance partagée de l’OMS, de sorte que toute clinique peut la vérifier localement.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ключ подписи страны Taifafeki находится в общем списке доверия ВОЗ, поэтому любая клиника может проверить его локально.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 的签名密钥在共享的 WHO 信任列表上，因此任何诊所都可以在本地核验。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Confirms the Taifafeki product equals the birth dose on the Onesa schedule; gives the overdue 6-week vaccines.",
+   "hash": "4d6daa413a2c5029",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تؤكد أن منتج Taifafeki يعادل جرعة الولادة في جدول التطعيم في Onesa؛ وتعطي لقاحات الأسبوع السادس المتأخرة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Confirma que el producto de Taifafeki equivale a la dosis al nacer del calendario de Onesa; administra las vacunas atrasadas de las 6 semanas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Confirme que le produit de Taifafeki correspond à la dose à la naissance du calendrier du pays Onesa ; administre les vaccins de 6 semaines en retard.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подтверждает, что продукт из страны Taifafeki соответствует дозе при рождении по графику страны Onesa; вводит просроченные прививки, положенные в 6 недель.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "确认 Taifafeki 的产品即 Onesa 接种计划中的出生剂次；接种逾期的 6 周龄疫苗。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Onesa EPI code added; PreQual code kept",
+   "hash": "c7b63c15e2034f06",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُضيف رمز EPI الخاص بدولة Onesa؛ وأُبقي على رمز PreQual",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Código EPI de Onesa añadido; código PreQual conservado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Code EPI du pays Onesa ajouté ; code PreQual conservé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавлен код EPI страны Onesa; код PreQual сохранён",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已添加 Onesa EPI 代码；保留 PreQual 代码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "Anyone who later doubts a dose can follow it back to the signed certificate and the key of Taifafeki.",
+   "hash": "eb8385ec5dd5ec7b",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمكن لأي شخص يشكّ لاحقًا في جرعةٍ ما أن يتتبّعها إلى الشهادة الموقَّعة ومفتاح Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cualquiera que más adelante dude de una dosis puede rastrearla hasta el certificado firmado y la clave de Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Quiconque doute ultérieurement d’une dose peut remonter jusqu’au certificat signé et à la clé de Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Любой, кто впоследствии усомнится в дозе, может проследить её до подписанного сертификата и ключа страны Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "日后任何人对某一剂次有疑问，都可以沿着它追溯到已签名的证书和 Taifafeki 的密钥。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "The map of Onesa from vaccine products to its own schedule; a product with no mapping goes to the nurse.",
+   "hash": "24b5de66cd8bbdd5",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خريطة Onesa لمطابقة منتجات اللقاحات مع جدولها الخاص؛ والمنتج الذي لا مطابقة له يُحال إلى الممرضة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El mapa de Onesa entre los productos de vacuna y su propio calendario; un producto sin correspondencia pasa a la enfermera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La table de correspondance du pays Onesa entre les produits vaccinaux et son propre calendrier ; un produit sans correspondance est soumis à l’infirmière.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Таблица соответствия страны Onesa между вакцинными продуктами и её собственным графиком; продукт без соответствия передаётся медсестре.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 从疫苗产品到其自身接种计划的映射；没有映射的产品交由护士判断。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "The Onesa schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones.",
+   "hash": "5a0342034980287a",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يحدّد جدول التطعيم في Onesa ‏(PlanDefinition) أن جرعات عمر 6 أسابيع متأخرة، فتُعطى الآن؛ ويعيده التذكير إلى العيادة لتلقي الجرعات التالية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El calendario de Onesa (PlanDefinition) determina que las dosis de las 6 semanas están atrasadas, así que se administran en ese momento; el recordatorio hace que vuelva para las siguientes.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le calendrier du pays Onesa (PlanDefinition) constate que les doses de 6 semaines sont en retard, si bien qu’elles sont administrées maintenant ; le rappel le fait revenir pour les suivantes.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "График страны Onesa (PlanDefinition) определяет, что дозы, положенные в 6 недель, просрочены, поэтому их вводят сейчас; напоминание приводит его обратно за следующими.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 接种计划（PlanDefinition）发现 6 周龄剂次已逾期，因此现在接种；提醒让他按时回来接种下一批剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "The Onesa schedule runs on Onesa EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten.",
+   "hash": "3a7ba95a24a13e60",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعمل جدول التطعيم في Onesa برموز EPI الخاصة بدولة Onesa، لذا يلزم وجود رمز منها؛ ويبقى رمز المنتج الصادر عن Taifafeki إلى جانبه، ولا يُستبدَل أبدًا.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El calendario de Onesa funciona con códigos EPI de Onesa, por lo que se necesita uno; el código de producto de Taifafeki permanece junto a él, nunca se sobrescribe.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le calendrier du pays Onesa fonctionne avec les codes EPI du pays Onesa, un tel code est donc obligatoire ; le code de produit de Taifafeki reste à côté, jamais écrasé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "График страны Onesa работает на кодах EPI страны Onesa, поэтому такой код обязателен; код продукта из страны Taifafeki остаётся рядом и никогда не перезаписывается.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 接种计划基于 Onesa EPI 代码运行，因此必须有一个；Taifafeki 产品代码保留在其旁边，绝不覆盖。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "Somsak continues on the Onesa schedule for a year",
+   "hash": "99c3eea851765931",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يواصل Somsak على جدول التطعيم في Onesa لمدة عام",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Somsak sigue el calendario de Onesa durante un año",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Somsak poursuit le calendrier du pays Onesa pendant un an",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Somsak продолжает вакцинацию по графику страны Onesa в течение года",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak 在一年内继续按 Onesa 接种计划接种",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Nurse Chanthason scans the card, and her tablet checks the digital signature from Taifafeki against the WHO trust list — without contacting Taifafeki.",
+   "hash": "312d5824d2943958",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح الممرضة Chanthason البطاقة ضوئيًا، فيتحقق جهازها اللوحي من التوقيع الرقمي الصادر عن Taifafeki مقابل قائمة الثقة لمنظمة الصحة العالمية (WHO) — دون التواصل مع Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La enfermera Chanthason escanea la tarjeta y su tableta comprueba la firma digital de Taifafeki contra la lista de confianza de la OMS — sin contactar con Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’infirmière Chanthason scanne la carte, et sa tablette vérifie la signature numérique de Taifafeki par rapport à la liste de confiance de l’OMS — sans contacter Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медсестра Chanthason сканирует карточку, и её планшет проверяет цифровую подпись из страны Taifafeki по списку доверия ВОЗ — не обращаясь к стране Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Chanthason 护士扫描卡片，她的平板电脑对照 WHO 信任列表核查来自 Taifafeki 的数字签名——无需联系 Taifafeki。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "The Taifafeki Hep B product doesn’t match anything on the Onesa schedule. Chanthason makes the clinical call, and the system works out what’s due next.",
+   "hash": "9738d707769be650",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يطابق منتج Hep B من Taifafeki أي شيء في جدول التطعيم في Onesa. تتخذ Chanthason القرار السريري، ويحدّد النظام ما هو مستحق بعد ذلك.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El producto de Taifafeki contra la Hep B no coincide con nada del calendario de Onesa. Chanthason toma la decisión clínica y el sistema calcula qué corresponde a continuación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le produit Hep B de Taifafeki ne correspond à rien dans le calendrier du pays Onesa. Chanthason prend la décision clinique, et le système détermine ce qui est dû ensuite.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Продукт Hep B из страны Taifafeki не соответствует ничему в графике страны Onesa. Chanthason принимает клиническое решение, а система рассчитывает, какие дозы положены дальше.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 的 Hep B 产品与 Onesa 接种计划中的任何条目都不匹配。Chanthason 作出临床判断，系统计算出下一步到期的剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesa schedule; Khamla and Bounmy hold Somsak",
+   "hash": "2d075b7022664d4b",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في المركز الصحي للمنطقة، تفحص الممرضة Chanthason البطاقات على جهاز لوحي: التوقيع مُتحقَّق منه، على جدول التطعيم في Onesa؛ وتحمل Khamla و Bounmy الطفل Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En el centro de salud del distrito, la enfermera Chanthason comprueba las tarjetas en una tableta: firma verificada, en el calendario de Onesa; Khamla y Bounmy sostienen a Somsak",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au centre de santé de district, l’infirmière Chanthason vérifie les cartes sur une tablette : signature vérifiée, intégré au calendrier du pays Onesa ; Khamla et Bounmy tiennent Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В районном медицинском центре медсестра Chanthason проверяет карточки на планшете: подпись проверена, по графику страны Onesa; Khamla и Bounmy держат Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在区卫生中心，Chanthason 护士在平板电脑上核查卡片：签名已验证，已纳入 Onesa 接种计划；Khamla 和 Bounmy 抱着 Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "The Taifafeki Hep B product matches nothing on the national schedule.\nThe EHR keeps the product coding of Taifafeki and adds the schedule coding beside\nit, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\nthe map has no entry, so Nurse Chanthason makes the clinical call that it is\nthe schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\nadded to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\nthen runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\nChanthason gives them that day. Khamla leaves with the date of the next doses\n(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\nmeasles-rubella at 9 months, in Onesa.\n",
+   "hash": "af60282bf1284489",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يطابق منتج Hep B من Taifafeki أي شيء في جدول التطعيم الوطني.\nيحتفظ EHR بترميز المنتج الصادر عن Taifafeki ويضيف ترميز الجدول إلى جانبه،\nمن الخريطة الوطنية (`TrustDemoProductToOnesaEpi`). وبما أن الخريطة لا تتضمن مدخلًا\nلمنتج Hep B، تتخذ الممرضة Chanthason القرار السريري بأنه\nجرعة الولادة في الجدول (`TrustDemoJ3Adjudication`)، ويُضاف قرارها\nإلى الخريطة لصالح العيادة التالية. ثم يُشغَّل الجدول (`TrustDemoOnesaInfantSchedule`):\nفتُحتسب جرعات الولادة، أما الجرعة 1 من اللقاح الخماسي و bOPV 1 و PCV 1، المستحقة\nعند عمر 6 أسابيع، فهي متأخرة عند عمر 10 أسابيع (`TrustDemoJ3Recommendation`)، لذا تعطيها الممرضة\nChanthason في اليوم نفسه. وتغادر Khamla ومعها موعد الجرعات التالية\n(`TrustDemoJ3Reminder`). وعلى مدار العام يتلقى Somsak بقية جرعاته\nولقاح الحصبة والحصبة الألمانية في عمر 9 أشهر، في Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1, que corresponden a las 6 semanas, están atrasadas a las 10 semanas\n(`TrustDemoJ3Recommendation`), así que la enfermera Chanthason las administra ese mismo día.\nKhamla se va con la fecha de las siguientes dosis (`TrustDemoJ3Reminder`). A lo largo del\naño, Somsak recibe el resto de sus dosis y la vacuna contra el sarampión y la rubéola a los\n9 meses, en Onesa.\n",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le produit Hep B de Taifafeki ne correspond à rien dans le calendrier national.\nLe DSE conserve le codage de produit de Taifafeki et ajoute à côté le codage du calendrier,\nà partir de la table de correspondance nationale (`TrustDemoProductToOnesaEpi`). Pour le produit\nHep B, la table n’a pas d’entrée ; l’infirmière Chanthason prend donc la décision clinique qu’il\ns’agit de la dose à la naissance du calendrier (`TrustDemoJ3Adjudication`), et sa décision est\najoutée à la table pour la clinique suivante. Le calendrier (`TrustDemoOnesaInfantSchedule`)\ns’exécute alors : les doses à la naissance comptent, et les 1res doses de pentavalent, de bOPV et\nde PCV, dues à 6 semaines, sont en retard à 10 semaines (`TrustDemoJ3Recommendation`) ; l’infirmière\nChanthason les administre donc le jour même. Khamla repart avec la date des prochaines doses\n(`TrustDemoJ3Reminder`). Au cours de l’année, Somsak reçoit le reste de ses doses ainsi que le vaccin\ncontre la rougeole et la rubéole à 9 mois, à Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Продукт Hep B из страны Taifafeki не соответствует ничему в национальном графике.\nEHR сохраняет кодировку продукта страны Taifafeki и добавляет рядом кодировку графика\nиз национальной таблицы соответствия (`TrustDemoProductToOnesaEpi`). Для продукта Hep B\nв таблице нет записи, поэтому медсестра Chanthason принимает клиническое решение о том, что это\nдоза при рождении по графику (`TrustDemoJ3Adjudication`), и её решение\nдобавляется в таблицу для следующей клиники. Затем применяется график (`TrustDemoOnesaInfantSchedule`):\nдозы при рождении засчитываются, а пентавалентная 1, bOPV 1 и PCV 1, положенные\nв 6 недель, в 10 недель оказываются просроченными (`TrustDemoJ3Recommendation`), поэтому медсестра\nChanthason вводит их в тот же день. Khamla уходит с датой следующих доз\n(`TrustDemoJ3Reminder`). В течение года Somsak получает остальные дозы и\nвакцину против кори и краснухи в 9 месяцев — в стране Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 的 Hep B 产品与国家接种计划中的任何条目都不匹配。EHR 保留 Taifafeki 的产品编码，并根据国家映射表（`TrustDemoProductToOnesaEpi`）在其旁边添加接种计划编码。对于该 Hep B 产品，映射表中没有条目，因此 Chanthason 护士作出临床判断，认定它是接种计划中的出生剂次（`TrustDemoJ3Adjudication`），她的决定被加入映射表，供下一家诊所使用。随后接种计划（`TrustDemoOnesaInfantSchedule`）开始运行：出生剂次计入，五联疫苗第 1 剂、bOPV 第 1 剂和 PCV 第 1 剂应在 6 周龄时接种，到 10 周龄时已逾期（`TrustDemoJ3Recommendation`），因此 Chanthason 护士当天为他接种。Khamla 带着下一批剂次的日期离开（`TrustDemoJ3Reminder`）。在这一年里，Somsak 在 Onesa 接种了其余剂次，并在 9 月龄时接种麻疹-风疹疫苗。\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki.",
+   "hash": "6f16c3752a602039",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الثقة لا مركزية: تتحقق عيادة في Onesa بنفسها من توقيع صادر عن Taifafeki، دون التواصل مع Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La confianza está descentralizada: una clínica de Onesa verifica por sí misma una firma de Taifafeki, sin contactar con Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La confiance est décentralisée : une clinique à Onesa vérifie elle-même une signature de Taifafeki, sans contacter Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доверие децентрализовано: клиника в стране Onesa сама проверяет подпись из страны Taifafeki, не обращаясь к стране Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "信任是去中心化的：Onesa 的诊所自行验证来自 Taifafeki 的签名，无需联系 Taifafeki。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Onesa national health records",
+   "hash": "92ee6aa3f5b58d8c",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السجلات الصحية الوطنية في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registros nacionales de salud de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dossiers de santé nationaux du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Национальные медицинские записи страны Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 国家卫生记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.technicalSummary",
+   "msgid": "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesa schedule. Computable schedule logic then works out what’s due next.",
+   "hash": "54ed0d0ccf6a7d30",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تترجم رموز منظمة الصحة العالمية (WHO) المشتركة ومورد ConceptMap في FHIR لقاحات Taifafeki إلى جدول التطعيم في Onesa. ثم يحدّد منطق الجدول القابل للحوسبة ما هو مستحق بعد ذلك.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los códigos compartidos de la OMS y un ConceptMap de FHIR traducen las vacunas de Taifafeki al calendario de Onesa. Después, una lógica computable del calendario calcula qué corresponde a continuación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Des codes OMS partagés et une ConceptMap FHIR traduisent les vaccins de Taifafeki dans le calendrier du pays Onesa. Une logique de calendrier calculable détermine ensuite ce qui est dû.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Общие коды ВОЗ и FHIR ConceptMap переводят вакцины из страны Taifafeki в график страны Onesa. Затем вычислимая логика графика рассчитывает, какие дозы положены дальше.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "共享的 WHO 代码和 FHIR ConceptMap 将 Taifafeki 疫苗转换到 Onesa 接种计划。随后，可计算的接种计划逻辑计算出下一步到期的剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.technicalSummary",
+   "msgid": "The clinic checks the signature from Taifafeki against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki.",
+   "hash": "1627c11cadd5a5da",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتحقق العيادة من التوقيع الصادر عن Taifafeki مقابل قائمة الثقة لمنظمة الصحة العالمية (WHO)، المخزَّنة محليًا. فحص واحد يحوّل بطاقة ورقية أجنبية إلى بيانات سريرية موثوقة، دون أي اتصال مع Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La clínica comprueba la firma de Taifafeki contra la lista de confianza de la OMS, almacenada localmente. Una sola comprobación convierte una tarjeta extranjera en papel en datos clínicos de confianza, sin llamar a Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La clinique vérifie la signature de Taifafeki par rapport à la liste de confiance de l’OMS, stockée localement. Une seule vérification transforme une carte papier étrangère en données cliniques fiables, sans appel à Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клиника проверяет подпись страны Taifafeki по списку доверия ВОЗ, хранящемуся локально. Одна проверка превращает иностранную бумажную карточку в доверенные клинические данные — без обращения к стране Taifafeki.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "诊所对照存储在本地的 WHO 信任列表核查来自 Taifafeki 的签名。一次核查就能把一张外国纸质卡片变成可信的临床数据，无需联系 Taifafeki。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "Taifafeki vaccines are fitted to the Onesa schedule",
+   "hash": "bef148cc8592fdee",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُدرَج لقاحات Taifafeki في جدول التطعيم في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las vacunas de Taifafeki se incorporan al calendario de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les vaccins de Taifafeki sont intégrés au calendrier du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вакцины из страны Taifafeki вписываются в график страны Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 疫苗被纳入 Onesa 接种计划",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "PreQual product → WHO vaccine type → Onesa EPI code",
+   "hash": "3b4f97e351ecca9a",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منتج PreQual → نوع اللقاح لدى منظمة الصحة العالمية (WHO) → رمز EPI في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Producto PreQual → tipo de vacuna de la OMS → código EPI de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Produit PreQual → type de vaccin de l’OMS → code EPI du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Продукт PreQual → тип вакцины ВОЗ → код EPI страны Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "PreQual 产品 → WHO 疫苗类型 → Onesa EPI 代码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Schedule logic of Onesa finds the 6-week doses overdue",
+   "hash": "b744e1401c77cbb6",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجد منطق جدول التطعيم في Onesa أن جرعات عمر 6 أسابيع متأخرة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La lógica del calendario de Onesa determina que las dosis de las 6 semanas están atrasadas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La logique du calendrier du pays Onesa constate que les doses de 6 semaines sont en retard",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Логика графика страны Onesa определяет, что дозы, положенные в 6 недель, просрочены",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的接种计划逻辑发现 6 周龄剂次已逾期",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Supplies the public key of Taifafeki (downloaded in advance)",
+   "hash": "64a241a17335dc19",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يوفّر المفتاح العمومي لدولة Taifafeki (المُنزَّل مسبقًا)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Proporciona la clave pública de Taifafeki (descargada con antelación)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fournit la clé publique de Taifafeki (téléchargée à l’avance)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предоставляет открытый ключ страны Taifafeki (загруженный заранее)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提供 Taifafeki 的公钥（事先下载）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Verified doses from Taifafeki, with their Provenance, count toward coverage reports in Onesa",
+   "hash": "7d2305738b6c1dd9",
+   "sources": [
+    "scenarios/user-scenarios/j3-made-official.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُحتسب الجرعات المُتحقَّق منها القادمة من Taifafeki، مع Provenance الخاص بها، ضمن تقارير التغطية في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las dosis de Taifafeki verificadas, con su Provenance, cuentan para los informes de cobertura de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les doses de Taifafeki vérifiées, avec leur Provenance, sont prises en compte dans les rapports de couverture du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверенные дозы из страны Taifafeki вместе с их Provenance учитываются в отчётах об охвате в стране Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来自 Taifafeki 的已验证剂次连同其 Provenance 计入 Onesa 的覆盖率报告",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

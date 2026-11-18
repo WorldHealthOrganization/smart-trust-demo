@@ -1,0 +1,1539 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "navbar",
+ "hashes": {
+  "ar": "61ef283c0591597b",
+  "es": "e6b79b698046ba81",
+  "fr": "ab44f2f13d4144bd",
+  "ru": "389830302c5c1039",
+  "zh": "6d47f673ea167644"
+ },
+ "strings": [
+  {
+   "msgid": "App Platform Proposal",
+   "hash": "e43f4f57e930f109",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقترح منصة التطبيقات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Propuesta de plataforma de aplicaciones",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Proposition de plateforme applicative",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предложение по платформе приложений",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "应用平台提案",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Architecture (ArchiMate)",
+   "hash": "75dde71d90806fa3",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البنية (ArchiMate)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Arquitectura (ArchiMate)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Architecture (ArchiMate)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Архитектура (ArchiMate)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "架构（ArchiMate）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Artifact Index",
+   "hash": "233eee39fdb12e3e",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فهرس المصنوعات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Índice de artefactos",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Index des artefacts",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Указатель артефактов",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "制品索引",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Business Processes",
+   "hash": "3682fb97a24e4ddb",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمليات العمل",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Procesos de negocio",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Processus métier",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-процессы",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "业务流程",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Business Requirements",
+   "hash": "62e004ea9924b8c2",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "متطلبات العمل",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos empresariales",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences métier",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бизнес-требования",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "业务需求",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Changes",
+   "hash": "53e55a64879f5719",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التغييرات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cambios",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Modifications",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Изменения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "变更",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data Dictionary",
+   "hash": "63a4d10a54517ff5",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قاموس البيانات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Diccionario de datos",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dictionnaire de données",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Словарь данных",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据字典",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data Models and Exchange",
+   "hash": "b9b44e25b702d366",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نماذج البيانات وتبادلها",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Modelos de datos e intercambio",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Modèles de données et échange",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Модели данных и обмен",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据模型与交换",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Decision-support Logic",
+   "hash": "639660a05c5dbdad",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منطق دعم القرار",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lógica de apoyo a la toma de decisiones",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Logique d’aide à la décision",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Логика поддержки принятия решений",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "决策支持逻辑",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Dependency Register",
+   "hash": "42801548a8ba46e4",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سجل التبعيات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registro de dependencias",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Registre des dépendances",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Реестр зависимостей",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "依赖登记表",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Drag to widen or narrow the navigation",
+   "hash": "e102b7df1b706167",
+   "sources": [
+    "cat-harness-tools/scripts/lib/navbar-strings.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اسحب لتوسيع شريط التنقل أو تضييقه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Arrastre para ensanchar o estrechar la navegación",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Faire glisser pour élargir ou rétrécir la navigation",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перетащите, чтобы расширить или сузить панель навигации",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "拖动以加宽或缩窄导航栏",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Fictional Countries",
+   "hash": "7b9b68e3b895b3bc",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بلدان خيالية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Países ficticios",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pays fictifs",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вымышленные страны",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "虚构国家",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Folders",
+   "hash": "336840a71b5e8c1c",
+   "sources": [
+    "cat-harness-tools/scripts/lib/navbar-strings.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المجلدات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Carpetas",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dossiers",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Папки",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "文件夹",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Functional Requirements",
+   "hash": "e4bbd6d9651ef1cc",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات الوظيفية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos funcionales",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences fonctionnelles",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Функциональные требования",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "功能性需求",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Generic Personas",
+   "hash": "0b2b3e9af9bdd0be",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الشخصيات الافتراضية العامة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Personas (perfiles) genéricas",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Personas génériques",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обобщённые персоны",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通用人物画像",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Harnesses",
+   "hash": "2bd59fe4471255fd",
+   "sources": [
+    "cat-harness-tools/scripts/lib/navbar-strings.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأطر (Harnesses)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Marcos (harnesses)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cadres (harnesses)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каркасы (harnesses)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工具框架",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Home",
+   "hash": "d53cd9a8009e07e8",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرئيسية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Inicio",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Accueil",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Главная",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "首页",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Indicators and Performance Metrics",
+   "hash": "2ed8c65414bd6582",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المؤشرات ومقاييس الأداء",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Indicadores y métricas de desempeño",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Indicateurs et mesures de performance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Индикаторы и показатели эффективности",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指标和绩效衡量标准",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Indices",
+   "hash": "36ff503812e833c5",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الفهارس",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Índices",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Index",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Указатели",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "索引",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journey Examples",
+   "hash": "dfd0c781b9b90376",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أمثلة الرحلات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ejemplos de los recorridos",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exemples des parcours",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Примеры путей",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程示例",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journeys J1 to J4",
+   "hash": "4cc6ccd6470f1160",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرحلات J1 إلى J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorridos J1 a J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parcours J1 à J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пути J1–J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程 J1 至 J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "On this page",
+   "hash": "3eaf2267edd897d6",
+   "sources": [
+    "cat-harness-tools/scripts/lib/navbar-strings.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في هذه الصفحة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En esta página",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sur cette page",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "На этой странице",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本页内容",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Open or close navigation",
+   "hash": "61b1c7b02e2d6e97",
+   "sources": [
+    "cat-harness-tools/scripts/lib/navbar-strings.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فتح شريط التنقل أو إغلاقه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Abrir o cerrar la navegación",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ouvrir ou fermer la navigation",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Открыть или закрыть навигацию",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "打开或关闭导航栏",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pages",
+   "hash": "b5e631bf27d792fc",
+   "sources": [
+    "cat-harness-tools/scripts/lib/navbar-strings.ts"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الصفحات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Páginas",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pages",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страницы",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "页面",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Plan",
+   "hash": "865912319705bb13",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Plan",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Plan",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "План",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "计划",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Project",
+   "hash": "47854ee18e01e389",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المشروع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Proyecto",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Projet",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проект",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "项目",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "SMART Trust demonstrator: journeys J1 to J4",
+   "hash": "5297937a38a449c5",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النموذج التوضيحي لـ SMART Trust: الرحلات J1 إلى J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Demostrador de SMART Trust: recorridos J1 a J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Démonstrateur SMART Trust : parcours J1 à J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Демонстратор SMART Trust: пути J1–J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "SMART Trust 演示项目：旅程 J1 至 J4",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Summary",
+   "hash": "33d2953076ca7aaa",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الملخص",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résumé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Резюме",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "摘要",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "System Actors",
+   "hash": "111a46b305e3b13c",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهات الفاعلة النظامية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Actores del sistema",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Acteurs système",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Системные акторы",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "系统参与者",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Releases",
+   "hash": "9a0c70ac439515ba",
+   "sources": [
+    "IG",
+    "build"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإصدارات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Versiones",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Versions",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Выпуски",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "版本发布",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Table of Contents",
+   "hash": "0bacbbc6565ad457",
+   "sources": [
+    "IG",
+    "build"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جدول المحتويات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tabla de contenidos",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Table des matières",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Содержание",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Upstream Issue (smart-trust-phw)",
+   "hash": "9bef8c36dfeda17b",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسألة في المصدر الأصلي (smart-trust-phw)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Incidencia aguas arriba (smart-trust-phw)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ticket en amont (smart-trust-phw)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Задача в вышестоящем проекте (smart-trust-phw)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "上游问题（smart-trust-phw）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "User Scenarios",
+   "hash": "d25d4b920e3a216b",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenarios de usuario",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénarios utilisateur",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Country Canvas",
+   "hash": "1931a7a75bde1b5e",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لوحة البلد",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lienzo del país",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Canevas pays",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Полотно страны",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家画布",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Glossary",
+   "hash": "ca91434622e29e1e",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المسرد",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Glosario",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Glossaire",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Глоссарий",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "术语表",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Module × Journey Map",
+   "hash": "eb2f313779e6b9a4",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خريطة الوحدات × الرحلات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Mapa de módulos × recorridos",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Carte modules × parcours",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Карта «модуль × путь»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "模块 × 旅程对照图",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Narrative Discrepancies",
+   "hash": "cfc739fb3f6ad13f",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تباينات السرد",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Discrepancias narrativas",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Divergences entre les récits",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Расхождения в повествовании",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "叙事差异",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Technical Track and Demo App Changes",
+   "hash": "31826b94559c2a52",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تغييرات المسار التقني وتطبيق العرض التوضيحي",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cambios en el itinerario técnico y en la aplicación de demostración",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Modifications du volet technique et de l’application de démonstration",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Изменения технического направления и демонстрационного приложения",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "技术轨道与演示应用变更",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Workshop",
+   "hash": "b40e20eee4d8b93c",
+   "sources": [
+    "sushi-config.yaml"
+   ],
+   "locales": {
+    "ar": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

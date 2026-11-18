@@ -1,0 +1,991 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "processes/j4-1-vhl-point-of-care",
+ "hashes": {
+  "ar": "dc1eb69c97f054ee",
+  "es": "22285d8ce06bc709",
+  "fr": "3e58553aab474dca",
+  "ru": "d9b5af54a131d4f9",
+  "zh": "c9a4de10dbf11336"
+ },
+ "strings": [
+  {
+   "msgid": "A child of the family needs care abroad",
+   "hash": "0d991d3bd590582b",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طفل من الأسرة يحتاج إلى رعاية في الخارج",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un niño de la familia necesita atención en el extranjero",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un enfant de la famille a besoin de soins à l’étranger",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ребёнку из семьи нужна медицинская помощь за границей",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家中孩子在境外需要就医",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Caregiver",
+   "hash": "7eecebb3e23724ed",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuidador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aidant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лицо, осуществляющее уход",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "照护者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Decrypt the IPS and DVCs",
+   "hash": "136b33ca856109ff",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فك تشفير ملخص المريض الدولي (IPS) وشهادات DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Descifrar el IPS y los DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Déchiffrer l’IPS et les DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Расшифровать IPS и DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "解密 IPS 和 DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Family phone",
+   "hash": "e9fff053f4e09533",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هاتف الأسرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Teléfono familiar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Téléphone familial",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семейный телефон",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家庭手机",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "HCERT verified?",
+   "hash": "7e7183faea0f0fed",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هل تم التحقق من HCERT؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿HCERT verificado?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HCERT vérifié ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HCERT проверен?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HCERT 已验证？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.1 Read a family member&#x27;s records at the point of care abroad",
+   "hash": "e82b0e40f48886e6",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.1 قراءة سجلات فرد من الأسرة في نقطة تقديم الرعاية في الخارج",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.1 Leer los registros de un miembro de la familia en el punto de atención en el extranjero",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.1 Consulter les dossiers d&#x27;un membre de la famille au point de soins à l&#x27;étranger",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.1 Прочитать записи члена семьи в месте оказания помощи за границей",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.1 在境外医疗服务点读取家庭成员的记录",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.1. Abroad, a child of the family needs care. The caregiver, the VHL Holder (IHE ITI VHL; Holder in SMART Trust and smart-trust-phw, requirement provide-a-vhl-to-a-receiver), opens her QR on the family phone and tells the passcode. The hospital system, a VHL Receiver (Receiver in SMART Trust and smart-trust-phw), verifies the HCERT against the GDHCN trust list, requests the manifest by ITI-YY5 with an HTTP Message Signature (STT-VHL-005, STT-VHL-006, STT-VHL-008) and decrypts the documents (STT-VHL-007). Country B&#x27;s portal checks the passcode, returns the manifest and logs every request, granted or refused, as an AuditEvent at home (IHE BALP). If the HCERT does not verify, there is no digital verification: the VHL is not followed and the records are treated like paper. As in J3, loading the DID documents is a PRECONDITION of this visit, not a step in it: the hospital verifies against its cached copy of the trust list and needs no connection to do so. It refreshes that cache nightly or hourly, where an offline site such as the J3 clinic refreshes about weekly.",
+   "hash": "2a0501bd0cda782f",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.1. في الخارج، يحتاج طفل من الأسرة إلى رعاية. تفتح مقدِّمة الرعاية، حاملة VHL (IHE ITI VHL؛ الحامل في SMART Trust وsmart-trust-phw، المتطلب provide-a-vhl-to-a-receiver)، رمز QR الخاص بها على هاتف الأسرة وتنطق رمز المرور. ويتحقق نظام المستشفى، بصفته جهة مُستقبِلة لـ VHL (الجهة المُستقبِلة في SMART Trust وsmart-trust-phw)، من HCERT مقابل قائمة الثقة في GDHCN، ويطلب البيان عبر ITI-YY5 مع توقيع رسالة HTTP (STT-VHL-005، STT-VHL-006، STT-VHL-008) ويفك تشفير المستندات (STT-VHL-007). وتتحقق بوابة البلد B من رمز المرور، وتعيد البيان، وتسجّل كل طلب، مقبولاً كان أو مرفوضاً، بوصفه AuditEvent في البلد الأم (IHE BALP). وإذا لم يجتز HCERT التحقق، فلا يوجد تحقق رقمي: لا يُتَّبع رابط VHL وتُعامَل السجلات معاملة السجلات الورقية. وكما في J3، فإن تحميل وثائق DID شرط مسبق (PRECONDITION) لهذه الزيارة، وليس خطوة فيها: يتحقق المستشفى مقابل نسخته المخزّنة مؤقتاً من قائمة الثقة ولا يحتاج إلى اتصال لذلك. ويحدّث تلك النسخة كل ليلة أو كل ساعة، في حين يحدّثها موقع غير متصل مثل عيادة J3 أسبوعياً تقريباً.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.1. En el extranjero, un niño de la familia necesita atención. La cuidadora, Titular VHL (IHE ITI VHL; Titular en SMART Trust y smart-trust-phw, requisito provide-a-vhl-to-a-receiver), abre su QR en el teléfono familiar y dice el código de acceso. El sistema del hospital, Receptor VHL (Receptor en SMART Trust y smart-trust-phw), verifica el HCERT contra la lista de confianza de la GDHCN, solicita el manifiesto mediante ITI-YY5 con una HTTP Message Signature (STT-VHL-005, STT-VHL-006, STT-VHL-008) y descifra los documentos (STT-VHL-007). El portal del País B comprueba el código de acceso, devuelve el manifiesto y registra cada solicitud, concedida o rechazada, como un AuditEvent en el país de residencia (IHE BALP). Si el HCERT no se verifica, no hay verificación digital: no se sigue el VHL y los registros se tratan como si fueran en papel. Como en J3, cargar los documentos DID es una PRECONDICIÓN de esta visita, no un paso de ella: el hospital verifica contra su copia en caché de la lista de confianza y no necesita conexión para hacerlo. Actualiza esa caché cada noche o cada hora, mientras que un sitio sin conexión, como la clínica de J3, la actualiza aproximadamente cada semana.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.1. À l&#x27;étranger, un enfant de la famille a besoin de soins. L&#x27;aidante, VHL Holder (IHE ITI VHL ; titulaire dans SMART Trust et smart-trust-phw, exigence provide-a-vhl-to-a-receiver), ouvre son code QR sur le téléphone familial et communique le code d&#x27;accès. Le système de l&#x27;hôpital, VHL Receiver (destinataire dans SMART Trust et smart-trust-phw), vérifie le HCERT par rapport à la liste de confiance du GDHCN, demande le manifeste par ITI-YY5 avec une HTTP Message Signature (STT-VHL-005, STT-VHL-006, STT-VHL-008) et déchiffre les documents (STT-VHL-007). Le portail du Pays B vérifie le code d&#x27;accès, renvoie le manifeste et journalise chaque demande, accordée ou refusée, sous forme d&#x27;AuditEvent dans le pays d&#x27;origine (IHE BALP). Si le HCERT n&#x27;est pas vérifié, il n&#x27;y a pas de vérification numérique : le VHL n&#x27;est pas suivi et les dossiers sont traités comme des documents papier. Comme dans J3, le chargement des documents DID est une CONDITION PRÉALABLE à cette visite, et non une de ses étapes : l&#x27;hôpital vérifie par rapport à sa copie en cache de la liste de confiance et n&#x27;a besoin d&#x27;aucune connexion pour ce faire. Il actualise ce cache chaque nuit ou chaque heure, alors qu&#x27;un site hors ligne comme la clinique de J3 l&#x27;actualise environ une fois par semaine.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.1. За границей ребёнку из семьи нужна медицинская помощь. Лицо, осуществляющее уход, — VHL Holder (IHE ITI VHL; Holder в SMART Trust и smart-trust-phw, требование provide-a-vhl-to-a-receiver) — открывает свой QR на семейном телефоне и называет код доступа. Больничная система, являющаяся VHL Receiver (Receiver в SMART Trust и smart-trust-phw), проверяет HCERT по списку доверия GDHCN, запрашивает манифест по ITI-YY5 с HTTP Message Signature (STT-VHL-005, STT-VHL-006, STT-VHL-008) и расшифровывает документы (STT-VHL-007). Портал страны B проверяет код доступа, возвращает манифест и регистрирует каждый запрос, удовлетворённый или отклонённый, как AuditEvent в стране проживания (IHE BALP). Если HCERT не проходит проверку, цифровой проверки нет: по VHL не переходят, и с записями обращаются как с бумажными. Как и в J3, загрузка документов DID является ПРЕДУСЛОВИЕМ этого визита, а не его шагом: больница выполняет проверку по своей кэшированной копии списка доверия, и для этого ей не требуется подключение. Она обновляет этот кэш еженощно или ежечасно, тогда как автономный пункт, такой как клиника из J3, обновляет его примерно раз в неделю.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.1。在境外，家中一名孩子需要就医。照护者，即 VHL 持有人（IHE ITI VHL；在 SMART Trust 和 smart-trust-phw 中为持有人，需求 provide-a-vhl-to-a-receiver），在家庭手机上打开她的 QR 码并说出通行码。医院系统作为 VHL 接收方（在 SMART Trust 和 smart-trust-phw 中为接收方），依据 GDHCN 信任列表验证 HCERT，通过 ITI-YY5 并附带 HTTP 消息签名（HTTP Message Signature）请求清单（STT-VHL-005、STT-VHL-006、STT-VHL-008），并解密文档（STT-VHL-007）。B 国门户核验通行码、返回清单，并将每一次请求（无论允许或拒绝）作为 AuditEvent 记录在本国（IHE BALP）。如果 HCERT 未通过验证，则不进行数字验证：不跟随该 VHL，记录按纸质记录对待。与 J3 一样，加载 DID 文档是本次就诊的前提条件（PRECONDITION），而非其中的一个步骤：医院依据其缓存的信任列表副本进行验证，无需联网。它每晚或每小时刷新该缓存，而 J3 诊所这类离线站点大约每周刷新一次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "JWE dir/A256GCM (STT-VHL-007).",
+   "hash": "7af845e4940b58fd",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "JWE dir/A256GCM (STT-VHL-007).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "JWE dir/A256GCM (STT-VHL-007).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "JWE dir/A256GCM (STT-VHL-007).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "JWE dir/A256GCM (STT-VHL-007).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "JWE dir/A256GCM（STT-VHL-007）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "National health portal",
+   "hash": "6070059fd131ff65",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البوابة الصحية الوطنية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Portal nacional de salud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Portail national de santé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Национальный портал здравоохранения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家健康门户",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "no",
+   "hash": "8a1993623ee7edec",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "no",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "non",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "нет",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "否",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Point-of-care provider",
+   "hash": "3b76db026d593a30",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الخدمة في نقطة تقديم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Profesional del punto de atención",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Prestataire du point de soins",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник в месте оказания помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "医疗服务点提供者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Point-of-care receiver",
+   "hash": "c253fb71a9dd6932",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجهة المُستقبِلة في نقطة تقديم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Receptor del punto de atención",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Destinataire du point de soins",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получатель в месте оказания помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "医疗服务点接收方",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Request the manifest (ITI-YY5), signed",
+   "hash": "f962b6b334e97200",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طلب البيان (ITI-YY5)، موقَّعاً",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Solicitar el manifiesto (ITI-YY5), firmado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Demander le manifeste (ITI-YY5), signé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запросить манифест (ITI-YY5) с подписью",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "请求清单（ITI-YY5），已签名",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Review history, allergies and vaccinations",
+   "hash": "f1ba09025b5f7d5e",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مراجعة التاريخ المرضي والحساسيات والتطعيمات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Revisar antecedentes, alergias y vacunas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Examiner l’historique, les allergies et les vaccinations",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Просмотреть анамнез, аллергии и сведения о вакцинации",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "查看病史、过敏和疫苗接种",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Scan the QR and enter the passcode the caregiver says",
+   "hash": "3e9978d31ef533c8",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسح رمز QR وإدخال رمز المرور الذي ينطقه مقدِّم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escanear el QR e introducir el código de acceso que dice el cuidador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanner le code QR et saisir le code d’accès donné par l’aidant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отсканировать QR и ввести код доступа, названный лицом, осуществляющим уход",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扫描 QR 码并输入照护者告知的通行码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Show the child&#x27;s VHL QR",
+   "hash": "0b452262fd4777cb",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض رمز QR الخاص بـ VHL للطفل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Mostrar el QR VHL del niño",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Montrer le code QR VHL de l&#x27;enfant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Показать QR VHL ребёнка",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出示孩子的 VHL QR 码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "STT-VER-001 against Country B's DSC on the trust list the preconditions establish; VHL expiry (STT-VHL-009). A DSC Country B published after the hospital's last refresh is not in its copy, so the HCERT fails at the trust-list step (STT-VER-006), naming that reason.",
+   "hash": "3365d8712cf7f020",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "STT-VER-001 مقابل شهادة DSC الخاصة بالبلد B على قائمة الثقة التي تُرسيها الشروط المسبقة؛ وتاريخ انتهاء VHL (STT-VHL-009). إن شهادة DSC التي نشرها البلد B بعد آخر تحديث أجراه المستشفى لا تكون في نسخته، فيفشل HCERT عند خطوة قائمة الثقة (STT-VER-006)، مع تسمية ذلك السبب.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "STT-VER-001 contra el DSC del País B en la lista de confianza que establecen las precondiciones; caducidad del VHL (STT-VHL-009). Un DSC que el País B publicó después de la última actualización del hospital no está en su copia, por lo que el HCERT falla en el paso de la lista de confianza (STT-VER-006) e indica ese motivo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "STT-VER-001 par rapport au DSC du Pays B sur la liste de confiance établie par les conditions préalables ; expiration du VHL (STT-VHL-009). Un DSC publié par le Pays B après la dernière actualisation de l’hôpital ne figure pas dans sa copie ; le HCERT échoue donc à l’étape de la liste de confiance (STT-VER-006), avec indication de ce motif.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "STT-VER-001 по DSC страны B в списке доверия, установленном предусловиями; срок действия VHL (STT-VHL-009). DSC, опубликованный страной B после последнего обновления в больнице, отсутствует в её копии, поэтому HCERT не проходит шаг списка доверия (STT-VER-006) с указанием этой причины.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "依据前提条件所建立的信任列表中 B 国的 DSC 执行 STT-VER-001；VHL 有效期（STT-VHL-009）。B 国在医院上次刷新后才发布的 DSC 不在其副本中，因此 HCERT 会在信任列表步骤失败（STT-VER-006），并注明该原因。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "STT-VHL-005, STT-VHL-006, STT-VHL-008; the host does the HTTP, the library builds and reads (STT-VHL-010).",
+   "hash": "95bbf8377c54a135",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "STT-VHL-005، STT-VHL-006، STT-VHL-008؛ يتولى المضيف عمليات HTTP، وتبني المكتبة وتقرأ (STT-VHL-010).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "STT-VHL-005, STT-VHL-006, STT-VHL-008; el anfitrión realiza el HTTP, la biblioteca construye y lee (STT-VHL-010).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "STT-VHL-005, STT-VHL-006, STT-VHL-008 ; l’hôte effectue les échanges HTTP, la bibliothèque construit et lit (STT-VHL-010).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "STT-VHL-005, STT-VHL-006, STT-VHL-008; HTTP выполняет хост, библиотека формирует и читает (STT-VHL-010).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "STT-VHL-005、STT-VHL-006、STT-VHL-008；HTTP 由宿主执行，库负责构建和读取（STT-VHL-010）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The child is treated with the full record",
+   "hash": "67a9e93c6b61df33",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعالَج الطفل بالاستناد إلى السجل الكامل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El niño recibe atención con el registro completo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’enfant est soigné avec le dossier complet",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ребёнок получает лечение с учётом полной записи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "依据完整记录为孩子诊治",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verify the HCERT and read the VHL at key 5",
+   "hash": "2c45fc8cbcc6959c",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحقق من HCERT وقراءة VHL عند المفتاح 5",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Verificar el HCERT y leer el VHL en la clave 5",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vérifier le HCERT et lire le VHL à la clé 5",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверить HCERT и прочитать VHL под ключом 5",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "验证 HCERT 并读取键 5 处的 VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes",
+   "hash": "29bbd53e2c3f4276",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Check passcode, log access, return manifest",
+   "hash": "f84d17f960fe6f95",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحقق من رمز المرور، وتسجيل الوصول، وإعادة البيان",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Comprobar el código de acceso, registrar el acceso, devolver el manifiesto",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vérifier le code d’accès, journaliser l’accès, renvoyer le manifeste",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверить код доступа, зарегистрировать доступ, вернуть манифест",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "核验通行码、记录访问、返回清单",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Check the passcode, return the manifest and log the access. The home country&#x27;s portal hosts the manifest (ITI-YY5). It checks the passcode and the link&#x27;s expiry and the consent the holder gave when sharing (IHE PCF), returns the manifest of encrypted files on success, and records every request, granted or refused, as an AuditEvent (IHE BALP) in the home country. A wrong passcode is refused and still logged. The records stay hosted at home: the receiver views them and nothing is copied into a registry abroad.",
+   "hash": "0840a5cdcf2f20a1",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التحقق من رمز المرور، وإعادة البيان، وتسجيل الوصول. تستضيف بوابة البلد الأم البيان (ITI-YY5). وتتحقق من رمز المرور وتاريخ انتهاء الرابط والموافقة التي منحها الحامل عند المشاركة (IHE PCF)، وتعيد بيان الملفات المشفّرة عند النجاح، وتسجّل كل طلب، مقبولاً كان أو مرفوضاً، بوصفه AuditEvent (IHE BALP) في البلد الأم. ويُرفض رمز المرور الخاطئ ويُسجَّل مع ذلك. وتبقى السجلات مستضافة في البلد الأم: تطّلع عليها الجهة المُستقبِلة ولا يُنسخ شيء إلى سجلّ مركزي في الخارج.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Comprobar el código de acceso, devolver el manifiesto y registrar el acceso. El portal del país de residencia aloja el manifiesto (ITI-YY5). Comprueba el código de acceso, la caducidad del enlace y el consentimiento que dio el titular al compartir (IHE PCF), devuelve el manifiesto de archivos cifrados si todo es correcto y registra cada solicitud, concedida o rechazada, como un AuditEvent (IHE BALP) en el país de residencia. Un código de acceso incorrecto se rechaza y aun así se registra. Los registros siguen alojados en el país de residencia: el receptor los consulta y no se copia nada en ningún sistema de registro del extranjero.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vérifier le code d&#x27;accès, renvoyer le manifeste et journaliser l&#x27;accès. Le portail du pays de résidence héberge le manifeste (ITI-YY5). Il vérifie le code d&#x27;accès, l&#x27;expiration du lien et le consentement donné par le titulaire lors du partage (IHE PCF), renvoie le manifeste des fichiers chiffrés en cas de succès et enregistre chaque demande, accordée ou refusée, sous forme d&#x27;AuditEvent (IHE BALP) dans le pays de résidence. Un code d&#x27;accès erroné est refusé et tout de même journalisé. Les dossiers restent hébergés dans le pays de résidence : le destinataire les consulte et rien n&#x27;est copié dans un registre à l&#x27;étranger.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверить код доступа, вернуть манифест и зарегистрировать доступ. Портал страны проживания размещает манифест (ITI-YY5). Он проверяет код доступа, срок действия ссылки и согласие, данное владельцем при передаче данных (IHE PCF), при успехе возвращает манифест зашифрованных файлов и записывает каждый запрос, удовлетворённый или отклонённый, как AuditEvent (IHE BALP) в стране проживания. Неверный код доступа отклоняется, но всё равно регистрируется. Записи остаются размещёнными в стране проживания: получатель просматривает их, и ничего не копируется в реестр за границей.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "核验通行码、返回清单并记录访问。本国门户托管清单（ITI-YY5）。它核验通行码、链接有效期以及持有人共享时给出的同意（IHE PCF），成功时返回加密文件的清单，并将每一次请求（无论允许或拒绝）作为 AuditEvent（IHE BALP）记录在本国。错误的通行码会被拒绝，但仍会被记录。记录仍托管在本国：接收方只查看这些记录，不会将任何内容复制到境外的登记系统中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "No digital verification: treat the records like paper. The HCERT failed verification. The typed result names the step and the reason (STT-VER-008), for example a DSC missing from the cached trust list (STT-VER-006). Nothing is digitally verified, so the VHL is not followed and no manifest is requested. Whatever the family can show, such as the paper DVCs or a QR read unverified (STT-VER-011), carries the same weight as a paper record: the clinician decides on it by clinical judgement and local policy, and records why it was not verified.",
+   "hash": "c80d61245a39e152",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا تحقق رقمي: تُعامَل السجلات معاملة السجلات الورقية. أخفق HCERT في التحقق. تسمّي النتيجة المُنمَّطة الخطوة والسبب (STT-VER-008)، مثل غياب شهادة DSC عن قائمة الثقة المخزّنة مؤقتاً (STT-VER-006). لم يُتحقق رقمياً من أي شيء، فلا يُتَّبع رابط VHL ولا يُطلب أي بيان. وأيّاً كان ما تستطيع الأسرة عرضه، مثل شهادات DVC الورقية أو رمز QR مقروء دون تحقق (STT-VER-011)، فإن له وزن السجل الورقي نفسه: يبتّ فيه الممارس السريري بالاجتهاد السريري والسياسة المحلية، ويسجّل سبب عدم التحقق منه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin verificación digital: tratar los registros como en papel. El HCERT no superó la verificación. El resultado tipado indica el paso y el motivo (STT-VER-008), por ejemplo un DSC que falta en la lista de confianza en caché (STT-VER-006). Nada se verifica digitalmente, así que no se sigue el VHL ni se solicita ningún manifiesto. Lo que la familia pueda mostrar, como los DVC en papel o un QR leído sin verificar (STT-VER-011), tiene el mismo valor que un registro en papel: el profesional clínico decide sobre ello según su criterio clínico y la política local, y registra por qué no se verificó.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucune vérification numérique : traiter les dossiers comme des documents papier. Le HCERT a échoué à la vérification. Le résultat typé indique l’étape et le motif (STT-VER-008), par exemple un DSC absent de la liste de confiance en cache (STT-VER-006). Rien n’est vérifié numériquement ; le VHL n’est donc pas suivi et aucun manifeste n’est demandé. Tout ce que la famille peut présenter, comme les DVC papier ou un code QR lu sans vérification (STT-VER-011), a le même poids qu’un dossier papier : le clinicien décide sur cette base selon son jugement clinique et la politique locale, et consigne la raison pour laquelle il n’a pas été vérifié.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цифровой проверки нет: обращаться с записями как с бумажными. HCERT не прошёл проверку. Типизированный результат указывает шаг и причину (STT-VER-008), например DSC, отсутствующий в кэшированном списке доверия (STT-VER-006). Ничто не проверено в цифровом виде, поэтому по VHL не переходят и манифест не запрашивается. Всё, что может показать семья, например бумажные DVC или QR, прочитанный без проверки (STT-VER-011), имеет тот же вес, что и бумажная запись: клиницист принимает решение на основе клинического суждения и местной политики и записывает, почему запись не была проверена.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "无数字验证：按纸质记录对待。HCERT 未通过验证。类型化结果注明步骤和原因（STT-VER-008），例如缓存的信任列表中缺少某个 DSC（STT-VER-006）。没有任何内容经过数字验证，因此不跟随该 VHL，也不请求清单。家人能出示的任何内容，例如纸质 DVC 或未经验证读取的 QR 码（STT-VER-011），其效力与纸质记录相同：临床医生依据临床判断和当地政策作出决定，并记录未能验证的原因。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Not verified: treat records as paper",
+   "hash": "3c8225a5de79add9",
+   "sources": [
+    "processes/content/j4-1-vhl-point-of-care.bpmn"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لم يُتحقَّق منها: تُعامَل السجلات كالورق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin verificar: tratar los registros como papel",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Non vérifié : traiter les dossiers comme du papier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Не проверено: рассматривать записи как бумажные",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "未验证：按纸质记录对待",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,5164 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/decision-logic",
+ "hashes": {
+  "ar": "b10e1ef968c76b8f",
+  "es": "9dff8be2dce7cadc",
+  "fr": "c5e60a2416b372fe",
+  "ru": "a3c56979a35317a3",
+  "zh": "ec88c8e01df73f0b"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>J3 Verify, import and schedule at the home clinic</a0>: Evaluate the national schedule ({code0})",
+   "hash": "7bd1155cec33880d",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J3 التحقق والاستيراد والجدولة في عيادة البلد الأم</a0>: تقييم الجدول الوطني ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J3 Verificar, importar y programar en la clínica del país de residencia</a0>: Evaluar el calendario nacional ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J3 Vérifier, importer et planifier au centre de santé du pays de résidence</a0> : Évaluer le calendrier national ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J3 Проверить, импортировать и составить график в клинике по месту жительства</a0>: Оценить национальный график ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>J3 在所属诊所验证、导入并安排接种计划</a0>：评估国家接种计划（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J3 Verify, import and schedule at the home clinic</a0>: Evaluate the national schedule ({code0}); Give due doses and book the next visit ({code1})",
+   "hash": "6be305a3a18e1c00",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J3 التحقق والاستيراد والجدولة في عيادة البلد الأم</a0>: تقييم الجدول الوطني ({code0})؛ إعطاء الجرعات المستحقة وحجز الزيارة التالية ({code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J3 Verificar, importar y programar en la clínica del país de residencia</a0>: Evaluar el calendario nacional ({code0}); Administrar las dosis pendientes y programar la próxima visita ({code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J3 Vérifier, importer et planifier au centre de santé du pays de résidence</a0> : Évaluer le calendrier national ({code0}) ; Administrer les doses dues et fixer la prochaine visite ({code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J3 Проверить, импортировать и составить график в клинике по месту жительства</a0>: Оценить национальный график ({code0}); Ввести положенные дозы и записать на следующий визит ({code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>J3 在所属诊所验证、导入并安排接种计划</a0>：评估国家接种计划（{code0}）；接种到期剂次并预约下次就诊（{code1}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-ACC-001</a0>",
+   "hash": "6ca6f34fdf2bec60",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-ACC-001</a0> (expiry): a link opened outside the holder's period (J4: 2026-10-26 to 2026-11-09, Consent TrustDemoJ4Consent) releases nothing.",
+   "hash": "0d00977b433a96e6",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-ACC-001</a0> (الانتهاء): الرابط الذي يُفتح خارج الفترة التي حددها الحامل (J4: من 2026-10-26 إلى 2026-11-09، Consent TrustDemoJ4Consent) لا يُفرج عن أي شيء.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-ACC-001</a0> (caducidad): un enlace abierto fuera del período elegido por el titular (J4: del 2026-10-26 al 2026-11-09, Consent TrustDemoJ4Consent) no libera nada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-ACC-001</a0> (expiration) : un lien ouvert en dehors de la période choisie par le titulaire (J4 : du 2026-10-26 au 2026-11-09, Consent TrustDemoJ4Consent) ne communique rien.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-ACC-001</a0> (срок действия): ссылка, открытая за пределами периода, выбранного владельцем (J4: с 2026-10-26 по 2026-11-09, Consent TrustDemoJ4Consent), ничего не предоставляет.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-ACC-001</a0>（有效期）：在持有人设定的期限之外打开的链接不释放任何内容（J4：2026-10-26 至 2026-11-09，Consent TrustDemoJ4Consent）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-ACC-001</a0> (passcode): a wrong passcode releases nothing and is logged at home (AuditEvent TrustDemoJ41WrongPasscode).",
+   "hash": "8c6ef61f1ff55f7d",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-ACC-001</a0> (رمز المرور): رمز المرور الخاطئ لا يُفرج عن أي شيء ويُسجَّل في الوطن (AuditEvent TrustDemoJ41WrongPasscode).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-ACC-001</a0> (código de acceso): un código de acceso erróneo no libera nada y queda registrado en el país de residencia (AuditEvent TrustDemoJ41WrongPasscode).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-ACC-001</a0> (code d'accès) : un code d'accès erroné ne communique rien et est journalisé dans le pays de résidence (AuditEvent TrustDemoJ41WrongPasscode).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-ACC-001</a0> (код доступа): неверный код доступа ничего не предоставляет и регистрируется в своей стране (AuditEvent TrustDemoJ41WrongPasscode).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-ACC-001</a0>（通行码）：错误的通行码不释放任何内容，并在本国记录日志（AuditEvent TrustDemoJ41WrongPasscode）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-ACC-001</a0> (revoke): a withdrawn link releases nothing; the attempt is logged.",
+   "hash": "66b9df3c08983b51",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-ACC-001</a0> (الإلغاء): الرابط المسحوب لا يُفرج عن أي شيء؛ وتُسجَّل المحاولة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-ACC-001</a0> (revocación): un enlace retirado no libera nada; el intento queda registrado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-ACC-001</a0> (révocation) : un lien retiré ne communique rien ; la tentative est journalisée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-ACC-001</a0> (отзыв): отозванная ссылка ничего не предоставляет; попытка регистрируется.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-ACC-001</a0>（撤销）：已撤回的链接不释放任何内容；该尝试会被记录日志。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SCH-001</a0>",
+   "hash": "45896d916a8cbc32",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SCH-001</a0>, <a1>STD-SEM-001</a1>",
+   "hash": "ffc3c6c564c89a4b",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SCH-001</a0>، <a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SCH-001</a0>, <a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SCH-001</a0>, <a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SCH-001</a0>, <a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SCH-001</a0>，<a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SCH-001</a0>: counted by its schedule code and date, wherever it was given (J3: TrustDemoJ3HepB, TrustDemoJ3Bcg).",
+   "hash": "140448f60a426310",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SCH-001</a0>: تُحتسب وفق رمز الجدول والتاريخ، أينما أُعطيت (J3: TrustDemoJ3HepB، TrustDemoJ3Bcg).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SCH-001</a0>: se cuenta por su código de calendario y su fecha, dondequiera que se haya administrado (J3: TrustDemoJ3HepB, TrustDemoJ3Bcg).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SCH-001</a0> : comptée selon son code de calendrier et sa date, quel que soit le lieu où elle a été administrée (J3 : TrustDemoJ3HepB, TrustDemoJ3Bcg).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SCH-001</a0>: доза засчитывается по коду графика и дате, где бы она ни была введена (J3: TrustDemoJ3HepB, TrustDemoJ3Bcg).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SCH-001</a0>：无论在何处接种，均按其接种计划编码和日期计数（J3：TrustDemoJ3HepB、TrustDemoJ3Bcg）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SEM-001</a0>",
+   "hash": "aa8e0e34c4438200",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SEM-001</a0> (map): the published national map has an equivalent; both codings are kept, as in TrustDemoJ3Bcg.",
+   "hash": "caed1460cd8d8ef0",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SEM-001</a0> (الخريطة): الخريطة الوطنية المنشورة فيها مكافئ؛ ويُحتفظ بالترميزين كليهما، كما في TrustDemoJ3Bcg.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SEM-001</a0> (correspondencia): la tabla nacional de correspondencias publicada tiene un equivalente; se conservan ambas codificaciones, como en TrustDemoJ3Bcg.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SEM-001</a0> (correspondance) : la table de correspondance nationale publiée comporte un équivalent ; les deux codages sont conservés, comme dans TrustDemoJ3Bcg.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SEM-001</a0> (сопоставление): в опубликованной национальной таблице соответствия есть эквивалент; сохраняются обе кодировки, как в TrustDemoJ3Bcg.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SEM-001</a0>（映射）：已发布的国家映射表中有对应项；两种编码都保留，如 TrustDemoJ3Bcg 所示。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SEM-001</a0> (unmapped): no equivalent is known, and none is guessed.",
+   "hash": "a104ee8d40b8fdd0",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SEM-001</a0> (غير مربوط): لا يُعرف أي مكافئ، ولا يُخمَّن أي مكافئ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SEM-001</a0> (sin correspondencia): no se conoce ningún equivalente, y no se supone ninguno.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SEM-001</a0> (sans correspondance) : aucun équivalent n'est connu, et aucun n'est deviné.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SEM-001</a0> (без сопоставления): эквивалент неизвестен, и никакой эквивалент не подбирается наугад.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SEM-001</a0>（未映射）：没有已知的对应项，也不作任何猜测。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>, <a3>STT-VER-011</a3>",
+   "hash": "09052ca90a2cb38b",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-001</a0>، <a1>STT-VER-006</a1>، <a2>STT-VER-008</a2>، <a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>, <a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>, <a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>, <a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-001</a0>，<a1>STT-VER-006</a1>，<a2>STT-VER-008</a2>，<a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-001</a0>, <a1>STT-VER-008</a1>, <a2>STT-VHL-009</a2>, <a3>STT-VHL-005</a3>",
+   "hash": "833917ebe958ce1b",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-001</a0>، <a1>STT-VER-008</a1>، <a2>STT-VHL-009</a2>، <a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-008</a1>, <a2>STT-VHL-009</a2>, <a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-008</a1>, <a2>STT-VHL-009</a2>, <a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-008</a1>, <a2>STT-VHL-009</a2>, <a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-001</a0>，<a1>STT-VER-008</a1>，<a2>STT-VHL-009</a2>，<a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-008</a0>: the typed result names the step and reason, for example a DSC missing from the cached trust list (<a1>STT-VER-006</a1>). The clinician records why it was not verified.",
+   "hash": "32c3dcd94c8967bf",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-008</a0>: تسمّي النتيجة المصنَّفة الخطوة والسبب، مثل غياب شهادة DSC من قائمة الثقة المخزَّنة مؤقتًا (<a1>STT-VER-006</a1>). ويسجّل الممارس السريري سبب عدم التحقق.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-008</a0>: el resultado tipado indica el paso y el motivo, por ejemplo un DSC ausente de la lista de confianza en caché (<a1>STT-VER-006</a1>). El profesional clínico registra por qué no se verificó.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-008</a0> : le résultat typé indique l'étape et le motif, par exemple un DSC absent de la liste de confiance en cache (<a1>STT-VER-006</a1>). Le clinicien consigne pourquoi il n'a pas été vérifié.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-008</a0>: типизированный результат называет этап и причину, например DSC, отсутствующий в кэшированном списке доверия (<a1>STT-VER-006</a1>). Клиницист записывает, почему проверка не пройдена.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-008</a0>：类型化的结果会指明步骤和原因，例如缓存的信任列表中缺少某个 DSC（<a1>STT-VER-006</a1>）。临床医生记录其未被验证的原因。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VHL-009</a0>: an expired link is not followed.",
+   "hash": "7cd77c8cca6b2380",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VHL-009</a0>: لا يُتبع الرابط المنتهية صلاحيته.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VHL-009</a0>: no se sigue un enlace caducado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VHL-009</a0> : un lien expiré n'est pas suivi.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VHL-009</a0>: по просроченной ссылке переход не выполняется.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VHL-009</a0>：不跟随已过期的链接。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.01 What does a scanned DVC become in the child's record?</a0>",
+   "hash": "d01f29691d0c1151",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.01 إلامَ تتحول شهادة DVC الممسوحة ضوئيًا في سجل الطفل؟</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.01 ¿En qué se convierte un DVC escaneado en el registro del niño?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.01 Que devient un DVC scanné dans le dossier de l'enfant ?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.01 Чем становится отсканированный DVC в записи ребёнка?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.01 扫描的 DVC 在儿童记录中成为什么？</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.02 Which national schedule code does an imported dose carry?</a0>",
+   "hash": "bbf98ca6b33074a1",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.02 ما رمز الجدول الوطني الذي تحمله الجرعة المستوردة؟</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.02 ¿Qué código del calendario nacional lleva una dosis importada?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.02 Quel code du calendrier national une dose importée porte-t-elle ?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.02 Какой код национального графика несёт импортированная доза?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.02 导入的剂次带有哪个国家接种计划编码？</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.03 Does the national schedule count this dose?</a0>",
+   "hash": "4a2a998bfe385536",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.03 هل يحتسب الجدول الوطني هذه الجرعة؟</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.03 ¿Cuenta el calendario nacional esta dosis?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.03 Le calendrier national compte-t-il cette dose ?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.03 Засчитывает ли национальный график эту дозу?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.03 国家接种计划是否计入该剂次？</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.04 Is this dose of the national schedule due?</a0>",
+   "hash": "e125d4ee9316eb99",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.04 هل هذه الجرعة من الجدول الوطني مستحقة؟</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.04 ¿Corresponde administrar esta dosis del calendario nacional?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.04 Cette dose du calendrier national est-elle due ?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.04 Подошёл ли срок этой дозы национального графика?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.04 国家接种计划的该剂次是否到期？</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.05 Does the portal release the manifest for this request?</a0>",
+   "hash": "b70d8538ba5ffdc4",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.05 هل تُفرج البوابة الإلكترونية عن البيان لهذا الطلب؟</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.05 ¿Libera el portal el manifiesto para esta solicitud?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.05 Le portail communique-t-il le manifeste pour cette demande ?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.05 Предоставляет ли портал манифест по этому запросу?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.05 门户是否针对该请求释放清单？</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.06 Does the receiver follow the VHL?</a0>",
+   "hash": "a5d5e2ade9875102",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.06 هل تتبع الجهة المُستقبِلة رابط VHL؟</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.06 ¿Sigue el receptor el VHL?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.06 Le destinataire suit-il le VHL ?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.06 Переходит ли получатель по VHL?</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.06 接收方是否跟随该 VHL？</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A counted dose has this action's code (TD.DT.03) ({code0})",
+   "hash": "c6ea56cb4265041f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "للجرعة المحتسبة رمز هذا الإجراء (TD.DT.03) ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una dosis contabilizada tiene el código de esta acción (TD.DT.03) ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une dose comptée porte le code de cette action (TD.DT.03) ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Засчитанная доза имеет код этого действия (TD.DT.03) ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已计入的剂次带有该动作的编码（TD.DT.03）（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A reported dose (J2: TrustDemoJ2HepBReported) is shown but not counted.",
+   "hash": "b419f1fe9e4e21e0",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجرعة المُبلَّغ عنها (J2: TrustDemoJ2HepBReported) تُعرض لكنها لا تُحتسب.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una dosis notificada (J2: TrustDemoJ2HepBReported) se muestra pero no se cuenta.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une dose déclarée (J2 : TrustDemoJ2HepBReported) est affichée mais n'est pas comptée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Заявленная доза (J2: TrustDemoJ2HepBReported) отображается, но не засчитывается.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已报告的剂次（J2：TrustDemoJ2HepBReported）会显示，但不计入。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A verified dose with no schedule code (TD.DT.02 unmapped) cannot be read by the schedule, which works on schedule codes.",
+   "hash": "57cd699a5aa6da9f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجرعة المتحقَّق منها التي لا رمز جدول لها (TD.DT.02 غير مربوطة) لا يمكن للجدول قراءتها، لأنه يعمل على رموز الجدول.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una dosis verificada sin código de calendario (TD.DT.02 sin correspondencia) no puede ser leída por el calendario, que funciona con códigos de calendario.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une dose vérifiée sans code de calendrier (TD.DT.02 sans correspondance) ne peut pas être lue par le calendrier, qui fonctionne sur des codes de calendrier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверенная доза без кода графика (TD.DT.02, без сопоставления) не может быть прочитана графиком, который работает с кодами графика.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "没有接种计划编码的已验证剂次（TD.DT.02 未映射）无法被接种计划读取，因为接种计划基于接种计划编码运行。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Action ({code0})",
+   "hash": "841824cc75ab1d94",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإجراء ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Acción ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Action ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Действие ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "动作（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Add the confirmed schedule code beside the product code; record the clinician's attestation as a Provenance; add the pair to the national map.",
+   "hash": "7fdef3e21227c630",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إضافة رمز الجدول المؤكَّد بجانب رمز المنتج؛ وتسجيل إقرار الممارس السريري بوصفه Provenance؛ وإضافة الزوج إلى الخريطة الوطنية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Añadir el código de calendario confirmado junto al código del producto; registrar la atestación del profesional clínico como un recurso Provenance; añadir el par a la tabla nacional de correspondencias.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ajouter le code de calendrier confirmé à côté du code de produit ; consigner l'attestation du clinicien sous forme de Provenance ; ajouter la paire à la table de correspondance nationale.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавить подтверждённый код графика рядом с кодом продукта; записать заключение клинициста как Provenance; добавить эту пару в национальную таблицу соответствия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在产品编码旁添加经确认的接种计划编码；将临床医生的认定记录为 Provenance；将该编码对添加到国家映射表中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Add the mapped schedule code beside the product code.",
+   "hash": "7d668554b06e072f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إضافة رمز الجدول المربوط بجانب رمز المنتج.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Añadir el código de calendario obtenido del mapeo junto al código del producto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ajouter le code de calendrier correspondant à côté du code de produit.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавить сопоставленный код графика рядом с кодом продукта.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在产品编码旁添加映射得到的接种计划编码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Annotation",
+   "hash": "cacd60e091c65240",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملاحظة توضيحية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Anotación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Annotation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Примечание",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "注释",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "any",
+   "hash": "0ba59f8eb8316253",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أي قيمة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "cualquiera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "tout",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "любое",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "任意",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Any other failure (signature, key usage, header, algorithm, hcert claim or payload): the certificate is not evidence of a dose.",
+   "hash": "2567d0ba080568aa",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أي فشل آخر (التوقيع، أو استخدام المفتاح، أو الترويسة، أو الخوارزمية، أو مطالبة hcert، أو الحمولة): الشهادة ليست دليلًا على جرعة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cualquier otro fallo (firma, uso de la clave, encabezado, algoritmo, claim hcert o carga útil): el certificado no es prueba de una dosis.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tout autre échec (signature, usage de la clé, en-tête, algorithme, revendication hcert ou charge utile) : le certificat ne constitue pas une preuve de dose.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Любой другой сбой (подпись, использование ключа, заголовок, алгоритм, утверждение hcert или полезная нагрузка): сертификат не является доказательством введения дозы.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "任何其他失败（签名、密钥用途、头部、算法、hcert 声明或载荷）：该证书不构成剂次的证据。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Audit outcome ({code0})",
+   "hash": "0a701d508cd482ac",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نتيجة التدقيق ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resultado de la auditoría ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résultat de l'audit ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Результат аудита ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "审计结果（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "birthDate + timingAge",
+   "hash": "bf50f68b35618f76",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "birthDate + timingAge",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "birthDate + timingAge",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "birthDate + timingAge",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "birthDate + timingAge",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "birthDate + timingAge",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Clinician confirms an equivalent ({code0})",
+   "hash": "de3b216bb1193046",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يؤكد الممارس السريري وجود مكافئ ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El profesional clínico confirma un equivalente ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le clinicien confirme un équivalent ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Клиницист подтверждает эквивалент ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "临床医生确认对应项（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Computable form: <a0>PlanDefinition TrustDemoDT01</a0>; source <a1>dvc-record-outcome.dmn</a1>, hit policy FIRST",
+   "hash": "319b70b043b2f891",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الصيغة القابلة للحوسبة: <a0>PlanDefinition TrustDemoDT01</a0>؛ المصدر <a1>dvc-record-outcome.dmn</a1>، سياسة المطابقة FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Forma computable: <a0>PlanDefinition TrustDemoDT01</a0>; fuente <a1>dvc-record-outcome.dmn</a1>, política de coincidencia FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Forme calculable : <a0>PlanDefinition TrustDemoDT01</a0> ; source <a1>dvc-record-outcome.dmn</a1>, politique de résultat FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вычислимая форма: <a0>PlanDefinition TrustDemoDT01</a0>; источник <a1>dvc-record-outcome.dmn</a1>, политика срабатывания FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可计算形式：<a0>PlanDefinition TrustDemoDT01</a0>；源文件 <a1>dvc-record-outcome.dmn</a1>，命中策略 FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Computable form: <a0>PlanDefinition TrustDemoDT02</a0>; source <a1>vaccine-code-mapping.dmn</a1>, hit policy FIRST",
+   "hash": "18b9f26eb52de6c8",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الصيغة القابلة للحوسبة: <a0>PlanDefinition TrustDemoDT02</a0>؛ المصدر <a1>vaccine-code-mapping.dmn</a1>، سياسة المطابقة FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Forma computable: <a0>PlanDefinition TrustDemoDT02</a0>; fuente <a1>vaccine-code-mapping.dmn</a1>, política de coincidencia FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Forme calculable : <a0>PlanDefinition TrustDemoDT02</a0> ; source <a1>vaccine-code-mapping.dmn</a1>, politique de résultat FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вычислимая форма: <a0>PlanDefinition TrustDemoDT02</a0>; источник <a1>vaccine-code-mapping.dmn</a1>, политика срабатывания FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可计算形式：<a0>PlanDefinition TrustDemoDT02</a0>；源文件 <a1>vaccine-code-mapping.dmn</a1>，命中策略 FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Computable form: <a0>PlanDefinition TrustDemoDT03</a0>; source <a1>dose-counts.dmn</a1>, hit policy FIRST",
+   "hash": "6c2d21b1440a1926",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الصيغة القابلة للحوسبة: <a0>PlanDefinition TrustDemoDT03</a0>؛ المصدر <a1>dose-counts.dmn</a1>، سياسة المطابقة FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Forma computable: <a0>PlanDefinition TrustDemoDT03</a0>; fuente <a1>dose-counts.dmn</a1>, política de coincidencia FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Forme calculable : <a0>PlanDefinition TrustDemoDT03</a0> ; source <a1>dose-counts.dmn</a1>, politique de résultat FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вычислимая форма: <a0>PlanDefinition TrustDemoDT03</a0>; источник <a1>dose-counts.dmn</a1>, политика срабатывания FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可计算形式：<a0>PlanDefinition TrustDemoDT03</a0>；源文件 <a1>dose-counts.dmn</a1>，命中策略 FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Computable form: <a0>PlanDefinition TrustDemoDT04</a0>; source <a1>dose-due.dmn</a1>, hit policy FIRST",
+   "hash": "6d90727214957c83",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الصيغة القابلة للحوسبة: <a0>PlanDefinition TrustDemoDT04</a0>؛ المصدر <a1>dose-due.dmn</a1>، سياسة المطابقة FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Forma computable: <a0>PlanDefinition TrustDemoDT04</a0>; fuente <a1>dose-due.dmn</a1>, política de coincidencia FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Forme calculable : <a0>PlanDefinition TrustDemoDT04</a0> ; source <a1>dose-due.dmn</a1>, politique de résultat FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вычислимая форма: <a0>PlanDefinition TrustDemoDT04</a0>; источник <a1>dose-due.dmn</a1>, политика срабатывания FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可计算形式：<a0>PlanDefinition TrustDemoDT04</a0>；源文件 <a1>dose-due.dmn</a1>，命中策略 FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Computable form: <a0>PlanDefinition TrustDemoDT05</a0>; source <a1>vhl-release.dmn</a1>, hit policy FIRST",
+   "hash": "af7e2982da6af391",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الصيغة القابلة للحوسبة: <a0>PlanDefinition TrustDemoDT05</a0>؛ المصدر <a1>vhl-release.dmn</a1>، سياسة المطابقة FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Forma computable: <a0>PlanDefinition TrustDemoDT05</a0>; fuente <a1>vhl-release.dmn</a1>, política de coincidencia FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Forme calculable : <a0>PlanDefinition TrustDemoDT05</a0> ; source <a1>vhl-release.dmn</a1>, politique de résultat FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вычислимая форма: <a0>PlanDefinition TrustDemoDT05</a0>; источник <a1>vhl-release.dmn</a1>, политика срабатывания FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可计算形式：<a0>PlanDefinition TrustDemoDT05</a0>；源文件 <a1>vhl-release.dmn</a1>，命中策略 FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Computable form: <a0>PlanDefinition TrustDemoDT06</a0>; source <a1>vhl-follow.dmn</a1>, hit policy FIRST",
+   "hash": "5691c531cda8eac5",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الصيغة القابلة للحوسبة: <a0>PlanDefinition TrustDemoDT06</a0>؛ المصدر <a1>vhl-follow.dmn</a1>، سياسة المطابقة FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Forma computable: <a0>PlanDefinition TrustDemoDT06</a0>; fuente <a1>vhl-follow.dmn</a1>, política de coincidencia FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Forme calculable : <a0>PlanDefinition TrustDemoDT06</a0> ; source <a1>vhl-follow.dmn</a1>, politique de résultat FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вычислимая форма: <a0>PlanDefinition TrustDemoDT06</a0>; источник <a1>vhl-follow.dmn</a1>, политика срабатывания FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可计算形式：<a0>PlanDefinition TrustDemoDT06</a0>；源文件 <a1>vhl-follow.dmn</a1>，命中策略 FIRST",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Counted as given.",
+   "hash": "72658d78235027c4",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُحتسب على أنها أُعطيت.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se cuenta como administrada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Comptée comme administrée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Засчитывается как введённая.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "按已接种计入。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Counts ({code0})",
+   "hash": "cc51013d5832bdeb",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُحتسب ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se cuenta ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Comptée ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Засчитывается ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "计入（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data elements: <a0>TD.J3A.DE05</a0> Verification result, <a1>TD.J3A.DE07</a1> Failure reason, <a2>TD.J3A.DE09</a2> Record outcome",
+   "hash": "2ff91d8b77c24a3f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عناصر البيانات: <a0>TD.J3A.DE05</a0> نتيجة التحقق، <a1>TD.J3A.DE07</a1> سبب الفشل، <a2>TD.J3A.DE09</a2> نتيجة السجل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Elementos de datos: <a0>TD.J3A.DE05</a0> Resultado de la verificación, <a1>TD.J3A.DE07</a1> Motivo del fallo, <a2>TD.J3A.DE09</a2> Resultado del registro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Éléments de données : <a0>TD.J3A.DE05</a0> Résultat de la vérification, <a1>TD.J3A.DE07</a1> Motif de l'échec, <a2>TD.J3A.DE09</a2> Issue de l'enregistrement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Элементы данных: <a0>TD.J3A.DE05</a0> Результат проверки, <a1>TD.J3A.DE07</a1> Причина сбоя, <a2>TD.J3A.DE09</a2> Итог записи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据元素：<a0>TD.J3A.DE05</a0> 验证结果，<a1>TD.J3A.DE07</a1> 失败原因，<a2>TD.J3A.DE09</a2> 记录结果",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data elements: <a0>TD.J3A.DE09</a0> Record outcome, <a1>TD.J3B.DE01</a1> Issuer's product code, <a2>TD.J3B.DE02</a2> National schedule code, <a3>TD.J3B.DE03</a3> Mapping basis",
+   "hash": "b9e625bcec4c8d2f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عناصر البيانات: <a0>TD.J3A.DE09</a0> نتيجة السجل، <a1>TD.J3B.DE01</a1> رمز منتج الجهة المُصدِرة، <a2>TD.J3B.DE02</a2> رمز الجدول الوطني، <a3>TD.J3B.DE03</a3> أساس الربط",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Elementos de datos: <a0>TD.J3A.DE09</a0> Resultado del registro, <a1>TD.J3B.DE01</a1> Código de producto del emisor, <a2>TD.J3B.DE02</a2> Código del calendario nacional, <a3>TD.J3B.DE03</a3> Base de la correspondencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Éléments de données : <a0>TD.J3A.DE09</a0> Issue de l'enregistrement, <a1>TD.J3B.DE01</a1> Code de produit de l'émetteur, <a2>TD.J3B.DE02</a2> Code du calendrier national, <a3>TD.J3B.DE03</a3> Fondement de la correspondance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Элементы данных: <a0>TD.J3A.DE09</a0> Итог записи, <a1>TD.J3B.DE01</a1> Код продукта эмитента, <a2>TD.J3B.DE02</a2> Код национального графика, <a3>TD.J3B.DE03</a3> Основание сопоставления",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据元素：<a0>TD.J3A.DE09</a0> 记录结果，<a1>TD.J3B.DE01</a1> 签发方的产品编码，<a2>TD.J3B.DE02</a2> 国家接种计划编码，<a3>TD.J3B.DE03</a3> 映射依据",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data elements: <a0>TD.J3B.DE02</a0> National schedule code, <a1>TD.J3B.DE05</a1> Counts toward the schedule",
+   "hash": "8a5f9b9cb1105f7a",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عناصر البيانات: <a0>TD.J3B.DE02</a0> رمز الجدول الوطني، <a1>TD.J3B.DE05</a1> تُحتسب ضمن الجدول",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Elementos de datos: <a0>TD.J3B.DE02</a0> Código del calendario nacional, <a1>TD.J3B.DE05</a1> Cuenta para el calendario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Éléments de données : <a0>TD.J3B.DE02</a0> Code du calendrier national, <a1>TD.J3B.DE05</a1> Compte pour le calendrier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Элементы данных: <a0>TD.J3B.DE02</a0> Код национального графика, <a1>TD.J3B.DE05</a1> Засчитывается в график",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据元素：<a0>TD.J3B.DE02</a0> 国家接种计划编码，<a1>TD.J3B.DE05</a1> 计入接种计划",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data elements: <a0>TD.J3B.DE05</a0> Counts toward the schedule, <a1>TD.J3B.DE07</a1> Schedule dose, <a2>TD.J3B.DE08</a2> Forecast status, <a3>TD.J3B.DE09</a3> Due date",
+   "hash": "ed47ad9c7a277a48",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عناصر البيانات: <a0>TD.J3B.DE05</a0> تُحتسب ضمن الجدول، <a1>TD.J3B.DE07</a1> جرعة الجدول، <a2>TD.J3B.DE08</a2> حالة التوقّع، <a3>TD.J3B.DE09</a3> تاريخ الاستحقاق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Elementos de datos: <a0>TD.J3B.DE05</a0> Cuenta para el calendario, <a1>TD.J3B.DE07</a1> Dosis del calendario, <a2>TD.J3B.DE08</a2> Estado de la previsión, <a3>TD.J3B.DE09</a3> Fecha prevista",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Éléments de données : <a0>TD.J3B.DE05</a0> Compte pour le calendrier, <a1>TD.J3B.DE07</a1> Dose du calendrier, <a2>TD.J3B.DE08</a2> Statut de la prévision, <a3>TD.J3B.DE09</a3> Date d'échéance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Элементы данных: <a0>TD.J3B.DE05</a0> Засчитывается в график, <a1>TD.J3B.DE07</a1> Доза графика, <a2>TD.J3B.DE08</a2> Статус прогноза, <a3>TD.J3B.DE09</a3> Срок введения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据元素：<a0>TD.J3B.DE05</a0> 计入接种计划，<a1>TD.J3B.DE07</a1> 接种计划剂次，<a2>TD.J3B.DE08</a2> 预测状态，<a3>TD.J3B.DE09</a3> 到期日期",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data elements: <a0>TD.J40.DE06</a0> Valid until, <a1>TD.J40.DE09</a1> Withdrawn at, <a2>TD.J41.DE06</a2> Released, <a3>TD.J41.DE07</a3> Audit outcome, <a4>TD.J41.DE08</a4> Refusal reason",
+   "hash": "e459a5660581eb84",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عناصر البيانات: <a0>TD.J40.DE06</a0> صالح حتى، <a1>TD.J40.DE09</a1> وقت السحب، <a2>TD.J41.DE06</a2> مُفرَج عنه، <a3>TD.J41.DE07</a3> نتيجة التدقيق، <a4>TD.J41.DE08</a4> سبب الرفض",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Elementos de datos: <a0>TD.J40.DE06</a0> Válido hasta, <a1>TD.J40.DE09</a1> Retirado el, <a2>TD.J41.DE06</a2> Liberado, <a3>TD.J41.DE07</a3> Resultado de la auditoría, <a4>TD.J41.DE08</a4> Motivo del rechazo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Éléments de données : <a0>TD.J40.DE06</a0> Valide jusqu'au, <a1>TD.J40.DE09</a1> Retiré le, <a2>TD.J41.DE06</a2> Communiqué, <a3>TD.J41.DE07</a3> Résultat de l'audit, <a4>TD.J41.DE08</a4> Motif du refus",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Элементы данных: <a0>TD.J40.DE06</a0> Действительна до, <a1>TD.J40.DE09</a1> Время отзыва, <a2>TD.J41.DE06</a2> Предоставлено, <a3>TD.J41.DE07</a3> Результат аудита, <a4>TD.J41.DE08</a4> Причина отказа",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据元素：<a0>TD.J40.DE06</a0> 有效期至，<a1>TD.J40.DE09</a1> 撤回时间，<a2>TD.J41.DE06</a2> 已释放，<a3>TD.J41.DE07</a3> 审计结果，<a4>TD.J41.DE08</a4> 拒绝原因",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data elements: <a0>TD.J41.DE01</a0> Requested at",
+   "hash": "3f70e1dea932159b",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عناصر البيانات: <a0>TD.J41.DE01</a0> وقت الطلب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Elementos de datos: <a0>TD.J41.DE01</a0> Solicitado el",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Éléments de données : <a0>TD.J41.DE01</a0> Demandé le",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Элементы данных: <a0>TD.J41.DE01</a0> Время запроса",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据元素：<a0>TD.J41.DE01</a0> 请求时间",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Decision table",
+   "hash": "092e786bac2dbcc9",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جدول القرار",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tabla de decisión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Table de décision",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Таблица решений",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "决策表",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Decoding failed before any signature check (<a0>STT-VER-001</a0> order), so nothing was read: three states, not two, since a bad scan is not evidence either way.",
+   "hash": "36e6e07c2783b003",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فشل فك الترميز قبل أي فحص للتوقيع (ترتيب <a0>STT-VER-001</a0>)، لذا لم يُقرأ أي شيء: ثلاث حالات لا اثنتان، إذ إن المسح الضوئي السيئ ليس دليلًا في أي من الاتجاهين.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La decodificación falló antes de cualquier comprobación de la firma (orden de <a0>STT-VER-001</a0>), por lo que no se leyó nada: tres estados, no dos, ya que un escaneo defectuoso no es prueba ni en un sentido ni en otro.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le décodage a échoué avant toute vérification de signature (ordre de <a0>STT-VER-001</a0>), donc rien n'a été lu : trois états, et non deux, car un scan défectueux ne constitue une preuve ni dans un sens ni dans l'autre.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Декодирование не удалось до какой-либо проверки подписи (порядок <a0>STT-VER-001</a0>), поэтому ничего не прочитано: три состояния, а не два, поскольку неудачное сканирование не является доказательством ни в ту, ни в другую сторону.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "解码在任何签名检查之前就已失败（按 <a0>STT-VER-001</a0> 的顺序），因此未读取任何内容：这是三种状态而不是两种，因为扫描失败不能证明任何一方面。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Do not record a dose from this certificate; record the step and reason; the clinician decides by national policy, as for an undocumented dose.",
+   "hash": "7dd1f3f3144660d4",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا تُسجَّل جرعة من هذه الشهادة؛ تُسجَّل الخطوة والسبب؛ ويقرر الممارس السريري وفق السياسة الوطنية، كما في حالة جرعة غير موثَّقة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No registrar ninguna dosis a partir de este certificado; registrar el paso y el motivo; el profesional clínico decide según la política nacional, como para una dosis no documentada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ne pas enregistrer de dose à partir de ce certificat ; consigner l'étape et le motif ; le clinicien décide selon la politique nationale, comme pour une dose non documentée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Не записывать дозу по этому сертификату; записать этап и причину; клиницист принимает решение согласно национальной политике, как для недокументированной дозы.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "不要根据该证书记录剂次；记录步骤和原因；由临床医生根据国家政策决定，与无记录剂次的处理方式相同。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Due date ({code0})",
+   "hash": "ffc935b36aca4a39",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تاريخ الاستحقاق ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Fecha prevista ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Date d'échéance ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Срок введения ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "到期日期（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Entry in the national map ({code0})",
+   "hash": "22267c460070decf",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قيد في الخريطة الوطنية ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Entrada en la tabla nacional de correspondencias ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Entrée dans la table de correspondance nationale ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запись в национальной таблице соответствия ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国家映射表中的条目（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Failure reason ({code0})",
+   "hash": "93708798e078a09f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سبب الفشل ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Motivo del fallo ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Motif de l'échec ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Причина сбоя ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "失败原因（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For one action of the national schedule, decide whether the evaluation recommends it now, and from which date.",
+   "hash": "12bd504f79d26441",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لإجراء واحد من الجدول الوطني، يُقرَّر ما إذا كان التقييم يوصي به الآن، وابتداءً من أي تاريخ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para una acción del calendario nacional, decidir si la evaluación la recomienda ahora y a partir de qué fecha.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour une action du calendrier national, décider si l'évaluation la recommande maintenant, et à partir de quelle date.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для одного действия национального графика определить, рекомендует ли его оценка сейчас и с какой даты.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对于国家接种计划的某一个动作，决定评估是否建议现在执行，以及从哪个日期开始。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For one dose, decide whether and how the national schedule code is added beside the issuer's product code, which is always kept.",
+   "hash": "434f28b006c01551",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لجرعة واحدة، يُقرَّر ما إذا كان رمز الجدول الوطني يُضاف بجانب رمز منتج الجهة المُصدِرة، الذي يُحتفظ به دائمًا، وكيف يُضاف.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para una dosis, decidir si se añade el código del calendario nacional junto al código de producto del emisor, que siempre se conserva, y cómo se añade.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour une dose, décider si et comment le code du calendrier national est ajouté à côté du code de produit de l'émetteur, qui est toujours conservé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для одной дозы определить, добавляется ли и каким образом код национального графика рядом с кодом продукта эмитента, который всегда сохраняется.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对于某一剂次，决定是否以及如何在签发方的产品编码（始终保留）旁添加国家接种计划编码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For one Immunization in the child's record, decide whether the schedule evaluation counts it as given.",
+   "hash": "b2656d0f758bf717",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لسجل Immunization واحد في سجل الطفل، يُقرَّر ما إذا كان تقييم الجدول يحتسبه على أنه أُعطي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para un recurso Immunization del registro del niño, decidir si la evaluación del calendario lo cuenta como administrado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour une Immunization du dossier de l'enfant, décider si l'évaluation du calendrier la compte comme administrée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для одной записи Immunization в карте ребёнка определить, засчитывает ли её оценка графика как введённую.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对于儿童记录中的某一个 Immunization，决定接种计划评估是否将其计为已接种。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For one manifest request (ITI-YY5), decide whether the portal releases the manifest, and what the access log records.",
+   "hash": "6994629d70ebb06d",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لطلب بيان واحد (ITI-YY5)، يُقرَّر ما إذا كانت البوابة الإلكترونية تُفرج عن البيان، وما الذي يسجّله سجل الوصول.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para una solicitud de manifiesto (ITI-YY5), decidir si el portal libera el manifiesto y qué registra el registro de accesos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour une demande de manifeste (ITI-YY5), décider si le portail communique le manifeste, et ce que consigne le journal d'accès.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для одного запроса манифеста (ITI-YY5) определить, предоставляет ли портал манифест и что записывается в журнал доступа.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对于某一个清单请求（ITI-YY5），决定门户是否释放清单，以及访问日志记录什么。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "For one scanned VHL, decide whether the receiver requests the manifest or treats the family's records like paper.",
+   "hash": "28493cc5dfbbb268",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لرابط VHL واحد ممسوح ضوئيًا، يُقرَّر ما إذا كانت الجهة المُستقبِلة تطلب البيان أم تتعامل مع سجلات الأسرة كالورق.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para un VHL escaneado, decidir si el receptor solicita el manifiesto o trata los registros de la familia como papel.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour un VHL scanné, décider si le destinataire demande le manifeste ou traite les dossiers de la famille comme du papier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для одной отсканированной VHL определить, запрашивает ли получатель манифест или рассматривает записи семьи как бумажные.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对于某一个扫描的 VHL，决定接收方是请求清单，还是将该家庭的记录当作纸质记录对待。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Forecast ({code0})",
+   "hash": "e88d4ec2662bcfe6",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التوقّع ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Previsión ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Prévision ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Прогноз ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "预测（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "From the result of reading one foreign DVC, decide whether its dose is recorded as verified, kept as reported and not verified, or not recorded from it at all.",
+   "hash": "23dfe383add0aa88",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "انطلاقًا من نتيجة قراءة شهادة DVC أجنبية واحدة، يُقرَّر ما إذا كانت جرعتها تُسجَّل على أنها متحقَّق منها، أو يُحتفظ بها على أنها مُبلَّغ عنها وغير متحقَّق منها، أو لا تُسجَّل منها على الإطلاق.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "A partir del resultado de la lectura de un DVC extranjero, decidir si su dosis se registra como verificada, se conserva como notificada y no verificada, o no se registra en absoluto a partir de él.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "À partir du résultat de la lecture d'un DVC étranger, décider si sa dose est enregistrée comme vérifiée, conservée comme déclarée et non vérifiée, ou pas du tout enregistrée à partir de celui-ci.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "По результату чтения одного иностранного DVC определить, записывается ли его доза как проверенная, сохраняется как заявленная и не проверенная или вовсе не записывается по нему.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "根据读取某个外国 DVC 的结果，决定其剂次是记录为已验证、保留为已报告且未验证，还是根本不据此记录。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Has a national schedule code ({code0})",
+   "hash": "14c6ceef1159528e",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لديها رمز جدول وطني ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tiene un código del calendario nacional ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Possède un code du calendrier national ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Имеет код национального графика ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "具有国家接种计划编码（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "HCERT verification result ({code0})",
+   "hash": "fd998c5a312cbc17",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نتيجة التحقق من HCERT ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resultado de la verificación del HCERT ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résultat de la vérification du HCERT ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Результат проверки HCERT ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HCERT 验证结果（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Import the dose with primarySource true and a verification Provenance that names the signer's key and removes the reported dose it replaces; then map its vaccine code (TD.DT.02).",
+   "hash": "acace3b8d78c57dc",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "استيراد الجرعة مع primarySource true وProvenance للتحقق يسمّي مفتاح الموقِّع ويزيل الجرعة المُبلَّغ عنها التي يحل محلها؛ ثم ربط رمز اللقاح الخاص بها (TD.DT.02).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Importar la dosis con primarySource true y un recurso Provenance de verificación que identifique la clave del firmante y elimine la dosis notificada a la que sustituye; luego establecer la correspondencia de su código de vacuna (TD.DT.02).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Importer la dose avec primarySource true et une Provenance de vérification qui nomme la clé du signataire et supprime la dose déclarée qu'elle remplace ; puis faire correspondre son code de vaccin (TD.DT.02).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Импортировать дозу с primarySource true и с Provenance о проверке, в которой указан ключ подписанта и которая удаляет заменяемую ею заявленную дозу; затем сопоставить её код вакцины (TD.DT.02).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以 primarySource true 导入该剂次，并附带一个验证 Provenance，其中指明签名者的密钥，并移除被其替换的已报告剂次；然后映射其疫苗编码（TD.DT.02）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In the examples: <a0>ConceptMap TrustDemoProductToOnesaEpi</a0>, <a1>Provenance TrustDemoJ3Adjudication</a1>, <a2>Immunization TrustDemoJ3HepB</a2>",
+   "hash": "2cd54df564cc3077",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في الأمثلة: <a0>ConceptMap TrustDemoProductToOnesaEpi</a0>، <a1>Provenance TrustDemoJ3Adjudication</a1>، <a2>Immunization TrustDemoJ3HepB</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En los ejemplos: <a0>ConceptMap TrustDemoProductToOnesaEpi</a0>, <a1>Provenance TrustDemoJ3Adjudication</a1>, <a2>Immunization TrustDemoJ3HepB</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans les exemples : <a0>ConceptMap TrustDemoProductToOnesaEpi</a0>, <a1>Provenance TrustDemoJ3Adjudication</a1>, <a2>Immunization TrustDemoJ3HepB</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В примерах: <a0>ConceptMap TrustDemoProductToOnesaEpi</a0>, <a1>Provenance TrustDemoJ3Adjudication</a1>, <a2>Immunization TrustDemoJ3HepB</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例中：<a0>ConceptMap TrustDemoProductToOnesaEpi</a0>、<a1>Provenance TrustDemoJ3Adjudication</a1>、<a2>Immunization TrustDemoJ3HepB</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In the examples: <a0>Consent TrustDemoJ4Consent</a0>, <a1>AuditEvent TrustDemoJ41Access</a1>, <a2>AuditEvent TrustDemoJ41WrongPasscode</a2>",
+   "hash": "f86ab6e30c56d4bc",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في الأمثلة: <a0>Consent TrustDemoJ4Consent</a0>، <a1>AuditEvent TrustDemoJ41Access</a1>، <a2>AuditEvent TrustDemoJ41WrongPasscode</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En los ejemplos: <a0>Consent TrustDemoJ4Consent</a0>, <a1>AuditEvent TrustDemoJ41Access</a1>, <a2>AuditEvent TrustDemoJ41WrongPasscode</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans les exemples : <a0>Consent TrustDemoJ4Consent</a0>, <a1>AuditEvent TrustDemoJ41Access</a1>, <a2>AuditEvent TrustDemoJ41WrongPasscode</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В примерах: <a0>Consent TrustDemoJ4Consent</a0>, <a1>AuditEvent TrustDemoJ41Access</a1>, <a2>AuditEvent TrustDemoJ41WrongPasscode</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例中：<a0>Consent TrustDemoJ4Consent</a0>、<a1>AuditEvent TrustDemoJ41Access</a1>、<a2>AuditEvent TrustDemoJ41WrongPasscode</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In the examples: <a0>PlanDefinition TrustDemoOnesaInfantSchedule</a0>, <a1>ImmunizationRecommendation TrustDemoJ3Recommendation</a1>, <a2>Task TrustDemoJ3Reminder</a2>",
+   "hash": "696641c66a43d1ed",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في الأمثلة: <a0>PlanDefinition TrustDemoOnesaInfantSchedule</a0>، <a1>ImmunizationRecommendation TrustDemoJ3Recommendation</a1>، <a2>Task TrustDemoJ3Reminder</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En los ejemplos: <a0>PlanDefinition TrustDemoOnesaInfantSchedule</a0>, <a1>ImmunizationRecommendation TrustDemoJ3Recommendation</a1>, <a2>Task TrustDemoJ3Reminder</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans les exemples : <a0>PlanDefinition TrustDemoOnesaInfantSchedule</a0>, <a1>ImmunizationRecommendation TrustDemoJ3Recommendation</a1>, <a2>Task TrustDemoJ3Reminder</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В примерах: <a0>PlanDefinition TrustDemoOnesaInfantSchedule</a0>, <a1>ImmunizationRecommendation TrustDemoJ3Recommendation</a1>, <a2>Task TrustDemoJ3Reminder</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例中：<a0>PlanDefinition TrustDemoOnesaInfantSchedule</a0>、<a1>ImmunizationRecommendation TrustDemoJ3Recommendation</a1>、<a2>Task TrustDemoJ3Reminder</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In the examples: <a0>Provenance TrustDemoJ41Received</a0>",
+   "hash": "8f0766e50b3afc00",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في الأمثلة: <a0>Provenance TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En los ejemplos: <a0>Provenance TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans les exemples : <a0>Provenance TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В примерах: <a0>Provenance TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例中：<a0>Provenance TrustDemoJ41Received</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In the examples: <a0>StructureDefinition TrustDemoOnesaImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaReportedImmunization</a1>",
+   "hash": "8415ce7d5008b4d1",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في الأمثلة: <a0>StructureDefinition TrustDemoOnesaImmunization</a0>، <a1>StructureDefinition TrustDemoOnesaReportedImmunization</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En los ejemplos: <a0>StructureDefinition TrustDemoOnesaImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaReportedImmunization</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans les exemples : <a0>StructureDefinition TrustDemoOnesaImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaReportedImmunization</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В примерах: <a0>StructureDefinition TrustDemoOnesaImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaReportedImmunization</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例中：<a0>StructureDefinition TrustDemoOnesaImmunization</a0>、<a1>StructureDefinition TrustDemoOnesaReportedImmunization</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In the examples: <a0>StructureDefinition TrustDemoOnesaReportedImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaDvcVerification</a1>, <a2>Provenance TrustDemoJ3Verification</a2>",
+   "hash": "c76ccbeee942a69a",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في الأمثلة: <a0>StructureDefinition TrustDemoOnesaReportedImmunization</a0>، <a1>StructureDefinition TrustDemoOnesaDvcVerification</a1>، <a2>Provenance TrustDemoJ3Verification</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En los ejemplos: <a0>StructureDefinition TrustDemoOnesaReportedImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaDvcVerification</a1>, <a2>Provenance TrustDemoJ3Verification</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans les exemples : <a0>StructureDefinition TrustDemoOnesaReportedImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaDvcVerification</a1>, <a2>Provenance TrustDemoJ3Verification</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В примерах: <a0>StructureDefinition TrustDemoOnesaReportedImmunization</a0>, <a1>StructureDefinition TrustDemoOnesaDvcVerification</a1>, <a2>Provenance TrustDemoJ3Verification</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "示例中：<a0>StructureDefinition TrustDemoOnesaReportedImmunization</a0>、<a1>StructureDefinition TrustDemoOnesaDvcVerification</a1>、<a2>Provenance TrustDemoJ3Verification</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3: measles-rubella 1 at 9 months belongs to a later visit and is not in this recommendation.",
+   "hash": "447bf7bcc3104c52",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3: الجرعة 1 من لقاح الحصبة والحصبة الألمانية عند 9 أشهر تخص زيارة لاحقة وليست ضمن هذه التوصية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3: la primera dosis contra sarampión y rubéola a los 9 meses corresponde a una visita posterior y no figura en esta recomendación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3 : la 1re dose rougeole-rubéole à 9 mois relève d'une visite ultérieure et ne figure pas dans cette recommandation.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3: доза 1 вакцины против кори и краснухи в 9 месяцев относится к более позднему визиту и не входит в эту рекомендацию.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3：9 个月时的麻疹-风疹第 1 剂属于之后的就诊，不在本次建议中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3: pentavalent 1, bOPV 1 and PCV 1 at 6 weeks, due 2025-12-09 (ImmunizationRecommendation TrustDemoJ3Recommendation), with a reminder Task for that date.",
+   "hash": "92e14c44c1dc3f89",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3: الخماسي 1 وbOPV 1 وPCV 1 عند 6 أسابيع، مستحقة في 2025-12-09 (ImmunizationRecommendation TrustDemoJ3Recommendation)، مع Task للتذكير في ذلك التاريخ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3: primera dosis de pentavalente, bOPV y PCV a las 6 semanas, prevista para el 2025-12-09 (ImmunizationRecommendation TrustDemoJ3Recommendation), con un recurso Task de recordatorio para esa fecha.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3 : 1re dose de pentavalent, de bOPV et de PCV à 6 semaines, due le 2025-12-09 (ImmunizationRecommendation TrustDemoJ3Recommendation), avec une Task de rappel pour cette date.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3: пентавалентная вакцина 1, bOPV 1 и PCV 1 в 6 недель, срок 2025-12-09 (ImmunizationRecommendation TrustDemoJ3Recommendation), с напоминанием Task на эту дату.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3：6 周时的五联疫苗第 1 剂、bOPV 第 1 剂和 PCV 第 1 剂，到期日 2025-12-09（ImmunizationRecommendation TrustDemoJ3Recommendation），并附带该日期的提醒 Task。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3: the Hep B and BCG birth doses count once imported, so they are not recommended again (<a0>STD-SCH-001</a0>).",
+   "hash": "7c30f2fbf6dd97e9",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3: تُحتسب جرعتا الولادة من لقاحَي التهاب الكبد B وBCG بمجرد استيرادهما، لذا لا يُوصى بهما مجددًا (<a0>STD-SCH-001</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3: las dosis al nacer de Hep B y BCG cuentan una vez importadas, por lo que no se vuelven a recomendar (<a0>STD-SCH-001</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3 : les doses à la naissance d'hépatite B et de BCG comptent une fois importées ; elles ne sont donc pas recommandées à nouveau (<a0>STD-SCH-001</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3: дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) засчитываются после импорта, поэтому повторно не рекомендуются (<a0>STD-SCH-001</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3：Hep B 和 BCG 出生剂次一经导入即计入，因此不会再次建议接种（<a0>STD-SCH-001</a0>）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3's yes path (<a0>STT-VER-001</a0>): the dose is recorded from its primary source. Examples Immunization TrustDemoJ3HepB and Provenance TrustDemoJ3Verification.",
+   "hash": "0637713e342519d9",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسار «نعم» في J3 (<a0>STT-VER-001</a0>): تُسجَّل الجرعة من مصدرها الأولي. المثالان Immunization TrustDemoJ3HepB وProvenance TrustDemoJ3Verification.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Rama afirmativa de J3 (<a0>STT-VER-001</a0>): la dosis se registra a partir de su fuente primaria. Ejemplos: Immunization TrustDemoJ3HepB y Provenance TrustDemoJ3Verification.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Branche « oui » de J3 (<a0>STT-VER-001</a0>) : la dose est enregistrée à partir de sa source primaire. Exemples Immunization TrustDemoJ3HepB et Provenance TrustDemoJ3Verification.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Путь «да» в J3 (<a0>STT-VER-001</a0>): доза записывается из первичного источника. Примеры: Immunization TrustDemoJ3HepB и Provenance TrustDemoJ3Verification.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3 的“是”路径（<a0>STT-VER-001</a0>）：该剂次根据其原始来源记录。示例 Immunization TrustDemoJ3HepB 和 Provenance TrustDemoJ3Verification。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Keep the dose as reported; record the step and reason (<a0>STT-VER-008</a0>); verify the DVC again after the next trust-list refresh.",
+   "hash": "d93ebbb90e2b2bb9",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاحتفاظ بالجرعة على أنها مُبلَّغ عنها؛ وتسجيل الخطوة والسبب (<a0>STT-VER-008</a0>)؛ والتحقق من شهادة DVC مجددًا بعد التحديث التالي لقائمة الثقة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Conservar la dosis como notificada; registrar el paso y el motivo (<a0>STT-VER-008</a0>); volver a verificar el DVC tras la próxima actualización de la lista de confianza.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conserver la dose comme déclarée ; consigner l'étape et le motif (<a0>STT-VER-008</a0>) ; vérifier à nouveau le DVC après la prochaine actualisation de la liste de confiance.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохранить дозу как заявленную; записать этап и причину (<a0>STT-VER-008</a0>); повторно проверить DVC после следующего обновления списка доверия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将该剂次保留为已报告；记录步骤和原因（<a0>STT-VER-008</a0>）；在下次信任列表刷新后再次验证该 DVC。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Keep the dose as reported; record the step and reason; the clinician decides by national policy whether to give or repeat the dose.",
+   "hash": "3fb40b0c3213c4e3",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الاحتفاظ بالجرعة على أنها مُبلَّغ عنها؛ وتسجيل الخطوة والسبب؛ ويقرر الممارس السريري وفق السياسة الوطنية ما إذا كان سيعطي الجرعة أو يكررها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Conservar la dosis como notificada; registrar el paso y el motivo; el profesional clínico decide según la política nacional si administra o repite la dosis.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conserver la dose comme déclarée ; consigner l'étape et le motif ; le clinicien décide selon la politique nationale s'il faut administrer ou répéter la dose.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохранить дозу как заявленную; записать этап и причину; клиницист решает согласно национальной политике, вводить ли дозу или повторить её.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将该剂次保留为已报告；记录步骤和原因；由临床医生根据国家政策决定是否接种或重复接种该剂次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Keep the product code as it is and show the dose to the clinician as unmapped; the schedule does not count it (TD.DT.03).",
+   "hash": "7b901a9748aeb695",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإبقاء على رمز المنتج كما هو وعرض الجرعة على الممارس السريري على أنها غير مربوطة؛ ولا يحتسبها الجدول (TD.DT.03).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Conservar el código del producto tal cual y mostrar la dosis al profesional clínico como sin correspondencia; el calendario no la cuenta (TD.DT.03).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conserver le code de produit tel quel et présenter la dose au clinicien comme sans correspondance ; le calendrier ne la compte pas (TD.DT.03).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохранить код продукта без изменений и показать дозу клиницисту как несопоставленную; график её не засчитывает (TD.DT.03).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "保持产品编码不变，并将该剂次以未映射状态展示给临床医生；接种计划不计入该剂次（TD.DT.03）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Mapping basis ({code0})",
+   "hash": "4d77c5e7d93ddba9",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أساس الربط ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Base de la correspondencia ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fondement de la correspondance ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Основание сопоставления ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "映射依据（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Next step ({code0})",
+   "hash": "e6eeae83b9a57279",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة التالية ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso siguiente ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape suivante ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Следующий шаг ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "下一步（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "No schedule code is added.",
+   "hash": "d8f0fe3e20897138",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يُضاف أي رمز جدول.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No se añade ningún código de calendario.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aucun code de calendrier n'est ajouté.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Код графика не добавляется.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "不添加接种计划编码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "one of {code0}, {code1}",
+   "hash": "5e23d00cc5edaa22",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أحد {code0}، {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "uno de {code0}, {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "l'un de {code0}, {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "одно из {code0}, {code1}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}、{code1} 之一",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "one of {code0}, {code1}, {code2}",
+   "hash": "c8176832dc8dc4ed",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أحد {code0}، {code1}، {code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "uno de {code0}, {code1}, {code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "l'un de {code0}, {code1}, {code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "одно из {code0}, {code1}, {code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}、{code1}、{code2} 之一",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "one of {code0}, {code1}, {code2}, {code3}, {code4}, {code5}",
+   "hash": "ff57a430379752f2",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أحد {code0}، {code1}، {code2}، {code3}، {code4}، {code5}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "uno de {code0}, {code1}, {code2}, {code3}, {code4}, {code5}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "l'un de {code0}, {code1}, {code2}, {code3}, {code4}, {code5}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "одно из {code0}, {code1}, {code2}, {code3}, {code4}, {code5}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}、{code1}、{code2}、{code3}、{code4}、{code5} 之一",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Only a verified dose is imported and mapped (J3's yes path); a reported dose keeps the issuer's code alone.",
+   "hash": "306e515927f0c737",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا تُستورد وتُربط إلا الجرعة المتحقَّق منها (مسار «نعم» في J3)؛ أما الجرعة المُبلَّغ عنها فتحتفظ برمز الجهة المُصدِرة وحده.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Solo se importa una dosis verificada y se establece su correspondencia (rama afirmativa de J3); una dosis notificada conserva únicamente el código del emisor.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Seule une dose vérifiée est importée et mise en correspondance (branche « oui » de J3) ; une dose déclarée conserve uniquement le code de l'émetteur.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Импортируется и сопоставляется только проверенная доза (путь «да» в J3); заявленная доза сохраняет только код эмитента.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "只有已验证的剂次才会被导入和映射（J3 的“是”路径）；已报告的剂次仅保留签发方的编码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Record outcome ({code0})",
+   "hash": "2d805f1a15d5d877",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نتيجة السجل ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resultado del registro ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Issue de l'enregistrement ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Итог записи ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录结果（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Record outcome (TD.DT.01) ({code0})",
+   "hash": "64566bb01c82b055",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نتيجة السجل (TD.DT.01) ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resultado del registro (TD.DT.01) ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Issue de l'enregistrement (TD.DT.01) ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Итог записи (TD.DT.01) ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录结果（TD.DT.01）（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Recorded from its primary source ({code0})",
+   "hash": "146b73f5fb391cec",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مُسجَّلة من مصدرها الأولي ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registrada a partir de su fuente primaria ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrée à partir de sa source primaire ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Записано из первичного источника ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "根据其原始来源记录（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Refusal reason ({code0})",
+   "hash": "c1ec6972c3e78d72",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سبب الرفض ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Motivo del rechazo ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Motif du refus ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Причина отказа ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "拒绝原因（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Release ({code0})",
+   "hash": "4d8cb3216c03bb8f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإفراج ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Liberación ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Communication ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предоставление ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "释放（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Reported, not verified.",
+   "hash": "c7885c74cd067513",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مُبلَّغ عنها، غير متحقَّق منها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Notificada, no verificada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Déclarée, non vérifiée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Заявлена, не проверена.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已报告，未验证。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Request the manifest by ITI-YY5 with an HTTP Message Signature (<a0>STT-VHL-005</a0>); the portal then applies TD.DT.05. Provenance TrustDemoJ41Received.",
+   "hash": "ae5fa5f7ad488b3b",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طلب البيان عبر ITI-YY5 مع توقيع رسالة HTTP (<a0>STT-VHL-005</a0>)؛ ثم تطبّق البوابة الإلكترونية TD.DT.05. Provenance TrustDemoJ41Received.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Solicitar el manifiesto mediante ITI-YY5 con una HTTP Message Signature (<a0>STT-VHL-005</a0>); a continuación, el portal aplica TD.DT.05. Provenance TrustDemoJ41Received.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Demander le manifeste par ITI-YY5 avec une signature de message HTTP (<a0>STT-VHL-005</a0>) ; le portail applique ensuite TD.DT.05. Provenance TrustDemoJ41Received.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запросить манифест по ITI-YY5 с подписью HTTP Message Signature (<a0>STT-VHL-005</a0>); затем портал применяет TD.DT.05. Provenance TrustDemoJ41Received.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通过 ITI-YY5 并使用 HTTP 消息签名（HTTP Message Signature）请求清单（<a0>STT-VHL-005</a0>）；随后门户应用 TD.DT.05。Provenance TrustDemoJ41Received。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements",
+   "hash": "583db49c6c8af0dd",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements: <a0>STD-ACC-001</a0>",
+   "hash": "81d718779dbaf8fd",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات: <a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos: <a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences : <a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования: <a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements: <a0>STD-SCH-001</a0>",
+   "hash": "9efa1eb975031572",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات: <a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos: <a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences : <a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования: <a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements: <a0>STD-SCH-001</a0>, <a1>STD-SEM-001</a1>",
+   "hash": "35ca55becc52a4f6",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات: <a0>STD-SCH-001</a0>، <a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos: <a0>STD-SCH-001</a0>, <a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences : <a0>STD-SCH-001</a0>, <a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования: <a0>STD-SCH-001</a0>, <a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：<a0>STD-SCH-001</a0>，<a1>STD-SEM-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements: <a0>STD-SEM-001</a0>",
+   "hash": "047a83c527a74908",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات: <a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos: <a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences : <a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования: <a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements: <a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>, <a3>STT-VER-011</a3>",
+   "hash": "96abb86e9ae75dde",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات: <a0>STT-VER-001</a0>، <a1>STT-VER-006</a1>، <a2>STT-VER-008</a2>، <a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos: <a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>, <a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences : <a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>, <a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования: <a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>, <a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：<a0>STT-VER-001</a0>，<a1>STT-VER-006</a1>，<a2>STT-VER-008</a2>，<a3>STT-VER-011</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements: <a0>STT-VER-001</a0>, <a1>STT-VER-008</a1>, <a2>STT-VHL-009</a2>, <a3>STT-VHL-005</a3>",
+   "hash": "3b6da0597796dd3b",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات: <a0>STT-VER-001</a0>، <a1>STT-VER-008</a1>، <a2>STT-VHL-009</a2>، <a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos: <a0>STT-VER-001</a0>, <a1>STT-VER-008</a1>, <a2>STT-VHL-009</a2>, <a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences : <a0>STT-VER-001</a0>, <a1>STT-VER-008</a1>, <a2>STT-VHL-009</a2>, <a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования: <a0>STT-VER-001</a0>, <a1>STT-VER-008</a1>, <a2>STT-VHL-009</a2>, <a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求：<a0>STT-VER-001</a0>，<a1>STT-VER-008</a1>，<a2>STT-VHL-009</a2>，<a3>STT-VHL-005</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Save the dose as reported by the family (primarySource false, the caregiver as information source, a note that nothing is verified) and refer the child to the clinic for verification.",
+   "hash": "45272aa47f5ea73b",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حفظ الجرعة على أنها مُبلَّغ عنها من الأسرة (primarySource false، ومقدِّم الرعاية بوصفه مصدر المعلومات، وملاحظة بأنه لم يُتحقق من أي شيء) وإحالة الطفل إلى العيادة للتحقق.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Guardar la dosis tal como la notifica la familia (primarySource false, el cuidador como fuente de información, una nota de que nada está verificado) y derivar al niño a la clínica para su verificación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrer la dose comme déclarée par la famille (primarySource false, l'aidant comme source d'information, une note indiquant que rien n'est vérifié) et orienter l'enfant vers le centre de santé pour vérification.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохранить дозу как заявленную семьёй (primarySource false, лицо, осуществляющее уход, как источник информации, примечание о том, что ничего не проверено) и направить ребёнка в клинику для проверки.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将该剂次保存为由家庭报告的剂次（primarySource false，照护者作为信息来源，并注明未经任何验证），并将儿童转诊到诊所进行验证。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Scan again; if it still fails, treat the card as paper and record why it was not verified.",
+   "hash": "6047b3d833f6f6ac",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إعادة المسح الضوئي؛ وإذا استمر الفشل، التعامل مع البطاقة كالورق وتسجيل سبب عدم التحقق.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Volver a escanear; si sigue fallando, tratar la tarjeta como papel y registrar por qué no se verificó.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanner à nouveau ; en cas de nouvel échec, traiter la carte comme du papier et consigner pourquoi elle n'a pas été vérifiée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отсканировать повторно; если сбой сохраняется, рассматривать карту как бумажную и записать, почему проверка не пройдена.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "重新扫描；如果仍然失败，则将该卡片当作纸质记录对待，并记录其未被验证的原因。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serves",
+   "hash": "be9d63e5b6652d8f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخدم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sirve a",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au service de",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обслуживает",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务于",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serves: <a0>J3 Verify, import and schedule at the home clinic</a0>: Evaluate the national schedule ({code0})",
+   "hash": "fe7e3cfc7e9c3465",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخدم: <a0>J3 التحقق والاستيراد والجدولة في عيادة البلد الأم</a0>: تقييم الجدول الوطني ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sirve a: <a0>J3 Verificar, importar y programar en la clínica del país de residencia</a0>: Evaluar el calendario nacional ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au service de : <a0>J3 Vérifier, importer et planifier au centre de santé du pays de résidence</a0> : Évaluer le calendrier national ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обслуживает: <a0>J3 Проверить, импортировать и составить график в клинике по месту жительства</a0>: Оценить национальный график ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务于：<a0>J3 在所属诊所验证、导入并安排接种计划</a0>：评估国家接种计划（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serves: <a0>J3 Verify, import and schedule at the home clinic</a0>: Evaluate the national schedule ({code0}); Give due doses and book the next visit ({code1})",
+   "hash": "c6e2bd6c3cbfeab6",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخدم: <a0>J3 التحقق والاستيراد والجدولة في عيادة البلد الأم</a0>: تقييم الجدول الوطني ({code0})؛ إعطاء الجرعات المستحقة وحجز الزيارة التالية ({code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sirve a: <a0>J3 Verificar, importar y programar en la clínica del país de residencia</a0>: Evaluar el calendario nacional ({code0}); Administrar las dosis pendientes y programar la próxima visita ({code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au service de : <a0>J3 Vérifier, importer et planifier au centre de santé du pays de résidence</a0> : Évaluer le calendrier national ({code0}) ; Administrer les doses dues et fixer la prochaine visite ({code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обслуживает: <a0>J3 Проверить, импортировать и составить график в клинике по месту жительства</a0>: Оценить национальный график ({code0}); Ввести положенные дозы и записать на следующий визит ({code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务于：<a0>J3 在所属诊所验证、导入并安排接种计划</a0>：评估国家接种计划（{code0}）；接种到期剂次并预约下次就诊（{code1}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.DT.01 What does a scanned DVC become in the child's record?",
+   "hash": "7a36d12a63118664",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.DT.01 إلامَ تتحول شهادة DVC الممسوحة ضوئيًا في سجل الطفل؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.DT.01 ¿En qué se convierte un DVC escaneado en el registro del niño?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.DT.01 Que devient un DVC scanné dans le dossier de l'enfant ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.DT.01 Чем становится отсканированный DVC в записи ребёнка?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.DT.01 扫描的 DVC 在儿童记录中成为什么？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.DT.02 Which national schedule code does an imported dose carry?",
+   "hash": "3b698b28036ddbea",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.DT.02 ما رمز الجدول الوطني الذي تحمله الجرعة المستوردة؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.DT.02 ¿Qué código del calendario nacional lleva una dosis importada?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.DT.02 Quel code du calendrier national une dose importée porte-t-elle ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.DT.02 Какой код национального графика несёт импортированная доза?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.DT.02 导入的剂次带有哪个国家接种计划编码？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.DT.03 Does the national schedule count this dose?",
+   "hash": "4430bf5f9f45f0ed",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.DT.03 هل يحتسب الجدول الوطني هذه الجرعة؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.DT.03 ¿Cuenta el calendario nacional esta dosis?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.DT.03 Le calendrier national compte-t-il cette dose ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.DT.03 Засчитывает ли национальный график эту дозу?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.DT.03 国家接种计划是否计入该剂次？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.DT.04 Is this dose of the national schedule due?",
+   "hash": "a6eae31eb637b411",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.DT.04 هل هذه الجرعة من الجدول الوطني مستحقة؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.DT.04 ¿Corresponde administrar esta dosis del calendario nacional?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.DT.04 Cette dose du calendrier national est-elle due ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.DT.04 Подошёл ли срок этой дозы национального графика?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.DT.04 国家接种计划的该剂次是否到期？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.DT.05 Does the portal release the manifest for this request?",
+   "hash": "5e998aa0af50e325",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.DT.05 هل تُفرج البوابة الإلكترونية عن البيان لهذا الطلب؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.DT.05 ¿Libera el portal el manifiesto para esta solicitud?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.DT.05 Le portail communique-t-il le manifeste pour cette demande ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.DT.05 Предоставляет ли портал манифест по этому запросу?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.DT.05 门户是否针对该请求释放清单？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.DT.06 Does the receiver follow the VHL?",
+   "hash": "0526d3c316aa1aba",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.DT.06 هل تتبع الجهة المُستقبِلة رابط VHL؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.DT.06 ¿Sigue el receptor el VHL?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.DT.06 Le destinataire suit-il le VHL ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.DT.06 Переходит ли получатель по VHL?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.DT.06 接收方是否跟随该 VHL？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The CHW's triage read in J2 (<a0>STT-VER-011</a0>): nothing is verified, so the dose is reported, never verified. Example Immunization TrustDemoJ2HepBReported.",
+   "hash": "6653b1b23b672f21",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قراءة الفرز التي يجريها عامل CHW في J2 (<a0>STT-VER-011</a0>): لا يُتحقق من أي شيء، لذا تكون الجرعة مُبلَّغًا عنها، ولا تكون متحقَّقًا منها أبدًا. المثال Immunization TrustDemoJ2HepBReported.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La lectura de triaje del agente comunitario de salud (CHW) en J2 (<a0>STT-VER-011</a0>): no se verifica nada, por lo que la dosis queda como notificada, nunca como verificada. Ejemplo: Immunization TrustDemoJ2HepBReported.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lecture de triage par le CHW dans J2 (<a0>STT-VER-011</a0>) : rien n'est vérifié, donc la dose est déclarée, jamais vérifiée. Exemple Immunization TrustDemoJ2HepBReported.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Триажное чтение общинным медицинским работником (CHW) в J2 (<a0>STT-VER-011</a0>): ничего не проверяется, поэтому доза является заявленной, но никогда не проверенной. Пример: Immunization TrustDemoJ2HepBReported.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2 中 CHW 的分诊读取（<a0>STT-VER-011</a0>）：未验证任何内容，因此该剂次是已报告的，绝不是已验证的。示例 Immunization TrustDemoJ2HepBReported。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The decision-support logic is the DAK's component 6: the decisions the journeys make, as decision tables in the <a0>OMG Decision Model and Notation</a0> (DMN 1.3), as the <a1>WHO SMART Guidelines DAK</a1> writes them. Each table names the business-process tasks it serves, the requirements it applies, the <a2>data elements</a2> it reads and the FHIR artifacts that show it in the examples. Each is also a {code0} (type {code1}) with one action per rule, so it is listed in the <a3>artifact index</a3>.",
+   "hash": "8da17f82d2c9b80a",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "منطق دعم القرار هو المكوِّن 6 من مجموعة أدوات التكيُّف الرقمي (DAK): القرارات التي تتخذها الرحلات، في صورة جداول قرار وفق <a0>نموذج القرار والترميز الصادر عن OMG</a0> (DMN 1.3)، كما تكتبها <a1>مجموعة DAK ضمن إرشادات WHO SMART</a1>. ويسمّي كل جدول مهام عملية العمل التي يخدمها، والمتطلبات التي يطبّقها، و<a2>عناصر البيانات</a2> التي يقرؤها، ومصنوعات FHIR التي تُظهره في الأمثلة. وكل جدول هو أيضًا {code0} (من النوع {code1}) بإجراء واحد لكل قاعدة، لذا يُدرج في <a3>فهرس المصنوعات</a3>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La lógica de apoyo a la decisión es el componente 6 del DAK: las decisiones que toman los recorridos, en forma de tablas de decisión en el <a0>OMG Decision Model and Notation</a0> (DMN 1.3), tal como las redacta el <a1>DAK de las SMART Guidelines de la OMS</a1>. Cada tabla indica las tareas de los procesos operativos a las que sirve, los requisitos que aplica, los <a2>elementos de datos</a2> que lee y los artefactos FHIR que la muestran en los ejemplos. Cada una es también un {code0} (tipo {code1}) con una acción por regla, por lo que figura en el <a3>índice de artefactos</a3>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La logique d'aide à la décision est la composante 6 du DAK : les décisions prises au cours des parcours, sous forme de tables de décision dans la <a0>OMG Decision Model and Notation</a0> (DMN 1.3), telles que les rédige le <a1>DAK des lignes directrices SMART de l'OMS</a1>. Chaque table indique les tâches de processus métier qu'elle sert, les exigences qu'elle applique, les <a2>éléments de données</a2> qu'elle lit et les artefacts FHIR qui l'illustrent dans les exemples. Chacune est aussi un {code0} (type {code1}) avec une action par règle ; elle figure donc dans l'<a3>index des artefacts</a3>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Логика поддержки принятия решений — это компонент 6 DAK: решения, принимаемые в пользовательских путях, в виде таблиц решений в нотации <a0>OMG Decision Model and Notation</a0> (DMN 1.3), как их описывает <a1>DAK руководящих принципов SMART ВОЗ (WHO SMART Guidelines)</a1>. Каждая таблица указывает задачи бизнес-процессов, которые она обслуживает, применяемые ею требования, считываемые ею <a2>элементы данных</a2> и артефакты FHIR, которые показывают её в примерах. Каждая таблица также является {code0} (тип {code1}) с одним действием на правило, поэтому она включена в <a3>указатель артефактов</a3>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "决策支持逻辑是 DAK 的第 6 个组成部分：各旅程所作出的决策，按照 <a1>世卫组织 SMART 指南（WHO SMART Guidelines）DAK</a1> 的写法，以 <a0>OMG 决策模型和表示法（Decision Model and Notation）</a0>（DMN 1.3）中的决策表表示。每个表都指明它所服务的业务流程任务、它所应用的需求、它所读取的<a2>数据元素</a2>，以及在示例中展示它的 FHIR 工件。每个表也是一个 {code0}（类型 {code1}），每条规则对应一个动作，因此它列在<a3>工件索引</a3>中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The holder withdrew the link ({code0})",
+   "hash": "6487d5c23b98bde9",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سحب الحامل الرابط ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El titular retiró el enlace ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le titulaire a retiré le lien ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Владелец отозвал ссылку ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "持有人撤回了链接（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The manifest is released and the access logged (AuditEvent TrustDemoJ41Access).",
+   "hash": "533bbe64a87d9616",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُفرج عن البيان ويُسجَّل الوصول (AuditEvent TrustDemoJ41Access).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se libera el manifiesto y se registra el acceso (AuditEvent TrustDemoJ41Access).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le manifeste est communiqué et l'accès journalisé (AuditEvent TrustDemoJ41Access).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Манифест предоставлен, а доступ зарегистрирован (AuditEvent TrustDemoJ41Access).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "清单被释放，访问被记录日志（AuditEvent TrustDemoJ41Access）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The map has no entry and the clinician confirms the equivalent (J3: the Hep B product). Her decision is recorded and added to the map so the next clinic need not repeat it.",
+   "hash": "35e1a39461279d88",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ليس في الخريطة قيد ويؤكد الممارس السريري المكافئ (J3: منتج التهاب الكبد B). ويُسجَّل قرارها ويُضاف إلى الخريطة حتى لا تحتاج العيادة التالية إلى تكراره.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La tabla de correspondencias no tiene ninguna entrada y la profesional clínica confirma el equivalente (J3: el producto de Hep B). Su decisión se registra y se añade a la tabla para que la próxima clínica no tenga que repetirla.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La table de correspondance n'a pas d'entrée et la clinicienne confirme l'équivalent (J3 : le produit hépatite B). Sa décision est consignée et ajoutée à la table de correspondance afin que le centre de santé suivant n'ait pas à la répéter.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В таблице соответствия нет записи, и клиницист подтверждает эквивалент (J3: продукт против гепатита B (Hep B)). Её решение записывается и добавляется в таблицу соответствия, чтобы следующей клинике не пришлось его повторять.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "映射表中没有条目，由临床医生确认对应项（J3：Hep B 产品）。她的决定被记录并添加到映射表中，这样下一家诊所就无需重复。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The passcode matches ({code0})",
+   "hash": "04e178b3531fd8b0",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز المرور مطابق ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El código de acceso coincide ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code d'accès correspond ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Код доступа совпадает ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通行码匹配（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The request is within the period the holder chose ({code0})",
+   "hash": "182e3a9bafc4ef5e",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الطلب ضمن الفترة التي اختارها الحامل ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La solicitud está dentro del período elegido por el titular ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La demande se situe dans la période choisie par le titulaire ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запрос поступил в пределах периода, выбранного владельцем ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "请求在持有人选择的期限内（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The signature verified, but the certificate is outside its validity period. The dose is not verified; the clinician decides by national policy.",
+   "hash": "429056e460357f22",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اجتاز التوقيع التحقق، لكن الشهادة خارج فترة صلاحيتها. لا يُتحقق من الجرعة؛ ويقرر الممارس السريري وفق السياسة الوطنية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La firma se verificó, pero el certificado está fuera de su período de validez. La dosis no está verificada; el profesional clínico decide según la política nacional.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La signature a été vérifiée, mais le certificat est en dehors de sa période de validité. La dose n'est pas vérifiée ; le clinicien décide selon la politique nationale.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подпись проверена, но сертификат находится вне срока своего действия. Доза не проверена; клиницист принимает решение согласно национальной политике.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签名已验证，但证书超出其有效期。该剂次未被验证；由临床医生根据国家政策决定。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The signer's certificate is not in the clinic's cached trust list (<a0>STT-VER-006</a0>), for example a signer added after the last refresh: J3's no path \"until the next refresh\".",
+   "hash": "d82015f924f13b74",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شهادة الموقِّع ليست في قائمة الثقة المخزَّنة مؤقتًا لدى العيادة (<a0>STT-VER-006</a0>)، مثل موقِّع أُضيف بعد آخر تحديث: مسار «لا» في J3 «حتى التحديث التالي».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El certificado del firmante no está en la lista de confianza en caché de la clínica (<a0>STT-VER-006</a0>), por ejemplo un firmante añadido después de la última actualización: la rama negativa de J3 \"hasta la próxima actualización\".",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le certificat du signataire ne figure pas dans la liste de confiance en cache du centre de santé (<a0>STT-VER-006</a0>), par exemple un signataire ajouté après la dernière actualisation : la branche « non » de J3, « jusqu'à la prochaine actualisation ».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сертификата подписанта нет в кэшированном списке доверия клиники (<a0>STT-VER-006</a0>), например подписант добавлен после последнего обновления: путь «нет» в J3 «до следующего обновления».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "签名者的证书不在诊所缓存的信任列表中（<a0>STT-VER-006</a0>），例如在上次刷新之后添加的签名者：即 J3 的“否”路径“直到下次刷新”。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The sources are {code0}; this page and the PlanDefinitions are generated from them. The entries use the FEEL subset the harness's decision-table interpreter accepts: {code1} (any), literals, comparisons and one-of. Every table's hit policy is FIRST: the rules are tried in order and the first that matches applies, so the order is part of the logic. Where a rule says \"by national policy\", the policy is the home country's; the tables illustrate the decisions, they are not a country's rules.",
+   "hash": "634168a07bd54608",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المصادر هي {code0}؛ وتُولَّد هذه الصفحة وتعريفات PlanDefinition منها. وتستخدم المُدخلات المجموعة الفرعية من لغة FEEL التي يقبلها مفسِّر جداول القرار في الإطار (harness): {code1} (أي قيمة)، والقيم الحرفية، والمقارنات، وأحد القيم. وسياسة المطابقة في كل جدول هي FIRST: تُجرَّب القواعد بالترتيب وتُطبَّق أول قاعدة تتطابق، لذا يكون الترتيب جزءًا من المنطق. وحيثما تقول قاعدة «وفق السياسة الوطنية»، فالسياسة هي سياسة البلد الأم؛ والجداول توضّح القرارات، وليست قواعد بلد ما.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las fuentes son {code0}; esta página y los recursos PlanDefinition se generan a partir de ellas. Las celdas de las tablas utilizan el subconjunto de FEEL que acepta el intérprete de tablas de decisión del arnés: {code1} (cualquiera), literales, comparaciones y one-of. La política de coincidencia de todas las tablas es FIRST: las reglas se prueban en orden y se aplica la primera que coincide, por lo que el orden forma parte de la lógica. Cuando una regla dice \"según la política nacional\", se trata de la política del país de residencia; las tablas ilustran las decisiones, no son las reglas de un país.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les sources sont {code0} ; cette page et les PlanDefinitions sont générées à partir d'elles. Les entrées utilisent le sous-ensemble FEEL qu'accepte l'interpréteur de tables de décision du harnais : {code1} (tout), littéraux, comparaisons et « l'un de ». La politique de résultat de chaque table est FIRST : les règles sont essayées dans l'ordre et la première qui correspond s'applique ; l'ordre fait donc partie de la logique. Lorsqu'une règle indique « selon la politique nationale », il s'agit de la politique du pays de résidence ; les tables illustrent les décisions, elles ne sont pas les règles d'un pays.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Источники — {code0}; эта страница и PlanDefinition генерируются из них. Записи используют подмножество FEEL, которое принимает интерпретатор таблиц решений обвязки: {code1} (любое), литералы, сравнения и «одно из». Политика срабатывания каждой таблицы — FIRST: правила проверяются по порядку, и применяется первое совпавшее, поэтому порядок является частью логики. Там, где в правиле сказано «согласно национальной политике», имеется в виду политика страны проживания; таблицы иллюстрируют решения и не являются правилами какой-либо страны.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "源文件为 {code0}；本页面和各 PlanDefinition 均由其生成。各条目使用工具框架决策表解释器所接受的 FEEL 子集：{code1}（任意）、字面量、比较以及 one-of。每个表的命中策略都是 FIRST：按顺序尝试各规则，第一条匹配的规则生效，因此顺序是逻辑的一部分。凡规则写明“根据国家政策”之处，该政策指本国的政策；这些表用于说明决策，并非某个国家的规则。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The VHL has expired ({code0})",
+   "hash": "21fff9186afceebc",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "انتهت صلاحية رابط VHL ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El VHL ha caducado ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le VHL a expiré ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Срок действия VHL истёк ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL 已过期（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This action's timing age is the earliest among the actions with no counted dose ({code0})",
+   "hash": "6a9e390544ed2a6e",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمر توقيت هذا الإجراء هو الأبكر بين الإجراءات التي ليس لها جرعة محتسبة ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La edad de administración de esta acción es la más temprana entre las acciones sin dosis contabilizada ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'âge d'administration de cette action est le plus précoce parmi les actions sans dose comptée ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Возраст введения для этого действия — наименьший среди действий без засчитанной дозы ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "该动作的接种时间年龄是所有没有已计入剂次的动作中最早的（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Unmapped: shown to the clinician.",
+   "hash": "c40eaa594d6851eb",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "غير مربوطة: تُعرض على الممارس السريري.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin correspondencia: se muestra al profesional clínico.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sans correspondance : présentée au clinicien.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Без сопоставления: показывается клиницисту.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "未映射：展示给临床医生。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verification result ({code0})",
+   "hash": "07d2846859dda072",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نتيجة التحقق ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resultado de la verificación ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résultat de la vérification ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Результат проверки ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "验证结果（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Why ({code0})",
+   "hash": "9096b79731087453",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السبب ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Motivo ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Motif ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обоснование ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "原因（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J2 Discover and refer an unregistered infant in Country B</a0>: Read each DVC unverified (triage) ({code0}); Add the infant; save doses as reported ({code1})<a1>J3 Verify, import and schedule at the home clinic</a1>: Verify each HCERT against the trust list ({code2}); Every DVC verified? ({code3}); Note the failure; decide doses by policy ({code4}); Import the doses as FHIR Immunization resources ({code5})",
+   "hash": "e8fd05fcfc629811",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J2 اكتشاف رضيع غير مسجَّل في البلد B وإحالته</a0>: قراءة كل شهادة DVC دون تحقق (الفرز) ({code0})؛ إضافة الرضيع؛ حفظ الجرعات على أنها مُبلَّغ عنها ({code1})<a1>J3 التحقق والاستيراد والجدولة في عيادة البلد الأم</a1>: التحقق من كل HCERT مقابل قائمة الثقة ({code2})؛ هل تم التحقق من كل شهادة DVC؟ ({code3})؛ تدوين الإخفاق؛ البتّ في الجرعات وفق السياسة ({code4})؛ استيراد الجرعات بوصفها موارد Immunization في FHIR ({code5})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J2 Detectar y derivar a un lactante no registrado en el País B</a0>: Leer cada DVC sin verificar (triaje) ({code0}); Añadir al lactante; guardar las dosis como notificadas ({code1})<a1>J3 Verificar, importar y programar en la clínica del país de residencia</a1>: Verificar cada HCERT con la lista de confianza ({code2}); ¿Están verificados todos los DVC? ({code3}); Anotar el fallo; decidir las dosis según la política ({code4}); Importar las dosis como recursos Immunization de FHIR ({code5})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J2 Repérer et orienter un nourrisson non enregistré dans le Pays B</a0> : Lire chaque DVC sans vérification (triage) ({code0}) ; Ajouter le nourrisson ; enregistrer les doses comme déclarées ({code1})<a1>J3 Vérifier, importer et planifier au centre de santé du pays de résidence</a1> : Vérifier chaque HCERT par rapport à la liste de confiance ({code2}) ; Tous les DVC sont-ils vérifiés ? ({code3}) ; Noter l'échec ; décider des doses selon la politique ({code4}) ; Importer les doses en tant que ressources FHIR Immunization ({code5})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J2 Выявить и направить незарегистрированного младенца в стране B</a0>: Прочитать каждый DVC без проверки (триаж) ({code0}); Добавить младенца; сохранить дозы как заявленные ({code1})<a1>J3 Проверить, импортировать и составить график в клинике по месту жительства</a1>: Проверить каждый HCERT по списку доверия ({code2}); Все DVC проверены? ({code3}); Отметить сбой; решить вопрос о дозах согласно политике ({code4}); Импортировать дозы как ресурсы FHIR Immunization ({code5})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>J2 在 B 国发现并转诊未登记的婴儿</a0>：以未验证方式读取每个 DVC（分诊）（{code0}）；添加婴儿；将剂次保存为已报告（{code1}）<a1>J3 在所属诊所验证、导入并安排接种计划</a1>：针对信任列表验证每个 HCERT（{code2}）；每个 DVC 都已验证？（{code3}）；记录失败；按政策决定剂次（{code4}）；将剂次作为 FHIR Immunization 资源导入（{code5}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J3 Verify, import and schedule at the home clinic</a0>: Add national codes beside foreign ones ({code0})",
+   "hash": "c49a007766aea1fe",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J3 التحقق والاستيراد والجدولة في عيادة البلد الأم</a0>: إضافة الرموز الوطنية بجانب الرموز الأجنبية ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J3 Verificar, importar y programar en la clínica del país de residencia</a0>: Añadir los códigos nacionales junto a los extranjeros ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J3 Vérifier, importer et planifier au centre de santé du pays de résidence</a0> : Ajouter les codes nationaux à côté des codes étrangers ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J3 Проверить, импортировать и составить график в клинике по месту жительства</a0>: Добавить национальные коды рядом с иностранными ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>J3 在所属诊所验证、导入并安排接种计划</a0>：在外国编码旁添加国家编码（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J4.1 Read a family member's records at the point of care abroad</a0>: Check passcode, log access, return manifest ({code0})",
+   "hash": "c862416c4488c88c",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J4.1 قراءة سجلات أحد أفراد الأسرة في نقطة تقديم الرعاية بالخارج</a0>: التحقق من رمز المرور، وتسجيل الوصول، وإعادة البيان ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J4.1 Leer los registros de un miembro de la familia en el punto de atención en el extranjero</a0>: Comprobar el código de acceso, registrar el acceso, devolver el manifiesto ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J4.1 Lire les dossiers d'un membre de la famille au point de soins à l'étranger</a0> : Vérifier le code d'accès, journaliser l'accès, renvoyer le manifeste ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J4.1 Прочитать записи члена семьи в месте оказания помощи за границей</a0>: Проверить код доступа, зарегистрировать доступ, вернуть манифест ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>J4.1 在国外的医疗服务点读取家庭成员的记录</a0>：核验通行码、记录访问、返回清单（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J4.1 Read a family member's records at the point of care abroad</a0>: Verify the HCERT and read the VHL at key 5 ({code0}); HCERT verified? ({code1}); Not verified: treat records as paper ({code2}); Request the manifest (ITI-YY5), signed ({code3})",
+   "hash": "1c46fceb436868d8",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J4.1 قراءة سجلات أحد أفراد الأسرة في نقطة تقديم الرعاية بالخارج</a0>: التحقق من HCERT وقراءة رابط VHL في المفتاح 5 ({code0})؛ هل تم التحقق من HCERT؟ ({code1})؛ لم يُتحقَّق منها: التعامل مع السجلات كالورق ({code2})؛ طلب البيان (ITI-YY5)، موقَّعًا ({code3})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J4.1 Leer los registros de un miembro de la familia en el punto de atención en el extranjero</a0>: Verificar el HCERT y leer el VHL en la clave 5 ({code0}); ¿HCERT verificado? ({code1}); Sin verificar: tratar los registros como papel ({code2}); Solicitar el manifiesto (ITI-YY5), firmado ({code3})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J4.1 Lire les dossiers d'un membre de la famille au point de soins à l'étranger</a0> : Vérifier le HCERT et lire le VHL à la clé 5 ({code0}) ; HCERT vérifié ? ({code1}) ; Non vérifié : traiter les dossiers comme du papier ({code2}) ; Demander le manifeste (ITI-YY5), signé ({code3})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J4.1 Прочитать записи члена семьи в месте оказания помощи за границей</a0>: Проверить HCERT и прочитать VHL по ключу 5 ({code0}); HCERT проверен? ({code1}); Не проверено: рассматривать записи как бумажные ({code2}); Запросить манифест (ITI-YY5) с подписью ({code3})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>J4.1 在国外的医疗服务点读取家庭成员的记录</a0>：验证 HCERT 并读取键 5 处的 VHL（{code0}）；HCERT 已验证？（{code1}）；未验证：按纸质记录对待（{code2}）；请求清单（ITI-YY5），已签名（{code3}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serves: <a0>J2 Discover and refer an unregistered infant in Country B</a0>: Read each DVC unverified (triage) ({code0}); Add the infant; save doses as reported ({code1}); <a1>J3 Verify, import and schedule at the home clinic</a1>: Verify each HCERT against the trust list ({code2}); Every DVC verified? ({code3}); Note the failure; decide doses by policy ({code4}); Import the doses as FHIR Immunization resources ({code5})",
+   "hash": "1901d61902e4e2fb",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخدم: <a0>J2 اكتشاف رضيع غير مسجَّل في البلد B وإحالته</a0>: قراءة كل شهادة DVC دون تحقق (الفرز) ({code0})؛ إضافة الرضيع؛ حفظ الجرعات على أنها مُبلَّغ عنها ({code1})؛ <a1>J3 التحقق والاستيراد والجدولة في عيادة البلد الأم</a1>: التحقق من كل HCERT مقابل قائمة الثقة ({code2})؛ هل تم التحقق من كل شهادة DVC؟ ({code3})؛ تدوين الإخفاق؛ البتّ في الجرعات وفق السياسة ({code4})؛ استيراد الجرعات بوصفها موارد Immunization في FHIR ({code5})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sirve a: <a0>J2 Detectar y derivar a un lactante no registrado en el País B</a0>: Leer cada DVC sin verificar (triaje) ({code0}); Añadir al lactante; guardar las dosis como notificadas ({code1}); <a1>J3 Verificar, importar y programar en la clínica del país de residencia</a1>: Verificar cada HCERT con la lista de confianza ({code2}); ¿Están verificados todos los DVC? ({code3}); Anotar el fallo; decidir las dosis según la política ({code4}); Importar las dosis como recursos Immunization de FHIR ({code5})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au service de : <a0>J2 Repérer et orienter un nourrisson non enregistré dans le Pays B</a0> : Lire chaque DVC sans vérification (triage) ({code0}) ; Ajouter le nourrisson ; enregistrer les doses comme déclarées ({code1}) ; <a1>J3 Vérifier, importer et planifier au centre de santé du pays de résidence</a1> : Vérifier chaque HCERT par rapport à la liste de confiance ({code2}) ; Tous les DVC sont-ils vérifiés ? ({code3}) ; Noter l'échec ; décider des doses selon la politique ({code4}) ; Importer les doses en tant que ressources FHIR Immunization ({code5})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обслуживает: <a0>J2 Выявить и направить незарегистрированного младенца в стране B</a0>: Прочитать каждый DVC без проверки (триаж) ({code0}); Добавить младенца; сохранить дозы как заявленные ({code1}); <a1>J3 Проверить, импортировать и составить график в клинике по месту жительства</a1>: Проверить каждый HCERT по списку доверия ({code2}); Все DVC проверены? ({code3}); Отметить сбой; решить вопрос о дозах согласно политике ({code4}); Импортировать дозы как ресурсы FHIR Immunization ({code5})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务于：<a0>J2 在 B 国发现并转诊未登记的婴儿</a0>：以未验证方式读取每个 DVC（分诊）（{code0}）；添加婴儿；将剂次保存为已报告（{code1}）；<a1>J3 在所属诊所验证、导入并安排接种计划</a1>：针对信任列表验证每个 HCERT（{code2}）；每个 DVC 都已验证？（{code3}）；记录失败；按政策决定剂次（{code4}）；将剂次作为 FHIR Immunization 资源导入（{code5}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serves: <a0>J3 Verify, import and schedule at the home clinic</a0>: Add national codes beside foreign ones ({code0})",
+   "hash": "526e64c3804316f2",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخدم: <a0>J3 التحقق والاستيراد والجدولة في عيادة البلد الأم</a0>: إضافة الرموز الوطنية بجانب الرموز الأجنبية ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sirve a: <a0>J3 Verificar, importar y programar en la clínica del país de residencia</a0>: Añadir los códigos nacionales junto a los extranjeros ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au service de : <a0>J3 Vérifier, importer et planifier au centre de santé du pays de résidence</a0> : Ajouter les codes nationaux à côté des codes étrangers ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обслуживает: <a0>J3 Проверить, импортировать и составить график в клинике по месту жительства</a0>: Добавить национальные коды рядом с иностранными ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务于：<a0>J3 在所属诊所验证、导入并安排接种计划</a0>：在外国编码旁添加国家编码（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serves: <a0>J4.1 Read a family member's records at the point of care abroad</a0>: Check passcode, log access, return manifest ({code0})",
+   "hash": "39c4ee27c3b0d2a0",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخدم: <a0>J4.1 قراءة سجلات أحد أفراد الأسرة في نقطة تقديم الرعاية بالخارج</a0>: التحقق من رمز المرور، وتسجيل الوصول، وإعادة البيان ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sirve a: <a0>J4.1 Leer los registros de un miembro de la familia en el punto de atención en el extranjero</a0>: Comprobar el código de acceso, registrar el acceso, devolver el manifiesto ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au service de : <a0>J4.1 Lire les dossiers d'un membre de la famille au point de soins à l'étranger</a0> : Vérifier le code d'accès, journaliser l'accès, renvoyer le manifeste ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обслуживает: <a0>J4.1 Прочитать записи члена семьи в месте оказания помощи за границей</a0>: Проверить код доступа, зарегистрировать доступ, вернуть манифест ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务于：<a0>J4.1 在国外的医疗服务点读取家庭成员的记录</a0>：核验通行码、记录访问、返回清单（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Serves: <a0>J4.1 Read a family member's records at the point of care abroad</a0>: Verify the HCERT and read the VHL at key 5 ({code0}); HCERT verified? ({code1}); Not verified: treat records as paper ({code2}); Request the manifest (ITI-YY5), signed ({code3})",
+   "hash": "43522412599a562f",
+   "sources": [
+    "input/pagecontent/decision-logic.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخدم: <a0>J4.1 قراءة سجلات أحد أفراد الأسرة في نقطة تقديم الرعاية بالخارج</a0>: التحقق من HCERT وقراءة رابط VHL في المفتاح 5 ({code0})؛ هل تم التحقق من HCERT؟ ({code1})؛ لم يُتحقَّق منها: التعامل مع السجلات كالورق ({code2})؛ طلب البيان (ITI-YY5)، موقَّعًا ({code3})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sirve a: <a0>J4.1 Leer los registros de un miembro de la familia en el punto de atención en el extranjero</a0>: Verificar el HCERT y leer el VHL en la clave 5 ({code0}); ¿HCERT verificado? ({code1}); Sin verificar: tratar los registros como papel ({code2}); Solicitar el manifiesto (ITI-YY5), firmado ({code3})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Au service de : <a0>J4.1 Lire les dossiers d'un membre de la famille au point de soins à l'étranger</a0> : Vérifier le HCERT et lire le VHL à la clé 5 ({code0}) ; HCERT vérifié ? ({code1}) ; Non vérifié : traiter les dossiers comme du papier ({code2}) ; Demander le manifeste (ITI-YY5), signé ({code3})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обслуживает: <a0>J4.1 Прочитать записи члена семьи в месте оказания помощи за границей</a0>: Проверить HCERT и прочитать VHL по ключу 5 ({code0}); HCERT проверен? ({code1}); Не проверено: рассматривать записи как бумажные ({code2}); Запросить манифест (ITI-YY5) с подписью ({code3})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务于：<a0>J4.1 在国外的医疗服务点读取家庭成员的记录</a0>：验证 HCERT 并读取键 5 处的 VHL（{code0}）；HCERT 已验证？（{code1}）；未验证：按纸质记录对待（{code2}）；请求清单（ITI-YY5），已签名（{code3}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

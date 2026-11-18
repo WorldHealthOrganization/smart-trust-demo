@@ -1,0 +1,2656 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "user-scenarios/j4-0-one-family-one-phone",
+ "hashes": {
+  "ar": "dec0144638919ac2",
+  "es": "9d8f358ad09fd71a",
+  "fr": "e42f5a746a1407d9",
+  "ru": "4be45238132d4a4b",
+  "zh": "1ab7dc14ccba9ef0"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Cross-Border",
+   "hash": "e3c3ff76ff705b9b",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عابر للحدود",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transfronterizo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transfrontalier",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трансграничный",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "跨境",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "A year on, the family plans a trip to Taifafeki. Bounmy’s phone holds records for all three of them, including Somsak’s six verified doses.",
+   "hash": "275e65a3dc1c923c",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد عام، تخطط الأسرة لرحلة إلى Taifafeki. يحمل هاتف Bounmy سجلات أفرادها الثلاثة جميعًا، بما فيها جرعات Somsak الست المُتحقَّق منها.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un año después, la familia planea un viaje a Taifafeki. El teléfono de Bounmy contiene los registros de los tres, incluidas las seis dosis verificadas de Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un an plus tard, la famille prévoit un voyage à Taifafeki. Le téléphone de Bounmy contient les dossiers de tous les trois, dont les six doses vérifiées de Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Год спустя семья планирует поездку в страну Taifafeki. На телефоне Bounmy хранятся записи всех троих, включая шесть проверенных доз Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一年后，这家人计划去 Taifafeki 旅行。Bounmy 的手机保存着他们三人的记录，其中包括 Somsak 的六剂已验证剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "User scenario in the IG",
+   "hash": "6ec906602b6d758f",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريو المستخدم في دليل التنفيذ (IG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenario de usuario en la IG",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénario utilisateur dans l’IG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательский сценарий в IG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "实施指南（IG）中的用户场景",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "A household wallet on one phone, with a separate health summary for each person.",
+   "hash": "eb01dcb429654f6c",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "محفظة للأسرة المعيشية على هاتف واحد، مع ملخص صحي مستقل لكل فرد.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una billetera familiar en un solo teléfono, con un resumen de salud separado para cada persona.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un portefeuille du ménage sur un seul téléphone, avec un résumé de santé distinct pour chaque personne.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семейный кошелёк на одном телефоне с отдельной сводкой о здоровье для каждого человека.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一部手机上的家庭钱包，每个人都有单独的健康摘要。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "A Verifiable Health Link: the QR holds only a locked pointer; the data stays home until the passcode is given.",
+   "hash": "cb95858bd3336e1f",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رابط صحي قابل للتحقق: لا يحمل رمز QR سوى مؤشر مُقفَل؛ وتبقى البيانات في البلد الأم إلى أن يُعطى رمز المرور.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un enlace sanitario verificable (VHL): el QR contiene solo un puntero protegido; los datos permanecen en el país de residencia hasta que se proporciona el código de acceso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un lien de santé vérifiable : le code QR ne contient qu’un pointeur verrouillé ; les données restent dans le pays de résidence jusqu’à ce que le code d’accès soit donné.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверяемая ссылка на медицинские данные: QR-код содержит лишь защищённый указатель; данные остаются на родине, пока не назван код доступа.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可验证健康链接：QR 码只包含一个加锁的指针；在提供通行码之前，数据留在本国。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Creates a passcode-protected QR link for Somsak, valid for 14 days.",
+   "hash": "50e42a880d33929a",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُنشئ رابط QR محميًّا برمز مرور لـ Somsak، صالحًا لمدة 14 يومًا.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Crea un enlace QR protegido por código de acceso para Somsak, válido durante 14 días.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Crée pour Somsak un lien QR protégé par code d’accès, valable 14 jours.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создаёт для Somsak QR-ссылку, защищённую кодом доступа и действительную 14 дней.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "为 Somsak 创建一个受通行码保护的 QR 码链接，有效期 14 天。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Opens the family wallet: profiles for himself, Khamla and Somsak.",
+   "hash": "d4d3e9fc79367756",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يفتح محفظة الأسرة: ملفات تعريف له ولـ Khamla ولـ Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Abre la billetera familiar: perfiles para él, Khamla y Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ouvre le portefeuille familial : les profils de lui-même, de Khamla et de Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Открывает семейный кошелёк: профили для себя, Khamla и Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "打开家庭钱包：有他本人、Khamla 和 Somsak 的档案。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Relies on Bounmy’s phone for her own and the baby’s records.",
+   "hash": "32d5fe861f3f2fc2",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تعتمد على هاتف Bounmy لسجلاتها وسجلات الرضيع.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Depende del teléfono de Bounmy para sus propios registros y los del bebé.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Compte sur le téléphone de Bounmy pour ses propres dossiers et ceux du bébé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Полагается на телефон Bounmy в том, что касается её собственных записей и записей малыша.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "她本人和婴儿的记录都依赖 Bounmy 的手机。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“I decide who sees it, and for how long.”",
+   "hash": "77bba6ec791c7014",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«أنا من يقرر من يطّلع عليه، ولكم من الوقت.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Yo decido quién lo ve y durante cuánto tiempo.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« C’est moi qui décide qui le voit, et pour combien de temps. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Я решаю, кто это увидит и как долго».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“由我决定谁能看到，以及能看多久。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“It’s on his phone. What if I travel without him?”",
+   "hash": "68838fc1f7c8da72",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«إنه على هاتفه. ماذا لو سافرتُ من دونه؟»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Está en su teléfono. ¿Y si viajo sin él?”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« C’est sur son téléphone à lui. Et si je voyage sans lui ? »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Это у него в телефоне. А если я поеду без него?»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“记录在他的手机上。如果我不跟他一起出行怎么办？”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“One phone, three people — I can manage all of us.”",
+   "hash": "82d74974da368d40",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«هاتف واحد، ثلاثة أشخاص — أستطيع أن أدير شؤوننا جميعًا.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Un teléfono, tres personas: puedo gestionarlo todo para los tres.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Un téléphone, trois personnes — je peux gérer pour nous tous. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Один телефон, три человека — я справлюсь за всех нас».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“一部手机，三个人——我能管好我们所有人。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Created: scope = IPS, expires in 14 days",
+   "hash": "bee5a3bf38580449",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُنشئ: النطاق = IPS، تنتهي صلاحيته بعد 14 يومًا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Creado: alcance = IPS, caduca en 14 días",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Créé : portée = IPS, expire dans 14 jours",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создано: scope = IPS, срок действия истекает через 14 дней",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已创建：scope = IPS，14 天后过期",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Drives the profile switcher",
+   "hash": "22a9c7811c4ad4be",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُشغِّل أداة التبديل بين ملفات التعريف",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Controla el selector de perfiles",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pilote le sélecteur de profil",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Управляет переключателем профилей",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "驱动档案切换器",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Signed pointer to encrypted IPS",
+   "hash": "860dee8d6afff81f",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مؤشر موقَّع إلى IPS مُشفَّر",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Puntero firmado a un IPS cifrado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pointeur signé vers l’IPS chiffré",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подписанный указатель на зашифрованную IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指向加密 IPS 的已签名指针",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "An International Patient Summary is what any country’s clinic can read, whatever its own system.",
+   "hash": "faf942db5dced30e",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملخص المريض الدولي هو ما تستطيع عيادة أي بلد قراءته، أيًّا كان نظامها الخاص.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un resumen internacional del paciente (IPS) es lo que puede leer la clínica de cualquier país, sea cual sea su propio sistema.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un résumé international du patient (International Patient Summary) est ce que la clinique de n’importe quel pays peut lire, quel que soit son propre système.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Международную сводку о пациенте (International Patient Summary) может прочитать клиника любой страны, какой бы ни была её собственная система.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国际患者摘要是任何国家的诊所都能读取的格式，无论其自身使用何种系统。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "Bounmy decides what is shared and for how long; the gateway checks this before releasing anything.",
+   "hash": "1e2f79fe51b104f3",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يقرر Bounmy ما يُشارَك ولكم من الوقت؛ وتتحقق بوابة الربط من ذلك قبل الإفراج عن أي شيء.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bounmy decide qué se comparte y durante cuánto tiempo; la puerta de enlace lo comprueba antes de entregar nada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bounmy décide de ce qui est partagé et pour combien de temps ; la passerelle le vérifie avant de communiquer quoi que ce soit.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Bounmy решает, чем делиться и как долго; шлюз проверяет это, прежде чем что-либо выдать.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Bounmy 决定共享哪些内容以及共享多久；网关在发布任何内容之前都会核查这一点。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "Not a copy of the record: a signed, passcode-protected pointer back to Onesa.",
+   "hash": "1ed1be3684c12751",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ليس نسخة من السجل: بل مؤشر موقَّع ومحمي برمز مرور يعود إلى Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "No es una copia del registro: es un puntero firmado y protegido por código de acceso que remite a Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pas une copie du dossier : un pointeur signé, protégé par code d’accès, qui renvoie vers Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Не копия записи, а подписанный, защищённый кодом доступа указатель обратно в страну Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "不是记录的副本：而是一个已签名、受通行码保护、指回 Onesa 的指针。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "One shared phone, three family members: the household decides whose records the wallet shows.",
+   "hash": "dae6023554cfa347",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هاتف واحد مشترك، وثلاثة أفراد من الأسرة: تقرر الأسرة المعيشية سجلاتِ مَن تعرضها المحفظة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un teléfono compartido, tres miembros de la familia: el hogar decide qué registros muestra la billetera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un téléphone partagé, trois membres de la famille : le ménage décide des dossiers que le portefeuille affiche.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Один общий телефон, три члена семьи: домохозяйство решает, чьи записи показывает кошелёк.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一部共享手机，三名家庭成员：由家庭决定钱包显示谁的记录。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "FHIR API (HTTPS) via Info Gateway",
+   "hash": "d7c22c653587c246",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "FHIR API (HTTPS) عبر بوابة ربط المعلومات (Info Gateway)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "API FHIR (HTTPS) a través del Info Gateway",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "API FHIR (HTTPS) via l’Info Gateway",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "FHIR API (HTTPS) через Info Gateway",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "通过 Info Gateway 的 FHIR API（HTTPS）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "HTTPS",
+   "hash": "97cf20fbef947e28",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "HTTPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "HTTPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HTTPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HTTPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HTTPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "IPS Bundle per family member",
+   "hash": "029dc5c7ffbda283",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "IPS Bundle لكل فرد من أفراد الأسرة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bundle IPS por miembro de la familia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bundle IPS par membre de la famille",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "IPS Bundle для каждого члена семьи",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每位家庭成员一个 IPS Bundle",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "VHL manifest + Consent registered",
+   "hash": "f96c2b73a9978b12",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بيان VHL + الموافقة (Consent) مُسجَّلان",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Manifiesto VHL + Consent registrado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Manifeste VHL + Consent enregistré",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Манифест VHL + зарегистрированное согласие (Consent)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL 清单 + 已登记的 Consent",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "A QR on Dad’s phone + a passcode he can say aloud",
+   "hash": "534593ad88be8d3c",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز QR على هاتف الأب + رمز مرور يستطيع أن يقوله بصوت عالٍ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un QR en el teléfono de papá + un código de acceso que puede decir en voz alta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un code QR sur le téléphone de papa + un code d’accès qu’il peut prononcer à voix haute",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR-код на телефоне папы + код доступа, который он может назвать вслух",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "爸爸手机上的一个 QR 码 + 一个他可以口头说出的通行码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "Somsak’s summary is ready to share",
+   "hash": "456bb4ee3c32be65",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملخص Somsak جاهز للمشاركة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El resumen de Somsak está listo para compartirse",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le résumé de Somsak est prêt à être partagé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сводка Somsak готова к передаче",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak 的摘要已可共享",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "A year on, the family plans a trip to Taifafeki. Bounmy’s phone holds records for all three of them, including Somsak’s six verified doses.",
+   "hash": "71cfbb5ebf496d14",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد عام، تخطط الأسرة لرحلة إلى Taifafeki. يحمل هاتف Bounmy سجلات أفرادها الثلاثة جميعًا، بما فيها جرعات Somsak الست المُتحقَّق منها.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un año después, la familia planea un viaje a Taifafeki. El teléfono de Bounmy contiene los registros de los tres, incluidas las seis dosis verificadas de Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un an plus tard, la famille prévoit un voyage à Taifafeki. Le téléphone de Bounmy contient les dossiers de tous les trois, dont les six doses vérifiées de Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Год спустя семья планирует поездку в страну Taifafeki. На телефоне Bounmy хранятся записи всех троих, включая шесть проверенных доз Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一年后，这家人计划去 Taifafeki 旅行。Bounmy 的手机保存着他们三人的记录，其中包括 Somsak 的六剂已验证剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "Before the trip, Bounmy creates a QR link for Somsak’s record, locked with a 4-digit passcode and valid for 14 days (the demo’s settings: each country would set its own). The record itself stays in Onesa.",
+   "hash": "5608c0566d6415fa",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قبل الرحلة، يُنشئ Bounmy رابط QR لسجل Somsak، مُقفَلًا برمز مرور من 4 أرقام وصالحًا لمدة 14 يومًا (وهذه إعدادات العرض التوضيحي: إذ يحدد كل بلد إعداداته الخاصة). أما السجل نفسه فيبقى في Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Antes del viaje, Bounmy crea un enlace QR al registro de Somsak, protegido con un código de acceso de 4 dígitos y válido durante 14 días (la configuración de la demostración: cada país fijaría la suya). El registro propiamente dicho permanece en Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Avant le voyage, Bounmy crée un lien QR vers le dossier de Somsak, verrouillé par un code d’accès à 4 chiffres et valable 14 jours (les paramètres de la démonstration : chaque pays fixerait les siens). Le dossier lui-même reste à Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Перед поездкой Bounmy создаёт QR-ссылку на запись Somsak, защищённую 4-значным кодом доступа и действительную 14 дней (это настройки демонстрации: каждая страна установит свои). Сама запись остаётся в стране Onesa.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出行前，Bounmy 为 Somsak 的记录创建一个 QR 码链接，用 4 位通行码加锁，有效期 14 天（这是演示的设置：每个国家会自行设定）。记录本身留在 Onesa。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "Back in Taifafeki, Bounmy shares a vaccine-record link from his phone and Dr Anan sees Somsak’s vaccine history; Khamla and toddler Somsak are beside them",
+   "hash": "f43ed92815f693dc",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد العودة إلى Taifafeki، يشارك Bounmy رابط سجل تطعيم من هاتفه فيطّلع د. Anan على تاريخ تطعيم Somsak؛ وتقف Khamla والطفل الصغير Somsak بجانبهما",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De vuelta en Taifafeki, Bounmy comparte desde su teléfono un enlace al registro de vacunación y el Dr. Anan ve el historial de vacunación de Somsak; Khamla y el pequeño Somsak están a su lado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De retour à Taifafeki, Bounmy partage depuis son téléphone un lien vers le dossier de vaccination et le Dr Anan voit l’historique vaccinal de Somsak ; Khamla et le petit Somsak sont à leurs côtés",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Снова в стране Taifafeki: Bounmy передаёт со своего телефона ссылку на запись о вакцинации, и доктор Anan видит историю вакцинации Somsak; рядом с ними Khamla и малыш Somsak",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "回到 Taifafeki，Bounmy 从手机共享疫苗记录链接，Anan 医生看到 Somsak 的疫苗接种史；Khamla 和蹒跚学步的 Somsak 在他们身旁",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "For Somsak, Bounmy shares his record with a 4-digit passcode he\ncan say aloud, valid for 14 days. The portal records his consent\n(`TrustDemoJ4Consent`), then does three things:\n\n1. It assembles the IPS and Somsak's DVCs.\n2. It encrypts them (STT-VHL-004, STT-VHL-007) behind a passcode-protected manifest with an expiry (STT-VHL-009).\n3. It issues the link as an HCERT, with the VHL at key 5 (STT-VHL-001, STT-VHL-002), signed with Country B's DSC.\n\nThe QR holds only a pointer and a key: the record stays in Onesa.\n",
+   "hash": "9a7b2f434ed10f47",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بالنسبة إلى Somsak، يشارك Bounmy سجله برمز مرور من 4 أرقام يستطيع\nأن يقوله بصوت عالٍ، صالحًا لمدة 14 يومًا. تسجّل البوابة موافقته\n(`TrustDemoJ4Consent`)، ثم تقوم بثلاثة أمور:\n\n1. تُجمِّع IPS وشهادات DVC الخاصة بـ Somsak.\n2. تُشفِّرها (STT-VHL-004، STT-VHL-007) خلف بيان محمي برمز مرور وله تاريخ انتهاء صلاحية (STT-VHL-009).\n3. تُصدِر الرابط بوصفه HCERT، مع وضع VHL عند المفتاح 5 (STT-VHL-001، STT-VHL-002)، موقَّعًا بشهادة DSC الخاصة بالبلد B.\n\nلا يحمل رمز QR سوى مؤشر ومفتاح: ويبقى السجل في Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para Somsak, Bounmy comparte su registro con un código de acceso de 4 dígitos que puede decir en voz alta, válido durante 14 días. El portal registra su consentimiento (`TrustDemoJ4Consent`) y luego hace tres cosas:\n\n1. Reúne el IPS y los DVC de Somsak.\n2. Los cifra (STT-VHL-004, STT-VHL-007) tras un manifiesto protegido por código de acceso y con fecha de caducidad (STT-VHL-009).\n3. Emite el enlace como un HCERT, con el VHL en la clave 5 (STT-VHL-001, STT-VHL-002), firmado con el DSC del País B.\n\nEl QR contiene solo un puntero y una clave: el registro permanece en Onesa.\n",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pour Somsak, Bounmy partage son dossier avec un code d’accès à 4 chiffres qu’il\npeut prononcer à voix haute, valable 14 jours. Le portail enregistre son consentement\n(`TrustDemoJ4Consent`), puis effectue trois opérations :\n\n1. Il assemble l’IPS et les DVC de Somsak.\n2. Il les chiffre (STT-VHL-004, STT-VHL-007) derrière un manifeste protégé par code d’accès, assorti d’une date d’expiration (STT-VHL-009).\n3. Il émet le lien sous forme de HCERT, avec le VHL à la clé 5 (STT-VHL-001, STT-VHL-002), signé avec le DSC du Pays B.\n\nLe code QR ne contient qu’un pointeur et une clé : le dossier reste à Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Bounmy делится записью Somsak с 4-значным кодом доступа, который можно\nпроизнести вслух, сроком действия 14 дней. Портал фиксирует его согласие\n(`TrustDemoJ4Consent`), а затем выполняет три действия:\n\n1. Он собирает IPS и DVC Somsak.\n2. Он шифрует их (STT-VHL-004, STT-VHL-007) за защищённым кодом доступа манифестом с ограниченным сроком действия (STT-VHL-009).\n3. Он выдаёт ссылку в виде HCERT, где VHL находится под ключом 5 (STT-VHL-001, STT-VHL-002), подписанного DSC страны B.\n\nQR-код содержит только указатель и ключ: запись остаётся в стране Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Bounmy 为 Somsak 共享他的记录，使用一个他可以口头说出的 4 位通行码，有效期 14 天。门户记录他的同意（`TrustDemoJ4Consent`），然后做三件事：\n\n1. 汇集 IPS 和 Somsak 的 DVC。\n2. 将其加密（STT-VHL-004、STT-VHL-007），置于一个受通行码保护且带有效期的清单之后（STT-VHL-009）。\n3. 将链接作为 HCERT 签发，VHL 位于键 5（STT-VHL-001、STT-VHL-002），并用 B 国的 DSC 签名。\n\nQR 码只包含一个指针和一把密钥：记录留在 Onesa。\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "The family plans a trip to Taifafeki. Bounmy's phone holds the\nfamily wallet, with a profile for each of them. Somsak's summary\n(`TrustDemoJ4Ips`) shows six doses: two from Taifafeki, four from Onesa.\n",
+   "hash": "4918560892103d44",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تخطط الأسرة لرحلة إلى Taifafeki. يحمل هاتف Bounmy\nمحفظة الأسرة، مع ملف تعريف لكل فرد منهم. يُظهر ملخص Somsak\n(`TrustDemoJ4Ips`) ست جرعات: اثنتان من Taifafeki، وأربع من Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La familia planea un viaje a Taifafeki. El teléfono de Bounmy contiene la billetera familiar, con un perfil para cada uno de ellos. El resumen de Somsak (`TrustDemoJ4Ips`) muestra seis dosis: dos de Taifafeki y cuatro de Onesa.\n",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La famille prévoit un voyage à Taifafeki. Le téléphone de Bounmy contient le\nportefeuille familial, avec un profil pour chacun d’eux. Le résumé de Somsak\n(`TrustDemoJ4Ips`) indique six doses : deux de Taifafeki, quatre de Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Семья планирует поездку в страну Taifafeki. На телефоне Bounmy находится\nсемейный кошелёк с профилем для каждого из них. Сводка Somsak\n(`TrustDemoJ4Ips`) показывает шесть доз: две из страны Taifafeki, четыре из страны Onesa.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这家人计划去 Taifafeki 旅行。Bounmy 的手机里有家庭钱包，每人都有一个档案。Somsak 的摘要（`TrustDemoJ4Ips`）显示六剂次：两剂来自 Taifafeki，四剂来自 Onesa。\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Many families share one smartphone; one-app-per-person designs leave them out.",
+   "hash": "6828c13510f43686",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتشارك أسر كثيرة هاتفًا ذكيًّا واحدًا؛ والتصاميم القائمة على تطبيق لكل شخص تستبعدها.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Muchas familias comparten un solo teléfono inteligente; los diseños de una aplicación por persona las dejan fuera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De nombreuses familles partagent un seul smartphone ; les conceptions « une application par personne » les excluent.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Многие семьи пользуются одним смартфоном; решения по принципу «одно приложение на человека» исключают их.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "许多家庭共用一部智能手机；“一人一个应用”的设计把他们排除在外。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Sending photos or PDFs of records leaks data and can’t be verified by the receiver.",
+   "hash": "3ff53992431531ef",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إرسال صور السجلات أو ملفات PDF منها يُسرِّب البيانات، ولا يمكن للجهة المُستقبِلة التحقق منها.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enviar fotos o PDF de los registros filtra datos y el receptor no puede verificarlos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’envoi de photos ou de PDF des dossiers expose des données et ne peut pas être vérifié par le destinataire.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отправка фотографий или PDF-файлов записей приводит к утечке данных, а получатель не может их проверить.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "发送记录的照片或 PDF 会泄露数据，且接收方无法验证。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Data sovereignty: the record stays in Onesa until the family authorizes someone to open it.",
+   "hash": "3acd969d79f09632",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيادة البيانات: يبقى السجل في Onesa إلى أن تأذن الأسرة لشخص ما بفتحه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Soberanía de los datos: el registro permanece en Onesa hasta que la familia autoriza a alguien a abrirlo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Souveraineté des données : le dossier reste à Onesa jusqu’à ce que la famille autorise quelqu’un à l’ouvrir.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Суверенитет данных: запись остаётся в стране Onesa, пока семья не разрешит кому-либо её открыть.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据主权：在家人授权某人打开之前，记录留在 Onesa。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Design for shared devices (“One Family, One Phone”) so families with only one phone aren’t left out.",
+   "hash": "3a2daf144529f765",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التصميم للأجهزة المشتركة («أسرة واحدة، هاتف واحد») حتى لا تُستبعَد الأسر التي لا تملك إلا هاتفًا واحدًا.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Diseñar para dispositivos compartidos (“Una familia, un teléfono”) para que las familias con un solo teléfono no queden excluidas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Concevoir pour des appareils partagés (« Une famille, un téléphone ») afin que les familles qui n’ont qu’un seul téléphone ne soient pas exclues.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проектировать с учётом общих устройств («Одна семья, один телефон»), чтобы семьи с единственным телефоном не оставались в стороне.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "为共享设备而设计（“一个家庭，一部手机”），让只有一部手机的家庭不被排除在外。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.preconditions.description",
+   "msgid": "**Precondition, as in J1:** Country B's DSC, under Country B's CSCA, is already shared with the GDHCN, the Trust Anchor. That is what lets the clinic in Taifafeki verify the link in J4.1.",
+   "hash": "b5509f2b4ac4719c",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "**الشرط المسبق، كما في J1:** شهادة DSC الخاصة بالبلد B، الصادرة تحت سلطة CSCA الخاصة بالبلد B، مُشارَكة بالفعل مع GDHCN، مرسى الثقة. وهذا ما يتيح للعيادة في Taifafeki التحقق من الرابط في J4.1.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "**Condición previa, como en J1:** el DSC del País B, emitido bajo la CSCA del País B, ya se ha compartido con la GDHCN, el ancla de confianza. Eso es lo que permite a la clínica de Taifafeki verificar el enlace en J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "**Condition préalable, comme dans J1 :** le DSC du Pays B, émis sous la CSCA du Pays B, est déjà partagé avec le GDHCN, l’ancre de confiance. C’est ce qui permet à la clinique à Taifafeki de vérifier le lien dans J4.1.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "**Предварительное условие, как в J1:** DSC страны B, выданный под CSCA страны B, уже передан в GDHCN — якорь доверия. Именно это позволяет клинике в стране Taifafeki проверить ссылку в J4.1.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "**前提条件，与 J1 相同：**B 国在其 CSCA 下的 DSC 已与信任锚 GDHCN 共享。正因如此，Taifafeki 的诊所才能在 J4.1 中验证该链接。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.preconditions.title",
+   "msgid": "Country B's DSC is shared with the trust anchor",
+   "hash": "2565b1c74e412431",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شهادة DSC الخاصة بالبلد B مُشارَكة مع مرسى الثقة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El DSC del País B está compartido con el ancla de confianza",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le DSC du Pays B est partagé avec l’ancre de confiance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "DSC страны B передан якорю доверия",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "B 国的 DSC 已与信任锚共享",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "Shareable link created; data stays in Onesa",
+   "hash": "6d96ef3229e6dd64",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُنشئ رابط قابل للمشاركة؛ وتبقى البيانات في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enlace para compartir creado; los datos permanecen en Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lien partageable créé ; les données restent à Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ссылка для обмена создана; данные остаются в стране Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已创建可共享的链接；数据留在 Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.technicalSummary",
+   "msgid": "A year of records from two countries is assembled into one International Patient Summary, a format any clinician abroad knows how to read.",
+   "hash": "4a5c244bf6facf5c",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُجمَّع سجلات عام كامل من بلدين في ملخص مريض دولي واحد، وهو تنسيق يعرف أي ممارس سريري في الخارج كيف يقرؤه.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un año de registros de dos países se reúne en un único resumen internacional del paciente (IPS), un formato que cualquier profesional clínico del extranjero sabe leer.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une année de dossiers provenant de deux pays est assemblée en un seul résumé international du patient (International Patient Summary), un format que tout clinicien à l’étranger sait lire.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Записи за год из двух стран собираются в одну Международную сводку о пациенте (International Patient Summary) — формат, который умеет читать любой клиницист за рубежом.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来自两个国家的一年记录被汇集成一份国际患者摘要，这是境外任何临床医生都懂得如何阅读的格式。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "Dad creates a link to share at the clinic",
+   "hash": "83bc883c6daf6426",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأب يُنشئ رابطًا لمشاركته في العيادة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Papá crea un enlace para compartir en la clínica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Papa crée un lien à partager à la clinique",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Папа создаёт ссылку, чтобы показать её в клинике",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "爸爸创建一个在诊所共享的链接",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "One phone holds the whole family’s records",
+   "hash": "69053982f5252ca3",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هاتف واحد يحمل سجلات الأسرة كلها",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un teléfono contiene los registros de toda la familia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un seul téléphone contient les dossiers de toute la famille",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Один телефон хранит записи всей семьи",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一部手机保存全家人的记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Family wallet app (share link)",
+   "hash": "99f924c9d1b13019",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق محفظة الأسرة (مشاركة الرابط)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicación de billetera familiar (compartir enlace)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Application de portefeuille familial (partage de lien)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приложение семейного кошелька (ссылка для обмена)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家庭钱包应用（共享链接）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Family wallet app on Dad’s phone",
+   "hash": "db75bc9e48ed8fd1",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق محفظة الأسرة على هاتف الأب",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicación de billetera familiar en el teléfono de papá",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Application de portefeuille familial sur le téléphone de papa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Приложение семейного кошелька на телефоне папы",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "爸爸手机上的家庭钱包应用",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "14-day, passcode-protected sharing consent",
+   "hash": "4f2e216c442f2256",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موافقة على المشاركة لمدة 14 يومًا، محمية برمز مرور",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Consentimiento para compartir durante 14 días, protegido por código de acceso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Consentement de partage de 14 jours, protégé par code d’accès",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Согласие на обмен данными сроком на 14 дней, защищённое кодом доступа",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "14 天、受通行码保护的共享同意",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Generates the link and passcode",
+   "hash": "d3b55b4d45ed6c16",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُنتج الرابط ورمز المرور",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Genera el enlace y el código de acceso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Génère le lien et le code d’accès",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Генерирует ссылку и код доступа",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "生成链接和通行码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Holds 3 household profiles on one phone",
+   "hash": "a7d584fb5181a09d",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يحمل 3 ملفات تعريف للأسرة المعيشية على هاتف واحد",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Contiene 3 perfiles del hogar en un solo teléfono",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Contient 3 profils du ménage sur un seul téléphone",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Хранит 3 профиля домохозяйства на одном телефоне",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在一部手机上保存 3 个家庭成员档案",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Lets Bounmy’s wallet read only his own household’s records",
+   "hash": "55cdf42db114606c",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتيح لمحفظة Bounmy قراءة سجلات أسرته المعيشية فقط",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Permite que la billetera de Bounmy lea solo los registros de su propio hogar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Permet au portefeuille de Bounmy de lire uniquement les dossiers de son propre ménage",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Позволяет кошельку Bounmy читать только записи его собственного домохозяйства",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "只允许 Bounmy 的钱包读取他自己家庭的记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Registers the consent it will enforce when the link is used",
+   "hash": "d8f05978cc1e9ce8",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسجّل الموافقة التي ستفرض تطبيقها عند استخدام الرابط",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registra el consentimiento que hará cumplir cuando se use el enlace",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistre le consentement qu’elle appliquera lors de l’utilisation du lien",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрирует согласие, которое будет обеспечивать при использовании ссылки",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登记链接被使用时将要执行的同意",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Signed QR holding a manifest URL + decryption key",
+   "hash": "ff18b40b3bbad32d",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز QR موقَّع يحمل URL البيان + مفتاح فك التشفير",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "QR firmado que contiene una URL de manifiesto + una clave de descifrado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Code QR signé contenant une URL de manifeste + une clé de déchiffrement",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подписанный QR-код, содержащий URL манифеста + ключ расшифровки",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已签名的 QR 码，包含清单 URL + 解密密钥",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Somsak’s summary packaged as an IPS Bundle",
+   "hash": "f79b4c2e59ec3848",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملخص Somsak مُعبَّأ في صورة IPS Bundle",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El resumen de Somsak empaquetado como Bundle IPS",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résumé de Somsak empaqueté sous forme de Bundle IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сводка Somsak, упакованная в IPS Bundle",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak 的摘要打包为一个 IPS Bundle",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Source of truth for all 6 doses",
+   "hash": "545e7b54dc1bc9c2",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المصدر المرجعي لجميع الجرعات الـ 6",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Fuente de referencia de las 6 dosis",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Source de référence pour les 6 doses",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Достоверный источник всех 6 доз",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "全部 6 剂次的权威数据源",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Taifafeki origin of birth doses still visible",
+   "hash": "4cf46690dd6d5cf6",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يزال منشأ جرعات الولادة في Taifafeki ظاهرًا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El origen de Taifafeki de las dosis al nacer sigue siendo visible",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L’origine de Taifafeki des doses à la naissance reste visible",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Происхождение доз при рождении из страны Taifafeki по-прежнему видно",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生剂次的 Taifafeki 来源仍然可见",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.outcome",
+   "msgid": "The link could be printed in advance, and the original paper cards still prove the birth doses.",
+   "hash": "b997ee2e6186df4d",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كان يمكن طباعة الرابط مسبقًا، ولا تزال البطاقات الورقية الأصلية تُثبت جرعات الولادة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El enlace podría imprimirse por adelantado, y las tarjetas de papel originales siguen demostrando las dosis al nacer.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le lien pourrait être imprimé à l’avance, et les cartes papier originales prouvent toujours les doses à la naissance.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ссылку можно заранее распечатать, а оригинальные бумажные карточки по-прежнему подтверждают дозы при рождении.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "链接可以提前打印，原始纸质卡片仍能证明出生剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.outcome",
+   "msgid": "Who can access the baby’s record without Bounmy’s phone? Delegated access within a household is still an open design question.",
+   "hash": "13539866deb77716",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مَن يمكنه الوصول إلى سجل الرضيع من دون هاتف Bounmy؟ لا يزال الوصول المُفوَّض داخل الأسرة المعيشية مسألة تصميم مفتوحة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Quién puede acceder al registro del bebé sin el teléfono de Bounmy? El acceso delegado dentro de un hogar sigue siendo una cuestión de diseño abierta.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Qui peut accéder au dossier du bébé sans le téléphone de Bounmy ? L’accès délégué au sein d’un ménage reste une question de conception ouverte.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кто может получить доступ к записи малыша без телефона Bounmy? Делегирование доступа внутри домохозяйства остаётся открытым вопросом проектирования.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "没有 Bounmy 的手机，谁能访问婴儿的记录？家庭内部的委托访问仍是一个悬而未决的设计问题。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.scenario",
+   "msgid": "Bounmy’s phone battery dies at the clinic.",
+   "hash": "5c8746ef34538c1d",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نفدت بطارية هاتف Bounmy في العيادة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La batería del teléfono de Bounmy se agota en la clínica.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La batterie du téléphone de Bounmy est à plat à la clinique.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "У Bounmy в клинике садится батарея телефона.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Bounmy 的手机在诊所没电了。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.scenario",
+   "msgid": "Khamla travels alone with Somsak.",
+   "hash": "9ba5871b2c25ec4d",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسافر Khamla وحدها مع Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Khamla viaja sola con Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Khamla voyage seule avec Somsak.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Khamla едет с Somsak одна.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Khamla 独自带着 Somsak 出行。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "T0 + 12 months",
+   "hash": "55140468c14e242c",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "T0 + 12 شهرًا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "T0 + 12 meses",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "T0 + 12 mois",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "T0 + 12 месяцев",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "T0 + 12 个月",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "Lomaru, Onesa",
+   "hash": "26976b94fa6226d1",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لومارو، Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lomaru, Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lomaru, Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ломару, Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 洛马鲁",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "views.label",
+   "msgid": "J4.0",
+   "hash": "4b8412153e84d68a",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "12 months later",
+   "hash": "89f25fc0de41677b",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد 12 شهرًا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "12 meses después",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "12 mois plus tard",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "12 месяцев спустя",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "12 个月后",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Onesa",
+   "hash": "6d4972d78c729da6",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "J4.0 — Continuity across a border: one family, one phone",
+   "hash": "a50216783d8f8287",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0 — الاستمرارية عبر الحدود: أسرة واحدة، هاتف واحد",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0 — Continuidad a través de una frontera: una familia, un teléfono",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0 — Continuité par-delà une frontière : une famille, un téléphone",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0 — Непрерывность через границу: одна семья, один телефон",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0 — 跨境连续性：一个家庭，一部手机",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Generated: 2 Taifafeki + 4 Onesa doses",
+   "hash": "36f712e12ecce214",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُنتج: 2 من جرعات Taifafeki + 4 من جرعات Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Generado: 2 dosis de Taifafeki + 4 de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Généré : 2 doses de Taifafeki + 4 doses du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сформировано: 2 дозы из страны Taifafeki + 4 дозы в стране Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已生成：2 剂 Taifafeki 剂次 + 4 剂 Onesa 剂次",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "12-month summary: 2 Taifafeki + 4 Onesa doses",
+   "hash": "7925831f7d4122a0",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملخص 12 شهرًا: 2 من جرعات Taifafeki + 4 من جرعات Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen de los 12 meses: 2 dosis de Taifafeki + 4 de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résumé à 12 mois : 2 doses de Taifafeki + 4 doses du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сводка за 12 месяцев: 2 дозы из страны Taifafeki + 4 дозы в стране Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "12 个月摘要：2 剂 Taifafeki 剂次 + 4 剂 Onesa 剂次",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Onesa national records (QR is just a pointer)",
+   "hash": "6cfb3f345dc08dd5",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السجلات الوطنية في Onesa (رمز QR مجرد مؤشر)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registros nacionales de Onesa (el QR es solo un puntero)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Registres nationaux du pays Onesa (le code QR n’est qu’un pointeur)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Национальные записи страны Onesa (QR-код — лишь указатель)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 国家记录（QR 码只是一个指针）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Onesa national records + family wallet",
+   "hash": "99a29c655a6bca88",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السجلات الوطنية في Onesa + محفظة الأسرة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registros nacionales de Onesa + billetera familiar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Registres nationaux du pays Onesa + portefeuille familial",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Национальные записи страны Onesa + семейный кошелёк",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 国家记录 + 家庭钱包",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.technicalSummary",
+   "msgid": "The QR is a key, not a copy. The record stays on the Onesa server, and the family’s consent (who, how long) is recorded in a standard form and enforced.",
+   "hash": "d8f0c3fd14e11954",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رمز QR مفتاح، لا نسخة. يبقى السجل على خادم Onesa، وتُسجَّل موافقة الأسرة (مَن، ولكم من الوقت) في صيغة معيارية ويُفرَض تطبيقها.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El QR es una llave, no una copia. El registro permanece en el servidor de Onesa, y el consentimiento de la familia (quién y durante cuánto tiempo) se registra en un formato estándar y se hace cumplir.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code QR est une clé, pas une copie. Le dossier reste sur le serveur du pays Onesa, et le consentement de la famille (qui, pour combien de temps) est enregistré sous une forme normalisée et appliqué.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR-код — это ключ, а не копия. Запись остаётся на сервере страны Onesa, а согласие семьи (кто и как долго) фиксируется в стандартной форме и соблюдается принудительно.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "QR 码是一把钥匙，而不是副本。记录留在 Onesa 服务器上，家人的同意（谁、多久）以标准形式记录并强制执行。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "Onesa–Taifafeki Friendship Bridge",
+   "hash": "e807052c7fc75152",
+   "sources": [
+    "scenarios/user-scenarios/j4-0-one-family-one-phone.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جسر الصداقة بين Onesa و Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Puente de la Amistad Onesa–Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pont de l’Amitié Onesa-Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Мост дружбы Onesa – Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa–Taifafeki 友谊大桥",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

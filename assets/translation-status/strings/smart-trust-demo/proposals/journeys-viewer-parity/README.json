@@ -1,0 +1,5632 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "proposals/journeys-viewer-parity/README",
+ "hashes": {
+  "ar": "abd5932958e6d494",
+  "es": "0bec1c3a3f43b6ba",
+  "fr": "2ab7e51cf3acca91",
+  "ru": "da5da83aa8d90783",
+  "zh": "8e4d3d9d99ae8d42"
+ },
+ "strings": [
+  {
+   "msgid": "\"See what … sees\" opens the matching screen; \"Back to the user journey\" returns to the moment.",
+   "hash": "75a4012818e4c5cf",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يفتح زر «انظر ما يراه …» الشاشة المطابقة؛ ويعيد زر «العودة إلى رحلة المستخدم» إلى اللحظة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "\"Ver lo que ve …\" abre la pantalla correspondiente; \"Volver al recorrido del usuario\" regresa al momento.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Voir ce que … voit » ouvre l'écran correspondant ; « Retour au parcours utilisateur » ramène au moment.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Посмотреть глазами …» открывает соответствующий экран; «Назад к пользовательскому пути» возвращает к моменту.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“See what … sees”（查看……所见）打开对应的屏幕；“Back to the user journey”（返回用户旅程）回到该时刻。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0}/{code1}, {code2}/{code3}. Moving on from the last moment opens Discussion.",
+   "hash": "87cabb9bce67c325",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0}/{code1}، {code2}/{code3}. يؤدي الانتقال من اللحظة الأخيرة إلى فتح «النقاش».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0}/{code1}, {code2}/{code3}. Al avanzar desde el último momento se abre Debate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0}/{code1}, {code2}/{code3}. Passer au-delà du dernier moment ouvre la Discussion.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0}/{code1}, {code2}/{code3}. Переход дальше с последнего момента открывает «Обсуждение».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}/{code1}、{code2}/{code3}。从最后一个时刻继续前进会打开“讨论”。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "1. Styling",
+   "hash": "1fa2254b5f5d5f5d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "1. التنسيق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "1. Estilo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "1. Style",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "1. Оформление",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "1. 样式",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "2. Wireframes: the views",
+   "hash": "448bcc040601eb79",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "2. المخططات الهيكلية: طرق العرض",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "2. Esquemas de pantalla (wireframes): las vistas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "2. Maquettes : les vues",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "2. Макеты: представления",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "2. 线框图：各视图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "3. Workflow",
+   "hash": "0d694ea2be4a2683",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "3. سير العمل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "3. Flujo de trabajo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "3. Déroulement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "3. Порядок работы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "3. 工作流",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "4. Links",
+   "hash": "b18e31e01578b9fc",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "4. الروابط",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "4. Enlaces",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "4. Liens",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "4. Ссылки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "4. 链接",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "5. Data the viewer already has, and what it lacks",
+   "hash": "eb9fdad1ce798d21",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "5. البيانات المتوفرة لدى العارض، وما ينقصه",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "5. Datos que el visor ya tiene y los que le faltan",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "5. Données dont le visualiseur dispose déjà, et ce qui lui manque",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "5. Какие данные у просмотрщика уже есть и чего не хватает",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "5. 查看器已有的数据及其所缺内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A banner with the facilitator cue for the current view, which the presenter can hide before sharing the screen.",
+   "hash": "f6898622a4dfde4d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شريط يحمل تلميح الميسِّر لطريقة العرض الحالية، ويمكن لمقدِّم العرض إخفاؤه قبل مشاركة الشاشة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un banner con la indicación para el facilitador de la vista actual, que el presentador puede ocultar antes de compartir la pantalla.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un bandeau avec la consigne de l'animateur pour la vue courante, que le présentateur peut masquer avant de partager l'écran.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Баннер с подсказкой ведущего для текущего представления, который докладчик может скрыть перед демонстрацией экрана.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个横幅，显示当前视图的主持人提示，演示者可在共享屏幕前将其隐藏。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A chapter progress bar across all steps of the journey set (J1 → J4.1). The current step is highlighted. Its controls are ← and →, a dot per step, and Discuss → at the end.",
+   "hash": "0cc96d4dffdbd011",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شريط تقدُّم للفصول يمتد عبر جميع خطوات مجموعة الرحلات (J1 → J4.1)، مع إبراز الخطوة الحالية. عناصر التحكم فيه هي ← و→، ونقطة لكل خطوة، وزر «ناقِش →» في النهاية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una barra de progreso por capítulos que abarca todos los pasos del conjunto de recorridos (J1 → J4.1). El paso actual aparece resaltado. Sus controles son ← y →, un punto por paso y Debatir → al final.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une barre de progression des chapitres couvrant toutes les étapes de l'ensemble de parcours (J1 → J4.1). L'étape courante est mise en évidence. Ses commandes sont ← et →, un point par étape, et Discuter → à la fin.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Индикатор хода по главам, охватывающий все шаги набора путей (J1 → J4.1). Текущий шаг выделен. Элементы управления: ← и →, точка для каждого шага и «Обсудить →» в конце.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个贯穿旅程集所有步骤（J1 → J4.1）的章节进度条。当前步骤高亮显示。其控件为 ← 和 →、每个步骤一个圆点，以及末尾的 Discuss →（讨论 →）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A coloured avatar with initials, an emotion badge (Distressed…Delighted) with a face, and a quote in italics ({code0}).",
+   "hash": "cee4d70488cbd91d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "صورة رمزية ملوّنة بالأحرف الأولى، وشارة انفعال (من «متضايق» إلى «مسرور») مع وجه تعبيري، واقتباس بخط مائل ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un avatar de color con las iniciales, una insignia de emoción (Angustiado…Encantado) con una cara y una cita en cursiva ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un avatar coloré avec les initiales, un badge d'émotion (Désemparé…Ravi) avec un visage, et une citation en italique ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цветной аватар с инициалами, значок эмоции (от «Огорчён» до «В восторге») с лицом и цитата курсивом ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个带姓名首字母的彩色头像、一个带表情的情绪徽章（Distressed…Delighted，从苦恼到欣喜），以及一段斜体引语（{code0}）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A dark navy panel with the story in one sentence, a cast line, and two CTAs: Start the walkthrough and See the whole journey map ({code0}).",
+   "hash": "7a3b4b3759008c43",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لوحة بلون كحلي داكن تتضمن القصة في جملة واحدة، وسطرًا بالشخصيات، وزرَّي دعوة إلى الإجراء: «ابدأ الجولة الإرشادية» و«اعرض خريطة الرحلة كاملة» ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un panel azul marino oscuro con la historia en una frase, una línea con los personajes y dos llamadas a la acción: Iniciar el recorrido guiado y Ver el mapa completo del recorrido ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un panneau bleu marine foncé avec l'histoire en une phrase, une ligne de distribution et deux appels à l'action : Commencer la présentation guidée et Voir toute la carte du parcours ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тёмно-синяя панель с историей в одном предложении, строкой с действующими лицами и двумя призывами к действию: «Начать пошаговый обзор» и «Посмотреть всю карту пути» ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个深海军蓝面板，包含一句话概括的故事、一行角色阵容，以及两个行动号召按钮（CTAs）：Start the walkthrough（开始演练）和 See the whole journey map（查看完整旅程地图）（{code0}）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A drawer at the bottom of every page with syntax-highlighted Patient, Group, Immunization, ServiceRequest, Provenance, ConceptMap, AuditEvent and CBOR, and a copy button. \"Inspect JSON\" opens it on the right tab.",
+   "hash": "d06ca83200d08df6",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "درج في أسفل كل صفحة يعرض Patient وGroup وImmunization وServiceRequest وProvenance وConceptMap وAuditEvent وCBOR مع تلوين الصياغة، وزرًّا للنسخ. ويفتحه رابط «فحص JSON» على علامة التبويب المناسبة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un panel deslizable en la parte inferior de cada página con Patient, Group, Immunization, ServiceRequest, Provenance, ConceptMap, AuditEvent y CBOR con resaltado de sintaxis, y un botón de copiar. \"Inspeccionar JSON\" lo abre en la pestaña correspondiente.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un tiroir en bas de chaque page avec Patient, Group, Immunization, ServiceRequest, Provenance, ConceptMap, AuditEvent et CBOR en coloration syntaxique, et un bouton de copie. « Inspecter le JSON » l'ouvre sur le bon onglet.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Выдвижная панель внизу каждой страницы с подсветкой синтаксиса для Patient, Group, Immunization, ServiceRequest, Provenance, ConceptMap, AuditEvent и CBOR, а также кнопкой копирования. «Просмотреть JSON» открывает её на нужной вкладке.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个页面底部的一个抽屉，带语法高亮显示的 Patient、Group、Immunization、ServiceRequest、Provenance、ConceptMap、AuditEvent 和 CBOR，以及一个复制按钮。“Inspect JSON”（检查 JSON）会在相应的标签页上打开它。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A numbered card per chapter, with a country chip and the illustration ({code0}).",
+   "hash": "f9da05fa49f5b6c3",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقة مرقَّمة لكل فصل، مع شارة البلد والرسم التوضيحي ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una tarjeta numerada por capítulo, con una etiqueta de país y la ilustración ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une carte numérotée par chapitre, avec une puce de pays et l'illustration ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пронумерованная карточка для каждой главы с меткой страны и иллюстрацией ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个章节一张编号卡片，带国家标签和插图（{code0}）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A plain heading and a list.",
+   "hash": "d6a5d28dcfa69240",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عنوان بسيط وقائمة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un encabezado sencillo y una lista.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un simple titre et une liste.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Простой заголовок и список.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个普通标题和一个列表。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A segmented bar with the stage names, as in VaxLink.",
+   "hash": "0b4ca6ee611ba4d8",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شريط مقسَّم يحمل أسماء المراحل، كما في VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una barra segmentada con los nombres de las etapas, como en VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une barre segmentée avec les noms des stades, comme dans VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сегментированная полоса с названиями этапов, как в VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个带阶段名称的分段条，与 VaxLink 中相同。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a stable URL for every view, step, persona and block",
+   "hash": "3c9c4ae150ec3fbd",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عنوان URL ثابت لكل طريقة عرض وخطوة وشخصية افتراضية ولبنة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "una URL estable para cada vista, paso, persona (perfil) y bloque",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "une URL stable pour chaque vue, étape, persona et bloc",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "постоянный URL для каждого представления, шага, персоны и блока",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个视图、步骤、人物画像和构建块都有一个稳定的 URL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A swimlane: a column per moment and a lane per person, a \"Focus on\" persona filter that dims the rest, and toggles for pain points & enablers and for the technical layer.",
+   "hash": "0f13f1b62c82ed8c",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مخطط بمسارات: عمود لكل لحظة ومسار لكل شخص، ومرشِّح «التركيز على» للشخصيات الافتراضية يُعتِّم الباقي، ومفاتيح تبديل لنقاط الألم والعوامل المُمكِّنة وللطبقة التقنية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un diagrama de carriles: una columna por momento y un carril por persona, un filtro de persona \"Centrarse en\" que atenúa al resto, y conmutadores para los puntos críticos y facilitadores y para la capa técnica.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un diagramme en couloirs : une colonne par moment et un couloir par personne, un filtre de persona « Se concentrer sur » qui estompe les autres, et des bascules pour les points de friction et les facilitateurs et pour la couche technique.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Диаграмма с дорожками: столбец на каждый момент и дорожка на каждого человека, фильтр персон «Сосредоточиться на», затемняющий остальных, и переключатели для болевых точек и факторов поддержки, а также для технического уровня.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个泳道图：每个时刻一列、每个人一条泳道，一个将其余部分调暗的“Focus on”（聚焦于）人物画像筛选器，以及用于痛点与促成因素和技术层的切换开关。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A thin bar.",
+   "hash": "6aa5ac1d7f5e370e",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شريط رفيع.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una barra delgada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une barre fine.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Тонкая полоса.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个细条。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A Vite build, static on GitHub Pages",
+   "hash": "117495ec8d874b65",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بناء Vite، ثابت على GitHub Pages",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una compilación con Vite, estática en GitHub Pages",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une compilation Vite, statique sur GitHub Pages",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сборка Vite, статическая, на GitHub Pages",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Vite 构建，静态托管在 GitHub Pages 上",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Ask the room, facilitator cue, questions by module, sheets",
+   "hash": "73460c87979d7be7",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اسأل الحاضرين، تلميح الميسِّر، أسئلة حسب الوحدة، الأوراق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Preguntar a la sala, indicación para el facilitador, preguntas por módulo, hojas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Interroger la salle, consigne de l'animateur, questions par module, fiches",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Спросите аудиторию», подсказка ведущего, вопросы по модулям, листы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "向现场提问、主持人提示、按模块分组的问题、工作表",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Building block",
+   "hash": "3a7f175012696228",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لبنة بنائية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bloque básico",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bloc de construction",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Строительный блок",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "构建块",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "building blocks by layer, each with its role in this step;",
+   "hash": "1a035ff8af10f913",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللبنات البنائية حسب الطبقة، ولكلٍّ منها دورها في هذه الخطوة؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los bloques básicos por capa, cada uno con su rol en este paso;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les blocs de construction par couche, chacun avec son rôle dans cette étape ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "строительные блоки по уровням, каждый со своей ролью на этом шаге;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "按层划分的构建块，每个构建块附其在此步骤中的角色；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Cards with the step illustration, {code0}.",
+   "hash": "a82d534ca51bd425",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقات تحمل الرسم التوضيحي للخطوة، {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tarjetas con la ilustración del paso, {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Des cartes avec l'illustration de l'étape, {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Карточки с иллюстрацией шага, {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "带步骤插图的卡片，{code0}。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Chapter grouping (VaxLink's four chapters over five BPMN journeys)",
+   "hash": "a9e7bb62c3932640",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تجميع الفصول (فصول VaxLink الأربعة على خمس رحلات BPMN)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Agrupación por capítulos (los cuatro capítulos de VaxLink sobre cinco recorridos BPMN)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Regroupement en chapitres (les quatre chapitres de VaxLink sur cinq parcours BPMN)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Группировка по главам (четыре главы VaxLink поверх пяти путей BPMN)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "章节分组（VaxLink 的四个章节涵盖五个 BPMN 旅程）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Deep links",
+   "hash": "99d8cb6f0c5d9568",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الروابط العميقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enlaces profundos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Liens profonds",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Глубокие ссылки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "深层链接",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Device Demo",
+   "hash": "369b592838471268",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض الجهاز",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Demostración en dispositivo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Démo sur appareil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Демонстрация на устройстве",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "设备演示",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Device screens S1–S8",
+   "hash": "26534b0f563eedfa",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شاشات الجهاز S1–S8",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Pantallas del dispositivo S1–S8",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Écrans d'appareil S1–S8",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Экраны устройства S1–S8",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "设备屏幕 S1–S8",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Discussion",
+   "hash": "273b94d6d04eec82",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النقاش",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Debate",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Discussion",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обсуждение",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "讨论",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Discussion question",
+   "hash": "ab448ba8bde157f1",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سؤال للنقاش",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Pregunta de debate",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Question de discussion",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вопрос для обсуждения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "讨论问题",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Done when",
+   "hash": "a793ee9f08cb9320",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعدّ منجزًا عندما",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Terminado cuando",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Terminé lorsque",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Критерии готовности",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "完成标准",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Each view in section 2 exists in the viewer and matches its {code0} screenshot element for element, in the section 1 style.",
+   "hash": "6912790077169959",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "توجد كل طريقة عرض من القسم 2 في العارض وتطابق لقطة الشاشة {code0} الخاصة بها عنصرًا بعنصر، وفق أسلوب القسم 1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada vista de la sección 2 existe en el visor y coincide elemento por elemento con su captura de pantalla {code0}, con el estilo de la sección 1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque vue de la section 2 existe dans le visualiseur et correspond, élément par élément, à sa capture d'écran {code0}, dans le style de la section 1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждое представление из раздела 2 есть в просмотрщике и поэлементно совпадает со своим снимком экрана {code0} в стиле раздела 1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "第 2 节中的每个视图都存在于查看器中，并以第 1 节的样式与其 {code0} 截图逐元素一致。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every moment in VaxLink links outward. A rebuilt page must keep each of these links, resolved from the graph rather than hard-coded:",
+   "hash": "dcbcef8e06dbbcdd",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل لحظة في VaxLink ترتبط بما هو خارجها. ويجب أن تحتفظ أي صفحة يُعاد بناؤها بكل هذه الروابط، مستخرجةً من الرسم البياني لا مكتوبةً يدويًا:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada momento de VaxLink enlaza hacia fuera. Una página reconstruida debe conservar cada uno de estos enlaces, resueltos a partir del grafo en lugar de codificados de forma fija:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque moment dans VaxLink renvoie vers l'extérieur. Une page reconstruite doit conserver chacun de ces liens, résolus à partir du graphe plutôt que codés en dur :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждый момент в VaxLink содержит внешние ссылки. Перестроенная страница должна сохранить каждую из этих ссылок, получая их из графа, а не прописывая жёстко в коде:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VaxLink 中的每个时刻都有对外链接。重建的页面必须保留其中每一个链接，且这些链接从图中解析而非硬编码：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "FHIR change per step: profile, why, example",
+   "hash": "a638d28a0f5440c9",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تغيير FHIR لكل خطوة: الملف التعريفي، والسبب، والمثال",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cambio FHIR por paso: perfil, motivo, ejemplo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Modification FHIR par étape : profil, motif, exemple",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Изменение FHIR на каждом шаге: профиль, обоснование, пример",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个步骤的 FHIR 变更：配置文件（profile）、原因、示例",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "FHIR payload drawer",
+   "hash": "1572061f538fd1e6",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "درج حمولة FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Panel deslizable de carga útil FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tiroir de charge utile FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Панель полезной нагрузки FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "FHIR 载荷抽屉",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Four big ideas. A grid of building blocks × moments, by layer. A detail panel for each block, listing the moments that use it. The ArchiMate views.",
+   "hash": "f247a5b536353841",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أربع أفكار كبرى. شبكة من اللبنات البنائية × اللحظات، حسب الطبقة. لوحة تفاصيل لكل لبنة تسرد اللحظات التي تستخدمها. طرق عرض ArchiMate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuatro grandes ideas. Una cuadrícula de bloques básicos × momentos, por capa. Un panel de detalle para cada bloque, con la lista de los momentos que lo usan. Las vistas ArchiMate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Quatre grandes idées. Une grille blocs de construction × moments, par couche. Un panneau de détail pour chaque bloc, listant les moments qui l'utilisent. Les vues ArchiMate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Четыре главные идеи. Сетка «строительные блоки × моменты» по уровням. Панель подробностей для каждого блока со списком моментов, в которых он используется. Представления ArchiMate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "四个核心理念。按层划分的构建块 × 时刻网格。每个构建块的详情面板，列出使用它的时刻。ArchiMate 视图。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Frame",
+   "hash": "f6fec0a085c96e11",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإطار",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Marco",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cadre",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рамка",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "框架",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "From",
+   "hash": "9a96b8f8709ae379",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Desde",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Откуда",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "从",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "From top to bottom:",
+   "hash": "3df1eee26564f235",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من الأعلى إلى الأسفل:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De arriba abajo:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De haut en bas :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сверху вниз:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "从上到下：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Hero",
+   "hash": "8e673aaec71e77b0",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الواجهة الرئيسية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cabecera principal (hero)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bandeau principal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Главный баннер",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "首屏横幅（Hero）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "How it works",
+   "hash": "bb9df27a09a4463c",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كيف يعمل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cómo funciona",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Comment ça marche",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Как это работает",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工作原理",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Illustrations",
+   "hash": "69a16d8eaaf81db8",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرسوم التوضيحية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ilustraciones",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Illustrations",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Иллюстрации",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "插图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In the graph?",
+   "hash": "990cc913a4a9c255",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في الرسم البياني؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿En el grafo?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans le graphe ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Есть в графе?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是否在图谱中？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Interaction",
+   "hash": "024c3dc3ebc6a5c6",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التفاعل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Interacción",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Interaction",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Взаимодействие",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "交互",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Its BPMN process: an inline drawing with the step's tasks highlighted, plus \"Open in the IG\" (the process anchor) and \"Read the scenario\" (the scenario anchor).",
+   "hash": "4f64eebe01169c67",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عملية BPMN الخاصة بها: رسم مضمَّن مع إبراز مهام الخطوة، إضافةً إلى «فتح في دليل التنفيذ (IG)» (مرساة العملية) و«قراءة السيناريو» (مرساة السيناريو).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Su proceso BPMN: un dibujo insertado con las tareas del paso resaltadas, además de \"Abrir en la IG\" (el ancla del proceso) y \"Leer el escenario\" (el ancla del escenario).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Son processus BPMN : un dessin intégré avec les tâches de l'étape mises en évidence, plus « Ouvrir dans l'IG » (l'ancre du processus) et « Lire le scénario » (l'ancre du scénario).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его процесс BPMN: встроенная схема с выделенными задачами шага, а также «Открыть в IG» (якорь процесса) и «Прочитать сценарий» (якорь сценария).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "其 BPMN 流程：一张内嵌图，突出显示该步骤的任务，另加“Open in the IG”（在 IG 中打开，即流程锚点）和“Read the scenario”（阅读场景，即场景锚点）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Its device screen, and back again.",
+   "hash": "9f1c7ce0f1a9571f",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شاشة الجهاز الخاصة بها، والعودة منها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Su pantalla del dispositivo, y de vuelta.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Son écran d'appareil, et retour.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его экран устройства и обратно.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "其设备屏幕，以及返回。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Its FHIR examples and profiles in the IG: an artifact page for each.",
+   "hash": "447f83c10bbc332f",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أمثلة FHIR والملفات التعريفية الخاصة بها في دليل التنفيذ (IG): صفحة أداة لكل منها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sus ejemplos y perfiles FHIR en la IG: una página de artefacto para cada uno.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ses exemples et profils FHIR dans l'IG : une page d'artefact pour chacun.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его примеры и профили FHIR в IG: страница артефакта для каждого.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "其在 IG 中的 FHIR 示例和配置文件：每项一个工件页面。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Its own app frame. The top bar holds the workshop name, the journey code range, the trust-list status and the presenter toggle. A second bar holds the app title, the Journeys / Device Demo switch, and FHIR IG / IG source / Reset.",
+   "hash": "6ac399a3b93702e5",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إطار التطبيق الخاص به. يحمل الشريط العلوي اسم ورشة العمل، ونطاق رموز الرحلات، وحالة قائمة الثقة، ومفتاح وضع مقدِّم العرض. ويحمل شريط ثانٍ عنوان التطبيق، ومبدِّل «الرحلات / عرض الجهاز»، و«FHIR IG / مصدر IG / إعادة الضبط».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Su propio marco de aplicación. La barra superior contiene el nombre del taller, el rango de códigos de recorrido, el estado de la lista de confianza y el conmutador de presentador. Una segunda barra contiene el título de la aplicación, el selector Recorridos / Demostración en dispositivo y FHIR IG / Fuente de la IG / Restablecer.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Son propre cadre d'application. La barre supérieure contient le nom de l'atelier, la plage de codes de parcours, l'état de la liste de confiance et la bascule présentateur. Une seconde barre contient le titre de l'application, le sélecteur Parcours / Démo sur appareil, et FHIR IG / Source de l'IG / Réinitialiser.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Собственная рамка приложения. Верхняя панель содержит название практического семинара, диапазон кодов путей, статус списка доверия и переключатель режима докладчика. Вторая панель содержит заголовок приложения, переключатель «Пути / Демонстрация на устройстве» и FHIR IG / исходный код IG / Сброс.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "其自身的应用框架。顶栏包含研讨会名称、旅程代码范围、信任列表状态和演示者开关。第二栏包含应用标题、Journeys / Device Demo（旅程 / 设备演示）切换，以及 FHIR IG / IG source / Reset（FHIR IG / IG 源码 / 重置）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Its pages are long documentation pages inside the harness's site frame.",
+   "hash": "0c6cd00cb8579b15",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "صفحاته صفحات توثيق طويلة داخل إطار موقع الإطار التشغيلي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sus páginas son páginas de documentación extensas dentro del marco del sitio del arnés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ses pages sont de longues pages de documentation dans le cadre du site du harnais.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его страницы — длинные страницы документации внутри рамки сайта обвязки.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "其页面是工具框架的站点框架内的长篇文档页面。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Its specification (HL7, IHE, WHO), and in How it works every moment that uses it.",
+   "hash": "ded6399c1a989745",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مواصفتها (HL7، IHE، WHO)، وفي «كيف يعمل» كل لحظة تستخدمها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Su especificación (HL7, IHE, OMS) y, en Cómo funciona, cada momento que lo usa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sa spécification (HL7, IHE, OMS) et, dans Comment ça marche, chaque moment qui l'utilise.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его спецификация (HL7, IHE, ВОЗ), а в «Как это работает» — каждый момент, в котором он используется.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "其规范（HL7、IHE、WHO），以及在“工作原理”中使用它的每个时刻。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journey",
+   "hash": "5372f056c9ba81d3",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرحلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorrido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Путь",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journey map",
+   "hash": "84e0873c735e069c",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خريطة الرحلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Mapa del recorrido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Carte du parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Карта пути",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程地图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journeys viewer: parity with VaxLink",
+   "hash": "05bea9d5dae6f458",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عارض الرحلات: التكافؤ مع VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Visor de recorridos: paridad con VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Visualiseur de parcours : parité avec VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Просмотрщик путей: паритет с VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程查看器：与 VaxLink 对等",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "missing",
+   "hash": "c99c0f4bbb7fba48",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "غير موجود",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "falta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "absent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "отсутствует",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "缺失",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "missing (per-step \"Under the hood\" only)",
+   "hash": "2f128293d54c31c9",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "غير موجود (قسم «تحت الغطاء» لكل خطوة فقط)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "falta (solo \"Bajo el capó\" por paso)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "absent (seulement « Sous le capot » par étape)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "отсутствует (только «Под капотом» для каждого шага)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "缺失（仅有每步的“Under the hood”（底层细节））",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "missing: all steps on one long page",
+   "hash": "414eb6316715f90e",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "غير موجود: جميع الخطوات في صفحة واحدة طويلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "falta: todos los pasos en una sola página larga",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "absent : toutes les étapes sur une seule longue page",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "отсутствует: все шаги на одной длинной странице",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "缺失：所有步骤都在一个长页面上",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Moment",
+   "hash": "4df7bfcfa762efec",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللحظة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Momento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Moment",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Момент",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "时刻",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Moment ↔ screen",
+   "hash": "4faa53fde8c852a1",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللحظة ↔ الشاشة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Momento ↔ pantalla",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Moment ↔ écran",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Момент ↔ экран",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "时刻 ↔ 屏幕",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Moment cards",
+   "hash": "a831b1022e6155e7",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقات اللحظات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tarjetas de momentos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cartes de moments",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Карточки моментов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "时刻卡片",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Next and previous moment",
+   "hash": "222c62120369ea25",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللحظة التالية والسابقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Momento siguiente y anterior",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Moment suivant et précédent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Следующий и предыдущий момент",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "下一个和上一个时刻",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "no. {code0} in VaxLink. These are a step → {code1} edge with a reason",
+   "hash": "059950c4c280ae0a",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا. {code0} في VaxLink. وهي حافة خطوة → {code1} مع سبب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "no. {code0} en VaxLink. Son una arista paso → {code1} con un motivo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "non. {code0} dans VaxLink. Il s'agit d'une arête étape → {code1} avec un motif",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "нет. {code0} в VaxLink. Это ребро «шаг → {code1}» с обоснованием",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "否。VaxLink 中为 {code0}。这些是带有原因的步骤 → {code1} 边",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "no. They are React components. Open question: static mock screens per step, or a link out to the instance's own app?",
+   "hash": "d92b27c5116a33df",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا. إنها مكوّنات React. سؤال مفتوح: شاشات تجريبية ثابتة لكل خطوة، أم رابط إلى تطبيق النسخة نفسها؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "no. Son componentes React. Pregunta abierta: ¿pantallas simuladas estáticas por paso o un enlace a la propia aplicación de la instancia?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "non. Ce sont des composants React. Question ouverte : des écrans de maquette statiques par étape, ou un lien vers l'application propre à l'instance ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "нет. Это компоненты React. Открытый вопрос: статические макеты экранов для каждого шага или внешняя ссылка на собственное приложение экземпляра?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "否。它们是 React 组件。待决问题：每个步骤使用静态模拟屏幕，还是链接到实例自身的应用？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "no. Today they are in VaxLink {code0} ({code1}). They need a home ({code2} groups?)",
+   "hash": "633a50366ff634b3",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا. هي اليوم في VaxLink {code0} ({code1}). وتحتاج إلى موضع ({code2} مجموعات؟)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "no. Hoy están en VaxLink {code0} ({code1}). Necesitan un lugar propio (¿grupos {code2}?)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "non. Aujourd'hui, elles sont dans VaxLink {code0} ({code1}). Il leur faut un emplacement (groupes {code2} ?)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "нет. Сейчас они находятся в VaxLink {code0} ({code1}). Им нужно место (группы {code2}?)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "否。目前它们位于 VaxLink {code0}（{code1}）中。它们需要一个归属位置（{code2} 分组？）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One moment at a time (see below).",
+   "hash": "79edcdd2eb1aea8a",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لحظة واحدة في كل مرة (انظر أدناه).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un momento a la vez (véase más abajo).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un moment à la fois (voir ci-dessous).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "По одному моменту за раз (см. ниже).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一次一个时刻（见下文）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One person end to end: goal, needs, frustrations, an emotion curve and touchpoints.",
+   "hash": "befaee0fdf6c700b",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شخص واحد من البداية إلى النهاية: الهدف، والاحتياجات، ومواطن الإحباط، ومنحنى الانفعالات، ونقاط التماس.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una persona de principio a fin: objetivo, necesidades, frustraciones, una curva de emociones y puntos de contacto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une personne de bout en bout : objectif, besoins, frustrations, une courbe d'émotion et des points de contact.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Один человек от начала до конца: цель, потребности, разочарования, кривая эмоций и точки взаимодействия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个人的端到端视角：目标、需求、困扰、情绪曲线和触点。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overview",
+   "hash": "6fbcac346ccee208",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vue d'ensemble",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "概览",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Overview → Walkthrough (for each moment: ask the room, then reveal the \"What if…\") → Under the hood when asked → Persona lens → How it works → Device demo when asked → Discussion.",
+   "hash": "d1e1f1cee6b9e6ab",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نظرة عامة → الجولة الإرشادية (لكل لحظة: اسأل الحاضرين، ثم اكشف «ماذا لو…») → «تحت الغطاء» عند الطلب → عدسة الشخصية الافتراضية → كيف يعمل → عرض الجهاز عند الطلب → النقاش.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resumen → Recorrido guiado (para cada momento: preguntar a la sala y luego revelar el \"¿Y si…?\") → Bajo el capó cuando se pida → Lente de persona → Cómo funciona → Demostración en dispositivo cuando se pida → Debate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vue d'ensemble → Présentation guidée (pour chaque moment : interroger la salle, puis révéler le « Et si… ») → Sous le capot sur demande → Regard des personas → Comment ça marche → Démo sur appareil sur demande → Discussion.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обзор → Пошаговый обзор (для каждого момента: спросить аудиторию, затем раскрыть «Что если…») → «Под капотом» по запросу → Взгляд персоны → Как это работает → Демонстрация на устройстве по запросу → Обсуждение.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "概览 → 演练（每个时刻：先向现场提问，再揭示“What if…”（如果……））→ 应要求时展示底层细节 → 人物画像视角 → 工作原理 → 应要求时进行设备演示 → 讨论。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Owner's decisions (2026-11-05):",
+   "hash": "37ca6967233f2bcb",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قرارات المالك (2026-11-05):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Decisiones del propietario (2026-11-05):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Décisions du propriétaire (2026-11-05) :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Решения владельца (2026-11-05):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所有者的决定（2026-11-05）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Palette",
+   "hash": "639f2ac6e8a3b654",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لوحة الألوان",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paleta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Palette",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Палитра",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "调色板",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "partly (index list)",
+   "hash": "a83706355320a092",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جزئيًا (قائمة فهرسية)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "en parte (lista índice)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "en partie (liste d'index)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "частично (список-указатель)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "部分（索引列表）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "partly: the grid is there; there is no focus filter and no toggles",
+   "hash": "461a4623a0f1895f",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جزئيًا: الشبكة موجودة؛ ولا يوجد مرشِّح تركيز ولا مفاتيح تبديل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "en parte: la cuadrícula está; no hay filtro de enfoque ni conmutadores",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "en partie : la grille est là ; il n'y a ni filtre de focalisation ni bascules",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "частично: сетка есть; нет фильтра фокуса и переключателей",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "部分：网格已有；没有聚焦筛选器，也没有切换开关",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "partly: workshop module pages",
+   "hash": "21f1eb1e668a78db",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جزئيًا: صفحات وحدات ورشة العمل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "en parte: páginas de módulos del taller",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "en partie : pages des modules d'atelier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "частично: страницы модулей практического семинара",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "部分：研讨会模块页面",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "People",
+   "hash": "de2741a9d49ae29e",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأشخاص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Personas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Personnes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Люди",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人员",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Persona lens",
+   "hash": "344b9eb4b5acce2e",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عدسة الشخصية الافتراضية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lente de persona",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Regard des personas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Взгляд персоны",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "人物画像视角",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Plus Jakarta Sans, falling back to Inter; large bold headlines; small-caps labels.",
+   "hash": "effd4b20b62ce45c",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خط Plus Jakarta Sans، مع الرجوع إلى Inter؛ عناوين رئيسية كبيرة وعريضة؛ تسميات بأحرف استهلالية صغيرة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Plus Jakarta Sans, con Inter como alternativa; titulares grandes en negrita; etiquetas en versalitas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Plus Jakarta Sans, avec repli sur Inter ; grands titres en gras ; libellés en petites capitales.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Plus Jakarta Sans с запасным шрифтом Inter; крупные жирные заголовки; подписи капителью.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Plus Jakarta Sans，回退为 Inter；大号粗体标题；小型大写字母标签。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Present (avatars, faces, quotes), but plain.",
+   "hash": "444b0d307c1a5b0e",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موجود (صور رمزية، وجوه، اقتباسات)، لكنه بسيط.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Presente (avatares, caras, citas), pero sencillo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Présents (avatars, visages, citations), mais sobres.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Есть (аватары, лица, цитаты), но в простом виде.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已有（头像、表情、引语），但较朴素。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "present (workshop sheets); check the layout against {code0}",
+   "hash": "46221fe0ed2ac88c",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موجود (أوراق ورشة العمل)؛ تحقَّق من التخطيط مقارنةً بـ {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "presente (hojas del taller); comprobar el diseño con {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "présent (fiches d'atelier) ; vérifier la mise en page par rapport à {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "есть (листы практического семинара); сверить макет с {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已有（研讨会工作表）；需对照 {code0} 检查布局",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Presenter mode",
+   "hash": "745acd6bffd88f1c",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "وضع مقدِّم العرض",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Modo presentador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Mode présentateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Режим докладчика",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "演示者模式",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Record trust",
+   "hash": "c508cc4bd356fa36",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسجيل الثقة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Confianza en el registro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Confiance du dossier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доверие к записи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录信任",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Reference",
+   "hash": "581624034bcad8b7",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المرجع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Referencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Référence",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Эталон",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "参考",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Required",
+   "hash": "8dedcb6a412871ff",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مطلوب",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requerido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требуется",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "必需",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Required on a journey set's landing page.",
+   "hash": "4a15ff3ad28ddf88",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مطلوب في الصفحة الرئيسية لمجموعة الرحلات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requerido en la página de inicio de un conjunto de recorridos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigé sur la page d'accueil d'un ensemble de parcours.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требуется на начальной странице набора путей.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程集的着陆页上必需。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Reveal \"What if…\"",
+   "hash": "b052e38f52901869",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اكشف «ماذا لو…»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Revelar \"¿Y si…?\"",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Révéler « Et si… »",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Раскрыть «Что если…»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "揭示“What if…”（如果……）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Screens S1–S8, one per moment, in a phone or tablet frame, with a stage bar and \"Back to the user journey\". Includes the tamper test (S4) and the wrong-passcode test (S8).",
+   "hash": "47e74c810500aded",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الشاشات S1–S8، شاشة لكل لحظة، داخل إطار هاتف أو جهاز لوحي، مع شريط المراحل وزر «العودة إلى رحلة المستخدم». وتشمل اختبار العبث (S4) واختبار رمز المرور الخاطئ (S8).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Pantallas S1–S8, una por momento, en un marco de teléfono o tableta, con una barra de etapas y \"Volver al recorrido del usuario\". Incluye la prueba de manipulación (S4) y la prueba de código de acceso incorrecto (S8).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Écrans S1–S8, un par moment, dans un cadre de téléphone ou de tablette, avec une barre de stades et « Retour au parcours utilisateur ». Comprend le test de falsification (S4) et le test de code d'accès erroné (S8).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Экраны S1–S8, по одному на момент, в рамке телефона или планшета, с полосой этапов и кнопкой «Назад к пользовательскому пути». Включают тест на подделку (S4) и тест с неверным кодом доступа (S8).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "屏幕 S1–S8，每个时刻一个，置于手机或平板框架中，带阶段条和“Back to the user journey”（返回用户旅程）。包括篡改测试（S4）和错误通行码测试（S8）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Source in VaxLink",
+   "hash": "66a4ee96a5e62bce",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المصدر في VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Fuente en VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Source dans VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Источник в VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VaxLink 中的来源",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "static pages and a little vanilla JS, as now",
+   "hash": "faed82937c6e7e1b",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "صفحات ثابتة وقليل من JavaScript الخالص (JS)، كما هو الحال الآن",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "páginas estáticas y un poco de JS puro (vanilla), como ahora",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "des pages statiques et un peu de JS natif, comme aujourd'hui",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "статические страницы и немного чистого JS, как сейчас",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "静态页面和少量原生 JS，与现在相同",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Step",
+   "hash": "697a7a23604e8d63",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Paso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étape",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаг",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Steps, people, feelings, pain points, enablers, policy, record, hand-off, what-ifs, stories, BPMN tasks, requirements, examples, blocks with roles",
+   "hash": "acc57938a648503d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الخطوات، والأشخاص، والمشاعر، ونقاط الألم، والعوامل المُمكِّنة، والسياسات، والسجل، والتسليم، وسيناريوهات «ماذا لو»، والقصص، ومهام BPMN، والمتطلبات، والأمثلة، واللبنات مع أدوارها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Pasos, personas, sentimientos, puntos críticos, facilitadores, política, registro, traspaso, \"¿y si…?\", historias, tareas BPMN, requisitos, ejemplos, bloques con roles",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Étapes, personnes, ressentis, points de friction, facilitateurs, politique, dossier, transmission, « et si », récits, tâches BPMN, exigences, exemples, blocs avec leurs rôles",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шаги, люди, чувства, болевые точки, факторы поддержки, политика, запись, передача, варианты «что если», истории, задачи BPMN, требования, примеры, блоки с ролями",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤、人员、感受、痛点、促成因素、政策、记录、交接、假设情形（what-if）、故事、BPMN 任务、需求、示例、带角色的构建块",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Table sheets",
+   "hash": "beef2b96fe4a1cc5",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أوراق الجداول",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hojas de mesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fiches de tableau",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Листы для стола",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "表格工作表",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Tailwind tokens ({code0}): {code1} alabaster {code2}, surface, ink {code3}, steel {code4}, divider {code5}; {code6} cobalt {code7}; {code8} emerald {code9}; {code10} amber {code11}; {code12} crimson {code13}. Each has light and dark tints.",
+   "hash": "5c4397c4b444d5a6",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رموز Tailwind ({code0}): {code1} alabaster {code2}، وsurface، وink {code3}، وsteel {code4}، وdivider {code5}؛ {code6} cobalt {code7}؛ {code8} emerald {code9}؛ {code10} amber {code11}؛ {code12} crimson {code13}. لكلٍّ منها درجات فاتحة وداكنة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tokens de Tailwind ({code0}): {code1} alabaster {code2}, surface, ink {code3}, steel {code4}, divider {code5}; {code6} cobalt {code7}; {code8} emerald {code9}; {code10} amber {code11}; {code12} crimson {code13}. Cada uno tiene tonos claros y oscuros.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Jetons Tailwind ({code0}) : {code1} albâtre {code2}, surface, encre {code3}, acier {code4}, séparateur {code5} ; {code6} cobalt {code7} ; {code8} émeraude {code9} ; {code10} ambre {code11} ; {code12} cramoisi {code13}. Chacun a des teintes claires et foncées.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Токены Tailwind ({code0}): {code1} alabaster {code2}, surface, ink {code3}, steel {code4}, divider {code5}; {code6} cobalt {code7}; {code8} emerald {code9}; {code10} amber {code11}; {code12} crimson {code13}. У каждого есть светлый и тёмный оттенки.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Tailwind 令牌（{code0}）：{code1} alabaster（雪花石白）{code2}、surface（表面）、ink（墨色）{code3}、steel（钢灰）{code4}、divider（分隔线）{code5}；{code6} cobalt（钴蓝）{code7}；{code8} emerald（翠绿）{code9}；{code10} amber（琥珀）{code11}；{code12} crimson（深红）{code13}。每种都有浅色和深色色调。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Take these tokens as the journey theme. The trust states use them: verified is emerald, reported is amber, tampered is crimson.",
+   "hash": "9df9248e4ddc111a",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اعتمِد هذه الرموز سمةً للرحلات. وتستخدمها حالات الثقة: «تم التحقق» بالزمردي (emerald)، و«مُبلَّغ عنه» بالكهرماني (amber)، و«تم العبث به» بالقرمزي (crimson).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Adoptar estos tokens como tema de los recorridos. Los estados de confianza los usan: verificado es emerald, notificado es amber, manipulado es crimson.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Reprendre ces jetons comme thème des parcours. Les états de confiance les utilisent : vérifié en émeraude, déclaré en ambre, falsifié en cramoisi.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Принять эти токены как тему путей. Состояния доверия используют их: «проверено» — emerald, «сообщено» — amber, «подделано» — crimson.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将这些令牌用作旅程主题。信任状态使用它们：已验证为翠绿（emerald），已报告为琥珀（amber），已篡改为深红（crimson）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Text list rows.",
+   "hash": "56684aa598f9b6ab",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "صفوف قائمة نصية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Filas de una lista de texto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lignes de liste textuelle.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Строки текстового списка.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "文本列表行。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The \"Follow the record\" ladder, a six-stage segmented bar with the current stage filled, in a card headed \"SOMSAK'S RECORD\" ({code0}).",
+   "hash": "223bbd2f44d5a50f",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سلّم «تتبَّع السجل»، وهو شريط مقسَّم من ست مراحل تُملأ فيه المرحلة الحالية، داخل بطاقة عنوانها «SOMSAK'S RECORD» (سجل Somsak) ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La escalera \"Seguir el registro\", una barra segmentada de seis etapas con la etapa actual rellena, en una tarjeta titulada \"REGISTRO DE SOMSAK\" ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "L'échelle « Suivre le dossier », une barre segmentée en six stades avec le stade courant rempli, dans une carte intitulée « LE DOSSIER DE SOMSAK » ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лестница «Следите за записью» — сегментированная полоса из шести этапов с заполненным текущим этапом, в карточке с заголовком «SOMSAK'S RECORD» ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“Follow the record”（追踪记录）阶梯：一个六阶段分段条，当前阶段已填充，位于标题为“SOMSAK'S RECORD”（SOMSAK 的记录）的卡片中（{code0}）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The A3 canvas: a cover and Sheets 1–6, ready to print.",
+   "hash": "fbd83867bb71219d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لوحة A3: غلاف والأوراق 1–6، جاهزة للطباعة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El lienzo A3: una portada y las Hojas 1–6, listas para imprimir.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le canevas A3 : une couverture et les fiches 1–6, prêtes à imprimer.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Холст формата A3: обложка и листы 1–6, готовые к печати.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "A3 画布：一张封面和工作表 1–6，可直接打印。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The ArchiMate views on the DPI-H RA, each box linking to its element page.",
+   "hash": "3c6ede9bb5c1773d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طرق عرض ArchiMate على البنية المرجعية DPI-H RA، وكل مربع فيها يرتبط بصفحة عنصره.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las vistas ArchiMate sobre la DPI-H RA, con cada recuadro enlazado a la página de su elemento.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les vues ArchiMate sur la DPI-H RA, chaque boîte renvoyant à la page de son élément.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Представления ArchiMate на основе DPI-H RA, каждый блок которых ссылается на страницу своего элемента.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "基于 DPI-H RA 的 ArchiMate 视图，每个方框链接到其元素页面。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The avatar colours from {code0} and the badge style from VaxLink {code1}.",
+   "hash": "2d21855fb50e98be",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ألوان الصور الرمزية من {code0} ونمط الشارات من VaxLink {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los colores de avatar de {code0} y el estilo de insignia de VaxLink {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les couleurs d'avatar issues de {code0} et le style de badge de VaxLink {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Цвета аватаров из {code0} и стиль значков из VaxLink {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "头像颜色来自 {code0}，徽章样式来自 VaxLink {code1}。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the BPMN card for the step's process.",
+   "hash": "4314117ed090bc5f",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بطاقة BPMN لعملية الخطوة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la tarjeta BPMN del proceso del paso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la carte BPMN du processus de l'étape.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "карточка BPMN для процесса шага.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "该步骤流程的 BPMN 卡片。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The closing questions, each tagged by module and linked to its moments, plus every moment's policy takeaway.",
+   "hash": "56f463fc8c1698a5",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أسئلة الختام، وكلٌّ منها موسوم بوحدته ومرتبط بلحظاته، إضافةً إلى الدرس المستفاد في السياسات من كل لحظة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las preguntas de cierre, cada una etiquetada por módulo y enlazada a sus momentos, además de la conclusión de política de cada momento.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les questions de clôture, chacune étiquetée par module et reliée à ses moments, plus l'enseignement politique de chaque moment.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Заключительные вопросы, каждый с меткой модуля и ссылками на свои моменты, а также политический вывод каждого момента.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "结束问题，每个问题按模块标记并链接到其时刻，另加每个时刻的政策要点。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the data hand-off: from, to, carrier, payload, offline or online;",
+   "hash": "32781325ee4ef19c",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تسليم البيانات: من، وإلى، والناقل، والحمولة، ودون اتصال أو عبر الاتصال؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "el traspaso de datos: desde, hacia, soporte, carga útil, sin conexión o en línea;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la transmission des données : de, vers, support, charge utile, hors ligne ou en ligne ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "передача данных: откуда, куда, носитель, полезная нагрузка, офлайн или онлайн;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据交接：从、到、载体、载荷、离线或在线；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The facilitator cue, shown only in presenter mode.",
+   "hash": "d653fd374e28960d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تلميح الميسِّر، ولا يظهر إلا في وضع مقدِّم العرض.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La indicación para el facilitador, visible solo en modo presentador.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La consigne de l'animateur, affichée uniquement en mode présentateur.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подсказка ведущего, показываемая только в режиме докладчика.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "主持人提示，仅在演示者模式下显示。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the FHIR resources it changes, with profile, why, examples, and an \"Inspect JSON\" link into the drawer;",
+   "hash": "3a60bfad7ae9af0e",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "موارد FHIR التي تغيّرها، مع الملف التعريفي والسبب والأمثلة، ورابط «فحص JSON» إلى الدرج؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los recursos FHIR que modifica, con perfil, motivo, ejemplos y un enlace \"Inspeccionar JSON\" al panel deslizable;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les ressources FHIR qu'elle modifie, avec profil, motif, exemples et un lien « Inspecter le JSON » vers le tiroir ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "изменяемые им ресурсы FHIR с профилем, обоснованием, примерами и ссылкой «Просмотреть JSON» на выдвижную панель;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "其变更的 FHIR 资源，附配置文件、原因、示例，以及指向抽屉的“Inspect JSON”（检查 JSON）链接；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The flow needs these interactions:",
+   "hash": "6cf176d6fddaae50",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يحتاج التدفق إلى هذه التفاعلات:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El flujo necesita estas interacciones:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le déroulement nécessite ces interactions :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для этого порядка работы нужны следующие взаимодействия:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "该流程需要以下交互：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The four \"big ideas\" of How it works",
+   "hash": "466d285d81b6b493",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«الأفكار الكبرى» الأربع في «كيف يعمل»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las cuatro \"grandes ideas\" de Cómo funciona",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les quatre « grandes idées » de Comment ça marche",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Четыре «главные идеи» раздела «Как это работает»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“工作原理”的四个“核心理念”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The harness body type.",
+   "hash": "4d5bede5801cb386",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خط النص الأساسي في الإطار التشغيلي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La tipografía de cuerpo del arnés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La police de corps du harnais.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Основной шрифт обвязки.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工具框架的正文字体。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The harness frame and navbar stay (owner, 2026-11-06: \"harness frame and navbar is ok\"; this supersedes the 2026-11-05 rule to drop the site chrome). Inside that frame, the journey page carries VaxLink's own two bars and tabs, and must match VaxLink in its colours, spacing and layout.",
+   "hash": "8232c799d5590d74",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبقى إطار الإطار التشغيلي وشريط التنقل (المالك، 2026-11-06: «إطار الإطار التشغيلي وشريط التنقل مقبولان»؛ ويحل هذا محل قاعدة 2026-11-05 بإسقاط عناصر واجهة الموقع). وداخل هذا الإطار، تحمل صفحة الرحلة شريطَي VaxLink وعلامات تبويبه، ويجب أن تطابق VaxLink في ألوانها وتباعدها وتخطيطها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El marco y la barra de navegación del arnés se mantienen (propietario, 2026-11-06: \"el marco y la barra de navegación del arnés están bien\"; esto sustituye la regla del 2026-11-05 de eliminar los elementos de interfaz del sitio). Dentro de ese marco, la página de recorridos incluye las dos barras y pestañas propias de VaxLink, y debe coincidir con VaxLink en colores, espaciado y diseño.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le cadre et la barre de navigation du harnais restent (propriétaire, 2026-11-06 : « harnais frame and navbar is ok » ; cela remplace la règle du 2026-11-05 de supprimer l'habillage du site). Dans ce cadre, la page de parcours porte les deux barres et les onglets propres à VaxLink, et doit correspondre à VaxLink par ses couleurs, ses espacements et sa mise en page.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рамка и панель навигации обвязки сохраняются (владелец, 2026-11-06: «рамка и панель навигации обвязки — это нормально»; это заменяет правило от 2026-11-05 об отказе от оформления сайта). Внутри этой рамки страница пути содержит собственные две панели и вкладки VaxLink и должна совпадать с VaxLink по цветам, отступам и компоновке.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "框架 (harness) 的框架和导航栏保留（所有者，2026-11-06：“harness frame and navbar is ok”（harness 框架和导航栏可以保留）；这取代了 2026-11-05 关于去掉站点外框的规则）。在该框架内，旅程页面带有 VaxLink 自己的两个栏和标签页，并且必须在颜色、间距和布局上与 VaxLink 一致。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The harness site frame: branch banner, site bar with search, side rail.",
+   "hash": "57c73558be2f5609",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إطار موقع الإطار التشغيلي: شريط الفرع، وشريط الموقع مع البحث، والشريط الجانبي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El marco del sitio del arnés: banner de rama, barra del sitio con búsqueda, barra lateral.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le cadre du site du harnais : bandeau de branche, barre du site avec recherche, rail latéral.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рамка сайта обвязки: баннер ветки, панель сайта с поиском, боковая панель.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工具框架的站点框架：分支横幅、带搜索的站点栏、侧边栏。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The harness theme's greens and greys.",
+   "hash": "c894036e4581a8b4",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "درجات الأخضر والرمادي في سمة الإطار التشغيلي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los verdes y grises del tema del arnés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les verts et les gris du thème du harnais.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зелёные и серые цвета темы обвязки.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工具框架主题的绿色和灰色。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The harness's static journeys viewer is rebuilt to look and work like VaxLink. It is not replaced by VaxLink's React app.",
+   "hash": "022c2436fba34bd5",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعاد بناء عارض الرحلات الثابت في الإطار التشغيلي ليبدو ويعمل مثل VaxLink. ولا يُستبدل بتطبيق React الخاص بـ VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El visor estático de recorridos del arnés se reconstruye para que se vea y funcione como VaxLink. No se sustituye por la aplicación React de VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le visualiseur statique de parcours du harnais est reconstruit pour ressembler à VaxLink et fonctionner comme lui. Il n'est pas remplacé par l'application React de VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Статический просмотрщик путей обвязки перестраивается так, чтобы выглядеть и работать как VaxLink. Он не заменяется приложением VaxLink на React.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工具框架的静态旅程查看器将被重建，使其外观和工作方式与 VaxLink 相同。它不会被 VaxLink 的 React 应用取代。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The hero, the four moments as cards, the cast, and the \"Follow the record\" ladder.",
+   "hash": "0eb73539796a414f",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الواجهة الرئيسية، واللحظات الأربع على هيئة بطاقات، والشخصيات، وسلّم «تتبَّع السجل».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La cabecera principal, los cuatro momentos como tarjetas, los personajes y la escalera \"Seguir el registro\".",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le bandeau principal, les quatre moments sous forme de cartes, la distribution et l'échelle « Suivre le dossier ».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Главный баннер, четыре момента в виде карточек, действующие лица и лестница «Следите за записью».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "首屏横幅、以卡片呈现的四个时刻、角色阵容，以及“Follow the record”（追踪记录）阶梯。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The IG pages for journeys, personas, business processes and examples, and the repository.",
+   "hash": "7c47be43c3a72f21",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "صفحات دليل التنفيذ (IG) الخاصة بالرحلات والشخصيات الافتراضية وعمليات العمل والأمثلة، والمستودع.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las páginas de la IG de recorridos, personas (perfiles), procesos de negocio y ejemplos, y el repositorio.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les pages de l'IG pour les parcours, les personas, les processus métier et les exemples, et le dépôt.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страницы IG для путей, персон, бизнес-процессов и примеров, а также репозиторий.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "关于旅程、人物画像、业务流程和示例的 IG 页面，以及代码仓库。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The left card: chapter label and country chip; the step code and position (\"J4.1 · 8/8\"); the title; the illustration; the headline, with persona names as inline avatar chips; when, where and touchpoint.",
+   "hash": "ac21de03ba485403",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البطاقة اليسرى: تسمية الفصل وشارة البلد؛ ورمز الخطوة وموضعها («J4.1 · 8/8»)؛ والعنوان؛ والرسم التوضيحي؛ والعنوان الرئيسي مع أسماء الشخصيات الافتراضية على هيئة شارات صور رمزية مضمَّنة؛ ومتى، وأين، ونقطة التماس.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La tarjeta izquierda: etiqueta de capítulo y etiqueta de país; el código y la posición del paso (\"J4.1 · 8/8\"); el título; la ilustración; el titular, con los nombres de las personas como etiquetas de avatar insertadas; cuándo, dónde y punto de contacto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La carte de gauche : libellé du chapitre et puce de pays ; le code et la position de l'étape (« J4.1 · 8/8 ») ; le titre ; l'illustration ; l'accroche, avec les noms des personas sous forme de puces d'avatar en ligne ; quand, où et point de contact.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Левая карточка: название главы и метка страны; код шага и его позиция («J4.1 · 8/8»); заголовок; иллюстрация; ключевая фраза с именами персон в виде встроенных меток-аватаров; когда, где и точка взаимодействия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "左侧卡片：章节标签和国家标签；步骤代码和位置（“J4.1 · 8/8”）；标题；插图；标题语，其中人物画像姓名显示为内嵌头像标签；时间、地点和触点。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The moments it relates to.",
+   "hash": "473e7923a3cdc423",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اللحظات التي ترتبط بها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los momentos con los que se relaciona.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les moments auxquels il se rapporte.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Моменты, к которым он относится.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "与其相关的时刻。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The owner has compared the viewer and VaxLink side by side and agreed to retire VaxLink.",
+   "hash": "6fd6bfd8c4e2b0dd",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قارن المالك بين العارض وVaxLink جنبًا إلى جنب ووافق على إيقاف VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El propietario ha comparado el visor y VaxLink lado a lado y ha aceptado retirar VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le propriétaire a comparé côte à côte le visualiseur et VaxLink et a accepté de retirer VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Владелец сравнил просмотрщик и VaxLink бок о бок и согласился вывести VaxLink из эксплуатации.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所有者已将查看器与 VaxLink 并排比较，并同意停用 VaxLink。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The parity check is to put each {code0} beside the viewer's matching page and confirm that every element listed below is there.",
+   "hash": "a590fcf95d230410",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتمثل فحص التكافؤ في وضع كل {code0} بجانب الصفحة المطابقة في العارض والتأكد من وجود كل عنصر مُدرج أدناه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La comprobación de paridad consiste en colocar cada {code0} junto a la página correspondiente del visor y confirmar que todos los elementos enumerados a continuación están presentes.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La vérification de parité consiste à placer chaque {code0} à côté de la page correspondante du visualiseur et à confirmer que chaque élément énuméré ci-dessous y figure.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверка паритета состоит в том, чтобы положить каждый {code0} рядом с соответствующей страницей просмотрщика и убедиться, что на ней есть каждый из перечисленных ниже элементов.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对等检查的方法是将每个 {code0} 与查看器的对应页面并排放置，并确认下列每个元素都存在。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The right column: the record card (trust ladder, the state, where it is held, the hand-off), then Ask the room (a dark card), then What if… (hidden until revealed, with \"Let the room guess, then reveal\"), then the Policy takeaway.",
+   "hash": "fc0dbecee764413e",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العمود الأيمن: بطاقة السجل (سلّم الثقة، والحالة، ومكان حفظه، والتسليم)، ثم «اسأل الحاضرين» (بطاقة داكنة)، ثم «ماذا لو…» (مخفية حتى تُكشف، مع «دع الحاضرين يخمّنون، ثم اكشف»)، ثم الدرس المستفاد في السياسات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La columna derecha: la tarjeta del registro (escalera de confianza, el estado, dónde se conserva, el traspaso), luego Preguntar a la sala (una tarjeta oscura), luego ¿Y si…? (oculto hasta que se revela, con \"Deje que la sala adivine y luego revele\") y luego la Conclusión de política.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La colonne de droite : la carte du dossier (échelle de confiance, l'état, où il est conservé, la transmission), puis Interroger la salle (une carte sombre), puis Et si… (masqué jusqu'à révélation, avec « Laissez la salle deviner, puis révélez »), puis l'Enseignement politique.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Правый столбец: карточка записи (лестница доверия, состояние, где она хранится, передача), затем «Спросите аудиторию» (тёмная карточка), затем «Что если…» (скрыто до раскрытия, с подсказкой «Дайте аудитории угадать, затем раскройте»), затем «Политический вывод».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "右侧栏：记录卡片（信任阶梯、状态、保存位置、交接），然后是 Ask the room（向现场提问，一张深色卡片），然后是 What if…（如果……，在揭示前隐藏，附“Let the room guess, then reveal”（先让现场猜测，再揭示）），最后是 Policy takeaway（政策要点）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The same family and scale.",
+   "hash": "2e0a88dd1ec2053c",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العائلة والمقياس نفسهما.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La misma familia y escala.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La même famille et la même échelle typographique.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "То же семейство шрифтов и тот же масштаб.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "相同的字体族和比例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The section 3 interactions work, and the section 4 links resolve from the graph.",
+   "hash": "e3e566d212d9f2f5",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تعمل تفاعلات القسم 3، وتُستخرج روابط القسم 4 من الرسم البياني.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las interacciones de la sección 3 funcionan y los enlaces de la sección 4 se resuelven a partir del grafo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les interactions de la section 3 fonctionnent, et les liens de la section 4 sont résolus à partir du graphe.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Взаимодействия из раздела 3 работают, а ссылки из раздела 4 разрешаются из графа.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "第 3 节的交互可用，且第 4 节的链接从图中解析。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the technical so-what;",
+   "hash": "f6e01a9d4412a43d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأثر التقني؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la implicación técnica;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "en quoi cela importe sur le plan technique ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "техническое значение («и что из этого»);",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "技术层面的意义；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The walkthrough page",
+   "hash": "fffeb14333e741ae",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "صفحة الجولة الإرشادية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La página del recorrido guiado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La page de présentation guidée",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Страница пошагового обзора",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "演练页面",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This file is the target. The reference screenshots in <a0>{code0}</a0> are VaxLink at litlfred/vaxlink {code1} {code2} (the same app now lives in this repository's {code3}, published at {code4}), and they are the wireframes. {code5} are the current preview, for comparison.",
+   "hash": "1fcb60aff7ff1c57",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا الملف هو الهدف. لقطات الشاشة المرجعية في <a0>{code0}</a0> هي VaxLink في litlfred/vaxlink {code1} {code2} (يوجد التطبيق نفسه الآن في {code3} من هذا المستودع، ومنشور في {code4})، وهي المخططات الهيكلية. أما {code5} فهي المعاينة الحالية، للمقارنة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Este archivo es el objetivo. Las capturas de pantalla de referencia en <a0>{code0}</a0> son VaxLink en litlfred/vaxlink {code1} {code2} (la misma aplicación se encuentra ahora en {code3} de este repositorio, publicada en {code4}), y son los esquemas de pantalla. {code5} son la vista previa actual, para comparar.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce fichier est la cible. Les captures d'écran de référence dans <a0>{code0}</a0> sont VaxLink à litlfred/vaxlink {code1} {code2} (la même application se trouve désormais dans {code3} de ce dépôt, publiée à {code4}), et elles constituent les maquettes. {code5} sont l'aperçu actuel, pour comparaison.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Этот файл описывает целевое состояние. Эталонные снимки экрана в <a0>{code0}</a0> — это VaxLink в litlfred/vaxlink {code1} {code2} (то же приложение теперь находится в {code3} этого репозитория и опубликовано по адресу {code4}), и они служат макетами. {code5} — текущий предварительный просмотр, для сравнения.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本文件即为目标。<a0>{code0}</a0> 中的参考截图是 litlfred/vaxlink {code1} {code2} 中的 VaxLink（同一应用现位于本仓库的 {code3} 中，发布于 {code4}），它们就是线框图。{code5} 是当前预览，供比较。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "This is the core of VaxLink. It has to be one page per step, not per journey.",
+   "hash": "accc7ed41c9183ab",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذا هو جوهر VaxLink. ويجب أن تكون صفحة واحدة لكل خطوة، لا لكل رحلة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Este es el núcleo de VaxLink. Debe haber una página por paso, no por recorrido.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "C'est le cœur de VaxLink. Il faut une page par étape, et non par parcours.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это ядро VaxLink. Должна быть одна страница на шаг, а не на путь.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这是 VaxLink 的核心。必须每个步骤一个页面，而不是每个旅程一个页面。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "To",
+   "hash": "79449a6a79801359",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إلى",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hacia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vers",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Куда",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "到",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Today the viewer has breadcrumbs, follows / part-of links, and requirement and example links in Under the hood. It lacks the step-to-screen links, the block-to-moments index, the IG process and scenario anchors, and links to the ArchiMate element pages.",
+   "hash": "eb6f68dafa6f03f2",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يحتوي العارض اليوم على مسارات التنقل، وروابط «يلي» / «جزء من»، وروابط المتطلبات والأمثلة في «تحت الغطاء». وينقصه روابط الخطوة إلى الشاشة، وفهرس اللبنة إلى اللحظات، ومراسي العملية والسيناريو في دليل التنفيذ (IG)، وروابط صفحات عناصر ArchiMate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hoy el visor tiene rutas de navegación (breadcrumbs), enlaces de secuencia y de pertenencia (follows / part-of), y enlaces a requisitos y ejemplos en Bajo el capó. Le faltan los enlaces de paso a pantalla, el índice de bloque a momentos, las anclas de proceso y escenario de la IG y los enlaces a las páginas de elementos ArchiMate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aujourd'hui, le visualiseur a un fil d'Ariane, des liens « suit » / « fait partie de », et des liens vers les exigences et les exemples dans Sous le capot. Il lui manque les liens de l'étape vers l'écran, l'index des blocs vers les moments, les ancres de processus et de scénario de l'IG, et les liens vers les pages des éléments ArchiMate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сейчас в просмотрщике есть «хлебные крошки», ссылки «следует за» / «является частью», а также ссылки на требования и примеры в «Под капотом». В нём нет ссылок «шаг → экран», указателя «блок → моменты», якорей процессов и сценариев IG, а также ссылок на страницы элементов ArchiMate.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目前查看器在 Under the hood（底层细节）中有面包屑导航、follows / part-of（后续 / 所属）链接，以及需求和示例链接。它缺少步骤到屏幕的链接、构建块到时刻的索引、IG 流程和场景锚点，以及指向 ArchiMate 元素页面的链接。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Toggle Under the hood",
+   "hash": "9f5a8d97463cfea8",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إظهار/إخفاء «تحت الغطاء»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Mostrar u ocultar Bajo el capó",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Afficher/masquer Sous le capot",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Переключение «Под капотом»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "切换 Under the hood（底层细节）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Type",
+   "hash": "ffb6405983a84d31",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النوع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tipografía",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Typographie",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шрифт",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "字体",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Under the hood (toggled):",
+   "hash": "798acb8824ff5d5f",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تحت الغطاء (قابل للإظهار والإخفاء):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bajo el capó (se muestra u oculta):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sous le capot (à afficher) :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Под капотом» (переключаемое):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Under the hood（底层细节，可切换）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VaxLink",
+   "hash": "7a8f9ae1564a9230",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VaxLink",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VaxLink has seven journey views as tabs, plus the device demo. Every view has its own URL.",
+   "hash": "aa1611d96ee36e9d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتضمن VaxLink سبع طرق عرض للرحلات على هيئة علامات تبويب، إضافةً إلى عرض الجهاز. ولكل طريقة عرض عنوان URL خاص بها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VaxLink tiene siete vistas de recorrido como pestañas, además de la demostración en dispositivo. Cada vista tiene su propia URL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "VaxLink comporte sept vues de parcours sous forme d'onglets, plus la démo sur appareil. Chaque vue a sa propre URL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В VaxLink семь представлений пути в виде вкладок, а также демонстрация на устройстве. У каждого представления свой URL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VaxLink 以标签页形式提供七个旅程视图，另加设备演示。每个视图都有自己的 URL。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VaxLink is a facilitator's presentation tool.",
+   "hash": "b9412ef4b7a5826f",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "VaxLink أداة عرض تقديمي للميسِّر.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VaxLink es una herramienta de presentación para el facilitador.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "VaxLink est un outil de présentation pour animateur.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VaxLink — инструмент презентации для ведущего.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VaxLink 是主持人的演示工具。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VaxLink is not retired, and its URL does not redirect (litlfred/vaxlink#14 stays unmerged), until the viewer reaches parity.",
+   "hash": "af677d891b0dcc18",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يُوقَف VaxLink، ولا يُعاد توجيه عنوان URL الخاص به (يبقى litlfred/vaxlink#14 غير مدمج)، حتى يبلغ العارض التكافؤ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VaxLink no se retira, y su URL no redirige (litlfred/vaxlink#14 sigue sin fusionarse), hasta que el visor alcance la paridad.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "VaxLink n'est pas retiré, et son URL ne redirige pas (litlfred/vaxlink#14 reste non fusionné), tant que le visualiseur n'a pas atteint la parité.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VaxLink не выводится из эксплуатации, и его URL не перенаправляется (litlfred/vaxlink#14 остаётся неслитым), пока просмотрщик не достигнет паритета.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在查看器达到对等之前，VaxLink 不会停用，其 URL 也不会重定向（litlfred/vaxlink#14 保持未合并）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VaxLink is used live in a room. The viewer must support the same flow (README \"Running a workshop session\"):",
+   "hash": "6bbe09c1fc577580",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُستخدم VaxLink مباشرةً في قاعة. ويجب أن يدعم العارض التدفق نفسه (README «تشغيل جلسة ورشة عمل»):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "VaxLink se usa en directo en una sala. El visor debe admitir el mismo flujo (README \"Running a workshop session\"):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "VaxLink est utilisé en direct dans une salle. Le visualiseur doit prendre en charge le même déroulement (README « Running a workshop session ») :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VaxLink используется вживую в аудитории. Просмотрщик должен поддерживать тот же порядок работы (README, «Running a workshop session»):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VaxLink 在现场实时使用。查看器必须支持相同的流程（README“Running a workshop session”（运行研讨会）一节）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "View",
+   "hash": "0407526f2bb4f3fb",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طريقة العرض",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vista",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vue",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Представление",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "视图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Viewer today",
+   "hash": "d6712facd5abcd2d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العارض اليوم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Visor hoy",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Visualiseur aujourd'hui",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Просмотрщик сейчас",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "查看器现状",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Walkthrough",
+   "hash": "2db924479e279a81",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجولة الإرشادية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorrido guiado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Présentation guidée",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пошаговый обзор",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "演练",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What it shows",
+   "hash": "ac61f4d301248318",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما الذي تعرضه",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Qué muestra",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce qu'elle montre",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что показывает",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "显示内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Who's in this moment: one card per person, with their emotion badge, what they do, and their quote.",
+   "hash": "7add6777451f92b9",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مَن في هذه اللحظة: بطاقة لكل شخص، مع شارة انفعاله، وما يفعله، واقتباسه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Quién participa en este momento: una tarjeta por persona, con su insignia de emoción, lo que hace y su cita.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Qui intervient dans ce moment : une carte par personne, avec son badge d'émotion, ce qu'elle fait et sa citation.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Кто участвует в этом моменте: по одной карточке на человека, с его значком эмоции, тем, что он делает, и его цитатой.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "此时刻中的人物：每人一张卡片，附其情绪徽章、所做之事及其引语。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Why this file exists: the first viewer preview, at {code0}, has the content but looks and works nothing like VaxLink.",
+   "hash": "cfd24f428ca3b30b",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سبب وجود هذا الملف: معاينة العارض الأولى، في {code0}، تحتوي على المحتوى لكنها لا تشبه VaxLink في مظهرها ولا في عملها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Por qué existe este archivo: la primera vista previa del visor, en {code0}, tiene el contenido, pero no se parece en nada a VaxLink ni en aspecto ni en funcionamiento.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Raison d'être de ce fichier : le premier aperçu du visualiseur, à {code0}, a le contenu mais ne ressemble en rien à VaxLink et ne fonctionne pas comme lui.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зачем нужен этот файл: в первом предварительном просмотре просмотрщика, по адресу {code0}, есть содержание, но выглядит и работает он совсем не так, как VaxLink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "本文件存在的原因：位于 {code0} 的首个查看器预览目前有内容，但外观和工作方式与 VaxLink 毫不相同。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Works offline / static",
+   "hash": "43f7f7daded4ab5d",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعمل دون اتصال / ثابت",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Funciona sin conexión / estático",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fonctionne hors ligne / statique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Работает офлайн / статически",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "可离线 / 静态运行",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes",
+   "hash": "29bbd53e2c3f4276",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes ({code0}, {code1})",
+   "hash": "ac95d8d20add7e30",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم ({code0}، {code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí ({code0}, {code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui ({code0}, {code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да ({code0}, {code1})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是（{code0}、{code1}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes ({code0})",
+   "hash": "68699be70135da69",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да ({code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是（{code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes, via {code0} (J4 holds J4.0 and J4.1)",
+   "hash": "b5997241373162ae",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم، عبر {code0} (تضم J4 كلًّا من J4.0 وJ4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí, mediante {code0} (J4 contiene J4.0 y J4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui, via {code0} (J4 contient J4.0 et J4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да, через {code0} (J4 включает J4.0 и J4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是，通过 {code0}（J4 包含 J4.0 和 J4.1）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes, wherever an instance has screens",
+   "hash": "8feef49c505a62c2",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم، حيثما توجد شاشات لدى النسخة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí, siempre que una instancia tenga pantallas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui, partout où une instance a des écrans",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да, везде, где у экземпляра есть экраны",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是，凡是实例有屏幕之处",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Status: spec, 2026-11-05. VaxLink was retired on 2026-11-11 by the owner's choice (issue #111): {code0} and {code1} are gone, and the gaps still open are beans.",
+   "hash": "3e580eda3fd03074",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحالة: مواصفة، 2026-11-05. أُوقف VaxLink في 2026-11-11 بقرار من المالك (المسألة #111): لم يعد {code0} و{code1} موجودين، والفجوات التي لا تزال مفتوحة مسجّلة بوصفها beans.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estado: especificación, 2026-11-05. VaxLink se retiró el 2026-11-11 por decisión del propietario (issue #111): {code0} y {code1} ya no existen, y las carencias que siguen abiertas son beans.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Statut : spécification, 2026-11-05. VaxLink a été retiré le 2026-11-11 par choix du propriétaire (ticket #111) : {code0} et {code1} ont disparu, et les écarts encore ouverts sont des beans.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Статус: спецификация, 2026-11-05. VaxLink выведен из эксплуатации 2026-11-11 по решению владельца (issue #111): {code0} и {code1} удалены, а оставшиеся открытыми пробелы оформлены как beans.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "状态：规格说明（spec），2026-11-05。VaxLink 已于 2026-11-11 按所有者的决定停用（issue #111）：{code0} 和 {code1} 已移除，仍未解决的差距记录为 bean。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "yes ({code0}). Taifafeki–Onesa chapters: {code1} in VaxLink. Pilgrimage: {code2}",
+   "hash": "fa5ffd6923b98977",
+   "sources": [
+    "docs/proposals/journeys-viewer-parity/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نعم ({code0}). فصول Taifafeki–Onesa: {code1} في VaxLink. الزيارة الدينية: {code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sí ({code0}). Capítulos Taifafeki–Onesa: {code1} en VaxLink. Peregrinación: {code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "oui ({code0}). Chapitres Taifafeki–Onesa : {code1} dans VaxLink. Pèlerinage : {code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "да ({code0}). Главы о странах Taifafeki и Onesa: {code1} в VaxLink. Паломничество: {code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "是（{code0}）。Taifafeki–Onesa 章节：VaxLink 中为 {code1}。朝圣：{code2}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

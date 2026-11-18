@@ -1,0 +1,1188 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "glossary",
+ "hashes": {
+  "es": "3ff35f3364c42bd6",
+  "fr": "d374d7ead26e21e1",
+  "ru": "e258d45b89a90c70",
+  "zh": "49580b220c020447"
+ },
+ "strings": [
+  {
+   "msgid": "WHO",
+   "hash": "e87a842f2056c82c",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "OMS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ВОЗ",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "PAHO",
+   "hash": "9f4cc6d51cb16295",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "OPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "GDHCN",
+   "hash": "d421b73d7581277f",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "GDHCN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "CHW",
+   "hash": "5a36308a60dd81d3",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "FHIR",
+   "hash": "c52941b3af9f18d8",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "FHIR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "FHIR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "FHIR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "FHIR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "HL7",
+   "hash": "3187a8b49bd8b2bf",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "HL7",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "IHE",
+   "hash": "197eceb317111884",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "IHE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "IHE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "IHE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "IHE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "HCERT",
+   "hash": "b4539560f7b2306f",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "HCERT",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "HCERT",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "HCERT",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "HCERT",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "DSC",
+   "hash": "bfeba34cc5918162",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "DSC",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DSC",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "DSC",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DSC",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "DVC",
+   "hash": "70f06f1dd6705bee",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "DVC",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "DVC",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DVC",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VHL",
+   "hash": "85e829c05dea6eb4",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "VHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "SMART",
+   "hash": "cba5238e8e5ab766",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "SMART",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "SMART",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "SMART",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "SMART",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "QR",
+   "hash": "7c907a7794c06332",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "QR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "QR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "QR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "BPMN",
+   "hash": "345a7a3dba7143c7",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "BPMN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "BPMN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "BPMN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "BPMN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "DMN",
+   "hash": "7a5236442212e7c4",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "DMN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DMN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "DMN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DMN",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "DAK",
+   "hash": "86e20a7c6efa0a17",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "DAK",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "DAK",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DAK",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "IG",
+   "hash": "8444993d7994ca06",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "IG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "IG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "IG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "VaxLink",
+   "hash": "7a8f9ae1564a9230",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "VaxLink",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "VaxLink",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COSE",
+   "hash": "2ca96ac349499abe",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "COSE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COSE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COSE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COSE",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "CBOR",
+   "hash": "b16fb6d152d7df21",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "CBOR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "CBOR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "CBOR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CBOR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "DID",
+   "hash": "44c1eca3affc4f9a",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "DID",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DID",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DID",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "ICVP",
+   "hash": "5a0c9fd1526f6c24",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "ICVP",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ICVP",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "ArchiMate",
+   "hash": "2711fc3c02055aa3",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ArchiMate",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "API",
+   "hash": "4b6c640bc7c7559a",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "API",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "API",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "PKI",
+   "hash": "c3484f738bad2443",
+   "sources": [],
+   "locales": {
+    "es": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ICP",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "PKI",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "PKI",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "trust network",
+   "hash": "8533873b98d73c77",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "réseau de confiance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Verifiable Health Link",
+   "hash": "d959bcb67b2bf101",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "lien de santé vérifiable",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "verifiable health link",
+   "hash": "b5ef6bbf7ae6034b",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "lien de santé vérifiable",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "holder",
+   "hash": "cae9e87fc7af111c",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "titulaire",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "issuer",
+   "hash": "6cbd14250d11b902",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "émetteur",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "verifier",
+   "hash": "4bffe7e76500b946",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "vérificateur",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "trust anchor",
+   "hash": "f7f873adf76d75bd",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "ancre de confiance",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "public key",
+   "hash": "037ae7ede84003e9",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "clé publique",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "health certificate",
+   "hash": "353674eb4f772c28",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "certificat de santé",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Global Digital Health Certification Network",
+   "hash": "2b3f630b5c388baa",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "Réseau mondial de certification de la santé numérique",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "International Certificate of Vaccination or Prophylaxis",
+   "hash": "4cea1e57558c90b7",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "certificat international de vaccination ou de prophylaxie",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Document Signer Certificate",
+   "hash": "cd04560f9998b512",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "certificat de signataire de documents",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "revocation",
+   "hash": "02c8edbe26598374",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "révocation",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "onboarding",
+   "hash": "dc6f97fd96464229",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "intégration",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "SMART Guidelines",
+   "hash": "ea829d5761e1c5f8",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "lignes directrices SMART",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Onesa",
+   "hash": "145f9b288b7abb87",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Receiver",
+   "hash": "574e67ad83d5640c",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "destinataire",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "DDCC",
+   "hash": "4a14af7b80a2b939",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "DDCC",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "CWT",
+   "hash": "c7d033729ed290ec",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "CWT",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "CWT",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CWT",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "JWS",
+   "hash": "8e3ca0023d9730ab",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "JWS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "JWS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "IPS",
+   "hash": "976d82cbe8b33035",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "IPS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "SHL",
+   "hash": "62b00ae146cf66ab",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "SHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "SHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "SHL",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "CSCA",
+   "hash": "2e5c658dac5abe2a",
+   "sources": [],
+   "locales": {
+    "fr": {
+     "text": "CSCA",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "UN",
+   "hash": "f179a442f4dd0af8",
+   "sources": [],
+   "locales": {
+    "ru": {
+     "text": "ООН",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "ITI",
+   "hash": "d0f9c6d27e79f85c",
+   "sources": [],
+   "locales": {
+    "ru": {
+     "text": "ITI",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "ITI",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "OHS",
+   "hash": "21200261fc0f116b",
+   "sources": [],
+   "locales": {
+    "ru": {
+     "text": "OHS",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "JSON",
+   "hash": "29c5e6a92440eaf1",
+   "sources": [],
+   "locales": {
+    "ru": {
+     "text": "JSON",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "CI",
+   "hash": "9046a3c80d41ea77",
+   "sources": [],
+   "locales": {
+    "ru": {
+     "text": "CI",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "PDR",
+   "hash": "bb2c185f8c989cf7",
+   "sources": [],
+   "locales": {
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "ID",
+   "hash": "585217c801f1c3d5",
+   "sources": [],
+   "locales": {
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "RA",
+   "hash": "80a5aa58591ec481",
+   "sources": [],
+   "locales": {
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TNG",
+   "hash": "55c1a6d35a0d0067",
+   "sources": [],
+   "locales": {
+    "zh": {
+     "text": "TNG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

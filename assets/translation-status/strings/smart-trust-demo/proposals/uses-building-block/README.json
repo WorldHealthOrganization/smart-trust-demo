@@ -1,0 +1,1108 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "proposals/uses-building-block/README",
+ "hashes": {
+  "ar": "f80d6ffcf1b10879",
+  "es": "b19eaffd27a8f3db",
+  "fr": "cacb65acbb0bf495",
+  "ru": "c87b1afda675abe6",
+  "zh": "c597fe5da9649a4c"
+ },
+ "strings": [
+  {
+   "msgid": "{code0} (optional) names which deployment plays it, when a block has more than one ({code1} → {code2}, {code3}).",
+   "hash": "8f4852535936d60a",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُسمّي {code0} (اختياري) النشر الذي يؤديها، عندما يكون للبنة أكثر من نشر واحد ({code1} ← {code2}، {code3}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} (opcional) indica qué despliegue lo desempeña, cuando un bloque tiene más de uno ({code1} → {code2}, {code3}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} (facultatif) indique quel déploiement le joue, lorsqu'un bloc en a plusieurs ({code1} → {code2}, {code3}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} (необязательно) указывает, какое развёртывание исполняет роль, если у блока их несколько ({code1} → {code2}, {code3}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}（可选）在一个构建块有多个部署时，指明由哪个部署承担（{code1} → {code2}、{code3}）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} is the point of the edge: the same block plays a different role in each step.",
+   "hash": "f89f54f4321e04d3",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} هو جوهر الحافة: اللبنة نفسها تؤدي دوراً مختلفاً في كل خطوة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} es la razón de ser de la arista: el mismo bloque desempeña un rol distinto en cada paso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} est la raison d'être du lien : le même bloc joue un rôle différent à chaque étape.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} — суть этого ребра: один и тот же блок исполняет на каждом шаге свою роль.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 是这条边的要点：同一个构建块在每个步骤中承担不同的角色。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0}, {code1}, or {code2}. A country's deployed system is that country's; what anyone can adopt is International. The ArchiMate views are to split the RA by jurisdiction on this field (owner, 2026-11-05)",
+   "hash": "52082d1853fa2d8e",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} أو {code1} أو {code2}. النظام المنشور في بلد ما يخص ذلك البلد؛ وما يمكن لأي جهة اعتماده فهو دولي. وعروض ArchiMate مطلوب منها تقسيم البنية المرجعية (RA) بحسب الولاية القضائية بناءً على هذا الحقل (المالك، 2026-11-05)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0}, {code1} o {code2}. El sistema desplegado de un país es de ese país; lo que cualquiera puede adoptar es International. Las vistas ArchiMate deben dividir la RA por jurisdicción según este campo (propietario, 2026-11-05)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0}, {code1} ou {code2}. Le système déployé d'un pays appartient à ce pays ; ce que chacun peut adopter est International. Les vues ArchiMate doivent répartir la RA par juridiction selon ce champ (propriétaire, 2026-11-05)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0}, {code1} или {code2}. Развёрнутая система страны принадлежит этой стране; то, что может внедрить любой, — International. Представления ArchiMate должны разделять RA по юрисдикциям на основе этого поля (владелец, 2026-11-05)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}、{code1} 或 {code2}。一个国家部署的系统属于该国；任何人都可以采用的则属于 International（国际）。ArchiMate 视图将依据该字段按司法管辖区拆分 RA（所有者，2026-11-05）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0}: every step now has {code1} and {code2}, and its hand-off has {code3} and {code4}, converted from {code5}.",
+   "hash": "f0f947e5e1230133",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0}: لكل خطوة الآن {code1} و{code2}، ولتسليمها {code3} و{code4}، محوَّلة من {code5}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0}: cada paso tiene ahora {code1} y {code2}, y su traspaso tiene {code3} y {code4}, convertidos a partir de {code5}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} : chaque étape comporte désormais {code1} et {code2}, et son transfert comporte {code3} et {code4}, convertis à partir de {code5}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0}: каждый шаг теперь имеет {code1} и {code2}, а его передача — {code3} и {code4}, преобразованные из {code5}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}：现在每个步骤都有 {code1} 和 {code2}，其交接有 {code3} 和 {code4}，均由 {code5} 转换而来。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>{code0}</a0> ({code1}): one catalogue of blocks. Each block has:",
+   "hash": "0eb9cadc34ef5225",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>{code0}</a0> ({code1}): فهرس واحد للبنات. لكل لبنة:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>{code0}</a0> ({code1}): un único catálogo de bloques. Cada bloque tiene:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>{code0}</a0> ({code1}) : un catalogue unique de blocs. Chaque bloc comporte :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>{code0}</a0> ({code1}): единый каталог блоков. У каждого блока есть:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0>（{code1}）：一份构建块目录。每个构建块包含：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "as the walkthrough shows them",
+   "hash": "b98f2ae56e8e2762",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كما تعرضها الجولة الإرشادية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "tal como los muestra el recorrido guiado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "tels que la présentation guidée les montre",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "как их показывает пошаговый обзор",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "按演练中的呈现方式",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Field",
+   "hash": "e39ee042a22db348",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحقل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Campo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Champ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Поле",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "字段",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Files",
+   "hash": "985097fbf24bc12d",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الملفات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Archivos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fichiers",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Файлы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "文件",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Left out on purpose",
+   "hash": "56e726da761c72b5",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مُستبعَد عمداً",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Excluido a propósito",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Volontairement laissé de côté",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Намеренно опущено",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "有意排除的内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "one of the catalogue's layers: tools & apps, data standards, trust & exchange",
+   "hash": "cab5eece5a79c2a7",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إحدى طبقات الفهرس: الأدوات والتطبيقات، معايير البيانات، الثقة والتبادل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "una de las capas del catálogo: herramientas y aplicaciones, estándares de datos, confianza e intercambio",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "l'une des couches du catalogue : outils et applications, normes de données, confiance et échange",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "один из уровней каталога: инструменты и приложения, стандарты данных, доверие и обмен",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目录的层之一：工具与应用、数据标准、信任与交换",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Open questions",
+   "hash": "e1bb7af34a168cb2",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أسئلة مفتوحة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Preguntas abiertas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Questions ouvertes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Открытые вопросы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "待解决的问题",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Proposal: the \"uses a building block, in this role\" edge",
+   "hash": "9dbb8860ac8de18b",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقترح: الحافة «تستخدم لبنة بناء، في هذا الدور»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Propuesta: la arista \"usa un bloque básico, con este rol\"",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Proposition : le lien « utilise un élément constitutif, dans ce rôle »",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предложение: ребро «использует стандартный блок в этой роли»",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提案：“以此角色使用某个构建块”边",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Question: each step of a journey uses tools, standards and trust services, and each one does something particular to that step. For example, the OHS FHIR SDK caches the trust list in J3a and decodes a QR in J2a. Where does that fact live, so that the walkthrough, the IG and the ArchiMate views all read it from one place?",
+   "hash": "3b89842fe85973ea",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السؤال: كل خطوة من خطوات الرحلة تستخدم أدوات ومعايير وخدمات ثقة، وكلٌّ منها يؤدي شيئاً خاصاً بتلك الخطوة. على سبيل المثال، تخزّن OHS FHIR SDK قائمة الثقة مؤقتاً في J3a وتفك ترميز رمز QR في J2a. أين تُحفظ هذه المعلومة، بحيث تقرؤها الجولة الإرشادية ودليل التنفيذ (IG) وعروض ArchiMate جميعها من مكان واحد؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Pregunta: cada paso de un recorrido usa herramientas, estándares y servicios de confianza, y cada uno hace algo propio de ese paso. Por ejemplo, el OHS FHIR SDK guarda en caché la lista de confianza en J3a y decodifica un QR en J2a. ¿Dónde reside ese dato, para que el recorrido guiado, la IG y las vistas ArchiMate lo lean todos desde un mismo lugar?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Question : chaque étape d'un parcours utilise des outils, des normes et des services de confiance, et chacun fait quelque chose de propre à cette étape. Par exemple, le SDK FHIR d'OHS met en cache la liste de confiance en J3a et décode un code QR en J2a. Où ce fait est-il consigné, de sorte que la présentation guidée, l'IG et les vues ArchiMate le lisent tous à partir d'un seul endroit ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вопрос: каждый шаг пути использует инструменты, стандарты и сервисы доверия, и каждый из них делает что-то особенное для этого шага. Например, OHS FHIR SDK кэширует список доверия в J3a и декодирует QR-код в J2a. Где хранится этот факт, чтобы пошаговый обзор, IG и представления ArchiMate читали его из одного места?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "问题：旅程的每个步骤都会使用工具、标准和信任服务，而每一项在该步骤中都承担特定的工作。例如，OHS FHIR SDK 在 J3a 中缓存信任列表，在 J2a 中解码 QR 码。这一事实应存放在哪里，才能让演练、IG 和 ArchiMate 视图都从同一处读取？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Rendering. Should {code0} show a \"Uses\" line per step, from {code1}, as it shows pain points and enablers? The walkthrough already shows it under \"Under the hood\".",
+   "hash": "6341948d04c5f64d",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العرض. هل ينبغي أن يعرض {code0} سطر «يستخدم» لكل خطوة، من {code1}، كما يعرض نقاط الألم والعوامل التمكينية؟ الجولة الإرشادية تعرضه بالفعل تحت «خلف الكواليس».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Representación. ¿Debería {code0} mostrar una línea \"Usa\" por paso, a partir de {code1}, como muestra los puntos críticos y los facilitadores? El recorrido guiado ya lo muestra en \"Under the hood\".",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Rendu. {code0} devrait-il afficher une ligne « Utilise » par étape, à partir de {code1}, comme il affiche les points de friction et les facilitateurs ? La présentation guidée l'affiche déjà sous « Sous le capot ».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отображение. Должен ли {code0} показывать строку «Uses» для каждого шага из {code1}, так же как он показывает болевые точки и способствующие факторы? Пошаговый обзор уже показывает это в разделе «Under the hood».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "渲染。{code0} 是否应当像展示痛点和促成因素那样，基于 {code1} 为每个步骤显示一行“使用”？演练已在“幕后原理”下展示了这一内容。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Status: draft, 2026-11-05. Bean {code0}, gap 2. Proposed for cat-harness; drafted here, where the content is.",
+   "hash": "a8216f4575cb9d6c",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحالة: مسودة، 2026-11-05. البند {code0}، الفجوة 2. مقترح لـ cat-harness؛ صيغت مسودته هنا، حيث يوجد المحتوى.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estado: borrador, 2026-11-05. Bean {code0}, carencia 2. Propuesto para cat-harness; redactado aquí, donde está el contenido.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Statut : brouillon, 2026-11-05. Bean {code0}, lacune 2. Proposé pour cat-harness ; rédigé ici, là où se trouve le contenu.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Статус: черновик, 2026-11-05. Bean {code0}, пробел 2. Предлагается для cat-harness; подготовлен здесь, где находится содержимое.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "状态：草案，2026-11-05。Bean {code0}，差距 2。提议纳入 cat-harness；在内容所在的此处起草。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The answer: a catalogue, and an edge from the step",
+   "hash": "0302cccea9e6579f",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإجابة: فهرس، وحافة من الخطوة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La respuesta: un catálogo y una arista desde el paso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La réponse : un catalogue, et un lien depuis l'étape",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ответ: каталог и ребро от шага",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "答案：一份目录，以及一条从步骤出发的边",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The edge sits on a user-scenario step (<a0>{code0}</a0>):",
+   "hash": "e2f36421b5c7e5ca",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تقع الحافة على خطوة من سيناريو المستخدم (<a0>{code0}</a0>):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La arista se sitúa en un paso del escenario de usuario (<a0>{code0}</a0>):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le lien se trouve sur une étape de scénario utilisateur (<a0>{code0}</a0>) :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ребро находится на шаге пользовательского сценария (<a0>{code0}</a0>):",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这条边位于用户场景步骤上（<a0>{code0}</a0>）：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The FHIR changes per step (vaxlink's {code0}: resource, change, profile, why). This is the step → {code1} edge with a reason, and could be added there.",
+   "hash": "ca688b50e0bf710e",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تغييرات FHIR لكل خطوة ({code0} الخاص بـ vaxlink: المورد، التغيير، الملف التعريفي، السبب). هذه هي حافة الخطوة ← {code1} مع سبب، ويمكن إضافتها هناك.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los cambios FHIR por paso ({code0} de vaxlink: recurso, cambio, perfil, motivo). Es la arista paso → {code1} con un motivo, y podría añadirse allí.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les modifications FHIR par étape ({code0} de vaxlink : ressource, modification, profil, motif). Il s'agit du lien étape → {code1} assorti d'un motif, qui pourrait y être ajouté.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Изменения FHIR по шагам ({code0} vaxlink: ресурс, изменение, профиль, обоснование). Это ребро шаг → {code1} с обоснованием, и его можно было бы добавить туда.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个步骤的 FHIR 变更（vaxlink 的 {code0}：资源、变更、profile、理由）。这相当于带有理由的步骤 → {code1} 边，可以添加到那里。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the overlay's ArchiMate element keys that deploy the block ({code0} for the OHS Info Gateway)",
+   "hash": "2f38d506f4bdf141",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مفاتيح عناصر ArchiMate في الطبقة التي تنشر اللبنة ({code0} لبوابة معلومات OHS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "las claves de elemento ArchiMate de la superposición que despliegan el bloque ({code0} para el OHS Info Gateway)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les clés d'éléments ArchiMate de la surcouche qui déploient le bloc ({code0} pour l'OHS Info Gateway)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ключи элементов ArchiMate наложения, которые развёртывают блок ({code0} для OHS Info Gateway)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "部署该构建块的叠加图 ArchiMate 元素键（OHS Info Gateway 为 {code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The RA building blocks themselves. They are smart-ra's ArchiMate elements, which {code0} already reads. A catalogue {code1} block points at overlay components, and those components specialize RA blocks, so the path from a step to the RA is step → block → component → RA block.",
+   "hash": "10dae1481042b238",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لبنات البناء الخاصة بالبنية المرجعية (RA) نفسها. فهي عناصر ArchiMate الخاصة بـ smart-ra، التي يقرؤها {code0} بالفعل. تشير لبنة {code1} في الفهرس إلى مكوِّنات الطبقة، وتلك المكوِّنات تخصّص لبنات البنية المرجعية، فيكون المسار من الخطوة إلى البنية المرجعية: الخطوة ← اللبنة ← المكوِّن ← لبنة البنية المرجعية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los propios bloques básicos de la RA. Son los elementos ArchiMate de smart-ra, que {code0} ya lee. Un bloque {code1} del catálogo apunta a componentes de la superposición, y esos componentes especializan bloques de la RA, de modo que el camino de un paso a la RA es paso → bloque → componente → bloque de la RA.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les éléments constitutifs de la RA eux-mêmes. Ce sont les éléments ArchiMate de smart-ra, que {code0} lit déjà. Un bloc {code1} du catalogue pointe vers des composants de la surcouche, et ces composants spécialisent des blocs de la RA ; le chemin d'une étape à la RA est donc étape → bloc → composant → bloc de la RA.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сами стандартные блоки RA. Это элементы ArchiMate из smart-ra, которые {code0} уже читает. Блок каталога {code1} указывает на компоненты наложения, а эти компоненты специализируют блоки RA, поэтому путь от шага к RA таков: шаг → блок → компонент → блок RA.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "RA 构建块本身。它们是 smart-ra 的 ArchiMate 元素，{code0} 已经会读取。目录中的 {code1} 构建块指向叠加图组件，而这些组件特化 RA 构建块，因此从步骤到 RA 的路径是：步骤 → 构建块 → 组件 → RA 构建块。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The step's {code0} gains {code1} and {code2}: how the data travels and what it is.",
+   "hash": "1fa6ecb5c99cd35a",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يكتسب {code0} الخاص بالخطوة {code1} و{code2}: كيف تنتقل البيانات وما هي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El {code0} del paso incorpora {code1} y {code2}: cómo viajan los datos y qué son.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le {code0} de l'étape reçoit {code1} et {code2} : comment les données circulent et ce qu'elles sont.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} шага получает {code1} и {code2}: как передаются данные и что они собой представляют.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "步骤的 {code0} 新增 {code1} 和 {code2}：数据如何传输以及数据是什么。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Today it is in two places that do not know about each other:",
+   "hash": "4d25b2efc2f98c89",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "توجد اليوم في مكانين لا يعرف أحدهما الآخر:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hoy está en dos lugares que no se conocen entre sí:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aujourd'hui, ce fait se trouve à deux endroits qui s'ignorent mutuellement :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сегодня это находится в двух местах, которые ничего не знают друг о друге:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目前它分布在两个互不知晓的地方：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "vaxlink's {code0}: 19 generic blocks ({code1}), and per step the blocks it uses with a one-line role ({code2});",
+   "hash": "8dcac7d7aa5b1eeb",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} الخاص بـ vaxlink: 19 لبنة عامة ({code1})، ولكل خطوة اللبنات التي تستخدمها مع دور في سطر واحد ({code2})؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "el {code0} de vaxlink: 19 bloques genéricos ({code1}) y, por paso, los bloques que usa con un rol de una línea ({code2});",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "le {code0} de vaxlink : 19 blocs génériques ({code1}), et pour chaque étape, les blocs qu'elle utilise avec un rôle décrit en une ligne ({code2}) ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} vaxlink: 19 обобщённых блоков ({code1}) и для каждого шага — используемые им блоки с однострочной ролью ({code2});",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "vaxlink 的 {code0}：19 个通用构建块（{code1}），以及每个步骤所使用的构建块及其一行角色说明（{code2}）；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Where the catalogue lives once adopted. It could live in {code0}, with {code1} reading it instead of its own {code2} list, so the components are kept once. That is the ArchiMate session's file, so it is their call.",
+   "hash": "9f71a29ebeedbc7d",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أين يُحفظ الفهرس بعد اعتماده. يمكن أن يُحفظ في {code0}، فيقرؤه {code1} بدلاً من قائمة {code2} الخاصة به، فتُحفظ المكوِّنات مرة واحدة. ذلك ملف جلسة ArchiMate، فالقرار قرارهم.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dónde residirá el catálogo una vez adoptado. Podría residir en {code0}, con {code1} leyéndolo en lugar de su propia lista {code2}, de modo que los componentes se mantengan en un solo lugar. Ese es el archivo de la sesión de ArchiMate, así que la decisión les corresponde.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Où le catalogue sera conservé une fois adopté. Il pourrait se trouver dans {code0}, {code1} le lisant au lieu de sa propre liste {code2}, de sorte que les composants ne soient tenus qu'à un seul endroit. C'est le fichier de la session ArchiMate ; la décision lui revient donc.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Где будет находиться каталог после принятия. Он мог бы находиться в {code0}, а {code1} читал бы его вместо собственного списка {code2}, чтобы компоненты хранились в одном месте. Это файл сеанса ArchiMate, поэтому решение за ними.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "目录被采纳后存放在哪里。它可以存放在 {code0} 中，由 {code1} 读取它而不是其自身的 {code2} 列表，从而使组件只维护一份。那是 ArchiMate 会话的文件，因此由他们决定。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} (now at {code1}, a directory declaring the harness's {code2} kind, beside the ArchiMate model; {code3} reads it): the catalogue, converted once from vaxlink's {code4}. It has 19 blocks, 10 of them linked to overlay components. Kind, jurisdiction and components were mapped by hand.",
+   "hash": "55d86bac9240036a",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} (موجود الآن في {code1}، وهو دليل يُعلن النوع {code2} الخاص بالإطار (harness)، بجانب نموذج ArchiMate؛ ويقرؤه {code3}): الفهرس، محوَّل مرة واحدة من {code4} الخاص بـ vaxlink. يضم 19 لبنة، 10 منها مرتبطة بمكوِّنات الطبقة. وقد رُبطت الأنواع والولايات القضائية والمكوِّنات يدوياً.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} (ahora en {code1}, un directorio que declara el tipo {code2} del arnés, junto al modelo ArchiMate; {code3} lo lee): el catálogo, convertido una sola vez a partir del {code4} de vaxlink. Tiene 19 bloques, 10 de ellos vinculados a componentes de la superposición. El tipo, la jurisdicción y los componentes se hicieron corresponder a mano.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} (désormais dans {code1}, un répertoire déclarant le type {code2} du harnais, à côté du modèle ArchiMate ; {code3} le lit) : le catalogue, converti une seule fois à partir du {code4} de vaxlink. Il compte 19 blocs, dont 10 liés à des composants de la surcouche. Le type, la juridiction et les composants ont été mis en correspondance à la main.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} (теперь в {code1} — каталоге, объявляющем вид {code2} обвязки, рядом с моделью ArchiMate; его читает {code3}): каталог, однократно преобразованный из {code4} vaxlink. Он содержит 19 блоков, 10 из которых связаны с компонентами наложения. Вид, юрисдикция и компоненты сопоставлены вручную.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}（现位于 {code1}，一个声明工具框架 {code2} 类型的目录，与 ArchiMate 模型并列；由 {code3} 读取）：目录，由 vaxlink 的 {code4} 一次性转换而来。它包含 19 个构建块，其中 10 个链接到叠加图组件。类型、司法管辖区和组件均为手工映射。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Checks: the harness's {code0} resolves each {code1} to a block of a declared catalogue, and its kind validator checks the catalogue's shape; {code2} refuses a component that is not an element of the overlay and records each element's blocks as a property. ({code3}, which did this first, is retired.)",
+   "hash": "b5fa54220e3a760e",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمليات التحقق: يَحُلّ {code0} الخاص بالإطار (harness) كل {code1} إلى لبنة في فهرس مُعلَن، ويتحقق مُدقِّق النوع الخاص به من بنية الفهرس؛ ويرفض {code2} أي مكوِّن ليس عنصرًا في الطبقة، ويسجّل لبنات كل عنصر بوصفها خاصية. (وقد أُحيل {code3}، الذي كان يؤدي ذلك أولًا، إلى التقاعد.)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Comprobaciones: {code0} del arnés resuelve cada {code1} en un bloque de un catálogo declarado, y su validador de tipos comprueba la estructura del catálogo; {code2} rechaza un componente que no sea un elemento de la superposición y registra los bloques de cada elemento como una propiedad. ({code3}, que lo hacía antes, queda retirado.)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vérifications : {code0} du harnais résout chaque {code1} en un bloc d'un catalogue déclaré, et son validateur de type vérifie la forme du catalogue ; {code2} refuse un composant qui n'est pas un élément de la surcouche et consigne les blocs de chaque élément sous forme de propriété. ({code3}, qui le faisait auparavant, est retiré.)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проверки: {code0} обвязки сопоставляет каждый {code1} с блоком объявленного каталога, а его валидатор вида проверяет форму каталога; {code2} отклоняет компонент, не являющийся элементом наложения, и записывает блоки каждого элемента как свойство. ({code3}, который делал это первым, выведен из эксплуатации.)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "检查：工具框架的 {code0} 将每个 {code1} 解析为已声明目录中的一个构建块，其类型校验器检查目录的结构；{code2} 拒绝不属于叠加图元素的组件，并将每个元素的构建块记录为属性。（最先执行此项检查的 {code3} 已停用。）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} (OHS FHIR SDK), {code1} (the national FHIR server of Onesa), {code2} (IHE VHL), or {code3} (WHO GDHCN)",
+   "hash": "c94058a34d559a33",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} (OHS FHIR SDK)، أو {code1} (خادم FHIR الوطني في Onesa)، أو {code2} (IHE VHL)، أو {code3} (WHO GDHCN)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} (OHS FHIR SDK), {code1} (el servidor FHIR nacional de Onesa), {code2} (IHE VHL) o {code3} (GDHCN de la OMS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} (SDK FHIR d'OHS), {code1} (le serveur FHIR national du pays Onesa), {code2} (VHL d'IHE) ou {code3} (GDHCN de l'OMS)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} (OHS FHIR SDK), {code1} (национальный FHIR-сервер страны Onesa), {code2} (IHE VHL) или {code3} (GDHCN ВОЗ)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}（OHS FHIR SDK）、{code1}（Onesa 国家 FHIR 服务器）、{code2}（IHE VHL）或 {code3}（WHO GDHCN）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0}: 18 deployed components ({code1}), each a part of a system in Taifafeki or Onesa and a specialization of a DPI-H RA block.",
+   "hash": "fafe3cf108cc230f",
+   "sources": [
+    "docs/proposals/uses-building-block/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0}: 18 مكوِّناً منشوراً ({code1})، كلٌّ منها جزء من نظام في Taifafeki أو في Onesa وتخصيص للبنة في البنية المرجعية DPI-H RA.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0}: 18 componentes desplegados ({code1}), cada uno parte de un sistema de Taifafeki o de Onesa y especialización de un bloque de la RA DPI-H.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} : 18 composants déployés ({code1}), chacun faisant partie d'un système à Taifafeki ou à Onesa et constituant une spécialisation d'un bloc de la RA DPI-H.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0}: 18 развёрнутых компонентов ({code1}), каждый — часть системы в стране Taifafeki или Onesa и специализация блока DPI-H RA.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0}：18 个已部署组件（{code1}），每个都是某个 Taifafeki 或 Onesa 系统的部件，并且是某个 DPI-H RA 构建块的特化。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

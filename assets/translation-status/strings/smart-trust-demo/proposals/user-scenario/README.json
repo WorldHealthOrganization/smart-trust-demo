@@ -1,0 +1,1771 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "proposals/user-scenario/README",
+ "hashes": {
+  "ar": "9e59fcc43d195a3b",
+  "es": "8b0d5b316a3ad1a7",
+  "fr": "c4cb19df64baec54",
+  "ru": "f75317eed4e146fd",
+  "zh": "2f85a68fe637af35"
+ },
+ "strings": [
+  {
+   "msgid": "{code0} \"User scenarios\" is generated from them by {code1}, between its markers; {code2} fails in CI when it is stale.",
+   "hash": "1c4755dcca4e0050",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُولَّد {code0} «سيناريوهات المستخدم» منها بواسطة {code1}، بين علاماته؛ ويُخفق {code2} في CI عندما يكون قديمًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La sección \"User scenarios\" de {code0} se genera a partir de ellos mediante {code1}, entre sus marcadores; {code2} falla en la CI cuando está desactualizada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La section {code0} « User scenarios » en est générée par {code1}, entre ses marqueurs ; {code2} échoue en CI lorsqu'elle n'est pas à jour.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Раздел {code0} «User scenarios» генерируется из них с помощью {code1} между его маркерами; {code2} завершается ошибкой в CI, если раздел устарел.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 的“用户场景”部分由 {code1} 根据它们在其标记之间生成；当其过时时，{code2} 会在 CI 中失败。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} are actor ids",
+   "hash": "3f9390c5c24b910e",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "{code0} هي معرِّفات جهات فاعلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} son id de actores",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} sont des identifiants d'acteurs",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} — это идентификаторы акторов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 是行动者 id",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "{code0} chains J1 → J4 into one story",
+   "hash": "faa839d3a5dbea25",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يربط {code0} الرحلات من J1 إلى J4 في قصة واحدة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} encadena J1 → J4 en una sola historia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} enchaîne J1 → J4 en une seule histoire",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "{code0} связывает J1 → J4 в одну историю",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "{code0} 将 J1 → J4 串联成一个故事",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>{code0}</a0>: one scenario per journey, chained by {code1}: J1, J2 (J2a, J2b), J3 (J3a, J3b), J4.0 (J4.0a, J4.0b), J4.1, and the trust ladder as a code list. They were converted once from vaxlink's {code2} (the steps, experiences, pain points, enablers, policy points, record and what-ifs) and the prose of {code3} (narrative and preconditions; requirements and named examples are read from it). Stories and BPMN tasks were mapped by hand.",
+   "hash": "1807e1a0d0b431a6",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>{code0}</a0>: سيناريو واحد لكل رحلة، مترابطة بواسطة {code1}: J1، وJ2 (J2a، J2b)، وJ3 (J3a، J3b)، وJ4.0 (J4.0a، J4.0b)، وJ4.1، وسُلَّم الثقة بوصفه قائمة رموز. وقد حُوِّلت مرة واحدة من {code2} الخاص بـ vaxlink (الخطوات، والتجارب، ونقاط الألم، والعوامل المُمكِّنة، ونقاط السياسات، والسجل، والاحتمالات الافتراضية) ومن نص {code3} (السرد والشروط المسبقة؛ أما المتطلبات والأمثلة المسمّاة فتُقرأ منه). ورُبطت القصص ومهام BPMN يدويًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>{code0}</a0>: un escenario por recorrido, encadenados mediante {code1}: J1, J2 (J2a, J2b), J3 (J3a, J3b), J4.0 (J4.0a, J4.0b), J4.1, y la escala de confianza como lista de códigos. Se convirtieron una sola vez a partir del {code2} de vaxlink (los pasos, las experiencias, los puntos críticos, los facilitadores, los puntos de política, el registro y los \"¿y si…?\") y de la prosa de {code3} (narrativa y precondiciones; de ella se leen los requisitos y los ejemplos con nombre). Las historias y las tareas BPMN se hicieron corresponder a mano.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>{code0}</a0> : un scénario par parcours, enchaînés par {code1} : J1, J2 (J2a, J2b), J3 (J3a, J3b), J4.0 (J4.0a, J4.0b), J4.1, et l'échelle de confiance sous forme de liste de codes. Ils ont été convertis une seule fois à partir du {code2} de vaxlink (les étapes, les expériences, les points de friction, les facilitateurs, les points de politique, le dossier et les hypothèses « et si ») et de la prose de {code3} (récit et conditions préalables ; les exigences et les exemples nommés y sont lus). Les récits et les tâches BPMN ont été mis en correspondance manuellement.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>{code0}</a0>: по одному сценарию на путь, связанные через {code1}: J1, J2 (J2a, J2b), J3 (J3a, J3b), J4.0 (J4.0a, J4.0b), J4.1, а также лестница доверия как список кодов. Они были однократно преобразованы из {code2} vaxlink (шаги, переживания, болевые точки, факторы, способствующие решению, политические положения, запись и сценарии «что если») и текста {code3} (повествование и предусловия; требования и именованные примеры читаются оттуда). Истории и задачи BPMN были сопоставлены вручную.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0>：每段旅程一个场景，通过 {code1} 串联：J1、J2（J2a、J2b）、J3（J3a、J3b）、J4.0（J4.0a、J4.0b）、J4.1，以及作为代码列表的信任阶梯。它们是一次性地从 vaxlink 的 {code2}（步骤、体验、痛点、促成因素、政策要点、记录以及假设情形）和 {code3} 的文字（叙述和前提条件；需求和具名示例从中读取）转换而来的。故事与 BPMN 任务是手工映射的。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>{code0}</a0>: the shape, JSON Schema 2020-12, kind {code1}.",
+   "hash": "70f6055ee526cc9a",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>{code0}</a0>: البنية، JSON Schema 2020-12، النوع {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>{code0}</a0>: la estructura, JSON Schema 2020-12, tipo (kind) {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>{code0}</a0> : la forme, JSON Schema 2020-12, type {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>{code0}</a0>: форма, JSON Schema 2020-12, вид {code1}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>{code0}</a0>：结构，JSON Schema 2020-12，kind 为 {code1}。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a process file and task ids; one step may span processes",
+   "hash": "07d0709bbf552c75",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ملف عملية ومعرِّف كل مهمة؛ وقد تمتد خطوة واحدة عبر عدة عمليات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "un archivo de proceso e id de tareas; un paso puede abarcar varios procesos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "un fichier de processus et des identifiants de tâches ; une étape peut couvrir plusieurs processus",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "файл процесса и идентификаторы задач; один шаг может охватывать несколько процессов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一个流程文件和任务 id；一个步骤可以跨越多个流程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "as {code0} entries in litlfred/vaxlink's {code1};",
+   "hash": "dea641e5f9dcfbbc",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بوصفها مُدخلات {code0} في {code1} الخاص بـ litlfred/vaxlink؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "como entradas {code0} en el {code1} de litlfred/vaxlink;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "sous forme d'entrées {code0} dans le {code1} de litlfred/vaxlink ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "как записи {code0} в {code1} litlfred/vaxlink;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "作为 litlfred/vaxlink 的 {code1} 中的 {code0} 条目；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "as prose under \"User scenarios\" in <a0>{code0}</a0>;",
+   "hash": "421accf981c83b1e",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بوصفها نصًا تحت «سيناريوهات المستخدم» في <a0>{code0}</a0>؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "como prosa bajo \"User scenarios\" en <a0>{code0}</a0>;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "sous forme de prose sous « User scenarios » dans <a0>{code0}</a0> ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "как текст в разделе «User scenarios» в <a0>{code0}</a0>;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "作为 <a0>{code0}</a0> 中“用户场景”之下的文字；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "DAK {code0}",
+   "hash": "39c7f2f1a3d165a0",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "DAK {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "{code0} del DAK",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "{code0} du DAK",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "DAK {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DAK {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "e.g. STT-PAY-001",
+   "hash": "4b97da2d3c227e68",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مثل STT-PAY-001",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "p. ej., STT-PAY-001",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "p. ex. STT-PAY-001",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "например, STT-PAY-001",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "例如 STT-PAY-001",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "edge to {code0} nodes",
+   "hash": "1f452a98f2c2d007",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حافة إلى عُقد {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "arista hacia nodos {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "arête vers les nœuds {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ребро к узлам {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指向 {code0} 节点的边",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "edge to BPMN",
+   "hash": "03a56f522acb58a3",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حافة إلى BPMN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "arista hacia BPMN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "arête vers le BPMN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ребро к BPMN",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指向 BPMN 的边",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "edge to FHIR examples",
+   "hash": "e8c8da644584d1a9",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حافة إلى أمثلة FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "arista hacia ejemplos FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "arête vers les exemples FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ребро к примерам FHIR",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指向 FHIR 示例的边",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "edge to user stories",
+   "hash": "7412f4a75f9f5e18",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "حافة إلى قصص المستخدم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "arista hacia historias de usuario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "arête vers les récits utilisateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ребро к пользовательским историям",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指向用户故事的边",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Field",
+   "hash": "e39ee042a22db348",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحقل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Campo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Champ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Поле",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "字段",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Files",
+   "hash": "985097fbf24bc12d",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الملفات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Archivos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Fichiers",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Файлы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "文件",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "From",
+   "hash": "9a96b8f8709ae379",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Origen",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Origine",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Источник",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Granularity. Should a scenario be one journey or one whole story? Decided 2026-11-05 (owner): one per journey, chained by {code0}. A journey is a BPMN process, so J4.0 and J4.1 are two scenarios, though vaxlink tells them in one chapter.",
+   "hash": "648ff07e291e7b25",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "درجة التفصيل. هل ينبغي أن يكون السيناريو رحلة واحدة أم قصة كاملة واحدة؟ تقرّر في 2026-11-05 (المالك): سيناريو واحد لكل رحلة، مترابطة بواسطة {code0}. فالرحلة عملية BPMN، ولذا فإن J4.0 وJ4.1 سيناريوهان، وإن كانت vaxlink ترويهما في فصل واحد.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Granularidad. ¿Debería un escenario ser un recorrido o una historia completa? Decidido el 2026-11-05 (propietario): uno por recorrido, encadenados mediante {code0}. Un recorrido es un proceso BPMN, así que J4.0 y J4.1 son dos escenarios, aunque vaxlink los cuente en un solo capítulo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Granularité. Un scénario devrait-il correspondre à un parcours ou à une histoire entière ? Décidé le 2026-11-05 (propriétaire) : un par parcours, enchaînés par {code0}. Un parcours est un processus BPMN ; J4.0 et J4.1 sont donc deux scénarios, bien que vaxlink les raconte dans un seul chapitre.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Гранулярность. Должен ли сценарий соответствовать одному пути или целой истории? Решено 2026-11-05 (владелец): по одному на путь, связанные через {code0}. Путь — это процесс BPMN, поэтому J4.0 и J4.1 — два сценария, хотя vaxlink рассказывает о них в одной главе.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "粒度。一个场景应当是一段旅程，还是一个完整的故事？已于 2026-11-05 决定（所有者）：每段旅程一个，通过 {code0} 串联。一段旅程就是一个 BPMN 流程，因此 J4.0 和 J4.1 是两个场景，尽管 vaxlink 在一章中讲述它们。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2 was told in the opposite order to its BPMN. The walkthrough had Vilay register Somsak (J2a) before reading the cards (J2b), while {code0} reads first and then registers. Resolved 2026-11-05 (owner): vaxlink was reordered to match the BPMN. J2a now reads the cards ({code1}, {code2}, {code3}), and J2b registers, saves the doses as reported and refers ({code4}, {code5}, {code6}). {code7} and {code8} follow.",
+   "hash": "49e55cb3d667eb5b",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رُويت J2 بترتيب معاكس لترتيب BPMN الخاص بها. ففي الجولة الإرشادية كانت Vilay تسجّل Somsak (J2a) قبل قراءة البطاقات (J2b)، في حين أن {code0} يقرأ أولًا ثم يسجّل. حُسم في 2026-11-05 (المالك): أُعيد ترتيب vaxlink ليطابق BPMN. فأصبحت J2a تقرأ البطاقات ({code1}، {code2}، {code3})، وJ2b تسجّل، وتحفظ الجرعات كما أُبلغ عنها وتُحيل ({code4}، {code5}، {code6}). ويتبعهما {code7} و{code8}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2 se contaba en el orden inverso al de su BPMN. En el recorrido guiado, Vilay registraba a Somsak (J2a) antes de leer las tarjetas (J2b), mientras que {code0} primero lee y después registra. Resuelto el 2026-11-05 (propietario): se reordenó vaxlink para que coincida con el BPMN. Ahora J2a lee las tarjetas ({code1}, {code2}, {code3}) y J2b registra, guarda las dosis como notificadas y deriva ({code4}, {code5}, {code6}). {code7} y {code8} lo siguen.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2 était raconté dans l'ordre inverse de son BPMN. La présentation guidée faisait enregistrer Somsak par Vilay (J2a) avant la lecture des cartes (J2b), alors que {code0} lit d'abord, puis enregistre. Résolu le 2026-11-05 (propriétaire) : vaxlink a été réordonné pour correspondre au BPMN. J2a lit désormais les cartes ({code1}, {code2}, {code3}), et J2b enregistre, sauvegarde les doses comme déclarées et oriente ({code4}, {code5}, {code6}). {code7} et {code8} suivent.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2 был изложен в порядке, обратном его BPMN. В пошаговом обзоре Vilay регистрировала Somsak (J2a) до чтения карт (J2b), тогда как {code0} сначала читает, а затем регистрирует. Решено 2026-11-05 (владелец): порядок в vaxlink изменён в соответствии с BPMN. Теперь J2a читает карты ({code1}, {code2}, {code3}), а J2b регистрирует, сохраняет дозы как заявленные и направляет ({code4}, {code5}, {code6}). {code7} и {code8} следуют за ними.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2 的讲述顺序与其 BPMN 相反。演练中 Vilay 先为 Somsak 登记（J2a），再读取接种卡（J2b），而 {code0} 是先读取再登记。已于 2026-11-05 解决（所有者）：vaxlink 已重新排序以与 BPMN 一致。现在 J2a 读取接种卡（{code1}、{code2}、{code3}），J2b 进行登记、将剂次保存为“已报告”并转诊（{code4}、{code5}、{code6}）。{code7} 和 {code8} 随之调整。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0a has no BPMN task. Looking at the wallet is not a step of {code0}, so its {code1} is empty.",
+   "hash": "f4457c77107490dd",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا توجد مهمة BPMN لـ J4.0a. فالنظر إلى المحفظة ليس خطوة من خطوات {code0}، ولذا فإن {code1} الخاص بها فارغ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0a no tiene tarea BPMN. Mirar la billetera no es un paso de {code0}, así que su {code1} está vacío.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0a n'a pas de tâche BPMN. Consulter le portefeuille n'est pas une étape de {code0} ; son {code1} est donc vide.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "У J4.0a нет задачи BPMN. Просмотр кошелька не является шагом {code0}, поэтому его {code1} пуст.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0a 没有 BPMN 任务。查看钱包不是 {code0} 的一个步骤，因此其 {code1} 为空。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "journey map",
+   "hash": "d4d307652008e9c6",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خريطة الرحلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "mapa del recorrido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "carte de parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "карта пути",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程地图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Left out on purpose:",
+   "hash": "b1cb07cbe0bc498a",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما أُغفل عمدًا:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Excluido a propósito:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Délibérément omis :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Намеренно опущено:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "有意省略的内容：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "many to many: a story may span steps",
+   "hash": "d075f7027ea8ab8e",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "متعدد إلى متعدد: قد تمتد القصة عبر عدة خطوات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "de muchos a muchos: una historia puede abarcar varios pasos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "plusieurs à plusieurs : un récit peut couvrir plusieurs étapes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "многие ко многим: история может охватывать несколько шагов",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "多对多：一个故事可以跨越多个步骤",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Open questions",
+   "hash": "e1bb7af34a168cb2",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأسئلة المفتوحة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Preguntas abiertas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Questions ouvertes",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Открытые вопросы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "未决问题",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain points and enablers are worded twice. {code0} and vaxlink say the same thing in different words (and journeys.md says it once per journey, vaxlink once per step). The examples take vaxlink's wording, per step.",
+   "hash": "da2676bbf4aee508",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقاط الألم والعوامل المُمكِّنة مصاغة مرتين. فـ {code0} وvaxlink يقولان الشيء نفسه بكلمات مختلفة (وjourneys.md يقوله مرة لكل رحلة، وvaxlink مرة لكل خطوة). وتأخذ الأمثلة صياغة vaxlink، لكل خطوة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los puntos críticos y los facilitadores están redactados dos veces. {code0} y vaxlink dicen lo mismo con palabras distintas (y journeys.md lo dice una vez por recorrido, vaxlink una vez por paso). Los ejemplos adoptan la redacción de vaxlink, por paso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les points de friction et les facilitateurs sont formulés deux fois. {code0} et vaxlink disent la même chose en des termes différents (et journeys.md le dit une fois par parcours, vaxlink une fois par étape). Les exemples reprennent la formulation de vaxlink, étape par étape.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Болевые точки и способствующие факторы сформулированы дважды. {code0} и vaxlink говорят одно и то же разными словами (причём journeys.md говорит это один раз на путь, а vaxlink — один раз на шаг). В примерах используется формулировка vaxlink, по шагам.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点和促成因素被表述了两次。{code0} 和 vaxlink 用不同的措辞说同一件事（而且 journeys.md 每段旅程说一次，vaxlink 每个步骤说一次）。示例按步骤采用 vaxlink 的措辞。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "partly in the BPMN.",
+   "hash": "55540ac51981ead8",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جزئيًا في BPMN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "en parte, en el BPMN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "en partie dans le BPMN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "частично в BPMN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "部分在 BPMN 中。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "per actor: doing, feeling, emotion −2..2",
+   "hash": "b5f007591e758838",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لكل جهة فاعلة: ما تفعله، وما تشعر به، والانفعال −2..2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "por actor: qué hace, qué siente, emoción −2..2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "par acteur : action, ressenti, émotion −2..2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "по каждому актору: действия, ощущения, эмоция −2..2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "按行动者：行为、感受、情绪 −2..2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Presentation. A persona's colours, and a step's device screen (S1–S8), belong to vaxlink.",
+   "hash": "f83abb61f5e38113",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العرض. ألوان الشخصية الافتراضية، وشاشة الجهاز الخاصة بالخطوة (S1–S8)، تعود إلى vaxlink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Presentación. Los colores de una persona (perfil) y la pantalla del dispositivo de un paso (S1–S8) pertenecen a vaxlink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Présentation. Les couleurs d'une persona, et l'écran d'appareil d'une étape (S1–S8), relèvent de vaxlink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Представление. Цвета персоны и экран устройства на шаге (S1–S8) относятся к vaxlink.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "呈现。人物画像的颜色以及步骤的设备屏幕（S1–S8）属于 vaxlink。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Proposal: a {code0} kind",
+   "hash": "e0d9bc75327ced26",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقترح: نوع {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Propuesta: un tipo (kind) {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Proposition : un type {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предложение: вид {code0}",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提案：一种 {code0} kind",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Question: the journeys are written three times, and no moment links to a story:",
+   "hash": "084b1f48b406eab2",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سؤال: الرحلات مكتوبة ثلاث مرات، ولا توجد لحظة ترتبط بقصة:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Pregunta: los recorridos están escritos tres veces, y ningún momento enlaza con una historia:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Question : les parcours sont rédigés trois fois, et aucun moment ne renvoie à un récit :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вопрос: пути описаны трижды, и ни один момент не ссылается на историю:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "问题：这些旅程被书写了三次，而且没有任何时刻链接到故事：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "smart-base's logical model {code0} has {code1}, {code2}, {code3} and {code4}. A DAK user story is a {code5}: actor, I want ({code6}), so that ({code7}), which is the shape of {code8}. The kind keeps the DAK fields as they are, and adds the ordered steps the journey map is made of:",
+   "hash": "724e678f168baba8",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتضمن النموذج المنطقي {code0} في smart-base الحقول {code1} و{code2} و{code3} و{code4}. وقصة المستخدم في مجموعة أدوات التكيُّف الرقمي (DAK) هي {code5}: جهة فاعلة، أريد ({code6})، لكي ({code7})، وهي بنية {code8}. ويُبقي النوع حقول DAK كما هي، ويضيف الخطوات المرتّبة التي تتكوّن منها خريطة الرحلة:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El modelo lógico {code0} de smart-base tiene {code1}, {code2}, {code3} y {code4}. Una historia de usuario del DAK es un {code5}: actor, quiero ({code6}), para que ({code7}), que es la estructura de {code8}. El tipo conserva los campos del DAK tal como están y añade los pasos ordenados de los que se compone el mapa del recorrido:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le modèle logique {code0} de smart-base comporte {code1}, {code2}, {code3} et {code4}. Un récit utilisateur du DAK est un {code5} : acteur, je veux ({code6}), afin de ({code7}), ce qui est la forme de {code8}. Le type conserve les champs du DAK tels quels et ajoute les étapes ordonnées qui composent la carte de parcours :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Логическая модель smart-base {code0} содержит {code1}, {code2}, {code3} и {code4}. Пользовательская история DAK — это {code5}: актор, я хочу ({code6}), чтобы ({code7}), что и есть форма {code8}. Вид сохраняет поля DAK как есть и добавляет упорядоченные шаги, из которых состоит карта пути:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "smart-base 的逻辑模型 {code0} 具有 {code1}、{code2}、{code3} 和 {code4}。DAK 用户故事是一个 {code5}：参与者、我想要（{code6}）、以便（{code7}），这正是 {code8} 的结构。该 kind 保留 DAK 字段原样，并加入构成旅程地图的有序步骤：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Status: draft, 2026-11-05. Bean {code0}, gap 1. Proposed for cat-harness; drafted here, where the content is.",
+   "hash": "2362c0eee12a3f0f",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحالة: مسودة، 2026-11-05. Bean {code0}، الثغرة 1. مقترح لـ cat-harness؛ صيغت مسودته هنا، حيث يوجد المحتوى.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estado: borrador, 2026-11-05. Bean {code0}, carencia 1. Propuesto para cat-harness; redactado aquí, donde está el contenido.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Statut : projet, 2026-11-05. Bean {code0}, lacune 1. Proposé pour cat-harness ; rédigé ici, là où se trouve le contenu.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Статус: черновик, 2026-11-05. Bean {code0}, пробел 1. Предлагается для cat-harness; подготовлен здесь, где находится содержимое.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "状态：草稿，2026-11-05。Bean {code0}，缺口 1。提议纳入 cat-harness；在内容所在的此处起草。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Stories' kind. User stories already have one: cat-harness-tools {code0} ({code1}, {code2}, {code3}, {code4}, strict). The edge runs from the step to the story, so that kind needs no change. Its \"I want / so that\" fields overlap the bootstrap {code5} schema's {code6} and {code7}.",
+   "hash": "562700b32746414f",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نوع القصص. لقصص المستخدم نوع بالفعل: {code0} في cat-harness-tools ({code1}، {code2}، {code3}، {code4}، صارم). وتمتد الحافة من الخطوة إلى القصة، ولذا لا يحتاج ذلك النوع إلى أي تغيير. وتتداخل حقوله «أريد / لكي» مع {code6} و{code7} في مخطط {code5} التمهيدي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tipo de las historias. Las historias de usuario ya tienen uno: {code0} de cat-harness-tools ({code1}, {code2}, {code3}, {code4}, estricto). La arista va del paso a la historia, así que ese tipo no necesita cambios. Sus campos \"quiero / para que\" se solapan con {code6} y {code7} del esquema {code5} de arranque.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Type des récits. Les récits utilisateur en ont déjà un : {code0} de cat-harness-tools ({code1}, {code2}, {code3}, {code4}, strict). L'arête va de l'étape au récit ; ce type ne nécessite donc aucune modification. Ses champs « je veux / afin de » recoupent les champs {code6} et {code7} du schéma d'amorçage {code5}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вид историй. У пользовательских историй он уже есть: {code0} из cat-harness-tools ({code1}, {code2}, {code3}, {code4}, строгий). Ребро идёт от шага к истории, поэтому этот вид не требует изменений. Его поля «я хочу / чтобы» пересекаются с {code6} и {code7} базовой схемы {code5}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "故事的 kind。用户故事已经有一种：cat-harness-tools {code0}（{code1}、{code2}、{code3}、{code4}，strict）。边从步骤指向故事，因此该 kind 无需更改。其“我想要 / 以便”字段与 bootstrap {code5} schema 的 {code6} 和 {code7} 重叠。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The answer: the DAK user scenario, told as a journey map",
+   "hash": "d9284c5e3b6d6e45",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإجابة: سيناريو المستخدم في مجموعة أدوات التكيُّف الرقمي (DAK)، مرويًا بوصفه خريطة رحلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La respuesta: el escenario de usuario del DAK, contado como un mapa del recorrido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La réponse : le scénario utilisateur du DAK, raconté sous forme de carte de parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ответ: пользовательский сценарий DAK, изложенный как карта пути",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "答案：以旅程地图形式讲述的 DAK 用户场景",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the ordered states of the record",
+   "hash": "0390cd05e32c9c6d",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الحالات المرتّبة للسجل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los estados ordenados del registro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les états successifs du dossier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "упорядоченные состояния записи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录的有序状态",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the policy point the step makes",
+   "hash": "41238ff1574eeb54",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة السياسة التي تطرحها الخطوة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "el punto de política que plantea el paso",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "le point de politique que l'étape établit",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "политическое положение, которое формулирует шаг",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "该步骤提出的政策要点",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the prose the page is generated from; a precondition holds before the step and is not part of it",
+   "hash": "33bc95eed9fc75e8",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النص الذي تُولَّد منه الصفحة؛ والشرط المسبق يتحقق قبل الخطوة وليس جزءًا منها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la prosa a partir de la cual se genera la página; una precondición se cumple antes del paso y no forma parte de él",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la prose à partir de laquelle la page est générée ; une condition préalable est remplie avant l'étape et n'en fait pas partie",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "текст, из которого генерируется страница; предусловие выполняется до шага и не является его частью",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "页面据以生成的文字；前提条件在步骤之前成立，不属于步骤的一部分",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the story",
+   "hash": "82f09261f2ecdf95",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "القصة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la historia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "le récit",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "история",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "故事",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The technical layer. Which building block a step uses, in which role, is KG-01 gap 2.",
+   "hash": "b5521042212c8568",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الطبقة التقنية. أيّ لبنة بناء تستخدمها الخطوة، وبأي دور، هي الثغرة 2 في KG-01.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La capa técnica. Qué bloque básico usa un paso, y con qué rol, es la carencia 2 de KG-01.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La couche technique. Quel élément constitutif une étape utilise, et dans quel rôle, relève de la lacune 2 de KG-01.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Технический уровень. Какой стандартный блок использует шаг и в какой роли — это пробел 2 KG-01.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "技术层。一个步骤使用哪个构建模块、以何种角色使用，属于 KG-01 缺口 2。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The user stories stay role-level (caregiver, community health worker). A scenario's steps are persona-level (Khamla, Vilay). The {code0} edge is what joins the two.",
+   "hash": "fd3049a7d49530b6",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تبقى قصص المستخدم على مستوى الأدوار (مقدِّم الرعاية، عامل الصحة المجتمعي). أما خطوات السيناريو فهي على مستوى الشخصيات الافتراضية (Khamla، Vilay). والحافة {code0} هي ما يربط بين الاثنين.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las historias de usuario se mantienen en el nivel de rol (cuidador, agente comunitario de salud). Los pasos de un escenario están en el nivel de persona (perfil) (Khamla, Vilay). La arista {code0} es lo que une ambos niveles.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les récits utilisateur restent au niveau des rôles (aidant, agent de santé communautaire). Les étapes d'un scénario sont au niveau des personas (Khamla, Vilay). C'est l'arête {code0} qui relie les deux.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские истории остаются на уровне ролей (лицо, осуществляющее уход, общинный медицинский работник). Шаги сценария — на уровне персон (Khamla, Vilay). Их соединяет ребро {code0}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户故事保持在角色层面（照护者、社区卫生工作者）。场景的步骤在人物画像层面（Khamla、Vilay）。{code0} 边将两者连接起来。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The workshop layer. \"Ask the room\", the facilitator cue and the module questions are KG-01 gap 3. (The one-line policy point is kept, as {code0}, because {code1} states it under each step.) A workshop kind would point at step ids, so the scenario does not depend on any one workshop.",
+   "hash": "db6627d74bb25078",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طبقة ورشة العمل. «اسأل الحاضرين»، وإشارة المُيسِّر، وأسئلة الوحدة هي الثغرة 3 في KG-01. (وقد أُبقيت نقطة السياسة ذات السطر الواحد، بوصفها {code0}، لأن {code1} يذكرها تحت كل خطوة.) وسيشير نوع خاص بورشة العمل إلى معرِّفات الخطوات، بحيث لا يعتمد السيناريو على ورشة عمل بعينها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La capa del taller. \"Pregunte a la sala\", la indicación para el facilitador y las preguntas del módulo son la carencia 3 de KG-01. (Se conserva el punto de política de una línea, como {code0}, porque {code1} lo enuncia bajo cada paso.) Un tipo de taller apuntaría a id de pasos, de modo que el escenario no depende de ningún taller concreto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La couche atelier. « Interroger la salle », l'indication pour l'animateur et les questions des modules relèvent de la lacune 3 de KG-01. (Le point de politique d'une ligne est conservé, en tant que {code0}, car {code1} l'énonce sous chaque étape.) Un type atelier pointerait vers des identifiants d'étapes, de sorte que le scénario ne dépend d'aucun atelier en particulier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Уровень практического семинара. «Спросите аудиторию», подсказка ведущему и вопросы модулей — это пробел 3 KG-01. (Однострочное политическое положение сохранено как {code0}, поскольку {code1} формулирует его под каждым шагом.) Вид для практического семинара указывал бы на идентификаторы шагов, так что сценарий не зависит ни от одного конкретного семинара.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "工作坊层。“问问在场的人”、主持人提示和模块问题属于 KG-01 缺口 3。（一行的政策要点作为 {code0} 保留，因为 {code1} 在每个步骤下都陈述了它。）工作坊 kind 将指向步骤 id，这样场景就不依赖于任何一个工作坊。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What one node can they all come from?",
+   "hash": "367e7c63848a2ea8",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما العقدة الواحدة التي يمكن أن تنبثق منها جميعًا؟",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿De qué único nodo pueden proceder todos?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De quel nœud unique peuvent-ils tous provenir ?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Из какого одного узла могут происходить все они?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它们都能源自哪一个节点？",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "What the conversion found",
+   "hash": "7e78f6d35fa12ffd",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما كشف عنه التحويل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lo que reveló la conversión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ce que la conversion a révélé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что выявило преобразование",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "转换中发现的问题",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Where the prose lives. Decided 2026-11-05 (owner): generate it. Done. {code0} writes the section from each step's {code1}, {code2}, {code3}, {code4} and {code5}. A step's {code6} is its one-line policy point; the workshop's questions stay for a workshop kind (KG-01 gap 3). The pain point, enabler and policy lines are now one per step, in the walkthrough's words.",
+   "hash": "89db497cab0b478d",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مكان النص. تقرّر في 2026-11-05 (المالك): توليده. أُنجز. يكتب {code0} القسم من {code1} و{code2} و{code3} و{code4} و{code5} لكل خطوة. و{code6} الخاص بالخطوة هو نقطة سياستها ذات السطر الواحد؛ وتبقى أسئلة ورشة العمل لنوع خاص بورشة العمل (الثغرة 3 في KG-01). وأصبحت أسطر نقاط الألم والعوامل المُمكِّنة والسياسات الآن سطرًا واحدًا لكل خطوة، بكلمات الجولة الإرشادية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dónde reside la prosa. Decidido el 2026-11-05 (propietario): generarla. Hecho. {code0} escribe la sección a partir de {code1}, {code2}, {code3}, {code4} y {code5} de cada paso. El {code6} de un paso es su punto de política de una línea; las preguntas del taller quedan para un tipo de taller (carencia 3 de KG-01). Las líneas de punto crítico, facilitador y política son ahora una por paso, con las palabras del recorrido guiado.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Où se trouve la prose. Décidé le 2026-11-05 (propriétaire) : la générer. C'est fait. {code0} écrit la section à partir des {code1}, {code2}, {code3}, {code4} et {code5} de chaque étape. Le {code6} d'une étape est son point de politique d'une ligne ; les questions de l'atelier sont réservées à un type atelier (lacune 3 de KG-01). Les lignes de point de friction, de facilitateur et de politique sont désormais une par étape, dans les termes de la présentation guidée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Где находится текст. Решено 2026-11-05 (владелец): генерировать его. Выполнено. {code0} записывает раздел из {code1}, {code2}, {code3}, {code4} и {code5} каждого шага. {code6} шага — это его однострочное политическое положение; вопросы практического семинара остаются для вида практического семинара (пробел 3 KG-01). Строки о болевой точке, способствующем факторе и политике теперь даны по одной на шаг, словами пошагового обзора.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "文字存放在哪里。已于 2026-11-05 决定（所有者）：生成它。已完成。{code0} 根据每个步骤的 {code1}、{code2}、{code3}、{code4} 和 {code5} 写出该部分。步骤的 {code6} 是它的一行政策要点；工作坊的问题留给工作坊 kind（KG-01 缺口 3）。痛点、促成因素和政策条目现在每个步骤各一条，采用演练的措辞。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The shape and the references a schema cannot express (actors, stories, BPMN task ids, ladder codes, examples, {code0}, ArchiMate views) are checked by the harness's {code1} and {code2} in CI ({code3}, job bpmn-generated); {code4} refuses a {code5} chain that is not one chain. They replace {code6} (owner, 2026-11-06).",
+   "hash": "cd3fdd3450c5b12f",
+   "sources": [
+    "docs/proposals/user-scenario/README.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتحقق {code1} و{code2} الخاصان بالإطار (harness) في CI ({code3}، المهمة bpmn-generated) من البنية ومن المراجع التي لا يستطيع المخطط التعبير عنها (الجهات الفاعلة، والقصص، ومعرِّفات مهام BPMN، ورموز السُّلَّم، والأمثلة، و{code0}، وعروض ArchiMate)؛ ويرفض {code4} أي سلسلة {code5} ليست سلسلة واحدة. وهما يحلّان محل {code6} (المالك، 2026-11-06).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La estructura y las referencias que un esquema no puede expresar (actores, historias, id de tareas BPMN, códigos de la escala, ejemplos, {code0}, vistas ArchiMate) las comprueban {code1} y {code2} del arnés en la CI ({code3}, trabajo bpmn-generated); {code4} rechaza una cadena {code5} que no sea una sola cadena. Sustituyen a {code6} (propietario, 2026-11-06).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La forme et les références qu'un schéma ne peut pas exprimer (acteurs, récits, identifiants de tâches BPMN, codes d'échelle, exemples, {code0}, vues ArchiMate) sont vérifiées par {code1} et {code2} du harnais en CI ({code3}, tâche bpmn-generated) ; {code4} refuse une chaîne {code5} qui n'est pas une chaîne unique. Ils remplacent {code6} (propriétaire, 2026-11-06).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Форму и ссылки, которые схема не может выразить (акторы, истории, идентификаторы задач BPMN, коды лестницы, примеры, {code0}, представления ArchiMate), проверяют {code1} и {code2} обвязки в CI ({code3}, задание bpmn-generated); {code4} отклоняет цепочку {code5}, которая не является одной цепочкой. Они заменяют {code6} (решение владельца, 2026-11-06).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "结构以及 schema 无法表达的引用（行动者、故事、BPMN 任务 id、阶梯代码、示例、{code0}、ArchiMate 视图）由工具框架的 {code1} 和 {code2} 在 CI 中检查（{code3}，作业 bpmn-generated）；{code4} 拒绝并非单一链的 {code5} 链。它们取代了 {code6}（所有者，2026-11-06）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

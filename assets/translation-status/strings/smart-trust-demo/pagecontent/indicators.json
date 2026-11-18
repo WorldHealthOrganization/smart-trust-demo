@@ -1,0 +1,2590 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/indicators",
+ "hashes": {
+  "ar": "6b94a484d146ea80",
+  "es": "7c8846fc9155828d",
+  "fr": "52ba46730c0a80cb",
+  "ru": "394c1b2938b6b3ac",
+  "zh": "e00023ade2cdca15"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>STD-ACC-001</a0>",
+   "hash": "6ca6f34fdf2bec60",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-ACC-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SEM-001</a0>, <a1>STD-SCH-001</a1>",
+   "hash": "f64b4972bba8e0b8",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SEM-001</a0>، <a1>STD-SCH-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SEM-001</a0>, <a1>STD-SCH-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SEM-001</a0>, <a1>STD-SCH-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SEM-001</a0>, <a1>STD-SCH-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SEM-001</a0>，<a1>STD-SCH-001</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>",
+   "hash": "dbb2be75f9bb5164",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-001</a0>، <a1>STT-VER-006</a1>، <a2>STT-VER-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-006</a1>, <a2>STT-VER-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-001</a0>，<a1>STT-VER-006</a1>，<a2>STT-VER-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-011</a0>",
+   "hash": "b1a7721283696f0c",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.01</a0>",
+   "hash": "8ef6b32732364593",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.02</a0>, <a1>TD.DT.03</a1>",
+   "hash": "75b6c89a6a070c78",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.02</a0>، <a1>TD.DT.03</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.02</a0>, <a1>TD.DT.03</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.02</a0>, <a1>TD.DT.03</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.02</a0>, <a1>TD.DT.03</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.02</a0>，<a1>TD.DT.03</a1>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.DT.05</a0>",
+   "hash": "84e1c661232ea931",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.DT.05</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.DT.05</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.DT.05</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.DT.05</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.DT.05</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.IND.01 Foreign doses imported as verified</a0>",
+   "hash": "70377fef4f9458fa",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.IND.01 الجرعات الأجنبية المستوردة بوصفها مُتحقَّقًا منها</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.IND.01 Dosis extranjeras importadas como verificadas</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.IND.01 Doses étrangères importées comme vérifiées</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.IND.01 Иностранные дозы, импортированные как проверенные</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.IND.01 作为已验证剂次导入的外国剂次</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.IND.02 Shared-link openings that were authorised</a0>",
+   "hash": "c9c0d3c01a0b6f8d",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.IND.02 عمليات فتح الروابط المُشارَكة التي أُذن بها</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.IND.02 Aperturas de enlaces compartidos que fueron autorizadas</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.IND.02 Ouvertures de liens partagés autorisées</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.IND.02 Открытия общих ссылок, которые были разрешены</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.IND.02 经授权的共享链接打开次数</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.IND.03 CHW referrals for verification completed at the clinic</a0>",
+   "hash": "c7f3d1404783cb97",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.IND.03 إحالات عاملي الصحة المجتمعيين (CHW) للتحقق المُستكمَلة في العيادة</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.IND.03 Derivaciones de CHW para verificación completadas en la clínica</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.IND.03 Orientations CHW pour vérification menées à terme à la clinique</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.IND.03 Направления общинных медицинских работников (CHW) на проверку, завершённые в клинике</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.IND.03 在诊所完成的 CHW 验证转诊</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.IND.04 Imported doses carrying a national schedule code</a0>",
+   "hash": "f35fdeaf91034869",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.IND.04 الجرعات المستوردة التي تحمل رمزًا من جدول التطعيم الوطني</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.IND.04 Dosis importadas que llevan un código del calendario nacional</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.IND.04 Doses importées portant un code du calendrier national</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.IND.04 Импортированные дозы, имеющие код национального графика</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.IND.04 带有国家接种计划代码的导入剂次</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.J2B.DE02</a0> Referred by<a1>TD.J2B.DE03</a1> Referred to<a2>TD.J2B.DE04</a2> Referred at<a3>TD.J2B.DE06</a3> Doses to verify<a4>TD.J2B.DE07</a4> Referral status",
+   "hash": "2da4d05a2b710401",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.J2B.DE02</a0> المُحيل<a1>TD.J2B.DE03</a1> المُحال إليه<a2>TD.J2B.DE04</a2> وقت الإحالة<a3>TD.J2B.DE06</a3> الجرعات المطلوب التحقق منها<a4>TD.J2B.DE07</a4> حالة الإحالة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.J2B.DE02</a0> Derivado por<a1>TD.J2B.DE03</a1> Derivado a<a2>TD.J2B.DE04</a2> Derivado el<a3>TD.J2B.DE06</a3> Dosis por verificar<a4>TD.J2B.DE07</a4> Estado de la derivación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.J2B.DE02</a0> Orienté par<a1>TD.J2B.DE03</a1> Orienté vers<a2>TD.J2B.DE04</a2> Orienté le<a3>TD.J2B.DE06</a3> Doses à vérifier<a4>TD.J2B.DE07</a4> Statut de l’orientation",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.J2B.DE02</a0> Кем направлено<a1>TD.J2B.DE03</a1> Куда направлено<a2>TD.J2B.DE04</a2> Время направления<a3>TD.J2B.DE06</a3> Дозы для проверки<a4>TD.J2B.DE07</a4> Статус направления",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.J2B.DE02</a0> 转诊人<a1>TD.J2B.DE03</a1> 转诊至<a2>TD.J2B.DE04</a2> 转诊时间<a3>TD.J2B.DE06</a3> 待验证剂次<a4>TD.J2B.DE07</a4> 转诊状态",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.J3A.DE02</a0> Issuing country<a1>TD.J3A.DE03</a1> Verified at<a2>TD.J3A.DE05</a2> Verification result<a3>TD.J3A.DE07</a3> Failure reason<a4>TD.J3A.DE09</a4> Record outcome",
+   "hash": "f86206960c328795",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.J3A.DE02</a0> البلد المُصدِر<a1>TD.J3A.DE03</a1> وقت التحقق<a2>TD.J3A.DE05</a2> نتيجة التحقق<a3>TD.J3A.DE07</a3> سبب الإخفاق<a4>TD.J3A.DE09</a4> نتيجة السجل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.J3A.DE02</a0> País emisor<a1>TD.J3A.DE03</a1> Verificado el<a2>TD.J3A.DE05</a2> Resultado de la verificación<a3>TD.J3A.DE07</a3> Motivo del fallo<a4>TD.J3A.DE09</a4> Resultado en el registro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.J3A.DE02</a0> Pays émetteur<a1>TD.J3A.DE03</a1> Vérifié le<a2>TD.J3A.DE05</a2> Résultat de la vérification<a3>TD.J3A.DE07</a3> Motif de l’échec<a4>TD.J3A.DE09</a4> Résultat consigné",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.J3A.DE02</a0> Страна-эмитент<a1>TD.J3A.DE03</a1> Время проверки<a2>TD.J3A.DE05</a2> Результат проверки<a3>TD.J3A.DE07</a3> Причина сбоя<a4>TD.J3A.DE09</a4> Итог записи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.J3A.DE02</a0> 签发国家<a1>TD.J3A.DE03</a1> 验证时间<a2>TD.J3A.DE05</a2> 验证结果<a3>TD.J3A.DE07</a3> 失败原因<a4>TD.J3A.DE09</a4> 记录结果",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.J3B.DE01</a0> Issuer's product code<a1>TD.J3B.DE02</a1> National schedule code<a2>TD.J3B.DE03</a2> Mapping basis<a3>TD.J3B.DE05</a3> Counts toward the schedule",
+   "hash": "4e8f7a11497a3131",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.J3B.DE01</a0> رمز المنتج لدى الجهة المُصدِرة<a1>TD.J3B.DE02</a1> رمز جدول التطعيم الوطني<a2>TD.J3B.DE03</a2> أساس الربط<a3>TD.J3B.DE05</a3> تُحتسَب ضمن جدول التطعيم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.J3B.DE01</a0> Código de producto del emisor<a1>TD.J3B.DE02</a1> Código del calendario nacional<a2>TD.J3B.DE03</a2> Base de la correspondencia<a3>TD.J3B.DE05</a3> Cuenta para el calendario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.J3B.DE01</a0> Code produit de l’émetteur<a1>TD.J3B.DE02</a1> Code du calendrier national<a2>TD.J3B.DE03</a2> Base de la correspondance<a3>TD.J3B.DE05</a3> Compte pour le calendrier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.J3B.DE01</a0> Код продукта эмитента<a1>TD.J3B.DE02</a1> Код национального графика<a2>TD.J3B.DE03</a2> Основание сопоставления<a3>TD.J3B.DE05</a3> Засчитывается в график",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.J3B.DE01</a0> 签发方产品代码<a1>TD.J3B.DE02</a1> 国家接种计划代码<a2>TD.J3B.DE03</a2> 映射依据<a3>TD.J3B.DE05</a3> 计入接种计划",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TD.J41.DE01</a0> Requested at<a1>TD.J41.DE02</a1> Requester<a2>TD.J41.DE06</a2> Released<a3>TD.J41.DE08</a3> Refusal reason",
+   "hash": "69107f2f0fc1d680",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TD.J41.DE01</a0> وقت الطلب<a1>TD.J41.DE02</a1> الطالب<a2>TD.J41.DE06</a2> مُفرَج عنه<a3>TD.J41.DE08</a3> سبب الرفض",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TD.J41.DE01</a0> Solicitado el<a1>TD.J41.DE02</a1> Solicitante<a2>TD.J41.DE06</a2> Liberado<a3>TD.J41.DE08</a3> Motivo del rechazo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TD.J41.DE01</a0> Demandé le<a1>TD.J41.DE02</a1> Demandeur<a2>TD.J41.DE06</a2> Communiqué<a3>TD.J41.DE08</a3> Motif du refus",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TD.J41.DE01</a0> Время запроса<a1>TD.J41.DE02</a1> Запрашивающая сторона<a2>TD.J41.DE06</a2> Предоставлено<a3>TD.J41.DE08</a3> Причина отказа",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TD.J41.DE01</a0> 请求时间<a1>TD.J41.DE02</a1> 请求方<a2>TD.J41.DE06</a2> 已放行<a3>TD.J41.DE08</a3> 拒绝原因",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoIND01</a0>",
+   "hash": "86fe133e5cdf54bb",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoIND01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoIND01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoIND01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoIND01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoIND01</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoIND02</a0>",
+   "hash": "a159b38d9394306b",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoIND02</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoIND02</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoIND02</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoIND02</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoIND02</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoIND02</a0> (basis {code0})",
+   "hash": "4b94793a40295b50",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoIND02</a0> (الأساس {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoIND02</a0> (base {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoIND02</a0> (base {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoIND02</a0> (основа {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoIND02</a0>（依据 {code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoIND03</a0>",
+   "hash": "b16411f9608c5544",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoIND03</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoIND03</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoIND03</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoIND03</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoIND03</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoIND03</a0> (basis {code0})",
+   "hash": "c5f7d36265a375b5",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoIND03</a0> (الأساس {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoIND03</a0> (base {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoIND03</a0> (base {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoIND03</a0> (основа {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoIND03</a0>（依据 {code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoIND04</a0>",
+   "hash": "d33dc6f39db9ea9a",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoIND04</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoIND04</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoIND04</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoIND04</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoIND04</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>TrustDemoIND04</a0> (basis {code0})",
+   "hash": "1cc69f2335c35c68",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>TrustDemoIND04</a0> (الأساس {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>TrustDemoIND04</a0> (base {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>TrustDemoIND04</a0> (base {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>TrustDemoIND04</a0> (основа {code0})",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>TrustDemoIND04</a0>（依据 {code0}）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COUNT of access records (TD.J41) WHERE \"Requested at\" is in the reporting period",
+   "hash": "4a923619326fe50a",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "COUNT سجلات الوصول (TD.J41) WHERE «وقت الطلب» ضمن فترة الإبلاغ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "COUNT de registros de acceso (TD.J41) WHERE \"Solicitado el\" está en el período de notificación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COUNT d’enregistrements d’accès (TD.J41) WHERE « Demandé le » se situe dans la période de référence",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COUNT записей о доступе (TD.J41) WHERE «Время запроса» входит в отчётный период",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COUNT 访问记录（TD.J41）WHERE “请求时间”在报告期内",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COUNT of access records (TD.J41) WHERE \"Requested at\" is in the reporting period AND \"Released\" = true",
+   "hash": "e339523abbb78d32",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "COUNT سجلات الوصول (TD.J41) WHERE «وقت الطلب» ضمن فترة الإبلاغ AND «مُفرَج عنه» = true",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "COUNT de registros de acceso (TD.J41) WHERE \"Solicitado el\" está en el período de notificación AND \"Liberado\" = true",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COUNT d’enregistrements d’accès (TD.J41) WHERE « Demandé le » se situe dans la période de référence AND « Communiqué » = true",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COUNT записей о доступе (TD.J41) WHERE «Время запроса» входит в отчётный период AND «Предоставлено» = true",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COUNT 访问记录（TD.J41）WHERE “请求时间”在报告期内 AND “已放行” = true",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COUNT of imported doses (TD.J3B) WHERE imported in the reporting period AND \"Mapping basis\" != not-imported",
+   "hash": "1b1e9ea6cecf1cb9",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "COUNT الجرعات المستوردة (TD.J3B) WHERE استُوردت ضمن فترة الإبلاغ AND «أساس الربط» != not-imported",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "COUNT de dosis importadas (TD.J3B) WHERE importadas en el período de notificación AND \"Base de la correspondencia\" != not-imported",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COUNT de doses importées (TD.J3B) WHERE importée dans la période de référence AND « Base de la correspondance » != not-imported",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COUNT импортированных доз (TD.J3B) WHERE импортированы в отчётный период AND «Основание сопоставления» != not-imported",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COUNT 导入剂次（TD.J3B）WHERE 在报告期内导入 AND “映射依据” != not-imported",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COUNT of imported doses (TD.J3B) WHERE imported in the reporting period AND \"Mapping basis\" in (concept-map, clinician-confirmed)",
+   "hash": "3a0e6b9c402f907a",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "COUNT الجرعات المستوردة (TD.J3B) WHERE استُوردت ضمن فترة الإبلاغ AND «أساس الربط» in (concept-map, clinician-confirmed)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "COUNT de dosis importadas (TD.J3B) WHERE importadas en el período de notificación AND \"Base de la correspondencia\" in (concept-map, clinician-confirmed)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COUNT de doses importées (TD.J3B) WHERE importée dans la période de référence AND « Base de la correspondance » in (concept-map, clinician-confirmed)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COUNT импортированных доз (TD.J3B) WHERE импортированы в отчётный период AND «Основание сопоставления» in (concept-map, clinician-confirmed)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COUNT 导入剂次（TD.J3B）WHERE 在报告期内导入 AND “映射依据” in (concept-map, clinician-confirmed)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COUNT of referrals (TD.J2B) WHERE \"Referred at\" is in the reporting period",
+   "hash": "91898df3887a1cc0",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "COUNT الإحالات (TD.J2B) WHERE «وقت الإحالة» ضمن فترة الإبلاغ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "COUNT de derivaciones (TD.J2B) WHERE \"Derivado el\" está en el período de notificación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COUNT d’orientations (TD.J2B) WHERE « Orienté le » se situe dans la période de référence",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COUNT направлений (TD.J2B) WHERE «Время направления» входит в отчётный период",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COUNT 转诊（TD.J2B）WHERE “转诊时间”在报告期内",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COUNT of referrals (TD.J2B) WHERE \"Referred at\" is in the reporting period AND \"Referral status\" = completed",
+   "hash": "8749976192a8f624",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "COUNT الإحالات (TD.J2B) WHERE «وقت الإحالة» ضمن فترة الإبلاغ AND «حالة الإحالة» = completed",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "COUNT de derivaciones (TD.J2B) WHERE \"Derivado el\" está en el período de notificación AND \"Estado de la derivación\" = completed",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COUNT d’orientations (TD.J2B) WHERE « Orienté le » se situe dans la période de référence AND « Statut de l’orientation » = completed",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COUNT направлений (TD.J2B) WHERE «Время направления» входит в отчётный период AND «Статус направления» = completed",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COUNT 转诊（TD.J2B）WHERE “转诊时间”在报告期内 AND “转诊状态” = completed",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COUNT of verification records (TD.J3A) WHERE \"Verified at\" is in the reporting period",
+   "hash": "aa05b2c65583356a",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "COUNT سجلات التحقق (TD.J3A) WHERE «وقت التحقق» ضمن فترة الإبلاغ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "COUNT de registros de verificación (TD.J3A) WHERE \"Verificado el\" está en el período de notificación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COUNT d’enregistrements de vérification (TD.J3A) WHERE « Vérifié le » se situe dans la période de référence",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COUNT записей о проверке (TD.J3A) WHERE «Время проверки» входит в отчётный период",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COUNT 验证记录（TD.J3A）WHERE “验证时间”在报告期内",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "COUNT of verification records (TD.J3A) WHERE \"Verified at\" is in the reporting period AND \"Record outcome\" = verified",
+   "hash": "a4da579f6e801385",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "COUNT سجلات التحقق (TD.J3A) WHERE «وقت التحقق» ضمن فترة الإبلاغ AND «نتيجة السجل» = verified",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "COUNT de registros de verificación (TD.J3A) WHERE \"Verificado el\" está en el período de notificación AND \"Resultado en el registro\" = verified",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "COUNT d’enregistrements de vérification (TD.J3A) WHERE « Vérifié le » se situe dans la période de référence AND « Résultat consigné » = verified",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "COUNT записей о проверке (TD.J3A) WHERE «Время проверки» входит в отчётный период AND «Итог записи» = verified",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "COUNT 验证记录（TD.J3A）WHERE “验证时间”在报告期内 AND “记录结果” = verified",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Data elements",
+   "hash": "f2e33aae1b3f5501",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عناصر البيانات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Elementos de datos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Éléments de données",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Элементы данных",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "数据元素",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Decision tables",
+   "hash": "60fe96340b3cbf63",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "جداول القرار",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tablas de decisión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tables de décision",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Таблицы решений",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "决策表",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Definition",
+   "hash": "67b4e4559940b843",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التعريف",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Definición",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Définition",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Определение",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "定义",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Denominator",
+   "hash": "d86f440eae4f7398",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المقام",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Denominador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dénominateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Знаменатель",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "分母",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Denominator computation",
+   "hash": "9eae170ac1d86374",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طريقة حساب المقام",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cálculo del denominador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Calcul du dénominateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вычисление знаменателя",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "分母计算",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Disaggregations",
+   "hash": "b9c320083ac4bfd6",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "التصنيفات الفرعية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Desagregaciones",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ventilations",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Разбивки",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "分类汇总",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Doses imported as verified in the reporting period that carry a national schedule code.",
+   "hash": "62fca3eef97b67d5",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجرعات المستوردة بوصفها مُتحقَّقًا منها خلال فترة الإبلاغ والتي تحمل رمزًا من جدول التطعيم الوطني.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dosis importadas como verificadas en el período de notificación que llevan un código del calendario nacional.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Doses importées comme vérifiées au cours de la période de référence qui portent un code du calendrier national.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дозы, импортированные как проверенные в отчётный период и имеющие код национального графика.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "报告期内作为已验证剂次导入、且带有国家接种计划代码的剂次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Doses imported as verified in the reporting period.",
+   "hash": "18c941631215f894",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجرعات المستوردة بوصفها مُتحقَّقًا منها خلال فترة الإبلاغ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dosis importadas como verificadas en el período de notificación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Doses importées comme vérifiées au cours de la période de référence.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дозы, импортированные как проверенные в отчётный период.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "报告期内作为已验证剂次导入的剂次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Foreign DVCs scanned for verification in the reporting period whose dose was recorded as verified.",
+   "hash": "613cf46484d85b3b",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شهادات التطعيم الرقمية (DVCs) الأجنبية التي مُسحت للتحقق منها خلال فترة الإبلاغ وسُجِّلت جرعتها بوصفها مُتحقَّقًا منها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "DVC extranjeros escaneados para su verificación en el período de notificación cuya dosis se registró como verificada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DVC étrangers scannés pour vérification au cours de la période de référence dont la dose a été enregistrée comme vérifiée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Иностранные DVC, отсканированные для проверки в отчётный период, доза по которым записана как проверенная.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "报告期内为验证而扫描、且其剂次被记录为已验证的外国 DVC。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Foreign DVCs scanned for verification in the reporting period.",
+   "hash": "ad552b5d98487082",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شهادات التطعيم الرقمية (DVCs) الأجنبية التي مُسحت للتحقق منها خلال فترة الإبلاغ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "DVC extranjeros escaneados para su verificación en el período de notificación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "DVC étrangers scannés pour vérification au cours de la période de référence.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Иностранные DVC, отсканированные для проверки в отчётный период.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "报告期内为验证而扫描的外国 DVC。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Indicator",
+   "hash": "a1ece291d2a06684",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المؤشر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Indicador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Indicateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Индикатор",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "指标",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2, J3",
+   "hash": "635e7b70480ed19f",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2، J3",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2, J3",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2, J3",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2, J3",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2，J3",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journeys",
+   "hash": "54a8b57ab5b53971",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرحلات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorridos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские пути",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Manifest requests in the reporting period that were released.",
+   "hash": "822b769ad81e4e38",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طلبات البيان (manifest) خلال فترة الإبلاغ التي أُفرج عنها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Solicitudes de manifiesto en el período de notificación que fueron liberadas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Demandes de manifeste au cours de la période de référence qui ont été satisfaites.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запросы манифеста в отчётный период, которые были удовлетворены.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "报告期内获得放行的清单请求。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Manifest requests in the reporting period, released or refused.",
+   "hash": "0c1abbc62578f64b",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طلبات البيان (manifest) خلال فترة الإبلاغ، سواء أُفرج عنها أم رُفضت.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Solicitudes de manifiesto en el período de notificación, liberadas o rechazadas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Demandes de manifeste au cours de la période de référence, satisfaites ou refusées.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Запросы манифеста в отчётный период, удовлетворённые или отклонённые.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "报告期内的清单请求，无论放行或拒绝。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Mapping basis: concept-map, clinician-confirmed, unmapped (TD.DT.02)Issuer's product code: the product as signed",
+   "hash": "849a4d9aee78b955",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أساس الربط: concept-map، clinician-confirmed، unmapped (TD.DT.02)رمز المنتج لدى الجهة المُصدِرة: المنتج كما وُقِّع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Base de la correspondencia: concept-map, clinician-confirmed, unmapped (TD.DT.02)Código de producto del emisor: el producto tal como se firmó",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Base de la correspondance : concept-map, clinician-confirmed, unmapped (TD.DT.02)Code produit de l’émetteur : le produit tel que signé",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Основание сопоставления: concept-map, clinician-confirmed, unmapped (TD.DT.02)Код продукта эмитента: продукт в подписанном виде",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "映射依据：concept-map、clinician-confirmed、unmapped（TD.DT.02）签发方产品代码：签名时的产品",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Measure",
+   "hash": "f6bd176231a6b795",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المقياس",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Measure",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Mesure",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Мера",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "度量（Measure）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Numerator",
+   "hash": "a29a7282d04562ef",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البسط",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Numerador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Numérateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Числитель",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "分子",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Numerator computation",
+   "hash": "362204a4dac5ad52",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طريقة حساب البسط",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cálculo del numerador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Calcul du numérateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вычисление числителя",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "分子计算",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Of the foreign doses imported as verified, the proportion that carry a national schedule code beside the issuer's code, and so count toward the schedule.",
+   "hash": "c50b2fdcda5ef604",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من بين الجرعات الأجنبية المستوردة بوصفها مُتحقَّقًا منها، نسبة الجرعات التي تحمل رمزًا من جدول التطعيم الوطني إلى جانب رمز الجهة المُصدِرة، فتُحتسَب بذلك ضمن جدول التطعيم.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De las dosis extranjeras importadas como verificadas, la proporción que lleva un código del calendario nacional junto al código del emisor y que, por tanto, cuenta para el calendario.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parmi les doses étrangères importées comme vérifiées, la proportion qui porte un code du calendrier national à côté du code de l’émetteur, et qui compte donc pour le calendrier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доля иностранных доз, импортированных как проверенные, которые имеют код национального графика рядом с кодом эмитента и поэтому засчитываются в график.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在作为已验证剂次导入的外国剂次中，除签发方代码外还带有国家接种计划代码、因而计入接种计划的比例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Of the foreign DVCs a clinic scans to verify, the proportion whose dose is recorded as verified.",
+   "hash": "bc5da5c18805872e",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من بين شهادات التطعيم الرقمية (DVCs) الأجنبية التي تمسحها العيادة للتحقق منها، نسبة الشهادات التي تُسجَّل جرعتها بوصفها مُتحقَّقًا منها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De los DVC extranjeros que una clínica escanea para verificar, la proporción cuya dosis se registra como verificada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parmi les DVC étrangers qu’une clinique scanne pour vérification, la proportion dont la dose est enregistrée comme vérifiée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доля иностранных DVC, сканируемых клиникой для проверки, доза по которым записана как проверенная.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在诊所为验证而扫描的外国 DVC 中，其剂次被记录为已验证的比例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Of the referrals community health workers make for a child's foreign cards to be verified, the proportion completed at the clinic.",
+   "hash": "eab9d865a2fbb5c4",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من بين الإحالات التي يُجريها عاملو الصحة المجتمعيون للتحقق من البطاقات الأجنبية لطفل ما، نسبة الإحالات المُستكمَلة في العيادة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De las derivaciones que hacen los agentes comunitarios de salud para que se verifiquen las tarjetas extranjeras de un niño, la proporción completada en la clínica.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parmi les orientations que les agents de santé communautaires effectuent pour faire vérifier les cartes étrangères d’un enfant, la proportion menée à terme à la clinique.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доля направлений, выданных общинными медицинскими работниками для проверки иностранных карт ребёнка, которые завершены в клинике.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在社区卫生工作者为验证儿童外国接种卡而发起的转诊中，在诊所完成的比例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Of the requests to open a family member's shared link, the proportion the home country released.",
+   "hash": "99b1e3b4e6eff062",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من بين طلبات فتح الرابط المُشارَك لأحد أفراد الأسرة، النسبة التي أفرج عنها البلد الأم.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De las solicitudes para abrir el enlace compartido de un miembro de la familia, la proporción que el país de residencia liberó.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parmi les demandes d’ouverture du lien partagé d’un membre de la famille, la proportion que le pays de résidence a satisfaites.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Доля запросов на открытие общей ссылки члена семьи, которые удовлетворила страна проживания.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在打开某位家庭成员共享链接的请求中，本国予以放行的比例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Record outcome: verified, reported-unverified, rejected, not-read (TD.DT.01)Failure reason: the <a0>STT-VER-008</a0> reason, for DVCs that did not verifyIssuing country: the participant that signed the DVCFacility: the clinic that verified",
+   "hash": "c37d66fca6a5cc05",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نتيجة السجل: verified، reported-unverified، rejected، not-read (TD.DT.01)سبب الإخفاق: سبب <a0>STT-VER-008</a0>، للشهادات (DVCs) التي لم يُتحقَّق منهاالبلد المُصدِر: المشارك الذي وقّع الشهادة (DVC)المرفق: العيادة التي أجرت التحقق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Resultado en el registro: verified, reported-unverified, rejected, not-read (TD.DT.01)Motivo del fallo: el motivo de <a0>STT-VER-008</a0>, para los DVC que no se verificaronPaís emisor: el participante que firmó el DVCEstablecimiento: la clínica que verificó",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Résultat consigné : verified, reported-unverified, rejected, not-read (TD.DT.01)Motif de l’échec : le motif <a0>STT-VER-008</a0>, pour les DVC non vérifiésPays émetteur : le participant qui a signé le DVCÉtablissement : la clinique qui a effectué la vérification",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Итог записи: verified, reported-unverified, rejected, not-read (TD.DT.01)Причина сбоя: причина по <a0>STT-VER-008</a0> для DVC, не прошедших проверкуСтрана-эмитент: участник, подписавший DVCУчреждение: клиника, выполнившая проверку",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录结果：verified、reported-unverified、rejected、not-read（TD.DT.01）失败原因：<a0>STT-VER-008</a0> 规定的原因，针对未通过验证的 DVC签发国家：签署该 DVC 的参与方机构：进行验证的诊所",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Referrals for verification made by community health workers in the reporting period.",
+   "hash": "d01ea0b407ce65ae",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإحالات للتحقق التي أجراها عاملو الصحة المجتمعيون خلال فترة الإبلاغ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Derivaciones para verificación hechas por agentes comunitarios de salud en el período de notificación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Orientations pour vérification effectuées par les agents de santé communautaires au cours de la période de référence.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Направления на проверку, выданные общинными медицинскими работниками в отчётный период.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "报告期内社区卫生工作者发起的验证转诊。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Referrals made in the reporting period for which the clinic has recorded an outcome for every dose the referral lists.",
+   "hash": "1d59cfd72befc4ec",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإحالات التي أُجريت خلال فترة الإبلاغ وسجّلت العيادة نتيجةً لكل جرعة تُدرجها الإحالة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Derivaciones hechas en el período de notificación para las que la clínica ha registrado un resultado para cada dosis que enumera la derivación.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Orientations effectuées au cours de la période de référence pour lesquelles la clinique a enregistré un résultat pour chaque dose que l’orientation énumère.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Направления, выданные в отчётный период, по которым клиника записала итог для каждой дозы, указанной в направлении.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "报告期内发起、且诊所已为转诊所列每一剂次记录了结果的转诊。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Referred to: the clinic referred toReferred by: the community health worker",
+   "hash": "a7414e0501c4eaa2",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المُحال إليه: العيادة التي أُحيل إليهاالمُحيل: عامل الصحة المجتمعي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Derivado a: la clínica a la que se derivóDerivado por: el agente comunitario de salud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Orienté vers : la clinique vers laquelle l’enfant est orientéOrienté par : l’agent de santé communautaire",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Куда направлено: клиника, в которую направлен ребёнокКем направлено: общинный медицинский работник",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "转诊至：被转诊的诊所转诊人：社区卫生工作者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Refusal reason: wrong-passcode, expired, withdrawn (TD.DT.05)Requesting system: the receiver abroad, and its country",
+   "hash": "4d5df70a9f5e8a7e",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سبب الرفض: wrong-passcode، expired، withdrawn (TD.DT.05)النظام الطالب: الجهة المُستقبِلة في الخارج، وبلدها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Motivo del rechazo: wrong-passcode, expired, withdrawn (TD.DT.05)Sistema solicitante: el receptor en el extranjero y su país",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Motif du refus : wrong-passcode, expired, withdrawn (TD.DT.05)Système demandeur : le destinataire à l’étranger, et son pays",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Причина отказа: wrong-passcode, expired, withdrawn (TD.DT.05)Запрашивающая система: получатель за рубежом и его страна",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "拒绝原因：wrong-passcode、expired、withdrawn（TD.DT.05）请求系统：国外的接收方及其所在国家",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements",
+   "hash": "583db49c6c8af0dd",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.IND.01 Foreign doses imported as verified",
+   "hash": "827368cf22109d2c",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.IND.01 الجرعات الأجنبية المستوردة بوصفها مُتحقَّقًا منها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.IND.01 Dosis extranjeras importadas como verificadas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.IND.01 Doses étrangères importées comme vérifiées",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.IND.01 Иностранные дозы, импортированные как проверенные",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.IND.01 作为已验证剂次导入的外国剂次",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.IND.02 Shared-link openings that were authorised",
+   "hash": "1d36c7f969dfffd4",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.IND.02 عمليات فتح الروابط المُشارَكة التي أُذن بها",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.IND.02 Aperturas de enlaces compartidos que fueron autorizadas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.IND.02 Ouvertures de liens partagés autorisées",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.IND.02 Открытия общих ссылок, которые были разрешены",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.IND.02 经授权的共享链接打开次数",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.IND.03 CHW referrals for verification completed at the clinic",
+   "hash": "76452183b2d53ec5",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.IND.03 إحالات عاملي الصحة المجتمعيين (CHW) للتحقق المُستكمَلة في العيادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.IND.03 Derivaciones de CHW para verificación completadas en la clínica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.IND.03 Orientations CHW pour vérification menées à terme à la clinique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.IND.03 Направления общинных медицинских работников (CHW) на проверку, завершённые в клинике",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.IND.03 在诊所完成的 CHW 验证转诊",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "TD.IND.04 Imported doses carrying a national schedule code",
+   "hash": "c68d05b10bce0970",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "TD.IND.04 الجرعات المستوردة التي تحمل رمزًا من جدول التطعيم الوطني",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "TD.IND.04 Dosis importadas que llevan un código del calendario nacional",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "TD.IND.04 Doses importées portant un code du calendrier national",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "TD.IND.04 Импортированные дозы, имеющие код национального графика",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "TD.IND.04 带有国家接种计划代码的导入剂次",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The indicators are the DAK's component 7: what a programme would count from the data the journeys record, as the <a0>WHO SMART Guidelines DAK</a0> defines them. Each gives its numerator and denominator in words and as a computation over the <a1>data elements</a1>, and the disaggregations it is reported by. Each is also a FHIR {code0} (proportion scoring) whose populations are described, not computable: this guide carries no CQL.",
+   "hash": "61f97fa993450c64",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المؤشرات هي المكوِّن 7 من مجموعة أدوات التكيُّف الرقمي (DAK): ما يُحصيه البرنامج من البيانات التي تسجّلها الرحلات، على النحو الذي تعرّفها به <a0>مجموعة أدوات التكيُّف الرقمي (DAK) في إرشادات SMART لمنظمة الصحة العالمية (WHO)</a0>. ويقدّم كل مؤشر بسطه ومقامه بالكلمات، وفي صورة حساب على <a1>عناصر البيانات</a1>، والتصنيفات الفرعية التي يُبلَّغ عنه وفقها. وكل مؤشر هو أيضًا {code0} في FHIR (تسجيل بالنسبة) تُوصف فئاته السكانية وصفًا ولا تُحسب آليًا: لا يتضمن هذا الدليل أي CQL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los indicadores son el componente 7 del DAK: lo que un programa contaría a partir de los datos que registran los recorridos, tal como los define el <a0>DAK de las SMART Guidelines de la OMS</a0>. Cada uno da su numerador y su denominador en palabras y como un cálculo sobre los <a1>elementos de datos</a1>, así como las desagregaciones por las que se notifica. Cada uno es también un {code0} de FHIR (puntuación de proporción) cuyas poblaciones se describen, pero no son computables: esta guía no incluye CQL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les indicateurs constituent la composante 7 du DAK : ce qu’un programme compterait à partir des données enregistrées au cours des parcours, tels que les définit le <a0>DAK des lignes directrices SMART de l’OMS</a0>. Chacun donne son numérateur et son dénominateur en toutes lettres et sous forme de calcul portant sur les <a1>éléments de données</a1>, ainsi que les ventilations selon lesquelles il est rapporté. Chacun est également une ressource FHIR {code0} (score de proportion) dont les populations sont décrites, et non calculables : ce guide ne contient pas de CQL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Индикаторы — это компонент 7 DAK: то, что программа подсчитывала бы по данным, записываемым в пользовательских путях, как их определяет <a0>DAK руководящих принципов SMART ВОЗ (WHO SMART Guidelines)</a0>. Для каждого индикатора приводятся числитель и знаменатель словами и в виде вычисления над <a1>элементами данных</a1>, а также разбивки, по которым он представляется в отчётности. Каждый индикатор также является {code0} FHIR (с оценкой в виде доли), чьи совокупности описаны, но не вычислимы: это руководство не содержит CQL.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这些指标是 DAK 的第 7 个组成部分：按照 <a0>WHO SMART 指南 DAK</a0> 的定义，一个项目可以从旅程所记录的数据中统计什么。每个指标都以文字形式并以基于<a1>数据元素</a1>的计算形式给出其分子和分母，以及报告时所用的分类汇总。每个指标同时也是一个 FHIR {code0}（比例评分），其人群是描述性的，而非可计算的：本指南不包含 CQL。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The source is {code0}; this page and the Measures are generated from it.",
+   "hash": "65e7566bde83b42a",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المصدر هو {code0}؛ ومنه تُولَّد هذه الصفحة والمقاييس.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La fuente es {code0}; esta página y los recursos Measure se generan a partir de ella.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La source est {code0} ; cette page et les ressources Measure sont générées à partir de celle-ci.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Источник — {code0}; эта страница и ресурсы Measure генерируются из него.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "来源是 {code0}；本页及各 Measure 均由其生成。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "These are definitions only. They state no target, no threshold and no value: the journeys are a demonstration with fictional people, and nothing here has been measured.",
+   "hash": "406baf4ef01c9ffe",
+   "sources": [
+    "input/pagecontent/indicators.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هذه تعريفات فحسب. فهي لا تحدد أي هدف ولا أي عتبة ولا أي قيمة: فالرحلات عرض توضيحي بأشخاص خياليين، ولم يُقَس أي شيء هنا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Estas son solo definiciones. No establecen ninguna meta, ningún umbral ni ningún valor: los recorridos son una demostración con personas ficticias y nada de lo que aquí figura se ha medido.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il s’agit uniquement de définitions. Elles n’énoncent aucune cible, aucun seuil et aucune valeur : les parcours sont une démonstration avec des personnes fictives, et rien ici n’a été mesuré.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Это только определения. В них не указаны ни целевое значение, ни порог, ни значение: пользовательские пути являются демонстрацией с вымышленными людьми, и ничего здесь не измерялось.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这些仅为定义。它们不规定任何目标、阈值或数值：这些旅程是使用虚构人物的演示，此处没有任何内容经过实际测量。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

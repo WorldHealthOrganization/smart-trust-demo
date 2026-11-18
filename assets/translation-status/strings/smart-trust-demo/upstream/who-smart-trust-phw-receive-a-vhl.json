@@ -1,0 +1,289 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "upstream/who-smart-trust-phw-receive-a-vhl",
+ "hashes": {
+  "ar": "d6599a3115901409",
+  "es": "9d565bc106e0588a",
+  "fr": "bca21b2872b58783",
+  "ru": "f0a2b5cb189d5cc3",
+  "zh": "d8d5b9a0ab0225ad"
+ },
+ "strings": [
+  {
+   "msgid": "Filed as <a0>smart-trust-phw#18</a0>; fix offered as <a1>smart-trust-phw#19</a1>.",
+   "hash": "53d09dde15f10a6c",
+   "sources": [
+    "docs/upstream/who-smart-trust-phw-receive-a-vhl.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سُجِّلت بوصفها <a0>smart-trust-phw#18</a0>؛ واقتُرح الإصلاح في <a1>smart-trust-phw#19</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registrado como <a0>smart-trust-phw#18</a0>; corrección propuesta en <a1>smart-trust-phw#19</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Signalé sous <a0>smart-trust-phw#18</a0> ; correctif proposé sous <a1>smart-trust-phw#19</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зарегистрировано как <a0>smart-trust-phw#18</a0>; исправление предложено в <a1>smart-trust-phw#19</a1>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已提交为 <a0>smart-trust-phw#18</a0>；修复已作为 <a1>smart-trust-phw#19</a1> 提出。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Found while mapping the user journeys of litlfred/smart-trust-demo (a CHW app, a clinic EHR and a hospital system abroad each receive a VDHC or VHL from the Holder) to the guide's actors.",
+   "hash": "d7ebb1c52c376c78",
+   "sources": [
+    "docs/upstream/who-smart-trust-phw-receive-a-vhl.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "اكتُشفت أثناء ربط رحلات المستخدم في litlfred/smart-trust-demo (يتلقى كلٌّ من تطبيق عامل الصحة المجتمعي (CHW) والسجل الصحي الإلكتروني (EHR) للعيادة ونظام مستشفى في الخارج شهادة VDHC أو رابط VHL من الحامل) بالجهات الفاعلة في الدليل.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Detectado al asignar los recorridos de usuario de litlfred/smart-trust-demo (una aplicación de agente comunitario de salud (CHW), una historia clínica electrónica (EHR) de una clínica y un sistema hospitalario en el extranjero reciben cada uno un VDHC o un VHL del titular) a los actores de la guía.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Constaté lors de la mise en correspondance des parcours utilisateur de litlfred/smart-trust-demo (une application CHW, un DSE de clinique et un système hospitalier à l'étranger reçoivent chacun un VDHC ou un VHL du titulaire) avec les acteurs du guide.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Обнаружено при сопоставлении пользовательских путей litlfred/smart-trust-demo (приложение CHW, EHR клиники и больничная система за рубежом получают VDHC или VHL от владельца (Holder)) с акторами руководства.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在将 litlfred/smart-trust-demo 的用户旅程（CHW 应用、诊所 EHR 和境外医院系统各自从持有人处接收 VDHC 或 VHL）映射到该指南的参与者时发现。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "In {code0}, the Requirements instance {code1} (\"Receive VHL or VDHC\") reads:",
+   "hash": "ad690c919a940b80",
+   "sources": [
+    "docs/upstream/who-smart-trust-phw-receive-a-vhl.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في {code0}، ينص مثيل المتطلبات {code1} («Receive VHL or VDHC» — استلام VHL أو VDHC) على ما يلي:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En {code0}, la instancia de Requirements {code1} (\"Receive VHL or VDHC\") dice:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans {code0}, l'instance Requirements {code1} (« Receive VHL or VDHC ») indique :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В {code0} экземпляр Requirements {code1} («Receive VHL or VDHC» — «Получение VHL или VDHC») гласит:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 {code0} 中，Requirements 实例 {code1}（“Receive VHL or VDHC”）的内容为：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Issue for WorldHealthOrganization/smart-trust-phw",
+   "hash": "71c7a7980991cf37",
+   "sources": [
+    "docs/upstream/who-smart-trust-phw-receive-a-vhl.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسألة لـ WorldHealthOrganization/smart-trust-phw",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Incidencia para WorldHealthOrganization/smart-trust-phw",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Issue pour WorldHealthOrganization/smart-trust-phw",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Issue для WorldHealthOrganization/smart-trust-phw",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "提交给 WorldHealthOrganization/smart-trust-phw 的问题",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The capability described, receiving a VHL or VDHC from a Holder, is the Receiver's ({code0}: \"Receiver (system) of Verifiable Health Certificate or Verifiable Health Link\"). Its counterpart {code1} names the Holder. Proposed fix:",
+   "hash": "f538e9866b905b3e",
+   "sources": [
+    "docs/upstream/who-smart-trust-phw-receive-a-vhl.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "القدرة الموصوفة، أي استلام VHL أو VDHC من الحامل، هي قدرة الجهة المُستقبِلة ({code0}: «الجهة المُستقبِلة (نظام) للشهادة الصحية القابلة للتحقق أو للرابط الصحي القابل للتحقق»). أما نظيرها {code1} فيسمّي الحامل. الإصلاح المقترح:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La capacidad descrita, recibir un VHL o un VDHC de un titular, corresponde al receptor ({code0}: \"Receiver (system) of Verifiable Health Certificate or Verifiable Health Link\"). Su contraparte {code1} nombra al titular. Corrección propuesta:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La capacité décrite, recevoir un VHL ou un VDHC d'un titulaire, relève du destinataire ({code0} : « Receiver (system) of Verifiable Health Certificate or Verifiable Health Link »). Son pendant {code1} désigne le titulaire. Correctif proposé :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Описанная возможность — получение VHL или VDHC от владельца (Holder) — принадлежит получателю (Receiver) ({code0}: «Receiver (system) of Verifiable Health Certificate or Verifiable Health Link» — «Получатель (система) проверяемого медицинского сертификата или проверяемой ссылки на медицинские данные»). Парное ему требование {code1} указывает владельца (Holder). Предлагаемое исправление:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所描述的能力，即从持有人处接收 VHL 或 VDHC，属于接收方（{code0}：“Receiver (system) of Verifiable Health Certificate or Verifiable Health Link”）。与之对应的 {code1} 指明的是持有人。建议的修复：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The same change is applied in litlfred/smart-trust-phw (https://github.com/litlfred/smart-trust-phw/pull/1) and can be offered as a pull request here.",
+   "hash": "07054aa1d66ae0a0",
+   "sources": [
+    "docs/upstream/who-smart-trust-phw-receive-a-vhl.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طُبِّق التغيير نفسه في litlfred/smart-trust-phw (https://github.com/litlfred/smart-trust-phw/pull/1) ويمكن تقديمه هنا بوصفه طلب سحب (pull request).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El mismo cambio se aplica en litlfred/smart-trust-phw (https://github.com/litlfred/smart-trust-phw/pull/1) y puede proponerse aquí como pull request (PR).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La même modification est appliquée dans litlfred/smart-trust-phw (https://github.com/litlfred/smart-trust-phw/pull/1) et peut être proposée ici sous forme de pull request.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "То же изменение внесено в litlfred/smart-trust-phw (https://github.com/litlfred/smart-trust-phw/pull/1) и может быть предложено здесь в виде pull request.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同样的更改已应用于 litlfred/smart-trust-phw（https://github.com/litlfred/smart-trust-phw/pull/1），并可作为拉取请求在此提出。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Title: Requirement {code0} names the Issuer as its actor; it should be the Receiver",
+   "hash": "95dd3bd9a6125495",
+   "sources": [
+    "docs/upstream/who-smart-trust-phw-receive-a-vhl.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العنوان: المتطلب {code0} يسمّي الجهة المُصدِرة بوصفها الجهة الفاعلة فيه؛ وينبغي أن تكون الجهة المُستقبِلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Título: el requisito {code0} nombra al emisor como su actor; debería ser el receptor",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Titre : l'exigence {code0} désigne l'émetteur comme acteur ; ce devrait être le destinataire",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Заголовок: в требовании {code0} в качестве актора указан эмитент (Issuer); вместо него следует указать получателя (Receiver)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "标题：需求 {code0} 将签发方（Issuer）列为其参与者；应当为接收方（Receiver）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

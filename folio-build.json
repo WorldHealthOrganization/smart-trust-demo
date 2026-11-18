@@ -2,16 +2,16 @@
   "$schema": "folio-site-build/v1",
   "instance": "smart-trust-demo",
   "platform": {
-    "commit": "7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d"
+    "commit": "976c22c4ac82416fcbb533586ce396910998e31c"
   },
   "source": {
     "repo": "WorldHealthOrganization/smart-trust-demo",
     "ref": "main",
-    "commit": "92d4ab409c7e6c1af09b34e547e544098b0a62eb"
+    "commit": "7033686b5cc16f243a876648b6b7e5b53ddac347"
   },
-  "builtAt": "2026-11-18T12:58:44.173Z",
+  "builtAt": "2026-11-18T15:46:04.351Z",
   "ast": {
-    "commit": "92d4ab409c7e6c1af09b34e547e544098b0a62eb",
+    "commit": "7033686b5cc16f243a876648b6b7e5b53ddac347",
     "verdict": "valid",
     "kind": "full"
   }

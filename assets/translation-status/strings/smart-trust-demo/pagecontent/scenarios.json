@@ -1,0 +1,3994 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/scenarios",
+ "hashes": {
+  "ar": "7263faea4d50d8f8",
+  "es": "28eebe40ee28f007",
+  "fr": "c8910fc5f0a1101c",
+  "ru": "310ed39bcd9e8de4",
+  "zh": "d4e7c7efa7282e7a"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-001</a1>, <a2>STT-VHL-002</a2>, <a3>STT-VHL-004</a3>, <a4>STT-VHL-007</a4>",
+   "hash": "3014214ad8ceafc5",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-ACC-001</a0>، <a1>STT-VHL-001</a1>، <a2>STT-VHL-002</a2>، <a3>STT-VHL-004</a3>، <a4>STT-VHL-007</a4>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-001</a1>, <a2>STT-VHL-002</a2>, <a3>STT-VHL-004</a3>, <a4>STT-VHL-007</a4>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-001</a1>, <a2>STT-VHL-002</a2>, <a3>STT-VHL-004</a3>, <a4>STT-VHL-007</a4>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-001</a1>, <a2>STT-VHL-002</a2>, <a3>STT-VHL-004</a3>, <a4>STT-VHL-007</a4>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-001</a1>, <a2>STT-VHL-002</a2>, <a3>STT-VHL-004</a3>, <a4>STT-VHL-007</a4>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-009</a1>, <a2>STT-VHL-008</a2>",
+   "hash": "e5bb8c97f713184d",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-ACC-001</a0>، <a1>STT-VHL-009</a1>، <a2>STT-VHL-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-009</a1>, <a2>STT-VHL-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-009</a1>, <a2>STT-VHL-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-009</a1>, <a2>STT-VHL-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-ACC-001</a0>, <a1>STT-VHL-009</a1>, <a2>STT-VHL-008</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SCH-001</a0>",
+   "hash": "45896d916a8cbc32",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SCH-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STD-SEM-001</a0>",
+   "hash": "aa8e0e34c4438200",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STD-SEM-001</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-PAY-001</a0>, <a1>STT-PAY-003</a1>, <a2>STT-ISS-004</a2>, <a3>STT-COS-001</a3>, <a4>STT-HC1-001</a4>, <a5>STT-QR-001</a5>",
+   "hash": "4fa675b0c8b364ad",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-PAY-001</a0>، <a1>STT-PAY-003</a1>، <a2>STT-ISS-004</a2>، <a3>STT-COS-001</a3>، <a4>STT-HC1-001</a4>، <a5>STT-QR-001</a5>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-PAY-001</a0>, <a1>STT-PAY-003</a1>, <a2>STT-ISS-004</a2>, <a3>STT-COS-001</a3>, <a4>STT-HC1-001</a4>, <a5>STT-QR-001</a5>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-PAY-001</a0>, <a1>STT-PAY-003</a1>, <a2>STT-ISS-004</a2>, <a3>STT-COS-001</a3>, <a4>STT-HC1-001</a4>, <a5>STT-QR-001</a5>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-PAY-001</a0>, <a1>STT-PAY-003</a1>, <a2>STT-ISS-004</a2>, <a3>STT-COS-001</a3>, <a4>STT-HC1-001</a4>, <a5>STT-QR-001</a5>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-PAY-001</a0>, <a1>STT-PAY-003</a1>, <a2>STT-ISS-004</a2>, <a3>STT-COS-001</a3>, <a4>STT-HC1-001</a4>, <a5>STT-QR-001</a5>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-PAY-005</a0>",
+   "hash": "6a4775708d8c4853",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-PAY-005</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-PAY-005</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-PAY-005</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-PAY-005</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-PAY-005</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-KID-002</a2>",
+   "hash": "5017630731cdf04a",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-001</a0>، <a1>STT-TRU-002</a1>، <a2>STT-KID-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-KID-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-KID-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-KID-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-KID-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-001</a0>, <a1>STT-VER-002</a1>, <a2>STT-VER-008</a2>, <a3>STT-TRU-001</a3>",
+   "hash": "61ce0b420362b6b0",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-001</a0>، <a1>STT-VER-002</a1>، <a2>STT-VER-008</a2>، <a3>STT-TRU-001</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-002</a1>, <a2>STT-VER-008</a2>, <a3>STT-TRU-001</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-002</a1>, <a2>STT-VER-008</a2>, <a3>STT-TRU-001</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-002</a1>, <a2>STT-VER-008</a2>, <a3>STT-TRU-001</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-002</a1>, <a2>STT-VER-008</a2>, <a3>STT-TRU-001</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-001</a0>, <a1>STT-VER-009</a1>, <a2>STT-TRU-002</a2>",
+   "hash": "7d841bcba9cd601d",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-001</a0>، <a1>STT-VER-009</a1>، <a2>STT-TRU-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-009</a1>, <a2>STT-TRU-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-009</a1>, <a2>STT-TRU-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-009</a1>, <a2>STT-TRU-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-001</a0>, <a1>STT-VER-009</a1>, <a2>STT-TRU-002</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-011</a0>",
+   "hash": "b1a7721283696f0c",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-011</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VER-011</a0>, <a1>STT-B45-002</a1>, <a2>STT-CBR-003</a2>",
+   "hash": "e4556ccdad7e50f7",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VER-011</a0>، <a1>STT-B45-002</a1>، <a2>STT-CBR-003</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VER-011</a0>, <a1>STT-B45-002</a1>, <a2>STT-CBR-003</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VER-011</a0>, <a1>STT-B45-002</a1>, <a2>STT-CBR-003</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VER-011</a0>, <a1>STT-B45-002</a1>, <a2>STT-CBR-003</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VER-011</a0>, <a1>STT-B45-002</a1>, <a2>STT-CBR-003</a2>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-007</a2>, <a3>STT-VHL-008</a3>",
+   "hash": "cc9649b841db3507",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>STT-VHL-005</a0>، <a1>STT-VHL-006</a1>، <a2>STT-VHL-007</a2>، <a3>STT-VHL-008</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-007</a2>, <a3>STT-VHL-008</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-007</a2>, <a3>STT-VHL-008</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-007</a2>, <a3>STT-VHL-008</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-007</a2>, <a3>STT-VHL-008</a3>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "a doctor abroad can treat us without paper or an app",
+   "hash": "567b2b82c5f16693",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتمكّن طبيب في الخارج من علاجنا دون ورق أو تطبيق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "un médico en el extranjero pueda atendernos sin papeles ni una aplicación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "un médecin à l’étranger peut nous soigner sans papier ni application",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "врач за рубежом мог лечить нас без бумаг и без приложения",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "国外的医生无需纸质记录或应用即可为我们诊治",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "A wrong passcode is refused, and the attempt is still logged in Onesa ({code0}). If the HCERT does not verify (for example, Country B's DSC is missing from the cached list), there is no digital verification. The clinic names the step and the reason (<a0>STT-VER-008</a0>), does not follow the VHL, and Dr Anan treats whatever the family can show as he would a paper record.",
+   "hash": "1c297eefd6d25327",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُرفض رمز المرور الخاطئ، ومع ذلك تُسجَّل المحاولة في Onesa ({code0}). وإذا لم يجتز HCERT التحقق (على سبيل المثال، إذا كانت شهادة موقِّع المستندات (DSC) الخاصة بالبلد B غائبة عن القائمة المخزَّنة مؤقتًا)، فلا يوجد تحقق رقمي. تذكر العيادة الخطوة والسبب (<a0>STT-VER-008</a0>)، ولا تتّبع رابط VHL، ويتعامل د. Anan مع ما تستطيع الأسرة إظهاره كما يتعامل مع سجل ورقي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un código de acceso incorrecto se rechaza, y el intento queda igualmente registrado en Onesa ({code0}). Si el HCERT no se verifica (por ejemplo, porque el DSC del País B falta en la lista almacenada en caché), no hay verificación digital. La clínica indica el paso y el motivo (<a0>STT-VER-008</a0>), no sigue el VHL, y el Dr. Anan trata lo que la familia pueda mostrar como lo haría con un registro en papel.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un code d’accès erroné est refusé, et la tentative est tout de même journalisée à Onesa ({code0}). Si le HCERT n’est pas vérifié (par exemple, le DSC du Pays B est absent de la liste en cache), il n’y a pas de vérification numérique. La clinique indique l’étape et le motif (<a0>STT-VER-008</a0>), ne suit pas le VHL, et le Dr Anan traite ce que la famille peut présenter comme il traiterait un dossier papier.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Неверный код доступа отклоняется, но попытка всё равно регистрируется в стране Onesa ({code0}). Если HCERT не проходит проверку (например, DSC Страны B отсутствует в кэшированном списке), цифровая проверка невозможна. Клиника указывает шаг и причину (<a0>STT-VER-008</a0>), не переходит по VHL, и доктор Anan относится ко всему, что может показать семья, как к бумажной записи.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "错误的通行码会被拒绝，但该尝试仍会在 Onesa 被记录（{code0}）。如果 HCERT 未通过验证（例如，缓存列表中缺少 B 国的 DSC），则不进行数字验证。诊所指明失败的步骤和原因（<a0>STT-VER-008</a0>），不跟随该 VHL，Dr Anan 将家庭能出示的任何内容当作纸质记录来对待。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Birth clinic vaccinator",
+   "hash": "231e6cf2b4f2d901",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مُطعِّم عيادة الولادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vacunador de la clínica de nacimiento",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vaccinateur de la clinique de naissance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Вакцинатор родильной клиники",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "出生诊所疫苗接种员",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Caregiver",
+   "hash": "7eecebb3e23724ed",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cuidador",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Aidant",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Лицо, осуществляющее уход",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "照护者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Community health worker",
+   "hash": "203c4bff8d990d08",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عامل صحة مجتمعي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Agente comunitario de salud",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Agent de santé communautaire",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Общинный медицинский работник (CHW)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "社区卫生工作者",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Decide who sees my child's record, and for how long",
+   "hash": "36322b84eaea4f58",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أقرر مَن يطّلع على سجل طفلي، ولأي مدة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Decidir quién ve el registro de mi hijo, y durante cuánto tiempo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Décider qui voit le dossier de mon enfant, et pour combien de temps",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Решать, кто и как долго видит запись моего ребёнка",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "决定谁可以查看我孩子的记录，以及可以查看多久",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Each story traces to the smart-trust-tools requirements that serve it (scenarios/story-requirements.json); where the HCERT library does not serve a story, the note says what does.",
+   "hash": "78400b0e43796eae",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُتتبَّع كل قصة إلى متطلبات smart-trust-tools التي تخدمها (scenarios/story-requirements.json)؛ وحيث لا تخدم مكتبة HCERT قصةً ما، توضّح الملاحظة ما يخدمها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada historia remite a los requisitos de smart-trust-tools que la atienden (scenarios/story-requirements.json); cuando la biblioteca HCERT no atiende una historia, la nota indica qué la atiende.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque récit renvoie aux exigences de smart-trust-tools qui y répondent (scenarios/story-requirements.json) ; lorsque la bibliothèque HCERT ne répond pas à un récit, la note indique ce qui y répond.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждая история прослеживается до требований smart-trust-tools, которые её обслуживают (scenarios/story-requirements.json); если историю обслуживает не библиотека HCERT, в примечании сказано, что именно.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个用户故事都可追溯到服务于它的 smart-trust-tools 需求（scenarios/story-requirements.json）；当 HCERT 库不服务于某个故事时，注释会说明由什么来服务。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Enabler (J2a): The phone reads the card offline, and keeps “what the family told us” clearly separate from “what we have verified”.",
+   "hash": "9b92f3d30394c79a",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العامل المُمكِّن (J2a): يقرأ الهاتف البطاقة دون اتصال، ويُبقي «ما أخبرتنا به الأسرة» منفصلًا بوضوح عن «ما تحققنا منه».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Habilitador (J2a): El teléfono lee la tarjeta sin conexión y mantiene “lo que nos dijo la familia” claramente separado de “lo que hemos verificado”.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Facilitateur (J2a) : le téléphone lit la carte hors ligne et distingue clairement « ce que la famille nous a dit » de « ce que nous avons vérifié ».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что помогает (J2a): телефон считывает карточку офлайн и чётко отделяет «то, что сообщила семья» от «того, что мы проверили».",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "促成因素（J2a）：手机离线读取卡片，并将“家庭告诉我们的内容”与“我们已验证的内容”明确区分开。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Enabler (J2b): An offline form links the baby to his household immediately; it syncs once the phone finds a signal.",
+   "hash": "693c457d65939d9d",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العامل المُمكِّن (J2b): نموذج يعمل دون اتصال يربط الرضيع بأسرته المعيشية فورًا؛ ويُزامَن حالما يلتقط الهاتف إشارة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Habilitador (J2b): Un formulario sin conexión vincula de inmediato al bebé con su hogar; se sincroniza en cuanto el teléfono encuentra señal.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Facilitateur (J2b) : un formulaire hors ligne rattache immédiatement le bébé à son ménage ; il se synchronise dès que le téléphone capte un signal.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что помогает (J2b): офлайн-форма сразу связывает ребёнка с его домохозяйством; синхронизация выполняется, как только телефон находит сигнал.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "促成因素（J2b）：离线表单立即将婴儿关联到其家庭；手机一旦有信号便会同步。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Enabler (J4.0a): A household wallet on one phone, with a separate health summary for each person.",
+   "hash": "73c5a4255019cea7",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العامل المُمكِّن (J4.0a): محفظة أسرية على هاتف واحد، مع ملخص صحي منفصل لكل شخص.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Habilitador (J4.0a): Una billetera familiar en un solo teléfono, con un resumen de salud separado para cada persona.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Facilitateur (J4.0a) : un portefeuille du ménage sur un seul téléphone, avec un résumé de santé distinct pour chaque personne.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что помогает (J4.0a): кошелёк домохозяйства на одном телефоне с отдельной медицинской сводкой для каждого человека.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "促成因素（J4.0a）：一部手机上的家庭钱包，每人有一份单独的健康摘要。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Enabler (J4.0b): A Verifiable Health Link: the QR holds only a locked pointer; the data stays home until the passcode is given.",
+   "hash": "7efc0a4580ede683",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العامل المُمكِّن (J4.0b): رابط صحي قابل للتحقق: لا يحمل رمز QR سوى مؤشر مُقفَل؛ وتبقى البيانات في البلد الأم حتى يُعطى رمز المرور.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Habilitador (J4.0b): Un enlace sanitario verificable (VHL): el QR contiene solo un puntero bloqueado; los datos permanecen en el país de residencia hasta que se facilita el código de acceso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Facilitateur (J4.0b) : un lien de santé vérifiable : le code QR ne contient qu’un pointeur verrouillé ; les données restent dans le pays de résidence jusqu’à ce que le code d’accès soit donné.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что помогает (J4.0b): проверяемая ссылка на медицинские данные (Verifiable Health Link): QR содержит лишь заблокированный указатель; данные остаются в стране происхождения, пока не назван код доступа.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "促成因素（J4.0b）：可验证健康链接（Verifiable Health Link）：QR 码只包含一个加锁的指针；在提供通行码之前，数据始终留在本国。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Enabler: A digitally signed QR card travels with the family — no ID number or database lookup needed.",
+   "hash": "842ad581e9a9c2e5",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العامل المُمكِّن: بطاقة QR موقَّعة رقميًا ترافق الأسرة — دون الحاجة إلى رقم هوية (ID) أو بحث في قاعدة بيانات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Habilitador: Una tarjeta QR firmada digitalmente viaja con la familia, sin necesidad de número de identificación ni de consultar una base de datos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Facilitateur : une carte QR signée numériquement voyage avec la famille — aucun numéro d’identification ni consultation de base de données n’est nécessaire.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что помогает: карточка с QR и цифровой подписью путешествует вместе с семьёй — не нужны ни ID-номер, ни поиск в базе данных.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "促成因素：经数字签名的 QR 卡片随家庭携带——无需 ID 号码或数据库查询。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Enabler: The record is fetched live from Onesa, viewed without being copied, and an access log is sent home.",
+   "hash": "3f54bf9da05e1096",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عامل التمكين: يُجلب السجل مباشرة من Onesa، ويُعرض دون نسخه، ويُرسَل سجل وصول إلى الوطن.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Habilitador: El registro se obtiene en tiempo real desde Onesa, se consulta sin copiarlo y se envía un registro de acceso al país de residencia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Facilitateur : le dossier est récupéré en direct depuis Onesa, consulté sans être copié, et un journal d’accès est envoyé dans le pays de résidence.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что помогает: запись извлекается в реальном времени из страны Onesa, просматривается без копирования, а журнал доступа отправляется на родину.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "促成因素：记录从 Onesa 实时获取，仅查看而不复制，并且访问日志会发回本国。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Have my son's birth doses from abroad recognised at home",
+   "hash": "9e674f4377ee7e85",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن تُعترف في بلدي بجرعات الولادة التي تلقّاها ابني في الخارج",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Lograr que las dosis al nacer que mi hijo recibió en el extranjero se reconozcan en nuestro país",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Faire reconnaître dans notre pays les doses à la naissance que mon fils a reçues à l’étranger",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добиться признания на родине доз, полученных моим сыном при рождении за рубежом",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "让我儿子在国外接种的出生剂次在本国得到认可",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "his care does not start over and nothing is repeated",
+   "hash": "0195d3a8cda1fd83",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا تبدأ رعايته من جديد ولا يتكرر أي شيء",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "su atención no tenga que empezar de cero y no se repita nada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ses soins ne repartent pas de zéro et rien n’est répété",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "его медицинская помощь не начиналась заново и ничего не повторялось",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "他的医疗照护不必从头开始，也不会重复接种",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Home clinic provider",
+   "hash": "2ebda6eab064facf",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الخدمة في عيادة البلد الأم",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Profesional de la clínica del país de residencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Prestataire de la clinique de rattachement",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник клиники по месту жительства",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所属诊所医务人员",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "I can rely on it as I would on my own clinic's record",
+   "hash": "98f396556ea0310b",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أستطيع الاعتماد عليه كما أعتمد على سجل عيادتي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "pueda confiar en él como confiaría en el registro de mi propia clínica",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "je peux m’y fier comme au dossier de ma propre clinique",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "я мог полагаться на неё так же, как на запись своей клиники",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "我可以像信赖本诊所的记录一样信赖它",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "I give only what is missing",
+   "hash": "e13c8ecacd2ebdbe",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا أعطي إلا ما ينقص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "administre solo lo que falta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "je ne donne que ce qui manque",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "вводить только недостающие дозы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "我只补种缺少的剂次",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "I want to",
+   "hash": "870e6ec76e23a453",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أريد أن",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Quiero",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Je veux",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Я хочу",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "我想要",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It assembles the IPS and Somsak's DVCs.",
+   "hash": "402517b13e7b0e86",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجمع ملخص المريض الدولي (IPS) وشهادات التطعيم الرقمية (DVC) الخاصة بـ Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Reúne el IPS y los DVC de Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il assemble l’IPS et les DVC de Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Он собирает IPS и DVC Somsak.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它汇总 IPS 和 Somsak 的 DVC。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It builds a DVCMinPreQual payload: <a0>STT-PAY-001</a0>…<a1>005</a1> and <a2>STT-PAY-007</a2>, with subclaim −6 (<a3>STT-SEL-003</a3>). No identity document is needed (<a4>STT-PAY-005</a4>).",
+   "hash": "74eeb11335fb5146",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبني حمولة DVCMinPreQual: <a0>STT-PAY-001</a0>…<a1>005</a1> و<a2>STT-PAY-007</a2>، مع المطالبة الفرعية −6 (<a3>STT-SEL-003</a3>). ولا حاجة إلى أي وثيقة هوية (<a4>STT-PAY-005</a4>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Construye una carga útil DVCMinPreQual: <a0>STT-PAY-001</a0>…<a1>005</a1> y <a2>STT-PAY-007</a2>, con la subdeclaración −6 (<a3>STT-SEL-003</a3>). No se necesita ningún documento de identidad (<a4>STT-PAY-005</a4>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il construit une charge utile DVCMinPreQual : <a0>STT-PAY-001</a0>…<a1>005</a1> et <a2>STT-PAY-007</a2>, avec la sous-revendication −6 (<a3>STT-SEL-003</a3>). Aucun document d’identité n’est nécessaire (<a4>STT-PAY-005</a4>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Она формирует полезную нагрузку DVCMinPreQual: <a0>STT-PAY-001</a0>…<a1>005</a1> и <a2>STT-PAY-007</a2>, с подзаявлением −6 (<a3>STT-SEL-003</a3>). Документ, удостоверяющий личность, не требуется (<a4>STT-PAY-005</a4>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它构建一个 DVCMinPreQual 载荷：<a0>STT-PAY-001</a0>…<a1>005</a1> 和 <a2>STT-PAY-007</a2>，子声明为 −6（<a3>STT-SEL-003</a3>）。无需身份证件（<a4>STT-PAY-005</a4>）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It encrypts them (<a0>STT-VHL-004</a0>, <a1>STT-VHL-007</a1>) behind a passcode-protected manifest with an expiry (<a2>STT-VHL-009</a2>).",
+   "hash": "5bfe55166506e207",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يشفّرها (<a0>STT-VHL-004</a0>، <a1>STT-VHL-007</a1>) خلف بيان محمي برمز مرور وله تاريخ انتهاء صلاحية (<a2>STT-VHL-009</a2>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los cifra (<a0>STT-VHL-004</a0>, <a1>STT-VHL-007</a1>) tras un manifiesto protegido por código de acceso y con fecha de caducidad (<a2>STT-VHL-009</a2>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il les chiffre (<a0>STT-VHL-004</a0>, <a1>STT-VHL-007</a1>) derrière un manifeste protégé par code d’accès et assorti d’une date d’expiration (<a2>STT-VHL-009</a2>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Он шифрует их (<a0>STT-VHL-004</a0>, <a1>STT-VHL-007</a1>) за манифестом, защищённым кодом доступа и имеющим срок действия (<a2>STT-VHL-009</a2>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它将其加密（<a0>STT-VHL-004</a0>、<a1>STT-VHL-007</a1>），置于一个受通行码保护且有有效期的清单之后（<a2>STT-VHL-009</a2>）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It has XXR's key sign them (<a0>STT-COS-002</a0>, <a1>STT-COS-006</a1>), then finishes the HC1 text: <a2>STT-COS-001</a2>, <a3>STT-ZIP-001</a3>, <a4>STT-B45-001</a4>, <a5>STT-HC1-001</a5>, <a6>STT-QR-001</a6>.",
+   "hash": "a1b27f49f39b6bde",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يجعل مفتاح XXR يوقّعها (<a0>STT-COS-002</a0>، <a1>STT-COS-006</a1>)، ثم يُكمل نص HC1: <a2>STT-COS-001</a2>، <a3>STT-ZIP-001</a3>، <a4>STT-B45-001</a4>، <a5>STT-HC1-001</a5>، <a6>STT-QR-001</a6>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Hace que la clave de XXR los firme (<a0>STT-COS-002</a0>, <a1>STT-COS-006</a1>) y luego completa el texto HC1: <a2>STT-COS-001</a2>, <a3>STT-ZIP-001</a3>, <a4>STT-B45-001</a4>, <a5>STT-HC1-001</a5>, <a6>STT-QR-001</a6>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il les fait signer par la clé de XXR (<a0>STT-COS-002</a0>, <a1>STT-COS-006</a1>), puis finalise le texte HC1 : <a2>STT-COS-001</a2>, <a3>STT-ZIP-001</a3>, <a4>STT-B45-001</a4>, <a5>STT-HC1-001</a5>, <a6>STT-QR-001</a6>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Она подписывает их ключом XXR (<a0>STT-COS-002</a0>, <a1>STT-COS-006</a1>), затем завершает текст HC1: <a2>STT-COS-001</a2>, <a3>STT-ZIP-001</a3>, <a4>STT-B45-001</a4>, <a5>STT-HC1-001</a5>, <a6>STT-QR-001</a6>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它用 XXR 的密钥对其签名（<a0>STT-COS-002</a0>、<a1>STT-COS-006</a1>），然后完成 HC1 文本：<a2>STT-COS-001</a2>、<a3>STT-ZIP-001</a3>、<a4>STT-B45-001</a4>、<a5>STT-HC1-001</a5>、<a6>STT-QR-001</a6>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It issues the link as an HCERT, with the VHL at key 5 (<a0>STT-VHL-001</a0>, <a1>STT-VHL-002</a1>), signed with Country B's DSC.",
+   "hash": "398d2301bab71bc1",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُصدر الرابط بوصفه HCERT، مع VHL عند المفتاح 5 (<a0>STT-VHL-001</a0>، <a1>STT-VHL-002</a1>)، موقَّعًا بشهادة موقِّع المستندات (DSC) الخاصة بالبلد B.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Emite el enlace como un HCERT, con el VHL en la clave 5 (<a0>STT-VHL-001</a0>, <a1>STT-VHL-002</a1>), firmado con el DSC del País B.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il émet le lien sous forme de HCERT, avec le VHL à la clé 5 (<a0>STT-VHL-001</a0>, <a1>STT-VHL-002</a1>), signé avec le DSC du Pays B.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Он выпускает ссылку в виде HCERT с VHL в ключе 5 (<a0>STT-VHL-001</a0>, <a1>STT-VHL-002</a1>), подписанного с использованием DSC Страны B.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它将该链接签发为一个 HCERT，VHL 位于键 5（<a0>STT-VHL-001</a0>、<a1>STT-VHL-002</a1>），并用 B 国的 DSC 签名。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It prepares the CWT and the bytes to sign: <a0>STT-CWT-001</a0>…<a1>005</a1>, <a2>STT-ISS-004</a2>.",
+   "hash": "3267a5de98983bf0",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُعِدّ CWT والبايتات المراد توقيعها: <a0>STT-CWT-001</a0>…<a1>005</a1>، <a2>STT-ISS-004</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Prepara el CWT y los bytes que se firmarán: <a0>STT-CWT-001</a0>…<a1>005</a1>, <a2>STT-ISS-004</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il prépare le CWT et les octets à signer : <a0>STT-CWT-001</a0>…<a1>005</a1>, <a2>STT-ISS-004</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Она готовит CWT и байты для подписи: <a0>STT-CWT-001</a0>…<a1>005</a1>, <a2>STT-ISS-004</a2>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它准备 CWT 和待签名的字节：<a0>STT-CWT-001</a0>…<a1>005</a1>、<a2>STT-ISS-004</a2>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-008</a2>).",
+   "hash": "17eda2315e6e30c6",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يطلب البيان عبر ITI-YY5، موقَّعًا بتواقيع رسائل HTTP (HTTP Message Signatures) (<a0>STT-VHL-005</a0>، <a1>STT-VHL-006</a1>، <a2>STT-VHL-008</a2>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Solicita el manifiesto mediante ITI-YY5, firmado con HTTP Message Signatures (<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-008</a2>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il demande le manifeste par ITI-YY5, signé au moyen des signatures de messages HTTP (<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-008</a2>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Оно запрашивает манифест по ITI-YY5 с подписью HTTP Message Signatures (<a0>STT-VHL-005</a0>, <a1>STT-VHL-006</a1>, <a2>STT-VHL-008</a2>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它通过 ITI-YY5 请求清单，请求使用 HTTP Message Signatures（HTTP 消息签名）签名（<a0>STT-VHL-005</a0>、<a1>STT-VHL-006</a1>、<a2>STT-VHL-008</a2>）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "It shows them to Dr Anan: every dose since the birth, viewed, never copied.",
+   "hash": "595485ef62b3db8d",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعرضها على Dr Anan: كل جرعة منذ الولادة، تُعرض ولا تُنسخ أبدًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se los muestra al Dr. Anan: todas las dosis desde el nacimiento, consultadas, nunca copiadas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il les présente au Dr Anan : chaque dose depuis la naissance, consultée, jamais copiée.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Оно показывает их доктору Anan: каждую дозу с момента рождения — просмотренную, но не скопированную.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "它将其展示给 Dr Anan：出生以来的每一个剂次，仅查看，从不复制。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2b. On the CHW app's newborn form (structured data capture, {code0}) she adds Somsak to the Sengmany household ({code1}), with a temporary id. Bounmy confirms the details as head of household. The app saves the doses read from the cards as reported by the family, not verified ({code2}, {code3}: {code4} false). Vilay refers Somsak to the district health center ({code5}). Everything stays queued on the phone, for 28 days if need be, and syncs when it next reaches a signal.",
+   "hash": "3b5bb454bfc1dd98",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2b. في نموذج المولود الجديد في تطبيق CHW (التقاط البيانات المُهيكلة، {code0}) تضيف Somsak إلى أسرة Sengmany المعيشية ({code1})، بمعرّف مؤقت. ويؤكد Bounmy التفاصيل بصفته ربّ الأسرة. ويحفظ التطبيق الجرعات المقروءة من البطاقتين على أنها مُبلَّغ عنها من الأسرة، لا مُتحقَّق منها ({code2}، {code3}: {code4} false). وتُحيل Vilay الطفل Somsak إلى المركز الصحي في المنطقة ({code5}). ويبقى كل شيء في قائمة الانتظار على الهاتف، لمدة 28 يومًا إن لزم الأمر، ويُزامَن عندما يلتقط إشارة في المرة التالية.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2b. En el formulario de recién nacidos de la aplicación del CHW (captura estructurada de datos, {code0}) añade a Somsak al hogar Sengmany ({code1}), con un identificador temporal. Bounmy confirma los datos como jefe del hogar. La aplicación guarda las dosis leídas de las tarjetas como notificadas por la familia, no verificadas ({code2}, {code3}: {code4} false). Vilay deriva a Somsak al centro de salud del distrito ({code5}). Todo queda en cola en el teléfono, durante 28 días si es necesario, y se sincroniza la próxima vez que haya señal.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2b. Dans le formulaire de nouveau-né de l’application CHW (saisie de données structurées, {code0}), elle ajoute Somsak au ménage Sengmany ({code1}), avec un identifiant temporaire. Bounmy confirme les informations en tant que chef de ménage. L’application enregistre les doses lues sur les cartes comme déclarées par la famille, non vérifiées ({code2}, {code3} : {code4} false). Vilay oriente Somsak vers le centre de santé de district ({code5}). Tout reste en file d’attente sur le téléphone, pendant 28 jours si nécessaire, et se synchronise dès qu’un signal est de nouveau disponible.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2b. В форме новорождённого в приложении CHW (структурированный сбор данных, {code0}) она добавляет Somsak в домохозяйство Sengmany ({code1}) с временным идентификатором. Bounmy как глава домохозяйства подтверждает сведения. Приложение сохраняет считанные с карточек дозы как заявленные семьёй, а не проверенные ({code2}, {code3}: {code4} false). Vilay направляет Somsak в районный центр здоровья ({code5}). Всё остаётся в очереди на телефоне — при необходимости 28 дней — и синхронизируется, как только появится сигнал.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2b. 她在 CHW 应用的新生儿表单（结构化数据采集，{code0}）上，以临时 id 将 Somsak 添加到 Sengmany 家庭（{code1}）。Bounmy 作为户主确认这些信息。应用将从卡片读取的剂次保存为家庭报告、未经验证（{code2}、{code3}：{code4} 为 false）。Vilay 将 Somsak 转诊到区卫生中心（{code5}）。所有内容都在手机上排队，必要时可保留 28 天，并在下次有信号时同步。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3a. Nurse Chanthason opens the referral and scans the QRs. The EHR verifies each DVC offline against that copy (<a0>STT-VER-001</a0>…<a1>009</a1>, <a2>STT-KID-002</a2>), without contacting Taifafeki. Both verify, so it imports them as FHIR {code0}s ({code1}, {code2}) with provenance ({code3}; <a3>STT-VER-007</a3>, <a4>STT-VER-008</a4>), replacing the reported doses of J2. If a DVC fails (a tampered card, say), the EHR names the step and the reason, the doses stay unverified, and the nurse decides by national catch-up policy.",
+   "hash": "39d64093c666d6e3",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3a. تفتح الممرضة Chanthason الإحالة وتمسح رموز QR ضوئيًا. ويتحقق نظام السجلات الصحية الإلكترونية (EHR) من كل DVC دون اتصال مقابل تلك النسخة (<a0>STT-VER-001</a0>…<a1>009</a1>، <a2>STT-KID-002</a2>)، دون التواصل مع Taifafeki. وبما أن كلتيهما تجتازان التحقق، يستوردهما بوصفهما {code0} في FHIR ({code1}، {code2}) مع بيانات المصدر ({code3}؛ <a3>STT-VER-007</a3>، <a4>STT-VER-008</a4>)، لتحل محل الجرعات المُبلَّغ عنها في J2. وإذا فشلت شهادة DVC (بطاقة تم العبث بها مثلًا)، يذكر EHR الخطوة والسبب، وتبقى الجرعات غير مُتحقَّق منها، وتقرر الممرضة وفق السياسة الوطنية للتطعيم الاستدراكي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3a. La enfermera Chanthason abre la derivación y escanea los QR. La EHR verifica cada DVC sin conexión con esa copia (<a0>STT-VER-001</a0>…<a1>009</a1>, <a2>STT-KID-002</a2>), sin contactar con Taifafeki. Ambos se verifican, así que la EHR los importa como recursos FHIR {code0} ({code1}, {code2}) con procedencia ({code3}; <a3>STT-VER-007</a3>, <a4>STT-VER-008</a4>), en sustitución de las dosis notificadas en J2. Si un DVC falla (por ejemplo, una tarjeta manipulada), la EHR indica el paso y el motivo, las dosis siguen sin verificar y la enfermera decide según la política nacional de vacunación de puesta al día.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3a. L’infirmière Chanthason ouvre l’orientation et scanne les codes QR. Le DSE vérifie chaque DVC hors ligne par rapport à cette copie (<a0>STT-VER-001</a0>…<a1>009</a1>, <a2>STT-KID-002</a2>), sans contacter Taifafeki. Les deux sont vérifiés ; il les importe donc en tant que ressources FHIR {code0} ({code1}, {code2}) avec leur provenance ({code3} ; <a3>STT-VER-007</a3>, <a4>STT-VER-008</a4>), en remplacement des doses déclarées de J2. Si un DVC échoue (une carte altérée, par exemple), le DSE indique l’étape et le motif, les doses restent non vérifiées, et l’infirmière décide selon la politique nationale de rattrapage.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3a. Медсестра Chanthason открывает направление и сканирует QR. Электронная медицинская карта (EHR) проверяет каждый DVC офлайн по этой копии (<a0>STT-VER-001</a0>…<a1>009</a1>, <a2>STT-KID-002</a2>), не обращаясь к стране Taifafeki. Оба проходят проверку, поэтому EHR импортирует их как ресурсы FHIR {code0} ({code1}, {code2}) со сведениями о происхождении ({code3}; <a3>STT-VER-007</a3>, <a4>STT-VER-008</a4>), заменяя заявленные дозы из J2. Если DVC не проходит проверку (например, карточка подделана), EHR указывает шаг и причину, дозы остаются непроверенными, и медсестра принимает решение в соответствии с национальной политикой догоняющей вакцинации.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3a. 护士 Chanthason 打开转诊并扫描 QR 码。EHR 对照该副本离线验证每份 DVC（<a0>STT-VER-001</a0>…<a1>009</a1>、<a2>STT-KID-002</a2>），无需联系 Taifafeki。两份均通过验证，因此它将其作为 FHIR {code0} 导入（{code1}、{code2}），并附来源记录（{code3}；<a3>STT-VER-007</a3>、<a4>STT-VER-008</a4>），取代 J2 中的已报告剂次。如果某份 DVC 验证失败（例如卡片被篡改），EHR 会指明失败的步骤和原因，剂次保持未验证状态，由护士根据国家补种政策作出决定。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0a. The family plans a trip to Taifafeki. Bounmy's phone holds the family wallet, with a profile for each of them. Somsak's summary ({code0}) shows six doses: two from Taifafeki, four from Onesa.",
+   "hash": "c54555cba065d393",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0a. تخطط الأسرة لرحلة إلى Taifafeki. يحمل هاتف Bounmy محفظة الأسرة، مع ملف تعريف لكل فرد منهم. ويُظهر ملخص Somsak ({code0}) ست جرعات: اثنتان من Taifafeki، وأربع من Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0a. La familia planea un viaje a Taifafeki. El teléfono de Bounmy contiene la billetera familiar, con un perfil para cada uno de ellos. El resumen de Somsak ({code0}) muestra seis dosis: dos de Taifafeki y cuatro de Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0a. La famille prévoit un voyage à Taifafeki. Le téléphone de Bounmy contient le portefeuille familial, avec un profil pour chacun d’eux. Le résumé de Somsak ({code0}) indique six doses : deux de Taifafeki, quatre de Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0a. Семья планирует поездку в страну Taifafeki. На телефоне Bounmy находится семейный кошелёк с профилем для каждого из них. Сводка Somsak ({code0}) показывает шесть доз: две из страны Taifafeki, четыре из страны Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0a。这家人计划去 Taifafeki 旅行。Bounmy 的手机保存着家庭钱包，其中为每位家庭成员各有一个档案。Somsak 的摘要（{code0}）显示六个剂次：两个来自 Taifafeki，四个来自 Onesa。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0b. For Somsak, Bounmy shares his record with a 4-digit passcode he can say aloud, valid for 14 days. The portal records his consent ({code0}), then does three things:",
+   "hash": "7ef26e24ed99ec45",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0b. يشارك Bounmy سجل Somsak برمز مرور من 4 أرقام يمكنه نطقه بصوت عالٍ، صالح لمدة 14 يومًا. ويسجّل البوابة الإلكترونية موافقته ({code0})، ثم تقوم بثلاثة أمور:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0b. Para Somsak, Bounmy comparte su registro con un código de acceso de 4 dígitos que puede decir en voz alta, válido durante 14 días. El portal registra su consentimiento ({code0}) y luego hace tres cosas:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0b. Pour Somsak, Bounmy partage son dossier avec un code d’accès à 4 chiffres qu’il peut prononcer à voix haute, valable 14 jours. Le portail enregistre son consentement ({code0}), puis effectue trois opérations :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0b. Bounmy предоставляет доступ к записи Somsak с 4-значным кодом доступа, который можно произнести вслух, сроком на 14 дней. Портал регистрирует его согласие ({code0}), а затем делает три вещи:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0b. Bounmy 为 Somsak 分享其记录，使用一个可以口头说出的 4 位通行码，有效期 14 天。门户记录他的同意（{code0}），然后执行三件事：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Keep the foreign vaccine code and add our schedule code beside it, deciding myself when there is no match",
+   "hash": "c4c4996d7aeca19c",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أحتفظ برمز اللقاح الأجنبي وأضيف رمز جدولنا بجانبه، وأن أقرر بنفسي عند عدم وجود تطابق",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Conservar el código extranjero de la vacuna y añadir a su lado el código de nuestro calendario, decidiendo yo mismo cuando no haya correspondencia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Conserver le code étranger du vaccin et ajouter à côté notre code de calendrier, en décidant moi-même en l’absence de correspondance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сохранять иностранный код вакцины и добавлять рядом код нашего графика, самостоятельно принимая решение, если соответствия нет",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "保留外国疫苗代码并在其旁添加我们的接种计划代码，在没有匹配项时由我自己决定",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Know the record I read abroad came from the child's home country and was not altered",
+   "hash": "5522c211abea20f8",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أعرف أن السجل الذي أقرؤه في الخارج صادر عن البلد الأم للطفل ولم يُعدَّل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Saber que el registro que leo en el extranjero procede del país de residencia del niño y no ha sido alterado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Savoir que le dossier que je lis à l’étranger provient du pays de résidence de l’enfant et n’a pas été modifié",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Знать, что запись, которую я читаю за рубежом, получена из страны проживания ребёнка и не была изменена",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "确认我在国外读取的记录来自孩子的本国且未被篡改",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Know whether a foreign certificate is genuine, and why not when it is not",
+   "hash": "844caaea8131d955",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أعرف ما إذا كانت الشهادة الأجنبية أصلية، ولماذا ليست كذلك إن لم تكن",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Saber si un certificado extranjero es auténtico y, cuando no lo es, por qué",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Savoir si un certificat étranger est authentique, et pourquoi il ne l’est pas lorsqu’il ne l’est pas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Знать, подлинен ли иностранный сертификат, а если нет, то почему",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "知道一份外国证书是否真实，以及不真实时的原因",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "no newborn in my village is missed, even with no signal",
+   "hash": "86a97bc453ebd0b6",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يُغفَل أي مولود جديد في قريتي، حتى في غياب الإشارة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "no se pase por alto a ningún recién nacido de mi aldea, incluso sin señal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "aucun nouveau-né de mon village n’est oublié, même sans signal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ни один новорождённый в моей деревне не был упущен, даже без сигнала",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "即使没有信号，我村里也不会遗漏任何新生儿",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain point (J2a): Without a check, a forged or mistyped card could quietly become an official record.",
+   "hash": "8b278e090677000d",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة الألم (J2a): دون فحص، قد تتحول بطاقة مزوّرة أو مكتوبة بخطأ بصمت إلى سجل رسمي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Punto crítico (J2a): Sin una comprobación, una tarjeta falsificada o con errores de transcripción podría convertirse discretamente en un registro oficial.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Point de friction (J2a) : sans vérification, une carte falsifiée ou mal saisie pourrait discrètement devenir un dossier officiel.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проблема (J2a): без проверки поддельная или ошибочно заполненная карточка может незаметно стать официальной записью.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点（J2a）：如果不加核验，一张伪造或录入错误的卡片可能会悄无声息地变成官方记录。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain point (J2b): Babies born abroad are invisible to the home health system until civil registration catches up — sometimes months later.",
+   "hash": "db70e4ee65ddedd0",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة الألم (J2b): يبقى الرضّع المولودون في الخارج غير مرئيين للنظام الصحي في بلدهم حتى يلحق بهم التسجيل المدني — بعد أشهر أحيانًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Punto crítico (J2b): Los bebés nacidos en el extranjero son invisibles para el sistema de salud de su país hasta que el registro civil se pone al día, a veces meses después.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Point de friction (J2b) : les bébés nés à l’étranger sont invisibles pour le système de santé du pays de résidence jusqu’à ce que l’enregistrement à l’état civil soit effectué — parfois des mois plus tard.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проблема (J2b): дети, рождённые за рубежом, невидимы для системы здравоохранения своей страны до регистрации актов гражданского состояния — иногда месяцами.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点（J2b）：在国外出生的婴儿在民事登记跟进之前（有时要几个月之后），对本国卫生系统而言是不可见的。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain point (J3a): Clinicians either distrust foreign paper and re-vaccinate, or trust it blindly.",
+   "hash": "90538273a551ff1f",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة الألم (J3a): إما أن يرتاب الممارسون السريريون في الأوراق الأجنبية فيعيدوا التطعيم، أو يثقوا بها ثقة عمياء.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Punto crítico (J3a): Los profesionales clínicos desconfían de los papeles extranjeros y vuelven a vacunar, o confían en ellos a ciegas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Point de friction (J3a) : les cliniciens se méfient des documents papier étrangers et revaccinent, ou leur font aveuglément confiance.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проблема (J3a): клиницисты либо не доверяют иностранным бумажным документам и вакцинируют повторно, либо доверяют им слепо.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点（J3a）：临床医生要么不信任外国纸质记录而重新接种，要么盲目信任它。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain point (J3b): Countries name and package vaccines differently, so doses get missed or repeated.",
+   "hash": "1e5badea0c667cd9",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة الألم (J3b): تختلف البلدان في تسمية اللقاحات وتعبئتها، فتُفوَّت جرعات أو تتكرر.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Punto crítico (J3b): Los países denominan y combinan las vacunas de forma distinta, por lo que se omiten o se repiten dosis.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Point de friction (J3b) : les pays nomment et conditionnent les vaccins différemment, si bien que des doses sont omises ou répétées.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проблема (J3b): страны по-разному называют и упаковывают вакцины, поэтому дозы пропускаются или повторяются.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点（J3b）：各国对疫苗的命名和包装方式不同，因此剂次会被遗漏或重复。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain point (J4.0a): Many families share one smartphone; one-app-per-person designs leave them out.",
+   "hash": "f07f289c374ccdfa",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة الألم (J4.0a): تتشارك أسر كثيرة هاتفًا ذكيًا واحدًا؛ والتصاميم القائمة على تطبيق لكل شخص تستبعدها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Punto crítico (J4.0a): Muchas familias comparten un solo teléfono inteligente; los diseños de una aplicación por persona las dejan fuera.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Point de friction (J4.0a) : de nombreuses familles partagent un seul smartphone ; les conceptions « une application par personne » les excluent.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проблема (J4.0a): многие семьи пользуются одним смартфоном; решения по принципу «одно приложение на человека» их не учитывают.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点（J4.0a）：许多家庭共用一部智能手机；一人一个应用的设计将他们排除在外。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain point (J4.0b): Sending photos or PDFs of records leaks data and can’t be verified by the receiver.",
+   "hash": "7ad9595d1dca86ca",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة الألم (J4.0b): إرسال صور السجلات أو ملفات PDF منها يسرّب البيانات ولا يمكن للجهة المُستقبِلة التحقق منه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Punto crítico (J4.0b): Enviar fotos o PDF de los registros filtra datos, y el receptor no puede verificarlos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Point de friction (J4.0b) : l’envoi de photos ou de PDF des dossiers expose des données et ne peut pas être vérifié par le destinataire.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проблема (J4.0b): отправка фотографий или PDF-файлов записей приводит к утечке данных, и получатель не может их проверить.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点（J4.0b）：发送记录的照片或 PDF 会泄露数据，且接收方无法验证。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain point: The baby has no Taifafeki ID number, so his records would normally stay locked inside the Taifafeki hospital’s system.",
+   "hash": "ef406be851cbb2c6",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة الألم: ليس لدى الطفل رقم هوية (ID) في Taifafeki، لذا كانت سجلاته ستبقى عادةً مقفلة داخل نظام المستشفى في Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Punto crítico: El bebé no tiene número de identificación de Taifafeki, por lo que normalmente sus registros quedarían encerrados en el sistema del hospital de Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Point de friction : le bébé n’a pas de numéro d’identité de Taifafeki, de sorte que ses dossiers resteraient normalement enfermés dans le système de l’hôpital de Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проблема: у младенца нет идентификационного номера страны Taifafeki, поэтому его записи обычно оставались бы запертыми в системе больницы в стране Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点：婴儿没有 Taifafeki 身份证号码，因此他的记录通常会被锁在 Taifafeki 医院的系统内。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Pain point: Without the history, the doctor would repeat vaccines or have to guess.",
+   "hash": "91234128800004af",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقطة الألم: دون التاريخ التطعيمي، لكان الطبيب سيكرر اللقاحات أو يضطر إلى التخمين.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Punto crítico: Sin el historial, el médico repetiría vacunas o tendría que adivinar.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Point de friction : sans l’historique, le médecin répéterait les vaccins ou devrait deviner.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Проблема: без истории врачу пришлось бы повторять вакцинацию или действовать наугад.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "痛点：没有接种史，医生就会重复接种疫苗，或者只能猜测。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Point-of-care provider",
+   "hash": "3b76db026d593a30",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مقدِّم الخدمة في نقطة تقديم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Profesional del punto de atención",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Prestataire du point de soins",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник в месте оказания помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "医疗服务点医务人员",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Policy (J2a): Keep a clear line between what families report and what has been verified, and don’t grant trust too early.",
+   "hash": "6bacc6e85dbbb412",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة (J2a): ضع حدًّا واضحًا بين ما تُبلغ عنه الأسر وما تم التحقق منه، ولا تمنح الثقة قبل أوانها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política (J2a): Mantener una línea clara entre lo que notifican las familias y lo que se ha verificado, y no otorgar confianza demasiado pronto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique (J2a) : maintenir une distinction claire entre ce que les familles déclarent et ce qui a été vérifié, et ne pas accorder la confiance trop tôt.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика (J2a): чётко разграничивать сведения, заявленные семьями, и проверенные данные, и не оказывать доверие преждевременно.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策（J2a）：在家庭报告的内容与已验证的内容之间划清界限，不要过早给予信任。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Policy (J2b): Newborns can be registered at home, offline, before civil registration or a national ID exists.",
+   "hash": "a849bd9f6ce3cc99",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة (J2b): يمكن تسجيل المواليد الجدد في البلد الأم، دون اتصال، قبل وجود تسجيل مدني أو هوية وطنية (ID).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política (J2b): Los recién nacidos pueden registrarse en su país, sin conexión, antes de que exista la inscripción en el registro civil o un documento nacional de identidad.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique (J2b) : les nouveau-nés peuvent être enregistrés au domicile, hors ligne, avant l’enregistrement à l’état civil ou l’existence d’une pièce d’identité nationale.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика (J2b): новорождённых можно регистрировать на дому, офлайн, до регистрации актов гражданского состояния или получения национального ID.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策（J2b）：新生儿可以在本国离线登记，无需等待民事登记或国民 ID。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Policy (J3b): Never overwrite another country’s record: keep the original coding alongside the national one.",
+   "hash": "34cf2cfa126f1fca",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة (J3b): لا تَكتب أبدًا فوق سجل بلد آخر: احتفظ بالترميز الأصلي إلى جانب الترميز الوطني.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política (J3b): Nunca sobrescribir el registro de otro país: conservar la codificación original junto a la nacional.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique (J3b) : ne jamais écraser le dossier d’un autre pays : conserver le codage d’origine à côté du codage national.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика (J3b): никогда не перезаписывать запись другой страны: сохранять исходную кодировку рядом с национальной.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策（J3b）：绝不覆盖另一国家的记录：在本国编码旁保留原始编码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Policy (J4.0a): Design for shared devices (“One Family, One Phone”) so families with only one phone aren’t left out.",
+   "hash": "73e5e83d6aed3478",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة (J4.0a): صمّم للأجهزة المشتركة («أسرة واحدة، هاتف واحد») كي لا تُستبعد الأسر التي لا تملك إلا هاتفًا واحدًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política (J4.0a): Diseñar para dispositivos compartidos (“Una familia, un teléfono”) para que las familias con un solo teléfono no queden excluidas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique (J4.0a) : concevoir pour des appareils partagés (« Une famille, un téléphone ») afin que les familles qui n’ont qu’un seul téléphone ne soient pas exclues.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика (J4.0a): проектировать решения для общих устройств («Одна семья — один телефон»), чтобы семьи с единственным телефоном не оставались в стороне.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策（J4.0a）：为共享设备而设计（“一个家庭，一部手机”），使只有一部手机的家庭不被排除在外。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Policy (J4.0b): Data sovereignty: the record stays in Onesa until the family authorizes someone to open it.",
+   "hash": "0187992680ca0cac",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة (J4.0b): سيادة البيانات: يبقى السجل في Onesa إلى أن تأذن الأسرة لشخص ما بفتحه.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política (J4.0b): Soberanía de los datos: el registro permanece en Onesa hasta que la familia autoriza a alguien a abrirlo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique (J4.0b) : souveraineté des données : le dossier reste à Onesa jusqu’à ce que la famille autorise quelqu’un à l’ouvrir.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика (J4.0b): суверенитет данных: запись остаётся в стране Onesa, пока семья не разрешит кому-либо её открыть.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策（J4.0b）：数据主权：在家庭授权某人打开之前，记录一直留在 Onesa。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Policy: Babies born abroad can get a verifiable vaccine record before they have the host country’s civil registration or a national ID — and registering the birth at home still matters.",
+   "hash": "f440612cf697a60a",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة: يمكن للرضّع المولودين في الخارج الحصول على سجل لقاحات قابل للتحقق قبل حصولهم على التسجيل المدني في البلد المضيف أو هوية وطنية (ID) — ويظل تسجيل الولادة في البلد الأم مهمًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política: Los bebés nacidos en el extranjero pueden obtener un registro de vacunación verificable antes de contar con la inscripción en el registro civil del país de acogida o con un documento nacional de identidad; y registrar el nacimiento en su propio país sigue siendo importante.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique : les bébés nés à l’étranger peuvent obtenir un dossier de vaccination vérifiable avant d’avoir l’enregistrement à l’état civil du pays d’accueil ou une pièce d’identité nationale — et l’enregistrement de la naissance dans le pays de résidence reste important.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика: дети, рождённые за рубежом, могут получить проверяемую запись о вакцинации до регистрации актов гражданского состояния в принимающей стране или получения национального ID — и регистрация рождения на родине по-прежнему важна.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策：在国外出生的婴儿可以在取得所在国民事登记或国民 ID之前获得可验证的疫苗接种记录——而在本国登记出生仍然很重要。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Policy: Continuity of care across borders: each country keeps its own records, with no international patient registry and no vendor lock-in. What is agreed regionally is the data model and the trust list, not a shared copy of the data.",
+   "hash": "9738b0ef6092d053",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة: استمرارية الرعاية عبر الحدود: يحتفظ كل بلد بسجلاته الخاصة، دون سجل دولي للمرضى ودون ارتهان لمورّد. وما يُتفق عليه إقليميًا هو نموذج البيانات وقائمة الثقة، لا نسخة مشتركة من البيانات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política: Continuidad de la atención a través de las fronteras: cada país conserva sus propios registros, sin un registro internacional de pacientes y sin dependencia de un proveedor. Lo que se acuerda a nivel regional es el modelo de datos y la lista de confianza, no una copia compartida de los datos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique : continuité des soins par-delà les frontières : chaque pays conserve ses propres dossiers, sans registre international de patients ni dépendance à un fournisseur. Ce qui est convenu au niveau régional, c’est le modèle de données et la liste de confiance, et non une copie partagée des données.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика: непрерывность медицинской помощи через границы: каждая страна хранит собственные записи, без международного регистра пациентов и без привязки к поставщику. На региональном уровне согласуются модель данных и список доверия, а не общая копия данных.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策：跨境照护的连续性：各国保留各自的记录，没有国际患者登记系统，也没有供应商锁定。在区域层面达成一致的是数据模型和信任列表，而不是共享的数据副本。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Precondition, as in J1: Country B's DSC, under Country B's CSCA, is already shared with the GDHCN, the Trust Anchor. That is what lets the clinic in Taifafeki verify the link in J4.1.",
+   "hash": "41e92b52b1745968",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الشرط المسبق، كما في J1: شهادة DSC الخاصة بالبلد B، الصادرة تحت سلطة CSCA للبلد B، مُشارَكة بالفعل مع GDHCN، مرسى الثقة. وهذا ما يتيح للعيادة في Taifafeki التحقق من الرابط في J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Condición previa, como en J1: el DSC del País B, emitido bajo la CSCA del País B, ya se ha compartido con la GDHCN, el ancla de confianza (Trust Anchor). Eso es lo que permite a la clínica de Taifafeki verificar el enlace en J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Condition préalable, comme dans J1 : le DSC du Pays B, émis sous la CSCA du Pays B, est déjà partagé avec le GDHCN, l’ancre de confiance. C’est ce qui permet à la clinique à Taifafeki de vérifier le lien dans J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предварительное условие, как в J1: DSC страны B, выданный под CSCA страны B, уже передан в GDHCN — якорь доверия. Именно это позволяет клинике в стране Taifafeki проверить ссылку в J4.1.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "前提条件（与 J1 相同）：B 国的 DSC 在 B 国的 CSCA 之下，已共享给 GDHCN（即信任锚）。正是这一点使 Taifafeki 的诊所能够在 J4.1 中验证该链接。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Precondition, as in J3: the DID documents are already loaded. The clinic viewer's trust store is a cached copy of the GDHCN trust list, including Country B's DSC DID document (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). The clinic refreshes it nightly or hourly, against about weekly at the offline J3 clinic. It does not need to be online to verify: verifying reads the cache and never fetches the list. A DSC published after the last refresh fails the trust-list check (<a3>STT-VER-006</a3>), naming that reason.",
+   "hash": "ff3d6463107ceb30",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شرط مسبق، كما في J3: وثائق DID محمَّلة بالفعل. ومخزن الثقة في عارض العيادة نسخة مخزَّنة مؤقتًا من قائمة الثقة في GDHCN، تشمل وثيقة DID لشهادة DSC الخاصة بالبلد B (<a0>STT-TRU-001</a0>، <a1>STT-TRU-002</a1>، <a2>STT-TRU-005</a2>). وتحدّثها العيادة ليلًا أو كل ساعة، مقابل التحديث الأسبوعي تقريبًا في عيادة J3 غير المتصلة. ولا تحتاج إلى أن تكون متصلة للتحقق: فالتحقق يقرأ من الذاكرة المؤقتة ولا يجلب القائمة أبدًا. وتفشل شهادة DSC المنشورة بعد آخر تحديث في فحص قائمة الثقة (<a3>STT-VER-006</a3>)، مع ذكر هذا السبب.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Condición previa, como en J3: los documentos DID ya están cargados. El almacén de confianza del visor de la clínica es una copia en caché de la lista de confianza de la GDHCN, que incluye el documento DID del DSC del País B (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). La clínica la actualiza cada noche o cada hora, frente a aproximadamente una vez por semana en la clínica sin conexión de J3. No necesita estar en línea para verificar: la verificación lee la caché y nunca descarga la lista. Un DSC publicado después de la última actualización no supera la comprobación de la lista de confianza (<a3>STT-VER-006</a3>), y se indica ese motivo.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Condition préalable, comme dans J3 : les documents DID sont déjà chargés. Le magasin de confiance du visualiseur de la clinique est une copie en cache de la liste de confiance du GDHCN, comprenant le document DID du DSC du Pays B (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). La clinique l’actualise chaque nuit ou chaque heure, contre environ une fois par semaine pour la clinique hors ligne de J3. Elle n’a pas besoin d’être en ligne pour vérifier : la vérification lit le cache et ne récupère jamais la liste. Un DSC publié après la dernière actualisation échoue au contrôle de la liste de confiance (<a3>STT-VER-006</a3>), avec ce motif.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предварительное условие, как в J3: документы DID уже загружены. Хранилище доверия средства просмотра клиники — это кэшированная копия списка доверия GDHCN, включая документ DID для DSC Страны B (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). Клиника обновляет его ежедневно ночью или ежечасно, тогда как офлайн-клиника в J3 — примерно раз в неделю. Для проверки подключение к сети не требуется: проверка читает кэш и никогда не загружает список. DSC, опубликованный после последнего обновления, не проходит проверку по списку доверия (<a3>STT-VER-006</a3>) с указанием этой причины.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "前提条件，与 J3 中相同：DID 文档已经加载。诊所查看器的信任存储是 GDHCN 信任列表的缓存副本，其中包括 B 国 DSC 的 DID 文档（<a0>STT-TRU-001</a0>、<a1>STT-TRU-002</a1>、<a2>STT-TRU-005</a2>）。该诊所每晚或每小时刷新一次，而离线的 J3 诊所大约每周刷新一次。验证时无需在线：验证读取缓存，从不获取列表。在最近一次刷新之后发布的 DSC 无法通过信任列表核验（<a3>STT-VER-006</a3>），并会指明该原因。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Precondition: the DID documents are already loaded. Loading them is not a step of this visit. The clinic may be offline all day, so the EHR fetches nothing during it: its trust store holds the GDHCN DEV trust list as it was last refreshed, including XXR's DSC DID document (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). A clinic with no connection of its own refreshes it about weekly, when the CHW visits the base clinic or district health office, where Country B retrieves the list the GDHCN trust anchor distributes. A DSC published after that refresh is not in the clinic's copy, so its DVC fails the trust-list check (<a3>STT-VER-006</a3>) until the next refresh.",
+   "hash": "d53a828ca0dd2962",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شرط مسبق: وثائق DID محمَّلة بالفعل. وتحميلها ليس خطوة من خطوات هذه الزيارة. فقد تبقى العيادة دون اتصال طوال اليوم، لذا لا يجلب EHR أي شيء خلالها: إذ يحتفظ مخزن الثقة لديه بقائمة الثقة DEV في GDHCN كما كانت عند آخر تحديث، بما في ذلك وثيقة DID لشهادة DSC الخاصة بـ XXR (<a0>STT-TRU-001</a0>، <a1>STT-TRU-002</a1>، <a2>STT-TRU-005</a2>). والعيادة التي لا تملك اتصالًا خاصًا بها تحدّثها أسبوعيًا تقريبًا، عندما يزور CHW العيادة الأساسية أو مكتب الصحة في المنطقة، حيث يسترجع البلد B القائمة التي يوزعها مرسى الثقة في GDHCN. وشهادة DSC المنشورة بعد ذلك التحديث لا تكون في نسخة العيادة، لذا تفشل شهادة DVC الخاصة بها في فحص قائمة الثقة (<a3>STT-VER-006</a3>) حتى التحديث التالي.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Condición previa: los documentos DID ya están cargados. Cargarlos no es un paso de esta visita. La clínica puede estar sin conexión todo el día, así que la EHR no descarga nada durante la visita: su almacén de confianza contiene la lista de confianza DEV de la GDHCN tal como estaba en la última actualización, incluido el documento DID del DSC de XXR (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). Una clínica que no tiene conexión propia la actualiza aproximadamente una vez por semana, cuando el CHW visita la clínica de base o la oficina de salud del distrito, donde el País B obtiene la lista que distribuye el ancla de confianza de la GDHCN. Un DSC publicado después de esa actualización no está en la copia de la clínica, por lo que su DVC no supera la comprobación de la lista de confianza (<a3>STT-VER-006</a3>) hasta la siguiente actualización.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Condition préalable : les documents DID sont déjà chargés. Leur chargement n’est pas une étape de cette visite. La clinique peut être hors ligne toute la journée ; le DSE ne récupère donc rien pendant la visite : son magasin de confiance contient la liste de confiance DEV du GDHCN telle qu’elle était lors de sa dernière actualisation, comprenant le document DID du DSC de XXR (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). Une clinique sans connexion propre l’actualise environ une fois par semaine, lorsque le CHW se rend à la clinique de base ou au bureau de santé de district, où le Pays B récupère la liste que distribue l’ancre de confiance du GDHCN. Un DSC publié après cette actualisation ne figure pas dans la copie de la clinique ; son DVC échoue donc au contrôle de la liste de confiance (<a3>STT-VER-006</a3>) jusqu’à la prochaine actualisation.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предварительное условие: документы DID уже загружены. Их загрузка не является шагом этого визита. Клиника может весь день находиться офлайн, поэтому EHR в это время ничего не загружает: её хранилище доверия содержит список доверия GDHCN DEV в состоянии последнего обновления, включая документ DID для DSC XXR (<a0>STT-TRU-001</a0>, <a1>STT-TRU-002</a1>, <a2>STT-TRU-005</a2>). Клиника без собственного подключения обновляет его примерно раз в неделю, когда CHW посещает базовую клинику или районный отдел здравоохранения, где Страна B получает список, распространяемый якорем доверия GDHCN. DSC, опубликованного после этого обновления, нет в копии клиники, поэтому его DVC не проходит проверку по списку доверия (<a3>STT-VER-006</a3>) до следующего обновления.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "前提条件：DID 文档已经加载。加载它们不是本次就诊的步骤。诊所可能整天离线，因此 EHR 在此期间不获取任何内容：其信任存储保存的是最近一次刷新时的 GDHCN DEV 信任列表，其中包括 XXR 的 DSC DID 文档（<a0>STT-TRU-001</a0>、<a1>STT-TRU-002</a1>、<a2>STT-TRU-005</a2>）。自身没有网络连接的诊所大约每周刷新一次，即在 CHW 前往基地诊所或区卫生办公室时进行，B 国在那里获取 GDHCN 信任锚分发的列表。在该次刷新之后发布的 DSC 不在诊所的副本中，因此在下次刷新之前，其 DVC 无法通过信任列表核验（<a3>STT-VER-006</a3>）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Precondition: the issuer's DSC is on the trust list. XXR's document signer certificate (DSC), issued under XXR's Country Signing CA (CSCA), was shared with the GDHCN, the Trust Anchor, before any DVC is signed; the GDHCN publishes it as a DID document. Sharing it is not a step of issuing. A DVC signed with a key whose DSC was never shared fails every receiver's trust-list check (<a0>STT-VER-006</a0>).",
+   "hash": "fcb70471ac36b6c1",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شرط مسبق: شهادة DSC الخاصة بالجهة المُصدِرة موجودة في قائمة الثقة. فقد شوركت شهادة موقِّع المستندات (DSC) الخاصة بـ XXR، الصادرة تحت سلطة التصديق لتوقيع البلد (CSCA) الخاصة بـ XXR، مع GDHCN، أي مرسى الثقة، قبل توقيع أي DVC؛ وتنشرها GDHCN بوصفها وثيقة DID. ومشاركتها ليست خطوة من خطوات الإصدار. وأي DVC موقَّعة بمفتاح لم تُشارَك شهادة DSC الخاصة به قط تفشل في فحص قائمة الثقة لدى كل جهة مُستقبِلة (<a0>STT-VER-006</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Condición previa: el DSC del emisor figura en la lista de confianza. El certificado del firmante de documentos (DSC) de XXR, emitido bajo la CA de firma del país (CSCA) de XXR, se compartió con la GDHCN, el ancla de confianza (Trust Anchor), antes de firmar ningún DVC; la GDHCN lo publica como documento DID. Compartirlo no es un paso de la emisión. Un DVC firmado con una clave cuyo DSC nunca se compartió no supera la comprobación de la lista de confianza de ningún receptor (<a0>STT-VER-006</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Condition préalable : le DSC de l’émetteur figure sur la liste de confiance. Le certificat de signataire de documents (DSC) de XXR, émis sous l’autorité de certification de signature du pays (CSCA) de XXR, a été partagé avec le GDHCN, l’ancre de confiance, avant la signature de tout DVC ; le GDHCN le publie sous forme de document DID. Ce partage n’est pas une étape de l’émission. Un DVC signé avec une clé dont le DSC n’a jamais été partagé échoue au contrôle de la liste de confiance de tout destinataire (<a0>STT-VER-006</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Предварительное условие: DSC эмитента есть в списке доверия. Сертификат подписанта документов (DSC) XXR, выданный удостоверяющим центром XXR для подписания на уровне страны (Country Signing CA, CSCA), был передан в GDHCN — якорь доверия — до подписания какого-либо DVC; GDHCN публикует его как документ DID. Его передача не является шагом выпуска. DVC, подписанный ключом, DSC которого никогда не передавался, не проходит проверку по списку доверия ни у одного получателя (<a0>STT-VER-006</a0>).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "前提条件：签发方的 DSC 位于信任列表上。XXR 的文档签名证书（DSC）由 XXR 的国家签名证书颁发机构（CSCA）签发，在签署任何 DVC 之前已与作为信任锚的 GDHCN 共享；GDHCN 将其作为 DID 文档发布。共享它不是签发的步骤。用 DSC 从未被共享的密钥签名的 DVC，在每个接收方的信任列表核验中都会失败（<a0>STT-VER-006</a0>）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Print a signed record of each birth dose the family can carry anywhere",
+   "hash": "b5fe2f9fdb633834",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أطبع سجلًا موقَّعًا لكل جرعة ولادة يمكن للأسرة حمله إلى أي مكان",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Imprimir un registro firmado de cada dosis al nacer que la familia pueda llevar a cualquier parte",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Imprimer un dossier signé de chaque dose à la naissance que la famille peut emporter partout",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Печатать подписанную запись о каждой дозе при рождении, которую семья может взять с собой куда угодно",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "为每个出生剂次打印一份已签名的记录，让家庭可以随身携带到任何地方",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Read a foreign vaccination QR offline and register the child with it",
+   "hash": "459283c81b628faa",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أقرأ رمز QR أجنبيًا للتطعيم دون اتصال وأسجّل الطفل بواسطته",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Leer sin conexión un QR de vacunación extranjero y registrar al niño con él",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lire hors ligne un code QR de vaccination étranger et enregistrer l’enfant à partir de celui-ci",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Считывать иностранный QR о вакцинации офлайн и регистрировать по нему ребёнка",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线读取外国疫苗接种 QR 码，并据此登记儿童",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Read a visiting child's summary and vaccinations from a QR the parent shows",
+   "hash": "65b768b12fbc8bd6",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أقرأ ملخص طفل زائر وتطعيماته من رمز QR يعرضه الوالد",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Leer el resumen y las vacunas de un niño de paso a partir de un QR que muestra el padre o la madre",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lire le résumé et les vaccinations d’un enfant de passage à partir d’un code QR présenté par le parent",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Читать сводку и сведения о вакцинации приезжего ребёнка по QR, который показывает родитель",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "从家长出示的 QR 码读取来访儿童的摘要和疫苗接种记录",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Refer a child whose foreign record needs checking",
+   "hash": "1c0a2d4ea31bd49c",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أُحيل طفلًا يحتاج سجله الأجنبي إلى فحص",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Derivar a un niño cuyo registro extranjero hay que comprobar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Orienter un enfant dont le dossier étranger doit être vérifié",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Направлять ребёнка, чья иностранная запись нуждается в проверке",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "转诊外国记录需要核验的儿童",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Register a newborn into the household offline, before civil registration",
+   "hash": "c7ec227ceda62cba",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أسجّل مولودًا جديدًا في أسرته المعيشية دون اتصال، قبل التسجيل المدني",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registrar sin conexión a un recién nacido en su hogar, antes de la inscripción en el registro civil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistrer hors ligne un nouveau-né dans le ménage, avant l’enregistrement à l’état civil",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрировать новорождённого в домохозяйстве офлайн, до регистрации актов гражданского состояния",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在民事登记之前，离线将新生儿登记到家庭中",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Requirements",
+   "hash": "583db49c6c8af0dd",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "المتطلبات",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Requisitos",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Exigences",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Требования",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "需求",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Role",
+   "hash": "3143dc269767c351",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الدور",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Rol",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Rôle",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Роль",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "角色",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "See which doses are due once the foreign doses are imported",
+   "hash": "9aaca06648838f07",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أرى الجرعات المستحقة بعد استيراد الجرعات الأجنبية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Ver qué dosis corresponden una vez importadas las dosis extranjeras",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Voir quelles doses sont dues une fois les doses étrangères importées",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Видеть, какие дозы положены после импорта иностранных доз",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在导入外国剂次后查看哪些剂次应接种",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Show each family member's records abroad from our one shared phone, with a passcode I can say aloud",
+   "hash": "b7f1a59e8c8b71c2",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أن أعرض سجلات كل فرد من الأسرة في الخارج من هاتفنا المشترك الوحيد، برمز مرور أستطيع نطقه بصوت عالٍ",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Mostrar en el extranjero los registros de cada miembro de la familia desde nuestro único teléfono compartido, con un código de acceso que pueda decir en voz alta",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Présenter à l’étranger les dossiers de chaque membre de la famille depuis notre unique téléphone partagé, avec un code d’accès que je peux prononcer à voix haute",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Показывать за рубежом записи каждого члена семьи с нашего единственного общего телефона, с кодом доступа, который я могу произнести вслух",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在国外用我们共用的一部手机出示每位家庭成员的记录，并使用一个我可以口头说出的通行码",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "So that",
+   "hash": "2757f7c3045967e5",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كي",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Para que",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Afin que",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Чтобы",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以便",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the clinic sees what was given before the family arrives",
+   "hash": "9e713fafa4f96984",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ترى العيادة ما أُعطي قبل وصول الأسرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la clínica vea lo que se administró antes de que llegue la familia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la clinique voit ce qui a été administré avant l’arrivée de la famille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "клиника видела, что было введено, ещё до прихода семьи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "诊所在家庭到达之前就能看到已接种的内容",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the other country's record is never overwritten and the next nurse need not decide again",
+   "hash": "40d933f71e121987",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يُكتب أبدًا فوق سجل البلد الآخر ولا تحتاج الممرضة التالية إلى اتخاذ القرار مجددًا",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "nunca se sobrescriba el registro del otro país y la próxima enfermera no tenga que volver a decidir",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "le dossier de l’autre pays n’est jamais écrasé et l’infirmière suivante n’a pas à décider de nouveau",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "запись другой страны никогда не перезаписывалась, а следующей медсестре не пришлось решать заново",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "另一国家的记录永远不会被覆盖，下一位护士也无需再次决定",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The QR holds only a pointer and a key: the record stays in Onesa.",
+   "hash": "1365c47edca5a7ea",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يحمل رمز QR سوى مؤشر ومفتاح: يبقى السجل في Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El QR contiene solo un puntero y una clave: el registro permanece en Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code QR ne contient qu’un pointeur et une clé : le dossier reste à Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR-код содержит только указатель и ключ: запись остаётся в стране Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "QR 码只包含一个指针和一个密钥：记录留在 Onesa。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the record stays at home and I know who has looked",
+   "hash": "e3b95758bd170be6",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبقى السجل في البلد الأم وأعرف مَن اطّلع عليه",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "el registro permanezca en nuestro país y yo sepa quién lo ha consultado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "le dossier reste dans le pays et je sais qui l’a consulté",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "запись оставалась на родине и я знал, кто её просматривал",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "记录留在本国，并且我知道谁查看过",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The viewer decrypts the IPS and DVCs (<a0>STT-VHL-007</a0>) ({code0}).",
+   "hash": "f63f7bab9be5d4c1",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يفك العارض تشفير IPS وشهادات DVC (<a0>STT-VHL-007</a0>) ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El visor descifra el IPS y los DVC (<a0>STT-VHL-007</a0>) ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le visualiseur déchiffre l’IPS et les DVC (<a0>STT-VHL-007</a0>) ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Средство просмотра расшифровывает IPS и DVC (<a0>STT-VHL-007</a0>) ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "查看器解密 IPS 和 DVC（<a0>STT-VHL-007</a0>）（{code0}）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The viewer verifies the HCERT against Country B's DSC in its copy of the trust list.",
+   "hash": "162082b2155bff2e",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتحقق العارض من HCERT مقابل شهادة DSC الخاصة بالبلد B في نسخته من قائمة الثقة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El visor verifica el HCERT con el DSC del País B en su copia de la lista de confianza.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le visualiseur vérifie le HCERT par rapport au DSC du Pays B dans sa copie de la liste de confiance.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Средство просмотра проверяет HCERT по DSC Страны B в своей копии списка доверия.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "查看器对照其信任列表副本中 B 国的 DSC 验证该 HCERT。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "User scenarios",
+   "hash": "0d0b1c1573cb436f",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدمين",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenarios de usuario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénarios d’utilisateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户场景",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "User stories",
+   "hash": "ae539ab39dcdd699",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قصص المستخدمين",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Historias de usuario",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Récits d’utilisateur",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские истории",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "用户故事",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "verification is done by someone who can",
+   "hash": "acb6c7ab189daf3c",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يتولى التحقق شخص قادر عليه",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la verificación la haga alguien que pueda hacerla",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la vérification est effectuée par quelqu’un qui en est capable",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "проверку выполнил тот, кто может это сделать",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "由有能力的人进行验证",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "without installing anything or calling another country",
+   "hash": "a82b5b0946d6def5",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "دون تثبيت أي شيء أو الاتصال ببلد آخر",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "sin instalar nada ni llamar a otro país",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "sans rien installer ni appeler un autre pays",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "ничего не устанавливая и не обращаясь в другую страну",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "无需安装任何东西，也无需联系另一个国家",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Each step names the requirements of <a0>smart-trust-tools</a0> it exercises, and the FHIR examples of this guide it produces. The stories are in <a1>{code0}</a1>. Each moment ends with its pain point, what enables it, and the policy point it makes, as the journeys walkthrough presents them.",
+   "hash": "85ffd9be88e126ec",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تذكر كل خطوة متطلبات <a0>smart-trust-tools</a0> التي تختبرها، وأمثلة FHIR من هذا الدليل التي تُنتجها. والقصص موجودة في <a1>{code0}</a1>. وتنتهي كل لحظة بنقطة الألم فيها، وما يُمكِّنها، والنقطة التي تطرحها في السياسات، كما تعرضها الجولة الإرشادية للرحلات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada paso indica los requisitos de <a0>smart-trust-tools</a0> que pone a prueba y los ejemplos FHIR de esta guía que produce. Las historias están en <a1>{code0}</a1>. Cada momento termina con su punto crítico, lo que lo hace posible y el punto de política que expone, tal como los presenta la visita guiada de los recorridos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque étape nomme les exigences de <a0>smart-trust-tools</a0> qu’elle sollicite, ainsi que les exemples FHIR de ce guide qu’elle produit. Les récits se trouvent dans <a1>{code0}</a1>. Chaque moment se termine par son point de friction, ce qui le rend possible et le point de politique qu’il illustre, tels que les présente la présentation guidée des parcours.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Для каждого шага указаны требования <a0>smart-trust-tools</a0>, которые он задействует, и примеры FHIR этого руководства, которые он создаёт. Истории находятся в <a1>{code0}</a1>. Каждый момент завершается описанием проблемы, того, что делает решение возможным, и вывода для политики — так, как их представляет пошаговый обзор путей.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个步骤都列出它所运用的 <a0>smart-trust-tools</a0> 需求，以及它所产生的本指南 FHIR 示例。用户故事位于 <a1>{code0}</a1> 中。每个时刻都以其痛点、促成因素及其所体现的政策要点结尾，与旅程演练中的呈现方式一致。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Khamla leaves with two paper DVCs. In the demo: the library tests use the WHO guide's own two signed HC1 strings (<a0>QR Code Generation §12</a0>), which verify against the live DEV trust list under the same XXR key. Somsak's DVC payloads are illustrative. Live issuance in the app uses a TEST-ONLY key (<a1>STT-ISS-003</a1>), whose DSC is not on the GDHCN list, so its DVCs do not verify in J3.",
+   "hash": "1d9f9a32f6db4d22",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تغادر Khamla ومعها شهادتا تطعيم رقميتان (DVC) ورقيتان. في العرض التوضيحي: تستخدم اختبارات المكتبة سلسلتَي HC1 الموقَّعتين الواردتين في دليل منظمة الصحة العالمية (WHO) نفسه (<a0>توليد رمز QR §12</a0>)، واللتين تجتازان التحقق مقابل قائمة الثقة DEV الحية تحت مفتاح XXR نفسه. وحمولات DVC الخاصة بـ Somsak توضيحية. ويستخدم الإصدار المباشر في التطبيق مفتاحًا TEST-ONLY (<a1>STT-ISS-003</a1>)، وشهادة DSC الخاصة به ليست في قائمة GDHCN، لذا لا تجتاز شهادات DVC الصادرة عنه التحقق في J3.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Khamla se va con dos DVC en papel. En la demostración: las pruebas de la biblioteca usan las dos cadenas HC1 firmadas de la propia guía de la OMS (<a0>QR Code Generation §12</a0>), que se verifican con la lista de confianza DEV en vivo bajo la misma clave de XXR. Las cargas útiles de los DVC de Somsak son ilustrativas. La emisión en vivo en la aplicación usa una clave TEST-ONLY (<a1>STT-ISS-003</a1>), cuyo DSC no figura en la lista de la GDHCN, por lo que sus DVC no se verifican en J3.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Khamla repart avec deux DVC papier. Dans la démonstration : les tests de la bibliothèque utilisent les deux chaînes HC1 signées du guide de l’OMS lui-même (<a0>QR Code Generation §12</a0>), qui sont vérifiées par rapport à la liste de confiance DEV en ligne sous la même clé XXR. Les charges utiles des DVC de Somsak sont illustratives. L’émission en direct dans l’application utilise une clé TEST-ONLY (<a1>STT-ISS-003</a1>), dont le DSC ne figure pas sur la liste du GDHCN ; ses DVC ne sont donc pas vérifiés dans J3.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Khamla уходит с двумя бумажными DVC. В демонстрации: тесты библиотеки используют две собственные подписанные строки HC1 из руководства ВОЗ (<a0>QR Code Generation §12</a0>), которые проходят проверку по действующему списку доверия DEV под тем же ключом XXR. Полезные нагрузки DVC Somsak являются иллюстративными. Для выпуска в реальном времени в приложении используется ключ TEST-ONLY (<a1>STT-ISS-003</a1>), чей DSC отсутствует в списке GDHCN, поэтому его DVC не проходят проверку в J3.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Khamla 带着两份纸质 DVC 离开。在演示中：库测试使用 WHO 指南自带的两个已签名 HC1 字符串（<a0>QR Code Generation §12</a0>），它们在同一 XXR 密钥下对照实时 DEV 信任列表通过验证。Somsak 的 DVC 载荷仅作示意。应用中的实时签发使用一个 TEST-ONLY 密钥（<a1>STT-ISS-003</a1>），其 DSC 不在 GDHCN 列表上，因此其签发的 DVC 在 J3 中无法通过验证。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J1 — Vaccinated and recorded (Taifafeki, birth day)",
+   "hash": "3681fbc56e308136",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J1 — تطعيمه وتسجيل جرعاته (Taifafeki، يوم الولادة)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J1 — Vacunado y registrado (Taifafeki, día del nacimiento)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J1 — Vacciné et enregistré (Taifafeki, jour de la naissance)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J1 — Привит, прививки записаны (Taifafeki, день рождения)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J1 — 接种并记录（Taifafeki，出生当天）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2 — Found and registered (Onesa, Somsak is 7 weeks old)",
+   "hash": "86f2e8c9319655c5",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2 — العثور عليه وتسجيله (Onesa، عمر Somsak 7 أسابيع)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2 — Detectado y registrado (Onesa, Somsak tiene 7 semanas)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2 — Retrouvé et enregistré (Onesa, Somsak a 7 semaines)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2 — Найден и зарегистрирован (Onesa, Somsak исполнилось 7 недель)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2 — 被发现并登记（Onesa，Somsak 7 周大）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3 — A foreign record used for the next vaccine (Lomaru District Health Center, Somsak is 10 weeks old)",
+   "hash": "22dcdc8777d49dd4",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3 — سجل أجنبي يُستخدم للقاح التالي (المركز الصحي في منطقة لومارو، عمر Somsak 10 أسابيع)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3 — Un registro extranjero usado para la siguiente vacuna (Centro de Salud de Distrito de Lomaru, Somsak tiene 10 semanas)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3 — Un dossier étranger utilisé pour le vaccin suivant (centre de santé du district de Lomaru, Somsak a 10 semaines)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3 — Иностранная запись используется для следующей прививки (районный медицинский центр Ломару, Somsak исполнилось 10 недель)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3 — 外国记录用于下一次接种（洛马鲁区卫生中心，Somsak 10 周大）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0 — Continuity across a border: one family, one phone (Onesa, 12 months later)",
+   "hash": "05f642ee5e65cb5c",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0 — الاستمرارية عبر الحدود: أسرة واحدة، هاتف واحد (Onesa، بعد 12 شهرًا)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0 — Continuidad a través de una frontera: una familia, un teléfono (Onesa, 12 meses después)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0 — Continuité par-delà une frontière : une famille, un téléphone (Onesa, 12 mois plus tard)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0 — Непрерывность через границу: одна семья, один телефон (Onesa, 12 месяцев спустя)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0 — 跨境连续性：一个家庭，一部手机（Onesa，12 个月后）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The clinic viewer and the Onesa gateway take five steps:",
+   "hash": "897046dbbb5872a6",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "وفي المكان الذي بدأت فيه القصة، يفحص د. Anan، وهو طبيب أطفال، الطفلَ Somsak في عيادة أطفال في كيسارو. يُظهر Bounmy رمز QR على هاتفه وينطق رمز المرور. ويتّخذ عارض العيادة وبوابة الربط في Onesa خمس خطوات:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De vuelta donde empezó todo, el Dr. Anan, pediatra, atiende a Somsak en una clínica pediátrica de Kesaro. Bounmy muestra el QR en su teléfono y dice el código de acceso. El visor de la clínica y la puerta de enlace de Onesa siguen cinco pasos:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "De retour là où tout a commencé, le Dr Anan, pédiatre, reçoit Somsak dans une clinique pédiatrique de Kesaro. Bounmy montre le code QR sur son téléphone et prononce le code d’accès. Le visualiseur de la clinique et la passerelle du pays Onesa effectuent cinq étapes :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Там, где всё началось: доктор Anan, педиатр, осматривает Somsak в педиатрической клинике в Кесаро. Bounmy показывает QR-код на своём телефоне и называет код доступа. Программа просмотра клиники и шлюз страны Onesa выполняют пять шагов:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "回到故事开始的地方，Anan 医生（一位儿科医生）在凯萨罗的一家儿科诊所为 Somsak 看诊。Bounmy 在手机上出示 QR 码并说出通行码。诊所查看器和 Onesa 网关分五步进行：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Enabler (J3a): The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally.",
+   "hash": "a2d1b0d4cd362fb9",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عامل التمكين (J3a): مفتاح التوقيع الخاص بدولة Taifafeki موجود على قائمة الثقة المشتركة لمنظمة الصحة العالمية (WHO)، لذا يمكن لأي عيادة التحقق منه محليًا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Facilitador (J3a): La clave de firma de Taifafeki figura en la lista de confianza compartida de la OMS, por lo que cualquier clínica puede comprobarla localmente.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Facilitateur (J3a) : la clé de signature de Taifafeki figure sur la liste de confiance partagée de l’OMS, de sorte que toute clinique peut la vérifier localement.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что помогает (J3a): ключ подписи страны Taifafeki находится в общем списке доверия ВОЗ, поэтому любая клиника может проверить его локально.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "促成因素（J3a）：Taifafeki 的签名密钥在共享的 WHO 信任列表上，因此任何诊所都可以在本地进行核验。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Enabler (J3b): The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due.",
+   "hash": "76c6ca786c06a023",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عامل التمكين (J3b): يُحتفظ بالرمز الأصلي الصادر عن Taifafeki ويُضاف رمز Onesa بجانبه، ويحسب محرك الجدول ما هو مستحق.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Facilitador (J3b): Se conserva el código original de Taifafeki y se añade el código de Onesa junto a él; el motor del calendario calcula qué dosis corresponden.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Facilitateur (J3b) : le code d’origine de Taifafeki est conservé et le code du pays Onesa est ajouté à côté ; le moteur de calendrier calcule ce qui est dû.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что помогает (J3b): исходный код из страны Taifafeki сохраняется, а код страны Onesa добавляется рядом; механизм графика рассчитывает, какие дозы положены.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "促成因素（J3b）：保留来自 Taifafeki 的原始编码，并在其旁边添加 Onesa 的编码；接种计划引擎计算应接种的剂次。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2a. Khamla has brought Somsak home to Onesa. On a routine visit to Village 04, Khamla's village, Vilay finds a newborn the Onesa system does not know exists. Her phone has had no signal for weeks. Khamla shows the two cards. The CHW app reads them with read-unverified (<a0>STT-VER-011</a0>; <a1>STT-B45-002</a1>, <a2>STT-ZIP-002</a2>, <a3>STT-CBR-003</a3>), which needs no trust list. It shows the doses, but checks no signature and saves nothing yet.",
+   "hash": "3d1977e06fc9ff56",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2a. أعادت Khamla الطفل Somsak إلى الوطن في Onesa. وخلال زيارة روتينية إلى القرية 04، قرية Khamla، تعثر Vilay على مولود جديد لا يعلم نظام Onesa بوجوده. لم يلتقط هاتفها أي إشارة منذ أسابيع. تعرض Khamla البطاقتين. يقرؤهما تطبيق عامل الصحة المجتمعي (CHW) بوضع «القراءة دون تحقق» (<a0>STT-VER-011</a0>؛ <a1>STT-B45-002</a1>، <a2>STT-ZIP-002</a2>، <a3>STT-CBR-003</a3>)، الذي لا يحتاج إلى قائمة ثقة. فيعرض الجرعات، لكنه لا يتحقق من أي توقيع ولا يحفظ شيئًا بعد.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2a. Khamla ha traído a Somsak a casa, a Onesa. En una visita de rutina a Village 04, la aldea de Khamla, Vilay encuentra a un recién nacido cuya existencia desconoce el sistema de Onesa. Su teléfono lleva semanas sin señal. Khamla muestra las dos tarjetas. La aplicación del CHW las lee con read-unverified (<a0>STT-VER-011</a0>; <a1>STT-B45-002</a1>, <a2>STT-ZIP-002</a2>, <a3>STT-CBR-003</a3>), que no necesita lista de confianza. Muestra las dosis, pero no comprueba ninguna firma ni guarda nada todavía.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2a. Khamla a ramené Somsak chez elle, à Onesa. Lors d’une visite de routine au Village 04, le village de Khamla, Vilay trouve un nouveau-né dont le système du pays Onesa ignore l’existence. Son téléphone n’a pas eu de signal depuis des semaines. Khamla montre les deux cartes. L’application CHW les lit en mode read-unverified (<a0>STT-VER-011</a0> ; <a1>STT-B45-002</a1>, <a2>STT-ZIP-002</a2>, <a3>STT-CBR-003</a3>), qui ne nécessite aucune liste de confiance. Elle affiche les doses, mais ne vérifie aucune signature et n’enregistre encore rien.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2a. Khamla привезла Somsak домой, в страну Onesa. Во время планового визита в деревню 04, где живёт Khamla, Vilay находит новорождённого, о существовании которого система страны Onesa не знает. Её телефон уже несколько недель не ловит сигнал. Khamla показывает две карточки. Приложение CHW считывает их функцией read-unverified (<a0>STT-VER-011</a0>; <a1>STT-B45-002</a1>, <a2>STT-ZIP-002</a2>, <a3>STT-CBR-003</a3>), которой не нужен список доверия. Оно показывает дозы, но не проверяет подписи и пока ничего не сохраняет.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2a. Khamla 已带 Somsak 回到 Onesa 的家。在一次对 Village 04（Khamla 所在的村庄）的例行走访中，Vilay 发现了一名 Onesa 系统并不知道其存在的新生儿。她的手机已经好几周没有信号了。Khamla 出示两张卡片。CHW 应用以“未验证读取”（read-unverified）方式读取它们（<a0>STT-VER-011</a0>；<a1>STT-B45-002</a1>、<a2>STT-ZIP-002</a2>、<a3>STT-CBR-003</a3>），这不需要信任列表。它显示剂次，但不核验任何签名，也暂不保存任何内容。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3b. The Taifafeki Hep B product matches nothing on the national schedule. The EHR keeps the product coding of Taifafeki and adds the schedule coding beside it, from the national map ({code0}). For the Hep B product the map has no entry, so Nurse Chanthason makes the clinical call that it is the schedule's birth dose ({code1}), and her decision is added to the map for the next clinic. The schedule ({code2}) then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at 6 weeks, are overdue at 10 weeks ({code3}), so Nurse Chanthason gives them that day. Khamla leaves with the date of the next doses ({code4}). Over the year Somsak gets the rest of his doses and measles-rubella at 9 months, in Onesa.",
+   "hash": "e5e359755c2f4a1e",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3b. لا يطابق منتج Hep B من Taifafeki أي شيء في الجدول الوطني. فيحتفظ نظام EHR بترميز المنتج الصادر عن Taifafeki ويضيف ترميز الجدول بجانبه، من الخريطة الوطنية ({code0}). ولا تحتوي الخريطة على قيد لمنتج Hep B، لذا تتخذ الممرضة Chanthason القرار السريري بأنه جرعة الولادة في الجدول ({code1})، ويُضاف قرارها إلى الخريطة للعيادة التالية. ثم يُشغَّل جدول التطعيم ({code2}): تُحتسب جرعات الولادة، أما جرعات الخماسي 1 وbOPV 1 وPCV 1، المستحقة عند 6 أسابيع، فهي متأخرة عند 10 أسابيع ({code3})، لذا تعطيها الممرضة Chanthason في اليوم نفسه. وتغادر Khamla ومعها موعد الجرعات التالية ({code4}). وعلى مدار السنة يتلقى Somsak بقية جرعاته، ولقاح الحصبة والحصبة الألمانية عند 9 أشهر، في Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3b. El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional. La EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación del calendario, a partir del mapa nacional ({code0}). El mapa no tiene ninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la decisión clínica de que es la dosis al nacer del calendario ({code1}), y su decisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario ({code2}): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y la PCV 1, que corresponden a las 6 semanas, están atrasadas a las 10 semanas ({code3}), así que la enfermera Chanthason las administra ese mismo día. Khamla se va con la fecha de las siguientes dosis ({code4}). A lo largo del año, Somsak recibe el resto de sus dosis y la vacuna contra el sarampión y la rubéola a los 9 meses, en Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3b. Le produit de Taifafeki contre l’hépatite B ne correspond à rien dans le calendrier national. Le DSE conserve le codage de produit de Taifafeki et ajoute à côté le codage du calendrier, à partir de la table de correspondance nationale ({code0}). Pour le produit contre l’hépatite B, la table ne contient aucune entrée ; l’infirmière Chanthason prend donc la décision clinique qu’il s’agit de la dose à la naissance du calendrier ({code1}), et sa décision est ajoutée à la table pour la clinique suivante. Le calendrier ({code2}) s’exécute alors : les doses à la naissance sont comptabilisées, et le pentavalent 1, le VPOb 1 et le PCV 1, dus à 6 semaines, sont en retard à 10 semaines ({code3}) ; l’infirmière Chanthason les administre donc le jour même. Khamla repart avec la date des prochaines doses ({code4}). Au cours de l’année, Somsak reçoit le reste de ses doses ainsi que le vaccin rougeole-rubéole à 9 mois, à Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3b. Продукт против гепатита B (Hep B) из страны Taifafeki не соответствует ничему в национальном графике. EHR сохраняет кодировку продукта страны Taifafeki и добавляет рядом кодировку графика из национальной таблицы соответствия ({code0}). Для продукта Hep B в таблице нет записи, поэтому медсестра Chanthason принимает клиническое решение о том, что это доза при рождении по графику ({code1}), и её решение добавляется в таблицу для следующей клиники. Затем применяется график ({code2}): дозы при рождении засчитываются, а пентавалентная 1, bOPV 1 и PCV 1, положенные в 6 недель, в 10 недель оказываются просроченными ({code3}), поэтому медсестра Chanthason вводит их в тот же день. Khamla уходит с датой следующих доз ({code4}). В течение года Somsak получает остальные дозы и вакцину против кори и краснухи в 9 месяцев — в стране Onesa.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3b。Taifafeki 的 Hep B 产品与国家接种计划中的任何条目都不匹配。EHR 保留 Taifafeki 的产品编码，并根据国家映射表（{code0}）在其旁边添加接种计划编码。对于 Hep B 产品，映射表中没有条目，因此 Chanthason 护士作出临床判断，认定它是接种计划中的出生剂次（{code1}），她的决定被添加到映射表中，供下一家诊所使用。随后运行接种计划（{code2}）：出生剂次计入，五联疫苗第 1 剂、bOPV 第 1 剂和 PCV 第 1 剂应在 6 周时接种，到 10 周时已逾期（{code3}），因此 Chanthason 护士当天为他接种。Khamla 带着下一批剂次的日期离开（{code4}）。在这一年里，Somsak 在 Onesa 接种了其余剂次，并在 9 个月时接种了麻疹-风疹疫苗。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history (Kesaro, 12 months later)",
+   "hash": "22ca6d94081237cc",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.1 — الاستمرارية عبر الحدود: طبيب أطفال في Taifafeki يرى التاريخ الكامل (كيسارو، بعد 12 شهرًا)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.1 — Continuidad a través de una frontera: un pediatra de Taifafeki ve el historial completo (Kesaro, 12 meses después)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.1 — Continuité par-delà une frontière : un pédiatre à Taifafeki voit l’historique complet (Kesaro, 12 mois plus tard)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.1 — Непрерывность через границу: педиатр в стране Taifafeki видит всю историю (Кесаро, 12 месяцев спустя)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.1 — 跨境连续性：Taifafeki 的一位儿科医生看到完整的接种史（凯萨罗，12 个月后）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Khamla, a woman from Onesa who works in Taifafeki, gives birth to Somsak on 2025-10-28 at Kesaro Provincial Hospital. He has no Taifafeki identity number. Dr Anan gives the Hep B and BCG birth doses and records them with their WHO PreQual product codes. For each dose, the hospital system does three things:",
+   "hash": "1b9c0be0ce976f30",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تلد Khamla، وهي امرأة من Onesa تعمل في Taifafeki، الطفلَ Somsak في 2025-10-28 في مستشفى كيسارو الإقليمي. ليس لديه رقم هوية في Taifafeki. يعطي د. Anan جرعتي الولادة من لقاحَي Hep B وBCG ويسجّلهما برموز منتجات WHO PreQual الخاصة بهما. ولكل جرعة، يقوم نظام المستشفى بثلاثة أمور:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Khamla, una ciudadana de Onesa que trabaja en Taifafeki, da a luz a Somsak el 2025-10-28 en el Hospital Provincial de Kesaro. El bebé no tiene número de identidad de Taifafeki. El Dr. Anan administra las dosis al nacer contra la Hep B y la BCG y las registra con sus códigos de producto de la precalificación (PreQual) de la OMS. Para cada dosis, el sistema hospitalario hace tres cosas:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Khamla, une femme du pays Onesa qui travaille à Taifafeki, donne naissance à Somsak le 2025-10-28 à l’hôpital provincial de Kesaro. Il n’a pas de numéro d’identité de Taifafeki. Le Dr Anan administre les doses à la naissance contre l’hépatite B et le BCG et les enregistre avec leurs codes de produit de préqualification de l’OMS. Pour chaque dose, le système de l’hôpital effectue trois opérations :",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Khamla, женщина из страны Onesa, работающая в стране Taifafeki, рожает Somsak 2025-10-28 в провинциальной больнице Кесаро. У него нет идентификационного номера страны Taifafeki. Доктор Anan вводит дозы при рождении против гепатита B (Hep B) и БЦЖ (BCG) и регистрирует их с кодами продуктов преквалификации ВОЗ (PreQual). Для каждой дозы больничная система выполняет три действия:",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Khamla 是一位来自 Onesa、在 Taifafeki 工作的女性，她于 2025-10-28 在凯萨罗府医院生下 Somsak。他没有 Taifafeki 身份号码。Anan 医生为他接种 Hep B 和 BCG 出生剂次，并用其 WHO PreQual 产品代码进行记录。对于每一剂次，医院系统做三件事：",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Policy (J3a): Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki.",
+   "hash": "7f63a2c02f8d3165",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "السياسة (J3a): الثقة لامركزية: تتحقق عيادة في Onesa بنفسها من توقيع صادر عن Taifafeki، دون التواصل مع Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Política (J3a): La confianza está descentralizada: una clínica de Onesa verifica por sí misma una firma de Taifafeki, sin contactar con Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Politique (J3a) : la confiance est décentralisée : une clinique à Onesa vérifie elle-même une signature de Taifafeki, sans contacter Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Политика (J3a): доверие децентрализовано: клиника в стране Onesa сама проверяет подпись из страны Taifafeki, не обращаясь к стране Taifafeki.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "政策（J3a）：信任是去中心化的：Onesa 的诊所自行验证来自 Taifafeki 的签名，无需联系 Taifafeki。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The Onesa gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home ({code0}).",
+   "hash": "e63303de6e856470",
+   "sources": [
+    "input/pagecontent/scenarios.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتحقق بوابة الربط في Onesa من رمز المرور وتاريخ الانتهاء والموافقة، وتُعيد البيان، وتسجّل الوصول في الوطن ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "La puerta de enlace de Onesa comprueba el código de acceso, la caducidad y el consentimiento, devuelve el manifiesto y registra el acceso en el país de residencia ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "La passerelle du pays Onesa vérifie le code d’accès, l’expiration et le consentement, renvoie le manifeste et journalise l’accès dans le pays de résidence ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Шлюз страны Onesa проверяет код доступа, срок действия и согласие, возвращает манифест и регистрирует доступ на родине ({code0}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 网关检查通行码、有效期和同意，返回清单，并在本国记录此次访问（{code0}）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

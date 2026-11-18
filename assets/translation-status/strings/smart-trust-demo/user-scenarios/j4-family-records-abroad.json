@@ -1,0 +1,376 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "user-scenarios/j4-family-records-abroad",
+ "hashes": {
+  "ar": "713f26021c4e64d6",
+  "es": "e6e3c6a8828fbabf",
+  "fr": "3062a49f2ef3195f",
+  "ru": "88850fb93aa122a8",
+  "zh": "81ca42e4889948b2"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Cross-Border",
+   "hash": "e3c3ff76ff705b9b",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عابر للحدود",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Transfronterizo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Transfrontalier",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Трансграничный",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "跨境",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "The family's records go on one shared phone as Verifiable Health Links (J4.0), and a year later a doctor back in Taifafeki reads the whole history from Onesa (J4.1). One chapter of the walkthrough, two BPMN processes, so two sub-journeys.",
+   "hash": "f808cd83937046cd",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُحفَظ سجلات الأسرة على هاتف واحد مشترك في صورة روابط صحية قابلة للتحقق (J4.0)، وبعد عام يقرأ طبيب في Taifafeki التاريخ الكامل من Onesa (J4.1). فصل واحد من الجولة الإرشادية، وعمليتا BPMN، ومن ثَمّ رحلتان فرعيتان.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los registros de la familia pasan a un único teléfono compartido como enlaces sanitarios verificables (J4.0), y un año después un médico, de vuelta en Taifafeki, lee todo el historial desde Onesa (J4.1). Un capítulo del recorrido guiado, dos procesos BPMN y, por tanto, dos subrecorridos.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les dossiers de la famille sont placés sur un seul téléphone partagé sous forme de liens de santé vérifiables (J4.0), et un an plus tard, un médecin de retour à Taifafeki lit tout l’historique depuis Onesa (J4.1). Un chapitre de la présentation guidée, deux processus BPMN, donc deux sous-parcours.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Записи семьи попадают на один общий телефон в виде проверяемых ссылок на медицинские данные (Verifiable Health Links) (J4.0), а год спустя врач снова в стране Taifafeki читает всю историю из страны Onesa (J4.1). Одна глава пошагового обзора, два процесса BPMN — а значит, два подпути.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这家人的记录以可验证健康链接的形式存放在一部共享手机上（J4.0），一年后，回到 Taifafeki 的一位医生从 Onesa 读取完整的接种史（J4.1）。演练中的一章，两个 BPMN 流程，因此分为两个子旅程。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "User scenarios in the IG (J4.0 and J4.1)",
+   "hash": "9ddd5361c34ce358",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريوهات المستخدم في دليل التنفيذ (IG) (J4.0 و J4.1)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenarios de usuario en la IG (J4.0 y J4.1)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénarios utilisateur dans l’IG (J4.0 et J4.1)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательские сценарии в IG (J4.0 и J4.1)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "实施指南（IG）中的用户场景（J4.0 和 J4.1）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Onesa ⇄ Taifafeki",
+   "hash": "a04e7859a74ce96e",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa ⇄ Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa ⇄ Taifafeki",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa ⇄ Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa ⇄ Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa ⇄ Taifafeki",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Passcode link on Dad’s phone",
+   "hash": "81b0032c50b27047",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "رابط برمز مرور على هاتف الأب",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Enlace con código de acceso en el teléfono de papá",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lien à code d’accès sur le téléphone de papa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Ссылка с кодом доступа на телефоне папы",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "爸爸手机上的通行码链接",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Taifafeki doctor sees it all",
+   "hash": "920ee4b0dd31169c",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "طبيب في Taifafeki يرى كل شيء",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un médico de Taifafeki lo ve todo",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un médecin de Taifafeki voit tout",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Врач в стране Taifafeki видит всё",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 医生看到全部记录",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "6 to 12 months later",
+   "hash": "370ce42882bcb762",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بعد 6 إلى 12 شهرًا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "De 6 a 12 meses después",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "6 à 12 mois plus tard",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "От 6 до 12 месяцев спустя",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "6 到 12 个月后",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Onesa and Kesaro",
+   "hash": "517d80924cea2a77",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa و كيسارو",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa y Kesaro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa et Kesaro",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa и Кесаро",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 和凯萨罗",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "J4 — Continuity across a border",
+   "hash": "4025c5ae66e51868",
+   "sources": [
+    "scenarios/user-scenarios/j4-family-records-abroad.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4 — الاستمرارية عبر الحدود",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4 — Continuidad a través de una frontera",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4 — Continuité par-delà une frontière",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4 — Непрерывность через границу",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4 — 跨境连续性",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

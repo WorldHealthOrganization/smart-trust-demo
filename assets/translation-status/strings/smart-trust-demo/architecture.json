@@ -1,0 +1,1342 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "architecture",
+ "hashes": {
+  "ar": "ce2f56c6a925d227",
+  "es": "3219cf3ea40b7f37",
+  "fr": "e7c5ecd3fa97a6c0",
+  "ru": "4a59204731eacb6b",
+  "zh": "591464fda152d168"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>J1 on the DPI-H RA</a0>",
+   "hash": "687636cff9325f92",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J1 على البنية المرجعية DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J1 sobre la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J1 sur la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J1 на DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>DPI-H RA 上的 J1</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J2 on the DPI-H RA</a0>",
+   "hash": "833987fdfe4694bb",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J2 على البنية المرجعية DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J2 sobre la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J2 sur la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J2 на DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>DPI-H RA 上的 J2</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J3 on the DPI-H RA</a0>",
+   "hash": "77a14bd45877eeca",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J3 على البنية المرجعية DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J3 sobre la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J3 sur la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J3 на DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>DPI-H RA 上的 J3</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J4.0 on the DPI-H RA</a0>",
+   "hash": "cb4a040135da4b28",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J4.0 على البنية المرجعية DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J4.0 sobre la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J4.0 sur la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J4.0 на DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>DPI-H RA 上的 J4.0</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>J4.1 on the DPI-H RA</a0>",
+   "hash": "40ffaafdb2bb5b18",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>J4.1 على البنية المرجعية DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>J4.1 sobre la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>J4.1 sur la RA DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>J4.1 на DPI-H RA</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>DPI-H RA 上的 J4.1</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Journeys, people and capabilities</a0>",
+   "hash": "00940c5d7e6287bd",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الرحلات والأشخاص والقدرات</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Recorridos, personas y capacidades</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Parcours, personnes et capacités</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Пути, люди и возможности</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>旅程、人物与能力</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "<a0>Systems on the DPI-H Integrated View</a0>",
+   "hash": "153e46ca9774498e",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>الأنظمة على العرض المتكامل لـ DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Sistemas sobre la Vista Integrada de DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Systèmes sur la vue intégrée DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Системы на интегрированном представлении DPI-H</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>DPI-H 集成视图上的系统</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Architecture: the demonstrator on the DPI-H RA",
+   "hash": "a1c1c14cb4c82552",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البنية: النموذج التوضيحي على البنية المرجعية DPI-H RA",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Arquitectura: el demostrador sobre la RA DPI-H",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Architecture : le démonstrateur sur la RA DPI-H",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Архитектура: демонстратор на DPI-H RA",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "架构：DPI-H RA 上的演示项目",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "each journey's realization of the RA capabilities it exercises.",
+   "hash": "d3b4de7fc2db7c14",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تجسيد كل رحلة لقدرات البنية المرجعية (RA) التي تمارسها.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "la realización, por cada recorrido, de las capacidades de la RA que ejercita.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "la réalisation, par chaque parcours, des capacités de la RA qu'il sollicite.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "реализацию в каждом пути тех возможностей RA, которые он задействует.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个旅程对其所运用的 RA 能力的实现。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "each of those roles associated with the RA stakeholder it belongs to: the caregiver with Citizens / Care recipients, the clinicians and the community health worker with Health Workers (a role and a stakeholder are different element types, so ArchiMate allows an association, not a specialization);",
+   "hash": "d2623de588fca203",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ربط كلٍّ من تلك الأدوار بصاحب المصلحة في البنية المرجعية (RA) الذي ينتمي إليه: مقدِّم الرعاية مع «المواطنين / متلقي الرعاية»، والممارسين السريريين وعامل الصحة المجتمعي مع «العاملين الصحيين» (الدور وصاحب المصلحة نوعان مختلفان من العناصر، ولذلك تسمح ArchiMate بعلاقة ارتباط لا بعلاقة تخصيص)؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "cada uno de esos roles asociado a la parte interesada de la RA a la que pertenece: el cuidador con Citizens / Care recipients, los profesionales clínicos y el agente comunitario de salud con Health Workers (un rol y una parte interesada son tipos de elemento distintos, por lo que ArchiMate permite una asociación, no una especialización);",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "chacun de ces rôles associé à la partie prenante de la RA à laquelle il appartient : l'aidant aux Citoyens / Bénéficiaires de soins, les cliniciens et l'agent de santé communautaire aux Agents de santé (un rôle et une partie prenante sont des types d'éléments différents ; ArchiMate autorise donc une association, et non une spécialisation) ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "связь каждой из этих ролей с заинтересованной стороной RA, к которой она относится: лица, осуществляющего уход, — с Citizens / Care recipients, клиницистов и общинного медицинского работника — с Health Workers (роль и заинтересованная сторона — элементы разных типов, поэтому ArchiMate допускает ассоциацию, а не специализацию);",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "上述每个角色与其所属的 RA 利益相关方相关联：照护者关联 Citizens / Care recipients（公民 / 照护对象），临床医生和社区卫生工作者关联 Health Workers（卫生工作者）（角色和利益相关方是不同的元素类型，因此 ArchiMate 允许关联关系，而非特化关系）；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every box in a drawing links to its element's page. <a0>All views and elements</a0>.",
+   "hash": "aa9d34f6b0bb8f7a",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كل مربع في الرسم مرتبط بصفحة عنصره. <a0>جميع العروض والعناصر</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada recuadro de un dibujo enlaza con la página de su elemento. <a0>Todas las vistas y elementos</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque boîte d'un dessin renvoie à la page de son élément. <a0>Toutes les vues et tous les éléments</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждый блок на схеме ссылается на страницу своего элемента. <a0>Все представления и элементы</a0>.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "图中每个方框都链接到其元素的页面。<a0>所有视图和元素</a0>。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every element names its concept in the <a0>glossary</a0> ({code0}), drawn from the same sources as the model, and every role and system names the FHIR {code1} it realizes ({code2}).",
+   "hash": "885b9090e937f9f0",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُسمّي كل عنصر مفهومه في <a0>المسرد</a0> ({code0})، المستمد من المصادر نفسها التي يُستمد منها النموذج، ويُسمّي كل دور وكل نظام مورد FHIR من نوع {code1} الذي يجسّده ({code2}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada elemento nombra su concepto en el <a0>glosario</a0> ({code0}), tomado de las mismas fuentes que el modelo, y cada rol y sistema nombra el {code1} de FHIR que realiza ({code2}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque élément nomme son concept dans le <a0>glossaire</a0> ({code0}), tiré des mêmes sources que le modèle, et chaque rôle et chaque système nomme le {code1} FHIR qu'il réalise ({code2}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждый элемент называет своё понятие в <a0>глоссарии</a0> ({code0}), составленном из тех же источников, что и модель, а каждая роль и система называет FHIR {code1}, который она реализует ({code2}).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个元素都注明其在<a0>术语表</a0>（{code0}）中的概念，术语表与模型取自相同来源；每个角色和系统都注明其所实现的 FHIR {code1}（{code2}）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Every line is routed orthogonally through the gaps between boxes and never through a box, and ends on a side of its box clear of the box's type label.",
+   "hash": "6d724996cf2368d0",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُوجَّه كل خط توجيهاً متعامداً عبر الفجوات بين المربعات ولا يمر أبداً عبر مربع، وينتهي على جانب من مربعه بعيد عن تسمية نوع المربع.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cada línea se traza ortogonalmente por los huecos entre los recuadros y nunca atraviesa un recuadro, y termina en un lado de su recuadro libre de la etiqueta de tipo del recuadro.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Chaque ligne suit un tracé orthogonal dans les espaces entre les boîtes, sans jamais traverser une boîte, et aboutit sur un côté de sa boîte dégagé de l'étiquette de type de celle-ci.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Каждая линия прокладывается ортогонально через промежутки между блоками и никогда не проходит через блок, а заканчивается на той стороне своего блока, где нет метки типа блока.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每条连线都以正交方式穿过方框之间的空隙，从不穿过方框，并终止于方框上不遮挡其类型标签的一侧。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "How it is made",
+   "hash": "187aae3fb25234df",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "كيف صُنع",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Cómo se construye",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Comment il est produit",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Как это сделано",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "制作方式",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J1 Issue the birth-dose DVCs",
+   "hash": "cdc6d05540c9482e",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J1 إصدار شهادات التطعيم الرقمية (DVC) لجرعات الولادة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J1 Emitir los DVC de las dosis al nacer",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J1 Émettre les DVC de la dose à la naissance",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J1 Выдача DVC о дозах при рождении",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J1 签发出生剂次 DVC",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J2 Discover and refer the infant",
+   "hash": "fb8ae54ddb2590ab",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2 اكتشاف الرضيع وإحالته",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2 Detectar y derivar al lactante",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2 Repérer et orienter le nourrisson",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2 Выявление и направление младенца",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2 发现并转诊婴儿",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J3 Verify, import and schedule",
+   "hash": "68ae3aa0f68e8d23",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J3 التحقق والاستيراد والجدولة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J3 Verificar, importar y programar",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J3 Vérifier, importer et planifier",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J3 Проверка, импорт и график",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J3 验证、导入并制定接种计划",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.0 Issue the family's VHLs",
+   "hash": "58085f55b569d751",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.0 إصدار روابط VHL للأسرة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.0 Emitir los VHL de la familia",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.0 Émettre les VHL de la famille",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.0 Выдача VHL семьи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.0 签发家庭的 VHL",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "J4.1 Read records at the point of care",
+   "hash": "cdba15cb267da313",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J4.1 قراءة السجلات في نقطة تقديم الرعاية",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J4.1 Leer los registros en el punto de atención",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J4.1 Lire les dossiers au point de soins",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J4.1 Чтение записей в месте оказания помощи",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J4.1 在医疗服务点读取记录",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journey",
+   "hash": "5372f056c9ba81d3",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرحلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorrido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Путь",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Journeys (use cases)",
+   "hash": "bf9b438ac47d2f67",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرحلات (حالات الاستخدام)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recorridos (casos de uso)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parcours (cas d'utilisation)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пути (варианты использования)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程（用例）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "One view per journey",
+   "hash": "f665339f0adcec98",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عرض واحد لكل رحلة",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una vista por recorrido",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une vue par parcours",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Одно представление на путь",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "每个旅程一个视图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Systems on the Integrated View",
+   "hash": "b690bc2a8642b935",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأنظمة على العرض المتكامل",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sistemas sobre la Vista Integrada",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Systèmes sur la vue intégrée",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Системы на интегрированном представлении",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "集成视图上的系统",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the journeys J1 to J4.1 (the use cases) as business processes, one per <a0>BPMN process</a0>;",
+   "hash": "7e2d496a7e6c189d",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الرحلات من J1 إلى J4.1 (حالات الاستخدام) بوصفها عمليات عمل، واحدة لكل <a0>عملية BPMN</a0>؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los recorridos J1 a J4.1 (los casos de uso) como procesos de negocio, uno por <a0>proceso BPMN</a0>;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les parcours J1 à J4.1 (les cas d'utilisation) sous forme de processus métier, un par <a0>processus BPMN</a0> ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "пути с J1 по J4.1 (варианты использования) как бизнес-процессы, по одному на каждый <a0>процесс BPMN</a0>;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "旅程 J1 至 J4.1（用例），作为业务流程，每个 <a0>BPMN 流程</a0>对应一个；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The model is generated, not drawn: {code0} fetches smart-ra's model and its {code1} at the commit in {code2} (sha256 checked), applies {code3}, lays the overlay's views out again with room between the boxes and routes every line orthogonally as Archi bendpoints ({code4}), and writes {code5}. The journeys and their people are read from {code6} and {code7}, and where the countries meet from the BPMN's sequence flows; the systems are the system actors of {code8}, and their parts each actor's {code9} (first drawn as VaxLink's architecture view). {code10} writes the glossary from the same sources. CI fails if the committed model is not what the build makes. The drawings are cat-harness's {code11} subgraph's: no Archi, no Java.",
+   "hash": "012ff6138b92a493",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النموذج مُولَّد لا مرسوم: يجلب {code0} نموذج smart-ra وملفه {code1} عند الإيداع المحدد في {code2} (مع التحقق من sha256)، ويطبّق {code3}، ويعيد تخطيط عروض الطبقة مع ترك مسافة بين المربعات ويوجّه كل خط توجيهاً متعامداً على هيئة نقاط انحناء Archi ({code4})، ثم يكتب {code5}. تُقرأ الرحلات والأشخاص المشاركون فيها من {code6} و{code7}، وتُقرأ نقاط التقاء البلدين من تدفقات التسلسل في BPMN؛ والأنظمة هي الجهات الفاعلة النظامية في {code8}، وأجزاؤها هي {code9} الخاص بكل جهة فاعلة (رُسمت أولاً بوصفها عرض البنية في VaxLink). ويكتب {code10} المسرد من المصادر نفسها. ويفشل التكامل المستمر (CI) إذا لم يكن النموذج المودَع هو ما ينتجه البناء. والرسوم هي رسوم الرسم البياني الفرعي {code11} في cat-harness: لا Archi ولا Java.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El modelo se genera, no se dibuja: {code0} obtiene el modelo de smart-ra y su {code1} en el commit indicado en {code2} (con verificación sha256), aplica {code3}, vuelve a disponer las vistas de la superposición con espacio entre los recuadros y traza cada línea ortogonalmente como puntos de inflexión de Archi ({code4}), y escribe {code5}. Los recorridos y sus personas se leen de {code6} y {code7}, y los puntos de encuentro entre los países, de los flujos de secuencia del BPMN; los sistemas son los actores del sistema de {code8}, y sus partes, el {code9} de cada actor (dibujado primero como la vista de arquitectura de VaxLink). {code10} escribe el glosario a partir de las mismas fuentes. La CI falla si el modelo confirmado no coincide con lo que produce la compilación. Los dibujos son los del subgrafo {code11} de cat-harness: sin Archi, sin Java.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le modèle est généré, et non dessiné : {code0} récupère le modèle de smart-ra et son {code1} au commit indiqué dans {code2} (sha256 vérifié), applique {code3}, redispose les vues de la surcouche en laissant de l'espace entre les boîtes et trace chaque ligne de façon orthogonale sous forme de points de pliage Archi ({code4}), puis écrit {code5}. Les parcours et les personnes qui y prennent part sont lus dans {code6} et {code7}, et les points de rencontre des pays dans les flux de séquence du BPMN ; les systèmes sont les acteurs système de {code8}, et leurs parties le {code9} de chaque acteur (représenté d'abord dans la vue d'architecture de VaxLink). {code10} écrit le glossaire à partir des mêmes sources. La CI échoue si le modèle versionné ne correspond pas à ce que produit la construction. Les dessins sont ceux du sous-graphe {code11} de cat-harness : ni Archi, ni Java.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Модель генерируется, а не рисуется: {code0} загружает модель smart-ra и её {code1} на коммите из {code2} (с проверкой sha256), применяет {code3}, заново раскладывает представления наложения с промежутками между блоками и прокладывает каждую линию ортогонально в виде точек изгиба Archi ({code4}) и записывает {code5}. Пути и их люди читаются из {code6} и {code7}, а места встречи стран — из потоков управления BPMN; системы — это системные акторы из {code8}, а их части — {code9} каждого актора (впервые изображённые как архитектурное представление VaxLink). {code10} записывает глоссарий из тех же источников. CI завершается ошибкой, если закоммиченная модель не совпадает с результатом сборки. Схемы строятся подграфом {code11} cat-harness: без Archi, без Java.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "该模型是生成的，而非手绘：{code0} 按 {code2} 中的提交获取 smart-ra 的模型及其 {code1}（已校验 sha256），应用 {code3}，重新布局叠加图的各视图并在方框之间留出空间，将每条连线以正交方式布设为 Archi 折点（{code4}），然后写出 {code5}。旅程及其人物读取自 {code6} 和 {code7}，两国交汇之处读取自 BPMN 的顺序流；系统是 {code8} 的系统行动者，其部件是每个行动者的 {code9}（最初绘制为 VaxLink 的架构视图）。{code10} 从相同来源写出术语表。如果已提交的模型与构建结果不一致，CI 将失败。这些图由 cat-harness 的 {code11} 子图绘制：无需 Archi，也无需 Java。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the people who take part, as business roles assigned to the journeys whose BPMN has their lane;",
+   "hash": "cd1d6cd0e93099df",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الأشخاص المشاركون، بوصفهم أدوار عمل مُسنَدة إلى الرحلات التي يتضمن مخطط BPMN الخاص بها مسارهم؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "las personas que participan, como roles de negocio asignados a los recorridos cuyo BPMN tiene su carril;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les personnes qui y prennent part, sous forme de rôles métier affectés aux parcours dont le BPMN comporte leur couloir ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "людей, которые принимают участие, как бизнес-роли, назначенные путям, в BPMN которых есть их дорожка;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "参与的人物，作为业务角色，分配给其 BPMN 中包含其泳道的旅程；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the RA's own building blocks, generic and no country's, in a band of their own below both countries in each journey's view;",
+   "hash": "1393badba9cbc1a3",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لبنات البناء الخاصة بالبنية المرجعية (RA)، العامة وغير المنتمية إلى أي بلد، في شريط مستقل أسفل البلدين في عرض كل رحلة؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los propios bloques básicos de la RA, genéricos y de ningún país, en una franja propia debajo de ambos países en la vista de cada recorrido;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les propres éléments constitutifs de la RA, génériques et n'appartenant à aucun pays, dans une bande distincte sous les deux pays dans la vue de chaque parcours ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "собственные стандартные блоки RA, обобщённые и не принадлежащие ни одной стране, в отдельной полосе под обеими странами в представлении каждого пути;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "RA 自身的构建块，通用且不属于任何国家，在每个旅程的视图中位于两国下方的独立区带中；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "View",
+   "hash": "0407526f2bb4f3fb",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "العرض",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Vista",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Vue",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Представление",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "视图",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "what they share, and nothing else, between them: WHO GDHCN and the WHO SMART Trust specifications it realizes;",
+   "hash": "a0d70097ca8b1e49",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ما يشتركان فيه، ولا شيء غيره، بينهما: GDHCN التابعة لمنظمة الصحة العالمية (WHO) ومواصفات WHO SMART Trust التي تجسّدها؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "lo que comparten, y nada más, entre ambos: la GDHCN de la OMS y las especificaciones de SMART Trust de la OMS que realiza;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "ce qu'ils partagent, et rien d'autre, entre eux : le GDHCN de l'OMS et les spécifications SMART Trust de l'OMS qu'il réalise ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "то, что у них общее, и ничего более, между ними: GDHCN ВОЗ и реализуемые ею спецификации SMART Trust ВОЗ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "两国之间只放置它们共享的内容：WHO GDHCN 及其所实现的 WHO SMART Trust 规范；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The journeys and systems of this demonstrator, drawn as an ArchiMate overlay on the <a0>Reference Architecture (DPI-H)</a0>'s own ArchiMate model (smart-ra, version 0.3.0-draft.1). The RA's elements are unchanged and keep their ids, so each RA box here is the element <a1>smart-ra publishes</a1>. The overlay adds:",
+   "hash": "f26018bb02c3f059",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "for each country, its own instance of every RA building block its parts play, such as Provider Systems (Taifafeki) and Provider Systems (Onesa): Taifafeki and Onesa are different jurisdictions, so a part in Taifafeki realizes the instance of Taifafeki, as the RA draws a concrete system realizing the component it plays (its Table 3.3), and that instance is a specialization of the RA's block;",
+   "hash": "8155145130fdf527",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لكل بلد، نسخته الخاصة من كل لبنة بناء في البنية المرجعية (RA) تؤديها أجزاؤه، مثل «أنظمة مقدمي الخدمات (Taifafeki)» و«أنظمة مقدمي الخدمات (Onesa)»: فدولة Taifafeki ودولة Onesa ولايتان قضائيتان مختلفتان، ولذلك يجسّد الجزء الموجود في Taifafeki نسخة Taifafeki، كما ترسم البنية المرجعية نظاماً ملموساً يجسّد المكوِّن الذي يؤديه (جدولها 3.3)، وتلك النسخة تخصيص للبنة البنية المرجعية؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "para cada país, su propia instancia de cada bloque básico de la RA que desempeñan sus partes, como Provider Systems (Taifafeki) y Provider Systems (Onesa): Taifafeki y Onesa son jurisdicciones distintas, por lo que una parte de Taifafeki realiza la instancia de Taifafeki, igual que la RA dibuja un sistema concreto que realiza el componente que desempeña (su Tabla 3.3), y esa instancia es una especialización del bloque de la RA;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "pour chaque pays, sa propre instance de chaque élément constitutif de la RA que jouent ses parties, par exemple Provider Systems (Taifafeki) et Provider Systems (Onesa) : Taifafeki et Onesa sont des juridictions différentes ; une partie située à Taifafeki réalise donc l'instance de Taifafeki, de même que la RA représente un système concret réalisant le composant qu'il joue (son tableau 3.3), et cette instance est une spécialisation de l'élément constitutif de la RA ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "для каждой страны — её собственный экземпляр каждого стандартного блока RA, роль которого исполняют её части, например Provider Systems (Taifafeki) и Provider Systems (Onesa): Taifafeki и Onesa — разные юрисдикции, поэтому часть в стране Taifafeki реализует экземпляр страны Taifafeki, так же как RA изображает конкретную систему, реализующую компонент, роль которого она исполняет (её таблица 3.3), и этот экземпляр является специализацией блока RA;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "对每个国家，为其部件所承担的每个 RA 构建块绘制该国自己的实例，例如 Provider Systems (Taifafeki) 和 Provider Systems (Onesa)：Taifafeki 和 Onesa 是不同的司法管辖区，因此位于 Taifafeki 的部件实现 Taifafeki 的实例，正如 RA 将一个具体系统画为实现其所承担的组件（其表 3.3），而该实例是 RA 构建块的特化；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "the systems of Taifafeki and Onesa, serving the journeys they take part in, each holding its parts, each part named by what it does (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); the family's shared phone is a technology device that realizes the wallet app on it, not software;",
+   "hash": "8069607a40ac0da0",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أنظمة Taifafeki وأنظمة Onesa، التي تخدم الرحلات التي تشارك فيها، ويحتوي كلٌّ منها على أجزائه، ويُسمّى كل جزء بحسب وظيفته (سجل المريض، النماذج الذكية (SDC)، سجل القوى العاملة الصحية (عمال الصحة المجتمعيون، الممرضون))؛ أما هاتف الأسرة المشترك فهو جهاز تقني يجسّد تطبيق المحفظة الموجود عليه، وليس برمجيات؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "los sistemas de Taifafeki y de Onesa, al servicio de los recorridos en los que participan, cada uno con sus partes, y cada parte nombrada por lo que hace (Historia clínica del paciente, Formularios inteligentes (SDC), Registro del personal de salud (CHW, enfermeras)); el teléfono compartido de la familia es un dispositivo tecnológico que realiza la aplicación de billetera que contiene, no un software;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les systèmes de Taifafeki et du pays Onesa, au service des parcours auxquels ils participent, chacun contenant ses parties, chaque partie étant nommée d'après sa fonction (Dossier patient, Formulaires intelligents (SDC), Registre des personnels de santé (CHW, infirmières et infirmiers)) ; le téléphone partagé de la famille est un dispositif technologique qui réalise l'application de portefeuille qu'il héberge, et non un logiciel ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "системы стран Taifafeki и Onesa, обслуживающие пути, в которых они участвуют, каждая со своими частями, и каждая часть названа по тому, что она делает (Patient record, Smart forms (SDC), Health workforce registry (CHWs, nurses)); общий телефон семьи — это технологическое устройство, реализующее установленное на нём приложение-кошелёк, а не программное обеспечение;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Taifafeki 和 Onesa 的系统，服务于其参与的旅程，每个系统包含其部件，每个部件按其功能命名（Patient record（患者记录）、Smart forms (SDC)（智能表单）、Health workforce registry (CHWs, nurses)（卫生人力登记系统，含 CHW、护士））；家庭共用手机是一个技术设备，它实现其上的钱包应用，而不是软件；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "Two columns: Taifafeki on the left, Onesa on the right. In each, the country's systems stack top to bottom in the order of the first journey they serve, each holding its parts, and each part says inside its own box which DPI-H RA building block it plays, as a tag such as «Provider Systems». A system's parts that meet the other country, or GDHCN, sit on the side facing the middle, and each Taifafeki system stands level with the first system of Onesa it meets, so the dashed lines where the countries meet run across. Between the columns, only what both share: WHO GDHCN and the SMART Trust specifications. The countries' instances of the RA blocks, the parts' realizations of them, and the RA's own blocks are in the model and drawn in each journey's view, which keeps this one narrow and its lines few.",
+   "hash": "1bc5ebd1ef092698",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمودان: Taifafeki على اليسار، و Onesa على اليمين. في كلٍّ منهما تتراص أنظمة البلد من الأعلى إلى الأسفل بترتيب أول رحلة تخدمها، ويحتوي كل نظام على أجزائه، ويذكر كل جزء داخل مربعه لبنة البناء في البنية المرجعية DPI-H RA التي يؤديها، على هيئة وسم مثل «أنظمة مقدمي الخدمات». وتقع أجزاء النظام التي تلتقي بالبلد الآخر أو بـ GDHCN على الجانب المواجه للوسط، ويقف كل نظام في Taifafeki على مستوى أول نظام في Onesa يلتقيه، بحيث تمتد الخطوط المتقطعة عند نقاط التقاء البلدين أفقياً. وبين العمودين لا يوجد إلا ما يشترك فيه البلدان: GDHCN التابعة لمنظمة الصحة العالمية (WHO) ومواصفات SMART Trust. أما نسخ البلدين من لبنات البنية المرجعية، وتجسيدات الأجزاء لها، ولبنات البنية المرجعية نفسها، فهي موجودة في النموذج ومرسومة في عرض كل رحلة، مما يُبقي هذا العرض ضيقاً وخطوطه قليلة.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dos columnas: Taifafeki a la izquierda, Onesa a la derecha. En cada una, los sistemas del país se apilan de arriba abajo en el orden del primer recorrido al que sirven, cada uno con sus partes, y cada parte indica dentro de su propio recuadro qué bloque básico de la RA DPI-H desempeña, mediante una etiqueta como «Provider Systems». Las partes de un sistema que se encuentran con el otro país, o con la GDHCN, se sitúan en el lado que mira al centro, y cada sistema de Taifafeki queda a la altura del primer sistema de Onesa con el que se encuentra, de modo que las líneas discontinuas donde se encuentran los países van en horizontal. Entre las columnas, solo lo que ambos comparten: la GDHCN de la OMS y las especificaciones de SMART Trust. Las instancias de los bloques de la RA de cada país, las realizaciones de estas por las partes y los propios bloques de la RA están en el modelo y se dibujan en la vista de cada recorrido, lo que mantiene esta vista estrecha y con pocas líneas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Deux colonnes : Taifafeki à gauche, Onesa à droite. Dans chacune, les systèmes du pays s'empilent de haut en bas dans l'ordre du premier parcours qu'ils servent, chacun contenant ses parties, et chaque partie indique dans sa propre boîte l'élément constitutif de la RA DPI-H qu'elle joue, sous forme d'une étiquette telle que «Provider Systems». Les parties d'un système qui rencontrent l'autre pays, ou le GDHCN, se trouvent du côté tourné vers le centre, et chaque système de Taifafeki est aligné sur le premier système du pays Onesa qu'il rencontre, de sorte que les lignes en pointillé marquant la rencontre des pays traversent à l'horizontale. Entre les colonnes, uniquement ce que les deux pays partagent : le GDHCN de l'OMS et les spécifications SMART Trust. Les instances des éléments de la RA propres à chaque pays, leurs réalisations par les parties et les propres éléments de la RA figurent dans le modèle et sont représentés dans la vue de chaque parcours, ce qui permet de garder celle-ci étroite et ses lignes peu nombreuses.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Две колонки: Taifafeki слева, Onesa справа. В каждой системы страны расположены сверху вниз в порядке первого пути, который они обслуживают, каждая со своими частями, и каждая часть внутри своего блока указывает, роль какого стандартного блока DPI-H RA она исполняет, в виде метки, например «Provider Systems». Части системы, которые взаимодействуют с другой страной или с GDHCN, расположены на стороне, обращённой к середине, и каждая система страны Taifafeki стоит на одном уровне с первой системой страны Onesa, с которой она взаимодействует, так что пунктирные линии в местах встречи стран идут поперёк. Между колонками — только то, что общее для обеих: GDHCN ВОЗ и спецификации SMART Trust. Экземпляры блоков RA стран, их реализации частями и собственные блоки RA есть в модели и изображены в представлении каждого пути, что сохраняет это представление узким, а его линии — немногочисленными.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "分为两栏：左侧为 Taifafeki，右侧为 Onesa。在每一栏中，该国的系统按其所服务的第一个旅程的顺序自上而下排列，每个系统包含其部件，每个部件在自己的方框内以标签（如 «Provider Systems»）注明其承担的 DPI-H RA 构建块。系统中与另一国或 GDHCN 交汇的部件位于朝向中间的一侧，每个 Taifafeki 系统与其交汇的第一个 Onesa 系统保持水平对齐，因此两国交汇处的虚线横向贯穿。两栏之间只放置双方共享的内容：WHO GDHCN 和 SMART Trust 规范。各国的 RA 构建块实例、部件对它们的实现以及 RA 自身的构建块都在模型中，并绘制在每个旅程的视图里，从而使本视图保持紧凑、连线较少。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "where the two countries meet, as flow and triggering relationships between their parts, read from the BPMN: the paper DVC that J1 prints and the family carries to J2 and J3; in J4.1, the VHL QR the family's phone shows the Taifafeki clinic, the clinic's signed ITI-YY5 manifest request to the Onesa gateway, and the manifest it returns, the access logged in Onesa;",
+   "hash": "3df600cd4808777e",
+   "sources": [
+    "docs/architecture.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نقاط التقاء البلدين، بوصفها علاقات تدفق وتشغيل بين أجزائهما، مقروءة من BPMN: شهادة التطعيم الرقمية (DVC) الورقية التي تطبعها J1 وتحملها الأسرة إلى J2 وJ3؛ وفي J4.1، رمز QR الخاص بـ VHL الذي يعرضه هاتف الأسرة على العيادة في Taifafeki، وطلب البيان الموقَّع ITI-YY5 من العيادة إلى بوابة الربط في Onesa، والبيان الذي تعيده، مع تسجيل الوصول في Onesa؛",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "dónde se encuentran los dos países, como relaciones de flujo y de activación entre sus partes, leídas del BPMN: el DVC en papel que imprime J1 y que la familia lleva a J2 y J3; en J4.1, el QR VHL que el teléfono de la familia muestra a la clínica de Taifafeki, la solicitud firmada del manifiesto ITI-YY5 de la clínica a la puerta de enlace de Onesa, y el manifiesto que esta devuelve, con el acceso registrado en Onesa;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "les points de rencontre des deux pays, sous forme de relations de flux et de déclenchement entre leurs parties, lues dans le BPMN : le DVC papier que J1 imprime et que la famille apporte à J2 et J3 ; dans J4.1, le QR du VHL que le téléphone de la famille présente à la clinique de Taifafeki, la demande de manifeste ITI-YY5 signée de la clinique adressée à la passerelle du pays Onesa, et le manifeste que celle-ci renvoie, l'accès étant journalisé à Onesa ;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "места встречи двух стран — как отношения потока и инициирования между их частями, прочитанные из BPMN: бумажный DVC, который печатается в J1 и который семья несёт в J2 и J3; в J4.1 — QR-код VHL, который телефон семьи показывает клинике в стране Taifafeki, подписанный запрос манифеста ITI-YY5 клиники к шлюзу страны Onesa и возвращаемый им манифест, с регистрацией доступа в стране Onesa;",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "两国交汇之处，作为其部件之间的流关系和触发关系，读取自 BPMN：J1 打印、由家人带到 J2 和 J3 的纸质 DVC；在 J4.1 中，家庭手机向 Taifafeki 诊所出示的 VHL QR 码、诊所向 Onesa 网关发出的已签名 ITI-YY5 清单请求，以及网关返回的清单，该次访问记录在 Onesa；",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

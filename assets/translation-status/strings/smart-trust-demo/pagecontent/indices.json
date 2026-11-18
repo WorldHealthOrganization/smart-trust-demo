@@ -1,0 +1,55 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/indices",
+ "hashes": {
+  "ar": "f11c8acae21ea8a4",
+  "es": "92a227aa8e48739d",
+  "fr": "c9988661fa2a8f9c",
+  "ru": "ac31205f5fe8e49f",
+  "zh": "20af1aeb5a5ad686"
+ },
+ "strings": [
+  {
+   "msgid": "<a0>Artifact index</a0>",
+   "hash": "ead520ef2ff4c901",
+   "sources": [
+    "input/pagecontent/indices.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "<a0>فهرس العناصر</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "<a0>Índice de artefactos</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "<a0>Index des artefacts</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "<a0>Указатель артефактов</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "<a0>工件索引</a0>",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

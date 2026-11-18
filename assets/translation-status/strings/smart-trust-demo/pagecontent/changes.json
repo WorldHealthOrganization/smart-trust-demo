@@ -1,0 +1,367 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "pagecontent/changes",
+ "hashes": {
+  "ar": "b440587ce5435a01",
+  "es": "9837e7fa065be931",
+  "fr": "399e7a7c3ea398c5",
+  "ru": "4bd9db3ae3535038",
+  "zh": "f774c695d0e7a0eb"
+ },
+ "strings": [
+  {
+   "msgid": "0.1.0 (ci-build)",
+   "hash": "8de45c7774ce9c45",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "0.1.0 (ci-build)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "0.1.0 (ci-build)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "0.1.0 (ci-build)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "0.1.0 (ci-build)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "0.1.0（ci-build）",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "First L2 and L3 content: generic personas and system actors as {code0}s, user scenarios, and the business processes J1 to J4.1, generated from the harness sources.",
+   "hash": "767c5f0af50d070a",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أول محتوى من المستويين L2 وL3: الشخصيات الافتراضية العامة والجهات الفاعلة النظامية بوصفها موارد {code0}، وسيناريوهات المستخدم، وعمليات العمل من J1 إلى J4.1، مولَّدة من مصادر الإطار (harness).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Primer contenido L2 y L3: personas (perfiles) genéricas y actores del sistema como {code0}, escenarios de usuario y los procesos de negocio J1 a J4.1, generados a partir de las fuentes del arnés.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Premier contenu L2 et L3 : personas génériques et acteurs système sous forme de {code0}, scénarios utilisateur, et processus métier J1 à J4.1, générés à partir des sources du harnais.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Первое содержание уровней L2 и L3: обобщённые персоны и системные акторы в виде {code0}, пользовательские сценарии и бизнес-процессы с J1 по J4.1, сформированные из исходных материалов обвязки.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "首批 L2 和 L3 内容：作为 {code0} 的通用人物画像和系统行动者、用户场景，以及业务流程 J1 至 J4.1，均由工具框架源文件生成。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "New process steps: J2 adds the newborn to the household and saves the doses as reported, not verified; J3 adds the national schedule code beside the foreign vaccine code (the nurse decides unmapped products); J4.0 records the holder's consent with a passcode and an expiry; J4.1 adds the home portal's lane, which checks the passcode, returns the manifest and logs every access.",
+   "hash": "71579a23b77c269c",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خطوات عمليات جديدة: تضيف J2 المولود الجديد إلى الأسرة المعيشية وتحفظ الجرعات بوصفها مُبلَّغاً عنها، غير مُتحقَّق منها؛ وتضيف J3 رمز جدول التطعيم الوطني إلى جانب رمز اللقاح الأجنبي (وتبتّ الممرضة في المنتجات غير المعيَّنة)؛ وتسجّل J4.0 موافقة الحامل مع رمز مرور وتاريخ انتهاء؛ وتضيف J4.1 مسار البوابة في البلد الأم، الذي يتحقق من رمز المرور ويعيد البيان ويسجّل كل وصول.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nuevos pasos de proceso: J2 añade al recién nacido al hogar y guarda las dosis como notificadas, no verificadas; J3 añade el código del calendario nacional junto al código extranjero de la vacuna (la enfermera decide sobre los productos sin correspondencia); J4.0 registra el consentimiento del titular con un código de acceso y una fecha de caducidad; J4.1 añade el carril del portal del país de residencia, que comprueba el código de acceso, devuelve el manifiesto y registra cada acceso.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Nouvelles étapes de processus : J2 ajoute le nouveau-né au ménage et enregistre les doses comme déclarées, non vérifiées ; J3 ajoute le code du calendrier national à côté du code du vaccin étranger (l'infirmière tranche pour les produits sans correspondance) ; J4.0 enregistre le consentement du titulaire avec un code d'accès et une date d'expiration ; J4.1 ajoute le couloir du portail de rattachement, qui vérifie le code d'accès, renvoie le manifeste et journalise chaque accès.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Новые шаги процессов: в J2 новорождённый добавляется в домохозяйство, а дозы сохраняются как заявленные, а не проверенные; в J3 код национального графика добавляется рядом с иностранным кодом вакцины (по несопоставленным препаратам решение принимает медсестра); в J4.0 записывается согласие владельца с кодом доступа и сроком действия; в J4.1 добавлена дорожка портала страны проживания, который проверяет код доступа, возвращает манифест и регистрирует каждый доступ.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "新增流程步骤：J2 将新生儿加入家庭，并将剂次保存为已报告、未验证；J3 在境外疫苗代码旁添加国家接种计划代码（未映射的产品由护士判定）；J4.0 记录持有人的同意，并附通行码和有效期；J4.1 新增本国门户的泳道，负责核验通行码、返回清单并记录每一次访问。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "New page: <a0>Journey examples</a0>, mapping each walkthrough screen and payload to its example here.",
+   "hash": "128d097dd50eb495",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "صفحة جديدة: <a0>أمثلة الرحلات</a0>، تربط كل شاشة وكل حمولة في الجولة الإرشادية بمثالها هنا.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nueva página: <a0>ejemplos de los recorridos</a0>, que asigna cada pantalla y carga útil de la visita guiada a su ejemplo en esta guía.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Nouvelle page : <a0>exemples des parcours</a0>, mettant en correspondance chaque écran et chaque charge utile de la présentation guidée avec son exemple ici.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Новая страница: <a0>Примеры путей</a0>, где каждый экран и каждая полезная нагрузка пошагового обзора сопоставлены с соответствующим примером в этом руководстве.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "新页面：<a0>旅程示例</a0>，将演练的每个界面和载荷映射到此处对应的示例。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "New terminology: {code0} and the {code1} ValueSet, the demo's own illustrative trust domains (DVC for J1 and J3, VHL for J4.0 and J4.1), in the style of the GDHCN Trust Domains of SMART Trust but not GDHCN codes.",
+   "hash": "9f90aedf0f1f0620",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مصطلحات جديدة: {code0} ومجموعة القيم (ValueSet) {code1}، وهي نطاقات الثقة التوضيحية الخاصة بالعرض التوضيحي (DVC للرحلتين J1 وJ3، وVHL للرحلتين J4.0 وJ4.1)، على نمط نطاقات الثقة (Trust Domains) في GDHCN ضمن SMART Trust، لكنها ليست رموز GDHCN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Nueva terminología: {code0} y el ValueSet {code1}, los ámbitos de confianza ilustrativos propios de la demostración (DVC para J1 y J3, VHL para J4.0 y J4.1), al estilo de los ámbitos de confianza (Trust Domains) de la GDHCN en SMART Trust, pero que no son códigos de la GDHCN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Nouvelle terminologie : {code0} et le ValueSet {code1}, les domaines de confiance illustratifs propres à la démonstration (DVC pour J1 et J3, VHL pour J4.0 et J4.1), dans le style des domaines de confiance (Trust Domains) du GDHCN de SMART Trust, mais qui ne sont pas des codes du GDHCN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Новая терминология: {code0} и ValueSet {code1} — собственные иллюстративные домены доверия демонстрации (DVC для J1 и J3, VHL для J4.0 и J4.1), оформленные в стиле доменов доверия GDHCN (GDHCN Trust Domains) из SMART Trust, но не являющиеся кодами GDHCN.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "新术语：{code0} 和 {code1} ValueSet，即本演示自有的示意性信任域（DVC 用于 J1 和 J3，VHL 用于 J4.0 和 J4.1），仿照 SMART Trust 的 GDHCN 信任域（Trust Domains）风格，但并非 GDHCN 代码。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The DEMO-VHL trust domain's terms of use: {code0} and the {code1} ValueSet. The J4.0 consent is now a Personal Health Wallet explicit consent ({code2}) that names {code3} in {code4}.",
+   "hash": "d5bd0d146964db3c",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "شروط استخدام نطاق الثقة DEMO-VHL: {code0} ومجموعة القيم (ValueSet) {code1}. وأصبحت موافقة J4.0 الآن موافقةً صريحة وفق دليل المحفظة الصحية الشخصية (Personal Health Wallet) ({code2})، تُسمّي {code3} في {code4}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las condiciones de uso del ámbito de confianza DEMO-VHL: {code0} y el ValueSet {code1}. El consentimiento de J4.0 es ahora un consentimiento explícito de la billetera sanitaria personal (Personal Health Wallet) ({code2}) que nombra {code3} en {code4}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les conditions d'utilisation du domaine de confiance DEMO-VHL : {code0} et le ValueSet {code1}. Le consentement de J4.0 est désormais un consentement explicite du Personal Health Wallet ({code2}) qui nomme {code3} dans {code4}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Условия использования домена доверия DEMO-VHL: {code0} и ValueSet {code1}. Согласие в J4.0 теперь является явным согласием персонального кошелька медицинских данных (Personal Health Wallet) ({code2}), в котором {code3} указан в {code4}.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "DEMO-VHL 信任域的使用条款：{code0} 和 {code1} ValueSet。J4.0 的同意现在是一项 Personal Health Wallet（个人健康钱包）明示同意（{code2}），在 {code4} 中指明 {code3}。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The journeys tell the <a0>VaxLink</a0> story (issue <a1>#21</a1>): Somsak SENGMANY, born in Taifafeki (XXR), living in Onesa (XXK), seen again in Taifafeki a year later. Personas, system actors and stories recast; the business processes made generic (no person names in them).",
+   "hash": "053f54b537ddface",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تروي الرحلات قصة <a0>VaxLink</a0> (المسألة <a1>#21</a1>): Somsak SENGMANY، المولود في Taifafeki (XXR) والمقيم في Onesa (XXK)، يُفحَص مجددًا في Taifafeki بعد عام. أُعيدت صياغة الشخصيات والجهات الفاعلة في النظام والقصص، وجُعلت العمليات التجارية عامة (دون أسماء أشخاص فيها).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los recorridos cuentan la historia de <a0>VaxLink</a0> (incidencia <a1>#21</a1>): Somsak SENGMANY, nacido en Taifafeki (XXR), que vive en Onesa (XXK) y vuelve a ser atendido en Taifafeki un año después. Se rehicieron los personajes, los actores del sistema y las historias; los procesos de negocio se hicieron genéricos (sin nombres de personas).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les parcours racontent l’histoire de <a0>VaxLink</a0> (ticket <a1>#21</a1>) : Somsak SENGMANY, né à Taifafeki (XXR), vivant à Onesa (XXK), revu à Taifafeki un an plus tard. Personas, acteurs système et récits ont été refondus ; les processus métier ont été rendus génériques (sans noms de personnes).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пути рассказывают историю <a0>VaxLink</a0> (задача <a1>#21</a1>): Somsak SENGMANY родился в стране Taifafeki (XXR), живёт в стране Onesa (XXK) и через год снова обращается за помощью в стране Taifafeki. Персоны, системные акторы и истории переработаны; бизнес-процессы сделаны обобщёнными (без имён людей).",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "这些旅程讲述 <a0>VaxLink</a0> 的故事（议题 <a1>#21</a1>）：Somsak SENGMANY 出生于 Taifafeki（XXR），居住在 Onesa（XXK），一年后在 Taifafeki 再次就诊。人物、系统参与者和故事均已重写；业务流程改为通用形式（其中不含人名）。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Products are coded with their WHO PreQual product ids (smart.who.int/pcmt-vaxprequal {code10}, issue <a0>#35</a0>); one illustrative code system stands in for national schedule codes.",
+   "hash": "c4c5978cfbb84ab1",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "",
+     "status": "missing",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgid": "The code of Onesa is now XXU (was XXK), the DEV test participant SMART Trust's Participants-DEV names \"Onesa\" (WorldHealthOrganization/smart-trust#161): the country definition, the identifiers of Onesa, schedule codes ({code0}), lot numbers, the national portal, processes, device screens, examples and translations.",
+   "hash": "318f87428de2eb1f",
+   "sources": [
+    "input/pagecontent/changes.md"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أصبح رمز Onesa الآن XXU (كان XXK)، وهو مشارك الاختبار DEV الذي تسمّيه قائمة Participants-DEV في SMART Trust ‏\"Onesa\" (WorldHealthOrganization/smart-trust#161): تعريف البلد، ومعرّفات Onesa، ورموز الجدول ({code0})، وأرقام التشغيلات، والبوابة الوطنية، والعمليات، وشاشات الأجهزة، والأمثلة، والترجمات.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El código de Onesa es ahora XXU (antes XXK), el participante de prueba DEV que el Participants-DEV de SMART Trust llama \"Onesa\" (WorldHealthOrganization/smart-trust#161): la definición del país, los identificadores de Onesa, los códigos del calendario ({code0}), los números de lote, el portal nacional, los procesos, las pantallas de los dispositivos, los ejemplos y las traducciones.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le code du pays Onesa est désormais XXU (auparavant XXK), le participant de test DEV que Participants-DEV de SMART Trust nomme « Onesa » (WorldHealthOrganization/smart-trust#161) : la définition du pays, les identifiants du pays Onesa, les codes du calendrier ({code0}), les numéros de lot, le portail national, les processus, les écrans des appareils, les exemples et les traductions.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Код страны Onesa теперь XXU (ранее XXK) — это тестовый участник DEV, которого Participants-DEV SMART Trust называет «Onesa» (WorldHealthOrganization/smart-trust#161): определение страны, идентификаторы страны Onesa, коды графика ({code0}), номера серий, национальный портал, процессы, экраны устройств, примеры и переводы.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa 的代码现为 XXU（原为 XXK），即 SMART Trust 的 Participants-DEV 中名为 \"Onesa\" 的 DEV 测试参与方（WorldHealthOrganization/smart-trust#161）：涉及国家定义、Onesa 的标识符、接种程序代码（{code0}）、批号、国家门户、流程、设备界面、示例和翻译。",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}

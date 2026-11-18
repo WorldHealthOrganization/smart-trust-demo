@@ -1,0 +1,2896 @@
+{
+ "$schema": "folio-translation-strings/v1",
+ "layer": "smart-trust-demo",
+ "repository": "litlfred/smart-trust-demo",
+ "translations": "translations",
+ "catalogue": "user-scenarios/j2-found-at-home",
+ "hashes": {
+  "ar": "48fbf6e093fa2414",
+  "es": "6cba1913cb1fd5e3",
+  "fr": "e0b52ca03da00b0a",
+  "ru": "ce9c176d01fb7d4a",
+  "zh": "3aebed4f7bf03a3b"
+ },
+ "strings": [
+  {
+   "msgctxt": "country",
+   "msgid": "Onesa",
+   "hash": "1cccc8eebd0e2356",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "description",
+   "msgid": "A health worker registers him offline and records the cards as \"reported, not yet verified\".",
+   "hash": "f34aeb1b0555e482",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُسجّله عامل صحي دون اتصال، ويُدوِّن البطاقتين على أنهما \"مُبلَّغ عنهما، غير مُتحقَّق منهما بعد\".",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una trabajadora de salud lo registra sin conexión y anota las tarjetas como \"notificadas, aún no verificadas\".",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une agente de santé l’enregistre hors ligne et consigne les cartes comme « déclarées, pas encore vérifiées ».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник регистрирует его в автономном режиме и записывает карточки как «заявленные, ещё не проверенные».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一名卫生工作者在离线状态下为他登记，并将卡片记录为“已报告，尚未验证”。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "references.label",
+   "msgid": "User scenario in the IG",
+   "hash": "6ec906602b6d758f",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سيناريو المستخدم في دليل التنفيذ (IG)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escenario de usuario en la IG",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scénario utilisateur dans le guide d’implémentation",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Пользовательский сценарий в IG",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "实施指南（IG）中的用户场景",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "CHW phone: registered, reported",
+   "hash": "deba5f82caf1abe2",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هاتف CHW: مُسجَّل، مُبلَّغ عنه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Teléfono del CHW: registrado, notificado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Téléphone du CHW : enregistré, déclaré",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Телефон CHW: зарегистрирован, заявлено",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CHW 手机：已登记，已报告",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "Home visit, Village 04",
+   "hash": "662d8b35d8cf7c9e",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "زيارة منزلية، القرية 04",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Visita domiciliaria, Village 04",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Visite à domicile, Village 04",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Визит на дом, деревня 04",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "家访，Village 04",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "scene.label",
+   "msgid": "No signal",
+   "hash": "4e9dfe62fdcd3927",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا توجد تغطية",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin señal",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Pas de signal",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Нет сигнала",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "没有信号",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "An offline form links the baby to his household immediately; it syncs once the phone finds a signal.",
+   "hash": "6adf71aeb19109fc",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يربط نموذجٌ يعمل دون اتصال الرضيعَ بأسرته المعيشية فورًا؛ ويُزامَن حالما يجد الهاتف تغطية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Un formulario sin conexión vincula al bebé con su hogar de inmediato; se sincroniza en cuanto el teléfono encuentra señal.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Un formulaire hors ligne rattache immédiatement le bébé à son ménage ; il se synchronise dès que le téléphone capte un signal.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Автономная форма сразу связывает младенца с его домохозяйством; она синхронизируется, как только телефон находит сигнал.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线表单立即将婴儿关联到其家庭；手机一旦有信号便会同步。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.enabler",
+   "msgid": "The phone reads the card offline, and keeps “what the family told us” clearly separate from “what we have verified”.",
+   "hash": "82c1f36352f42eb1",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يقرأ الهاتف البطاقة دون اتصال، ويُبقي «ما أخبرتنا به الأسرة» منفصلًا بوضوح عن «ما تحقّقنا منه».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El teléfono lee la tarjeta sin conexión y mantiene claramente separado “lo que nos dijo la familia” de “lo que hemos verificado”.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le téléphone lit la carte hors ligne et distingue clairement « ce que la famille nous a dit » de « ce que nous avons vérifié ».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Телефон считывает карточку в автономном режиме и чётко разделяет «что нам сообщила семья» и «что мы проверили».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "手机离线读取卡片，并将“家人告诉我们的”与“我们已验证的”明确区分开。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Adds Somsak to the Sengmany household, saves the two doses as unverified and books a clinic referral.",
+   "hash": "8cbb1273c7f0f521",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تضيف Somsak إلى الأسرة المعيشية Sengmany، وتحفظ الجرعتين على أنهما غير مُتحقَّق منهما، وتحجز إحالة إلى العيادة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Añade a Somsak al hogar Sengmany, guarda las dos dosis como no verificadas y programa una derivación a la clínica.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Ajoute Somsak au ménage Sengmany, enregistre les deux doses comme non vérifiées et programme une orientation vers la clinique.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавляет Somsak в домохозяйство Sengmany, сохраняет две дозы как непроверенные и оформляет направление в клинику.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "将 Somsak 加入 Sengmany 家庭，把两剂次保存为未验证，并预约诊所转诊。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Confirms household details as head of household.",
+   "hash": "0454c64d4e7e8073",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يؤكّد بيانات الأسرة المعيشية بصفته ربّ الأسرة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Confirma los datos del hogar como cabeza de familia.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Confirme les informations du ménage en tant que chef de ménage.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Подтверждает сведения о домохозяйстве как глава домохозяйства.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "以户主身份确认家庭信息。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Receives a referral to the District Health Center.",
+   "hash": "c917450402a2aca7",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تتلقّى إحالة إلى المركز الصحي في المنطقة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Recibe una derivación al Centro de Salud de Distrito.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Reçoit une orientation vers le centre de santé de district.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Получает направление в районный медицинский центр.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "收到前往区卫生中心的转诊。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Scans both QR cards and reads the doses, without checking their signatures.",
+   "hash": "f151b5e6854343df",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تمسح بطاقتَي QR كلتيهما وتقرأ الجرعات، دون التحقق من توقيعاتهما.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escanea las dos tarjetas QR y lee las dosis, sin comprobar sus firmas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scanne les deux cartes QR et lit les doses, sans vérifier leurs signatures.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сканирует обе карточки с QR-кодом и считывает дозы, не проверяя их подписи.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "扫描两张 QR 码卡片并读取剂次，但不核查其签名。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Tells Vilay about the birth in Taifafeki and shows the cards.",
+   "hash": "ffbbd30a24c1da10",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تُخبر Vilay بالولادة في Taifafeki وتُريها البطاقتين.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Le cuenta a Vilay lo del nacimiento en Taifafeki y le muestra las tarjetas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Parle à Vilay de la naissance à Taifafeki et montre les cartes.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Рассказывает Vilay о родах в стране Taifafeki и показывает карточки.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "向 Vilay 讲述在 Taifafeki 分娩的经过，并出示卡片。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Another trip — but at least they know about his vaccines now.”",
+   "hash": "050848e474beac68",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«مشوار آخر — لكنهم على الأقل يعرفون الآن بلقاحاته.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Otro viaje más — pero al menos ahora saben lo de sus vacunas.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Encore un déplacement — mais au moins, ils sont maintenant au courant de ses vaccins. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Ещё одна поездка — но теперь хотя бы знают о его прививках».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“又要跑一趟——不过至少他们现在知道他打过哪些疫苗了。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Good, he’s on our family record now.”",
+   "hash": "303f4850526e63ba",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«جيد، صار مُدرَجًا في سجلّ أسرتنا الآن.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Bien, ya figura en nuestro registro familiar.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Bien, il figure maintenant dans le dossier de notre famille. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Хорошо, теперь он есть в нашей семейной записи».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“很好，他现在在我们的家庭记录里了。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“I can read it, but I can’t prove it’s real out here.”",
+   "hash": "5914c35c2db1b0e1",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«أستطيع قراءتها، لكنني لا أستطيع إثبات أنها حقيقية هنا.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Puedo leerlo, pero aquí no puedo demostrar que sea auténtico.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Je peux le lire, mais ici, je ne peux pas prouver qu’il est authentique. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Я могу это прочитать, но здесь не могу доказать, что это подлинник».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“我能读出来，但在这里我证明不了它是真的。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“I hope we’re not in trouble for giving birth abroad.”",
+   "hash": "8e9e46781f1b125f",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«أرجو ألّا نقع في مشكلة لأننا أنجبنا في الخارج.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Espero que no tengamos problemas por haber dado a luz en el extranjero.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« J’espère que nous n’aurons pas d’ennuis pour avoir accouché à l’étranger. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Надеюсь, у нас не будет проблем из-за родов за границей».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“希望我们不会因为在国外生孩子而惹上麻烦。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“No signal for weeks — but I need to register him today.”",
+   "hash": "4c9224fa370d5b0b",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«لا تغطية منذ أسابيع — لكن يجب أن أسجّله اليوم.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Semanas sin señal — pero tengo que registrarlo hoy.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Pas de signal depuis des semaines — mais je dois l’enregistrer aujourd’hui. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Сигнала нет уже несколько недель — но мне нужно зарегистрировать его сегодня».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“几周都没有信号——但我今天就得给他登记。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.feeling",
+   "msgid": "“Three weeks old, and now he counts.”",
+   "hash": "4c8f09646cbea98d",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "«عمره ثلاثة أسابيع، والآن صار محسوبًا.»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "“Tres semanas de vida, y ahora cuenta.”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "« Trois semaines, et maintenant il compte. »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "«Три недели от роду — и теперь он учтён».",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "“三周大了，现在他才算数。”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Created as primarySource = false",
+   "hash": "47a3b55ec6c46187",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُنشئ بقيمة primarySource = false",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Creado con primarySource = false",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Créées avec primarySource = false",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создано с primarySource = false",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "创建时 primarySource = false",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Referral to District Health Center",
+   "hash": "c6ad10d20e13eb8b",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إحالة إلى المركز الصحي في المنطقة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Derivación al Centro de Salud de Distrito",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Orientation vers le centre de santé de district",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Направление в районный медицинский центр",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "转诊至区卫生中心",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Somsak added as member",
+   "hash": "dfb3b877e70f7c06",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُضيف Somsak عضوًا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Somsak añadido como miembro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Somsak ajouté comme membre",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Somsak добавлен в качестве члена",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak 被添加为成员",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "The registration form, answered offline (SDC)",
+   "hash": "6e89c238bc0d8d94",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نموذج التسجيل، مُجابٌ عنه دون اتصال (SDC)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El formulario de registro, cumplimentado sin conexión (SDC)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le formulaire d’enregistrement, rempli hors ligne (SDC)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрационная форма, заполненная в автономном режиме (SDC)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线填写的登记表（SDC）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "CHW work is organised by household: the roster is how a missing newborn is noticed.",
+   "hash": "85695a4e00706086",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُنظَّم عمل عامل الصحة المجتمعي (CHW) حسب الأسرة المعيشية: فقائمة أفراد الأسرة هي الوسيلة التي يُلاحَظ بها غياب مولود جديد.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El trabajo de los CHW se organiza por hogares: el padrón es la forma de advertir que falta un recién nacido.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le travail des CHW est organisé par ménage : c’est grâce à la liste des membres qu’on remarque un nouveau-né manquant.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Работа CHW организована по домохозяйствам: именно по списку членов замечают неучтённого новорождённого.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CHW 的工作按家庭组织：通过家庭成员名册才能发现漏登的新生儿。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "Read without checking the signature, so kept as reported: not lost, but not counted by the schedule yet.",
+   "hash": "d5f3528fb4543d5b",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قُرئت دون التحقق من التوقيع، لذا تُحفَظ على أنها مُبلَّغ عنها: لم تُفقَد، لكن جدول التطعيم لا يحتسبها بعد.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Leído sin comprobar la firma, por lo que se conserva como notificado: no se pierde, pero el calendario todavía no lo cuenta.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lues sans vérification de la signature, donc conservées comme déclarées : pas perdues, mais pas encore comptabilisées par le calendrier.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Считано без проверки подписи, поэтому сохранено как заявленное: не утеряно, но графиком пока не учитывается.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "读取时未核查签名，因此保留为“已报告”：不会丢失，但暂不计入接种计划。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "The form is configuration, not code; keeping the answers lets every extracted record trace back to what was asked.",
+   "hash": "71fcbd170da78fb1",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "النموذج إعدادات وليس شيفرة؛ وحفظ الإجابات يتيح تتبّع كل سجلّ مُستخرَج إلى ما طُرح من أسئلة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El formulario es configuración, no código; conservar las respuestas permite rastrear cada registro extraído hasta lo que se preguntó.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le formulaire relève de la configuration, pas du code ; conserver les réponses permet de rattacher chaque dossier extrait à ce qui a été demandé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Форма — это конфигурация, а не код; сохранение ответов позволяет проследить каждую извлечённую запись до того, о чём спрашивали.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "表单是配置，而不是代码；保留答案可以让每一条提取出的记录都能追溯到当时所提的问题。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "The phone cannot verify a DVC but the clinic can; the referral points at exactly the doses to check.",
+   "hash": "f9b997c184e1faf1",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لا يستطيع الهاتف التحقق من شهادة DVC لكن العيادة تستطيع؛ والإحالة تُشير بالضبط إلى الجرعات المطلوب التحقق منها.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El teléfono no puede verificar un DVC, pero la clínica sí; la derivación señala exactamente las dosis que hay que comprobar.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le téléphone ne peut pas vérifier un DVC, mais la clinique le peut ; l’orientation désigne précisément les doses à vérifier.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Телефон не может проверить DVC, а клиника может; направление указывает именно на те дозы, которые нужно проверить.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "手机无法验证 DVC，但诊所可以；转诊单准确指明需要核查的剂次。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "Camera scan",
+   "hash": "f3a5519f76d19647",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "مسح بالكاميرا",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Escaneo con la cámara",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Scan par caméra",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Сканирование камерой",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "相机扫描",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.carrier",
+   "msgid": "Offline form (FHIR Questionnaire), then sync via Info Gateway",
+   "hash": "ff54f1ac76d14af2",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نموذج يعمل دون اتصال (FHIR Questionnaire)، ثم المزامنة عبر بوابة ربط المعلومات (Info Gateway)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Formulario sin conexión (FHIR Questionnaire), y luego sincronización a través de Info Gateway",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Formulaire hors ligne (FHIR Questionnaire), puis synchronisation via l’Info Gateway",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Автономная форма (FHIR Questionnaire), затем синхронизация через Info Gateway",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线表单（FHIR Questionnaire），随后通过 Info Gateway 同步",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Decoded dose data (not yet saved)",
+   "hash": "28323b041710c944",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "بيانات الجرعات المفكوكة الترميز (لم تُحفَظ بعد)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Datos de las dosis decodificados (aún sin guardar)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Données de dose décodées (pas encore enregistrées)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Декодированные данные о дозах (ещё не сохранены)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已解码的剂次数据（尚未保存）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.payload",
+   "msgid": "Patient + Group + unverified Immunization ×2 + referral",
+   "hash": "f8610d7b586b7b25",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Patient + Group + سجلات Immunization غير مُتحقَّق منها ×2 + إحالة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Patient + Group + Immunization no verificado ×2 + derivación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Patient + Group + Immunization non vérifiée ×2 + orientation",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Patient + Group + непроверенный Immunization ×2 + направление",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Patient + Group + 未验证的 Immunization ×2 + 转诊",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "Referral to the District Health Center",
+   "hash": "7fbcc4dd94e914f2",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "إحالة إلى المركز الصحي في المنطقة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Derivación al Centro de Salud de Distrito",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Orientation vers le centre de santé de district",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Направление в районный медицинский центр",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "转诊至区卫生中心",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.handoff.summary",
+   "msgid": "The doses, read but not checked, go into the registration",
+   "hash": "8d6f1f2e3679b260",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الجرعات، المقروءة دون تحقق، تدخل في التسجيل",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Las dosis, leídas pero no comprobadas, pasan al registro",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les doses, lues mais non vérifiées, sont intégrées à l’enregistrement",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дозы, считанные, но не проверенные, попадают в регистрацию",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已读取但未核查的剂次进入登记",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "With no signal, Vilay adds Somsak to his household, saves his doses as “reported”, and refers the family to the clinic.",
+   "hash": "4b38e406a3ed03b4",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في غياب التغطية، تضيف Vilay الطفل Somsak إلى أسرته المعيشية، وتحفظ جرعاته على أنها «مُبلَّغ عنها»، وتُحيل الأسرة إلى العيادة.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin señal, Vilay añade a Somsak a su hogar, guarda sus dosis como “notificadas” y deriva a la familia a la clínica.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sans signal, Vilay ajoute Somsak à son ménage, enregistre ses doses comme « déclarées » et oriente la famille vers la clinique.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Без сигнала Vilay добавляет Somsak в его домохозяйство, сохраняет его дозы как «заявленные» и направляет семью в клинику.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在没有信号的情况下，Vilay 将 Somsak 加入他的家庭，把他的剂次保存为“已报告”，并将这家人转诊到诊所。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "On the CHW app's newborn form (structured data capture,\n`TrustDemoHouseholdRegistration`) she adds Somsak to the Sengmany household\n(`TrustDemoHousehold`), with a temporary id. Bounmy confirms the details as\nhead of household. The app saves the doses read from the cards as reported by\nthe family, not verified (`TrustDemoJ2HepBReported`, `TrustDemoJ2BcgReported`:\n`primarySource` false). Vilay refers Somsak to the district health center\n(`TrustDemoJ2Referral`). Everything stays queued on the phone, for 28 days if\nneed be, and syncs when it next reaches a signal.\n",
+   "hash": "6f49c4e2f44c46a8",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في نموذج المولود الجديد في تطبيق CHW (التقاط البيانات المُهيكلة،\n`TrustDemoHouseholdRegistration`) تضيف Somsak إلى الأسرة المعيشية Sengmany\n(`TrustDemoHousehold`)، بمعرِّف مؤقت. ويؤكّد Bounmy البيانات بصفته\nربّ الأسرة. يحفظ التطبيق الجرعات المقروءة من البطاقتين على أنها مُبلَّغ عنها من\nالأسرة، غير مُتحقَّق منها (`TrustDemoJ2HepBReported`، `TrustDemoJ2BcgReported`:\n`primarySource` false). وتُحيل Vilay الطفل Somsak إلى المركز الصحي في المنطقة\n(`TrustDemoJ2Referral`). يبقى كل شيء في قائمة الانتظار على الهاتف، لمدة 28 يومًا إن\nلزم الأمر، ويُزامَن عندما يصل إلى تغطية في المرة التالية.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En el formulario de recién nacido de la aplicación del CHW (captura estructurada de datos,\n`TrustDemoHouseholdRegistration`), añade a Somsak al hogar Sengmany\n(`TrustDemoHousehold`) con un identificador temporal. Bounmy confirma los datos como\ncabeza de familia. La aplicación guarda las dosis leídas de las tarjetas como notificadas por\nla familia, no verificadas (`TrustDemoJ2HepBReported`, `TrustDemoJ2BcgReported`:\n`primarySource` false). Vilay deriva a Somsak al centro de salud de distrito\n(`TrustDemoJ2Referral`). Todo queda en cola en el teléfono, durante 28 días si hace\nfalta, y se sincroniza la próxima vez que haya señal.\n",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans le formulaire nouveau-né de l’application du CHW (saisie de données structurées,\n`TrustDemoHouseholdRegistration`), elle ajoute Somsak au ménage Sengmany\n(`TrustDemoHousehold`), avec un identifiant temporaire. Bounmy confirme les informations en\ntant que chef de ménage. L’application enregistre les doses lues sur les cartes comme déclarées\npar la famille, non vérifiées (`TrustDemoJ2HepBReported`, `TrustDemoJ2BcgReported` :\n`primarySource` false). Vilay oriente Somsak vers le centre de santé de district\n(`TrustDemoJ2Referral`). Tout reste en file d’attente sur le téléphone, pendant 28 jours si\nnécessaire, et se synchronise dès qu’il capte de nouveau un signal.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "С помощью формы новорождённого в приложении CHW (структурированный сбор данных,\n`TrustDemoHouseholdRegistration`) она добавляет Somsak в домохозяйство Sengmany\n(`TrustDemoHousehold`) с временным идентификатором (id). Bounmy как глава домохозяйства\nподтверждает сведения. Приложение сохраняет дозы, считанные с карточек, как заявленные\nсемьёй, но не проверенные (`TrustDemoJ2HepBReported`, `TrustDemoJ2BcgReported`:\n`primarySource` false). Vilay направляет Somsak в районный медицинский центр\n(`TrustDemoJ2Referral`). Всё остаётся в очереди на телефоне — при необходимости до 28 дней —\nи синхронизируется, когда появится сигнал.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 CHW 应用的新生儿表单（结构化数据采集，`TrustDemoHouseholdRegistration`）中，她使用临时 id 将 Somsak 加入 Sengmany 家庭（`TrustDemoHousehold`）。Bounmy 以户主身份确认这些信息。应用将从卡片读取的剂次保存为由家人报告、未经验证（`TrustDemoJ2HepBReported`、`TrustDemoJ2BcgReported`：`primarySource` 为 false）。Vilay 将 Somsak 转诊至区卫生中心（`TrustDemoJ2Referral`）。所有内容都在手机上排队，必要时可保留 28 天，并在下次有信号时同步。\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Babies born abroad are invisible to the home health system until civil registration catches up — sometimes months later.",
+   "hash": "8e7dda1b9fd119d5",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يظل الرضّع المولودون في الخارج غير مرئيين للنظام الصحي في البلد الأم إلى أن يلحق بهم التسجيل المدني — بعد أشهر أحيانًا.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los bebés nacidos en el extranjero son invisibles para el sistema de salud de su país de residencia hasta que el registro civil se pone al día — a veces meses después.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les bébés nés à l’étranger sont invisibles pour le système de santé du pays de résidence jusqu’à ce que l’enregistrement à l’état civil soit effectué — parfois des mois plus tard.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дети, родившиеся за рубежом, невидимы для системы здравоохранения страны проживания, пока не будет завершена регистрация актов гражданского состояния — иногда спустя месяцы.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在境外出生的婴儿在民事登记跟上之前，对本国卫生系统而言是不可见的——有时要等上几个月。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.painPoint",
+   "msgid": "Without a check, a forged or mistyped card could quietly become an official record.",
+   "hash": "4b34d3a5ec057c9d",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "من دون تحقق، قد تتحول بطاقة مزوّرة أو مُدخَلة بخطأ بهدوء إلى سجلّ رسمي.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Sin una comprobación, una tarjeta falsificada o con errores de transcripción podría convertirse sin que nadie lo note en un registro oficial.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Sans vérification, une carte falsifiée ou mal saisie pourrait discrètement devenir un dossier officiel.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Без проверки поддельная или заполненная с ошибкой карточка может незаметно стать официальной записью.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "如果不加核查，一张伪造或录错的卡片可能会悄无声息地变成正式记录。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Keep a clear line between what families report and what has been verified, and don’t grant trust too early.",
+   "hash": "57984be87571a3a9",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "الإبقاء على حدّ واضح بين ما تُبلِغ عنه الأسر وما جرى التحقق منه، وعدم منح الثقة قبل أوانها.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Mantener una línea clara entre lo que notifican las familias y lo que se ha verificado, y no conceder la confianza demasiado pronto.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Maintenir une distinction claire entre ce que les familles déclarent et ce qui a été vérifié, et ne pas accorder la confiance trop tôt.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Чётко разграничивать то, что сообщают семьи, и то, что проверено, и не предоставлять доверие преждевременно.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在家人报告的内容与已验证的内容之间划清界限，不要过早给予信任。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.policy",
+   "msgid": "Newborns can be registered at home, offline, before civil registration or a national ID exists.",
+   "hash": "da2b7317c009c328",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يمكن تسجيل المواليد الجدد في المنزل، دون اتصال، قبل وجود التسجيل المدني أو هوية وطنية (ID).",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Los recién nacidos pueden registrarse en casa, sin conexión, antes de que existan el registro civil o un documento nacional de identidad.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Les nouveau-nés peuvent être enregistrés au domicile, hors ligne, avant l’enregistrement à l’état civil ou l’existence d’une pièce d’identité nationale.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Новорождённых можно регистрировать на дому, в автономном режиме, до регистрации актов гражданского состояния или получения национального удостоверения личности.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "新生儿可以在本国离线登记，无需等待民事登记或国民身份证。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "Baby registered; 2 doses saved as “reported by family”",
+   "hash": "16d18268c875ebd4",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سُجِّل الرضيع؛ وحُفظت جرعتان على أنهما «مُبلَّغ عنهما من الأسرة»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Bebé registrado; 2 dosis guardadas como “notificadas por la familia”",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Bébé enregistré ; 2 doses enregistrées comme « déclarées par la famille »",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Младенец зарегистрирован; 2 дозы сохранены как «заявленные семьёй»",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "婴儿已登记；2 剂次保存为“由家人报告”",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.description",
+   "msgid": "Doses read from the 2 cards; nothing saved yet",
+   "hash": "d003bfc3b1eb9008",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قُرئت الجرعات من البطاقتين؛ لم يُحفَظ شيء بعد",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Dosis leídas de las 2 tarjetas; nada guardado todavía",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Doses lues sur les 2 cartes ; rien n’est encore enregistré",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Дозы считаны с 2 карточек; пока ничего не сохранено",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已从 2 张卡片读取剂次；尚未保存任何内容",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "CHW phone (waiting to sync)",
+   "hash": "d400377a4d97151c",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "هاتف CHW (بانتظار المزامنة)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Teléfono del CHW (pendiente de sincronizar)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Téléphone du CHW (en attente de synchronisation)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Телефон CHW (ожидает синхронизации)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "CHW 手机（等待同步）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.record.heldWhere",
+   "msgid": "Paper cards + CHW phone",
+   "hash": "24037d83a71ac338",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "البطاقات الورقية + هاتف CHW",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Tarjetas en papel + teléfono del CHW",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Cartes papier + téléphone du CHW",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Бумажные карточки + телефон CHW",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "纸质卡片 + CHW 手机",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.technicalSummary",
+   "msgid": "The phone can read the QR but deliberately doesn’t trust it: it decodes the card offline and checks no signature. Nothing is written yet.",
+   "hash": "78cac45d6c9b7701",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يستطيع الهاتف قراءة رمز QR لكنه لا يثق به عمدًا: يفك ترميز البطاقة دون اتصال ولا يتحقق من أي توقيع. لم يُكتَب شيء بعد.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El teléfono puede leer el QR pero, deliberadamente, no confía en él: decodifica la tarjeta sin conexión y no comprueba ninguna firma. Todavía no se escribe nada.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le téléphone peut lire le QR, mais ne lui fait délibérément pas confiance : il décode la carte hors ligne et ne vérifie aucune signature. Rien n’est encore écrit.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Телефон может считать QR-код, но намеренно ему не доверяет: он декодирует карточку в автономном режиме и не проверяет подпись. Пока ничего не записывается.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "手机能读取 QR 码，但有意不信任它：它离线解码卡片，不核查任何签名。尚未写入任何内容。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.technicalSummary",
+   "msgid": "The registration form is a FHIR Questionnaire. Its answers become standard FHIR resources on the phone; the doses read from the cards are saved with primarySource=false, apart from verified data, and everything syncs whenever there is signal.",
+   "hash": "1fb1e5e0ec1bff51",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "نموذج التسجيل هو FHIR Questionnaire. تصبح إجاباته موارد FHIR قياسية على الهاتف؛ وتُحفَظ الجرعات المقروءة من البطاقتين بقيمة primarySource=false، بمعزل عن البيانات المُتحقَّق منها، ويُزامَن كل شيء متى توفّرت تغطية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El formulario de registro es un FHIR Questionnaire. Sus respuestas se convierten en recursos FHIR estándar en el teléfono; las dosis leídas de las tarjetas se guardan con primarySource=false, separadas de los datos verificados, y todo se sincroniza cuando hay señal.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le formulaire d’enregistrement est un FHIR Questionnaire. Ses réponses deviennent des ressources FHIR standard sur le téléphone ; les doses lues sur les cartes sont enregistrées avec primarySource=false, séparément des données vérifiées, et tout se synchronise dès qu’il y a du signal.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Регистрационная форма — это FHIR Questionnaire. Её ответы становятся стандартными ресурсами FHIR на телефоне; дозы, считанные с карточек, сохраняются с primarySource=false, отдельно от проверенных данных, и всё синхронизируется, когда появляется сигнал.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "登记表是一个 FHIR Questionnaire。其答案在手机上转为标准 FHIR 资源；从卡片读取的剂次以 primarySource=false 保存，与已验证数据分开，所有内容在有信号时同步。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "A health worker finds the baby — and reads his cards",
+   "hash": "4c9475ee16a8ec57",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عامل صحي يعثر على الرضيع — ويقرأ بطاقتيه",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Una trabajadora de salud encuentra al bebé — y lee sus tarjetas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Une agente de santé trouve le bébé — et lit ses cartes",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Медицинский работник находит младенца — и считывает его карточки",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "一名卫生工作者找到了婴儿——并读取了他的卡片",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.title",
+   "msgid": "Registered at home, and referred",
+   "hash": "ea1cfd4a61ba7dbc",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "سُجِّل في المنزل، وأُحيل",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Registrado en casa, y derivado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Enregistré au domicile, et orienté",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Зарегистрирован дома и направлен",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在家中登记并转诊",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Offline phone app (household form + referral)",
+   "hash": "0216832a00c3f802",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق هاتف يعمل دون اتصال (نموذج الأسرة المعيشية + الإحالة)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicación del teléfono sin conexión (formulario del hogar + derivación)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Application mobile hors ligne (formulaire du ménage + orientation)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Автономное приложение на телефоне (форма домохозяйства + направление)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线手机应用（家庭表单 + 转诊）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.touchpoint",
+   "msgid": "Offline phone app (QR scan)",
+   "hash": "3032ac834a29213e",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "تطبيق هاتف يعمل دون اتصال (مسح QR)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Aplicación del teléfono sin conexión (escaneo del QR)",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Application mobile hors ligne (scan QR)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Автономное приложение на телефоне (сканирование QR-кода)",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线手机应用（QR 码扫描）",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Decodes the QR offline",
+   "hash": "5624ccafd7752569",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يفك ترميز QR دون اتصال",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Decodifica el QR sin conexión",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Décode le QR hors ligne",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Декодирует QR-код в автономном режиме",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "离线解码 QR 码",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "On sync, checks the CHW’s token and only lets her write to households in her own catchment",
+   "hash": "86264584971ce0c8",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عند المزامنة، يتحقق من رمز CHW المميز (token) ولا يسمح لها بالكتابة إلا في الأسر المعيشية ضمن منطقة خدمتها",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Al sincronizar, comprueba el token del CHW y solo le permite escribir en los hogares de su propia zona de captación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lors de la synchronisation, vérifie le jeton du CHW et ne l’autorise à écrire que dans les ménages de sa propre zone de desserte",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "При синхронизации проверяет токен CHW и разрешает ей записывать данные только в домохозяйства её собственной зоны обслуживания",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "同步时检查 CHW 的令牌，只允许她写入其自身服务片区内的家庭",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Patient and Group (household); Immunization.primarySource = false; ServiceRequest for referral",
+   "hash": "e57e448fdd9ebe1a",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Patient وGroup (الأسرة المعيشية)؛ Immunization.primarySource = false؛ ServiceRequest للإحالة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Patient y Group (hogar); Immunization.primarySource = false; ServiceRequest para la derivación",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Patient et Group (ménage) ; Immunization.primarySource = false ; ServiceRequest pour l’orientation",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Patient и Group (домохозяйство); Immunization.primarySource = false; ServiceRequest для направления",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Patient 和 Group（家庭）；Immunization.primarySource = false；用于转诊的 ServiceRequest",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "QR decoded (CBOR) but signature not checked",
+   "hash": "02410816c67918a3",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "فُكّ ترميز QR (CBOR) لكن لم يُتحقَّق من التوقيع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "QR decodificado (CBOR), pero sin comprobar la firma",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "QR décodé (CBOR), mais signature non vérifiée",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "QR-код декодирован (CBOR), но подпись не проверена",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "QR 码已解码（CBOR），但未核查签名",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Renders the household registration form and extracts FHIR from the answers",
+   "hash": "881261c96b76dde5",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يعرض نموذج تسجيل الأسرة المعيشية ويستخرج FHIR من الإجابات",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Muestra el formulario de registro del hogar y extrae FHIR de las respuestas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Affiche le formulaire d’enregistrement du ménage et extrait du FHIR à partir des réponses",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Отображает форму регистрации домохозяйства и извлекает FHIR из ответов",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "呈现家庭登记表，并从答案中提取 FHIR",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "Stores data on the phone; works 28+ days offline",
+   "hash": "93fcb71d4e00f7a1",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يخزّن البيانات على الهاتف؛ يعمل 28+ يومًا دون اتصال",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Almacena los datos en el teléfono; funciona sin conexión 28 días o más",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Stocke les données sur le téléphone ; fonctionne hors ligne 28 jours et plus",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Хранит данные на телефоне; работает без связи 28+ дней",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在手机上存储数据；可离线工作 28 天以上",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.outcome",
+   "msgid": "Everything stays queued safely on the device and syncs when she next reaches the health center.",
+   "hash": "a6b640d8ecb43c3f",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يبقى كل شيء في قائمة الانتظار بأمان على الجهاز ويُزامَن عندما تصل إلى المركز الصحي في المرة التالية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Todo queda en cola de forma segura en el dispositivo y se sincroniza cuando ella vuelve a llegar al centro de salud.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Tout reste en file d’attente en toute sécurité sur l’appareil et se synchronise lorsqu’elle se rend de nouveau au centre de santé.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Всё надёжно остаётся в очереди на устройстве и синхронизируется, когда она в следующий раз доберётся до медицинского центра.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "所有内容都安全地在设备上排队，并在她下次到达卫生中心时同步。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.outcome",
+   "msgid": "Technically possible with a cached trust list — but who keeps it current on thousands of village phones?",
+   "hash": "f6a6d44689544eda",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ممكن تقنيًا باستخدام قائمة ثقة مُخزَّنة مؤقتًا — لكن من يُبقيها مُحدَّثة على آلاف هواتف القرى؟",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Técnicamente es posible con una lista de confianza en caché — pero ¿quién la mantiene actualizada en miles de teléfonos de aldea?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Techniquement possible avec une liste de confiance mise en cache — mais qui la tient à jour sur des milliers de téléphones de village ?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Технически возможно с кэшированным списком доверия — но кто будет поддерживать его в актуальном состоянии на тысячах деревенских телефонов?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "借助缓存的信任列表，技术上可行——但谁来让成千上万部村庄手机上的列表保持最新？",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.scenario",
+   "msgid": "Vilay’s phone stays offline for 28 days.",
+   "hash": "e4a386369a5411fe",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يظل هاتف Vilay دون اتصال لمدة 28 يومًا.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "El teléfono de Vilay permanece sin conexión durante 28 días.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Le téléphone de Vilay reste hors ligne pendant 28 jours.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Телефон Vilay остаётся без связи 28 дней.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Vilay 的手机连续 28 天离线。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.whatIf.scenario",
+   "msgid": "What if the CHW phone could verify signatures offline too?",
+   "hash": "bf83687fb6559d65",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "ماذا لو استطاع هاتف CHW التحقق من التوقيعات دون اتصال أيضًا؟",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "¿Y si el teléfono del CHW también pudiera verificar firmas sin conexión?",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Et si le téléphone du CHW pouvait aussi vérifier les signatures hors ligne ?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Что, если бы телефон CHW тоже мог проверять подписи в автономном режиме?",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "如果 CHW 手机也能离线验证签名呢？",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.where",
+   "msgid": "Catchment Village 04",
+   "hash": "1c331ba83f434645",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "القرية 04 ضمن منطقة الخدمة",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Zona de captación Village 04",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Village 04 de la zone de desserte",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Деревня 04 зоны обслуживания",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "服务片区 Village 04",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "views.label",
+   "msgid": "J2",
+   "hash": "b29556a6f5110421",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "where",
+   "msgid": "Onesa",
+   "hash": "6d4972d78c729da6",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.when",
+   "msgid": "T0 + 7 weeks",
+   "hash": "1ce024793d812dc5",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "T0 + 7 أسابيع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "T0 + 7 semanas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "T0 + 7 semaines",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "T0 + 7 недель",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "T0 + 7 周",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "title",
+   "msgid": "J2 — Found and registered",
+   "hash": "4b655c704602a1db",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "J2 — العثور عليه وتسجيله",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "J2 — Detectado y registrado",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "J2 — Retrouvé et enregistré",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "J2 — Найден и зарегистрирован",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "J2 — 被发现并登记",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "when",
+   "msgid": "Somsak is 7 weeks old",
+   "hash": "be127df5aa8a8ba4",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "عمر Somsak 7 أسابيع",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Somsak tiene 7 semanas",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Somsak a 7 semaines",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Somsak исполнилось 7 недель",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Somsak 7 周大",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.experiences.doing",
+   "msgid": "Is added to his household: the Onesa health system now knows he exists.",
+   "hash": "622ed7cb04805d1f",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "يُضاف إلى أسرته المعيشية: أصبح النظام الصحي في Onesa يعلم الآن بوجوده.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Se le añade a su hogar: el sistema de salud de Onesa ya sabe que existe.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Est ajouté à son ménage : le système de santé du pays Onesa sait désormais qu’il existe.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Добавлен в своё домохозяйство: система здравоохранения страны Onesa теперь знает о его существовании.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "被加入他的家庭：Onesa 卫生系统现在知道他的存在了。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.change",
+   "msgid": "Created with a temporary ID from Onesa",
+   "hash": "53267e127026a0d5",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أُنشئ بمعرِّف (ID) مؤقت من Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Creado con un identificador temporal de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Créé avec un identifiant temporaire du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Создано с временным идентификатором из страны Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "使用 Onesa 的临时 ID 创建",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.fhirChanges.why",
+   "msgid": "He is not in the Onesa civil registry yet; a temporary id lets the CHW, clinic and portal all mean the same child. Taifafeki only gave him a hospital number.",
+   "hash": "1fcfca039cfcb015",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "لم يُسجَّل بعد في السجلّ المدني في Onesa؛ ويتيح معرِّف مؤقت أن يُشير عامل CHW والعيادة والبوابة جميعًا إلى الطفل نفسه. لم تمنحه Taifafeki سوى رقم مستشفى.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Todavía no figura en el registro civil de Onesa; un identificador temporal permite que el CHW, la clínica y el portal se refieran al mismo niño. Taifafeki solo le dio un número de hospital.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Il ne figure pas encore à l’état civil du pays Onesa ; un identifiant temporaire permet au CHW, à la clinique et au portail de désigner le même enfant. Taifafeki ne lui a donné qu’un numéro d’hôpital.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Его ещё нет в реестре актов гражданского состояния страны Onesa; временный идентификатор позволяет CHW, клинике и порталу однозначно иметь в виду одного и того же ребёнка. Страна Taifafeki выдала ему только больничный номер.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "他尚未进入 Onesa 民事登记系统；临时 id 让 CHW、诊所和门户指向同一个孩子。Taifafeki 只给了他一个医院编号。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.headline",
+   "msgid": "On a routine village visit, Vilay finds a newborn the Onesa system doesn’t know exists. She can read the vaccines on his cards, but she can’t prove they are genuine.",
+   "hash": "ea69f56b18a1aa5c",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "خلال زيارة روتينية للقرية، تعثر Vilay على مولود جديد لا يعلم نظام Onesa بوجوده. تستطيع قراءة اللقاحات على بطاقتيه، لكنها لا تستطيع إثبات أنها أصلية.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En una visita de rutina a la aldea, Vilay encuentra a un recién nacido cuya existencia desconoce el sistema de Onesa. Puede leer las vacunas de sus tarjetas, pero no puede demostrar que sean auténticas.",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Lors d’une visite de routine au village, Vilay trouve un nouveau-né dont le système du pays Onesa ignore l’existence. Elle peut lire les vaccins sur ses cartes, mais ne peut pas prouver qu’ils sont authentiques.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Во время планового визита в деревню Vilay обнаруживает новорождённого, о существовании которого система страны Onesa не знает. Она может прочитать сведения о прививках на его карточках, но не может доказать их подлинность.",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在一次例行的村庄家访中，Vilay 发现了一个 Onesa 系统并不知道其存在的新生儿。她能读出他卡片上的疫苗，却无法证明它们是真的。",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.illustration.alt",
+   "msgid": "In a village in Onesa with no signal, Vilay, the community health worker, scans the paper cards with her phone while Khamla holds Somsak and Bounmy looks on",
+   "hash": "dc577d6928842c84",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "في قرية في Onesa لا تغطية فيها، تمسح Vilay، عاملة الصحة المجتمعية، البطاقات الورقية بهاتفها بينما تحمل Khamla الطفل Somsak ويراقب Bounmy",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "En una aldea de Onesa sin señal, Vilay, la agente comunitaria de salud, escanea las tarjetas en papel con su teléfono mientras Khamla sostiene a Somsak y Bounmy observa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Dans un village du pays Onesa sans signal, Vilay, l’agente de santé communautaire, scanne les cartes papier avec son téléphone pendant que Khamla tient Somsak et que Bounmy regarde",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "В деревне в стране Onesa, где нет сигнала, Vilay, общинный медицинский работник, сканирует бумажные карточки своим телефоном, пока Khamla держит Somsak, а Bounmy наблюдает",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "在 Onesa 一个没有信号的村庄，社区卫生工作者 Vilay 用手机扫描纸质卡片，Khamla 抱着 Somsak，Bounmy 在一旁看着",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.narrative",
+   "msgid": "Khamla has brought Somsak home to Onesa. On a routine visit to Village 04,\nKhamla's village, Vilay finds a newborn the Onesa\nsystem does not know exists. Her phone has had no signal for weeks. Khamla\nshows the two cards. The CHW app reads them with **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), which needs no trust\nlist. It shows the doses, but checks no signature and saves nothing yet.\n",
+   "hash": "2cec95f61945cd8f",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "أعادت Khamla الطفل Somsak إلى الوطن في Onesa. وفي زيارة روتينية إلى القرية 04،\nقرية Khamla، تعثر Vilay على مولود جديد لا يعلم نظام\nOnesa بوجوده. لم يكن لهاتفها تغطية منذ أسابيع. تُري Khamla\nالبطاقتين. يقرأهما تطبيق CHW بوظيفة **read-unverified**\n(STT-VER-011؛ STT-B45-002، STT-ZIP-002، STT-CBR-003)، التي لا تحتاج إلى قائمة\nثقة. يعرض الجرعات، لكنه لا يتحقق من أي توقيع ولا يحفظ شيئًا بعد.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Khamla ha traído a Somsak a casa, a Onesa. En una visita de rutina a Village 04,\nla aldea de Khamla, Vilay encuentra a un recién nacido cuya existencia\ndesconoce el sistema de Onesa. Su teléfono lleva semanas sin señal. Khamla muestra las dos\ntarjetas. La aplicación del CHW las lee con **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), que no necesita lista de\nconfianza. Muestra las dosis, pero no comprueba ninguna firma ni guarda nada todavía.\n",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Khamla a ramené Somsak chez elle, à Onesa. Lors d’une visite de routine au Village 04,\nle village de Khamla, Vilay trouve un nouveau-né dont le système du pays Onesa\nignore l’existence. Son téléphone n’a pas de signal depuis des semaines. Khamla\nmontre les deux cartes. L’application du CHW les lit avec **read-unverified**\n(STT-VER-011 ; STT-B45-002, STT-ZIP-002, STT-CBR-003), qui ne nécessite aucune liste\nde confiance. Elle affiche les doses, mais ne vérifie aucune signature et n’enregistre encore rien.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Khamla привезла Somsak домой, в страну Onesa. Во время планового визита в деревню 04,\nгде живёт Khamla, Vilay обнаруживает новорождённого, о существовании\nкоторого система страны Onesa не знает. На её телефоне уже несколько недель нет сигнала. Khamla\nпоказывает две карточки. Приложение CHW считывает их в режиме **read-unverified**\n(STT-VER-011; STT-B45-002, STT-ZIP-002, STT-CBR-003), для которого список доверия\nне нужен. Оно показывает дозы, но не проверяет подпись и пока ничего не сохраняет.\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "Khamla 已带 Somsak 回到 Onesa 的家。在一次对 Village 04（Khamla 所在的村庄）的例行访视中，Vilay 发现了一个 Onesa 系统并不知道其存在的新生儿。她的手机已经几周没有信号了。Khamla 出示了两张卡片。CHW 应用以 **read-unverified**（STT-VER-011；STT-B45-002、STT-ZIP-002、STT-CBR-003）读取它们，这无需信任列表。应用显示剂次，但不核查任何签名，也暂不保存任何内容。\n",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  },
+  {
+   "msgctxt": "step.uses.role",
+   "msgid": "PreQual codes read, but not yet mapped to the Onesa schedule",
+   "hash": "fe63dd3c98ba450f",
+   "sources": [
+    "scenarios/user-scenarios/j2-found-at-home.json"
+   ],
+   "locales": {
+    "ar": {
+     "text": "قُرئت رموز PreQual، لكنها لم تُربَط بعد بجدول التطعيم في Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "es": {
+     "text": "Códigos PreQual leídos, pero aún sin hacerlos corresponder con el calendario de Onesa",
+     "status": "agent",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "fr": {
+     "text": "Codes PreQual lus, mais pas encore mis en correspondance avec le calendrier du pays Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "ru": {
+     "text": "Коды PreQual считаны, но ещё не сопоставлены с графиком страны Onesa",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    },
+    "zh": {
+     "text": "已读取 PreQual 代码，但尚未映射到 Onesa 接种计划",
+     "status": "unattributed",
+     "fuzzy": false,
+     "candidates": []
+    }
+   }
+  }
+ ]
+}
