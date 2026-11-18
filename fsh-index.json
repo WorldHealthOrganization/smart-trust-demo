@@ -21,7 +21,7 @@
     "fshType": "Instance",
     "fshFile": "actors/TrustDemo.Role.Caregiver.fsh",
     "startLine": 3,
-    "endLine": 52
+    "endLine": 54
   },
   {
     "outputFile": "ActorDefinition-TrustDemo.Role.ChwApp.json",
@@ -140,528 +140,432 @@
     "fshName": "TrustDemoCodeMappingBasisAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 454,
-    "endLine": 475
+    "startLine": 183,
+    "endLine": 204
   },
   {
     "outputFile": "CodeSystem-TrustDemoCodeMappingBasis-es.json",
     "fshName": "TrustDemoCodeMappingBasisEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 454,
-    "endLine": 475
+    "startLine": 183,
+    "endLine": 204
   },
   {
     "outputFile": "CodeSystem-TrustDemoCodeMappingBasis-fr.json",
     "fshName": "TrustDemoCodeMappingBasisFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 455,
-    "endLine": 476
+    "startLine": 184,
+    "endLine": 205
   },
   {
     "outputFile": "CodeSystem-TrustDemoCodeMappingBasis-ru.json",
     "fshName": "TrustDemoCodeMappingBasisRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 447,
-    "endLine": 467
+    "startLine": 178,
+    "endLine": 198
   },
   {
     "outputFile": "CodeSystem-TrustDemoCodeMappingBasis-zh.json",
     "fshName": "TrustDemoCodeMappingBasisZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 394,
-    "endLine": 414
+    "startLine": 153,
+    "endLine": 173
   },
   {
     "outputFile": "CodeSystem-TrustDemoCodeMappingBasis.json",
     "fshName": "TrustDemoCodeMappingBasis",
     "fshType": "CodeSystem",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 178,
-    "endLine": 187
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoDataElements-ar.json",
-    "fshName": "TrustDemoDataElementsAr",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/ar.fsh",
-    "startLine": 63,
-    "endLine": 303
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoDataElements-es.json",
-    "fshName": "TrustDemoDataElementsEs",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/es.fsh",
-    "startLine": 63,
-    "endLine": 303
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoDataElements-fr.json",
-    "fshName": "TrustDemoDataElementsFr",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/fr.fsh",
-    "startLine": 64,
-    "endLine": 304
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoDataElements-ru.json",
-    "fshName": "TrustDemoDataElementsRu",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/ru.fsh",
-    "startLine": 61,
-    "endLine": 300
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoDataElements-zh.json",
-    "fshName": "TrustDemoDataElementsZh",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/zh.fsh",
-    "startLine": 8,
-    "endLine": 247
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoDataElements.json",
-    "fshName": "TrustDemoDataElements",
-    "fshType": "CodeSystem",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 3,
-    "endLine": 85
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 94,
+    "endLine": 103
   },
   {
     "outputFile": "CodeSystem-TrustDemoDvcOutcome-ar.json",
     "fshName": "TrustDemoDvcOutcomeAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 431,
-    "endLine": 452
+    "startLine": 160,
+    "endLine": 181
   },
   {
     "outputFile": "CodeSystem-TrustDemoDvcOutcome-es.json",
     "fshName": "TrustDemoDvcOutcomeEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 431,
-    "endLine": 452
+    "startLine": 160,
+    "endLine": 181
   },
   {
     "outputFile": "CodeSystem-TrustDemoDvcOutcome-fr.json",
     "fshName": "TrustDemoDvcOutcomeFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 432,
-    "endLine": 453
+    "startLine": 161,
+    "endLine": 182
   },
   {
     "outputFile": "CodeSystem-TrustDemoDvcOutcome-ru.json",
     "fshName": "TrustDemoDvcOutcomeRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 425,
-    "endLine": 445
+    "startLine": 156,
+    "endLine": 176
   },
   {
     "outputFile": "CodeSystem-TrustDemoDvcOutcome-zh.json",
     "fshName": "TrustDemoDvcOutcomeZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 372,
-    "endLine": 392
+    "startLine": 131,
+    "endLine": 151
   },
   {
     "outputFile": "CodeSystem-TrustDemoDvcOutcome.json",
     "fshName": "TrustDemoDvcOutcome",
     "fshType": "CodeSystem",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 160,
-    "endLine": 169
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 76,
+    "endLine": 85
   },
   {
     "outputFile": "CodeSystem-TrustDemoOnesaEpiSchedule-ar.json",
     "fshName": "TrustDemoOnesaEpiScheduleAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 34,
-    "endLine": 61
+    "startLine": 5,
+    "endLine": 32
   },
   {
     "outputFile": "CodeSystem-TrustDemoOnesaEpiSchedule-es.json",
     "fshName": "TrustDemoOnesaEpiScheduleEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 34,
-    "endLine": 61
+    "startLine": 5,
+    "endLine": 32
   },
   {
     "outputFile": "CodeSystem-TrustDemoOnesaEpiSchedule-fr.json",
     "fshName": "TrustDemoOnesaEpiScheduleFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 35,
-    "endLine": 62
+    "startLine": 6,
+    "endLine": 33
   },
   {
     "outputFile": "CodeSystem-TrustDemoOnesaEpiSchedule-ru.json",
     "fshName": "TrustDemoOnesaEpiScheduleRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 33,
-    "endLine": 59
+    "startLine": 5,
+    "endLine": 31
   },
   {
     "outputFile": "CodeSystem-TrustDemoOnesaEpiSchedule-zh.json",
     "fshName": "TrustDemoOnesaEpiScheduleZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 463,
-    "endLine": 489
+    "startLine": 194,
+    "endLine": 220
   },
   {
     "outputFile": "CodeSystem-TrustDemoOnesaEpiSchedule.json",
     "fshName": "TrustDemoOnesaEpiSchedule",
     "fshType": "CodeSystem",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 21,
-    "endLine": 32
+    "startLine": 12,
+    "endLine": 23
   },
   {
     "outputFile": "CodeSystem-TrustDemoTrustDomain-ar.json",
     "fshName": "TrustDemoTrustDomainAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 497,
-    "endLine": 513
+    "startLine": 226,
+    "endLine": 242
   },
   {
     "outputFile": "CodeSystem-TrustDemoTrustDomain-es.json",
     "fshName": "TrustDemoTrustDomainEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 497,
-    "endLine": 512
+    "startLine": 226,
+    "endLine": 241
   },
   {
     "outputFile": "CodeSystem-TrustDemoTrustDomain-fr.json",
     "fshName": "TrustDemoTrustDomainFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 498,
-    "endLine": 513
+    "startLine": 227,
+    "endLine": 242
   },
   {
     "outputFile": "CodeSystem-TrustDemoTrustDomain-ru.json",
     "fshName": "TrustDemoTrustDomainRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 488,
-    "endLine": 508
+    "startLine": 219,
+    "endLine": 239
   },
   {
     "outputFile": "CodeSystem-TrustDemoTrustDomain-zh.json",
     "fshName": "TrustDemoTrustDomainZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 491,
-    "endLine": 508
+    "startLine": 222,
+    "endLine": 239
   },
   {
     "outputFile": "CodeSystem-TrustDemoTrustDomain.json",
     "fshName": "TrustDemoTrustDomain",
     "fshType": "CodeSystem",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 119,
-    "endLine": 126
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoVaccineProduct-ar.json",
-    "fshName": "TrustDemoVaccineProductAr",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/ar.fsh",
-    "startLine": 5,
-    "endLine": 32
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoVaccineProduct-es.json",
-    "fshName": "TrustDemoVaccineProductEs",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/es.fsh",
-    "startLine": 5,
-    "endLine": 32
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoVaccineProduct-fr.json",
-    "fshName": "TrustDemoVaccineProductFr",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/fr.fsh",
-    "startLine": 6,
-    "endLine": 33
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoVaccineProduct-ru.json",
-    "fshName": "TrustDemoVaccineProductRu",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/ru.fsh",
-    "startLine": 5,
-    "endLine": 31
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoVaccineProduct-zh.json",
-    "fshName": "TrustDemoVaccineProductZh",
-    "fshType": "CodeSystem",
-    "fshFile": "translations/zh.fsh",
-    "startLine": 435,
-    "endLine": 461
-  },
-  {
-    "outputFile": "CodeSystem-TrustDemoVaccineProduct.json",
-    "fshName": "TrustDemoVaccineProduct",
-    "fshType": "CodeSystem",
-    "fshFile": "examples/terminology.fsh",
-    "startLine": 8,
-    "endLine": 19
+    "startLine": 121,
+    "endLine": 128
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationFailureReason-ar.json",
     "fshName": "TrustDemoVerificationFailureReasonAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 372,
-    "endLine": 429
+    "startLine": 101,
+    "endLine": 158
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationFailureReason-es.json",
     "fshName": "TrustDemoVerificationFailureReasonEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 372,
-    "endLine": 429
+    "startLine": 101,
+    "endLine": 158
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationFailureReason-fr.json",
     "fshName": "TrustDemoVerificationFailureReasonFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 373,
-    "endLine": 430
+    "startLine": 102,
+    "endLine": 159
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationFailureReason-ru.json",
     "fshName": "TrustDemoVerificationFailureReasonRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 367,
-    "endLine": 423
+    "startLine": 98,
+    "endLine": 154
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationFailureReason-zh.json",
     "fshName": "TrustDemoVerificationFailureReasonZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 314,
-    "endLine": 370
+    "startLine": 73,
+    "endLine": 129
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationFailureReason.json",
     "fshName": "TrustDemoVerificationFailureReason",
     "fshType": "CodeSystem",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 130,
-    "endLine": 151
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 46,
+    "endLine": 67
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationResult-ar.json",
     "fshName": "TrustDemoVerificationResultAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 305,
-    "endLine": 323
+    "startLine": 34,
+    "endLine": 52
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationResult-es.json",
     "fshName": "TrustDemoVerificationResultEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 305,
-    "endLine": 323
+    "startLine": 34,
+    "endLine": 52
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationResult-fr.json",
     "fshName": "TrustDemoVerificationResultFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 306,
-    "endLine": 324
+    "startLine": 35,
+    "endLine": 53
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationResult-ru.json",
     "fshName": "TrustDemoVerificationResultRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 302,
-    "endLine": 319
+    "startLine": 33,
+    "endLine": 50
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationResult-zh.json",
     "fshName": "TrustDemoVerificationResultZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 249,
-    "endLine": 266
+    "startLine": 8,
+    "endLine": 25
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationResult.json",
     "fshName": "TrustDemoVerificationResult",
     "fshType": "CodeSystem",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 87,
-    "endLine": 95
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 3,
+    "endLine": 11
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationStep-ar.json",
     "fshName": "TrustDemoVerificationStepAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 325,
-    "endLine": 370
+    "startLine": 54,
+    "endLine": 99
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationStep-es.json",
     "fshName": "TrustDemoVerificationStepEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 325,
-    "endLine": 370
+    "startLine": 54,
+    "endLine": 99
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationStep-fr.json",
     "fshName": "TrustDemoVerificationStepFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 326,
-    "endLine": 371
+    "startLine": 55,
+    "endLine": 100
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationStep-ru.json",
     "fshName": "TrustDemoVerificationStepRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 321,
-    "endLine": 365
+    "startLine": 52,
+    "endLine": 96
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationStep-zh.json",
     "fshName": "TrustDemoVerificationStepZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 268,
-    "endLine": 312
+    "startLine": 27,
+    "endLine": 71
   },
   {
     "outputFile": "CodeSystem-TrustDemoVerificationStep.json",
     "fshName": "TrustDemoVerificationStep",
     "fshType": "CodeSystem",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 104,
-    "endLine": 121
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 20,
+    "endLine": 37
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlConsent-ar.json",
     "fshName": "TrustDemoVhlConsentAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 515,
-    "endLine": 528
+    "startLine": 244,
+    "endLine": 257
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlConsent-es.json",
     "fshName": "TrustDemoVhlConsentEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 514,
-    "endLine": 526
+    "startLine": 243,
+    "endLine": 255
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlConsent-fr.json",
     "fshName": "TrustDemoVhlConsentFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 515,
-    "endLine": 527
+    "startLine": 244,
+    "endLine": 256
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlConsent-ru.json",
     "fshName": "TrustDemoVhlConsentRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 510,
-    "endLine": 524
+    "startLine": 241,
+    "endLine": 255
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlConsent-zh.json",
     "fshName": "TrustDemoVhlConsentZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 510,
-    "endLine": 523
+    "startLine": 241,
+    "endLine": 254
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlConsent.json",
     "fshName": "TrustDemoVhlConsent",
     "fshType": "CodeSystem",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 141,
-    "endLine": 147
+    "startLine": 143,
+    "endLine": 149
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlRefusalReason-ar.json",
     "fshName": "TrustDemoVhlRefusalReasonAr",
     "fshType": "CodeSystem",
     "fshFile": "translations/ar.fsh",
-    "startLine": 477,
-    "endLine": 495
+    "startLine": 206,
+    "endLine": 224
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlRefusalReason-es.json",
     "fshName": "TrustDemoVhlRefusalReasonEs",
     "fshType": "CodeSystem",
     "fshFile": "translations/es.fsh",
-    "startLine": 477,
-    "endLine": 495
+    "startLine": 206,
+    "endLine": 224
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlRefusalReason-fr.json",
     "fshName": "TrustDemoVhlRefusalReasonFr",
     "fshType": "CodeSystem",
     "fshFile": "translations/fr.fsh",
-    "startLine": 478,
-    "endLine": 496
+    "startLine": 207,
+    "endLine": 225
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlRefusalReason-ru.json",
     "fshName": "TrustDemoVhlRefusalReasonRu",
     "fshType": "CodeSystem",
     "fshFile": "translations/ru.fsh",
-    "startLine": 469,
-    "endLine": 486
+    "startLine": 200,
+    "endLine": 217
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlRefusalReason-zh.json",
     "fshName": "TrustDemoVhlRefusalReasonZh",
     "fshType": "CodeSystem",
     "fshFile": "translations/zh.fsh",
-    "startLine": 416,
-    "endLine": 433
+    "startLine": 175,
+    "endLine": 192
   },
   {
     "outputFile": "CodeSystem-TrustDemoVhlRefusalReason.json",
     "fshName": "TrustDemoVhlRefusalReason",
     "fshType": "CodeSystem",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 196,
-    "endLine": 204
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 112,
+    "endLine": 120
   },
   {
     "outputFile": "Composition-TrustDemoJ4Composition.json",
@@ -676,8 +580,8 @@
     "fshName": "TrustDemoProductToOnesaEpi",
     "fshType": "Instance",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 48,
-    "endLine": 79
+    "startLine": 44,
+    "endLine": 81
   },
   {
     "outputFile": "Consent-TrustDemoJ4Consent.json",
@@ -732,96 +636,96 @@
     "fshName": "TrustDemoHousehold",
     "fshType": "Instance",
     "fshFile": "examples/j2-found-at-home.fsh",
-    "startLine": 7,
-    "endLine": 24
+    "startLine": 8,
+    "endLine": 25
   },
   {
     "outputFile": "Immunization-TrustDemoJ1Bcg.json",
     "fshName": "TrustDemoJ1Bcg",
     "fshType": "Instance",
     "fshFile": "examples/j1-born-abroad.fsh",
-    "startLine": 39,
-    "endLine": 50
+    "startLine": 40,
+    "endLine": 51
   },
   {
     "outputFile": "Immunization-TrustDemoJ1HepB.json",
     "fshName": "TrustDemoJ1HepB",
     "fshType": "Instance",
     "fshFile": "examples/j1-born-abroad.fsh",
-    "startLine": 25,
-    "endLine": 37
+    "startLine": 26,
+    "endLine": 38
   },
   {
     "outputFile": "Immunization-TrustDemoJ2BcgReported.json",
     "fshName": "TrustDemoJ2BcgReported",
     "fshType": "Instance",
     "fshFile": "examples/j2-found-at-home.fsh",
-    "startLine": 99,
-    "endLine": 112
+    "startLine": 100,
+    "endLine": 113
   },
   {
     "outputFile": "Immunization-TrustDemoJ2HepBReported.json",
     "fshName": "TrustDemoJ2HepBReported",
     "fshType": "Instance",
     "fshFile": "examples/j2-found-at-home.fsh",
-    "startLine": 84,
-    "endLine": 97
+    "startLine": 85,
+    "endLine": 98
   },
   {
     "outputFile": "Immunization-TrustDemoJ3Bcg.json",
     "fshName": "TrustDemoJ3Bcg",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 28,
-    "endLine": 44
+    "startLine": 29,
+    "endLine": 45
   },
   {
     "outputFile": "Immunization-TrustDemoJ3HepB.json",
     "fshName": "TrustDemoJ3HepB",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 10,
-    "endLine": 26
+    "startLine": 11,
+    "endLine": 27
   },
   {
     "outputFile": "Immunization-TrustDemoOnesaBopv1.json",
     "fshName": "TrustDemoOnesaBopv1",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 139,
-    "endLine": 153
+    "startLine": 140,
+    "endLine": 154
   },
   {
     "outputFile": "Immunization-TrustDemoOnesaMr1.json",
     "fshName": "TrustDemoOnesaMr1",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 171,
-    "endLine": 185
+    "startLine": 172,
+    "endLine": 186
   },
   {
     "outputFile": "Immunization-TrustDemoOnesaPcv1.json",
     "fshName": "TrustDemoOnesaPcv1",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 155,
-    "endLine": 169
+    "startLine": 156,
+    "endLine": 170
   },
   {
     "outputFile": "Immunization-TrustDemoOnesaPenta1.json",
     "fshName": "TrustDemoOnesaPenta1",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 123,
-    "endLine": 137
+    "startLine": 124,
+    "endLine": 138
   },
   {
     "outputFile": "ImmunizationRecommendation-TrustDemoJ3Recommendation.json",
     "fshName": "TrustDemoJ3Recommendation",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 83,
-    "endLine": 103
+    "startLine": 84,
+    "endLine": 104
   },
   {
     "outputFile": "Measure-TrustDemoIND01.json",
@@ -916,8 +820,8 @@
     "fshName": "TrustDemoTaifafekiSomsak",
     "fshType": "Instance",
     "fshFile": "examples/j1-born-abroad.fsh",
-    "startLine": 11,
-    "endLine": 23
+    "startLine": 12,
+    "endLine": 24
   },
   {
     "outputFile": "PlanDefinition-TrustDemoDT01.json",
@@ -972,8 +876,8 @@
     "fshName": "TrustDemoOnesaInfantSchedule",
     "fshType": "Instance",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 81,
-    "endLine": 109
+    "startLine": 83,
+    "endLine": 111
   },
   {
     "outputFile": "Practitioner-TrustDemoAnan.json",
@@ -1004,16 +908,16 @@
     "fshName": "TrustDemoJ3Adjudication",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 71,
-    "endLine": 81
+    "startLine": 72,
+    "endLine": 82
   },
   {
     "outputFile": "Provenance-TrustDemoJ3Verification.json",
     "fshName": "TrustDemoJ3Verification",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 46,
-    "endLine": 69
+    "startLine": 47,
+    "endLine": 70
   },
   {
     "outputFile": "Provenance-TrustDemoJ41Received.json",
@@ -1028,16 +932,16 @@
     "fshName": "TrustDemoHouseholdRegistration",
     "fshType": "Instance",
     "fshFile": "examples/j2-found-at-home.fsh",
-    "startLine": 26,
-    "endLine": 58
+    "startLine": 27,
+    "endLine": 59
   },
   {
     "outputFile": "QuestionnaireResponse-TrustDemoJ2Registration.json",
     "fshName": "TrustDemoJ2Registration",
     "fshType": "Instance",
     "fshFile": "examples/j2-found-at-home.fsh",
-    "startLine": 60,
-    "endLine": 82
+    "startLine": 61,
+    "endLine": 83
   },
   {
     "outputFile": "RelatedPerson-TrustDemoBounmy.json",
@@ -1060,64 +964,8 @@
     "fshName": "TrustDemoJ2Referral",
     "fshType": "Instance",
     "fshFile": "examples/j2-found-at-home.fsh",
-    "startLine": 114,
-    "endLine": 130
-  },
-  {
-    "outputFile": "StructureDefinition-TrustDemoDdBirthDoseDvc.json",
-    "fshName": "TrustDemoDdBirthDoseDvc",
-    "fshType": "Logical",
-    "fshFile": "dak/TrustDemoDdBirthDoseDvc.fsh",
-    "startLine": 3,
-    "endLine": 35
-  },
-  {
-    "outputFile": "StructureDefinition-TrustDemoDdChwReferral.json",
-    "fshName": "TrustDemoDdChwReferral",
-    "fshType": "Logical",
-    "fshFile": "dak/TrustDemoDdChwReferral.fsh",
-    "startLine": 3,
-    "endLine": 23
-  },
-  {
-    "outputFile": "StructureDefinition-TrustDemoDdChwRegistration.json",
-    "fshName": "TrustDemoDdChwRegistration",
-    "fshType": "Logical",
-    "fshFile": "dak/TrustDemoDdChwRegistration.fsh",
-    "startLine": 3,
-    "endLine": 42
-  },
-  {
-    "outputFile": "StructureDefinition-TrustDemoDdDvcVerification.json",
-    "fshName": "TrustDemoDdDvcVerification",
-    "fshType": "Logical",
-    "fshFile": "dak/TrustDemoDdDvcVerification.fsh",
-    "startLine": 3,
-    "endLine": 36
-  },
-  {
-    "outputFile": "StructureDefinition-TrustDemoDdImportedDose.json",
-    "fshName": "TrustDemoDdImportedDose",
-    "fshType": "Logical",
-    "fshFile": "dak/TrustDemoDdImportedDose.fsh",
-    "startLine": 3,
-    "endLine": 33
-  },
-  {
-    "outputFile": "StructureDefinition-TrustDemoDdVhlAccess.json",
-    "fshName": "TrustDemoDdVhlAccess",
-    "fshType": "Logical",
-    "fshFile": "dak/TrustDemoDdVhlAccess.fsh",
-    "startLine": 3,
-    "endLine": 30
-  },
-  {
-    "outputFile": "StructureDefinition-TrustDemoDdVhlShare.json",
-    "fshName": "TrustDemoDdVhlShare",
-    "fshType": "Logical",
-    "fshFile": "dak/TrustDemoDdVhlShare.fsh",
-    "startLine": 3,
-    "endLine": 26
+    "startLine": 115,
+    "endLine": 131
   },
   {
     "outputFile": "StructureDefinition-TrustDemoOnesaDvcVerification.json",
@@ -1212,87 +1060,87 @@
     "fshName": "TrustDemoJ3Reminder",
     "fshType": "Instance",
     "fshFile": "examples/j3-made-official.fsh",
-    "startLine": 105,
-    "endLine": 118
+    "startLine": 106,
+    "endLine": 119
   },
   {
     "outputFile": "ValueSet-TrustDemoCodeMappingBasisVS.json",
     "fshName": "TrustDemoCodeMappingBasisVS",
     "fshType": "ValueSet",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 189,
-    "endLine": 194
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 105,
+    "endLine": 110
   },
   {
     "outputFile": "ValueSet-TrustDemoDvcOutcomeVS.json",
     "fshName": "TrustDemoDvcOutcomeVS",
     "fshType": "ValueSet",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 171,
-    "endLine": 176
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 87,
+    "endLine": 92
   },
   {
     "outputFile": "ValueSet-TrustDemoOnesaEpiScheduleCodes.json",
     "fshName": "TrustDemoOnesaEpiScheduleCodes",
     "fshType": "ValueSet",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 41,
-    "endLine": 46
+    "startLine": 37,
+    "endLine": 42
   },
   {
     "outputFile": "ValueSet-TrustDemoTrustDomains.json",
     "fshName": "TrustDemoTrustDomains",
     "fshType": "ValueSet",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 128,
-    "endLine": 133
+    "startLine": 130,
+    "endLine": 135
   },
   {
     "outputFile": "ValueSet-TrustDemoVaccineProducts.json",
     "fshName": "TrustDemoVaccineProducts",
     "fshType": "ValueSet",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 34,
-    "endLine": 39
+    "startLine": 25,
+    "endLine": 35
   },
   {
     "outputFile": "ValueSet-TrustDemoVerificationFailureReasonVS.json",
     "fshName": "TrustDemoVerificationFailureReasonVS",
     "fshType": "ValueSet",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 153,
-    "endLine": 158
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 69,
+    "endLine": 74
   },
   {
     "outputFile": "ValueSet-TrustDemoVerificationResultVS.json",
     "fshName": "TrustDemoVerificationResultVS",
     "fshType": "ValueSet",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 97,
-    "endLine": 102
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 13,
+    "endLine": 18
   },
   {
     "outputFile": "ValueSet-TrustDemoVerificationStepVS.json",
     "fshName": "TrustDemoVerificationStepVS",
     "fshType": "ValueSet",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 123,
-    "endLine": 128
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 39,
+    "endLine": 44
   },
   {
     "outputFile": "ValueSet-TrustDemoVhlRefusalReasonVS.json",
     "fshName": "TrustDemoVhlRefusalReasonVS",
     "fshType": "ValueSet",
-    "fshFile": "dak/TrustDemoDataElements.fsh",
-    "startLine": 206,
-    "endLine": 211
+    "fshFile": "dak/TrustDemoCodeLists.fsh",
+    "startLine": 122,
+    "endLine": 127
   },
   {
     "outputFile": "ValueSet-TrustDemoVhlTermsOfUse.json",
     "fshName": "TrustDemoVhlTermsOfUse",
     "fshType": "ValueSet",
     "fshFile": "examples/terminology.fsh",
-    "startLine": 149,
-    "endLine": 154
+    "startLine": 151,
+    "endLine": 156
   }
 ]

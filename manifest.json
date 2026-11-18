@@ -7,7 +7,7 @@
     "versions"
   ],
   "provisionalUntil": "a full IG Publisher run",
-  "generatedAt": "2026-11-17T19:22:17.381784228Z",
+  "generatedAt": "2026-11-18T12:55:02.356530901Z",
   "ig": {
     "root": ".",
     "version": "4.0.1"
@@ -17,8 +17,8 @@
   },
   "inputs": {
     "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-    "sourceRevision": "9c51bebac7d177ef6377d2106af4c689f244fc2d",
-    "inputDigest": "364e08ba71fa04c04f18bd1f9d19af0d4520ab1bcd91c5a76b1ae559a5b7c3e2"
+    "sourceRevision": "92d4ab409c7e6c1af09b34e547e544098b0a62eb",
+    "inputDigest": "3d6c10c04de02a8204e7e2ce967750b94c6eb639ff1c4e7b75da11af65618988"
   },
   "packages": [
     {
@@ -164,7 +164,7 @@
   "terminology": {
     "server": {
       "address": "https://tx.fhir.org/r4",
-      "version": "1.0.3"
+      "version": "1.0.5"
     },
     "expansions": [
       {
@@ -209,17 +209,6 @@
         },
         "codeSystems": [
           "http://smart.who.int/trust-demo/CodeSystem/TrustDemoTrustDomain"
-        ]
-      },
-      {
-        "valueSet": "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts|0.1.0",
-        "builtFrom": {
-          "used-codesystem": [
-            "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0"
-          ]
-        },
-        "codeSystems": [
-          "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct"
         ]
       },
       {
@@ -283,7 +272,7 @@
     "publisher": "3.0.0",
     "core": "7.0.1",
     "sushi": "SUSHI v3.21.0 (implements FHIR Shorthand specification v3.0.0)",
-    "java": "17.0.21"
+    "java": "21.0.13.0.3"
   },
   "resources": [
     {
@@ -897,66 +886,6 @@
       "source": "fsh-generated/resources/CodeSystem-TrustDemoCodeMappingBasis.json"
     },
     {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-ar|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-ar",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoDataElements-ar",
-      "name": "TrustDemoDataElementsAr",
-      "file": "resources/CodeSystem/TrustDemoDataElements-ar.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoDataElements-ar.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-es|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-es",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoDataElements-es",
-      "name": "TrustDemoDataElementsEs",
-      "file": "resources/CodeSystem/TrustDemoDataElements-es.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoDataElements-es.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-fr|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-fr",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoDataElements-fr",
-      "name": "TrustDemoDataElementsFr",
-      "file": "resources/CodeSystem/TrustDemoDataElements-fr.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoDataElements-fr.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-ru|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-ru",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoDataElements-ru",
-      "name": "TrustDemoDataElementsRu",
-      "file": "resources/CodeSystem/TrustDemoDataElements-ru.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoDataElements-ru.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-zh|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-zh",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoDataElements-zh",
-      "name": "TrustDemoDataElementsZh",
-      "file": "resources/CodeSystem/TrustDemoDataElements-zh.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoDataElements-zh.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoDataElements",
-      "name": "TrustDemoDataElements",
-      "file": "resources/CodeSystem/TrustDemoDataElements.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoDataElements.json"
-    },
-    {
       "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDvcOutcome-ar|0.1.0",
       "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDvcOutcome-ar",
       "version": "0.1.0",
@@ -1135,66 +1064,6 @@
       "name": "TrustDemoTrustDomain",
       "file": "resources/CodeSystem/TrustDemoTrustDomain.json",
       "source": "fsh-generated/resources/CodeSystem-TrustDemoTrustDomain.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-ar|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-ar",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoVaccineProduct-ar",
-      "name": "TrustDemoVaccineProductAr",
-      "file": "resources/CodeSystem/TrustDemoVaccineProduct-ar.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoVaccineProduct-ar.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-es|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-es",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoVaccineProduct-es",
-      "name": "TrustDemoVaccineProductEs",
-      "file": "resources/CodeSystem/TrustDemoVaccineProduct-es.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoVaccineProduct-es.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-fr|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-fr",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoVaccineProduct-fr",
-      "name": "TrustDemoVaccineProductFr",
-      "file": "resources/CodeSystem/TrustDemoVaccineProduct-fr.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoVaccineProduct-fr.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-ru|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-ru",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoVaccineProduct-ru",
-      "name": "TrustDemoVaccineProductRu",
-      "file": "resources/CodeSystem/TrustDemoVaccineProduct-ru.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoVaccineProduct-ru.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-zh|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-zh",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoVaccineProduct-zh",
-      "name": "TrustDemoVaccineProductZh",
-      "file": "resources/CodeSystem/TrustDemoVaccineProduct-zh.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoVaccineProduct-zh.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
-      "version": "0.1.0",
-      "resourceType": "CodeSystem",
-      "id": "TrustDemoVaccineProduct",
-      "name": "TrustDemoVaccineProduct",
-      "file": "resources/CodeSystem/TrustDemoVaccineProduct.json",
-      "source": "fsh-generated/resources/CodeSystem-TrustDemoVaccineProduct.json"
     },
     {
       "key": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVerificationFailureReason-ar|0.1.0",
@@ -1635,76 +1504,6 @@
       "name": "TrustDemoHouseholdRegistration",
       "file": "resources/Questionnaire/TrustDemoHouseholdRegistration.json",
       "source": "fsh-generated/resources/Questionnaire-TrustDemoHouseholdRegistration.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdBirthDoseDvc|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdBirthDoseDvc",
-      "version": "0.1.0",
-      "resourceType": "StructureDefinition",
-      "id": "TrustDemoDdBirthDoseDvc",
-      "name": "TrustDemoDdBirthDoseDvc",
-      "file": "resources/StructureDefinition/TrustDemoDdBirthDoseDvc.json",
-      "source": "fsh-generated/resources/StructureDefinition-TrustDemoDdBirthDoseDvc.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwReferral|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwReferral",
-      "version": "0.1.0",
-      "resourceType": "StructureDefinition",
-      "id": "TrustDemoDdChwReferral",
-      "name": "TrustDemoDdChwReferral",
-      "file": "resources/StructureDefinition/TrustDemoDdChwReferral.json",
-      "source": "fsh-generated/resources/StructureDefinition-TrustDemoDdChwReferral.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwRegistration|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwRegistration",
-      "version": "0.1.0",
-      "resourceType": "StructureDefinition",
-      "id": "TrustDemoDdChwRegistration",
-      "name": "TrustDemoDdChwRegistration",
-      "file": "resources/StructureDefinition/TrustDemoDdChwRegistration.json",
-      "source": "fsh-generated/resources/StructureDefinition-TrustDemoDdChwRegistration.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification",
-      "version": "0.1.0",
-      "resourceType": "StructureDefinition",
-      "id": "TrustDemoDdDvcVerification",
-      "name": "TrustDemoDdDvcVerification",
-      "file": "resources/StructureDefinition/TrustDemoDdDvcVerification.json",
-      "source": "fsh-generated/resources/StructureDefinition-TrustDemoDdDvcVerification.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose",
-      "version": "0.1.0",
-      "resourceType": "StructureDefinition",
-      "id": "TrustDemoDdImportedDose",
-      "name": "TrustDemoDdImportedDose",
-      "file": "resources/StructureDefinition/TrustDemoDdImportedDose.json",
-      "source": "fsh-generated/resources/StructureDefinition-TrustDemoDdImportedDose.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess",
-      "version": "0.1.0",
-      "resourceType": "StructureDefinition",
-      "id": "TrustDemoDdVhlAccess",
-      "name": "TrustDemoDdVhlAccess",
-      "file": "resources/StructureDefinition/TrustDemoDdVhlAccess.json",
-      "source": "fsh-generated/resources/StructureDefinition-TrustDemoDdVhlAccess.json"
-    },
-    {
-      "key": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlShare|0.1.0",
-      "canonical": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlShare",
-      "version": "0.1.0",
-      "resourceType": "StructureDefinition",
-      "id": "TrustDemoDdVhlShare",
-      "name": "TrustDemoDdVhlShare",
-      "file": "resources/StructureDefinition/TrustDemoDdVhlShare.json",
-      "source": "fsh-generated/resources/StructureDefinition-TrustDemoDdVhlShare.json"
     },
     {
       "key": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoOnesaDvcVerification|0.1.0",

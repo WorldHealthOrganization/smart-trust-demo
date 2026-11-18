@@ -654,3 +654,167 @@ v: {
 
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule",
+    "code" : "XXU-EPI-HEPB-BD",
+    "display" : "Hepatitis B birth dose"
+  },
+  {
+    "system" : "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+    "code" : "a3K3X000006MiiXUAS",
+    "display" : "Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]"
+  },
+  {
+    "system" : "http://hl7.org/fhir/sid/cvx",
+    "code" : "08",
+    "display" : "Hep B, adolescent or pediatric"
+  }],
+  "text" : "Hepatitis B paediatric birth dose"
+}, "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Hepatitis B birth dose",
+  "code" : "XXU-EPI-HEPB-BD",
+  "system" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule",
+  "version" : "0.1.0",
+  "severity" : "warning",
+  "error" : "A definition for the code system 'http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds' could not be found, so this coding was not checked. The CodeableConcept is still valid: another coding is in the value set",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Validate \"[http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule#XXU-EPI-HEPB-BD (\"Hepatitis B birth dose\"), http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds#a3K3X000006MiiXUAS (\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"), http://hl7.org/fhir/sid/cvx#08 (\"Hep B, adolescent or pediatric\")]\"\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Check \"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule#XXU-EPI-HEPB-BD\"\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: CodeSystem found: http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0 for http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: check code in (http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule) at CodeableConcept.coding[0]\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Code \"XXU-EPI-HEPB-BD\" found in http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Check \"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds#a3K3X000006MiiXUAS\"\n2ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Include for http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0 not considered for \"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\"\n3ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Check \"http://hl7.org/fhir/sid/cvx#08\"\n3ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Include for http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0 not considered for \"http://hl7.org/fhir/sid/cvx\"",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "MSG_EXPERIMENTAL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to experimental CodeSystem http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODESYSTEM_CODING_NOT_CHECKED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for the code system 'http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds' could not be found, so this coding was not checked. The CodeableConcept is still valid: another coding is in the value set"
+    },
+    "expression" : ["CodeableConcept.coding[1].system"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule",
+    "code" : "XXU-EPI-BCG",
+    "display" : "BCG"
+  },
+  {
+    "system" : "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+    "code" : "a3K3X000006MiisUAC",
+    "display" : "BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117]"
+  },
+  {
+    "system" : "http://hl7.org/fhir/sid/cvx",
+    "code" : "19",
+    "display" : "BCG"
+  }],
+  "text" : "BCG"
+}, "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "BCG",
+  "code" : "XXU-EPI-BCG",
+  "system" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule",
+  "version" : "0.1.0",
+  "severity" : "warning",
+  "error" : "A definition for the code system 'http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds' could not be found, so this coding was not checked. The CodeableConcept is still valid: another coding is in the value set",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Validate \"[http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule#XXU-EPI-BCG (\"BCG\"), http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds#a3K3X000006MiisUAC (\"BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117]\"), http://hl7.org/fhir/sid/cvx#19 (\"BCG\")]\"\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Check \"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule#XXU-EPI-BCG\"\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: CodeSystem found: http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0 for http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: check code in (http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule) at CodeableConcept.coding[0]\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Code \"XXU-EPI-BCG\" found in http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Check \"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds#a3K3X000006MiisUAC\"\n1ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Include for http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0 not considered for \"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\"\n3ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Check \"http://hl7.org/fhir/sid/cvx#19\"\n3ms http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule/vs|0.1.0: Include for http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0 not considered for \"http://hl7.org/fhir/sid/cvx\"",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "MSG_EXPERIMENTAL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to experimental CodeSystem http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule|0.1.0"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODESYSTEM_CODING_NOT_CHECKED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for the code system 'http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds' could not be found, so this coding was not checked. The CodeableConcept is still valid: another coding is in the value set"
+    },
+    "expression" : ["CodeableConcept.coding[1].system"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
