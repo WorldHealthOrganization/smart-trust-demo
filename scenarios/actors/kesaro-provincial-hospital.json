@@ -36,8 +36,8 @@
         "id": "xxr-product-codes",
         "title": "Vaccine product code registry",
         "raBlock": "Product Registry",
-        "description": "Publishes the vaccine product codes the hospital records doses against, which the receiving country maps to its own schedule codes (J1, J3).",
-        "ig": "CodeSystem/TrustDemoVaccineProduct"
+        "description": "Holds the WHO PreQual product ids the hospital records doses against, which the receiving country maps to its own schedule codes (J1, J3).",
+        "ig": "ValueSet/TrustDemoVaccineProducts"
       },
       {
         "id": "xxr-dvc-signer",

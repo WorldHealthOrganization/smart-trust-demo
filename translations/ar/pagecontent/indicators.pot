@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-06T09:26:50.985Z\n"
+"POT-Creation-Date: 2026-11-18T11:00:19.642Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -13,6 +13,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: input/pagecontent/indicators.md:29
+msgid "<a0>CWT.header.4</a0> Key identifier (kid)<a1>CWT.payload.1</a1> Issuer (iss)<a2>IMMZImmunization.primarySource</a2> Primary source"
+msgstr ""
+
+#: input/pagecontent/indicators.md:83
+msgid "<a0>DVCMinPreQual.vx.vp</a0> Vaccine product id<a1>IMMZImmunization.primarySource</a1> Primary source<a2>IMMZImmunization.vaccineCode</a2> Vaccine code"
+msgstr ""
+
+#: input/pagecontent/indicators.md:65
+msgid "<a0>IMMZC4.uniqueIdentifier</a0> Unique identifier<a1>IMMZImmunization.primarySource</a1> Primary source"
+msgstr ""
 
 #: input/pagecontent/indicators.md:49
 msgid "<a0>STD-ACC-001</a0>"
@@ -59,22 +71,6 @@ msgstr ""
 msgid "<a0>TD.IND.04 Imported doses carrying a national schedule code</a0>"
 msgstr ""
 
-#: input/pagecontent/indicators.md:65
-msgid "<a0>TD.J2B.DE02</a0> Referred by<a1>TD.J2B.DE03</a1> Referred to<a2>TD.J2B.DE04</a2> Referred at<a3>TD.J2B.DE06</a3> Doses to verify<a4>TD.J2B.DE07</a4> Referral status"
-msgstr ""
-
-#: input/pagecontent/indicators.md:29
-msgid "<a0>TD.J3A.DE02</a0> Issuing country<a1>TD.J3A.DE03</a1> Verified at<a2>TD.J3A.DE05</a2> Verification result<a3>TD.J3A.DE07</a3> Failure reason<a4>TD.J3A.DE09</a4> Record outcome"
-msgstr ""
-
-#: input/pagecontent/indicators.md:83
-msgid "<a0>TD.J3B.DE01</a0> Issuer's product code<a1>TD.J3B.DE02</a1> National schedule code<a2>TD.J3B.DE03</a2> Mapping basis<a3>TD.J3B.DE05</a3> Counts toward the schedule"
-msgstr ""
-
-#: input/pagecontent/indicators.md:47
-msgid "<a0>TD.J41.DE01</a0> Requested at<a1>TD.J41.DE02</a1> Requester<a2>TD.J41.DE06</a2> Released<a3>TD.J41.DE08</a3> Refusal reason"
-msgstr ""
-
 #: input/pagecontent/indicators.md:12
 #: input/pagecontent/indicators.md:33
 msgid "<a0>TrustDemoIND01</a0>"
@@ -107,36 +103,40 @@ msgstr ""
 msgid "<a0>TrustDemoIND04</a0> (basis {code0})"
 msgstr ""
 
-#: input/pagecontent/indicators.md:45
-msgid "COUNT of access records (TD.J41) WHERE \"Requested at\" is in the reporting period"
-msgstr ""
-
-#: input/pagecontent/indicators.md:43
-msgid "COUNT of access records (TD.J41) WHERE \"Requested at\" is in the reporting period AND \"Released\" = true"
-msgstr ""
-
-#: input/pagecontent/indicators.md:81
-msgid "COUNT of imported doses (TD.J3B) WHERE imported in the reporting period AND \"Mapping basis\" != not-imported"
-msgstr ""
-
-#: input/pagecontent/indicators.md:79
-msgid "COUNT of imported doses (TD.J3B) WHERE imported in the reporting period AND \"Mapping basis\" in (concept-map, clinician-confirmed)"
-msgstr ""
-
-#: input/pagecontent/indicators.md:63
-msgid "COUNT of referrals (TD.J2B) WHERE \"Referred at\" is in the reporting period"
-msgstr ""
-
-#: input/pagecontent/indicators.md:61
-msgid "COUNT of referrals (TD.J2B) WHERE \"Referred at\" is in the reporting period AND \"Referral status\" = completed"
+#: input/pagecontent/indicators.md:47
+msgid "<a0>VHLPayload.exp</a0> Expires at<a1>VHLPayload.flag</a1> Flags<a2>VHLPayload.url</a2> Manifest URL"
 msgstr ""
 
 #: input/pagecontent/indicators.md:27
-msgid "COUNT of verification records (TD.J3A) WHERE \"Verified at\" is in the reporting period"
+msgid "COUNT of foreign DVCs the clinic's HCERT library is asked to verify in the reporting period, verified or not"
 msgstr ""
 
 #: input/pagecontent/indicators.md:25
-msgid "COUNT of verification records (TD.J3A) WHERE \"Verified at\" is in the reporting period AND \"Record outcome\" = verified"
+msgid "COUNT of foreign DVCs the clinic's HCERT library verifies in the reporting period (CWT.header.4 found on the trust list) WHERE the dose is imported as an Immunization (IMMZImmunization) with primarySource = true"
+msgstr ""
+
+#: input/pagecontent/indicators.md:81
+msgid "COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period"
+msgstr ""
+
+#: input/pagecontent/indicators.md:79
+msgid "COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period AND vaccineCode has a coding from TrustDemoOnesaEpiScheduleCodes"
+msgstr ""
+
+#: input/pagecontent/indicators.md:45
+msgid "COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period"
+msgstr ""
+
+#: input/pagecontent/indicators.md:43
+msgid "COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period AND AuditEvent.outcome is success"
+msgstr ""
+
+#: input/pagecontent/indicators.md:63
+msgid "COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period"
+msgstr ""
+
+#: input/pagecontent/indicators.md:61
+msgid "COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period AND ServiceRequest.status = completed"
 msgstr ""
 
 #: input/pagecontent/indicators.md:29

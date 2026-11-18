@@ -20,11 +20,9 @@
       <trace:artifact ref="Consent/TrustDemoJ4Consent"/>
       <trace:artifact ref="AuditEvent/TrustDemoJ41Access"/>
       <trace:artifact ref="AuditEvent/TrustDemoJ41WrongPasscode"/>
-      <trace:dataElement ref="TD.J40.DE06"/>
-      <trace:dataElement ref="TD.J40.DE09"/>
-      <trace:dataElement ref="TD.J41.DE06"/>
-      <trace:dataElement ref="TD.J41.DE07"/>
-      <trace:dataElement ref="TD.J41.DE08"/>
+      <trace:dataElement ref="VHLPayload.exp"/>
+      <trace:dataElement ref="VHLPayload.flag"/>
+      <trace:dataElement ref="VHLPayload.url"/>
     </extensionElements>
     <decisionTable id="Table_VhlRelease" hitPolicy="FIRST">
       <input id="In_Withdrawn" label="The holder withdrew the link">
