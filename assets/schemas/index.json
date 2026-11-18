@@ -15912,6 +15912,14 @@
             "string": "https://zod.dev/api#strings"
           },
           "doc": "Markdown content of the companion .md file (for cross-ref scanning)."
+        },
+        {
+          "name": "folioLabels",
+          "type": "ReadonlyMap<string, ReadonlySet<string>>",
+          "optional": true,
+          "array": false,
+          "card": "0..1",
+          "doc": "The labels of every document in the same folio, keyed by document slug —"
         }
       ],
       "extendsNames": [],
@@ -49067,6 +49075,18 @@
           "array": false,
           "card": "1..1",
           "utype": "MOUNT_LOCK_SCHEMA"
+        },
+        {
+          "name": "pinnedAt",
+          "type": "z.string().datetime().optional()",
+          "optional": true,
+          "array": false,
+          "card": "0..1",
+          "utype": "string",
+          "links": {
+            "string": "https://zod.dev/api#strings"
+          },
+          "doc": "When `mount:remote` wrote this content, pins included (UTC, ISO 8601,"
         },
         {
           "name": "mounts",

@@ -733,6 +733,7 @@
       "QA_PAGE_STRINGS.acceptedLocal",
       "QA_PAGE_STRINGS.ast",
       "QA_PAGE_STRINGS.by",
+      "QA_PAGE_STRINGS.carriedSummary",
       "QA_PAGE_STRINGS.content",
       "QA_PAGE_STRINGS.count",
       "QA_PAGE_STRINGS.englishOnly",
@@ -813,38 +814,38 @@
      "cells": {
       "ar": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "5e57123dc114acb1"
+       "hash": "016cbce792f58d47"
       },
       "es": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "12c7ba0cfe795e82"
+       "hash": "ebe975cd13894d77"
       },
       "fr": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "fd225bb601eb87a6"
+       "hash": "8d25b05b7d679929"
       },
       "ru": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "c719c3f9781a7069"
+       "hash": "c613cfb3f1b8131f"
       },
       "zh": {
        "state": "machine",
-       "entries": 78,
-       "translated": 78,
+       "entries": 79,
+       "translated": 79,
        "fuzzy": 0,
-       "hash": "bf6f65d685d39de1"
+       "hash": "b71d3aa94b23ffa3"
       }
      }
     },
