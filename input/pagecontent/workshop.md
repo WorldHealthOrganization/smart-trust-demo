@@ -2,7 +2,8 @@
 
 The workshop has moved to the [journeys viewer](en/smart-trust-demo/journeys/smart-trust-demo/), where each track sits beside the journeys it teaches from. It is a general two-day workshop in two tracks:
 
-- **[Technical track (T1 to T7)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/)**, with the two-day timetable of both tracks
+- **[The two days](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/overview/#the-days)**: the calendar of both tracks side by side, each session linked to its module
+- **[Technical track (T1 to T7)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/)**
 - **[Policy-maker track (M1 to M7)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/)**, with the Country Canvas each table fills in
 
 Also on this site: the [module × journey map](module-journey-map.html), the [Country Canvas](country-canvas.html) and the [glossary](glossary.html).

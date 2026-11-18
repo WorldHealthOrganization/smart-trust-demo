@@ -9,7 +9,7 @@
  *
  * | writes | from |
  * |---|---|
- * | `workshops/technical-track.workshop.json` (the harness's `workshop/0.1.0` kind, which the viewer draws at `…/journeys/smart-trust-demo/workshops/technical-track/`) | `technical-track.json` (modules, sessions, outcomes, steps, teams), `schedule.json` and `policy-agenda.json` (the two-day timetable, both tracks), `materials.json` (resources), and the policy workshop (the step → journey map, the M modules' titles) |
+ * | `workshops/technical-track.workshop.json` (the harness's `workshop/0.1.0` kind, which the viewer draws at `…/journeys/smart-trust-demo/workshops/technical-track/`) | `technical-track.json` (modules, sessions, outcomes, steps, teams), `schedule.json` and `policy-agenda.json` (the two-day calendar, both tracks, as the workshop's `schedule`), `materials.json` (resources), and the policy workshop (the step → journey map, the M modules' titles) |
  * | `input/pagecontent/workshop.md`, `workshop-m<n>.md`, `workshop-t<n>.md` | short stubs that keep the old IG URLs working and link to the workshop's new home in the viewer (the IG's content gate refuses a meta refresh, so a stub links rather than redirects) |
  *
  * Nothing names a person, a date or a venue: leads are roles, times are a
@@ -51,38 +51,41 @@ for (const t of tmods) {
 if (errors.length) (console.error(errors.join("\n")), process.exit(1));
 
 const policyHref = (fromWorkshop: string, m: string) => `${fromWorkshop}../${ws.id}/${seg(m)}/`;
-const mdEsc = (s: string) => s.replace(/\|/g, "\\|");
 
-// ── the two days, both tracks, as the technical workshop's description ──
-function timetable(): string {
-  const out: string[] = [];
-  for (const d of schedule.days) {
-    type Row = { time: string; end: string; order: number; text: string };
-    const rows: Row[] = [];
-    for (const x of d.shared) rows.push({ time: x.time, end: x.end, order: 0, text: `${x.title}${x.note ? ` (${x.note})` : ""}` });
-    const dayItems = agenda.days[String(d.day)] ?? [];
-    for (const j of (tech.joint ?? []).filter((x: any) => x.day === d.day)) {
-      const kind = j.time < "12:00" ? "plenary" : "showcase";
-      const ses = dayItems.filter((x) => x.kind === kind).map((x) => `${x.id} ${x.title}`).join("; ");
-      rows.push({ time: j.time, end: j.end, order: 0, text: `**Joint, both tracks:** ${j.title} (${j.leads})${ses ? `. ${ses}` : ""}` });
-    }
-    for (const p of d.policy) {
-      const m = mods.find((x) => x.id === p.module)!;
-      rows.push({ time: p.time, end: p.end, order: 1, text: `**Policy track, [${m.id}](${policyHref("", m.id)}):** ${m.title}` });
-    }
-    for (const t of tmods.filter((x) => x.day === d.day))
-      for (const x of t.sessions ?? []) rows.push({ time: x.time, end: x.end, order: 2, text: `**Technical track, [${t.id}](${seg(t.id)}/):** ${x.title} (${x.type.toLowerCase()})` });
-    rows.sort((a, b) => a.time.localeCompare(b.time) || a.order - b.order);
-    const sum = tech.days?.[d.day]?.summary;
-    out.push(`### Day ${d.day}\n\n${sum ? `${sum}\n\n` : ""}| Time | Session |\n|---|---|\n${rows.map((r) => `| ${r.time}–${r.end} | ${mdEsc(r.text)} |`).join("\n")}`);
-  }
-  return out.join("\n\n");
+// ── the two days, both tracks, as the technical workshop's schedule ──
+// Data, not markup: the journeys viewer draws it as a calendar (time down the
+// side, the policy and technical tracks side by side, joint sessions, breaks
+// and logistics across both) on both workshops' pages and overviews.
+type Slot = { start: string; end: string; kind: "session" | "joint" | "break" | "logistics"; track?: string; module?: string; title: string; type?: string; note?: string; sessions?: string[] };
+function scheduleData() {
+  return {
+    intro: "A suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.",
+    tracks: [
+      { id: "policy", label: "Policy track", workshop: ws.id },
+      { id: "technical", label: "Technical track" },
+    ],
+    days: schedule.days.map((d) => {
+      const slots: Slot[] = [];
+      for (const x of d.shared) slots.push({ start: x.time, end: x.end, kind: x.kind === "break" ? "break" : "logistics", title: x.title, ...(x.note ? { note: x.note } : {}) });
+      const dayItems = agenda.days[String(d.day)] ?? [];
+      for (const j of (tech.joint ?? []).filter((x: any) => x.day === d.day)) {
+        const kind = j.time < "12:00" ? "plenary" : "showcase";
+        const parts = dayItems.filter((x) => x.kind === kind).map((x) => `${x.id} ${x.title}`);
+        slots.push({ start: j.time, end: j.end, kind: "joint", title: j.title, note: j.leads, ...(parts.length ? { sessions: parts } : {}) });
+      }
+      for (const p of d.policy) slots.push({ start: p.time, end: p.end, kind: "session", track: "policy", module: p.module, title: mods.find((x) => x.id === p.module)!.title });
+      for (const t of tmods.filter((x) => x.day === d.day))
+        for (const x of t.sessions ?? []) slots.push({ start: x.time, end: x.end, kind: "session", track: "technical", module: t.id, title: x.title, type: x.type });
+      slots.sort((a, b) => a.start.localeCompare(b.start) || (a.track ?? "").localeCompare(b.track ?? ""));
+      const sum = tech.days?.[d.day]?.summary;
+      return { day: d.day, ...(sum ? { summary: sum } : {}), slots };
+    }),
+  };
 }
 
 const description = [
   `The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family. It runs beside the [policy-maker track](../${ws.id}/) (M1 to M7): each technical module serves the policy module it is paired with, and both tracks meet in joint sessions each morning and at the close of each day.`,
   `${tech.promise}`,
-  `## The two days\n\nA suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.\n\n${timetable()}`,
   tech.prepare?.length ? `## Before you run it\n\n${tech.prepare.map((x: string) => `- ${x}`).join("\n")}` : "",
 ]
   .filter(Boolean)
@@ -136,6 +139,7 @@ const workshop = {
     intro: "Where each technical module meets each journey step, and what the system does there.",
     cells: tmods.flatMap((t) => (t.steps ?? []).map((x) => ({ module: t.id, step: x.step, technical: x.technical }))),
   },
+  schedule: scheduleData(),
   resources: [
     { id: "policy-track", title: "The policy-maker track (M1 to M7)", kind: "link", description: "The other track of the same two days; each technical module is paired with one of its modules.", href: `../${ws.id}/` },
     ...materials.map((x, i) => ({
@@ -159,7 +163,8 @@ const polUrl = `${WORKSHOPS}${ws.id}/`;
 files["input/pagecontent/workshop.md"] =
   STUB +
   `The workshop has moved to the [journeys viewer](${WORKSHOPS.replace(/workshops\/$/, "")}), where each track sits beside the journeys it teaches from. It is a general two-day workshop in two tracks:\n\n` +
-  `- **[Technical track (T1 to T7)](${techUrl})**, with the two-day timetable of both tracks\n` +
+  `- **[The two days](${techUrl}overview/#the-days)**: the calendar of both tracks side by side, each session linked to its module\n` +
+  `- **[Technical track (T1 to T7)](${techUrl})**\n` +
   `- **[Policy-maker track (M1 to M7)](${polUrl})**, with the Country Canvas each table fills in\n\n` +
   `Also on this site: the [module × journey map](module-journey-map.html), the [Country Canvas](country-canvas.html) and the [glossary](glossary.html).\n`;
 for (const m of mods)
