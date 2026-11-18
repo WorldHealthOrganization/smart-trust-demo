@@ -160,12 +160,6 @@
           "why": "Not FHIR: the HCERT certificate that travels on paper, verifiable offline with the key of Taifafeki from GDHCN.",
           "spec": "https://smart.who.int/trust/hcert_spec.html#422-qr-2d-barcode"
         }
-      ],
-      "dak": [
-        {
-          "key": "StructureDefinition/TrustDemoDdBirthDoseDvc",
-          "rel": "data"
-        }
       ]
     }
   ],

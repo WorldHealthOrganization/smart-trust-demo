@@ -25,9 +25,10 @@ The harness sources stay the single source of truth:
 - docs/*.md and docs/*/*.md      -> input/pagecontent/<page>.md (DOC_PAGES),
                                     so the IG site carries the project pages
                                     and is the one site at the root
-- dak/data-dictionary.json        -> input/fsh/dak/ (logical models, their
-                                    mappings, the data-element and code-list
-                                    CodeSystems and ValueSets) and
+- dak/data-dictionary.json        -> input/fsh/dak/ (the code-list
+                                    CodeSystems and ValueSets; no logical
+                                    model: each data set is an upstream
+                                    model, issue #33) and
                                     input/pagecontent/dictionary.md
 - processes/content/decisions/*.dmn -> input/fsh/dak/ (one PlanDefinition per
                                     decision table) and
@@ -713,7 +714,7 @@ def _artifact_link(ref):
 
 
 def _model_heading(m):
-    return f"{m['code']} {m['title']}"
+    return f"{m['journey']} {m['id']} {m['title']}"
 
 
 def _element_link(de, elements):
@@ -727,19 +728,14 @@ def _binding_md(vs):
     return f"[{vs}](ValueSet-{vs}.html)"
 
 
+def _upstream_link(m):
+    return f"[{m['id']}]({m['url']})"
+
+
 def gen_dictionary_fsh(dd):
-    files = {}
+    """The code lists only. The data sets are upstream models (issue #33): this guide defines no logical model."""
     src = "dak/data-dictionary.json"
-    lines = [DAK_FSH_HEADER.format(src=src),
-             "CodeSystem: TrustDemoDataElements",
-             "Id: TrustDemoDataElements",
-             'Title: "Data elements of the journeys"',
-             'Description: "Every data element of the data dictionary, by its code (TD.<data set>.DE<nn>)."',
-             "* ^experimental = true",
-             "* ^caseSensitive = true"]
-    for m in dd["models"]:
-        for e in m["elements"]:
-            lines.append(f'* #{m["code"]}.{e["code"]} "{fsh_str(e["label"])}" "{fsh_str(e["definition"])}"')
+    lines = [DAK_FSH_HEADER.format(src=src).rstrip("\n")]
     for cl in dd["codeLists"]:
         lines += ["", f"CodeSystem: {cl['id']}", f"Id: {cl['id']}", f'Title: "{fsh_str(cl["title"])}"',
                   f'Description: "{fsh_str(cl["description"])}"', "* ^experimental = true", "* ^caseSensitive = true"]
@@ -748,66 +744,52 @@ def gen_dictionary_fsh(dd):
         lines += ["", f"ValueSet: {cl['id']}VS", f"Id: {cl['id']}VS", f'Title: "{fsh_str(cl["title"])}"',
                   f'Description: "Every code of {cl["id"]}."', "* ^experimental = true",
                   f"* include codes from system {cl['id']}"]
-    files["input/fsh/dak/TrustDemoDataElements.fsh"] = "\n".join(lines) + "\n"
-    for m in dd["models"]:
-        lines = [DAK_FSH_HEADER.format(src=src),
-                 f"Logical: {m['id']}",
-                 f"Id: {m['id']}",
-                 f'Title: "{m["code"]} {fsh_str(m["title"])}"',
-                 f'Description: "{fsh_str(m["description"])}"',
-                 "* ^status = #draft",
-                 "* ^experimental = true"]
-        for e in m["elements"]:
-            lines.append(f'* {e["path"]} {e["card"]} {e["type"]} "{fsh_str(e["label"])}" "{fsh_str(e["definition"])}"')
-            lines.append(f'* {e["path"]} ^code[+] = TrustDemoDataElements#{m["code"]}.{e["code"]} "{fsh_str(e["label"])}"')
-            b = e.get("binding")
-            if b:
-                lines.append(f"* {e['path']} from {b['valueSet']} ({b['strength']})")
-        lines += ["", f"Mapping: {m['id']}Realisation", f"Source: {m['id']}", f'Target: "{CANONICAL}"',
-                  "Id: realisation", 'Title: "Realised in this guide\'s profiles and examples"',
-                  f'Description: "Where this guide realises each element: a profile or example path, a DVC payload element (smart.who.int.trust-phw), or a CWT or COSE field."']
-        for e in m["elements"]:
-            lines.append(f'* {e["path"]} -> "{fsh_str("; ".join(e["maps"]))}"')
-        files[f"input/fsh/dak/{m['id']}.fsh"] = "\n".join(lines) + "\n"
-    return files
+    return {"input/fsh/dak/TrustDemoCodeLists.fsh": "\n".join(lines) + "\n"}
 
 
 def gen_dictionary(dd, procs):
     out = [HEADER.format(src="dak/data-dictionary.json")]
     out.append("The data dictionary lists the data each journey records or exchanges, as the "
-               "[WHO SMART Guidelines DAK](https://smart.who.int/ig-starter-kit/l2_dak.html) does in its component 5: "
-               "one data set per step that writes or reads it, each a FHIR logical model whose elements carry a code "
-               "(`TD.<data set>.DE<nn>`, CodeSystem [TrustDemoDataElements](CodeSystem-TrustDemoDataElements.html)), "
-               "a definition, a cardinality and, where the guide has a code list, a binding. Each model's mapping "
-               "`realisation` says where this guide realises the element: in a profile or example, in the DVC payload "
-               "of WHO SMART Trust PHW (`DVCMinPreQual`), or in a CWT or COSE field. The data elements are read by the "
+               "[WHO SMART Guidelines DAK](https://smart.who.int/ig-starter-kit/l2_dak.html) does in its component 5. "
+               "**This demonstrator defines no data model of its own**: it shows how the existing specifications are "
+               "used, so each data set is a model one of them already publishes. J1 signs the DVC payload of WHO SMART "
+               "Trust PHW (`DVCMinPreQual`) into the CBOR Web Token of WHO SMART Trust (`CWT`); J2 registers the child "
+               "with the client record of the WHO Immunization guide (`IMMZC4`, which is also its update of client "
+               "details); J3 imports each verified dose as that guide's Immunization profile (`IMMZImmunization`); "
+               "and J4 generates one IHE Verifiable Health Link payload (`VHLPayload`) per QR code.\n")
+    out.append("Each element is named `<model>.<path>` and is listed as its own specification defines it; that "
+               "specification is the authority, and only the elements the journeys use are shown. \"Realised in\" says "
+               "where this guide's profiles and examples carry the element. The elements are read by the "
                "[decision-support logic](decision-logic.html) and counted by the [indicators](indicators.html).\n")
-    out.append("The source is `dak/data-dictionary.json`; the guide's logical models, code lists and this page are "
-               "generated from it. Every person and value in the examples is fictional.\n")
-    out.append("| Data set | Journey steps | Logical model | Realised by |\n|---|---|---|---|")
+    out.append("The source is `dak/data-dictionary.json`; this page and the code lists are generated from it. Every "
+               "person and value in the examples is fictional.\n")
+    out.append("| Data set | Specification | Journey steps | Realised by |\n|---|---|---|---|")
     for m in dd["models"]:
         serves = "<br/>".join(_serves_md(procs, [(s["process"], t) for s in m["serves"] for t in s["tasks"]]))
         real = ", ".join(_artifact_link(r) for r in m["realisedBy"])
-        out.append(f"| [{cell(_model_heading(m))}](#{anchor(_model_heading(m))}) | {cell(serves)} | "
-                   f"[{m['id']}](StructureDefinition-{m['id']}.html) | {cell(real)} |")
+        out.append(f"| [{cell(_model_heading(m))}](#{anchor(_model_heading(m))}) | "
+                   f"[{cell(m['ig']['title'])}]({m['ig']['home']}) | {cell(serves)} | {cell(real)} |")
     out.append("{: .grid }")
     for m in dd["models"]:
+        kind = "Profile" if m["kind"] == "profile" else "Logical model"
         out.append(f"\n### {_model_heading(m)}\n")
         out.append(m["description"] + "\n")
-        out.append(f"- **Logical model:** [{m['id']}](StructureDefinition-{m['id']}.html)")
+        out.append(f"- **{kind}:** {_upstream_link(m)}, canonical `{m['canonical']}`")
+        out.append(f"- **Specification:** [{m['ig']['title']}]({m['ig']['home']}), package `{m['ig']['package']}` "
+                   f"({m['ig']['version']})")
         out.append("- **Recorded or read in:** " + "; ".join(
             _serves_md(procs, [(s["process"], t) for s in m["serves"] for t in s["tasks"]])))
         out.append("- **Requirements:** " + ", ".join(m["requirements"]))
         out.append("- **Realised by:** " + ", ".join(_artifact_link(r) for r in m["realisedBy"]) + "\n")
-        out.append("| Code | Element | Label | Card. | Type | Definition | Binding | Realised in |\n|---|---|---|---|---|---|---|---|")
+        out.append("| Element | Label | Card. | Type | Definition | Binding | Realised in |\n|---|---|---|---|---|---|---|")
         for e in m["elements"]:
             b = e.get("binding")
             binding = f"{_binding_md(b['valueSet'])} ({b['strength']})" if b else ""
-            out.append(f"| {m['code']}.{e['code']} | `{e['path']}` | {cell(e['label'])} | {e['card']} | {cell(e['type'])} | "
+            out.append(f"| `{m['id']}.{e['path']}` | {cell(e['label'])} | {e['card']} | {cell(e['type'])} | "
                        f"{cell(e['definition'])} | {cell(binding)} | {cell('; '.join(e['maps']))} |")
         out.append("{: .grid }")
     out.append("\n### Code lists\n")
-    out.append("The code lists the data elements bind to, beside the vaccine code systems of the examples "
+    out.append("The code lists the decisions record, beside the vaccine code systems of the examples "
                "([TrustDemoVaccineProducts](ValueSet-TrustDemoVaccineProducts.html), "
                "[TrustDemoOnesaEpiScheduleCodes](ValueSet-TrustDemoOnesaEpiScheduleCodes.html)) and FHIR's own.\n")
     out.append("| Code list | Codes | Description |\n|---|---|---|")

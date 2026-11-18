@@ -22,11 +22,11 @@ Of the foreign DVCs a clinic scans to verify, the proportion whose dose is recor
 | | |
 |---|---|
 | Numerator | Foreign DVCs scanned for verification in the reporting period whose dose was recorded as verified. |
-| Numerator computation | COUNT of verification records (TD.J3A) WHERE "Verified at" is in the reporting period AND "Record outcome" = verified |
+| Numerator computation | COUNT of foreign DVCs the clinic's HCERT library verifies in the reporting period (CWT.header.4 found on the trust list) WHERE the dose is imported as an Immunization (IMMZImmunization) with primarySource = true |
 | Denominator | Foreign DVCs scanned for verification in the reporting period. |
-| Denominator computation | COUNT of verification records (TD.J3A) WHERE "Verified at" is in the reporting period |
+| Denominator computation | COUNT of foreign DVCs the clinic's HCERT library is asked to verify in the reporting period, verified or not |
 | Disaggregations | Record outcome: verified, reported-unverified, rejected, not-read (TD.DT.01)<br/>Failure reason: the [STT-VER-008](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-008) reason, for DVCs that did not verify<br/>Issuing country: the participant that signed the DVC<br/>Facility: the clinic that verified |
-| Data elements | [TD.J3A.DE02](dictionary.html#tdj3a-dvc-verification-and-import) Issuing country<br/>[TD.J3A.DE03](dictionary.html#tdj3a-dvc-verification-and-import) Verified at<br/>[TD.J3A.DE05](dictionary.html#tdj3a-dvc-verification-and-import) Verification result<br/>[TD.J3A.DE07](dictionary.html#tdj3a-dvc-verification-and-import) Failure reason<br/>[TD.J3A.DE09](dictionary.html#tdj3a-dvc-verification-and-import) Record outcome |
+| Data elements | [CWT.header.4](dictionary.html#j1-cwt-cbor-web-token-cwt) Key identifier (kid)<br/>[CWT.payload.1](dictionary.html#j1-cwt-cbor-web-token-cwt) Issuer (iss)<br/>[IMMZImmunization.primarySource](dictionary.html#j3-immzimmunization-immz-immunization) Primary source |
 | Decision tables | [TD.DT.01](decision-logic.html#tddt01-what-does-a-scanned-dvc-become-in-the-childs-record) |
 | Requirements | [STT-VER-001](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-001), [STT-VER-006](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-006), [STT-VER-008](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-008) |
 | Journeys | J3 |
@@ -40,11 +40,11 @@ Of the requests to open a family member's shared link, the proportion the home c
 | | |
 |---|---|
 | Numerator | Manifest requests in the reporting period that were released. |
-| Numerator computation | COUNT of access records (TD.J41) WHERE "Requested at" is in the reporting period AND "Released" = true |
+| Numerator computation | COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period AND AuditEvent.outcome is success |
 | Denominator | Manifest requests in the reporting period, released or refused. |
-| Denominator computation | COUNT of access records (TD.J41) WHERE "Requested at" is in the reporting period |
+| Denominator computation | COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period |
 | Disaggregations | Refusal reason: wrong-passcode, expired, withdrawn (TD.DT.05)<br/>Requesting system: the receiver abroad, and its country |
-| Data elements | [TD.J41.DE01](dictionary.html#tdj41-access-to-a-shared-link) Requested at<br/>[TD.J41.DE02](dictionary.html#tdj41-access-to-a-shared-link) Requester<br/>[TD.J41.DE06](dictionary.html#tdj41-access-to-a-shared-link) Released<br/>[TD.J41.DE08](dictionary.html#tdj41-access-to-a-shared-link) Refusal reason |
+| Data elements | [VHLPayload.exp](dictionary.html#j4-vhlpayload-vhl-payload) Expires at<br/>[VHLPayload.flag](dictionary.html#j4-vhlpayload-vhl-payload) Flags<br/>[VHLPayload.url](dictionary.html#j4-vhlpayload-vhl-payload) Manifest URL |
 | Decision tables | [TD.DT.05](decision-logic.html#tddt05-does-the-portal-release-the-manifest-for-this-request) |
 | Requirements | [STD-ACC-001](https://github.com/litlfred/smart-trust-demo/blob/main/skills/requirements/std-acc-001.json) |
 | Journeys | J4.1 |
@@ -58,11 +58,11 @@ Of the referrals community health workers make for a child's foreign cards to be
 | | |
 |---|---|
 | Numerator | Referrals made in the reporting period for which the clinic has recorded an outcome for every dose the referral lists. |
-| Numerator computation | COUNT of referrals (TD.J2B) WHERE "Referred at" is in the reporting period AND "Referral status" = completed |
+| Numerator computation | COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period AND ServiceRequest.status = completed |
 | Denominator | Referrals for verification made by community health workers in the reporting period. |
-| Denominator computation | COUNT of referrals (TD.J2B) WHERE "Referred at" is in the reporting period |
+| Denominator computation | COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period |
 | Disaggregations | Referred to: the clinic referred to<br/>Referred by: the community health worker |
-| Data elements | [TD.J2B.DE02](dictionary.html#tdj2b-referral-for-verification) Referred by<br/>[TD.J2B.DE03](dictionary.html#tdj2b-referral-for-verification) Referred to<br/>[TD.J2B.DE04](dictionary.html#tdj2b-referral-for-verification) Referred at<br/>[TD.J2B.DE06](dictionary.html#tdj2b-referral-for-verification) Doses to verify<br/>[TD.J2B.DE07](dictionary.html#tdj2b-referral-for-verification) Referral status |
+| Data elements | [IMMZC4.uniqueIdentifier](dictionary.html#j2-immzc4-immzc4-create-client-record--immzc53-update-client-details) Unique identifier<br/>[IMMZImmunization.primarySource](dictionary.html#j3-immzimmunization-immz-immunization) Primary source |
 | Decision tables | [TD.DT.01](decision-logic.html#tddt01-what-does-a-scanned-dvc-become-in-the-childs-record) |
 | Requirements | [STT-VER-011](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-011) |
 | Journeys | J2, J3 |
@@ -76,11 +76,11 @@ Of the foreign doses imported as verified, the proportion that carry a national 
 | | |
 |---|---|
 | Numerator | Doses imported as verified in the reporting period that carry a national schedule code. |
-| Numerator computation | COUNT of imported doses (TD.J3B) WHERE imported in the reporting period AND "Mapping basis" in (concept-map, clinician-confirmed) |
+| Numerator computation | COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period AND vaccineCode has a coding from TrustDemoOnesaEpiScheduleCodes |
 | Denominator | Doses imported as verified in the reporting period. |
-| Denominator computation | COUNT of imported doses (TD.J3B) WHERE imported in the reporting period AND "Mapping basis" != not-imported |
+| Denominator computation | COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period |
 | Disaggregations | Mapping basis: concept-map, clinician-confirmed, unmapped (TD.DT.02)<br/>Issuer's product code: the product as signed |
-| Data elements | [TD.J3B.DE01](dictionary.html#tdj3b-imported-dose-and-schedule) Issuer's product code<br/>[TD.J3B.DE02](dictionary.html#tdj3b-imported-dose-and-schedule) National schedule code<br/>[TD.J3B.DE03](dictionary.html#tdj3b-imported-dose-and-schedule) Mapping basis<br/>[TD.J3B.DE05](dictionary.html#tdj3b-imported-dose-and-schedule) Counts toward the schedule |
+| Data elements | [DVCMinPreQual.vx.vp](dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal) Vaccine product id<br/>[IMMZImmunization.primarySource](dictionary.html#j3-immzimmunization-immz-immunization) Primary source<br/>[IMMZImmunization.vaccineCode](dictionary.html#j3-immzimmunization-immz-immunization) Vaccine code |
 | Decision tables | [TD.DT.02](decision-logic.html#tddt02-which-national-schedule-code-does-an-imported-dose-carry), [TD.DT.03](decision-logic.html#tddt03-does-the-national-schedule-count-this-dose) |
 | Requirements | [STD-SEM-001](https://github.com/litlfred/smart-trust-demo/blob/main/skills/requirements/std-sem-001.json), [STD-SCH-001](https://github.com/litlfred/smart-trust-demo/blob/main/skills/requirements/std-sch-001.json) |
 | Journeys | J3 |

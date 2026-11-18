@@ -35,7 +35,7 @@ The OHS app on the CHW's phone: reads a foreign DVC without verifying it (triage
 
 - Decision table [TD.DT.01 What does a scanned DVC become in the child's record?](decision-logic.html#tddt01-what-does-a-scanned-dvc-become-in-the-childs-record), in: Read each DVC unverified (triage); Add the infant; save doses as reported
 
-**Data sets its tasks record or read**: [TD.J2A Newborn registration on a home visit](dictionary.html#tdj2a-newborn-registration-on-a-home-visit); [TD.J2B Referral for verification](dictionary.html#tdj2b-referral-for-verification)
+**Data sets its tasks record or read**: [J1 DVCMinPreQual DVC HCERT payload (PreQual)](dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal); [J2 IMMZC4 IMMZ.C4 Create client record (= IMMZ.C5.3 Update client details)](dictionary.html#j2-immzc4-immzc4-create-client-record--immzc53-update-client-details); [J3 IMMZImmunization IMMZ Immunization](dictionary.html#j3-immzimmunization-immz-immunization)
 
 **Indicators that count its decisions**: [TD.IND.01 Foreign doses imported as verified](indicators.html#tdind01-foreign-doses-imported-as-verified); [TD.IND.03 CHW referrals for verification completed at the clinic](indicators.html#tdind03-chw-referrals-for-verification-completed-at-the-clinic)
 """

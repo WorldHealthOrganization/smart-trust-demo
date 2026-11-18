@@ -60,7 +60,7 @@ The keys of the walkthrough's `MOCK_FHIR_RESOURCES`
 
 ### What the examples change from the walkthrough's copies
 
-- **Code systems.** The walkthrough's product codes (`vp-hepb-peds-monovalent` and so on) and the schedule codes of Onesa (`XXU-EPI-HEPB-BD` and so on) are illustrative. They are defined here as the code systems `TrustDemoVaccineProduct` and `TrustDemoOnesaEpiSchedule`, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system.
+- **Code systems.** Each dose's product is coded with its WHO PreQual product id (`a3K3X000006MiiXUAS` for the Hep B birth dose and so on), from the code system `http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds` of the [SMART Product Dataset for Prequalified Vaccines](https://worldhealthorganization.github.io/smart-pcmt-vaxprequal/ValueSet-PreQualProductIds.html), and the ValueSet `TrustDemoVaccineProducts` lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa (`XXU-EPI-HEPB-BD` and so on) are illustrative, defined here as the code system `TrustDemoOnesaEpiSchedule`, marked experimental, under this guide's canonical, so no URL implies a real ministry.
 - **Countries.** Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key.
 - **The passcode.** The walkthrough shows `4829` on screen. No example stores a passcode: the consent and audit records say only that one was checked.
 - **Dates.** As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28.

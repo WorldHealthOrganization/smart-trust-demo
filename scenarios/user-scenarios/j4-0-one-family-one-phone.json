@@ -228,12 +228,6 @@
           "why": "Not a copy of the record: a signed, passcode-protected pointer back to Onesa.",
           "spec": "https://profiles.ihe.net/ITI/VHL/volume-1.html"
         }
-      ],
-      "dak": [
-        {
-          "key": "StructureDefinition/TrustDemoDdVhlShare",
-          "rel": "data"
-        }
       ]
     }
   ],

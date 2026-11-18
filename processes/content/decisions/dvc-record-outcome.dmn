@@ -33,9 +33,9 @@
       <trace:artifact ref="StructureDefinition/TrustDemoOnesaReportedImmunization"/>
       <trace:artifact ref="StructureDefinition/TrustDemoOnesaDvcVerification"/>
       <trace:artifact ref="Provenance/TrustDemoJ3Verification"/>
-      <trace:dataElement ref="TD.J3A.DE05"/>
-      <trace:dataElement ref="TD.J3A.DE07"/>
-      <trace:dataElement ref="TD.J3A.DE09"/>
+      <trace:dataElement ref="CWT.header.4"/>
+      <trace:dataElement ref="CWT.payload.1"/>
+      <trace:dataElement ref="IMMZImmunization.primarySource"/>
     </extensionElements>
     <decisionTable id="Table_DvcRecordOutcome" hitPolicy="FIRST">
       <input id="In_Result" label="Verification result">

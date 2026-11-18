@@ -36,7 +36,7 @@ The clinic system abroad that scans a VHL, verifies it, fetches the manifest (IT
 - Decision table [TD.DT.06 Does the receiver follow the VHL?](decision-logic.html#tddt06-does-the-receiver-follow-the-vhl), in: Verify the HCERT and read the VHL at key 5; HCERT verified?; Request the manifest (ITI-YY5), signed
 - Gateway "HCERT verified?" in [J4.1 Read a family member's records at the point of care abroad](business-processes.html#j41-read-a-family-members-records-at-the-point-of-care-abroad)
 
-**Data sets its tasks record or read**: [TD.J41 Access to a shared link](dictionary.html#tdj41-access-to-a-shared-link)
+**Data sets its tasks record or read**: [J4 VHLPayload VHL Payload](dictionary.html#j4-vhlpayload-vhl-payload)
 """
 * documentation = "https://github.com/litlfred/smart-trust-demo/blob/main/scenarios/roles.json"
 * derivedFrom[+] = "https://profiles.ihe.net/ITI/VHL/ActorDefinition/VHLReceiver"
