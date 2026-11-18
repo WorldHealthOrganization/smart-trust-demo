@@ -241,7 +241,7 @@ s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
 
   <h3 id="j1-cwt-cbor-web-token-cwt">J1 CWT CBOR Web Token (CWT)</h3>
 
-  <p>The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with Taifafeki’s key; J3 checks each against the trust list.</p>
+  <p>The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with the key of Taifafeki; J3 checks each against the trust list.</p>
 
   <ul>
     <li><strong>Logical model:</strong> <a href="http://smart.who.int/trust/StructureDefinition-CWT.html">CWT</a>, canonical <code class="language-plaintext highlighter-rouge">http://smart.who.int/trust/StructureDefinition/CWT</code></li>
