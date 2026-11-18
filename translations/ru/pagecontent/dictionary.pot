@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-18T11:00:19.619Z\n"
+"POT-Creation-Date: 2026-11-18T11:07:44.457Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -753,7 +753,7 @@ msgid "The batch (lot) of the vaccine given."
 msgstr ""
 
 #: input/pagecontent/dictionary.md:49
-msgid "The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with Taifafeki's key; J3 checks each against the trust list."
+msgid "The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with the key of Taifafeki; J3 checks each against the trust list."
 msgstr ""
 
 #: input/pagecontent/dictionary.md:109

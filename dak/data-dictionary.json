@@ -134,7 +134,7 @@
       "canonical": "http://smart.who.int/trust/StructureDefinition/CWT",
       "url": "http://smart.who.int/trust/StructureDefinition-CWT.html",
       "title": "CBOR Web Token (CWT)",
-      "description": "The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with Taifafeki's key; J3 checks each against the trust list.",
+      "description": "The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with the key of Taifafeki; J3 checks each against the trust list.",
       "serves": [
         {"process": "j1-birth-dose-dvc.bpmn", "tasks": ["Task_Prepare", "Task_Sign"]},
         {"process": "j3-clinic-verification-schedule.bpmn", "tasks": ["Task_Verify", "Gateway_Verified", "Task_Unverified"]}
