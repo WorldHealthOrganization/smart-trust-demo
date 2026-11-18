@@ -432,34 +432,6 @@ Description: "Unofficial Simplified Chinese (zh) display designations for the Tr
 * #wrong-passcode ^designation[+].language = #zh
 * #wrong-passcode ^designation[=].value = "通行码错误"
 
-CodeSystem: TrustDemoVaccineProductZh
-Id: TrustDemoVaccineProduct-zh
-Title: "TrustDemoVaccineProduct — Chinese (zh) supplement"
-Description: "Unofficial Simplified Chinese (zh) display designations for the TrustDemoVaccineProduct code system, drafted by an agent and not signed off by a human."
-* ^experimental = true
-* ^status = #draft
-* ^language = #zh
-* ^content = #supplement
-* ^supplements = Canonical(TrustDemoVaccineProduct)
-* #vp-hepb-peds-monovalent
-* #vp-hepb-peds-monovalent ^designation[+].language = #zh
-* #vp-hepb-peds-monovalent ^designation[=].value = "乙型肝炎疫苗，儿童用，单价"
-* #vp-bcg-freeze-dried
-* #vp-bcg-freeze-dried ^designation[+].language = #zh
-* #vp-bcg-freeze-dried ^designation[=].value = "卡介苗（BCG），冻干"
-* #vp-pentavalent-liquid
-* #vp-pentavalent-liquid ^designation[+].language = #zh
-* #vp-pentavalent-liquid ^designation[=].value = "DTP-HepB-Hib（五联），液体"
-* #vp-bopv-drops
-* #vp-bopv-drops ^designation[+].language = #zh
-* #vp-bopv-drops ^designation[=].value = "二价口服脊髓灰质炎疫苗（bOPV），滴剂"
-* #vp-pcv-13-dose
-* #vp-pcv-13-dose ^designation[+].language = #zh
-* #vp-pcv-13-dose ^designation[=].value = "肺炎球菌结合疫苗（PCV）"
-* #vp-mr-freeze-dried
-* #vp-mr-freeze-dried ^designation[+].language = #zh
-* #vp-mr-freeze-dried ^designation[=].value = "麻疹-风疹疫苗，冻干"
-
 CodeSystem: TrustDemoOnesaEpiScheduleZh
 Id: TrustDemoOnesaEpiSchedule-zh
 Title: "TrustDemoOnesaEpiSchedule — Chinese (zh) supplement"

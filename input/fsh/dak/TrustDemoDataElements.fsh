@@ -10,7 +10,7 @@ Description: "Every data element of the data dictionary, by its code (TD.<data s
 * #TD.J1.DE02 "Date of birth" "The child's date of birth."
 * #TD.J1.DE03 "Parent or guardian name" "The parent or guardian, for a subject with no identity document such as a newborn (STT-PAY-005)."
 * #TD.J1.DE04 "Hospital number" "The birth hospital's own identifier for the child. It is not carried in the DVC."
-* #TD.J1.DE05 "Vaccine product" "The product given, in the issuer's product coding (illustrative PreQual-style codes)."
+* #TD.J1.DE05 "Vaccine product" "The product given, as its WHO PreQual product id."
 * #TD.J1.DE06 "Date of vaccination" "The date the dose was given. The hospital record holds the time as well; the DVC carries the date."
 * #TD.J1.DE07 "Batch number" "The batch (lot) of the vaccine given."
 * #TD.J1.DE08 "Dose number" "The dose's number in its series. Recorded by the hospital; the minimal DVC payload does not carry it."

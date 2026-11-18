@@ -3,35 +3,6 @@
 // has reviewed or signed it off. Codes are unchanged; only displays,
 // definitions and fr designations are given.
 
-CodeSystem: TrustDemoVaccineProductFr
-Id: TrustDemoVaccineProduct-fr
-Title: "Produits vaccinaux (codes illustratifs de type PreQual)"
-Description: "French (fr) supplement to TrustDemoVaccineProduct: displays and definitions in French. Unofficial agent translation."
-* ^content = #supplement
-* ^supplements = Canonical(TrustDemoVaccineProduct)
-* ^language = #fr
-* ^status = #draft
-* ^experimental = true
-* ^count = 6
-* #vp-hepb-peds-monovalent "Vaccin contre l'hépatite B, pédiatrique, monovalent"
-* #vp-hepb-peds-monovalent ^designation[0].language = #fr
-* #vp-hepb-peds-monovalent ^designation[0].value = "Vaccin contre l'hépatite B, pédiatrique, monovalent"
-* #vp-bcg-freeze-dried "Vaccin BCG, lyophilisé"
-* #vp-bcg-freeze-dried ^designation[0].language = #fr
-* #vp-bcg-freeze-dried ^designation[0].value = "Vaccin BCG, lyophilisé"
-* #vp-pentavalent-liquid "DTC-HepB-Hib (pentavalent), liquide"
-* #vp-pentavalent-liquid ^designation[0].language = #fr
-* #vp-pentavalent-liquid ^designation[0].value = "DTC-HepB-Hib (pentavalent), liquide"
-* #vp-bopv-drops "Vaccin antipoliomyélitique oral bivalent (VPOb), gouttes"
-* #vp-bopv-drops ^designation[0].language = #fr
-* #vp-bopv-drops ^designation[0].value = "Vaccin antipoliomyélitique oral bivalent (VPOb), gouttes"
-* #vp-pcv-13-dose "Vaccin antipneumococcique conjugué (VPC)"
-* #vp-pcv-13-dose ^designation[0].language = #fr
-* #vp-pcv-13-dose ^designation[0].value = "Vaccin antipneumococcique conjugué (VPC)"
-* #vp-mr-freeze-dried "Vaccin contre la rougeole et la rubéole, lyophilisé"
-* #vp-mr-freeze-dried ^designation[0].language = #fr
-* #vp-mr-freeze-dried ^designation[0].value = "Vaccin contre la rougeole et la rubéole, lyophilisé"
-
 CodeSystem: TrustDemoOnesaEpiScheduleFr
 Id: TrustDemoOnesaEpiSchedule-fr
 Title: "Codes antigène-dose du calendrier national (illustratifs, Onesa)"
@@ -83,7 +54,7 @@ Description: "French (fr) supplement to TrustDemoDataElements: displays and defi
 * #TD.J1.DE04 "Numéro d'hôpital" "L'identifiant propre de l'enfant à l'hôpital de naissance. Il n'est pas porté dans le DVC."
 * #TD.J1.DE04 ^designation[0].language = #fr
 * #TD.J1.DE04 ^designation[0].value = "Numéro d'hôpital"
-* #TD.J1.DE05 "Produit vaccinal" "Le produit administré, dans le codage des produits de l'émetteur (codes illustratifs de type PreQual)."
+* #TD.J1.DE05 "Produit vaccinal" "Le produit administré, sous son identifiant de produit WHO PreQual."
 * #TD.J1.DE05 ^designation[0].language = #fr
 * #TD.J1.DE05 ^designation[0].value = "Produit vaccinal"
 * #TD.J1.DE06 "Date de vaccination" "La date d'administration de la dose. Le dossier hospitalier contient aussi l'heure ; le DVC porte la date."
