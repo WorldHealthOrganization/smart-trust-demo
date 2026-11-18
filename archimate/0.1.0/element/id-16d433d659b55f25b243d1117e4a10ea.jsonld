@@ -8,7 +8,7 @@
   "@type": "archimate:ApplicationComponent",
   "schema:identifier": "id-16d433d659b55f25b243d1117e4a10ea",
   "schema:name": "Vaccine product code registry",
-  "schema:description": "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Publishes the vaccine product codes the hospital records doses against, which the receiving country maps to its own schedule codes (J1, J3).",
+  "schema:description": "Taifafeki, part of Kesaro Provincial Hospital system, Taifafeki (Country A, XXR): Holds the WHO PreQual product ids the hospital records doses against, which the receiving country maps to its own schedule codes (J1, J3).",
   "schema:category": "Application",
   "dcterms:isPartOf": "https://worldhealthorganization.github.io/smart-trust-demo/archimate/0.1.0"
 }

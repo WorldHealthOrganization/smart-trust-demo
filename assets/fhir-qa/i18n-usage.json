@@ -3,9 +3,9 @@
  "locales": {
   "ar": {
    "counts": {
-    "publisher": 291,
-    "machine": 264,
-    "source": 5
+    "publisher": 137,
+    "machine": 162,
+    "source": 11
    },
    "refused": [
     {
@@ -25,31 +25,9 @@
     }
    ],
    "keys": {
-    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
-     "origin": "publisher",
-     "count": 193,
-     "links": [
-      "ar/qa.html#qa-m17-6",
-      "ar/qa.html#qa-m17-7",
-      "ar/qa.html#qa-m17-8",
-      "ar/qa.html#qa-m17-9",
-      "ar/qa.html#qa-m17-10"
-     ]
-    },
-    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
-     "origin": "machine",
-     "count": 130,
-     "links": [
-      "ar/qa.html#qa-m22-1",
-      "ar/qa.html#qa-m22-2",
-      "ar/qa.html#qa-m22-3",
-      "ar/qa.html#qa-m22-4",
-      "ar/qa.html#qa-m28-1"
-     ]
-    },
     "text|The resource {0} should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 76,
+     "count": 64,
      "links": [
       "ar/qa.html#qa-m18-0",
       "ar/qa.html#qa-m19-1",
@@ -58,9 +36,20 @@
       "ar/qa.html#qa-m22-5"
      ]
     },
+    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
+     "origin": "machine",
+     "count": 47,
+     "links": [
+      "ar/qa.html#qa-m22-1",
+      "ar/qa.html#qa-m22-2",
+      "ar/qa.html#qa-m22-3",
+      "ar/qa.html#qa-m22-4",
+      "ar/qa.html#qa-m28-1"
+     ]
+    },
     "text|The resource {0} could usefully have an OID assigned (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 46,
+     "count": 39,
      "links": [
       "ar/qa.html#qa-m1-2",
       "ar/qa.html#qa-m2-0",
@@ -71,13 +60,24 @@
     },
     "CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL|CodeSystems SHOULD NOT have a stated value for the {0} element when they are a supplement": {
      "origin": "publisher",
-     "count": 33,
+     "count": 27,
      "links": [
       "ar/qa.html#qa-m19-0",
       "ar/qa.html#qa-m20-0",
       "ar/qa.html#qa-m22-0",
       "ar/qa.html#qa-m25-0",
       "ar/qa.html#qa-m26-0"
+     ]
+    },
+    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
+     "origin": "publisher",
+     "count": 23,
+     "links": [
+      "ar/qa.html#qa-m17-6",
+      "ar/qa.html#qa-m17-9",
+      "ar/qa.html#qa-m17-12",
+      "ar/qa.html#qa-m17-14",
+      "ar/qa.html#qa-m17-16"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE|A definition could not be found for Canonical URL ''{0}''": {
@@ -93,24 +93,35 @@
     },
     "Type_Specific_Checks_DT_URL_Resolve|No definition could be found for URL value ''{0}''": {
      "origin": "publisher",
-     "count": 14,
+     "count": 16,
      "links": [
       "ar/qa.html#qa-m17-5",
-      "ar/qa.html#qa-m92-0",
-      "ar/qa.html#qa-m115-0",
-      "ar/qa.html#qa-m116-0",
-      "ar/qa.html#qa-m117-0"
+      "ar/qa.html#qa-m73-0",
+      "ar/qa.html#qa-m80-0",
+      "ar/qa.html#qa-m103-0",
+      "ar/qa.html#qa-m104-0"
+     ]
+    },
+    "UNKNOWN_CODESYSTEM|A definition for CodeSystem ''{0}'' could not be found, so the code cannot be validated": {
+     "origin": "publisher",
+     "count": 16,
+     "links": [
+      "ar/qa.html#qa-m17-8",
+      "ar/qa.html#qa-m17-11",
+      "ar/qa.html#qa-m17-13",
+      "ar/qa.html#qa-m17-15",
+      "ar/qa.html#qa-m17-17"
      ]
     },
     "Bundle_BUNDLE_Entry_NotFound|Can''t find ''{0}'' in the bundle ({1})": {
      "origin": "publisher",
      "count": 9,
      "links": [
-      "ar/qa.html#qa-m17-19",
-      "ar/qa.html#qa-m17-20",
       "ar/qa.html#qa-m17-21",
       "ar/qa.html#qa-m17-22",
-      "ar/qa.html#qa-m17-23"
+      "ar/qa.html#qa-m17-23",
+      "ar/qa.html#qa-m17-24",
+      "ar/qa.html#qa-m17-25"
      ]
     },
     "INV_FAILED|Constraint failed: {0}: ''{1}''": {
@@ -120,30 +131,41 @@
       "ar/qa.html#qa-m17-0",
       "ar/qa.html#qa-m17-1",
       "ar/qa.html#qa-m17-2",
-      "ar/qa.html#qa-m84-0",
-      "ar/qa.html#qa-m84-1"
+      "ar/qa.html#qa-m72-0",
+      "ar/qa.html#qa-m72-1"
      ]
     },
     "MEASURE_M_CRITERIA_UNKNOWN|The expression language {0} is not supported, so can''t be validated": {
      "origin": "publisher",
      "count": 8,
      "links": [
-      "ar/qa.html#qa-m105-0",
-      "ar/qa.html#qa-m105-1",
-      "ar/qa.html#qa-m106-0",
-      "ar/qa.html#qa-m106-1",
-      "ar/qa.html#qa-m107-0"
+      "ar/qa.html#qa-m93-0",
+      "ar/qa.html#qa-m93-1",
+      "ar/qa.html#qa-m94-0",
+      "ar/qa.html#qa-m94-1",
+      "ar/qa.html#qa-m95-0"
+     ]
+    },
+    "CONCEPTMAP_VS_CONCEPT_CODE_UNKNOWN_SYSTEM|The code ''{1}'' comes from the system {0} which could not be found, so it''s not known whether it''s valid in the value set ''{2}''": {
+     "origin": "publisher",
+     "count": 6,
+     "links": [
+      "ar/qa.html#qa-m73-1",
+      "ar/qa.html#qa-m73-2",
+      "ar/qa.html#qa-m73-3",
+      "ar/qa.html#qa-m73-4",
+      "ar/qa.html#qa-m73-5"
      ]
     },
     "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
      "origin": "publisher",
      "count": 6,
      "links": [
-      "ar/qa.html#qa-m144-1",
-      "ar/qa.html#qa-m144-2",
-      "ar/qa.html#qa-m144-3",
-      "ar/qa.html#qa-m144-4",
-      "ar/qa.html#qa-m150-1"
+      "ar/qa.html#qa-m125-1",
+      "ar/qa.html#qa-m125-2",
+      "ar/qa.html#qa-m125-3",
+      "ar/qa.html#qa-m125-4",
+      "ar/qa.html#qa-m131-1"
      ]
     },
     "Display_Name_for__should_be_one_of__instead_of_one|Wrong Display Name ''{4}'' for {1}#{2}. Valid display is {3} (for the language(s) ''{5}'')": {
@@ -152,79 +174,83 @@
      "links": [
       "ar/qa.html#qa-m17-3",
       "ar/qa.html#qa-m17-4",
-      "ar/qa.html#qa-m84-3",
-      "ar/qa.html#qa-m84-4"
+      "ar/qa.html#qa-m72-3",
+      "ar/qa.html#qa-m72-4"
+     ]
+    },
+    "untranslated|UNKNOWN_CODESYSTEM_CODING_NOT_CHECKED": {
+     "origin": "source",
+     "count": 4,
+     "links": [
+      "ar/qa.html#qa-m17-7",
+      "ar/qa.html#qa-m17-10",
+      "ar/qa.html#qa-m85-1",
+      "ar/qa.html#qa-m86-1"
      ]
     },
     "IG_DEPENDENCY_VERSION_WARNING_OLD|The ImplementationGuide uses package {0} released on {2}, but the most recent appropriate version is {1}. This reference is getting old and the more recent version should be considered": {
      "origin": "publisher",
      "count": 4,
      "links": [
-      "ar/qa.html#qa-m104-3",
-      "ar/qa.html#qa-m104-4",
-      "ar/qa.html#qa-m104-5",
-      "ar/qa.html#qa-m104-6"
+      "ar/qa.html#qa-m92-2",
+      "ar/qa.html#qa-m92-3",
+      "ar/qa.html#qa-m92-4",
+      "ar/qa.html#qa-m92-5"
      ]
     },
     "untranslated|TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS": {
      "origin": "source",
      "count": 4,
      "links": [
-      "ar/qa.html#qa-m142-1",
-      "ar/qa.html#qa-m149-0",
-      "ar/qa.html#qa-m149-1",
-      "ar/qa.html#qa-m152-0"
+      "ar/qa.html#qa-m123-1",
+      "ar/qa.html#qa-m130-0",
+      "ar/qa.html#qa-m130-1",
+      "ar/qa.html#qa-m133-0"
      ]
     },
     "untranslated|text": {
      "origin": "source",
-     "count": 1,
+     "count": 2,
      "links": [
-      "ar/qa.html#qa-m0-0"
-     ]
-    },
-    "TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML|The markdown contains content that appears to be an embedded HTML tag starting at ''{0}''. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour": {
-     "origin": "publisher",
-     "count": 1,
-     "links": [
-      "ar/qa.html#qa-m24-0"
+      "ar/qa.html#qa-m0-0",
+      "ar/qa.html#qa-m139-3"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE|Canonical URLs must be absolute URLs if they are not fragment references ({0})": {
      "origin": "publisher",
      "count": 1,
      "links": [
-      "ar/qa.html#qa-m104-0"
-     ]
-    },
-    "SECURITY_STRING_CONTENT_WARNING|The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk": {
-     "origin": "publisher",
-     "count": 1,
-     "links": [
-      "ar/qa.html#qa-m104-2"
+      "ar/qa.html#qa-m92-0"
      ]
     },
     "VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY|Profile reference ''{0}'' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles": {
      "origin": "publisher",
      "count": 1,
      "links": [
-      "ar/qa.html#qa-m104-7"
+      "ar/qa.html#qa-m92-6"
      ]
     },
     "MSG_DEPENDS_ON_DEPRECATED_NOTE|The {0} {1} is deprecated with the note: ''{2}''": {
      "origin": "publisher",
      "count": 1,
      "links": [
-      "ar/qa.html#qa-m142-0"
+      "ar/qa.html#qa-m123-0"
+     ]
+    },
+    "untranslated|VALUESET_INC_CS_NO_SUPPORT": {
+     "origin": "source",
+     "count": 1,
+     "links": [
+      "ar/qa.html#qa-m139-1"
      ]
     }
    }
   },
   "es": {
    "counts": {
-    "publisher": 78,
-    "machine": 467,
-    "source": 15
+    "publisher": 72,
+    "machine": 195,
+    "source": 43
    },
    "refused": [
     {
@@ -239,31 +265,9 @@
     }
    ],
    "keys": {
-    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
-     "origin": "machine",
-     "count": 193,
-     "links": [
-      "es/qa.html#qa-m17-6",
-      "es/qa.html#qa-m17-7",
-      "es/qa.html#qa-m17-8",
-      "es/qa.html#qa-m17-9",
-      "es/qa.html#qa-m17-10"
-     ]
-    },
-    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
-     "origin": "machine",
-     "count": 130,
-     "links": [
-      "es/qa.html#qa-m22-1",
-      "es/qa.html#qa-m22-2",
-      "es/qa.html#qa-m22-3",
-      "es/qa.html#qa-m22-4",
-      "es/qa.html#qa-m28-1"
-     ]
-    },
     "text|The resource {0} should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 76,
+     "count": 64,
      "links": [
       "es/qa.html#qa-m18-0",
       "es/qa.html#qa-m19-1",
@@ -272,9 +276,20 @@
       "es/qa.html#qa-m22-5"
      ]
     },
+    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
+     "origin": "machine",
+     "count": 47,
+     "links": [
+      "es/qa.html#qa-m22-1",
+      "es/qa.html#qa-m22-2",
+      "es/qa.html#qa-m22-3",
+      "es/qa.html#qa-m22-4",
+      "es/qa.html#qa-m28-1"
+     ]
+    },
     "text|The resource {0} could usefully have an OID assigned (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 46,
+     "count": 39,
      "links": [
       "es/qa.html#qa-m1-2",
       "es/qa.html#qa-m2-0",
@@ -285,13 +300,35 @@
     },
     "CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL|CodeSystems SHOULD NOT have a stated value for the {0} element when they are a supplement": {
      "origin": "publisher",
-     "count": 33,
+     "count": 27,
      "links": [
       "es/qa.html#qa-m19-0",
       "es/qa.html#qa-m20-0",
       "es/qa.html#qa-m22-0",
       "es/qa.html#qa-m25-0",
       "es/qa.html#qa-m26-0"
+     ]
+    },
+    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
+     "origin": "machine",
+     "count": 23,
+     "links": [
+      "es/qa.html#qa-m17-6",
+      "es/qa.html#qa-m17-9",
+      "es/qa.html#qa-m17-12",
+      "es/qa.html#qa-m17-14",
+      "es/qa.html#qa-m17-16"
+     ]
+    },
+    "untranslated|text": {
+     "origin": "source",
+     "count": 21,
+     "links": [
+      "es/qa.html#qa-m0-0",
+      "es/qa.html#qa-m17-11",
+      "es/qa.html#qa-m17-13",
+      "es/qa.html#qa-m17-15",
+      "es/qa.html#qa-m17-17"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE|A definition could not be found for Canonical URL ''{0}''": {
@@ -307,24 +344,24 @@
     },
     "Type_Specific_Checks_DT_URL_Resolve|No definition could be found for URL value ''{0}''": {
      "origin": "publisher",
-     "count": 14,
+     "count": 16,
      "links": [
       "es/qa.html#qa-m17-5",
-      "es/qa.html#qa-m92-0",
-      "es/qa.html#qa-m115-0",
-      "es/qa.html#qa-m116-0",
-      "es/qa.html#qa-m117-0"
+      "es/qa.html#qa-m73-0",
+      "es/qa.html#qa-m80-0",
+      "es/qa.html#qa-m103-0",
+      "es/qa.html#qa-m104-0"
      ]
     },
     "untranslated|Bundle_BUNDLE_Entry_NotFound": {
      "origin": "source",
      "count": 9,
      "links": [
-      "es/qa.html#qa-m17-19",
-      "es/qa.html#qa-m17-20",
       "es/qa.html#qa-m17-21",
       "es/qa.html#qa-m17-22",
-      "es/qa.html#qa-m17-23"
+      "es/qa.html#qa-m17-23",
+      "es/qa.html#qa-m17-24",
+      "es/qa.html#qa-m17-25"
      ]
     },
     "INV_FAILED|Constraint failed: {0}: ''{1}''": {
@@ -334,30 +371,30 @@
       "es/qa.html#qa-m17-0",
       "es/qa.html#qa-m17-1",
       "es/qa.html#qa-m17-2",
-      "es/qa.html#qa-m84-0",
-      "es/qa.html#qa-m84-1"
+      "es/qa.html#qa-m72-0",
+      "es/qa.html#qa-m72-1"
      ]
     },
     "MEASURE_M_CRITERIA_UNKNOWN|The expression language {0} is not supported, so can''t be validated": {
      "origin": "publisher",
      "count": 8,
      "links": [
-      "es/qa.html#qa-m105-0",
-      "es/qa.html#qa-m105-1",
-      "es/qa.html#qa-m106-0",
-      "es/qa.html#qa-m106-1",
-      "es/qa.html#qa-m107-0"
+      "es/qa.html#qa-m93-0",
+      "es/qa.html#qa-m93-1",
+      "es/qa.html#qa-m94-0",
+      "es/qa.html#qa-m94-1",
+      "es/qa.html#qa-m95-0"
      ]
     },
     "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
      "origin": "machine",
      "count": 6,
      "links": [
-      "es/qa.html#qa-m144-1",
-      "es/qa.html#qa-m144-2",
-      "es/qa.html#qa-m144-3",
-      "es/qa.html#qa-m144-4",
-      "es/qa.html#qa-m150-1"
+      "es/qa.html#qa-m125-1",
+      "es/qa.html#qa-m125-2",
+      "es/qa.html#qa-m125-3",
+      "es/qa.html#qa-m125-4",
+      "es/qa.html#qa-m131-1"
      ]
     },
     "Display_Name_for__should_be_one_of__instead_of_one|Wrong Display Name ''{4}'' for {1}#{2}. Valid display is {3} (for the language(s) ''{5}'')": {
@@ -366,70 +403,75 @@
      "links": [
       "es/qa.html#qa-m17-3",
       "es/qa.html#qa-m17-4",
-      "es/qa.html#qa-m84-3",
-      "es/qa.html#qa-m84-4"
+      "es/qa.html#qa-m72-3",
+      "es/qa.html#qa-m72-4"
+     ]
+    },
+    "untranslated|UNKNOWN_CODESYSTEM_CODING_NOT_CHECKED": {
+     "origin": "source",
+     "count": 4,
+     "links": [
+      "es/qa.html#qa-m17-7",
+      "es/qa.html#qa-m17-10",
+      "es/qa.html#qa-m85-1",
+      "es/qa.html#qa-m86-1"
      ]
     },
     "IG_DEPENDENCY_VERSION_WARNING_OLD|The ImplementationGuide uses package {0} released on {2}, but the most recent appropriate version is {1}. This reference is getting old and the more recent version should be considered": {
      "origin": "machine",
      "count": 4,
      "links": [
-      "es/qa.html#qa-m104-3",
-      "es/qa.html#qa-m104-4",
-      "es/qa.html#qa-m104-5",
-      "es/qa.html#qa-m104-6"
+      "es/qa.html#qa-m92-2",
+      "es/qa.html#qa-m92-3",
+      "es/qa.html#qa-m92-4",
+      "es/qa.html#qa-m92-5"
      ]
     },
     "untranslated|TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS": {
      "origin": "source",
      "count": 4,
      "links": [
-      "es/qa.html#qa-m142-1",
-      "es/qa.html#qa-m149-0",
-      "es/qa.html#qa-m149-1",
-      "es/qa.html#qa-m152-0"
+      "es/qa.html#qa-m123-1",
+      "es/qa.html#qa-m130-0",
+      "es/qa.html#qa-m130-1",
+      "es/qa.html#qa-m133-0"
      ]
     },
-    "untranslated|text": {
+    "untranslated|UNKNOWN_CODESYSTEM": {
      "origin": "source",
-     "count": 1,
+     "count": 3,
      "links": [
-      "es/qa.html#qa-m0-0"
-     ]
-    },
-    "TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML|The markdown contains content that appears to be an embedded HTML tag starting at ''{0}''. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour": {
-     "origin": "publisher",
-     "count": 1,
-     "links": [
-      "es/qa.html#qa-m24-0"
+      "es/qa.html#qa-m17-8",
+      "es/qa.html#qa-m82-0",
+      "es/qa.html#qa-m86-2"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE|Canonical URLs must be absolute URLs if they are not fragment references ({0})": {
      "origin": "publisher",
      "count": 1,
      "links": [
-      "es/qa.html#qa-m104-0"
-     ]
-    },
-    "SECURITY_STRING_CONTENT_WARNING|The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk": {
-     "origin": "publisher",
-     "count": 1,
-     "links": [
-      "es/qa.html#qa-m104-2"
+      "es/qa.html#qa-m92-0"
      ]
     },
     "VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY|Profile reference ''{0}'' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles": {
      "origin": "publisher",
      "count": 1,
      "links": [
-      "es/qa.html#qa-m104-7"
+      "es/qa.html#qa-m92-6"
      ]
     },
     "untranslated|MSG_DEPENDS_ON_DEPRECATED_NOTE": {
      "origin": "source",
      "count": 1,
      "links": [
-      "es/qa.html#qa-m142-0"
+      "es/qa.html#qa-m123-0"
+     ]
+    },
+    "untranslated|VALUESET_INC_CS_NO_SUPPORT": {
+     "origin": "source",
+     "count": 1,
+     "links": [
+      "es/qa.html#qa-m139-1"
      ]
     }
    }
@@ -437,36 +479,14 @@
   "fr": {
    "counts": {
     "publisher": 0,
-    "machine": 533,
-    "source": 27
+    "machine": 257,
+    "source": 53
    },
    "refused": [],
    "keys": {
-    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
-     "origin": "machine",
-     "count": 193,
-     "links": [
-      "fr/qa.html#qa-m17-6",
-      "fr/qa.html#qa-m17-7",
-      "fr/qa.html#qa-m17-8",
-      "fr/qa.html#qa-m17-9",
-      "fr/qa.html#qa-m17-10"
-     ]
-    },
-    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
-     "origin": "machine",
-     "count": 130,
-     "links": [
-      "fr/qa.html#qa-m22-1",
-      "fr/qa.html#qa-m22-2",
-      "fr/qa.html#qa-m22-3",
-      "fr/qa.html#qa-m22-4",
-      "fr/qa.html#qa-m28-1"
-     ]
-    },
     "text|The resource {0} should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 76,
+     "count": 64,
      "links": [
       "fr/qa.html#qa-m18-0",
       "fr/qa.html#qa-m19-1",
@@ -475,9 +495,20 @@
       "fr/qa.html#qa-m22-5"
      ]
     },
+    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
+     "origin": "machine",
+     "count": 47,
+     "links": [
+      "fr/qa.html#qa-m22-1",
+      "fr/qa.html#qa-m22-2",
+      "fr/qa.html#qa-m22-3",
+      "fr/qa.html#qa-m22-4",
+      "fr/qa.html#qa-m28-1"
+     ]
+    },
     "text|The resource {0} could usefully have an OID assigned (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 46,
+     "count": 39,
      "links": [
       "fr/qa.html#qa-m1-2",
       "fr/qa.html#qa-m2-0",
@@ -488,13 +519,35 @@
     },
     "CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL|CodeSystems SHOULD NOT have a stated value for the {0} element when they are a supplement": {
      "origin": "machine",
-     "count": 33,
+     "count": 27,
      "links": [
       "fr/qa.html#qa-m19-0",
       "fr/qa.html#qa-m20-0",
       "fr/qa.html#qa-m22-0",
       "fr/qa.html#qa-m25-0",
       "fr/qa.html#qa-m26-0"
+     ]
+    },
+    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
+     "origin": "machine",
+     "count": 23,
+     "links": [
+      "fr/qa.html#qa-m17-6",
+      "fr/qa.html#qa-m17-9",
+      "fr/qa.html#qa-m17-12",
+      "fr/qa.html#qa-m17-14",
+      "fr/qa.html#qa-m17-16"
+     ]
+    },
+    "untranslated|text": {
+     "origin": "source",
+     "count": 21,
+     "links": [
+      "fr/qa.html#qa-m0-0",
+      "fr/qa.html#qa-m17-11",
+      "fr/qa.html#qa-m17-13",
+      "fr/qa.html#qa-m17-15",
+      "fr/qa.html#qa-m17-17"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE|A definition could not be found for Canonical URL ''{0}''": {
@@ -510,24 +563,24 @@
     },
     "Type_Specific_Checks_DT_URL_Resolve|No definition could be found for URL value ''{0}''": {
      "origin": "machine",
-     "count": 14,
+     "count": 16,
      "links": [
       "fr/qa.html#qa-m17-5",
-      "fr/qa.html#qa-m92-0",
-      "fr/qa.html#qa-m115-0",
-      "fr/qa.html#qa-m116-0",
-      "fr/qa.html#qa-m117-0"
+      "fr/qa.html#qa-m73-0",
+      "fr/qa.html#qa-m80-0",
+      "fr/qa.html#qa-m103-0",
+      "fr/qa.html#qa-m104-0"
      ]
     },
     "untranslated|Bundle_BUNDLE_Entry_NotFound": {
      "origin": "source",
      "count": 9,
      "links": [
-      "fr/qa.html#qa-m17-19",
-      "fr/qa.html#qa-m17-20",
       "fr/qa.html#qa-m17-21",
       "fr/qa.html#qa-m17-22",
-      "fr/qa.html#qa-m17-23"
+      "fr/qa.html#qa-m17-23",
+      "fr/qa.html#qa-m17-24",
+      "fr/qa.html#qa-m17-25"
      ]
     },
     "INV_FAILED|Constraint failed: {0}: ''{1}''": {
@@ -537,30 +590,30 @@
       "fr/qa.html#qa-m17-0",
       "fr/qa.html#qa-m17-1",
       "fr/qa.html#qa-m17-2",
-      "fr/qa.html#qa-m84-0",
-      "fr/qa.html#qa-m84-1"
+      "fr/qa.html#qa-m72-0",
+      "fr/qa.html#qa-m72-1"
      ]
     },
     "untranslated|MEASURE_M_CRITERIA_UNKNOWN": {
      "origin": "source",
      "count": 8,
      "links": [
-      "fr/qa.html#qa-m105-0",
-      "fr/qa.html#qa-m105-1",
-      "fr/qa.html#qa-m106-0",
-      "fr/qa.html#qa-m106-1",
-      "fr/qa.html#qa-m107-0"
+      "fr/qa.html#qa-m93-0",
+      "fr/qa.html#qa-m93-1",
+      "fr/qa.html#qa-m94-0",
+      "fr/qa.html#qa-m94-1",
+      "fr/qa.html#qa-m95-0"
      ]
     },
     "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
      "origin": "machine",
      "count": 6,
      "links": [
-      "fr/qa.html#qa-m144-1",
-      "fr/qa.html#qa-m144-2",
-      "fr/qa.html#qa-m144-3",
-      "fr/qa.html#qa-m144-4",
-      "fr/qa.html#qa-m150-1"
+      "fr/qa.html#qa-m125-1",
+      "fr/qa.html#qa-m125-2",
+      "fr/qa.html#qa-m125-3",
+      "fr/qa.html#qa-m125-4",
+      "fr/qa.html#qa-m131-1"
      ]
     },
     "Display_Name_for__should_be_one_of__instead_of_one|Wrong Display Name ''{4}'' for {1}#{2}. Valid display is {3} (for the language(s) ''{5}'')": {
@@ -569,107 +622,90 @@
      "links": [
       "fr/qa.html#qa-m17-3",
       "fr/qa.html#qa-m17-4",
-      "fr/qa.html#qa-m84-3",
-      "fr/qa.html#qa-m84-4"
+      "fr/qa.html#qa-m72-3",
+      "fr/qa.html#qa-m72-4"
+     ]
+    },
+    "untranslated|UNKNOWN_CODESYSTEM_CODING_NOT_CHECKED": {
+     "origin": "source",
+     "count": 4,
+     "links": [
+      "fr/qa.html#qa-m17-7",
+      "fr/qa.html#qa-m17-10",
+      "fr/qa.html#qa-m85-1",
+      "fr/qa.html#qa-m86-1"
      ]
     },
     "IG_DEPENDENCY_VERSION_WARNING_OLD|The ImplementationGuide uses package {0} released on {2}, but the most recent appropriate version is {1}. This reference is getting old and the more recent version should be considered": {
      "origin": "machine",
      "count": 4,
      "links": [
-      "fr/qa.html#qa-m104-3",
-      "fr/qa.html#qa-m104-4",
-      "fr/qa.html#qa-m104-5",
-      "fr/qa.html#qa-m104-6"
+      "fr/qa.html#qa-m92-2",
+      "fr/qa.html#qa-m92-3",
+      "fr/qa.html#qa-m92-4",
+      "fr/qa.html#qa-m92-5"
      ]
     },
     "untranslated|TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS": {
      "origin": "source",
      "count": 4,
      "links": [
-      "fr/qa.html#qa-m142-1",
-      "fr/qa.html#qa-m149-0",
-      "fr/qa.html#qa-m149-1",
-      "fr/qa.html#qa-m152-0"
+      "fr/qa.html#qa-m123-1",
+      "fr/qa.html#qa-m130-0",
+      "fr/qa.html#qa-m130-1",
+      "fr/qa.html#qa-m133-0"
      ]
     },
-    "untranslated|text": {
+    "untranslated|UNKNOWN_CODESYSTEM": {
      "origin": "source",
-     "count": 1,
+     "count": 3,
      "links": [
-      "fr/qa.html#qa-m0-0"
-     ]
-    },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML": {
-     "origin": "source",
-     "count": 1,
-     "links": [
-      "fr/qa.html#qa-m24-0"
+      "fr/qa.html#qa-m17-8",
+      "fr/qa.html#qa-m82-0",
+      "fr/qa.html#qa-m86-2"
      ]
     },
     "untranslated|TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE": {
      "origin": "source",
      "count": 1,
      "links": [
-      "fr/qa.html#qa-m104-0"
-     ]
-    },
-    "untranslated|SECURITY_STRING_CONTENT_WARNING": {
-     "origin": "source",
-     "count": 1,
-     "links": [
-      "fr/qa.html#qa-m104-2"
+      "fr/qa.html#qa-m92-0"
      ]
     },
     "untranslated|VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY": {
      "origin": "source",
      "count": 1,
      "links": [
-      "fr/qa.html#qa-m104-7"
+      "fr/qa.html#qa-m92-6"
      ]
     },
     "untranslated|MSG_DEPENDS_ON_DEPRECATED_NOTE": {
      "origin": "source",
      "count": 1,
      "links": [
-      "fr/qa.html#qa-m142-0"
+      "fr/qa.html#qa-m123-0"
+     ]
+    },
+    "untranslated|VALUESET_INC_CS_NO_SUPPORT": {
+     "origin": "source",
+     "count": 1,
+     "links": [
+      "fr/qa.html#qa-m139-1"
      ]
     }
    }
   },
   "ru": {
    "counts": {
-    "publisher": 428,
-    "machine": 130,
-    "source": 2
+    "publisher": 191,
+    "machine": 111,
+    "source": 8
    },
    "refused": [],
    "keys": {
-    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
-     "origin": "publisher",
-     "count": 193,
-     "links": [
-      "ru/qa.html#qa-m17-6",
-      "ru/qa.html#qa-m17-7",
-      "ru/qa.html#qa-m17-8",
-      "ru/qa.html#qa-m17-9",
-      "ru/qa.html#qa-m17-10"
-     ]
-    },
-    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
-     "origin": "publisher",
-     "count": 130,
-     "links": [
-      "ru/qa.html#qa-m22-1",
-      "ru/qa.html#qa-m22-2",
-      "ru/qa.html#qa-m22-3",
-      "ru/qa.html#qa-m22-4",
-      "ru/qa.html#qa-m28-1"
-     ]
-    },
     "text|The resource {0} should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 76,
+     "count": 64,
      "links": [
       "ru/qa.html#qa-m18-0",
       "ru/qa.html#qa-m19-1",
@@ -678,9 +714,20 @@
       "ru/qa.html#qa-m22-5"
      ]
     },
+    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
+     "origin": "publisher",
+     "count": 47,
+     "links": [
+      "ru/qa.html#qa-m22-1",
+      "ru/qa.html#qa-m22-2",
+      "ru/qa.html#qa-m22-3",
+      "ru/qa.html#qa-m22-4",
+      "ru/qa.html#qa-m28-1"
+     ]
+    },
     "text|The resource {0} could usefully have an OID assigned (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 46,
+     "count": 39,
      "links": [
       "ru/qa.html#qa-m1-2",
       "ru/qa.html#qa-m2-0",
@@ -691,13 +738,24 @@
     },
     "CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL|CodeSystems SHOULD NOT have a stated value for the {0} element when they are a supplement": {
      "origin": "publisher",
-     "count": 33,
+     "count": 27,
      "links": [
       "ru/qa.html#qa-m19-0",
       "ru/qa.html#qa-m20-0",
       "ru/qa.html#qa-m22-0",
       "ru/qa.html#qa-m25-0",
       "ru/qa.html#qa-m26-0"
+     ]
+    },
+    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
+     "origin": "publisher",
+     "count": 23,
+     "links": [
+      "ru/qa.html#qa-m17-6",
+      "ru/qa.html#qa-m17-9",
+      "ru/qa.html#qa-m17-12",
+      "ru/qa.html#qa-m17-14",
+      "ru/qa.html#qa-m17-16"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE|A definition could not be found for Canonical URL ''{0}''": {
@@ -713,24 +771,35 @@
     },
     "Type_Specific_Checks_DT_URL_Resolve|No definition could be found for URL value ''{0}''": {
      "origin": "publisher",
-     "count": 14,
+     "count": 16,
      "links": [
       "ru/qa.html#qa-m17-5",
-      "ru/qa.html#qa-m92-0",
-      "ru/qa.html#qa-m115-0",
-      "ru/qa.html#qa-m116-0",
-      "ru/qa.html#qa-m117-0"
+      "ru/qa.html#qa-m73-0",
+      "ru/qa.html#qa-m80-0",
+      "ru/qa.html#qa-m103-0",
+      "ru/qa.html#qa-m104-0"
+     ]
+    },
+    "UNKNOWN_CODESYSTEM|A definition for CodeSystem ''{0}'' could not be found, so the code cannot be validated": {
+     "origin": "publisher",
+     "count": 16,
+     "links": [
+      "ru/qa.html#qa-m17-8",
+      "ru/qa.html#qa-m17-11",
+      "ru/qa.html#qa-m17-13",
+      "ru/qa.html#qa-m17-15",
+      "ru/qa.html#qa-m17-17"
      ]
     },
     "Bundle_BUNDLE_Entry_NotFound|Can''t find ''{0}'' in the bundle ({1})": {
      "origin": "publisher",
      "count": 9,
      "links": [
-      "ru/qa.html#qa-m17-19",
-      "ru/qa.html#qa-m17-20",
       "ru/qa.html#qa-m17-21",
       "ru/qa.html#qa-m17-22",
-      "ru/qa.html#qa-m17-23"
+      "ru/qa.html#qa-m17-23",
+      "ru/qa.html#qa-m17-24",
+      "ru/qa.html#qa-m17-25"
      ]
     },
     "INV_FAILED|Constraint failed: {0}: ''{1}''": {
@@ -740,30 +809,41 @@
       "ru/qa.html#qa-m17-0",
       "ru/qa.html#qa-m17-1",
       "ru/qa.html#qa-m17-2",
-      "ru/qa.html#qa-m84-0",
-      "ru/qa.html#qa-m84-1"
+      "ru/qa.html#qa-m72-0",
+      "ru/qa.html#qa-m72-1"
      ]
     },
     "MEASURE_M_CRITERIA_UNKNOWN|The expression language {0} is not supported, so can''t be validated": {
      "origin": "publisher",
      "count": 8,
      "links": [
-      "ru/qa.html#qa-m105-0",
-      "ru/qa.html#qa-m105-1",
-      "ru/qa.html#qa-m106-0",
-      "ru/qa.html#qa-m106-1",
-      "ru/qa.html#qa-m107-0"
+      "ru/qa.html#qa-m93-0",
+      "ru/qa.html#qa-m93-1",
+      "ru/qa.html#qa-m94-0",
+      "ru/qa.html#qa-m94-1",
+      "ru/qa.html#qa-m95-0"
+     ]
+    },
+    "CONCEPTMAP_VS_CONCEPT_CODE_UNKNOWN_SYSTEM|The code ''{1}'' comes from the system {0} which could not be found, so it''s not known whether it''s valid in the value set ''{2}''": {
+     "origin": "publisher",
+     "count": 6,
+     "links": [
+      "ru/qa.html#qa-m73-1",
+      "ru/qa.html#qa-m73-2",
+      "ru/qa.html#qa-m73-3",
+      "ru/qa.html#qa-m73-4",
+      "ru/qa.html#qa-m73-5"
      ]
     },
     "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
      "origin": "publisher",
      "count": 6,
      "links": [
-      "ru/qa.html#qa-m144-1",
-      "ru/qa.html#qa-m144-2",
-      "ru/qa.html#qa-m144-3",
-      "ru/qa.html#qa-m144-4",
-      "ru/qa.html#qa-m150-1"
+      "ru/qa.html#qa-m125-1",
+      "ru/qa.html#qa-m125-2",
+      "ru/qa.html#qa-m125-3",
+      "ru/qa.html#qa-m125-4",
+      "ru/qa.html#qa-m131-1"
      ]
     },
     "Display_Name_for__should_be_one_of__instead_of_one|Wrong Display Name ''{4}'' for {1}#{2}. Valid display is {3} (for the language(s) ''{5}'')": {
@@ -772,70 +852,74 @@
      "links": [
       "ru/qa.html#qa-m17-3",
       "ru/qa.html#qa-m17-4",
-      "ru/qa.html#qa-m84-3",
-      "ru/qa.html#qa-m84-4"
+      "ru/qa.html#qa-m72-3",
+      "ru/qa.html#qa-m72-4"
+     ]
+    },
+    "untranslated|UNKNOWN_CODESYSTEM_CODING_NOT_CHECKED": {
+     "origin": "source",
+     "count": 4,
+     "links": [
+      "ru/qa.html#qa-m17-7",
+      "ru/qa.html#qa-m17-10",
+      "ru/qa.html#qa-m85-1",
+      "ru/qa.html#qa-m86-1"
      ]
     },
     "IG_DEPENDENCY_VERSION_WARNING_OLD|The ImplementationGuide uses package {0} released on {2}, but the most recent appropriate version is {1}. This reference is getting old and the more recent version should be considered": {
      "origin": "publisher",
      "count": 4,
      "links": [
-      "ru/qa.html#qa-m104-3",
-      "ru/qa.html#qa-m104-4",
-      "ru/qa.html#qa-m104-5",
-      "ru/qa.html#qa-m104-6"
+      "ru/qa.html#qa-m92-2",
+      "ru/qa.html#qa-m92-3",
+      "ru/qa.html#qa-m92-4",
+      "ru/qa.html#qa-m92-5"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS|There are multiple different potential matches for the url ''{0}''. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version ''{1}'', found versions: {2}. Suggested fix: change the canonical reference from ''{0}'' to ''{0}|{1}''": {
      "origin": "publisher",
      "count": 4,
      "links": [
-      "ru/qa.html#qa-m142-1",
-      "ru/qa.html#qa-m149-0",
-      "ru/qa.html#qa-m149-1",
-      "ru/qa.html#qa-m152-0"
+      "ru/qa.html#qa-m123-1",
+      "ru/qa.html#qa-m130-0",
+      "ru/qa.html#qa-m130-1",
+      "ru/qa.html#qa-m133-0"
      ]
     },
     "untranslated|text": {
      "origin": "source",
-     "count": 1,
+     "count": 2,
      "links": [
-      "ru/qa.html#qa-m0-0"
-     ]
-    },
-    "TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML|The markdown contains content that appears to be an embedded HTML tag starting at ''{0}''. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour": {
-     "origin": "publisher",
-     "count": 1,
-     "links": [
-      "ru/qa.html#qa-m24-0"
+      "ru/qa.html#qa-m0-0",
+      "ru/qa.html#qa-m139-3"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE|Canonical URLs must be absolute URLs if they are not fragment references ({0})": {
      "origin": "publisher",
      "count": 1,
      "links": [
-      "ru/qa.html#qa-m104-0"
-     ]
-    },
-    "SECURITY_STRING_CONTENT_WARNING|The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk": {
-     "origin": "publisher",
-     "count": 1,
-     "links": [
-      "ru/qa.html#qa-m104-2"
+      "ru/qa.html#qa-m92-0"
      ]
     },
     "VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY|Profile reference ''{0}'' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles": {
      "origin": "publisher",
      "count": 1,
      "links": [
-      "ru/qa.html#qa-m104-7"
+      "ru/qa.html#qa-m92-6"
      ]
     },
     "untranslated|MSG_DEPENDS_ON_DEPRECATED_NOTE": {
      "origin": "source",
      "count": 1,
      "links": [
-      "ru/qa.html#qa-m142-0"
+      "ru/qa.html#qa-m123-0"
+     ]
+    },
+    "untranslated|VALUESET_INC_CS_NO_SUPPORT": {
+     "origin": "source",
+     "count": 1,
+     "links": [
+      "ru/qa.html#qa-m139-1"
      ]
     }
    }
@@ -843,36 +927,14 @@
   "zh": {
    "counts": {
     "publisher": 0,
-    "machine": 533,
-    "source": 27
+    "machine": 257,
+    "source": 53
    },
    "refused": [],
    "keys": {
-    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
-     "origin": "machine",
-     "count": 193,
-     "links": [
-      "zh/qa.html#qa-m17-6",
-      "zh/qa.html#qa-m17-7",
-      "zh/qa.html#qa-m17-8",
-      "zh/qa.html#qa-m17-9",
-      "zh/qa.html#qa-m17-10"
-     ]
-    },
-    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
-     "origin": "machine",
-     "count": 130,
-     "links": [
-      "zh/qa.html#qa-m22-1",
-      "zh/qa.html#qa-m22-2",
-      "zh/qa.html#qa-m22-3",
-      "zh/qa.html#qa-m22-4",
-      "zh/qa.html#qa-m28-1"
-     ]
-    },
     "text|The resource {0} should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 76,
+     "count": 64,
      "links": [
       "zh/qa.html#qa-m18-0",
       "zh/qa.html#qa-m19-1",
@@ -881,9 +943,20 @@
       "zh/qa.html#qa-m22-5"
      ]
     },
+    "CODESYSTEM_DESIGNATION_DISP_CLASH_LANG|The designation ''{0}'' has no use and is in the same language (''{2}''), so is not differentiated from the base display (''{1}'')": {
+     "origin": "machine",
+     "count": 47,
+     "links": [
+      "zh/qa.html#qa-m22-1",
+      "zh/qa.html#qa-m22-2",
+      "zh/qa.html#qa-m22-3",
+      "zh/qa.html#qa-m22-4",
+      "zh/qa.html#qa-m28-1"
+     ]
+    },
     "text|The resource {0} could usefully have an OID assigned (OIDs are easy to assign - see {1})": {
      "origin": "machine",
-     "count": 46,
+     "count": 39,
      "links": [
       "zh/qa.html#qa-m1-2",
       "zh/qa.html#qa-m2-0",
@@ -894,13 +967,35 @@
     },
     "CODESYSTEM_CS_HL7_PRESENT_ELEMENT_SUPPL|CodeSystems SHOULD NOT have a stated value for the {0} element when they are a supplement": {
      "origin": "machine",
-     "count": 33,
+     "count": 27,
      "links": [
       "zh/qa.html#qa-m19-0",
       "zh/qa.html#qa-m20-0",
       "zh/qa.html#qa-m22-0",
       "zh/qa.html#qa-m25-0",
       "zh/qa.html#qa-m26-0"
+     ]
+    },
+    "MSG_EXPERIMENTAL|Reference to experimental {2} {0}": {
+     "origin": "machine",
+     "count": 23,
+     "links": [
+      "zh/qa.html#qa-m17-6",
+      "zh/qa.html#qa-m17-9",
+      "zh/qa.html#qa-m17-12",
+      "zh/qa.html#qa-m17-14",
+      "zh/qa.html#qa-m17-16"
+     ]
+    },
+    "untranslated|text": {
+     "origin": "source",
+     "count": 21,
+     "links": [
+      "zh/qa.html#qa-m0-0",
+      "zh/qa.html#qa-m17-11",
+      "zh/qa.html#qa-m17-13",
+      "zh/qa.html#qa-m17-15",
+      "zh/qa.html#qa-m17-17"
      ]
     },
     "TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE|A definition could not be found for Canonical URL ''{0}''": {
@@ -916,24 +1011,24 @@
     },
     "Type_Specific_Checks_DT_URL_Resolve|No definition could be found for URL value ''{0}''": {
      "origin": "machine",
-     "count": 14,
+     "count": 16,
      "links": [
       "zh/qa.html#qa-m17-5",
-      "zh/qa.html#qa-m92-0",
-      "zh/qa.html#qa-m115-0",
-      "zh/qa.html#qa-m116-0",
-      "zh/qa.html#qa-m117-0"
+      "zh/qa.html#qa-m73-0",
+      "zh/qa.html#qa-m80-0",
+      "zh/qa.html#qa-m103-0",
+      "zh/qa.html#qa-m104-0"
      ]
     },
     "untranslated|Bundle_BUNDLE_Entry_NotFound": {
      "origin": "source",
      "count": 9,
      "links": [
-      "zh/qa.html#qa-m17-19",
-      "zh/qa.html#qa-m17-20",
       "zh/qa.html#qa-m17-21",
       "zh/qa.html#qa-m17-22",
-      "zh/qa.html#qa-m17-23"
+      "zh/qa.html#qa-m17-23",
+      "zh/qa.html#qa-m17-24",
+      "zh/qa.html#qa-m17-25"
      ]
     },
     "INV_FAILED|Constraint failed: {0}: ''{1}''": {
@@ -943,30 +1038,30 @@
       "zh/qa.html#qa-m17-0",
       "zh/qa.html#qa-m17-1",
       "zh/qa.html#qa-m17-2",
-      "zh/qa.html#qa-m84-0",
-      "zh/qa.html#qa-m84-1"
+      "zh/qa.html#qa-m72-0",
+      "zh/qa.html#qa-m72-1"
      ]
     },
     "untranslated|MEASURE_M_CRITERIA_UNKNOWN": {
      "origin": "source",
      "count": 8,
      "links": [
-      "zh/qa.html#qa-m105-0",
-      "zh/qa.html#qa-m105-1",
-      "zh/qa.html#qa-m106-0",
-      "zh/qa.html#qa-m106-1",
-      "zh/qa.html#qa-m107-0"
+      "zh/qa.html#qa-m93-0",
+      "zh/qa.html#qa-m93-1",
+      "zh/qa.html#qa-m94-0",
+      "zh/qa.html#qa-m94-1",
+      "zh/qa.html#qa-m95-0"
      ]
     },
     "SD_ED_EXPERIMENTAL_BINDING|The definition for the element ''{0}'' binds to the value set ''{1}'' which is experimental, but this structure is not labeled as experimental": {
      "origin": "machine",
      "count": 6,
      "links": [
-      "zh/qa.html#qa-m144-1",
-      "zh/qa.html#qa-m144-2",
-      "zh/qa.html#qa-m144-3",
-      "zh/qa.html#qa-m144-4",
-      "zh/qa.html#qa-m150-1"
+      "zh/qa.html#qa-m125-1",
+      "zh/qa.html#qa-m125-2",
+      "zh/qa.html#qa-m125-3",
+      "zh/qa.html#qa-m125-4",
+      "zh/qa.html#qa-m131-1"
      ]
     },
     "Display_Name_for__should_be_one_of__instead_of_one|Wrong Display Name ''{4}'' for {1}#{2}. Valid display is {3} (for the language(s) ''{5}'')": {
@@ -975,70 +1070,75 @@
      "links": [
       "zh/qa.html#qa-m17-3",
       "zh/qa.html#qa-m17-4",
-      "zh/qa.html#qa-m84-3",
-      "zh/qa.html#qa-m84-4"
+      "zh/qa.html#qa-m72-3",
+      "zh/qa.html#qa-m72-4"
+     ]
+    },
+    "untranslated|UNKNOWN_CODESYSTEM_CODING_NOT_CHECKED": {
+     "origin": "source",
+     "count": 4,
+     "links": [
+      "zh/qa.html#qa-m17-7",
+      "zh/qa.html#qa-m17-10",
+      "zh/qa.html#qa-m85-1",
+      "zh/qa.html#qa-m86-1"
      ]
     },
     "IG_DEPENDENCY_VERSION_WARNING_OLD|The ImplementationGuide uses package {0} released on {2}, but the most recent appropriate version is {1}. This reference is getting old and the more recent version should be considered": {
      "origin": "machine",
      "count": 4,
      "links": [
-      "zh/qa.html#qa-m104-3",
-      "zh/qa.html#qa-m104-4",
-      "zh/qa.html#qa-m104-5",
-      "zh/qa.html#qa-m104-6"
+      "zh/qa.html#qa-m92-2",
+      "zh/qa.html#qa-m92-3",
+      "zh/qa.html#qa-m92-4",
+      "zh/qa.html#qa-m92-5"
      ]
     },
     "untranslated|TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS": {
      "origin": "source",
      "count": 4,
      "links": [
-      "zh/qa.html#qa-m142-1",
-      "zh/qa.html#qa-m149-0",
-      "zh/qa.html#qa-m149-1",
-      "zh/qa.html#qa-m152-0"
+      "zh/qa.html#qa-m123-1",
+      "zh/qa.html#qa-m130-0",
+      "zh/qa.html#qa-m130-1",
+      "zh/qa.html#qa-m133-0"
      ]
     },
-    "untranslated|text": {
+    "untranslated|UNKNOWN_CODESYSTEM": {
      "origin": "source",
-     "count": 1,
+     "count": 3,
      "links": [
-      "zh/qa.html#qa-m0-0"
-     ]
-    },
-    "untranslated|TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML": {
-     "origin": "source",
-     "count": 1,
-     "links": [
-      "zh/qa.html#qa-m24-0"
+      "zh/qa.html#qa-m17-8",
+      "zh/qa.html#qa-m82-0",
+      "zh/qa.html#qa-m86-2"
      ]
     },
     "untranslated|TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE": {
      "origin": "source",
      "count": 1,
      "links": [
-      "zh/qa.html#qa-m104-0"
-     ]
-    },
-    "untranslated|SECURITY_STRING_CONTENT_WARNING": {
-     "origin": "source",
-     "count": 1,
-     "links": [
-      "zh/qa.html#qa-m104-2"
+      "zh/qa.html#qa-m92-0"
      ]
     },
     "untranslated|VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY": {
      "origin": "source",
      "count": 1,
      "links": [
-      "zh/qa.html#qa-m104-7"
+      "zh/qa.html#qa-m92-6"
      ]
     },
     "untranslated|MSG_DEPENDS_ON_DEPRECATED_NOTE": {
      "origin": "source",
      "count": 1,
      "links": [
-      "zh/qa.html#qa-m142-0"
+      "zh/qa.html#qa-m123-0"
+     ]
+    },
+    "untranslated|VALUESET_INC_CS_NO_SUPPORT": {
+     "origin": "source",
+     "count": 1,
+     "links": [
+      "zh/qa.html#qa-m139-1"
      ]
     }
    }

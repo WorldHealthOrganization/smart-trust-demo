@@ -243,7 +243,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoJ3HepB\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoJ3HepB</b></p><a name=\"TrustDemoJ3HepB\"> </a><a name=\"hcTrustDemoJ3HepB\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-HEPB-BD}, {http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct vp-hepb-peds-monovalent}, {http://hl7.org/fhir/sid/cvx 08}\">Hepatitis B paediatric birth dose</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2025-10-28 09:15:00+0700</p><p><b>primarySource</b>: true</p><p><b>location</b>: Kesaro Provincial Hospital, Taifafeki</p><p><b>lotNumber</b>: XXR-4821</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoAnan.html\">Dr Anan</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoJ3HepB\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoJ3HepB</b></p><a name=\"TrustDemoJ3HepB\"> </a><a name=\"hcTrustDemoJ3HepB\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-HEPB-BD}, {http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds a3K3X000006MiiXUAS}, {http://hl7.org/fhir/sid/cvx 08}\">Hepatitis B paediatric birth dose</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2025-10-28 09:15:00+0700</p><p><b>primarySource</b>: true</p><p><b>location</b>: Kesaro Provincial Hospital, Taifafeki</p><p><b>lotNumber</b>: XXR-4821</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoAnan.html\">Dr Anan</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
         },
         "status": "completed",
         "vaccineCode": {
@@ -254,9 +254,9 @@
               "display": "Hepatitis B birth dose"
             },
             {
-              "system": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
-              "code": "vp-hepb-peds-monovalent",
-              "display": "Hepatitis B vaccine, paediatric, monovalent"
+              "system": "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+              "code": "a3K3X000006MiiXUAS",
+              "display": "Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]"
             },
             {
               "system": "http://hl7.org/fhir/sid/cvx",
@@ -301,7 +301,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoJ3Bcg\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoJ3Bcg</b></p><a name=\"TrustDemoJ3Bcg\"> </a><a name=\"hcTrustDemoJ3Bcg\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-BCG}, {http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct vp-bcg-freeze-dried}, {http://hl7.org/fhir/sid/cvx 19}\">BCG</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2025-10-28 09:20:00+0700</p><p><b>primarySource</b>: true</p><p><b>location</b>: Kesaro Provincial Hospital, Taifafeki</p><p><b>lotNumber</b>: XXR-9012</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoAnan.html\">Dr Anan</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoJ3Bcg\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoJ3Bcg</b></p><a name=\"TrustDemoJ3Bcg\"> </a><a name=\"hcTrustDemoJ3Bcg\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-BCG}, {http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds a3K3X000006MiisUAC}, {http://hl7.org/fhir/sid/cvx 19}\">BCG</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2025-10-28 09:20:00+0700</p><p><b>primarySource</b>: true</p><p><b>location</b>: Kesaro Provincial Hospital, Taifafeki</p><p><b>lotNumber</b>: XXR-9012</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoAnan.html\">Dr Anan</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
         },
         "status": "completed",
         "vaccineCode": {
@@ -312,9 +312,9 @@
               "display": "BCG"
             },
             {
-              "system": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
-              "code": "vp-bcg-freeze-dried",
-              "display": "BCG vaccine, freeze-dried"
+              "system": "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+              "code": "a3K3X000006MiisUAC",
+              "display": "BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117]"
             },
             {
               "system": "http://hl7.org/fhir/sid/cvx",
@@ -359,7 +359,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoOnesaPenta1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoOnesaPenta1</b></p><a name=\"TrustDemoOnesaPenta1\"> </a><a name=\"hcTrustDemoOnesaPenta1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-PENTA-1}, {http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct vp-pentavalent-liquid}\">Pentavalent (DTP-HepB-Hib), dose 1</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2026-01-06</p><p><b>primarySource</b>: true</p><p><b>location</b>: Lomaru District Health Center, Onesa</p><p><b>lotNumber</b>: XXU-2201</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoChanthason.html\">Nurse Chanthason</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoOnesaPenta1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoOnesaPenta1</b></p><a name=\"TrustDemoOnesaPenta1\"> </a><a name=\"hcTrustDemoOnesaPenta1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-PENTA-1}, {http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds a3K3X000006MijGUAS}\">Pentavalent (DTP-HepB-Hib), dose 1</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2026-01-06</p><p><b>primarySource</b>: true</p><p><b>location</b>: Lomaru District Health Center, Onesa</p><p><b>lotNumber</b>: XXU-2201</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoChanthason.html\">Nurse Chanthason</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
         },
         "status": "completed",
         "vaccineCode": {
@@ -370,9 +370,9 @@
               "display": "Pentavalent (DTP-HepB-Hib), dose 1"
             },
             {
-              "system": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
-              "code": "vp-pentavalent-liquid",
-              "display": "DTP-HepB-Hib (pentavalent), liquid"
+              "system": "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+              "code": "a3K3X000006MijGUAS",
+              "display": "Eupenta (DTwP-HepB-Hib), LG Chem Ltd (LGC), Vial, 10 doses [FVP-P-305]"
             }
           ]
         },
@@ -411,7 +411,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoOnesaBopv1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoOnesaBopv1</b></p><a name=\"TrustDemoOnesaBopv1\"> </a><a name=\"hcTrustDemoOnesaBopv1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-OPV-1}, {http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct vp-bopv-drops}\">bOPV, dose 1</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2026-01-06</p><p><b>primarySource</b>: true</p><p><b>location</b>: Lomaru District Health Center, Onesa</p><p><b>lotNumber</b>: XXU-5531</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoChanthason.html\">Nurse Chanthason</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoOnesaBopv1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoOnesaBopv1</b></p><a name=\"TrustDemoOnesaBopv1\"> </a><a name=\"hcTrustDemoOnesaBopv1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-OPV-1}, {http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds a3K3X000006MijBUAS}\">bOPV, dose 1</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2026-01-06</p><p><b>primarySource</b>: true</p><p><b>location</b>: Lomaru District Health Center, Onesa</p><p><b>lotNumber</b>: XXU-5531</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoChanthason.html\">Nurse Chanthason</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
         },
         "status": "completed",
         "vaccineCode": {
@@ -422,9 +422,9 @@
               "display": "bOPV, dose 1"
             },
             {
-              "system": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
-              "code": "vp-bopv-drops",
-              "display": "Bivalent oral polio vaccine (bOPV), drops"
+              "system": "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+              "code": "a3K3X000006MijBUAS",
+              "display": "Poliomyelitis Vaccine (Oral) Bivalent types 1 and 3 (bOPV), Serum Institute of India, Vial, 10 doses [FVP-P-281]"
             }
           ]
         },
@@ -463,7 +463,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoOnesaPcv1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoOnesaPcv1</b></p><a name=\"TrustDemoOnesaPcv1\"> </a><a name=\"hcTrustDemoOnesaPcv1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-PCV-1}, {http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct vp-pcv-13-dose}\">PCV, dose 1</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2026-01-06</p><p><b>primarySource</b>: true</p><p><b>location</b>: Lomaru District Health Center, Onesa</p><p><b>lotNumber</b>: XXU-8819</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoChanthason.html\">Nurse Chanthason</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoOnesaPcv1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoOnesaPcv1</b></p><a name=\"TrustDemoOnesaPcv1\"> </a><a name=\"hcTrustDemoOnesaPcv1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-PCV-1}, {http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds a3K3X000006MijJUAS}\">PCV, dose 1</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2026-01-06</p><p><b>primarySource</b>: true</p><p><b>location</b>: Lomaru District Health Center, Onesa</p><p><b>lotNumber</b>: XXU-8819</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoChanthason.html\">Nurse Chanthason</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
         },
         "status": "completed",
         "vaccineCode": {
@@ -474,9 +474,9 @@
               "display": "PCV, dose 1"
             },
             {
-              "system": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
-              "code": "vp-pcv-13-dose",
-              "display": "Pneumococcal conjugate vaccine (PCV)"
+              "system": "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+              "code": "a3K3X000006MijJUAS",
+              "display": "PNEUMOSIL® (PCV), Serum Institute of India, Vial, 5 doses [FVP-P-385]"
             }
           ]
         },
@@ -515,7 +515,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoOnesaMr1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoOnesaMr1</b></p><a name=\"TrustDemoOnesaMr1\"> </a><a name=\"hcTrustDemoOnesaMr1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-MR-1}, {http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct vp-mr-freeze-dried}\">Measles-rubella, dose 1</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2026-07-28</p><p><b>primarySource</b>: true</p><p><b>location</b>: Lomaru District Health Center, Onesa</p><p><b>lotNumber</b>: XXU-9923</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoChanthason.html\">Nurse Chanthason</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TrustDemoOnesaMr1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TrustDemoOnesaMr1</b></p><a name=\"TrustDemoOnesaMr1\"> </a><a name=\"hcTrustDemoOnesaMr1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TrustDemoOnesaImmunization.html\">Onesa: dose on the national schedule</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule XXU-EPI-MR-1}, {http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds a3K3X000006MiimUAC}\">Measles-rubella, dose 1</span></p><p><b>patient</b>: <a href=\"Patient-TrustDemoSomsak.html\">Somsak SENGMANY (official) Male, DoB: 2025-10-28 ( http://smart.who.int/trust-demo/sid/onesa-temporary-id#XXU-TMP-2025-00918)</a></p><p><b>occurrence</b>: 2026-07-28</p><p><b>primarySource</b>: true</p><p><b>location</b>: Lomaru District Health Center, Onesa</p><p><b>lotNumber</b>: XXU-9923</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-TrustDemoChanthason.html\">Nurse Chanthason</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
         },
         "status": "completed",
         "vaccineCode": {
@@ -526,9 +526,9 @@
               "display": "Measles-rubella, dose 1"
             },
             {
-              "system": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
-              "code": "vp-mr-freeze-dried",
-              "display": "Measles-rubella vaccine, freeze-dried"
+              "system": "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+              "code": "a3K3X000006MiimUAC",
+              "display": "Measles and Rubella Vaccine Live Attenuated (MR), Serum Institute of India, Vial, 10 doses [FVP-P-140]"
             }
           ]
         },

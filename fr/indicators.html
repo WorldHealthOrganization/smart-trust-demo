@@ -89,7 +89,7 @@
       </tr>
       <tr>
         <td>Calcul du numérateur</td>
-        <td>COUNT d’enregistrements de vérification (TD.J3A) WHERE « Vérifié le » se situe dans la période de référence AND « Résultat consigné » = verified</td>
+        <td>COUNT of foreign DVCs the clinic’s HCERT library verifies in the reporting period (CWT.header.4 found on the trust list) WHERE the dose is imported as an Immunization (IMMZImmunization) with primarySource = true</td>
       </tr>
       <tr>
         <td>Dénominateur</td>
@@ -97,7 +97,7 @@
       </tr>
       <tr>
         <td>Calcul du dénominateur</td>
-        <td>COUNT d’enregistrements de vérification (TD.J3A) WHERE « Vérifié le » se situe dans la période de référence</td>
+        <td>COUNT of foreign DVCs the clinic’s HCERT library is asked to verify in the reporting period, verified or not</td>
       </tr>
       <tr>
         <td>Ventilations</td>
@@ -105,7 +105,7 @@
       </tr>
       <tr>
         <td>Éléments de données</td>
-        <td><a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE02</a> Pays émetteur<a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE03</a> Vérifié le<a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE05</a> Résultat de la vérification<a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE07</a> Motif de l’échec<a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE09</a> Résultat consigné</td>
+        <td><a href="dictionary.html#j1-cwt-cbor-web-token-cwt">CWT.header.4</a> Key identifier (kid)<br /><a href="dictionary.html#j1-cwt-cbor-web-token-cwt">CWT.payload.1</a> Issuer (iss)<br /><a href="dictionary.html#j3-immzimmunization-immz-immunization">IMMZImmunization.primarySource</a> Primary source</td>
       </tr>
       <tr>
         <td>Tables de décision</td>
@@ -144,7 +144,7 @@
       </tr>
       <tr>
         <td>Calcul du numérateur</td>
-        <td>COUNT d’enregistrements d’accès (TD.J41) WHERE « Demandé le » se situe dans la période de référence AND « Communiqué » = true</td>
+        <td>COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period AND AuditEvent.outcome is success</td>
       </tr>
       <tr>
         <td>Dénominateur</td>
@@ -152,7 +152,7 @@
       </tr>
       <tr>
         <td>Calcul du dénominateur</td>
-        <td>COUNT d’enregistrements d’accès (TD.J41) WHERE « Demandé le » se situe dans la période de référence</td>
+        <td>COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period</td>
       </tr>
       <tr>
         <td>Ventilations</td>
@@ -160,7 +160,7 @@
       </tr>
       <tr>
         <td>Éléments de données</td>
-        <td><a href="dictionary.html#tdj41-access-to-a-shared-link">TD.J41.DE01</a> Demandé le<a href="dictionary.html#tdj41-access-to-a-shared-link">TD.J41.DE02</a> Demandeur<a href="dictionary.html#tdj41-access-to-a-shared-link">TD.J41.DE06</a> Communiqué<a href="dictionary.html#tdj41-access-to-a-shared-link">TD.J41.DE08</a> Motif du refus</td>
+        <td><a href="dictionary.html#j4-vhlpayload-vhl-payload">VHLPayload.exp</a> Expires at<br /><a href="dictionary.html#j4-vhlpayload-vhl-payload">VHLPayload.flag</a> Flags<br /><a href="dictionary.html#j4-vhlpayload-vhl-payload">VHLPayload.url</a> Manifest URL</td>
       </tr>
       <tr>
         <td>Tables de décision</td>
@@ -199,7 +199,7 @@
       </tr>
       <tr>
         <td>Calcul du numérateur</td>
-        <td>COUNT d’orientations (TD.J2B) WHERE « Orienté le » se situe dans la période de référence AND « Statut de l’orientation » = completed</td>
+        <td>COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period AND ServiceRequest.status = completed</td>
       </tr>
       <tr>
         <td>Dénominateur</td>
@@ -207,7 +207,7 @@
       </tr>
       <tr>
         <td>Calcul du dénominateur</td>
-        <td>COUNT d’orientations (TD.J2B) WHERE « Orienté le » se situe dans la période de référence</td>
+        <td>COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period</td>
       </tr>
       <tr>
         <td>Ventilations</td>
@@ -215,7 +215,7 @@
       </tr>
       <tr>
         <td>Éléments de données</td>
-        <td><a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE02</a> Orienté par<a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE03</a> Orienté vers<a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE04</a> Orienté le<a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE06</a> Doses à vérifier<a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE07</a> Statut de l’orientation</td>
+        <td><a href="dictionary.html#j2-immzc4-immzc4-create-client-record--immzc53-update-client-details">IMMZC4.uniqueIdentifier</a> Unique identifier<br /><a href="dictionary.html#j3-immzimmunization-immz-immunization">IMMZImmunization.primarySource</a> Primary source</td>
       </tr>
       <tr>
         <td>Tables de décision</td>
@@ -254,7 +254,7 @@
       </tr>
       <tr>
         <td>Calcul du numérateur</td>
-        <td>COUNT de doses importées (TD.J3B) WHERE importée dans la période de référence AND « Base de la correspondance » in (concept-map, clinician-confirmed)</td>
+        <td>COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period AND vaccineCode has a coding from TrustDemoOnesaEpiScheduleCodes</td>
       </tr>
       <tr>
         <td>Dénominateur</td>
@@ -262,7 +262,7 @@
       </tr>
       <tr>
         <td>Calcul du dénominateur</td>
-        <td>COUNT de doses importées (TD.J3B) WHERE importée dans la période de référence AND « Base de la correspondance » != not-imported</td>
+        <td>COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period</td>
       </tr>
       <tr>
         <td>Ventilations</td>
@@ -270,7 +270,7 @@
       </tr>
       <tr>
         <td>Éléments de données</td>
-        <td><a href="dictionary.html#tdj3b-imported-dose-and-schedule">TD.J3B.DE01</a> Code produit de l’émetteur<a href="dictionary.html#tdj3b-imported-dose-and-schedule">TD.J3B.DE02</a> Code du calendrier national<a href="dictionary.html#tdj3b-imported-dose-and-schedule">TD.J3B.DE03</a> Base de la correspondance<a href="dictionary.html#tdj3b-imported-dose-and-schedule">TD.J3B.DE05</a> Compte pour le calendrier</td>
+        <td><a href="dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal">DVCMinPreQual.vx.vp</a> Vaccine product id<br /><a href="dictionary.html#j3-immzimmunization-immz-immunization">IMMZImmunization.primarySource</a> Primary source<br /><a href="dictionary.html#j3-immzimmunization-immz-immunization">IMMZImmunization.vaccineCode</a> Vaccine code</td>
       </tr>
       <tr>
         <td>Tables de décision</td>

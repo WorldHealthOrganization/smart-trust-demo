@@ -559,7 +559,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Publishes the vaccine product codes the hospital records doses against, which the receiving country maps to its own schedule codes (J1, J3)."
+          "@value": "Holds the WHO PreQual product ids the hospital records doses against, which the receiving country maps to its own schedule codes (J1, J3)."
         }
       ],
       "skos:broader": [

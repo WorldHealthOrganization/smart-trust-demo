@@ -26,20 +26,12 @@
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
-    },
-    {
-      "@type": "schema:MediaObject",
-      "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/af9f5523918ec8f87ed426c6a535b6176d625c9f/resources/ActorDefinition/TrustDemo.Role.BirthClinicVaccinator.json"
-      },
-      "schema:encodingFormat": "application/fhir+json",
-      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "9c51bebac7d177ef6377d2106af4c689f244fc2d"
+    "prov:used": "92d4ab409c7e6c1af09b34e547e544098b0a62eb"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

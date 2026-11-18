@@ -1,7 +1,7 @@
 {
   "$schema": "ig-content-qa-verdict/v1",
-  "items": 2587,
-  "contentDigest": "sha256:432accfafcc619c564703c792be630cbab854161a1e6854ea38e2f704af1f296",
+  "items": 2033,
+  "contentDigest": "sha256:375c4cbbe96a5e9e6c33af682c5000a60dbb3178f9813510fece2497a9a978e3",
   "patternHits": [],
   "reviewedDigest": "sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7",
   "reviewer": {
@@ -67,8 +67,92 @@
       "field": "extension[9].valueMarkdown"
     },
     {
+      "where": "Bundle/TrustDemoJ4Ips",
+      "field": "entry[2].resource.text.div"
+    },
+    {
+      "where": "Bundle/TrustDemoJ4Ips",
+      "field": "entry[3].resource.text.div"
+    },
+    {
+      "where": "Bundle/TrustDemoJ4Ips",
+      "field": "entry[4].resource.text.div"
+    },
+    {
+      "where": "Bundle/TrustDemoJ4Ips",
+      "field": "entry[5].resource.text.div"
+    },
+    {
+      "where": "Bundle/TrustDemoJ4Ips",
+      "field": "entry[6].resource.text.div"
+    },
+    {
+      "where": "Bundle/TrustDemoJ4Ips",
+      "field": "entry[7].resource.text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoJ1Bcg",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoJ1HepB",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoJ2BcgReported",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoJ2HepBReported",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoJ3Bcg",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoJ3HepB",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoOnesaBopv1",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoOnesaMr1",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoOnesaPcv1",
+      "field": "text.div"
+    },
+    {
+      "where": "Immunization/TrustDemoOnesaPenta1",
+      "field": "text.div"
+    },
+    {
+      "where": "Provenance/TrustDemoJ3Adjudication",
+      "field": "text.div"
+    },
+    {
+      "where": "Provenance/TrustDemoJ3Adjudication",
+      "field": "activity.text"
+    },
+    {
+      "where": "Provenance/TrustDemoJ3Verification",
+      "field": "text.div"
+    },
+    {
+      "where": "ServiceRequest/TrustDemoJ2Referral",
+      "field": "text.div"
+    },
+    {
       "where": "CodeSystem/TrustDemoOnesaEpiSchedule",
       "field": "description"
+    },
+    {
+      "where": "ConceptMap/TrustDemoProductToOnesaEpi",
+      "field": "text.div"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
@@ -92,19 +176,27 @@
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[24].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
       "field": "definition.resource[26].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[28].description"
+      "field": "definition.resource[27].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[29].description"
+      "field": "definition.resource[30].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[32].description"
+      "field": "definition.resource[45].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[46].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
@@ -120,19 +212,15 @@
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[50].description"
+      "field": "definition.resource[55].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[51].description"
+      "field": "definition.resource[58].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[57].description"
-    },
-    {
-      "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[60].description"
+      "field": "definition.resource[59].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
@@ -140,7 +228,11 @@
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[63].description"
+      "field": "definition.resource[64].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[65].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
@@ -156,23 +248,23 @@
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[69].description"
-    },
-    {
-      "where": "ImplementationGuide/smart.who.int.trust-demo",
       "field": "definition.resource[70].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[72].description"
+      "field": "definition.resource[73].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[75].description"
+      "field": "definition.resource[74].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[76].description"
+      "field": "definition.resource[82].description"
+    },
+    {
+      "where": "ImplementationGuide/smart.who.int.trust-demo",
+      "field": "definition.resource[84].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
@@ -180,15 +272,31 @@
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[90].description"
+      "field": "definition.resource[87].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[91].description"
+      "field": "definition.resource[88].description"
     },
     {
       "where": "ImplementationGuide/smart.who.int.trust-demo",
-      "field": "definition.resource[92].description"
+      "field": "definition.resource[121].description"
+    },
+    {
+      "where": "Measure/TrustDemoIND01",
+      "field": "text.div"
+    },
+    {
+      "where": "Measure/TrustDemoIND02",
+      "field": "text.div"
+    },
+    {
+      "where": "Measure/TrustDemoIND03",
+      "field": "text.div"
+    },
+    {
+      "where": "Measure/TrustDemoIND04",
+      "field": "text.div"
     },
     {
       "where": "PlanDefinition/TrustDemoDT01",
@@ -224,6 +332,10 @@
     },
     {
       "where": "StructureDefinition/TrustDemoOnesaImmunization",
+      "field": "text.div"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoOnesaImmunization",
       "field": "description"
     },
     {
@@ -243,11 +355,27 @@
       "field": "description"
     },
     {
+      "where": "StructureDefinition/TrustDemoTaifafekiImmunization",
+      "field": "text.div"
+    },
+    {
+      "where": "StructureDefinition/TrustDemoTaifafekiImmunization",
+      "field": "description"
+    },
+    {
       "where": "StructureDefinition/TrustDemoTaifafekiPatient",
       "field": "description"
     },
     {
       "where": "StructureDefinition/TrustDemoTaifafekiVhlReceipt",
+      "field": "description"
+    },
+    {
+      "where": "ValueSet/TrustDemoVaccineProducts",
+      "field": "text.div"
+    },
+    {
+      "where": "ValueSet/TrustDemoVaccineProducts",
       "field": "description"
     },
     {
@@ -267,7 +395,19 @@
       "field": "page"
     },
     {
+      "where": "input/pagecontent/decision-logic.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/dictionary.md",
+      "field": "page"
+    },
+    {
       "where": "input/pagecontent/index.md",
+      "field": "page"
+    },
+    {
+      "where": "input/pagecontent/indicators.md",
       "field": "page"
     },
     {
@@ -367,6 +507,10 @@
       "field": "page"
     },
     {
+      "where": "translations/ar/pagecontent/dictionary.po",
+      "field": "page"
+    },
+    {
       "where": "translations/ar/pagecontent/personas.po",
       "field": "page"
     },
@@ -380,6 +524,10 @@
     },
     {
       "where": "translations/es/pagecontent/countries.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/es/pagecontent/dictionary.po",
       "field": "page"
     },
     {
@@ -399,6 +547,10 @@
       "field": "page"
     },
     {
+      "where": "translations/fr/pagecontent/dictionary.po",
+      "field": "page"
+    },
+    {
       "where": "translations/fr/pagecontent/personas.po",
       "field": "page"
     },
@@ -412,6 +564,10 @@
     },
     {
       "where": "translations/ru/pagecontent/countries.po",
+      "field": "page"
+    },
+    {
+      "where": "translations/ru/pagecontent/dictionary.po",
       "field": "page"
     },
     {
@@ -431,6 +587,10 @@
       "field": "page"
     },
     {
+      "where": "translations/zh/pagecontent/dictionary.po",
+      "field": "page"
+    },
+    {
       "where": "translations/zh/pagecontent/personas.po",
       "field": "page"
     },
@@ -439,5 +599,5 @@
       "field": "page"
     }
   ],
-  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:432accfafcc619c564703c792be630cbab854161a1e6854ea38e2f704af1f296 (2587); published anyway, with no pattern hit; 106 text(s) not reviewed:\n  Basic/TrustDemo.Role.BirthClinicSystem extension[9].valueMarkdown\n  Basic/TrustDemo.Role.BirthClinicVaccinator extension[9].valueMarkdown\n  Basic/TrustDemo.Role.Caregiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.ChwApp extension[9].valueMarkdown\n  Basic/TrustDemo.Role.CommunityHealthWorker extension[9].valueMarkdown\n  Basic/TrustDemo.Role.FamilyPhone extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicEhr extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.IssuerKey extension[9].valueMarkdown\n  Basic/TrustDemo.Role.NationalPortal extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocReceiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.SubjectOfCare extension[9].valueMarkdown\n  CodeSystem/TrustDemoOnesaEpiSchedule description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[0].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[1].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[4].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[6].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[10].description\n  ImplementationGuide/smart.who.int.trust-demo definition.resource[26].description\n  … and 86 more (the verdict lists every one); an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
+  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:1de1428d2d9b68a04e29ef51fe2042656ccbe38c6ee98d7a0483529eb57ec9b7 (2587 text(s)), the site publishes sha256:375c4cbbe96a5e9e6c33af682c5000a60dbb3178f9813510fece2497a9a978e3 (2033); published anyway, with no pattern hit; 146 text(s) not reviewed:\n  Basic/TrustDemo.Role.BirthClinicSystem extension[9].valueMarkdown\n  Basic/TrustDemo.Role.BirthClinicVaccinator extension[9].valueMarkdown\n  Basic/TrustDemo.Role.Caregiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.ChwApp extension[9].valueMarkdown\n  Basic/TrustDemo.Role.CommunityHealthWorker extension[9].valueMarkdown\n  Basic/TrustDemo.Role.FamilyPhone extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicEhr extension[9].valueMarkdown\n  Basic/TrustDemo.Role.HomeClinicProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.IssuerKey extension[9].valueMarkdown\n  Basic/TrustDemo.Role.NationalPortal extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocProvider extension[9].valueMarkdown\n  Basic/TrustDemo.Role.PocReceiver extension[9].valueMarkdown\n  Basic/TrustDemo.Role.SubjectOfCare extension[9].valueMarkdown\n  Bundle/TrustDemoJ4Ips entry[2].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[3].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[4].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[5].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[6].resource.text.div\n  Bundle/TrustDemoJ4Ips entry[7].resource.text.div\n  Immunization/TrustDemoJ1Bcg text.div\n  … and 126 more (the verdict lists every one); an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
 }
