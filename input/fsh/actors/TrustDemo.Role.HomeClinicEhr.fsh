@@ -39,7 +39,7 @@ The clinic's OHS-based record system: verifies DVCs against the GDHCN trust list
 - Decision table [TD.DT.04 Is this dose of the national schedule due?](decision-logic.html#tddt04-is-this-dose-of-the-national-schedule-due), in: Evaluate the national schedule
 - Gateway "Every DVC verified?" in [J3 Verify, import and schedule at the home clinic](business-processes.html#j3-verify-import-and-schedule-at-the-home-clinic)
 
-**Data sets its tasks record or read**: [TD.J3A DVC verification and import](dictionary.html#tdj3a-dvc-verification-and-import); [TD.J3B Imported dose and schedule](dictionary.html#tdj3b-imported-dose-and-schedule)
+**Data sets its tasks record or read**: [J1 DVCMinPreQual DVC HCERT payload (PreQual)](dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal); [J1 CWT CBOR Web Token (CWT)](dictionary.html#j1-cwt-cbor-web-token-cwt); [J2 IMMZC4 IMMZ.C4 Create client record (= IMMZ.C5.3 Update client details)](dictionary.html#j2-immzc4-immzc4-create-client-record--immzc53-update-client-details); [J3 IMMZImmunization IMMZ Immunization](dictionary.html#j3-immzimmunization-immz-immunization)
 
 **Indicators that count its decisions**: [TD.IND.01 Foreign doses imported as verified](indicators.html#tdind01-foreign-doses-imported-as-verified); [TD.IND.03 CHW referrals for verification completed at the clinic](indicators.html#tdind03-chw-referrals-for-verification-completed-at-the-clinic); [TD.IND.04 Imported doses carrying a national schedule code](indicators.html#tdind04-imported-doses-carrying-a-national-schedule-code)
 """

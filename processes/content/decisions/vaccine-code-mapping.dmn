@@ -19,10 +19,9 @@
       <trace:artifact ref="ConceptMap/TrustDemoProductToOnesaEpi"/>
       <trace:artifact ref="Provenance/TrustDemoJ3Adjudication"/>
       <trace:artifact ref="Immunization/TrustDemoJ3HepB"/>
-      <trace:dataElement ref="TD.J3A.DE09"/>
-      <trace:dataElement ref="TD.J3B.DE01"/>
-      <trace:dataElement ref="TD.J3B.DE02"/>
-      <trace:dataElement ref="TD.J3B.DE03"/>
+      <trace:dataElement ref="DVCMinPreQual.vx.vp"/>
+      <trace:dataElement ref="IMMZImmunization.primarySource"/>
+      <trace:dataElement ref="IMMZImmunization.vaccineCode"/>
     </extensionElements>
     <decisionTable id="Table_VaccineCodeMapping" hitPolicy="FIRST">
       <input id="In_Outcome" label="Record outcome (TD.DT.01)">

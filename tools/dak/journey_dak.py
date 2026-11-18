@@ -4,15 +4,17 @@ A step of a user scenario (scenarios/user-scenarios/*.json) names the BPMN
 tasks that carry it out (`realisedBy`: a process and its task ids). The DAK
 says which tasks each of its assets serves:
 
-- a data set (dak/data-dictionary.json, a model's `serves`) is `data` to a
-  step whose tasks include one it serves;
+- a data set (dak/data-dictionary.json) is no edge: since issue #33 each is a
+  model of an upstream specification, not an artifact of this guide, so it has
+  no key in the artefact index the journeys viewer resolves. The dictionary
+  page lists the steps each serves;
 - a decision table (processes/content/decisions/*.dmn, its `trace:serves`) is
   `decides` to a step whose tasks include one it serves;
 - an indicator (dak/indicators.json) is `measures` to every step of a journey
   in its `journeys` (the step id without its trailing letter: J2a is J2).
 
-Each edge is the asset's key in the artefact index: StructureDefinition/<model
-id>, PlanDefinition/<TrustDemoDTnn> for TD.DT.nn, Measure/<indicator id>. The
+Each edge is the asset's key in the artefact index: PlanDefinition/<TrustDemoDTnn>
+for TD.DT.nn, Measure/<indicator id>. The
 step's `dak` is written in that order (data, decides, measures), each sorted
 by key; a step with none carries no `dak`. A file whose steps carry `dak` is
 at least user-scenario/0.3.0, the minor that adds the field.
@@ -53,9 +55,6 @@ def assets(root=ROOT):
     """[(rel, key, {(process basename, task)} or None, journeys or None)] for every DAK asset."""
     dak = _dak()
     out = []
-    for m in dak.dictionary(root)["models"]:
-        served = {(s["process"], t) for s in m["serves"] for t in s["tasks"]}
-        out.append(("data", f"StructureDefinition/{m['id']}", served, None))
     for d in dak.decisions(root):
         if not d["code"]:
             continue
