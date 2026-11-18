@@ -2,34 +2,6 @@
 // UNOFFICIAL: agent translation (official: false, generatedBy: agent); no person has signed it off.
 // Data element displays are the msgstr of translations/ru/pagecontent/dictionary.po.
 
-CodeSystem: TrustDemoVaccineProductRu
-Id: TrustDemoVaccineProduct-ru
-Title: "TrustDemoVaccineProduct (ru designations, unofficial)"
-Description: "Unofficial Russian designations for TrustDemoVaccineProduct: an agent translation that no person has signed off."
-* ^experimental = true
-* ^content = #supplement
-* ^supplements = Canonical(TrustDemoVaccineProduct)
-* ^language = #ru
-* ^caseSensitive = true
-* #vp-hepb-peds-monovalent "Hepatitis B vaccine, paediatric, monovalent"
-* #vp-hepb-peds-monovalent ^designation[+].language = #ru
-* #vp-hepb-peds-monovalent ^designation[=].value = "Вакцина против гепатита B, детская, моновалентная"
-* #vp-bcg-freeze-dried "BCG vaccine, freeze-dried"
-* #vp-bcg-freeze-dried ^designation[+].language = #ru
-* #vp-bcg-freeze-dried ^designation[=].value = "Вакцина БЦЖ (BCG), лиофилизированная"
-* #vp-pentavalent-liquid "DTP-HepB-Hib (pentavalent), liquid"
-* #vp-pentavalent-liquid ^designation[+].language = #ru
-* #vp-pentavalent-liquid ^designation[=].value = "АКДС-HepB-Hib (пентавалентная), жидкая"
-* #vp-bopv-drops "Bivalent oral polio vaccine (bOPV), drops"
-* #vp-bopv-drops ^designation[+].language = #ru
-* #vp-bopv-drops ^designation[=].value = "Бивалентная оральная полиомиелитная вакцина (bOPV), капли"
-* #vp-pcv-13-dose "Pneumococcal conjugate vaccine (PCV)"
-* #vp-pcv-13-dose ^designation[+].language = #ru
-* #vp-pcv-13-dose ^designation[=].value = "Пневмококковая конъюгированная вакцина (PCV)"
-* #vp-mr-freeze-dried "Measles-rubella vaccine, freeze-dried"
-* #vp-mr-freeze-dried ^designation[+].language = #ru
-* #vp-mr-freeze-dried ^designation[=].value = "Вакцина против кори и краснухи, лиофилизированная"
-
 CodeSystem: TrustDemoOnesaEpiScheduleRu
 Id: TrustDemoOnesaEpiSchedule-ru
 Title: "TrustDemoOnesaEpiSchedule (ru designations, unofficial)"

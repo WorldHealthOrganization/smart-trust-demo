@@ -196,7 +196,7 @@ msgstr ""
 
 #: docs/journey-examples.md:66
 #, python-brace-format
-msgid "Code systems. The walkthrough's product codes ({code0} and so on) and the schedule codes of Onesa ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
+msgid "Code systems. Each dose's product is coded with its WHO PreQual product id ({code0} for the Hep B birth dose and so on), from the code system {code1} of the <a0>SMART Product Dataset for Prequalified Vaccines</a0>, and the ValueSet {code2} lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa ({code3} and so on) are illustrative, defined here as the code system {code4}, marked experimental, under this guide's canonical, so no URL implies a real ministry."
 msgstr ""
 
 #: docs/journey-examples.md:67

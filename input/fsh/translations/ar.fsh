@@ -2,35 +2,6 @@
 // Agent translation, UNOFFICIAL and unreviewed: no human sign-off. One file per locale;
 // the CodeSystems themselves are not edited. Displays and definitions mirror translations/ar/.
 
-CodeSystem: TrustDemoVaccineProductAr
-Id: TrustDemoVaccineProduct-ar
-Title: "منتجات اللقاحات (رموز توضيحية على نمط PreQual)"
-Description: "ملحق باللغة العربية (ar) لنظام الرموز TrustDemoVaccineProduct: تسميات كل مفهوم. ترجمة غير رسمية أعدّها وكيل آلي، دون مراجعة بشرية."
-* ^status = #draft
-* ^experimental = true
-* ^content = #supplement
-* ^supplements = Canonical(TrustDemoVaccineProduct)
-* ^language = #ar
-* ^caseSensitive = true
-* #vp-hepb-peds-monovalent "لقاح التهاب الكبد B، للأطفال، أحادي التكافؤ"
-  * ^designation[0].language = #ar
-  * ^designation[0].value = "لقاح التهاب الكبد B، للأطفال، أحادي التكافؤ"
-* #vp-bcg-freeze-dried "لقاح BCG، مُجفَّد"
-  * ^designation[0].language = #ar
-  * ^designation[0].value = "لقاح BCG، مُجفَّد"
-* #vp-pentavalent-liquid "DTP-HepB-Hib (خماسي التكافؤ)، سائل"
-  * ^designation[0].language = #ar
-  * ^designation[0].value = "DTP-HepB-Hib (خماسي التكافؤ)، سائل"
-* #vp-bopv-drops "لقاح شلل الأطفال الفموي ثنائي التكافؤ (bOPV)، قطرات"
-  * ^designation[0].language = #ar
-  * ^designation[0].value = "لقاح شلل الأطفال الفموي ثنائي التكافؤ (bOPV)، قطرات"
-* #vp-pcv-13-dose "لقاح المكورات الرئوية المقترن (PCV)"
-  * ^designation[0].language = #ar
-  * ^designation[0].value = "لقاح المكورات الرئوية المقترن (PCV)"
-* #vp-mr-freeze-dried "لقاح الحصبة والحصبة الألمانية، مُجفَّد"
-  * ^designation[0].language = #ar
-  * ^designation[0].value = "لقاح الحصبة والحصبة الألمانية، مُجفَّد"
-
 CodeSystem: TrustDemoOnesaEpiScheduleAr
 Id: TrustDemoOnesaEpiSchedule-ar
 Title: "رموز المستضدات والجرعات في جدول التطعيم الوطني (توضيحية، Onesa)"
@@ -82,7 +53,7 @@ Description: "ملحق باللغة العربية (ar) لنظام الرموز 
 * #TD.J1.DE04 "رقم المستشفى" "المعرِّف الخاص بمستشفى الولادة للطفل. لا تحمله شهادة DVC."
   * ^designation[0].language = #ar
   * ^designation[0].value = "رقم المستشفى"
-* #TD.J1.DE05 "منتج اللقاح" "المنتج المُعطى، بترميز المنتجات لدى الجهة المُصدِرة (رموز توضيحية على نمط PreQual)."
+* #TD.J1.DE05 "منتج اللقاح" "المنتج المُعطى، بمعرّف منتج WHO PreQual الخاص به."
   * ^designation[0].language = #ar
   * ^designation[0].value = "منتج اللقاح"
 * #TD.J1.DE06 "تاريخ التطعيم" "تاريخ إعطاء الجرعة. يحتفظ سجل المستشفى بالوقت أيضًا؛ وتحمل شهادة DVC التاريخ."

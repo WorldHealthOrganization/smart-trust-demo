@@ -14,7 +14,7 @@ Description: "What the birth hospital records for each birth dose and signs into
 * guardianName ^code[+] = TrustDemoDataElements#TD.J1.DE03 "Parent or guardian name"
 * hospitalNumber 1..1 Identifier "Hospital number" "The birth hospital's own identifier for the child. It is not carried in the DVC."
 * hospitalNumber ^code[+] = TrustDemoDataElements#TD.J1.DE04 "Hospital number"
-* vaccineProduct 1..1 Coding "Vaccine product" "The product given, in the issuer's product coding (illustrative PreQual-style codes)."
+* vaccineProduct 1..1 Coding "Vaccine product" "The product given, as its WHO PreQual product id."
 * vaccineProduct ^code[+] = TrustDemoDataElements#TD.J1.DE05 "Vaccine product"
 * vaccineProduct from TrustDemoVaccineProducts (required)
 * dateOfVaccination 1..1 date "Date of vaccination" "The date the dose was given. The hospital record holds the time as well; the DVC carries the date."

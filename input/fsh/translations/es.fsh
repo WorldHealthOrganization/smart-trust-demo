@@ -2,35 +2,6 @@
 // Agent translation, UNOFFICIAL and unreviewed: no human sign-off. One file per locale;
 // the CodeSystems themselves are not edited. Displays and definitions mirror translations/es/.
 
-CodeSystem: TrustDemoVaccineProductEs
-Id: TrustDemoVaccineProduct-es
-Title: "Productos vacunales (códigos ilustrativos al estilo PreQual)"
-Description: "Suplemento en español (es) de TrustDemoVaccineProduct: designaciones de cada concepto. Traducción no oficial generada por un agente, sin revisión humana."
-* ^status = #draft
-* ^experimental = true
-* ^content = #supplement
-* ^supplements = Canonical(TrustDemoVaccineProduct)
-* ^language = #es
-* ^caseSensitive = true
-* #vp-hepb-peds-monovalent "Vacuna contra la hepatitis B, pediátrica, monovalente"
-  * ^designation[0].language = #es
-  * ^designation[0].value = "Vacuna contra la hepatitis B, pediátrica, monovalente"
-* #vp-bcg-freeze-dried "Vacuna BCG, liofilizada"
-  * ^designation[0].language = #es
-  * ^designation[0].value = "Vacuna BCG, liofilizada"
-* #vp-pentavalent-liquid "DTP-HepB-Hib (pentavalente), líquida"
-  * ^designation[0].language = #es
-  * ^designation[0].value = "DTP-HepB-Hib (pentavalente), líquida"
-* #vp-bopv-drops "Vacuna antipoliomielítica oral bivalente (bOPV), gotas"
-  * ^designation[0].language = #es
-  * ^designation[0].value = "Vacuna antipoliomielítica oral bivalente (bOPV), gotas"
-* #vp-pcv-13-dose "Vacuna antineumocócica conjugada (PCV)"
-  * ^designation[0].language = #es
-  * ^designation[0].value = "Vacuna antineumocócica conjugada (PCV)"
-* #vp-mr-freeze-dried "Vacuna contra el sarampión y la rubéola, liofilizada"
-  * ^designation[0].language = #es
-  * ^designation[0].value = "Vacuna contra el sarampión y la rubéola, liofilizada"
-
 CodeSystem: TrustDemoOnesaEpiScheduleEs
 Id: TrustDemoOnesaEpiSchedule-es
 Title: "Códigos de antígeno y dosis del calendario nacional (ilustrativos, Onesa)"
@@ -82,7 +53,7 @@ Description: "Suplemento en español (es) de TrustDemoDataElements: designacione
 * #TD.J1.DE04 "Número de historia hospitalaria" "El identificador propio que el hospital de nacimiento asigna al niño/a. No se incluye en el DVC."
   * ^designation[0].language = #es
   * ^designation[0].value = "Número de historia hospitalaria"
-* #TD.J1.DE05 "Producto vacunal" "El producto administrado, en la codificación de productos del emisor (códigos ilustrativos al estilo PreQual)."
+* #TD.J1.DE05 "Producto vacunal" "El producto administrado, con su identificador de producto WHO PreQual."
   * ^designation[0].language = #es
   * ^designation[0].value = "Producto vacunal"
 * #TD.J1.DE06 "Fecha de vacunación" "La fecha en que se administró la dosis. El registro hospitalario guarda también la hora; el DVC lleva la fecha."
