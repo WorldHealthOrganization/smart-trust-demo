@@ -46,7 +46,7 @@ The minimal Digital Vaccination Certificate payload of WHO SMART Trust PHW, with
 
 ### J1 CWT CBOR Web Token (CWT)
 
-The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with Taifafeki's key; J3 checks each against the trust list.
+The CBOR Web Token of WHO SMART Trust that carries a DVC payload: the COSE header that names the signing key, the CWT claims and the signature. J1 signs one per dose with the key of Taifafeki; J3 checks each against the trust list.
 
 - **Logical model:** [CWT](http://smart.who.int/trust/StructureDefinition-CWT.html), canonical `http://smart.who.int/trust/StructureDefinition/CWT`
 - **Specification:** [WHO SMART Trust](http://smart.who.int/trust), package `smart.who.int.trust` (1.5.0)
