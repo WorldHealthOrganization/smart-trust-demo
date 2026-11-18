@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="827" viewBox="0 0 1800 827" font-family='system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif' role="img" aria-label="DPI-H Reference Architecture — DPI-H layers (Fig. 3.5)">
+<rect width="1800" height="827" fill="#f8f9fb"/>
+<rect width="1800" height="72" fill="#14213d"/>
+<text x="36" y="42" font-size="26" font-weight="800" fill="#ffffff">البنية المرجعية DPI-H — طبقات DPI-H (الشكل 3.5)</text>
+<text x="36" y="61" font-size="11" fill="#c9d6e6" font-style="italic">مرسوم من نموذج ArchiMate «النموذج التوضيحي لـ SMART Trust على البنية المرجعية DPI-H لمنظمة الصحة العالمية»، العرض «البنية المرجعية DPI-H — طبقات DPI-H (الشكل 3.5)»</text>
+<rect x="36.0" y="82.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 90 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="100.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">تطبيقات نقطة الخدمة والتطبيقات الوظيفية</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/provider-systems/" target="_top">
+<rect x="48.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">أنظمة مقدّمي الخدمات</text>
+<text x="57.0" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· EMR / EHR · HIS ·</text>
+<text x="57.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  LIMS · PACS</text>
+<text x="57.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· RIS</text>
+<text x="57.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الوصف الإلكتروني للأدوية (EPMA)</text>
+<text x="57.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· تطبيقات التطبيب عن بُعد</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/case-management/" target="_top">
+<rect x="206.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="215.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">إدارة الحالات</text>
+<text x="215.7" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· إلكتروني</text>
+<text x="215.7" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">سجل التمنيع</text>
+<text x="215.7" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HIV / TB / MNCH</text>
+<text x="215.7" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">السجلات</text>
+<text x="215.7" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· خاص بمرض معيّن</text>
+<text x="215.7" y="203.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الأدوات</text>
+<text x="215.7" y="215.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· متابعة المرضى</text>
+<text x="215.7" y="227.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">مسارات العمل</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/dispensing-system/" target="_top">
+<rect x="365.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="374.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">نظام الصرف</text>
+<text x="374.3" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· نظام إدارة الصيدلية</text>
+<text x="374.3" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· تطبيقات الصرف</text>
+<text x="374.3" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· اليقظة الدوائية</text>
+<text x="374.3" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الإدخال</text>
+<text x="374.3" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· المخزون في نقطة البيع</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/chw-community/" target="_top">
+<rect x="524.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CHW والمجتمع المحلي</text>
+<text x="533.0" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· تطبيقات CHW الميدانية</text>
+<text x="533.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· التوعية / الحملات</text>
+<text x="533.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· أدوات تعمل دون اتصال أولًا</text>
+<text x="533.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الأسرة المعيشية</text>
+<text x="533.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">التسجيل</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/citizen-patient-apps/" target="_top">
+<rect x="682.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="691.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">المواطن / المريض</text>
+<text x="691.7" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">التطبيقات</text>
+<text x="691.7" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PHR / الصحة الرقمية</text>
+<text x="691.7" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">المحفظة</text>
+<text x="691.7" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الحجز الذاتي</text>
+<text x="691.7" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· تنبيه المواطنين</text>
+<text x="691.7" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">العميل</text>
+<text x="691.7" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· واجهة لوحة الموافقة</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/supply-chain-functional/" target="_top">
+<rect x="841.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="850.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">سلسلة الإمداد</text>
+<text x="850.3" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">وظيفي</text>
+<text x="850.3" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· WMS / LMIS</text>
+<text x="850.3" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· إدارة النقل (TMS)</text>
+<text x="850.3" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الشراء /</text>
+<text x="850.3" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">المناقصة الإلكترونية</text>
+<text x="850.3" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· رصد سلسلة التبريد</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/health-coverage-claims/" target="_top">
+<rect x="1000.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">التغطية الصحية و</text>
+<text x="1009.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">المطالبات</text>
+<text x="1009.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· إعداد المطالبات</text>
+<text x="1009.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· سجل المستفيدين</text>
+<text x="1009.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· العضو / مقدّم الخدمة</text>
+<text x="1009.0" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">البوابات</text>
+<text x="1009.0" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· العقود والمزايا</text>
+<text x="1009.0" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الإدارة</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/financing-workforce-ops/" target="_top">
+<rect x="1158.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1167.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">التمويل و</text>
+<text x="1167.7" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">عمليات القوى العاملة</text>
+<text x="1167.7" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IFMIS / الخزانة</text>
+<text x="1167.7" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HFIS / الميزانية</text>
+<text x="1167.7" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">التخطيط · HRIS</text>
+<text x="1167.7" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· كشوف الرواتب</text>
+<text x="1167.7" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· LMS / التدريب</text>
+<text x="1167.7" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· التدقيق والإفصاح</text>
+<text x="1167.7" y="230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الأدوات</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/public-health-apps/" target="_top">
+<rect x="1317.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1326.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">تطبيقات الصحة العامة</text>
+<text x="1326.3" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· تتبّع المخالطين</text>
+<text x="1326.3" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· إدارة الفاشيات</text>
+<text x="1326.3" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· ترصّد الأمراض</text>
+<text x="1326.3" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">لوحات المعلومات</text>
+<text x="1326.3" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· التنبيه بالفاشيات</text>
+</a>
+<rect x="36.0" y="270.0" width="1442.0" height="204.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 278 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="288.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">مكوّنات DPI-H القابلة لإعادة الاستخدام</text>
+<rect x="48.0" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="58.0" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">الخدمات السريرية</text>
+<text x="58.0" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">المكوّنات التي تستهلك LHR و</text>
+<text x="58.0" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">المعرفة في نقطة تقديم الرعاية</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/computable-decision-support-engine/" target="_top">
+<rect x="56.0" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="65.0" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">القرار القابل للحوسبة</text>
+<text x="65.0" y="386.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">محرّك الدعم</text>
+<text x="65.0" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· CDS Hooks · SMART on FHIR</text>
+<text x="65.0" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· يستهلك LHR +</text>
+<text x="65.0" y="426.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">قابلة للحوسبة وقائمة على المعايير</text>
+<text x="65.0" y="438.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الإرشادات</text>
+</a>
+<rect x="254.9" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="264.9" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">سلسلة الإمداد</text>
+<text x="264.9" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">خدمات مشتركة للمورّدين و</text>
+<text x="264.9" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">بيانات التتبّع عبر الخدمات اللوجستية</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/supplier-registry/" target="_top">
+<rect x="262.9" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="271.9" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">سجل المورّدين</text>
+<text x="271.9" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مصنّعون ومزوّدو 3PL مُدقَّقون</text>
+<text x="271.9" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· إعادة الاستخدام عبر المجالات لـ</text>
+<text x="271.9" y="411.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الشراء وإمكانية التتبّع</text>
+</a>
+<rect x="461.7" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="471.7" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">التمويل الصحي</text>
+<text x="471.7" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">بيانات مرجعية تحدّد التغطية و</text>
+<text x="471.7" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">الاستحقاقات للشراء</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/benefits-package-registry/" target="_top">
+<rect x="469.7" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="478.7" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">حزمة المزايا</text>
+<text x="478.7" y="386.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">السجل</text>
+<text x="478.7" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· المواصفة المرجعية لـ</text>
+<text x="478.7" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الخدمات المشمولة، والتعريفات</text>
+<text x="478.7" y="426.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">والقواعد</text>
+<text x="478.7" y="438.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· تستهلكه المطالبات وPFM</text>
+</a>
+<rect x="668.6" y="298.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="678.6" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">الصحة العامة والتحليلات</text>
+<text x="678.6" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">منصات للاستخدام الثانوي، والذكاء، والاستجابة</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/ph-surveillance-platform/" target="_top">
+<rect x="676.6" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="685.6" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">منصة ترصّد الصحة العامة</text>
+<text x="685.6" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· اكتشاف الأحداث / الحالات</text>
+<text x="685.6" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مسارات عمل الفاشيات</text>
+<text x="685.6" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IHR / IPS عبر الحدود</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/health-management-information-system/" target="_top">
+<rect x="871.9" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="880.9" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">الإدارة الصحية</text>
+<text x="880.9" y="374.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">نظام المعلومات</text>
+<text x="880.9" y="390.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مؤشرات مجمَّعة · الرصد والتقييم</text>
+<text x="880.9" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· لوحات المعلومات</text>
+<text x="880.9" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الأداء والإنصاف</text>
+</a>
+<rect x="1077.3" y="298.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="1087.3" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">شامل</text>
+<text x="1087.3" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">شامل</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/ai-enabled-intelligence/" target="_top">
+<rect x="1085.3" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1094.3" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">الذكاء المدعوم بالذكاء الاصطناعي</text>
+<text x="1094.3" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· نماذج سيادية وقابلة لإعادة الاستخدام</text>
+<text x="1094.3" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· تصنيف المخاطر</text>
+<text x="1094.3" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· التنبؤ بالمناخ والصحة</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/secondary-use/" target="_top">
+<rect x="1280.6" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1289.6" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">الاستخدام الثانوي</text>
+<text x="1289.6" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· منسَّقة، وبموافقة،</text>
+<text x="1289.6" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">تدفّق المستخلصات منزوعة الهوية</text>
+<text x="1289.6" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">في تدريب الذكاء الاصطناعي / التعلّم الآلي،</text>
+<text x="1289.6" y="411.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">تحليلات المنفعة العامة،</text>
+<text x="1289.6" y="423.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الأداء والإنصاف، IHR /</text>
+<text x="1289.6" y="435.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">إعداد تقارير IPS</text>
+</a>
+<rect x="36.0" y="486.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 494 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="504.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">طبقة البيانات المشتركة في DPI-H</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/client-registry-for-health/" target="_top">
+<rect x="48.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">سجل العملاء الصحي</text>
+<text x="57.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· هوية الشخص</text>
+<text x="57.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الفهرس الرئيسي للمرضى في القطاع الصحي</text>
+<text x="57.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الفهرس</text>
+<text x="57.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· المعرّف الصحي الفريد</text>
+<text x="57.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مطابقة الهوية</text>
+<text x="57.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· ربط السجلات</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/lifelong-health-record/" target="_top">
+<rect x="252.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="261.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">السجل الصحي مدى الحياة</text>
+<text x="261.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· السجل الصحي</text>
+<text x="261.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· سجل طولي</text>
+<text x="261.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مخزن قائم على FHIR</text>
+<text x="261.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· تتبّع المنشأ، وإدارة الإصدارات</text>
+<text x="261.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· عروض مقيَّدة بالموافقة</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/health-workforce-registry/" target="_top">
+<rect x="456.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="465.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">سجل القوى العاملة الصحية</text>
+<text x="465.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· القوى العاملة</text>
+<text x="465.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مقدّمو خدمات تم التحقق منهم،</text>
+<text x="465.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">وثائق الاعتماد، والترخيص</text>
+<text x="465.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· يستهلكه EMR، والمطالبات،</text>
+<text x="465.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الترصّد</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/health-facility-registry/" target="_top">
+<rect x="660.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="669.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">سجل المرافق الصحية</text>
+<text x="669.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الموقع</text>
+<text x="669.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· قائمة بجميع العاملين</text>
+<text x="669.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">المرافق (العامة +</text>
+<text x="669.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">الخاصة)</text>
+<text x="669.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مُرمَّز جغرافيًا، الخدمات المقدَّمة</text>
+<text x="669.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مناطق الخدمة</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/product-registry/" target="_top">
+<rect x="864.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="873.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">سجل المنتجات</text>
+<text x="873.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· المنتجات الصحية</text>
+<text x="873.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· المنتجات والأجهزة الصحية و</text>
+<text x="873.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">السلع</text>
+<text x="873.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· GTIN · IDMP · UDI · GS1</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/terminology-service/" target="_top">
+<rect x="1068.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1077.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">خدمة المصطلحات</text>
+<text x="1077.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الدلالات – المعنى</text>
+<text x="1077.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· أنظمة الرموز، ومجموعات القيم و</text>
+<text x="1077.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">خرائط المفاهيم</text>
+<text x="1077.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· SNOMED · ICD · LOINC</text>
+<text x="1077.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· أنظمة الرموز المحلية</text>
+<text x="1077.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مجموعات القيم المرجعية</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/logical-information-model-repository/" target="_top">
+<rect x="1272.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1281.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">النموذج المعلوماتي المنطقي</text>
+<text x="1281.0" y="546.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">المستودع</text>
+<text x="1281.0" y="562.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· البنية النحوية – الهيكل</text>
+<text x="1281.0" y="574.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· المصنوعات التقنية الهيكلية و</text>
+<text x="1281.0" y="586.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">مجموعات البيانات الوطنية</text>
+<text x="1281.0" y="598.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· ملفات تعريف FHIR · eObjects ·</text>
+<text x="1281.0" y="610.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  IPS</text>
+<text x="1281.0" y="622.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· مجموعات البيانات</text>
+<text x="1281.0" y="634.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· إدارة الإصدارات والإشراف</text>
+</a>
+<rect x="36.0" y="674.0" width="1442.0" height="125.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 682 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="692.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">البنية التحتية العامة الرقمية التأسيسية (DPI-F)</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/foundational-identity/" target="_top">
+<rect x="48.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">الهوية التأسيسية</text>
+<text x="57.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· eKYC · MFA · القياسات الحيوية</text>
+<text x="57.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الهوية الوطنية / الاتحادية</text>
+<text x="57.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· سجل السكان</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/national-trust-services/" target="_top">
+<rect x="286.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="295.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">خدمات الثقة الوطنية</text>
+<text x="295.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PKI</text>
+<text x="295.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· التوقيعات الرقمية</text>
+<text x="295.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· وثائق اعتماد قابلة للتحقق</text>
+<text x="295.0" y="771.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· سلطة الشهادات · GDHCN</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/payment-rails/" target="_top">
+<rect x="524.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">قنوات الدفع</text>
+<text x="533.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الخزانة · المدفوعات السريعة</text>
+<text x="533.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· صرف مستحقات مقدّمي الخدمات</text>
+<text x="533.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· رواتب القوى العاملة</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/data-exchange-fabric/" target="_top">
+<rect x="762.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="771.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">نسيج تبادل البيانات</text>
+<text x="771.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· متعدد القطاعات</text>
+<text x="771.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· بنية قابلة للتوسّع</text>
+<text x="771.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· وصول وسيط إلى API</text>
+<text x="771.0" y="771.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· التدقيق، وتنظيم المعدَّل، وSLA</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/crvs-other-sector/" target="_top">
+<rect x="1000.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CRVS والقطاعات الأخرى</text>
+<text x="1009.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الحكومة بأكملها</text>
+<text x="1009.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الولادة، والوفاة (السبب: ICD)</text>
+<text x="1009.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· الحماية الاجتماعية، والتعليم</text>
+</a>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/geo-location-notification/" target="_top">
+<rect x="1238.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1247.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">تحديد الموقع الجغرافي · الإشعارات</text>
+<text x="1247.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· بيانات وقنوات متعددة القطاعات</text>
+<text x="1247.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· السجل الجغرافي المشترك · العنوان · SMS</text>
+<text x="1247.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· البريد الإلكتروني · الإشعارات الفورية</text>
+</a>
+<rect x="1494.0" y="82.0" width="270.0" height="717.0" rx="10" fill="#d3ffff" stroke="#4c6b6b" stroke-width="2" stroke-dasharray="8 5"/>
+<path d="M1494 92 a10 10 0 0 1 10 -10 h250 a10 10 0 0 1 10 10 v26 h-270 z" fill="#4c6b6b"/>
+<text x="1629.0" y="106.0" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">التشغيل البيني (مجال شامل)</text>
+<a href="../../../ar/smart-trust-demo/archimate/0.1.0/element/dpi-f-information-mediator/" target="_top">
+<rect x="1506.0" y="122.0" width="246.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1515.0" y="139.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">وسيط المعلومات في DPI-F</text>
+<text x="1515.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· بوابة API · HIE</text>
+<text x="1515.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· يصادق، ويخوّل، ويوجّه،</text>
+<text x="1515.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">يُحوّل، ويدقّق كل معاملة</text>
+<text x="1515.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· يعيد استخدام نسيج DPI-F حيثما يتوفر</text>
+</a>
+<text x="1506.0" y="223.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">المعايير المفتوحة</text>
+<rect x="1506.0" y="231.0" width="62.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1537.4" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">HL7 FHIR</text>
+<rect x="1574.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1592.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IHE</text>
+<rect x="1615.6" y="231.0" width="57.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1644.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">openEHR</text>
+<rect x="1678.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1696.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IPS</text>
+<rect x="1506.0" y="255.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1540.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SNOMED CT</text>
+<rect x="1580.4" y="255.0" width="51.6" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1606.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">ICD-11</text>
+<rect x="1638.0" y="255.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1661.0" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">LOINC</text>
+<rect x="1506.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1543.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">GS1 / GTIN</text>
+<rect x="1586.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1623.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IDMP / UDI</text>
+<rect x="1666.0" y="279.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1700.2" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">CDS Hooks</text>
+<rect x="1506.0" y="303.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1551.4" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SMART on FHIR</text>
+<rect x="1602.8" y="303.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1653.8" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">OpenID / OAuth2</text>
+<rect x="1506.0" y="327.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1529.0" y="340.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">DICOM</text>
+<text x="1506.0" y="365.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">أنماط التكامل</text>
+<rect x="1506.0" y="373.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">REST APIs (FHIR R4)</text>
+<rect x="1636.4" y="373.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1681.8" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">تدفّقات الأحداث</text>
+<rect x="1506.0" y="397.0" width="96.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1554.2" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">مستند (IHE)</text>
+<rect x="1608.4" y="397.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1659.4" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">استعلام اتحادي</text>
+<rect x="1506.0" y="421.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="434.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">البيانات المجمَّعة ($export)</text>
+<rect x="1506.0" y="445.0" width="141.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1576.6" y="458.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">عبر الحدود (IHR/IPS)</text>
+</svg>

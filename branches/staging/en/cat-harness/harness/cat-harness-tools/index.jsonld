@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/en/cat-harness/harness/cat-harness-tools/",
+  "url": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/en/cat-harness/harness/cat-harness-tools/",
+  "@type": "WebPage",
+  "name": "C@T Harness Tools on SMART Trust demonstrator: journeys J1 to J4",
+  "about": {
+    "@type": "SoftwareSourceCode",
+    "identifier": "cat-harness-tools",
+    "name": "C@T Harness Tools",
+    "description": "What implements the harness's Tool definitions: the MCP servers, their tool registrars and routes. Definitions stay in cat-harness; this layer runs them.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/cat-harness-tools",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/cat-harness/"
+      },
+      {
+        "identifier": "bootstrap-tools"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "pinnedCommit",
+      "value": "7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d"
+    }
+  },
+  "isPartOf": {
+    "@id": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/",
+    "name": "SMART Trust demonstrator: journeys J1 to J4"
+  },
+  "significantLink": [
+    "https://litlfred.github.io/folio-assistant/cat-harness-tools/",
+    "https://github.com/litlfred/cat-harness-tools/tree/7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d",
+    "https://github.com/litlfred/cat-harness-tools/blob/7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d/README.md",
+    "https://github.com/litlfred/cat-harness-tools/blob/7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d/AGENTS.md"
+  ]
+}

@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="zh" dir="ltr">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<script type="application/json" id="fa-translation-meta">{"lang":"zh","translationStatus":"unverified","translationSource":"journey-examples.html","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":["en","ar","es","fr","ru","zh"]}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Journey Examples — SMART Trust demonstrator: journeys J1 to J4</title>
+<link rel="canonical" href="../zh/journey-examples.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Trust demonstrator: journeys J1 to J4">
+<link rel="stylesheet" href="../assets/page-layout.css" data-fa-page-layout>
+<script src="../assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="../assets/ig-artifact.css">
+<link rel="stylesheet" href="../assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="../assets/navbar/row-2acuhncsmbg.js" defer></script><script src="../assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<style data-ig-version-chrome>.ig-topbar-head{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem}.ig-topbar-head .ig-topbar-home{flex:none}.ig-topbar-ver{font-weight:400;font-size:.9em;opacity:.95;white-space:nowrap}.ig-topbar-flag{font-size:1.1em}.ig-version-banner{box-sizing:border-box;margin:0;padding:.5rem 1.5rem;background:#ffffa0;color:#222;border-bottom:1px solid #0a0008;font-size:.95rem;line-height:1.45}.ig-version-banner a{color:#1a4b8c;text-decoration:underline}html:not([data-fa-scheme="light"]) .ig-version-banner{background:#4a4520;color:#fff8d0;border-color:#8a7d2a}html:not([data-fa-scheme="light"]) .ig-version-banner a{color:#ffe680}.ig-metadata{border-collapse:collapse;margin:0 0 1rem;font-size:.95rem}.ig-metadata td{border:1px solid #c8c8c8;padding:.25rem .6rem;vertical-align:top}.ig-metadata code{overflow-wrap:anywhere}</style><link rel="stylesheet" href="../assets/css/navbar.css"><script src="../assets/navbar/rail-3v8loi77pj.js" defer></script><script src="../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../assets/css/navbar-row.css"><script src="../assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content=".."></head>
+<body><div data-fa-staging-banner lang="en" dir="ltr" style="background:#4F6F52;color:#fff;padding:8px 16px;font-size:14px;text-align:center;position:fixed;top:0;left:0;right:0;box-sizing:border-box;z-index:2147483001;font-family:var(--fa-font-sans,system-ui,sans-serif)">🔀 <b>FEATURE BRANCH</b> <span data-fa-staging-detail>— loading build details…</span></div><style>:root{--fa-staging-offset:0px}body{margin:0}.side-bar,.fa-nav{top:var(--fa-staging-offset,0px)!important}html{padding-top:var(--fa-staging-offset,0px)}</style><script>(function(){
+var b=document.querySelector('[data-fa-staging-banner]'),d=document.querySelector('[data-fa-staging-detail]');
+if(b)document.documentElement.style.setProperty('--fa-staging-offset',b.getBoundingClientRect().height+'px');
+var m=location.pathname.match(/^(.*\/(?:branches|STAGING)\/[^/]+\/)/);
+if(!m){if(d)d.textContent='\u2014 build details unavailable (not served from a preview path)';return;}
+var s=document.createElement('script');s.src=m[1]+'staging-banner.js';
+s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
+(document.head||document.documentElement).appendChild(s);
+})();</script><script type="application/json" id="fa-navbar-row" data-fa-root=".." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="..">{"data":"rail-3v8loi77pj","here":"/zh/journey-examples.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../">SMART Trust demonstrator: journeys J1 to J4</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Trust demonstrator: journeys J1 to J4 menu"><span class="ig-topbar-head"><a class="ig-topbar-home" href="../index.html">SMART Trust demonstrator: journeys J1 to J4</a><span class="ig-topbar-ver">0.1.0 - ci-build</span></span><details class="ig-topbar-group"><summary>Home</summary><ul><li><a href="../index.html">Summary</a></li><li><a href="../changes.html">Changes</a></li></ul></details><details class="ig-topbar-group"><summary>Project</summary><ul><li><a href="../journeys.html">Journeys J1 to J4</a></li><li><a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html">Workshop: Technical Track (Journeys Viewer)</a></li><li><a href="../en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html">Workshop: Policy-Maker Track (Journeys Viewer)</a></li><li><a href="../module-journey-map.html">Module × Journey Map</a></li><li><a href="../narrative-discrepancies.html">Narrative Discrepancies</a></li><li><a href="../technical-changes.html">Technical Track and Demo App Changes</a></li><li><a href="../country-canvas.html">Country Canvas</a></li><li><a href="../glossary.html">Glossary</a></li><li><a href="../countries.html">Fictional Countries</a></li><li><a href="../journey-examples.html">Journey Examples</a></li><li><a href="../architecture.html">Architecture (ArchiMate)</a></li><li><a href="../plan.html">Plan</a></li><li><a href="../proposal-app-platform.html">App Platform Proposal</a></li><li><a href="../dependencies.html">Dependency Register</a></li><li><a href="../upstream-who-smart-trust-phw-receive-a-vhl.html">Upstream Issue (smart-trust-phw)</a></li></ul></details><details class="ig-topbar-group"><summary>Business Requirements</summary><ul><li><a href="../personas.html">Generic Personas</a></li><li><a href="../scenarios.html">User Scenarios</a></li><li><a href="../business-processes.html">Business Processes</a></li><li><a href="../dictionary.html">Data Dictionary</a></li><li><a href="../decision-logic.html">Decision-support Logic</a></li><li><a href="../indicators.html">Indicators and Performance Metrics</a></li><li><a href="../functional-requirements.html">Functional Requirements</a></li></ul></details><details class="ig-topbar-group"><summary>Data Models and Exchange</summary><ul><li><a href="../system-actors.html">System Actors</a></li></ul></details><details class="ig-topbar-group"><summary>Indices</summary><ul><li><a href="../artifacts.html">Artifact Index</a></li></ul></details><form class="ig-search" role="search" data-ig-search-index="../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="../assets/ig-search.js" defer></script></div><p class="ig-version-banner" role="note">本页面是 <a href="index.html">SMART Trust demonstrator: journeys J1 to J4</a>（v0.1.0: ci-build）的一部分，基于 <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>。 这是持续集成构建版本：它随源文件更新，并非已发布的版本。 如需所有可用版本的完整列表，请参阅<a href="http://smart.who.int/trust-demo/history.html">已发布版本目录</a>。</p>
+<main class="ig-main main-content fa-page-main" id="main-content">
+<div class="ig-tr-notice fa-translation-warning" role="note" aria-label="Machine translation, not reviewed by a person"><div class="ig-tr-notice__lang" lang="zh" dir="ltr"><p class="ig-tr-notice__title"><span aria-hidden="true">⚠️</span> <strong>机器翻译——未经人工审校</strong></p><p class="ig-tr-notice__body">本页面为自动翻译。尚无任何人审校或裁定此译文，可能存在错误。以源语言页面为准。 <a class="ig-tr-notice__source" href="../journey-examples.html">阅读原文（英文）</a></p></div><p class="ig-tr-notice__en" lang="en" dir="ltr">Machine translation — not reviewed by a person. <a class="ig-tr-notice__source" href="../journey-examples.html">Read the original (English)</a></p></div>
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<div class="ig-tr-unreviewed" data-tr-catalogue="journey-examples" data-tr-label="未经人工审校">
+
+  <!-- Generated by tools/ig-gen/ig_gen.py from docs/journey-examples.md. Do not edit; edit the source and rerun. -->
+
+  <!-- translations: journey-examples -->
+
+  <p>旅程演练（最初在 <a href="https://fredhersch.github.io/vaxlink/">VaxLink</a> 研讨会中讲述，<a href="https://github.com/fredhersch/vaxlink">源码</a>）在其载荷抽屉和设备屏幕 S1 至 S8 上展示示例 FHIR 载荷。本页将其中每一个映射到本指南中将其具体化的示例。</p>
+
+  <p>每个示例都发布两次：一次作为页面，一次作为位于演练可获取的稳定 URL 上的原始 JSON（<code class="language-plaintext highlighter-rouge">https://worldhealthorganization.github.io/smart-trust-demo/&lt;Type&gt;-&lt;id&gt;.json</code>）。它们是 FHIR R4（4.0.1），与本指南一致，也与 smart-base 和 Personal Health Wallet 指南一致。</p>
+
+  <h3 id="section">按设备屏幕</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>屏幕</th>
+        <th>时刻</th>
+        <th>国家，设备</th>
+        <th>显示内容</th>
+        <th>示例</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>S1</td>
+        <td>J1</td>
+        <td>Taifafeki，平板</td>
+        <td>带产品代码的出生剂次；两份用 XXR 的 DEV 密钥（kid <code class="language-plaintext highlighter-rouge">916ffa567c0f44a2</code>）签名的纸质 DVC</td>
+        <td>卡片背后的 Taifafeki 记录：<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Patient-TrustDemoTaifafekiSomsak.html">TrustDemoTaifafekiSomsak</a>、<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ1HepB.html">TrustDemoJ1HepB</a>、<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ1Bcg.html">TrustDemoJ1Bcg</a>；之后在 Onesa 验证的剂次：<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3HepB.html">TrustDemoJ3HepB</a>（<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoJ3HepB.json">json</a>）、<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3Bcg.html">TrustDemoJ3Bcg</a>（<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoJ3Bcg.json">json</a>）；<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Organization-TrustDemoKesaroHospital.html">TrustDemoKesaroHospital</a>（<a href="https://worldhealthorganization.github.io/smart-trust-demo/Organization-TrustDemoKesaroHospital.json">json</a>）、<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Practitioner-TrustDemoAnan.html">TrustDemoAnan</a>（<a href="https://worldhealthorganization.github.io/smart-trust-demo/Practitioner-TrustDemoAnan.json">json</a>）</td>
+      </tr>
+      <tr>
+        <td>S2</td>
+        <td>J2a</td>
+        <td>Onesa，手机</td>
+        <td>离线扫描两张卡片的 QR 码：已读取，未验证，尚未保存任何内容</td>
+        <td>卡片上的 Taifafeki 记录：<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ1HepB.html">TrustDemoJ1HepB</a>、<a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ1Bcg.html">TrustDemoJ1Bcg</a></td>
+      </tr>
+      <tr>
+        <td>S3</td>
+        <td>J2b</td>
+        <td>Onesa，手机</td>
+        <td>通过表单离线将 Somsak 登记到家庭中；剂次保存为已报告（<code class="language-plaintext highlighter-rouge">primarySource</code> 为 false），并创建一个转诊</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Group-TrustDemoHousehold.html">TrustDemoHousehold</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Group-TrustDemoHousehold.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Questionnaire-TrustDemoHouseholdRegistration.html">TrustDemoHouseholdRegistration</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Questionnaire-TrustDemoHouseholdRegistration.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/QuestionnaireResponse-TrustDemoJ2Registration.html">TrustDemoJ2Registration</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/QuestionnaireResponse-TrustDemoJ2Registration.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Patient-TrustDemoSomsak.html">TrustDemoSomsak</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Patient-TrustDemoSomsak.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/RelatedPerson-TrustDemoKhamla.html">TrustDemoKhamla</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/RelatedPerson-TrustDemoKhamla.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/RelatedPerson-TrustDemoBounmy.html">TrustDemoBounmy</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/RelatedPerson-TrustDemoBounmy.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ2HepBReported.html">TrustDemoJ2HepBReported</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoJ2HepBReported.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ2BcgReported.html">TrustDemoJ2BcgReported</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoJ2BcgReported.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/ServiceRequest-TrustDemoJ2Referral.html">TrustDemoJ2Referral</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/ServiceRequest-TrustDemoJ2Referral.json">json</a>)</td>
+      </tr>
+      <tr>
+        <td>S4</td>
+        <td>J3a</td>
+        <td>Onesa，平板</td>
+        <td>签名已对照缓存的 GDHCN 信任列表进行验证；已附来源记录（provenance）</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ3Verification.html">TrustDemoJ3Verification</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Provenance-TrustDemoJ3Verification.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3HepB.html">TrustDemoJ3HepB</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoJ3HepB.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3Bcg.html">TrustDemoJ3Bcg</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoJ3Bcg.json">json</a>)</td>
+      </tr>
+      <tr>
+        <td>S5</td>
+        <td>J3b</td>
+        <td>Onesa，平板</td>
+        <td>产品代码映射到国家接种计划（护士裁定 Hep B 产品）；计算出 6 周剂次；提醒</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/ConceptMap-TrustDemoProductToOnesaEpi.html">TrustDemoProductToOnesaEpi</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/ConceptMap-TrustDemoProductToOnesaEpi.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ3Adjudication.html">TrustDemoJ3Adjudication</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Provenance-TrustDemoJ3Adjudication.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/PlanDefinition-TrustDemoOnesaInfantSchedule.html">TrustDemoOnesaInfantSchedule</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/PlanDefinition-TrustDemoOnesaInfantSchedule.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/ImmunizationRecommendation-TrustDemoJ3Recommendation.html">TrustDemoJ3Recommendation</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/ImmunizationRecommendation-TrustDemoJ3Recommendation.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Task-TrustDemoJ3Reminder.html">TrustDemoJ3Reminder</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Task-TrustDemoJ3Reminder.json">json</a>)</td>
+      </tr>
+      <tr>
+        <td>S6</td>
+        <td>J4.0a</td>
+        <td>Onesa，手机</td>
+        <td>一部手机上的家庭钱包；Somsak 的 IPS，含六个剂次</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Bundle-TrustDemoJ4Ips.html">TrustDemoJ4Ips</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Bundle-TrustDemoJ4Ips.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoOnesaPenta1.html">TrustDemoOnesaPenta1</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoOnesaPenta1.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoOnesaBopv1.html">TrustDemoOnesaBopv1</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoOnesaBopv1.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoOnesaPcv1.html">TrustDemoOnesaPcv1</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoOnesaPcv1.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoOnesaMr1.html">TrustDemoOnesaMr1</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoOnesaMr1.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Device-TrustDemoFamilyPhone.html">TrustDemoFamilyPhone</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Device-TrustDemoFamilyPhone.json">json</a>)</td>
+      </tr>
+      <tr>
+        <td>S7</td>
+        <td>J4.0b</td>
+        <td>Onesa，手机</td>
+        <td>带 4 位通行码和 14 天有效期的 VHL QR 码；同意（Consent）</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Consent-TrustDemoJ4Consent.html">TrustDemoJ4Consent</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Consent-TrustDemoJ4Consent.json">json</a>)</td>
+      </tr>
+      <tr>
+        <td>S8</td>
+        <td>J4.1</td>
+        <td>Taifafeki，平板</td>
+        <td>VHL 查看器：通行码解锁、错误通行码测试、在 Onesa 记录访问</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ41Received.html">TrustDemoJ41Received</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Provenance-TrustDemoJ41Received.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41Access.html">TrustDemoJ41Access</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/AuditEvent-TrustDemoJ41Access.json">json</a>), <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41WrongPasscode.html">TrustDemoJ41WrongPasscode</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/AuditEvent-TrustDemoJ41WrongPasscode.json">json</a>)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 id="section-1">国家配置文件</h3>
+
+  <p>每个国家只记录其自身步骤所需的内容，因此在两国存在差异之处，本指南为每个国家提供一个小型配置文件。每个配置文件的描述说明它在旅程中如何使用以及其约束为何存在。这些是演示用配置文件：它们展示每个步骤所依赖的内容，并非某个卫生部的国家规范。</p>
+
+  <table class="grid">
+    <thead>
+      <tr>
+        <th>国家</th>
+        <th>时刻</th>
+        <th>配置文件</th>
+        <th>存在原因</th>
+        <th>示例</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Taifafeki</td>
+        <td>J1</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoTaifafekiPatient.html">TrustDemoTaifafekiPatient</a></td>
+        <td>出生医院的新生儿：使用医院编号，因为父母来自 Onesa 的婴儿没有 Taifafeki 公民 id。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Patient-TrustDemoTaifafekiSomsak.html">TrustDemoTaifafekiSomsak</a></td>
+      </tr>
+      <tr>
+        <td>Taifafeki</td>
+        <td>J1</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoTaifafekiImmunization.html">TrustDemoTaifafekiImmunization</a></td>
+        <td>一个出生剂次，包含已签名的数字疫苗接种证书（DVC）（HCERT）所携带的每个字段：产品、日期、批号、剂次编号、接种者。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ1HepB.html">TrustDemoJ1HepB</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ1Bcg.html">TrustDemoJ1Bcg</a></td>
+      </tr>
+      <tr>
+        <td>Taifafeki</td>
+        <td>J4.1</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoTaifafekiVhlReceipt.html">TrustDemoTaifafekiVhlReceipt</a></td>
+        <td>Taifafeki 的诊所通过 VHL 查看来自 Onesa 的摘要时所保留的内容：仅查看，不复制。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ41Received.html">TrustDemoJ41Received</a></td>
+      </tr>
+      <tr>
+        <td>Onesa</td>
+        <td>J2</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaPatient.html">TrustDemoOnesaPatient</a></td>
+        <td>社区卫生工作者（CHW）登记的儿童，在民事登记跟进之前使用临时 id。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Patient-TrustDemoSomsak.html">TrustDemoSomsak</a></td>
+      </tr>
+      <tr>
+        <td>Onesa</td>
+        <td>J2b</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaHousehold.html">TrustDemoOnesaHousehold</a></td>
+        <td>家庭名册，CHW 正是借此发现遗漏的新生儿。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Group-TrustDemoHousehold.html">TrustDemoHousehold</a></td>
+      </tr>
+      <tr>
+        <td>Onesa</td>
+        <td>J2b</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaRegistration.html">TrustDemoOnesaRegistration</a></td>
+        <td>离线登记表单（结构化数据采集，Structured Data Capture）上的答案，予以保留，使提取出的记录可以追溯到它们。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/QuestionnaireResponse-TrustDemoJ2Registration.html">TrustDemoJ2Registration</a></td>
+      </tr>
+      <tr>
+        <td>Onesa</td>
+        <td>J2b</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaReportedImmunization.html">TrustDemoOnesaReportedImmunization</a></td>
+        <td>未经验证读取的外国剂次：primarySource 为 false，以家庭为来源，不计入接种计划。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ2HepBReported.html">TrustDemoJ2HepBReported</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ2BcgReported.html">TrustDemoJ2BcgReported</a></td>
+      </tr>
+      <tr>
+        <td>Onesa</td>
+        <td>J2b</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaReferral.html">TrustDemoOnesaReferral</a></td>
+        <td>CHW 向诊所发出的转诊，指向待验证的已报告剂次。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/ServiceRequest-TrustDemoJ2Referral.html">TrustDemoJ2Referral</a></td>
+      </tr>
+      <tr>
+        <td>Onesa</td>
+        <td>J3a</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaDvcVerification.html">TrustDemoOnesaDvcVerification</a></td>
+        <td>谁对照 GDHCN 信任列表验证了哪份 DVC，以及它取代了哪些已报告剂次。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ3Verification.html">TrustDemoJ3Verification</a></td>
+      </tr>
+      <tr>
+        <td>Onesa</td>
+        <td>J3</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaImmunization.html">TrustDemoOnesaImmunization</a></td>
+        <td>国家接种计划中的一个剂次：Onesa EPI 代码为必需，外国产品代码保留在其旁。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3HepB.html">TrustDemoJ3HepB</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3Bcg.html">TrustDemoJ3Bcg</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoOnesaPenta1.html">TrustDemoOnesaPenta1</a></td>
+      </tr>
+      <tr>
+        <td>Onesa</td>
+        <td>J4.1</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/StructureDefinition-TrustDemoOnesaVhlAccess.html">TrustDemoOnesaVhlAccess</a></td>
+        <td>每次 VHL 访问都在本国记录，包括被拒绝的访问（IHE BALP 模式）。</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41Access.html">TrustDemoJ41Access</a>, <a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41WrongPasscode.html">TrustDemoJ41WrongPasscode</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 id="section-2">载荷抽屉</h3>
+
+  <p>演练的 <code class="language-plaintext highlighter-rouge">MOCK_FHIR_RESOURCES</code>（<code class="language-plaintext highlighter-rouge">src/data/storylineData.ts</code>）中的各个键，以及替代每个键的示例：</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>键</th>
+        <th>类型</th>
+        <th>示例</th>
+        <th>变更内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">patient</code></td>
+        <td>Patient</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Patient-TrustDemoSomsak.html">TrustDemoSomsak</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Patient-TrustDemoSomsak.json">json</a>)</td>
+        <td>临时 id 系统属于本指南（<code class="language-plaintext highlighter-rouge">http://smart.who.int/trust-demo/sid/onesa-temporary-id</code>），而非卫生部 URL。</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">group</code></td>
+        <td>Group</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Group-TrustDemoHousehold.html">TrustDemoHousehold</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Group-TrustDemoHousehold.json">json</a>)</td>
+        <td><code class="language-plaintext highlighter-rouge">actual = true</code>；成员为 Patient（FHIR R4 Group 列出的是 Patient，因此每位父母都是一个 Patient，并另有其 RelatedPerson 角色）；家庭代码为 <code class="language-plaintext highlighter-rouge">FAMMEMB</code>，文本为“Household”。</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">immunizationHepB</code></td>
+        <td>Immunization</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Immunization-TrustDemoJ3HepB.html">TrustDemoJ3HepB</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Immunization-TrustDemoJ3HepB.json">json</a>)</td>
+        <td>两种编码，与演练的载荷中相同；另加 CVX <code class="language-plaintext highlighter-rouge">08</code>。产品和接种计划代码系统是本指南的示意性替代品。</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">serviceRequest</code></td>
+        <td>ServiceRequest</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/ServiceRequest-TrustDemoJ2Referral.html">TrustDemoJ2Referral</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/ServiceRequest-TrustDemoJ2Referral.json">json</a>)</td>
+        <td>代码为 SNOMED CT <code class="language-plaintext highlighter-rouge">3457005</code>（患者转诊），附演练中的文本；验证原因保留在 <code class="language-plaintext highlighter-rouge">reasonCode</code> 中。</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">provenance</code></td>
+        <td>Provenance</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ3Verification.html">TrustDemoJ3Verification</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/Provenance-TrustDemoJ3Verification.json">json</a>)</td>
+        <td>验证方、录入者和作者代理；DVC 作为来源实体，已报告剂次标记为已移除。COSE 签名保留在 DVC 中，而不是在 <code class="language-plaintext highlighter-rouge">Provenance.signature</code> 中。</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">auditEvent</code></td>
+        <td>AuditEvent</td>
+        <td><a href="https://worldhealthorganization.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41Access.html">TrustDemoJ41Access</a> (<a href="https://worldhealthorganization.github.io/smart-trust-demo/AuditEvent-TrustDemoJ41Access.json">json</a>)</td>
+        <td>R4 结构：<code class="language-plaintext highlighter-rouge">type</code>、<code class="language-plaintext highlighter-rouge">subtype</code>、<code class="language-plaintext highlighter-rouge">outcome</code>、<code class="language-plaintext highlighter-rouge">outcomeDesc</code>；接收方为请求者，Onesa 网关为保管者和观察者。通行码从不记录。</td>
+      </tr>
+      <tr>
+        <td><code class="language-plaintext highlighter-rouge">cborPayload</code></td>
+        <td>（非 FHIR）</td>
+        <td>—</td>
+        <td>DVC 载荷是 HCERT（CBOR/COSE），而非 FHIR 资源；其逻辑模型是 smart-trust-phw 的 DVCMinPreQual。在 bean ig01 完成之前，它不会成为此处的示例。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 id="section-3">示例相对于演练副本的变更</h3>
+
+  <ul>
+    <li>代码系统。每剂次的产品均以其 WHO PreQual 产品标识符编码（乙肝出生剂次为 <code class="language-plaintext highlighter-rouge">a3K3X000006MiiXUAS</code>，以此类推），来自 <a href="https://worldhealthorganization.github.io/smart-pcmt-vaxprequal/ValueSet-PreQualProductIds.html">SMART Product Dataset for Prequalified Vaccines</a> 的代码系统 <code class="language-plaintext highlighter-rouge">http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds</code>，ValueSet <code class="language-plaintext highlighter-rouge">TrustDemoVaccineProducts</code> 列出各旅程所用的产品；每个虚构剂次所接种的具体产品仅作示意。Onesa 的接种计划代码（<code class="language-plaintext highlighter-rouge">XXU-EPI-HEPB-BD</code> 等）仅作示意，在此被定义为代码系统 <code class="language-plaintext highlighter-rouge">TrustDemoOnesaEpiSchedule</code>，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部。</li>
+    <li>国家。在 GDHCN DEV 网络上，Taifafeki 由测试参与方 XXR 扮演，Onesa 由虚构的 XXU 扮演。两者都不是生产密钥。</li>
+    <li>通行码。演练在屏幕上显示 <code class="language-plaintext highlighter-rouge">4829</code>。没有任何示例存储通行码：同意和审计记录仅说明已检查过一个通行码。</li>
+    <li>日期。与演练中相同：出生 2025-10-28，J2 2025-11-18，J3 2025-11-25，在 Onesa 接种的剂次 2025-12-10 和 2026-07-28，出行 2026-10-28。</li>
+  </ul>
+
+</div>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/journey-examples.md" data-repo="WorldHealthOrganization/smart-trust-demo" href="https://github.com/WorldHealthOrganization/smart-trust-demo/edit/main/input/pagecontent/journey-examples.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/WorldHealthOrganization/smart-trust-demo/blob/main/input/pagecontent/journey-examples.md", "repo": "WorldHealthOrganization/smart-trust-demo", "branch": "main", "path": "input/pagecontent/journey-examples.md", "lines": [{"t":"By device screen","l":14},{"t":"Country profiles","l":27},{"t":"The payload drawer","l":46},{"t":"What the examples change from the walkthrough's copies","l":61}]}</script>
+
+<script src="../assets/ig-source-links.js"></script>
+
+
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
+<script>(function(){
+var main=document.getElementById("main-content");
+if(!main||main.querySelector(".igi-contents"))return;
+var rowsOf=function igContentsRows(hs) {
+  let top = 0;
+  for (const h of hs)
+    if (h.level >= 2 && h.level <= 4 && (top === 0 || h.level < top))
+      top = h.level;
+  if (top === 0)
+    return [];
+  const rows = [];
+  let count = 0;
+  for (const h of hs)
+    if (h.level === top) {
+      rows.push({ i: h.i, sub: [] });
+      count++;
+    } else if (h.level === top + 1) {
+      const last = rows[rows.length - 1];
+      if (last)
+        last.sub.push(h.i);
+      else
+        rows.push({ i: h.i, sub: [] });
+      count++;
+    }
+  return count < 2 ? [] : rows;
+};
+var hs=Array.prototype.filter.call(main.querySelectorAll("h2,h3,h4"),function(h){return !h.closest(".igi-contents,#ig-footer,.ig-edit,.ig-metadata")&&h.textContent.trim();});
+var rows=rowsOf(hs.map(function(h,i){return {level:+h.tagName.charAt(1),i:i};}));
+if(!rows.length)return;
+var used={};
+function slug(t){var b=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"section",s=b,i=1;while(used[s]||document.getElementById(s))s=b+"-"+(++i);used[s]=1;return s;}
+function item(h){if(!h.id)h.id=slug(h.textContent);var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;
+var c=h.cloneNode(true);Array.prototype.forEach.call(c.querySelectorAll(".anchor-heading,.fa-sec-box,svg,button"),function(n){n.remove();});
+a.textContent=c.textContent.replace(/\s+/g," ").trim();li.appendChild(a);return li;}
+var nav=document.createElement("nav");nav.className="igi-contents";nav.setAttribute("aria-label","Contents");
+var t=document.createElement("p");t.className="igi-contents-title";t.textContent="Contents";nav.appendChild(t);
+var ul=document.createElement("ul");
+rows.forEach(function(r){var li=item(hs[r.i]);if(r.sub.length){var sub=document.createElement("ul");sub.className="igi-contents-sub";r.sub.forEach(function(k){sub.appendChild(item(hs[k]));});li.appendChild(sub);}ul.appendChild(li);});
+nav.appendChild(ul);
+var h1=main.querySelector("h1"),meta=main.querySelector(":scope > .ig-metadata");
+var at=h1&&h1.parentNode===main?h1:meta||null;
+var bannerOf=function igIsBanner(e) {
+  if (e.display === "none" || /^(H[1-6]|SCRIPT|STYLE|NAV)$/i.test(e.tag))
+    return !1;
+  if (/(^|[\s_-])(hero|banner)([\s_-]|$)/i.test(e.cls))
+    return !0;
+  return !!e.bgImage && e.bgImage !== "none";
+};
+var b=null,first=hs[0];
+for(var n=main.firstElementChild;n&&n!==first&&!n.contains(first);n=n.nextElementSibling){var cs=getComputedStyle(n);
+if(bannerOf({tag:n.tagName,cls:n.getAttribute("class")||"",bgImage:cs.backgroundImage,display:cs.display}))b=n;}
+if(b&&(!at||at.compareDocumentPosition(b)&4))at=b;
+if(at)at.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.firstChild);
+})();</script>
+</main>
+
+</body>
+</html>

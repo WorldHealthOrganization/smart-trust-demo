@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/en/cat-harness/harness/folio-assistant-core/",
+  "url": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/en/cat-harness/harness/folio-assistant-core/",
+  "@type": "WebPage",
+  "name": "Folio Assistant Core on SMART Trust demonstrator: journeys J1 to J4",
+  "about": {
+    "@id": "https://litlfred.github.io/folio-assistant-core/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "folio-assistant-core",
+    "name": "Folio Assistant Core",
+    "description": "What a folio IS — the content-object model, the block kinds, the adapters, and the `folio` graph typology itself.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/folio-assistant-core",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/cat-harness/"
+      },
+      {
+        "identifier": "cat-harness-tools"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "pinnedCommit",
+      "value": "54484a85b464e2cbc1d26d41c40f32d4a1f7bf0f"
+    },
+    "keywords": [
+      "document"
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/",
+    "name": "SMART Trust demonstrator: journeys J1 to J4"
+  },
+  "significantLink": [
+    "https://litlfred.github.io/folio-assistant/folio-assistant-core/",
+    "https://github.com/litlfred/folio-assistant-core/tree/54484a85b464e2cbc1d26d41c40f32d4a1f7bf0f",
+    "https://github.com/litlfred/folio-assistant-core/blob/54484a85b464e2cbc1d26d41c40f32d4a1f7bf0f/README.md",
+    "https://github.com/litlfred/folio-assistant-core/blob/54484a85b464e2cbc1d26d41c40f32d4a1f7bf0f/AGENTS.md"
+  ]
+}

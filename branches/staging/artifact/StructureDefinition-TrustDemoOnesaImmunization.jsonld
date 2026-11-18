@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "StructureDefinition-TrustDemoOnesaImmunization",
+  "@type": "fhir:StructureDefinition",
+  "dcterms:identifier": "StructureDefinition/TrustDemoOnesaImmunization",
+  "schema:name": "TrustDemoOnesaImmunization",
+  "dcterms:title": "Onesa: dose on the national schedule",
+  "dcterms:description": "How it is used: J3 and after. These are the Taifafeki birth doses once the district clinic has verified them, and every dose given in Onesa.\n\nWhy: the schedule engine in Onesa works on the national EPI codes, so each dose must carry one. A dose that came from abroad keeps the issuer's product code beside the national one, added through the ConceptMap and confirmed by the nurse. Nothing the other country said is overwritten. A verified foreign dose is recorded from its primary source, the signing hospital, and its Provenance says how it was verified.",
+  "schema:version": "0.1.0",
+  "dcterms:type": "Structures: Resource Profiles",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoOnesaImmunization"
+  },
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-TrustDemoOnesaImmunization.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/af9f5523918ec8f87ed426c6a535b6176d625c9f/resources/StructureDefinition/TrustDemoOnesaImmunization.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "9c51bebac7d177ef6377d2106af4c689f244fc2d"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.who.int.trust-demo",
+    "schema:version": "0.1.0",
+    "schema:sameAs": {
+      "@id": "http://smart.who.int/trust-demo"
+    }
+  }
+}

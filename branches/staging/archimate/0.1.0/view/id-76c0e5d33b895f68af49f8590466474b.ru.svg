@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="827" viewBox="0 0 1800 827" font-family='system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif' role="img" aria-label="DPI-H Reference Architecture — DPI-H layers (Fig. 3.5)">
+<rect width="1800" height="827" fill="#f8f9fb"/>
+<rect width="1800" height="72" fill="#14213d"/>
+<text x="36" y="42" font-size="26" font-weight="800" fill="#ffffff">Эталонная архитектура DPI-H — уровни DPI-H (рис. 3.5)</text>
+<text x="36" y="61" font-size="11" fill="#c9d6e6" font-style="italic">Построено по модели ArchiMate «Демонстратор SMART Trust в эталонной архитектуре DPI-H ВОЗ», представление «Эталонная архитектура DPI-H — уровни DPI-H (рис. 3.5)»</text>
+<rect x="36.0" y="82.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 90 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="100.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">ПРИЛОЖЕНИЯ В МЕСТЕ ОБСЛУЖИВАНИЯ И ФУНКЦИОНАЛЬНЫЕ ПРИЛОЖЕНИЯ</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/provider-systems/" target="_top">
+<rect x="48.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Системы поставщиков услуг</text>
+<text x="57.0" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· EMR / EHR · HIS ·</text>
+<text x="57.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  LIMS · PACS</text>
+<text x="57.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· RIS</text>
+<text x="57.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Электронное назначение (EPMA)</text>
+<text x="57.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Клиенты телемедицины</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/case-management/" target="_top">
+<rect x="206.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="215.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Ведение случаев</text>
+<text x="215.7" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Электронная</text>
+<text x="215.7" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">Реестр иммунизации</text>
+<text x="215.7" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· ВИЧ / ТБ / MNCH</text>
+<text x="215.7" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">реестры</text>
+<text x="215.7" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Специфичные для заболеваний</text>
+<text x="215.7" y="203.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">инструментарий</text>
+<text x="215.7" y="215.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Последующее наблюдение пациентов</text>
+<text x="215.7" y="227.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">рабочие процессы</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/dispensing-system/" target="_top">
+<rect x="365.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="374.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Система отпуска лекарств</text>
+<text x="374.3" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Система управления аптекой</text>
+<text x="374.3" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Приложения для отпуска лекарств</text>
+<text x="374.3" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Фармаконадзор</text>
+<text x="374.3" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">ввод</text>
+<text x="374.3" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Запасы в месте обслуживания</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/chw-community/" target="_top">
+<rect x="524.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CHW и сообщество</text>
+<text x="533.0" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Полевые приложения CHW</text>
+<text x="533.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Аутрич / кампании</text>
+<text x="533.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Инструменты с приоритетом офлайн-работы</text>
+<text x="533.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Домохозяйство</text>
+<text x="533.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">регистрация</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/citizen-patient-apps/" target="_top">
+<rect x="682.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="691.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Гражданин / пациент</text>
+<text x="691.7" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Приложения</text>
+<text x="691.7" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PHR / Цифровое здравоохранение</text>
+<text x="691.7" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">Кошелёк</text>
+<text x="691.7" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Самостоятельная запись на приём</text>
+<text x="691.7" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Оповещение граждан</text>
+<text x="691.7" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">клиент</text>
+<text x="691.7" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Интерфейс панели согласий</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/supply-chain-functional/" target="_top">
+<rect x="841.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="850.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Цепочка поставок</text>
+<text x="850.3" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Функциональные</text>
+<text x="850.3" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· WMS / LMIS</text>
+<text x="850.3" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Управление транспортом (TMS)</text>
+<text x="850.3" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Закупки /</text>
+<text x="850.3" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">электронный тендер</text>
+<text x="850.3" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Мониторинг холодовой цепи</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/health-coverage-claims/" target="_top">
+<rect x="1000.0" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Охват медицинскими услугами и</text>
+<text x="1009.0" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Возмещение</text>
+<text x="1009.0" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Подготовка заявок на возмещение</text>
+<text x="1009.0" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Реестр бенефициаров</text>
+<text x="1009.0" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Участник / поставщик услуг</text>
+<text x="1009.0" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">порталы</text>
+<text x="1009.0" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Договоры и льготы</text>
+<text x="1009.0" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">Упр.</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/financing-workforce-ops/" target="_top">
+<rect x="1158.7" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1167.7" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Финансирование и</text>
+<text x="1167.7" y="142.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Кадровые операции</text>
+<text x="1167.7" y="158.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IFMIS / Казначейство</text>
+<text x="1167.7" y="170.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· HFIS / Бюджет</text>
+<text x="1167.7" y="182.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">планирование · HRIS</text>
+<text x="1167.7" y="194.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Расчёт заработной платы</text>
+<text x="1167.7" y="206.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· LMS / обучение</text>
+<text x="1167.7" y="218.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Аудит и раскрытие</text>
+<text x="1167.7" y="230.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">инструменты</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/public-health-apps/" target="_top">
+<rect x="1317.3" y="110.0" width="148.7" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1326.3" y="127.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Приложения общественного здравоохранения</text>
+<text x="1326.3" y="143.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Отслеживание контактов</text>
+<text x="1326.3" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Управление вспышками</text>
+<text x="1326.3" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Эпиднадзор за заболеваниями</text>
+<text x="1326.3" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">панели мониторинга</text>
+<text x="1326.3" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Оповещение о вспышках</text>
+</a>
+<rect x="36.0" y="270.0" width="1442.0" height="204.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 278 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="288.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">ПОВТОРНО ИСПОЛЬЗУЕМЫЕ КОМПОНЕНТЫ DPI-H</text>
+<rect x="48.0" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="58.0" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Клинические услуги</text>
+<text x="58.0" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Компоненты, использующие LHR и</text>
+<text x="58.0" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">знания в месте оказания помощи</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/computable-decision-support-engine/" target="_top">
+<rect x="56.0" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="65.0" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Вычислимые решения</text>
+<text x="65.0" y="386.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Механизм поддержки</text>
+<text x="65.0" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· CDS Hooks · SMART on FHIR</text>
+<text x="65.0" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Использует LHR +</text>
+<text x="65.0" y="426.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">основанные на стандартах вычислимые</text>
+<text x="65.0" y="438.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">рекомендации</text>
+</a>
+<rect x="254.9" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="264.9" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Цепочка поставок</text>
+<text x="264.9" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Общие сервисы для поставщиков и</text>
+<text x="264.9" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">данные о прослеживаемости в логистике</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/supplier-registry/" target="_top">
+<rect x="262.9" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="271.9" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Реестр поставщиков</text>
+<text x="271.9" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Проверенные производители, 3PL</text>
+<text x="271.9" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Повторное использование между доменами для</text>
+<text x="271.9" y="411.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">закупки и прослеживаемость</text>
+</a>
+<rect x="461.7" y="298.0" width="196.9" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="471.7" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Финансирование здравоохранения</text>
+<text x="471.7" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Справочные данные, определяющие охват и</text>
+<text x="471.7" y="340.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">права для закупок</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/benefits-package-registry/" target="_top">
+<rect x="469.7" y="354.0" width="180.9" height="100.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="478.7" y="371.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Пакет льгот</text>
+<text x="478.7" y="386.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Реестр</text>
+<text x="478.7" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Авторитетная спецификация</text>
+<text x="478.7" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">покрываемые услуги, тарифы</text>
+<text x="478.7" y="426.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">и правила</text>
+<text x="478.7" y="438.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Используется возмещением и PFM</text>
+</a>
+<rect x="668.6" y="298.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="678.6" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Общественное здравоохранение и аналитика</text>
+<text x="678.6" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Платформы для вторичного использования, аналитики, реагирования</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/ph-surveillance-platform/" target="_top">
+<rect x="676.6" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="685.6" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Платформа эпиднадзора ОЗ</text>
+<text x="685.6" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Выявление событий / случаев</text>
+<text x="685.6" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Рабочие процессы при вспышках</text>
+<text x="685.6" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· IHR / IPS трансграничные</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/health-management-information-system/" target="_top">
+<rect x="871.9" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="880.9" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Управление здравоохранением</text>
+<text x="880.9" y="374.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Информационная система</text>
+<text x="880.9" y="390.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Агрегированные показатели · МиО</text>
+<text x="880.9" y="402.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· панели мониторинга</text>
+<text x="880.9" y="414.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Эффективность и справедливость</text>
+</a>
+<rect x="1077.3" y="298.0" width="398.7" height="164.0" rx="6" fill="#ffffff" stroke="#9aa3b2" stroke-width="1.2"/>
+<text x="1087.3" y="316.0" font-size="13" font-weight="700" fill="#14213d" text-anchor="start">Сквозной аспект</text>
+<text x="1087.3" y="329.0" font-size="9" font-weight="400" fill="#6b778a" text-anchor="start" font-style="italic">Сквозной аспект</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/ai-enabled-intelligence/" target="_top">
+<rect x="1085.3" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1094.3" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Аналитика на основе ИИ</text>
+<text x="1094.3" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Суверенные, повторно используемые модели</text>
+<text x="1094.3" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Стратификация рисков</text>
+<text x="1094.3" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Прогнозирование климата и здоровья</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/secondary-use/" target="_top">
+<rect x="1280.6" y="342.0" width="187.4" height="112.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1289.6" y="359.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Вторичное использование</text>
+<text x="1289.6" y="375.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Курируемые, с согласием,</text>
+<text x="1289.6" y="387.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">поток обезличенных выгрузок</text>
+<text x="1289.6" y="399.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">в обучение ИИ / МО,</text>
+<text x="1289.6" y="411.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">аналитика в общественных интересах,</text>
+<text x="1289.6" y="423.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">эффективность и справедливость, IHR /</text>
+<text x="1289.6" y="435.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">Отчётность IPS</text>
+</a>
+<rect x="36.0" y="486.0" width="1442.0" height="176.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 494 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="504.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">ОБЩИЙ УРОВЕНЬ ДАННЫХ DPI-H</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/client-registry-for-health/" target="_top">
+<rect x="48.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Реестр пациентов системы здравоохранения</text>
+<text x="57.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Идентичность лица</text>
+<text x="57.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Отраслевой главный индекс пациентов</text>
+<text x="57.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">индекс</text>
+<text x="57.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Уникальный ID здравоохранения</text>
+<text x="57.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Сверка идентичности</text>
+<text x="57.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Связывание записей</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/lifelong-health-record/" target="_top">
+<rect x="252.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="261.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Пожизненная медицинская запись</text>
+<text x="261.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Медицинская запись</text>
+<text x="261.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Лонгитюдная запись</text>
+<text x="261.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Хранилище на основе FHIR</text>
+<text x="261.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Происхождение, версионирование</text>
+<text x="261.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Представления в рамках согласия</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/health-workforce-registry/" target="_top">
+<rect x="456.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="465.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Реестр медицинских кадров</text>
+<text x="465.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Кадры</text>
+<text x="465.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Проверенные поставщики услуг,</text>
+<text x="465.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">квалификации, лицензирование</text>
+<text x="465.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Используется EMR, возмещением,</text>
+<text x="465.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">эпиднадзор</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/health-facility-registry/" target="_top">
+<rect x="660.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="669.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Реестр медицинских учреждений</text>
+<text x="669.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Местоположение</text>
+<text x="669.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Перечень всех медицинских</text>
+<text x="669.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">учреждения (государственные +</text>
+<text x="669.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">частные)</text>
+<text x="669.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Геокодирование, оказываемые услуги</text>
+<text x="669.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· зоны обслуживания</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/product-registry/" target="_top">
+<rect x="864.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="873.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Реестр продуктов</text>
+<text x="873.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Медицинская продукция</text>
+<text x="873.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Медицинская продукция, изделия и</text>
+<text x="873.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">товары</text>
+<text x="873.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· GTIN · IDMP · UDI · GS1</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/terminology-service/" target="_top">
+<rect x="1068.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1077.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Терминологическая служба</text>
+<text x="1077.0" y="547.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Семантика – смысл</text>
+<text x="1077.0" y="559.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Кодовые системы, наборы значений и</text>
+<text x="1077.0" y="571.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">карты концептов</text>
+<text x="1077.0" y="583.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· SNOMED · ICD · LOINC</text>
+<text x="1077.0" y="595.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Локальные кодовые системы</text>
+<text x="1077.0" y="607.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Эталонные наборы значений</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/logical-information-model-repository/" target="_top">
+<rect x="1272.0" y="514.0" width="194.0" height="136.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1281.0" y="531.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Логическая информационная модель</text>
+<text x="1281.0" y="546.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Репозиторий</text>
+<text x="1281.0" y="562.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Синтаксис – структура</text>
+<text x="1281.0" y="574.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Структурные артефакты и</text>
+<text x="1281.0" y="586.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">национальные наборы данных</text>
+<text x="1281.0" y="598.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Профили FHIR · eObjects ·</text>
+<text x="1281.0" y="610.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">  IPS</text>
+<text x="1281.0" y="622.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· наборы данных</text>
+<text x="1281.0" y="634.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Версионирование и кураторство</text>
+</a>
+<rect x="36.0" y="674.0" width="1442.0" height="125.0" rx="8" fill="#d3ffff" stroke="#709e9e" stroke-width="1.4"/>
+<path d="M36 682 a8 8 0 0 1 8 -8 h1426 a8 8 0 0 1 8 8 v16 h-1442 z" fill="#4c6b6b"/>
+<text x="50.0" y="692.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">БАЗОВАЯ DPI (DPI-F)</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/foundational-identity/" target="_top">
+<rect x="48.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="57.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Базовая идентификация</text>
+<text x="57.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· eKYC · MFA · биометрия</text>
+<text x="57.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Национальный / федеративный ID</text>
+<text x="57.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Регистр населения</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/national-trust-services/" target="_top">
+<rect x="286.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="295.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Национальные службы доверия</text>
+<text x="295.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· PKI</text>
+<text x="295.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· цифровые подписи</text>
+<text x="295.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Проверяемые учётные данные</text>
+<text x="295.0" y="771.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Удостоверяющий центр · GDHCN</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/payment-rails/" target="_top">
+<rect x="524.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="533.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Платёжная инфраструктура</text>
+<text x="533.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Казначейство · быстрые платежи</text>
+<text x="533.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Выплаты поставщикам услуг</text>
+<text x="533.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Заработная плата кадров</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/data-exchange-fabric/" target="_top">
+<rect x="762.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="771.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Инфраструктура обмена данными</text>
+<text x="771.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Межсекторальные</text>
+<text x="771.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Масштабируемая арх.</text>
+<text x="771.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Опосредованный доступ к API</text>
+<text x="771.0" y="771.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Аудит, ограничение нагрузки, SLA</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/crvs-other-sector/" target="_top">
+<rect x="1000.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1009.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">CRVS и другие секторы</text>
+<text x="1009.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Общегосударственный</text>
+<text x="1009.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Рождение, смерть (причина: ICD)</text>
+<text x="1009.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Социальная защита, образование</text>
+</a>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/geo-location-notification/" target="_top">
+<rect x="1238.0" y="702.0" width="228.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1247.0" y="719.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Геолокация · Уведомления</text>
+<text x="1247.0" y="735.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Межсекторальные данные + каналы</text>
+<text x="1247.0" y="747.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Общий геореестр · адрес · SMS</text>
+<text x="1247.0" y="759.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· эл. почта · push</text>
+</a>
+<rect x="1494.0" y="82.0" width="270.0" height="717.0" rx="10" fill="#d3ffff" stroke="#4c6b6b" stroke-width="2" stroke-dasharray="8 5"/>
+<path d="M1494 92 a10 10 0 0 1 10 -10 h250 a10 10 0 0 1 10 10 v26 h-270 z" fill="#4c6b6b"/>
+<text x="1629.0" y="106.0" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">ИНТЕРОПЕРАБЕЛЬНОСТЬ (СКВОЗНОЙ АСПЕКТ)</text>
+<a href="../../../ru/smart-trust-demo/archimate/0.1.0/element/dpi-f-information-mediator/" target="_top">
+<rect x="1506.0" y="122.0" width="246.0" height="85.0" rx="6" fill="#b5ffff" stroke="#648c8c" stroke-width="1.3"/>
+<text x="1515.0" y="139.0" font-size="11.5" font-weight="700" fill="#14213d" text-anchor="start">Информационный посредник DPI-F</text>
+<text x="1515.0" y="155.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· API-шлюз · HIE</text>
+<text x="1515.0" y="167.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Аутентифицирует, авторизует, маршрутизирует,</text>
+<text x="1515.0" y="179.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">преобразует, ведёт аудит каждой транзакции</text>
+<text x="1515.0" y="191.0" font-size="9.5" font-weight="400" fill="#2d3748" text-anchor="start">· Повторное использование инфраструктуры DPI-F при наличии</text>
+</a>
+<text x="1506.0" y="223.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">ОТКРЫТЫЕ СТАНДАРТЫ</text>
+<rect x="1506.0" y="231.0" width="62.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1537.4" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">HL7 FHIR</text>
+<rect x="1574.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1592.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IHE</text>
+<rect x="1615.6" y="231.0" width="57.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1644.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">openEHR</text>
+<rect x="1678.8" y="231.0" width="34.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1696.2" y="244.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IPS</text>
+<rect x="1506.0" y="255.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1540.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SNOMED CT</text>
+<rect x="1580.4" y="255.0" width="51.6" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1606.2" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">ICD-11</text>
+<rect x="1638.0" y="255.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1661.0" y="268.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">LOINC</text>
+<rect x="1506.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1543.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">GS1 / GTIN</text>
+<rect x="1586.0" y="279.0" width="74.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1623.0" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">IDMP / UDI</text>
+<rect x="1666.0" y="279.0" width="68.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1700.2" y="292.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">CDS Hooks</text>
+<rect x="1506.0" y="303.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1551.4" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">SMART on FHIR</text>
+<rect x="1602.8" y="303.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1653.8" y="316.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">OpenID / OAuth2</text>
+<rect x="1506.0" y="327.0" width="46.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1529.0" y="340.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">DICOM</text>
+<text x="1506.0" y="365.0" font-size="10.5" font-weight="700" fill="#14213d" text-anchor="start">ШАБЛОНЫ ИНТЕГРАЦИИ</text>
+<rect x="1506.0" y="373.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">REST API (FHIR R4)</text>
+<rect x="1636.4" y="373.0" width="90.8" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1681.8" y="386.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Потоки событий</text>
+<rect x="1506.0" y="397.0" width="96.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1554.2" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Документ (IHE)</text>
+<rect x="1608.4" y="397.0" width="102.0" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1659.4" y="410.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Федеративный запрос</text>
+<rect x="1506.0" y="421.0" width="124.4" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1568.2" y="434.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Массовая выгрузка данных ($export)</text>
+<rect x="1506.0" y="445.0" width="141.2" height="19" rx="9.5" fill="#b5ffff" stroke="#648c8c" stroke-width="1.1"/>
+<text x="1576.6" y="458.0" font-size="9" font-weight="700" fill="#14213d" text-anchor="middle">Трансграничный обмен (IHR/IPS)</text>
+</svg>

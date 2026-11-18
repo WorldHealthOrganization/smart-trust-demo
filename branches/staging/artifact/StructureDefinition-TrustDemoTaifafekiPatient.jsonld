@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "StructureDefinition-TrustDemoTaifafekiPatient",
+  "@type": "fhir:StructureDefinition",
+  "dcterms:identifier": "StructureDefinition/TrustDemoTaifafekiPatient",
+  "schema:name": "TrustDemoTaifafekiPatient",
+  "dcterms:title": "Taifafeki: newborn at the birth hospital",
+  "dcterms:description": "How it is used: J1. Kesaro Provincial Hospital registers Somsak under its own hospital number on the day he is born.\n\nWhy: a baby born in Taifafeki to parents from Onesa has no Taifafeki citizen id, so the hospital number is the only identifier the hospital can put behind the dose records it signs. The DVCs it prints carry the name and date of birth, not this number. The family's home country therefore cannot rely on any Taifafeki identifier, and links the doses to its own patient (see the patient profile of Onesa).",
+  "schema:version": "0.1.0",
+  "dcterms:type": "Structures: Resource Profiles",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoTaifafekiPatient"
+  },
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-TrustDemoTaifafekiPatient.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-demo/af9f5523918ec8f87ed426c6a535b6176d625c9f/resources/StructureDefinition/TrustDemoTaifafekiPatient.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "9c51bebac7d177ef6377d2106af4c689f244fc2d"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.who.int.trust-demo",
+    "schema:version": "0.1.0",
+    "schema:sameAs": {
+      "@id": "http://smart.who.int/trust-demo"
+    }
+  }
+}

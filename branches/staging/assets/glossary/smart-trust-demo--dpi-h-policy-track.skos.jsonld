@@ -1,0 +1,1989 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "_generated": "folio-assistant-core/scripts/glossary-page.ts — do not hand-edit; run `bun run cat glossary:page`",
+  "@graph": [
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": "DPI-H workshop, policy-maker track: terms you will hear",
+      "skos:definition": "The plain-language glossary handed to the DPI-H for Health workshop's policy-maker track, one SKOS concept per term, definitions verbatim from the handout, except where the DPI-H Reference Architecture glossary (smart-ra) defines the same or a close concept: there the term describes smart-ra's concept (iri) with smart-ra's definition, verbatim, and the handout's wording is dropped (owner, 2026-11-16). Each term links to the same concept in the DPI-H Reference Architecture glossary (smart-ra: dpi-h-ra, organizations) and the Digital Transformation Handbook for Primary Health Care glossary (dth-phc), by exactMatch where both mean the same thing, closeMatch where close, narrowMatch where the handout's term covers several of theirs, and related where it only touches one. Every term is a candidate until a person adopts it.",
+      "dcterms:modified": "2026-11-16",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "dcterms:subject": "digital-health-trust"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-public-infrastructure",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Digital Public Infrastructure"
+        }
+      ],
+      "skos:altLabel": [
+        "Digital public infrastructure",
+        "DPI"
+      ],
+      "skos:definition": [
+        {
+          "@value": "A set of shared digital systems that should be secure and interoperable, and can be built on open standards and specifications to deliver and provide equitable access to public and/or private services at societal scale and are governed by applicable legal frameworks and enabling rules to drive development, inclusion, innovation, trust, and competition, while respecting human rights and fundamental freedoms. (G20/UNDP)"
+        }
+      ],
+      "skos:notation": "DPI",
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, digital-public-infrastructure), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#digital-public-infrastructure",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-digital-public-infrastructure",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Health Digital Public Infrastructure"
+        }
+      ],
+      "skos:altLabel": [
+        "DPI for health",
+        "DPI-H"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Health Digital Public Infrastructure (DPI-H) refers to digital resources that are built as a shared means for fulfilling multiple health agency functions."
+        }
+      ],
+      "skos:notation": "DPI-H",
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, health-digital-public-infrastructure), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#health-digital-public-infrastructure",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/foundational-digital-public-infrastructure",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Foundational Digital Public Infrastructure"
+        }
+      ],
+      "skos:altLabel": [
+        "Foundational DPI",
+        "DPI-F"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Foundational Digital Public Infrastructure (DPI-F) is the digital public infrastructure, such as identity, payments and data exchange, upon which the health sector can build. DPI-H is distinct from DPI-F and builds on it."
+        }
+      ],
+      "skos:notation": "DPI-F",
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, foundational-digital-public-infrastructure), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#foundational-digital-public-infrastructure",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/reference-architecture",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Reference Architecture (DPI-H)"
+        }
+      ],
+      "skos:altLabel": [
+        "Reference architecture"
+      ],
+      "skos:definition": [
+        {
+          "@value": "A technology-neutral blueprint that captures the common building blocks, relationships, and design principles of a technical environment."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, reference-architecture), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture. Matters most on canvas Sheet 2.",
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#reference-architecture",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/point-of-service-applications",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Point-of-Service Applications"
+        }
+      ],
+      "skos:altLabel": [
+        "Point-of-service application"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Point-of-service applications are end-user application components (IT systems or software tools) used by individuals directly engaged in healthcare—such as clinicians, community health workers, and patients—that enable interaction with the broader healthcare ecosystem."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, point-of-service-applications), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#point-of-service-applications",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/application-programming-interface",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Application programming interface"
+        }
+      ],
+      "skos:altLabel": [
+        "API"
+      ],
+      "skos:definition": [
+        {
+          "@value": "A defined, documented way for one system to ask another for data."
+        }
+      ],
+      "skos:notation": "API",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/application-programming-interface"
+        },
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/application-programming-interface"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/client-registry",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Client Registry"
+        }
+      ],
+      "skos:altLabel": [
+        "Client registry",
+        "MPI",
+        "Master patient index"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The Client Registry is the national authoritative source of health-specific person identity. It is the foundational health-sector component that maintains a unique, verifiable identity record for every person who accesses or is eligible to access health services within a jurisdiction."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, client-registry), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "skos:closeMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/master-patient-index"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#client-registry",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/facility-workforce-and-product-registries",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Facility, workforce and product registries"
+        }
+      ],
+      "skos:altLabel": [
+        "Facility registry",
+        "Health workforce registry",
+        "Product registry"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Authoritative lists of health facilities, health workers, and products such as vaccines and their batches."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "skos:narrowMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-facility-registry"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-workforce-registry"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/product-registry"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Lifelong Health Record"
+        }
+      ],
+      "skos:altLabel": [
+        "Lifelong health record",
+        "Shared health record"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The Lifelong Health Record (LHR) is one or more governed data repositories, whether physically consolidated or virtually federated, that collectively maintain a longitudinal, person-centred record of an individual's key health information across care settings and over their lifetime."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, lifelong-health-record), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "skos:closeMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/shared-health-record"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#lifelong-health-record",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/electronic-immunization-registry",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Electronic immunization registry"
+        }
+      ],
+      "skos:altLabel": [
+        "EIR"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Records each person's doses. Often the first working part of a lifelong record."
+        }
+      ],
+      "skos:notation": "EIR",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "skos:related": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/lifelong-health-record"
+        },
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/registry"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/personal-health-record",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Personal health record"
+        }
+      ],
+      "skos:altLabel": [
+        "PHR"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Health information the person can see and control, for example in a wallet or citizen app."
+        }
+      ],
+      "skos:notation": "PHR",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/personal-health-record"
+        },
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/personal-health-record"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/terminology-service",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Terminology Service"
+        }
+      ],
+      "skos:altLabel": [
+        "Terminology service"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The Terminology Service is a governed, publicly accessible service that manages, publishes, and provides access to the standardised terminologies, code systems, value sets, and concept maps used across the digital health ecosystem."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, terminology-service), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#terminology-service",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/logical-information-model",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Logical information model"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The agreed structure of the data: elements, types and rules, independent of any software."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "skos:related": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-information-model-repository"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/computable-decision-support-engine",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Computable Decision Support Engine"
+        }
+      ],
+      "skos:altLabel": [
+        "Decision support engine"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The Computable Decision Support Engine is a governed, shared application component that delivers context-appropriate, evidence-based guidance at the point of clinical decision-making by applying computable clinical rules and knowledge artefacts to person-specific health data."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, computable-decision-support-engine), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "skos:related": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-system"
+        },
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/decision-support-logic"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#computable-decision-support-engine",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/health-information-exchange",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Health information exchange"
+        }
+      ],
+      "skos:altLabel": [
+        "HIE",
+        "Information mediator"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The layer that routes data securely between systems."
+        }
+      ],
+      "skos:notation": "HIE",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-information-exchange"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/health-management-information-system",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Health Management Information System"
+        }
+      ],
+      "skos:altLabel": [
+        "Health management information system",
+        "HMIS"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The Health Management Information System is a governed, shared application component responsible for the systematic collection, aggregation, analysis, and dissemination of population-level and facility-level health data to support health system planning, performance monitoring, resource allocation, and policy decision-making."
+        }
+      ],
+      "skos:notation": "HMIS",
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, health-management-information-system), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-management-information-system"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#health-management-information-system",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/civil-registration-and-vital-statistics",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Civil registration and vital statistics"
+        }
+      ],
+      "skos:altLabel": [
+        "CRVS"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Birth registration can start a child's immunization record."
+        }
+      ],
+      "skos:notation": "CRVS",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Infrastructure and architecture. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/civil-registration-and-vital-statistics"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/interoperability",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Interoperability"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Interoperability is the standards-based capability of heterogeneous information systems to communicate, exchange data, and use the exchanged information to execute functions effectively."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, interoperability), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Infrastructure and architecture.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#interoperability",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/standard-vs-specification",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Standard vs specification"
+        }
+      ],
+      "skos:altLabel": [
+        "Standard",
+        "Specification"
+      ],
+      "skos:definition": [
+        {
+          "@value": "A standard is a general rulebook (FHIR). A specification says exactly how to apply it to one use case (the ICVP IG)."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "skos:related": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/open-standards"
+        },
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/interoperability-standards"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "SMART Guidelines"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Standards-based, Machine-readable, Adaptive, Requirements-based, Testable Guidelines are a comprehensive set of reusable digital health components (e.g., interoperability standards, code libraries, algorithms, technical and operational specifications) that transform the guideline adaptation and implementation process to preserve fidelity and accelerate uptake. SMART Guidelines provide a five-step pathway to advance the adoption of best clinical and data practices, even if a country is not yet fully digital."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, smart-guidelines), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Standards and specifications.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/smart-guidelines"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#smart-guidelines",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/smart-levels",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "SMART levels L1–L5"
+        }
+      ],
+      "skos:altLabel": [
+        "SMART Guidelines levels"
+      ],
+      "skos:definition": [
+        {
+          "@value": "L1 narrative guideline · L2 DAK · L3 machine-readable FHIR IG · L4 reference software · L5 dynamic, data-driven use."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "skos:related": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/smart-guidelines"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/digital-adaptation-kit",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Digital adaptation kit"
+        }
+      ],
+      "skos:altLabel": [
+        "DAK"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Software-neutral L2 content: personas, workflows, core data dictionary, decision logic, indicators and requirements."
+        }
+      ],
+      "skos:notation": "DAK",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it. Matters most on canvas Sheets 1, 3.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-adaptation-kit"
+        },
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-adaptation-kits"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/core-data-set",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Core data set"
+        }
+      ],
+      "skos:altLabel": [
+        "Minimum data set"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The elements a country agrees to record for a use case, each mapped to standard codes. Also called a minimum data set."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it. Matters most on canvas Sheet 3.",
+      "skos:related": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/national-health-data-dictionary"
+        },
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/data-dictionary"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/fast-healthcare-interoperability-resources",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Fast Healthcare Interoperability Resources"
+        }
+      ],
+      "skos:altLabel": [
+        "HL7 FHIR",
+        "FHIR",
+        "Fast Healthcare Interoperability Resources"
+      ],
+      "skos:definition": [
+        {
+          "@value": "FHIR is a standard for healthcare data exchange, published by HL7®"
+        }
+      ],
+      "skos:notation": "FHIR",
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, fast-healthcare-interoperability-resources), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Standards and specifications.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/fast-healthcare-interoperability-resources"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#fast-healthcare-interoperability-resources",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/implementation-guide",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Implementation guide"
+        }
+      ],
+      "skos:altLabel": [
+        "IG"
+      ],
+      "skos:definition": [
+        {
+          "@value": "A FHIR specification for one use case: profiles, codes and tests. It can be adopted rather than authored."
+        }
+      ],
+      "skos:notation": "IG",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/implementation-guide"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/profile",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Profile"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A FHIR resource tailored to a use case, for example by making some fields required."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/international-patient-summary",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "International Patient Summary"
+        }
+      ],
+      "skos:altLabel": [
+        "IPS"
+      ],
+      "skos:definition": [
+        {
+          "@value": "A standard minimal health summary, including immunizations, readable across borders."
+        }
+      ],
+      "skos:notation": "IPS",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-patient-summary"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/international-certificate-of-vaccination-or-prophylaxis",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "International Certificate of Vaccination or Prophylaxis"
+        }
+      ],
+      "skos:altLabel": [
+        "ICVP",
+        "Yellow card",
+        "Digital ICVP"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The \"yellow card\". The digital ICVP is its signed, verifiable form."
+        }
+      ],
+      "skos:notation": "ICVP",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-certificate-of-vaccination-or-prophylaxis"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/international-health-regulations",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "International Health Regulations"
+        }
+      ],
+      "skos:altLabel": [
+        "IHR",
+        "IHR (2005)"
+      ],
+      "skos:definition": [
+        {
+          "@value": "International Health Regulations (2005), amended in 2024. The legal basis for the ICVP and other cross-border health documents."
+        }
+      ],
+      "skos:notation": "IHR",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-health-regulations"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/snomed-ct",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "SNOMED CT"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Systematized Nomenclature of Medicine Clinical Terms is a structured clinical terminology standard for use in electronic health records."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, snomed-ct), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Standards and specifications. Matters most on canvas Sheet 3.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/snomed-ct"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#snomed-ct",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/international-classification-of-diseases",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "International Classification of Diseases"
+        }
+      ],
+      "skos:altLabel": [
+        "ICD",
+        "ICD-10",
+        "ICD-11"
+      ],
+      "skos:definition": [
+        {
+          "@value": "WHO's classification; ICD-11 is the current version."
+        }
+      ],
+      "skos:notation": "ICD",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases"
+        }
+      ],
+      "skos:narrowMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/international-classification-of-diseases-11th-revision"
+        },
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-classification-of-diseases-11"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/logical-observation-identifiers-names-and-codes",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Logical Observation Identifiers Names and Codes"
+        }
+      ],
+      "skos:altLabel": [
+        "LOINC"
+      ],
+      "skos:definition": [
+        {
+          "@value": "LOINC is a common language (a set of identifiers, names, and codes) for identifying health measurements, observations, and documents."
+        }
+      ],
+      "skos:notation": "LOINC",
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, logical-observation-identifiers-names-and-codes), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Standards and specifications.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/logical-observation-identifiers-names-and-codes"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#logical-observation-identifiers-names-and-codes",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/openehr",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "openEHR"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "An open standard for clinical data models (archetypes), often used to store records alongside FHIR for exchange."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/conformance",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Conformance"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Proof that a system implements a specification correctly, usually by passing a test suite."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Standards and specifications. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/verifiable-credential",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Verifiable credential"
+        }
+      ],
+      "skos:altLabel": [
+        "VC"
+      ],
+      "skos:definition": [
+        {
+          "@value": "A digitally signed statement, such as a vaccination record, that anyone can check is genuine and unaltered."
+        }
+      ],
+      "skos:notation": "VC",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:closeMatch": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#verifiable-digital-health-certificate"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/issuer-holder-verifier",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Issuer · holder · verifier"
+        }
+      ],
+      "skos:altLabel": [
+        "Issuer",
+        "Holder",
+        "Verifier"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The three roles: who signs the credential, who keeps it, and who checks it."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "skos:narrowMatch": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#issuer"
+        },
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#holder"
+        },
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#receiver"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/digital-signature",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Digital signature"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A cryptographic seal made with the issuer's private key. Verifiers check it with the matching public key."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:related": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#document-signer"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/public-key-infrastructure",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Public key infrastructure"
+        }
+      ],
+      "skos:altLabel": [
+        "PKI"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The keys, certificates and rules that make digital signatures trustworthy."
+        }
+      ],
+      "skos:notation": "PKI",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/public-key-infrastructure"
+        },
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#public-key-infrastructure-pki"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/trust-anchor",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Trust anchor"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The national authority whose key vouches for the health sector's signers."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "skos:related": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#trust-network-gateway---trust-anchor--tngta"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/trust-list",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Trust list"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A published list of keys accepted as valid issuers. The GDHCN shares these between countries."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:closeMatch": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#trust-lists"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/global-digital-health-certification-network",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Global Digital Health Certification Network"
+        }
+      ],
+      "skos:altLabel": [
+        "GDHCN"
+      ],
+      "skos:definition": [
+        {
+          "@value": "WHO Global Digital Health Certification Network. A trust network so countries can verify each other's health documents. Countries onboard per use case."
+        }
+      ],
+      "skos:notation": "GDHCN",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/global-digital-health-certification-network"
+        },
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#gdhcn-trust-network"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/digital-wallet",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Digital wallet"
+        }
+      ],
+      "skos:altLabel": [
+        "Wallet"
+      ],
+      "skos:definition": [
+        {
+          "@value": "An app where a person holds their credentials. A signed paper QR code can play the same role."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "skos:related": [
+        {
+          "@id": "https://smart.who.int/trust/concepts.html#holder"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/digital-documentation-of-covid-19-certificates",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Digital Documentation of COVID-19 Certificates"
+        }
+      ],
+      "skos:altLabel": [
+        "DDCC"
+      ],
+      "skos:definition": [
+        {
+          "@value": "WHO's earlier specification; much of its approach carries into the digital ICVP."
+        }
+      ],
+      "skos:notation": "DDCC",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/health-certificate-identifier",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Health certificate identifier"
+        }
+      ],
+      "skos:altLabel": [
+        "HCID"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The unique ID of an issued certificate."
+        }
+      ],
+      "skos:notation": "HCID",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it. Matters most on canvas Sheet 3.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/consent",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Consent"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A person's permission for their data to be used or shared. Rules for minors and dependants differ by country."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Trust, credentials and wallets. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/sandbox",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Sandbox"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A shared test environment with sample data where systems can try exchanges safely."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/test-suite",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Test suite"
+        }
+      ],
+      "skos:altLabel": [
+        "ITB",
+        "Interoperability Test Bed"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Automated checks of a system against a specification. ITB, the Interoperability Test Bed, is an open tool used for this."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/interoperability-lab",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Interoperability lab"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A standing national or regional facility for conformance testing and building local skills."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/connectathon",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Connectathon"
+        }
+      ],
+      "skos:altLabel": [
+        "Connect-a-thon"
+      ],
+      "skos:definition": [
+        {
+          "@value": "An event where teams test real systems against a specification together. It exposes gaps fast and builds skills."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it. Matters most on canvas Sheet 5.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/convergence-workshop",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Convergence workshop"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "AeHIN's method for aligning a ministry and its partners behind one national architecture and investment plan."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/openfn",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "OpenFN"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "An open-source integration tool used to connect legacy systems and migrate them to standards."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Testing and convergence. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/digital-health-strategy",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Digital health strategy"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The national vision and priorities for digital health."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/enterprise-architecture",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Enterprise Architecture"
+        }
+      ],
+      "skos:altLabel": [
+        "Blueprint",
+        "Enterprise architecture"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The organising logic for business processes and IT infrastructure reflecting the integration and standardisation requirements of the organisation's operating model."
+        }
+      ],
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, enterprise-architecture), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Governance, planning and financing.",
+      "skos:closeMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/enterprise-architecture"
+        }
+      ],
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#enterprise-architecture",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/costed-investment-plan",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Costed investment plan"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A prioritised, costed roadmap from today's systems to the blueprint."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/digital-implementation-investment-guide",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Digital Implementation Investment Guide"
+        }
+      ],
+      "skos:altLabel": [
+        "DIIG"
+      ],
+      "skos:definition": [
+        {
+          "@value": "WHO Digital Implementation Investment Guide. Steps to plan, cost and integrate digital health investments."
+        }
+      ],
+      "skos:notation": "DIIG",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/digital-implementation-investment-guide"
+        },
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/digital-implementation-investment-guide"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/technical-working-group",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Technical working group"
+        }
+      ],
+      "skos:altLabel": [
+        "TWG"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Coordinates standards and architecture decisions across government and partners."
+        }
+      ],
+      "skos:notation": "TWG",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/technical-working-group"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/decision-rights",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Decision rights"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Who has authority over architecture, standards, the core data set and the trust anchor."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it. Matters most on canvas Sheet 4.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/procurement-conditions",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Procurement conditions"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Requirements written into tenders, such as conformance to the national IG, that steer what suppliers build."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/total-cost-of-ownership",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Total Cost of Ownership"
+        }
+      ],
+      "skos:altLabel": [
+        "Total cost of ownership",
+        "TCO"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The resources required to support a digital health intervention throughout its life cycle."
+        }
+      ],
+      "skos:notation": "TCO",
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, total-cost-of-ownership), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Governance, planning and financing. Matters most on canvas Sheet 6.",
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#total-cost-of-ownership",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/vendor-lock-in",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Vendor lock-in"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Dependence on one supplier because data formats or interfaces are closed."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Governance, planning and financing. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/expanded-programme-on-immunization",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Expanded Programme on Immunization"
+        }
+      ],
+      "skos:altLabel": [
+        "EPI"
+      ],
+      "skos:definition": [
+        {
+          "@value": "The national immunization programme."
+        }
+      ],
+      "skos:notation": "EPI",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-ra/v0/ns/glossary/dpi-h-ra/adverse-events-following-immunization",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Adverse Events Following Immunization"
+        }
+      ],
+      "skos:altLabel": [
+        "Adverse event following immunization",
+        "AEFI"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Adverse effects following immunisation"
+        }
+      ],
+      "skos:notation": "AEFI",
+      "skos:scopeNote": "Definition from the DPI-H Reference Architecture glossary (smart-ra, adverse-events-following-immunization), verbatim; it replaces the policy-maker track handout's wording (owner, 2026-11-16). Handout section: Immunization.",
+      "dcterms:source": "https://github.com/WorldHealthOrganization/smart-ra/blob/main/glossary/dpi-h-ra.glossary.json#adverse-events-following-immunization",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/dose-number-and-series",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Dose number and series"
+        }
+      ],
+      "skos:altLabel": [
+        "Dose number",
+        "Total doses in series"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Which dose this is, out of how many in the schedule. Needed to work out what is due next."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/batch-number",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Batch number"
+        }
+      ],
+      "skos:altLabel": [
+        "Lot number"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Identifies the production batch of a vaccine. Needed for recalls and safety checks."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/logistics-management-information-system",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Logistics management information system"
+        }
+      ],
+      "skos:altLabel": [
+        "LMIS",
+        "Cold chain"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Tracks vaccine stock; the cold chain keeps vaccines at the right temperature."
+        }
+      ],
+      "skos:notation": "LMIS",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Immunization. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/who",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "World Health Organization"
+        }
+      ],
+      "skos:altLabel": [
+        "WHO"
+      ],
+      "skos:notation": "WHO",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/world-health-organization"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/itu",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "International Telecommunication Union"
+        }
+      ],
+      "skos:altLabel": [
+        "ITU"
+      ],
+      "skos:notation": "ITU",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/international-telecommunications-union"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/aehin",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Asia eHealth Information Network"
+        }
+      ],
+      "skos:altLabel": [
+        "AeHIN"
+      ],
+      "skos:notation": "AeHIN",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/asia-ehealth-information-network"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/adb",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Asian Development Bank"
+        }
+      ],
+      "skos:altLabel": [
+        "ADB"
+      ],
+      "skos:notation": "ADB",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/world-bank",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "World Bank"
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/csiro",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "CSIRO"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Australia's national science agency."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/unicc",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "UN International Computing Centre"
+        }
+      ],
+      "skos:altLabel": [
+        "UNICC"
+      ],
+      "skos:notation": "UNICC",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/unicef",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "UN Children's Fund"
+        }
+      ],
+      "skos:altLabel": [
+        "UNICEF"
+      ],
+      "skos:notation": "UNICEF",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/unicef"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/moph-thailand",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Ministry of Public Health, Thailand"
+        }
+      ],
+      "skos:altLabel": [
+        "MoPH"
+      ],
+      "skos:notation": "MoPH",
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/hl7",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "HL7"
+        }
+      ],
+      "skos:altLabel": [
+        "Health Level Seven International"
+      ],
+      "skos:definition": [
+        {
+          "@value": "Standards body for FHIR."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "skos:exactMatch": [
+        {
+          "@id": "https://litlfred.github.io/dth-phc/v0/ns/glossary/dth-phc/health-level-seven"
+        }
+      ],
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/snomed-international",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "SNOMED International"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Owner of SNOMED CT."
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track/openehr-foundation",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://worldhealthorganization.github.io/smart-trust-demo/v0/ns/glossary/dpi-h-policy-track"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "openEHR Foundation"
+        }
+      ],
+      "skos:scopeNote": "From the policy-maker track's glossary, section Organisations. A candidate until a person adopts it.",
+      "dcterms:source": "input/images/dpi-h-glossary-policy-maker-track.pdf",
+      "skos:note": "candidate"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/en/cat-harness/harness/smart-trust-demo/",
+  "url": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/en/cat-harness/harness/smart-trust-demo/",
+  "@type": "WebPage",
+  "name": "SMART Trust demonstrator on SMART Trust demonstrator: journeys J1 to J4",
+  "about": {
+    "@id": "https://worldhealthorganization.github.io/smart-trust-demo/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "smart-trust-demo",
+    "name": "SMART Trust demonstrator",
+    "description": "The user journeys J1 to J4 of one cross-border family (birth-dose DVCs abroad, CHW triage read, clinic verification and schedule, family VHLs on one phone) as BPMN processes, personas and user scenarios, an Open Health Stack app that runs them with the Kotlin HCERT library, and the Android test of that library.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/smart-trust-demo",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/smart-trust-tools/"
+      },
+      {
+        "@id": "https://litlfred.github.io/smart-base/"
+      }
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://worldhealthorganization.github.io/smart-trust-demo/branches/staging/",
+    "name": "SMART Trust demonstrator: journeys J1 to J4"
+  },
+  "significantLink": [
+    "https://github.com/litlfred/smart-trust-demo/tree/4f6fd3dcc6da55c801a7f9accff5666ea8d5d757",
+    "https://github.com/litlfred/smart-trust-demo/blob/4f6fd3dcc6da55c801a7f9accff5666ea8d5d757/README.md",
+    "https://github.com/litlfred/smart-trust-demo/blob/4f6fd3dcc6da55c801a7f9accff5666ea8d5d757/AGENTS.md"
+  ]
+}

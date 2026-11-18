@@ -1,0 +1,18 @@
+{
+  "$schema": "folio-site-build/v1",
+  "instance": "smart-trust-demo",
+  "platform": {
+    "commit": "7f2b29c89ce3c7a8dfadab99739d1d97a9f41b2d"
+  },
+  "source": {
+    "repo": "WorldHealthOrganization/smart-trust-demo",
+    "ref": "staging",
+    "commit": "4f6fd3dcc6da55c801a7f9accff5666ea8d5d757"
+  },
+  "builtAt": "2026-11-18T11:11:34.019Z",
+  "ast": {
+    "commit": "9c51bebac7d177ef6377d2106af4c689f244fc2d",
+    "verdict": "stale-inputs",
+    "kind": "full"
+  }
+}

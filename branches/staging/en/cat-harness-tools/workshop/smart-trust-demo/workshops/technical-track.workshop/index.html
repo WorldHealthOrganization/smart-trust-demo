@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verifiable immunization records across borders: the technical track — workshop</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../assets/css/navbar.css"><script src="../../../../../../assets/navbar/rail-1az8rjbpvnb.js" defer></script><script src="../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="../../../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../../../assets/page-layout.js" defer data-fa-page-layout></script><script src="../../../../../../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><style>body::before{content:"DRAFT \2014  not an official publication";display:block;margin:0;padding:6px 16px;background:#b3261e;color:#fff;text-align:center;font:600 14px/1.5 system-ui,sans-serif}</style></noscript><link rel="stylesheet" href="../../../../../../assets/ig-artifact.css"><style data-ig-version-chrome>.ig-topbar-head{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem}.ig-topbar-head .ig-topbar-home{flex:none}.ig-topbar-ver{font-weight:400;font-size:.9em;opacity:.95;white-space:nowrap}.ig-topbar-flag{font-size:1.1em}.ig-version-banner{box-sizing:border-box;margin:0;padding:.5rem 1.5rem;background:#ffffa0;color:#222;border-bottom:1px solid #0a0008;font-size:.95rem;line-height:1.45}.ig-version-banner a{color:#1a4b8c;text-decoration:underline}html:not([data-fa-scheme="light"]) .ig-version-banner{background:#4a4520;color:#fff8d0;border-color:#8a7d2a}html:not([data-fa-scheme="light"]) .ig-version-banner a{color:#ffe680}.ig-metadata{border-collapse:collapse;margin:0 0 1rem;font-size:.95rem}.ig-metadata td{border:1px solid #c8c8c8;padding:.25rem .6rem;vertical-align:top}.ig-metadata code{overflow-wrap:anywhere}</style></head>
+<body data-fa-node-kind-page><div data-fa-staging-banner lang="en" dir="ltr" style="background:#4F6F52;color:#fff;padding:8px 16px;font-size:14px;text-align:center;position:fixed;top:0;left:0;right:0;box-sizing:border-box;z-index:2147483001;font-family:var(--fa-font-sans,system-ui,sans-serif)">🔀 <b>FEATURE BRANCH</b> <span data-fa-staging-detail>— loading build details…</span></div><style>:root{--fa-staging-offset:0px}body{margin:0}.side-bar,.fa-nav{top:var(--fa-staging-offset,0px)!important}html{padding-top:var(--fa-staging-offset,0px)}</style><script>(function(){
+var b=document.querySelector('[data-fa-staging-banner]'),d=document.querySelector('[data-fa-staging-detail]');
+if(b)document.documentElement.style.setProperty('--fa-staging-offset',b.getBoundingClientRect().height+'px');
+var m=location.pathname.match(/^(.*\/(?:branches|STAGING)\/[^/]+\/)/);
+if(!m){if(d)d.textContent='\u2014 build details unavailable (not served from a preview path)';return;}
+var s=document.createElement('script');s.src=m[1]+'staging-banner.js';
+s.onerror=function(){if(d)d.textContent='\u2014 build details unavailable';};
+(document.head||document.documentElement).appendChild(s);
+})();</script>
+<header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../../index.html">SMART Trust demonstrator: journeys J1 to J4</a><span class="ig-topbar-ver">0.1.0 - ci-build</span><form class="ig-search" role="search" data-ig-search-index="../../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Trust demonstrator: journeys J1 to J4</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header><p class="ig-version-banner" role="note">This page is part of the <a href="../../../../../../index.html">SMART Trust demonstrator: journeys J1 to J4</a> (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/trust-demo/history.html">Directory of published versions</a>.</p><script type="application/json" id="fa-rail" data-fa-root="../../../../../.." data-fa-to-root="../../../../../..">{"data":"rail-1az8rjbpvnb","here":"/en/cat-harness-tools/workshop/smart-trust-demo/workshops/technical-track.workshop/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">Verifiable immunization records across borders: the technical track</h1>
+<p class="m">A <a href="../../../">workshop</a> node held by <a href="../../">smart-trust-demo</a>, at <code>workshops/technical-track.workshop.json</code>.</p>
+
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>workshop/0.1.0</dd>
+<dt>id</dt><dd>technical-track</dd>
+<dt>title</dt><dd>Verifiable immunization records across borders: the technical track</dd>
+<dt>description</dt><dd>The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family. It runs beside the [policy-maker track](../dpi-h-policy-track/) (M1 to M7): each technical module serves the policy module it is paired with, and both tracks meet in joint sessions each morning and at the close of each day.
+
+Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.
+
+## The two days
+
+A suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.
+
+### Day 1
+
+Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa.
+
+| Time | Session |
+|---|---|
+| 08:30–09:00 | Registration and Heropa login (Technical track: support crew) |
+| 09:00–10:30 | **Joint, both tracks:** FHIR around the world and the story we follow (Workshop hosts, with the policy track). P1.1 Welcome; P1.2 WHO remarks; P1.3 How the two days work; P1.4 Country panel; P1.5 Walkthrough of the five journeys |
+| 10:30–11:00 | Coffee, then move to the track rooms |
+| 11:00–12:30 | **Policy track, [M1](../dpi-h-policy-track/m1/):** From journey to capabilities |
+| 11:00–11:40 | **Technical track, [T1](t1/):** Talk 1: Building with FHIR and the Open Health Stack (talk) |
+| 11:40–12:30 | **Technical track, [T2](t2/):** Lab 1: Offline data capture (lab) |
+| 12:30–13:30 | Lunch |
+| 13:30–15:00 | **Policy track, [M2](../dpi-h-policy-track/m2/):** The reference architecture (DPI-H) and where you stand |
+| 13:30–13:50 | **Technical track, [T3](t3/):** Talk 2: Trust between countries, SMART Trust and the GDHCN (talk) |
+| 13:50–14:00 | **Technical track, [T4](t4/):** Talk 3: Workflows, sync and who sees what (talk) |
+| 14:00–15:00 | **Technical track, [T4](t4/):** Lab 2: Sync data and run a workflow (lab) |
+| 15:00–15:30 | Coffee |
+| 15:30–16:30 | **Policy track, [M3](../dpi-h-policy-track/m3/):** Standards, specifications and the core data set |
+| 15:30–15:40 | **Technical track, [T5](t5/):** Talk 4: From records to charts (talk) |
+| 15:40–16:30 | **Technical track, [T5](t5/):** Lab 3: Build your first dashboard (lab) |
+| 16:30–17:00 | **Joint, both tracks:** What we did today (Lead facilitator for the technical track). S1.1 Policy-maker track; S1.2 Technologist track; S1.3 Close of Day 1 |
+
+### Day 2
+
+Teams build one app in the journey, show it, and then everything runs together.
+
+| Time | Session |
+|---|---|
+| 08:30–09:00 | Arrival and Heropa login (Technical track: support crew) |
+| 09:00–10:30 | **Joint, both tracks:** Day 1 recap and today&#39;s plan (Workshop hosts). P2.1 Day 1 recap; P2.2 Host country digital health showcase; P2.3 Country vignettes; P2.4 Framing Day 2 |
+| 10:30–11:00 | Coffee, then back to the track rooms |
+| 11:00–11:30 | **Policy track, [M4](../dpi-h-policy-track/m4/):** Trust, credentials and wallets |
+| 11:00–11:30 | **Technical track, [T6](t6/):** Talk 5: Verifying a card, sharing a link, and what you build today (talk) |
+| 11:30–12:30 | **Policy track, [M5](../dpi-h-policy-track/m5/):** Governance, decision rights and the legal basis |
+| 11:30–12:30 | **Technical track, [T7](t7/):** Team build, part 1 (team build) |
+| 12:30–13:30 | Lunch |
+| 13:30–15:00 | **Policy track, [M6](../dpi-h-policy-track/m6/):** Doing it together |
+| 13:30–14:25 | **Technical track, [T7](t7/):** Team build, part 2 (team build) |
+| 14:25–15:00 | **Technical track, [T7](t7/):** Team presentations (showcase) |
+| 15:00–15:30 | Coffee, and set up the devices for the finale |
+| 15:30–16:15 | **Policy track, [M7](../dpi-h-policy-track/m7/):** First move and the investment required |
+| 15:30–16:15 | **Technical track, [T7](t7/):** Putting the journey together (team build) |
+| 16:15–16:30 | Move to the main room and brief the finale (Support crew) |
+| 16:30–17:00 | **Joint, both tracks:** The journey live, readouts and next steps (Lead facilitator with the workshop hosts). S2.1 Live demonstration; S2.2 Country first moves and the regional ask; S2.3 Handover |
+
+## Before you run it
+
+- Agree the joint sessions on both days with the policy track, and who leads each closing slot.
+- Test the hosted classroom environment (Heropa) the week before. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio.
+- Lab 3: set up the dashboard tooling and the shared test data, with help on hand once the apps are seeded.
+- Assign a facilitator to each Day 2 team.
+- Record the full journey once as a fallback for the finale.</dd>
+<dt>audience</dt><dd>Developers, implementers and digital health architects, working in teams on one app of the journey each</dd>
+<dt>promise</dt><dd>Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.</dd>
+<dt>scenarios</dt><dd><pre>[
+  &quot;j1-born-abroad&quot;,
+  &quot;j2-found-at-home&quot;,
+  &quot;j3-made-official&quot;,
+  &quot;j4-0-one-family-one-phone&quot;,
+  &quot;j4-1-full-history-abroad&quot;
+]</pre></dd>
+<dt>modules</dt><dd><pre>[
+  {
+    &quot;id&quot;: &quot;T1&quot;,
+    &quot;title&quot;: &quot;Building with FHIR and the Open Health Stack&quot;,
+    &quot;day&quot;: 1,
+    &quot;carries&quot;: &quot;Which FHIR resources, terminologies and tools carry this journey, and where does each lab use them?&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M1 From journey to capabilities](../../dpi-h-policy-track/m1/).\n\n### Sessions\n\n- **11:00–11:40 · Talk · Talk 1: Building with FHIR and the Open Health Stack** (40 min). A developer&#39;s tour of FHIR, then of the tools around it: the HAPI FHIR server, other open global goods, and where the OHS libraries and the OHS Player fit. *Leads:* Lead facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J1**: Patient and Immunization in the hospital record; each dose signed as a DVC (HCERT).\n- **J3b**: ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition.\n- **J4.0b**: The IPS as a FHIR document Bundle assembled from the national record.&quot;,
+    &quot;objectives&quot;: [
+      &quot;Name the FHIR resources you will use over the two days and say what each is for&quot;,
+      &quot;Explain how terminologies and implementation guides keep data meaningful&quot;,
+      &quot;Say which parts of the stack each lab uses&quot;
+    ],
+    &quot;durationMinutes&quot;: 40
+  },
+  {
+    &quot;id&quot;: &quot;T2&quot;,
+    &quot;title&quot;: &quot;Offline data capture&quot;,
+    &quot;day&quot;: 1,
+    &quot;carries&quot;: &quot;How does a form on a health worker&#39;s phone become a patient record, with no signal?&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M3 Standards, specifications and the core data set](../../dpi-h-policy-track/m3/).\n\n### Sessions\n\n- **11:40–12:30 · Lab · Lab 1: Offline data capture** (50 min). The stack is already running on Heropa. Open a questionnaire in the form editor, change it, and watch the change appear in the OHS Player in your browser. Then add a validation rule or a skip rule. If time allows, see how the answers turn into FHIR resources. Optional: a QR code for the gallery app, to try the same forms on iOS or Android. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2a**: The CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.\n- **J2b**: The household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.&quot;,
+    &quot;objectives&quot;: [
+      &quot;Edit a FHIR Questionnaire and see the result straight away&quot;,
+      &quot;Add a validation or skip rule&quot;,
+      &quot;Describe how captured answers become patient records&quot;
+    ],
+    &quot;durationMinutes&quot;: 50
+  },
+  {
+    &quot;id&quot;: &quot;T3&quot;,
+    &quot;title&quot;: &quot;Trust between countries: SMART Trust and the GDHCN&quot;,
+    &quot;day&quot;: 1,
+    &quot;carries&quot;: &quot;How can a clinic in one country trust a vaccination record from another, and when is a card better than a link?&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M4 Trust, credentials and wallets](../../dpi-h-policy-track/m4/).\n\n### Sessions\n\n- **13:30–13:50 · Talk · Talk 2: Trust between countries, SMART Trust and the GDHCN** (20 min). How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J1**: The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.\n- **J3a**: The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.\n- **J4.1**: The viewer verifies the VHL&#39;s HCERT against the DSC of Onesa (XXU) before it fetches anything.&quot;,
+    &quot;objectives&quot;: [
+      &quot;Explain what the GDHCN is and why a verifier needs a trust list&quot;,
+      &quot;Tell a DVC from a VHL and say when each one fits&quot;,
+      &quot;Know which parts you will work with on Day 2&quot;
+    ],
+    &quot;durationMinutes&quot;: 20
+  },
+  {
+    &quot;id&quot;: &quot;T4&quot;,
+    &quot;title&quot;: &quot;Workflows, sync and who sees what&quot;,
+    &quot;day&quot;: 1,
+    &quot;carries&quot;: &quot;What should happen next for this child, how does the record reach the server, and who is allowed to see it?&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M5 Governance, decision rights and the legal basis](../../dpi-h-policy-track/m5/).\n\n### Sessions\n\n- **13:50–14:00 · Talk · Talk 3: Workflows, sync and who sees what** (10 min). A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **14:00–15:00 · Lab · Lab 2: Sync data and run a workflow** (60 min). In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2b**: Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.\n- **J3b**: The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.\n- **J4.0b**: The family&#39;s consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.\n- **J4.1**: Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.&quot;,
+    &quot;objectives&quot;: [
+      &quot;Sync records between the Player and the FHIR server&quot;,
+      &quot;Read a plan definition and follow it through a workflow&quot;,
+      &quot;Show that the gateway filters records by user&quot;
+    ],
+    &quot;durationMinutes&quot;: 70
+  },
+  {
+    &quot;id&quot;: &quot;T5&quot;,
+    &quot;title&quot;: &quot;From records to charts&quot;,
+    &quot;day&quot;: 1,
+    &quot;carries&quot;: &quot;How does a FHIR record become a row, a chart and a coverage number, and who accessed what?&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M2 The reference architecture (DPI-H) and where you stand](../../dpi-h-policy-track/m2/).\n\n### Sessions\n\n- **15:30–15:40 · Talk · Talk 4: From records to charts** (10 min). How data gets out of the FHIR server and into tables you can chart. A look at FHIR Data Pipes, how one resource becomes a row, and what a dashboard reads. *Leads:* Data facilitator; *supports:* Lead facilitator.\n- **15:40–16:30 · Lab · Lab 3: Build your first dashboard** (50 min). A guided start in class, then a take-home task. Look at a dashboard built on the data from Lab 2. Add a small batch of new records, run the pipeline again and watch the chart update. Look at the audit events to see who accessed what. You then have about 24 hours to finish a dashboard of your own. *Leads:* Data facilitator.\n\n### Where it meets the journey\n\n- **J2b**: A child born abroad and registered at home enters the coverage denominator here.\n- **J3b**: Verified doses, including those given abroad, count toward coverage indicators.\n- **J4.1**: AuditEvents become an access log you can chart.&quot;,
+    &quot;objectives&quot;: [
+      &quot;Describe the path from a FHIR resource to a chart&quot;,
+      &quot;Run the pipeline and see new data appear on a chart&quot;,
+      &quot;Read the audit events for who accessed which record&quot;,
+      &quot;Finish a simple dashboard of your own&quot;
+    ],
+    &quot;durationMinutes&quot;: 60
+  },
+  {
+    &quot;id&quot;: &quot;T6&quot;,
+    &quot;title&quot;: &quot;Verifying a card, sharing a link&quot;,
+    &quot;day&quot;: 2,
+    &quot;carries&quot;: &quot;How does an app go from a scanned QR to a verified result, and from a shared link to the records behind it?&quot;,
+    &quot;description&quot;: &quot;Day 2. Serves the policy module [M6 Doing it together](../../dpi-h-policy-track/m6/).\n\n### Sessions\n\n- **11:00–11:30 · Talk · Talk 5: Verifying a card, sharing a link, and what you build today** (30 min). The trust ideas from Day 1 in practice. How an app reads a vaccination QR and checks it against the trust list, and how a shared health link is opened. Then a look at the four pieces the teams will build. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J3a**: Scan, Base45 and zlib decode, COSE signature check against the trust list, then import with provenance.\n- **J4.0b**: The portal encrypts the IPS and DVCs, publishes a manifest and signs the link as an HCERT.\n- **J4.1**: The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents.&quot;,
+    &quot;objectives&quot;: [
+      &quot;Follow a card from scan to verified result&quot;,
+      &quot;Follow a health link from QR to records&quot;,
+      &quot;Pick the team you will join&quot;
+    ],
+    &quot;durationMinutes&quot;: 30
+  },
+  {
+    &quot;id&quot;: &quot;T7&quot;,
+    &quot;title&quot;: &quot;Team build, showcase and the journey together&quot;,
+    &quot;day&quot;: 2,
+    &quot;carries&quot;: &quot;Can each team change one app in the journey and then run the whole journey live, from a birth abroad to a clinic back home to the family travelling again?&quot;,
+    &quot;description&quot;: &quot;Day 2. Serves the policy module [M7 First move and the investment required](../../dpi-h-policy-track/m7/).\n\n### Sessions\n\n- **11:30–12:30 · Team build · Team build, part 1** (60 min). Each team takes one app in the journey. Everything is pre-configured, so there is no Android Studio. You run the app, read how its configuration works, and change it. Test with the vaccination cards. *Leads:* Team facilitators; *supports:* One per team.\n- **13:30–14:25 · Team build · Team build, part 2** (55 min). Finish the change, test it with the cards, and get ready to show it. *Leads:* Team facilitators; *supports:* One per team.\n- **14:25–15:00 · Showcase · Team presentations** (35 min). Each team shows what it built, about seven minutes each. Volunteers present. *Leads:* Lead facilitator (chair).\n- **15:30–16:15 · Team build · Putting the journey together** (45 min). Volunteers run the whole journey on the demo system, each using their own piece. This is the rehearsal for the finale. *Leads:* Team facilitators; *supports:* A volunteer from each team.\n\n### Where it meets the journey\n\n- **J2b**: CHW app team: the registration form, the household, the referral.\n- **J3a**: Clinic app team: the verifier and its trust store.\n- **J4.0a**: Family app team: one phone, one profile and one link per member.\n- **J4.1**: Viewer app team: open the link, enter the passcode, read the records.\n\n### The four teams\n\n- **CHW app** (The health worker&#39;s phone): Scan a vaccination card, add the child to the household, and refer them to a clinic. Steps J2a, J2b.\n- **Clinic app** (The nurse&#39;s tablet): Receive the referral, verify the card against the trust list, and plan the next visit. Steps J3a, J3b.\n- **Family app** (The parent&#39;s phone): Hold the family&#39;s records and share a child&#39;s record as a health link. Steps J4.0a, J4.0b.\n- **Viewer app** (The clinic abroad): Open a shared health link and read the records behind it. Steps J4.1.&quot;,
+    &quot;objectives&quot;: [
+      &quot;Run your app and find where its configuration lives&quot;,
+      &quot;Make one change and see it work&quot;,
+      &quot;Have a working piece you can show in under seven minutes&quot;
+    ],
+    &quot;durationMinutes&quot;: 195
+  }
+]</pre></dd>
+<dt>steps</dt><dd><pre>[
+  {
+    &quot;scenario&quot;: &quot;j1-born-abroad&quot;,
+    &quot;step&quot;: &quot;J1&quot;,
+    &quot;questions&quot;: [
+      {
+        &quot;module&quot;: &quot;T1&quot;,
+        &quot;text&quot;: &quot;Which FHIR resources does the hospital write for a birth dose, and which of their fields end up in the signed card?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T3&quot;,
+        &quot;text&quot;: &quot;What does the DVC carry, and what does it deliberately leave out, so a card is enough without an identity document?&quot;
+      }
+    ]
+  },
+  {
+    &quot;scenario&quot;: &quot;j2-found-at-home&quot;,
+    &quot;step&quot;: &quot;J2a&quot;,
+    &quot;questions&quot;: [
+      {
+        &quot;module&quot;: &quot;T2&quot;,
+        &quot;text&quot;: &quot;Which data elements can the form take from a scanned card, and how does it mark them as reported, not verified?&quot;
+      }
+    ]
+  },
+  {
+    &quot;scenario&quot;: &quot;j2-found-at-home&quot;,
+    &quot;step&quot;: &quot;J2b&quot;,
+    &quot;questions&quot;: [
+      {
+        &quot;module&quot;: &quot;T2&quot;,
+        &quot;text&quot;: &quot;Which validation or skip rule stops a duplicate child being registered in the same household?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T4&quot;,
+        &quot;text&quot;: &quot;What happens to a queued registration if the clinic registers the same child before the phone syncs?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T5&quot;,
+        &quot;text&quot;: &quot;Which flattened table and which column put Somsak in the coverage denominator, and when?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T7&quot;,
+        &quot;text&quot;: &quot;Which one configuration change would make the CHW app fit your country&#39;s household register?&quot;
+      }
+    ]
+  },
+  {
+    &quot;scenario&quot;: &quot;j3-made-official&quot;,
+    &quot;step&quot;: &quot;J3a&quot;,
+    &quot;questions&quot;: [
+      {
+        &quot;module&quot;: &quot;T3&quot;,
+        &quot;text&quot;: &quot;How fresh does the cached trust list have to be, and what should the app show when a signature fails?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T6&quot;,
+        &quot;text&quot;: &quot;At which step of decoding does a tampered card fail, and what does the nurse see?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T7&quot;,
+        &quot;text&quot;: &quot;How would your clinic app load your country&#39;s trust list, and how often would it refresh it?&quot;
+      }
+    ]
+  },
+  {
+    &quot;scenario&quot;: &quot;j3-made-official&quot;,
+    &quot;step&quot;: &quot;J3b&quot;,
+    &quot;questions&quot;: [
+      {
+        &quot;module&quot;: &quot;T1&quot;,
+        &quot;text&quot;: &quot;How does an implementation guide let two countries keep their own vaccine codes and still count each other&#39;s doses?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T4&quot;,
+        &quot;text&quot;: &quot;How does the plan definition decide a dose is overdue, and what sets the date of the next one?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T5&quot;,
+        &quot;text&quot;: &quot;How does the indicator count a dose given abroad without counting it twice?&quot;
+      }
+    ]
+  },
+  {
+    &quot;scenario&quot;: &quot;j4-0-one-family-one-phone&quot;,
+    &quot;step&quot;: &quot;J4.0a&quot;,
+    &quot;questions&quot;: [
+      {
+        &quot;module&quot;: &quot;T7&quot;,
+        &quot;text&quot;: &quot;How should the family app separate each member&#39;s records on a shared phone?&quot;
+      }
+    ]
+  },
+  {
+    &quot;scenario&quot;: &quot;j4-0-one-family-one-phone&quot;,
+    &quot;step&quot;: &quot;J4.0b&quot;,
+    &quot;questions&quot;: [
+      {
+        &quot;module&quot;: &quot;T1&quot;,
+        &quot;text&quot;: &quot;What makes the IPS readable in another country&#39;s system without a bilateral agreement?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T4&quot;,
+        &quot;text&quot;: &quot;Where does the gateway read the consent from, and what does it do when the link has expired?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T6&quot;,
+        &quot;text&quot;: &quot;What is inside the link QR, and why can a 4-digit passcode be enough?&quot;
+      }
+    ]
+  },
+  {
+    &quot;scenario&quot;: &quot;j4-1-full-history-abroad&quot;,
+    &quot;step&quot;: &quot;J4.1&quot;,
+    &quot;questions&quot;: [
+      {
+        &quot;module&quot;: &quot;T3&quot;,
+        &quot;text&quot;: &quot;Why is the health data not in the QR, and what does the viewer check before it opens the link?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T4&quot;,
+        &quot;text&quot;: &quot;Which AuditEvent fields let Onesa tell the family who looked at the record, and when?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T5&quot;,
+        &quot;text&quot;: &quot;What would a &#39;who looked at this child&#39;s record abroad&#39; chart need from the AuditEvent rows?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T6&quot;,
+        &quot;text&quot;: &quot;What does the viewer need from the trust list, and what does it need from the gateway of Onesa?&quot;
+      },
+      {
+        &quot;module&quot;: &quot;T7&quot;,
+        &quot;text&quot;: &quot;What must the viewer show the clinician about where the records came from?&quot;
+      }
+    ]
+  }
+]</pre></dd>
+<dt>matrix</dt><dd><pre>{
+  &quot;intro&quot;: &quot;Where each technical module meets each journey step, and what the system does there.&quot;,
+  &quot;cells&quot;: [
+    {
+      &quot;module&quot;: &quot;T1&quot;,
+      &quot;step&quot;: &quot;J1&quot;,
+      &quot;technical&quot;: &quot;Patient and Immunization in the hospital record; each dose signed as a DVC (HCERT).&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T1&quot;,
+      &quot;step&quot;: &quot;J3b&quot;,
+      &quot;technical&quot;: &quot;ConceptMap from the product codes of Taifafeki to the schedule codes of Onesa; the schedule as a PlanDefinition.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T1&quot;,
+      &quot;step&quot;: &quot;J4.0b&quot;,
+      &quot;technical&quot;: &quot;The IPS as a FHIR document Bundle assembled from the national record.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T2&quot;,
+      &quot;step&quot;: &quot;J2a&quot;,
+      &quot;technical&quot;: &quot;The CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T2&quot;,
+      &quot;step&quot;: &quot;J2b&quot;,
+      &quot;technical&quot;: &quot;The household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T3&quot;,
+      &quot;step&quot;: &quot;J1&quot;,
+      &quot;technical&quot;: &quot;The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T3&quot;,
+      &quot;step&quot;: &quot;J3a&quot;,
+      &quot;technical&quot;: &quot;The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T3&quot;,
+      &quot;step&quot;: &quot;J4.1&quot;,
+      &quot;technical&quot;: &quot;The viewer verifies the VHL&#39;s HCERT against the DSC of Onesa (XXU) before it fetches anything.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T4&quot;,
+      &quot;step&quot;: &quot;J2b&quot;,
+      &quot;technical&quot;: &quot;Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T4&quot;,
+      &quot;step&quot;: &quot;J3b&quot;,
+      &quot;technical&quot;: &quot;The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T4&quot;,
+      &quot;step&quot;: &quot;J4.0b&quot;,
+      &quot;technical&quot;: &quot;The family&#39;s consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T4&quot;,
+      &quot;step&quot;: &quot;J4.1&quot;,
+      &quot;technical&quot;: &quot;Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T5&quot;,
+      &quot;step&quot;: &quot;J2b&quot;,
+      &quot;technical&quot;: &quot;A child born abroad and registered at home enters the coverage denominator here.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T5&quot;,
+      &quot;step&quot;: &quot;J3b&quot;,
+      &quot;technical&quot;: &quot;Verified doses, including those given abroad, count toward coverage indicators.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T5&quot;,
+      &quot;step&quot;: &quot;J4.1&quot;,
+      &quot;technical&quot;: &quot;AuditEvents become an access log you can chart.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T6&quot;,
+      &quot;step&quot;: &quot;J3a&quot;,
+      &quot;technical&quot;: &quot;Scan, Base45 and zlib decode, COSE signature check against the trust list, then import with provenance.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T6&quot;,
+      &quot;step&quot;: &quot;J4.0b&quot;,
+      &quot;technical&quot;: &quot;The portal encrypts the IPS and DVCs, publishes a manifest and signs the link as an HCERT.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T6&quot;,
+      &quot;step&quot;: &quot;J4.1&quot;,
+      &quot;technical&quot;: &quot;The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T7&quot;,
+      &quot;step&quot;: &quot;J2b&quot;,
+      &quot;technical&quot;: &quot;CHW app team: the registration form, the household, the referral.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T7&quot;,
+      &quot;step&quot;: &quot;J3a&quot;,
+      &quot;technical&quot;: &quot;Clinic app team: the verifier and its trust store.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T7&quot;,
+      &quot;step&quot;: &quot;J4.0a&quot;,
+      &quot;technical&quot;: &quot;Family app team: one phone, one profile and one link per member.&quot;
+    },
+    {
+      &quot;module&quot;: &quot;T7&quot;,
+      &quot;step&quot;: &quot;J4.1&quot;,
+      &quot;technical&quot;: &quot;Viewer app team: open the link, enter the passcode, read the records.&quot;
+    }
+  ]
+}</pre></dd>
+<dt>resources</dt><dd><pre>[
+  {
+    &quot;id&quot;: &quot;policy-track&quot;,
+    &quot;title&quot;: &quot;The policy-maker track (M1 to M7)&quot;,
+    &quot;kind&quot;: &quot;link&quot;,
+    &quot;description&quot;: &quot;The other track of the same two days; each technical module is paired with one of its modules.&quot;,
+    &quot;href&quot;: &quot;../dpi-h-policy-track/&quot;
+  },
+  {
+    &quot;id&quot;: &quot;material-1&quot;,
+    &quot;title&quot;: &quot;The Immunization Journey: shared story deck&quot;,
+    &quot;kind&quot;: &quot;slides&quot;,
+    &quot;description&quot;: &quot;The policy-maker track&#39;s end-to-end use case narrative, 30 slides, with the decisions from the narrative review. Also: Slide-by-slide changelog (Word) (https://worldhealthorganization.github.io/smart-trust-demo/immunization-journey-narrative-changelog.docx).&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/immunization-journey-narrative.pptx&quot;
+  },
+  {
+    &quot;id&quot;: &quot;material-2&quot;,
+    &quot;title&quot;: &quot;Country Canvas (A3)&quot;,
+    &quot;kind&quot;: &quot;template&quot;,
+    &quot;description&quot;: &quot;The cover and Sheets 1 to 6 each table fills in, one country per table. Also: Word (A3) (https://worldhealthorganization.github.io/smart-trust-demo/country-canvas-a3.docx); PDF (https://worldhealthorganization.github.io/smart-trust-demo/country-canvas-a3.pdf).&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/country-canvas.html&quot;
+  },
+  {
+    &quot;id&quot;: &quot;material-3&quot;,
+    &quot;title&quot;: &quot;Terms you will hear&quot;,
+    &quot;kind&quot;: &quot;handout&quot;,
+    &quot;description&quot;: &quot;The policy-maker track&#39;s plain-language glossary; the glossary page links each term to its source definition. Also: Glossary page (https://worldhealthorganization.github.io/smart-trust-demo/glossary.html).&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/dpi-h-glossary-policy-maker-track.pdf&quot;
+  },
+  {
+    &quot;id&quot;: &quot;module-journey-map&quot;,
+    &quot;title&quot;: &quot;Module × journey map&quot;,
+    &quot;kind&quot;: &quot;reading&quot;,
+    &quot;description&quot;: &quot;Where each module of both tracks meets each journey step, technical and policy.&quot;,
+    &quot;href&quot;: &quot;https://worldhealthorganization.github.io/smart-trust-demo/module-journey-map.html&quot;
+  }
+]</pre></dd>
+</dl>
+</main>
+<script src="../../../../../../assets/ig-search.js" defer></script>
+</body>
+</html>
