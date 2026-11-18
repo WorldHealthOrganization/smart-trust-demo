@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-17T07:41:43.952Z\n"
+"POT-Creation-Date: 2026-11-18T14:03:45.859Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -14,15 +14,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: input/pagecontent/workshop.md:6
+#: input/pagecontent/workshop.md:7
 msgid "<a0>Policy-maker track (M1 to M7)</a0>, with the Country Canvas each table fills in"
 msgstr ""
 
-#: input/pagecontent/workshop.md:5
-msgid "<a0>Technical track (T1 to T7)</a0>, with the two-day timetable of both tracks"
+#: input/pagecontent/workshop.md:6
+msgid "<a0>Technical track (T1 to T7)</a0>"
 msgstr ""
 
-#: input/pagecontent/workshop.md:8
+#: input/pagecontent/workshop.md:5
+msgid "<a0>The two days</a0>: the calendar of both tracks side by side, each session linked to its module"
+msgstr ""
+
+#: input/pagecontent/workshop.md:9
 msgid "Also on this site: the <a0>module × journey map</a0>, the <a1>Country Canvas</a1> and the <a2>glossary</a2>."
 msgstr ""
 
