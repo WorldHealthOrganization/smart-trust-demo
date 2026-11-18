@@ -1,0 +1,26 @@
+{
+  "$schema": "kg-qa/v1",
+  "subject": {
+    "kind": "decision",
+    "id": "dose-counts",
+    "path": "processes/content/decisions/dose-counts.dmn"
+  },
+  "source_hash": "sha256:a1d78cd54ba24d4a4b086d8aef98dd5d8ede57ae15aa2ee6a7cfff77e933488d",
+  "criteria": {
+    "decision-outcomes-used": {
+      "result": "fail",
+      "findings": [
+        {
+          "where": "Decision_DoseCounts",
+          "detail": "decision \"dose-counts.dmn#Decision_DoseCounts\" is referenced by no gateway in processes/. Either wire it with <cat-harness.processes:decision ref=\"decisions/dose-counts.dmn#Decision_DoseCounts\"/> or delete it."
+        }
+      ]
+    }
+  },
+  "totals": {
+    "pass": 0,
+    "fail": 1,
+    "n/a": 0,
+    "unknown": 0
+  }
+}
