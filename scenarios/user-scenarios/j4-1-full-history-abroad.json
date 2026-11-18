@@ -184,10 +184,6 @@
       ],
       "dak": [
         {
-          "key": "StructureDefinition/TrustDemoDdVhlAccess",
-          "rel": "data"
-        },
-        {
           "key": "PlanDefinition/TrustDemoDT05",
           "rel": "decides"
         },

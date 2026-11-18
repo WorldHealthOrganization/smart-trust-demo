@@ -100,10 +100,6 @@
       },
       "dak": [
         {
-          "key": "StructureDefinition/TrustDemoDdChwRegistration",
-          "rel": "data"
-        },
-        {
           "key": "PlanDefinition/TrustDemoDT01",
           "rel": "decides"
         },
@@ -275,14 +271,6 @@
         }
       ],
       "dak": [
-        {
-          "key": "StructureDefinition/TrustDemoDdChwReferral",
-          "rel": "data"
-        },
-        {
-          "key": "StructureDefinition/TrustDemoDdChwRegistration",
-          "rel": "data"
-        },
         {
           "key": "PlanDefinition/TrustDemoDT01",
           "rel": "decides"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j2-found-at-home\n"
-"POT-Creation-Date: 2026-11-17T18:50:36.267Z\n"
+"POT-Creation-Date: 2026-11-18T11:00:23.097Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -24,27 +24,27 @@ msgctxt "description"
 msgid "A health worker registers him offline and records the cards as \"reported, not yet verified\"."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:313
+#: scenarios/user-scenarios/j2-found-at-home.json:301
 msgctxt "references.label"
 msgid "User scenario in the IG"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:308
+#: scenarios/user-scenarios/j2-found-at-home.json:296
 msgctxt "scene.label"
 msgid "CHW phone: registered, reported"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:300
+#: scenarios/user-scenarios/j2-found-at-home.json:288
 msgctxt "scene.label"
 msgid "Home visit, Village 04"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:129
+#: scenarios/user-scenarios/j2-found-at-home.json:125
 msgctxt "scene.label"
 msgid "No signal"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:152
+#: scenarios/user-scenarios/j2-found-at-home.json:148
 msgctxt "step.enabler"
 msgid "An offline form links the baby to his household immediately; it syncs once the phone finds a signal."
 msgstr ""
@@ -54,22 +54,22 @@ msgctxt "step.enabler"
 msgid "The phone reads the card offline, and keeps “what the family told us” clearly separate from “what we have verified”."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:128
+#: scenarios/user-scenarios/j2-found-at-home.json:124
 msgctxt "step.experiences.doing"
 msgid "Adds Somsak to the Sengmany household, saves the two doses as unverified and books a clinic referral."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:140
+#: scenarios/user-scenarios/j2-found-at-home.json:136
 msgctxt "step.experiences.doing"
 msgid "Confirms household details as head of household."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:134
+#: scenarios/user-scenarios/j2-found-at-home.json:130
 msgctxt "step.experiences.doing"
 msgid "Is added to his household: the Onesa health system now knows he exists."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:146
+#: scenarios/user-scenarios/j2-found-at-home.json:142
 msgctxt "step.experiences.doing"
 msgid "Receives a referral to the District Health Center."
 msgstr ""
@@ -84,12 +84,12 @@ msgctxt "step.experiences.doing"
 msgid "Tells Vilay about the birth in Taifafeki and shows the cards."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:147
+#: scenarios/user-scenarios/j2-found-at-home.json:143
 msgctxt "step.experiences.feeling"
 msgid "“Another trip — but at least they know about his vaccines now.”"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:141
+#: scenarios/user-scenarios/j2-found-at-home.json:137
 msgctxt "step.experiences.feeling"
 msgid "“Good, he’s on our family record now.”"
 msgstr ""
@@ -104,62 +104,62 @@ msgctxt "step.experiences.feeling"
 msgid "“I hope we’re not in trouble for giving birth abroad.”"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:129
+#: scenarios/user-scenarios/j2-found-at-home.json:125
 msgctxt "step.experiences.feeling"
 msgid "“No signal for weeks — but I need to register him today.”"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:135
+#: scenarios/user-scenarios/j2-found-at-home.json:131
 msgctxt "step.experiences.feeling"
 msgid "“Three weeks old, and now he counts.”"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:255
+#: scenarios/user-scenarios/j2-found-at-home.json:251
 msgctxt "step.fhirChanges.change"
 msgid "Created as primarySource = false"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:220
+#: scenarios/user-scenarios/j2-found-at-home.json:216
 msgctxt "step.fhirChanges.change"
 msgid "Created with a temporary ID from Onesa"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:267
+#: scenarios/user-scenarios/j2-found-at-home.json:263
 msgctxt "step.fhirChanges.change"
 msgid "Referral to District Health Center"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:232
+#: scenarios/user-scenarios/j2-found-at-home.json:228
 msgctxt "step.fhirChanges.change"
 msgid "Somsak added as member"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:243
+#: scenarios/user-scenarios/j2-found-at-home.json:239
 msgctxt "step.fhirChanges.change"
 msgid "The registration form, answered offline (SDC)"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:233
+#: scenarios/user-scenarios/j2-found-at-home.json:229
 msgctxt "step.fhirChanges.why"
 msgid "CHW work is organised by household: the roster is how a missing newborn is noticed."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:221
+#: scenarios/user-scenarios/j2-found-at-home.json:217
 msgctxt "step.fhirChanges.why"
 msgid "He is not in the Onesa civil registry yet; a temporary id lets the CHW, clinic and portal all mean the same child. Taifafeki only gave him a hospital number."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:256
+#: scenarios/user-scenarios/j2-found-at-home.json:252
 msgctxt "step.fhirChanges.why"
 msgid "Read without checking the signature, so kept as reported: not lost, but not counted by the schedule yet."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:244
+#: scenarios/user-scenarios/j2-found-at-home.json:240
 msgctxt "step.fhirChanges.why"
 msgid "The form is configuration, not code; keeping the answers lets every extracted record trace back to what was asked."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:268
+#: scenarios/user-scenarios/j2-found-at-home.json:264
 msgctxt "step.fhirChanges.why"
 msgid "The phone cannot verify a DVC but the clinic can; the referral points at exactly the doses to check."
 msgstr ""
@@ -169,7 +169,7 @@ msgctxt "step.handoff.carrier"
 msgid "Camera scan"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:161
+#: scenarios/user-scenarios/j2-found-at-home.json:157
 msgctxt "step.handoff.carrier"
 msgid "Offline form (FHIR Questionnaire), then sync via Info Gateway"
 msgstr ""
@@ -179,12 +179,12 @@ msgctxt "step.handoff.payload"
 msgid "Decoded dose data (not yet saved)"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:162
+#: scenarios/user-scenarios/j2-found-at-home.json:158
 msgctxt "step.handoff.payload"
 msgid "Patient + Group + unverified Immunization ×2 + referral"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:160
+#: scenarios/user-scenarios/j2-found-at-home.json:156
 msgctxt "step.handoff.summary"
 msgid "Referral to the District Health Center"
 msgstr ""
@@ -199,7 +199,7 @@ msgctxt "step.headline"
 msgid "On a routine village visit, Vilay finds a newborn the Onesa system doesn’t know exists. She can read the vaccines on his cards, but she can’t prove they are genuine."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:119
+#: scenarios/user-scenarios/j2-found-at-home.json:115
 msgctxt "step.headline"
 msgid "With no signal, Vilay adds Somsak to his household, saves his doses as “reported”, and refers the family to the clinic."
 msgstr ""
@@ -221,7 +221,7 @@ msgid ""
 "list. It shows the doses, but checks no signature and saves nothing yet.\n"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:123
+#: scenarios/user-scenarios/j2-found-at-home.json:119
 msgctxt "step.narrative"
 msgid ""
 "On the CHW app's newborn form (structured data capture,\n"
@@ -234,7 +234,7 @@ msgid ""
 "need be, and syncs when it next reaches a signal.\n"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:151
+#: scenarios/user-scenarios/j2-found-at-home.json:147
 msgctxt "step.painPoint"
 msgid "Babies born abroad are invisible to the home health system until civil registration catches up — sometimes months later."
 msgstr ""
@@ -249,12 +249,12 @@ msgctxt "step.policy"
 msgid "Keep a clear line between what families report and what has been verified, and don’t grant trust too early."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:153
+#: scenarios/user-scenarios/j2-found-at-home.json:149
 msgctxt "step.policy"
 msgid "Newborns can be registered at home, offline, before civil registration or a national ID exists."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:156
+#: scenarios/user-scenarios/j2-found-at-home.json:152
 msgctxt "step.record.description"
 msgid "Baby registered; 2 doses saved as “reported by family”"
 msgstr ""
@@ -264,7 +264,7 @@ msgctxt "step.record.description"
 msgid "Doses read from the 2 cards; nothing saved yet"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:157
+#: scenarios/user-scenarios/j2-found-at-home.json:153
 msgctxt "step.record.heldWhere"
 msgid "CHW phone (waiting to sync)"
 msgstr ""
@@ -279,7 +279,7 @@ msgctxt "step.technicalSummary"
 msgid "The phone can read the QR but deliberately doesn’t trust it: it decodes the card offline and checks no signature. Nothing is written yet."
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:187
+#: scenarios/user-scenarios/j2-found-at-home.json:183
 msgctxt "step.technicalSummary"
 msgid "The registration form is a FHIR Questionnaire. Its answers become standard FHIR resources on the phone; the doses read from the cards are saved with primarySource=false, apart from verified data, and everything syncs whenever there is signal."
 msgstr ""
@@ -289,12 +289,12 @@ msgctxt "step.title"
 msgid "A health worker finds the baby — and reads his cards"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:118
+#: scenarios/user-scenarios/j2-found-at-home.json:114
 msgctxt "step.title"
 msgid "Registered at home, and referred"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:122
+#: scenarios/user-scenarios/j2-found-at-home.json:118
 msgctxt "step.touchpoint"
 msgid "Offline phone app (household form + referral)"
 msgstr ""
@@ -309,12 +309,12 @@ msgctxt "step.uses.role"
 msgid "Decodes the QR offline"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:203
+#: scenarios/user-scenarios/j2-found-at-home.json:199
 msgctxt "step.uses.role"
 msgid "On sync, checks the CHW’s token and only lets her write to households in her own catchment"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:199
+#: scenarios/user-scenarios/j2-found-at-home.json:195
 msgctxt "step.uses.role"
 msgid "Patient and Group (household); Immunization.primarySource = false; ServiceRequest for referral"
 msgstr ""
@@ -329,17 +329,17 @@ msgctxt "step.uses.role"
 msgid "QR decoded (CBOR) but signature not checked"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:195
+#: scenarios/user-scenarios/j2-found-at-home.json:191
 msgctxt "step.uses.role"
 msgid "Renders the household registration form and extracts FHIR from the answers"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:191
+#: scenarios/user-scenarios/j2-found-at-home.json:187
 msgctxt "step.uses.role"
 msgid "Stores data on the phone; works 28+ days offline"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:170
+#: scenarios/user-scenarios/j2-found-at-home.json:166
 msgctxt "step.whatIf.outcome"
 msgid "Everything stays queued safely on the device and syncs when she next reaches the health center."
 msgstr ""
@@ -349,7 +349,7 @@ msgctxt "step.whatIf.outcome"
 msgid "Technically possible with a cached trust list — but who keeps it current on thousands of village phones?"
 msgstr ""
 
-#: scenarios/user-scenarios/j2-found-at-home.json:169
+#: scenarios/user-scenarios/j2-found-at-home.json:165
 msgctxt "step.whatIf.scenario"
 msgid "Vilay’s phone stays offline for 28 days."
 msgstr ""

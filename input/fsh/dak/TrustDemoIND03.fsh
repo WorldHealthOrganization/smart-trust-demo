@@ -12,15 +12,15 @@ Usage: #definition
 * experimental = true
 * description = "Of the referrals community health workers make for a child's foreign cards to be verified, the proportion completed at the clinic."
 * scoring = http://terminology.hl7.org/CodeSystem/measure-scoring#proportion "Proportion"
-* guidance = "A definition only: it states no target and no value. Data elements: TD.J2B.DE02 Referred by; TD.J2B.DE03 Referred to; TD.J2B.DE04 Referred at; TD.J2B.DE06 Doses to verify; TD.J2B.DE07 Referral status. Decision tables: TD.DT.01. Requirements: STT-VER-011. The populations are described, not computable: this guide carries no CQL."
+* guidance = "A definition only: it states no target and no value. Data elements: IMMZC4.uniqueIdentifier Unique identifier; IMMZImmunization.primarySource Primary source. Decision tables: TD.DT.01. Requirements: STT-VER-011. The populations are described, not computable: this guide carries no CQL."
 * group[+].population[+].code = http://terminology.hl7.org/CodeSystem/measure-population#denominator "Denominator"
 * group[=].population[=].description = "Referrals for verification made by community health workers in the reporting period."
 * group[=].population[=].criteria.language = #text/plain
-* group[=].population[=].criteria.expression = "COUNT of referrals (TD.J2B) WHERE \"Referred at\" is in the reporting period"
+* group[=].population[=].criteria.expression = "COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period"
 * group[=].population[+].code = http://terminology.hl7.org/CodeSystem/measure-population#numerator "Numerator"
 * group[=].population[=].description = "Referrals made in the reporting period for which the clinic has recorded an outcome for every dose the referral lists."
 * group[=].population[=].criteria.language = #text/plain
-* group[=].population[=].criteria.expression = "COUNT of referrals (TD.J2B) WHERE \"Referred at\" is in the reporting period AND \"Referral status\" = completed"
+* group[=].population[=].criteria.expression = "COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period AND ServiceRequest.status = completed"
 * group[=].stratifier[+].code.text = "Referred to"
 * group[=].stratifier[=].description = "the clinic referred to"
 * group[=].stratifier[+].code.text = "Referred by"

@@ -45,6 +45,8 @@ The parent who holds the child's paper DVCs and the family phone, and presents t
 - [J3 Verify, import and schedule at the home clinic](business-processes.html#j3-verify-import-and-schedule-at-the-home-clinic): its lane holds no task
 - [J4.0 Issue the family's records to one phone as VHLs](business-processes.html#j40-issue-the-familys-records-to-one-phone-as-vhls): Choose who to share, with a passcode and an expiry
 - [J4.1 Read a family member's records at the point of care abroad](business-processes.html#j41-read-a-family-members-records-at-the-point-of-care-abroad): its lane holds no task
+
+**Data sets its tasks record or read**: [J4 VHLPayload VHL Payload](dictionary.html#j4-vhlpayload-vhl-payload)
 """
 * documentation = "https://github.com/litlfred/smart-trust-demo/blob/main/scenarios/roles.json"
 * derivedFrom[+] = "https://profiles.ihe.net/ITI/VHL/ActorDefinition/VHLHolder"
