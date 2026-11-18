@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo journeys viewer\n"
-"POT-Creation-Date: 2026-11-17T18:59:30.830Z\n"
+"POT-Creation-Date: 2026-11-18T13:14:03.486Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -814,22 +814,6 @@ msgstr ""
 msgid "<0>J4.1</0>: Viewer app team: open the link, enter the passcode, read the records."
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Joint, both tracks:</0> Day 1 recap and today's plan (Workshop hosts). P2.1 Day 1 recap; P2.2 Host country digital health showcase; P2.3 Country vignettes; P2.4 Framing Day 2"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Joint, both tracks:</0> FHIR around the world and the story we follow (Workshop hosts, with the policy track). P1.1 Welcome; P1.2 WHO remarks; P1.3 How the two days work; P1.4 Country panel; P1.5 Walkthrough of the five journeys"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Joint, both tracks:</0> The journey live, readouts and next steps (Lead facilitator with the workshop hosts). S2.1 Live demonstration; S2.2 Country first moves and the regional ask; S2.3 Handover"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Joint, both tracks:</0> What we did today (Lead facilitator for the technical track). S1.1 Policy-maker track; S1.2 Technologist track; S1.3 Close of Day 1"
-msgstr ""
-
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
 msgid "<0>Khamla travels alone with Somsak.</0> Who can access the baby’s record without Bounmy’s phone? Delegated access within a household is still an open design question."
 msgstr ""
@@ -916,34 +900,6 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "<0>Policy point.</0> Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Policy track, <1>M1</1>:</0> From journey to capabilities"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Policy track, <1>M2</1>:</0> The reference architecture (DPI-H) and where you stand"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Policy track, <1>M3</1>:</0> Standards, specifications and the core data set"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Policy track, <1>M4</1>:</0> Trust, credentials and wallets"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Policy track, <1>M5</1>:</0> Governance, decision rights and the legal basis"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Policy track, <1>M6</1>:</0> Doing it together"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Policy track, <1>M7</1>:</0> First move and the investment required"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
@@ -1466,52 +1422,52 @@ msgstr ""
 msgid "<0>Substitution patterns</0> <1>Start shared</1> — The trust network is built once, for every programme that signs credentials, not for immunization alone."
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T1</1>:</0> Talk 1: Building with FHIR and the Open Health Stack (talk)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T1</0> Talk 1: Building with FHIR and the Open Health Stack <1>Talk</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T2</1>:</0> Lab 1: Offline data capture (lab)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T2</0> Lab 1: Offline data capture <1>Lab</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T3</1>:</0> Talk 2: Trust between countries, SMART Trust and the GDHCN (talk)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T3</0> Talk 2: Trust between countries, SMART Trust and the GDHCN <1>Talk</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T4</1>:</0> Lab 2: Sync data and run a workflow (lab)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T4</0> Lab 2: Sync data and run a workflow <1>Lab</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T4</1>:</0> Talk 3: Workflows, sync and who sees what (talk)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T4</0> Talk 3: Workflows, sync and who sees what <1>Talk</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T5</1>:</0> Lab 3: Build your first dashboard (lab)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T5</0> Lab 3: Build your first dashboard <1>Lab</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T5</1>:</0> Talk 4: From records to charts (talk)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T5</0> Talk 4: From records to charts <1>Talk</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T6</1>:</0> Talk 5: Verifying a card, sharing a link, and what you build today (talk)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T6</0> Talk 5: Verifying a card, sharing a link, and what you build today <1>Talk</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T7</1>:</0> Putting the journey together (team build)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T7</0> Putting the journey together <1>Team build</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T7</1>:</0> Team build, part 1 (team build)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T7</0> Team build, part 1 <1>Team build</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T7</1>:</0> Team build, part 2 (team build)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T7</0> Team build, part 2 <1>Team build</1>"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "<0>Technical track, <1>T7</1>:</0> Team presentations (showcase)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "<0>T7</0> Team presentations <1>Showcase</1>"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
@@ -2446,7 +2402,7 @@ msgstr ""
 msgid "A strange room, but nobody has to guess what he has had."
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "A suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country."
 msgstr ""
 
@@ -2786,8 +2742,8 @@ msgstr ""
 msgid "Architecture: two countries on one trust foundation"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "Arrival and Heropa login (Technical track: support crew)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Arrival and Heropa login"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
@@ -3376,6 +3332,10 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/index.html:0
 msgid "Breadcrumb"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Break"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
@@ -4134,19 +4094,19 @@ msgstr ""
 msgid "Code mapping service (product to Onesa EPI): we have this"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Coffee"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Coffee, and set up the devices for the finale"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Coffee, then back to the track rooms"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Coffee, then move to the track rooms"
 msgstr ""
 
@@ -4226,7 +4186,7 @@ msgstr ""
 msgid "ConceptMap/TrustDemoProductToOnesaEpi"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa."
 msgstr ""
 
@@ -4790,16 +4750,12 @@ msgstr ""
 msgid "Dad creates a link to share at the clinic"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/index.html:0
 msgid "DAK"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "DAK assets"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
-msgid "Data"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
@@ -4948,6 +4904,10 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Day 1"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Day 1 recap and today's plan"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t1/index.html:0
@@ -5980,6 +5940,10 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
 msgid "FHIR API via Info Gateway"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "FHIR around the world and the story we follow"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
@@ -8494,6 +8458,10 @@ msgstr ""
 msgid "job-aid"
 msgstr ""
 
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Joint, both tracks"
+msgstr ""
+
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "Journey · J1 · SMART Trust demonstrator"
 msgstr ""
@@ -8756,6 +8724,14 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
 msgid "Layer 3: Onesa national schedule ValueSet"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Lead facilitator for the technical track"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Lead facilitator with the workshop hosts"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
@@ -9030,6 +9006,10 @@ msgstr ""
 msgid "Logical information model repository<0>DPI-H registries · Structure · core data set · FHIR IG · OpenEHR · IMMZ</0>"
 msgstr ""
 
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Logistics"
+msgstr ""
+
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "LOINC"
 msgstr ""
@@ -9074,7 +9054,7 @@ msgstr ""
 msgid "Lot XXR-9012 • Right upper arm • 0.05 mL • ID"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Lunch"
 msgstr ""
 
@@ -9730,8 +9710,8 @@ msgstr ""
 msgid "Mother's International Patient Summary (IPS)"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "Move to the main room and brief the finale (Support crew)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Move to the main room and brief the finale"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
@@ -10834,7 +10814,7 @@ msgstr ""
 msgid "Our name for Computable Decision Support Engine (Onesa)"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/overview/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/overview/index.html:0
 msgid "Our name for Cross-Border"
 msgstr ""
 
@@ -11044,6 +11024,42 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "P"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P1.1 Welcome"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P1.2 WHO remarks"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P1.3 How the two days work"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P1.4 Country panel"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P1.5 Walkthrough of the five journeys"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P2.1 Day 1 recap"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P2.2 Host country digital health showcase"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P2.3 Country vignettes"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "P2.4 Framing Day 2"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
@@ -11320,6 +11336,10 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
 msgid "Policy takeaway"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Policy track"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
@@ -11874,8 +11894,8 @@ msgstr ""
 msgid "Registers the consent it will enforce when the link is used"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "Registration and Heropa login (Technical track: support crew)"
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Registration and Heropa login"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
@@ -12010,6 +12030,18 @@ msgstr ""
 msgid "S1: Birth Abroad & Printed DVC QR Cards"
 msgstr ""
 
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "S1.1 Policy-maker track"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "S1.2 Technologist track"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "S1.3 Close of Day 1"
+msgstr ""
+
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S2/index.html:0
 msgid "S2 Offline QR Scan of the Foreign Cards — Journeys"
 msgstr ""
@@ -12020,6 +12052,18 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html:0
 msgid "S2: Offline QR Scan of the Foreign Cards"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "S2.1 Live demonstration"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "S2.2 Country first moves and the regional ask"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "S2.3 Handover"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/index.html:0
@@ -12256,10 +12300,6 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "ServiceRequest/TrustDemoJ2Referral"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
-msgid "Session"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t1/index.html:0
@@ -12958,34 +12998,6 @@ msgstr ""
 msgid "Strategy & investment"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
-msgid "StructureDefinition/TrustDemoDdBirthDoseDvc"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
-msgid "StructureDefinition/TrustDemoDdChwReferral"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
-msgid "StructureDefinition/TrustDemoDdChwRegistration"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
-msgid "StructureDefinition/TrustDemoDdDvcVerification"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
-msgid "StructureDefinition/TrustDemoDdImportedDose"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
-msgid "StructureDefinition/TrustDemoDdVhlAccess"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
-msgid "StructureDefinition/TrustDemoDdVhlShare"
-msgstr ""
-
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Subject of care"
 msgstr ""
@@ -13040,6 +13052,10 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Supply chain<0>Point-of-service applications · Supply · LMIS · cold chain</0>"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Support crew"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
@@ -13406,7 +13422,7 @@ msgstr ""
 msgid "Team members"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Teams build one app in the journey, show it, and then everything runs together."
 msgstr ""
 
@@ -13428,6 +13444,14 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "Technical staff"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Technical track"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Technical track: support crew"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
@@ -13706,7 +13730,7 @@ msgstr ""
 msgid "The CWT claim set SHALL use the integer keys 1 (iss), 6 (iat), 4 (exp) and -260 (hcert). The hcert map SHALL use integer subclaim keys. The quoted keys in the documentation (\"1\", \"-260\", \"-6\") are JSON notation only and SHALL NOT be emitted as text keys."
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/index.html:0
 msgid "The DAK assets this moment uses: its data sets, the decision tables that decide it, the indicators that measure it"
 msgstr ""
 
@@ -13960,6 +13984,10 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
 msgid "The issuer's DSC is on the trust list"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "The journey live, readouts and next steps"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/map/index.html:0
@@ -14251,7 +14279,7 @@ msgid "The technical track (T1 to T7)"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/overview/index.html:0
-msgid "The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family. It runs beside the [policy-maker track](../dpi-h-policy-track/) (M1 to M7): each technical module serves the policy module it is paired with, and both tracks meet in joint sessions each morning and at the close of each day. Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together. ## The two days A suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country. ### Day 1 Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa. | Time | Session | |---|---| | 08:30–09:00 | Registration and Heropa login (Technical track: support crew) | | 09:00–10:30 | **Joint, both tracks:** FHIR around the world and the story we follow (Workshop hosts, with the policy track). P1.1 Welcome; P1.2 WHO remarks; P1.3 How the two days work; P1.4 Country panel; P1.5 Walkthrough of the five journeys | | 10:30–11:00 | Coffee, then move to the track rooms | | 11:00–12:30 | **Policy track, [M1](../dpi-h-policy-track/m1/):** From journey to capabilities | | 11:00–11:40 | **Technical track, [T1](t1/):** Talk 1: Building with FHIR and the Open Health Stack (talk) | | 11:40–12:30 | **Technical track, [T2](t2/):** Lab 1: Offline data capture (lab) | | 12:30–13:30 | Lunch | | 13:30–15:00 | **Policy track, [M2](../dpi-h-policy-track/m2/):** The reference architecture (DPI-H) and where you stand | | 13:30–13:50 | **Technical track, [T3](t3/):** Talk 2: Trust between countries, SMART Trust and the GDHCN (talk) | | 13:50–14:00 | **Technical track, [T4](t4/):** Talk 3: Workflows, sync and who sees what (talk) | | 14:00–15:00 | **Technical track, [T4](t4/):** Lab 2: Sync data and run a workflow (lab) | | 15:00–15:30 | Coffee | | 15:30–16:30 | **Policy track, [M3](../dpi-h-policy-track/m3/):** Standards, specifications and the core data set | | 15:30–15:40 | **Technical track, [T5](t5/):** Talk 4: From records to charts (talk) | | 15:40–16:30 | **Technical track, [T5](t5/):** Lab 3: Build your first dashboard (lab) | | 16:30–17:00 | **Joint, both tracks:** What we did today (Lead facilitator for the technical track). S1.1 Policy-maker track; S1.2 Technologist track; S1.3 Close of Day 1 | ### Day 2 Teams build one app in the journey, show it, and then everything runs together. | Time | Session | |---|---| | 08:30–09:00 | Arrival and Heropa login (Technical track: support crew) | | 09:00–10:30 | **Joint, both tracks:** Day 1 recap and today's plan (Workshop hosts). P2.1 Day 1 recap; P2.2 Host country digital health showcase; P2.3 Country vignettes; P2.4 Framing Day 2 | | 10:30–11:00 | Coffee, then back to the track rooms | | 11:00–11:30 | **Policy track, [M4](../dpi-h-policy-track/m4/):** Trust, credentials and wallets | | 11:00–11:30 | **Technical track, [T6](t6/):** Talk 5: Verifying a card, sharing a link, and what you build today (talk) | | 11:30–12:30 | **Policy track, [M5](../dpi-h-policy-track/m5/):** Governance, decision rights and the legal basis | | 11:30–12:30 | **Technical track, [T7](t7/):** Team build, part 1 (team build) | | 12:30–13:30 | Lunch | | 13:30–15:00 | **Policy track, [M6](../dpi-h-policy-track/m6/):** Doing it together | | 13:30–14:25 | **Technical track, [T7](t7/):** Team build, part 2 (team build) | | 14:25–15:00 | **Technical track, [T7](t7/):** Team presentations (showcase) | | 15:00–15:30 | Coffee, and set up the devices for the finale | | 15:30–16:15 | **Policy track, [M7](../dpi-h-policy-track/m7/):** First move and the investment required | | 15:30–16:15 | **Technical track, [T7](t7/):** Putting the journey together (team build) | | 16:15–16:30 | Move to the main room and brief the finale (Support crew) | | 16:30–17:00 | **Joint, both tracks:** The journey live, readouts and next steps (Lead facilitator with the workshop hosts). S2.1 Live demonstration; S2.2 Country first moves and the regional ask; S2.3 Handover | ## Before you run it - Agree the joint sessions on both days with the policy track, and who leads each closing slot. - Test the hosted classroom environment (Heropa) the week before. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio. - Lab 3: set up the dashboard tooling and the shared test data, with help on hand once the apps are seeded. - Assign a facilitator to each Day 2 team. - Record the full journey once as a fallback for the finale."
+msgid "The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family."
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
@@ -14266,7 +14294,7 @@ msgstr ""
 msgid "The ticked capabilities carry onto Sheet 2."
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "The two days"
 msgstr ""
 
@@ -14378,7 +14406,7 @@ msgstr ""
 msgid "Tick the drivers for your action, then circle the one that dominates."
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Time"
 msgstr ""
 
@@ -15330,6 +15358,10 @@ msgstr ""
 msgid "What we ask of partners"
 msgstr ""
 
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "What we did today"
+msgstr ""
+
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
 msgid "What we don’t have yet (8 min): the last step of every sheet"
 msgstr ""
@@ -16056,6 +16088,14 @@ msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
 msgid "Workshop · SMART Trust demonstrator"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Workshop hosts"
+msgstr ""
+
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html:0
+msgid "Workshop hosts, with the policy track"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0

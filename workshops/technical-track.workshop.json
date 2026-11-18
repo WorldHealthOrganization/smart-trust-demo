@@ -2,7 +2,7 @@
   "$schema": "workshop/0.1.0",
   "id": "technical-track",
   "title": "Verifiable immunization records across borders: the technical track",
-  "description": "The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family. It runs beside the [policy-maker track](../dpi-h-policy-track/) (M1 to M7): each technical module serves the policy module it is paired with, and both tracks meet in joint sessions each morning and at the close of each day.\n\nTwo days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.\n\n## The two days\n\nA suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.\n\n### Day 1\n\nConcepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa.\n\n| Time | Session |\n|---|---|\n| 08:30–09:00 | Registration and Heropa login (Technical track: support crew) |\n| 09:00–10:30 | **Joint, both tracks:** FHIR around the world and the story we follow (Workshop hosts, with the policy track). P1.1 Welcome; P1.2 WHO remarks; P1.3 How the two days work; P1.4 Country panel; P1.5 Walkthrough of the five journeys |\n| 10:30–11:00 | Coffee, then move to the track rooms |\n| 11:00–12:30 | **Policy track, [M1](../dpi-h-policy-track/m1/):** From journey to capabilities |\n| 11:00–11:40 | **Technical track, [T1](t1/):** Talk 1: Building with FHIR and the Open Health Stack (talk) |\n| 11:40–12:30 | **Technical track, [T2](t2/):** Lab 1: Offline data capture (lab) |\n| 12:30–13:30 | Lunch |\n| 13:30–15:00 | **Policy track, [M2](../dpi-h-policy-track/m2/):** The reference architecture (DPI-H) and where you stand |\n| 13:30–13:50 | **Technical track, [T3](t3/):** Talk 2: Trust between countries, SMART Trust and the GDHCN (talk) |\n| 13:50–14:00 | **Technical track, [T4](t4/):** Talk 3: Workflows, sync and who sees what (talk) |\n| 14:00–15:00 | **Technical track, [T4](t4/):** Lab 2: Sync data and run a workflow (lab) |\n| 15:00–15:30 | Coffee |\n| 15:30–16:30 | **Policy track, [M3](../dpi-h-policy-track/m3/):** Standards, specifications and the core data set |\n| 15:30–15:40 | **Technical track, [T5](t5/):** Talk 4: From records to charts (talk) |\n| 15:40–16:30 | **Technical track, [T5](t5/):** Lab 3: Build your first dashboard (lab) |\n| 16:30–17:00 | **Joint, both tracks:** What we did today (Lead facilitator for the technical track). S1.1 Policy-maker track; S1.2 Technologist track; S1.3 Close of Day 1 |\n\n### Day 2\n\nTeams build one app in the journey, show it, and then everything runs together.\n\n| Time | Session |\n|---|---|\n| 08:30–09:00 | Arrival and Heropa login (Technical track: support crew) |\n| 09:00–10:30 | **Joint, both tracks:** Day 1 recap and today's plan (Workshop hosts). P2.1 Day 1 recap; P2.2 Host country digital health showcase; P2.3 Country vignettes; P2.4 Framing Day 2 |\n| 10:30–11:00 | Coffee, then back to the track rooms |\n| 11:00–11:30 | **Policy track, [M4](../dpi-h-policy-track/m4/):** Trust, credentials and wallets |\n| 11:00–11:30 | **Technical track, [T6](t6/):** Talk 5: Verifying a card, sharing a link, and what you build today (talk) |\n| 11:30–12:30 | **Policy track, [M5](../dpi-h-policy-track/m5/):** Governance, decision rights and the legal basis |\n| 11:30–12:30 | **Technical track, [T7](t7/):** Team build, part 1 (team build) |\n| 12:30–13:30 | Lunch |\n| 13:30–15:00 | **Policy track, [M6](../dpi-h-policy-track/m6/):** Doing it together |\n| 13:30–14:25 | **Technical track, [T7](t7/):** Team build, part 2 (team build) |\n| 14:25–15:00 | **Technical track, [T7](t7/):** Team presentations (showcase) |\n| 15:00–15:30 | Coffee, and set up the devices for the finale |\n| 15:30–16:15 | **Policy track, [M7](../dpi-h-policy-track/m7/):** First move and the investment required |\n| 15:30–16:15 | **Technical track, [T7](t7/):** Putting the journey together (team build) |\n| 16:15–16:30 | Move to the main room and brief the finale (Support crew) |\n| 16:30–17:00 | **Joint, both tracks:** The journey live, readouts and next steps (Lead facilitator with the workshop hosts). S2.1 Live demonstration; S2.2 Country first moves and the regional ask; S2.3 Handover |\n\n## Before you run it\n\n- Agree the joint sessions on both days with the policy track, and who leads each closing slot.\n- Test the hosted classroom environment (Heropa) the week before. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio.\n- Lab 3: set up the dashboard tooling and the shared test data, with help on hand once the apps are seeded.\n- Assign a facilitator to each Day 2 team.\n- Record the full journey once as a fallback for the finale.",
+  "description": "The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family. It runs beside the [policy-maker track](../dpi-h-policy-track/) (M1 to M7): each technical module serves the policy module it is paired with, and both tracks meet in joint sessions each morning and at the close of each day.\n\nTwo days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.\n\n## Before you run it\n\n- Agree the joint sessions on both days with the policy track, and who leads each closing slot.\n- Test the hosted classroom environment (Heropa) the week before. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio.\n- Lab 3: set up the dashboard tooling and the shared test data, with help on hand once the apps are seeded.\n- Assign a facilitator to each Day 2 team.\n- Record the full journey once as a fallback for the finale.",
   "audience": "Developers, implementers and digital health architects, working in teams on one app of the journey each",
   "promise": "Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.",
   "scenarios": [
@@ -356,6 +356,306 @@
         "module": "T7",
         "step": "J4.1",
         "technical": "Viewer app team: open the link, enter the passcode, read the records."
+      }
+    ]
+  },
+  "schedule": {
+    "intro": "A suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.",
+    "tracks": [
+      {
+        "id": "policy",
+        "label": "Policy track",
+        "workshop": "dpi-h-policy-track"
+      },
+      {
+        "id": "technical",
+        "label": "Technical track"
+      }
+    ],
+    "days": [
+      {
+        "day": 1,
+        "summary": "Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa.",
+        "slots": [
+          {
+            "start": "08:30",
+            "end": "09:00",
+            "kind": "logistics",
+            "title": "Registration and Heropa login",
+            "note": "Technical track: support crew"
+          },
+          {
+            "start": "09:00",
+            "end": "10:30",
+            "kind": "joint",
+            "title": "FHIR around the world and the story we follow",
+            "note": "Workshop hosts, with the policy track",
+            "sessions": [
+              "P1.1 Welcome",
+              "P1.2 WHO remarks",
+              "P1.3 How the two days work",
+              "P1.4 Country panel",
+              "P1.5 Walkthrough of the five journeys"
+            ]
+          },
+          {
+            "start": "10:30",
+            "end": "11:00",
+            "kind": "break",
+            "title": "Coffee, then move to the track rooms"
+          },
+          {
+            "start": "11:00",
+            "end": "12:30",
+            "kind": "session",
+            "track": "policy",
+            "module": "M1",
+            "title": "From journey to capabilities"
+          },
+          {
+            "start": "11:00",
+            "end": "11:40",
+            "kind": "session",
+            "track": "technical",
+            "module": "T1",
+            "title": "Talk 1: Building with FHIR and the Open Health Stack",
+            "type": "Talk"
+          },
+          {
+            "start": "11:40",
+            "end": "12:30",
+            "kind": "session",
+            "track": "technical",
+            "module": "T2",
+            "title": "Lab 1: Offline data capture",
+            "type": "Lab"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "kind": "break",
+            "title": "Lunch"
+          },
+          {
+            "start": "13:30",
+            "end": "15:00",
+            "kind": "session",
+            "track": "policy",
+            "module": "M2",
+            "title": "The reference architecture (DPI-H) and where you stand"
+          },
+          {
+            "start": "13:30",
+            "end": "13:50",
+            "kind": "session",
+            "track": "technical",
+            "module": "T3",
+            "title": "Talk 2: Trust between countries, SMART Trust and the GDHCN",
+            "type": "Talk"
+          },
+          {
+            "start": "13:50",
+            "end": "14:00",
+            "kind": "session",
+            "track": "technical",
+            "module": "T4",
+            "title": "Talk 3: Workflows, sync and who sees what",
+            "type": "Talk"
+          },
+          {
+            "start": "14:00",
+            "end": "15:00",
+            "kind": "session",
+            "track": "technical",
+            "module": "T4",
+            "title": "Lab 2: Sync data and run a workflow",
+            "type": "Lab"
+          },
+          {
+            "start": "15:00",
+            "end": "15:30",
+            "kind": "break",
+            "title": "Coffee"
+          },
+          {
+            "start": "15:30",
+            "end": "16:30",
+            "kind": "session",
+            "track": "policy",
+            "module": "M3",
+            "title": "Standards, specifications and the core data set"
+          },
+          {
+            "start": "15:30",
+            "end": "15:40",
+            "kind": "session",
+            "track": "technical",
+            "module": "T5",
+            "title": "Talk 4: From records to charts",
+            "type": "Talk"
+          },
+          {
+            "start": "15:40",
+            "end": "16:30",
+            "kind": "session",
+            "track": "technical",
+            "module": "T5",
+            "title": "Lab 3: Build your first dashboard",
+            "type": "Lab"
+          },
+          {
+            "start": "16:30",
+            "end": "17:00",
+            "kind": "joint",
+            "title": "What we did today",
+            "note": "Lead facilitator for the technical track",
+            "sessions": [
+              "S1.1 Policy-maker track",
+              "S1.2 Technologist track",
+              "S1.3 Close of Day 1"
+            ]
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "summary": "Teams build one app in the journey, show it, and then everything runs together.",
+        "slots": [
+          {
+            "start": "08:30",
+            "end": "09:00",
+            "kind": "logistics",
+            "title": "Arrival and Heropa login",
+            "note": "Technical track: support crew"
+          },
+          {
+            "start": "09:00",
+            "end": "10:30",
+            "kind": "joint",
+            "title": "Day 1 recap and today's plan",
+            "note": "Workshop hosts",
+            "sessions": [
+              "P2.1 Day 1 recap",
+              "P2.2 Host country digital health showcase",
+              "P2.3 Country vignettes",
+              "P2.4 Framing Day 2"
+            ]
+          },
+          {
+            "start": "10:30",
+            "end": "11:00",
+            "kind": "break",
+            "title": "Coffee, then back to the track rooms"
+          },
+          {
+            "start": "11:00",
+            "end": "11:30",
+            "kind": "session",
+            "track": "policy",
+            "module": "M4",
+            "title": "Trust, credentials and wallets"
+          },
+          {
+            "start": "11:00",
+            "end": "11:30",
+            "kind": "session",
+            "track": "technical",
+            "module": "T6",
+            "title": "Talk 5: Verifying a card, sharing a link, and what you build today",
+            "type": "Talk"
+          },
+          {
+            "start": "11:30",
+            "end": "12:30",
+            "kind": "session",
+            "track": "policy",
+            "module": "M5",
+            "title": "Governance, decision rights and the legal basis"
+          },
+          {
+            "start": "11:30",
+            "end": "12:30",
+            "kind": "session",
+            "track": "technical",
+            "module": "T7",
+            "title": "Team build, part 1",
+            "type": "Team build"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "kind": "break",
+            "title": "Lunch"
+          },
+          {
+            "start": "13:30",
+            "end": "15:00",
+            "kind": "session",
+            "track": "policy",
+            "module": "M6",
+            "title": "Doing it together"
+          },
+          {
+            "start": "13:30",
+            "end": "14:25",
+            "kind": "session",
+            "track": "technical",
+            "module": "T7",
+            "title": "Team build, part 2",
+            "type": "Team build"
+          },
+          {
+            "start": "14:25",
+            "end": "15:00",
+            "kind": "session",
+            "track": "technical",
+            "module": "T7",
+            "title": "Team presentations",
+            "type": "Showcase"
+          },
+          {
+            "start": "15:00",
+            "end": "15:30",
+            "kind": "break",
+            "title": "Coffee, and set up the devices for the finale"
+          },
+          {
+            "start": "15:30",
+            "end": "16:15",
+            "kind": "session",
+            "track": "policy",
+            "module": "M7",
+            "title": "First move and the investment required"
+          },
+          {
+            "start": "15:30",
+            "end": "16:15",
+            "kind": "session",
+            "track": "technical",
+            "module": "T7",
+            "title": "Putting the journey together",
+            "type": "Team build"
+          },
+          {
+            "start": "16:15",
+            "end": "16:30",
+            "kind": "logistics",
+            "title": "Move to the main room and brief the finale",
+            "note": "Support crew"
+          },
+          {
+            "start": "16:30",
+            "end": "17:00",
+            "kind": "joint",
+            "title": "The journey live, readouts and next steps",
+            "note": "Lead facilitator with the workshop hosts",
+            "sessions": [
+              "S2.1 Live demonstration",
+              "S2.2 Country first moves and the regional ask",
+              "S2.3 Handover"
+            ]
+          }
+        ]
       }
     ]
   },
