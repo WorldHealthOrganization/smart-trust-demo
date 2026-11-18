@@ -6,13 +6,13 @@
  ],
  "droppedByRuling": [],
  "current": {
-  "pages": 13772,
+  "pages": 13773,
   "counts": {
    "siteNav": 0,
-   "search": 9880,
-   "navbarRow": 8374,
-   "rail": 9328,
-   "translationMeta": 9898
+   "search": 9881,
+   "navbarRow": 8375,
+   "rail": 9329,
+   "translationMeta": 9899
   },
   "dirs": [
    "ar",
@@ -27,8 +27,10 @@
    "folio-assistant-core",
    "fr",
    "id-lookup",
+   "payload",
    "questionnaires",
    "ru",
+   "slices",
    "smart-base",
    "smart-trust-demo",
    "zh"
