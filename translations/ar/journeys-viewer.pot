@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo journeys viewer\n"
-"POT-Creation-Date: 2026-11-18T13:11:58.292Z\n"
+"POT-Creation-Date: 2026-11-18T13:14:02.425Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -4750,16 +4750,12 @@ msgstr ""
 msgid "Dad creates a link to share at the clinic"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/index.html:0
 msgid "DAK"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
 msgid "DAK assets"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
-msgid "Data"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
@@ -13002,34 +12998,6 @@ msgstr ""
 msgid "Strategy & investment"
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0
-msgid "StructureDefinition/TrustDemoDdBirthDoseDvc"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
-msgid "StructureDefinition/TrustDemoDdChwReferral"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j2-found-at-home/index.html:0
-msgid "StructureDefinition/TrustDemoDdChwRegistration"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
-msgid "StructureDefinition/TrustDemoDdDvcVerification"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j3-made-official/index.html:0
-msgid "StructureDefinition/TrustDemoDdImportedDose"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j4-1-full-history-abroad/index.html:0
-msgid "StructureDefinition/TrustDemoDdVhlAccess"
-msgstr ""
-
-#: en/smart-trust-demo/journeys/smart-trust-demo/j4-0-one-family-one-phone/index.html:0
-msgid "StructureDefinition/TrustDemoDdVhlShare"
-msgstr ""
-
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/how/audit/index.html:0
 msgid "Subject of care"
 msgstr ""
@@ -13762,7 +13730,7 @@ msgstr ""
 msgid "The CWT claim set SHALL use the integer keys 1 (iss), 6 (iat), 4 (exp) and -260 (hcert). The hcert map SHALL use integer subclaim keys. The quoted keys in the documentation (\"1\", \"-260\", \"-6\") are JSON notation only and SHALL NOT be emitted as text keys."
 msgstr ""
 
-#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J1/index.html:0
+#: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/walkthrough/J2a/index.html:0
 msgid "The DAK assets this moment uses: its data sets, the decision tables that decide it, the indicators that measure it"
 msgstr ""
 
