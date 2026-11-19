@@ -31,7 +31,7 @@ The hospital system abroad that issues a DVC per dose with the HCERT library: th
 
 - [J1 Issue the newborn's birth-dose DVCs in Country A](business-processes.html#j1-issue-the-newborns-birth-dose-dvcs-in-country-a): Build one DVCMinPreQual payload per dose; Prepare: CWT claims and the COSE Sig_structure; Finish: COSE_Sign1, deflate, Base45, HC1:
 
-**Data sets its tasks record or read**: [J1 DVCMinPreQual DVC HCERT payload (PreQual)](dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal); [J1 CWT CBOR Web Token (CWT)](dictionary.html#j1-cwt-cbor-web-token-cwt)
+**Data sets its tasks record or read**: [TD.J1 Birth-dose DVC](dictionary.html#tdj1-birth-dose-dvc)
 """
 * documentation = "https://github.com/litlfred/smart-trust-demo/blob/main/scenarios/roles.json"
 * derivedFrom[+] = "http://smart.who.int/trust/ActorDefinition/Issuer"

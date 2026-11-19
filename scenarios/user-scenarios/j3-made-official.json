@@ -157,6 +157,14 @@
       ],
       "dak": [
         {
+          "key": "StructureDefinition/TrustDemoDdChwReferral",
+          "rel": "data"
+        },
+        {
+          "key": "StructureDefinition/TrustDemoDdDvcVerification",
+          "rel": "data"
+        },
+        {
           "key": "PlanDefinition/TrustDemoDT01",
           "rel": "decides"
         },
@@ -315,6 +323,10 @@
         }
       ],
       "dak": [
+        {
+          "key": "StructureDefinition/TrustDemoDdImportedDose",
+          "rel": "data"
+        },
         {
           "key": "PlanDefinition/TrustDemoDT02",
           "rel": "decides"

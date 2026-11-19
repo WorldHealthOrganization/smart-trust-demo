@@ -97,7 +97,7 @@ Why: the schedule engine in Onesa works on the national EPI codes, so each dose 
 * vaccineCode.coding[onesaEpi] from TrustDemoOnesaEpiScheduleCodes (required)
 * vaccineCode.coding[onesaEpi].system = Canonical(TrustDemoOnesaEpiSchedule)
 * vaccineCode.coding[product] from TrustDemoVaccineProducts (required)
-* vaccineCode.coding[product].system = "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds"
+* vaccineCode.coding[product].system = Canonical(TrustDemoVaccineProduct)
 * patient only Reference(TrustDemoOnesaPatient)
 * primarySource = true
 * lotNumber MS

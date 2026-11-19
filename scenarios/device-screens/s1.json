@@ -62,7 +62,7 @@
         {
           "icon": "syringe",
           "label": "Hepatitis B Birth Dose",
-          "code": "a3K3X000006MiiXUAS",
+          "code": "vp-hepb-peds-monovalent",
           "detail": "Lot XXR-4821 • Left anterolateral thigh • 0.5 mL • IM",
           "status": {
             "text": "Completed (T0)",
@@ -72,7 +72,7 @@
         {
           "icon": "syringe",
           "label": "BCG Vaccine (Freeze-Dried)",
-          "code": "a3K3X000006MiisUAC",
+          "code": "vp-bcg-freeze-dried",
           "detail": "Lot XXR-9012 • Right upper arm • 0.05 mL • ID",
           "status": {
             "text": "Completed (T0)",
@@ -129,7 +129,7 @@
       "column": "side",
       "mono": true,
       "icon": "file",
-      "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
+      "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
       "only": [
         "raw-payload"
       ]

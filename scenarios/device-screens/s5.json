@@ -36,7 +36,7 @@
       "rows": [
         {
           "label": "Layer 1: Certificate product code (issued Taifafeki)",
-          "code": "a3K3X000006MiiXUAS",
+          "code": "vp-hepb-peds-monovalent",
           "detail": "Stored exactly as issued in DVCMinPreQual logical model.",
           "status": {
             "text": "Foreign Source",
@@ -242,7 +242,7 @@
           "id": "adjudication",
           "mono": true,
           "icon": "file",
-          "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
+          "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
         }
       ],
       "try": "Both codes travel together: the source code as issued, the national code beside it"

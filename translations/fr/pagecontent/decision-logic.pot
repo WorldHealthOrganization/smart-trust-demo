@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-18T11:00:19.608Z\n"
+"POT-Creation-Date: 2026-11-11T09:10:10.578Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -227,27 +227,27 @@ msgid "Counts ({code0})"
 msgstr ""
 
 #: input/pagecontent/decision-logic.md:24
-msgid "Data elements: <a0>CWT.header.4</a0> Key identifier (kid), <a1>CWT.payload.1</a1> Issuer (iss), <a2>IMMZImmunization.primarySource</a2> Primary source"
-msgstr ""
-
-#: input/pagecontent/decision-logic.md:114
-msgid "Data elements: <a0>CWT.header.4</a0> Key identifier (kid), <a1>VHLPayload.exp</a1> Expires at, <a2>VHLPayload.url</a2> Manifest URL"
+msgid "Data elements: <a0>TD.J3A.DE05</a0> Verification result, <a1>TD.J3A.DE07</a1> Failure reason, <a2>TD.J3A.DE09</a2> Record outcome"
 msgstr ""
 
 #: input/pagecontent/decision-logic.md:44
-msgid "Data elements: <a0>DVCMinPreQual.vx.vp</a0> Vaccine product id, <a1>IMMZImmunization.primarySource</a1> Primary source, <a2>IMMZImmunization.vaccineCode</a2> Vaccine code"
-msgstr ""
-
-#: input/pagecontent/decision-logic.md:79
-msgid "Data elements: <a0>IMMZC4.dateOfBirth</a0> Date of birth, <a1>IMMZImmunization.occurrenceDateTime</a1> Date of vaccination, <a2>IMMZImmunization.vaccineCode</a2> Vaccine code"
+msgid "Data elements: <a0>TD.J3A.DE09</a0> Record outcome, <a1>TD.J3B.DE01</a1> Issuer's product code, <a2>TD.J3B.DE02</a2> National schedule code, <a3>TD.J3B.DE03</a3> Mapping basis"
 msgstr ""
 
 #: input/pagecontent/decision-logic.md:62
-msgid "Data elements: <a0>IMMZImmunization.primarySource</a0> Primary source, <a1>IMMZImmunization.vaccineCode</a1> Vaccine code"
+msgid "Data elements: <a0>TD.J3B.DE02</a0> National schedule code, <a1>TD.J3B.DE05</a1> Counts toward the schedule"
+msgstr ""
+
+#: input/pagecontent/decision-logic.md:79
+msgid "Data elements: <a0>TD.J3B.DE05</a0> Counts toward the schedule, <a1>TD.J3B.DE07</a1> Schedule dose, <a2>TD.J3B.DE08</a2> Forecast status, <a3>TD.J3B.DE09</a3> Due date"
 msgstr ""
 
 #: input/pagecontent/decision-logic.md:96
-msgid "Data elements: <a0>VHLPayload.exp</a0> Expires at, <a1>VHLPayload.flag</a1> Flags, <a2>VHLPayload.url</a2> Manifest URL"
+msgid "Data elements: <a0>TD.J40.DE06</a0> Valid until, <a1>TD.J40.DE09</a1> Withdrawn at, <a2>TD.J41.DE06</a2> Released, <a3>TD.J41.DE07</a3> Audit outcome, <a4>TD.J41.DE08</a4> Refusal reason"
+msgstr ""
+
+#: input/pagecontent/decision-logic.md:114
+msgid "Data elements: <a0>TD.J41.DE01</a0> Requested at"
 msgstr ""
 
 #: input/pagecontent/decision-logic.md:8

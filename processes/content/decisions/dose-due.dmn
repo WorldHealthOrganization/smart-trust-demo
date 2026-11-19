@@ -21,9 +21,10 @@
       <trace:artifact ref="PlanDefinition/TrustDemoOnesaInfantSchedule"/>
       <trace:artifact ref="ImmunizationRecommendation/TrustDemoJ3Recommendation"/>
       <trace:artifact ref="Task/TrustDemoJ3Reminder"/>
-      <trace:dataElement ref="IMMZC4.dateOfBirth"/>
-      <trace:dataElement ref="IMMZImmunization.occurrenceDateTime"/>
-      <trace:dataElement ref="IMMZImmunization.vaccineCode"/>
+      <trace:dataElement ref="TD.J3B.DE05"/>
+      <trace:dataElement ref="TD.J3B.DE07"/>
+      <trace:dataElement ref="TD.J3B.DE08"/>
+      <trace:dataElement ref="TD.J3B.DE09"/>
     </extensionElements>
     <decisionTable id="Table_DoseDue" hitPolicy="FIRST">
       <input id="In_Counted" label="A counted dose has this action's code (TD.DT.03)">
