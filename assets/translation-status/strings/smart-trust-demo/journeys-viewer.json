@@ -5,11 +5,11 @@
  "translations": "translations",
  "catalogue": "journeys-viewer",
  "hashes": {
-  "ar": "2081c5282fa75286",
-  "es": "a5bd6437c9317549",
-  "fr": "00f806a7dcbe7294",
-  "ru": "fde9f56f07786093",
-  "zh": "0d19b3a68b7b6e2c"
+  "ar": "9afb4b0cb5842571",
+  "es": "5cbe6c60e8d9c1b6",
+  "fr": "c8d33ed6bd5136b7",
+  "ru": "e9cea94fb32fd832",
+  "zh": "4c14de73a8f1435b"
  },
  "strings": [
   {
@@ -53599,38 +53599,38 @@
    }
   },
   {
-   "msgid": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
-   "hash": "73268f85ce32e684",
+   "msgid": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
+   "hash": "23db7eb931e39ade",
    "sources": [
     "en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html"
    ],
    "locales": {
     "ar": {
-     "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
+     "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "es": {
-     "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
+     "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "fr": {
-     "text": "CBOR DVCMinPreQual · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
+     "text": "CBOR DVCMinPreQual · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "ru": {
-     "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
+     "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "zh": {
-     "text": "DVCMinPreQual CBOR · ES256（alg -7） · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
+     "text": "DVCMinPreQual CBOR · ES256（alg -7） · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
@@ -72865,38 +72865,38 @@
    }
   },
   {
-   "msgid": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
-   "hash": "51b5d3a69416e85e",
+   "msgid": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
+   "hash": "a9c288e77eb42747",
    "sources": [
     "en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html"
    ],
    "locales": {
     "ar": {
-     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
+     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "es": {
-     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
+     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "fr": {
-     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
+     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "ru": {
-     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
+     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "zh": {
-     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
+     "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]",
      "status": "agent",
      "fuzzy": false,
      "candidates": []

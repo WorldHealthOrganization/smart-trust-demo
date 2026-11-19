@@ -267,7 +267,7 @@ They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Hea
 <h3 id="what-the-examples-change-from-the-walkthroughs-copies">What the examples change from the walkthrough’s copies</h3>
 
 <ul>
-  <li><strong>Code systems.</strong> Each dose’s product is coded with its WHO PreQual product id (<code class="language-plaintext highlighter-rouge">a3K3X000006MiiXUAS</code> for the Hep B birth dose and so on), from the code system <code class="language-plaintext highlighter-rouge">http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds</code> of the <a href="https://worldhealthorganization.github.io/smart-pcmt-vaxprequal/ValueSet-PreQualProductIds.html">SMART Product Dataset for Prequalified Vaccines</a>, and the ValueSet <code class="language-plaintext highlighter-rouge">TrustDemoVaccineProducts</code> lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa (<code class="language-plaintext highlighter-rouge">XXU-EPI-HEPB-BD</code> and so on) are illustrative, defined here as the code system <code class="language-plaintext highlighter-rouge">TrustDemoOnesaEpiSchedule</code>, marked experimental, under this guide’s canonical, so no URL implies a real ministry.</li>
+  <li><strong>Code systems.</strong> The walkthrough’s product codes (<code class="language-plaintext highlighter-rouge">vp-hepb-peds-monovalent</code> and so on) and the schedule codes of Onesa (<code class="language-plaintext highlighter-rouge">XXU-EPI-HEPB-BD</code> and so on) are illustrative. They are defined here as the code systems <code class="language-plaintext highlighter-rouge">TrustDemoVaccineProduct</code> and <code class="language-plaintext highlighter-rouge">TrustDemoOnesaEpiSchedule</code>, marked experimental, under this guide’s canonical, so no URL implies a real ministry or a real WHO code system.</li>
   <li><strong>Countries.</strong> Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key.</li>
   <li><strong>The passcode.</strong> The walkthrough shows <code class="language-plaintext highlighter-rouge">4829</code> on screen. No example stores a passcode: the consent and audit records say only that one was checked.</li>
   <li><strong>Dates.</strong> As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28.</li>
@@ -347,7 +347,7 @@ if(at)at.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.f
 <link rel="stylesheet" href="assets/ig-pages.css">
 <footer id="ig-footer">
 <p class="ig-footer-nav"><a href="countries.html">&lt;prev</a> | <a href="#">top</a> | <a href="architecture.html">next&gt;</a></p>
-<p class="ig-footer-band">IG © 2026+ <a href="https://github.com/litlfred/smart-trust-demo" rel="external">litlfred</a>. Package <code>smart.who.int.trust-demo#0.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-18</p>
+<p class="ig-footer-band">IG © 2026+ <a href="https://github.com/litlfred/smart-trust-demo" rel="external">litlfred</a>. Package <code>smart.who.int.trust-demo#0.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-19</p>
 <p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC0-1.0.html" rel="external">License</a></p>
 </footer>
 

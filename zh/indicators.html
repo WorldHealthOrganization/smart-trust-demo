@@ -89,7 +89,7 @@
       </tr>
       <tr>
         <td>分子计算</td>
-        <td>COUNT of foreign DVCs the clinic’s HCERT library verifies in the reporting period (CWT.header.4 found on the trust list) WHERE the dose is imported as an Immunization (IMMZImmunization) with primarySource = true</td>
+        <td>COUNT 验证记录（TD.J3A）WHERE “验证时间”在报告期内 AND “记录结果” = verified</td>
       </tr>
       <tr>
         <td>分母</td>
@@ -97,7 +97,7 @@
       </tr>
       <tr>
         <td>分母计算</td>
-        <td>COUNT of foreign DVCs the clinic’s HCERT library is asked to verify in the reporting period, verified or not</td>
+        <td>COUNT 验证记录（TD.J3A）WHERE “验证时间”在报告期内</td>
       </tr>
       <tr>
         <td>分类汇总</td>
@@ -105,7 +105,7 @@
       </tr>
       <tr>
         <td>数据元素</td>
-        <td><a href="dictionary.html#j1-cwt-cbor-web-token-cwt">CWT.header.4</a> Key identifier (kid)<br /><a href="dictionary.html#j1-cwt-cbor-web-token-cwt">CWT.payload.1</a> Issuer (iss)<br /><a href="dictionary.html#j3-immzimmunization-immz-immunization">IMMZImmunization.primarySource</a> Primary source</td>
+        <td><a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE02</a> 签发国家<a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE03</a> 验证时间<a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE05</a> 验证结果<a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE07</a> 失败原因<a href="dictionary.html#tdj3a-dvc-verification-and-import">TD.J3A.DE09</a> 记录结果</td>
       </tr>
       <tr>
         <td>决策表</td>
@@ -144,7 +144,7 @@
       </tr>
       <tr>
         <td>分子计算</td>
-        <td>COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period AND AuditEvent.outcome is success</td>
+        <td>COUNT 访问记录（TD.J41）WHERE “请求时间”在报告期内 AND “已放行” = true</td>
       </tr>
       <tr>
         <td>分母</td>
@@ -152,7 +152,7 @@
       </tr>
       <tr>
         <td>分母计算</td>
-        <td>COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period</td>
+        <td>COUNT 访问记录（TD.J41）WHERE “请求时间”在报告期内</td>
       </tr>
       <tr>
         <td>分类汇总</td>
@@ -160,7 +160,7 @@
       </tr>
       <tr>
         <td>数据元素</td>
-        <td><a href="dictionary.html#j4-vhlpayload-vhl-payload">VHLPayload.exp</a> Expires at<br /><a href="dictionary.html#j4-vhlpayload-vhl-payload">VHLPayload.flag</a> Flags<br /><a href="dictionary.html#j4-vhlpayload-vhl-payload">VHLPayload.url</a> Manifest URL</td>
+        <td><a href="dictionary.html#tdj41-access-to-a-shared-link">TD.J41.DE01</a> 请求时间<a href="dictionary.html#tdj41-access-to-a-shared-link">TD.J41.DE02</a> 请求方<a href="dictionary.html#tdj41-access-to-a-shared-link">TD.J41.DE06</a> 已放行<a href="dictionary.html#tdj41-access-to-a-shared-link">TD.J41.DE08</a> 拒绝原因</td>
       </tr>
       <tr>
         <td>决策表</td>
@@ -199,7 +199,7 @@
       </tr>
       <tr>
         <td>分子计算</td>
-        <td>COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period AND ServiceRequest.status = completed</td>
+        <td>COUNT 转诊（TD.J2B）WHERE “转诊时间”在报告期内 AND “转诊状态” = completed</td>
       </tr>
       <tr>
         <td>分母</td>
@@ -207,7 +207,7 @@
       </tr>
       <tr>
         <td>分母计算</td>
-        <td>COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period</td>
+        <td>COUNT 转诊（TD.J2B）WHERE “转诊时间”在报告期内</td>
       </tr>
       <tr>
         <td>分类汇总</td>
@@ -215,7 +215,7 @@
       </tr>
       <tr>
         <td>数据元素</td>
-        <td><a href="dictionary.html#j2-immzc4-immzc4-create-client-record--immzc53-update-client-details">IMMZC4.uniqueIdentifier</a> Unique identifier<br /><a href="dictionary.html#j3-immzimmunization-immz-immunization">IMMZImmunization.primarySource</a> Primary source</td>
+        <td><a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE02</a> 转诊人<a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE03</a> 转诊至<a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE04</a> 转诊时间<a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE06</a> 待验证剂次<a href="dictionary.html#tdj2b-referral-for-verification">TD.J2B.DE07</a> 转诊状态</td>
       </tr>
       <tr>
         <td>决策表</td>
@@ -254,7 +254,7 @@
       </tr>
       <tr>
         <td>分子计算</td>
-        <td>COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period AND vaccineCode has a coding from TrustDemoOnesaEpiScheduleCodes</td>
+        <td>COUNT 导入剂次（TD.J3B）WHERE 在报告期内导入 AND “映射依据” in (concept-map, clinician-confirmed)</td>
       </tr>
       <tr>
         <td>分母</td>
@@ -262,7 +262,7 @@
       </tr>
       <tr>
         <td>分母计算</td>
-        <td>COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period</td>
+        <td>COUNT 导入剂次（TD.J3B）WHERE 在报告期内导入 AND “映射依据” != not-imported</td>
       </tr>
       <tr>
         <td>分类汇总</td>
@@ -270,7 +270,7 @@
       </tr>
       <tr>
         <td>数据元素</td>
-        <td><a href="dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal">DVCMinPreQual.vx.vp</a> Vaccine product id<br /><a href="dictionary.html#j3-immzimmunization-immz-immunization">IMMZImmunization.primarySource</a> Primary source<br /><a href="dictionary.html#j3-immzimmunization-immz-immunization">IMMZImmunization.vaccineCode</a> Vaccine code</td>
+        <td><a href="dictionary.html#tdj3b-imported-dose-and-schedule">TD.J3B.DE01</a> 签发方产品代码<a href="dictionary.html#tdj3b-imported-dose-and-schedule">TD.J3B.DE02</a> 国家接种计划代码<a href="dictionary.html#tdj3b-imported-dose-and-schedule">TD.J3B.DE03</a> 映射依据<a href="dictionary.html#tdj3b-imported-dose-and-schedule">TD.J3B.DE05</a> 计入接种计划</td>
       </tr>
       <tr>
         <td>决策表</td>

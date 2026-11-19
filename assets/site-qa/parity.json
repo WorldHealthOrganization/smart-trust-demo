@@ -1,9 +1,7 @@
 {
  "$schema": "site-parity-report/v1",
- "outcome": "published-with-shortfall",
- "shortfall": [
-  "directories the current root serves and the candidate does not: openapi/ (against the last clean publish, 0e168939dda7)"
- ],
+ "outcome": "carries-everything",
+ "shortfall": [],
  "droppedByRuling": [],
  "current": {
   "pages": 13773,
@@ -46,13 +44,13 @@
   }
  },
  "candidate": {
-  "pages": 13773,
+  "pages": 13841,
   "counts": {
    "siteNav": 0,
-   "search": 9881,
-   "navbarRow": 8375,
-   "rail": 9329,
-   "translationMeta": 9899
+   "search": 9902,
+   "navbarRow": 8396,
+   "rail": 9350,
+   "translationMeta": 9920
   },
   "dirs": [
    "ar",
@@ -67,6 +65,7 @@
    "folio-assistant-core",
    "fr",
    "id-lookup",
+   "openapi",
    "payload",
    "questionnaires",
    "ru",
@@ -87,13 +86,13 @@
  },
  "baseline": {
   "features": {
-   "pages": 13840,
+   "pages": 13841,
    "counts": {
     "siteNav": 0,
-    "search": 9901,
-    "navbarRow": 8395,
-    "rail": 9349,
-    "translationMeta": 9919
+    "search": 9902,
+    "navbarRow": 8396,
+    "rail": 9350,
+    "translationMeta": 9920
    },
    "dirs": [
     "ar",
@@ -109,8 +108,10 @@
     "fr",
     "id-lookup",
     "openapi",
+    "payload",
     "questionnaires",
     "ru",
+    "slices",
     "smart-base",
     "smart-trust-demo",
     "zh"
@@ -125,6 +126,6 @@
     "present": true
    }
   },
-  "from": "0e168939dda7"
+  "from": "e53f14023b71"
  }
 }

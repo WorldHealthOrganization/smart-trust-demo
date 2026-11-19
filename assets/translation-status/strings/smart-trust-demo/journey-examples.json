@@ -5,11 +5,11 @@
  "translations": "translations",
  "catalogue": "journey-examples",
  "hashes": {
-  "ar": "915671f68de32ae3",
-  "es": "2b31c62fce239d9a",
-  "fr": "6fe6c82c71c24a8e",
-  "ru": "881c54d7a47d4a9a",
-  "zh": "2af0d2f0205588ba"
+  "ar": "0cf31f52b272d2e3",
+  "es": "11c3e5ba29f38573",
+  "fr": "4f29c24b7fa954f4",
+  "ru": "553004e87c115b68",
+  "zh": "5756b0059c71a1d4"
  },
  "strings": [
   {
@@ -3913,38 +3913,38 @@
    }
   },
   {
-   "msgid": "Code systems. Each dose's product is coded with its WHO PreQual product id ({code0} for the Hep B birth dose and so on), from the code system {code1} of the <a0>SMART Product Dataset for Prequalified Vaccines</a0>, and the ValueSet {code2} lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa ({code3} and so on) are illustrative, defined here as the code system {code4}, marked experimental, under this guide's canonical, so no URL implies a real ministry.",
-   "hash": "cefd36f6742251f4",
+   "msgid": "Code systems. The walkthrough's product codes ({code0} and so on) and the schedule codes of Onesa ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system.",
+   "hash": "60d1d1b321de0a61",
    "sources": [
     "docs/journey-examples.md"
    ],
    "locales": {
     "ar": {
-     "text": "أنظمة الرموز. يُرمَّز منتج كل جرعة بمعرّف منتج WHO PreQual الخاص به ({code0} لجرعة الولادة من لقاح التهاب الكبد B وغيرها)، من نظام الرموز {code1} في <a0>SMART Product Dataset for Prequalified Vaccines</a0>، وتسرد مجموعة القيم (ValueSet) {code2} المنتجات التي تستخدمها الرحلات؛ أمّا أيّ منتج أُعطي في كل جرعة خيالية فهو توضيحي. ورموز جدول التطعيم في Onesa ({code3} وغيرها) توضيحية، معرّفة هنا بوصفها نظام الرموز {code4}، موسومًا بأنه تجريبي، ضمن المعرّف القانوني لهذا الدليل، بحيث لا يوحي أي URL بوزارة حقيقية.",
+     "text": "أنظمة الرموز. رموز المنتجات في الجولة الإرشادية ({code0} وغيرها) ورموز جدول التطعيم في Onesa ({code1} وغيرها) توضيحية. وهي معرّفة هنا بوصفها نظامي الرموز {code2} و{code3}، موسومةً بأنها تجريبية، ضمن المعرّف القانوني لهذا الدليل، بحيث لا يوحي أي URL بوزارة حقيقية أو بنظام رموز حقيقي لمنظمة الصحة العالمية (WHO).",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "es": {
-     "text": "Sistemas de códigos. El producto de cada dosis se codifica con su identificador de producto WHO PreQual ({code0} para la dosis de nacimiento contra la hepatitis B, etc.), del sistema de códigos {code1} del <a0>SMART Product Dataset for Prequalified Vaccines</a0>, y el ValueSet {code2} enumera los que usan los recorridos; qué producto recibió cada dosis ficticia es ilustrativo. Los códigos del calendario de Onesa ({code3}, etc.) son ilustrativos y se definen aquí como el sistema de códigos {code4}, marcado como experimental, bajo la URL canónica de esta guía, de modo que ninguna URL sugiera un ministerio real.",
+     "text": "Sistemas de códigos. Los códigos de producto del recorrido guiado ({code0}, etc.) y los códigos del calendario de Onesa ({code1}, etc.) son ilustrativos. Se definen aquí como los sistemas de códigos {code2} y {code3}, marcados como experimentales, bajo la URL canónica de esta guía, de modo que ninguna URL sugiera un ministerio real ni un sistema de códigos real de la OMS.",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "fr": {
-     "text": "Systèmes de codes. Le produit de chaque dose est codé avec son identifiant de produit WHO PreQual ({code0} pour la dose de naissance contre l'hépatite B, etc.), issu du système de codes {code1} du <a0>SMART Product Dataset for Prequalified Vaccines</a0>, et le ValueSet {code2} énumère ceux qu'utilisent les parcours ; le produit administré à chaque dose fictive est illustratif. Les codes du calendrier du pays Onesa ({code3}, etc.) sont illustratifs et définis ici comme le système de codes {code4}, marqué comme expérimental, sous l'URL canonique de ce guide, afin qu'aucune URL ne suggère un ministère réel.",
+     "text": "Systèmes de codes. Les codes de produit de la présentation guidée ({code0}, etc.) et les codes du calendrier du pays Onesa ({code1}, etc.) sont illustratifs. Ils sont définis ici comme les systèmes de codes {code2} et {code3}, marqués comme expérimentaux, sous l'URL canonique de ce guide, afin qu'aucune URL ne suggère un ministère réel ou un système de codes réel de l'OMS.",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "ru": {
-     "text": "Системы кодов. Препарат каждой дозы кодируется его идентификатором продукта WHO PreQual ({code0} для дозы против гепатита B при рождении и т. д.) из системы кодов {code1} набора <a0>SMART Product Dataset for Prequalified Vaccines</a0>, а ValueSet {code2} перечисляет те, что используются в сценариях; какой препарат получила каждая вымышленная доза, является иллюстративным. Коды графика страны Onesa ({code3} и т. д.) являются иллюстративными и определены здесь как система кодов {code4}, помеченная как экспериментальная, в каноническом пространстве этого руководства, так что ни один URL не подразумевает реальное министерство.",
+     "text": "Системы кодов. Коды препаратов в пошаговом обзоре ({code0} и т. д.) и коды графика страны Onesa ({code1} и т. д.) являются иллюстративными. Здесь они определены как системы кодов {code2} и {code3}, помеченные как экспериментальные, в каноническом пространстве этого руководства, так что ни один URL не подразумевает реальное министерство или реальную систему кодов ВОЗ.",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "zh": {
-     "text": "代码系统。每剂次的产品均以其 WHO PreQual 产品标识符编码（乙肝出生剂次为 {code0}，以此类推），来自 <a0>SMART Product Dataset for Prequalified Vaccines</a0> 的代码系统 {code1}，ValueSet {code2} 列出各旅程所用的产品；每个虚构剂次所接种的具体产品仅作示意。Onesa 的接种计划代码（{code3} 等）仅作示意，在此被定义为代码系统 {code4}，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部。",
+     "text": "代码系统。演练中的产品代码（{code0} 等）和 Onesa 的接种计划代码（{code1} 等）仅作示意。它们在此被定义为代码系统 {code2} 和 {code3}，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部或真实的 WHO 代码系统。",
      "status": "agent",
      "fuzzy": false,
      "candidates": []

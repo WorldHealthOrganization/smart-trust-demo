@@ -584,7 +584,7 @@
       <td><a id="step-Task_Register"></a><strong>Add the infant; save doses as reported</strong><br /><code class="language-plaintext highlighter-rouge">Task_Register</code></td>
       <td>CHW app</td>
       <td>calls <a href="https://litlfred.github.io/folio-assistant/en/cat-harness/processes/questionnaire-data-capture.html">Capture data with an SDC questionnaire</a><br /><a href="../../../en/cat-harness/processes/skills/chw-register-infant.html"><code class="language-plaintext highlighter-rouge">chw-register-infant</code></a></td>
-      <td>Add the infant to the household; save the doses as reported, not verified. The CHW completes the newborn registration form (the client record IMMZ.C4 of the WHO Immunization guide, data dictionary IMMZC4) in the CHW app through smart-base’s reusable SDC data-capture process: complete-sdc-questionnaire, then extract-questionnaire-response. chw-register-infant is what this journey’s extraction writes: the Patient and the caregiver’s RelatedPerson, and each dose read by the triage read as an Immunization tagged unverified.</td>
+      <td>Add the infant to the household; save the doses as reported, not verified. The CHW completes the newborn registration form (data dictionary TD.J2A) in the CHW app through smart-base’s reusable SDC data-capture process: complete-sdc-questionnaire, then extract-questionnaire-response. chw-register-infant is what this journey’s extraction writes: the Patient and the caregiver’s RelatedPerson, and each dose read by the triage read as an Immunization tagged unverified.</td>
     </tr>
     <tr>
       <td><a id="step-Task_Refer"></a><strong>Create a referral to the home clinic for verification</strong><br /><code class="language-plaintext highlighter-rouge">Task_Refer</code></td>

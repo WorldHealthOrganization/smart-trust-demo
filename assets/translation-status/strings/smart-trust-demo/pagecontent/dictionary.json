@@ -5,11 +5,11 @@
  "translations": "translations",
  "catalogue": "pagecontent/dictionary",
  "hashes": {
-  "ar": "43c3f252e4a0fef7",
-  "es": "528f8fb27d9a7618",
-  "fr": "3d4a6f669c7173ef",
-  "ru": "899d3e8f50fc49cc",
-  "zh": "a80e0777919fe999"
+  "ar": "9843d45687df70b8",
+  "es": "4f54410ab8df3219",
+  "fr": "79ab196e16f339a7",
+  "ru": "0d027bc8d0320a63",
+  "zh": "6a1f26f021879671"
  },
  "strings": [
   {
@@ -12298,38 +12298,38 @@
    }
   },
   {
-   "msgid": "The product given, as its WHO PreQual product id.",
-   "hash": "755b10f7261e6929",
+   "msgid": "The product given, in the issuer's product coding (illustrative PreQual-style codes).",
+   "hash": "deef874eca8ea2ad",
    "sources": [
     "input/pagecontent/dictionary.md"
    ],
    "locales": {
     "ar": {
-     "text": "المنتج المُعطى، بمعرّف منتج WHO PreQual الخاص به.",
+     "text": "المنتج المُعطى، بترميز المنتجات لدى الجهة المُصدِرة (رموز توضيحية على نمط PreQual).",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "es": {
-     "text": "El producto administrado, con su identificador de producto WHO PreQual.",
+     "text": "El producto administrado, en la codificación de productos del emisor (códigos ilustrativos al estilo PreQual).",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "fr": {
-     "text": "Le produit administré, sous son identifiant de produit WHO PreQual.",
+     "text": "Le produit administré, dans le codage des produits de l'émetteur (codes illustratifs de type PreQual).",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "ru": {
-     "text": "Введённый продукт, по его идентификатору продукта WHO PreQual.",
+     "text": "Введённый продукт в кодировке продуктов эмитента (иллюстративные коды в стиле PreQual).",
      "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "zh": {
-     "text": "所接种的产品，以其 WHO PreQual 产品标识符表示。",
+     "text": "所接种的产品，采用签发方的产品编码（示意性的 PreQual 风格代码）。",
      "status": "agent",
      "fuzzy": false,
      "candidates": []

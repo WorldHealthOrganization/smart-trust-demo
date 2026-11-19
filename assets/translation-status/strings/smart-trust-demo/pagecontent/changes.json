@@ -5,11 +5,11 @@
  "translations": "translations",
  "catalogue": "pagecontent/changes",
  "hashes": {
-  "ar": "b440587ce5435a01",
-  "es": "9837e7fa065be931",
-  "fr": "399e7a7c3ea398c5",
-  "ru": "4bd9db3ae3535038",
-  "zh": "f774c695d0e7a0eb"
+  "ar": "976eb88fa43d449a",
+  "es": "c88d88d6c511deb9",
+  "fr": "b58322c151b611fc",
+  "ru": "1aed97b3ad4b1464",
+  "zh": "18e6d8a3e2268341"
  },
  "strings": [
   {
@@ -286,39 +286,39 @@
    }
   },
   {
-   "msgid": "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Products are coded with their WHO PreQual product ids (smart.who.int/pcmt-vaxprequal {code10}, issue <a0>#35</a0>); one illustrative code system stands in for national schedule codes.",
-   "hash": "c4c5978cfbb84ab1",
+   "msgid": "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Two illustrative code systems stand in for PreQual product ids and national schedule codes.",
+   "hash": "35a05ee10ebe53d6",
    "sources": [
     "input/pagecontent/changes.md"
    ],
    "locales": {
     "ar": {
-     "text": "",
-     "status": "missing",
+     "text": "أمثلة جديدة: {code0} للأسرة المعيشية، و{code1} للتسجيل والرد عليه، وموارد {code2} المُبلَّغ عنها والمُتحقَّق منها، و{code3} للتحقق والفصل، و{code4} من المنتج إلى رمز جدول التطعيم، و{code5} توضيحي لجدول التطعيم، و{code6} و{code7} للتذكير، والجرعات الأربع المُعطاة في Onesa، وملخص IPS يضم ست جرعات، و{code8}، ومورِدان من نوع {code9} (وصول ممنوح، رمز مرور خاطئ). ويحلّ نظاما ترميز توضيحيان محل معرّفات منتجات PreQual ورموز جدول التطعيم الوطني.",
+     "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "es": {
-     "text": "",
-     "status": "missing",
+     "text": "Nuevos ejemplos: {code0} del hogar, {code1} de registro y su respuesta, {code2} notificados y verificados, {code3} de verificación y adjudicación, {code4} del código de producto al código del calendario, un {code5} ilustrativo del calendario, {code6} y un {code7} de recordatorio, las cuatro dosis administradas en Onesa, un IPS de seis dosis, {code8} y dos {code9} (acceso concedido, código de acceso incorrecto). Dos sistemas de códigos ilustrativos sustituyen a los identificadores de producto de PreQual y a los códigos del calendario nacional.",
+     "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "fr": {
-     "text": "",
-     "status": "missing",
+     "text": "Nouveaux exemples : {code0} du ménage, {code1} d'enregistrement et réponse, {code2} déclarés et vérifiés, {code3} de vérification et d'arbitrage, {code4} du produit au code du calendrier, un {code5} de calendrier à titre d'illustration, {code6} et {code7} de rappel, les quatre doses administrées à Onesa, un IPS à six doses, {code8}, et deux {code9} (accès accordé, code d'accès erroné). Deux systèmes de codes illustratifs remplacent les identifiants de produits PreQual et les codes des calendriers nationaux.",
+     "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "ru": {
-     "text": "",
-     "status": "missing",
+     "text": "Новые примеры: домохозяйство {code0}, регистрация {code1} и ответ, заявленные и проверенные {code2}, проверка и вынесение решения {code3}, {code4} от препарата к коду графика, иллюстративный график {code5}, {code6} и напоминание {code7}, четыре дозы, введённые в стране Onesa, IPS с шестью дозами, {code8} и два {code9} (доступ предоставлен, неверный код доступа). Две иллюстративные кодовые системы заменяют идентификаторы препаратов PreQual и коды национального графика.",
+     "status": "agent",
      "fuzzy": false,
      "candidates": []
     },
     "zh": {
-     "text": "",
-     "status": "missing",
+     "text": "新增示例：家庭 {code0}、登记 {code1} 及其应答、已报告和已验证的 {code2}、验证与裁定 {code3}、从产品代码到接种计划代码的 {code4}、示意性接种计划 {code5}、{code6} 和提醒 {code7}、在 Onesa 接种的四个剂次、一份包含六个剂次的 IPS、{code8}，以及两个 {code9}（访问已允许、通行码错误）。两个示意性代码系统分别代替 PreQual 产品 id 和国家接种计划代码。",
+     "status": "agent",
      "fuzzy": false,
      "candidates": []
     }

@@ -3,7 +3,7 @@
   "id": "TrustDemoProductToOnesaEpi",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap TrustDemoProductToOnesaEpi</b></p><a name=\"TrustDemoProductToOnesaEpi\"> </a><a name=\"hcTrustDemoProductToOnesaEpi\"> </a><p>Mapping from <a href=\"ValueSet-TrustDemoVaccineProducts.html\">Vaccine products of the journeys</a> to <a href=\"ValueSet-TrustDemoOnesaEpiScheduleCodes.html\">National schedule codes of the journeys</a></p><br/><p>Mapping from <code>http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds</code> to <a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html\">National schedule antigen-dose codes (illustrative, Onesa)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>a3K3X000006MiiXUAS (Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-HEPB-BD (Hepatitis B birth dose)</td><td>Added from the nurse's adjudication at Lomaru District Health Center, 2026-01-06: a monovalent paediatric Hep B dose given within 24 hours of birth counts as the schedule's birth dose.</td></tr><tr><td>a3K3X000006MiisUAC (BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-BCG (BCG)</td><td/></tr><tr><td>a3K3X000006MijGUAS (Eupenta (DTwP-HepB-Hib), LG Chem Ltd (LGC), Vial, 10 doses [FVP-P-305])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-PENTA-1 (Pentavalent (DTP-HepB-Hib), dose 1)</td><td/></tr><tr><td>a3K3X000006MijBUAS (Poliomyelitis Vaccine (Oral) Bivalent types 1 and 3 (bOPV), Serum Institute of India, Vial, 10 doses [FVP-P-281])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-OPV-1 (bOPV, dose 1)</td><td/></tr><tr><td>a3K3X000006MijJUAS (PNEUMOSIL® (PCV), Serum Institute of India, Vial, 5 doses [FVP-P-385])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-PCV-1 (PCV, dose 1)</td><td/></tr><tr><td>a3K3X000006MiimUAC (Measles and Rubella Vaccine Live Attenuated (MR), Serum Institute of India, Vial, 10 doses [FVP-P-140])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-MR-1 (Measles-rubella, dose 1)</td><td/></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap TrustDemoProductToOnesaEpi</b></p><a name=\"TrustDemoProductToOnesaEpi\"> </a><a name=\"hcTrustDemoProductToOnesaEpi\"> </a><p>Mapping from <a href=\"ValueSet-TrustDemoVaccineProducts.html\">Vaccine products of the journeys</a> to <a href=\"ValueSet-TrustDemoOnesaEpiScheduleCodes.html\">National schedule codes of the journeys</a></p><br/><p>Mapping from <a href=\"CodeSystem-TrustDemoVaccineProduct.html\">Vaccine products (illustrative PreQual-style codes)</a> to <a href=\"CodeSystem-TrustDemoOnesaEpiSchedule.html\">National schedule antigen-dose codes (illustrative, Onesa)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>vp-hepb-peds-monovalent (Hepatitis B vaccine, paediatric, monovalent)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-HEPB-BD (Hepatitis B birth dose)</td><td>Added from the nurse's adjudication at Lomaru District Health Center, 2026-01-06: a monovalent paediatric Hep B dose given within 24 hours of birth counts as the schedule's birth dose.</td></tr><tr><td>vp-bcg-freeze-dried (BCG vaccine, freeze-dried)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-BCG (BCG)</td><td/></tr><tr><td>vp-pentavalent-liquid (DTP-HepB-Hib (pentavalent), liquid)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-PENTA-1 (Pentavalent (DTP-HepB-Hib), dose 1)</td><td/></tr><tr><td>vp-bopv-drops (Bivalent oral polio vaccine (bOPV), drops)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-OPV-1 (bOPV, dose 1)</td><td/></tr><tr><td>vp-pcv-13-dose (Pneumococcal conjugate vaccine (PCV))</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-PCV-1 (PCV, dose 1)</td><td/></tr><tr><td>vp-mr-freeze-dried (Measles-rubella vaccine, freeze-dried)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#concept-map-equivalence-equivalent\" title=\"equivalent\">is equivalent to</a></td><td>XXU-EPI-MR-1 (Measles-rubella, dose 1)</td><td/></tr></table></div>"
   },
   "url": "http://smart.who.int/trust-demo/ConceptMap/TrustDemoProductToOnesaEpi",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "J3 map: vaccine product to national schedule dose",
   "status": "draft",
   "experimental": true,
-  "date": "2026-11-18T18:36:23+00:00",
+  "date": "2026-11-19T08:11:31+00:00",
   "publisher": "litlfred",
   "contact": [
     {
@@ -29,12 +29,11 @@
   "targetCanonical": "http://smart.who.int/trust-demo/ValueSet/TrustDemoOnesaEpiScheduleCodes",
   "group": [
     {
-      "source": "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds",
+      "source": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
       "target": "http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule",
       "element": [
         {
-          "code": "a3K3X000006MiiXUAS",
-          "display": "Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]",
+          "code": "vp-hepb-peds-monovalent",
           "target": [
             {
               "code": "XXU-EPI-HEPB-BD",
@@ -44,8 +43,7 @@
           ]
         },
         {
-          "code": "a3K3X000006MiisUAC",
-          "display": "BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117]",
+          "code": "vp-bcg-freeze-dried",
           "target": [
             {
               "code": "XXU-EPI-BCG",
@@ -54,8 +52,7 @@
           ]
         },
         {
-          "code": "a3K3X000006MijGUAS",
-          "display": "Eupenta (DTwP-HepB-Hib), LG Chem Ltd (LGC), Vial, 10 doses [FVP-P-305]",
+          "code": "vp-pentavalent-liquid",
           "target": [
             {
               "code": "XXU-EPI-PENTA-1",
@@ -64,8 +61,7 @@
           ]
         },
         {
-          "code": "a3K3X000006MijBUAS",
-          "display": "Poliomyelitis Vaccine (Oral) Bivalent types 1 and 3 (bOPV), Serum Institute of India, Vial, 10 doses [FVP-P-281]",
+          "code": "vp-bopv-drops",
           "target": [
             {
               "code": "XXU-EPI-OPV-1",
@@ -74,8 +70,7 @@
           ]
         },
         {
-          "code": "a3K3X000006MijJUAS",
-          "display": "PNEUMOSIL® (PCV), Serum Institute of India, Vial, 5 doses [FVP-P-385]",
+          "code": "vp-pcv-13-dose",
           "target": [
             {
               "code": "XXU-EPI-PCV-1",
@@ -84,8 +79,7 @@
           ]
         },
         {
-          "code": "a3K3X000006MiimUAC",
-          "display": "Measles and Rubella Vaccine Live Attenuated (MR), Serum Institute of India, Vial, 10 doses [FVP-P-140]",
+          "code": "vp-mr-freeze-dried",
           "target": [
             {
               "code": "XXU-EPI-MR-1",
