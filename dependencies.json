@@ -1,8 +1,8 @@
 {
   "$schema" : "ig-ast-dependencies/v1",
   "authority" : "cache",
-  "edges" : 105,
-  "resolvedInIg" : 91,
+  "edges" : 156,
+  "resolvedInIg" : 114,
   "dependencies" : [{
     "source" : "AuditEvent/TrustDemoJ41Access",
     "kind" : "meta.profile",
@@ -229,6 +229,51 @@
     "origin" : "publisher"
   },
   {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-ar|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-es|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-fr|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-ru|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements-zh|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDataElements|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
     "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDvcOutcome-ar|0.1.0",
     "kind" : "supplements",
     "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoDvcOutcome",
@@ -360,6 +405,51 @@
     "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoTrustDomain",
     "targetVersion" : "0.1.0",
     "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoTrustDomain|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-ar|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-es|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-fr|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-ru|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct-zh|0.1.0",
+    "kind" : "supplements",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0",
     "path" : null,
     "origin" : "publisher"
   },
@@ -591,6 +681,15 @@
   {
     "source" : "http://smart.who.int/trust-demo/ConceptMap/TrustDemoProductToOnesaEpi|0.1.0",
     "kind" : "has scope",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/ConceptMap/TrustDemoProductToOnesaEpi|0.1.0",
+    "kind" : "has scope",
     "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts",
     "targetVersion" : "0.1.0",
     "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts|0.1.0",
@@ -677,6 +776,357 @@
     "resolved" : "http://smart.who.int/trust-demo/PlanDefinition/TrustDemoOnesaInfantSchedule|0.1.0",
     "path" : "PlanDefinition.relatedArtifact.resource",
     "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdBirthDoseDvc|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdBirthDoseDvc|0.1.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Base",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwReferral|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://hl7.org/fhir/ValueSet/request-status",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwReferral|0.1.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Base",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwReferral|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Immunization",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwReferral|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Organization",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwReferral|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwReferral|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Practitioner",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwRegistration|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoDvcOutcomeVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoDvcOutcomeVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwRegistration|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwRegistration|0.1.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Base",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwRegistration|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Practitioner",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdChwRegistration|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoDvcOutcomeVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoDvcOutcomeVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVerificationFailureReasonVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVerificationFailureReasonVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVerificationResultVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVerificationResultVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVerificationStepVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVerificationStepVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification|0.1.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Base",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Device",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdDvcVerification|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Immunization",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://hl7.org/fhir/ValueSet/immunization-recommendation-status",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoCodeMappingBasisVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoCodeMappingBasisVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoOnesaEpiScheduleCodes",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoOnesaEpiScheduleCodes|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose|0.1.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Base",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Practitioner",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdImportedDose|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Task",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://hl7.org/fhir/ValueSet/audit-event-outcome",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVhlRefusalReasonVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVhlRefusalReasonVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess|0.1.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Base",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Bundle",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Consent",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Device",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlAccess|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlShare|0.1.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Base",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlShare|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Bundle",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlShare|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Organization",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlShare|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoDdVhlShare|0.1.0",
+    "kind" : "refers to",
+    "target" : "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
   },
   {
     "source" : "http://smart.who.int/trust-demo/StructureDefinition/TrustDemoOnesaDvcVerification|0.1.0",
@@ -900,6 +1350,15 @@
     "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoTrustDomain",
     "targetVersion" : "0.1.0",
     "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoTrustDomain|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/trust-demo/ValueSet/TrustDemoVaccineProducts|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct|0.1.0",
     "path" : null,
     "origin" : "publisher"
   },
