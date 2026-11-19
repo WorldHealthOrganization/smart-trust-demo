@@ -2,7 +2,7 @@
   "$schema": "device-screen/0.1.0",
   "id": "S5",
   "title": "Terminology Adjudication & National Schedule",
-  "description": "The Taifafeki product code is kept as issued; the nurse confirms its Onesan equivalent, and the national schedule is worked out from there.",
+  "description": "The Taifafeki product code is kept as issued; the nurse confirms its equivalent in Onesa, and the national schedule is worked out from there.",
   "device": "tablet",
   "owner": "chanthason",
   "steps": [
@@ -14,8 +14,8 @@
   "blocks": [
     {
       "type": "header",
-      "app": "Somsak Sengmany (4 Weeks Old)",
-      "subtitle": "#HH-XXK-204",
+      "app": "Somsak Sengmany (10 Weeks Old)",
+      "subtitle": "#HH-XXU-204",
       "icon": "user",
       "chips": [
         {
@@ -36,7 +36,7 @@
       "rows": [
         {
           "label": "Layer 1: Certificate product code (issued Taifafeki)",
-          "code": "vp-hepb-peds-monovalent",
+          "code": "a3K3X000006MiiXUAS",
           "detail": "Stored exactly as issued in DVCMinPreQual logical model.",
           "status": {
             "text": "Foreign Source",
@@ -54,7 +54,7 @@
         },
         {
           "label": "Layer 3: Onesa national schedule ValueSet",
-          "detail": "No automated ConceptMap match found in Onesan national registry for Taifafeki GPO lot XXR-4821.",
+          "detail": "No automated ConceptMap match found in the Onesa national registry for Taifafeki GPO lot XXR-4821.",
           "status": {
             "text": "ConceptMap Gap",
             "tone": "warning"
@@ -70,12 +70,12 @@
       "verdict": "CONFIRMED",
       "fields": [
         {
-          "label": "Proposed Onesan EPI Match",
-          "value": "Onesan EPI: HepB-BD (Birth Dose Monovalent)"
+          "label": "Proposed Onesa EPI Match",
+          "value": "Onesa EPI: HepB-BD (Birth Dose Monovalent)"
         },
         {
           "label": "Code",
-          "value": "XXK-EPI-HEPB-BD",
+          "value": "XXU-EPI-HEPB-BD",
           "mono": true
         }
       ],
@@ -144,7 +144,7 @@
         },
         {
           "label": "Date",
-          "value": "2025-11-25",
+          "value": "2026-01-06",
           "mono": true
         },
         {
@@ -184,12 +184,12 @@
           "text": "Clinician Adjudication & Equivalence Confirmation",
           "fields": [
             {
-              "label": "Proposed Onesan EPI Match",
-              "value": "Onesan EPI: HepB-BD (Birth Dose Monovalent)"
+              "label": "Proposed Onesa EPI Match",
+              "value": "Onesa EPI: HepB-BD (Birth Dose Monovalent)"
             },
             {
               "label": "Code",
-              "value": "XXK-EPI-HEPB-BD",
+              "value": "XXU-EPI-HEPB-BD",
               "mono": true
             }
           ],
@@ -208,7 +208,7 @@
             },
             {
               "label": "Date",
-              "value": "2025-11-25",
+              "value": "2026-01-06",
               "mono": true
             },
             {
@@ -242,7 +242,7 @@
           "id": "adjudication",
           "mono": true,
           "icon": "file",
-          "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXK-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
+          "text": "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
         }
       ],
       "try": "Both codes travel together: the source code as issued, the national code beside it"

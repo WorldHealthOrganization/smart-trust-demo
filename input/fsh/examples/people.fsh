@@ -1,9 +1,9 @@
 // The people, places and systems the journey examples share. The story is the
-// VaxLink workshop walkthrough's (fredhersch/vaxlink): Somsak SENGMANY, an Onesan
+// VaxLink workshop walkthrough's (fredhersch/vaxlink): Somsak SENGMANY, a baby from Onesa
 // baby born in Taifafeki, followed over his first year. Every person here is
 // fictional (AGENTS.md). Country A, the birth country, is Taifafeki, played on
 // the GDHCN DEV network by test participant XXR; Country B, home, is Onesa,
-// played by the test participant XXK. Neither is a real ministry's key.
+// played by the test participant XXU. Neither is a real ministry's key.
 
 Alias: $cvx = http://hl7.org/fhir/sid/cvx
 Alias: $loinc = http://loinc.org
@@ -18,7 +18,7 @@ Title: "Somsak SENGMANY (newborn)"
 Description: "The subject of every journey, as the CHW registers him in Onesa (Country B) in J2: born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), with no Taifafeki identity number. Until civil registration catches up he has a temporary id. Fictional."
 Usage: #example
 * identifier[temporaryId].system = $OnesaTmpId
-* identifier[temporaryId].value = "XXK-TMP-2025-00918"
+* identifier[temporaryId].value = "XXU-TMP-2025-00918"
 * active = true
 * name.use = #official
 * name.family = "SENGMANY"
@@ -96,7 +96,7 @@ Usage: #example
 Instance: TrustDemoChanthason
 InstanceOf: Practitioner
 Title: "Nurse Chanthason (Lomaru District Health Center)"
-Description: "The nurse who verifies the DVCs and fits the Taifafeki doses to the Onesan schedule in J3. Fictional."
+Description: "The nurse who verifies the DVCs and fits the Taifafeki doses to the schedule of Onesa in J3. Fictional."
 Usage: #example
 * name.text = "Nurse Chanthason"
 * name.given = "Chanthason"
@@ -112,25 +112,25 @@ Usage: #example
 Instance: TrustDemoLomaruDhc
 InstanceOf: Organization
 Title: "Lomaru District Health Center, Onesa (Country B)"
-Description: "The district health center of J3 and of Somsak's later Onesan doses."
+Description: "The district health center of J3 and of Somsak's later doses in Onesa."
 Usage: #example
 * name = "Lomaru District Health Center (demonstrator)"
-* contact.address.country = "XXK"
+* contact.address.country = "XXU"
 
 Instance: TrustDemoOnesaPortalOrg
 InstanceOf: Organization
-Title: "Onesa national health portal (Country B, XXK)"
-Description: "The national service that hosts the family's records, issues their VHLs (J4.0) and logs every access (J4.1). On the GDHCN DEV network it is the test participant XXK."
+Title: "Onesa national health portal (Country B, XXU)"
+Description: "The national service that hosts the family's records, issues their VHLs (J4.0) and logs every access (J4.1). On the GDHCN DEV network it is the test participant XXU."
 Usage: #example
-* name = "Onesa national health portal (demonstrator, GDHCN DEV participant XXK)"
-* contact.address.country = "XXK"
+* name = "Onesa national health portal (demonstrator, GDHCN DEV participant XXU)"
+* contact.address.country = "XXU"
 
 Instance: TrustDemoKesaroClinic
 InstanceOf: Organization
-Title: "Kesaro primary care clinic, Taifafeki (J4.1)"
+Title: "Kesaro paediatric clinic, Taifafeki (J4.1)"
 Description: "Where Dr Anan sees Somsak a year after his birth, back in Country A."
 Usage: #example
-* name = "Kesaro primary care clinic (demonstrator)"
+* name = "Kesaro paediatric clinic (demonstrator)"
 * contact.address.country = "XXR"
 
 Instance: TrustDemoChwApp
@@ -169,7 +169,7 @@ Usage: #example
 
 Instance: TrustDemoClinicViewer
 InstanceOf: Device
-Title: "VHL viewer, Kesaro primary care clinic"
+Title: "VHL viewer, Kesaro paediatric clinic"
 Description: "The point-of-care system that verifies the VHL, fetches the manifest by ITI-YY5 after the passcode is entered, and decrypts the records for viewing (J4.1): a VHL Receiver."
 Usage: #example
 * deviceName[+].name = "Kesaro clinic VHL viewer"

@@ -21,17 +21,17 @@ The hospital system abroad that issues a DVC per dose with the HCERT library: th
 
 **In the user scenarios**:
 
-- [J1 — Born abroad](scenarios.html#j1--born-abroad-taifafeki-birth-day): J1 An Onesan baby is born in Taifafeki
+- [J1 — Vaccinated and recorded](scenarios.html#j1--vaccinated-and-recorded-taifafeki-birth-day): J1 A baby from Onesa is born in Taifafeki
 
 **On the device screens**: [S1 Birth Abroad & Printed DVC QR Cards (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/)
 
-**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/)
+**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [T1 Building with FHIR and the Open Health Stack](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t1/); [T3 Trust between countries: SMART Trust and the GDHCN](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t3/)
 
 **Lanes and tasks in the business processes**:
 
 - [J1 Issue the newborn's birth-dose DVCs in Country A](business-processes.html#j1-issue-the-newborns-birth-dose-dvcs-in-country-a): Build one DVCMinPreQual payload per dose; Prepare: CWT claims and the COSE Sig_structure; Finish: COSE_Sign1, deflate, Base45, HC1:
 
-**Data sets its tasks record or read**: [TD.J1 Birth-dose DVC](dictionary.html#tdj1-birth-dose-dvc)
+**Data sets its tasks record or read**: [J1 DVCMinPreQual DVC HCERT payload (PreQual)](dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal); [J1 CWT CBOR Web Token (CWT)](dictionary.html#j1-cwt-cbor-web-token-cwt)
 """
 * documentation = "https://github.com/litlfred/smart-trust-demo/blob/main/scenarios/roles.json"
 * derivedFrom[+] = "http://smart.who.int/trust/ActorDefinition/Issuer"

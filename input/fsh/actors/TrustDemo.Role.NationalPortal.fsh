@@ -17,16 +17,16 @@ The home country's portal that issues each family member's records (IPS, DVCs) a
 
 **Played in the journeys by** (fictional):
 
-- Onesa national health portal and gateway (Country B, XXK)
+- Onesa national health portal and gateway (Country B, XXU)
 
 **In the user scenarios**:
 
-- [J4.0 — Crossing back: one family, one phone](scenarios.html#j40--crossing-back-one-family-one-phone-onesa-12-months-later): J4.0b Dad creates a link to share at the clinic
-- [J4.1 — Crossing back: a Taifafeki doctor sees the full history](scenarios.html#j41--crossing-back-a-taifafeki-doctor-sees-the-full-history-kesaro-12-months-later): J4.1 A Taifafeki doctor sees the full history
+- [J4.0 — Continuity across a border: one family, one phone](scenarios.html#j40--continuity-across-a-border-one-family-one-phone-onesa-12-months-later): J4.0b Dad creates a link to share at the clinic
+- [J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history](scenarios.html#j41--continuity-across-a-border-a-paediatrician-in-taifafeki-sees-the-full-history-kesaro-12-months-later): J4.1 A doctor in Taifafeki sees the full history
 
 **On the device screens**: [S7 VHL QR Display & Passcode Protection (Bounmy's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S7/); [S8 Foreign Clinic VHL Viewer & Audit Trace (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/)
 
-**Discussed in the workshop modules**: [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it once, together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [M7 Our first move, what it costs, and what we ask for](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m7/)
+**Discussed in the workshop modules**: [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [M7 First move and the investment required](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m7/); [T1 Building with FHIR and the Open Health Stack](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t1/); [T3 Trust between countries: SMART Trust and the GDHCN](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t3/); [T4 Workflows, sync and who sees what](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/); [T5 From records to charts](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t5/); [T6 Verifying a card, sharing a link](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t6/); [T7 Team build, showcase and the journey together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t7/)
 
 **Lanes and tasks in the business processes**:
 
@@ -37,7 +37,7 @@ The home country's portal that issues each family member's records (IPS, DVCs) a
 
 - Decision table [TD.DT.05 Does the portal release the manifest for this request?](decision-logic.html#tddt05-does-the-portal-release-the-manifest-for-this-request), in: Check passcode, log access, return manifest
 
-**Data sets its tasks record or read**: [TD.J40 Shared link and consent](dictionary.html#tdj40-shared-link-and-consent); [TD.J41 Access to a shared link](dictionary.html#tdj41-access-to-a-shared-link)
+**Data sets its tasks record or read**: [J4 VHLPayload VHL Payload](dictionary.html#j4-vhlpayload-vhl-payload)
 
 **Indicators that count its decisions**: [TD.IND.02 Shared-link openings that were authorised](indicators.html#tdind02-shared-link-openings-that-were-authorised)
 """

@@ -19,11 +19,11 @@ The nurse at the home clinic who receives the referral, has the foreign DVCs ver
 
 **In the user scenarios**:
 
-- [J3 — Made official](scenarios.html#j3--made-official-lomaru-district-health-center-4-weeks-later): J3a The clinic confirms the cards are genuine (told through Chanthason); J3b Taifafeki vaccines are fitted to the Onesan schedule (told through Chanthason)
+- [J3 — A foreign record used for the next vaccine](scenarios.html#j3--a-foreign-record-used-for-the-next-vaccine-lomaru-district-health-center-somsak-is-10-weeks-old): J3a The clinic confirms the cards are genuine (told through Chanthason); J3b Taifafeki vaccines are fitted to the Onesa schedule (told through Chanthason)
 
 **On the device screens**: [S4 Clinic Referral & GDHCN Verification (Chanthason's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S4/); [S5 Terminology Adjudication & National Schedule (Chanthason's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/)
 
-**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M6 Doing it once, together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/)
+**Discussed in the workshop modules**: [M1 From journey to capabilities](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m1/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [T1 Building with FHIR and the Open Health Stack](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t1/); [T3 Trust between countries: SMART Trust and the GDHCN](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t3/); [T4 Workflows, sync and who sees what](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/); [T5 From records to charts](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t5/); [T6 Verifying a card, sharing a link](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t6/); [T7 Team build, showcase and the journey together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t7/)
 
 **User stories** ([all stories](scenarios.html#user-stories)):
 
@@ -40,7 +40,7 @@ The nurse at the home clinic who receives the referral, has the foreign DVCs ver
 - Decision table [TD.DT.01 What does a scanned DVC become in the child's record?](decision-logic.html#tddt01-what-does-a-scanned-dvc-become-in-the-childs-record), in: Note the failure; decide doses by policy
 - Decision table [TD.DT.04 Is this dose of the national schedule due?](decision-logic.html#tddt04-is-this-dose-of-the-national-schedule-due), in: Give due doses and book the next visit
 
-**Data sets its tasks record or read**: [TD.J2B Referral for verification](dictionary.html#tdj2b-referral-for-verification); [TD.J3A DVC verification and import](dictionary.html#tdj3a-dvc-verification-and-import); [TD.J3B Imported dose and schedule](dictionary.html#tdj3b-imported-dose-and-schedule)
+**Data sets its tasks record or read**: [J1 CWT CBOR Web Token (CWT)](dictionary.html#j1-cwt-cbor-web-token-cwt); [J3 IMMZImmunization IMMZ Immunization](dictionary.html#j3-immzimmunization-immz-immunization)
 
 **Indicators that count its decisions**: [TD.IND.01 Foreign doses imported as verified](indicators.html#tdind01-foreign-doses-imported-as-verified); [TD.IND.03 CHW referrals for verification completed at the clinic](indicators.html#tdind03-chw-referrals-for-verification-completed-at-the-clinic)
 """

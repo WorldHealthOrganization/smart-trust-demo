@@ -19,11 +19,11 @@ Finds unregistered children on home visits, registers them and refers them to th
 
 **In the user scenarios**:
 
-- [J2 — Found at home](scenarios.html#j2--found-at-home-onesa-3-weeks-later): J2a A health worker finds the baby — and reads his cards (told through Vilay); J2b Registered at home, and referred (told through Vilay)
+- [J2 — Found and registered](scenarios.html#j2--found-and-registered-onesa-somsak-is-7-weeks-old): J2a A health worker finds the baby — and reads his cards (told through Vilay); J2b Registered at home, and referred (told through Vilay)
 
 **On the device screens**: [S2 Offline QR Scan of the Foreign Cards (Vilay's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S2/); [S3 Newborn Registration & Clinic Referral (Vilay's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/)
 
-**Discussed in the workshop modules**: [M2 The reference architecture and where you stand](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m2/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/)
+**Discussed in the workshop modules**: [M2 The reference architecture (DPI-H) and where you stand](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m2/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [T2 Offline data capture](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t2/); [T4 Workflows, sync and who sees what](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/); [T5 From records to charts](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t5/); [T7 Team build, showcase and the journey together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t7/)
 
 **User stories** ([all stories](scenarios.html#user-stories)):
 

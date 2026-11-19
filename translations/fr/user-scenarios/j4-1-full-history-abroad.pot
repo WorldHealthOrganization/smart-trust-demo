@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j4-1-full-history-abroad\n"
-"POT-Creation-Date: 2026-11-11T09:10:28.610Z\n"
+"POT-Creation-Date: 2026-11-18T11:00:23.104Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: \n"
@@ -24,7 +24,7 @@ msgctxt "description"
 msgid "Back where it all began, Dr. Anan scans the link, hears the passcode, and sees Somsak’s whole first year — and Onesa is told who looked."
 msgstr ""
 
-#: scenarios/user-scenarios/j4-1-full-history-abroad.json:214
+#: scenarios/user-scenarios/j4-1-full-history-abroad.json:210
 msgctxt "references.label"
 msgid "User scenario in the IG"
 msgstr ""
@@ -76,7 +76,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:174
 msgctxt "step.fhirChanges.change"
-msgid "Created at Onesan Info Gateway"
+msgid "Created at the Onesa Info Gateway"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:162
@@ -91,7 +91,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:163
 msgctxt "step.fhirChanges.why"
-msgid "The Taifafeki clinic keeps a note of what it saw and how it was verified, without copying the Onesan record."
+msgid "The Taifafeki clinic keeps a note of what it saw and how it was verified, without copying the Onesa record."
 msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:146
@@ -127,13 +127,13 @@ msgstr ""
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:36
 msgctxt "step.narrative"
 msgid ""
-"Back where it began, Dr Anan sees Somsak at a primary care clinic in\n"
-"Kesaro. Bounmy shows the QR on his phone and says the passcode. The\n"
-"clinic viewer and the Onesan gateway take five steps:\n"
+"Back where it began, Dr Anan, a paediatrician, sees Somsak at a paediatric\n"
+"clinic in Kesaro. Bounmy shows the QR on his phone and says the passcode. The\n"
+"clinic viewer and the Onesa gateway take five steps:\n"
 "\n"
 "1. The viewer verifies the HCERT against Country B's DSC in its copy of the trust list.\n"
 "2. It requests the manifest by ITI-YY5, signed with HTTP Message Signatures (STT-VHL-005, STT-VHL-006, STT-VHL-008).\n"
-"3. The Onesan gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n"
+"3. The Onesa gateway checks the passcode, the expiry and the consent, returns the manifest, and logs the access at home (`TrustDemoJ41Access`).\n"
 "4. The viewer decrypts the IPS and DVCs (STT-VHL-007) (`TrustDemoJ41Received`).\n"
 "5. It shows them to Dr Anan: every dose since the birth, viewed, never copied.\n"
 "\n"
@@ -172,7 +172,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:70
 msgctxt "step.record.heldWhere"
-msgid "Onesan national records"
+msgid "Onesa national records"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:150
@@ -187,7 +187,7 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:19
 msgctxt "step.title"
-msgid "A Taifafeki doctor sees the full history"
+msgid "A doctor in Taifafeki sees the full history"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:23
@@ -242,12 +242,12 @@ msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:22
 msgctxt "step.where"
-msgid "Kesaro primary care clinic"
+msgid "Kesaro paediatric clinic"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:4
 msgctxt "title"
-msgid "J4.1 — Crossing back: a Taifafeki doctor sees the full history"
+msgid "J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history"
 msgstr ""
 
 #: scenarios/user-scenarios/j4-1-full-history-abroad.json:4

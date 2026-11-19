@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bootstrap.processes="https://litlfred.github.io/bootstrap/v0/processes/ns/" xmlns:cat-harness.processes="https://litlfred.github.io/cat-harness/v0/processes/ns/"
-                  id="Definitions_Process_J41VhlFetch" targetNamespace="https://litlfred.github.io/smart-trust-demo/processes" exporter="smart-trust-demo" exporterVersion="1">
+                  id="Definitions_Process_J41VhlFetch" targetNamespace="https://worldhealthorganization.github.io/smart-trust-demo/processes" exporter="smart-trust-demo" exporterVersion="1">
   <bpmn:resource id="caregiver" name="Caregiver"/>
   <bpmn:resource id="family-phone" name="Family phone"/>
   <bpmn:resource id="poc-provider" name="Point-of-care provider"/>
@@ -15,7 +15,7 @@
       <bootstrap.processes:precondition id="did-documents-loaded" kind="stated"
         text="Before the family arrives, the hospital system's trust store already holds the GDHCN trust list's DID documents, including Country B's DSC DID document, loaded with HcertTrustStore.addDidDocument (STT-TRU-001, STT-TRU-002, STT-TRU-005). Trust-list presence is the DSC validity check (STT-VER-006). Loading DIDs is not a step of this visit."/>
       <bootstrap.processes:precondition id="did-list-from-last-refresh" kind="stated"
-        text="The hospital's DID list is a cache it refreshes on a short schedule, nightly or hourly, from the list its own country retrieves as a Trust Network Participant from the GDHCN trust anchor ([smart-trust-phw retrieve-pki-material](https://litlfred.github.io/smart-trust-phw/artifact/Requirements-retrieve-pki-material.html)). The hospital does not need to be online to verify: verification reads the cache and never fetches the list."/>
+        text="The hospital's DID list is a cache it refreshes on a short schedule, nightly or hourly, from the list its own country retrieves as a Trust Network Participant from the GDHCN trust anchor ([smart-trust-phw retrieve-pki-material](https://worldhealthorganization.github.io/smart-trust-phw/artifact/Requirements-retrieve-pki-material.html)). The hospital does not need to be online to verify: verification reads the cache and never fetches the list."/>
       <cat-harness.processes:policy enforcement="advisory"/><cat-harness.processes:log capture="off"/>
     </bpmn:extensionElements>
     <bpmn:laneSet id="LaneSet_Process_J41VhlFetch">

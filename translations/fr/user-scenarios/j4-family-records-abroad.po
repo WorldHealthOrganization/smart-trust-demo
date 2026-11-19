@@ -46,11 +46,6 @@ msgctxt "scene.label"
 msgid "Taifafeki doctor sees it all"
 msgstr "Un médecin de Taifafeki voit tout"
 
-#: scenarios/user-scenarios/j4-family-records-abroad.json:4
-msgctxt "title"
-msgid "J4 — One family, one phone, a history abroad"
-msgstr "J4 — Une famille, un téléphone, un historique à l’étranger"
-
 #: scenarios/user-scenarios/j4-family-records-abroad.json:15
 msgctxt "when"
 msgid "6 to 12 months later"
@@ -60,3 +55,12 @@ msgstr "6 à 12 mois plus tard"
 msgctxt "where"
 msgid "Onesa and Kesaro"
 msgstr "Onesa et Kesaro"
+
+#: scenarios/user-scenarios/j4-family-records-abroad.json:4
+msgctxt "title"
+msgid "J4 — Continuity across a border"
+msgstr "J4 — Continuité par-delà une frontière"
+
+#~ msgctxt "title"
+#~ msgid "J4 — One family, one phone, a history abroad"
+#~ msgstr "J4 — Une famille, un téléphone, un historique à l’étranger"

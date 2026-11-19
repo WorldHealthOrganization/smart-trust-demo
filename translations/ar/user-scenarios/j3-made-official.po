@@ -22,12 +22,7 @@ msgstr ""
 #: scenarios/user-scenarios/j3-made-official.json:13
 msgctxt "country"
 msgid "Onesa"
-msgstr "أونيسا (Onesa)"
-
-#: scenarios/user-scenarios/j3-made-official.json:5
-msgctxt "description"
-msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesan schedule."
-msgstr "ممرضةٌ تتحقق من أن البطاقات أصلية وتُدرج الجرعات التايفافيكية في جدول التطعيم الأونيسي."
+msgstr "Onesa"
 
 #: scenarios/user-scenarios/j3-made-official.json:373
 msgctxt "references.label"
@@ -39,35 +34,15 @@ msgctxt "scene.label"
 msgid "Clinic tablet"
 msgstr "الجهاز اللوحي في العيادة"
 
-#: scenarios/user-scenarios/j3-made-official.json:368
-msgctxt "scene.label"
-msgid "On the Onesan schedule"
-msgstr "على جدول التطعيم الأونيسي"
-
 #: scenarios/user-scenarios/j3-made-official.json:364
 msgctxt "scene.label"
 msgid "Signature verified"
 msgstr "التوقيع مُتحقَّق منه"
 
-#: scenarios/user-scenarios/j3-made-official.json:209
-msgctxt "step.enabler"
-msgid "Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due."
-msgstr "يُحتفَظ بالرمز الأصلي لتايفافيكي ويُضاف الرمز الأونيسي إلى جانبه؛ ويحسب محرّك جدول التطعيم ما هو مستحق."
-
-#: scenarios/user-scenarios/j3-made-official.json:52
-msgctxt "step.enabler"
-msgid "Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally."
-msgstr "مفتاح التوقيع الخاص بتايفافيكي مُدرَج في قائمة الثقة المشتركة لمنظمة الصحة العالمية (WHO)، لذا يمكن لأي عيادة التحقق منه محليًا."
-
 #: scenarios/user-scenarios/j3-made-official.json:46
 msgctxt "step.experiences.doing"
 msgid "Brings Somsak in for the referral visit."
 msgstr "تُحضِر Somsak إلى زيارة الإحالة."
-
-#: scenarios/user-scenarios/j3-made-official.json:197
-msgctxt "step.experiences.doing"
-msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
-msgstr "تؤكد أن المنتج التايفافيكي يعادل جرعة الولادة في الجدول الأونيسي؛ ويحجز النظام لقاحات عمر 6 أسابيع."
 
 #: scenarios/user-scenarios/j3-made-official.json:203
 msgctxt "step.experiences.doing"
@@ -77,7 +52,7 @@ msgstr "تغادر ومعها موعد للقاحات Somsak التالية."
 #: scenarios/user-scenarios/j3-made-official.json:40
 msgctxt "step.experiences.doing"
 msgid "Scans the card; the tablet confirms the Taifafeki signature and marks the doses verified."
-msgstr "تمسح البطاقة ضوئيًا؛ فيؤكد الجهاز اللوحي التوقيع التايفافيكي ويَسِم الجرعات بأنها مُتحقَّق منها."
+msgstr "تمسح البطاقة ضوئيًا؛ فيؤكد الجهاز اللوحي توقيع Taifafeki ويَسِم الجرعات بأنها مُتحقَّق منها."
 
 #: scenarios/user-scenarios/j3-made-official.json:41
 msgctxt "step.experiences.feeling"
@@ -97,22 +72,12 @@ msgstr "«الآن أعرف بالضبط متى أعود.»"
 #: scenarios/user-scenarios/j3-made-official.json:47
 msgctxt "step.experiences.feeling"
 msgid "“They believe the Taifafeki papers!”"
-msgstr "«إنهم يصدّقون الأوراق التايفافيكية!»"
-
-#: scenarios/user-scenarios/j3-made-official.json:316
-msgctxt "step.fhirChanges.change"
-msgid "6-week pentavalent booked"
-msgstr "حُجزت جرعة اللقاح الخماسي لعمر 6 أسابيع"
+msgstr "«إنهم يصدّقون أوراق Taifafeki!»"
 
 #: scenarios/user-scenarios/j3-made-official.json:148
 msgctxt "step.fhirChanges.change"
 msgid "Created: author = Taifafeki MOPH, verifier = nurse"
-msgstr "أُنشئ: المؤلِّف = وزارة الصحة العامة في تايفافيكي (MOPH)، والجهة المُتحقِّقة = الممرضة"
-
-#: scenarios/user-scenarios/j3-made-official.json:294
-msgctxt "step.fhirChanges.change"
-msgid "Onesan EPI code added; PreQual code kept"
-msgstr "أُضيف رمز EPI الأونيسي؛ وأُبقي على رمز PreQual"
+msgstr "أُنشئ: المؤلِّف = وزارة الصحة العامة في Taifafeki (MOPH)، والجهة المُتحقِّقة = الممرضة"
 
 #: scenarios/user-scenarios/j3-made-official.json:306
 msgctxt "step.fhirChanges.change"
@@ -127,27 +92,7 @@ msgstr "تغيّرت قيمة primarySource إلى true"
 #: scenarios/user-scenarios/j3-made-official.json:137
 msgctxt "step.fhirChanges.why"
 msgid "A verified DVC is the signing hospital’s own record, so the dose now counts; the Taifafeki record it came from is unchanged."
-msgstr "شهادة التطعيم الرقمية (DVC) المُتحقَّق منها هي السجل الخاص بالمستشفى الموقِّع، لذا تُحتسب الجرعة الآن؛ ويبقى السجل التايفافيكي الذي صدرت عنه دون تغيير."
-
-#: scenarios/user-scenarios/j3-made-official.json:149
-msgctxt "step.fhirChanges.why"
-msgid "Anyone who later doubts a dose can follow it back to the signed certificate and Taifafeki’s key."
-msgstr "يمكن لأي شخص يشكّ لاحقًا في جرعةٍ ما أن يتتبّعها إلى الشهادة الموقَّعة ومفتاح تايفافيكي."
-
-#: scenarios/user-scenarios/j3-made-official.json:307
-msgctxt "step.fhirChanges.why"
-msgid "Onesa’s own map from vaccine products to its schedule; a product with no mapping goes to the nurse."
-msgstr "خريطة أونيسا (Onesa) الخاصة بها لمطابقة منتجات اللقاحات مع جدولها؛ والمنتج الذي لا مطابقة له يُحال إلى الممرضة."
-
-#: scenarios/user-scenarios/j3-made-official.json:317
-msgctxt "step.fhirChanges.why"
-msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
-msgstr "يحدّد جدول التطعيم الأونيسي (PlanDefinition) جرعات عمر 6 أسابيع المستحقة؛ ويعيده التذكير إلى العيادة."
-
-#: scenarios/user-scenarios/j3-made-official.json:295
-msgctxt "step.fhirChanges.why"
-msgid "The Onesan schedule runs on Onesan EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
-msgstr "يعمل جدول التطعيم الأونيسي برموز EPI الأونيسية، لذا يلزم وجود رمز منها؛ ويبقى رمز المنتج التايفافيكي إلى جانبه، ولا يُستبدَل أبدًا."
+msgstr "شهادة التطعيم الرقمية (DVC) المُتحقَّق منها هي السجل الخاص بالمستشفى الموقِّع، لذا تُحتسب الجرعة الآن؛ ويبقى سجل Taifafeki الذي صدرت عنه دون تغيير."
 
 #: scenarios/user-scenarios/j3-made-official.json:61
 msgctxt "step.handoff.carrier"
@@ -169,31 +114,10 @@ msgctxt "step.handoff.payload"
 msgid "Verified DVC → Immunization updated"
 msgstr "DVC مُتحقَّق منها → تحديث Immunization"
 
-#: scenarios/user-scenarios/j3-made-official.json:217
-msgctxt "step.handoff.summary"
-msgid "Somsak continues on the Onesan schedule for a year"
-msgstr "يواصل Somsak على جدول التطعيم الأونيسي لمدة عام"
-
 #: scenarios/user-scenarios/j3-made-official.json:60
 msgctxt "step.handoff.summary"
 msgid "Verified doses, ready to schedule"
 msgstr "جرعات مُتحقَّق منها، جاهزة للجدولة"
-
-#: scenarios/user-scenarios/j3-made-official.json:19
-msgctxt "step.headline"
-msgid "Nurse Chanthason scans the card, and her tablet checks Taifafeki’s digital signature against the WHO trust list — without contacting Taifafeki."
-msgstr "تمسح الممرضة Chanthason البطاقة ضوئيًا، فيتحقق جهازها اللوحي من التوقيع الرقمي لتايفافيكي مقابل قائمة الثقة لمنظمة الصحة العالمية (WHO) — دون الاتصال بتايفافيكي."
-
-#: scenarios/user-scenarios/j3-made-official.json:188
-msgctxt "step.headline"
-msgid "The Taifafeki Hep B product doesn’t match anything on the Onesan schedule. Chanthason makes the clinical call, and the system works out what’s due next."
-msgstr "لا يطابق منتج Hep B التايفافيكي أي شيء في جدول التطعيم الأونيسي. تتخذ Chanthason القرار السريري، ويحدّد النظام ما هو مستحق بعد ذلك."
-
-#: scenarios/user-scenarios/j3-made-official.json:131
-#: scenarios/user-scenarios/j3-made-official.json:131
-msgctxt "step.illustration.alt"
-msgid "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesan schedule; Khamla and Bounmy hold Somsak"
-msgstr "في المركز الصحي للمنطقة، تفحص الممرضة Chanthason البطاقات على جهاز لوحي: التوقيع مُتحقَّق منه، على جدول التطعيم الأونيسي؛ وتحمل Khamla و Bounmy الطفل Somsak"
 
 #: scenarios/user-scenarios/j3-made-official.json:35
 msgctxt "step.narrative"
@@ -206,22 +130,7 @@ msgid ""
 "doses of J2. If a DVC fails (a tampered card, say), the EHR names the step and\n"
 "the reason, the doses stay unverified, and the nurse decides by national\n"
 "catch-up policy.\n"
-msgstr "تفتح الممرضة Chanthason الإحالة وتمسح رموز QR ضوئيًا. ويقوم السجل الصحي الإلكتروني (EHR)\n**بالتحقق** من كل DVC دون اتصال مقابل تلك النسخة (STT-VER-001…009،\nSTT-KID-002)، دون الاتصال بتايفافيكي. وتجتاز كلتاهما التحقق، فيستوردهما بوصفهما\nموارد FHIR من نوع `Immunization` (`TrustDemoJ3HepB`، `TrustDemoJ3Bcg`) مع بيانات المصدر\n(`TrustDemoJ3Verification`؛ STT-VER-007، STT-VER-008)، لتحلّ محل الجرعات المُبلَّغ عنها\nفي J2. وإذا فشل التحقق من DVC (بطاقة عُبث بها مثلًا)، يحدّد EHR الخطوة\nوالسبب، وتبقى الجرعات غير مُتحقَّق منها، وتقرر الممرضة وفق السياسة الوطنية\nللتطعيم الاستدراكي.\n"
-
-#: scenarios/user-scenarios/j3-made-official.json:192
-msgctxt "step.narrative"
-msgid ""
-"The Taifafeki Hep B product matches nothing on the national schedule.\n"
-"The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
-"it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
-"the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
-"the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
-"added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
-"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
-"at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
-"(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
-"measles-rubella at 9 months, in Onesa.\n"
-msgstr "لا يطابق منتج Hep B التايفافيكي أي شيء في جدول التطعيم الوطني.\nيحتفظ EHR بترميز المنتج الخاص بتايفافيكي ويضيف ترميز الجدول إلى جانبه،\nمن الخريطة الوطنية (`TrustDemoProductToOnesaEpi`). وبما أن الخريطة لا تتضمن مدخلًا\nلمنتج Hep B، تتخذ الممرضة Chanthason القرار السريري بأنه\nجرعة الولادة في الجدول (`TrustDemoJ3Adjudication`)، ويُضاف قرارها\nإلى الخريطة لصالح العيادة التالية. ثم يُشغَّل الجدول (`TrustDemoOnesaInfantSchedule`):\nفتُحتسب جرعات الولادة، وتستحق الجرعة 1 من اللقاح الخماسي و bOPV 1 و PCV 1\nعند عمر 6 أسابيع (`TrustDemoJ3Recommendation`). وتغادر Khamla ومعها الموعد\n(`TrustDemoJ3Reminder`). وعلى مدار العام يتلقى Somsak تلك الجرعات\nولقاح الحصبة والحصبة الألمانية في عمر 9 أشهر، في أونيسا (Onesa).\n"
+msgstr "تفتح الممرضة Chanthason الإحالة وتمسح رموز QR ضوئيًا. ويقوم السجل الصحي الإلكتروني (EHR)\n**بالتحقق** من كل DVC دون اتصال مقابل تلك النسخة (STT-VER-001…009،\nSTT-KID-002)، دون التواصل مع Taifafeki. وتجتاز كلتاهما التحقق، فيستوردهما بوصفهما\nموارد FHIR من نوع `Immunization` (`TrustDemoJ3HepB`، `TrustDemoJ3Bcg`) مع بيانات المصدر\n(`TrustDemoJ3Verification`؛ STT-VER-007، STT-VER-008)، لتحلّ محل الجرعات المُبلَّغ عنها\nفي J2. وإذا فشل التحقق من DVC (بطاقة عُبث بها مثلًا)، يحدّد EHR الخطوة\nوالسبب، وتبقى الجرعات غير مُتحقَّق منها، وتقرر الممرضة وفق السياسة الوطنية\nللتطعيم الاستدراكي.\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:51
 msgctxt "step.painPoint"
@@ -237,11 +146,6 @@ msgstr "تختلف البلدان في تسمية اللقاحات وتعبئت�
 msgctxt "step.policy"
 msgid "Never overwrite another country’s record: keep the original coding alongside the national one."
 msgstr "لا يُستبدَل سجل بلد آخر أبدًا: يُحتفَظ بالترميز الأصلي إلى جانب الترميز الوطني."
-
-#: scenarios/user-scenarios/j3-made-official.json:53
-msgctxt "step.policy"
-msgid "Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki."
-msgstr "الثقة لا مركزية: تتحقق عيادة أونيسية بنفسها من توقيع تايفافيكي، دون الاتصال بتايفافيكي."
 
 #: scenarios/user-scenarios/j3-made-official.json:26
 msgctxt "step.preconditions.description"
@@ -261,32 +165,12 @@ msgstr "تُحتسب جرعات الولادة؛ وحُجز الموعد الت�
 #: scenarios/user-scenarios/j3-made-official.json:56
 msgctxt "step.record.description"
 msgid "Doses verified; Taifafeki recorded as the source"
-msgstr "جرعات مُتحقَّق منها؛ وتايفافيكي مسجَّلة بوصفها المصدر"
+msgstr "جرعات مُتحقَّق منها؛ و Taifafeki مسجَّلة بوصفها المصدر"
 
 #: scenarios/user-scenarios/j3-made-official.json:57
 msgctxt "step.record.heldWhere"
 msgid "District clinic records"
 msgstr "سجلات عيادة المنطقة"
-
-#: scenarios/user-scenarios/j3-made-official.json:214
-msgctxt "step.record.heldWhere"
-msgid "Onesan national health records"
-msgstr "السجلات الصحية الوطنية في أونيسا"
-
-#: scenarios/user-scenarios/j3-made-official.json:245
-msgctxt "step.technicalSummary"
-msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesan schedule. Computable schedule logic then works out what’s due next."
-msgstr "تترجم رموز منظمة الصحة العالمية (WHO) المشتركة ومورد ConceptMap في FHIR اللقاحات التايفافيكية إلى جدول التطعيم الأونيسي. ثم يحدّد منطق الجدول القابل للحوسبة ما هو مستحق بعد ذلك."
-
-#: scenarios/user-scenarios/j3-made-official.json:89
-msgctxt "step.technicalSummary"
-msgid "The clinic checks Taifafeki’s signature against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
-msgstr "تتحقق العيادة من توقيع تايفافيكي مقابل قائمة الثقة لمنظمة الصحة العالمية (WHO)، المخزَّنة محليًا. فحص واحد يحوّل بطاقة ورقية أجنبية إلى بيانات سريرية موثوقة، دون أي اتصال بتايفافيكي."
-
-#: scenarios/user-scenarios/j3-made-official.json:187
-msgctxt "step.title"
-msgid "Taifafeki vaccines are fitted to the Onesan schedule"
-msgstr "تُدرَج اللقاحات التايفافيكية في جدول التطعيم الأونيسي"
 
 #: scenarios/user-scenarios/j3-made-official.json:18
 msgctxt "step.title"
@@ -328,16 +212,6 @@ msgctxt "step.uses.role"
 msgid "Delivers the CHW’s referral to this clinic; the nurse can only see patients referred to her facility"
 msgstr "يوصل إحالة عامل الصحة المجتمعي (CHW) إلى هذه العيادة؛ ولا يمكن للممرضة أن ترى إلا المرضى المُحالين إلى مرفقها الصحي"
 
-#: scenarios/user-scenarios/j3-made-official.json:257
-msgctxt "step.uses.role"
-msgid "Onesan schedule logic calculates the 6-week doses"
-msgstr "يحسب منطق جدول التطعيم الأونيسي جرعات عمر 6 أسابيع"
-
-#: scenarios/user-scenarios/j3-made-official.json:253
-msgctxt "step.uses.role"
-msgid "PreQual product → WHO vaccine type → Onesan EPI code"
-msgstr "منتج PreQual → نوع اللقاح لدى منظمة الصحة العالمية (WHO) → رمز EPI الأونيسي"
-
 #: scenarios/user-scenarios/j3-made-official.json:273
 msgctxt "step.uses.role"
 msgid "Receives the verified, mapped record"
@@ -346,22 +220,12 @@ msgstr "يستقبل السجل المُتحقَّق منه والمُطابَق
 #: scenarios/user-scenarios/j3-made-official.json:109
 msgctxt "step.uses.role"
 msgid "Records that Taifafeki authored and Onesa verified the doses"
-msgstr "يسجّل أن تايفافيكي هي التي أعدّت سجل الجرعات وأن أونيسا (Onesa) تحققت منها"
+msgstr "يسجّل أن Taifafeki هي التي أعدّت سجل الجرعات وأن Onesa تحققت منها"
 
 #: scenarios/user-scenarios/j3-made-official.json:261
 msgctxt "step.uses.role"
 msgid "Saves dual-coded record and syncs it to the national server"
 msgstr "يحفظ السجل مزدوج الترميز ويزامنه مع الخادم الوطني"
-
-#: scenarios/user-scenarios/j3-made-official.json:101
-msgctxt "step.uses.role"
-msgid "Supplies Taifafeki’s public key (downloaded in advance)"
-msgstr "يوفّر المفتاح العمومي لتايفافيكي (المُنزَّل مسبقًا)"
-
-#: scenarios/user-scenarios/j3-made-official.json:269
-msgctxt "step.uses.role"
-msgid "Verified Taifafeki doses, with their Provenance, count toward Onesan coverage reports"
-msgstr "تُحتسب الجرعات التايفافيكية المُتحقَّق منها، مع Provenance الخاص بها، ضمن تقارير التغطية في أونيسا"
 
 #: scenarios/user-scenarios/j3-made-official.json:227
 msgctxt "step.whatIf.outcome"
@@ -383,12 +247,6 @@ msgctxt "step.whatIf.scenario"
 msgid "There is no automatic match for the foreign vaccine."
 msgstr "لا توجد مطابقة تلقائية للقاح الأجنبي."
 
-#: scenarios/user-scenarios/j3-made-official.json:20
-#: scenarios/user-scenarios/j3-made-official.json:20
-msgctxt "step.when"
-msgid "T0 + 4 weeks"
-msgstr "T0 + 4 أسابيع"
-
 #: scenarios/user-scenarios/j3-made-official.json:12
 #: scenarios/user-scenarios/j3-made-official.json:12
 msgctxt "step.where"
@@ -396,21 +254,324 @@ msgid "Lomaru District Health Center"
 msgstr "المركز الصحي لمنطقة لومارو"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
-msgctxt "title"
-msgid "J3 — Made official"
-msgstr "J3 — إضفاء الصفة الرسمية"
-
-#: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "views.label"
 msgid "J3"
 msgstr "J3"
-
-#: scenarios/user-scenarios/j3-made-official.json:11
-msgctxt "when"
-msgid "4 weeks later"
-msgstr "بعد 4 أسابيع"
 
 #: scenarios/user-scenarios/j3-made-official.json:12
 msgctxt "where"
 msgid "Lomaru District Health Center"
 msgstr "المركز الصحي لمنطقة لومارو"
+
+#: scenarios/user-scenarios/j3-made-official.json:316
+msgctxt "step.fhirChanges.change"
+msgid "Overdue 6-week doses given"
+msgstr "أُعطيت جرعات عمر 6 أسابيع المتأخرة"
+
+#: scenarios/user-scenarios/j3-made-official.json:20
+#: scenarios/user-scenarios/j3-made-official.json:20
+msgctxt "step.when"
+msgid "T0 + 10 weeks"
+msgstr "T0 + 10 أسابيع"
+
+#: scenarios/user-scenarios/j3-made-official.json:4
+msgctxt "title"
+msgid "J3 — A foreign record used for the next vaccine"
+msgstr "J3 — سجل أجنبي يُستخدم للقاح التالي"
+
+#: scenarios/user-scenarios/j3-made-official.json:11
+msgctxt "when"
+msgid "Somsak is 10 weeks old"
+msgstr "عمر Somsak 10 أسابيع"
+
+#: scenarios/user-scenarios/j3-made-official.json:5
+msgctxt "description"
+msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesa schedule."
+msgstr "ممرضةٌ تتحقق من أن البطاقات أصلية وتُدرج جرعات Taifafeki في جدول التطعيم في Onesa."
+
+#: scenarios/user-scenarios/j3-made-official.json:368
+msgctxt "scene.label"
+msgid "On the Onesa schedule"
+msgstr "على جدول التطعيم في Onesa"
+
+#: scenarios/user-scenarios/j3-made-official.json:209
+msgctxt "step.enabler"
+msgid "The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due."
+msgstr "يُحتفَظ بالرمز الأصلي الصادر عن Taifafeki ويُضاف رمز Onesa إلى جانبه؛ ويحسب محرّك جدول التطعيم ما هو مستحق."
+
+#: scenarios/user-scenarios/j3-made-official.json:52
+msgctxt "step.enabler"
+msgid "The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally."
+msgstr "مفتاح التوقيع الخاص بدولة Taifafeki مُدرَج في قائمة الثقة المشتركة لمنظمة الصحة العالمية (WHO)، لذا يمكن لأي عيادة التحقق منه محليًا."
+
+#: scenarios/user-scenarios/j3-made-official.json:197
+msgctxt "step.experiences.doing"
+msgid "Confirms the Taifafeki product equals the birth dose on the Onesa schedule; gives the overdue 6-week vaccines."
+msgstr "تؤكد أن منتج Taifafeki يعادل جرعة الولادة في جدول التطعيم في Onesa؛ وتعطي لقاحات الأسبوع السادس المتأخرة."
+
+#: scenarios/user-scenarios/j3-made-official.json:294
+msgctxt "step.fhirChanges.change"
+msgid "Onesa EPI code added; PreQual code kept"
+msgstr "أُضيف رمز EPI الخاص بدولة Onesa؛ وأُبقي على رمز PreQual"
+
+#: scenarios/user-scenarios/j3-made-official.json:149
+msgctxt "step.fhirChanges.why"
+msgid "Anyone who later doubts a dose can follow it back to the signed certificate and the key of Taifafeki."
+msgstr "يمكن لأي شخص يشكّ لاحقًا في جرعةٍ ما أن يتتبّعها إلى الشهادة الموقَّعة ومفتاح Taifafeki."
+
+#: scenarios/user-scenarios/j3-made-official.json:307
+msgctxt "step.fhirChanges.why"
+msgid "The map of Onesa from vaccine products to its own schedule; a product with no mapping goes to the nurse."
+msgstr "خريطة Onesa لمطابقة منتجات اللقاحات مع جدولها الخاص؛ والمنتج الذي لا مطابقة له يُحال إلى الممرضة."
+
+#: scenarios/user-scenarios/j3-made-official.json:317
+msgctxt "step.fhirChanges.why"
+msgid "The Onesa schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
+msgstr "يحدّد جدول التطعيم في Onesa ‏(PlanDefinition) أن جرعات عمر 6 أسابيع متأخرة، فتُعطى الآن؛ ويعيده التذكير إلى العيادة لتلقي الجرعات التالية."
+
+#: scenarios/user-scenarios/j3-made-official.json:295
+msgctxt "step.fhirChanges.why"
+msgid "The Onesa schedule runs on Onesa EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
+msgstr "يعمل جدول التطعيم في Onesa برموز EPI الخاصة بدولة Onesa، لذا يلزم وجود رمز منها؛ ويبقى رمز المنتج الصادر عن Taifafeki إلى جانبه، ولا يُستبدَل أبدًا."
+
+#: scenarios/user-scenarios/j3-made-official.json:217
+msgctxt "step.handoff.summary"
+msgid "Somsak continues on the Onesa schedule for a year"
+msgstr "يواصل Somsak على جدول التطعيم في Onesa لمدة عام"
+
+#: scenarios/user-scenarios/j3-made-official.json:19
+msgctxt "step.headline"
+msgid "Nurse Chanthason scans the card, and her tablet checks the digital signature from Taifafeki against the WHO trust list — without contacting Taifafeki."
+msgstr "تمسح الممرضة Chanthason البطاقة ضوئيًا، فيتحقق جهازها اللوحي من التوقيع الرقمي الصادر عن Taifafeki مقابل قائمة الثقة لمنظمة الصحة العالمية (WHO) — دون التواصل مع Taifafeki."
+
+#: scenarios/user-scenarios/j3-made-official.json:188
+msgctxt "step.headline"
+msgid "The Taifafeki Hep B product doesn’t match anything on the Onesa schedule. Chanthason makes the clinical call, and the system works out what’s due next."
+msgstr "لا يطابق منتج Hep B من Taifafeki أي شيء في جدول التطعيم في Onesa. تتخذ Chanthason القرار السريري، ويحدّد النظام ما هو مستحق بعد ذلك."
+
+#: scenarios/user-scenarios/j3-made-official.json:131
+#: scenarios/user-scenarios/j3-made-official.json:131
+msgctxt "step.illustration.alt"
+msgid "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesa schedule; Khamla and Bounmy hold Somsak"
+msgstr "في المركز الصحي للمنطقة، تفحص الممرضة Chanthason البطاقات على جهاز لوحي: التوقيع مُتحقَّق منه، على جدول التطعيم في Onesa؛ وتحمل Khamla و Bounmy الطفل Somsak"
+
+#: scenarios/user-scenarios/j3-made-official.json:192
+msgctxt "step.narrative"
+msgid ""
+"The Taifafeki Hep B product matches nothing on the national schedule.\n"
+"The EHR keeps the product coding of Taifafeki and adds the schedule coding beside\n"
+"it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+"the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+"the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+"added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n"
+"6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\n"
+"Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
+"(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
+"measles-rubella at 9 months, in Onesa.\n"
+msgstr "لا يطابق منتج Hep B من Taifafeki أي شيء في جدول التطعيم الوطني.\nيحتفظ EHR بترميز المنتج الصادر عن Taifafeki ويضيف ترميز الجدول إلى جانبه،\nمن الخريطة الوطنية (`TrustDemoProductToOnesaEpi`). وبما أن الخريطة لا تتضمن مدخلًا\nلمنتج Hep B، تتخذ الممرضة Chanthason القرار السريري بأنه\nجرعة الولادة في الجدول (`TrustDemoJ3Adjudication`)، ويُضاف قرارها\nإلى الخريطة لصالح العيادة التالية. ثم يُشغَّل الجدول (`TrustDemoOnesaInfantSchedule`):\nفتُحتسب جرعات الولادة، أما الجرعة 1 من اللقاح الخماسي و bOPV 1 و PCV 1، المستحقة\nعند عمر 6 أسابيع، فهي متأخرة عند عمر 10 أسابيع (`TrustDemoJ3Recommendation`)، لذا تعطيها الممرضة\nChanthason في اليوم نفسه. وتغادر Khamla ومعها موعد الجرعات التالية\n(`TrustDemoJ3Reminder`). وعلى مدار العام يتلقى Somsak بقية جرعاته\nولقاح الحصبة والحصبة الألمانية في عمر 9 أشهر، في Onesa.\n"
+
+#: scenarios/user-scenarios/j3-made-official.json:53
+msgctxt "step.policy"
+msgid "Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
+msgstr "الثقة لا مركزية: تتحقق عيادة في Onesa بنفسها من توقيع صادر عن Taifafeki، دون التواصل مع Taifafeki."
+
+#: scenarios/user-scenarios/j3-made-official.json:214
+msgctxt "step.record.heldWhere"
+msgid "Onesa national health records"
+msgstr "السجلات الصحية الوطنية في Onesa"
+
+#: scenarios/user-scenarios/j3-made-official.json:245
+msgctxt "step.technicalSummary"
+msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesa schedule. Computable schedule logic then works out what’s due next."
+msgstr "تترجم رموز منظمة الصحة العالمية (WHO) المشتركة ومورد ConceptMap في FHIR لقاحات Taifafeki إلى جدول التطعيم في Onesa. ثم يحدّد منطق الجدول القابل للحوسبة ما هو مستحق بعد ذلك."
+
+#: scenarios/user-scenarios/j3-made-official.json:89
+msgctxt "step.technicalSummary"
+msgid "The clinic checks the signature from Taifafeki against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
+msgstr "تتحقق العيادة من التوقيع الصادر عن Taifafeki مقابل قائمة الثقة لمنظمة الصحة العالمية (WHO)، المخزَّنة محليًا. فحص واحد يحوّل بطاقة ورقية أجنبية إلى بيانات سريرية موثوقة، دون أي اتصال مع Taifafeki."
+
+#: scenarios/user-scenarios/j3-made-official.json:187
+msgctxt "step.title"
+msgid "Taifafeki vaccines are fitted to the Onesa schedule"
+msgstr "تُدرَج لقاحات Taifafeki في جدول التطعيم في Onesa"
+
+#: scenarios/user-scenarios/j3-made-official.json:253
+msgctxt "step.uses.role"
+msgid "PreQual product → WHO vaccine type → Onesa EPI code"
+msgstr "منتج PreQual → نوع اللقاح لدى منظمة الصحة العالمية (WHO) → رمز EPI في Onesa"
+
+#: scenarios/user-scenarios/j3-made-official.json:257
+msgctxt "step.uses.role"
+msgid "Schedule logic of Onesa finds the 6-week doses overdue"
+msgstr "يجد منطق جدول التطعيم في Onesa أن جرعات عمر 6 أسابيع متأخرة"
+
+#: scenarios/user-scenarios/j3-made-official.json:101
+msgctxt "step.uses.role"
+msgid "Supplies the public key of Taifafeki (downloaded in advance)"
+msgstr "يوفّر المفتاح العمومي لدولة Taifafeki (المُنزَّل مسبقًا)"
+
+#: scenarios/user-scenarios/j3-made-official.json:269
+msgctxt "step.uses.role"
+msgid "Verified doses from Taifafeki, with their Provenance, count toward coverage reports in Onesa"
+msgstr "تُحتسب الجرعات المُتحقَّق منها القادمة من Taifafeki، مع Provenance الخاص بها، ضمن تقارير التغطية في Onesa"
+
+#~ msgctxt "step.experiences.doing"
+#~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
+#~ msgstr "تؤكد أن المنتج التايفافيكي يعادل جرعة الولادة في الجدول الأونيسي؛ ويحجز النظام لقاحات عمر 6 أسابيع."
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "6-week pentavalent booked"
+#~ msgstr "حُجزت جرعة اللقاح الخماسي لعمر 6 أسابيع"
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
+#~ msgstr "يحدّد جدول التطعيم الأونيسي (PlanDefinition) جرعات عمر 6 أسابيع المستحقة؛ ويعيده التذكير إلى العيادة."
+
+#~ msgctxt "step.narrative"
+#~ msgid ""
+#~ "The Taifafeki Hep B product matches nothing on the national schedule.\n"
+#~ "The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
+#~ "it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+#~ "the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+#~ "the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+#~ "added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+#~ "then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
+#~ "at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
+#~ "(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
+#~ "measles-rubella at 9 months, in Onesa.\n"
+#~ msgstr "لا يطابق منتج Hep B التايفافيكي أي شيء في جدول التطعيم الوطني.\nيحتفظ EHR بترميز المنتج الخاص بتايفافيكي ويضيف ترميز الجدول إلى جانبه،\nمن الخريطة الوطنية (`TrustDemoProductToOnesaEpi`). وبما أن الخريطة لا تتضمن مدخلًا\nلمنتج Hep B، تتخذ الممرضة Chanthason القرار السريري بأنه\nجرعة الولادة في الجدول (`TrustDemoJ3Adjudication`)، ويُضاف قرارها\nإلى الخريطة لصالح العيادة التالية. ثم يُشغَّل الجدول (`TrustDemoOnesaInfantSchedule`):\nفتُحتسب جرعات الولادة، وتستحق الجرعة 1 من اللقاح الخماسي و bOPV 1 و PCV 1\nعند عمر 6 أسابيع (`TrustDemoJ3Recommendation`). وتغادر Khamla ومعها الموعد\n(`TrustDemoJ3Reminder`). وعلى مدار العام يتلقى Somsak تلك الجرعات\nولقاح الحصبة والحصبة الألمانية في عمر 9 أشهر، في أونيسا (Onesa).\n"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Onesan schedule logic calculates the 6-week doses"
+#~ msgstr "يحسب منطق جدول التطعيم الأونيسي جرعات عمر 6 أسابيع"
+
+#~ msgctxt "step.when"
+#~ msgid "T0 + 4 weeks"
+#~ msgstr "T0 + 4 أسابيع"
+
+#~ msgctxt "title"
+#~ msgid "J3 — Made official"
+#~ msgstr "J3 — إضفاء الصفة الرسمية"
+
+#~ msgctxt "when"
+#~ msgid "4 weeks later"
+#~ msgstr "بعد 4 أسابيع"
+
+#~ msgctxt "description"
+#~ msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesan schedule."
+#~ msgstr "ممرضةٌ تتحقق من أن البطاقات أصلية وتُدرج الجرعات التايفافيكية في جدول التطعيم الأونيسي."
+
+#~ msgctxt "scene.label"
+#~ msgid "On the Onesan schedule"
+#~ msgstr "على جدول التطعيم الأونيسي"
+
+#~ msgctxt "step.enabler"
+#~ msgid "Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due."
+#~ msgstr "يُحتفَظ بالرمز الأصلي لتايفافيكي ويُضاف الرمز الأونيسي إلى جانبه؛ ويحسب محرّك جدول التطعيم ما هو مستحق."
+
+#~ msgctxt "step.enabler"
+#~ msgid "Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally."
+#~ msgstr "مفتاح التوقيع الخاص بتايفافيكي مُدرَج في قائمة الثقة المشتركة لمنظمة الصحة العالمية (WHO)، لذا يمكن لأي عيادة التحقق منه محليًا."
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "Onesan EPI code added; PreQual code kept"
+#~ msgstr "أُضيف رمز EPI الأونيسي؛ وأُبقي على رمز PreQual"
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "Anyone who later doubts a dose can follow it back to the signed certificate and Taifafeki’s key."
+#~ msgstr "يمكن لأي شخص يشكّ لاحقًا في جرعةٍ ما أن يتتبّعها إلى الشهادة الموقَّعة ومفتاح تايفافيكي."
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "Onesa’s own map from vaccine products to its schedule; a product with no mapping goes to the nurse."
+#~ msgstr "خريطة أونيسا (Onesa) الخاصة بها لمطابقة منتجات اللقاحات مع جدولها؛ والمنتج الذي لا مطابقة له يُحال إلى الممرضة."
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Onesan schedule runs on Onesan EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
+#~ msgstr "يعمل جدول التطعيم الأونيسي برموز EPI الأونيسية، لذا يلزم وجود رمز منها؛ ويبقى رمز المنتج التايفافيكي إلى جانبه، ولا يُستبدَل أبدًا."
+
+#~ msgctxt "step.handoff.summary"
+#~ msgid "Somsak continues on the Onesan schedule for a year"
+#~ msgstr "يواصل Somsak على جدول التطعيم الأونيسي لمدة عام"
+
+#~ msgctxt "step.headline"
+#~ msgid "Nurse Chanthason scans the card, and her tablet checks Taifafeki’s digital signature against the WHO trust list — without contacting Taifafeki."
+#~ msgstr "تمسح الممرضة Chanthason البطاقة ضوئيًا، فيتحقق جهازها اللوحي من التوقيع الرقمي لتايفافيكي مقابل قائمة الثقة لمنظمة الصحة العالمية (WHO) — دون الاتصال بتايفافيكي."
+
+#~ msgctxt "step.headline"
+#~ msgid "The Taifafeki Hep B product doesn’t match anything on the Onesan schedule. Chanthason makes the clinical call, and the system works out what’s due next."
+#~ msgstr "لا يطابق منتج Hep B التايفافيكي أي شيء في جدول التطعيم الأونيسي. تتخذ Chanthason القرار السريري، ويحدّد النظام ما هو مستحق بعد ذلك."
+
+#~ msgctxt "step.illustration.alt"
+#~ msgid "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesan schedule; Khamla and Bounmy hold Somsak"
+#~ msgstr "في المركز الصحي للمنطقة، تفحص الممرضة Chanthason البطاقات على جهاز لوحي: التوقيع مُتحقَّق منه، على جدول التطعيم الأونيسي؛ وتحمل Khamla و Bounmy الطفل Somsak"
+
+#~ msgctxt "step.policy"
+#~ msgid "Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki."
+#~ msgstr "الثقة لا مركزية: تتحقق عيادة أونيسية بنفسها من توقيع تايفافيكي، دون الاتصال بتايفافيكي."
+
+#~ msgctxt "step.record.heldWhere"
+#~ msgid "Onesan national health records"
+#~ msgstr "السجلات الصحية الوطنية في أونيسا"
+
+#~ msgctxt "step.technicalSummary"
+#~ msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesan schedule. Computable schedule logic then works out what’s due next."
+#~ msgstr "تترجم رموز منظمة الصحة العالمية (WHO) المشتركة ومورد ConceptMap في FHIR اللقاحات التايفافيكية إلى جدول التطعيم الأونيسي. ثم يحدّد منطق الجدول القابل للحوسبة ما هو مستحق بعد ذلك."
+
+#~ msgctxt "step.technicalSummary"
+#~ msgid "The clinic checks Taifafeki’s signature against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
+#~ msgstr "تتحقق العيادة من توقيع تايفافيكي مقابل قائمة الثقة لمنظمة الصحة العالمية (WHO)، المخزَّنة محليًا. فحص واحد يحوّل بطاقة ورقية أجنبية إلى بيانات سريرية موثوقة، دون أي اتصال بتايفافيكي."
+
+#~ msgctxt "step.title"
+#~ msgid "Taifafeki vaccines are fitted to the Onesan schedule"
+#~ msgstr "تُدرَج اللقاحات التايفافيكية في جدول التطعيم الأونيسي"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "PreQual product → WHO vaccine type → Onesan EPI code"
+#~ msgstr "منتج PreQual → نوع اللقاح لدى منظمة الصحة العالمية (WHO) → رمز EPI الأونيسي"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Supplies Taifafeki’s public key (downloaded in advance)"
+#~ msgstr "يوفّر المفتاح العمومي لتايفافيكي (المُنزَّل مسبقًا)"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Verified Taifafeki doses, with their Provenance, count toward Onesan coverage reports"
+#~ msgstr "تُحتسب الجرعات التايفافيكية المُتحقَّق منها، مع Provenance الخاص بها، ضمن تقارير التغطية في أونيسا"
+
+#~ msgctxt "step.experiences.doing"
+#~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
+#~ msgstr "تؤكد أن المنتج التايفافيكي يعادل جرعة الولادة في الجدول الأونيسي؛ وتعطي لقاحات عمر 6 أسابيع المتأخرة."
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
+#~ msgstr "يحدّد جدول التطعيم الأونيسي (PlanDefinition) أن جرعات عمر 6 أسابيع متأخرة، فتُعطى الآن؛ ويعيده التذكير إلى العيادة لتلقي الجرعات التالية."
+
+#~ msgctxt "step.narrative"
+#~ msgid ""
+#~ "The Taifafeki Hep B product matches nothing on the national schedule.\n"
+#~ "The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
+#~ "it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+#~ "the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+#~ "the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+#~ "added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+#~ "then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n"
+#~ "6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\n"
+#~ "Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
+#~ "(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
+#~ "measles-rubella at 9 months, in Onesa.\n"
+#~ msgstr ""
+#~ "لا يطابق منتج Hep B التايفافيكي أي شيء في جدول التطعيم الوطني.\n"
+#~ "يحتفظ EHR بترميز المنتج الخاص بتايفافيكي ويضيف ترميز الجدول إلى جانبه،\n"
+#~ "من الخريطة الوطنية (`TrustDemoProductToOnesaEpi`). وبما أن الخريطة لا تتضمن مدخلًا\n"
+#~ "لمنتج Hep B، تتخذ الممرضة Chanthason القرار السريري بأنه\n"
+#~ "جرعة الولادة في الجدول (`TrustDemoJ3Adjudication`)، ويُضاف قرارها\n"
+#~ "إلى الخريطة لصالح العيادة التالية. ثم يُشغَّل الجدول (`TrustDemoOnesaInfantSchedule`):\n"
+#~ "فتُحتسب جرعات الولادة، أما الجرعة 1 من اللقاح الخماسي و bOPV 1 و PCV 1، المستحقة\n"
+#~ "عند عمر 6 أسابيع، فهي متأخرة عند عمر 10 أسابيع (`TrustDemoJ3Recommendation`)، لذا تعطيها الممرضة\n"
+#~ "Chanthason في اليوم نفسه. وتغادر Khamla ومعها موعد الجرعات التالية\n"
+#~ "(`TrustDemoJ3Reminder`). وعلى مدار العام يتلقى Somsak بقية جرعاته\n"
+#~ "ولقاح الحصبة والحصبة الألمانية في عمر 9 أشهر، في أونيسا (Onesa).\n"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Onesan schedule logic finds the 6-week doses overdue"
+#~ msgstr "يجد منطق جدول التطعيم الأونيسي أن جرعات عمر 6 أسابيع متأخرة"

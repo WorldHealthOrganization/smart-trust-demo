@@ -13,7 +13,7 @@ Title: "Taifafeki: newborn at the birth hospital"
 Description: """
 How it is used: J1. Kesaro Provincial Hospital registers Somsak under its own hospital number on the day he is born.
 
-Why: a baby born to Onesan parents in Taifafeki has no Taifafeki citizen id, so the hospital number is the only identifier the hospital can put behind the dose records it signs. The DVCs it prints carry the name and date of birth, not this number. The family's home country therefore cannot rely on any Taifafeki identifier, and links the doses to its own patient (see the Onesan patient profile).
+Why: a baby born in Taifafeki to parents from Onesa has no Taifafeki citizen id, so the hospital number is the only identifier the hospital can put behind the dose records it signs. The DVCs it prints carry the name and date of birth, not this number. The family's home country therefore cannot rely on any Taifafeki identifier, and links the doses to its own patient (see the patient profile of Onesa).
 """
 * identifier 1..* MS
 * identifier ^slicing.discriminator.type = #value
@@ -33,7 +33,7 @@ Title: "Taifafeki: dose given at the birth hospital (DVC source)"
 Description: """
 How it is used: J1. Each birth dose (Hep B, BCG) that Dr Anan gives is recorded here first. The hospital then packs it into a Digital Vaccination Certificate (HCERT, signed with XXR's key) and prints it as a QR card.
 
-Why: the DVC can only carry what this record holds. The vaccine product, date, lot, dose number and the administering organization are exactly the fields the HCERT certificate needs. They are required here so every printed card is complete. The product is coded from the WHO PreQual-style product list, because that is the code Onesa will later map to its own schedule (J3).
+Why: the DVC can only carry what this record holds. The vaccine product, date, lot, dose number and the administering organization are exactly the fields the HCERT certificate needs. They are required here so every printed card is complete. The product is coded with its WHO PreQual product id, because that is the code Onesa will later map to its own schedule (J3).
 """
 * status = #completed
 * vaccineCode.coding ^slicing.discriminator.type = #value
@@ -42,7 +42,7 @@ Why: the DVC can only carry what this record holds. The vaccine product, date, l
 * vaccineCode.coding contains product 1..1 MS and cvx 0..1
 * vaccineCode.coding[cvx].system = "http://hl7.org/fhir/sid/cvx"
 * vaccineCode.coding[product] from TrustDemoVaccineProducts (required)
-* vaccineCode.coding[product].system = Canonical(TrustDemoVaccineProduct)
+* vaccineCode.coding[product].system = "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds"
 * patient only Reference(TrustDemoTaifafekiPatient)
 * occurrence[x] only dateTime
 * primarySource = true
@@ -58,7 +58,7 @@ Title: "Taifafeki: record of a summary read through a VHL"
 Description: """
 How it is used: J4.1. The Kesaro clinic viewer keeps this record when it opens Somsak's patient summary through the Verifiable Health Link that his father shows.
 
-Why: the Taifafeki clinic views the Onesan record and does not copy it into a Taifafeki registry. So the clinic keeps a note of what it saw, where it came from, and how it was verified: the VHL's signature against Onesa's key on the GDHCN trust list, the manifest fetch, and the passcode. The Onesan side keeps its own log of the same access (the Onesan audit profile).
+Why: the Taifafeki clinic views the record from Onesa and does not copy it into any registry in Taifafeki. So the clinic keeps a note of what it saw, where it came from, and how it was verified: the VHL's signature against the key of Onesa on the GDHCN trust list, the manifest fetch, and the passcode. Onesa keeps its own log of the same access (the audit profile of Onesa).
 """
 * target 1..* MS
 * recorded MS

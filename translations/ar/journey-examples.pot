@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-11T10:42:04.888Z\n"
+"POT-Creation-Date: 2026-11-17T18:50:35.668Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -164,7 +164,7 @@ msgid "A birth dose with every field the signed DVC (HCERT) carries: product, da
 msgstr ""
 
 #: docs/journey-examples.md:45
-msgid "A dose on the national schedule: the Onesan EPI code is required, and a foreign product code is kept beside it."
+msgid "A dose on the national schedule: the Onesa EPI code is required, and a foreign product code is kept beside it."
 msgstr ""
 
 #: docs/journey-examples.md:42
@@ -196,11 +196,11 @@ msgstr ""
 
 #: docs/journey-examples.md:66
 #, python-brace-format
-msgid "Code systems. The walkthrough's product codes ({code0} and so on) and Onesan schedule codes ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
+msgid "Code systems. Each dose's product is coded with its WHO PreQual product id ({code0} for the Hep B birth dose and so on), from the code system {code1} of the <a0>SMART Product Dataset for Prequalified Vaccines</a0>, and the ValueSet {code2} lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa ({code3} and so on) are illustrative, defined here as the code system {code4}, marked experimental, under this guide's canonical, so no URL implies a real ministry."
 msgstr ""
 
 #: docs/journey-examples.md:67
-msgid "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXK. Neither is a production key."
+msgid "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key."
 msgstr ""
 
 #: docs/journey-examples.md:34
@@ -216,7 +216,7 @@ msgid "Country, device"
 msgstr ""
 
 #: docs/journey-examples.md:69
-msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the Onesan doses 2025-12-10 and 2026-07-28, the trip 2026-10-28."
+msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28."
 msgstr ""
 
 #: docs/journey-examples.md:32
@@ -345,7 +345,7 @@ msgstr ""
 
 #: docs/journey-examples.md:61
 #, python-brace-format
-msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesan gateway the custodian and observer. The passcode is never logged."
+msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesa gateway the custodian and observer. The passcode is never logged."
 msgstr ""
 
 #: docs/journey-examples.md:19
@@ -385,7 +385,7 @@ msgid "The answers on the offline registration form (Structured Data Capture), k
 msgstr ""
 
 #: docs/journey-examples.md:36
-msgid "The birth hospital's newborn: a hospital number, since a baby of Onesan parents has no Taifafeki citizen id."
+msgid "The birth hospital's newborn: a hospital number, since a baby of parents from Onesa has no Taifafeki citizen id."
 msgstr ""
 
 #: docs/journey-examples.md:39
@@ -456,7 +456,7 @@ msgid "What the examples change from the walkthrough's copies"
 msgstr ""
 
 #: docs/journey-examples.md:38
-msgid "What the Taifafeki clinic keeps when it views an Onesan summary through a VHL: viewed, not copied."
+msgid "What the Taifafeki clinic keeps when it views a summary from Onesa through a VHL: viewed, not copied."
 msgstr ""
 
 #: docs/journey-examples.md:44

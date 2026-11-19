@@ -27,7 +27,7 @@ msgstr "عابر للحدود"
 #: scenarios/user-scenarios/j4-family-records-abroad.json:5
 msgctxt "description"
 msgid "The family's records go on one shared phone as Verifiable Health Links (J4.0), and a year later a doctor back in Taifafeki reads the whole history from Onesa (J4.1). One chapter of the walkthrough, two BPMN processes, so two sub-journeys."
-msgstr "تُحفَظ سجلات الأسرة على هاتف واحد مشترك في صورة روابط صحية قابلة للتحقق (J4.0)، وبعد عام يقرأ طبيب في تايفافيكي التاريخ الكامل من أونيسا (Onesa) (J4.1). فصل واحد من الجولة الإرشادية، وعمليتا BPMN، ومن ثَمّ رحلتان فرعيتان."
+msgstr "تُحفَظ سجلات الأسرة على هاتف واحد مشترك في صورة روابط صحية قابلة للتحقق (J4.0)، وبعد عام يقرأ طبيب في Taifafeki التاريخ الكامل من Onesa (J4.1). فصل واحد من الجولة الإرشادية، وعمليتا BPMN، ومن ثَمّ رحلتان فرعيتان."
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:34
 msgctxt "references.label"
@@ -37,7 +37,7 @@ msgstr "سيناريوهات المستخدم في دليل التنفيذ (IG) 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:25
 msgctxt "scene.label"
 msgid "Onesa ⇄ Taifafeki"
-msgstr "أونيسا (Onesa) ⇄ تايفافيكي"
+msgstr "Onesa ⇄ Taifafeki"
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:21
 msgctxt "scene.label"
@@ -47,12 +47,7 @@ msgstr "رابط برمز مرور على هاتف الأب"
 #: scenarios/user-scenarios/j4-family-records-abroad.json:29
 msgctxt "scene.label"
 msgid "Taifafeki doctor sees it all"
-msgstr "طبيب تايفافيكي يرى كل شيء"
-
-#: scenarios/user-scenarios/j4-family-records-abroad.json:4
-msgctxt "title"
-msgid "J4 — One family, one phone, a history abroad"
-msgstr "J4 — أسرة واحدة، هاتف واحد، تاريخ صحي في الخارج"
+msgstr "طبيب في Taifafeki يرى كل شيء"
 
 #: scenarios/user-scenarios/j4-family-records-abroad.json:15
 msgctxt "when"
@@ -62,4 +57,13 @@ msgstr "بعد 6 إلى 12 شهرًا"
 #: scenarios/user-scenarios/j4-family-records-abroad.json:16
 msgctxt "where"
 msgid "Onesa and Kesaro"
-msgstr "أونيسا (Onesa) وكيسارو"
+msgstr "Onesa و كيسارو"
+
+#: scenarios/user-scenarios/j4-family-records-abroad.json:4
+msgctxt "title"
+msgid "J4 — Continuity across a border"
+msgstr "J4 — الاستمرارية عبر الحدود"
+
+#~ msgctxt "title"
+#~ msgid "J4 — One family, one phone, a history abroad"
+#~ msgstr "J4 — أسرة واحدة، هاتف واحد، تاريخ صحي في الخارج"

@@ -21,11 +21,11 @@ The OHS app on the CHW's phone: reads a foreign DVC without verifying it (triage
 
 **In the user scenarios**:
 
-- [J2 — Found at home](scenarios.html#j2--found-at-home-onesa-3-weeks-later): J2a A health worker finds the baby — and reads his cards; J2b Registered at home, and referred
+- [J2 — Found and registered](scenarios.html#j2--found-and-registered-onesa-somsak-is-7-weeks-old): J2a A health worker finds the baby — and reads his cards; J2b Registered at home, and referred
 
 **On the device screens**: [S2 Offline QR Scan of the Foreign Cards (Vilay's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S2/); [S3 Newborn Registration & Clinic Referral (Vilay's phone)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S3/)
 
-**Discussed in the workshop modules**: [M2 The reference architecture and where you stand](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m2/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/)
+**Discussed in the workshop modules**: [M2 The reference architecture (DPI-H) and where you stand](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m2/); [M3 Standards, specifications and the core data set](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m3/); [M4 Trust, credentials and wallets](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m4/); [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [T2 Offline data capture](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t2/); [T4 Workflows, sync and who sees what](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/); [T5 From records to charts](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t5/); [T7 Team build, showcase and the journey together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t7/)
 
 **Lanes and tasks in the business processes**:
 
@@ -35,7 +35,7 @@ The OHS app on the CHW's phone: reads a foreign DVC without verifying it (triage
 
 - Decision table [TD.DT.01 What does a scanned DVC become in the child's record?](decision-logic.html#tddt01-what-does-a-scanned-dvc-become-in-the-childs-record), in: Read each DVC unverified (triage); Add the infant; save doses as reported
 
-**Data sets its tasks record or read**: [TD.J2A Newborn registration on a home visit](dictionary.html#tdj2a-newborn-registration-on-a-home-visit); [TD.J2B Referral for verification](dictionary.html#tdj2b-referral-for-verification)
+**Data sets its tasks record or read**: [J1 DVCMinPreQual DVC HCERT payload (PreQual)](dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal); [J2 IMMZC4 IMMZ.C4 Create client record (= IMMZ.C5.3 Update client details)](dictionary.html#j2-immzc4-immzc4-create-client-record--immzc53-update-client-details); [J3 IMMZImmunization IMMZ Immunization](dictionary.html#j3-immzimmunization-immz-immunization)
 
 **Indicators that count its decisions**: [TD.IND.01 Foreign doses imported as verified](indicators.html#tdind01-foreign-doses-imported-as-verified); [TD.IND.03 CHW referrals for verification completed at the clinic](indicators.html#tdind03-chw-referrals-for-verification-completed-at-the-clinic)
 """

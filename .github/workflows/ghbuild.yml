@@ -14,4 +14,4 @@ permissions:
 
 jobs:
   call_build:
-    uses: litlfred/smart-base/.github/workflows/ghbuild.yml@ebf19f235bd14081e8a7c73c09afb4fec5813728 # index.lock.json
+    uses: litlfred/smart-base/.github/workflows/ghbuild.yml@0eb6c52ec3524f9ad6f139a28e1cb3a26882f71e # index.lock.json

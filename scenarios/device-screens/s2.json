@@ -35,17 +35,17 @@
         {
           "icon": "syringe",
           "label": "BCG Birth Dose",
-          "code": "PreQual Code: vp-bcg-freeze-dried",
+          "code": "PreQual Code: a3K3X000006MiisUAC",
           "detail": "Card 1 / 2 • Date (T0) 2025-10-28 • Issuer Taifafeki (XXR)",
           "status": {
-            "text": "No Local Onesan Schedule Mapping — Stored as Issued",
+            "text": "No Local Onesa Schedule Mapping — Stored as Issued",
             "tone": "warning"
           }
         },
         {
           "icon": "syringe",
           "label": "Hepatitis B Birth Dose",
-          "code": "PreQual Code: vp-hepb-peds-monovalent",
+          "code": "PreQual Code: a3K3X000006MiiXUAS",
           "detail": "Card 2 / 2 • Date (T0) 2025-10-28 • Issuer Taifafeki (XXR)",
           "status": {
             "text": "Unmapped Foreign Product Code — Preserved Unchanged",

@@ -23,9 +23,9 @@ These are the generic personas of the journeys J1 to J4: the roles that play the
 | [Birth clinic issuing system](ActorDefinition-TrustDemo.Role.BirthClinicSystem.html) | The hospital system abroad that issues a DVC per dose with the HCERT library: the HCERT issuing system (smart-trust-tools) of a trust network participant (XXR). | Kesaro Provincial Hospital system, Taifafeki (Country A, XXR) | Issuer of the birth-dose DVCs (SMART Trust Issuer) |
 | [CHW app](ActorDefinition-TrustDemo.Role.ChwApp.html) | The OHS app on the CHW's phone: reads a foreign DVC without verifying it (triage read, [STT-VER-011](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-011)), registers the child and records a referral, all offline, syncing later. | CHW app, Onesa (Country B) | Triage reader (SMART Trust Receiver, read-unverified) |
 | [Home clinic EHR](ActorDefinition-TrustDemo.Role.HomeClinicEhr.html) | The clinic's OHS-based record system: verifies DVCs against the GDHCN trust list, imports them as FHIR Immunization resources and evaluates the national schedule (J3). | Lomaru District Health Center EHR (Country B) | Verifier at the home clinic (SMART Trust Receiver) |
-| [National health portal](ActorDefinition-TrustDemo.Role.NationalPortal.html) | The home country's portal that issues each family member's records (IPS, DVCs) as a passcode-protected Verifiable Health Link and hosts the manifests (J4.0), checking the passcode, expiry and consent on each request and logging every access at home (J4.1): the VHL Sharer. | Onesa national health portal and gateway (Country B, XXK) | VHL Sharer (IHE ITI VHL); Issuer of the family's VHLs (SMART Trust Issuer) |
+| [National health portal](ActorDefinition-TrustDemo.Role.NationalPortal.html) | The home country's portal that issues each family member's records (IPS, DVCs) as a passcode-protected Verifiable Health Link and hosts the manifests (J4.0), checking the passcode, expiry and consent on each request and logging every access at home (J4.1): the VHL Sharer. | Onesa national health portal and gateway (Country B, XXU) | VHL Sharer (IHE ITI VHL); Issuer of the family's VHLs (SMART Trust Issuer) |
 | [Family phone](ActorDefinition-TrustDemo.Role.FamilyPhone.html) | The one smartphone the family shares, holding one VHL QR per member (J4); holds links, not keys to anyone's records beyond what each link grants. | The family's shared phone | Personal health wallet |
-| [Point-of-care receiver](ActorDefinition-TrustDemo.Role.PocReceiver.html) | The clinic system abroad that scans a VHL, verifies it, fetches the manifest (ITI-YY5) and decrypts the documents (J4.1): the VHL Receiver. | Kesaro primary care clinic viewer, Taifafeki (J4.1) | VHL Receiver (IHE ITI VHL); Receiver of the family's VHLs (SMART Trust Receiver) |
+| [Point-of-care receiver](ActorDefinition-TrustDemo.Role.PocReceiver.html) | The clinic system abroad that scans a VHL, verifies it, fetches the manifest (ITI-YY5) and decrypts the documents (J4.1): the VHL Receiver. | Kesaro paediatric clinic viewer, Taifafeki (J4.1) | VHL Receiver (IHE ITI VHL); Receiver of the family's VHLs (SMART Trust Receiver) |
 {: .grid }
 
 ### External actors
@@ -43,7 +43,7 @@ Each is fictional. Their goals, needs and frustrations are kept in `scenarios/ac
 
 #### Dr. Anan (Taifafeki clinician · birth & follow-up, Taifafeki)
 
-Persona: a Taifafeki clinician in Kesaro who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a primary care clinic, reading his record through the VHL (J4.1). Fictional.
+Persona: a clinician in Kesaro, Taifafeki, who gives Somsak's Hep B and BCG birth doses and prints the two signed DVCs (J1), and who sees him again a year later at a paediatric clinic, reading his record through the VHL (J4.1). Fictional.
 
 - **Goal:** Give a non-Taifafeki baby proper care, at birth and when he returns.
 - **Needs:** A way to issue records that travel with the family; A child's full history at the point of care; Confidence the data is authentic
@@ -62,12 +62,12 @@ Persona: Somsak's father, 29, head of the household in Onesa, who holds the fami
 Persona for J3: the nurse at Lomaru District Health Center in Onesa (Country B), on the clinic's tablet (OHS app, facility configuration). Makes the clinical call when a foreign product has no mapping. Fictional.
 
 - **Goal:** Trust foreign records enough to avoid repeating or missing vaccines.
-- **Needs:** A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesan schedule; Automatic calculation of what is due next
+- **Needs:** A reliable yes/no on whether a card is genuine; Foreign vaccines translated to the Onesa schedule; Automatic calculation of what is due next
 - **Frustrations:** Unfamiliar product names from other countries; Choosing between re-vaccinating and trusting paper blindly
 
 #### Khamla (Mother, Onesa)
 
-Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who gave birth in Taifafeki (Country A). Holds the two paper DVCs from J1 to J3. Fictional.
+Persona: Somsak's mother, 26, a national of Onesa who works in Taifafeki (Country A), where she gave birth, and brings Somsak home to Onesa (Country B). Holds the two paper DVCs from J1 to J3. Fictional.
 
 - **Goal:** Have Somsak's care recognized at home, without starting over.
 - **Needs:** Proof of the vaccines her baby got abroad; Clear guidance on when to come back; Not to be penalized for giving birth across the border
@@ -75,7 +75,7 @@ Persona: Somsak's mother, 26, an Onesan national living in Onesa (Country B) who
 
 #### Somsak (Baby · the record follows him, Onesa)
 
-The subject of every journey: an Onesan baby boy born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional.
+The subject of every journey: a baby boy from Onesa, born 2025-10-28 at Kesaro Provincial Hospital, Taifafeki (Country A), while his family lives in Onesa (Country B). Has no Taifafeki identity number; registered in Onesa with a temporary id by the CHW (J2). Holds no device and acts through his parents. The story is the VaxLink workshop walkthrough's (fredhersch/vaxlink). Fictional.
 
 - **Goal:** Get every vaccine he needs, once, wherever he is.
 - **Needs:** His birth doses to count at home; No repeated or missed vaccines; His history to be there when a doctor needs it

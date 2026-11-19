@@ -172,10 +172,6 @@ msgstr "<a0>TrustDemoTaifafekiVhlReceipt</a0>"
 msgid "A birth dose with every field the signed DVC (HCERT) carries: product, date, lot, dose number, performer."
 msgstr "جرعة ولادة بكل حقل تحمله شهادة التطعيم الرقمية (DVC) الموقَّعة (HCERT): المنتج، والتاريخ، ورقم التشغيلة، ورقم الجرعة، ومقدّم الخدمة."
 
-#: docs/vaxlink-examples.md:46
-msgid "A dose on the national schedule: the Onesan EPI code is required, and a foreign product code is kept beside it."
-msgstr "جرعة ضمن جدول التطعيم الوطني: رمز EPI الأونيسي مطلوب، ويُحتفَظ برمز المنتج الأجنبي إلى جانبه."
-
 #: docs/vaxlink-examples.md:43
 msgid "A foreign dose read without verification: primarySource false, the family as source, not counted by the schedule."
 msgstr "جرعة أجنبية مقروءة دون تحقق: primarySource بقيمة false، والأسرة هي المصدر، ولا يحتسبها جدول التطعيم."
@@ -203,14 +199,9 @@ msgstr "حسب شاشة الجهاز"
 msgid "Code is SNOMED CT {code0} (patient referral) with the walkthrough's text; the verification reason stays in {code1}."
 msgstr "الرمز هو SNOMED CT {code0} (إحالة مريض) مع نص الجولة الإرشادية؛ ويبقى سبب التحقق في {code1}."
 
-#: docs/vaxlink-examples.md:67
-#, python-brace-format
-msgid "Code systems. The walkthrough's product codes ({code0} and so on) and Onesan schedule codes ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
-msgstr "أنظمة الرموز. رموز المنتجات في الجولة الإرشادية ({code0} وغيرها) ورموز جدول التطعيم الأونيسي ({code1} وغيرها) توضيحية. وهي معرّفة هنا بوصفها نظامي الرموز {code2} و{code3}، موسومةً بأنها تجريبية، ضمن المعرّف القانوني لهذا الدليل، بحيث لا يوحي أي URL بوزارة حقيقية أو بنظام رموز حقيقي لمنظمة الصحة العالمية (WHO)."
-
 #: docs/vaxlink-examples.md:68
-msgid "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXK. Neither is a production key."
-msgstr "البلدان. تؤدي تايفافيكي دورها على شبكة GDHCN DEV عبر المشارك التجريبي XXR، وتؤديه أونيسا (Onesa) عبر المشارك الخيالي XXK. وليس أيٌّ منهما مفتاح إنتاج."
+msgid "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key."
+msgstr "البلدان. تؤدي Taifafeki دورها على شبكة GDHCN DEV عبر المشارك التجريبي XXR، وتؤديه Onesa عبر المشارك الخيالي XXU. وليس أيٌّ منهما مفتاح إنتاج."
 
 #: docs/vaxlink-examples.md:35
 msgid "Country"
@@ -223,10 +214,6 @@ msgstr "ملفات تعريف البلدان"
 #: docs/vaxlink-examples.md:20
 msgid "Country, device"
 msgstr "البلد، الجهاز"
-
-#: docs/vaxlink-examples.md:70
-msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the Onesan doses 2025-12-10 and 2026-07-28, the trip 2026-10-28."
-msgstr "التواريخ. كما في الجولة الإرشادية: الولادة 2025-10-28، وJ2 في 2025-11-18، وJ3 في 2025-11-25، والجرعات الأونيسية في 2025-12-10 و2026-07-28، والرحلة في 2026-10-28."
 
 #: docs/vaxlink-examples.md:33
 msgid "Each country records only what its own step needs, so the guide has a small profile per country where the two differ. Each profile's description says how it is used in the journey and why its constraints are there. These are demonstrator profiles: they show what each step relies on and are not a ministry's national specification."
@@ -299,19 +286,19 @@ msgstr "المفتاح"
 #: docs/vaxlink-examples.md:46
 #: docs/vaxlink-examples.md:47
 msgid "Onesa"
-msgstr "أونيسا (Onesa)"
+msgstr "Onesa"
 
 #: docs/vaxlink-examples.md:23
 #: docs/vaxlink-examples.md:24
 #: docs/vaxlink-examples.md:27
 #: docs/vaxlink-examples.md:28
 msgid "Onesa, mobile"
-msgstr "أونيسا (Onesa)، هاتف محمول"
+msgstr "Onesa، هاتف محمول"
 
 #: docs/vaxlink-examples.md:25
 #: docs/vaxlink-examples.md:26
 msgid "Onesa, tablet"
-msgstr "أونيسا (Onesa)، جهاز لوحي"
+msgstr "Onesa، جهاز لوحي"
 
 #: docs/vaxlink-examples.md:20
 #: docs/vaxlink-examples.md:35
@@ -368,20 +355,16 @@ msgstr "نظام المعرّف المؤقت خاص بهذا الدليل ({code
 #: docs/vaxlink-examples.md:38
 #: docs/vaxlink-examples.md:39
 msgid "Taifafeki"
-msgstr "تايفافيكي"
+msgstr "Taifafeki"
 
 #: docs/vaxlink-examples.md:22
 #: docs/vaxlink-examples.md:29
 msgid "Taifafeki, tablet"
-msgstr "تايفافيكي، جهاز لوحي"
+msgstr "Taifafeki، جهاز لوحي"
 
 #: docs/vaxlink-examples.md:42
 msgid "The answers on the offline registration form (Structured Data Capture), kept so the extracted records trace back to them."
 msgstr "الإجابات في استمارة التسجيل دون اتصال (Structured Data Capture)، محفوظةً لكي ترجع السجلات المستخرَجة إليها."
-
-#: docs/vaxlink-examples.md:37
-msgid "The birth hospital's newborn: a hospital number, since a baby of Onesan parents has no Taifafeki citizen id."
-msgstr "المولود الجديد في مستشفى الولادة: رقم مستشفى، إذ لا يملك رضيع لأبوين أونيسيين رقم هوية مواطن تايفافيكي."
 
 #: docs/vaxlink-examples.md:40
 msgid "The child the CHW registers, under a temporary id until civil registration catches up."
@@ -415,11 +398,11 @@ msgstr "درج الحمولات"
 
 #: docs/vaxlink-examples.md:22
 msgid "the Taifafeki records behind the cards: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; the doses as later verified in Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
-msgstr "السجلات التايفافيكية وراء البطاقتين: <a0>TrustDemoTaifafekiSomsak</a0>، <a1>TrustDemoJ1HepB</a1>، <a2>TrustDemoJ1Bcg</a2>؛ والجرعات كما تُحقِّق منها لاحقًا في أونيسا (Onesa): <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>)، <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>)؛ <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>)، <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
+msgstr "سجلات Taifafeki وراء البطاقتين: <a0>TrustDemoTaifafekiSomsak</a0>، <a1>TrustDemoJ1HepB</a1>، <a2>TrustDemoJ1Bcg</a2>؛ والجرعات كما تُحقِّق منها لاحقًا في Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>)، <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>)؛ <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>)، <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
 
 #: docs/vaxlink-examples.md:23
 msgid "the Taifafeki records on the cards: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>"
-msgstr "السجلات التايفافيكية على البطاقتين: <a0>TrustDemoJ1HepB</a0>، <a1>TrustDemoJ1Bcg</a1>"
+msgstr "سجلات Taifafeki على البطاقتين: <a0>TrustDemoJ1HepB</a0>، <a1>TrustDemoJ1Bcg</a1>"
 
 #: docs/vaxlink-examples.md:55
 msgid "Type"
@@ -436,7 +419,7 @@ msgstr "رمز QR لـ VHL مع رمز مرور من 4 أرقام وصلاحية
 
 #: docs/vaxlink-examples.md:29
 msgid "VHL viewer: passcode unlock, wrong-passcode test, access logged in Onesa"
-msgstr "عارض VHL: فتح برمز المرور، واختبار رمز مرور خاطئ، وتسجيل الوصول في أونيسا (Onesa)"
+msgstr "عارض VHL: فتح برمز المرور، واختبار رمز مرور خاطئ، وتسجيل الوصول في Onesa"
 
 #: docs/vaxlink-examples.md:55
 msgid "What changed"
@@ -445,10 +428,6 @@ msgstr "ما الذي تغيّر"
 #: docs/vaxlink-examples.md:65
 msgid "What the examples change from the walkthrough's copies"
 msgstr "ما تغيّره الأمثلة عن نسخ الجولة الإرشادية"
-
-#: docs/vaxlink-examples.md:39
-msgid "What the Taifafeki clinic keeps when it views an Onesan summary through a VHL: viewed, not copied."
-msgstr "ما تحتفظ به العيادة التايفافيكية عندما تعرض ملخصًا أونيسيًا عبر VHL: معروض، لا منسوخ."
 
 #: docs/vaxlink-examples.md:45
 msgid "Who verified which DVC against the GDHCN trust list, and which reported doses it replaced."
@@ -468,11 +447,6 @@ msgstr "{code0}؛ والأفراد موارد Patient (إذ يسرد Group في 
 msgid "Every example is published twice: as a page, and as raw JSON at a stable URL the walkthrough can fetch ({code0}). They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Health Wallet guide."
 msgstr "يُنشَر كل مثال مرتين: صفحةً، وJSON خامًا على URL ثابت يمكن للجولة الإرشادية جلبه ({code0}). وهي بصيغة FHIR R4 (4.0.1)، كهذا الدليل، مثل smart-base ودليل المحفظة الصحية الشخصية (Personal Health Wallet)."
 
-#: docs/vaxlink-examples.md:62
-#, python-brace-format
-msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesan gateway the custodian and observer. The passcode is never logged."
-msgstr "بنية R4: {code0}، {code1}، {code2}، {code3}؛ الجهة المُستقبِلة هي الطالب، وبوابة الربط الأونيسية هي الأمين والمراقب. ولا يُسجَّل رمز المرور أبدًا."
-
 #: docs/journey-examples.md:6
 msgid "Journey examples"
 msgstr "أمثلة الرحلات"
@@ -480,6 +454,32 @@ msgstr "أمثلة الرحلات"
 #: docs/journey-examples.md:8
 msgid "The journeys walkthrough (first told in the <a0>VaxLink</a0> workshop, <a1>source</a1>) shows sample FHIR payloads in its payload drawer and on its device screens S1 to S8. This page maps each of them to the example in this guide that materializes it."
 msgstr "تعرض الجولة الإرشادية للرحلات (التي رُويت أولًا في ورشة عمل <a0>VaxLink</a0>، <a1>المصدر</a1>) حمولات FHIR نموذجية في درج الحمولات وعلى شاشات أجهزتها من S1 إلى S8. وتربط هذه الصفحة كلًّا منها بالمثال الذي يجسّده في هذا الدليل."
+
+#: docs/journey-examples.md:45
+msgid "A dose on the national schedule: the Onesa EPI code is required, and a foreign product code is kept beside it."
+msgstr "جرعة ضمن جدول التطعيم الوطني: رمز EPI في Onesa مطلوب، ويُحتفَظ برمز المنتج الأجنبي إلى جانبه."
+
+#: docs/journey-examples.md:66
+#, python-brace-format
+msgid "Code systems. Each dose's product is coded with its WHO PreQual product id ({code0} for the Hep B birth dose and so on), from the code system {code1} of the <a0>SMART Product Dataset for Prequalified Vaccines</a0>, and the ValueSet {code2} lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa ({code3} and so on) are illustrative, defined here as the code system {code4}, marked experimental, under this guide's canonical, so no URL implies a real ministry."
+msgstr "أنظمة الرموز. يُرمَّز منتج كل جرعة بمعرّف منتج WHO PreQual الخاص به ({code0} لجرعة الولادة من لقاح التهاب الكبد B وغيرها)، من نظام الرموز {code1} في <a0>SMART Product Dataset for Prequalified Vaccines</a0>، وتسرد مجموعة القيم (ValueSet) {code2} المنتجات التي تستخدمها الرحلات؛ أمّا أيّ منتج أُعطي في كل جرعة خيالية فهو توضيحي. ورموز جدول التطعيم في Onesa ({code3} وغيرها) توضيحية، معرّفة هنا بوصفها نظام الرموز {code4}، موسومًا بأنه تجريبي، ضمن المعرّف القانوني لهذا الدليل، بحيث لا يوحي أي URL بوزارة حقيقية."
+
+#: docs/journey-examples.md:69
+msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28."
+msgstr "التواريخ. كما في الجولة الإرشادية: الولادة 2025-10-28، وJ2 في 2025-11-18، وJ3 في 2025-11-25، والجرعات في Onesa في 2025-12-10 و2026-07-28، والرحلة في 2026-10-28."
+
+#: docs/journey-examples.md:61
+#, python-brace-format
+msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesa gateway the custodian and observer. The passcode is never logged."
+msgstr "بنية R4: {code0}، {code1}، {code2}، {code3}؛ الجهة المُستقبِلة هي الطالب، وبوابة الربط في Onesa هي الأمين والمراقب. ولا يُسجَّل رمز المرور أبدًا."
+
+#: docs/journey-examples.md:36
+msgid "The birth hospital's newborn: a hospital number, since a baby of parents from Onesa has no Taifafeki citizen id."
+msgstr "المولود الجديد في مستشفى الولادة: رقم مستشفى، إذ لا يملك رضيع لأبوين من Onesa رقم هوية مواطن في Taifafeki."
+
+#: docs/journey-examples.md:38
+msgid "What the Taifafeki clinic keeps when it views a summary from Onesa through a VHL: viewed, not copied."
+msgstr "ما تحتفظ به العيادة في Taifafeki عندما تعرض ملخصًا من Onesa عبر VHL: معروض، لا منسوخ."
 
 #~ #, python-brace-format
 #~ msgid "Every example is published twice: as a page, and as raw JSON at a stable URL the walkthrough can fetch ({code0}). They are FHIR R5, as this guide is."
@@ -498,3 +498,23 @@ msgstr "تعرض الجولة الإرشادية للرحلات (التي رُو
 
 #~ msgid "VaxLink examples"
 #~ msgstr "أمثلة VaxLink"
+
+#~ msgid "A dose on the national schedule: the Onesan EPI code is required, and a foreign product code is kept beside it."
+#~ msgstr "جرعة ضمن جدول التطعيم الوطني: رمز EPI الأونيسي مطلوب، ويُحتفَظ برمز المنتج الأجنبي إلى جانبه."
+
+#~ #, python-brace-format
+#~ msgid "Code systems. The walkthrough's product codes ({code0} and so on) and Onesan schedule codes ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
+#~ msgstr "أنظمة الرموز. رموز المنتجات في الجولة الإرشادية ({code0} وغيرها) ورموز جدول التطعيم الأونيسي ({code1} وغيرها) توضيحية. وهي معرّفة هنا بوصفها نظامي الرموز {code2} و{code3}، موسومةً بأنها تجريبية، ضمن المعرّف القانوني لهذا الدليل، بحيث لا يوحي أي URL بوزارة حقيقية أو بنظام رموز حقيقي لمنظمة الصحة العالمية (WHO)."
+
+#~ msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the Onesan doses 2025-12-10 and 2026-07-28, the trip 2026-10-28."
+#~ msgstr "التواريخ. كما في الجولة الإرشادية: الولادة 2025-10-28، وJ2 في 2025-11-18، وJ3 في 2025-11-25، والجرعات الأونيسية في 2025-12-10 و2026-07-28، والرحلة في 2026-10-28."
+
+#~ msgid "The birth hospital's newborn: a hospital number, since a baby of Onesan parents has no Taifafeki citizen id."
+#~ msgstr "المولود الجديد في مستشفى الولادة: رقم مستشفى، إذ لا يملك رضيع لأبوين أونيسيين رقم هوية مواطن تايفافيكي."
+
+#~ msgid "What the Taifafeki clinic keeps when it views an Onesan summary through a VHL: viewed, not copied."
+#~ msgstr "ما تحتفظ به العيادة التايفافيكية عندما تعرض ملخصًا أونيسيًا عبر VHL: معروض، لا منسوخ."
+
+#~ #, python-brace-format
+#~ msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesan gateway the custodian and observer. The passcode is never logged."
+#~ msgstr "بنية R4: {code0}، {code1}، {code2}، {code3}؛ الجهة المُستقبِلة هي الطالب، وبوابة الربط الأونيسية هي الأمين والمراقب. ولا يُسجَّل رمز المرور أبدًا."

@@ -15,7 +15,7 @@
     {
       "type": "header",
       "app": "Taifafeki Clinic Point-of-Care VHL Viewer (Country A)",
-      "subtitle": "Practitioner: Dr. Anan • Kesaro Primary Care Clinic",
+      "subtitle": "Practitioner: Dr. Anan • Kesaro Paediatric Clinic",
       "icon": "clinic",
       "chips": [
         {
@@ -28,7 +28,7 @@
       "type": "statusBadge",
       "status": "verified",
       "text": "Passcode Verified (✓) • Read-Only Zero-Retention Clinical Session",
-      "detail": "Live AuditEvent: Logged at Onesan OHS Info Gateway",
+      "detail": "Live AuditEvent: Logged at the Onesa OHS Info Gateway",
       "id": "access"
     },
     {
@@ -64,7 +64,7 @@
         {
           "icon": "globe",
           "label": "Hepatitis B Birth Dose",
-          "code": "PreQual: vp-hepb-peds • Onesan: XXK-EPI-HEPB-BD",
+          "code": "PreQual: a3K3X000006MiiXUAS • Onesa: XXU-EPI-HEPB-BD",
           "detail": "2025-10-28 • Hepatitis B • Lot: XXR-4821 • Born in Taifafeki → Verified in Onesa",
           "status": {
             "text": "primarySource: true",
@@ -75,7 +75,7 @@
         {
           "icon": "globe",
           "label": "BCG Vaccine (Freeze-Dried)",
-          "code": "PreQual: vp-bcg-freeze • Onesan: XXK-EPI-BCG-BD",
+          "code": "PreQual: a3K3X000006MiisUAC • Onesa: XXU-EPI-BCG-BD",
           "detail": "2025-10-28 • Tuberculosis • Lot: XXR-9012 • Born in Taifafeki → Verified in Onesa",
           "status": {
             "text": "primarySource: true",
@@ -86,45 +86,45 @@
         {
           "icon": "syringe",
           "label": "Pentavalent (DTP-HepB-Hib-1)",
-          "code": "XXK-EPI-PENTA-1",
-          "detail": "2025-12-10 • Diphtheria, Tetanus, Pertussis, Hep B, Hib • Lot: XXK-2201 • Lomaru District Health Center (Onesa)",
+          "code": "XXU-EPI-PENTA-1",
+          "detail": "2026-01-06 • Diphtheria, Tetanus, Pertussis, Hep B, Hib • Lot: XXU-2201 • Lomaru District Health Center (Onesa)",
           "status": {
-            "text": "Verified Onesan EPI",
+            "text": "Verified Onesa EPI",
             "tone": "info"
           }
         },
         {
           "icon": "syringe",
           "label": "Bivalent Oral Polio (bOPV-1)",
-          "code": "XXK-EPI-OPV-1",
-          "detail": "2025-12-10 • Poliomyelitis • Lot: XXK-5531 • Lomaru District Health Center (Onesa)",
+          "code": "XXU-EPI-OPV-1",
+          "detail": "2026-01-06 • Poliomyelitis • Lot: XXU-5531 • Lomaru District Health Center (Onesa)",
           "status": {
-            "text": "Verified Onesan EPI",
+            "text": "Verified Onesa EPI",
             "tone": "info"
           }
         },
         {
           "icon": "syringe",
           "label": "Pneumococcal Conjugate (PCV-1)",
-          "code": "XXK-EPI-PCV-1",
-          "detail": "2025-12-10 • Streptococcus pneumoniae • Lot: XXK-8819 • Lomaru District Health Center (Onesa)",
+          "code": "XXU-EPI-PCV-1",
+          "detail": "2026-01-06 • Streptococcus pneumoniae • Lot: XXU-8819 • Lomaru District Health Center (Onesa)",
           "status": {
-            "text": "Verified Onesan EPI",
+            "text": "Verified Onesa EPI",
             "tone": "info"
           }
         },
         {
           "icon": "syringe",
           "label": "Measles-Rubella Vaccine (MR-1)",
-          "code": "XXK-EPI-MR-1",
-          "detail": "2026-07-28 • Measles, Rubella • Lot: XXK-9923 • Lomaru District Health Center (Onesa)",
+          "code": "XXU-EPI-MR-1",
+          "detail": "2026-07-28 • Measles, Rubella • Lot: XXU-9923 • Lomaru District Health Center (Onesa)",
           "status": {
-            "text": "Verified Onesan EPI",
+            "text": "Verified Onesa EPI",
             "tone": "info"
           }
         }
       ],
-      "footnote": "Cross-border verified provenance linking Taifafeki birth doses and Onesan national EPI",
+      "footnote": "Cross-border verified provenance linking Taifafeki birth doses and the Onesa national EPI",
       "id": "ips"
     },
     {
@@ -146,7 +146,7 @@
       "type": "actions",
       "buttons": [
         {
-          "label": "Inspect Fetched VHL Manifest & Onesan AuditEvent JSON",
+          "label": "Inspect Fetched VHL Manifest & Onesa AuditEvent JSON",
           "style": "secondary",
           "icon": "file"
         },
@@ -178,7 +178,7 @@
               "mono": true
             }
           ],
-          "detail": "Invalid passcode: 2 attempt(s) remaining before link revocation. Live AuditEvent: the failed attempt is logged at the Onesan OHS Info Gateway."
+          "detail": "Invalid passcode: 2 attempt(s) remaining before link revocation. Live AuditEvent: the failed attempt is logged at the Onesa OHS Info Gateway."
         },
         {
           "type": "passcode",
@@ -187,7 +187,7 @@
           "digits": "0000",
           "shown": true,
           "entry": true,
-          "note": "Father (Bounmy Sengmany) must say the 4-digit code from the Onesan Family Wallet"
+          "note": "Father (Bounmy Sengmany) must say the 4-digit code from the Onesa Family Wallet"
         },
         {
           "type": "actions",
@@ -225,7 +225,7 @@
               "mono": true
             }
           ],
-          "detail": "Invalid passcode: 1 attempt(s) remaining before link revocation. Live AuditEvent: the failed attempt is logged at the Onesan OHS Info Gateway."
+          "detail": "Invalid passcode: 1 attempt(s) remaining before link revocation. Live AuditEvent: the failed attempt is logged at the Onesa OHS Info Gateway."
         },
         {
           "type": "passcode",
@@ -234,7 +234,7 @@
           "digits": "0000",
           "shown": true,
           "entry": true,
-          "note": "Father (Bounmy Sengmany) must say the 4-digit code from the Onesan Family Wallet"
+          "note": "Father (Bounmy Sengmany) must say the 4-digit code from the Onesa Family Wallet"
         },
         {
           "type": "actions",

@@ -1190,6 +1190,166 @@
       "reason": "'role' here is the FHIR entity.role element value in a data dictionary row, not a harness Role/swimlane.",
       "decidedBy": "en-lead-adjudicator",
       "decidedAt": "2026-11-07"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "35983919f38f0c6717bc39e7e197ad8c006de7bf0f549aee879cd93ebd8ed667",
+      "msgid": "<0>Policy point.</0> Babies born abroad can get a verifiable vaccine record before they have the host country’s civil registration or a national ID — and registering the birth at home still matters.",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "f54657d568b9b09e83274ef28ac5ecdbf9616493ab515892fca42917a9c8ad9e",
+      "msgid": "<0>Policy point.</0> Continuity of care across borders: each country keeps its own records, with no international patient registry and no vendor lock-in. What is agreed regionally is the data model and the trust list, not a shared copy of the data.",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "1d0466a10038b1f4084ae5eedda094346d52c4aa432926b91b4dcd8ef839bd32",
+      "msgid": "<0>Policy point.</0> Data sovereignty: the record stays in Onesa until the family authorizes someone to open it.",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "5981a487f64e103026386dfe4fb054bdf2fc0c19832fa873813bd936c62a2b69",
+      "msgid": "<0>Policy point.</0> Design for shared devices (“One Family, One Phone”) so families with only one phone aren’t left out.",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "94c4155ebd46493e86b1bd79be05aef3e28e53a9b02f14cdb05201ebf7ec3d69",
+      "msgid": "<0>Policy point.</0> Keep a clear line between what families report and what has been verified, and don’t grant trust too early.",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "a25e3aac6c747845135ed04e65407cf8b682ee2596162b0bfdb618a4e13b43a6",
+      "msgid": "<0>Policy point.</0> Never overwrite another country’s record: keep the original coding alongside the national one.",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "904e8bfddbf84e15281c4bef95f94cb36801ccd68ae1a7f21f9e19ccc16ef270",
+      "msgid": "<0>Policy point.</0> Newborns can be registered at home, offline, before civil registration or a national ID exists.",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "eea31c60dcd4d17b4a96cfe9a90c155cc680868fe09e8172fa05904582b09060",
+      "msgid": "<0>Policy point.</0> Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki.",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "e986bc97fc8df4b3ed8eabfd1478cee7361950384eae9459565eea5bb47d143e",
+      "msgid": "Every moment’s policy takeaway",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "00ad72d46d7d14807140e12a6f1afc07d5429fef3b9b51cb4b5777daec8e3db6",
+      "msgid": "Policy questions for the table",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "04587e79b5daf3126ed13e21b7fe3d7692760be19ef27499c3e5f94eff6fc072",
+      "msgid": "Policy questions to close",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/cat-harness/v0/ns/glossary/platform/policy",
+      "label": "policy",
+      "msgidSha256": "8fd3d79320ce3d3bda601ce48b0f254ea42987a15b502c299352f94ce1818f84",
+      "msgid": "Policy takeaway",
+      "verdict": "other-sense",
+      "reason": "'policy' here is a public-health, national or trust policy (the walkthrough's policy point), not a harness ODRL permission/prohibition rule.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/bootstrap/v0/ns/Task",
+      "label": "Task",
+      "msgidSha256": "e09cd9b96f60d044066d2716a7c114fc5fce150c0d7b6bcba8cddc961d7c4c54",
+      "msgid": "Task / Appointment",
+      "verdict": "other-sense",
+      "reason": "'Task' here is the FHIR Task resource (a reminder or appointment), kept verbatim, not a harness unit of work.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/bootstrap/v0/ns/Task",
+      "label": "Task",
+      "msgidSha256": "19e260e86f528b4ce9a9042cad4fe7e3175e1f29d1b6c80c02eef7ad48e137c2",
+      "msgid": "· Referrals & task",
+      "verdict": "other-sense",
+      "reason": "'task' here is a clinical referral task in a reference-architecture block, not a harness unit of work.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/bootstrap/v0/ns/Asset",
+      "label": "Asset",
+      "msgidSha256": "e305f3be614b1c8ed9dcc577d6ecf6a46a41e7d455a9c369116b4ad58cf1ffa9",
+      "msgid": "Asset Management / CCE System",
+      "verdict": "other-sense",
+      "reason": "'Asset' here is health-facility equipment (cold-chain equipment) asset management, not a harness asset node.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
+    },
+    {
+      "term": "https://litlfred.github.io/bootstrap/v0/ns/Process",
+      "label": "Process",
+      "msgidSha256": "c35dfc2c85d9c53167126f3e3ff67031989140de3c5a832c42e45baef12d73af",
+      "msgid": "Finance and insurance systems that combine data from the dispensing system with individuals' information to verify and process insurance claims. (PDF 35)",
+      "verdict": "other-sense",
+      "reason": "'process' here is the ordinary verb (to process insurance claims), not a harness or BPMN process.",
+      "decidedBy": "claude-journeys-viewer",
+      "decidedAt": "2026-11-16"
     }
   ]
 }

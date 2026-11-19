@@ -1,0 +1,436 @@
+{
+  "_comment": "The policy-maker track's agenda, session by session, for a general two-day workshop (Session ID and segment); a country presentation is a slot the host fills with the host country or an invited country. Read by tools/workshop/module-pages.ts: the workshop hub shows each day in order, and each module page lists its own sessions. `kind`: registration, plenary (P), module (M, with its `module`), showcase (S) or break. No times yet.",
+  "days": {
+    "1": [
+      {
+        "id": "R1",
+        "kind": "registration",
+        "title": "Registration"
+      },
+      {
+        "id": "P1.1",
+        "kind": "plenary",
+        "title": "Welcome",
+        "what": "Welcome from the host government."
+      },
+      {
+        "id": "P1.2",
+        "kind": "plenary",
+        "title": "WHO remarks",
+        "what": "Why verifiable immunization records matter now; amended IHR and digital ICVP."
+      },
+      {
+        "id": "P1.3",
+        "kind": "plenary",
+        "title": "How the two days work",
+        "what": "Two tracks, one use case; the scope promise; how the showcases work."
+      },
+      {
+        "id": "P1.4",
+        "kind": "plenary",
+        "title": "Country panel",
+        "what": "A keynote from the host country and two or three invited countries, with partner panellists."
+      },
+      {
+        "id": "P1.5",
+        "kind": "plenary",
+        "title": "Walkthrough of the five journeys",
+        "what": "Lin's journey, J1–J5, shared by both tracks."
+      },
+      {
+        "kind": "break",
+        "title": "Coffee; tracks split"
+      },
+      {
+        "id": "M1.1",
+        "kind": "module",
+        "title": "Opening and scope",
+        "what": "How the canvas works; what participants will and will not leave with.",
+        "module": "M1"
+      },
+      {
+        "id": "M1.2",
+        "kind": "module",
+        "title": "The journey as one story",
+        "what": "One family across five journey; \"what had to exist for this to work?\"",
+        "module": "M1"
+      },
+      {
+        "id": "M1.3",
+        "kind": "module",
+        "title": "Country presentation",
+        "what": "From the paper card to a national application; why the registry is shared across government.",
+        "module": "M1"
+      },
+      {
+        "id": "M1.4",
+        "kind": "module",
+        "title": "Table framing",
+        "what": "Facilitator sets the task and table norms.",
+        "module": "M1"
+      },
+      {
+        "id": "M1.5",
+        "kind": "module",
+        "title": "Group work: our journey and where it breaks",
+        "what": "Use-case statement; five touchpoints rated; each country marks its break point; capabilities ticked.",
+        "module": "M1"
+      },
+      {
+        "id": "M1.6",
+        "kind": "module",
+        "title": "The three substitution patterns",
+        "what": "Start narrow, start shared, start borrowed.",
+        "module": "M1"
+      },
+      {
+        "id": "M1.7",
+        "kind": "module",
+        "title": "Gap analysis",
+        "what": "Facilitator models the gap strip aloud.",
+        "module": "M1"
+      },
+      {
+        "id": "M1.8",
+        "kind": "module",
+        "title": "Capture",
+        "what": "One line per table for the Day 1 showcase.",
+        "module": "M1"
+      },
+      {
+        "kind": "break",
+        "title": "Lunch"
+      },
+      {
+        "id": "M2.1",
+        "kind": "module",
+        "title": "Reading the reference architecture (DPI-H)",
+        "what": "Scope of foundational DPI and DPI for Health",
+        "module": "M2"
+      },
+      {
+        "id": "M2.2",
+        "kind": "module",
+        "title": "Country presentation",
+        "what": "A national health data platform and the move towards a shared platform.",
+        "module": "M2"
+      },
+      {
+        "id": "M2.3",
+        "kind": "module",
+        "title": "Partner input: CRVS and unique identifiers",
+        "what": "Birth and death registration as foundations: civil registration, national ID and health systems",
+        "module": "M2"
+      },
+      {
+        "id": "M2.4",
+        "kind": "module",
+        "title": "Table framing",
+        "what": "Pre-printed answers from the questionnaire",
+        "module": "M2"
+      },
+      {
+        "id": "M2.5",
+        "kind": "module",
+        "title": "Group work: our architecture today",
+        "what": "Name the system per block; agree Exist / Partial / Absent; record disagreements; star regional candidates.",
+        "module": "M2"
+      },
+      {
+        "id": "M2.6",
+        "kind": "module",
+        "title": "Gap analysis",
+        "what": "Blocks marked P or A: agree block now / within 12 months / can wait.",
+        "module": "M2"
+      },
+      {
+        "id": "M2.7",
+        "kind": "module",
+        "title": "Cross-table capture",
+        "what": "Common gaps and regional solutions.",
+        "module": "M2"
+      },
+      {
+        "kind": "break",
+        "title": "Coffee"
+      },
+      {
+        "id": "M3.1",
+        "kind": "module",
+        "title": "End to end standards and specifications",
+        "what": "DAK → data dictionary → codes → FHIR profiles → ICVP IG. HL7 presents the FHIR part (~5 min).",
+        "module": "M3"
+      },
+      {
+        "id": "M3.2",
+        "kind": "module",
+        "title": "Country presentation",
+        "what": "A common FHIR IG used across government.",
+        "module": "M3"
+      },
+      {
+        "id": "M3.3",
+        "kind": "module",
+        "title": "Table framing",
+        "what": "\"Today, fifteen elements/components; nationally, several hundred.\"",
+        "module": "M3"
+      },
+      {
+        "id": "M3.4",
+        "kind": "module",
+        "title": "Group work through the components",
+        "what": "Same / differently / not at all; terminology status; who owns the core data set.",
+        "module": "M3"
+      },
+      {
+        "id": "M3.5",
+        "kind": "module",
+        "title": "Gap analysis",
+        "what": "Missing elements, standards or owners.",
+        "module": "M3"
+      },
+      {
+        "id": "M3.6",
+        "kind": "module",
+        "title": "Close",
+        "what": "Bridge to the Day 1 showcase.",
+        "module": "M3"
+      },
+      {
+        "id": "S1.1",
+        "kind": "showcase",
+        "title": "Policy-maker track",
+        "what": "One sentence per table: the capability most countries at that table lack."
+      },
+      {
+        "id": "S1.2",
+        "kind": "showcase",
+        "title": "Technologist track",
+        "what": "What was built on Day 1 (J1–J3)."
+      },
+      {
+        "id": "S1.3",
+        "kind": "showcase",
+        "title": "Close of Day 1",
+        "what": "What Day 2 asks of each track."
+      }
+    ],
+    "2": [
+      {
+        "id": "P2.1",
+        "kind": "plenary",
+        "title": "Day 1 recap",
+        "what": "What both tracks found on Day 1."
+      },
+      {
+        "id": "P2.2",
+        "kind": "plenary",
+        "title": "Host country digital health showcase",
+        "what": "The host country's national platforms and immunization journey."
+      },
+      {
+        "id": "P2.3",
+        "kind": "plenary",
+        "title": "Country vignettes",
+        "what": "Short country examples on trust and cross-border records."
+      },
+      {
+        "id": "P2.4",
+        "kind": "plenary",
+        "title": "Framing Day 2",
+        "what": "The cross-border and travel journeys (J4, J5); what goes to the follow-on dialogue."
+      },
+      {
+        "kind": "break",
+        "title": "Coffee; tracks split"
+      },
+      {
+        "id": "M4.1",
+        "kind": "module",
+        "title": "Trust, explained",
+        "what": "Amended IHR and digital ICVP in practice; trust list, signing key, issuer.",
+        "module": "M4"
+      },
+      {
+        "id": "M4.2",
+        "kind": "module",
+        "title": "Country presentation",
+        "what": "Using the GDHCN for a cross-border health card.",
+        "module": "M4"
+      },
+      {
+        "id": "M4.3",
+        "kind": "module",
+        "title": "Country presentation",
+        "what": "DPI foundations and a national route to a citizen-held record.",
+        "module": "M4"
+      },
+      {
+        "id": "M4.4",
+        "kind": "module",
+        "title": "Group work: who signs, who verifies",
+        "what": "Issuer, holder, verifier; trust anchor; three questions to take home.",
+        "module": "M4"
+      },
+      {
+        "id": "M4.5",
+        "kind": "module",
+        "title": "Gap analysis",
+        "what": "Missing signer or trust services.",
+        "module": "M4"
+      },
+      {
+        "id": "M5.1",
+        "kind": "module",
+        "title": "Governance as decision rights",
+        "what": "The four decisions; procurement as the under-used lever.",
+        "module": "M5"
+      },
+      {
+        "id": "M5.2",
+        "kind": "module",
+        "title": "Table framing",
+        "what": "\"If no one can name the holder, write UNASSIGNED.\"",
+        "module": "M5"
+      },
+      {
+        "id": "M5.3",
+        "kind": "module",
+        "title": "Group work: who holds the four decisions",
+        "what": "Holder, formal basis, legal instruments, levers; the one change that unblocks most.",
+        "module": "M5"
+      },
+      {
+        "id": "M5.4",
+        "kind": "module",
+        "title": "Gap analysis",
+        "what": "Unassigned decisions and missing legal basis.",
+        "module": "M5"
+      },
+      {
+        "id": "M5.5",
+        "kind": "module",
+        "title": "Close",
+        "what": "Bridge to M6.",
+        "module": "M5"
+      },
+      {
+        "kind": "break",
+        "title": "Lunch"
+      },
+      {
+        "id": "M6.1",
+        "kind": "module",
+        "title": "Part A: a joint PHR data model",
+        "what": "IPS plus an immunization core, profiled once for the region.",
+        "module": "M6"
+      },
+      {
+        "id": "M6.2",
+        "kind": "module",
+        "title": "Part B: testing and labs",
+        "what": "From spec to proof; sharing a lab regionally.",
+        "module": "M6"
+      },
+      {
+        "id": "M6.3",
+        "kind": "module",
+        "title": "Part C: a connectathon in 12 months",
+        "what": "Window, host, scope; what must be true beforehand.",
+        "module": "M6"
+      },
+      {
+        "id": "M6.4",
+        "kind": "module",
+        "title": "Group work: three propositions",
+        "what": "Would we adopt, use, take part? What would we change; what would stop us?",
+        "module": "M6"
+      },
+      {
+        "id": "M6.5",
+        "kind": "module",
+        "title": "Group work: country nomination",
+        "what": "Each country writes its nomination; tables compare. Do not compress.",
+        "module": "M6"
+      },
+      {
+        "id": "M6.6",
+        "kind": "module",
+        "title": "Gap analysis",
+        "what": "What would stop us joining A, B or C.",
+        "module": "M6"
+      },
+      {
+        "id": "M6.7",
+        "kind": "module",
+        "title": "Collect Sheet 5",
+        "what": "Nominations collected for consolidation over coffee.",
+        "module": "M6"
+      },
+      {
+        "kind": "break",
+        "title": "Coffee (Sheet 5 nominations consolidated)"
+      },
+      {
+        "id": "M7.1",
+        "kind": "module",
+        "title": "Blueprint to costed plan",
+        "what": "Investment taxonomy and total cost of ownership; cost drivers; funding sources.",
+        "module": "M7"
+      },
+      {
+        "id": "M7.3",
+        "kind": "module",
+        "title": "From immunisation to foundations: sustaining what we build together",
+        "what": "Programme investments that strengthen national foundations",
+        "module": "M7"
+      },
+      {
+        "id": "M7.4",
+        "kind": "module",
+        "title": "Group work: priority, action, cost",
+        "what": "Top priority; 12-month action and owner; cost drivers; funding; support needed.",
+        "module": "M7"
+      },
+      {
+        "id": "M7.5",
+        "kind": "module",
+        "title": "Drafting the regional commitment",
+        "what": "Each country drafts 2–3 sentences; table merges where they coincide.",
+        "module": "M7"
+      },
+      {
+        "id": "M7.6",
+        "kind": "module",
+        "title": "Discussion",
+        "what": "Discussion on regional commitment",
+        "module": "M7"
+      },
+      {
+        "id": "M7.7",
+        "kind": "module",
+        "title": "Collect Sheet 6",
+        "what": "Sheets collected for overnight synthesis.",
+        "module": "M7"
+      },
+      {
+        "id": "S2.1",
+        "kind": "showcase",
+        "title": "Live demonstration",
+        "what": "Connected journeys J1–J5 across country systems."
+      },
+      {
+        "id": "S2.2",
+        "kind": "showcase",
+        "title": "Country first moves and the regional ask",
+        "what": "Read-outs by speakers who did not write the sheet."
+      },
+      {
+        "id": "S2.3",
+        "kind": "showcase",
+        "title": "Handover",
+        "what": "How outputs feed a high-level dialogue and its outcome statement."
+      }
+    ]
+  }
+}

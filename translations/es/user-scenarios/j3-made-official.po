@@ -19,11 +19,6 @@ msgctxt "country"
 msgid "Onesa"
 msgstr "Onesa"
 
-#: scenarios/user-scenarios/j3-made-official.json:5
-msgctxt "description"
-msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesan schedule."
-msgstr "Una enfermera verifica que las tarjetas son auténticas e incorpora las dosis de Taifafeki al calendario de Onesa."
-
 #: scenarios/user-scenarios/j3-made-official.json:373
 msgctxt "references.label"
 msgid "User scenario in the IG"
@@ -34,35 +29,15 @@ msgctxt "scene.label"
 msgid "Clinic tablet"
 msgstr "Tableta de la clínica"
 
-#: scenarios/user-scenarios/j3-made-official.json:368
-msgctxt "scene.label"
-msgid "On the Onesan schedule"
-msgstr "En el calendario de Onesa"
-
 #: scenarios/user-scenarios/j3-made-official.json:364
 msgctxt "scene.label"
 msgid "Signature verified"
 msgstr "Firma verificada"
 
-#: scenarios/user-scenarios/j3-made-official.json:209
-msgctxt "step.enabler"
-msgid "Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due."
-msgstr "Se conserva el código original de Taifafeki y se añade el código de Onesa junto a él; el motor del calendario calcula qué dosis corresponden."
-
-#: scenarios/user-scenarios/j3-made-official.json:52
-msgctxt "step.enabler"
-msgid "Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally."
-msgstr "La clave de firma de Taifafeki figura en la lista de confianza compartida de la OMS, por lo que cualquier clínica puede comprobarla localmente."
-
 #: scenarios/user-scenarios/j3-made-official.json:46
 msgctxt "step.experiences.doing"
 msgid "Brings Somsak in for the referral visit."
 msgstr "Lleva a Somsak a la visita de derivación."
-
-#: scenarios/user-scenarios/j3-made-official.json:197
-msgctxt "step.experiences.doing"
-msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
-msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer de Onesa; el sistema programa las vacunas de las 6 semanas."
 
 #: scenarios/user-scenarios/j3-made-official.json:203
 msgctxt "step.experiences.doing"
@@ -94,20 +69,10 @@ msgctxt "step.experiences.feeling"
 msgid "“They believe the Taifafeki papers!”"
 msgstr "“¡Creen en los papeles de Taifafeki!”"
 
-#: scenarios/user-scenarios/j3-made-official.json:316
-msgctxt "step.fhirChanges.change"
-msgid "6-week pentavalent booked"
-msgstr "Pentavalente de las 6 semanas programada"
-
 #: scenarios/user-scenarios/j3-made-official.json:148
 msgctxt "step.fhirChanges.change"
 msgid "Created: author = Taifafeki MOPH, verifier = nurse"
 msgstr "Creado: autor = MOPH de Taifafeki, verificador = enfermera"
-
-#: scenarios/user-scenarios/j3-made-official.json:294
-msgctxt "step.fhirChanges.change"
-msgid "Onesan EPI code added; PreQual code kept"
-msgstr "Código EPI de Onesa añadido; código PreQual conservado"
 
 #: scenarios/user-scenarios/j3-made-official.json:306
 msgctxt "step.fhirChanges.change"
@@ -123,26 +88,6 @@ msgstr "primarySource cambiado a true"
 msgctxt "step.fhirChanges.why"
 msgid "A verified DVC is the signing hospital’s own record, so the dose now counts; the Taifafeki record it came from is unchanged."
 msgstr "Un DVC verificado es el propio registro del hospital firmante, por lo que la dosis ahora cuenta; el registro de Taifafeki del que procede no se modifica."
-
-#: scenarios/user-scenarios/j3-made-official.json:149
-msgctxt "step.fhirChanges.why"
-msgid "Anyone who later doubts a dose can follow it back to the signed certificate and Taifafeki’s key."
-msgstr "Cualquiera que más adelante dude de una dosis puede rastrearla hasta el certificado firmado y la clave de Taifafeki."
-
-#: scenarios/user-scenarios/j3-made-official.json:307
-msgctxt "step.fhirChanges.why"
-msgid "Onesa’s own map from vaccine products to its schedule; a product with no mapping goes to the nurse."
-msgstr "El mapa propio de Onesa entre los productos de vacuna y su calendario; un producto sin correspondencia pasa a la enfermera."
-
-#: scenarios/user-scenarios/j3-made-official.json:317
-msgctxt "step.fhirChanges.why"
-msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
-msgstr "El calendario de Onesa (PlanDefinition) determina que corresponden las dosis de las 6 semanas; el recordatorio hace que vuelva."
-
-#: scenarios/user-scenarios/j3-made-official.json:295
-msgctxt "step.fhirChanges.why"
-msgid "The Onesan schedule runs on Onesan EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
-msgstr "El calendario de Onesa funciona con códigos EPI de Onesa, por lo que se necesita uno; el código de producto de Taifafeki permanece junto a él, nunca se sobrescribe."
 
 #: scenarios/user-scenarios/j3-made-official.json:61
 msgctxt "step.handoff.carrier"
@@ -164,31 +109,10 @@ msgctxt "step.handoff.payload"
 msgid "Verified DVC → Immunization updated"
 msgstr "DVC verificado → Immunization actualizado"
 
-#: scenarios/user-scenarios/j3-made-official.json:217
-msgctxt "step.handoff.summary"
-msgid "Somsak continues on the Onesan schedule for a year"
-msgstr "Somsak sigue el calendario de Onesa durante un año"
-
 #: scenarios/user-scenarios/j3-made-official.json:60
 msgctxt "step.handoff.summary"
 msgid "Verified doses, ready to schedule"
 msgstr "Dosis verificadas, listas para programar"
-
-#: scenarios/user-scenarios/j3-made-official.json:19
-msgctxt "step.headline"
-msgid "Nurse Chanthason scans the card, and her tablet checks Taifafeki’s digital signature against the WHO trust list — without contacting Taifafeki."
-msgstr "La enfermera Chanthason escanea la tarjeta y su tableta comprueba la firma digital de Taifafeki contra la lista de confianza de la OMS — sin contactar con Taifafeki."
-
-#: scenarios/user-scenarios/j3-made-official.json:188
-msgctxt "step.headline"
-msgid "The Taifafeki Hep B product doesn’t match anything on the Onesan schedule. Chanthason makes the clinical call, and the system works out what’s due next."
-msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario de Onesa. Chanthason toma la decisión clínica y el sistema calcula qué corresponde a continuación."
-
-#: scenarios/user-scenarios/j3-made-official.json:131
-#: scenarios/user-scenarios/j3-made-official.json:131
-msgctxt "step.illustration.alt"
-msgid "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesan schedule; Khamla and Bounmy hold Somsak"
-msgstr "En el centro de salud del distrito, la enfermera Chanthason comprueba las tarjetas en una tableta: firma verificada, en el calendario de Onesa; Khamla y Bounmy sostienen a Somsak"
 
 #: scenarios/user-scenarios/j3-made-official.json:35
 msgctxt "step.narrative"
@@ -202,21 +126,6 @@ msgid ""
 "the reason, the doses stay unverified, and the nurse decides by national\n"
 "catch-up policy.\n"
 msgstr "La enfermera Chanthason abre la derivación y escanea los QR. La EHR\n**verifica** cada DVC sin conexión contra esa copia (STT-VER-001…009,\nSTT-KID-002), sin contactar con Taifafeki. Ambos se verifican, así que la EHR los importa como\n`Immunization` de FHIR (`TrustDemoJ3HepB`, `TrustDemoJ3Bcg`) con su procedencia\n(`TrustDemoJ3Verification`; STT-VER-007, STT-VER-008), en sustitución de las dosis\nnotificadas en J2. Si un DVC no se verifica (por ejemplo, una tarjeta manipulada), la EHR indica\nel paso y el motivo, las dosis siguen sin verificar y la enfermera decide según la política\nnacional de vacunación de puesta al día.\n"
-
-#: scenarios/user-scenarios/j3-made-official.json:192
-msgctxt "step.narrative"
-msgid ""
-"The Taifafeki Hep B product matches nothing on the national schedule.\n"
-"The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
-"it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
-"the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
-"the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
-"added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
-"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
-"at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
-"(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
-"measles-rubella at 9 months, in Onesa.\n"
-msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1 corresponden a las 6 semanas (`TrustDemoJ3Recommendation`). Khamla se va con la\nfecha (`TrustDemoJ3Reminder`). A lo largo del año, Somsak recibe esas dosis y la vacuna\ncontra el sarampión y la rubéola a los 9 meses, en Onesa.\n"
 
 #: scenarios/user-scenarios/j3-made-official.json:51
 msgctxt "step.painPoint"
@@ -232,11 +141,6 @@ msgstr "Los países nombran y combinan las vacunas de forma distinta, por lo que
 msgctxt "step.policy"
 msgid "Never overwrite another country’s record: keep the original coding alongside the national one."
 msgstr "Nunca sobrescribir el registro de otro país: conservar la codificación original junto a la nacional."
-
-#: scenarios/user-scenarios/j3-made-official.json:53
-msgctxt "step.policy"
-msgid "Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki."
-msgstr "La confianza está descentralizada: una clínica de Onesa verifica por sí misma una firma de Taifafeki, sin contactar con Taifafeki."
 
 #: scenarios/user-scenarios/j3-made-official.json:26
 msgctxt "step.preconditions.description"
@@ -262,26 +166,6 @@ msgstr "Dosis verificadas; Taifafeki registrada como origen"
 msgctxt "step.record.heldWhere"
 msgid "District clinic records"
 msgstr "Registros de la clínica de distrito"
-
-#: scenarios/user-scenarios/j3-made-official.json:214
-msgctxt "step.record.heldWhere"
-msgid "Onesan national health records"
-msgstr "Registros nacionales de salud de Onesa"
-
-#: scenarios/user-scenarios/j3-made-official.json:245
-msgctxt "step.technicalSummary"
-msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesan schedule. Computable schedule logic then works out what’s due next."
-msgstr "Los códigos compartidos de la OMS y un ConceptMap de FHIR traducen las vacunas de Taifafeki al calendario de Onesa. Después, una lógica computable del calendario calcula qué corresponde a continuación."
-
-#: scenarios/user-scenarios/j3-made-official.json:89
-msgctxt "step.technicalSummary"
-msgid "The clinic checks Taifafeki’s signature against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
-msgstr "La clínica comprueba la firma de Taifafeki contra la lista de confianza de la OMS, almacenada localmente. Una sola comprobación convierte una tarjeta extranjera en papel en datos clínicos de confianza, sin llamar a Taifafeki."
-
-#: scenarios/user-scenarios/j3-made-official.json:187
-msgctxt "step.title"
-msgid "Taifafeki vaccines are fitted to the Onesan schedule"
-msgstr "Las vacunas de Taifafeki se incorporan al calendario de Onesa"
 
 #: scenarios/user-scenarios/j3-made-official.json:18
 msgctxt "step.title"
@@ -323,16 +207,6 @@ msgctxt "step.uses.role"
 msgid "Delivers the CHW’s referral to this clinic; the nurse can only see patients referred to her facility"
 msgstr "Entrega a esta clínica la derivación del CHW; la enfermera solo puede ver a los pacientes derivados a su establecimiento"
 
-#: scenarios/user-scenarios/j3-made-official.json:257
-msgctxt "step.uses.role"
-msgid "Onesan schedule logic calculates the 6-week doses"
-msgstr "La lógica del calendario de Onesa calcula las dosis de las 6 semanas"
-
-#: scenarios/user-scenarios/j3-made-official.json:253
-msgctxt "step.uses.role"
-msgid "PreQual product → WHO vaccine type → Onesan EPI code"
-msgstr "Producto PreQual → tipo de vacuna de la OMS → código EPI de Onesa"
-
 #: scenarios/user-scenarios/j3-made-official.json:273
 msgctxt "step.uses.role"
 msgid "Receives the verified, mapped record"
@@ -347,16 +221,6 @@ msgstr "Registra que Taifafeki es la autora de las dosis y que Onesa las verific
 msgctxt "step.uses.role"
 msgid "Saves dual-coded record and syncs it to the national server"
 msgstr "Guarda el registro con doble codificación y lo sincroniza con el servidor nacional"
-
-#: scenarios/user-scenarios/j3-made-official.json:101
-msgctxt "step.uses.role"
-msgid "Supplies Taifafeki’s public key (downloaded in advance)"
-msgstr "Proporciona la clave pública de Taifafeki (descargada con antelación)"
-
-#: scenarios/user-scenarios/j3-made-official.json:269
-msgctxt "step.uses.role"
-msgid "Verified Taifafeki doses, with their Provenance, count toward Onesan coverage reports"
-msgstr "Las dosis de Taifafeki verificadas, con su Provenance, cuentan para los informes de cobertura de Onesa"
 
 #: scenarios/user-scenarios/j3-made-official.json:227
 msgctxt "step.whatIf.outcome"
@@ -378,12 +242,6 @@ msgctxt "step.whatIf.scenario"
 msgid "There is no automatic match for the foreign vaccine."
 msgstr "No hay una correspondencia automática para la vacuna extranjera."
 
-#: scenarios/user-scenarios/j3-made-official.json:20
-#: scenarios/user-scenarios/j3-made-official.json:20
-msgctxt "step.when"
-msgid "T0 + 4 weeks"
-msgstr "T0 + 4 semanas"
-
 #: scenarios/user-scenarios/j3-made-official.json:12
 #: scenarios/user-scenarios/j3-made-official.json:12
 msgctxt "step.where"
@@ -391,21 +249,313 @@ msgid "Lomaru District Health Center"
 msgstr "Centro de Salud de Distrito de Lomaru"
 
 #: scenarios/user-scenarios/j3-made-official.json:4
-msgctxt "title"
-msgid "J3 — Made official"
-msgstr "J3 — Oficializado"
-
-#: scenarios/user-scenarios/j3-made-official.json:4
 msgctxt "views.label"
 msgid "J3"
 msgstr "J3"
-
-#: scenarios/user-scenarios/j3-made-official.json:11
-msgctxt "when"
-msgid "4 weeks later"
-msgstr "4 semanas después"
 
 #: scenarios/user-scenarios/j3-made-official.json:12
 msgctxt "where"
 msgid "Lomaru District Health Center"
 msgstr "Centro de Salud de Distrito de Lomaru"
+
+#: scenarios/user-scenarios/j3-made-official.json:316
+msgctxt "step.fhirChanges.change"
+msgid "Overdue 6-week doses given"
+msgstr "Dosis atrasadas de las 6 semanas administradas"
+
+#: scenarios/user-scenarios/j3-made-official.json:20
+#: scenarios/user-scenarios/j3-made-official.json:20
+msgctxt "step.when"
+msgid "T0 + 10 weeks"
+msgstr "T0 + 10 semanas"
+
+#: scenarios/user-scenarios/j3-made-official.json:4
+msgctxt "title"
+msgid "J3 — A foreign record used for the next vaccine"
+msgstr "J3 — Un registro extranjero usado para la siguiente vacuna"
+
+#: scenarios/user-scenarios/j3-made-official.json:11
+msgctxt "when"
+msgid "Somsak is 10 weeks old"
+msgstr "Somsak tiene 10 semanas"
+
+#: scenarios/user-scenarios/j3-made-official.json:5
+msgctxt "description"
+msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesa schedule."
+msgstr "Una enfermera verifica que las tarjetas son auténticas e incorpora las dosis de Taifafeki al calendario de Onesa."
+
+#: scenarios/user-scenarios/j3-made-official.json:368
+msgctxt "scene.label"
+msgid "On the Onesa schedule"
+msgstr "En el calendario de Onesa"
+
+#: scenarios/user-scenarios/j3-made-official.json:209
+msgctxt "step.enabler"
+msgid "The original code from Taifafeki is kept and the Onesa code is added alongside; the schedule engine calculates what’s due."
+msgstr "Se conserva el código original de Taifafeki y se añade el código de Onesa junto a él; el motor del calendario calcula qué dosis corresponden."
+
+#: scenarios/user-scenarios/j3-made-official.json:52
+msgctxt "step.enabler"
+msgid "The signing key of Taifafeki is on the shared WHO trust list, so any clinic can check it locally."
+msgstr "La clave de firma de Taifafeki figura en la lista de confianza compartida de la OMS, por lo que cualquier clínica puede comprobarla localmente."
+
+#: scenarios/user-scenarios/j3-made-official.json:197
+msgctxt "step.experiences.doing"
+msgid "Confirms the Taifafeki product equals the birth dose on the Onesa schedule; gives the overdue 6-week vaccines."
+msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer del calendario de Onesa; administra las vacunas atrasadas de las 6 semanas."
+
+#: scenarios/user-scenarios/j3-made-official.json:294
+msgctxt "step.fhirChanges.change"
+msgid "Onesa EPI code added; PreQual code kept"
+msgstr "Código EPI de Onesa añadido; código PreQual conservado"
+
+#: scenarios/user-scenarios/j3-made-official.json:149
+msgctxt "step.fhirChanges.why"
+msgid "Anyone who later doubts a dose can follow it back to the signed certificate and the key of Taifafeki."
+msgstr "Cualquiera que más adelante dude de una dosis puede rastrearla hasta el certificado firmado y la clave de Taifafeki."
+
+#: scenarios/user-scenarios/j3-made-official.json:307
+msgctxt "step.fhirChanges.why"
+msgid "The map of Onesa from vaccine products to its own schedule; a product with no mapping goes to the nurse."
+msgstr "El mapa de Onesa entre los productos de vacuna y su propio calendario; un producto sin correspondencia pasa a la enfermera."
+
+#: scenarios/user-scenarios/j3-made-official.json:317
+msgctxt "step.fhirChanges.why"
+msgid "The Onesa schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
+msgstr "El calendario de Onesa (PlanDefinition) determina que las dosis de las 6 semanas están atrasadas, así que se administran en ese momento; el recordatorio hace que vuelva para las siguientes."
+
+#: scenarios/user-scenarios/j3-made-official.json:295
+msgctxt "step.fhirChanges.why"
+msgid "The Onesa schedule runs on Onesa EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
+msgstr "El calendario de Onesa funciona con códigos EPI de Onesa, por lo que se necesita uno; el código de producto de Taifafeki permanece junto a él, nunca se sobrescribe."
+
+#: scenarios/user-scenarios/j3-made-official.json:217
+msgctxt "step.handoff.summary"
+msgid "Somsak continues on the Onesa schedule for a year"
+msgstr "Somsak sigue el calendario de Onesa durante un año"
+
+#: scenarios/user-scenarios/j3-made-official.json:19
+msgctxt "step.headline"
+msgid "Nurse Chanthason scans the card, and her tablet checks the digital signature from Taifafeki against the WHO trust list — without contacting Taifafeki."
+msgstr "La enfermera Chanthason escanea la tarjeta y su tableta comprueba la firma digital de Taifafeki contra la lista de confianza de la OMS — sin contactar con Taifafeki."
+
+#: scenarios/user-scenarios/j3-made-official.json:188
+msgctxt "step.headline"
+msgid "The Taifafeki Hep B product doesn’t match anything on the Onesa schedule. Chanthason makes the clinical call, and the system works out what’s due next."
+msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario de Onesa. Chanthason toma la decisión clínica y el sistema calcula qué corresponde a continuación."
+
+#: scenarios/user-scenarios/j3-made-official.json:131
+#: scenarios/user-scenarios/j3-made-official.json:131
+msgctxt "step.illustration.alt"
+msgid "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesa schedule; Khamla and Bounmy hold Somsak"
+msgstr "En el centro de salud del distrito, la enfermera Chanthason comprueba las tarjetas en una tableta: firma verificada, en el calendario de Onesa; Khamla y Bounmy sostienen a Somsak"
+
+#: scenarios/user-scenarios/j3-made-official.json:192
+msgctxt "step.narrative"
+msgid ""
+"The Taifafeki Hep B product matches nothing on the national schedule.\n"
+"The EHR keeps the product coding of Taifafeki and adds the schedule coding beside\n"
+"it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+"the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+"the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+"added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+"then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n"
+"6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\n"
+"Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
+"(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
+"measles-rubella at 9 months, in Onesa.\n"
+msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1, que corresponden a las 6 semanas, están atrasadas a las 10 semanas\n(`TrustDemoJ3Recommendation`), así que la enfermera Chanthason las administra ese mismo día.\nKhamla se va con la fecha de las siguientes dosis (`TrustDemoJ3Reminder`). A lo largo del\naño, Somsak recibe el resto de sus dosis y la vacuna contra el sarampión y la rubéola a los\n9 meses, en Onesa.\n"
+
+#: scenarios/user-scenarios/j3-made-official.json:53
+msgctxt "step.policy"
+msgid "Trust is decentralized: a clinic in Onesa verifies a signature from Taifafeki itself, without contacting Taifafeki."
+msgstr "La confianza está descentralizada: una clínica de Onesa verifica por sí misma una firma de Taifafeki, sin contactar con Taifafeki."
+
+#: scenarios/user-scenarios/j3-made-official.json:214
+msgctxt "step.record.heldWhere"
+msgid "Onesa national health records"
+msgstr "Registros nacionales de salud de Onesa"
+
+#: scenarios/user-scenarios/j3-made-official.json:245
+msgctxt "step.technicalSummary"
+msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesa schedule. Computable schedule logic then works out what’s due next."
+msgstr "Los códigos compartidos de la OMS y un ConceptMap de FHIR traducen las vacunas de Taifafeki al calendario de Onesa. Después, una lógica computable del calendario calcula qué corresponde a continuación."
+
+#: scenarios/user-scenarios/j3-made-official.json:89
+msgctxt "step.technicalSummary"
+msgid "The clinic checks the signature from Taifafeki against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
+msgstr "La clínica comprueba la firma de Taifafeki contra la lista de confianza de la OMS, almacenada localmente. Una sola comprobación convierte una tarjeta extranjera en papel en datos clínicos de confianza, sin llamar a Taifafeki."
+
+#: scenarios/user-scenarios/j3-made-official.json:187
+msgctxt "step.title"
+msgid "Taifafeki vaccines are fitted to the Onesa schedule"
+msgstr "Las vacunas de Taifafeki se incorporan al calendario de Onesa"
+
+#: scenarios/user-scenarios/j3-made-official.json:253
+msgctxt "step.uses.role"
+msgid "PreQual product → WHO vaccine type → Onesa EPI code"
+msgstr "Producto PreQual → tipo de vacuna de la OMS → código EPI de Onesa"
+
+#: scenarios/user-scenarios/j3-made-official.json:257
+msgctxt "step.uses.role"
+msgid "Schedule logic of Onesa finds the 6-week doses overdue"
+msgstr "La lógica del calendario de Onesa determina que las dosis de las 6 semanas están atrasadas"
+
+#: scenarios/user-scenarios/j3-made-official.json:101
+msgctxt "step.uses.role"
+msgid "Supplies the public key of Taifafeki (downloaded in advance)"
+msgstr "Proporciona la clave pública de Taifafeki (descargada con antelación)"
+
+#: scenarios/user-scenarios/j3-made-official.json:269
+msgctxt "step.uses.role"
+msgid "Verified doses from Taifafeki, with their Provenance, count toward coverage reports in Onesa"
+msgstr "Las dosis de Taifafeki verificadas, con su Provenance, cuentan para los informes de cobertura de Onesa"
+
+#~ msgctxt "step.experiences.doing"
+#~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; the system books the 6-week vaccines."
+#~ msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer de Onesa; el sistema programa las vacunas de las 6 semanas."
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "6-week pentavalent booked"
+#~ msgstr "Pentavalente de las 6 semanas programada"
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses due; the reminder brings him back."
+#~ msgstr "El calendario de Onesa (PlanDefinition) determina que corresponden las dosis de las 6 semanas; el recordatorio hace que vuelva."
+
+#~ msgctxt "step.narrative"
+#~ msgid ""
+#~ "The Taifafeki Hep B product matches nothing on the national schedule.\n"
+#~ "The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
+#~ "it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+#~ "the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+#~ "the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+#~ "added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+#~ "then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1 are due\n"
+#~ "at 6 weeks (`TrustDemoJ3Recommendation`). Khamla leaves with the date\n"
+#~ "(`TrustDemoJ3Reminder`). Over the year Somsak gets those doses and\n"
+#~ "measles-rubella at 9 months, in Onesa.\n"
+#~ msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1 corresponden a las 6 semanas (`TrustDemoJ3Recommendation`). Khamla se va con la\nfecha (`TrustDemoJ3Reminder`). A lo largo del año, Somsak recibe esas dosis y la vacuna\ncontra el sarampión y la rubéola a los 9 meses, en Onesa.\n"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Onesan schedule logic calculates the 6-week doses"
+#~ msgstr "La lógica del calendario de Onesa calcula las dosis de las 6 semanas"
+
+#~ msgctxt "step.when"
+#~ msgid "T0 + 4 weeks"
+#~ msgstr "T0 + 4 semanas"
+
+#~ msgctxt "title"
+#~ msgid "J3 — Made official"
+#~ msgstr "J3 — Oficializado"
+
+#~ msgctxt "when"
+#~ msgid "4 weeks later"
+#~ msgstr "4 semanas después"
+
+#~ msgctxt "description"
+#~ msgid "A nurse verifies the cards are genuine and fits the Taifafeki doses into the Onesan schedule."
+#~ msgstr "Una enfermera verifica que las tarjetas son auténticas e incorpora las dosis de Taifafeki al calendario de Onesa."
+
+#~ msgctxt "scene.label"
+#~ msgid "On the Onesan schedule"
+#~ msgstr "En el calendario de Onesa"
+
+#~ msgctxt "step.enabler"
+#~ msgid "Taifafeki’s original code is kept and the Onesan code is added alongside; the schedule engine calculates what’s due."
+#~ msgstr "Se conserva el código original de Taifafeki y se añade el código de Onesa junto a él; el motor del calendario calcula qué dosis corresponden."
+
+#~ msgctxt "step.enabler"
+#~ msgid "Taifafeki’s signing key is on the shared WHO trust list, so any clinic can check it locally."
+#~ msgstr "La clave de firma de Taifafeki figura en la lista de confianza compartida de la OMS, por lo que cualquier clínica puede comprobarla localmente."
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "Onesan EPI code added; PreQual code kept"
+#~ msgstr "Código EPI de Onesa añadido; código PreQual conservado"
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "Anyone who later doubts a dose can follow it back to the signed certificate and Taifafeki’s key."
+#~ msgstr "Cualquiera que más adelante dude de una dosis puede rastrearla hasta el certificado firmado y la clave de Taifafeki."
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "Onesa’s own map from vaccine products to its schedule; a product with no mapping goes to the nurse."
+#~ msgstr "El mapa propio de Onesa entre los productos de vacuna y su calendario; un producto sin correspondencia pasa a la enfermera."
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Onesan schedule runs on Onesan EPI codes, so one is required; the Taifafeki product code stays beside it, never overwritten."
+#~ msgstr "El calendario de Onesa funciona con códigos EPI de Onesa, por lo que se necesita uno; el código de producto de Taifafeki permanece junto a él, nunca se sobrescribe."
+
+#~ msgctxt "step.handoff.summary"
+#~ msgid "Somsak continues on the Onesan schedule for a year"
+#~ msgstr "Somsak sigue el calendario de Onesa durante un año"
+
+#~ msgctxt "step.headline"
+#~ msgid "Nurse Chanthason scans the card, and her tablet checks Taifafeki’s digital signature against the WHO trust list — without contacting Taifafeki."
+#~ msgstr "La enfermera Chanthason escanea la tarjeta y su tableta comprueba la firma digital de Taifafeki contra la lista de confianza de la OMS — sin contactar con Taifafeki."
+
+#~ msgctxt "step.headline"
+#~ msgid "The Taifafeki Hep B product doesn’t match anything on the Onesan schedule. Chanthason makes the clinical call, and the system works out what’s due next."
+#~ msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario de Onesa. Chanthason toma la decisión clínica y el sistema calcula qué corresponde a continuación."
+
+#~ msgctxt "step.illustration.alt"
+#~ msgid "At the district health centre, Nurse Chanthason checks the cards on a tablet: signature verified, on the Onesan schedule; Khamla and Bounmy hold Somsak"
+#~ msgstr "En el centro de salud del distrito, la enfermera Chanthason comprueba las tarjetas en una tableta: firma verificada, en el calendario de Onesa; Khamla y Bounmy sostienen a Somsak"
+
+#~ msgctxt "step.policy"
+#~ msgid "Trust is decentralized: an Onesan clinic verifies a Taifafeki signature itself, without contacting Taifafeki."
+#~ msgstr "La confianza está descentralizada: una clínica de Onesa verifica por sí misma una firma de Taifafeki, sin contactar con Taifafeki."
+
+#~ msgctxt "step.record.heldWhere"
+#~ msgid "Onesan national health records"
+#~ msgstr "Registros nacionales de salud de Onesa"
+
+#~ msgctxt "step.technicalSummary"
+#~ msgid "Shared WHO codes and a FHIR ConceptMap translate Taifafeki vaccines into the Onesan schedule. Computable schedule logic then works out what’s due next."
+#~ msgstr "Los códigos compartidos de la OMS y un ConceptMap de FHIR traducen las vacunas de Taifafeki al calendario de Onesa. Después, una lógica computable del calendario calcula qué corresponde a continuación."
+
+#~ msgctxt "step.technicalSummary"
+#~ msgid "The clinic checks Taifafeki’s signature against WHO’s trust list, stored locally. One check turns a foreign paper card into trusted clinical data, with no call to Taifafeki."
+#~ msgstr "La clínica comprueba la firma de Taifafeki contra la lista de confianza de la OMS, almacenada localmente. Una sola comprobación convierte una tarjeta extranjera en papel en datos clínicos de confianza, sin llamar a Taifafeki."
+
+#~ msgctxt "step.title"
+#~ msgid "Taifafeki vaccines are fitted to the Onesan schedule"
+#~ msgstr "Las vacunas de Taifafeki se incorporan al calendario de Onesa"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "PreQual product → WHO vaccine type → Onesan EPI code"
+#~ msgstr "Producto PreQual → tipo de vacuna de la OMS → código EPI de Onesa"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Supplies Taifafeki’s public key (downloaded in advance)"
+#~ msgstr "Proporciona la clave pública de Taifafeki (descargada con antelación)"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Verified Taifafeki doses, with their Provenance, count toward Onesan coverage reports"
+#~ msgstr "Las dosis de Taifafeki verificadas, con su Provenance, cuentan para los informes de cobertura de Onesa"
+
+#~ msgctxt "step.experiences.doing"
+#~ msgid "Confirms the Taifafeki product equals the Onesan birth dose; gives the overdue 6-week vaccines."
+#~ msgstr "Confirma que el producto de Taifafeki equivale a la dosis al nacer de Onesa; administra las vacunas atrasadas de las 6 semanas."
+
+#~ msgctxt "step.fhirChanges.why"
+#~ msgid "The Onesan schedule (PlanDefinition) finds the 6-week doses overdue, so they are given now; the reminder brings him back for the next ones."
+#~ msgstr "El calendario de Onesa (PlanDefinition) determina que las dosis de las 6 semanas están atrasadas, así que se administran en ese momento; el recordatorio hace que vuelva para las siguientes."
+
+#~ msgctxt "step.narrative"
+#~ msgid ""
+#~ "The Taifafeki Hep B product matches nothing on the national schedule.\n"
+#~ "The EHR keeps Taifafeki's product coding and adds the schedule coding beside\n"
+#~ "it, from the national map (`TrustDemoProductToOnesaEpi`). For the Hep B product\n"
+#~ "the map has no entry, so Nurse Chanthason makes the clinical call that it is\n"
+#~ "the schedule's birth dose (`TrustDemoJ3Adjudication`), and her decision is\n"
+#~ "added to the map for the next clinic. The schedule (`TrustDemoOnesaInfantSchedule`)\n"
+#~ "then runs: the birth doses count, and pentavalent 1, bOPV 1 and PCV 1, due at\n"
+#~ "6 weeks, are overdue at 10 weeks (`TrustDemoJ3Recommendation`), so Nurse\n"
+#~ "Chanthason gives them that day. Khamla leaves with the date of the next doses\n"
+#~ "(`TrustDemoJ3Reminder`). Over the year Somsak gets the rest of his doses and\n"
+#~ "measles-rubella at 9 months, in Onesa.\n"
+#~ msgstr "El producto de Taifafeki contra la Hep B no coincide con nada del calendario nacional.\nLa EHR conserva la codificación de producto de Taifafeki y añade junto a ella la codificación\ndel calendario, a partir del mapa nacional (`TrustDemoProductToOnesaEpi`). El mapa no tiene\nninguna entrada para el producto contra la Hep B, así que la enfermera Chanthason toma la\ndecisión clínica de que es la dosis al nacer del calendario (`TrustDemoJ3Adjudication`), y su\ndecisión se añade al mapa para la siguiente clínica. A continuación se ejecuta el calendario\n(`TrustDemoOnesaInfantSchedule`): las dosis al nacer cuentan, y la pentavalente 1, la bOPV 1 y\nla PCV 1, que corresponden a las 6 semanas, están atrasadas a las 10 semanas\n(`TrustDemoJ3Recommendation`), así que la enfermera Chanthason las administra ese mismo día.\nKhamla se va con la fecha de las siguientes dosis (`TrustDemoJ3Reminder`). A lo largo del\naño, Somsak recibe el resto de sus dosis y la vacuna contra el sarampión y la rubéola a los\n9 meses, en Onesa.\n"
+
+#~ msgctxt "step.uses.role"
+#~ msgid "Onesan schedule logic finds the 6-week doses overdue"
+#~ msgstr "La lógica del calendario de Onesa determina que las dosis de las 6 semanas están atrasadas"
