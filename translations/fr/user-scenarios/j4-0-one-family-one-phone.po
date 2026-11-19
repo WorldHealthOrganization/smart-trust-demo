@@ -81,11 +81,6 @@ msgctxt "step.fhirChanges.change"
 msgid "Drives the profile switcher"
 msgstr "Pilote le sélecteur de profil"
 
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:96
-msgctxt "step.fhirChanges.change"
-msgid "Generated: 2 Taifafeki + 4 Onesan doses"
-msgstr "Généré : 2 doses de Taifafeki + 4 doses d’Onesa"
-
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:227
 msgctxt "step.fhirChanges.change"
 msgid "Signed pointer to encrypted IPS"
@@ -209,35 +204,15 @@ msgctxt "step.preconditions.title"
 msgid "Country B's DSC is shared with the trust anchor"
 msgstr "Le DSC du Pays B est partagé avec l’ancre de confiance"
 
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:43
-msgctxt "step.record.description"
-msgid "12-month summary: 2 Taifafeki + 4 Onesan doses"
-msgstr "Résumé à 12 mois : 2 doses de Taifafeki + 4 doses d’Onesa"
-
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:146
 msgctxt "step.record.description"
 msgid "Shareable link created; data stays in Onesa"
 msgstr "Lien partageable créé ; les données restent à Onesa"
 
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:147
-msgctxt "step.record.heldWhere"
-msgid "Onesan national records (QR is just a pointer)"
-msgstr "Registres nationaux d’Onesa (le code QR n’est qu’un pointeur)"
-
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:44
-msgctxt "step.record.heldWhere"
-msgid "Onesan national records + family wallet"
-msgstr "Registres nationaux d’Onesa + portefeuille familial"
-
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:63
 msgctxt "step.technicalSummary"
 msgid "A year of records from two countries is assembled into one International Patient Summary, a format any clinician abroad knows how to read."
 msgstr "Une année de dossiers provenant de deux pays est assemblée en un seul résumé international du patient (International Patient Summary), un format que tout clinicien à l’étranger sait lire."
-
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:181
-msgctxt "step.technicalSummary"
-msgid "The QR is a key, not a copy. The record stays on the Onesan server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
-msgstr "Le code QR est une clé, pas une copie. Le dossier reste sur le serveur d’Onesa, et le consentement de la famille (qui, pour combien de temps) est enregistré sous une forme normalisée et appliqué."
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:119
 msgctxt "step.title"
@@ -330,20 +305,10 @@ msgctxt "step.when"
 msgid "T0 + 12 months"
 msgstr "T0 + 12 mois"
 
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:122
-msgctxt "step.where"
-msgid "Onesan–Taifafeki Friendship Bridge"
-msgstr "Pont de l’Amitié Onesa-Taifafeki"
-
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:20
 msgctxt "step.where"
 msgid "Lomaru, Onesa"
 msgstr "Lomaru, Onesa"
-
-#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4
-msgctxt "title"
-msgid "J4.0 — Crossing back: one family, one phone"
-msgstr "J4.0 — Le retour : une famille, un téléphone"
 
 #: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4
 msgctxt "views.label"
@@ -359,3 +324,66 @@ msgstr "12 mois plus tard"
 msgctxt "where"
 msgid "Onesa"
 msgstr "Onesa"
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:4
+msgctxt "title"
+msgid "J4.0 — Continuity across a border: one family, one phone"
+msgstr "J4.0 — Continuité par-delà une frontière : une famille, un téléphone"
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:96
+msgctxt "step.fhirChanges.change"
+msgid "Generated: 2 Taifafeki + 4 Onesa doses"
+msgstr "Généré : 2 doses de Taifafeki + 4 doses du pays Onesa"
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:43
+msgctxt "step.record.description"
+msgid "12-month summary: 2 Taifafeki + 4 Onesa doses"
+msgstr "Résumé à 12 mois : 2 doses de Taifafeki + 4 doses du pays Onesa"
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:147
+msgctxt "step.record.heldWhere"
+msgid "Onesa national records (QR is just a pointer)"
+msgstr "Registres nationaux du pays Onesa (le code QR n’est qu’un pointeur)"
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:44
+msgctxt "step.record.heldWhere"
+msgid "Onesa national records + family wallet"
+msgstr "Registres nationaux du pays Onesa + portefeuille familial"
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:181
+msgctxt "step.technicalSummary"
+msgid "The QR is a key, not a copy. The record stays on the Onesa server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
+msgstr "Le code QR est une clé, pas une copie. Le dossier reste sur le serveur du pays Onesa, et le consentement de la famille (qui, pour combien de temps) est enregistré sous une forme normalisée et appliqué."
+
+#: scenarios/user-scenarios/j4-0-one-family-one-phone.json:122
+msgctxt "step.where"
+msgid "Onesa–Taifafeki Friendship Bridge"
+msgstr "Pont de l’Amitié Onesa-Taifafeki"
+
+#~ msgctxt "title"
+#~ msgid "J4.0 — Crossing back: one family, one phone"
+#~ msgstr "J4.0 — Le retour : une famille, un téléphone"
+
+#~ msgctxt "step.fhirChanges.change"
+#~ msgid "Generated: 2 Taifafeki + 4 Onesan doses"
+#~ msgstr "Généré : 2 doses de Taifafeki + 4 doses d’Onesa"
+
+#~ msgctxt "step.record.description"
+#~ msgid "12-month summary: 2 Taifafeki + 4 Onesan doses"
+#~ msgstr "Résumé à 12 mois : 2 doses de Taifafeki + 4 doses d’Onesa"
+
+#~ msgctxt "step.record.heldWhere"
+#~ msgid "Onesan national records (QR is just a pointer)"
+#~ msgstr "Registres nationaux d’Onesa (le code QR n’est qu’un pointeur)"
+
+#~ msgctxt "step.record.heldWhere"
+#~ msgid "Onesan national records + family wallet"
+#~ msgstr "Registres nationaux d’Onesa + portefeuille familial"
+
+#~ msgctxt "step.technicalSummary"
+#~ msgid "The QR is a key, not a copy. The record stays on the Onesan server, and the family’s consent (who, how long) is recorded in a standard form and enforced."
+#~ msgstr "Le code QR est une clé, pas une copie. Le dossier reste sur le serveur d’Onesa, et le consentement de la famille (qui, pour combien de temps) est enregistré sous une forme normalisée et appliqué."
+
+#~ msgctxt "step.where"
+#~ msgid "Onesan–Taifafeki Friendship Bridge"
+#~ msgstr "Pont de l’Amitié Onesa-Taifafeki"

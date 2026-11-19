@@ -159,10 +159,6 @@ msgstr "<a0>TrustDemoTaifafekiVhlReceipt</a0>"
 msgid "A birth dose with every field the signed DVC (HCERT) carries: product, date, lot, dose number, performer."
 msgstr "一个出生剂次，包含已签名的数字疫苗接种证书（DVC）（HCERT）所携带的每个字段：产品、日期、批号、剂次编号、接种者。"
 
-#: docs/vaxlink-examples.md:46
-msgid "A dose on the national schedule: the Onesan EPI code is required, and a foreign product code is kept beside it."
-msgstr "国家接种计划中的一个剂次：奥内萨 EPI 代码为必需，外国产品代码保留在其旁。"
-
 #: docs/vaxlink-examples.md:43
 msgid "A foreign dose read without verification: primarySource false, the family as source, not counted by the schedule."
 msgstr "未经验证读取的外国剂次：primarySource 为 false，以家庭为来源，不计入接种计划。"
@@ -190,14 +186,9 @@ msgstr "按设备屏幕"
 msgid "Code is SNOMED CT {code0} (patient referral) with the walkthrough's text; the verification reason stays in {code1}."
 msgstr "代码为 SNOMED CT {code0}（患者转诊），附演练中的文本；验证原因保留在 {code1} 中。"
 
-#: docs/vaxlink-examples.md:67
-#, python-brace-format
-msgid "Code systems. The walkthrough's product codes ({code0} and so on) and Onesan schedule codes ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
-msgstr "代码系统。演练中的产品代码（{code0} 等）和奥内萨接种计划代码（{code1} 等）仅作示意。它们在此被定义为代码系统 {code2} 和 {code3}，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部或真实的 WHO 代码系统。"
-
 #: docs/vaxlink-examples.md:68
-msgid "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXK. Neither is a production key."
-msgstr "国家。在 GDHCN DEV 网络上，泰法费基由测试参与方 XXR 扮演，奥内萨（Onesa）由虚构的 XXK 扮演。两者都不是生产密钥。"
+msgid "Countries. Taifafeki is played on the GDHCN DEV network by test participant XXR and Onesa by the fictional XXU. Neither is a production key."
+msgstr "国家。在 GDHCN DEV 网络上，Taifafeki 由测试参与方 XXR 扮演，Onesa 由虚构的 XXU 扮演。两者都不是生产密钥。"
 
 #: docs/vaxlink-examples.md:35
 msgid "Country"
@@ -210,10 +201,6 @@ msgstr "国家配置文件"
 #: docs/vaxlink-examples.md:20
 msgid "Country, device"
 msgstr "国家，设备"
-
-#: docs/vaxlink-examples.md:70
-msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the Onesan doses 2025-12-10 and 2026-07-28, the trip 2026-10-28."
-msgstr "日期。与演练中相同：出生 2025-10-28，J2 2025-11-18，J3 2025-11-25，奥内萨剂次 2025-12-10 和 2026-07-28，出行 2026-10-28。"
 
 #: docs/vaxlink-examples.md:33
 msgid "Each country records only what its own step needs, so the guide has a small profile per country where the two differ. Each profile's description says how it is used in the journey and why its constraints are there. These are demonstrator profiles: they show what each step relies on and are not a ministry's national specification."
@@ -286,19 +273,19 @@ msgstr "键"
 #: docs/vaxlink-examples.md:46
 #: docs/vaxlink-examples.md:47
 msgid "Onesa"
-msgstr "奥内萨（Onesa）"
+msgstr "Onesa"
 
 #: docs/vaxlink-examples.md:23
 #: docs/vaxlink-examples.md:24
 #: docs/vaxlink-examples.md:27
 #: docs/vaxlink-examples.md:28
 msgid "Onesa, mobile"
-msgstr "奥内萨（Onesa），手机"
+msgstr "Onesa，手机"
 
 #: docs/vaxlink-examples.md:25
 #: docs/vaxlink-examples.md:26
 msgid "Onesa, tablet"
-msgstr "奥内萨（Onesa），平板"
+msgstr "Onesa，平板"
 
 #: docs/vaxlink-examples.md:20
 #: docs/vaxlink-examples.md:35
@@ -355,20 +342,16 @@ msgstr "临时 id 系统属于本指南（{code0}），而非卫生部 URL。"
 #: docs/vaxlink-examples.md:38
 #: docs/vaxlink-examples.md:39
 msgid "Taifafeki"
-msgstr "泰法费基"
+msgstr "Taifafeki"
 
 #: docs/vaxlink-examples.md:22
 #: docs/vaxlink-examples.md:29
 msgid "Taifafeki, tablet"
-msgstr "泰法费基，平板"
+msgstr "Taifafeki，平板"
 
 #: docs/vaxlink-examples.md:42
 msgid "The answers on the offline registration form (Structured Data Capture), kept so the extracted records trace back to them."
 msgstr "离线登记表单（结构化数据采集，Structured Data Capture）上的答案，予以保留，使提取出的记录可以追溯到它们。"
-
-#: docs/vaxlink-examples.md:37
-msgid "The birth hospital's newborn: a hospital number, since a baby of Onesan parents has no Taifafeki citizen id."
-msgstr "出生医院的新生儿：使用医院编号，因为奥内萨父母所生的婴儿没有泰法费基公民 id。"
 
 #: docs/vaxlink-examples.md:40
 msgid "The child the CHW registers, under a temporary id until civil registration catches up."
@@ -402,11 +385,11 @@ msgstr "载荷抽屉"
 
 #: docs/vaxlink-examples.md:22
 msgid "the Taifafeki records behind the cards: <a0>TrustDemoTaifafekiSomsak</a0>, <a1>TrustDemoJ1HepB</a1>, <a2>TrustDemoJ1Bcg</a2>; the doses as later verified in Onesa: <a3>TrustDemoJ3HepB</a3> (<a4>json</a4>), <a5>TrustDemoJ3Bcg</a5> (<a6>json</a6>); <a7>TrustDemoKesaroHospital</a7> (<a8>json</a8>), <a9>TrustDemoAnan</a9> (<a10>json</a10>)"
-msgstr "卡片背后的泰法费基记录：<a0>TrustDemoTaifafekiSomsak</a0>、<a1>TrustDemoJ1HepB</a1>、<a2>TrustDemoJ1Bcg</a2>；之后在奥内萨（Onesa）验证的剂次：<a3>TrustDemoJ3HepB</a3>（<a4>json</a4>）、<a5>TrustDemoJ3Bcg</a5>（<a6>json</a6>）；<a7>TrustDemoKesaroHospital</a7>（<a8>json</a8>）、<a9>TrustDemoAnan</a9>（<a10>json</a10>）"
+msgstr "卡片背后的 Taifafeki 记录：<a0>TrustDemoTaifafekiSomsak</a0>、<a1>TrustDemoJ1HepB</a1>、<a2>TrustDemoJ1Bcg</a2>；之后在 Onesa 验证的剂次：<a3>TrustDemoJ3HepB</a3>（<a4>json</a4>）、<a5>TrustDemoJ3Bcg</a5>（<a6>json</a6>）；<a7>TrustDemoKesaroHospital</a7>（<a8>json</a8>）、<a9>TrustDemoAnan</a9>（<a10>json</a10>）"
 
 #: docs/vaxlink-examples.md:23
 msgid "the Taifafeki records on the cards: <a0>TrustDemoJ1HepB</a0>, <a1>TrustDemoJ1Bcg</a1>"
-msgstr "卡片上的泰法费基记录：<a0>TrustDemoJ1HepB</a0>、<a1>TrustDemoJ1Bcg</a1>"
+msgstr "卡片上的 Taifafeki 记录：<a0>TrustDemoJ1HepB</a0>、<a1>TrustDemoJ1Bcg</a1>"
 
 #: docs/vaxlink-examples.md:55
 msgid "Type"
@@ -423,7 +406,7 @@ msgstr "带 4 位通行码和 14 天有效期的 VHL QR 码；同意（Consent�
 
 #: docs/vaxlink-examples.md:29
 msgid "VHL viewer: passcode unlock, wrong-passcode test, access logged in Onesa"
-msgstr "VHL 查看器：通行码解锁、错误通行码测试、在奥内萨（Onesa）记录访问"
+msgstr "VHL 查看器：通行码解锁、错误通行码测试、在 Onesa 记录访问"
 
 #: docs/vaxlink-examples.md:55
 msgid "What changed"
@@ -432,10 +415,6 @@ msgstr "变更内容"
 #: docs/vaxlink-examples.md:65
 msgid "What the examples change from the walkthrough's copies"
 msgstr "示例相对于演练副本的变更"
-
-#: docs/vaxlink-examples.md:39
-msgid "What the Taifafeki clinic keeps when it views an Onesan summary through a VHL: viewed, not copied."
-msgstr "泰法费基诊所通过 VHL 查看奥内萨摘要时所保留的内容：仅查看，不复制。"
 
 #: docs/vaxlink-examples.md:45
 msgid "Who verified which DVC against the GDHCN trust list, and which reported doses it replaced."
@@ -455,11 +434,6 @@ msgstr "{code0}；成员为 Patient（FHIR R4 Group 列出的是 Patient，因�
 msgid "Every example is published twice: as a page, and as raw JSON at a stable URL the walkthrough can fetch ({code0}). They are FHIR R4 (4.0.1), as this guide is, like smart-base and the Personal Health Wallet guide."
 msgstr "每个示例都发布两次：一次作为页面，一次作为位于演练可获取的稳定 URL 上的原始 JSON（{code0}）。它们是 FHIR R4（4.0.1），与本指南一致，也与 smart-base 和 Personal Health Wallet 指南一致。"
 
-#: docs/vaxlink-examples.md:62
-#, python-brace-format
-msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesan gateway the custodian and observer. The passcode is never logged."
-msgstr "R4 结构：{code0}、{code1}、{code2}、{code3}；接收方为请求者，奥内萨网关为保管者和观察者。通行码从不记录。"
-
 #: docs/journey-examples.md:6
 msgid "Journey examples"
 msgstr "旅程示例"
@@ -467,6 +441,32 @@ msgstr "旅程示例"
 #: docs/journey-examples.md:8
 msgid "The journeys walkthrough (first told in the <a0>VaxLink</a0> workshop, <a1>source</a1>) shows sample FHIR payloads in its payload drawer and on its device screens S1 to S8. This page maps each of them to the example in this guide that materializes it."
 msgstr "旅程演练（最初在 <a0>VaxLink</a0> 研讨会中讲述，<a1>源码</a1>）在其载荷抽屉和设备屏幕 S1 至 S8 上展示示例 FHIR 载荷。本页将其中每一个映射到本指南中将其具体化的示例。"
+
+#: docs/journey-examples.md:45
+msgid "A dose on the national schedule: the Onesa EPI code is required, and a foreign product code is kept beside it."
+msgstr "国家接种计划中的一个剂次：Onesa EPI 代码为必需，外国产品代码保留在其旁。"
+
+#: docs/journey-examples.md:66
+#, python-brace-format
+msgid "Code systems. Each dose's product is coded with its WHO PreQual product id ({code0} for the Hep B birth dose and so on), from the code system {code1} of the <a0>SMART Product Dataset for Prequalified Vaccines</a0>, and the ValueSet {code2} lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa ({code3} and so on) are illustrative, defined here as the code system {code4}, marked experimental, under this guide's canonical, so no URL implies a real ministry."
+msgstr "代码系统。每剂次的产品均以其 WHO PreQual 产品标识符编码（乙肝出生剂次为 {code0}，以此类推），来自 <a0>SMART Product Dataset for Prequalified Vaccines</a0> 的代码系统 {code1}，ValueSet {code2} 列出各旅程所用的产品；每个虚构剂次所接种的具体产品仅作示意。Onesa 的接种计划代码（{code3} 等）仅作示意，在此被定义为代码系统 {code4}，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部。"
+
+#: docs/journey-examples.md:69
+msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28."
+msgstr "日期。与演练中相同：出生 2025-10-28，J2 2025-11-18，J3 2025-11-25，在 Onesa 接种的剂次 2025-12-10 和 2026-07-28，出行 2026-10-28。"
+
+#: docs/journey-examples.md:61
+#, python-brace-format
+msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesa gateway the custodian and observer. The passcode is never logged."
+msgstr "R4 结构：{code0}、{code1}、{code2}、{code3}；接收方为请求者，Onesa 网关为保管者和观察者。通行码从不记录。"
+
+#: docs/journey-examples.md:36
+msgid "The birth hospital's newborn: a hospital number, since a baby of parents from Onesa has no Taifafeki citizen id."
+msgstr "出生医院的新生儿：使用医院编号，因为父母来自 Onesa 的婴儿没有 Taifafeki 公民 id。"
+
+#: docs/journey-examples.md:38
+msgid "What the Taifafeki clinic keeps when it views a summary from Onesa through a VHL: viewed, not copied."
+msgstr "Taifafeki 的诊所通过 VHL 查看来自 Onesa 的摘要时所保留的内容：仅查看，不复制。"
 
 #~ #, python-brace-format
 #~ msgid "Every example is published twice: as a page, and as raw JSON at a stable URL the walkthrough can fetch ({code0}). They are FHIR R5, as this guide is."
@@ -485,3 +485,23 @@ msgstr "旅程演练（最初在 <a0>VaxLink</a0> 研讨会中讲述，<a1>源�
 
 #~ msgid "VaxLink examples"
 #~ msgstr "VaxLink 示例"
+
+#~ msgid "A dose on the national schedule: the Onesan EPI code is required, and a foreign product code is kept beside it."
+#~ msgstr "国家接种计划中的一个剂次：奥内萨 EPI 代码为必需，外国产品代码保留在其旁。"
+
+#~ #, python-brace-format
+#~ msgid "Code systems. The walkthrough's product codes ({code0} and so on) and Onesan schedule codes ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
+#~ msgstr "代码系统。演练中的产品代码（{code0} 等）和奥内萨接种计划代码（{code1} 等）仅作示意。它们在此被定义为代码系统 {code2} 和 {code3}，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部或真实的 WHO 代码系统。"
+
+#~ msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the Onesan doses 2025-12-10 and 2026-07-28, the trip 2026-10-28."
+#~ msgstr "日期。与演练中相同：出生 2025-10-28，J2 2025-11-18，J3 2025-11-25，奥内萨剂次 2025-12-10 和 2026-07-28，出行 2026-10-28。"
+
+#~ msgid "The birth hospital's newborn: a hospital number, since a baby of Onesan parents has no Taifafeki citizen id."
+#~ msgstr "出生医院的新生儿：使用医院编号，因为奥内萨父母所生的婴儿没有泰法费基公民 id。"
+
+#~ msgid "What the Taifafeki clinic keeps when it views an Onesan summary through a VHL: viewed, not copied."
+#~ msgstr "泰法费基诊所通过 VHL 查看奥内萨摘要时所保留的内容：仅查看，不复制。"
+
+#~ #, python-brace-format
+#~ msgid "R4 shape: {code0}, {code1}, {code2}, {code3}; the receiver is the requestor, the Onesan gateway the custodian and observer. The passcode is never logged."
+#~ msgstr "R4 结构：{code0}、{code1}、{code2}、{code3}；接收方为请求者，奥内萨网关为保管者和观察者。通行码从不记录。"

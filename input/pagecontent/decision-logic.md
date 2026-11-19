@@ -21,7 +21,7 @@ From the result of reading one foreign DVC, decide whether its dose is recorded 
 
 - **Serves:** [J2 Discover and refer an unregistered infant in Country B](business-processes.html#j2-discover-and-refer-an-unregistered-infant-in-country-b): Read each DVC unverified (triage) (`Task_Read`); Add the infant; save doses as reported (`Task_Register`); [J3 Verify, import and schedule at the home clinic](business-processes.html#j3-verify-import-and-schedule-at-the-home-clinic): Verify each HCERT against the trust list (`Task_Verify`); Every DVC verified? (`Gateway_Verified`); Note the failure; decide doses by policy (`Task_Unverified`); Import the doses as FHIR Immunization resources (`Task_Import`)
 - **Requirements:** [STT-VER-001](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-001), [STT-VER-006](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-006), [STT-VER-008](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-008), [STT-VER-011](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-011)
-- **Data elements:** [TD.J3A.DE05](dictionary.html#tdj3a-dvc-verification-and-import) Verification result, [TD.J3A.DE07](dictionary.html#tdj3a-dvc-verification-and-import) Failure reason, [TD.J3A.DE09](dictionary.html#tdj3a-dvc-verification-and-import) Record outcome
+- **Data elements:** [CWT.header.4](dictionary.html#j1-cwt-cbor-web-token-cwt) Key identifier (kid), [CWT.payload.1](dictionary.html#j1-cwt-cbor-web-token-cwt) Issuer (iss), [IMMZImmunization.primarySource](dictionary.html#j3-immzimmunization-immz-immunization) Primary source
 - **In the examples:** [StructureDefinition TrustDemoOnesaReportedImmunization](StructureDefinition-TrustDemoOnesaReportedImmunization.html), [StructureDefinition TrustDemoOnesaDvcVerification](StructureDefinition-TrustDemoOnesaDvcVerification.html), [Provenance TrustDemoJ3Verification](Provenance-TrustDemoJ3Verification.html)
 - **Computable form:** [PlanDefinition TrustDemoDT01](PlanDefinition-TrustDemoDT01.html); source [dvc-record-outcome.dmn](https://github.com/litlfred/smart-trust-demo/blob/main/processes/content/decisions/dvc-record-outcome.dmn), hit policy FIRST
 
@@ -41,7 +41,7 @@ For one dose, decide whether and how the national schedule code is added beside 
 
 - **Serves:** [J3 Verify, import and schedule at the home clinic](business-processes.html#j3-verify-import-and-schedule-at-the-home-clinic): Add national codes beside foreign ones (`Task_Map`)
 - **Requirements:** [STD-SEM-001](https://github.com/litlfred/smart-trust-demo/blob/main/skills/requirements/std-sem-001.json)
-- **Data elements:** [TD.J3A.DE09](dictionary.html#tdj3a-dvc-verification-and-import) Record outcome, [TD.J3B.DE01](dictionary.html#tdj3b-imported-dose-and-schedule) Issuer's product code, [TD.J3B.DE02](dictionary.html#tdj3b-imported-dose-and-schedule) National schedule code, [TD.J3B.DE03](dictionary.html#tdj3b-imported-dose-and-schedule) Mapping basis
+- **Data elements:** [DVCMinPreQual.vx.vp](dictionary.html#j1-dvcminprequal-dvc-hcert-payload-prequal) Vaccine product id, [IMMZImmunization.primarySource](dictionary.html#j3-immzimmunization-immz-immunization) Primary source, [IMMZImmunization.vaccineCode](dictionary.html#j3-immzimmunization-immz-immunization) Vaccine code
 - **In the examples:** [ConceptMap TrustDemoProductToOnesaEpi](ConceptMap-TrustDemoProductToOnesaEpi.html), [Provenance TrustDemoJ3Adjudication](Provenance-TrustDemoJ3Adjudication.html), [Immunization TrustDemoJ3HepB](Immunization-TrustDemoJ3HepB.html)
 - **Computable form:** [PlanDefinition TrustDemoDT02](PlanDefinition-TrustDemoDT02.html); source [vaccine-code-mapping.dmn](https://github.com/litlfred/smart-trust-demo/blob/main/processes/content/decisions/vaccine-code-mapping.dmn), hit policy FIRST
 
@@ -59,7 +59,7 @@ For one Immunization in the child's record, decide whether the schedule evaluati
 
 - **Serves:** [J3 Verify, import and schedule at the home clinic](business-processes.html#j3-verify-import-and-schedule-at-the-home-clinic): Evaluate the national schedule (`Task_Schedule`)
 - **Requirements:** [STD-SCH-001](https://github.com/litlfred/smart-trust-demo/blob/main/skills/requirements/std-sch-001.json), [STD-SEM-001](https://github.com/litlfred/smart-trust-demo/blob/main/skills/requirements/std-sem-001.json)
-- **Data elements:** [TD.J3B.DE02](dictionary.html#tdj3b-imported-dose-and-schedule) National schedule code, [TD.J3B.DE05](dictionary.html#tdj3b-imported-dose-and-schedule) Counts toward the schedule
+- **Data elements:** [IMMZImmunization.primarySource](dictionary.html#j3-immzimmunization-immz-immunization) Primary source, [IMMZImmunization.vaccineCode](dictionary.html#j3-immzimmunization-immz-immunization) Vaccine code
 - **In the examples:** [StructureDefinition TrustDemoOnesaImmunization](StructureDefinition-TrustDemoOnesaImmunization.html), [StructureDefinition TrustDemoOnesaReportedImmunization](StructureDefinition-TrustDemoOnesaReportedImmunization.html)
 - **Computable form:** [PlanDefinition TrustDemoDT03](PlanDefinition-TrustDemoDT03.html); source [dose-counts.dmn](https://github.com/litlfred/smart-trust-demo/blob/main/processes/content/decisions/dose-counts.dmn), hit policy FIRST
 
@@ -76,7 +76,7 @@ For one action of the national schedule, decide whether the evaluation recommend
 
 - **Serves:** [J3 Verify, import and schedule at the home clinic](business-processes.html#j3-verify-import-and-schedule-at-the-home-clinic): Evaluate the national schedule (`Task_Schedule`); Give due doses and book the next visit (`Task_Plan`)
 - **Requirements:** [STD-SCH-001](https://github.com/litlfred/smart-trust-demo/blob/main/skills/requirements/std-sch-001.json)
-- **Data elements:** [TD.J3B.DE05](dictionary.html#tdj3b-imported-dose-and-schedule) Counts toward the schedule, [TD.J3B.DE07](dictionary.html#tdj3b-imported-dose-and-schedule) Schedule dose, [TD.J3B.DE08](dictionary.html#tdj3b-imported-dose-and-schedule) Forecast status, [TD.J3B.DE09](dictionary.html#tdj3b-imported-dose-and-schedule) Due date
+- **Data elements:** [IMMZC4.dateOfBirth](dictionary.html#j2-immzc4-immzc4-create-client-record--immzc53-update-client-details) Date of birth, [IMMZImmunization.occurrenceDateTime](dictionary.html#j3-immzimmunization-immz-immunization) Date of vaccination, [IMMZImmunization.vaccineCode](dictionary.html#j3-immzimmunization-immz-immunization) Vaccine code
 - **In the examples:** [PlanDefinition TrustDemoOnesaInfantSchedule](PlanDefinition-TrustDemoOnesaInfantSchedule.html), [ImmunizationRecommendation TrustDemoJ3Recommendation](ImmunizationRecommendation-TrustDemoJ3Recommendation.html), [Task TrustDemoJ3Reminder](Task-TrustDemoJ3Reminder.html)
 - **Computable form:** [PlanDefinition TrustDemoDT04](PlanDefinition-TrustDemoDT04.html); source [dose-due.dmn](https://github.com/litlfred/smart-trust-demo/blob/main/processes/content/decisions/dose-due.dmn), hit policy FIRST
 
@@ -93,7 +93,7 @@ For one manifest request (ITI-YY5), decide whether the portal releases the manif
 
 - **Serves:** [J4.1 Read a family member's records at the point of care abroad](business-processes.html#j41-read-a-family-members-records-at-the-point-of-care-abroad): Check passcode, log access, return manifest (`Task_Release`)
 - **Requirements:** [STD-ACC-001](https://github.com/litlfred/smart-trust-demo/blob/main/skills/requirements/std-acc-001.json)
-- **Data elements:** [TD.J40.DE06](dictionary.html#tdj40-shared-link-and-consent) Valid until, [TD.J40.DE09](dictionary.html#tdj40-shared-link-and-consent) Withdrawn at, [TD.J41.DE06](dictionary.html#tdj41-access-to-a-shared-link) Released, [TD.J41.DE07](dictionary.html#tdj41-access-to-a-shared-link) Audit outcome, [TD.J41.DE08](dictionary.html#tdj41-access-to-a-shared-link) Refusal reason
+- **Data elements:** [VHLPayload.exp](dictionary.html#j4-vhlpayload-vhl-payload) Expires at, [VHLPayload.flag](dictionary.html#j4-vhlpayload-vhl-payload) Flags, [VHLPayload.url](dictionary.html#j4-vhlpayload-vhl-payload) Manifest URL
 - **In the examples:** [Consent TrustDemoJ4Consent](Consent-TrustDemoJ4Consent.html), [AuditEvent TrustDemoJ41Access](AuditEvent-TrustDemoJ41Access.html), [AuditEvent TrustDemoJ41WrongPasscode](AuditEvent-TrustDemoJ41WrongPasscode.html)
 - **Computable form:** [PlanDefinition TrustDemoDT05](PlanDefinition-TrustDemoDT05.html); source [vhl-release.dmn](https://github.com/litlfred/smart-trust-demo/blob/main/processes/content/decisions/vhl-release.dmn), hit policy FIRST
 
@@ -111,7 +111,7 @@ For one scanned VHL, decide whether the receiver requests the manifest or treats
 
 - **Serves:** [J4.1 Read a family member's records at the point of care abroad](business-processes.html#j41-read-a-family-members-records-at-the-point-of-care-abroad): Verify the HCERT and read the VHL at key 5 (`Task_Verify`); HCERT verified? (`Gateway_Verified`); Not verified: treat records as paper (`Task_Unverified`); Request the manifest (ITI-YY5), signed (`Task_Fetch`)
 - **Requirements:** [STT-VER-001](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-001), [STT-VER-008](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-ver-008), [STT-VHL-009](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-vhl-009), [STT-VHL-005](https://litlfred.github.io/smart-trust-tools/viewers/requirements.html#stt-vhl-005)
-- **Data elements:** [TD.J41.DE01](dictionary.html#tdj41-access-to-a-shared-link) Requested at
+- **Data elements:** [CWT.header.4](dictionary.html#j1-cwt-cbor-web-token-cwt) Key identifier (kid), [VHLPayload.exp](dictionary.html#j4-vhlpayload-vhl-payload) Expires at, [VHLPayload.url](dictionary.html#j4-vhlpayload-vhl-payload) Manifest URL
 - **In the examples:** [Provenance TrustDemoJ41Received](Provenance-TrustDemoJ41Received.html)
 - **Computable form:** [PlanDefinition TrustDemoDT06](PlanDefinition-TrustDemoDT06.html); source [vhl-follow.dmn](https://github.com/litlfred/smart-trust-demo/blob/main/processes/content/decisions/vhl-follow.dmn), hit policy FIRST
 

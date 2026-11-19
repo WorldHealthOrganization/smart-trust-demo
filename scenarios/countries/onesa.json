@@ -2,7 +2,15 @@
   "id": "onesa",
   "name": "Onesa",
   "fictional": true,
-  "adjective": "Onesan",
+  "notForms": [
+    "Onesan",
+    "Онес",
+    "онес",
+    "أونيس",
+    "اونيس",
+    "奥内萨"
+  ],
+  "notFormsNote": "Renameable in the journeys viewer: every text names the country by its bare name, in Latin script; these derived forms and transliterations, once used, are refused by tools/translation/country-names.ts (memory dir-renameable-countries).",
   "flag": {
     "image": "onesa.flag.svg",
     "description": "Two equal horizontal bands, indigo over orange, with a white five-pointed star in the upper hoist.",
@@ -16,9 +24,9 @@
   },
   "code": {
     "system": "http://smart.who.int/trust/CodeSystems/Participants-DEV",
-    "code": "XXK",
+    "code": "XXU",
     "display": "Onesa",
-    "note": "An ISO 3166-1 alpha-3 user-assigned code (range XAA to XZZ), so it can never name a real country. On the GDHCN DEV network XXK is an onboarded test participant (WorldHealthOrganization/tng-participants-dev XXK/); its keys are test keys, not any ministry's."
+    "note": "An ISO 3166-1 alpha-3 user-assigned code (range XAA to XZZ), so it can never name a real country. On the GDHCN DEV network XXU is an onboarded test participant (WorldHealthOrganization/tng-participants-dev XXU/); its keys are test keys, not any ministry's."
   },
   "role": "home",
   "description": "A fictional country: the traveller's home. Its health system registers people, keeps their lifelong record, verifies certificates issued abroad, and shares the record back out as a Verifiable Health Link.",

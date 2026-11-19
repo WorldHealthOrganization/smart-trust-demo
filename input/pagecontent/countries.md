@@ -2,14 +2,14 @@ The journeys take place in two fictional countries, so that no real country, min
 
 | Country | Code | Role | Places | In these journeys |
 |---|---|---|---|---|
-| **Onesa** (adjective: Onesan) | XXK | home | Lomaru (capital), Village 04, Tanavu (coastal town) | Country B: the family's home (J2, J3, J4.0), whose national portal serves their records abroad (J4.1); the pilgrim's home in the pilgrimage |
-| **Taifafeki** (adjective: Taifafeki) | XXR | visited | Lumara (capital), Kesaro (border province), Nalemi (tent valley), Toreva (plain) | Country A: where the newborn is born (J1) and later seen at the point of care (J4.1); the host of the pilgrimage |
+| **Onesa** | XXU | home | Lomaru (capital), Village 04, Tanavu (coastal town) | Country B: the family's home (J2, J3, J4.0), whose national portal serves their records abroad (J4.1); the pilgrim's home in the pilgrimage |
+| **Taifafeki** | XXR | visited | Lumara (capital), Kesaro (border province), Nalemi (tent valley), Toreva (plain) | Country A: where the newborn is born (J1) and later seen at the point of care (J4.1); the host of the pilgrimage |
 {: .grid }
 
 ### Codes
 
-Both codes are in the SMART Trust value set of GDHCN DEV participants, [Participants-DEV](http://smart.who.int/trust/ValueSet/Participants-DEV), whose code system names XXK "Onesa" and XXR "Taifafeki". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXK plays Onesa's national portal in J4. Their keys are test keys, not any ministry's.
+Both codes are in the SMART Trust value set of GDHCN DEV participants, [Participants-DEV](http://smart.who.int/trust/ValueSet/Participants-DEV), whose code system names XXU "Onesa" and XXR "Taifafeki". Both are onboarded test participants of the GDHCN DEV network (WorldHealthOrganization/tng-participants-dev): XXR's document signer key signs the birth-dose DVCs of J1, and XXU plays the national portal of Onesa in J4. Their keys are test keys, not any ministry's.
 
 ### Reuse
 
-A journey that needs a home country and a visited country takes Onesa and Taifafeki from `scenarios/countries/onesa.json` and `scenarios/countries/taifafeki.json`: the name, adjective, code, role and places. The people in a journey are its own, and fictional too.
+A journey that needs a home country and a visited country takes Onesa and Taifafeki from `scenarios/countries/onesa.json` and `scenarios/countries/taifafeki.json`: the name, code, role and places. The people in a journey are its own, and fictional too.

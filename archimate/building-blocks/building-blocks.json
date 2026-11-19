@@ -81,7 +81,7 @@
         },
         {
           "label": "This journey’s form (IG)",
-          "url": "https://litlfred.github.io/smart-trust-demo/artifact/Questionnaire-TrustDemoHouseholdRegistration.html"
+          "url": "https://worldhealthorganization.github.io/smart-trust-demo/artifact/Questionnaire-TrustDemoHouseholdRegistration.html"
         }
       ]
     },
@@ -107,7 +107,7 @@
     },
     {
       "id": "national-fhir",
-      "name": "Onesan national FHIR repository",
+      "name": "Onesa national FHIR repository",
       "short": "National FHIR server",
       "kind": "system",
       "layer": "apps",
@@ -174,7 +174,7 @@
       "jurisdiction": "Taifafeki",
       "owner": "Any conformant vendor (Taifafeki)",
       "what": "A web or tablet app that scans a VHL QR, takes the passcode, fetches the record and displays it.",
-      "soWhat": "The Taifafeki clinic needs no account in the Onesan system. Any viewer that follows the VHL standard works.",
+      "soWhat": "The Taifafeki clinic needs no account in the system of Onesa. Any viewer that follows the VHL standard works.",
       "components": [
         "xxr-vhl-viewer"
       ],
@@ -202,7 +202,7 @@
         },
         {
           "label": "This journey as a FHIR IG",
-          "url": "https://litlfred.github.io/smart-trust-demo/"
+          "url": "https://worldhealthorganization.github.io/smart-trust-demo/"
         }
       ]
     },
@@ -240,7 +240,7 @@
         },
         {
           "label": "Somsak’s IPS (IG)",
-          "url": "https://litlfred.github.io/smart-trust-demo/artifact/Bundle-TrustDemoJ4Ips.html"
+          "url": "https://worldhealthorganization.github.io/smart-trust-demo/artifact/Bundle-TrustDemoJ4Ips.html"
         }
       ]
     },
@@ -253,7 +253,7 @@
       "jurisdiction": "International",
       "owner": "HL7 FHIR",
       "what": "A FHIR resource that records how a code in one system maps to a code in another, including who decided and how confident they are.",
-      "soWhat": "Foreign vaccines are translated without overwriting them. The original Taifafeki code stays alongside the Onesan one.",
+      "soWhat": "Foreign vaccines are translated without overwriting them. The original Taifafeki code stays alongside the code of Onesa.",
       "components": [
         "xxk-conceptmap"
       ],
@@ -264,7 +264,7 @@
         },
         {
           "label": "The map in this journey (IG)",
-          "url": "https://litlfred.github.io/smart-trust-demo/artifact/ConceptMap-TrustDemoProductToOnesaEpi.html"
+          "url": "https://worldhealthorganization.github.io/smart-trust-demo/artifact/ConceptMap-TrustDemoProductToOnesaEpi.html"
         }
       ]
     },
@@ -277,7 +277,7 @@
       "jurisdiction": "International",
       "owner": "HL7 FHIR / WHO SMART",
       "what": "Computable rules for the national schedule that work out which doses are due next.",
-      "soWhat": "Once foreign doses are mapped, they automatically count toward the Onesan schedule. No mental arithmetic for the nurse.",
+      "soWhat": "Once foreign doses are mapped, they automatically count toward the schedule of Onesa. No mental arithmetic for the nurse.",
       "components": [
         "xxk-schedule"
       ],
@@ -292,7 +292,7 @@
         },
         {
           "label": "The schedule (IG)",
-          "url": "https://litlfred.github.io/smart-trust-demo/artifact/PlanDefinition-TrustDemoOnesaInfantSchedule.html"
+          "url": "https://worldhealthorganization.github.io/smart-trust-demo/artifact/PlanDefinition-TrustDemoOnesaInfantSchedule.html"
         }
       ]
     },
@@ -313,7 +313,7 @@
         },
         {
           "label": "Verification provenance (IG)",
-          "url": "https://litlfred.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ3Verification.html"
+          "url": "https://worldhealthorganization.github.io/smart-trust-demo/artifact/Provenance-TrustDemoJ3Verification.html"
         }
       ]
     },
@@ -347,7 +347,7 @@
       "jurisdiction": "International",
       "owner": "WHO",
       "what": "A WHO-run network where countries publish the public keys used to sign their health documents, as a shared trust list.",
-      "soWhat": "Onesa can verify a Taifafeki signature without a bilateral agreement or a live call to Taifafeki. Trust is set up once and works between all members.",
+      "soWhat": "Onesa can verify a signature from Taifafeki without a bilateral agreement or a live call to Taifafeki. Trust is set up once and works between all members.",
       "components": [
         "gdhcn"
       ],
@@ -396,7 +396,7 @@
         },
         {
           "label": "Bounmy’s consent (IG)",
-          "url": "https://litlfred.github.io/smart-trust-demo/artifact/Consent-TrustDemoJ4Consent.html"
+          "url": "https://worldhealthorganization.github.io/smart-trust-demo/artifact/Consent-TrustDemoJ4Consent.html"
         }
       ]
     },
@@ -421,7 +421,7 @@
         },
         {
           "label": "The access log entry (IG)",
-          "url": "https://litlfred.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41Access.html"
+          "url": "https://worldhealthorganization.github.io/smart-trust-demo/artifact/AuditEvent-TrustDemoJ41Access.html"
         }
       ]
     }

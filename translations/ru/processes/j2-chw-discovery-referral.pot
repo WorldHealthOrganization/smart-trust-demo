@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: j2-chw-discovery-referral\n"
-"POT-Creation-Date: 2026-11-11T09:10:10.442Z\n"
+"POT-Creation-Date: 2026-11-18T11:00:21.084Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: processes/content/j2-chw-discovery-referral.bpmn:33
 #. Diagram element documentation
-msgid "Add the infant to the household; save the doses as reported, not verified. The CHW completes the newborn registration form (data dictionary TD.J2A) in the CHW app through smart-base's reusable SDC data-capture process: complete-sdc-questionnaire, then extract-questionnaire-response. chw-register-infant is what this journey's extraction writes: the Patient and the caregiver's RelatedPerson, and each dose read by the triage read as an Immunization tagged unverified."
+msgid "Add the infant to the household; save the doses as reported, not verified. The CHW completes the newborn registration form (the client record IMMZ.C4 of the WHO Immunization guide, data dictionary IMMZC4) in the CHW app through smart-base's reusable SDC data-capture process: complete-sdc-questionnaire, then extract-questionnaire-response. chw-register-infant is what this journey's extraction writes: the Patient and the caregiver's RelatedPerson, and each dose read by the triage read as an Immunization tagged unverified."
 msgstr ""
 
 #: processes/content/j2-chw-discovery-referral.bpmn:33
@@ -66,7 +66,7 @@ msgstr ""
 
 #: processes/content/j2-chw-discovery-referral.bpmn:11
 #. Diagram element documentation
-msgid "J2, Return home, CHW discovery and referral. Back in Country B (home, XXK), where the family resides, the community health worker finds an infant born abroad who is missing from the household roster on a home visit. Offline, the CHW app adds the infant to the household (a FHIR Group, through a structured data capture form), reads the foreign DVCs without verifying them (read-unverified, STT-VER-011: the triage read stops before the trust lookup and marks every field unverified), saves the doses as reported by the family, not verified (Immunization.primarySource false), and refers the infant to the clinic for verification. Everything is queued on the phone and syncs when it next has a signal. The CHW app is a Receiver (SMART Trust, smart-trust-phw) that deliberately stops before trust; the caregiver provides the VDHC as Holder (smart-trust-phw requirement provide-a-vhl-to-a-receiver)."
+msgid "J2, Return home, CHW discovery and referral. Back in Country B (home, XXU), where the family resides, the community health worker finds an infant born abroad who is missing from the household roster on a home visit. Offline, the CHW app adds the infant to the household (a FHIR Group, through a structured data capture form), reads the foreign DVCs without verifying them (read-unverified, STT-VER-011: the triage read stops before the trust lookup and marks every field unverified), saves the doses as reported by the family, not verified (Immunization.primarySource false), and refers the infant to the clinic for verification. Everything is queued on the phone and syncs when it next has a signal. The CHW app is a Receiver (SMART Trust, smart-trust-phw) that deliberately stops before trust; the caregiver provides the VDHC as Holder (smart-trust-phw requirement provide-a-vhl-to-a-receiver)."
 msgstr ""
 
 #: processes/content/j2-chw-discovery-referral.bpmn:32

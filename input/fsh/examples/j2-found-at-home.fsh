@@ -1,4 +1,5 @@
-// J2a and J2b, Village 04, Onesa, 2025-11-18 (T0 + 3 weeks). Vilay adds
+Alias: $PreQualProductIds = http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds
+// J2a and J2b, Village 04 (Khamla's village), Onesa, 2025-12-16 (T0 + 7 weeks). Vilay adds
 // Somsak to the Sengmany household offline, scans the two paper DVCs without
 // verifying them, saves the doses as reported by the family, and refers him
 // to the district health center. Everything is queued on her phone and syncs
@@ -6,11 +7,11 @@
 
 Instance: TrustDemoHousehold
 InstanceOf: TrustDemoOnesaHousehold
-Title: "J2a the Sengmany household (HH-XXK-204)"
+Title: "J2a the Sengmany household (HH-XXU-204)"
 Description: "The household roster Vilay updates on her offline phone: Somsak is added beside his mother and father."
 Usage: #example
 * identifier[household].system = $HouseholdId
-* identifier[household].value = "HH-XXK-204"
+* identifier[household].value = "HH-XXU-204"
 * type = #person
 * actual = true
 * code = $v3-RoleCode#FAMMEMB "family member"
@@ -21,7 +22,7 @@ Usage: #example
 * member[+].entity = Reference(TrustDemoBounmyPatient)
 * member[+].entity = Reference(TrustDemoKhamlaPatient)
 * member[+].entity = Reference(TrustDemoSomsak)
-* member[=].period.start = "2025-11-18"
+* member[=].period.start = "2025-12-16"
 
 Instance: TrustDemoHouseholdRegistration
 InstanceOf: Questionnaire
@@ -65,11 +66,11 @@ Usage: #example
 * questionnaire = Canonical(TrustDemoHouseholdRegistration)
 * status = #completed
 * subject = Reference(TrustDemoSomsak)
-* authored = "2025-11-18T10:05:00+07:00"
+* authored = "2025-12-16T10:05:00+07:00"
 * author = Reference(TrustDemoVilay)
 * source = Reference(TrustDemoBounmy)
 * item[+].linkId = "household"
-* item[=].answer.valueString = "HH-XXK-204"
+* item[=].answer.valueString = "HH-XXU-204"
 * item[+].linkId = "given"
 * item[=].answer.valueString = "Somsak"
 * item[+].linkId = "family"
@@ -87,7 +88,7 @@ Title: "J2b reported: Hep B birth dose (DVC read, not verified)"
 Description: "The Hep B birth dose as the CHW app saves it after reading the paper DVC offline without verifying it (STT-VER-011): reported by the family, primarySource false, only the issuer's product coding."
 Usage: #example
 * status = #completed
-* vaccineCode = TrustDemoVaccineProduct#vp-hepb-peds-monovalent "Hepatitis B vaccine, paediatric, monovalent"
+* vaccineCode = $PreQualProductIds#a3K3X000006MiiXUAS "Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]"
 * patient = Reference(TrustDemoSomsak)
 * occurrenceDateTime = "2025-10-28"
 * primarySource = false
@@ -102,7 +103,7 @@ Title: "J2b reported: BCG birth dose (DVC read, not verified)"
 Description: "The BCG birth dose as the CHW app saves it after the unverified read: reported by the family, primarySource false."
 Usage: #example
 * status = #completed
-* vaccineCode = TrustDemoVaccineProduct#vp-bcg-freeze-dried "BCG vaccine, freeze-dried"
+* vaccineCode = $PreQualProductIds#a3K3X000006MiisUAC "BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117]"
 * patient = Reference(TrustDemoSomsak)
 * occurrenceDateTime = "2025-10-28"
 * primarySource = false
@@ -122,7 +123,7 @@ Usage: #example
 * code = $sct#3457005 "Patient referral"
 * code.text = "Verify foreign paper DVCs and map the birth doses to the national schedule"
 * subject = Reference(TrustDemoSomsak)
-* authoredOn = "2025-11-18T10:20:00+07:00"
+* authoredOn = "2025-12-16T10:20:00+07:00"
 * requester = Reference(TrustDemoVilay)
 * performer = Reference(TrustDemoLomaruDhc)
 * reasonCode[+].text = "Unverified foreign vaccination cards presented on a home visit (primarySource false)"

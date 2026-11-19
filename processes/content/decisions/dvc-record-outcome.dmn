@@ -12,10 +12,10 @@
   illustration of "decide doses by national policy", not a national rule.
 -->
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
-             xmlns:trace="https://litlfred.github.io/smart-trust-demo/ns/dak/"
+             xmlns:trace="https://worldhealthorganization.github.io/smart-trust-demo/ns/dak/"
              id="Definitions_DvcRecordOutcome"
              name="What a scanned DVC becomes in the record"
-             namespace="https://litlfred.github.io/smart-trust-demo/decisions">
+             namespace="https://worldhealthorganization.github.io/smart-trust-demo/decisions">
   <decision id="Decision_DvcRecordOutcome" name="What does a scanned DVC become in the child's record?">
     <description>From the result of reading one foreign DVC, decide whether its dose is recorded as verified, kept as reported and not verified, or not recorded from it at all.</description>
     <extensionElements>
@@ -33,9 +33,9 @@
       <trace:artifact ref="StructureDefinition/TrustDemoOnesaReportedImmunization"/>
       <trace:artifact ref="StructureDefinition/TrustDemoOnesaDvcVerification"/>
       <trace:artifact ref="Provenance/TrustDemoJ3Verification"/>
-      <trace:dataElement ref="TD.J3A.DE05"/>
-      <trace:dataElement ref="TD.J3A.DE07"/>
-      <trace:dataElement ref="TD.J3A.DE09"/>
+      <trace:dataElement ref="CWT.header.4"/>
+      <trace:dataElement ref="CWT.payload.1"/>
+      <trace:dataElement ref="IMMZImmunization.primarySource"/>
     </extensionElements>
     <decisionTable id="Table_DvcRecordOutcome" hitPolicy="FIRST">
       <input id="In_Result" label="Verification result">

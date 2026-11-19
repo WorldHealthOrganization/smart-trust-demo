@@ -17,15 +17,15 @@ The clinic system abroad that scans a VHL, verifies it, fetches the manifest (IT
 
 **Played in the journeys by** (fictional):
 
-- Kesaro primary care clinic viewer, Taifafeki (J4.1)
+- Kesaro paediatric clinic viewer, Taifafeki (J4.1)
 
 **In the user scenarios**:
 
-- [J4.1 — Crossing back: a Taifafeki doctor sees the full history](scenarios.html#j41--crossing-back-a-taifafeki-doctor-sees-the-full-history-kesaro-12-months-later): J4.1 A Taifafeki doctor sees the full history
+- [J4.1 — Continuity across a border: a paediatrician in Taifafeki sees the full history](scenarios.html#j41--continuity-across-a-border-a-paediatrician-in-taifafeki-sees-the-full-history-kesaro-12-months-later): J4.1 A doctor in Taifafeki sees the full history
 
 **On the device screens**: [S8 Foreign Clinic VHL Viewer & Audit Trace (Dr. Anan's tablet)](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S8/)
 
-**Discussed in the workshop modules**: [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it once, together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [M7 Our first move, what it costs, and what we ask for](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m7/)
+**Discussed in the workshop modules**: [M5 Governance, decision rights and the legal basis](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m5/); [M6 Doing it together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m6/); [M7 First move and the investment required](en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/m7/); [T3 Trust between countries: SMART Trust and the GDHCN](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t3/); [T4 Workflows, sync and who sees what](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t4/); [T5 From records to charts](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t5/); [T6 Verifying a card, sharing a link](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t6/); [T7 Team build, showcase and the journey together](en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/t7/)
 
 **Lanes and tasks in the business processes**:
 
@@ -36,7 +36,7 @@ The clinic system abroad that scans a VHL, verifies it, fetches the manifest (IT
 - Decision table [TD.DT.06 Does the receiver follow the VHL?](decision-logic.html#tddt06-does-the-receiver-follow-the-vhl), in: Verify the HCERT and read the VHL at key 5; HCERT verified?; Request the manifest (ITI-YY5), signed
 - Gateway "HCERT verified?" in [J4.1 Read a family member's records at the point of care abroad](business-processes.html#j41-read-a-family-members-records-at-the-point-of-care-abroad)
 
-**Data sets its tasks record or read**: [TD.J41 Access to a shared link](dictionary.html#tdj41-access-to-a-shared-link)
+**Data sets its tasks record or read**: [J4 VHLPayload VHL Payload](dictionary.html#j4-vhlpayload-vhl-payload)
 """
 * documentation = "https://github.com/litlfred/smart-trust-demo/blob/main/scenarios/roles.json"
 * derivedFrom[+] = "https://profiles.ihe.net/ITI/VHL/ActorDefinition/VHLReceiver"

@@ -1,7 +1,7 @@
 {
   "$schema": "user-scenario/0.3.0",
   "id": "j4-0-one-family-one-phone",
-  "title": "J4.0 — Crossing back: one family, one phone",
+  "title": "J4.0 — Continuity across a border: one family, one phone",
   "description": "A year on, the family plans a trip to Taifafeki. Bounmy’s phone holds records for all three of them, including Somsak’s six verified doses.",
   "personas": [
     "bounmy-sengmany",
@@ -40,15 +40,15 @@
       "policy": "Design for shared devices (“One Family, One Phone”) so families with only one phone aren’t left out.",
       "record": {
         "state": "portable",
-        "description": "12-month summary: 2 Taifafeki + 4 Onesan doses",
-        "heldWhere": "Onesan national records + family wallet"
+        "description": "12-month summary: 2 Taifafeki + 4 Onesa doses",
+        "heldWhere": "Onesa national records + family wallet"
       },
       "handoff": {
         "summary": "Somsak’s summary is ready to share",
         "carrier": "FHIR API (HTTPS) via Info Gateway",
         "payload": "IPS Bundle per family member",
         "offline": false,
-        "from": "Onesan national FHIR server",
+        "from": "Onesa national FHIR server",
         "to": "Family wallet"
       },
       "whatIf": [
@@ -93,7 +93,7 @@
       "fhirChanges": [
         {
           "resource": "Bundle (IPS)",
-          "change": "Generated: 2 Taifafeki + 4 Onesan doses",
+          "change": "Generated: 2 Taifafeki + 4 Onesa doses",
           "why": "An International Patient Summary is what any country’s clinic can read, whatever its own system.",
           "examples": [
             "Bundle/TrustDemoJ4Ips",
@@ -106,7 +106,7 @@
           "change": "Drives the profile switcher",
           "why": "One shared phone, three family members: the household decides whose records the wallet shows.",
           "profile": "TrustDemoOnesaHousehold",
-          "profileOf": "XXK",
+          "profileOf": "XXU",
           "examples": [
             "Group/TrustDemoHousehold"
           ],
@@ -119,7 +119,7 @@
       "title": "Dad creates a link to share at the clinic",
       "headline": "Before the trip, Bounmy creates a QR link for Somsak’s record, locked with a 4-digit passcode and valid for 14 days (the demo’s settings: each country would set its own). The record itself stays in Onesa.",
       "when": "T0 + 12 months",
-      "where": "Onesan–Taifafeki Friendship Bridge",
+      "where": "Onesa–Taifafeki Friendship Bridge",
       "touchpoint": "Family wallet app (share link)",
       "preconditions": [
         {
@@ -144,7 +144,7 @@
       "record": {
         "state": "portable",
         "description": "Shareable link created; data stays in Onesa",
-        "heldWhere": "Onesan national records (QR is just a pointer)"
+        "heldWhere": "Onesa national records (QR is just a pointer)"
       },
       "handoff": {
         "summary": "A QR on Dad’s phone + a passcode he can say aloud",
@@ -152,7 +152,7 @@
         "payload": "VHL manifest + Consent registered",
         "offline": false,
         "from": "Family wallet",
-        "to": "Onesan national server"
+        "to": "Onesa national server"
       },
       "whatIf": [
         {
@@ -178,7 +178,7 @@
           ]
         }
       ],
-      "technicalSummary": "The QR is a key, not a copy. The record stays on the Onesan server, and the family’s consent (who, how long) is recorded in a standard form and enforced.",
+      "technicalSummary": "The QR is a key, not a copy. The record stays on the Onesa server, and the family’s consent (who, how long) is recorded in a standard form and enforced.",
       "uses": [
         {
           "block": "family-wallet",
@@ -228,19 +228,13 @@
           "why": "Not a copy of the record: a signed, passcode-protected pointer back to Onesa.",
           "spec": "https://profiles.ihe.net/ITI/VHL/volume-1.html"
         }
-      ],
-      "dak": [
-        {
-          "key": "StructureDefinition/TrustDemoDdVhlShare",
-          "rel": "data"
-        }
       ]
     }
   ],
   "references": [
     {
       "label": "User scenario in the IG",
-      "href": "https://litlfred.github.io/smart-trust-demo/journeys.html#j40--crossing-back-one-family-one-phone-onesa-12-months-later",
+      "href": "https://worldhealthorganization.github.io/smart-trust-demo/journeys.html#j40--crossing-back-one-family-one-phone-onesa-12-months-later",
       "rel": "scenario"
     }
   ],

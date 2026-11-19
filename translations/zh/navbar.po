@@ -179,3 +179,39 @@ msgstr "上游问题（smart-trust-phw）"
 #. Navbar entry for scenarios.html (sushi-config.yaml menu).
 msgid "User Scenarios"
 msgstr "用户场景"
+
+#: sushi-config.yaml:128
+#. Navbar entry for country-canvas.html (sushi-config.yaml menu).
+msgid "Country Canvas"
+msgstr "国家画布"
+
+#: sushi-config.yaml:129
+#. Navbar entry for glossary.html (sushi-config.yaml menu).
+msgid "Glossary"
+msgstr "术语表"
+
+#: sushi-config.yaml:126
+#. Navbar entry for module-journey-map.html (sushi-config.yaml menu).
+msgid "Module × Journey Map"
+msgstr "模块 × 旅程对照图"
+
+#: sushi-config.yaml:127
+#. Navbar entry for narrative-discrepancies.html (sushi-config.yaml menu).
+msgid "Narrative Discrepancies"
+msgstr "叙事差异"
+
+#: sushi-config.yaml:130
+#. Navbar entry for technical-changes.html (sushi-config.yaml menu).
+msgid "Technical Track and Demo App Changes"
+msgstr "技术轨道与演示应用变更"
+
+#: sushi-config.yaml:127
+#: sushi-config.yaml:128
+#. Navbar entry for Technical Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html (sushi-config.yaml menu).
+#. Navbar entry for Policy-Maker Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html (sushi-config.yaml menu).
+msgid "Workshop"
+msgstr ""
+
+#. Navbar entry for workshop.html (sushi-config.yaml menu).
+#~ msgid "Workshop Modules (M and T)"
+#~ msgstr "研讨会模块（M 和 T）"

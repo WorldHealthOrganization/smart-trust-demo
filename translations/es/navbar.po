@@ -179,3 +179,39 @@ msgstr "Incidencia aguas arriba (smart-trust-phw)"
 #. Navbar entry for scenarios.html (sushi-config.yaml menu).
 msgid "User Scenarios"
 msgstr "Escenarios de usuario"
+
+#: sushi-config.yaml:128
+#. Navbar entry for country-canvas.html (sushi-config.yaml menu).
+msgid "Country Canvas"
+msgstr "Lienzo del país"
+
+#: sushi-config.yaml:129
+#. Navbar entry for glossary.html (sushi-config.yaml menu).
+msgid "Glossary"
+msgstr "Glosario"
+
+#: sushi-config.yaml:126
+#. Navbar entry for module-journey-map.html (sushi-config.yaml menu).
+msgid "Module × Journey Map"
+msgstr "Mapa de módulos × recorridos"
+
+#: sushi-config.yaml:127
+#. Navbar entry for narrative-discrepancies.html (sushi-config.yaml menu).
+msgid "Narrative Discrepancies"
+msgstr "Discrepancias narrativas"
+
+#: sushi-config.yaml:130
+#. Navbar entry for technical-changes.html (sushi-config.yaml menu).
+msgid "Technical Track and Demo App Changes"
+msgstr "Cambios en el itinerario técnico y en la aplicación de demostración"
+
+#: sushi-config.yaml:127
+#: sushi-config.yaml:128
+#. Navbar entry for Technical Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/technical-track/index.html (sushi-config.yaml menu).
+#. Navbar entry for Policy-Maker Track (Journeys Viewer)": en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/index.html (sushi-config.yaml menu).
+msgid "Workshop"
+msgstr ""
+
+#. Navbar entry for workshop.html (sushi-config.yaml menu).
+#~ msgid "Workshop Modules (M and T)"
+#~ msgstr "Módulos del taller (M y T)"

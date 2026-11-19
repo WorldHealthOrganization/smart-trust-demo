@@ -7,7 +7,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "ea28d50a92b9614ab845c36eee72de06616c1a3d",
+          "ref": "d34ae7692a304983a495b20b62f37b8b98d3cb85",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -16,9 +16,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-16",
-              "ref": "ea28d50a92b9614ab845c36eee72de06616c1a3d",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-17",
+              "ref": "d34ae7692a304983a495b20b62f37b8b98d3cb85",
+              "evidence": "litlfred 2026-11-17 ~23:52Z, in session session_01EucfRn2hmBbRNLTgxehoZV: 're-pin fhir-harness and folio-assistant-core to main too' (smart-trust-demo#41, so lock:coherence:check passes)"
             }
           }
         }
@@ -29,7 +29,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "c17d92bba438d8b501a9fd51d6252802602d70c5",
+          "ref": "5f2558de7820ee6812efc4bf220a1ce6602e8b7e",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -44,9 +44,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-16",
-              "ref": "c17d92bba438d8b501a9fd51d6252802602d70c5",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-18",
+              "ref": "5f2558de7820ee6812efc4bf220a1ce6602e8b7e",
+              "evidence": "litlfred 2026-11-18, AskUserQuestion card in session session_01EucfRqV2dGc9cS3yHU81kC: 'Yes, all four (Recommended)' — re-pin cat-harness, folio-assistant-core, smart-base and who-iris to main with the cat-harness-tools re-pin in smart-trust-demo#47 (workshop calendar, cat-harness-tools#2444), so lock:freshness passes"
             }
           }
         }
@@ -57,7 +57,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "32bd4fe9d8b4529c97c9dbfd323c46cc5eddff96",
+          "ref": "dc97a6bc1aa3643e9dbf8213574225decb7e0e73",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -72,9 +72,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-16",
-              "ref": "32bd4fe9d8b4529c97c9dbfd323c46cc5eddff96",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-18",
+              "ref": "dc97a6bc1aa3643e9dbf8213574225decb7e0e73",
+              "evidence": "litlfred 2026-11-18, AskUserQuestion card in session session_01EucfRqV2dGc9cS3yHU81kC: 'Yes, all four (Recommended)' — re-pin cat-harness, folio-assistant-core, smart-base and who-iris to main with the cat-harness-tools re-pin in smart-trust-demo#47 (workshop calendar, cat-harness-tools#2444), so lock:freshness passes"
             }
           }
         }
@@ -85,7 +85,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "418672b09492c6c742a4f9bd09038288a29edfab",
+          "ref": "976c22c4ac82416fcbb533586ce396910998e31c",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -97,9 +97,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-16",
-              "ref": "418672b09492c6c742a4f9bd09038288a29edfab",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-18",
+              "ref": "976c22c4ac82416fcbb533586ce396910998e31c",
+              "evidence": "Owner consent to tools re-pins in this window (owner request relayed 2026-11-18, confirmed by the user in this session): smart-trust-demo takes litlfred/cat-harness-tools#2444 (workshop.schedule and the journeys viewer's calendar), merged as 976c22c4."
             }
           }
         }
@@ -110,7 +110,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+          "ref": "417192bef3ca2b9d6f3481b41c39f1f747cae57f",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -119,9 +119,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-17",
+              "ref": "417192bef3ca2b9d6f3481b41c39f1f747cae57f",
+              "evidence": "litlfred 2026-11-17 ~17:58Z, AskUserQuestion card in session session_01EucfRmoifSn3y5VFa3kXuQ: 'Yes, both (Recommended)' — re-pin bootstrap and bootstrap-tools to main with the smart-trust-demo#38 re-pin so lock:freshness passes"
             }
           }
         }
@@ -132,7 +132,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+          "ref": "60e5ffc23b88137c0d9eaef00601da89237df094",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -144,9 +144,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-15",
-              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-17",
+              "ref": "60e5ffc23b88137c0d9eaef00601da89237df094",
+              "evidence": "litlfred 2026-11-17 ~17:58Z, AskUserQuestion card in session session_01EucfRmoifSn3y5VFa3kXuQ: 'Yes, both (Recommended)' — re-pin bootstrap and bootstrap-tools to main with the smart-trust-demo#38 re-pin so lock:freshness passes"
             }
           }
         }
@@ -157,7 +157,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
+          "ref": "bc7e22c3f6ee56bcf59b4f9a24edfa34df8ab707",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -181,9 +181,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-16",
-              "ref": "f7290776b30cf851a3174384917b1dcc3890991b",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-18",
+              "ref": "bc7e22c3f6ee56bcf59b4f9a24edfa34df8ab707",
+              "evidence": "litlfred 2026-11-18, AskUserQuestion card in session session_01EucfRqV2dGc9cS3yHU81kC: 'Yes, all four (Recommended)' — re-pin cat-harness, folio-assistant-core, smart-base and who-iris to main with the cat-harness-tools re-pin in smart-trust-demo#47 (workshop calendar, cat-harness-tools#2444), so lock:freshness passes"
             }
           }
         }
@@ -194,7 +194,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "ebf19f235bd14081e8a7c73c09afb4fec5813728",
+          "ref": "0eb6c52ec3524f9ad6f139a28e1cb3a26882f71e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -230,9 +230,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-16",
-              "ref": "ebf19f235bd14081e8a7c73c09afb4fec5813728",
-              "evidence": "litlfred 2026-11-16T06:36:48Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9GbDZs1PWPLeRr9h1WjnESP): \"Yes, +12 hours\" — extend the repin and merge window past 07:01Z to 2026-11-16T19:01Z, to merge smart-base#430 and re-pin every leaf and folio-assistant onto it"
+              "on": "2026-11-18",
+              "ref": "0eb6c52ec3524f9ad6f139a28e1cb3a26882f71e",
+              "evidence": "litlfred 2026-11-18, AskUserQuestion card in session session_01EucfRqV2dGc9cS3yHU81kC: 'Yes, all four (Recommended)' — re-pin cat-harness, folio-assistant-core, smart-base and who-iris to main with the cat-harness-tools re-pin in smart-trust-demo#47 (workshop calendar, cat-harness-tools#2444), so lock:freshness passes"
             }
           }
         }
@@ -243,7 +243,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-trust-tools",
-          "ref": "579438f23e438e6d98b8f1c4515f3f67f77ef1af",
+          "ref": "04386ccc907025dbaa6b2cf974e42255febbb2fa",
           "overrides": {
             "smart-trust-tools": {
               "whole": true
@@ -252,9 +252,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-16",
-              "ref": "579438f23e438e6d98b8f1c4515f3f67f77ef1af",
-              "evidence": "litlfred 2026-11-15T19:01:19Z, card in thread cmsg_017WNUkNK8kdDziPK58Pv6G9HtujCofFVVPVPppfDRTSNR (decision cmsg_017WNUkNK8kdDziPK58Pv6G9L7BityLCAN5rXMwLd53Kkn): \"Yes, +12 hours\" — extend the repin and merge window so the stable point can finish (every pin to its main), to 2026-11-16T07:01Z"
+              "on": "2026-11-17",
+              "ref": "04386ccc907025dbaa6b2cf974e42255febbb2fa",
+              "evidence": "litlfred 2026-11-17: merge-and-repin window to 09:18Z (owner ~06:18Z in session session_01EucfRnjwjC8CPYgVnsFuHS, 'merge what green and ready'); moved to main with the fhir-harness#450 re-pin so lock:coherence:check (fresh at re-pin time) passes"
             }
           }
         }
@@ -301,8 +301,8 @@
       "description": "The user journeys of one cross-border family as a WHO SMART Guidelines L2 DAK and L3 implementation guide, built on the SMART Trust HCERT libraries.",
       "version": "0.1.0",
       "status": "draft",
-      "publicationUrl": "https://litlfred.github.io/smart-trust-demo/ig",
-      "previewUrl": "https://litlfred.github.io/smart-trust-demo/ig",
+      "publicationUrl": "https://worldhealthorganization.github.io/smart-trust-demo/ig",
+      "previewUrl": "https://worldhealthorganization.github.io/smart-trust-demo/ig",
       "canonicalUrl": "http://smart.who.int/trust-demo",
       "license": "CC0-1.0",
       "copyrightYear": "2026+",

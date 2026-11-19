@@ -7,10 +7,10 @@
   (TrustDemoOnesaReportedImmunization).
 -->
 <definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/"
-             xmlns:trace="https://litlfred.github.io/smart-trust-demo/ns/dak/"
+             xmlns:trace="https://worldhealthorganization.github.io/smart-trust-demo/ns/dak/"
              id="Definitions_DoseCounts"
              name="Does a dose count toward the national schedule"
-             namespace="https://litlfred.github.io/smart-trust-demo/decisions">
+             namespace="https://worldhealthorganization.github.io/smart-trust-demo/decisions">
   <decision id="Decision_DoseCounts" name="Does the national schedule count this dose?">
     <description>For one Immunization in the child's record, decide whether the schedule evaluation counts it as given.</description>
     <extensionElements>
@@ -20,8 +20,8 @@
       <trace:requirement ref="STD-SEM-001"/>
       <trace:artifact ref="StructureDefinition/TrustDemoOnesaImmunization"/>
       <trace:artifact ref="StructureDefinition/TrustDemoOnesaReportedImmunization"/>
-      <trace:dataElement ref="TD.J3B.DE02"/>
-      <trace:dataElement ref="TD.J3B.DE05"/>
+      <trace:dataElement ref="IMMZImmunization.primarySource"/>
+      <trace:dataElement ref="IMMZImmunization.vaccineCode"/>
     </extensionElements>
     <decisionTable id="Table_DoseCounts" hitPolicy="FIRST">
       <input id="In_Primary" label="Recorded from its primary source">

@@ -62,7 +62,7 @@
         {
           "icon": "syringe",
           "label": "Hepatitis B Birth Dose",
-          "code": "vp-hepb-peds-monovalent",
+          "code": "a3K3X000006MiiXUAS",
           "detail": "Lot XXR-4821 • Left anterolateral thigh • 0.5 mL • IM",
           "status": {
             "text": "Completed (T0)",
@@ -72,7 +72,7 @@
         {
           "icon": "syringe",
           "label": "BCG Vaccine (Freeze-Dried)",
-          "code": "vp-bcg-freeze-dried",
+          "code": "a3K3X000006MiisUAC",
           "detail": "Lot XXR-9012 • Right upper arm • 0.05 mL • ID",
           "status": {
             "text": "Completed (T0)",
@@ -129,7 +129,7 @@
       "column": "side",
       "mono": true,
       "icon": "file",
-      "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
+      "text": "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}",
       "only": [
         "raw-payload"
       ]
@@ -155,13 +155,13 @@
       "id": "actions"
     }
   ],
-  "try": "Ask who signed the cards, and what an Onesan health worker can check without a network",
+  "try": "Ask who signed the cards, and what a health worker in Onesa can check without a network",
   "stateLabel": "Cards ready",
   "states": [
     {
       "id": "raw-payload",
       "label": "Raw CBOR payload",
-      "try": "Point at what the card carries: a WHO PreQual product code, a lot and a date, signed by Taifafeki's key (kid 916ffa567c0f44a2)"
+      "try": "Point at what the card carries: a WHO PreQual product code, a lot and a date, signed by the key of Taifafeki (kid 916ffa567c0f44a2)"
     },
     {
       "id": "printed",

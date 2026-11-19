@@ -1,0 +1,21 @@
+{
+  "$schema": "translation-node/v1",
+  "$comment": "Arabic translation of the ArchiMate pages (model, views, element and relationship pages, drawings). Agent translation, unofficial: no human has adjudicated it. Round-trip checked (blind back-translation, adjudicated). Coverage 1384/1384.",
+  "label": "trans:ar/archimate",
+  "locale": "ar",
+  "sourceFile": "translations/ar/archimate.pot",
+  "potFile": "translations/ar/archimate.pot",
+  "poFile": "translations/ar/archimate.po",
+  "status": {
+    "locale": "ar",
+    "official": false,
+    "generatedBy": "agent",
+    "generatedAt": "2026-11-16T08:45:52Z",
+    "generator": "agent translation (smart-trust-demo ar session, archimate)"
+  },
+  "coverage": {
+    "translated": 1384,
+    "total": 1384,
+    "pct": 100
+  }
+}
