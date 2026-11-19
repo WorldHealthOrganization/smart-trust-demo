@@ -25,5 +25,5 @@ The owner gave the workshop's Country Canvas (A3, a cover and Sheets 1 to 6) on 
 
 The owner asked that the interactive sheets look exactly like the PDF, each part under its module, with no additional questions ([[dir-canvas-as-printed]]). The fix is the second option above, typed blocks: the viewer's canvas (cat-harness-tools `schemas/process/workshop.ts`, `scripts/journeys/canvas-form.ts`) now draws a sheet's band, header write-ins and footer, numbered sections with minutes, DISCUSS and RULES and their module, tables with printed columns (the 25-row architecture map with E / P / A, the 15 data elements with Same / Differently / Not at all, the four decisions with their formal basis), cards (the four touchpoints with Works / Partly / Breaks, the propositions A to C, the Sheet 6 form) and sentences with blanks; each sheet is sized to its content on screen. The canvas data in `workshops/dpi-h-policy-track.workshop.json` follows the PDF page by page.
 
-Done when the cat-harness-tools change merges and is re-pinned here.
+The viewer change is litlfred/cat-harness-tools#2471, merged as e5b7b181 and pinned here in #175.
 
