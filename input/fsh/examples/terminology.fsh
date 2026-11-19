@@ -1,13 +1,22 @@
-Alias: $PreQualProductIds = http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds
+// The vaccine codings of the journeys. Both code systems are illustrative
+// stand-ins, as in the VaxLink walkthrough: TrustDemoVaccineProduct stands in
+// for WHO PreQual product ids (the issuer's coding, as signed in a DVC) and
+// TrustDemoOnesaEpiSchedule for a national schedule's antigen-and-dose codes.
+// Neither is an official code system; real deployments use the WHO PreQual
+// ids and the country's own schedule codes.
 
-// The vaccine codings of the journeys. The issuer's product coding (as signed
-// in a DVC, DVCMinPreQual vp) is the WHO PreQual product id, from the code
-// system of the SMART Product Dataset for Prequalified Vaccines
-// (smart.who.int/pcmt-vaxprequal, ValueSet PreQualProductIds); which PreQual
-// product each fictional dose was given is illustrative. Only the national
-// schedule's antigen-and-dose codes, TrustDemoOnesaEpiSchedule, are a
-// stand-in, as in the VaxLink walkthrough: real deployments use the
-// country's own schedule codes.
+CodeSystem: TrustDemoVaccineProduct
+Id: TrustDemoVaccineProduct
+Title: "Vaccine products (illustrative PreQual-style codes)"
+Description: "Illustrative product codes in the style of WHO PreQual product ids, as the VaxLink walkthrough uses them: the issuer's coding of each dose. Not WHO PreQual ids."
+* ^experimental = true
+* ^caseSensitive = true
+* #vp-hepb-peds-monovalent "Hepatitis B vaccine, paediatric, monovalent"
+* #vp-bcg-freeze-dried "BCG vaccine, freeze-dried"
+* #vp-pentavalent-liquid "DTP-HepB-Hib (pentavalent), liquid"
+* #vp-bopv-drops "Bivalent oral polio vaccine (bOPV), drops"
+* #vp-pcv-13-dose "Pneumococcal conjugate vaccine (PCV)"
+* #vp-mr-freeze-dried "Measles-rubella vaccine, freeze-dried"
 
 CodeSystem: TrustDemoOnesaEpiSchedule
 Id: TrustDemoOnesaEpiSchedule
@@ -25,14 +34,9 @@ Description: "Illustrative antigen-and-dose codes of a national immunization sch
 ValueSet: TrustDemoVaccineProducts
 Id: TrustDemoVaccineProducts
 Title: "Vaccine products of the journeys"
-Description: "The WHO PreQual product ids (PreQualProductIds, smart.who.int/pcmt-vaxprequal) of the doses given in the journeys: the issuer's coding of each dose, as signed in its DVC, and the source of the national ConceptMap."
+Description: "Every product code of TrustDemoVaccineProduct: the source of the national ConceptMap."
 * ^experimental = true
-* $PreQualProductIds#a3K3X000006MiiXUAS "Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]"
-* $PreQualProductIds#a3K3X000006MiisUAC "BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117]"
-* $PreQualProductIds#a3K3X000006MijGUAS "Eupenta (DTwP-HepB-Hib), LG Chem Ltd (LGC), Vial, 10 doses [FVP-P-305]"
-* $PreQualProductIds#a3K3X000006MijBUAS "Poliomyelitis Vaccine (Oral) Bivalent types 1 and 3 (bOPV), Serum Institute of India, Vial, 10 doses [FVP-P-281]"
-* $PreQualProductIds#a3K3X000006MijJUAS "PNEUMOSIL® (PCV), Serum Institute of India, Vial, 5 doses [FVP-P-385]"
-* $PreQualProductIds#a3K3X000006MiimUAC "Measles and Rubella Vaccine Live Attenuated (MR), Serum Institute of India, Vial, 10 doses [FVP-P-140]"
+* include codes from system TrustDemoVaccineProduct
 
 ValueSet: TrustDemoOnesaEpiScheduleCodes
 Id: TrustDemoOnesaEpiScheduleCodes
@@ -52,31 +56,25 @@ Usage: #definition
 * experimental = true
 * sourceCanonical = Canonical(TrustDemoVaccineProducts)
 * targetCanonical = Canonical(TrustDemoOnesaEpiScheduleCodes)
-* group[+].source = "http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds"
+* group[+].source = Canonical(TrustDemoVaccineProduct)
 * group[=].target = Canonical(TrustDemoOnesaEpiSchedule)
-* group[=].element[+].code = #a3K3X000006MiiXUAS
-* group[=].element[=].display = "Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]"
+* group[=].element[+].code = #vp-hepb-peds-monovalent
 * group[=].element[=].target[+].code = #XXU-EPI-HEPB-BD
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[=].comment = "Added from the nurse's adjudication at Lomaru District Health Center, 2026-01-06: a monovalent paediatric Hep B dose given within 24 hours of birth counts as the schedule's birth dose."
-* group[=].element[+].code = #a3K3X000006MiisUAC
-* group[=].element[=].display = "BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117]"
+* group[=].element[+].code = #vp-bcg-freeze-dried
 * group[=].element[=].target[+].code = #XXU-EPI-BCG
 * group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[+].code = #a3K3X000006MijGUAS
-* group[=].element[=].display = "Eupenta (DTwP-HepB-Hib), LG Chem Ltd (LGC), Vial, 10 doses [FVP-P-305]"
+* group[=].element[+].code = #vp-pentavalent-liquid
 * group[=].element[=].target[+].code = #XXU-EPI-PENTA-1
 * group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[+].code = #a3K3X000006MijBUAS
-* group[=].element[=].display = "Poliomyelitis Vaccine (Oral) Bivalent types 1 and 3 (bOPV), Serum Institute of India, Vial, 10 doses [FVP-P-281]"
+* group[=].element[+].code = #vp-bopv-drops
 * group[=].element[=].target[+].code = #XXU-EPI-OPV-1
 * group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[+].code = #a3K3X000006MijJUAS
-* group[=].element[=].display = "PNEUMOSIL® (PCV), Serum Institute of India, Vial, 5 doses [FVP-P-385]"
+* group[=].element[+].code = #vp-pcv-13-dose
 * group[=].element[=].target[+].code = #XXU-EPI-PCV-1
 * group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[+].code = #a3K3X000006MiimUAC
-* group[=].element[=].display = "Measles and Rubella Vaccine Live Attenuated (MR), Serum Institute of India, Vial, 10 doses [FVP-P-140]"
+* group[=].element[+].code = #vp-mr-freeze-dried
 * group[=].element[=].target[+].code = #XXU-EPI-MR-1
 * group[=].element[=].target[=].equivalence = #equivalent
 

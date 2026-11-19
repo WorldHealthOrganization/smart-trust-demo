@@ -48,8 +48,8 @@ msgstr "Пути рассказывают историю <a0>VaxLink</a0> (за�
 
 #: input/pagecontent/changes.md:7
 #, python-brace-format
-msgid "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Products are coded with their WHO PreQual product ids (smart.who.int/pcmt-vaxprequal {code10}, issue <a0>#35</a0>); one illustrative code system stands in for national schedule codes."
-msgstr ""
+msgid "New examples: household {code0}, registration {code1} and response, reported and verified {code2}s, verification and adjudication {code3}, {code4} from product to schedule code, an illustrative schedule {code5}, {code6} and reminder {code7}, the four doses given in Onesa, a six-dose IPS, {code8}, and two {code9}s (access granted, wrong passcode). Two illustrative code systems stand in for PreQual product ids and national schedule codes."
+msgstr "Новые примеры: домохозяйство {code0}, регистрация {code1} и ответ, заявленные и проверенные {code2}, проверка и вынесение решения {code3}, {code4} от препарата к коду графика, иллюстративный график {code5}, {code6} и напоминание {code7}, четыре дозы, введённые в стране Onesa, IPS с шестью дозами, {code8} и два {code9} (доступ предоставлен, неверный код доступа). Две иллюстративные кодовые системы заменяют идентификаторы препаратов PreQual и коды национального графика."
 
 #: input/pagecontent/changes.md:3
 #, python-brace-format

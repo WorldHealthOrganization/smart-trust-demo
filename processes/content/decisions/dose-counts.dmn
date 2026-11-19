@@ -20,8 +20,8 @@
       <trace:requirement ref="STD-SEM-001"/>
       <trace:artifact ref="StructureDefinition/TrustDemoOnesaImmunization"/>
       <trace:artifact ref="StructureDefinition/TrustDemoOnesaReportedImmunization"/>
-      <trace:dataElement ref="IMMZImmunization.primarySource"/>
-      <trace:dataElement ref="IMMZImmunization.vaccineCode"/>
+      <trace:dataElement ref="TD.J3B.DE02"/>
+      <trace:dataElement ref="TD.J3B.DE05"/>
     </extensionElements>
     <decisionTable id="Table_DoseCounts" hitPolicy="FIRST">
       <input id="In_Primary" label="Recorded from its primary source">

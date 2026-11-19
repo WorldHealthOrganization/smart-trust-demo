@@ -37,7 +37,7 @@ The home country's portal that issues each family member's records (IPS, DVCs) a
 
 - Decision table [TD.DT.05 Does the portal release the manifest for this request?](decision-logic.html#tddt05-does-the-portal-release-the-manifest-for-this-request), in: Check passcode, log access, return manifest
 
-**Data sets its tasks record or read**: [J4 VHLPayload VHL Payload](dictionary.html#j4-vhlpayload-vhl-payload)
+**Data sets its tasks record or read**: [TD.J40 Shared link and consent](dictionary.html#tdj40-shared-link-and-consent); [TD.J41 Access to a shared link](dictionary.html#tdj41-access-to-a-shared-link)
 
 **Indicators that count its decisions**: [TD.IND.02 Shared-link openings that were authorised](indicators.html#tdind02-shared-link-openings-that-were-authorised)
 """

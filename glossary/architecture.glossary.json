@@ -241,7 +241,7 @@
     {
       "id": "part-xxr-product-codes",
       "prefLabel": "Vaccine product code registry",
-      "definition": "Holds the WHO PreQual product ids the hospital records doses against, which the receiving country maps to its own schedule codes (J1, J3).",
+      "definition": "Publishes the vaccine product codes the hospital records doses against, which the receiving country maps to its own schedule codes (J1, J3).",
       "broader": [
         "actor-kesaro-provincial-hospital"
       ],

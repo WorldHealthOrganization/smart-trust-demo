@@ -33,7 +33,7 @@ The DSC private key of the issuing participant, in an HSM, cloud KMS or Android 
 - [J1 Issue the newborn's birth-dose DVCs in Country A](business-processes.html#j1-issue-the-newborns-birth-dose-dvcs-in-country-a): Sign the bytes with XXR's DSC key
 - [J4.0 Issue the family's records to one phone as VHLs](business-processes.html#j40-issue-the-familys-records-to-one-phone-as-vhls): Sign with Country B's DSC key
 
-**Data sets its tasks record or read**: [J1 CWT CBOR Web Token (CWT)](dictionary.html#j1-cwt-cbor-web-token-cwt)
+**Data sets its tasks record or read**: [TD.J1 Birth-dose DVC](dictionary.html#tdj1-birth-dose-dvc)
 """
 * documentation = "https://github.com/litlfred/smart-trust-demo/blob/main/scenarios/roles.json"
 * derivedFrom[+] = "http://smart.who.int/trust/ActorDefinition/TrustNetworkParticipant"

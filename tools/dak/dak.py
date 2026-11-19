@@ -1,11 +1,9 @@
 """The DAK's data dictionary, decision tables and indicators, read one way.
 
 Sources:
-- dak/data-dictionary.json             the data dictionary: one model of an
-                                       existing specification per data set a
-                                       journey records or exchanges (the demo
-                                       defines none of its own, issue #33),
-                                       and the code lists the decisions use
+- dak/data-dictionary.json             the data dictionary: one logical model per
+                                       data set a journey records or exchanges,
+                                       and the code lists its elements bind to
 - processes/content/decisions/*.dmn    the decision tables (OMG DMN 1.3), each
                                        naming the BPMN tasks it serves, the
                                        requirements it applies, the FHIR
@@ -29,16 +27,15 @@ TRACE = "{https://worldhealthorganization.github.io/smart-trust-demo/ns/dak/}"
 BPMN = "{http://www.omg.org/spec/BPMN/20100524/MODEL}"
 REQ_ID = re.compile(r"\bST[TD]-[A-Z0-9]+-\d{3}\b")
 DT_ID = re.compile(r"\bTD\.DT\.\d{2}\b")
-# The demonstrator's own data sets and data elements (TD.J3A, TD.J1.DE01), retired
-# by issue #33: a data element is now <upstream model id>.<path>.
-RETIRED_ID = re.compile(r"\bTD\.J[0-9A-Z]+(?:\.DE\d{2})?\b")
-KINDS = {"logical", "profile"}
+DE_ID = re.compile(r"\bTD\.[A-Z0-9]+\.DE\d{2}\b")
 
 # The FEEL the harness's decision-table interpreter accepts (cat-harness skill
 # dmn-authoring): "-" (any), literals, comparisons and one-of.
 _LIT = r'(?:"[^"]*"|true|false|null|-?\d+(?:\.\d+)?|(?:<=|>=|<|>|=)\s*-?\d+(?:\.\d+)?)'
 FEEL_INPUT = re.compile(rf"^(?:-|{_LIT}(?:\s*,\s*{_LIT})*)$")
 FEEL_OUTPUT = re.compile(rf"^{_LIT}$")
+TYPES = {"string", "boolean", "code", "date", "dateTime", "uri", "integer", "Identifier", "Coding",
+         "CodeableConcept", "BackboneElement"}
 CARD = re.compile(r"^(0|1)\.\.(1|\*)$")
 
 
@@ -51,11 +48,11 @@ def indicators(root=ROOT):
 
 
 def elements(root=ROOT):
-    """Every data element by its id, <model id>.<path> (IMMZImmunization.primarySource): (model, element)."""
+    """Every data element by its full code (TD.J1.DE01): (model, element)."""
     out = {}
     for m in dictionary(root)["models"]:
         for e in m["elements"]:
-            out[f"{m['id']}.{e['path']}"] = (m, e)
+            out[f"{m['code']}.{e['code']}"] = (m, e)
     return out
 
 
@@ -141,39 +138,30 @@ def errors(known_requirements, root=ROOT):
     names = fsh_names(root)
     dd = dictionary(root)
     lists = {c["id"] for c in dd["codeLists"]}
-    model_ids = set()
+    model_codes = set()
     for m in dd["models"]:
         where = f"dak/data-dictionary.json: model {m['id']}"
-        if m["id"] in model_ids:
-            errs.append(f"{where}: id is used twice")
-        model_ids.add(m["id"])
-        if m["id"] in names:
-            errs.append(f"{where}: input/fsh/ defines {m['id']}; the dictionary names upstream models and defines none")
-        if m.get("kind") not in KINDS:
-            errs.append(f"{where}: kind {m.get('kind')!r} is not one of {', '.join(sorted(KINDS))}")
-        for field in ("canonical", "url"):
-            if not str(m.get(field, "")).startswith("http"):
-                errs.append(f"{where}: {field} is not an http(s) URL")
-        for field in ("title", "package", "version", "home"):
-            if not (m.get("ig") or {}).get(field):
-                errs.append(f"{where}: ig.{field} is missing")
+        if m["code"] in model_codes:
+            errs.append(f"{where}: code {m['code']} is used twice")
+        model_codes.add(m["code"])
         for s in m["serves"]:
             errs += _serves_errors(where, s["process"], s["tasks"])
         for ref in m["realisedBy"]:
             errs += _artifact_errors(where, ref, names)
-        paths = set()
+        paths, codes = set(), set()
         for e in m["elements"]:
             w = f"{where} element {e['path']}"
-            if e["path"] in paths:
-                errs.append(f"{w}: path is used twice")
+            if e["code"] in codes:
+                errs.append(f"{w}: code {e['code']} is used twice")
+            codes.add(e["code"])
             parent = e["path"].rpartition(".")[0]
             if parent and parent not in paths:
                 errs.append(f"{w}: parent {parent} is not an earlier element")
             paths.add(e["path"])
             if not CARD.match(e["card"]):
                 errs.append(f"{w}: cardinality {e['card']} is not 0..1, 1..1, 0..* or 1..*")
-            if not re.match(r"^[A-Za-z]+(\([A-Za-z]+\))?$", e["type"]):
-                errs.append(f"{w}: type {e['type']} is not a FHIR type name")
+            if e["type"] not in TYPES and not re.match(r"^Reference\([A-Za-z]+\)$", e["type"]):
+                errs.append(f"{w}: type {e['type']} is not one the dictionary uses")
             vs = (e.get("binding") or {}).get("valueSet")
             if vs and not vs.startswith("http") and vs not in names and vs[:-2] not in lists:
                 errs.append(f"{w}: binds to {vs}, which is neither a code list here nor an FSH ValueSet")
@@ -237,13 +225,6 @@ def errors(known_requirements, root=ROOT):
         for r in ind["requirements"]:
             if r not in known_requirements:
                 errs.append(f"{where}: cites {r}, which no requirement defines")
-    retired = [root / "dak" / "data-dictionary.json", root / "dak" / "indicators.json",
-               *sorted((root / "processes" / "content").rglob("*.dmn")),
-               *sorted((root / "processes" / "content").glob("*.bpmn"))]
-    for f in retired:
-        for de in sorted(set(RETIRED_ID.findall(f.read_text(encoding="utf-8")))):
-            errs.append(f"{f.relative_to(root)}: names {de}, a data set or data element the demo no longer defines "
-                        "(issue #33): name the upstream model's element, <model id>.<path>")
     for rel in ("dak/data-dictionary.json", "dak/indicators.json"):
         text = (root / rel).read_text(encoding="utf-8")
         for r in sorted(set(REQ_ID.findall(text))):
@@ -252,4 +233,7 @@ def errors(known_requirements, root=ROOT):
         for t in sorted(set(DT_ID.findall(text))):
             if t not in tables:
                 errs.append(f"{rel}: names decision table {t}, which no .dmn defines")
+        for de in sorted(set(DE_ID.findall(text))):
+            if de not in all_elements:
+                errs.append(f"{rel}: names data element {de}, which the dictionary does not define")
     return errs

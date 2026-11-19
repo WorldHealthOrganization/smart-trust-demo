@@ -1,5 +1,5 @@
 {
-  "$comment": "The DAK's indicators and performance metrics (component 6 of a WHO SMART Guidelines DAK). Definitions only: each says what is counted and how it is broken down, and states no target and no value. tools/ig-gen/ig_gen.py writes one FHIR Measure per indicator (input/fsh/dak/) and the Indicators page (input/pagecontent/indicators.md) from this file. `basis` is the FHIR resource an indicator counts, where this guide realises every record it counts: TD.IND.01 has none, since a DVC that fails verification is not yet a resource here (the verification Provenance exists only for a DVC that verified). Data elements are those of the upstream models the dictionary names, as <model id>.<path> (issue #33). tools/repo-checks/repo_checks.py checks that every data element, decision table and requirement it names exists.",
+  "$comment": "The DAK's indicators and performance metrics (component 6 of a WHO SMART Guidelines DAK). Definitions only: each says what is counted and how it is broken down, and states no target and no value. tools/ig-gen/ig_gen.py writes one FHIR Measure per indicator (input/fsh/dak/) and the Indicators page (input/pagecontent/indicators.md) from this file. `basis` is the FHIR resource an indicator counts, where this guide realises every record it counts: TD.IND.01 has none, since a DVC that fails verification is not yet a resource here (data set TD.J3A). tools/repo-checks/repo_checks.py checks that every data element, decision table and requirement it names exists.",
   "indicators": [
     {
       "code": "TD.IND.01",
@@ -9,11 +9,11 @@
       "journeys": ["J3"],
       "numerator": {
         "description": "Foreign DVCs scanned for verification in the reporting period whose dose was recorded as verified.",
-        "computation": "COUNT of foreign DVCs the clinic's HCERT library verifies in the reporting period (CWT.header.4 found on the trust list) WHERE the dose is imported as an Immunization (IMMZImmunization) with primarySource = true"
+        "computation": "COUNT of verification records (TD.J3A) WHERE \"Verified at\" is in the reporting period AND \"Record outcome\" = verified"
       },
       "denominator": {
         "description": "Foreign DVCs scanned for verification in the reporting period.",
-        "computation": "COUNT of foreign DVCs the clinic's HCERT library is asked to verify in the reporting period, verified or not"
+        "computation": "COUNT of verification records (TD.J3A) WHERE \"Verified at\" is in the reporting period"
       },
       "disaggregations": [
         {"label": "Record outcome", "description": "verified, reported-unverified, rejected, not-read (TD.DT.01)"},
@@ -21,7 +21,7 @@
         {"label": "Issuing country", "description": "the participant that signed the DVC"},
         {"label": "Facility", "description": "the clinic that verified"}
       ],
-      "dataElements": ["CWT.header.4", "CWT.payload.1", "IMMZImmunization.primarySource"],
+      "dataElements": ["TD.J3A.DE02", "TD.J3A.DE03", "TD.J3A.DE05", "TD.J3A.DE07", "TD.J3A.DE09"],
       "decisionTables": ["TD.DT.01"],
       "requirements": ["STT-VER-001", "STT-VER-006", "STT-VER-008"]
     },
@@ -34,17 +34,17 @@
       "journeys": ["J4.1"],
       "numerator": {
         "description": "Manifest requests in the reporting period that were released.",
-        "computation": "COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period AND AuditEvent.outcome is success"
+        "computation": "COUNT of access records (TD.J41) WHERE \"Requested at\" is in the reporting period AND \"Released\" = true"
       },
       "denominator": {
         "description": "Manifest requests in the reporting period, released or refused.",
-        "computation": "COUNT of manifest-request AuditEvent (TrustDemoOnesaVhlAccess) WHERE AuditEvent.recorded is in the reporting period"
+        "computation": "COUNT of access records (TD.J41) WHERE \"Requested at\" is in the reporting period"
       },
       "disaggregations": [
         {"label": "Refusal reason", "description": "wrong-passcode, expired, withdrawn (TD.DT.05)"},
         {"label": "Requesting system", "description": "the receiver abroad, and its country"}
       ],
-      "dataElements": ["VHLPayload.exp", "VHLPayload.flag", "VHLPayload.url"],
+      "dataElements": ["TD.J41.DE01", "TD.J41.DE02", "TD.J41.DE06", "TD.J41.DE08"],
       "decisionTables": ["TD.DT.05"],
       "requirements": ["STD-ACC-001"]
     },
@@ -57,17 +57,17 @@
       "journeys": ["J2", "J3"],
       "numerator": {
         "description": "Referrals made in the reporting period for which the clinic has recorded an outcome for every dose the referral lists.",
-        "computation": "COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period AND ServiceRequest.status = completed"
+        "computation": "COUNT of referrals (TD.J2B) WHERE \"Referred at\" is in the reporting period AND \"Referral status\" = completed"
       },
       "denominator": {
         "description": "Referrals for verification made by community health workers in the reporting period.",
-        "computation": "COUNT of referral ServiceRequest (TrustDemoOnesaReferral) WHERE ServiceRequest.authoredOn is in the reporting period"
+        "computation": "COUNT of referrals (TD.J2B) WHERE \"Referred at\" is in the reporting period"
       },
       "disaggregations": [
         {"label": "Referred to", "description": "the clinic referred to"},
         {"label": "Referred by", "description": "the community health worker"}
       ],
-      "dataElements": ["IMMZC4.uniqueIdentifier", "IMMZImmunization.primarySource"],
+      "dataElements": ["TD.J2B.DE02", "TD.J2B.DE03", "TD.J2B.DE04", "TD.J2B.DE06", "TD.J2B.DE07"],
       "decisionTables": ["TD.DT.01"],
       "requirements": ["STT-VER-011"]
     },
@@ -80,17 +80,17 @@
       "journeys": ["J3"],
       "numerator": {
         "description": "Doses imported as verified in the reporting period that carry a national schedule code.",
-        "computation": "COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period AND vaccineCode has a coding from TrustDemoOnesaEpiScheduleCodes"
+        "computation": "COUNT of imported doses (TD.J3B) WHERE imported in the reporting period AND \"Mapping basis\" in (concept-map, clinician-confirmed)"
       },
       "denominator": {
         "description": "Doses imported as verified in the reporting period.",
-        "computation": "COUNT of Immunization (IMMZImmunization) WHERE primarySource = true AND imported in the reporting period"
+        "computation": "COUNT of imported doses (TD.J3B) WHERE imported in the reporting period AND \"Mapping basis\" != not-imported"
       },
       "disaggregations": [
         {"label": "Mapping basis", "description": "concept-map, clinician-confirmed, unmapped (TD.DT.02)"},
         {"label": "Issuer's product code", "description": "the product as signed"}
       ],
-      "dataElements": ["DVCMinPreQual.vx.vp", "IMMZImmunization.primarySource", "IMMZImmunization.vaccineCode"],
+      "dataElements": ["TD.J3B.DE01", "TD.J3B.DE02", "TD.J3B.DE03", "TD.J3B.DE05"],
       "decisionTables": ["TD.DT.02", "TD.DT.03"],
       "requirements": ["STD-SEM-001", "STD-SCH-001"]
     }

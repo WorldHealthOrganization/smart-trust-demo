@@ -1,4 +1,3 @@
-Alias: $PreQualProductIds = http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds
 // J2a and J2b, Village 04 (Khamla's village), Onesa, 2025-12-16 (T0 + 7 weeks). Vilay adds
 // Somsak to the Sengmany household offline, scans the two paper DVCs without
 // verifying them, saves the doses as reported by the family, and refers him
@@ -88,7 +87,7 @@ Title: "J2b reported: Hep B birth dose (DVC read, not verified)"
 Description: "The Hep B birth dose as the CHW app saves it after reading the paper DVC offline without verifying it (STT-VER-011): reported by the family, primarySource false, only the issuer's product coding."
 Usage: #example
 * status = #completed
-* vaccineCode = $PreQualProductIds#a3K3X000006MiiXUAS "Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]"
+* vaccineCode = TrustDemoVaccineProduct#vp-hepb-peds-monovalent "Hepatitis B vaccine, paediatric, monovalent"
 * patient = Reference(TrustDemoSomsak)
 * occurrenceDateTime = "2025-10-28"
 * primarySource = false
@@ -103,7 +102,7 @@ Title: "J2b reported: BCG birth dose (DVC read, not verified)"
 Description: "The BCG birth dose as the CHW app saves it after the unverified read: reported by the family, primarySource false."
 Usage: #example
 * status = #completed
-* vaccineCode = $PreQualProductIds#a3K3X000006MiisUAC "BCG Vaccine (BCG), Serum Institute of India, Vial, 20 doses [FVP-P-117]"
+* vaccineCode = TrustDemoVaccineProduct#vp-bcg-freeze-dried "BCG vaccine, freeze-dried"
 * patient = Reference(TrustDemoSomsak)
 * occurrenceDateTime = "2025-10-28"
 * primarySource = false

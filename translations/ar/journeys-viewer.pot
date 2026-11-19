@@ -5471,7 +5471,7 @@ msgid "DVC verifier: we have this"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S1/index.html:0
-msgid "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"a3K3X000006MiiXUAS\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}"
+msgid "DVCMinPreQual CBOR · ES256 (alg -7) · {\"header\":{\"alg\":-7,\"kid\":\"916ffa567c0f44a2\",\"iss\":\"XXR\"},\"hcert\":{\"v\":[{\"tg\":\"840534001\",\"vp\":\"vp-hepb-peds-monovalent\",\"lot\":\"XXR-4821\",\"dt\":\"2025-10-28\",\"co\":\"XXR\"}],\"nam\":{\"fn\":\"Sengmany\",\"gn\":\"Somsak\"},\"dob\":\"2025-10-28\"}}"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/discuss/index.html:0
@@ -7451,7 +7451,7 @@ msgid "Immunization record service: we have this"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/workshops/dpi-h-policy-track/demo/S5/index.html:0
-msgid "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds\",\"code\":\"a3K3X000006MiiXUAS\",\"display\":\"Hepatitis B Vaccine (rDNA) (Paediatric) (HepB), Serum Institute of India, Vial, 10 doses [FVP-P-132]\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
+msgid "Immunization.vaccineCode.coding[] = [{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoVaccineProduct\",\"code\":\"vp-hepb-peds-monovalent\",\"display\":\"Hepatitis B vaccine, paediatric, monovalent\"},{\"system\":\"http://smart.who.int/trust-demo/CodeSystem/TrustDemoOnesaEpiSchedule\",\"code\":\"XXU-EPI-HEPB-BD\",\"display\":\"Hepatitis B birth dose\"}]"
 msgstr ""
 
 #: en/smart-trust-demo/journeys/smart-trust-demo/j1-born-abroad/index.html:0

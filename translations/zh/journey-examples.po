@@ -448,8 +448,8 @@ msgstr "国家接种计划中的一个剂次：Onesa EPI 代码为必需，外�
 
 #: docs/journey-examples.md:66
 #, python-brace-format
-msgid "Code systems. Each dose's product is coded with its WHO PreQual product id ({code0} for the Hep B birth dose and so on), from the code system {code1} of the <a0>SMART Product Dataset for Prequalified Vaccines</a0>, and the ValueSet {code2} lists the ones the journeys use; which product each fictional dose was given is illustrative. The schedule codes of Onesa ({code3} and so on) are illustrative, defined here as the code system {code4}, marked experimental, under this guide's canonical, so no URL implies a real ministry."
-msgstr "代码系统。每剂次的产品均以其 WHO PreQual 产品标识符编码（乙肝出生剂次为 {code0}，以此类推），来自 <a0>SMART Product Dataset for Prequalified Vaccines</a0> 的代码系统 {code1}，ValueSet {code2} 列出各旅程所用的产品；每个虚构剂次所接种的具体产品仅作示意。Onesa 的接种计划代码（{code3} 等）仅作示意，在此被定义为代码系统 {code4}，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部。"
+msgid "Code systems. The walkthrough's product codes ({code0} and so on) and the schedule codes of Onesa ({code1} and so on) are illustrative. They are defined here as the code systems {code2} and {code3}, marked experimental, under this guide's canonical, so no URL implies a real ministry or a real WHO code system."
+msgstr "代码系统。演练中的产品代码（{code0} 等）和 Onesa 的接种计划代码（{code1} 等）仅作示意。它们在此被定义为代码系统 {code2} 和 {code3}，标记为实验性，位于本指南的规范 URL（canonical）之下，因此任何 URL 都不暗示真实的卫生部或真实的 WHO 代码系统。"
 
 #: docs/journey-examples.md:69
 msgid "Dates. As in the walkthrough: birth 2025-10-28, J2 2025-11-18, J3 2025-11-25, the doses in Onesa 2025-12-10 and 2026-07-28, the trip 2026-10-28."
