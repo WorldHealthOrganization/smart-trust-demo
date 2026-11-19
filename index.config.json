@@ -85,7 +85,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "976c22c4ac82416fcbb533586ce396910998e31c",
+          "ref": "15fc205d356eda5aeb95af379216076606c23904",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -97,9 +97,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-18",
-              "ref": "976c22c4ac82416fcbb533586ce396910998e31c",
-              "evidence": "Owner consent to tools re-pins in this window (owner request relayed 2026-11-18, confirmed by the user in this session): smart-trust-demo takes litlfred/cat-harness-tools#2444 (workshop.schedule and the journeys viewer's calendar), merged as 976c22c4."
+              "on": "2026-11-19",
+              "ref": "15fc205d356eda5aeb95af379216076606c23904",
+              "evidence": "litlfred 2026-11-19 ~15:45Z, AskUserQuestion card in session session_01EucfRoB8Hr2JW51K9uzGtd: 'Yes, re-pin (Recommended)' — pin cat-harness-tools to 15fc205d (cat-harness-tools#2473, the canvas PDF appendix, on top of #2471) for smart-trust-demo#175, other layers unchanged."
             }
           }
         }
