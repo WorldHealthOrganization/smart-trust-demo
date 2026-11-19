@@ -85,7 +85,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "e5b7b181b65f3073461788d7f270c23552177763",
+          "ref": "15fc205d356eda5aeb95af379216076606c23904",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -98,8 +98,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-19",
-              "ref": "e5b7b181b65f3073461788d7f270c23552177763",
-              "evidence": "litlfred 2026-11-19, AskUserQuestion card in session session_01EucfRoB8Hr2JW51K9uzGtd: 'Yes, re-pin (Recommended)' — pin cat-harness-tools to e5b7b181 (cat-harness-tools#2471) for smart-trust-demo#175, other layers unchanged. Background: the owner's request of 2026-11-19, relayed by the merge manager session_01EucfRnjwjC8CPYgVnsFuHS:\"the interactive canvas sheets on smart-trust-demo i want them to look exactly like source PDF and position with M1 M2 as appropriate. there should be no additional questions.\" Brief, item 4: \"If the fix belongs in the viewer, make it in litlfred/cat-harness-tools ... open a PR there, then re-pin here.\" The viewer change is litlfred/cat-harness-tools#2471, merged to main as e5b7b181; the merge manager asked for this re-pin on 2026-11-19 (12:38Z). For litlfred/smart-trust-demo#175."
+              "ref": "15fc205d356eda5aeb95af379216076606c23904",
+              "evidence": "litlfred 2026-11-19 ~15:45Z, AskUserQuestion card in session session_01EucfRoB8Hr2JW51K9uzGtd: 'Yes, re-pin (Recommended)' — pin cat-harness-tools to 15fc205d (cat-harness-tools#2473, the canvas PDF appendix, on top of #2471) for smart-trust-demo#175, other layers unchanged."
             }
           }
         }
