@@ -1,11 +1,10 @@
 {
-  "_comment": "The two days as a calendar, policy and technical tracks side by side, for the technical-track workshop's two-day timetable (tools/workshop/module-pages.ts). The technical sessions and the joint sessions come from technical-track.json; this file adds the rows both tracks share (logistics and breaks) and the policy track's slots, each policy module placed in the parallel window it fills by its canvas sheet's timings. A suggested timetable for a general two-day workshop: a host adapts the times.",
+  "_comment": "The two days as a calendar, policy and technical tracks side by side, for the technical-track workshop's two-day timetable (tools/workshop/module-pages.ts). The technical sessions and the joint sessions come from technical-track.json; this file adds the rows both tracks share (logistics and breaks) and the policy track's slots, each policy module placed in the parallel window it fills by its canvas sheet's timings. Only the joint sessions have fixed clock times; the other sessions run for their stated length.",
   "days": [
     {
       "day": 1,
       "shared": [
-        {"time": "08:30", "end": "09:00", "kind": "logistics", "title": "Registration and Heropa login", "note": "Technical track: support crew"},
-        {"time": "10:30", "end": "11:00", "kind": "break", "title": "Coffee, then move to the track rooms"},
+        {"time": "10:30", "end": "11:00", "kind": "break", "title": "Coffee, then move to the track rooms", "note": "A Heropa sign-in station is open during the breaks"},
         {"time": "12:30", "end": "13:30", "kind": "break", "title": "Lunch"},
         {"time": "15:00", "end": "15:30", "kind": "break", "title": "Coffee"}
       ],
@@ -18,8 +17,7 @@
     {
       "day": 2,
       "shared": [
-        {"time": "08:30", "end": "09:00", "kind": "logistics", "title": "Arrival and Heropa login", "note": "Technical track: support crew"},
-        {"time": "10:30", "end": "11:00", "kind": "break", "title": "Coffee, then back to the track rooms"},
+        {"time": "10:30", "end": "11:00", "kind": "break", "title": "Coffee, then back to the track rooms", "note": "A Heropa sign-in station is open during the breaks"},
         {"time": "12:30", "end": "13:30", "kind": "break", "title": "Lunch"},
         {"time": "15:00", "end": "15:30", "kind": "break", "title": "Coffee, and set up the devices for the finale"},
         {"time": "16:15", "end": "16:30", "kind": "logistics", "title": "Move to the main room and brief the finale", "note": "Support crew"}
