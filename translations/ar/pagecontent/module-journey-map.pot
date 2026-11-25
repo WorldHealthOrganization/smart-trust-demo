@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smart-trust-demo\n"
-"POT-Creation-Date: 2026-11-17T18:50:35.722Z\n"
+"POT-Creation-Date: 2026-11-25T12:02:09.862Z\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language: ar\n"
@@ -43,7 +43,7 @@ msgid "Birth-dose data elements: vaccine, product code, batch, date, giver (immu
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:202
-msgid "Can each team change one app in the journey and then run the whole journey live, from a birth abroad to a clinic back home to the family travelling again?"
+msgid "Can a small group install the four apps and walk the whole journey end to end, and then run it live in the main room?"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:206
@@ -171,7 +171,7 @@ msgid "How can a clinic in one country trust a vaccination record from another, 
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:180
-msgid "How does a FHIR record become a row, a chart and a coverage number, and who accessed what?"
+msgid "How does a FHIR record become a row, a chart and a coverage number?"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:147
@@ -628,12 +628,12 @@ msgid "T1 Building with FHIR and the Open Health Stack"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:145
-msgid "T2 · Offline data capture"
+msgid "T2 · Structured data capture"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:21
 #: input/pagecontent/module-journey-map.md:126
-msgid "T2 Offline data capture"
+msgid "T2 Structured data capture"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:155
@@ -655,30 +655,30 @@ msgid "T4 Workflows, sync and who sees what"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:178
-msgid "T5 · From records to charts"
+msgid "T5 · From records to insights"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:24
 #: input/pagecontent/module-journey-map.md:129
-msgid "T5 From records to charts"
+msgid "T5 From records to insights"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:189
-msgid "T6 · Verifying a card, sharing a link"
+msgid "T6 · The journey, verifying a card, sharing a link"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:25
 #: input/pagecontent/module-journey-map.md:130
-msgid "T6 Verifying a card, sharing a link"
+msgid "T6 The journey, verifying a card, sharing a link"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:200
-msgid "T7 · Team build, showcase and the journey together"
+msgid "T7 · The journey in small groups and together"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:26
 #: input/pagecontent/module-journey-map.md:131
-msgid "T7 Team build, showcase and the journey together"
+msgid "T7 The journey in small groups and together"
 msgstr ""
 
 #: input/pagecontent/module-journey-map.md:212
