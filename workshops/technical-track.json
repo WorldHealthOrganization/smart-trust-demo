@@ -68,8 +68,20 @@
       "sessions": [
         {
           "time": "11:40",
+          "end": "11:50",
+          "minutes": 10,
+          "type": "Talk",
+          "title": "Introducing structured data capture",
+          "leads": [
+            "Lab facilitator"
+          ],
+          "supports": [],
+          "what": "A short briefing before Lab 1. What a FHIR Questionnaire is, how forms can skip questions, check answers and calculate values, and how the answers become FHIR resources."
+        },
+        {
+          "time": "11:50",
           "end": "12:30",
-          "minutes": 50,
+          "minutes": 40,
           "type": "Lab",
           "title": "Lab 1: Structured data capture",
           "leads": [
@@ -109,8 +121,8 @@
       "sessions": [
         {
           "time": "13:30",
-          "end": "13:50",
-          "minutes": 20,
+          "end": "13:45",
+          "minutes": 15,
           "type": "Talk",
           "title": "Talk 2: Trust between countries, SMART Trust and the GDHCN",
           "leads": [
@@ -152,8 +164,22 @@
       "carries": "What should happen next for this child, how does the record reach the server, and who is allowed to see it?",
       "sessions": [
         {
-          "time": "13:50",
-          "end": "14:00",
+          "time": "13:45",
+          "end": "13:55",
+          "minutes": 10,
+          "type": "Talk",
+          "title": "The FHIR Information Gateway",
+          "leads": [
+            "Co-facilitator"
+          ],
+          "supports": [
+            "Lab facilitator"
+          ],
+          "what": "A short briefing on the gateway that sits between apps and the FHIR server. It checks who is signing in, decides which records each user can reach, and can be extended with plugins. It works with any FHIR server."
+        },
+        {
+          "time": "13:55",
+          "end": "14:05",
           "minutes": 10,
           "type": "Talk",
           "title": "Talk 3: Workflows, sync and who sees what",
@@ -166,9 +192,9 @@
           "what": "A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach."
         },
         {
-          "time": "14:00",
-          "end": "15:00",
-          "minutes": 60,
+          "time": "14:05",
+          "end": "14:50",
+          "minutes": 45,
           "type": "Lab",
           "title": "Lab 2: Sync data and run a workflow",
           "leads": [

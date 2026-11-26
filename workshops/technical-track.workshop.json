@@ -31,7 +31,7 @@
       "title": "Structured data capture",
       "day": 1,
       "carries": "How does a form on a health worker's phone become a patient record, with no signal?",
-      "description": "Day 1. Serves the policy module [M3 Standards, specifications and the core data set](../../dpi-h-policy-track/m3/).\n\n### Sessions\n\n- **11:40–12:30 · Lab · Lab 1: Structured data capture** (50 min). The stack is already running on Heropa. Open a questionnaire in the form editor, change it, and watch the change appear in the OHS Player in your browser. Then add a validation rule or a skip rule. If time allows, see how the answers turn into FHIR resources. Optional: a QR code for the gallery app, to try the same forms on iOS or Android. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2a**: The CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.\n- **J2b**: The household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.",
+      "description": "Day 1. Serves the policy module [M3 Standards, specifications and the core data set](../../dpi-h-policy-track/m3/).\n\n### Sessions\n\n- **11:40–11:50 · Talk · Introducing structured data capture** (10 min). A short briefing before Lab 1. What a FHIR Questionnaire is, how forms can skip questions, check answers and calculate values, and how the answers become FHIR resources. *Leads:* Lab facilitator.\n- **11:50–12:30 · Lab · Lab 1: Structured data capture** (40 min). The stack is already running on Heropa. Open a questionnaire in the form editor, change it, and watch the change appear in the OHS Player in your browser. Then add a validation rule or a skip rule. If time allows, see how the answers turn into FHIR resources. Optional: a QR code for the gallery app, to try the same forms on iOS or Android. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2a**: The CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.\n- **J2b**: The household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.",
       "objectives": [
         "Edit a FHIR Questionnaire and see the result straight away",
         "Add a validation or skip rule",
@@ -44,26 +44,26 @@
       "title": "Trust between countries: SMART Trust and the GDHCN",
       "day": 1,
       "carries": "How can a clinic in one country trust a vaccination record from another, and when is a card better than a link?",
-      "description": "Day 1. Serves the policy module [M4 Trust, credentials and wallets](../../dpi-h-policy-track/m4/).\n\n### Sessions\n\n- **13:30–13:50 · Talk · Talk 2: Trust between countries, SMART Trust and the GDHCN** (20 min). How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J1**: The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.\n- **J3a**: The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.\n- **J4.1**: The viewer verifies the VHL's HCERT against the DSC of Onesa (XXU) before it fetches anything.",
+      "description": "Day 1. Serves the policy module [M4 Trust, credentials and wallets](../../dpi-h-policy-track/m4/).\n\n### Sessions\n\n- **13:30–13:45 · Talk · Talk 2: Trust between countries, SMART Trust and the GDHCN** (15 min). How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J1**: The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.\n- **J3a**: The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.\n- **J4.1**: The viewer verifies the VHL's HCERT against the DSC of Onesa (XXU) before it fetches anything.",
       "objectives": [
         "Explain what the GDHCN is and why a verifier needs a trust list",
         "Tell a DVC from a VHL and say when each one fits",
         "Know which parts you will work with on Day 2"
       ],
-      "durationMinutes": 20
+      "durationMinutes": 15
     },
     {
       "id": "T4",
       "title": "Workflows, sync and who sees what",
       "day": 1,
       "carries": "What should happen next for this child, how does the record reach the server, and who is allowed to see it?",
-      "description": "Day 1. Serves the policy module [M5 Governance, decision rights and the legal basis](../../dpi-h-policy-track/m5/).\n\n### Sessions\n\n- **13:50–14:00 · Talk · Talk 3: Workflows, sync and who sees what** (10 min). A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **14:00–15:00 · Lab · Lab 2: Sync data and run a workflow** (60 min). In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2b**: Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.\n- **J3b**: The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.\n- **J4.0b**: The family's consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.\n- **J4.1**: Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.",
+      "description": "Day 1. Serves the policy module [M5 Governance, decision rights and the legal basis](../../dpi-h-policy-track/m5/).\n\n### Sessions\n\n- **13:45–13:55 · Talk · The FHIR Information Gateway** (10 min). A short briefing on the gateway that sits between apps and the FHIR server. It checks who is signing in, decides which records each user can reach, and can be extended with plugins. It works with any FHIR server. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **13:55–14:05 · Talk · Talk 3: Workflows, sync and who sees what** (10 min). A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **14:05–14:50 · Lab · Lab 2: Sync data and run a workflow** (45 min). In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2b**: Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.\n- **J3b**: The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.\n- **J4.0b**: The family's consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.\n- **J4.1**: Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.",
       "objectives": [
         "Sync records between the Player and the FHIR server",
         "Read a plan definition and follow it through a workflow",
         "Show that the gateway filters records by user"
       ],
-      "durationMinutes": 70
+      "durationMinutes": 65
     },
     {
       "id": "T5",
@@ -416,6 +416,15 @@
           },
           {
             "start": "11:40",
+            "end": "11:50",
+            "kind": "session",
+            "track": "technical",
+            "module": "T2",
+            "title": "Introducing structured data capture",
+            "type": "Talk"
+          },
+          {
+            "start": "11:50",
             "end": "12:30",
             "kind": "session",
             "track": "technical",
@@ -439,7 +448,7 @@
           },
           {
             "start": "13:30",
-            "end": "13:50",
+            "end": "13:45",
             "kind": "session",
             "track": "technical",
             "module": "T3",
@@ -447,8 +456,17 @@
             "type": "Talk"
           },
           {
-            "start": "13:50",
-            "end": "14:00",
+            "start": "13:45",
+            "end": "13:55",
+            "kind": "session",
+            "track": "technical",
+            "module": "T4",
+            "title": "The FHIR Information Gateway",
+            "type": "Talk"
+          },
+          {
+            "start": "13:55",
+            "end": "14:05",
             "kind": "session",
             "track": "technical",
             "module": "T4",
@@ -456,8 +474,8 @@
             "type": "Talk"
           },
           {
-            "start": "14:00",
-            "end": "15:00",
+            "start": "14:05",
+            "end": "14:50",
             "kind": "session",
             "track": "technical",
             "module": "T4",
