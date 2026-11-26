@@ -18,12 +18,12 @@ Each module of the policy-maker track asks one question of the same story. This 
 | **M7** First move and the investment required | Sheet 6 | ○ |  |  | ○ |  |  |  | ● |
 | ***Technical track*** | |  |  |  |  |  |  |  |  |
 | **T1** Building with FHIR and the Open Health Stack | serves M1 | ◆ |  |  |  | ◆ |  | ◆ |  |
-| **T2** Offline data capture | serves M3 |  | ◆ | ◆ |  |  |  |  |  |
+| **T2** Structured data capture | serves M3 |  | ◆ | ◆ |  |  |  |  |  |
 | **T3** Trust between countries: SMART Trust and the GDHCN | serves M4 | ◆ |  |  | ◆ |  |  |  | ◆ |
 | **T4** Workflows, sync and who sees what | serves M5 |  |  | ◆ |  | ◆ |  | ◆ | ◆ |
-| **T5** From records to charts | serves M2 |  |  | ◆ |  | ◆ |  |  | ◆ |
-| **T6** Verifying a card, sharing a link | serves M6 |  |  |  | ◆ |  |  | ◆ | ◆ |
-| **T7** Team build, showcase and the journey together | serves M7 |  |  | ◆ | ◆ |  | ◆ |  | ◆ |
+| **T5** From records to insights | serves M2 |  |  | ◆ |  | ◆ |  |  | ◆ |
+| **T6** The journey, verifying a card, sharing a link | serves M6 |  |  |  | ◆ |  |  | ◆ | ◆ |
+| **T7** The journey in small groups and together | serves M7 |  |  | ◆ | ◆ |  | ◆ |  | ◆ |
 {: .grid }
 
 ### Where they meet
@@ -123,12 +123,12 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 | Module | Day | Serves | J1 | J2a | J2b | J3a | J3b | J4.0a | J4.0b | J4.1 |
 |---|---|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **T1** Building with FHIR and the Open Health Stack | 1 | M1 | ● |  |  |  | ● |  | ● |  |
-| **T2** Offline data capture | 1 | M3 |  | ● | ● |  |  |  |  |  |
+| **T2** Structured data capture | 1 | M3 |  | ● | ● |  |  |  |  |  |
 | **T3** Trust between countries: SMART Trust and the GDHCN | 1 | M4 | ● |  |  | ● |  |  |  | ● |
 | **T4** Workflows, sync and who sees what | 1 | M5 |  |  | ● |  | ● |  | ● | ● |
-| **T5** From records to charts | 1 | M2 |  |  | ● |  | ● |  |  | ● |
-| **T6** Verifying a card, sharing a link | 2 | M6 |  |  |  | ● |  |  | ● | ● |
-| **T7** Team build, showcase and the journey together | 2 | M7 |  |  | ● | ● |  | ● |  | ● |
+| **T5** From records to insights | 1 | M2 |  |  | ● |  | ● |  |  | ● |
+| **T6** The journey, verifying a card, sharing a link | 2 | M6 |  |  |  | ● |  |  | ● | ● |
+| **T7** The journey in small groups and together | 2 | M7 |  |  | ● | ● |  | ● |  | ● |
 {: .grid }
 
 #### T1 · Building with FHIR and the Open Health Stack
@@ -142,7 +142,7 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 | J4.0b | The IPS as a FHIR document Bundle assembled from the national record. | What makes the IPS readable in another country's system without a bilateral agreement? |
 {: .grid }
 
-#### T2 · Offline data capture
+#### T2 · Structured data capture
 
 *How does a form on a health worker's phone become a patient record, with no signal?*
 
@@ -175,9 +175,9 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 | J4.1 | Each view is logged as an AuditEvent in Onesa, including failed passcode attempts. | Which AuditEvent fields let Onesa tell the family who looked at the record, and when? |
 {: .grid }
 
-#### T5 · From records to charts
+#### T5 · From records to insights
 
-*How does a FHIR record become a row, a chart and a coverage number, and who accessed what?*
+*How does a FHIR record become a row, a chart and a coverage number?*
 
 | Step | What the system does | Technical question for the room |
 |---|---|---|
@@ -186,7 +186,7 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 | J4.1 | AuditEvents become an access log you can chart. | What would a 'who looked at this child's record abroad' chart need from the AuditEvent rows? |
 {: .grid }
 
-#### T6 · Verifying a card, sharing a link
+#### T6 · The journey, verifying a card, sharing a link
 
 *How does an app go from a scanned QR to a verified result, and from a shared link to the records behind it?*
 
@@ -197,9 +197,9 @@ The technical track's modules (T1 to T7, from the draft schedule) teach from the
 | J4.1 | The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents. | What does the viewer need from the trust list, and what does it need from the gateway of Onesa? |
 {: .grid }
 
-#### T7 · Team build, showcase and the journey together
+#### T7 · The journey in small groups and together
 
-*Can each team change one app in the journey and then run the whole journey live, from a birth abroad to a clinic back home to the family travelling again?*
+*Can a small group install the four apps and walk the whole journey end to end, and then run it live in the main room?*
 
 | Step | What the system does | Technical question for the room |
 |---|---|---|

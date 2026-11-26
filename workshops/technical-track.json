@@ -1,14 +1,14 @@
 {
-  "_comment": "The technical track of a general two-day DPI-H for Health workshop: seven modules (T1-T7). Each module is paired with the policy module whose question it serves; each names the journey steps it teaches from, with the technical point there and a technical question for the room. Leads are roles, not people; times are a suggested timetable a host adapts. tools/workshop/module-pages.ts turns this file, schedule.json and policy-agenda.json into the journeys viewer's technical-track workshop (technical-track.workshop.json); tools/workshop/module-journey-map.ts reads it too.",
+  "_comment": "The technical track of a general two-day DPI-H for Health workshop: seven modules (T1-T7). Each module is paired with the policy module whose question it serves; each names the journey steps it teaches from, with the technical point there and a technical question for the room. Leads are roles, not people. Only the joint sessions have fixed clock times; every other session runs for its stated length, and a lead trims content rather than overrun. tools/workshop/module-pages.ts turns this file, schedule.json and policy-agenda.json into the journeys viewer's technical-track workshop (technical-track.workshop.json); tools/workshop/module-journey-map.ts reads it too.",
   "track": "Technical track",
   "title": "Technical track schedule",
-  "promise": "Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.",
+  "promise": "Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is small groups installing the apps and walking the whole journey together, then seeing it all work live.",
   "days": {
     "1": {
       "summary": "Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa."
     },
     "2": {
-      "summary": "Teams build one app in the journey, show it, and then everything runs together."
+      "summary": "Small groups each install the apps and walk the journey from a birth abroad to a clinic back home, then the whole room sees it run live."
     }
   },
   "modules": [
@@ -63,15 +63,27 @@
       "pairedWith": "M3",
       "day": 1,
       "status": "ready",
-      "title": "Offline data capture",
+      "title": "Structured data capture",
       "carries": "How does a form on a health worker's phone become a patient record, with no signal?",
       "sessions": [
         {
           "time": "11:40",
+          "end": "11:50",
+          "minutes": 10,
+          "type": "Talk",
+          "title": "Introducing structured data capture",
+          "leads": [
+            "Lab facilitator"
+          ],
+          "supports": [],
+          "what": "A short briefing before Lab 1. What a FHIR Questionnaire is, how forms can skip questions, check answers and calculate values, and how the answers become FHIR resources."
+        },
+        {
+          "time": "11:50",
           "end": "12:30",
-          "minutes": 50,
+          "minutes": 40,
           "type": "Lab",
-          "title": "Lab 1: Offline data capture",
+          "title": "Lab 1: Structured data capture",
           "leads": [
             "Lab facilitator"
           ],
@@ -109,8 +121,8 @@
       "sessions": [
         {
           "time": "13:30",
-          "end": "13:50",
-          "minutes": 20,
+          "end": "13:45",
+          "minutes": 15,
           "type": "Talk",
           "title": "Talk 2: Trust between countries, SMART Trust and the GDHCN",
           "leads": [
@@ -152,8 +164,22 @@
       "carries": "What should happen next for this child, how does the record reach the server, and who is allowed to see it?",
       "sessions": [
         {
-          "time": "13:50",
-          "end": "14:00",
+          "time": "13:45",
+          "end": "13:55",
+          "minutes": 10,
+          "type": "Talk",
+          "title": "The FHIR Information Gateway",
+          "leads": [
+            "Co-facilitator"
+          ],
+          "supports": [
+            "Lab facilitator"
+          ],
+          "what": "A short briefing on the gateway that sits between apps and the FHIR server. It checks who is signing in, decides which records each user can reach, and can be extended with plugins. It works with any FHIR server."
+        },
+        {
+          "time": "13:55",
+          "end": "14:05",
           "minutes": 10,
           "type": "Talk",
           "title": "Talk 3: Workflows, sync and who sees what",
@@ -166,9 +192,9 @@
           "what": "A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach."
         },
         {
-          "time": "14:00",
-          "end": "15:00",
-          "minutes": 60,
+          "time": "14:05",
+          "end": "14:50",
+          "minutes": 45,
           "type": "Lab",
           "title": "Lab 2: Sync data and run a workflow",
           "leads": [
@@ -213,15 +239,15 @@
       "pairedWith": "M2",
       "day": 1,
       "status": "ready",
-      "title": "From records to charts",
-      "carries": "How does a FHIR record become a row, a chart and a coverage number, and who accessed what?",
+      "title": "From records to insights",
+      "carries": "How does a FHIR record become a row, a chart and a coverage number?",
       "sessions": [
         {
           "time": "15:30",
           "end": "15:40",
           "minutes": 10,
           "type": "Talk",
-          "title": "Talk 4: From records to charts",
+          "title": "Talk 4: From records to insights",
           "leads": [
             "Data facilitator"
           ],
@@ -235,18 +261,17 @@
           "end": "16:30",
           "minutes": 50,
           "type": "Lab",
-          "title": "Lab 3: Build your first dashboard",
+          "title": "Lab 3: Your first insights dashboard",
           "leads": [
             "Data facilitator"
           ],
           "supports": [],
-          "what": "A guided start in class, then a take-home task. Look at a dashboard built on the data from Lab 2. Add a small batch of new records, run the pipeline again and watch the chart update. Look at the audit events to see who accessed what. You then have about 24 hours to finish a dashboard of your own."
+          "what": "A guided start in class, then a take-home task. Look at a dashboard built on the data from Lab 2 using Observable Framework. Add a small batch of new records, run the pipeline again and watch the chart update. You then have about 24 hours to finish a dashboard of your own."
         }
       ],
       "outcomes": [
         "Describe the path from a FHIR resource to a chart",
         "Run the pipeline and see new data appear on a chart",
-        "Read the audit events for who accessed which record",
         "Finish a simple dashboard of your own"
       ],
       "steps": [
@@ -272,26 +297,40 @@
       "pairedWith": "M6",
       "day": 2,
       "status": "ready",
-      "title": "Verifying a card, sharing a link",
+      "title": "The journey, verifying a card, sharing a link",
       "carries": "How does an app go from a scanned QR to a verified result, and from a shared link to the records behind it?",
       "sessions": [
         {
           "time": "11:00",
-          "end": "11:30",
-          "minutes": 30,
+          "end": "11:20",
+          "minutes": 20,
+          "type": "Recap",
+          "title": "Recap: the whole journey and where you fit",
+          "leads": [
+            "Lead facilitator"
+          ],
+          "supports": [
+            "Trust facilitator"
+          ],
+          "what": "The journey from a birth abroad to a clinic back home to the family travelling again, and the four apps you will walk through in your small group."
+        },
+        {
+          "time": "11:20",
+          "end": "11:40",
+          "minutes": 20,
           "type": "Talk",
-          "title": "Talk 5: Verifying a card, sharing a link, and what you build today",
+          "title": "Talk 5: Verifying a card and sharing a link",
           "leads": [
             "Trust facilitator"
           ],
           "supports": [],
-          "what": "The trust ideas from Day 1 in practice. How an app reads a vaccination QR and checks it against the trust list, and how a shared health link is opened. Then a look at the four pieces the teams will build."
+          "what": "The trust ideas from Day 1 in practice. How an app reads a vaccination QR and checks it against the trust list, and how a shared health link is opened."
         }
       ],
       "outcomes": [
         "Follow a card from scan to verified result",
         "Follow a health link from QR to records",
-        "Pick the team you will join"
+        "Say where each of the four apps fits in the journey"
       ],
       "steps": [
         {
@@ -316,72 +355,72 @@
       "pairedWith": "M7",
       "day": 2,
       "status": "ready",
-      "title": "Team build, showcase and the journey together",
-      "carries": "Can each team change one app in the journey and then run the whole journey live, from a birth abroad to a clinic back home to the family travelling again?",
+      "title": "The journey in small groups and together",
+      "carries": "Can a small group install the four apps and walk the whole journey end to end, and then run it live in the main room?",
       "sessions": [
         {
-          "time": "11:30",
+          "time": "11:40",
           "end": "12:30",
-          "minutes": 60,
-          "type": "Team build",
-          "title": "Team build, part 1",
+          "minutes": 50,
+          "type": "Walkthrough",
+          "title": "Journey walkthrough in small groups, part 1",
           "leads": [
             "Team facilitators"
           ],
           "supports": [
-            "One per team"
+            "Lead facilitator, Co-facilitator"
           ],
-          "what": "Each team takes one app in the journey. Everything is pre-configured, so there is no Android Studio. You run the app, read how its configuration works, and change it. Test with the vaccination cards."
+          "what": "Work in small groups. Each person installs one of the four apps, and together you follow the journey from the first step. Everything is pre-configured, so there is no coding and no Android Studio."
         },
         {
           "time": "13:30",
           "end": "14:25",
           "minutes": 55,
-          "type": "Team build",
-          "title": "Team build, part 2",
+          "type": "Walkthrough",
+          "title": "Journey walkthrough in small groups, part 2",
           "leads": [
             "Team facilitators"
           ],
           "supports": [
-            "One per team"
+            "Lead facilitator, Co-facilitator"
           ],
-          "what": "Finish the change, test it with the cards, and get ready to show it."
+          "what": "Finish the whole journey end to end, then pick a volunteer to show your group's part."
         },
         {
           "time": "14:25",
           "end": "15:00",
           "minutes": 35,
           "type": "Showcase",
-          "title": "Team presentations",
+          "title": "Volunteers show their part",
           "leads": [
             "Lead facilitator (chair)"
           ],
           "supports": [],
-          "what": "Each team shows what it built, about seven minutes each. Volunteers present."
+          "what": "One volunteer per group shows their app and what it did in the journey, in a few minutes each."
         },
         {
           "time": "15:30",
           "end": "16:15",
           "minutes": 45,
-          "type": "Team build",
+          "type": "Walkthrough",
           "title": "Putting the journey together",
           "leads": [
             "Team facilitators"
           ],
           "supports": [
-            "A volunteer from each team"
+            "A volunteer from each group"
           ],
-          "what": "Volunteers run the whole journey on the demo system, each using their own piece. This is the rehearsal for the finale."
+          "what": "Volunteers run the whole journey on the demo system, each using their own app. This is the rehearsal for the finale."
         }
       ],
       "outcomes": [
-        "Run your app and find where its configuration lives",
-        "Make one change and see it work",
-        "Have a working piece you can show in under seven minutes"
+        "Install your app and find your place in the journey",
+        "Walk the journey end to end with your group",
+        "Be ready to show your part in a few minutes"
       ],
       "teams": [
         {
-          "name": "CHW app",
+          "name": "Health worker app",
           "device": "The health worker's phone",
           "what": "Scan a vaccination card, add the child to the household, and refer them to a clinic.",
           "steps": [
@@ -401,17 +440,18 @@
         {
           "name": "Family app",
           "device": "The parent's phone",
-          "what": "Hold the family's records and share a child's record as a health link.",
+          "what": "Hold the family's wallet and share a child's record as a health link with a passcode.",
           "steps": [
             "J4.0a",
             "J4.0b"
           ]
         },
         {
-          "name": "Viewer app",
+          "name": "Foreign clinic app",
           "device": "The clinic abroad",
-          "what": "Open a shared health link and read the records behind it.",
+          "what": "Register a newborn and issue cards, then open a shared health link and read the records behind it.",
           "steps": [
+            "J1",
             "J4.1"
           ]
         }
@@ -471,10 +511,8 @@
     }
   ],
   "prepare": [
-    "Agree the joint sessions on both days with the policy track, and who leads each closing slot.",
-    "Test the hosted classroom environment (Heropa) the week before. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio.",
-    "Lab 3: set up the dashboard tooling and the shared test data, with help on hand once the apps are seeded.",
-    "Assign a facilitator to each Day 2 team.",
+    "Test the hosted classroom environment (Heropa) the week before. The apps run in an emulator or the Wasm web build, so nobody installs Android Studio.",
+    "Seed the shared test data for Lab 2 and Lab 3, and have the dashboard tooling ready.",
     "Record the full journey once as a fallback for the finale."
   ]
 }

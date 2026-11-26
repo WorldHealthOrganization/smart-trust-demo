@@ -59,7 +59,7 @@ const policyHref = (fromWorkshop: string, m: string) => `${fromWorkshop}../${ws.
 type Slot = { start: string; end: string; kind: "session" | "joint" | "break" | "logistics"; track?: string; module?: string; title: string; type?: string; note?: string; sessions?: string[] };
 function scheduleData() {
   return {
-    intro: "A suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.",
+    intro: "Only the joint sessions have fixed times. Every other session runs for its stated length, so a lead trims content rather than overrun.",
     tracks: [
       { id: "policy", label: "Policy track", workshop: ws.id },
       { id: "technical", label: "Technical track" },
@@ -102,7 +102,7 @@ function moduleDescription(t: TMod): string {
         .join("\n")}`,
     );
   if (t.steps?.length) parts.push(`### Where it meets the journey\n\n${t.steps.map((x) => `- **${x.step}**: ${x.technical}`).join("\n")}`);
-  if (t.teams?.length) parts.push(`### The four teams\n\n${t.teams.map((x) => `- **${x.name}** (${x.device}): ${x.what} Steps ${x.steps.join(", ")}.`).join("\n")}`);
+  if (t.teams?.length) parts.push(`### The four apps\n\n${t.teams.map((x) => `- **${x.name}** (${x.device}): ${x.what} Steps ${x.steps.join(", ")}.`).join("\n")}`);
   return parts.join("\n\n");
 }
 
@@ -119,7 +119,7 @@ const workshop = {
   id: TECH_ID,
   title: "Verifiable immunization records across borders: the technical track",
   description,
-  audience: "Developers, implementers and digital health architects, working in teams on one app of the journey each",
+  audience: "Developers, implementers and digital health architects, walking the journey in small groups, with one of the four apps each",
   promise: tech.promise,
   scenarios: ws.scenarios,
   modules: tmods.map((t) => {
