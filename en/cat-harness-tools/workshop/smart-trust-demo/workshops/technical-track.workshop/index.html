@@ -124,17 +124,15 @@
 <dt>title</dt><dd>Verifiable immunization records across borders: the technical track</dd>
 <dt>description</dt><dd>The technical track of a general two-day workshop on verifiable immunization records across borders, taught from the journeys J1 to J4.1 of one cross-border family. It runs beside the [policy-maker track](../dpi-h-policy-track/) (M1 to M7): each technical module serves the policy module it is paired with, and both tracks meet in joint sessions each morning and at the close of each day.
 
-Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.
+Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is small groups installing the apps and walking the whole journey together, then seeing it all work live.
 
 ## Before you run it
 
-- Agree the joint sessions on both days with the policy track, and who leads each closing slot.
-- Test the hosted classroom environment (Heropa) the week before. Day 2 apps need an emulator or the Wasm web build, since nobody installs Android Studio.
-- Lab 3: set up the dashboard tooling and the shared test data, with help on hand once the apps are seeded.
-- Assign a facilitator to each Day 2 team.
+- Test the hosted classroom environment (Heropa) the week before. The apps run in an emulator or the Wasm web build, so nobody installs Android Studio.
+- Seed the shared test data for Lab 2 and Lab 3, and have the dashboard tooling ready.
 - Record the full journey once as a fallback for the finale.</dd>
-<dt>audience</dt><dd>Developers, implementers and digital health architects, working in teams on one app of the journey each</dd>
-<dt>promise</dt><dd>Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is teams building one part of the journey, then seeing it all work together.</dd>
+<dt>audience</dt><dd>Developers, implementers and digital health architects, walking the journey in small groups, with one of the four apps each</dd>
+<dt>promise</dt><dd>Two days, one cross-border immunization story. Day 1 covers the building blocks and gets everyone running on Heropa. Day 2 is small groups installing the apps and walking the whole journey together, then seeing it all work live.</dd>
 <dt>scenarios</dt><dd><pre>[
   &quot;j1-born-abroad&quot;,
   &quot;j2-found-at-home&quot;,
@@ -158,10 +156,10 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
   },
   {
     &quot;id&quot;: &quot;T2&quot;,
-    &quot;title&quot;: &quot;Offline data capture&quot;,
+    &quot;title&quot;: &quot;Structured data capture&quot;,
     &quot;day&quot;: 1,
     &quot;carries&quot;: &quot;How does a form on a health worker&#39;s phone become a patient record, with no signal?&quot;,
-    &quot;description&quot;: &quot;Day 1. Serves the policy module [M3 Standards, specifications and the core data set](../../dpi-h-policy-track/m3/).\n\n### Sessions\n\n- **11:40–12:30 · Lab · Lab 1: Offline data capture** (50 min). The stack is already running on Heropa. Open a questionnaire in the form editor, change it, and watch the change appear in the OHS Player in your browser. Then add a validation rule or a skip rule. If time allows, see how the answers turn into FHIR resources. Optional: a QR code for the gallery app, to try the same forms on iOS or Android. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2a**: The CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.\n- **J2b**: The household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M3 Standards, specifications and the core data set](../../dpi-h-policy-track/m3/).\n\n### Sessions\n\n- **11:40–11:50 · Talk · Introducing structured data capture** (10 min). A short briefing before Lab 1. What a FHIR Questionnaire is, how forms can skip questions, check answers and calculate values, and how the answers become FHIR resources. *Leads:* Lab facilitator.\n- **11:50–12:30 · Lab · Lab 1: Structured data capture** (40 min). The stack is already running on Heropa. Open a questionnaire in the form editor, change it, and watch the change appear in the OHS Player in your browser. Then add a validation rule or a skip rule. If time allows, see how the answers turn into FHIR resources. Optional: a QR code for the gallery app, to try the same forms on iOS or Android. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2a**: The CHW app decodes the paper cards (read-unverified) and fills the form from them, without checking signatures.\n- **J2b**: The household registration Questionnaire; answers become Patient, Group (household) and reported Immunization, queued offline.&quot;,
     &quot;objectives&quot;: [
       &quot;Edit a FHIR Questionnaire and see the result straight away&quot;,
       &quot;Add a validation or skip rule&quot;,
@@ -174,66 +172,65 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
     &quot;title&quot;: &quot;Trust between countries: SMART Trust and the GDHCN&quot;,
     &quot;day&quot;: 1,
     &quot;carries&quot;: &quot;How can a clinic in one country trust a vaccination record from another, and when is a card better than a link?&quot;,
-    &quot;description&quot;: &quot;Day 1. Serves the policy module [M4 Trust, credentials and wallets](../../dpi-h-policy-track/m4/).\n\n### Sessions\n\n- **13:30–13:50 · Talk · Talk 2: Trust between countries, SMART Trust and the GDHCN** (20 min). How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J1**: The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.\n- **J3a**: The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.\n- **J4.1**: The viewer verifies the VHL&#39;s HCERT against the DSC of Onesa (XXU) before it fetches anything.&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M4 Trust, credentials and wallets](../../dpi-h-policy-track/m4/).\n\n### Sessions\n\n- **13:30–13:45 · Talk · Talk 2: Trust between countries, SMART Trust and the GDHCN** (15 min). How a clinic in one country can trust a vaccination record from another. Covers the GDHCN network, digital vaccine certificates (DVC) and verifiable health links (VHL), and when to use a card and when to use a link. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J1**: The document signer key of Taifafeki (DSC of XXR) signs each DVC as a CWT in COSE.\n- **J3a**: The clinic verifies each card offline against its cached copy of the GDHCN trust list, by kid.\n- **J4.1**: The viewer verifies the VHL&#39;s HCERT against the DSC of Onesa (XXU) before it fetches anything.&quot;,
     &quot;objectives&quot;: [
       &quot;Explain what the GDHCN is and why a verifier needs a trust list&quot;,
       &quot;Tell a DVC from a VHL and say when each one fits&quot;,
       &quot;Know which parts you will work with on Day 2&quot;
     ],
-    &quot;durationMinutes&quot;: 20
+    &quot;durationMinutes&quot;: 15
   },
   {
     &quot;id&quot;: &quot;T4&quot;,
     &quot;title&quot;: &quot;Workflows, sync and who sees what&quot;,
     &quot;day&quot;: 1,
     &quot;carries&quot;: &quot;What should happen next for this child, how does the record reach the server, and who is allowed to see it?&quot;,
-    &quot;description&quot;: &quot;Day 1. Serves the policy module [M5 Governance, decision rights and the legal basis](../../dpi-h-policy-track/m5/).\n\n### Sessions\n\n- **13:50–14:00 · Talk · Talk 3: Workflows, sync and who sees what** (10 min). A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **14:00–15:00 · Lab · Lab 2: Sync data and run a workflow** (60 min). In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2b**: Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.\n- **J3b**: The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.\n- **J4.0b**: The family&#39;s consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.\n- **J4.1**: Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M5 Governance, decision rights and the legal basis](../../dpi-h-policy-track/m5/).\n\n### Sessions\n\n- **13:45–13:55 · Talk · The FHIR Information Gateway** (10 min). A short briefing on the gateway that sits between apps and the FHIR server. It checks who is signing in, decides which records each user can reach, and can be extended with plugins. It works with any FHIR server. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **13:55–14:05 · Talk · Talk 3: Workflows, sync and who sees what** (10 min). A short briefing before Lab 2. A plan definition says what should happen and when, such as the next vaccine due. Sync moves records between the device and the server. The gateway decides which records each user can reach. *Leads:* Co-facilitator; *supports:* Lab facilitator.\n- **14:05–14:50 · Lab · Lab 2: Sync data and run a workflow** (45 min). In the Player, store records on the device and sync them to the server. Apply an immunization plan definition and see what comes due. Then sign in as two different users through the gateway and compare what each can see, for example 50 records against 10. *Leads:* Lab facilitator; *supports:* Co-facilitator.\n\n### Where it meets the journey\n\n- **J2b**: Everything Vilay records stays queued on the phone, for up to 28 days, and syncs when a signal returns.\n- **J3b**: The Onesa schedule (PlanDefinition) runs over every dose; at 10 weeks the 6-week doses come out overdue.\n- **J4.0b**: The family&#39;s consent is recorded before the portal issues the link; the gateway enforces passcode, expiry and consent on every request.\n- **J4.1**: Each view is logged as an AuditEvent in Onesa, including failed passcode attempts.&quot;,
     &quot;objectives&quot;: [
       &quot;Sync records between the Player and the FHIR server&quot;,
       &quot;Read a plan definition and follow it through a workflow&quot;,
       &quot;Show that the gateway filters records by user&quot;
     ],
-    &quot;durationMinutes&quot;: 70
+    &quot;durationMinutes&quot;: 65
   },
   {
     &quot;id&quot;: &quot;T5&quot;,
-    &quot;title&quot;: &quot;From records to charts&quot;,
+    &quot;title&quot;: &quot;From records to insights&quot;,
     &quot;day&quot;: 1,
-    &quot;carries&quot;: &quot;How does a FHIR record become a row, a chart and a coverage number, and who accessed what?&quot;,
-    &quot;description&quot;: &quot;Day 1. Serves the policy module [M2 The reference architecture (DPI-H) and where you stand](../../dpi-h-policy-track/m2/).\n\n### Sessions\n\n- **15:30–15:40 · Talk · Talk 4: From records to charts** (10 min). How data gets out of the FHIR server and into tables you can chart. A look at FHIR Data Pipes, how one resource becomes a row, and what a dashboard reads. *Leads:* Data facilitator; *supports:* Lead facilitator.\n- **15:40–16:30 · Lab · Lab 3: Build your first dashboard** (50 min). A guided start in class, then a take-home task. Look at a dashboard built on the data from Lab 2. Add a small batch of new records, run the pipeline again and watch the chart update. Look at the audit events to see who accessed what. You then have about 24 hours to finish a dashboard of your own. *Leads:* Data facilitator.\n\n### Where it meets the journey\n\n- **J2b**: A child born abroad and registered at home enters the coverage denominator here.\n- **J3b**: Verified doses, including those given abroad, count toward coverage indicators.\n- **J4.1**: AuditEvents become an access log you can chart.&quot;,
+    &quot;carries&quot;: &quot;How does a FHIR record become a row, a chart and a coverage number?&quot;,
+    &quot;description&quot;: &quot;Day 1. Serves the policy module [M2 The reference architecture (DPI-H) and where you stand](../../dpi-h-policy-track/m2/).\n\n### Sessions\n\n- **15:30–15:40 · Talk · Talk 4: From records to insights** (10 min). How data gets out of the FHIR server and into tables you can chart. A look at FHIR Data Pipes, how one resource becomes a row, and what a dashboard reads. *Leads:* Data facilitator; *supports:* Lead facilitator.\n- **15:40–16:30 · Lab · Lab 3: Your first insights dashboard** (50 min). A guided start in class, then a take-home task. Look at a dashboard built on the data from Lab 2 using Observable Framework. Add a small batch of new records, run the pipeline again and watch the chart update. You then have about 24 hours to finish a dashboard of your own. *Leads:* Data facilitator.\n\n### Where it meets the journey\n\n- **J2b**: A child born abroad and registered at home enters the coverage denominator here.\n- **J3b**: Verified doses, including those given abroad, count toward coverage indicators.\n- **J4.1**: AuditEvents become an access log you can chart.&quot;,
     &quot;objectives&quot;: [
       &quot;Describe the path from a FHIR resource to a chart&quot;,
       &quot;Run the pipeline and see new data appear on a chart&quot;,
-      &quot;Read the audit events for who accessed which record&quot;,
       &quot;Finish a simple dashboard of your own&quot;
     ],
     &quot;durationMinutes&quot;: 60
   },
   {
     &quot;id&quot;: &quot;T6&quot;,
-    &quot;title&quot;: &quot;Verifying a card, sharing a link&quot;,
+    &quot;title&quot;: &quot;The journey, verifying a card, sharing a link&quot;,
     &quot;day&quot;: 2,
     &quot;carries&quot;: &quot;How does an app go from a scanned QR to a verified result, and from a shared link to the records behind it?&quot;,
-    &quot;description&quot;: &quot;Day 2. Serves the policy module [M6 Doing it together](../../dpi-h-policy-track/m6/).\n\n### Sessions\n\n- **11:00–11:30 · Talk · Talk 5: Verifying a card, sharing a link, and what you build today** (30 min). The trust ideas from Day 1 in practice. How an app reads a vaccination QR and checks it against the trust list, and how a shared health link is opened. Then a look at the four pieces the teams will build. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J3a**: Scan, Base45 and zlib decode, COSE signature check against the trust list, then import with provenance.\n- **J4.0b**: The portal encrypts the IPS and DVCs, publishes a manifest and signs the link as an HCERT.\n- **J4.1**: The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents.&quot;,
+    &quot;description&quot;: &quot;Day 2. Serves the policy module [M6 Doing it together](../../dpi-h-policy-track/m6/).\n\n### Sessions\n\n- **11:00–11:20 · Recap · Recap: the whole journey and where you fit** (20 min). The journey from a birth abroad to a clinic back home to the family travelling again, and the four apps you will walk through in your small group. *Leads:* Lead facilitator; *supports:* Trust facilitator.\n- **11:20–11:40 · Talk · Talk 5: Verifying a card and sharing a link** (20 min). The trust ideas from Day 1 in practice. How an app reads a vaccination QR and checks it against the trust list, and how a shared health link is opened. *Leads:* Trust facilitator.\n\n### Where it meets the journey\n\n- **J3a**: Scan, Base45 and zlib decode, COSE signature check against the trust list, then import with provenance.\n- **J4.0b**: The portal encrypts the IPS and DVCs, publishes a manifest and signs the link as an HCERT.\n- **J4.1**: The viewer fetches the manifest with an HTTP Message Signature, sends the passcode, and decrypts the documents.&quot;,
     &quot;objectives&quot;: [
       &quot;Follow a card from scan to verified result&quot;,
       &quot;Follow a health link from QR to records&quot;,
-      &quot;Pick the team you will join&quot;
+      &quot;Say where each of the four apps fits in the journey&quot;
     ],
-    &quot;durationMinutes&quot;: 30
+    &quot;durationMinutes&quot;: 40
   },
   {
     &quot;id&quot;: &quot;T7&quot;,
-    &quot;title&quot;: &quot;Team build, showcase and the journey together&quot;,
+    &quot;title&quot;: &quot;The journey in small groups and together&quot;,
     &quot;day&quot;: 2,
-    &quot;carries&quot;: &quot;Can each team change one app in the journey and then run the whole journey live, from a birth abroad to a clinic back home to the family travelling again?&quot;,
-    &quot;description&quot;: &quot;Day 2. Serves the policy module [M7 First move and the investment required](../../dpi-h-policy-track/m7/).\n\n### Sessions\n\n- **11:30–12:30 · Team build · Team build, part 1** (60 min). Each team takes one app in the journey. Everything is pre-configured, so there is no Android Studio. You run the app, read how its configuration works, and change it. Test with the vaccination cards. *Leads:* Team facilitators; *supports:* One per team.\n- **13:30–14:25 · Team build · Team build, part 2** (55 min). Finish the change, test it with the cards, and get ready to show it. *Leads:* Team facilitators; *supports:* One per team.\n- **14:25–15:00 · Showcase · Team presentations** (35 min). Each team shows what it built, about seven minutes each. Volunteers present. *Leads:* Lead facilitator (chair).\n- **15:30–16:15 · Team build · Putting the journey together** (45 min). Volunteers run the whole journey on the demo system, each using their own piece. This is the rehearsal for the finale. *Leads:* Team facilitators; *supports:* A volunteer from each team.\n\n### Where it meets the journey\n\n- **J2b**: CHW app team: the registration form, the household, the referral.\n- **J3a**: Clinic app team: the verifier and its trust store.\n- **J4.0a**: Family app team: one phone, one profile and one link per member.\n- **J4.1**: Viewer app team: open the link, enter the passcode, read the records.\n\n### The four teams\n\n- **CHW app** (The health worker&#39;s phone): Scan a vaccination card, add the child to the household, and refer them to a clinic. Steps J2a, J2b.\n- **Clinic app** (The nurse&#39;s tablet): Receive the referral, verify the card against the trust list, and plan the next visit. Steps J3a, J3b.\n- **Family app** (The parent&#39;s phone): Hold the family&#39;s records and share a child&#39;s record as a health link. Steps J4.0a, J4.0b.\n- **Viewer app** (The clinic abroad): Open a shared health link and read the records behind it. Steps J4.1.&quot;,
+    &quot;carries&quot;: &quot;Can a small group install the four apps and walk the whole journey end to end, and then run it live in the main room?&quot;,
+    &quot;description&quot;: &quot;Day 2. Serves the policy module [M7 First move and the investment required](../../dpi-h-policy-track/m7/).\n\n### Sessions\n\n- **11:40–12:30 · Walkthrough · Journey walkthrough in small groups, part 1** (50 min). Work in small groups. Each person installs one of the four apps, and together you follow the journey from the first step. Everything is pre-configured, so there is no coding and no Android Studio. *Leads:* Team facilitators; *supports:* Lead facilitator, Co-facilitator.\n- **13:30–14:25 · Walkthrough · Journey walkthrough in small groups, part 2** (55 min). Finish the whole journey end to end, then pick a volunteer to show your group&#39;s part. *Leads:* Team facilitators; *supports:* Lead facilitator, Co-facilitator.\n- **14:25–15:00 · Showcase · Volunteers show their part** (35 min). One volunteer per group shows their app and what it did in the journey, in a few minutes each. *Leads:* Lead facilitator (chair).\n- **15:30–16:15 · Walkthrough · Putting the journey together** (45 min). Volunteers run the whole journey on the demo system, each using their own app. This is the rehearsal for the finale. *Leads:* Team facilitators; *supports:* A volunteer from each group.\n\n### Where it meets the journey\n\n- **J2b**: CHW app team: the registration form, the household, the referral.\n- **J3a**: Clinic app team: the verifier and its trust store.\n- **J4.0a**: Family app team: one phone, one profile and one link per member.\n- **J4.1**: Viewer app team: open the link, enter the passcode, read the records.\n\n### The four apps\n\n- **Health worker app** (The health worker&#39;s phone): Scan a vaccination card, add the child to the household, and refer them to a clinic. Steps J2a, J2b.\n- **Clinic app** (The nurse&#39;s tablet): Receive the referral, verify the card against the trust list, and plan the next visit. Steps J3a, J3b.\n- **Family app** (The parent&#39;s phone): Hold the family&#39;s wallet and share a child&#39;s record as a health link with a passcode. Steps J4.0a, J4.0b.\n- **Foreign clinic app** (The clinic abroad): Register a newborn and issue cards, then open a shared health link and read the records behind it. Steps J1, J4.1.&quot;,
     &quot;objectives&quot;: [
-      &quot;Run your app and find where its configuration lives&quot;,
-      &quot;Make one change and see it work&quot;,
-      &quot;Have a working piece you can show in under seven minutes&quot;
+      &quot;Install your app and find your place in the journey&quot;,
+      &quot;Walk the journey end to end with your group&quot;,
+      &quot;Be ready to show your part in a few minutes&quot;
     ],
-    &quot;durationMinutes&quot;: 195
+    &quot;durationMinutes&quot;: 185
   }
 ]</pre></dd>
 <dt>steps</dt><dd><pre>[
@@ -490,7 +487,7 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
   ]
 }</pre></dd>
 <dt>schedule</dt><dd><pre>{
-  &quot;intro&quot;: &quot;A suggested timetable: a host adapts the times, and fills each country presentation with the host country or an invited country.&quot;,
+  &quot;intro&quot;: &quot;Only the joint sessions have fixed times. Every other session runs for its stated length, so a lead trims content rather than overrun.&quot;,
   &quot;tracks&quot;: [
     {
       &quot;id&quot;: &quot;policy&quot;,
@@ -507,13 +504,6 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
       &quot;day&quot;: 1,
       &quot;summary&quot;: &quot;Concepts and the OHS stack. By the end of the day you have captured data, synced it, run a workflow and started a dashboard, all on Heropa.&quot;,
       &quot;slots&quot;: [
-        {
-          &quot;start&quot;: &quot;08:30&quot;,
-          &quot;end&quot;: &quot;09:00&quot;,
-          &quot;kind&quot;: &quot;logistics&quot;,
-          &quot;title&quot;: &quot;Registration and Heropa login&quot;,
-          &quot;note&quot;: &quot;Technical track: support crew&quot;
-        },
         {
           &quot;start&quot;: &quot;09:00&quot;,
           &quot;end&quot;: &quot;10:30&quot;,
@@ -532,7 +522,8 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;start&quot;: &quot;10:30&quot;,
           &quot;end&quot;: &quot;11:00&quot;,
           &quot;kind&quot;: &quot;break&quot;,
-          &quot;title&quot;: &quot;Coffee, then move to the track rooms&quot;
+          &quot;title&quot;: &quot;Coffee, then move to the track rooms&quot;,
+          &quot;note&quot;: &quot;A Heropa sign-in station is open during the breaks&quot;
         },
         {
           &quot;start&quot;: &quot;11:00&quot;,
@@ -553,11 +544,20 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
         },
         {
           &quot;start&quot;: &quot;11:40&quot;,
+          &quot;end&quot;: &quot;11:50&quot;,
+          &quot;kind&quot;: &quot;session&quot;,
+          &quot;track&quot;: &quot;technical&quot;,
+          &quot;module&quot;: &quot;T2&quot;,
+          &quot;title&quot;: &quot;Introducing structured data capture&quot;,
+          &quot;type&quot;: &quot;Talk&quot;
+        },
+        {
+          &quot;start&quot;: &quot;11:50&quot;,
           &quot;end&quot;: &quot;12:30&quot;,
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T2&quot;,
-          &quot;title&quot;: &quot;Lab 1: Offline data capture&quot;,
+          &quot;title&quot;: &quot;Lab 1: Structured data capture&quot;,
           &quot;type&quot;: &quot;Lab&quot;
         },
         {
@@ -576,7 +576,7 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
         },
         {
           &quot;start&quot;: &quot;13:30&quot;,
-          &quot;end&quot;: &quot;13:50&quot;,
+          &quot;end&quot;: &quot;13:45&quot;,
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T3&quot;,
@@ -584,8 +584,17 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;type&quot;: &quot;Talk&quot;
         },
         {
-          &quot;start&quot;: &quot;13:50&quot;,
-          &quot;end&quot;: &quot;14:00&quot;,
+          &quot;start&quot;: &quot;13:45&quot;,
+          &quot;end&quot;: &quot;13:55&quot;,
+          &quot;kind&quot;: &quot;session&quot;,
+          &quot;track&quot;: &quot;technical&quot;,
+          &quot;module&quot;: &quot;T4&quot;,
+          &quot;title&quot;: &quot;The FHIR Information Gateway&quot;,
+          &quot;type&quot;: &quot;Talk&quot;
+        },
+        {
+          &quot;start&quot;: &quot;13:55&quot;,
+          &quot;end&quot;: &quot;14:05&quot;,
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T4&quot;,
@@ -593,8 +602,8 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;type&quot;: &quot;Talk&quot;
         },
         {
-          &quot;start&quot;: &quot;14:00&quot;,
-          &quot;end&quot;: &quot;15:00&quot;,
+          &quot;start&quot;: &quot;14:05&quot;,
+          &quot;end&quot;: &quot;14:50&quot;,
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T4&quot;,
@@ -621,7 +630,7 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T5&quot;,
-          &quot;title&quot;: &quot;Talk 4: From records to charts&quot;,
+          &quot;title&quot;: &quot;Talk 4: From records to insights&quot;,
           &quot;type&quot;: &quot;Talk&quot;
         },
         {
@@ -630,7 +639,7 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T5&quot;,
-          &quot;title&quot;: &quot;Lab 3: Build your first dashboard&quot;,
+          &quot;title&quot;: &quot;Lab 3: Your first insights dashboard&quot;,
           &quot;type&quot;: &quot;Lab&quot;
         },
         {
@@ -649,15 +658,8 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
     },
     {
       &quot;day&quot;: 2,
-      &quot;summary&quot;: &quot;Teams build one app in the journey, show it, and then everything runs together.&quot;,
+      &quot;summary&quot;: &quot;Small groups each install the apps and walk the journey from a birth abroad to a clinic back home, then the whole room sees it run live.&quot;,
       &quot;slots&quot;: [
-        {
-          &quot;start&quot;: &quot;08:30&quot;,
-          &quot;end&quot;: &quot;09:00&quot;,
-          &quot;kind&quot;: &quot;logistics&quot;,
-          &quot;title&quot;: &quot;Arrival and Heropa login&quot;,
-          &quot;note&quot;: &quot;Technical track: support crew&quot;
-        },
         {
           &quot;start&quot;: &quot;09:00&quot;,
           &quot;end&quot;: &quot;10:30&quot;,
@@ -675,7 +677,8 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;start&quot;: &quot;10:30&quot;,
           &quot;end&quot;: &quot;11:00&quot;,
           &quot;kind&quot;: &quot;break&quot;,
-          &quot;title&quot;: &quot;Coffee, then back to the track rooms&quot;
+          &quot;title&quot;: &quot;Coffee, then back to the track rooms&quot;,
+          &quot;note&quot;: &quot;A Heropa sign-in station is open during the breaks&quot;
         },
         {
           &quot;start&quot;: &quot;11:00&quot;,
@@ -687,11 +690,20 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
         },
         {
           &quot;start&quot;: &quot;11:00&quot;,
-          &quot;end&quot;: &quot;11:30&quot;,
+          &quot;end&quot;: &quot;11:20&quot;,
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T6&quot;,
-          &quot;title&quot;: &quot;Talk 5: Verifying a card, sharing a link, and what you build today&quot;,
+          &quot;title&quot;: &quot;Recap: the whole journey and where you fit&quot;,
+          &quot;type&quot;: &quot;Recap&quot;
+        },
+        {
+          &quot;start&quot;: &quot;11:20&quot;,
+          &quot;end&quot;: &quot;11:40&quot;,
+          &quot;kind&quot;: &quot;session&quot;,
+          &quot;track&quot;: &quot;technical&quot;,
+          &quot;module&quot;: &quot;T6&quot;,
+          &quot;title&quot;: &quot;Talk 5: Verifying a card and sharing a link&quot;,
           &quot;type&quot;: &quot;Talk&quot;
         },
         {
@@ -703,13 +715,13 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;title&quot;: &quot;Governance, decision rights and the legal basis&quot;
         },
         {
-          &quot;start&quot;: &quot;11:30&quot;,
+          &quot;start&quot;: &quot;11:40&quot;,
           &quot;end&quot;: &quot;12:30&quot;,
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T7&quot;,
-          &quot;title&quot;: &quot;Team build, part 1&quot;,
-          &quot;type&quot;: &quot;Team build&quot;
+          &quot;title&quot;: &quot;Journey walkthrough in small groups, part 1&quot;,
+          &quot;type&quot;: &quot;Walkthrough&quot;
         },
         {
           &quot;start&quot;: &quot;12:30&quot;,
@@ -731,8 +743,8 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T7&quot;,
-          &quot;title&quot;: &quot;Team build, part 2&quot;,
-          &quot;type&quot;: &quot;Team build&quot;
+          &quot;title&quot;: &quot;Journey walkthrough in small groups, part 2&quot;,
+          &quot;type&quot;: &quot;Walkthrough&quot;
         },
         {
           &quot;start&quot;: &quot;14:25&quot;,
@@ -740,7 +752,7 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;kind&quot;: &quot;session&quot;,
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T7&quot;,
-          &quot;title&quot;: &quot;Team presentations&quot;,
+          &quot;title&quot;: &quot;Volunteers show their part&quot;,
           &quot;type&quot;: &quot;Showcase&quot;
         },
         {
@@ -764,7 +776,7 @@ Two days, one cross-border immunization story. Day 1 covers the building blocks 
           &quot;track&quot;: &quot;technical&quot;,
           &quot;module&quot;: &quot;T7&quot;,
           &quot;title&quot;: &quot;Putting the journey together&quot;,
-          &quot;type&quot;: &quot;Team build&quot;
+          &quot;type&quot;: &quot;Walkthrough&quot;
         },
         {
           &quot;start&quot;: &quot;16:15&quot;,
