@@ -1,0 +1,470 @@
+{
+  "$schema": "qa-reports-manifest/v1",
+  "key": "main/93dc877ec6fb5843adec0da7ad3a78ad9ac534c2",
+  "source": "93dc877ec6fb5843adec0da7ad3a78ad9ac534c2",
+  "written_at": "2026-11-26T09:17:18.549Z",
+  "producer": {
+    "run": "https://github.com/WorldHealthOrganization/smart-trust-demo/actions/runs/45790394089"
+  },
+  "roots": [
+    "smart-trust-demo/test/results"
+  ],
+  "payloadTree": "3bc5676a0aee5ceb657240244152a907ed4ce4d3",
+  "files": 45,
+  "bytes": 148382,
+  "listing": [
+    {
+      "path": "smart-trust-demo/test/results/kg-qa.manifest.json",
+      "schema": "kg-qa-manifest/v1",
+      "axis": "kg"
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/decisions/dose-counts.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "decision:dose-counts",
+      "counts": {
+        "pass": 0,
+        "fail": 1,
+        "na": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/decisions/dose-due.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "decision:dose-due",
+      "counts": {
+        "pass": 0,
+        "fail": 1,
+        "na": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/decisions/dvc-record-outcome.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "decision:dvc-record-outcome",
+      "counts": {
+        "pass": 0,
+        "fail": 1,
+        "na": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/decisions/vaccine-code-mapping.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "decision:vaccine-code-mapping",
+      "counts": {
+        "pass": 0,
+        "fail": 1,
+        "na": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/decisions/vhl-follow.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "decision:vhl-follow",
+      "counts": {
+        "pass": 0,
+        "fail": 1,
+        "na": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/decisions/vhl-release.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "decision:vhl-release",
+      "counts": {
+        "pass": 0,
+        "fail": 1,
+        "na": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/j1-birth-dose-dvc.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "process:Process_J1BirthDoseDvc",
+      "counts": {
+        "pass": 29,
+        "fail": 5,
+        "na": 11,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/j2-chw-discovery-referral.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "process:Process_J2ChwDiscovery",
+      "counts": {
+        "pass": 29,
+        "fail": 6,
+        "na": 10,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/j3-clinic-verification-schedule.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "process:Process_J3ClinicVerification",
+      "counts": {
+        "pass": 29,
+        "fail": 7,
+        "na": 9,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/j4-0-family-vhl-issuance.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "process:Process_J40FamilyVhl",
+      "counts": {
+        "pass": 27,
+        "fail": 7,
+        "na": 11,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/processes/content/j4-1-vhl-point-of-care.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "process:Process_J41VhlFetch",
+      "counts": {
+        "pass": 29,
+        "fail": 7,
+        "na": 9,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/birth-clinic-system.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:birth-clinic-system",
+      "counts": {
+        "pass": 3,
+        "fail": 2,
+        "na": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/birth-clinic-vaccinator.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:birth-clinic-vaccinator",
+      "counts": {
+        "pass": 5,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/caregiver.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:caregiver",
+      "counts": {
+        "pass": 5,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/chw-app.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:chw-app",
+      "counts": {
+        "pass": 3,
+        "fail": 2,
+        "na": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/community-health-worker.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:community-health-worker",
+      "counts": {
+        "pass": 5,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/family-phone.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:family-phone",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/gdhcn-trust-anchor.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:gdhcn-trust-anchor",
+      "counts": {
+        "pass": 2,
+        "fail": 3,
+        "na": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/home-clinic-ehr.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:home-clinic-ehr",
+      "counts": {
+        "pass": 3,
+        "fail": 2,
+        "na": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/home-clinic-provider.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:home-clinic-provider",
+      "counts": {
+        "pass": 5,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/issuer-key.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:issuer-key",
+      "counts": {
+        "pass": 3,
+        "fail": 2,
+        "na": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/kg.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "graph:kg",
+      "counts": {
+        "pass": 9,
+        "fail": 1,
+        "na": 19,
+        "unknown": 5
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/national-portal.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:national-portal",
+      "counts": {
+        "pass": 3,
+        "fail": 2,
+        "na": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/poc-provider.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:poc-provider",
+      "counts": {
+        "pass": 5,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/poc-receiver.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:poc-receiver",
+      "counts": {
+        "pass": 3,
+        "fail": 2,
+        "na": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/scenarios/subject-of-care.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "role:subject-of-care",
+      "counts": {
+        "pass": 4,
+        "fail": 2,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/journeys/chw-refer.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "skill:chw-refer",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/journeys/chw-register-infant.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "skill:chw-register-infant",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/journeys/ehr-import-immunization.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "skill:ehr-import-immunization",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/journeys/map-vaccine-codes.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "skill:map-vaccine-codes",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/journeys/portal-assemble-records.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "skill:portal-assemble-records",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/journeys/portal-serve-manifest.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "skill:portal-serve-manifest",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/journeys/schedule-evaluate.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "skill:schedule-evaluate",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/journeys/wallet-hold-vhl.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "skill:wallet-hold-vhl",
+      "counts": {
+        "pass": 4,
+        "fail": 1,
+        "na": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/requirements/req%3Astd-acc-001.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "requirement:req:std-acc-001",
+      "counts": {
+        "pass": 1,
+        "fail": 2,
+        "na": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/requirements/req%3Astd-sch-001.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "requirement:req:std-sch-001",
+      "counts": {
+        "pass": 1,
+        "fail": 2,
+        "na": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/kg-qa/skills/requirements/req%3Astd-sem-001.kg-qa.json",
+      "schema": "kg-qa/v1",
+      "axis": "kg",
+      "subject": "requirement:req:std-sem-001",
+      "counts": {
+        "pass": 1,
+        "fail": 2,
+        "na": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "path": "smart-trust-demo/test/results/translation-qa/roundtrip.json",
+      "axis": "translations"
+    }
+  ]
+}
